@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+	<rdf:Description rdf:about="Class01">
+	<includes rdf:resource="Sensor029"/>
+	<includes rdf:resource="Computer101"/>
+	</rdf:Description>
+	
+    <rdf:Description rdf:about="Computer101">
+	<owner rdf:resource="User10A"/>
+    </rdf:Description>
+	
+    <rdf:Description rdf:about="User10A">
+	<name rdf:resource="Pedro"/>
+    </rdf:Description>
+	
+    <rdf:Description rdf:about="Sensor029">
+	<measurement rdf:resource="Measurement8401"/>
+    </rdf:Description>
+	
+    <rdf:Description rdf:about="Measurement8401">
+	<temperature rdf:resource="29"/>
+	<time rdf:datatype="xml:date">
+		2010-06-12T12:00:12 </time>
+    </rdf:Description>
+</rdf:RDF>
