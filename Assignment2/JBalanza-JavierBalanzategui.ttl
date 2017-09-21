@@ -9,7 +9,7 @@ ej:Sensor029
 ej:Computer101
 	ej:hasOwner ej:User10A .
 ej:Measurement8401
-	ej:hasTemperature "29"^^rdf:integer ;
-	ej:atTime "2010-06-12T12:00:12"^^xsd:date .
+	ej:hasTemperature "29"^^xsd:int ;
+	ej:atTime "2010-06-12T12:00:12"^^xsd:dateTime .
 ej:User10A
 	ej:hasName "Pedro" .
