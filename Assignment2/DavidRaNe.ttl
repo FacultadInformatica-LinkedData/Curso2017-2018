@@ -1,8 +1,12 @@
 @prefix C0: <Class01> .
-:Class01 includes :Sensor029 ;
-		 includes :Computer101 .
+
+C0: includes C0:Sensor029, C0:Computer101 .
+		 
 :Sensor029 hasMeasurement :Measurement8401 .
+
 :Computer101 hasOwner :User10A .
+
 :Measurement8401 hasTemperature "29" ;
 				 atTime "2010-06-12T12:00:12" .
+				 
 :User10A hasName "Pedro" .
