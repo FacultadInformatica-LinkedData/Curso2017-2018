@@ -12,7 +12,7 @@
 
 :Computer101			computer:hasOwner:User10A.
 
-:Measurement8401		Measurement:hasTemperature:"29";
-						eventDate "2010-06-12T 12:00:12".
+:Measurement8401		Measurement:hasTemperature:"29"^^xsd:integer;
+						eventDate "2010-06-12T 12:00:12"^^xsd:dateTime.
 
-:User10A				user:hasName:"Pedro".
+:User10A				user:hasName:"Pedro"^^<xsd:string>.
