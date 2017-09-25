@@ -2,14 +2,19 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix class: <http://example.org/class#> .
 
-<class:User10A> <property:hasName> "Pedro" .
+class:User10A 
+     property:hasName "Pedro" .
 
-<class:class01> <property:includes> <class:Computer101>,
-     <class:Sensor029> .
+class:class01 
+     property:includes class:Computer101,
+          class:Sensor029 .
 
-<class:Computer101> <property:hasOwner> <class01:User10A> .
+class:Computer101 
+     property:hasOwner class:User10A .
 
-<class:Measurement8401> <property:atTime> "2010-06-12T12:00:12"^^xsd:dateTime;
-   <property:hasTemperature> 29 .
+class:Measurement8401 
+     property:atTime "2010-06-12T12:00:12"^^xsd:dateTime;
+     property:hasTemperature 29 .
 
-<class:Sensor029> <property:hasMeasurement> <class:Measurement8401> .
+class:Sensor029 
+     property:hasMeasurement class:Measurement8401 .
