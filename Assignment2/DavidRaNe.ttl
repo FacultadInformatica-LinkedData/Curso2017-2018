@@ -8,6 +8,6 @@ px0:Sensor029 px0:hasMeasurement px0:Measurement8401 .
 px0:Computer101 px0:hasOwner px0:User10A .
 
 px0:Measurement8401 px0:hasTemperature "29" ;
-					px0:atTime "2010-06-12T12:00:12" .
+					px0:atTime "2010-06-12T12:00:12"^^xsd:dateTime .
 				 
 px0:User10A px0:hasName "Pedro" .
