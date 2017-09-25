@@ -1,5 +1,6 @@
 @prefix property: <http://example.org/property#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix class: <http://example.org/class#> .
 
 <class:User10A> <property:hasName> "Pedro" .
 
