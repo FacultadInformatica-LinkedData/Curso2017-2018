@@ -1,0 +1,14 @@
+@base <http://...../class/>
+@prefix class:<http://....../class#>
+@prefix person:<http://....../person#>
+@prefix sensor:<http://....../sensor#>
+@prefix computer:<http://....../computer#>
+@prefix measurement:<http://....../measurement#>
+		 
+:class01 class: include: sensor029;
+		 class: include: computer101;
+:sensor029 sensor: hasMeasurement: measurement8401;
+:computer101 computer: hasOwner: user10A;
+:measurement8401 measurement: hasTemperature: "29";
+				 measurement: atTime: "2010-06-12T12:00:12";
+:user10A user: hasName: "Pedro";

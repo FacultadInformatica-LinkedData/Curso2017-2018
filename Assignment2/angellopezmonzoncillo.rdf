@@ -1,0 +1,32 @@
+<?xml version="1.0">
+	<rdf: RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-sintax-ns#"
+			  xmlns:person="http://...../person#"
+			  xmlns:class="http://...../class#"
+			  xmlns:sensor="http://...../sensor#"
+			  xmlns:computer="http://...../computer#"
+			  xmlns:measurement="http://...../measurement#"
+			  xml:base="http://...../class#">
+		<rdf:property rdf:about="http://...../class#include"/>
+		<rdf:property rdf:about="http://...../sensor#hasMeasurement"/>
+		<rdf:property rdf:about="http://...../measurement#hasTemperature"/>
+		<rdf:property rdf:about="http://...../measurement#atTime"/>
+		<rdf:property rdf:about="http://...../computer#hasOwner"/>
+		<rdf:property rdf:about="http://...../person#hasName"/>
+		<rdf:description rdf:about="#class01">
+			<class:includes rdf:resource="#sensor029"/>
+			<class:includes rdf:resource="#computer101"/>
+		</rdf:description>
+		<rdf:description rdf:about="#sensro029">
+			<sensor:hasMeasurement rdf:resource="#measurement8401"/>
+		</rdf:description>		  
+		<rdf:description rdf:about="#computer101">
+			<computer:hasOwner rdf:resource="#user10A"/>
+		</rdf:description>
+		<rdf:description rdf:about="#measurement8401">
+			<measurement:hasTemperature>29</measurement:hasTemperature>
+			<measurement:atTime>2010-06-12T12:00:12</measurement:atTime>
+		</rdf:description>
+		<rdf:description rdf:about="#user10A">
+			<person:hasName>Pedro</person:hasName>
+		</rdf:description>
+	</rdf:RDF>
