@@ -1,0 +1,16 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix : <http://www.ontogrid.net/StickyNote#> .
+
+
+:Class01 dc:includes :Sensor029, :Computer101 .
+
+:Sensor029 dc:hasMeasurement :Measurement8401 .
+
+:Measurement8401
+    dc:hasTemperature "29" ;
+    dc:atTime "2010-06-12T12:00:12" .
+
+:Computer101 dc:hasOwner :User10A .
+
+:User10A dc:hasName "Pedro" .
+
