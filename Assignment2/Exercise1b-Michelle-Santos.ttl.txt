@@ -1,0 +1,18 @@
+@prefix e2: <http://www.ontogrid.net/Exercise2#> .
+
+ e2:Class01 
+	 e2:includes  e2:Sensor029 ,
+		      e2:Computer101 .
+
+ e2:Sensor029 
+	 e2:hasMeasurement  e2:Measurement8401 .
+
+ e2:Measurement8401 
+	 e2:hasTemperature "29" ;
+	 e2:atTime "2010-06-12T12:00:12" .
+
+ e2:Computer101 
+	 e2:hasOwner  e2:User10A .
+
+ e2:User10A 
+	 e2:hasName "Pedro" .
