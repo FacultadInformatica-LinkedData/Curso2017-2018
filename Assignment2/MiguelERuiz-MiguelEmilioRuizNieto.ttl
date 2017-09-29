@@ -1,16 +1,16 @@
-@prefix dc: <http://purl.org/dc/elements/1.1/> .
-@prefix : <http://www.ontogrid.net/StickyNote#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ns: <http://www.ontogrid.net/StickyNote#> .
 
 
-:Class01 dc:includes :Sensor029, :Computer101 .
+ns:Class01 ns:includes ns:Sensor029, ns:Computer101 .
 
-:Sensor029 dc:hasMeasurement :Measurement8401 .
+ns:Sensor029 ns:hasMeasurement ns:Measurement8401 .
 
-:Measurement8401
-    dc:hasTemperature "29" ;
-    dc:atTime "2010-06-12T12:00:12" .
+ns:Measurement8401
+    ns:hasTemperature "29"^^xsd:int ;
+    ns:atTime "2010-06-12T12:00:12"^^xsd:dateTime .
 
-:Computer101 dc:hasOwner :User10A .
+ns:Computer101 ns:hasOwner ns:User10A .
 
-:User10A dc:hasName "Pedro" .
+ns:User10A ns:hasName "Pedro" .
 
