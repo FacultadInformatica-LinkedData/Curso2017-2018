@@ -22,7 +22,7 @@
 		<sensor:hasMeasurement rdf:resource="#Mesurement8401"></hasMeasurement>
 	</rdf:Description>
 	<rdf:Description rdf:about="http://www.ontogrid.net/Assigment2/Mesurement#Measurement8401">
-		<measurement:hasTemperature rdf:datatype="http://www.w3.org/2001/XMLSchema#intger>29</hasTemperature>
+		<measurement:hasTemperature rdf:datatype="http://www.w3.org/2001/XMLSchema#intger">29</hasTemperature>
 		<measurement:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTimeStamp">2010-06-12T12:00:12</atTime>
 	</rdf:Description>
 	
@@ -31,6 +31,6 @@
 	</rdf:Description>
 	
 	<rdf:Description rdf:about="http://www.ontogrid.net/Assigment2/User#User10A">
-		<user:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string>Pedro</hasName>
+		<user:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pedro</hasName>
 	</rdf:Description>
 </rdf:RDF>
