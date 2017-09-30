@@ -1,0 +1,15 @@
+@prefix ej: <http://ejemplo.fi.upm.es/rdf/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+ej:Class01
+	ej:includes ej:Sensor029, ej:Computer101 .
+ej:Sensor029
+	ej:hasMeasurement ej:Measurement8401 .
+ej:Computer101
+	ej:hasOwner ej:User10A .
+ej:Measurement8401
+	ej:hasTemperature "29"^^xsd:int ;
+	ej:atTime "2010-06-12T12:00:12"^^xsd:dateTime .
+ej:User10A
+	ej:hasName "Pedro" .
