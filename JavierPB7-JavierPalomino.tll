@@ -1,0 +1,14 @@
+@prefix event: <http://www.ontogrid.net/StickyNote#> .
+@prefix relat: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.ontogrid.net/StickyNote#event3>
+  event:involves event:PinarAlper, event:CaroleGoble ;
+  event:eventDate "2006-05-15"^^relat:date .
+
+event:event4
+  event:involves event:OscarCorcho ;
+  event:eventDate "2006-05-16"^^relat:date .
+
+event:event5
+  event:involves event:CaroleGoble ;
+event:eventDate "2006-05-15"^^relat:date .
