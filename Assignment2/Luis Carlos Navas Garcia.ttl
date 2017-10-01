@@ -1,18 +1,11 @@
-{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf830
-{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+@prefix ns0: <http://www.fi.upm.es/#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-\f0\fs24 \cf0 @prefix ns0: <http://www.fi.upm.es/#> .\
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\
-\
-<class:Class01> ns0:includes <class:Sensor029>, <class:Computer101> .\
-<class:Sensor029> ns0:hasMeasurement <class:Measurement8401> .\
-<class:Computer101> ns0:hasOwner <class:User10A> .\
-<class:Measurement8401>\
-  ns0:hasTemperature "29" ;\
-  ns0:atTime "2010-06-12T12:00:12"^^xsd:dateTime .\
-\
-<class:User10A> ns0:hasName "Pedro" .}
+<class:Class01> ns0:includes <class:Sensor029>, <class:Computer101> .
+<class:Sensor029> ns0:hasMeasurement <class:Measurement8401> .
+<class:Computer101> ns0:hasOwner <class:User10A> .
+<class:Measurement8401>
+  ns0:hasTemperature "29" ;
+  ns0:atTime "2010-06-12T12:00:12"^^xsd:dateTime .
+
+<class:User10A> ns0:hasName "Pedro" .
