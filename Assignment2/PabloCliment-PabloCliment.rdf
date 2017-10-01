@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:ns0="http://example.org/property#">
+
+  <rdf:Description rdf:about="http://example.org/class#User10A">
+    <ns0:hasName>Pedro</ns0:hasName>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.org/class#class01">
+    <ns0:includes>
+      <rdf:Description rdf:about="http://example.org/class#Computer101">
+        <ns0:hasOwner rdf:resource="http://example.org/class#User10A"/>
+      </rdf:Description>
+    </ns0:includes>
+
+    <ns0:includes>
+      <rdf:Description rdf:about="http://example.org/class#Sensor029">
+        <ns0:hasMeasurement>
+          <rdf:Description rdf:about="http://example.org/class#Measurement8401">
+            <ns0:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-06-12T12:00:12</ns0:atTime>
+            <ns0:hasTemperature rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29</ns0:hasTemperature>
+          </rdf:Description>
+        </ns0:hasMeasurement>
+
+      </rdf:Description>
+    </ns0:includes>
+
+  </rdf:Description>
+
+</rdf:RDF>
