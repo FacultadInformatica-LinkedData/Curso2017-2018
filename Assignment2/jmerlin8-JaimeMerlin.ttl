@@ -8,8 +8,8 @@
 :Class01          class:includes :Sensor029;
                   class:includes :Computer101.
 
-:Measurement8401  measurement:hasTemperature :"29"^^xsd:int;
-                  measurement:atTime :"2010-06-12T 12:00:12"^^xsd:dateTime..
+:Measurement8401  measurement:hasTemperature "29"^^xsd:int;
+                  measurement:atTime "2010-06-12T 12:00:12"^^xsd:dateTime.
 		
 
 :Computer101      computer:hasOwner :User10A.
@@ -17,4 +17,4 @@
 		  
 :Sensor029        sensor:hasMeasurement :Measurement8401.
 
-:User10A          user:hasName :"Pedro"^^xsd:string..
+:User10A          user:hasName "Pedro"^^xsd:string.
