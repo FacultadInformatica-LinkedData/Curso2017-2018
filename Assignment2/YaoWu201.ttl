@@ -1,0 +1,15 @@
+@prefix dir: <http://www.exercise.net/ex1b>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+dir:Class01
+	dir:includes dir:Sensor029;
+	dir:includes dir:Computer101.
+dir:Sensor029
+	dir:hasMeasurement dir:Measurement8401.
+dir:Computer101
+	dir:hasOwner dir:User10A.
+dir:Measurement8401
+	dir:hasTemperature "29"^^xsd:int;
+	dir:atTime "2010-06-12T12:00:12"^^xsd:dataTime.
+dir:User10A
+	dir:hasName "Pedro"^^xsd:string.
