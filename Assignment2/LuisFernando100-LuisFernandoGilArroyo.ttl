@@ -1,9 +1,10 @@
-@base <>
-@prefix vocab: <>
-:Class01	vocab:includes :Sensor029 ;
-			vocab:includes :Computer101 .
-:Sensor029	vocab:hasMeasurement :Measurement8401 .
-:Measurement8401	vocab:hasTemperature "29" ;
-					vocab:atTime "2010-06-12T12:00:12" .
-:Computer101	vocab:hasOwner :User10A .
-:User10A	vocab:hasName "Pedro" .
+@prefix ns: <http://www.ontogrid.net/StickyNote#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns:Class01	ns:includes ns:Sensor029 ;
+			ns:includes ns:Computer101 .
+ns:Sensor029	ns:hasMeasurement ns:Measurement8401 .
+ns:Measurement8401	ns:hasTemperature "29"^^xsd:integer ;
+					ns:atTime "2010-06-12T12:00:12"^^xsd:dateTime .
+ns:Computer101	ns:hasOwner ns:User10A .
+ns:User10A	ns:hasName "Pedro"^^xsd:string .
