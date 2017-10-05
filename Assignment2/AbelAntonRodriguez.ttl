@@ -1,0 +1,21 @@
+@prefix class:<http://www.ontogrid.net/Assigment2/Class#>
+@prefix measurement:<http://www.ontogrid.net/Assigment2/Mesurement#>
+@prefix computer:<http://www.ontogrid.net/Assigment2/Computer#>
+@prefix sensor:<http://www.ontogrid.net/Assigment2/Sensor#>
+@prefix user:<http://www.ontogrid.net/Assigment2/User#>
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+
+class:Class01 
+	class:includes computer:Computer101.
+		class:includes sensor:Sensor029;
+sensor:Sensor029 
+	sensor:hasMeasurement measurement:Mesurement8401.
+
+measurement:Mesurement8401 
+	measurement:hasTemperature "29"^^xsd:integer; 
+	measurement:atTime "2010-06-12T12:00:12"^^xsd:dateTimeStamp.
+computer:Computer101 
+	computer:hasOwner user:User10A.
+
+user:User10A 
+	user:hasName "Pedro"^^xsd:string.
