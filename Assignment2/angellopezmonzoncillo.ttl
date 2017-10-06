@@ -1,9 +1,9 @@
 @base <http://...../class/>
-@prefix class:<http://....../class#>
-@prefix person:<http://....../person#>
-@prefix sensor:<http://....../sensor#>
-@prefix computer:<http://....../computer#>
-@prefix measurement:<http://....../measurement#>
+@prefix class:<http://www.ontologies.org/ontologies/class#>
+@prefix person:<http://www.ontologies.org/ontologies/person#>
+@prefix sensor:<http://www.ontologies.org/ontologies/sensor#>
+@prefix computer:<http://www.ontologies.org/ontologies/computer#>
+@prefix measurement:<http://www.ontologies.org/ontologies/measurement#>
 		 
 :class01 class: include: sensor029;
 		 class: include: computer101;
