@@ -15,11 +15,14 @@ Installing Jena
 
 * In Eclipse, using Java 8: Build Path -> Configure Build Path... -> Add external JARs (Add Jena lib folder)
 
+Once you have configured your environment using either way, you can test it by running the Task00 class.
+
 Check the Jena documentation to start learning about the API:
 
 * Getting started with Apache Jena [https://jena.apache.org/getting_started/](https://jena.apache.org/getting_started/)
 
 * Jena documentation overview (Javadoc)[http://jena.apache.org/documentation/](http://jena.apache.org/documentation/)
+
 
 
 
