@@ -1,0 +1,71 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix tto: <http://example.org/tuto/ontology#> .
+@prefix ttr: <http://example.org/tuto/resource#> .
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - 
+# Classes
+# - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+tto:Creature
+	rdf:type rdfs:Class;
+	rdfs:label "creature"^^xsd:string;
+	rdfs:isDefinedBy tto: . 
+
+dbo:Person
+	rdfs:subClassOf tto:Creature .
+
+tto:Animal
+	rdf:type rdfs:Class;
+	rdfs:label "animal"^^xsd:string;
+	rdfs:subClassOf tto:Creature ;
+	rdfs:isDefinedBy tto: . 
+
+tto:Cat
+	rdf:type rdfs:Class;
+	rdfs:label "cat"^^xsd:string;
+	rdfs:subClassOf tto:Animal ;
+	rdfs:isDefinedBy tto: . 
+
+tto:Dog
+	rdf:type rdfs:Class;
+	rdfs:label "dog"^^xsd:string;
+	rdfs:subClassOf tto:Animal ;
+	rdfs:isDefinedBy tto: . 
+
+tto:Monkey
+	rdf:type rdfs:Class;
+	rdfs:label "monkey"^^xsd:string;
+	rdfs:subClassOf tto:Animal ;
+	rdfs:isDefinedBy tto: . 
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - 
+# Properties
+# - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+tto:sex
+	rdf:type rdf:Property;
+	rdfs:label "sex"^^xsd:string;
+	rdfs:domain tto:Creature ;
+	rdfs:range xsd:string ;
+	rdfs:isDefinedBy tto: . 
+
+tto:pet 
+	rdf:type rdf:Property;
+	rdfs:label "domestic animal"^^xsd:string;
+	rdfs:domain dbo:Person ;
+	rdfs:range tto:Animal ;
+	rdfs:isDefinedBy tto: . 
+
+tto:weight 
+	rdf:type rdf:Property;
+	rdfs:label "weight"^^xsd:string;
+	rdfs:comment "weight in kilograms"^^xsd:string;
+	rdfs:domain tto:Creature ;
+	rdfs:range xsd:decimal ;
+	rdfs:isDefinedBy tto: . 
+

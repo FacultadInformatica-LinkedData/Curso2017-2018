@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:ns0="http://exercise.fi.upm.es/rdf/">
+
+  <rdf:Description rdf:about="http://exercise.fi.upm.es/rdf/Class01">
+    <ns0:includes>
+      <rdf:Description rdf:about="http://exercise.fi.upm.es/rdf/Sensor029">
+        <ns0:hasMeasurement>
+          <rdf:Description rdf:about="http://exercise.fi.upm.es/rdf/Measurement8401">
+            <ns0:hasTemperature rdf:datatype="http://www.w3.org/2001/XMLSchema#int">29</ns0:hasTemperature>
+            <ns0:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-06-12T12:00:12</ns0:atTime>
+          </rdf:Description>
+        </ns0:hasMeasurement>
+
+      </rdf:Description>
+    </ns0:includes>
+
+    <ns0:includes>
+      <rdf:Description rdf:about="http://exercise.fi.upm.es/rdf/Computer101">
+        <ns0:hasOwner>
+          <rdf:Description rdf:about="http://exercise.fi.upm.es/rdf/User10A">
+            <ns0:hasName>Pedro</ns0:hasName>
+          </rdf:Description>
+        </ns0:hasOwner>
+
+      </rdf:Description>
+    </ns0:includes>
+
+  </rdf:Description>
+
+</rdf:RDF>

@@ -1,0 +1,19 @@
+@prefix class: <http://assignment2.fi.upm.es/rdf/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+
+class:Class01
+	  class:includes	class:Sensor029, class:Computer101.
+                    
+class:Sensor029
+	  class:hasMeasurement	class:Measurement8401.
+    
+class:Computer101
+	  class:hasOwner	class:User10A.
+	  
+class:Measurement8401
+        class:hasTemperature "29"^^xsd:int;
+        class:atTime "2010-06-12T12:00:12"^^xsd:dateTime.
+    
+class:User10A
+	  class:hasName "Pedro".
