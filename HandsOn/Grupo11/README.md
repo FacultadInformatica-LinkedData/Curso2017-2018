@@ -6,30 +6,30 @@
 
 **Nombre:** Luis Fernando Gil Arroyo **(Lider)**
 
-**Usuario:** @LuisFernando100
+**Usuario:** LuisFernando100
 
 -
 
-**Nombre:** 
+**Nombre:** Cesar Jordy Arrese
 
-**Usuario:**
-
--
-
-**Nombre:** 
-
-**Usuario:**
+**Usuario:** jordyxt
 
 -
 
-**Nombre:** 
+**Nombre:** Jose Maria Rodriguez Otero
 
-**Usuario:**
+**Usuario:** YotSP
 
 -
 
-**Nombre:** 
+**Nombre:** Mayra Elizabeth Rivas Suasnavas
 
-**Usuario:**
+**Usuario:** Mayra22
+
+-
+
+**Nombre:** Sandra Gonzalez Gonzalez
+
+**Usuario:** SandraGGo
 
 -
