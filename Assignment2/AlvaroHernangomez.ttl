@@ -1,0 +1,16 @@
+@prefix tr: <http://www.ejercicioturtle.net/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+:Class01 tr:includes:Sensor029;
+		 tr:includes:Computer101.
+
+:Sensor029 tr:hasMeasurement:Measurement8401.
+
+:Computer101 tr:hasOwner:User10A.
+
+:Measurement8401 tr:hasTemperature:"29"^^xsd:int;
+				 tr:atTime:"2010-06-12T12:00:12"^^xsd:dateTime.
+				 
+:User10A tr:hasName:"Pedro"^^xsd:string.

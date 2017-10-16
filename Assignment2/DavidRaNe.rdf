@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xml:base="http://www.ontogrid.net/1b#" 
+		 xmlns="http://www.ontogrid.net/1b#" 
+		 xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<rdf:Description rdf:about="Class01">
+	<includes rdf:resource="Sensor029"/>
+	<includes rdf:resource="Computer101"/>
+	</rdf:Description>
+	
+    <rdf:Description rdf:about="Computer101">
+	<owner rdf:resource="User10A"/>
+    </rdf:Description>
+	
+    <rdf:Description rdf:about="User10A">
+	<name rdf:resource="Pedro"/>
+    </rdf:Description>
+	
+    <rdf:Description rdf:about="Sensor029">
+	<measurement rdf:resource="Measurement8401"/>
+    </rdf:Description>
+	
+    <rdf:Description rdf:about="Measurement8401">
+	<temperature rdf:resource="29"/>
+	<time rdf:datatype="xsd:dateTime">
+		2010-06-12T12:00:12 </time>
+    </rdf:Description>
+</rdf:RDF>
