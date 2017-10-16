@@ -1,4 +1,4 @@
-NOMBRE Y APELLIDOS: Gonzalo Solís Rodríguez
+﻿NOMBRE Y APELLIDOS: Gonzalo Solís Rodríguez
 USUARIO GITHUB: Tokalevo
 
 NOMBRE Y APELLIDOS: Carlos Navas López
