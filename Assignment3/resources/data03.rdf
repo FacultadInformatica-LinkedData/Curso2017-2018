@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY example5 "http://data.one.org#" >
+    <!ENTITY foaf "http://xmlns.com/foaf/0.1/" >
+    <!ENTITY vcard-rdf "http://www.w3.org/2001/vcard-rdf/3.0#" >
+]>
+
+
+<rdf:RDF xmlns="http://data.three.org#"
+     xml:base="http://data.three.org"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:vcard-rdf="http://www.w3.org/2001/vcard-rdf/3.0#">
+  
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+	 
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/vcard-rdf/3.0/FN">
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </rdfs:Datatype>
+    
+    <rdfs:Property rdf:about="http://www.w3.org/2001/vcard-rdf/3.0/Family">
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </rdfs:Property>
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/vcard-rdf/3.0/Given">
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </rdfs:Datatype>
+ 
+ 
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+    <rdfs:Class rdf:about="#Person"/>
+    
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <Person rdf:about="#SaraJones">
+        <vcard-rdf:Given rdf:datatype="&xsd;string">Sara</vcard-rdf:Given>
+        <vcard-rdf:FN rdf:datatype="&xsd;string">Sara Jones</vcard-rdf:FN>
+        <vcard-rdf:Family rdf:datatype="&xsd;string">Jones</vcard-rdf:Family>
+    </Person>
+    
+
+    <Person rdf:about="#JohnSmith">
+        <vcard-rdf:Given rdf:datatype="&xsd;string">John</vcard-rdf:Given>
+        <vcard-rdf:FN rdf:datatype="&xsd;string">John Smith</vcard-rdf:FN>
+        <vcard-rdf:Family rdf:datatype="&xsd;string">Smith</vcard-rdf:Family>
+    </Person>
+    
+    <Person rdf:about="#JohnDoe">
+        <vcard-rdf:Given rdf:datatype="&xsd;string">John</vcard-rdf:Given>
+        <vcard-rdf:FN rdf:datatype="&xsd;string">John Doe</vcard-rdf:FN>
+        <vcard-rdf:Family rdf:datatype="&xsd;string">Doe</vcard-rdf:Family>
+    </Person>
+    
+
+    <Person rdf:about="#HarryPotter">
+        <vcard-rdf:Given rdf:datatype="&xsd;string">Harry</vcard-rdf:Given>
+        <vcard-rdf:FN rdf:datatype="&xsd;string">Harry Potter</vcard-rdf:FN>
+    </Person>
+    
+
+</rdf:RDF>
+
+

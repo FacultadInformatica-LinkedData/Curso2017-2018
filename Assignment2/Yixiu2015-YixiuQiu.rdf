@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+		xmlns:class="http://www.ontogrid.net/Assigment2/Class#"
+		xmlns:sensor="http://www.ontogrid.net/Assigment2/Sensor#"
+		xmlns:measurement="http://www.ontogrid.net/Assigment2/Mesurement#"
+		xmlns:computer="http://www.ontogrid.net/Assigment2/Computer#"
+		xmlns:user="http://www.ontogrid.net/Assigment2/User#"
+		xmlns:base="http://www.ontogrid.net/Assigment2/Class">
+		
+	<rdf:Property rdf:about="http://www.ontogrid.net/Assigment2/Class#includes"/>
+	<rdf:Property rdf:about="http://www.ontogrid.net/Assigment2/Sensor#hasMeasurement"/>
+	<rdf:Property rdf:about="http://www.ontogrid.net/Assigment2/Mesurement#hasTemperature"/>
+	<rdf:Property rdf:about="http://www.ontogrid.net/Assigment2/Mesurement#atTime"/>
+	<rdf:Property rdf:about="http://www.ontogrid.net/Assigment2/Computer#hasOwner"/>
+	<rdf:Property rdf:about="http://www.ontogrid.net/Assigment2/User#hasName"/>
+	
+	<rdf:Description rdf:about="#Class01">
+		<class:includes rdf:resource="http://www.ontogrid.net/Assigment2/Sensor#Sensor029"></includes>
+		<class:includes rdf:resource="http://www.ontogrid.net/Assigment2/Computer#Computer101"></includes>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.ontogrid.net/Assigment2/Sensor#Sensor029">
+		<sensor:hasMeasurement rdf:resource="#Mesurement8401"></hasMeasurement>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://www.ontogrid.net/Assigment2/Mesurement#Measurement8401">
+		<measurement:hasTemperature rdf:datatype="http://www.w3.org/2001/XMLSchema#intger">29</hasTemperature>
+		<measurement:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTimeStamp">2010-06-12T12:00:12</atTime>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://www.ontogrid.net/Assigment2/Computer#Computer101">
+		<computer:hasOwner rdf:resource="#User10A"></hasOwner>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://www.ontogrid.net/Assigment2/User#User10A">
+		<user:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pedro</hasName>
+	</rdf:Description>
+</rdf:RDF>
