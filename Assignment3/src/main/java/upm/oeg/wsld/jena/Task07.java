@@ -56,11 +56,23 @@ public class Task07
 			System.out.println("Subclass of Person: "+subclass.getURI());
 		}
 		
-
-		
-		
 		// ** TASK 7.3: Make the necessary changes to get as well indirect instances and subclasses. TIP: you need some inference... **
-		
+		ExtendedIterator<OntClass> listSubclass = person.listSubClasses();
+		ExtendedIterator<Individual> listInstances;
+
+		//Imprimiremos las subclases y las instancias de cada subclase
+		while (listSubclass.hasNext()){
+	        OntClass classes = (OntClass) listSubclass.next();
+	        listInstances = (ExtendedIterator<Individual>) classes.listInstances();
+	        System.out.println("Instances: "+ classes.getURI());
+	   		
+	   		
+	   		while(listInstances.hasNext()){
+	   			System.out.println("Instances: "+ listInstances.next().getURI());
+	   		}
+
+			
+		}
 	
 	}
 }
