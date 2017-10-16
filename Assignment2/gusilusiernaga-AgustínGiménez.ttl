@@ -1,0 +1,20 @@
+@base <http://www.ejemplo.com/Assig2#/>
+@prefix as: <http://www.ejemploasig2.com/>
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:Class01
+	as:includes :Raul ;
+	as:includes :Computer101 .
+
+:Sensor029
+	as:hasMeasurement :Measurement8401 .
+	
+:Measurement8401
+	as:hasTemperature "29"^^xsd:int ;
+	as:atTime "2010-06-12T12:00:12"^^xsd:dateTime .
+	
+:Computer101
+	as:hasOwner :User10A .
+	
+:User10A
+	as:hasName "Pedro"^^xsd:string .
