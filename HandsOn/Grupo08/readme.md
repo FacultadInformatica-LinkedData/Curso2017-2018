@@ -1,5 +1,0 @@
-+1.-Javier Garcia Menéndez. Github: javig13
- +2.-Francisco Jose de la Higuera Rodiguez-Madridejos.  Github:Hiro-xyz
- +3.-Guillermo Paredes López.  Github: mordisquitos42
- +4.-Jorge Forcada Sanz. Github: Forcada
- +5.-Adrian Gil Lobete. Github: LaiKash
