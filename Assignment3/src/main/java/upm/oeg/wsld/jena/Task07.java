@@ -25,7 +25,7 @@ public class Task07
 		String filename = "resources/example6.rdf";
 		
 		// Create an empty model
-		OntModel model = ModelFactory.createOntologyModel(OntModelSpec.RDFS_MEM_RDFS_INF);
+		OntModel model = ModelFactory.createOntologyModel(OntModelSpec.RDFS_MEM);
 		
 		// Use the FileManager to find the input file
 		InputStream in = FileManager.get().open(filename);
