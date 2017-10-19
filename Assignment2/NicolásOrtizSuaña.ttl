@@ -1,18 +1,11 @@
-@base <http://www.oeg-upm.net/ontologies/class/ >
-@prefix class: <http://www.ontologies.org/ontologies/class#>
-@prefix computer: <http://www.ontologies.org/ontologies/computer#>
-@prefix user: <http://www.ontologies.org/ontologies/user#>
-@prefix sensor: <http://www.ontologies.org/ontologies/sensor#>
-@prefix measurement: <http://www.ontologies.org/ontologies/measurement#>
+@prefix sn: <http://www.ontogrid.net/StickyNote#> .
+@prefix xm: <http://www.w3.org/2001/XMLSchema#> .
 
-:Class01          class:includes :Sensor029;
-                  class:includes :Computer101.
+<http://www.ontogrid.net/StickyNote#Class01> sn:involves sn:Sensor029, sn:Computer101 .
+sn:Sensor029 sn:hasMeasurement sn:Measurement8401 .
+sn:Measurement8401
+  sn:hasTemperature 29.0 ;
+  sn:atTime "2010-06-12T12:00:12"^^xm:dateTime .
 
-:Measurement8401  measurement:hasTemperature :"29";
-                  measurement:atTime :"2010-06-12T 12:00:12".
-				  
-:Sensor029        sensor:hasMeasurement :Measurement8401.
-
-:User10A          user:hasName :"Pedro".
-
-:Computer101      computer:hasOwner :User10A.
+sn:Computer101 sn:hasOwner sn:User10A .
+sn:User10A sn:hasOwner "Pedro"^^xm:string .
