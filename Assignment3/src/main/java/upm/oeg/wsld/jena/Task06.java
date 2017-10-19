@@ -54,12 +54,12 @@ public class Task06
 		Property worksIn = model.createProperty(ns + "worksIn");		
 		
 		// ** TASK 6.4: Create a new individual of Researcher named "Jane Smith" **
-		Individual researcher_individual = model.createIndividual(ns + "Jane Smith", researcher);	
+		Individual jane = model.createIndividual(ns + "Jane Smith", researcher);	
 		
 		// ** TASK 6.5: Add to the individual JaneSmith the fullName, given and family names **
-		researcher_individual.addLiteral(VCARD.FN, "Jane Smith");
-		researcher_individual.addLiteral(VCARD.Given, "Jane");
-		researcher_individual.addLiteral(VCARD.Family, "Smith");
+		jane.addLiteral(VCARD.FN, "Jane Smith");
+		jane.addLiteral(VCARD.Given, "Jane");
+		jane.addLiteral(VCARD.Family, "Smith");
 		
 		// ** TASK 6.6: Add UPM as the university where John Smith works **
 		Individual johnSmith = model.getIndividual(ns + "JohnSmith");
