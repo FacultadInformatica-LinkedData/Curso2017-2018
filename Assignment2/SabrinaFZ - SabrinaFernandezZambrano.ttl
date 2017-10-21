@@ -1,0 +1,14 @@
+@prefix ns0: <http://www.ontogrid.net/StickyNote#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.ontogrid.net/StickyNote#event3>
+  ns0:involves ns0:PinarAlper, ns0:CaroleGoble ;
+  ns0:eventDate "2006-05-15"^^xsd:date .
+
+ns0:event4
+  ns0:involves ns0:OscarCorcho ;
+  ns0:eventDate "2006-05-16"^^xsd:date .
+
+ns0:event5
+  ns0:involves ns0:CaroleGoble ;
+  ns0:eventDate "2006-05-15"^^xsd:date .
