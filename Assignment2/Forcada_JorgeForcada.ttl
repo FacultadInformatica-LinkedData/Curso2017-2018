@@ -1,0 +1,13 @@
+@prefix as: <http://www.ontogrid.net/Assignament2#> .
+
+as:Class01 as:includes :Sensor029;
+                       :Computer101 .
+
+as:Computer101 as:hasOwner :User10A .
+
+as:Measurement8401 as:atTime "2010-06-12T12:00:12"^^xsd:dateTime;
+                   as:hasTemperature "29"^^xsd:int .
+
+as:Sensor029 as:hasMeasurement :Measurement8401 .
+
+as:User10A as:hasName "Pedro"^^xsd:string .

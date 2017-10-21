@@ -1,0 +1,15 @@
+@base <http://www.base-example.com/assignement2/>
+@prefix ej: <http://www.ejemplo.com/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:Class01		ej:includes :Raul ;
+			ej:includes :Computer101 .
+
+:Sensor029		ej:hasMeasurement :Measurement8401 .
+
+:Measurement8401 	ej:hasTemperature "29"^^xsd:int ;
+		 	ej:atTime "2010-06-12T12:00:12"^^xsd:dateTime .
+	
+:Computer101		ej:hasOwner :User10A .
+
+:User10A 		ej:hasName "Pedro"^^xsd:string .
