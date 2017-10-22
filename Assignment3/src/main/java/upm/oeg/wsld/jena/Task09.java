@@ -2,6 +2,7 @@ package upm.oeg.wsld.jena;
 
 import java.io.InputStream;
 
+import org.apache.jena.base.Sys;
 import org.apache.jena.ontology.Individual;
 import org.apache.jena.ontology.OntClass;
 import org.apache.jena.ontology.OntModel;
@@ -19,6 +20,7 @@ import org.apache.jena.rdf.model.Resource;
 import org.apache.jena.rdf.model.Statement;
 import org.apache.jena.rdf.model.StmtIterator;
 import org.apache.jena.util.FileManager;
+import org.apache.jena.util.iterator.ExtendedIterator;
 import org.apache.jena.vocabulary.OWL;
 import org.apache.jena.vocabulary.VCARD;
 
@@ -60,6 +62,33 @@ public class Task09
 		// ** You can assume that all individuals have both properties filled **
 		// ** Be aware that in both datasets the URIs are different. You can use either iterators or SPARQL (or both...) **
 		// ** As a result, modelSameAs should contain the linking triples <r1, owl:sameAs, r2>  **
-		
+
+
+		ExtendedIterator it1 = model3.listIndividuals();
+
+
+		while(it1.hasNext()) {
+			Individual ind1 = (Individual) it1.next();
+			ExtendedIterator it2 =  model4.listIndividuals();
+			Statement item1 = ind1.getProperty(VCARD.Family);
+			Statement item3 = ind1.getProperty(VCARD.Given);
+			if (item1!=null){
+				while(it2.hasNext()) {
+					Individual ind2  = (Individual) it2.next();
+					Statement item2 = ind2.getProperty(VCARD.Family);
+					Statement item4 = ind1.getProperty(VCARD.Given);
+					//System.out.println("1" + item1.getObject().toString());
+					//System.out.println("2" + item2.getObject().toString());
+					if (item1.getObject().equals(item2.getObject()) && item3.getObject().equals(item4.getObject())) {
+						// Son iguales
+						Resource res = modelSameAs.createResource(ind1.asResource());
+						res.addProperty(OWL.sameAs, ind2.asResource());
+					}
+				}
+			}
+
+
+
+		}
 	}
 }
