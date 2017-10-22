@@ -1,0 +1,17 @@
+@base <http://www.assignment2.net/Exercise/>
+@prefix vocab: <http://www.assignment2.net/Exercise#>
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+:Class01 vocab:includes:Sensor029;
+	 vocab:includes:Computer101.
+
+:Computer101 vocab:hasOwner:User10A.
+
+:User10A vocab:hasName:"Pedro"^^xsd:string.
+
+:Sensor029 vocab:hasMeasurement:Measurement8401.
+
+
+:Measurement8401 vocab:hasTemperature "29"^^xsd:integer;
+		 vocab:atTime "2010-06-12T12:00:12"^^xsd:dateTime.
