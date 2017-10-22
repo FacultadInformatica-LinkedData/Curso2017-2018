@@ -24,12 +24,25 @@ public class Task05
 		
 		// ** TASK 5.1: Read the ontology from the given file **
 		// Use the FileManager to find the input file
+
 		
 	
 		// Read the RDF/XML file
 		
 		
 		// ** TASK 5.2: Write the ontology **
+
+		InputStream in = FileManager.get().open(filename);
+	
+		if (in == null)
+			throw new IllegalArgumentException("File: "+filename+" not found");
+	
+		// Read the RDF/XML file
+		model.read(in, null);
+		
+		// ** TASK 5.2: Write the ontology **
+		model.write(System.out, "RDF/XML-ABBREV");
+
 		
 	}
 }

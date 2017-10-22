@@ -5,7 +5,6 @@ import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.rdf.model.Resource;
 
 
-
 /**
  * Task 02: Managing statements
  * @author elozano
