@@ -9,7 +9,6 @@ import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.util.FileManager;
 import org.apache.jena.util.iterator.ExtendedIterator;
 
-
 public class Task07{
 	public static String ns = "http://somewhere#";
 	
