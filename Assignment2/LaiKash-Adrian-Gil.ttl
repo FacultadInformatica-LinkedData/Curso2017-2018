@@ -1,0 +1,15 @@
+@prefix sn: <http://www.assignment2.net/exercises/ex1a/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+sn:Class01
+	sn:includes  ns:Sensor029;
+	sn:includes  ns:Computer101.
+sn:Sensor029
+	sn:hasMeasurement  ns:Measurement8401.
+sn:Computer101
+	sn:hasOwner  ns:User10A.
+sn:Measurement8401
+	sn:hasTemperature "29"^^xsd:int;
+	sn:atTime "2010-06-12T12:00:12"^^xsd:dateTime.
+sn:User10A
+	sn:hasName "Pedro"^^xsd:string.
