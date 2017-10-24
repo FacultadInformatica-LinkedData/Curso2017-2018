@@ -4,9 +4,13 @@ import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.rdf.model.Property;
 import org.apache.jena.rdf.model.Resource;
+<<<<<<< HEAD
+import org.apache.jena.vocabulary.VCARD;
+=======
 import org.apache.jena.sparql.vocabulary.FOAF;
 import org.apache.jena.vocabulary.VCARD;
 
+>>>>>>> upstream/master
 
 
 /**
@@ -35,6 +39,18 @@ public class Task02
 		Resource johnSmith = model.createResource(johnURI);
 
 		// Add to johnSmith the datatype property full name (from the VCARD vocabulary)
+<<<<<<< HEAD
+		johnSmith.addProperty(VCARD.FN, fullName);
+		
+		// ** TASK 2.2: Create a new resource for Jane Smith, specifying her full name and email **
+		Resource janeSmith = model.createResource(ns+"Jane Smith");
+		janeSmith.addLiteral(VCARD.FN, "Jane Smith");
+		janeSmith.addLiteral(VCARD.FN, "jane_smith@email.com");
+
+		// ** TASK 2.3: Add Jane as a person who John knows through an object property from the FOAF vocabulary**
+		Property knows = model.createProperty(foafNS+"knows");
+		johnSmith.addProperty(knows, janeSmith);
+=======
 		Property vcardfn = model.createProperty("http://www.w3.org/2001/vcard-rdf/3.0#FN");
 		johnSmith.addLiteral(vcardfn, fullName);
 		
@@ -50,6 +66,7 @@ public class Task02
 //				johnSmith.addProperty(knows, janeSmith);
 		
 		johnSmith.addProperty(FOAF.knows, janeSmith);
+>>>>>>> upstream/master
 		
 		model.write(System.out, "RDF/XML-ABBREV");
 	}

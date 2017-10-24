@@ -53,6 +53,33 @@ public class Task03
 		}
 		
 		// ** TASK 3.1: List all the resources with the property "vcard:FN" and their full names **
+<<<<<<< HEAD
+		StmtIterator sIter = model.listStatements(null, VCARD.FN, (RDFNode) null);
+
+		while(sIter.hasNext()){
+			Statement st = sIter.next();
+			Resource r = st.getSubject();
+			RDFNode node = st.getObject();
+			System.out.println(r.getURI() + " " + VCARD.FN.getURI() + " " + node.asLiteral());
+		}
+		// ** TASK 3.2: Query all the resources with the family name "Smith" **
+		sIter = model.listStatements(null, VCARD.Family, "Smith");
+		
+		while(sIter.hasNext()){
+			Statement st = sIter.next();
+			Resource r = st.getSubject();
+			System.out.println("Subject: " + r.getURI());
+		}
+		// ** TASK 3.3: Query all the resources with an email  **
+		Property foafEmail = model.getProperty(foafEmailURI);
+		sIter = model.listStatements(null, foafEmail, (RDFNode) null);
+		while (sIter.hasNext()){
+			Statement s = sIter.next();
+			Resource r = s.getSubject();
+			RDFNode mail = s.getObject();
+
+			System.out.println(r.getURI() + " " + foafEmailURI + " " + mail.asLiteral());
+=======
 		StmtIterator stIter = model.listStatements(null, VCARD.FN, (RDFNode)null);
 		
 		while (stIter.hasNext())
@@ -84,6 +111,7 @@ public class Task03
 			RDFNode mail = st.getObject();
 			
 			System.out.println(subj.getURI()+" "+foafEmailURI+" "+mail.asLiteral());
+>>>>>>> upstream/master
 		}
 		
 		// ** TASK 3.4 (advanced): Query all the subjects knowing "Jane Smith" and list their given names  **
