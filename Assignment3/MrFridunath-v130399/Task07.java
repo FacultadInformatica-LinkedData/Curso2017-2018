@@ -25,7 +25,7 @@ public class Task07
 		String filename = "resources/example6.rdf";
 		
 		// Create an empty model
-		OntModel model = ModelFactory.createOntologyModel(OntModelSpec.RDFS_MEM_RDFS_INF);//sin esto no lista por inferencia
+		OntModel model = ModelFactory.createOntologyModel(OntModelSpec.RDFS_MEM);
 		
 		// Use the FileManager to find the input file
 		InputStream in = FileManager.get().open(filename);
@@ -56,25 +56,23 @@ public class Task07
 			System.out.println("Subclass of Person: "+subclass.getURI());
 		}
 		
-
 		// ** TASK 7.3: Make the necessary changes to get as well indirect instances and subclasses. TIP: you need some inference... **
-		//list_all(person);
-		
-	}
+		ExtendedIterator<OntClass> listSubclass = person.listSubClasses();
+		ExtendedIterator<Individual> listInstances;
+
+		//Imprimiremos las subclases y las instancias de cada subclase
+		while (listSubclass.hasNext()){
+	        OntClass classes = (OntClass) listSubclass.next();
+	        listInstances = (ExtendedIterator<Individual>) classes.listInstances();
+	        System.out.println("Instances: "+ classes.getURI());
+	   		
+	   		
+	   		while(listInstances.hasNext()){
+	   			System.out.println("Instances: "+ listInstances.next().getURI());
+	   		}
+
+			
+		}
 	
-	private static void list_all(OntClass p) {
-		System.out.println("Class: "+ p.getLocalName());
-		ExtendedIterator instances = p.listInstances();
-		while (instances.hasNext())
-		{
-			Individual inst = (Individual) instances.next();
-			System.out.println("Instance of Person: "+inst.getURI());
-		}
-		ExtendedIterator instances2 = p.listSubClasses();
-		while(instances2.hasNext()) {
-			OntClass sub = (OntClass) instances2.next();
-			list_all(sub);
-		}
-		
 	}
 }
