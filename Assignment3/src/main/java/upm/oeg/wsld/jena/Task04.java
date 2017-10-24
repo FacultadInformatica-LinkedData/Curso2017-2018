@@ -61,76 +61,16 @@ public class Task04
 		}
 		
 		// ** TASK 4.1: List all the resources with the property "vcard:FN" and their full names **
-		queryString = 
-				"PREFIX vcard: <" + VCARD.getURI() + "> " +
-				"SELECT ?Subject ?FullName "+
-				"WHERE { ?Subject vcard:FN ?FullName.} ";
-		query = QueryFactory.create(queryString);
-		qexec = QueryExecutionFactory.create(query, model) ;
-		results = qexec.execSelect() ;
 		
-		while (results.hasNext())
-		{
-			QuerySolution binding = results.nextSolution();
-			Resource subj = (Resource) binding.get("Subject");
-			Literal fn = binding.getLiteral("FullName");
-			System.out.println(subj.getURI()+" "+VCARD.FN.getURI()+" "+fn);
-		}
 		
 		// ** TASK 4.2: Query all the resources with the family name "Smith" **
-		queryString = 
-				"PREFIX vcard: <" + VCARD.getURI() + "> " +
-				"SELECT ?Subject "+
-				"WHERE { ?Subject vcard:Family 'Smith'.} ";
-		query = QueryFactory.create(queryString);
-		qexec = QueryExecutionFactory.create(query, model) ;
-		results = qexec.execSelect() ;
 		
-		while (results.hasNext())
-		{
-			QuerySolution binding = results.nextSolution();
-			Resource subj = (Resource) binding.get("Subject");
-			System.out.println("Subject: " + subj.getURI());
-		}
 		
 		// ** TASK 4.3: Query all the resources with an email  **
-		queryString = 
-				"PREFIX foaf: <" + foafNS + "> " +
-				"SELECT ?Subject ?Email "+
-				"WHERE { ?Subject foaf:email ?Email.} ";
-		query = QueryFactory.create(queryString);
-		qexec = QueryExecutionFactory.create(query, model) ;
-		results = qexec.execSelect() ;
 		
-		while (results.hasNext())
-		{
-			QuerySolution binding = results.nextSolution();
-			Resource subj = (Resource) binding.get("Subject");
-			Literal email = binding.getLiteral("Email");
-			
-			System.out.println(subj.getURI()+" "+foafEmailURI+" "+email);
-		}
 		
 		// ** TASK 4.4 (advanced): Query all the subjects knowing "Jane Smith" and list their given names  **
-		queryString = 
-				"PREFIX foaf: <" + foafNS + "> " +
-				"PREFIX vcard: <" + VCARD.getURI() + "> " +
-				"SELECT ?Subject ?Given "+
-				"WHERE { ?Subject foaf:knows ?JaneSmith. " +
-						"?JaneSmith vcard:FN 'Jane Smith'. " +
-						"?Subject vcard:Given ?Given.} ";
-		query = QueryFactory.create(queryString);
-		qexec = QueryExecutionFactory.create(query, model) ;
-		results = qexec.execSelect() ;
-		
-		while (results.hasNext())
-		{
-			QuerySolution binding = results.nextSolution();
-			Resource subj = (Resource) binding.get("Subject");
-			Literal given = binding.getLiteral("Given");
-			
-			System.out.println(subj.getURI()+" "+VCARD.Given.getURI()+" "+given);
-		}
+
 		
 	}
 }
