@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<rdf:RDF xmlns:ns0='https://www.oeg-upm.net/ontologies/data#' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+<rdf:Description rdf:about='https://www.oeg-upm.net/ontologies/data#Class01'>
+<ns0:includes>
+<rdf:Description rdf:about='https://www.oeg-upm.net/ontologies/data#Sensor029'>
+<ns0:hasMeasurement>
+<rdf:Description rdf:about='https://www.oeg-upm.net/ontologies/data#Measurement8401'>
+<ns0:atTime>2010-06-12T12:00:12</ns0:atTime>
+
+<ns0:hasTemperature>29</ns0:hasTemperature>
+
+</rdf:Description>
+
+</ns0:hasMeasurement>
+
+</rdf:Description>
+
+</ns0:includes>
+ <ns0:includes>
+<rdf:Description rdf:about='https://www.oeg-upm.net/ontologies/data#Computer101'>
+<ns0:hasOwner>
+<rdf:Description rdf:about='https://www.oeg-upm.net/ontologies/data#User10A'>
+<ns0:hasName>Perdro</ns0:hasName>
+
+</rdf:Description>
+
+</ns0:hasOwner>
+
+</rdf:Description>
+
+</ns0:includes>
+
+</rdf:Description>
+
+</rdf:RDF>
