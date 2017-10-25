@@ -38,9 +38,12 @@ public class Task07
 		
 		
 		// ** TASK 7.1: List all individuals of "Person" **
-		OntClass person = model.getOntClass(ns+"Person");
-		ExtendedIterator instances = person.listInstances();
+		System.out.println("Task 7.1");
+		System.out.println("Individuals of Person");
+		System.out.println("\n");
 		
+		ExtendedIterator instances = model.getOntClass(ns+"Person").listInstances();
+
 		while (instances.hasNext())
 		{
 			Individual inst = (Individual) instances.next();
@@ -48,25 +51,28 @@ public class Task07
 		}
 		
 		// ** TASK 7.2: List all subclasses of "Person" **
-		ExtendedIterator subclasses = person.listSubClasses();
+		System.out.println("Task 7.2");
+		System.out.println("Subclasses of Person");
+		System.out.println("\n");
+
+		ExtendedIterator<OntClass> subclasses = model.getOntClass(ns+"Person").listSubClasses();
 		
 		while (subclasses.hasNext())
 		{
-			OntClass subclass = (OntClass) subclasses.next();
-			System.out.println("Subclass of Person: "+subclass.getURI());
+			System.out.println("Subclass of Person: "+subclasses.next().getURI());
 		}
 		
 		// ** TASK 7.3: Make the necessary changes to get as well indirect instances and subclasses. TIP: you need some inference... **
-		ExtendedIterator<OntClass> listSubclass = person.listSubClasses();
+		System.out.println("Task 7.3");
+
+		ExtendedIterator<OntClass> listSubclass = model.getOntClass(ns+"Person").listSubClasses();
 		ExtendedIterator<Individual> listInstances;
 
 		//Imprimiremos las subclases y las instancias de cada subclase
 		while (listSubclass.hasNext()){
-	        OntClass classes = (OntClass) listSubclass.next();
-	        listInstances = (ExtendedIterator<Individual>) classes.listInstances();
-	        System.out.println("Instances: "+ classes.getURI());
-	   		
-	   		
+	        listInstances = (ExtendedIterator<Individual>)  listSubclass.listInstances();
+	        System.out.println("Instances: "+ listSubclass.next().getURI());
+	   	
 	   		while(listInstances.hasNext()){
 	   			System.out.println("Instances: "+ listInstances.next().getURI());
 	   		}
