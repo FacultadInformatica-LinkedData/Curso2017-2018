@@ -32,16 +32,34 @@ public class Task01
 			throw new IllegalArgumentException("File: "+filename+" not found");
 
 		// Read the RDF/XML file
-		model.read(in, null);
+		Model m1 = model.read(in, null);
 
 		// Write it to standard out
-		model.write(System.out);
+		model.write(System.out); // RDF/XML by default
 
 		// ** TASK 1.1: Now write the model in Turtle form **
 		model.write(System.out, "TURTLE");
 		
 		// ** TASK 1.2: Read a new model and merge it with the previous one **
 		String filename2 = "resources/example2.rdf";
+<<<<<<< HEAD
+
+		//Model model2 = ModelFactory.createDefaultModel();
+
+		InputStream in2 = FileManager.get().open(filename2);
+
+		if (in == null)
+			throw new IllegalArgumentException("File: "+filename2+" not found");
+
+		//Model m2 = model2.read(in2, null);
+
+		//Model union = ModelFactory.createUnion(m1,m2);
+
+		//union.write(System.out);
+
+		model.read(in2, null);
+
+=======
 		InputStream in2 = FileManager.get().open(filename2);
 
 		if (in2 == null)
@@ -51,6 +69,7 @@ public class Task01
 		model.read(in2, null);
 
 		// Write it to standard out
+>>>>>>> upstream/master
 		model.write(System.out);
 	}
 }

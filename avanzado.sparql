@@ -1,0 +1,34 @@
+# 1. Dame todas las propiedades aplicables a las instancias de la clase Politician (<http://dbpedia.org/ontology/Politician>)
+
+select distinct ?property where {
+         ?instance a <http://dbpedia.org/ontology/Politician> . 
+         ?instance ?property ?obj . }
+
+
+# 2. Dame todas las propiedades, exceptuando rdf:type, aplicables a las instancias de la clase
+# Politician (<http://dbpedia.org/ontology/Politician>)
+
+select distinct ?property where {
+         ?instance a <http://dbpedia.org/ontology/Politician> . 
+         ?instance ?property ?obj . 
+         FILTER (!REGEX(STR(?property),"type"))
+}
+
+
+# 3. ¿Cuántos valores distintos se pueden encontrar para las propiedades, exceptuando rdf:type,
+# de las instancias de la clase Politician (<http://dbpedia.org/ontology/Politician>)?
+
+
+# 4. Para cada una de las propiedades, exceptuando rdf:type, aplicables a las instancias de la clase
+# Politician (<http://dbpedia.org/ontology/Politician>), dime cuántos valores distintos toman en dichas instancias
+
+
+# 5. Para cada una de las propiedades, exceptuando rdf:type, aplicables a las instancias de la clase
+# Politician (<http://dbpedia.org/ontology/Politician>), dime la media de valores distintos que toman en dichas instancias.
+
+
+# 6. Para cada una de las propiedades, exceptuando rdf:type, aplicables a las instancias de la clase
+# Politician (<http://dbpedia.org/ontology/Politician>), dime el máximo número de valores distintos que
+# toman entre todas sus instancias, ordenado de mayor a menor
+
+
