@@ -16,6 +16,7 @@ import org.apache.jena.util.iterator.ExtendedIterator;
  * @author isantana
  *
  */
+
 public class Task07
 {
 	public static String ns = "http://somewhere#";
