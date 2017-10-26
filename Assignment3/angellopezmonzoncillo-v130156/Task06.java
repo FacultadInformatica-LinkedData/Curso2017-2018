@@ -2,6 +2,7 @@ package upm.oeg.wsld.jena;
 
 import java.io.InputStream;
 
+
 import org.apache.jena.ontology.Individual;
 import org.apache.jena.ontology.OntClass;
 import org.apache.jena.ontology.OntModel;
