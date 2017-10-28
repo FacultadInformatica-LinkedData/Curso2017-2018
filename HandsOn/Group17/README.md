@@ -5,7 +5,7 @@ NOMBRE: Fernando Santamaria Roman
 GITHUB: fsan615
 
 NOMBRE: Luis Carlos Navas García  
-GITHUB: liskar009
+GITHUB: luiskar009
 
 NOMBRE: Pablo Climent Ibañez  
 GITHUB: PabloCliment
