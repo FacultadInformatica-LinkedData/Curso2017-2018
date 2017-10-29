@@ -1,0 +1,20 @@
+@prefix property: <http://example.org/property#> .
+@prefix ejer2: <http://www.ontogrid.net/Ejercicio2#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ejer2:Class01
+	property:includes ejer2:Sensor029,
+		ejer2:Computer101.
+	
+ejer2:Computer101
+	property:hasOwner	ejer2:User10A .
+
+ejer2:User10A
+	property:hasName	"Pedro".
+	
+ejer2:Sensor029
+	property:hasMeasurement	ejer2:Measurement8401 .
+
+ejer2:Measurement8401
+	property:hasTemperature "29"^^xsd:int;
+	property:atTime "2010-06-12T12:00:12"^^xsd:dateTime.

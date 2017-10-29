@@ -1,0 +1,15 @@
+@base <http://www.ontogrid.net/StickyNote#> .
+@prefix sn: <http://www.ontogrid.net/StickyNote#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+sn:Class01	sn:includes: sn:Sensor029;
+			sn:includes: sn:Computer101.
+
+sn:Sensor029 sn:hasMeasurement: Measurement8401.
+
+sn:Computer101 sn:hasOwner: User10A.
+
+sn:Measurement8401 sn:hasTemperature: "29"^^xsd:decimal;
+				   sn:atTime: "2010-06-12T12:00:12"^^xsd:datetime.
+				   
+sn:User10A sn:hasName: "Pedro"^^xsd:string.
