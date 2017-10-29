@@ -12,12 +12,12 @@
 
 **The "datasetRequirements.html" file:**
 
-- [ ] Identifies the liceses of all the selected datasets
-- [ ] Identifies those entities in the selected datasets that can be linked with entities in other datasets
-- [ ] Identifies those entities in other datasets that can be linked with entities in the selected datasets
+- [done] Identifies the liceses of all the selected datasets
+- [done] Identifies those entities in the selected datasets that can be linked with entities in other datasets
+- [done] Identifies those entities in other datasets that can be linked with entities in the selected datasets
 
 **The "applicationRequeriments.html" file**
 
-- [ ] Includes a description of the application user inteface
+- [done] Includes a description of the application user inteface
 
 ##Comments on self-assessment##
