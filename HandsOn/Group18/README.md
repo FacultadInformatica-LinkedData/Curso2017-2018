@@ -1,16 +1,7 @@
 # Member list
 
-NOMBRE: Alejandro Alcázar Sacristán
-GITHUB: PuppedToy
-
-NOMBRE: Guillermo Antoñanzas Martínez   
-GITHUB: buhorl
-
-NOMBRE: Álvaro Hernangómez Jiménez  
-GITHUB: alvarohj96
-
-NOMBRE: Pablo Gómez Sanz  
-GITHUB: divily
-
-NOMBRE: Jorge Galán Alonso
-GITHUB: jorgejota
+* Alejandro Alcázar Sacristán (PuppedToy)
+* Guillermo Antoñanzas Martínez (buhorl) 
+* Álvaro Hernangómez Jiménez (alvarohj96)
+* Pablo Gómez Sanz (divily)
+* Jorge Galán Alonso (jorgejota)
