@@ -17,6 +17,7 @@ public class Task07 {
 	public static String ns = "http://somewhere#";
 	
 	public static void main(String[] args) {
+	    
 		// TODO Auto-generated method stub
 		String filename = "example6.rdf";
 		
