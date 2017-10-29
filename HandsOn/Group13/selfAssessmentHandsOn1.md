@@ -4,7 +4,7 @@
 
 **The “README.md” file:**
 
-- [ ] Includes the names and GitHub users of all the members of the group
+- [X] Includes the names and GitHub users of all the members of the group
 
 **The "csv" directory:**
 
