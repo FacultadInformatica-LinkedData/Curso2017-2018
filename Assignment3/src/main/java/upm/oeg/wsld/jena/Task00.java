@@ -38,7 +38,7 @@ public class Task00
 		model.add(app,says, hm);
 		
 		// Write it to standard out
-		model.write(System.out, "N-QUADS");
+		//model.write(System.out, "N-QUADS");
 		
 		//List all the objects of a property
 		NodeIterator it = model.listObjectsOfProperty(says);
