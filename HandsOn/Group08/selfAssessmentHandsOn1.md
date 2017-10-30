@@ -4,20 +4,20 @@
 
 **The "README.md" file**
 
-- [done] Includes the names and GitHub users of all the members of the group
+- [x] Includes the names and GitHub users of all the members of the group
 
 **The "csv" directory:**
 
-- [done] Contains at least one CSV file**
+- [x] Contains at least one CSV file**
 
 **The "datasetRequirements.html" file:**
 
-- [done] Identifies the liceses of all the selected datasets
-- [done] Identifies those entities in the selected datasets that can be linked with entities in other datasets
-- [done] Identifies those entities in other datasets that can be linked with entities in the selected datasets
+- [x] Identifies the liceses of all the selected datasets
+- [x] Identifies those entities in the selected datasets that can be linked with entities in other datasets
+- [x] Identifies those entities in other datasets that can be linked with entities in the selected datasets
 
 **The "applicationRequeriments.html" file**
 
-- [done] Includes a description of the application user inteface
+- [x] Includes a description of the application user inteface
 
 ##Comments on self-assessment##
