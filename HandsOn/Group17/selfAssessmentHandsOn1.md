@@ -12,17 +12,17 @@
 
 **El archivo "datasetRequirements.html":**
  
-  Identifica si .csv seleccionados cumple los siguientes requisitos:
+ - [X] Identifica si .csv seleccionados cumple los siguientes requisitos:
 	
-	- [X] 1.- Pertenecen al dominio de las ciudades inteligentes.
-	- [X] 2.- Deben tener formato .csv
-	- [X] 3.- Deben enlazarse fácilmente con entidades del mundo real.
-	- [X] 4.- Deben tener licencia abierta.
+	 1.- Pertenecen al dominio de las ciudades inteligentes.
+	 2.- Deben tener formato .csv
+	 3.- Deben enlazarse fácilmente con entidades del mundo real.
+	 4.- Deben tener licencia abierta.
 
-	 Opcionales:
+	- [X] Opcionales:
 
-	- [X] 5.- Existe documentación sobre los datos.
-	- [X] 6.- Pueden venir de múltiples fuentes.
+	 5.- Existe documentación sobre los datos.
+	 6.- Pueden venir de múltiples fuentes.
  
 **El archivo "applicationRequirements.html”:**
  
