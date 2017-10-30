@@ -22,7 +22,7 @@ public class Task05
 		// Create an empty model
 		OntModel model = ModelFactory.createOntologyModel(OntModelSpec.RDFS_MEM);
 		
-		// ** TASK 5.1: Read the ontology from the given file **
+		// ** TASK 5.1: Read t3uhe ontology from the given file **
 		// Use the FileManager to find the input file
 		InputStream in = FileManager.get().open(filename);
 	
