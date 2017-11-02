@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/santiago/ontologies/2017/9/"
+     xml:base="http://www.semanticweb.org/santiago/ontologies/2017/9/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/santiago/ontologies/2017/9/"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/santiago/ontologies/2017/9/isAddressedTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/santiago/ontologies/2017/9/isAddressedTo">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/santiago/ontologies/2017/9/Places"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/santiago/ontologies/2017/9/Street"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/santiago/ontologies/2017/9/isLocatedIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/santiago/ontologies/2017/9/isLocatedIn">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/santiago/ontologies/2017/9/Places"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/santiago/ontologies/2017/9/District"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/santiago/ontologies/2017/9/District -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/santiago/ontologies/2017/9/District"/>
+    
+
+
+    <!-- http://www.semanticweb.org/santiago/ontologies/2017/9/Places -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/santiago/ontologies/2017/9/Places"/>
+    
+
+
+    <!-- http://www.semanticweb.org/santiago/ontologies/2017/9/Street -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/santiago/ontologies/2017/9/Street">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/santiago/ontologies/2017/9/District"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/santiago/ontologies/2017/9/#AirQuality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/santiago/ontologies/2017/9/#AirQuality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/santiago/ontologies/2017/9/Places"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/santiago/ontologies/2017/9/#Clinic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/santiago/ontologies/2017/9/#Clinic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/santiago/ontologies/2017/9/#Hospital"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/santiago/ontologies/2017/9/#DrinkingWater -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/santiago/ontologies/2017/9/#DrinkingWater">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/santiago/ontologies/2017/9/#Fountain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/santiago/ontologies/2017/9/#Embassy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/santiago/ontologies/2017/9/#Embassy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/santiago/ontologies/2017/9/Places"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/santiago/ontologies/2017/9/#FireStation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/santiago/ontologies/2017/9/#FireStation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/santiago/ontologies/2017/9/Places"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/santiago/ontologies/2017/9/#Fountain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/santiago/ontologies/2017/9/#Fountain">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/santiago/ontologies/2017/9/Places"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/santiago/ontologies/2017/9/#Green_areas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/santiago/ontologies/2017/9/#Green_areas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/santiago/ontologies/2017/9/Places"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/santiago/ontologies/2017/9/#Hospital -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/santiago/ontologies/2017/9/#Hospital">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/santiago/ontologies/2017/9/Places"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/santiago/ontologies/2017/9/#Park -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/santiago/ontologies/2017/9/#Park">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/santiago/ontologies/2017/9/#Green_areas"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
