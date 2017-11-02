@@ -17,12 +17,13 @@ import org.apache.jena.vocabulary.VCARD;
  * @author isantana
  *
  */
+ 
 public class Task06
 {
 	public static String ns = "http://somewhere#";
 	public static String foafNS = "http://xmlns.com/foaf/0.1/";
-	public static String foafEmailURI = foafNS+"email";
-	public static String foafKnowsURI = foafNS+"knows";
+	public static String foafEmailURI = foafNS + "email";
+	public static String foafKnowsURI = foafNS + "knows";
 	public static String stringTypeURI = "http://www.w3.org/2001/XMLSchema#string";
 	
 	public static void main(String args[])
@@ -30,44 +31,43 @@ public class Task06
 		String filename = "resources/example5.rdf";
 		
 		// Create an empty model
-		OntModel model = ModelFactory.createOntologyModel(OntModelSpec.RDFS_MEM);
+		OntModel model = ModelFactory.createOntologyModel(OntModelSpec.RDFS_MEM_RDFS_INF);
 		
 		// Use the FileManager to find the input file
 		InputStream in = FileManager.get().open(filename);
 	
 		if (in == null)
-			throw new IllegalArgumentException("File: "+filename+" not found");
+			throw new IllegalArgumentException("File:" + filename + "not found");
 	
 		// Read the RDF/XML file
 		model.read(in, null);
 		
 		// Create a new class named "Researcher"
-		OntClass researcher = model.createClass(ns+"Researcher");
+		OntClass researcher = model.createClass(ns +" Researcher ");
 		
 		// ** TASK 6.1: Create a new class named "University" **
-		OntClass university = model.createClass(ns+"University");
-		
+		OntClass university = model.createClass(ns + " University ");	
 		
 		// ** TASK 6.2: Add "Researcher" as a subclass of "Person" **
-		OntClass person = model.getOntClass(ns+"Person");
-	    person.addSubClass(researcher);
+		model.getOntClass(ns+"Person").addSubClass(researcher);
 		
 		// ** TASK 6.3: Create a new property named "worksIn" **
-	    Property worksIn = model.createOntProperty(ns+"worksIn");
-		
+		Property worksIn = model.createProperty(ns + " worksIn ");		
 		
 		// ** TASK 6.4: Create a new individual of Researcher named "Jane Smith" **
-	    
-		Individual janeSmith=researcher.createIndividual(ns+"Jane Smith");
+		Individual janeS = model.createIndividual(ns + "Jane Smith", researcher);	
 		
 		// ** TASK 6.5: Add to the individual JaneSmith the fullName, given and family names **
-		janeSmith.addLiteral(VCARD.Given, "Jane "); 
-		janeSmith.addLiteral(VCARD.NAME, "Smith"); 
+		janeS.addLiteral(VCARD.FN, "Jane Smith");
+		janeS.addLiteral(VCARD.Given, "Jane");
+		janeS.addLiteral(VCARD.Family, "Smith");
 		
 		// ** TASK 6.6: Add UPM as the university where John Smith works **
-		Individual upm = university.createIndividual(ns+"UPM");
-		Individual johnSmith = model.getIndividual(ns+"JohnSmith");
-		johnSmith.addProperty(worksIn,upm);
+		Individual johnS = model.getIndividual(ns + " JohnSmith ");
+		Individual upm = university.createIndividual(ns + " UPM ");
+	    johnS.addProperty(worksIn,upm);
+		
+		
 		
 		model.write(System.out, "RDF/XML-ABBREV");
 	}
