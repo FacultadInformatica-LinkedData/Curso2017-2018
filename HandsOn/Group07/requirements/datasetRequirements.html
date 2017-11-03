@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Data Requirements - Group 07</title>
+</head>
+<body>
+	<h1>Dataset escogido: poste-autobus.csv</h1>
+	<p>Para este trabajo hemos escogido un dataset que contiene un listado de las marquesinas de autobús de la ciudad de Zaragoza. Cada marquesina contiene su número, nombre(URI), destino, localización, enlace para visionado en web y un enlace al icono de un autobús.</p>
+
+	<h1>Dataset Requirements:</h1>
+
+	<h3>Requirement 1 - Data are in the smart cities domain</h3>
+	<p>El dataset cumple este requisito dado que aporta información sobre el transporte público de Zaragoza, que es una ciudad pequeña alojada en la comunidad autónoma de Aragón (España).</p>
+
+	<h3>Requirement 2 - Data are available as a CSV file</h3>
+	<p>Se cumple este requisito ya que  hemos obtenido el documento "poste-autobus.csv" y "Usos Oct16-Mar17 1.csv" de la página web del ayuntamiento de Zaragoza.</p>
+
+	<h3>Requirement 3 - Data have an open license so it can be published</h3>
+	<p>El propio ayuntamiento de Zaragoza proporciona un enlace a la información sobre la licencia del uso de sus datos. Dicho enlace es el siguiente: <a href="https://www.zaragoza.es/sede/portal/aviso-legal#condiciones">https://www.zaragoza.es/sede/portal/aviso-legal#condiciones</a><br>Básicamente en él se menciona  que cualquiera es libre de reutilizar sus documentos siempre que aquel que lo haga no desnaturalice el sentido de la información y mencione el origen legítimo de éstos.</p>
+
+	<h3>Requirement 4 - Data can be easily linked with generic real-world entities</h3>
+	<p>Todas las paradas de autobús poseen un campo de coordenadas geométricas con las que se podría cruzar otros datasets como las estaciones de bicicletas de zaragoza (<a href="https://www.zaragoza.es/sede/servicio/catalogo/70#API">https://www.zaragoza.es/sede/servicio/catalogo/70#API</a>). Por ejemplo, se puede hacer una query con las coordenadas de una estación de bus y especificar una distancia respecto a ese punto y obtener las estaciones de bicis cercanas.</p>
+
+	<h3>Requirement 5 - Documentation exists for the data</h3>
+	<p>Este requisito también es cumplido ya que en la página web del ayto. de Zaragoza se proporciona un enlace para ver la información contenida en este dataset. Dicho enlace es: <a href="http://www.zaragoza.es/docs-api_sede/#!/Equipamientos_y_movilidad:_Transporte_urbano">http://www.zaragoza.es/docs-api_sede/#!/Equipamientos_y_movilidad:_Transporte_urbano</a>.</p>
+
+	<h3>Requirement 6 - Data can come from multiple data sources</h3>
+	<p>En este caso la información que se va a utilizar viene de dos puntos muy concretos: el transporte público y las bicicletas. Ambos tienen archivos CSV con datos estáticos y una API con la que se pueden conseguir datos dinámicos.</p>
+</body>
+</html>
+
+<!-- 
+# Dataset escogido: poste-autobus.csv #
+
+Para este trabajo hemos escogido un dataset que contiene un listado
+de las marquesinas de autobús de la ciudad de Zaragoza.
+Cada marquesina contiene su número, nombre(URI), destino, localización, 
+enlace para visionado en web y un enlace al icono de un autobús. 
+
+# Dataset Requirements: #
+		
+## Requirement 1 - Data are in the smart cities domain. 
+
+   El dataset cumple este requisito dado que aporta información sobre el transporte público de Zaragoza,
+   que es una ciudad pequeña alojada en la comunidad autónoma de Aragón (España).
+
+## Requirement 2 - Data are available as a CSV file.
+
+   Se cumple este requisito ya que  hemos obtenido el documento "poste-autobus.csv" de la página web del ayuntamiento de Zaragoza.
+
+## Requirement 3 - Data have an open license so it can be published.
+
+   El propio ayuntamiento de Zaragoza proporciona un enlace a la información sobre la licencia del uso de sus datos.
+   Dicho enlace es el siguiente: https://www.zaragoza.es/sede/portal/aviso-legal#condiciones
+   Básicamente en él se menciona  que cualquiera es libre de reutilizar sus documentos siempre que aquel que lo haga no desnaturalice el
+   sentido de la información y mencione el origen legítimo de éstos. 
+
+## Requirement 4 - Data can be easily linked with generic real-world entities.
+
+   Al tratarse de un dataset con información actual y real, cumple este requisito. 
+   La entidad de localización de las marquesinas se puede enlazar con datasets de las calles de Zaragoza ?????????????????????????????????????
+   (Aqui habría que identificar las entidades de este dataset que pueden ser enlazadas con otras entidades de otros datasets.)
+
+## Requirement 5 - Documentation exists for the data. 
+
+   Este requisito también es cumplido ya que en la página web del ayto. de Zaragoza se proporciona un enlace para ver la información
+   contenida en este dataset. 
+   Dicho enlace es: http://www.zaragoza.es/docs-api_sede/#!/Equipamientos_y_movilidad:_Transporte_urbano
+-->
