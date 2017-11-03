@@ -38,19 +38,9 @@ public class Task01
 		model.write(System.out);
 
 		// ** TASK 1.1: Now write the model in Turtle form **
-		model.write(System.out, "TURTLE");
-		
+
+				
 		// ** TASK 1.2: Read a new model and merge it with the previous one **
 		String filename2 = "resources/example2.rdf";
-		InputStream in2 = FileManager.get().open(filename2);
-
-		if (in2 == null)
-			throw new IllegalArgumentException("File: "+filename2+" not found");
-
-		// Read the RDF/XML file
-		model.read(in2, null);
-
-		// Write it to standard out
-		model.write(System.out);
 	}
 }
