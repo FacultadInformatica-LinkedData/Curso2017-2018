@@ -49,8 +49,7 @@ public class Task07 {
 			System.out.println(iterator2.next());
 		}
 		
-		// ** TASK 7.3: Make the necessary changes to get as well indirect instances and subclasses. **
-		
+		// ** TASK 7.3: Make the necessary changes to get as well indirect instances and subclasses. **		
 		// ** TIP: you need some inference... **
 	}
 

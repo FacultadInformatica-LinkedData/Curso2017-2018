@@ -17,8 +17,7 @@ public class Task06 {
 	
 	public static void main(String[] args) {
 	    
-		// TODO Auto-generated method stub
-		
+		// TODO Auto-generated method stub		
 		String filename = "example5.rdf";
 		// Create an empty model
 		OntModel model = ModelFactory.createOntologyModel(OntModelSpec.RDFS_MEM);
