@@ -7,5 +7,5 @@ USUARIO GITHUB: 150992
 NOMBRE Y APELLIDOS: Antonio González Sanz
 USUARIO GITHUB: DaemonSniper
 
-NOMBRE Y APELLIDOS: Fernando Marti de Mateo
+NOMBRE Y APELLIDOS: Fernando Martí de Mateo
 USUARIO GITHUB: MrFridunath
