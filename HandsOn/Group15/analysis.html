@@ -1,0 +1,395 @@
+<head>
+<meta charset="utf-8">
+<title>Análisis CSV</title>
+</head>
+<h2>Análisis de Datasets</h2>
+<h3>Instalaciones Deportivas</h3>
+<table width="740" border="1">
+  <tbody>
+    <tr>
+      <td width="247">Columna</td>
+      <td width="126">Tipo</td>
+      <td width="205">Valor</td>
+      <td width="162">Comentarios</td>
+    </tr>
+    <tr>
+      <td>PK</td>
+      <td>String</td>
+      <td>36401-7891965, Unique</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>NOMBRE</td>
+      <td>String</td>
+      <td>Unique</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>EQUIPAMIENTO</td>
+      <td>String</td>
+      <td>Empty Values. Not Unique</td>
+      <td>335 valores distintos, 1 en blanco</td>
+    </tr>
+    <tr>
+      <td>TRANSPORTE</td>
+      <td>String</td>
+      <td>Not Unique</td>
+      <td>396 valores distintos</td>
+    </tr>
+    <tr>
+      <td>ACCESIBILIDAD</td>
+      <td>Boolean</td>
+      <td>Todos 0</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>CONTENT_URL</td>
+      <td>String</td>
+      <td>Unique</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>NOMBRE_VÍA</td>
+      <td>String</td>
+      <td>Not Unique</td>
+      <td>400 Valores</td>
+    </tr>
+    <tr>
+      <td>CLASE_VIAL</td>
+      <td>Choice</td>
+      <td>Not Unique</td>
+      <td>15 Valores</td>
+    </tr>
+    <tr>
+      <td>TIPO_NUM</td>
+      <td>Choice</td>
+      <td>Empty Values. Not Unique</td>
+      <td>4valores , 1 vacío</td>
+    </tr>
+    <tr>
+      <td>NUM</td>
+      <td>String</td>
+      <td>Empty Values. Not Unique</td>
+      <td>121 Valores. 43 en Blanco</td>
+    </tr>
+    <tr>
+      <td>ORIENTACIÓN</td>
+      <td>String </td>
+      <td>Empty values. Not Unique</td>
+      <td>158 Valores. 308 en Blanco</td>
+    </tr>
+    <tr>
+      <td>LOCALIDAD</td>
+      <td>String</td>
+      <td>Todos Madrid</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>PROVINCIA</td>
+      <td>String</td>
+      <td>Todos Madrid</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>CÓDIGO_POSTAL</td>
+      <td>String</td>
+      <td>28002-28055</td>
+      <td>Los valores del Código postal que no aparecían, los hemos completado a mano.</td>
+    </tr>
+    <tr>
+      <td>BARRIO</td>
+      <td>String</td>
+      <td>Empty Values. Not Unique</td>
+      <td>107 Valores. 5 en Blanco</td>
+    </tr>
+    <tr>
+      <td>DISTRITO</td>
+      <td>String</td>
+      <td>Empty values. Not Unique</td>
+      <td>20 valores, 4 en blanco</td>
+    </tr>
+    <tr>
+      <td>COORDENADA-X</td>
+      <td>Decimal</td>
+      <td>0.0-451202.0. Not Unique</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>COORDENADA-Y</td>
+      <td>Decimal</td>
+      <td>0.0-4485594.0. Not Unique</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>LATITUD</td>
+      <td>Decimal</td>
+      <td>40.33393478393555-40.516605377197266. Not Unique</td>
+      <td>4 valores en Blanco</td>
+    </tr>
+    <tr>
+      <td>LONGITUD</td>
+      <td>Decimal</td>
+      <td>-3.8255057334899902--3.576711416244507. Not Unique</td>
+      <td>3 en blanco</td>
+    </tr>
+    <tr>
+      <td>TIPO</td>
+      <td>String</td>
+      <td>Empty Values. Not Unique</td>
+      <td>8 valores. 1 En Blanco</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>Agenda de actividades deportivas</h3>
+<table width="740" border="1">
+  <tbody>
+    <tr>
+      <td width="247">Columna</td>
+      <td width="126">Tipo</td>
+      <td width="205">Valor</td>
+      <td width="162">Comentarios</td>
+    </tr>
+    <tr>
+      <td>ID_EVENTO</td>
+      <td>String</td>
+      <td>Unique. Not empty</td>
+      <td>38 valores</td>
+    </tr>
+    <tr>
+      <td>TÍTULO</td>
+      <td>String</td>
+      <td>Unique. Not empty</td>
+      <td>38 valores</td>
+    </tr>
+    <tr>
+      <td>PRECIO</td>
+      <td>String</td>
+      <td>Empty Values. Not Unique</td>
+      <td>3 valores, resto vacio</td>
+    </tr>
+    <tr>
+      <td>GRATUITO</td>
+      <td>Boolean</td>
+      <td>0 o 1</td>
+      <td>6 valores a 1</td>
+    </tr>
+    <tr>
+      <td>LARGA_DURACIÓN</td>
+      <td>Boolean</td>
+      <td>0 o 1</td>
+      <td>4 valores a 1</td>
+    </tr>
+    <tr>
+      <td>DÍAS_SEMANA</td>
+      <td>String</td>
+      <td>Empty Values. Not Unique</td>
+      <td>L, M, X, J, V, S, D</td>
+    </tr>
+    <tr>
+      <td>DÍAS_EXCLUIDOS</td>
+      <td>String</td>
+      <td>Empty Values. Not Unique</td>
+      <td>L, M, X, J, V, S, D</td>
+    </tr>
+    <tr>
+      <td>HORA</td>
+      <td>String</td>
+      <td>Not Empty. Not Unique</td>
+      <td>00:00-23-59</td>
+    </tr>
+    <tr>
+      <td>DESCRIPCIÓN</td>
+      <td>String</td>
+      <td>Empty Values. Not Unique</td>
+      <td>4 valores, el resto vacios</td>
+    </tr>
+    <tr>
+      <td>CONTENT_URL</td>
+      <td>String</td>
+      <td>Unique. Not empty</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>TÍTULO_ACTIVIDAD</td>
+      <td>String </td>
+      <td>Unique. Not empty</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>URL_ACTIVIDAD</td>
+      <td>String </td>
+      <td>Unique. Not empty</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>URL_INSTALACIÓN</td>
+      <td>String</td>
+      <td>Unique. Not empty</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>NOMBRE_INSTALACIÓN</td>
+      <td>String</td>
+      <td>Unique. Not empty</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>DISTRITO</td>
+      <td>String</td>
+      <td>Empty values. Not Unique</td>
+      <td>4 en blanco</td>
+    </tr>
+    <tr>
+      <td>COORDENADA-X</td>
+      <td>Decimal</td>
+      <td>438000.0-451000.0. Not Unique</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>COORDENADA-Y</td>
+      <td>Decimal</td>
+      <td>4471700.0-4479800.0. Not Unique</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>LATITUD</td>
+      <td>Decimal</td>
+      <td>Empty Values, Not Unique</td>
+      <td>4 en blanco</td>
+    </tr>
+    <tr>
+      <td>LONGITUD</td>
+      <td>Decimal</td>
+      <td>Empty Values, Not Unique</td>
+      <td>4 en blanco</td>
+    </tr>
+    <tr>
+      <td>TIPO</td>
+      <td>String</td>
+      <td>Not Empty. Not Unique</td>
+      <td>8 valores. 1 En Blanco</td>
+    </tr>
+  </tbody>
+</table>
+<p>&nbsp;</p>
+<h3>Aparcamientos Públicos</h3>
+<table width="740" border="1">
+  <tbody>
+    <tr>
+      <td width="162"><table width="769" border="1">
+        <tbody>
+          <tr>
+            <td width="162">Columna</td>
+            <td width="83">Tipo</td>
+            <td width="248">Valor</td>
+          </tr>
+          <tr>
+            <td nowrap valign="top"><p>PK</p></td>
+            <td nowrap valign="top"><p>String</p></td>
+            <td nowrap valign="top"><p>1,000 - 7,500,000</p></td>
+          </tr>
+          <tr>
+            <td nowrap valign="top"><p>NOMBRE</p></td>
+            <td nowrap valign="top"><p>String</p></td>
+            <td nowrap valign="top"><p>Unique</p></td>
+          </tr>
+          <tr>
+            <td nowrap valign="top"><p>DESCRIPCIÓN</p></td>
+            <td nowrap valign="top"><p>String</p></td>
+            <td nowrap valign="top"><p>Not unique, empty values</p></td>
+          </tr>
+          <tr>
+            <td nowrap valign="top"><p>CONTENT_URL</p></td>
+            <td nowrap valign="top"><p>String</p></td>
+            <td nowrap valign="top"><p>Unique</p></td>
+          </tr>
+          <tr>
+            <td nowrap valign="top"><p>NOMBRE_VÍA</p></td>
+            <td nowrap valign="top"><p>String</p></td>
+            <td nowrap valign="top"><p>Not unique</p></td>
+          </tr>
+          <tr>
+            <td nowrap valign="top"><p>CLASE_VIAL</p></td>
+            <td nowrap valign="top"><p>String</p></td>
+            <td nowrap valign="top"><p>Not unique</p></td>
+          </tr>
+          <tr>
+            <td nowrap valign="top"><p>NUMERO</p></td>
+            <td nowrap valign="top"><p>String</p></td>
+            <td nowrap valign="top"><p>Not unique</p></td>
+          </tr>
+          <tr>
+            <td nowrap valign="top">LOCALIDAD</td>
+            <td nowrap valign="top">String</td>
+            <td nowrap valign="top">Not Unique</td>
+          </tr>
+          <tr>
+            <td nowrap valign="top">PROVINCIA</td>
+            <td nowrap valign="top">String</td>
+            <td nowrap valign="top">Not Unique</td>
+          </tr>
+          <tr>
+            <td nowrap valign="top"><p>CÓDIGO POSTAL</p></td>
+            <td nowrap valign="top"><p>String</p></td>
+            <td nowrap valign="top"><p>Not unique</p></td>
+          </tr>
+          <tr>
+            <td nowrap valign="top">BARRIO</td>
+            <td nowrap valign="top">String</td>
+            <td nowrap valign="top">Not Unique</td>
+          </tr>
+          <tr>
+            <td nowrap valign="top"><p>DISTRITO</p></td>
+            <td nowrap valign="top"><p>String</p></td>
+            <td nowrap valign="top"><p>Not unique</p></td>
+          </tr>
+          <tr>
+            <td nowrap valign="top">COORDENADA-X</td>
+            <td nowrap valign="top"><p>Decimal</p></td>
+            <td nowrap valign="top"><p>Unique</p></td>
+          </tr>
+          <tr>
+            <td nowrap valign="top">COORDENADA-Y</td>
+            <td nowrap valign="top">Decimal</td>
+            <td nowrap valign="top">Unique</td>
+          </tr>
+          <tr>
+            <td nowrap valign="top"><p>LATITUD</p></td>
+            <td nowrap valign="top"><p>Decimal</p></td>
+            <td nowrap valign="top"><p>Unique</p></td>
+          </tr>
+          <tr>
+            <td nowrap valign="top"><p>LONGITUD</p></td>
+            <td nowrap valign="top"><p>Decimal</p></td>
+            <td nowrap valign="top"><p>Unique</p></td>
+          </tr>
+          <tr>
+            <td nowrap valign="top"><p>TIPO</p></td>
+            <td nowrap valign="top"><p>String</p></td>
+            <td nowrap valign="top"><p>Unique</p></td>
+          </tr>
+        </tbody>
+      </table></td>
+    </tr>
+  </tbody>
+</table>
+<p>&nbsp;</p>
+<h2>Licencias</h2>
+<p>Se pueden consultar los términos de las licencias de los datasets <a href="http://datos.madrid.es/portal/site/egob/menuitem.619dfa2990e56405bb8d69f6ecd08a0c/?vgnextoid=b4c412b9ace9f310VgnVCM100000171f5a0aRCRD">AQUÍ</a></p>
+<p>&nbsp;</p>
+
+<h2>Estrategia de nombrado</h2>
+
+<br>• Hash URIs for ontological terms, slash URIs for individuals<br>
+<br>• Domain:
+<blockquote>	-http://www.semanticweb.org/</blockquote>
+<br>• Ontological terms path:<br>
+<blockquote>	- http://www.semanticweb.org/OntologyGroup15#</blockquote>
+<br>• Individuals path:<br>
+<blockquote>	- http://www.semanticweb.org/instances</blockquote>
+<br>• Ontological terms pattern:<br>
+<blockquote>	- http://www.semanticweb.org/OntologyGroup15#
+  <term_name></blockquote>
+<br>• Individuals pattern:<br>
+<blockquote>	- http://www.semanticweb.org/instances/<resource_type>/<resource_name></blockquote>
