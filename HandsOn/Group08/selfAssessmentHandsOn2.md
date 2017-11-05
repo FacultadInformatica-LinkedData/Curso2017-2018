@@ -21,7 +21,7 @@ The Ontology file
 [X]Uses the .ttl extension  
 [X]Is serialized in the Turtle format  
 [X]Follows the resource naming strategy  
-[]Contains at least one class  
+[x]Contains at least one class  
 [X]Contains at least one object property (where the value of the property is a resource)  
 [x]Contains at least one datatype property (where the value of the property is a string
 literal, usually typed)  
