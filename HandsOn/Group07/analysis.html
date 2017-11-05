@@ -20,7 +20,7 @@
 		<li> • RetiroEstacion: Muestra la estación de donde se retira la bicicleta. -- > 	Tipo de datos: Entero.</li>
 		<li> • AnclajeDT: Muestra el dia y fecha en la que el usuario devuelve la bicicleta. -- >	Tipo de datos: xsd:dateTime</li>
 		<li> • AnclajeEstacion: Muestra la estación donde se devolvió la bicicleta. -- > 	Tipo de datos: Entero</li>
-	
+
 	<h2> Analisis para el dataset 'poste-autobus.csv'</h2>
 	<p> Este dataset contiene un listado de las marquesinas de autobús de la ciudad de Zaragoza. <br>Hay en total 1208 marquesinas con los siguientes campos:</br></p>
 		<li> • id: Es el identificador de la marquesina en cuestión. (Enlace a un xml). -- >	 Tipo de datos: URI.</li>
@@ -31,12 +31,11 @@
 	<h2> Resource Naming Strategy</h2>
 	<p> A continuación, se detalla la estrategia de nombrado de recursos <p>
 		<ul>
-			<li>Dado que se espera tener una gran cantidad de datos, utilizaremos slash URIS. </li>
+			<li>Dado que no se espera tener una gran cantidad de datos, utilizaremos hash URIS. </li>
+			<li>El dominio de las URI será www.zaramove.es </li>
+			<li>El path de las URI será el siguiente: http://www.zaramove.es/transportes </li>
+			<li>Los pattern serán los siguientes: Para las clases en la ontologia http://www.zaramove.es/transportes/ontology/<ontologyName>#<className>. Para las propiedades en la ontología http://www.zaramove.es/transportes/ontology/<ontologyName>#<propertyName>. Y para las instancias será en la ontología http://www.zaramove.es/transportes/resource/<className>#<identifier>. </li>
 
-			<li>El tipo de negociación de contenido será redirigiendo a diferentes documentos, ya que creemos que es más sencillo de esta forma. </li>
-			<li>El dominio de las URI será... </li>
-	
 		</ul>
 </body>
 </html>
-
