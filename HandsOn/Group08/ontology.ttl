@@ -1,0 +1,43 @@
+@prefix : <http://www.semanticweb.org/group08/ontolog> .
+
+@base <http://www.semanticweb.org/group08/ontology.ttl> 
+
+
+#    Datatypes
+
+###  http://www.w3.org/2006/vcard/ns#fn
+vcard:org rdf:type rdfs:Datatype .
+
+###  http://www.w3.org/2006/vcard/ns#org
+vcard:org rdf:type rdfs:Datatype .
+
+###  http://www.w3.org/2006/vcard/ns#adr
+vcard:adr rdf:type rdfs:Datatype .
+
+###  http://www.w3.org/2006/vcard/ns#tel
+vcard:tel rdf:type rdfs:Datatype .
+
+###  http://www.w3.org/2006/vcard/ns#email
+vcard:email rdf:type rdfs:Datatype .
+
+#    Object Properties
+
+### http://www.w3.org/2006/vcard/ns#hasFN
+:hasFN rdf:type owl:ObjectProperty ;
+         rdfs:domain : <> ;
+         rdfs:range : <> .
+### http://www.w3.org/2006/vcard/ns#hasOrganizationName 
+:hasOrganizationName rdf:type owl:ObjectProperty ;
+         rdfs:domain : <> ;
+         rdfs:range : <> .
+
+### http://www.w3.org/2006/vcard/ns#hasAddress 
+:hasAddress  rdf:type owl:ObjectProperty ;
+         rdfs:domain : <> ;
+         rdfs:range : <> .
+
+### http://www.w3.org/2006/vcard/ns#hasEmail
+:hasEmail  rdf:type owl:ObjectProperty ;
+         rdfs:domain : <> ;
+         rdfs:range : <> .
+		 
