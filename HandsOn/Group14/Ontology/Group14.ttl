@@ -1,12 +1,8 @@
-@prefix : <http://www.wsldfiupm.org/Resources/group14#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <http://www.wsldfiupm.org/Resources/group14> .
-
-<http://www.wsldfiupm.org/Resources/group14> rdf:type owl:Ontology .
 
 #################################################################
 #    Annotation properties
@@ -21,156 +17,155 @@ rdfs:type rdf:type owl:AnnotationProperty ;
 #    Datatypes
 #################################################################
 
-###  http://webprotege.stanford.edu/R8Xu9OLyCEsXGqbyJGYBGBh
-<http://webprotege.stanford.edu/R8Xu9OLyCEsXGqbyJGYBGBh> rdf:type rdfs:Datatype ;
-                                                         rdfs:label "Religioso" .
+
+###  http://www.wsdlfiupm.es/resources/group14/tipos/Religioso
+<http://www.wsdlfiupm.es/resources/group14/tipo/Religioso> rdf:type rdfs:Datatype ;
+                                                                    rdfs:label "Religioso"^^xsd:string .
 
 
-###  http://webprotege.stanford.edu/RD2aXuT29KsjqkAZ8cxwe9W
-<http://webprotege.stanford.edu/RD2aXuT29KsjqkAZ8cxwe9W> rdf:type rdfs:Datatype ;
-                                                         rdfs:label "Sala" .
+###  http://www.wsdlfiupm.es/resources/group14/tipos/Ministerios
+<http://www.wsdlfiupm.es/resources/group14/tipo/Ministerios> rdf:type rdfs:Datatype ;
+                                                                    rdfs:label "Ministerios"^^xsd:string .
 
 
-###  http://www.w3.org/2001/XMLSchema#string%20sala.ocio
-xsd:sala.ocio rdf:type rdfs:Datatype ;
-              rdfs:label "xsd:string sala.ocio" .
+###  http://www.wsdlfiupm.es/resources/group14/tipos/Ocio
+<http://www.wsdlfiupm.es/resources/group14/tipo/Ocio> rdf:type rdfs:Datatype ;
+                                                                    rdfs:label "Ocio"^^xsd:string .
+
+
+###  http://www.wsdlfiupm.es/resources/group14/tipos/Bares
+<http://www.wsdlfiupm.es/resources/group14/tipo/Bares> rdf:type rdfs:Datatype ;
+                                                                    rdfs:label "Bares"^^xsd:string .
+
+
+###  http://www.wsdlfiupm.es/resources/group14/tipos/Institutos
+<http://www.wsdlfiupm.es/resources/group14/tipo/Institutos> rdf:type rdfs:Datatype ;
+                                                                    rdfs:label "Institutos"^^xsd:string .
+
+
+###  http://www.wsdlfiupm.es/resources/group14/tipos/Histórico
+<http://www.wsdlfiupm.es/resources/group14/tipo/Histórico> rdf:type rdfs:Datatype ;
+                                                                   rdfs:label "Histórico"^^xsd:string .
 
 
 #################################################################
 #    Object Properties
 #################################################################
 
-###  http://webprotege.stanford.edu/RCVmNeiWs98lCWhyj2zK9Mt
-<http://webprotege.stanford.edu/RCVmNeiWs98lCWhyj2zK9Mt> rdf:type owl:ObjectProperty ;
-                                                         rdfs:subPropertyOf owl:topObjectProperty ;
-                                                         rdfs:range <http://www.wsldfiupm.org/Resources/group14/Class/Localizacion#> ;
-                                                         rdfs:label "ubicación"^^xsd:string .
+###  http://www.wsdlfiupm.es/resources/group14/ubicación
+<http://www.wsdlfiupm.es/resources/group14/ubicación> rdf:type owl:ObjectProperty ;
+                                                                    rdfs:subPropertyOf owl:topObjectProperty ;
+                                                                    rdfs:domain <http://dbpedia.org/ontology/Place> ;
+                                                                    rdfs:range <http://dbpedia.org/ontology/Localización> ;
+                                                                    rdfs:label "ubicación"^^xsd:string .
 
 
 #################################################################
 #    Data properties
 #################################################################
 
-###  http://webprotege.stanford.edu/R403oYGBcCnlRH4F3B3Wni
-<http://webprotege.stanford.edu/R403oYGBcCnlRH4F3B3Wni> rdf:type owl:DatatypeProperty ;
-                                                        rdfs:subPropertyOf owl:topDataProperty ;
-                                                        rdfs:domain <http://www.wsldfiupm.org/Resources/group14/Class/Place#> ;
-                                                        rdfs:range rdfs:Literal ;
-                                                        rdfs:label "horario"^^xsd:string .
+###  http://www.wsdlfiupm.es/resources/group14/horario
+<http://www.wsdlfiupm.es/resources/group14/horario> rdf:type owl:DatatypeProperty ;
+                                                                   rdfs:subPropertyOf owl:topDataProperty ;
+                                                                   rdfs:domain <http://dbpedia.org/ontology/Place> ;
+                                                                   rdfs:range rdfs:Literal ;
+                                                                   rdfs:label "horario"^^xsd:string .
 
 
-###  http://webprotege.stanford.edu/R43CNVRpar5M2qfovJDG9V
-<http://webprotege.stanford.edu/R43CNVRpar5M2qfovJDG9V> rdf:type owl:DatatypeProperty ;
-                                                        rdfs:subPropertyOf owl:topDataProperty ;
-                                                        rdfs:domain <http://www.wsldfiupm.org/Resources/group14/Class/Place#> ;
-                                                        rdfs:range rdfs:Literal ;
-                                                        rdfs:label "latitud" .
+###  http://www.wsdlfiupm.es/resources/group14/latitud
+<http://www.wsdlfiupm.es/resources/group14/latitud> rdf:type owl:DatatypeProperty ;
+                                                                   rdfs:subPropertyOf owl:topDataProperty ;
+                                                                   rdfs:domain <http://www.wsdlfiupm.es/resources/group14/Localización> ;
+                                                                   rdfs:range rdfs:Literal ;
+                                                                   rdfs:label "latitud"^^xsd:string .
 
 
-###  http://webprotege.stanford.edu/R7aD7NOh0K5ZYWJDQ2at97H
-<http://webprotege.stanford.edu/R7aD7NOh0K5ZYWJDQ2at97H> rdf:type owl:DatatypeProperty ;
-                                                         rdfs:subPropertyOf owl:topDataProperty ;
-                                                         rdfs:domain <http://www.wsldfiupm.org/Resources/group14/Class/Place#> ;
-                                                         rdfs:range rdfs:Literal ;
-                                                         rdfs:label "longitud" .
+###  http://www.wsdlfiupm.es/resources/group14/longitud
+<http://www.wsdlfiupm.es/resources/group14/longitud> rdf:type owl:DatatypeProperty ;
+                                                                    rdfs:subPropertyOf owl:topDataProperty ;
+                                                                    rdfs:domain <http://www.wsdlfiupm.es/resources/group14/Localización> ;
+                                                                    rdfs:range rdfs:Literal ;
+                                                                    rdfs:label "longitud"^^xsd:string .
 
 
-###  http://webprotege.stanford.edu/R9ItvZWJSb548dh0XxtWPEA
-<http://webprotege.stanford.edu/R9ItvZWJSb548dh0XxtWPEA> rdf:type owl:DatatypeProperty ;
-                                                         rdfs:subPropertyOf owl:topDataProperty ;
-                                                         rdfs:domain <http://www.wsldfiupm.org/Resources/group14/Class/Place#> ;
-                                                         rdfs:range rdfs:Literal ;
-                                                         rdfs:label "distrito"^^xsd:string .
+###  http://www.wsdlfiupm.es/resources/group14/distrito
+<http://www.wsdlfiupm.es/resources/group14/distrito> rdf:type owl:DatatypeProperty ;
+                                                                    rdfs:subPropertyOf owl:topDataProperty ;
+                                                                    rdfs:domain <http://www.wsdlfiupm.es/resources/group14/Localización> ;
+                                                                    rdfs:range rdfs:Literal ;
+                                                                    rdfs:label "distrito"^^xsd:string .
 
 
-###  http://webprotege.stanford.edu/RB8fZdpnLKgtSMqPhSsPklP
-<http://webprotege.stanford.edu/RB8fZdpnLKgtSMqPhSsPklP> rdf:type owl:DatatypeProperty ;
-                                                         rdfs:subPropertyOf owl:topDataProperty ;
-                                                         rdfs:domain <http://www.wsldfiupm.org/Resources/group14/vocabulary/Organizacion#> ;
-                                                         rdfs:range <http://webprotege.stanford.edu/R8Xu9OLyCEsXGqbyJGYBGBh> ;
-                                                         rdfs:label "tipo"@es .
+###  http://www.wsdlfiupm.es/resources/group14/tipo
+<http://www.wsdlfiupm.es/resources/group14/tipo> rdf:type owl:DatatypeProperty ;
+                                                                    rdfs:subPropertyOf owl:topDataProperty ;
+                                                                    rdfs:domain <http://www.wsdlfiupm.es/resources/group14/R8uHN6Gy3HRj370VPcWHOCy> ;
+                                                                    rdfs:range <http://www.wsdlfiupm.es/resources/group14/tipos/Religioso> ,
+                                                                               <http://www.wsdlfiupm.es/resources/group14/tipos/Ministerios> ,
+                                                                               <http://www.wsdlfiupm.es/resources/group14/tipos/Ocio> ,
+                                                                               <http://www.wsdlfiupm.es/resources/group14/tipos/Bares> ,
+                                                                               <http://www.wsdlfiupm.es/resources/group14/tipos/Institutos> ,
+                                                                               <http://www.wsdlfiupm.es/resources/group14/tipos/Histórico> ;
+                                                                    rdfs:label "tipo"^^xsd:string .
 
 
-###  http://webprotege.stanford.edu/RB9SF2TgwdF0ASzaGGVCGle
-<http://webprotege.stanford.edu/RB9SF2TgwdF0ASzaGGVCGle> rdf:type owl:DatatypeProperty ;
-                                                         rdfs:subPropertyOf owl:topDataProperty ;
-                                                         rdfs:domain <http://www.wsldfiupm.org/Resources/group14/Class/Place#> ;
-                                                         rdfs:range rdfs:Literal ;
-                                                         rdfs:label "descripcion" .
+###  http://www.wsdlfiupm.es/resources/group14/descripción
+<http://www.wsdlfiupm.es/resources/group14/descripción> rdf:type owl:DatatypeProperty ;
+                                                                    rdfs:subPropertyOf owl:topDataProperty ;
+                                                                    rdfs:domain <http://dbpedia.org/ontology/Place> ;
+                                                                    rdfs:range rdfs:Literal ;
+                                                                    rdfs:label "descripción"^^xsd:string .
 
 
-###  http://webprotege.stanford.edu/RBsyuFjjYnwkr1NX3hFD3Ex
-<http://webprotege.stanford.edu/RBsyuFjjYnwkr1NX3hFD3Ex> rdf:type owl:DatatypeProperty ;
-                                                         rdfs:subPropertyOf owl:topDataProperty ;
-                                                         rdfs:domain <http://www.wsldfiupm.org/Resources/group14/Class/Place#> ;
-                                                         rdfs:range rdfs:Literal ;
-                                                         rdfs:label "calle"^^xsd:string .
+###  http://www.wsdlfiupm.es/resources/group14/calle
+<http://www.wsdlfiupm.es/resources/group14/calle> rdf:type owl:DatatypeProperty ;
+                                                                    rdfs:subPropertyOf owl:topDataProperty ;
+                                                                    rdfs:domain <http://www.wsdlfiupm.es/resources/group14/Localización> ;
+                                                                    rdfs:range rdfs:Literal ;
+                                                                    rdfs:label "calle"^^xsd:string .
 
 
-###  http://webprotege.stanford.edu/RBuZZJFtwuX0iEPc2FGoja0
-<http://webprotege.stanford.edu/RBuZZJFtwuX0iEPc2FGoja0> rdf:type owl:DatatypeProperty ;
-                                                         rdfs:subPropertyOf owl:topDataProperty ;
-                                                         rdfs:domain <http://www.wsldfiupm.org/Resources/group14/Class/Place#> ;
-                                                         rdfs:range xsd:float ;
-                                                         rdfs:label "precio"^^xsd:string .
+###  http://www.wsdlfiupm.es/resources/group14/precio
+<http://www.wsdlfiupm.es/resources/group14/precio> rdf:type owl:DatatypeProperty ;
+                                                                    rdfs:subPropertyOf owl:topDataProperty ;
+                                                                    rdfs:domain <http://dbpedia.org/ontology/Place> ;
+                                                                    rdfs:range xsd:float ;
+                                                                    rdfs:label "precio"^^xsd:string .
 
 
 #################################################################
 #    Classes
 #################################################################
 
-###  http://www.wsldfiupm.org/Resources/group14/Class/Localizacion#
-<http://www.wsldfiupm.org/Resources/group14/Class/Localizacion#> rdf:type owl:Class ;
-                                                                 rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                                   owl:onProperty <http://webprotege.stanford.edu/RCVmNeiWs98lCWhyj2zK9Mt> ;
-                                                                                   owl:someValuesFrom <http://www.wsldfiupm.org/Resources/group14/Class/Place#>
-                                                                                 ] ,
-                                                                                 [ rdf:type owl:Restriction ;
-                                                                                   owl:onProperty <http://webprotege.stanford.edu/R43CNVRpar5M2qfovJDG9V> ;
-                                                                                   owl:someValuesFrom xsd:float
-                                                                                 ] ,
-                                                                                 [ rdf:type owl:Restriction ;
-                                                                                   owl:onProperty <http://webprotege.stanford.edu/R7aD7NOh0K5ZYWJDQ2at97H> ;
-                                                                                   owl:someValuesFrom xsd:float
-                                                                                 ] ,
-                                                                                 [ rdf:type owl:Restriction ;
-                                                                                   owl:onProperty <http://webprotege.stanford.edu/R9ItvZWJSb548dh0XxtWPEA> ;
-                                                                                   owl:someValuesFrom xsd:string
-                                                                                 ] ,
-                                                                                 [ rdf:type owl:Restriction ;
-                                                                                   owl:onProperty <http://webprotege.stanford.edu/RBsyuFjjYnwkr1NX3hFD3Ex> ;
-                                                                                   owl:someValuesFrom xsd:string
-                                                                                 ] ;
-                                                                 rdfs:label "Localizacion" .
+###  http://www.wsdlfiupm.es/resources/group14/Ocio
+<http://www.wsdlfiupm.es/resources/group14/Ocio> rdf:type owl:Class ;
+                                                                    rdfs:subClassOf <http://dbpedia.org/ontology/Place> ;
+                                                                    rdfs:label "Ocio"^^xsd:string .
 
 
-###  http://www.wsldfiupm.org/Resources/group14/Class/Place#
-<http://www.wsldfiupm.org/Resources/group14/Class/Place#> rdf:type owl:Class ;
-                                                          rdfs:label "dbo:Place"^^xsd:string .
+###  http://www.wsdlfiupm.es/resources/group14/Organización
+<http://www.wsdlfiupm.es/resources/group14/Organización> rdf:type owl:Class ;
+                                                                    rdfs:subClassOf <http://dbpedia.org/ontology/Place> ;
+                                                                    rdfs:label "Organización"^^xsd:string .
 
 
-###  http://www.wsldfiupm.org/Resources/group14/vocabulary/Monumentos#
-<http://www.wsldfiupm.org/Resources/group14/vocabulary/Monumentos#> rdf:type owl:Class ;
-                                                                    rdfs:subClassOf <http://www.wsldfiupm.org/Resources/group14/Class/Place#> ;
-                                                                    rdfs:label "Monumentos" .
+###  http://www.wsdlfiupm.es/resources/group14/Museos
+<http://www.wsdlfiupm.es/resources/group14/Museos> rdf:type owl:Class ;
+                                                                    rdfs:subClassOf <http://dbpedia.org/ontology/Place> ;
+                                                                    rdfs:label "Museos"^^xsd:string .
 
 
-###  http://www.wsldfiupm.org/Resources/group14/vocabulary/Museos#
-<http://www.wsldfiupm.org/Resources/group14/vocabulary/Museos#> rdf:type owl:Class ;
-                                                                rdfs:subClassOf <http://www.wsldfiupm.org/Resources/group14/Class/Place#> ;
-                                                                rdfs:label "Museos" .
+###  http://www.wsdlfiupm.es/resources/group14/Localización
+<http://www.wsdlfiupm.es/resources/group14/Localización> rdf:type owl:Class ;
+                                                                    rdfs:label "Localización"^^xsd:string .
 
 
-###  http://www.wsldfiupm.org/Resources/group14/vocabulary/Ocio#
-<http://www.wsldfiupm.org/Resources/group14/vocabulary/Ocio#> rdf:type owl:Class ;
-                                                              rdfs:subClassOf <http://www.wsldfiupm.org/Resources/group14/Class/Place#> ;
-                                                              rdfs:label "Ocio" .
+###  http://dbpedia.org/ontology/Place
+<hhttp://dbpedia.org/ontology/Place> rdf:type owl:Class ;
+													rdfs:label "dbo:Place"^^xsd:string .
 
 
-###  http://www.wsldfiupm.org/Resources/group14/vocabulary/Organizacion#
-<http://www.wsldfiupm.org/Resources/group14/vocabulary/Organizacion#> rdf:type owl:Class ;
-                                                                      rdfs:subClassOf <http://www.wsldfiupm.org/Resources/group14/Class/Place#> ;
-                                                                      rdfs:label "Organización"^^xsd:string .
-
-
-###  Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi
+###  http://www.wsdlfiupm.es/resources/group14/Monumentos
+<http://www.wsdlfiupm.es/resources/group14/Monumentos> rdf:type owl:Class ;
+                                                                   rdfs:subClassOf <http://dbpedia.org/ontology/Place> ;
+                                                                   rdfs:label "Monumentos"^^xsd:string .
