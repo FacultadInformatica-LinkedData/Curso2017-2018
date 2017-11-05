@@ -29,8 +29,8 @@ literal, usually typed)
 []Defines the range of all the properties (the destination of the property)  
 []Defines all class names starting with a capital letter  
 [x]Defines all property names starting with a non-capital letter  
-[]Does not mix labels in different languages (e.g., Spanish and English)  
+[x]Does not mix labels in different languages (e.g., Spanish and English)  
 []Does not define multiple domains or multiple ranges in properties  
-[]Contains at least one class that will be used to link to other entities  
+[x]Contains at least one class that will be used to link to other entities  
 
 ##Comments on self-assessment##  
