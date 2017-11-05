@@ -18,11 +18,11 @@ individuals
 
 The Ontology file  
 
-[]Uses the .ttl extension  
-[]Is serialized in the Turtle format  
-[]Follows the resource naming strategy  
+[X]Uses the .ttl extension  
+[X]Is serialized in the Turtle format  
+[X]Follows the resource naming strategy  
 []Contains at least one class  
-[]Contains at least one object property (where the value of the property is a resource)  
+[X]Contains at least one object property (where the value of the property is a resource)  
 []Contains at least one datatype property (where the value of the property is a string
 literal, usually typed)  
 []Defines the domain of all the properties (the origin of the property)  
