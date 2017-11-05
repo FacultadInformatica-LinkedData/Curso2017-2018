@@ -25,7 +25,7 @@ public class Task07
 		String filename = "resources/example6.rdf";
 		
 		// Create an empty model
-		OntModel model = ModelFactory.createOntologyModel(OntModelSpec.RDFS_MEM_RDFS_INF);
+		OntModel model = ModelFactory.createOntologyModel(OntModelSpec.RDFS_MEM);
 		
 		// Use the FileManager to find the input file
 		InputStream in = FileManager.get().open(filename);
@@ -56,31 +56,23 @@ public class Task07
 			System.out.println("Subclass of Person: "+subclass.getURI());
 		}
 		
-
-		
-		
 		// ** TASK 7.3: Make the necessary changes to get as well indirect instances and subclasses. TIP: you need some inference... **
-		    //se crea un modelo vacio
-		    OntModel modelINF = ModelFactory.createOntologyModel(OntModelSpec.RDFS_MEM_RDFS_INF,model);
-		 
-		    OntClass pIndividual = modelINF.getOntClass(ns+"Person");
-		    //obtener el iterator de las instancias
-		    ExtendedIterator listaIns= pIndividual.listInstances();
-		    System.out.println("Lista de todos los individuos");
-		    //mostramos la lista de personas
-		    while(listaIns.hasNext()){
-		      Individual individual = (Individual) listaIns.next();      
-		      System.out.println("Individuo: "+ individual.getLocalName());
-		    }    
-		    System.out.println();
-		    //iterador de subclases
-		    ExtendedIterator listSubClass = pIndividual.listSubClasses();  
-		    System.out.println("Lista de todas las subclases");
-		    while(listSubClass.hasNext()){
-		      OntClass subClass = (OntClass) listSubClass.next();      
-		      System.out.println("Subclase: "+ subClass.getLocalName());
-		    }
-		System.out.println();
+		ExtendedIterator<OntClass> listSubclass = person.listSubClasses();
+		ExtendedIterator<Individual> listInstances;
 
+		//Imprimiremos las subclases y las instancias de cada subclase
+		while (listSubclass.hasNext()){
+	        OntClass classes = (OntClass) listSubclass.next();
+	        listInstances = (ExtendedIterator<Individual>) classes.listInstances();
+	        System.out.println("Instances: "+ classes.getURI());
+	   		
+	   		
+	   		while(listInstances.hasNext()){
+	   			System.out.println("Instances: "+ listInstances.next().getURI());
+	   		}
+
+			
+		}
+	
 	}
 }
