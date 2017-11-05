@@ -18,146 +18,146 @@ rdfs:type rdf:type owl:AnnotationProperty ;
 #################################################################
 
 
-###  http://www.wsdlfiupm.es/resources/group14/tipos/Religioso
-<http://www.wsdlfiupm.es/resources/group14/tipo/Religioso> rdf:type rdfs:Datatype ;
-                                                                    rdfs:label "Religioso"^^xsd:string .
+###  http://www.wsdlfiupm.es/resources/group14/types/Religious
+<http://www.wsdlfiupm.es/resources/group14/type/Religious> rdf:type rdfs:Datatype ;
+                                                                    rdfs:label "Religious"^^xsd:string .
 
 
-###  http://www.wsdlfiupm.es/resources/group14/tipos/Ministerios
-<http://www.wsdlfiupm.es/resources/group14/tipo/Ministerios> rdf:type rdfs:Datatype ;
-                                                                    rdfs:label "Ministerios"^^xsd:string .
+###  http://www.wsdlfiupm.es/resources/group14/types/Ministry
+<http://www.wsdlfiupm.es/resources/group14/type/Ministry> rdf:type rdfs:Datatype ;
+                                                                    rdfs:label "Ministry"^^xsd:string .
 
 
-###  http://www.wsdlfiupm.es/resources/group14/tipos/Ocio
-<http://www.wsdlfiupm.es/resources/group14/tipo/Ocio> rdf:type rdfs:Datatype ;
-                                                                    rdfs:label "Ocio"^^xsd:string .
+###  http://www.wsdlfiupm.es/resources/group14/types/Leisure
+<http://www.wsdlfiupm.es/resources/group14/type/Leisure> rdf:type rdfs:Datatype ;
+                                                                    rdfs:label "Leisure"^^xsd:string .
 
 
-###  http://www.wsdlfiupm.es/resources/group14/tipos/Bares
-<http://www.wsdlfiupm.es/resources/group14/tipo/Bares> rdf:type rdfs:Datatype ;
-                                                                    rdfs:label "Bares"^^xsd:string .
+###  http://www.wsdlfiupm.es/resources/group14/types/Bars
+<http://www.wsdlfiupm.es/resources/group14/type/Bars> rdf:type rdfs:Datatype ;
+                                                                    rdfs:label "Bars"^^xsd:string .
 
 
-###  http://www.wsdlfiupm.es/resources/group14/tipos/Institutos
-<http://www.wsdlfiupm.es/resources/group14/tipo/Institutos> rdf:type rdfs:Datatype ;
-                                                                    rdfs:label "Institutos"^^xsd:string .
+###  http://www.wsdlfiupm.es/resources/group14/types/Institutes
+<http://www.wsdlfiupm.es/resources/group14/type/Institutes> rdf:type rdfs:Datatype ;
+                                                                    rdfs:label "Institutes"^^xsd:string .
 
 
-###  http://www.wsdlfiupm.es/resources/group14/tipos/Histórico
-<http://www.wsdlfiupm.es/resources/group14/tipo/Histórico> rdf:type rdfs:Datatype ;
-                                                                   rdfs:label "Histórico"^^xsd:string .
+###  http://www.wsdlfiupm.es/resources/group14/types/Historic
+<http://www.wsdlfiupm.es/resources/group14/type/Historic> rdf:type rdfs:Datatype ;
+                                                                   rdfs:label "Historic"^^xsd:string .
 
 
 #################################################################
 #    Object Properties
 #################################################################
 
-###  http://www.wsdlfiupm.es/resources/group14/propiedades/ubicación
-<http://www.wsdlfiupm.es/resources/group14/propiedades/ubicación> rdf:type owl:ObjectProperty ;
+###  http://www.wsdlfiupm.es/resources/group14/properties/location
+<http://www.wsdlfiupm.es/resources/group14/properties/location> rdf:type owl:ObjectProperty ;
                                                                     rdfs:subPropertyOf owl:topObjectProperty ;
                                                                     rdfs:domain <http://dbpedia.org/ontology/Place> ;
-                                                                    rdfs:range <http://dbpedia.org/ontology/Localización> ;
-                                                                    rdfs:label "ubicación"^^xsd:string .
+                                                                    rdfs:range <http://dbpedia.org/ontology/Position> ;
+                                                                    rdfs:label "location"^^xsd:string .
 
 
 #################################################################
 #    Data properties
 #################################################################
 
-###  http://www.wsdlfiupm.es/resources/group14/propiedades/horario
-<http://www.wsdlfiupm.es/resources/group14/propiedades/horario> rdf:type owl:DatatypeProperty ;
+###  http://www.wsdlfiupm.es/resources/group14/properties/schedule
+<http://www.wsdlfiupm.es/resources/group14/properties/schedule> rdf:type owl:DatatypeProperty ;
                                                                    rdfs:subPropertyOf owl:topDataProperty ;
                                                                    rdfs:domain <http://dbpedia.org/ontology/Place> ;
                                                                    rdfs:range rdfs:Literal ;
-                                                                   rdfs:label "horario"^^xsd:string .
+                                                                   rdfs:label "schedule"^^xsd:string .
 
 
-###  http://www.wsdlfiupm.es/resources/group14/propiedades/latitud
-<http://www.wsdlfiupm.es/resources/group14/propiedades/latitud> rdf:type owl:DatatypeProperty ;
+###  http://www.wsdlfiupm.es/resources/group14/properties/latitude
+<http://www.wsdlfiupm.es/resources/group14/properties/latitude> rdf:type owl:DatatypeProperty ;
                                                                    rdfs:subPropertyOf owl:topDataProperty ;
-                                                                   rdfs:domain <http://www.wsdlfiupm.es/resources/group14/Localización> ;
+                                                                   rdfs:domain <http://www.wsdlfiupm.es/resources/group14/Position> ;
                                                                    rdfs:range rdfs:Literal ;
-                                                                   rdfs:label "latitud"^^xsd:string .
+                                                                   rdfs:label "latitude"^^xsd:string .
 
 
-###  http://www.wsdlfiupm.es/resources/group14/propiedades/longitud
-<http://www.wsdlfiupm.es/resources/group14/propiedades/longitud> rdf:type owl:DatatypeProperty ;
+###  http://www.wsdlfiupm.es/resources/group14/properties/longitude
+<http://www.wsdlfiupm.es/resources/group14/properties/longitude> rdf:type owl:DatatypeProperty ;
                                                                     rdfs:subPropertyOf owl:topDataProperty ;
-                                                                    rdfs:domain <http://www.wsdlfiupm.es/resources/group14/Localización> ;
+                                                                    rdfs:domain <http://www.wsdlfiupm.es/resources/group14/Position> ;
                                                                     rdfs:range rdfs:Literal ;
-                                                                    rdfs:label "longitud"^^xsd:string .
+                                                                    rdfs:label "longitude"^^xsd:string .
 
 
-###  http://www.wsdlfiupm.es/resources/group14/propiedades/distrito
-<http://www.wsdlfiupm.es/resources/group14/propiedades/distrito> rdf:type owl:DatatypeProperty ;
+###  http://www.wsdlfiupm.es/resources/group14/properties/district
+<http://www.wsdlfiupm.es/resources/group14/properties/district> rdf:type owl:DatatypeProperty ;
                                                                     rdfs:subPropertyOf owl:topDataProperty ;
-                                                                    rdfs:domain <http://www.wsdlfiupm.es/resources/group14/Localización> ;
+                                                                    rdfs:domain <http://www.wsdlfiupm.es/resources/group14/Position> ;
                                                                     rdfs:range rdfs:Literal ;
-                                                                    rdfs:label "distrito"^^xsd:string .
+                                                                    rdfs:label "district"^^xsd:string .
 
 
-###  http://www.wsdlfiupm.es/resources/group14/propiedades/tipo
-<http://www.wsdlfiupm.es/resources/group14/propiedades/tipo> rdf:type owl:DatatypeProperty ;
+###  http://www.wsdlfiupm.es/resources/group14/properties/type
+<http://www.wsdlfiupm.es/resources/group14/properties/type> rdf:type owl:DatatypeProperty ;
                                                                     rdfs:subPropertyOf owl:topDataProperty ;
-                                                                    rdfs:domain <http://www.wsdlfiupm.es/resources/group14/R8uHN6Gy3HRj370VPcWHOCy> ;
-                                                                    rdfs:range <http://www.wsdlfiupm.es/resources/group14/tipos/Religioso> ,
-                                                                               <http://www.wsdlfiupm.es/resources/group14/tipos/Ministerios> ,
-                                                                               <http://www.wsdlfiupm.es/resources/group14/tipos/Ocio> ,
-                                                                               <http://www.wsdlfiupm.es/resources/group14/tipos/Bares> ,
-                                                                               <http://www.wsdlfiupm.es/resources/group14/tipos/Institutos> ,
-                                                                               <http://www.wsdlfiupm.es/resources/group14/tipos/Histórico> ;
-                                                                    rdfs:label "tipo"^^xsd:string .
+                                                                    rdfs:domain <http://www.wsdlfiupm.es/resources/group14/clase/Organizations> ;
+                                                                    rdfs:range <http://www.wsdlfiupm.es/resources/group14/types/Religioso> ,
+                                                                               <http://www.wsdlfiupm.es/resources/group14/types/Ministerios> ,
+                                                                               <http://www.wsdlfiupm.es/resources/group14/types/Leisure> ,
+                                                                               <http://www.wsdlfiupm.es/resources/group14/types/Bars> ,
+                                                                               <http://www.wsdlfiupm.es/resources/group14/types/Institutes> ,
+                                                                               <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+                                                                    rdfs:label "type"^^xsd:string .
 
 
-###  http://www.wsdlfiupm.es/resources/group14/propiedades/descripción
-<http://www.wsdlfiupm.es/resources/group14/propiedades/descripción> rdf:type owl:DatatypeProperty ;
+###  http://www.wsdlfiupm.es/resources/group14/properties/description
+<http://www.wsdlfiupm.es/resources/group14/properties/description> rdf:type owl:DatatypeProperty ;
                                                                     rdfs:subPropertyOf owl:topDataProperty ;
                                                                     rdfs:domain <http://dbpedia.org/ontology/Place> ;
                                                                     rdfs:range rdfs:Literal ;
-                                                                    rdfs:label "descripción"^^xsd:string .
+                                                                    rdfs:label "description"^^xsd:string .
 
 
-###  http://www.wsdlfiupm.es/resources/group14/propiedades/calle
-<http://www.wsdlfiupm.es/resources/group14/propiedades/calle> rdf:type owl:DatatypeProperty ;
+###  http://www.wsdlfiupm.es/resources/group14/properties/street
+<http://www.wsdlfiupm.es/resources/group14/properties/street> rdf:type owl:DatatypeProperty ;
                                                                     rdfs:subPropertyOf owl:topDataProperty ;
-                                                                    rdfs:domain <http://www.wsdlfiupm.es/resources/group14/Localización> ;
+                                                                    rdfs:domain <http://www.wsdlfiupm.es/resources/group14/Position> ;
                                                                     rdfs:range rdfs:Literal ;
-                                                                    rdfs:label "calle"^^xsd:string .
+                                                                    rdfs:label "street"^^xsd:string .
 
 
-###  http://www.wsdlfiupm.es/resources/group14/propiedades/precio
-<http://www.wsdlfiupm.es/resources/group14/propiedades/precio> rdf:type owl:DatatypeProperty ;
+###  http://www.wsdlfiupm.es/resources/group14/properties/price
+<http://www.wsdlfiupm.es/resources/group14/properties/price> rdf:type owl:DatatypeProperty ;
                                                                     rdfs:subPropertyOf owl:topDataProperty ;
                                                                     rdfs:domain <http://dbpedia.org/ontology/Place> ;
                                                                     rdfs:range xsd:float ;
-                                                                    rdfs:label "precio"^^xsd:string .
+                                                                    rdfs:label "price"^^xsd:string .
 
 
 #################################################################
 #    Classes
 #################################################################
 
-###  http://www.wsdlfiupm.es/resources/group14/clase/Ocio
-<http://www.wsdlfiupm.es/resources/group14/clase/Ocio> rdf:type owl:Class ;
+###  http://www.wsdlfiupm.es/resources/group14/clase/Leisure
+<http://www.wsdlfiupm.es/resources/group14/clase/Leisure> rdf:type owl:Class ;
                                                                     rdfs:subClassOf <http://dbpedia.org/ontology/Place> ;
-                                                                    rdfs:label "Ocio"^^xsd:string .
+                                                                    rdfs:label "Leisure"^^xsd:string .
 
 
-###  http://www.wsdlfiupm.es/resources/group14/clase/Organización
-<http://www.wsdlfiupm.es/resources/group14/clase/Organización> rdf:type owl:Class ;
+###  http://www.wsdlfiupm.es/resources/group14/clase/Organizations
+<http://www.wsdlfiupm.es/resources/group14/clase/Organizations> rdf:type owl:Class ;
                                                                     rdfs:subClassOf <http://dbpedia.org/ontology/Place> ;
-                                                                    rdfs:label "Organización"^^xsd:string .
+                                                                    rdfs:label "Organization"^^xsd:string .
 
 
-###  http://www.wsdlfiupm.es/resources/group14/clase/Museos
-<http://www.wsdlfiupm.es/resources/group14/clase/Museos> rdf:type owl:Class ;
+###  http://www.wsdlfiupm.es/resources/group14/clase/Museums
+<http://www.wsdlfiupm.es/resources/group14/clase/Museums> rdf:type owl:Class ;
                                                                     rdfs:subClassOf <http://dbpedia.org/ontology/Place> ;
-                                                                    rdfs:label "Museos"^^xsd:string .
+                                                                    rdfs:label "Museums"^^xsd:string .
 
 
-###  http://www.wsdlfiupm.es/resources/group14/clase/Localización
-<http://www.wsdlfiupm.es/resources/group14/clase/Localización> rdf:type owl:Class ;
-                                                                    rdfs:label "Localización"^^xsd:string .
+###  http://www.wsdlfiupm.es/resources/group14/clase/Position
+<http://www.wsdlfiupm.es/resources/group14/clase/Position> rdf:type owl:Class ;
+                                                                    rdfs:label "Position"^^xsd:string .
 
 
 ###  http://dbpedia.org/ontology/Place
@@ -165,7 +165,7 @@ rdfs:type rdf:type owl:AnnotationProperty ;
 													rdfs:label "dbo:Place"^^xsd:string .
 
 
-###  http://www.wsdlfiupm.es/resources/group14/clase/Monumentos
-<http://www.wsdlfiupm.es/resources/group14/clase/Monumentos> rdf:type owl:Class ;
+###  http://www.wsdlfiupm.es/resources/group14/clase/Monuments
+<http://www.wsdlfiupm.es/resources/group14/clase/Monuments> rdf:type owl:Class ;
                                                                    rdfs:subClassOf <http://dbpedia.org/ontology/Place> ;
-                                                                   rdfs:label "Monumentos"^^xsd:string .
+                                                                   rdfs:label "Monuments"^^xsd:string .
