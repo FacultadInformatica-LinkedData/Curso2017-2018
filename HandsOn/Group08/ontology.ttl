@@ -1,9 +1,12 @@
 @prefix : <http://www.semanticweb.org/group06/ontology/aparca-bicis#> .
-
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @base <http://www.semanticweb.org/group08/ontology.ttl> 
 
+<http://www.semanticweb.org/group08/> rdf:type owl:Ontology .
 
-#    Datatypes
+#####   Datatypes #####
 
 ###  http://www.w3.org/2006/vcard/ns#fn
 vcard:org rdf:type rdfs:Datatype .
@@ -44,7 +47,7 @@ vevent:url rdf:type rdfs:Datatype .
 ###http://www.w3.org/2002/12/cal#location
 vevent:location rdf:type rdfs:Datatype .
 
-#    Object Properties
+#####  Object Properties #####
 
 ### http://www.w3.org/2006/vcard/ns#hasFN
 :hasFN rdf:type owl:ObjectProperty ;
@@ -79,5 +82,35 @@ vevent:location rdf:type rdfs:Datatype .
 :hasEmail  rdf:type owl:ObjectProperty ;
          rdfs:domain : <> ;
          rdfs:range : <> .
-		 
+	
+### http://www.w3.org/2002/12/cal#hasRrule
+:hasRrule  rdf:type owl:ObjectProperty ;
+         rdfs:domain : <> ;
+         rdfs:range : <> .	
 
+### http://www.w3.org/2002/12/cal#hasDtstart
+:hasDtstart rdf:type owl:ObjectProperty ;
+         rdfs:domain : <> ;
+         rdfs:range : <> .	
+		
+### http://www.w3.org/2002/12/cal#hasDtend
+:hasDtend rdf:type owl:ObjectProperty ;
+         rdfs:domain : <> ;
+         rdfs:range : <> .	
+
+### http://www.w3.org/2002/12/cal#hasUrl
+:hasUrl rdf:type owl:ObjectProperty ;
+         rdfs:domain : <> ;
+         rdfs:range : <> .	
+### http://www.w3.org/2002/12/cal#hasLocation
+:hasLocation rdf:type owl:ObjectProperty ;
+         rdfs:domain : <> ;
+         rdfs:range : <> .	
+		 
+#####   Classes #####
+
+### http://www.semanticweb.org/group08/resources#library
+:library rdf:type owl:Class .
+
+### http://www.semanticweb.org/group08/resources#activity
+:activity rdf:type owl:Class .
