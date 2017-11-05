@@ -1,0 +1,109 @@
+@prefix : <http://www.semanticweb.org/cristian/ontologies/2017/10/untitled-ontology-4#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/cristian/ontologies/2017/10/untitled-ontology-4> .
+
+<http://www.semanticweb.org/cristian/ontologies/2017/10/untitled-ontology-4> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.zaramove.es/transportes/ontology/TransportOntology#estacion_Deposito
+<http://www.zaramove.es/transportes/ontology/TransportOntology#estacion_Deposito> rdf:type owl:ObjectProperty ;
+                                                                                  rdfs:domain <http://www.zaramove.es/transportes/ontology/TransportOntology#Trayecto> ;
+                                                                                  rdfs:range <http://www.zaramove.es/transportes/ontology/TransportOntology#EstaciónBici> .
+
+
+###  http://www.zaramove.es/transportes/ontology/TransportOntology#estacion_Retiro
+<http://www.zaramove.es/transportes/ontology/TransportOntology#estacion_Retiro> rdf:type owl:ObjectProperty ;
+                                                                                rdfs:domain <http://www.zaramove.es/transportes/ontology/TransportOntology#Trayecto> ;
+                                                                                rdfs:range <http://www.zaramove.es/transportes/ontology/TransportOntology#EstaciónBici> .
+
+
+###  http://www.zaramove.es/transportes/ontology/TransportOntology#fecha_Deposito
+<http://www.zaramove.es/transportes/ontology/TransportOntology#fecha_Deposito> rdf:type owl:ObjectProperty ;
+                                                                               rdfs:domain <http://www.zaramove.es/transportes/ontology/TransportOntology#Trayecto> ;
+                                                                               rdfs:range <http://www.zaramove.es/transportes/ontology/TransportOntology#Fecha> .
+
+
+###  http://www.zaramove.es/transportes/ontology/TransportOntology#fecha_Retiro
+<http://www.zaramove.es/transportes/ontology/TransportOntology#fecha_Retiro> rdf:type owl:ObjectProperty ;
+                                                                             rdfs:domain <http://www.zaramove.es/transportes/ontology/TransportOntology#Trayecto> ;
+                                                                             rdfs:range <http://www.zaramove.es/transportes/ontology/TransportOntology#Fecha> .
+
+
+###  http://www.zaramove.es/transportes/ontology/TransportOntology#realiza
+<http://www.zaramove.es/transportes/ontology/TransportOntology#realiza> rdf:type owl:ObjectProperty ;
+                                                                        rdfs:domain <http://www.zaramove.es/transportes/ontology/TransportOntology#Usuario> ;
+                                                                        rdfs:range <http://www.zaramove.es/transportes/ontology/TransportOntology#Trayecto> .
+
+
+###  http://www.zaramove.es/transportes/ontology/TransportOntology#tiene_Info
+<http://www.zaramove.es/transportes/ontology/TransportOntology#tiene_Info> rdf:type owl:ObjectProperty ;
+                                                                           rdfs:domain <http://www.zaramove.es/transportes/ontology/TransportOntology#Marquesina> ;
+                                                                           rdfs:range <http://www.zaramove.es/transportes/ontology/TransportOntology#Info> .
+
+
+###  http://www.zaramove.es/transportes/ontology/TransportOntology#tiene_Posición
+<http://www.zaramove.es/transportes/ontology/TransportOntology#tiene_Posición> rdf:type owl:ObjectProperty ;
+                                                                               rdfs:domain <http://www.zaramove.es/transportes/ontology/TransportOntology#Marquesina> ;
+                                                                               rdfs:range <http://www.zaramove.es/transportes/ontology/TransportOntology#Posición> .
+
+
+###  http://www.zaramove.es/transportes/ontology/TransportOntology#tiene_icono
+<http://www.zaramove.es/transportes/ontology/TransportOntology#tiene_icono> rdf:type owl:ObjectProperty ;
+                                                                            rdfs:domain <http://www.zaramove.es/transportes/ontology/TransportOntology#Marquesina> ;
+                                                                            rdfs:range <http://www.zaramove.es/transportes/ontology/TransportOntology#Icono> .
+
+
+###  http://www.zaramove.es/transportes/ontology/TransportOntology#tiene_link
+<http://www.zaramove.es/transportes/ontology/TransportOntology#tiene_link> rdf:type owl:ObjectProperty ;
+                                                                           rdfs:domain <http://www.zaramove.es/transportes/ontology/TransportOntology#Marquesina> ;
+                                                                           rdfs:range <http://www.zaramove.es/transportes/ontology/TransportOntology#Link> .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.zaramove.es/transportes/ontology/TransportOntology#EstaciónBici
+<http://www.zaramove.es/transportes/ontology/TransportOntology#EstaciónBici> rdf:type owl:Class .
+
+
+###  http://www.zaramove.es/transportes/ontology/TransportOntology#Fecha
+<http://www.zaramove.es/transportes/ontology/TransportOntology#Fecha> rdf:type owl:Class .
+
+
+###  http://www.zaramove.es/transportes/ontology/TransportOntology#Icono
+<http://www.zaramove.es/transportes/ontology/TransportOntology#Icono> rdf:type owl:Class .
+
+
+###  http://www.zaramove.es/transportes/ontology/TransportOntology#Info
+<http://www.zaramove.es/transportes/ontology/TransportOntology#Info> rdf:type owl:Class .
+
+
+###  http://www.zaramove.es/transportes/ontology/TransportOntology#Link
+<http://www.zaramove.es/transportes/ontology/TransportOntology#Link> rdf:type owl:Class .
+
+
+###  http://www.zaramove.es/transportes/ontology/TransportOntology#Marquesina
+<http://www.zaramove.es/transportes/ontology/TransportOntology#Marquesina> rdf:type owl:Class .
+
+
+###  http://www.zaramove.es/transportes/ontology/TransportOntology#Posición
+<http://www.zaramove.es/transportes/ontology/TransportOntology#Posición> rdf:type owl:Class .
+
+
+###  http://www.zaramove.es/transportes/ontology/TransportOntology#Trayecto
+<http://www.zaramove.es/transportes/ontology/TransportOntology#Trayecto> rdf:type owl:Class .
+
+
+###  http://www.zaramove.es/transportes/ontology/TransportOntology#Usuario
+<http://www.zaramove.es/transportes/ontology/TransportOntology#Usuario> rdf:type owl:Class .
+
+
+###  Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi
