@@ -22,3 +22,6 @@ This is the directory where students have to upload their materials related to t
 * /requirements/datasetRequirements.html - An HTML document that discusses whether the selected datasets satisfy the requirements. All the requirements must be satisfied by the datasets with the exception of the optional requirements; for these, the degree of satisfaction must be discussed
 * /requirements/applicationRequirements.html - An HTML document that specifies the requirements of the application that will be built, with user interface mock-ups
 * /selfAssessmentHandsOn1.md - A Markdown document with the hands-on 1 self-assessment
+* /analysis.html - An HTML document that includes the analyses performed over the data source and the licensing of the data source, as well as the resource naming strategy defined.
+* /ontology/*.ttl - An OWL file (using the Turtle syntax) with the ontology developed, according to the resource naming strategy defined.
+* /selfAssessmentHandsOn2.md - A Markdown document with the hands-on 2 self-assessment
