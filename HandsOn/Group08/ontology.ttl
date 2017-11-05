@@ -53,7 +53,7 @@ vevent:location rdf:type rdfs:Datatype .
 vcard:hasFN rdf:type owl:ObjectProperty ;
          rdfs:domain : <> ;
          rdfs:range : <> .
-### hhttp://www.semanticweb.org/group08/resources#hasSchedule
+### http://www.semanticweb.org/group08/resources#hasSchedule
 resources:hasSchedule rdf:type owl:ObjectProperty ;
          rdfs:domain : <> ;
          rdfs:range : <> .
