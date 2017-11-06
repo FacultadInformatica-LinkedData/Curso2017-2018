@@ -21,4 +21,5 @@ The "applicationRequirements.html” file:
 - [x] Includes a description of the application user interface
 
 ##Comments on the self-assessment## (If required)
+
 Debido al problema de manejo de los csv anteriores, se ha optado por cambiar de datasets para obtener unos más asequibles
