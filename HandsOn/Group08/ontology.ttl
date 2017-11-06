@@ -2,6 +2,8 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix resources: <http://www.semanticweb.org/group08/resources#> .
 @base <http://www.semanticweb.org/group08/ontology.ttl> 
 
 <http://www.semanticweb.org/group08/> rdf:type owl:Ontology .
@@ -107,7 +109,7 @@ resources:hasLocation rdf:type owl:ObjectProperty ;
          rdfs:domain : <> ;
          rdfs:range : <> .	
 		 
-#####   Classes #####
+#####  Classes #####
 
 ### http://www.semanticweb.org/group08/resources#Library
 resources:library rdf:type owl:Class .
