@@ -26,7 +26,7 @@
 [X]&nbsp;&nbsp;Defines all property names starting with a non-capital letter
 [X]&nbsp;&nbsp;Does not mix labels in different languages (e.g., Spanish and English)
 [X]&nbsp;&nbsp;Does not define multiple domains or multiple ranges in properties
-[ ]&nbsp;&nbsp;Contains at least one class that will be used to link to other entities
+[X]&nbsp;&nbsp;Contains at least one class that will be used to link to other entities
 
 ## Comments on self-assesement
 Aunque solo aparezca un solo commit, la realización de la ontología ha sido llevada a cabo por todos los miembros del grupo.
