@@ -29,4 +29,5 @@ The ontology file:
 - [x] Does not mix labels in different languages (e.g., Spanish and English)
 - [x] Does not define multiple domains or multiple ranges in properties
 - [x] Contains at least one class that will be used to link to other entities
+
 ##Comments on the self-assessment## (If required)
