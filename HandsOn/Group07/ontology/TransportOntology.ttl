@@ -67,6 +67,16 @@
 
 
 #################################################################
+#    Data properties
+#################################################################
+
+###  http://www.zaramove.es/transportes/ontology/TransportOntology#tieneValor
+<http://www.zaramove.es/transportes/ontology/TransportOntology#tieneValor> rdf:type owl:DatatypeProperty ;
+                                                                           rdfs:domain <http://www.zaramove.es/transportes/ontology/TransportOntology#Link> ;
+                                                                           rdfs:range xsd:string .
+
+
+#################################################################
 #    Classes
 #################################################################
 
