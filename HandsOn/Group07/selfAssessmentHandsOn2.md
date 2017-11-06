@@ -9,6 +9,7 @@
 [X]&nbsp;&nbsp;Includes the resource naming strategy
 
 **The resource naming strategy:**
+
 [X]&nbsp;&nbsp;Uses a domain that is not the one given by default in Protégé
 
 [X]&nbsp;&nbsp;Uses different paths for ontology resources (i.e., classes and properties) and individuals
@@ -18,6 +19,7 @@
 [X]&nbsp;&nbsp;Defines property URIs independently of class URIs
 
 **The "ontology" directory:**
+
 [X]&nbsp;&nbsp;Uses the .ttl extension
 
 [X]&nbsp;&nbsp;Is serialized in the Turtle format
