@@ -27,7 +27,7 @@
 - [X] Defines all class names starting with a capital letter
 - [X] Defines all property names starting with a non-capital letter
 - [X] Does not mix labels in different languages (e.g., Spanish and English)
-- [X] Does not define multiple domains or multiple ranges in properties
+- [ ] Does not define multiple domains or multiple ranges in properties
 - [X] Contains at least one class that will be used to link to other entities
 
 ##Comments on the self-assessment##
