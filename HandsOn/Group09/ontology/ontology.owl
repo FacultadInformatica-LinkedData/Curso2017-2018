@@ -1,0 +1,368 @@
+@prefix : <http://www.semanticweb.org/2017grupo9/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/2017grupo9/> .
+
+<http://www.semanticweb.org/2017grupo9/> rdf:type owl:Ontology ;
+                                          rdfs:comment "Ontologí­a que representa las distintas entidades deducidas de los datos obtenidos y analizados en la entrega anterior, así­ como los object properties y los data properties a las que pueden estar asociadas"^^xsd:string ;
+                                          owl:versionInfo "versión 1.0" .
+
+#################################################################
+#    Datatypes
+#################################################################
+
+###  http://www.w3.org/2003/01/geo/wgs84_pos#lat
+<http://www.w3.org/2003/01/geo/wgs84_pos#lat> rdf:type rdfs:Datatype .
+
+
+###  http://www.w3.org/2003/01/geo/wgs84_pos#long
+<http://www.w3.org/2003/01/geo/wgs84_pos#long> rdf:type rdfs:Datatype .
+
+
+###  https://www.w3.org/2003/01/geo/wgs84_pos#location
+<https://www.w3.org/2003/01/geo/wgs84_pos#location> rdf:type rdfs:Datatype .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/2017grupo9/Calidad_del_Aire
+:Calidad_del_Aire rdf:type owl:ObjectProperty ;
+                  rdfs:domain :Alcobendas ,
+                              :Castilla_y_Leon ,
+                              :Euskadi ,
+                              :Torrent .
+
+
+###  http://www.semanticweb.org/2017grupo9/Esperanza_de_Vida
+:Esperanza_de_Vida rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf owl:topObjectProperty ;
+                   rdfs:domain :Barcelona .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/2017grupo9/
+<http://www.semanticweb.org/2017grupo9/> rdf:type owl:DatatypeProperty ;
+                                         rdfs:domain :Barcelona ;
+                                         rdfs:range xsd:float .
+
+
+###  http://www.semanticweb.org/2017grupo9/ANY
+:ANY rdf:type owl:DatatypeProperty ;
+     rdfs:domain :Torrent ;
+     rdfs:range xsd:decimal .
+
+
+###  http://www.semanticweb.org/2017grupo9/Address
+:Address rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Euskadi ;
+         rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/2017grupo9/Barris
+:Barris rdf:type owl:DatatypeProperty ;
+        rdfs:domain :Barcelona ;
+        rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/2017grupo9/Benceno
+:Benceno rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Alcobendas ;
+         rdfs:range xsd:float .
+
+
+###  http://www.semanticweb.org/2017grupo9/CO
+:CO rdf:type owl:DatatypeProperty ;
+    rdfs:domain :Castilla_y_Leon ,
+                :Torrent ;
+    rdfs:range xsd:float .
+
+
+###  http://www.semanticweb.org/2017grupo9/Coordenates_X_ETRS89
+:Coordenates_X_ETRS89 rdf:type owl:DatatypeProperty ;
+                      rdfs:domain :Euskadi ;
+                      rdfs:range <https://www.w3.org/2003/01/geo/wgs84_pos#location> .
+
+
+###  http://www.semanticweb.org/2017grupo9/Coordenates_Y_ETRS89
+:Coordenates_Y_ETRS89 rdf:type owl:DatatypeProperty ;
+                      rdfs:domain :Euskadi ;
+                      rdfs:range <https://www.w3.org/2003/01/geo/wgs84_pos#location> .
+
+
+###  http://www.semanticweb.org/2017grupo9/Description
+:Description rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Euskadi ;
+             rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/2017grupo9/Direc
+:Direc rdf:type owl:DatatypeProperty ;
+       rdfs:domain :Torrent ;
+       rdfs:range xsd:decimal .
+
+
+###  http://www.semanticweb.org/2017grupo9/Dióxido_de_Nitrógeno
+:Dióxido_de_Nitrógeno rdf:type owl:DatatypeProperty ;
+                      owl:equivalentProperty :NO2 ;
+                      rdfs:domain :Alcobendas ,
+                                  :Castilla_y_Leon ,
+                                  :Torrent ;
+                      rdfs:range xsd:decimal .
+
+
+###  http://www.semanticweb.org/2017grupo9/Dte
+:Dte rdf:type owl:DatatypeProperty ;
+     rdfs:domain :Barcelona ;
+     rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/2017grupo9/Dí­a
+:Dí­a rdf:type owl:DatatypeProperty ;
+     owl:equivalentProperty :FECHA ,
+                            :Fecha .
+
+
+###  http://www.semanticweb.org/2017grupo9/Estación
+:Estación rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Castilla_y_Leon ;
+          rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/2017grupo9/FECHA
+:FECHA rdf:type owl:DatatypeProperty ;
+       owl:equivalentProperty :Fecha .
+
+
+###  http://www.semanticweb.org/2017grupo9/Fecha
+:Fecha rdf:type owl:DatatypeProperty ;
+       rdfs:domain :Alcobendas ,
+                   :Castilla_y_Leon ,
+                   :Torrent ;
+       rdfs:range xsd:dateTime .
+
+
+###  http://www.semanticweb.org/2017grupo9/H.Rel
+:H.Rel rdf:type owl:DatatypeProperty ;
+       rdfs:domain :Torrent ;
+       rdfs:range xsd:decimal .
+
+
+###  http://www.semanticweb.org/2017grupo9/Hidrocarburos_no_metano
+:Hidrocarburos_no_metano rdf:type owl:DatatypeProperty ;
+                         rdfs:domain :Alcobendas ;
+                         rdfs:range xsd:float .
+
+
+###  http://www.semanticweb.org/2017grupo9/Hidrocarburos_totales
+:Hidrocarburos_totales rdf:type owl:DatatypeProperty ;
+                       rdfs:domain :Alcobendas ;
+                       rdfs:range xsd:float .
+
+
+###  http://www.semanticweb.org/2017grupo9/Hora
+:Hora rdf:type owl:DatatypeProperty ;
+      rdfs:domain :Torrent ;
+      rdfs:range xsd:decimal .
+
+
+###  http://www.semanticweb.org/2017grupo9/Latitude
+:Latitude rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Euskadi ;
+          rdfs:range <http://www.w3.org/2003/01/geo/wgs84_pos#lat> .
+
+
+###  http://www.semanticweb.org/2017grupo9/Longitude
+:Longitude rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Euskadi ;
+           rdfs:range <http://www.w3.org/2003/01/geo/wgs84_pos#long> .
+
+
+###  http://www.semanticweb.org/2017grupo9/Monóxido_de_Nitrógeno
+:Monóxido_de_Nitrógeno rdf:type owl:DatatypeProperty ;
+                       owl:equivalentProperty :NO ;
+                       rdfs:domain :Alcobendas ,
+                                   :Castilla_y_Leon ,
+                                   :Torrent ;
+                       rdfs:range xsd:decimal .
+
+
+###  http://www.semanticweb.org/2017grupo9/NO
+:NO rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/2017grupo9/NO2
+:NO2 rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/2017grupo9/Name
+:Name rdf:type owl:DatatypeProperty ;
+      rdfs:domain :Euskadi ;
+      rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/2017grupo9/Nox
+:Nox rdf:type owl:DatatypeProperty ;
+     rdfs:domain :Torrent ;
+     rdfs:range xsd:decimal .
+
+
+###  http://www.semanticweb.org/2017grupo9/O3
+:O3 rdf:type owl:DatatypeProperty ;
+    owl:equivalentProperty :Ozono .
+
+
+###  http://www.semanticweb.org/2017grupo9/Ozono
+:Ozono rdf:type owl:DatatypeProperty ;
+       rdfs:domain :Alcobendas ,
+                   :Castilla_y_Leon ,
+                   :Torrent ;
+       rdfs:range xsd:decimal .
+
+
+###  http://www.semanticweb.org/2017grupo9/PM1
+:PM1 rdf:type owl:DatatypeProperty ;
+     rdfs:domain :Torrent ;
+     rdfs:range xsd:float .
+
+
+###  http://www.semanticweb.org/2017grupo9/PM10
+:PM10 rdf:type owl:DatatypeProperty ;
+      owl:equivalentProperty :Partí­culas_en_suspensión_PM10 .
+
+
+###  http://www.semanticweb.org/2017grupo9/PM2.5
+:PM2.5 rdf:type owl:DatatypeProperty ;
+       rdfs:domain :Castilla_y_Leon ,
+                   :Torrent ;
+       rdfs:range xsd:decimal .
+
+
+###  http://www.semanticweb.org/2017grupo9/PST
+:PST rdf:type owl:DatatypeProperty ;
+     rdfs:domain :Castilla_y_Leon ;
+     rdfs:range xsd:decimal .
+
+
+###  http://www.semanticweb.org/2017grupo9/Partí­culas_en_suspensión_PM10
+:Partí­culas_en_suspensión_PM10 rdf:type owl:DatatypeProperty ;
+                               rdfs:domain :Alcobendas ,
+                                           :Castilla_y_Leon ,
+                                           :Torrent ;
+                               rdfs:range xsd:decimal .
+
+
+###  http://www.semanticweb.org/2017grupo9/Precip
+:Precip rdf:type owl:DatatypeProperty ;
+        rdfs:domain :Torrent ;
+        rdfs:range xsd:float .
+
+
+###  http://www.semanticweb.org/2017grupo9/Pres
+:Pres rdf:type owl:DatatypeProperty ;
+      rdfs:domain :Torrent ;
+      rdfs:range xsd:decimal .
+
+
+###  http://www.semanticweb.org/2017grupo9/Province
+:Province rdf:type owl:DatatypeProperty ;
+          owl:equivalentProperty :Provincia ;
+          rdfs:domain :Castilla_y_Leon ,
+                      :Euskadi ;
+          rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/2017grupo9/Provincia
+:Provincia rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/2017grupo9/R.Sol
+:R.Sol rdf:type owl:DatatypeProperty ;
+       rdfs:domain :Torrent ;
+       rdfs:range xsd:decimal .
+
+
+###  http://www.semanticweb.org/2017grupo9/SH2
+:SH2 rdf:type owl:DatatypeProperty ;
+     rdfs:domain :Castilla_y_Leon ;
+     rdfs:range xsd:decimal .
+
+
+###  http://www.semanticweb.org/2017grupo9/SO2
+:SO2 rdf:type owl:DatatypeProperty ;
+     rdfs:domain :Castilla_y_Leon ,
+                 :Torrent ;
+     rdfs:range xsd:decimal .
+
+
+###  http://www.semanticweb.org/2017grupo9/Temp
+:Temp rdf:type owl:DatatypeProperty ;
+      rdfs:domain :Torrent ;
+      rdfs:range xsd:float .
+
+
+###  http://www.semanticweb.org/2017grupo9/Tolueno
+:Tolueno rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Alcobendas ;
+         rdfs:range xsd:float .
+
+
+###  http://www.semanticweb.org/2017grupo9/Town
+:Town rdf:type owl:DatatypeProperty ;
+      rdfs:domain :Euskadi ;
+      rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/2017grupo9/Veloc
+:Veloc rdf:type owl:DatatypeProperty ;
+       rdfs:domain :Torrent ;
+       rdfs:range xsd:float .
+
+
+###  http://www.semanticweb.org/2017grupo9/Xileno
+:Xileno rdf:type owl:DatatypeProperty ;
+        rdfs:domain :Alcobendas ;
+        rdfs:range xsd:float .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/2017grupo9/Alcobendas
+:Alcobendas rdf:type owl:Class ;
+            rdfs:subClassOf :Ciudades .
+
+
+###  http://www.semanticweb.org/2017grupo9/Barcelona
+:Barcelona rdf:type owl:Class ;
+           rdfs:subClassOf :Ciudades .
+
+
+###  http://www.semanticweb.org/2017grupo9/Castilla_y_Leon
+:Castilla_y_Leon rdf:type owl:Class ;
+                 rdfs:subClassOf :Ciudades .
+
+
+###  http://www.semanticweb.org/2017grupo9/Ciudades
+:Ciudades rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/2017grupo9/Euskadi
+:Euskadi rdf:type owl:Class ;
+         rdfs:subClassOf :Ciudades .
+
+
+###  http://www.semanticweb.org/2017grupo9/Torrent
+:Torrent rdf:type owl:Class ;
+         rdfs:subClassOf :Ciudades .
+
+
+###  Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi
