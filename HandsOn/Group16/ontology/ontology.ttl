@@ -1,13 +1,13 @@
-@prefix : <http://www.semanticweb.es/group30/ontology/Taxis##> .
+@prefix : <http://www.semanticweb.es/group16/ontology/Taxis##> .
  @prefix owl: <http://www.w3.org/2002/07/owl#> .
  @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
  @prefix xml: <http://www.w3.org/XML/1998/namespace> .
  @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
  @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
- @prefix metrostation#: <http://www.semanticweb.es/group30/ontology/Taxis#> .
- @base <http://www.semanticweb.es/group30/ontology/Taxis#> .
+ @prefix metrostation#: <http://www.semanticweb.es/group16/ontology/Taxis#> .
+ @base <http://www.semanticweb.es/group16/ontology/Taxis#> .
  
- <http://www.semanticweb.es/group30/ontology/Taxis#> rdf:type owl:Ontology .
+ <http://www.semanticweb.es/group16/ontology/Taxis#> rdf:type owl:Ontology .
  
  #################################################################
  #    Datatypes
@@ -21,37 +21,37 @@
  #    Object Properties
  #################################################################
  
- ###  http://www.semanticweb.es/group30/ontology/Taxis#EnLocalizacion
- taxis#:EnLaCalle rdf:type owl:ObjectProperty ;
+ ###  http://www.semanticweb.es/group16/ontology/Taxis#EnLocalizacion
+ taxis#:Localizacion rdf:type owl:ObjectProperty ;
                          rdfs:domain taxis#:Categoria ;
                          rdfs:range taxis#:Calle .
 
  
- ###  http://www.semanticweb.es/group30/ontology/MetroStation#CategoriaTaxi
- taxis#:Linea_Lineas rdf:type owl:ObjectProperty ;
+ ###  http://www.semanticweb.es/group16/ontology/Taxis#CategoriaTaxi
+ taxis#:CategoriaTaxi rdf:type owl:ObjectProperty ;
                             rdfs:domain taxis#:Calle ;
                             rdfs:range taxis#:Categoria .
  
  
- ###  http://www.semanticweb.es/group30/ontology/MetroStation#Latitud
- taxis#:Pre-Distancia rdf:type owl:ObjectProperty ;
+ ###  http://www.semanticweb.es/group16/ontology/Taxis#Latitud
+ taxis#:Latitud rdf:type owl:ObjectProperty ;
                              rdfs:domain taxis#:Calle ;
                              rdfs:range taxis#:Latitud .
  
  
- ###  http://www.semanticweb.es/group30/ontology/MetroStation#LimitePlazas
- taxis#:SuZonaEs rdf:type owl:ObjectProperty ;
+ ###  http://www.semanticweb.es/group16/ontology/Taxis#LimitePlazas
+ taxis#:LimitePLazas rdf:type owl:ObjectProperty ;
                         rdfs:domain taxis#:Calle ;
                         rdfs:range taxis#:Numero_Plazas .
  
  
- ###  http://www.semanticweb.es/group30/ontology/MetroStation#Longitud
- taxis#:TipoParada rdf:type owl:ObjectProperty ;
+ ###  http://www.semanticweb.es/group16/ontology/Taxis#Longitud
+ taxis#:Longitud rdf:type owl:ObjectProperty ;
                           rdfs:domain taxis#:Calle ;
                           rdfs:range taxis#:Longitud .
  
  
- ###  http://www.semanticweb.es/group30/ontology/MetroStation#UbicadaEn
+ ###  http://www.semanticweb.es/group16/ontology/Taxis#UbicadaEn
  taxis#:UbicadaEn rdf:type owl:ObjectProperty ;
                          rdfs:domain taxis#:Calle ;
                          rdfs:range taxis#:Municipio .
@@ -61,38 +61,38 @@
  #    Data properties
  #################################################################
  
- ###  http://www.semanticweb.es/group30/ontology/Taxis#Localizacion
+ ###  http://www.semanticweb.es/group16/ontology/Taxis#Localizacion
  taxis#:Direccion rdf:type owl:DatatypeProperty ;
                          rdfs:domain taxis#:Calle ;
                          rdfs:range xsd:string .
  
  
- ###  http://www.semanticweb.es/group30/ontology/Taxis#CategoriaTaxi
- taxis#:Linea rdf:type owl:DatatypeProperty ;
+ ###  http://www.semanticweb.es/group16/ontology/Taxis#CategoriaTaxi
+ taxis#:CategoriaTaxi rdf:type owl:DatatypeProperty ;
                      rdfs:domain taxis#:Categoria ;
                      rdfs:range xsd:string .
  
  
- ###  http://www.semanticweb.es/group30/ontology/Taxis#Recorrido
- taxis#:Long_Tramo rdf:type owl:DatatypeProperty ;
+ ###  http://www.semanticweb.es/group16/ontology/Taxis#Recorrido
+ taxis#:Recorrido rdf:type owl:DatatypeProperty ;
                           rdfs:domain taxis#:Descripcion ;
                           rdfs:range xsd:string .
  
  
- ###  http://www.semanticweb.es/group30/ontology/Taxis#PlazasDisponibles
- taxis#:Municipio rdf:type owl:DatatypeProperty ;
+ ###  http://www.semanticweb.es/group16/ontology/Taxis#PlazasDisponibles
+ taxis#:PlazasDisponibles rdf:type owl:DatatypeProperty ;
                          rdfs:domain taxis#:Numero_Plazas ;
                          rdfs:range xsd:int .
  
  
- ###  http://www.semanticweb.es/group30/ontology/Taxis#Latitud
- taxis#:Sentido rdf:type owl:DatatypeProperty ;
+ ###  http://www.semanticweb.es/group16/ontology/Taxis#Latitud
+ taxis#:Latitud rdf:type owl:DatatypeProperty ;
                        rdfs:domain taxis#:Latitud ;
                        rdfs:range xsd:int .
  
  
- ###  http://www.semanticweb.es/group30/ontology/Taxis#Longitud
- taxis#:Tarifa rdf:type owl:DatatypeProperty ;
+ ###  http://www.semanticweb.es/group16/ontology/Taxis#Longitud
+ taxis#:Longitud rdf:type owl:DatatypeProperty ;
                       rdfs:domain taxis#:Longitud ;
                       rdfs:range xsd:string .
  
@@ -101,27 +101,27 @@
  #    Classes
  #################################################################
  
- ###  http://www.semanticweb.es/group30/ontology/Taxis#Calle
+ ###  http://www.semanticweb.es/group16/ontology/Taxis#Calle
  taxis#:Calle rdf:type owl:Class .
  
  
- ###  http://www.semanticweb.es/group30/ontology/Taxis#Categoria
+ ###  http://www.semanticweb.es/group16/ontology/Taxis#Categoria
  taxis#:Categoria rdf:type owl:Class .
  
  
- ###  http://www.semanticweb.es/group30/ontology/Taxis#Descripcion
+ ###  http://www.semanticweb.es/group16/ontology/Taxis#Descripcion
  taxis#:Descripcion rdf:type owl:Class .
  
  
- ###  http://www.semanticweb.es/group30/ontology/Taxis#Numero_Plazas
+ ###  http://www.semanticweb.es/group16/ontology/Taxis#Numero_Plazas
  taxis#:Numero_Plazas rdf:type owl:Class .
  
  
- ###  http://www.semanticweb.es/group30/ontology/Taxis#Latitud
+ ###  http://www.semanticweb.es/group16/ontology/Taxis#Latitud
  taxis#:Latitud rdf:type owl:Class .
  
  
- ###  http://www.semanticweb.es/group30/ontology/Taxis#Longitud
+ ###  http://www.semanticweb.es/group16/ontology/Taxis#Longitud
  taxis#:Longitud rdf:type owl:Class .
  
 
