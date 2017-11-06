@@ -1,0 +1,191 @@
+@prefix : <http://www.fiupmwsld.org/handson/group17/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.fiupmwsld.org/handson/group17/> .
+
+<http://www.fiupmwsld.org/handson/group17/> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.fiupmwsld.org/handson/group17/estaEnBarrio
+:estaEnBarrio rdf:type owl:ObjectProperty ;
+              rdfs:domain :Distrito ;
+              rdfs:range :Barrio .
+
+
+###  http://www.fiupmwsld.org/handson/group17/estaEnCalle
+:estaEnCalle rdf:type owl:ObjectProperty ;
+             rdfs:domain :Centros ;
+             rdfs:range :Calle .
+
+
+###  http://www.fiupmwsld.org/handson/group17/estaEnDistrito
+:estaEnDistrito rdf:type owl:ObjectProperty ;
+                rdfs:domain :Calle ;
+                rdfs:range :Distrito .
+
+
+###  http://www.fiupmwsld.org/handson/group17/estaEnLocalidad
+:estaEnLocalidad rdf:type owl:ObjectProperty ;
+                 rdfs:domain :Barrio ;
+                 rdfs:range :Localidad .
+
+
+###  http://www.fiupmwsld.org/handson/group17/estaEnProvincia
+:estaEnProvincia rdf:type owl:ObjectProperty ;
+                 rdfs:domain :Localidad ;
+                 rdfs:range :Provincia .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.fiupmwsld.org/handson/group17/tieneAccesibilidad
+:tieneAccesibilidad rdf:type owl:DatatypeProperty ;
+                    rdfs:domain :Centros ;
+                    rdfs:range xsd:boolean .
+
+
+###  http://www.fiupmwsld.org/handson/group17/tieneCP
+:tieneCP rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Distrito ;
+         rdfs:range xsd:integer .
+
+
+###  http://www.fiupmwsld.org/handson/group17/tieneCoordenadaX
+:tieneCoordenadaX rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Centros ;
+                  rdfs:range xsd:integer .
+
+
+###  http://www.fiupmwsld.org/handson/group17/tieneCoordenadaY
+:tieneCoordenadaY rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Centros ;
+                  rdfs:range xsd:integer .
+
+
+###  http://www.fiupmwsld.org/handson/group17/tieneDescripcion
+:tieneDescripcion rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Centros ;
+                  rdfs:range xsd:string .
+
+
+###  http://www.fiupmwsld.org/handson/group17/tieneEmail
+:tieneEmail rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Centros ;
+            rdfs:range xsd:string .
+
+
+###  http://www.fiupmwsld.org/handson/group17/tieneEquipamiento
+:tieneEquipamiento rdf:type owl:DatatypeProperty ;
+                   rdfs:domain :Centros ;
+                   rdfs:range xsd:string .
+
+
+###  http://www.fiupmwsld.org/handson/group17/tieneFax
+:tieneFax rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Centros ;
+          rdfs:range xsd:string .
+
+
+###  http://www.fiupmwsld.org/handson/group17/tieneLatitud
+:tieneLatitud rdf:type owl:DatatypeProperty ;
+              rdfs:domain :Centros ;
+              rdfs:range xsd:float .
+
+
+###  http://www.fiupmwsld.org/handson/group17/tieneLongitud
+:tieneLongitud rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Centros ;
+               rdfs:range xsd:float .
+
+
+###  http://www.fiupmwsld.org/handson/group17/tieneNombre
+:tieneNombre rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Centros ;
+             rdfs:range xsd:string .
+
+
+###  http://www.fiupmwsld.org/handson/group17/tieneNumeroCalle
+:tieneNumeroCalle rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Calle ;
+                  rdfs:range xsd:integer .
+
+
+###  http://www.fiupmwsld.org/handson/group17/tieneTelefono
+:tieneTelefono rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Centros ;
+               rdfs:range xsd:string .
+
+
+###  http://www.fiupmwsld.org/handson/group17/tieneTipoCalle
+:tieneTipoCalle rdf:type owl:DatatypeProperty ;
+                rdfs:domain :Calle ;
+                rdfs:range xsd:string .
+
+
+###  http://www.fiupmwsld.org/handson/group17/tieneTipoPath
+:tieneTipoPath rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Centros ;
+               rdfs:range xsd:string .
+
+
+###  http://www.fiupmwsld.org/handson/group17/tieneTransporte
+:tieneTransporte rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :Centros ;
+                 rdfs:range xsd:string .
+
+
+###  http://www.fiupmwsld.org/handson/group17/tieneURL
+:tieneURL rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Centros ;
+          rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.fiupmwsld.org/handson/group17/Barrio
+:Barrio rdf:type owl:Class .
+
+
+###  http://www.fiupmwsld.org/handson/group17/Calle
+:Calle rdf:type owl:Class .
+
+
+###  http://www.fiupmwsld.org/handson/group17/Centros
+:Centros rdf:type owl:Class .
+
+
+###  http://www.fiupmwsld.org/handson/group17/Distrito
+:Distrito rdf:type owl:Class .
+
+
+###  http://www.fiupmwsld.org/handson/group17/Localidad
+:Localidad rdf:type owl:Class .
+
+
+###  http://www.fiupmwsld.org/handson/group17/Provincia
+:Provincia rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.fiupmwsld.org/handson/group17/name
+:name rdf:type owl:NamedIndividual .
+
+
+###  http://www.fiupmwsld.org/handson/group17/type
+:type rdf:type owl:NamedIndividual .
+
+
+###  Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi
