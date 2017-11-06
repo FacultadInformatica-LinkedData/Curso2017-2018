@@ -1,0 +1,116 @@
+@prefix : <http://www.semanticweb.org/group06/ontology/aparca-bicis#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@base <http://www.semanticweb.org/group08/ontology.ttl> 
+
+<http://www.semanticweb.org/group08/> rdf:type owl:Ontology .
+
+#####   Datatypes #####
+
+###  http://www.w3.org/2006/vcard/ns#fn
+vcard:org rdf:type rdfs:Datatype .
+
+###  http://www.semanticweb.org/group08/resources#schedule
+resources:schedule  rdf:type rdfs:Datatype .
+
+###  http://www.w3.org/2006/vcard/ns#adr
+vcard:adr rdf:type rdfs:Datatype .
+
+###  http://www.w3.org/2006/vcard/ns#street-address
+vcard:street-address rdf:type rdfs:Datatype .
+
+###  http://www.w3.org/2006/vcard/ns#locality
+vcard:locality rdf:type rdfs:Datatype .
+
+###  http://www.w3.org/2006/vcard/ns#postal-code
+vcard:postal-code rdf:type rdfs:Datatype .
+
+###  http://www.w3.org/2006/vcard/ns#tel
+vcard:tel rdf:type rdfs:Datatype .
+
+###  http://www.w3.org/2006/vcard/ns#email
+vcard:email rdf:type rdfs:Datatype .
+
+###http://www.w3.org/2002/12/cal#rrule
+vevent:rrule rdf:type rdfs:Datatype .
+
+###http://www.w3.org/2002/12/cal#dtstart
+vevent:dtstart rdf:type rdfs:Datatype .
+
+###http://www.w3.org/2002/12/cal#dtend
+vevent:dtend rdf:type rdfs:Datatype .
+
+###http://www.w3.org/2002/12/cal#url
+vevent:url rdf:type rdfs:Datatype .
+
+###http://www.w3.org/2002/12/cal#location
+vevent:location rdf:type rdfs:Datatype .
+
+#####  Object Properties #####
+
+### http://www.w3.org/2006/vcard/ns#hasFN
+vcard:hasFN rdf:type owl:ObjectProperty ;
+         rdfs:domain : <> ;
+         rdfs:range : <> .
+### http://www.semanticweb.org/group08/resources#hasSchedule
+resources:hasSchedule rdf:type owl:ObjectProperty ;
+         rdfs:domain : <> ;
+         rdfs:range : <> .
+
+### http://www.w3.org/2006/vcard/ns#hasAddress 
+vcard:hasAddress  rdf:type owl:ObjectProperty ;
+         rdfs:domain : <> ;
+         rdfs:range : <> .
+
+### http://www.w3.org/2006/vcard/ns#hasStreetAddress 
+vcard:hasStreetAddress  rdf:type owl:ObjectProperty ;
+         rdfs:domain : <> ;
+         rdfs:range : <> .
+
+### http://www.w3.org/2006/vcard/ns#hasLocality
+vcard:hasLocality rdf:type owl:ObjectProperty ;
+         rdfs:domain : <> ;
+         rdfs:range : <> .
+
+### http://www.w3.org/2006/vcard/ns#hasPostalCode
+vcard:hasPostalCode rdf:type owl:ObjectProperty ;
+         rdfs:domain : <> ;
+         rdfs:range : <> .
+		 
+### http://www.w3.org/2006/vcard/ns#hasEmail
+vcard:hasEmail  rdf:type owl:ObjectProperty ;
+         rdfs:domain : <> ;
+         rdfs:range : <> .
+	
+### http://www.semanticweb.org/group08/resources#hasRrule
+resources:hasRrule  rdf:type owl:ObjectProperty ;
+         rdfs:domain : <> ;
+         rdfs:range : <> .	
+
+### http://www.semanticweb.org/group08/resources#hasDtstart
+resources:hasDtstart rdf:type owl:ObjectProperty ;
+         rdfs:domain : <> ;
+         rdfs:range : <> .	
+		
+### http://www.semanticweb.org/group08/resources#hasDtend
+resources:hasDtend rdf:type owl:ObjectProperty ;
+         rdfs:domain : <> ;
+         rdfs:range : <> .	
+
+### http://www.semanticweb.org/group08/resources#hasUrl
+resources:hasUrl rdf:type owl:ObjectProperty ;
+         rdfs:domain : <> ;
+         rdfs:range : <> .	
+### http://www.semanticweb.org/group08/resources#hasLocation
+resources:hasLocation rdf:type owl:ObjectProperty ;
+         rdfs:domain : <> ;
+         rdfs:range : <> .	
+		 
+#####   Classes #####
+
+### http://www.semanticweb.org/group08/resources#Library
+resources:library rdf:type owl:Class .
+
+### http://www.semanticweb.org/group08/resources#Activity
+resources:activity rdf:type owl:Class .
