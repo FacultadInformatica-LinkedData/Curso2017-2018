@@ -1,0 +1,148 @@
+@prefix : <http://mapaContaminacionMadrid.com#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://mapaContaminacionMadrid.com> .
+
+<http://mapaContaminacionMadrid.com> rdf:type owl:Ontology ;
+                                      owl:versionIRI <http://mapaContaminacionMadrid.com/1.0/> .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://mapaContaminacionMadrid.com/estáEn
+<http://mapaContaminacionMadrid.com/estáEn> rdf:type owl:AnnotationProperty ;
+                                            rdfs:range <http://dbpedia.org/ontology/Location> .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://es.dbpedia.org/ontology/abstract
+<http://es.dbpedia.org/ontology/abstract> rdf:type owl:ObjectProperty ;
+                                          rdfs:domain <http://es.dbpedia.org/resource/Estacionamiento> ;
+                                          rdfs:range [ rdf:type owl:Restriction ;
+                                                       owl:onProperty rdf:PlainLiteral ;
+                                                       owl:someValuesFrom rdf:PlainLiteral
+                                                     ] .
+
+
+###  http://mapaContaminacionMadrid.com/cantidadGas
+<http://mapaContaminacionMadrid.com/cantidadGas> rdf:type owl:ObjectProperty ;
+                                                 rdfs:domain <http://mapaContaminacionMadrid.com/Medición> ;
+                                                 rdfs:range [ rdf:type owl:Restriction ;
+                                                              owl:onProperty rdf:PlainLiteral ;
+                                                              owl:someValuesFrom rdf:PlainLiteral
+                                                            ] ,
+                                                            [ rdf:type owl:Restriction ;
+                                                              owl:onProperty owl:real ;
+                                                              owl:someValuesFrom rdf:PlainLiteral
+                                                            ] .
+
+
+###  http://mapaContaminacionMadrid.com/estáEn
+<http://mapaContaminacionMadrid.com/estáEn> rdf:type owl:ObjectProperty ;
+                                            rdfs:domain [ owl:intersectionOf ( <http://es.dbpedia.org/resource/Estacionamiento>
+                                                                               <http://es.dbpedia.org/resource/Estación_meteorológica>
+                                                                               <http://mapaContaminacionMadrid.com/Estación_bicicletas>
+                                                                             ) ;
+                                                          rdf:type owl:Class
+                                                        ] .
+
+
+###  http://mapaContaminacionMadrid.com/nombreGas
+<http://mapaContaminacionMadrid.com/nombreGas> rdf:type owl:ObjectProperty ;
+                                               rdfs:domain <http://mapaContaminacionMadrid.com/Medición> ;
+                                               rdfs:range [ rdf:type owl:Restriction ;
+                                                            owl:onProperty rdf:PlainLiteral ;
+                                                            owl:someValuesFrom rdf:PlainLiteral
+                                                          ] .
+
+
+###  http://mapaContaminacionMadrid.com/tieneMedicion
+<http://mapaContaminacionMadrid.com/tieneMedicion> rdf:type owl:ObjectProperty ;
+                                                   rdfs:domain <http://es.dbpedia.org/resource/Estación_meteorológica> ;
+                                                   rdfs:range <http://mapaContaminacionMadrid.com/Medición> .
+
+
+###  http://www.w3.org/2001/XMLSchema#date
+xsd:date rdf:type owl:ObjectProperty ;
+         rdfs:domain <http://mapaContaminacionMadrid.com/Medición> .
+
+
+###  http://xmlns.com/foaf/0.1/name
+<http://xmlns.com/foaf/0.1/name> rdf:type owl:ObjectProperty ;
+                                 rdfs:domain <http://es.dbpedia.org/resource/Estacionamiento> ;
+                                 rdfs:range [ rdf:type owl:Restriction ;
+                                              owl:onProperty xsd:Name ;
+                                              owl:someValuesFrom xsd:Name
+                                            ] .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral
+rdf:PlainLiteral rdf:type owl:DatatypeProperty .
+
+
+###  http://www.w3.org/2001/XMLSchema#Name
+xsd:Name rdf:type owl:DatatypeProperty .
+
+
+###  http://www.w3.org/2002/07/owl#real
+owl:real rdf:type owl:DatatypeProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://dbpedia.org/ontology/Location
+<http://dbpedia.org/ontology/Location> rdf:type owl:Class ;
+                                       rdfs:subClassOf <http://es.dbpedia.org/resource/Estacionamiento> .
+
+
+###  http://es.dbpedia.org/resource/Estacionamiento
+<http://es.dbpedia.org/resource/Estacionamiento> rdf:type owl:Class .
+
+
+###  http://es.dbpedia.org/resource/Estación_meteorológica
+<http://es.dbpedia.org/resource/Estación_meteorológica> rdf:type owl:Class .
+
+
+###  http://mapaContaminacionMadrid.com/Estación_bicicletas
+<http://mapaContaminacionMadrid.com/Estación_bicicletas> rdf:type owl:Class .
+
+
+###  http://mapaContaminacionMadrid.com/Medición
+<http://mapaContaminacionMadrid.com/Medición> rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://es.dbpedia.org/resource/Estacionamiento
+<http://es.dbpedia.org/resource/Estacionamiento> rdf:type owl:NamedIndividual ;
+                                                 <http://mapaContaminacionMadrid.com/estáEn> [ ] .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( <http://es.dbpedia.org/resource/Estacionamiento>
+                <http://es.dbpedia.org/resource/Estación_meteorológica>
+                <http://mapaContaminacionMadrid.com/Estación_bicicletas>
+              )
+] .
+
+
+###  Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi
