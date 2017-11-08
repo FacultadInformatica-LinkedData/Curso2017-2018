@@ -44,7 +44,12 @@
                rdfs:domain :library ;
                rdfs:range xsd:string .
  
- 
+ ###  http://www.semanticweb.es/group08/ontology#hasEmail
+ :hasEmail rdf:type owl:DatatypeProperty ;
+               rdfs:domain :library ;
+               rdfs:range xsd:string .
+  
+
  ###  http://www.semanticweb.es/group08/ontology#hasTitle
  :hasTitle rdf:type owl:DatatypeProperty ;
            rdfs:domain :activity ;
