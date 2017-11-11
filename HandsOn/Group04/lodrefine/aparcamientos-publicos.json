@@ -1,0 +1,1170 @@
+[
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 3",
+    "columnName": "Column 3"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 5",
+    "columnName": "Column 5"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 6",
+    "columnName": "Column 6"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 14",
+    "columnName": "Column 14"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 15",
+    "columnName": "Column 15"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 16",
+    "columnName": "Column 16"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://semanticweb.org/Group04/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Column using expression grel:value",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Column",
+    "expression": "grel:value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://semanticweb.org/Group04/resource",
+      "prefixes": [
+        {
+          "name": "ont",
+          "uri": "http://www.semanticweb.org/Group04/ontology#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://semanticweb.org/Group04/resource",
+      "prefixes": [
+        {
+          "name": "ont",
+          "uri": "http://www.semanticweb.org/Group04/ontology#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column to PK",
+    "oldColumnName": "Column",
+    "newColumnName": "PK"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 2 to NAME",
+    "oldColumnName": "Column 2",
+    "newColumnName": "NAME"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 4 to SCHEDULE",
+    "oldColumnName": "Column 4",
+    "newColumnName": "SCHEDULE"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 7 to DESCRIPTION",
+    "oldColumnName": "Column 7",
+    "newColumnName": "DESCRIPTION"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 8 to ACCESIBILITY",
+    "oldColumnName": "Column 8",
+    "newColumnName": "ACCESIBILITY"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 9 to CONTENT-URL",
+    "oldColumnName": "Column 9",
+    "newColumnName": "CONTENT-URL"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 10 to STREET-NAME",
+    "oldColumnName": "Column 10",
+    "newColumnName": "STREET-NAME"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 11 to STREET-TYPE",
+    "oldColumnName": "Column 11",
+    "newColumnName": "STREET-TYPE"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 12 to NUM-TYPE",
+    "oldColumnName": "Column 12",
+    "newColumnName": "NUM-TYPE"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 13 to NUM",
+    "oldColumnName": "Column 13",
+    "newColumnName": "NUM"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 17 to ORIENTATION",
+    "oldColumnName": "Column 17",
+    "newColumnName": "ORIENTATION"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 18 to LOCATION",
+    "oldColumnName": "Column 18",
+    "newColumnName": "LOCATION"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 19 to STATE",
+    "oldColumnName": "Column 19",
+    "newColumnName": "STATE"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 20 to POSTAL-CODE",
+    "oldColumnName": "Column 20",
+    "newColumnName": "POSTAL-CODE"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 21 to NEIGHBOURHOOD",
+    "oldColumnName": "Column 21",
+    "newColumnName": "NEIGHBOURHOOD"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 22 to DISTRICT",
+    "oldColumnName": "Column 22",
+    "newColumnName": "DISTRICT"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 23 to X-AXIS",
+    "oldColumnName": "Column 23",
+    "newColumnName": "X-AXIS"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 24 to Y-AXIS",
+    "oldColumnName": "Column 24",
+    "newColumnName": "Y-AXIS"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 25 to LATITUDE",
+    "oldColumnName": "Column 25",
+    "newColumnName": "LATITUDE"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 26 to LONGITUDE",
+    "oldColumnName": "Column 26",
+    "newColumnName": "LONGITUDE"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 27 to TELEPHONE",
+    "oldColumnName": "Column 27",
+    "newColumnName": "TELEPHONE"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 28",
+    "columnName": "Column 28"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 29 to EMAIL",
+    "oldColumnName": "Column 29",
+    "newColumnName": "EMAIL"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 30 to TYPE",
+    "oldColumnName": "Column 30",
+    "newColumnName": "TYPE"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 31",
+    "columnName": "Column 31"
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "PK",
+                "l": "PK"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "PK",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "PK"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": true,
+          "selection": [],
+          "selectError": false,
+          "invert": false,
+          "name": "PK",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "PK"
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://semanticweb.org/Group04/resource",
+      "prefixes": [
+        {
+          "name": "ont",
+          "uri": "http://www.semanticweb.org/Group04/ontology#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://semanticweb.org/Group04/resource",
+      "prefixes": [
+        {
+          "name": "ont",
+          "uri": "http://www.semanticweb.org/Group04/ontology#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NAME"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ACCESIBILITY"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://semanticweb.org/Group04/ontology",
+      "prefixes": [
+        {
+          "name": "ont",
+          "uri": "http://www.semanticweb.org/Group04/ontology#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NAME"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ACCESIBILITY"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://semanticweb.org/Group04/ontology",
+      "prefixes": [
+        {
+          "name": "ont",
+          "uri": "http://www.semanticweb.org/Group04/ontology#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "curie": "rdf:type",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NAME",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://semanticweb.org/Group04/ontology",
+      "prefixes": [
+        {
+          "name": "ont",
+          "uri": "http://www.semanticweb.org/Group04/ontology#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NAME",
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://semanticweb.org/Group04/ontology",
+      "prefixes": [
+        {
+          "name": "ont",
+          "uri": "http://www.semanticweb.org/Group04/ontology#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NAME",
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://semanticweb.org/Group04/ontology",
+      "prefixes": [
+        {
+          "name": "ont",
+          "uri": "http://www.semanticweb.org/Group04/ontology#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NAME",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#Class",
+              "curie": "rdfs:Class"
+            }
+          ],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://semanticweb.org/Group04/ontology",
+      "prefixes": [
+        {
+          "name": "ont",
+          "uri": "http://www.semanticweb.org/Group04/ontology#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NAME",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#Class",
+              "curie": "rdfs:Class"
+            }
+          ],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://semanticweb.org/Group04/ontology",
+      "prefixes": [
+        {
+          "name": "ont",
+          "uri": "http://www.semanticweb.org/Group04/ontology#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NAME",
+          "rdfTypes": [
+            {
+              "uri": "PARKING",
+              "curie": ":PARKING"
+            }
+          ],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://semanticweb.org/Group04/ontology",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "ont",
+          "uri": "http://www.semanticweb.org/Group04/ontology#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NAME",
+          "rdfTypes": [
+            {
+              "uri": "PARKING",
+              "curie": ":PARKING"
+            }
+          ],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://semanticweb.org/Group04/ontology",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "ont",
+          "uri": "http://www.semanticweb.org/Group04/ontology#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NAME",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.org/Parking",
+              "curie": "schema:Parking"
+            }
+          ],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://semanticweb.org/Group04/ontology",
+      "prefixes": [
+        {
+          "name": "ont",
+          "uri": "http://www.semanticweb.org/Group04/ontology#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NAME",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.org/Parking",
+              "curie": "schema:Parking"
+            }
+          ],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://semanticweb.org/Group04/ontology",
+      "prefixes": [
+        {
+          "name": "ont",
+          "uri": "http://www.semanticweb.org/Group04/ontology#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NAME",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/Group04/ontology#Parking",
+              "curie": "ont:Parking"
+            }
+          ],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://semanticweb.org/Group04/ontology",
+      "prefixes": [
+        {
+          "name": "ont",
+          "uri": "http://www.semanticweb.org/Group04/ontology#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NAME",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/Group04/ontology#Parking",
+              "curie": "ont:Parking"
+            }
+          ],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://semanticweb.org/Group04/ontology",
+      "prefixes": [
+        {
+          "name": "ont",
+          "uri": "http://www.semanticweb.org/Group04/ontology#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NAME",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/Group04/ontology#Parking",
+              "curie": "ont:Parking"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/Group04/ontology#hasName",
+              "curie": "ont:hasName",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NAME",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://semanticweb.org/Group04/ontology",
+      "prefixes": [
+        {
+          "name": "ont",
+          "uri": "http://www.semanticweb.org/Group04/ontology#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NAME",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/Group04/ontology#Parking",
+              "curie": "ont:Parking"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/Group04/ontology#hasName",
+              "curie": "ont:hasName",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NAME",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/Group04/ontology#isAccesible",
+              "curie": "ont:isAccesible",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ACCESIBILITY",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/Group04/ontology#hasType",
+              "curie": "ont:hasType",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPTION",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/Group04/ontology#hasSchedule",
+              "curie": "ont:hasSchedule",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "SCHEDULE",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/Group04/ontology#isInStreet",
+              "curie": "ont:isInStreet",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "STREET-NAME",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semanticweb.org/Group04/ontology#Street",
+                    "curie": "ont:Street"
+                  }
+                ],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://semanticweb.org/Group04/ontology",
+      "prefixes": [
+        {
+          "name": "ont",
+          "uri": "http://www.semanticweb.org/Group04/ontology#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NAME",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/Group04/ontology#Parking",
+              "curie": "ont:Parking"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/Group04/ontology#isAccesible",
+              "curie": "ont:isAccesible",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ACCESIBILITY",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/Group04/ontology#hasType",
+              "curie": "ont:hasType",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPTION",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/Group04/ontology#isInStreet",
+              "curie": "ont:isInStreet",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "STREET-NAME",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semanticweb.org/Group04/ontology#Street",
+                    "curie": "ont:Street"
+                  }
+                ],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]
