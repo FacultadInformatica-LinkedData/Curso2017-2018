@@ -1,0 +1,1332 @@
+http://www.wsldfiupm.org/handson/group02/vocabulary#
+
+@prefix : <> .
+@prefix     ont: <http://www.wsldfiupm.org/handson/group02/vocabulary#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion1> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "ENERO 2017";
+    ont:distrito "CENTRO - ARGÜELLES";
+    ont:kgRecogidaDeMuebles "24.94"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "699.85"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"2.111"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"25"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"81"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion2> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "ENERO 2017";
+    ont:distrito "CHAMBERÍ";
+    ont:kgRecogidaDeMuebles "22.74"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "374.682"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"541"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"20"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"186"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion3> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "ENERO 2017";
+    ont:distrito "TETUÁN";
+    ont:kgRecogidaDeMuebles "1.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "377.18"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"607"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"41"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"124"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion4> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "ENERO 2017";
+    ont:distrito "ARGANZUELA";
+    ont:kgRecogidaDeMuebles "7.66"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "143.84"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"620"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"30"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"73"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion5> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "ENERO 2017";
+    ont:distrito "RETIRO";
+    ont:kgRecogidaDeMuebles "15.98"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "318.49"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"622"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"52"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"109"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion6> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "ENERO 2017";
+    ont:distrito "SALAMANCA";
+    ont:kgRecogidaDeMuebles "20.74"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "630.84"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"915"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"17"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"115"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion7> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "ENERO 2017";
+    ont:distrito "CHAMARTÍN";
+    ont:kgRecogidaDeMuebles "8.42"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "392.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"976"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"14"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"144"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion8> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "ENERO 2017";
+    ont:distrito "FUENCARRAL";
+    ont:kgRecogidaDeMuebles "30.54"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "775.51"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"740"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"88"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion9> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "ENERO 2017";
+    ont:distrito "MONCLOA";
+    ont:kgRecogidaDeMuebles """"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "422.568"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"953"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"22"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"73"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion10> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "ENERO 2017";
+    ont:distrito "LATINA";
+    ont:kgRecogidaDeMuebles "13.32"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "141.28"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"799"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"11"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"91"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion11> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "ENERO 2017";
+    ont:distrito "BARAJAS";
+    ont:kgRecogidaDeMuebles "10.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "150.16"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"172"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"21"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"73"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion12> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "ENERO 2017";
+    ont:distrito "HORTALEZA";
+    ont:kgRecogidaDeMuebles "25.68"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "294.32"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"657"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"53"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"160"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion13> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "ENERO 2017";
+    ont:distrito "SAN BLAS";
+    ont:kgRecogidaDeMuebles "50.74"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "389.18"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"811"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"18"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"143"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion14> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "ENERO 2017";
+    ont:distrito "CIUDAD LINEAL";
+    ont:kgRecogidaDeMuebles "52.96"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "541.22"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"1.025"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"7"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"100"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion15> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "ENERO 2017";
+    ont:distrito "PTE. VALLECAS";
+    ont:kgRecogidaDeMuebles "10.55"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "568.17"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"1.265"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"47"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"211"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion16> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "ENERO 2017";
+    ont:distrito "VILLA VALLECAS";
+    ont:kgRecogidaDeMuebles "3.165"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "170.451"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"296"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"35"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"126"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion17> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "ENERO 2017";
+    ont:distrito "MORATALAZ";
+    ont:kgRecogidaDeMuebles "4.22"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "227.268"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"336"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"5"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"77"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion18> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "ENERO 2017";
+    ont:distrito "VICÁLVARO";
+    ont:kgRecogidaDeMuebles "3.165"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "170.451"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"164"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"12"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"56"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion19> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "ENERO 2017";
+    ont:distrito "CARABANCHEL";
+    ont:kgRecogidaDeMuebles "5567"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "476790"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"1073"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"21"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"199"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion20> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "ENERO 2017";
+    ont:distrito "USERA";
+    ont:kgRecogidaDeMuebles "3145"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "269490"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"724"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"8"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"100"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion21> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "ENERO 2017";
+    ont:distrito "VILLAVERDE";
+    ont:kgRecogidaDeMuebles "3388"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "290220"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"663"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"18"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"82"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion22> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "FEBRERO 2017";
+    ont:distrito "CENTRO - ARGÜELLES";
+    ont:kgRecogidaDeMuebles "37820"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "642060"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"1851"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"16"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"30"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion23> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "FEBRERO 2017";
+    ont:distrito "CHAMBERÍ";
+    ont:kgRecogidaDeMuebles "35300"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "326850"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"385"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"10"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"12"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion24> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "FEBRERO 2017";
+    ont:distrito "TETUÁN";
+    ont:kgRecogidaDeMuebles "1080"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "337400"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"594"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"25"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"2"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion25> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "FEBRERO 2017";
+    ont:distrito "ARGANZUELA";
+    ont:kgRecogidaDeMuebles "14220"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "113480"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"732"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"31"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"4"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion26> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "FEBRERO 2017";
+    ont:distrito "RETIRO";
+    ont:kgRecogidaDeMuebles "7880"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "321680"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"703"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"47"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"53"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion27> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "FEBRERO 2017";
+    ont:distrito "SALAMANCA";
+    ont:kgRecogidaDeMuebles "20740"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "537440"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"924"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"31"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"2"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion28> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "FEBRERO 2017";
+    ont:distrito "CHAMARTÍN";
+    ont:kgRecogidaDeMuebles "9820"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "319022"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"918"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"15"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"72"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion29> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "FEBRERO 2017";
+    ont:distrito "FUENCARRAL";
+    ont:kgRecogidaDeMuebles """"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "383312"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"943"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"33"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"52"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion30> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "FEBRERO 2017";
+    ont:distrito "MONCLOA";
+    ont:kgRecogidaDeMuebles "14240"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "119480"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"784"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"35"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion31> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "FEBRERO 2017";
+    ont:distrito "LATINA";
+    ont:kgRecogidaDeMuebles """"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "739420"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"720"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"110"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion32> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "FEBRERO 2017";
+    ont:distrito "BARAJAS";
+    ont:kgRecogidaDeMuebles "13700"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "141140"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"177"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"21"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"39"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion33> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "FEBRERO 2017";
+    ont:distrito "HORTALEZA";
+    ont:kgRecogidaDeMuebles "33300"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "280000"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"640"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"43"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"89"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion34> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "FEBRERO 2017";
+    ont:distrito "SAN BLAS";
+    ont:kgRecogidaDeMuebles "35040"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "367420"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"846"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"19"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"61"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion35> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "FEBRERO 2017";
+    ont:distrito "CIUDAD LINEAL";
+    ont:kgRecogidaDeMuebles "58260"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "500640"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"954"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"3"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"96"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion36> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "FEBRERO 2017";
+    ont:distrito "PTE. VALLECAS";
+    ont:kgRecogidaDeMuebles "8080"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "507205"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"1376"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"60"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"181"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion37> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "FEBRERO 2017";
+    ont:distrito "VILLA VALLECAS";
+    ont:kgRecogidaDeMuebles "2424"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos ""152161,5""^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"331"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"34"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"126"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion38> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "FEBRERO 2017";
+    ont:distrito "MORATALAZ";
+    ont:kgRecogidaDeMuebles "3232"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "202882"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"319"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"5"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"66"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion39> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "FEBRERO 2017";
+    ont:distrito "VICÁLVARO";
+    ont:kgRecogidaDeMuebles "2424"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos ""152161,5""^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"187"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"23"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"79"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion40> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "FEBRERO 2017";
+    ont:distrito "CARABANCHEL";
+    ont:kgRecogidaDeMuebles "9844"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "399933"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"1005"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"6"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"100"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion41> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "FEBRERO 2017";
+    ont:distrito "USERA";
+    ont:kgRecogidaDeMuebles "5564"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "226049"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"649"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"3"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"64"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion42> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "FEBRERO 2017";
+    ont:distrito "VILLAVERDE";
+    ont:kgRecogidaDeMuebles "5992"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "243438"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"602"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"5"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"38"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion43> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "MARZO 2017";
+    ont:distrito "CENTRO - ARGÜELLES";
+    ont:kgRecogidaDeMuebles "41760"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "662430"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"1670"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"20"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"37"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion44> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "MARZO 2017";
+    ont:distrito "CHAMBERÍ";
+    ont:kgRecogidaDeMuebles "30020"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "359260"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"497"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"25"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"14"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion45> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "MARZO 2017";
+    ont:distrito "TETUÁN";
+    ont:kgRecogidaDeMuebles "3460"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "324680"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"742"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"40"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"5"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion46> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "MARZO 2017";
+    ont:distrito "ARGANZUELA";
+    ont:kgRecogidaDeMuebles "2560"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "114545"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"807"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"38"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"8"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion47> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "MARZO 2017";
+    ont:distrito "RETIRO";
+    ont:kgRecogidaDeMuebles "9440"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "328520"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"729"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"46"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"56"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion48> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "MARZO 2017";
+    ont:distrito "SALAMANCA";
+    ont:kgRecogidaDeMuebles "42201"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "639610"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"1033"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"32"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"24"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion49> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "MARZO 2017";
+    ont:distrito "CHAMARTÍN";
+    ont:kgRecogidaDeMuebles "0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "445760"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"1031"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"12"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"100"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion50> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "MARZO 2017";
+    ont:distrito "FUENCARRAL";
+    ont:kgRecogidaDeMuebles """"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "682818"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"1040"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"40"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"60"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion51> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "MARZO 2017";
+    ont:distrito "MONCLOA";
+    ont:kgRecogidaDeMuebles "23720"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "135780"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"830"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"2"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"35"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion52> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "MARZO 2017";
+    ont:distrito "LATINA";
+    ont:kgRecogidaDeMuebles "10880"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "659770"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"730"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"120"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion53> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "MARZO 2017";
+    ont:distrito "BARAJAS";
+    ont:kgRecogidaDeMuebles "15260"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "100720"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"198"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"29"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"43"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion54> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "MARZO 2017";
+    ont:distrito "HORTALEZA";
+    ont:kgRecogidaDeMuebles "40460"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "199860"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"717"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"60"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"93"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion55> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "MARZO 2017";
+    ont:distrito "SAN BLAS";
+    ont:kgRecogidaDeMuebles "47040"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "360500"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"905"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"20"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"61"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion56> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "MARZO 2017";
+    ont:distrito "CIUDAD LINEAL";
+    ont:kgRecogidaDeMuebles "63760"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "509060"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"1069"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"4"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"100"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion57> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "MARZO 2017";
+    ont:distrito "PTE. VALLECAS";
+    ont:kgRecogidaDeMuebles "10650"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "586585"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"1494"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"53"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"212"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion58> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "MARZO 2017";
+    ont:distrito "VILLA VALLECAS";
+    ont:kgRecogidaDeMuebles "3195"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos ""175975,5""^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"356"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"34"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"146"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion59> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "MARZO 2017";
+    ont:distrito "MORATALAZ";
+    ont:kgRecogidaDeMuebles "4260"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "234634"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"384"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"3"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"60"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion60> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "MARZO 2017";
+    ont:distrito "VICÁLVARO";
+    ont:kgRecogidaDeMuebles "3195"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos ""175975,5""^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"192"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"5"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"80"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion61> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "MARZO 2017";
+    ont:distrito "CARABANCHEL";
+    ont:kgRecogidaDeMuebles "7581"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "481473"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"1118"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"15"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"134"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion62> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "MARZO 2017";
+    ont:distrito "USERA";
+    ont:kgRecogidaDeMuebles "4285"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "272137"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"723"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"8"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"78"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion63> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "MARZO 2017";
+    ont:distrito "VILLAVERDE";
+    ont:kgRecogidaDeMuebles "4614"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "293071"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"660"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"16"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"48"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion64> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "ABRIL 2017";
+    ont:distrito "CENTRO - ARGÜELLES";
+    ont:kgRecogidaDeMuebles "20560"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "724220"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"2078"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"17"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"53"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion65> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "ABRIL 2017";
+    ont:distrito "CHAMBERÍ";
+    ont:kgRecogidaDeMuebles "19060"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "299250"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"501"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"15"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"58"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion66> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "ABRIL 2017";
+    ont:distrito "TETUÁN";
+    ont:kgRecogidaDeMuebles "1200"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "354160"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"623"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"47"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"20"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion67> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "ABRIL 2017";
+    ont:distrito "ARGANZUELA";
+    ont:kgRecogidaDeMuebles "3720"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "85900"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"707"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"44"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"15"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion68> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "ABRIL 2017";
+    ont:distrito "RETIRO";
+    ont:kgRecogidaDeMuebles "10360"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "349360"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"620"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"23"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"63"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion69> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "ABRIL 2017";
+    ont:distrito "SALAMANCA";
+    ont:kgRecogidaDeMuebles "36080"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "746620"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"953"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"16"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"78"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion70> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "ABRIL 2017";
+    ont:distrito "CHAMARTÍN";
+    ont:kgRecogidaDeMuebles "0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "318390"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"941"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"4"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"106"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion71> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "ABRIL 2017";
+    ont:distrito "FUENCARRAL";
+    ont:kgRecogidaDeMuebles """"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "561566"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"866"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"24"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"62"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion72> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "ABRIL 2017";
+    ont:distrito "MONCLOA";
+    ont:kgRecogidaDeMuebles "21900"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "157660"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"714"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"48"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion73> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "ABRIL 2017";
+    ont:distrito "LATINA";
+    ont:kgRecogidaDeMuebles "5400"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "618760"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"720"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"120"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion74> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "ABRIL 2017";
+    ont:distrito "BARAJAS";
+    ont:kgRecogidaDeMuebles "12700"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "103840"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"177"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"29"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"46"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion75> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "ABRIL 2017";
+    ont:distrito "HORTALEZA";
+    ont:kgRecogidaDeMuebles "31200"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "208480"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"613"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"44"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"109"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion76> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "ABRIL 2017";
+    ont:distrito "SAN BLAS";
+    ont:kgRecogidaDeMuebles "24780"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "324180"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"687"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"21"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"75"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion77> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "ABRIL 2017";
+    ont:distrito "CIUDAD LINEAL";
+    ont:kgRecogidaDeMuebles "49340"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "550580"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"894"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"3"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"116"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion78> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "ABRIL 2017";
+    ont:distrito "PTE. VALLECAS";
+    ont:kgRecogidaDeMuebles "5640"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "543915"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"1408"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"41"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"189"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion79> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "ABRIL 2017";
+    ont:distrito "VILLA VALLECAS";
+    ont:kgRecogidaDeMuebles "1692"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "163175"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"260"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"30"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"138"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion80> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "ABRIL 2017";
+    ont:distrito "MORATALAZ";
+    ont:kgRecogidaDeMuebles "2256"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "217566"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"283"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"1"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"53"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion81> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "ABRIL 2017";
+    ont:distrito "VICÁLVARO";
+    ont:kgRecogidaDeMuebles "1692"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "163175"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"155"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"2"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"66"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion82> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "ABRIL 2017";
+    ont:distrito "CARABANCHEL";
+    ont:kgRecogidaDeMuebles "7093"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "469863"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"1055"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"5"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"107"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion83> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "ABRIL 2017";
+    ont:distrito "USERA";
+    ont:kgRecogidaDeMuebles "4009"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "265574"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"707"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"60"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion84> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "ABRIL 2017";
+    ont:distrito "VILLAVERDE";
+    ont:kgRecogidaDeMuebles "4318"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "286003"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"601"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"4"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"40"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion85> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "MAYO 2017";
+    ont:distrito "CENTRO - ARGÜELLES";
+    ont:kgRecogidaDeMuebles "9740"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "774560"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"2314"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"20"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"42"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion86> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "MAYO 2017";
+    ont:distrito "CHAMBERÍ";
+    ont:kgRecogidaDeMuebles "13280"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "366240"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"572"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"9"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"7"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion87> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "MAYO 2017";
+    ont:distrito "TETUÁN";
+    ont:kgRecogidaDeMuebles "9840"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "389040"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"1008"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"58"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"2"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion88> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "MAYO 2017";
+    ont:distrito "ARGANZUELA";
+    ont:kgRecogidaDeMuebles "4200"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "145475"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"848"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"26"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"1"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion89> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "MAYO 2017";
+    ont:distrito "RETIRO";
+    ont:kgRecogidaDeMuebles "13700"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "368900"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"840"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"24"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"46"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion90> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "MAYO 2017";
+    ont:distrito "SALAMANCA";
+    ont:kgRecogidaDeMuebles "22980"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "844980"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"1324"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"32"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"49"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion91> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "MAYO 2017";
+    ont:distrito "CHAMARTÍN";
+    ont:kgRecogidaDeMuebles "7200"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "232620"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"1174"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"5"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"76"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion92> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "MAYO 2017";
+    ont:distrito "FUENCARRAL";
+    ont:kgRecogidaDeMuebles "13760"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "670460"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"740"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"126"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion93> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "MAYO 2017";
+    ont:distrito "MONCLOA";
+    ont:kgRecogidaDeMuebles """"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "538590"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"998"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"29"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"69"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion94> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "MAYO 2017";
+    ont:distrito "LATINA";
+    ont:kgRecogidaDeMuebles "16180"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "163880"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"740"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"34"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion95> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "MAYO 2017";
+    ont:distrito "BARAJAS";
+    ont:kgRecogidaDeMuebles "11460"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "127100"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"193"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"10"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"40"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion96> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "MAYO 2017";
+    ont:distrito "HORTALEZA";
+    ont:kgRecogidaDeMuebles "32860"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "250800"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"816"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"149"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"64"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion97> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "MAYO 2017";
+    ont:distrito "SAN BLAS";
+    ont:kgRecogidaDeMuebles "46120"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "361580"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"895"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"12"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"53"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion98> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "MAYO 2017";
+    ont:distrito "CIUDAD LINEAL";
+    ont:kgRecogidaDeMuebles "54500"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "516040"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"1122"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"5"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"98"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion99> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "MAYO 2017";
+    ont:distrito "PTE. VALLECAS";
+    ont:kgRecogidaDeMuebles "8350"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "644130"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"1527"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"44"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"170"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion100> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "MAYO 2017";
+    ont:distrito "VILLA VALLECAS";
+    ont:kgRecogidaDeMuebles "2505"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "193239"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"361"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"31"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"144"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion101> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "MAYO 2017";
+    ont:distrito "MORATALAZ";
+    ont:kgRecogidaDeMuebles "3340"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "257652"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"372"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"5"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"56"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion102> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "MAYO 2017";
+    ont:distrito "VICÁLVARO";
+    ont:kgRecogidaDeMuebles "2505"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "193239"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"221"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"3"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"52"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion103> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "MAYO 2017";
+    ont:distrito "CARABANCHEL";
+    ont:kgRecogidaDeMuebles "5345"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "531383"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"1232"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"4"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"110"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion104> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "MAYO 2017";
+    ont:distrito "USERA";
+    ont:kgRecogidaDeMuebles "3021"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "300347"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"908"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"59"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion105> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "MAYO 2017";
+    ont:distrito "VILLAVERDE";
+    ont:kgRecogidaDeMuebles "3254"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "323450"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"711"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"4"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"38"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion106> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "JUNIO 2017";
+    ont:distrito "CENTRO - ARGÜELLES";
+    ont:kgRecogidaDeMuebles "8720"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "782340"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"2543"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"25"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"37"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion107> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "JUNIO 2017";
+    ont:distrito "CHAMBERÍ";
+    ont:kgRecogidaDeMuebles "32800"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "371390"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"644"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"18"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"17"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion108> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "JUNIO 2017";
+    ont:distrito "TETUÁN";
+    ont:kgRecogidaDeMuebles "1040"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "475280"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"1207"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"35"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"3"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion109> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "JUNIO 2017";
+    ont:distrito "ARGANZUELA";
+    ont:kgRecogidaDeMuebles "1300"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "148600"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"920"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"34"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"8"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion110> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "JUNIO 2017";
+    ont:distrito "RETIRO";
+    ont:kgRecogidaDeMuebles "16580"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "377562"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"829"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"29"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"44"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion111> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "JUNIO 2017";
+    ont:distrito "SALAMANCA";
+    ont:kgRecogidaDeMuebles "23760"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "844360"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"1280"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"25"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"46"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion112> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "JUNIO 2017";
+    ont:distrito "CHAMARTÍN";
+    ont:kgRecogidaDeMuebles "10900"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "281800"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"1180"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"12"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"73"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion113> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "JUNIO 2017";
+    ont:distrito "FUENCARRAL";
+    ont:kgRecogidaDeMuebles "15980"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "675320"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"730"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"130"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion114> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "JUNIO 2017";
+    ont:distrito "MONCLOA";
+    ont:kgRecogidaDeMuebles """"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "576840"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"976"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"21"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"69"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion115> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "JUNIO 2017";
+    ont:distrito "LATINA";
+    ont:kgRecogidaDeMuebles "26140"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "123200"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"652"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"33"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion116> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "JUNIO 2017";
+    ont:distrito "BARAJAS";
+    ont:kgRecogidaDeMuebles "38340"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "255420"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"252"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"4"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"43"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion117> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "JUNIO 2017";
+    ont:distrito "HORTALEZA";
+    ont:kgRecogidaDeMuebles "38340"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "255420"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"884"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"29"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"74"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion118> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "JUNIO 2017";
+    ont:distrito "SAN BLAS";
+    ont:kgRecogidaDeMuebles "44820"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "390710"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"1031"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"15"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"60"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion119> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "JUNIO 2017";
+    ont:distrito "CIUDAD LINEAL";
+    ont:kgRecogidaDeMuebles "59860"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "531030"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"1250"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"8"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"82"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion120> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "JUNIO 2017";
+    ont:distrito "PTE. VALLECAS";
+    ont:kgRecogidaDeMuebles "7720"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "643215"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"1715"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"48"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"189"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion121> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "JUNIO 2017";
+    ont:distrito "VILLA VALLECAS";
+    ont:kgRecogidaDeMuebles "2316"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos ""192964,5""^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"387"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"29"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"100"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion122> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "JUNIO 2017";
+    ont:distrito "MORATALAZ";
+    ont:kgRecogidaDeMuebles "3088"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "257286"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"437"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"2"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"55"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion123> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "JUNIO 2017";
+    ont:distrito "VICÁLVARO";
+    ont:kgRecogidaDeMuebles "2316"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos ""192964,5""^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"270"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"5"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"57"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion124> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "JUNIO 2017";
+    ont:distrito "CARABANCHEL";
+    ont:kgRecogidaDeMuebles "10001"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "536756"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"1333"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMecanico"6"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:numBarridoMixto"102"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion125> a     ont:ActuacionesLimpiezaUrbana ;
+    ont:mes "JUNIO 2017";
+    ont:distrito "USERA";
+    ont:kgRecogidaDeMuebles "5652"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:kgRecogidaResiduos "303384"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    ont:numBarridoManual"929"^^<http://www.w3.org/2001/XMLSchema#int>;
+ont:numBarridoMecanico"0"^^<http://www.w3.org/2001/XMLSchema#int>;
+ont:numBarridoMixto"57"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion126> a ont:ActuacionesLimpiezaUrbana ;
+ont:mes "JUNIO 2017";
+ont:distrito "VILLAVERDE";
+ont:kgRecogidaDeMuebles "6087"^^<http://www.w3.org/2001/XMLSchema#double> ;
+ont:kgRecogidaResiduos "326720"^^<http://www.w3.org/2001/XMLSchema#double> ;
+ont:numBarridoManual"796"^^<http://www.w3.org/2001/XMLSchema#int>;
+ont:numBarridoMecanico"5"^^<http://www.w3.org/2001/XMLSchema#int>;
+ont:numBarridoMixto"32"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion127> a ont:ActuacionesLimpiezaUrbana ;
+ont:mes "JULIO 2017";
+ont:distrito "CENTRO - ARGÜELLES";
+ont:kgRecogidaDeMuebles "9740"^^<http://www.w3.org/2001/XMLSchema#double> ;
+ont:kgRecogidaResiduos "774560"^^<http://www.w3.org/2001/XMLSchema#double> ;
+ont:numBarridoManual"2314"^^<http://www.w3.org/2001/XMLSchema#int>;
+ont:numBarridoMecanico"20"^^<http://www.w3.org/2001/XMLSchema#int>;
+ont:numBarridoMixto"53"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion128> a ont:ActuacionesLimpiezaUrbana ;
+ont:mes "JULIO 2017";
+ont:distrito "CHAMBERÍ";
+ont:kgRecogidaDeMuebles "34200"^^<http://www.w3.org/2001/XMLSchema#double> ;
+ont:kgRecogidaResiduos "381690"^^<http://www.w3.org/2001/XMLSchema#double> ;
+ont:numBarridoManual"590"^^<http://www.w3.org/2001/XMLSchema#int>;
+ont:numBarridoMecanico"3"^^<http://www.w3.org/2001/XMLSchema#int>;
+ont:numBarridoMixto"54"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion129> a ont:ActuacionesLimpiezaUrbana ;
+ont:mes "JULIO 2017";
+ont:distrito "TETUÁN";
+ont:kgRecogidaDeMuebles "0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+ont:kgRecogidaResiduos "484610"^^<http://www.w3.org/2001/XMLSchema#double> ;
+ont:numBarridoManual"1049"^^<http://www.w3.org/2001/XMLSchema#int>;
+ont:numBarridoMecanico"40"^^<http://www.w3.org/2001/XMLSchema#int>;
+ont:numBarridoMixto"17"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion130> a ont:ActuacionesLimpiezaUrbana ;
+ont:mes "JULIO 2017";
+ont:distrito "ARGANZUELA";
+ont:kgRecogidaDeMuebles "12280"^^<http://www.w3.org/2001/XMLSchema#double> ;
+ont:kgRecogidaResiduos "109660"^^<http://www.w3.org/2001/XMLSchema#double> ;
+ont:numBarridoManual"881"^^<http://www.w3.org/2001/XMLSchema#int>;
+ont:numBarridoMecanico"1"^^<http://www.w3.org/2001/XMLSchema#int>;
+ont:numBarridoMixto"28"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion131> a ont:ActuacionesLimpiezaUrbana ;
+ont:mes "JULIO 2017";
+ont:distrito "RETIRO";
+ont:kgRecogidaDeMuebles "9720"^^<http://www.w3.org/2001/XMLSchema#double> ;
+ont:kgRecogidaResiduos "393160"^^<http://www.w3.org/2001/XMLSchema#double> ;
+ont:numBarridoManual"698"^^<http://www.w3.org/2001/XMLSchema#int>;
+ont:numBarridoMecanico"10"^^<http://www.w3.org/2001/XMLSchema#int>;
+ont:numBarridoMixto"44"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion132> a ont:ActuacionesLimpiezaUrbana ;
+ont:mes "JULIO 2017";
+ont:distrito "SALAMANCA";
+ont:kgRecogidaDeMuebles "21820"^^<http://www.w3.org/2001/XMLSchema#double> ;
+ont:kgRecogidaResiduos "867750"^^<http://www.w3.org/2001/XMLSchema#double> ;
+ont:numBarridoManual"1074"^^<http://www.w3.org/2001/XMLSchema#int>;
+ont:numBarridoMecanico"13"^^<http://www.w3.org/2001/XMLSchema#int>;
+ont:numBarridoMixto"39"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion133> a ont:ActuacionesLimpiezaUrbana ;
+ont:mes "JULIO 2017";
+ont:distrito "CHAMARTÍN";
+ont:kgRecogidaDeMuebles "20180"^^<http://www.w3.org/2001/XMLSchema#double> ;
+ont:kgRecogidaResiduos "217520"^^<http://www.w3.org/2001/XMLSchema#double> ;
+ont:numBarridoManual"919"^^<http://www.w3.org/2001/XMLSchema#int>;
+ont:numBarridoMecanico"8"^^<http://www.w3.org/2001/XMLSchema#int>;
+ont:numBarridoMixto"58"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion134> a ont:ActuacionesLimpiezaUrbana ;
+ont:mes "JULIO 2017";
+ont:distrito "FUENCARRAL";
+ont:kgRecogidaDeMuebles """"^^<http://www.w3.org/2001/XMLSchema#double> ;
+ont:kgRecogidaResiduos "526480"^^<http://www.w3.org/2001/XMLSchema#double> ;
+ont:numBarridoManual"822"^^<http://www.w3.org/2001/XMLSchema#int>;
+ont:numBarridoMecanico"0"^^<http://www.w3.org/2001/XMLSchema#int>;
+ont:numBarridoMixto"52"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion135> a ont:ActuacionesLimpiezaUrbana ;
+ont:mes "JULIO 2017";
+ont:distrito "MONCLOA";
+ont:kgRecogidaDeMuebles "31680"^^<http://www.w3.org/2001/XMLSchema#double> ;
+ont:kgRecogidaResiduos "122200"^^<http://www.w3.org/2001/XMLSchema#double> ;
+ont:numBarridoManual"480"^^<http://www.w3.org/2001/XMLSchema#int>;
+ont:numBarridoMecanico"0"^^<http://www.w3.org/2001/XMLSchema#int>;
+ont:numBarridoMixto"30"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion136> a ont:ActuacionesLimpiezaUrbana ;
+ont:mes "JULIO 2017";
+ont:distrito "LATINA";
+ont:kgRecogidaDeMuebles "27220"^^<http://www.w3.org/2001/XMLSchema#double> ;
+ont:kgRecogidaResiduos "555380"^^<http://www.w3.org/2001/XMLSchema#double> ;
+ont:numBarridoManual"700"^^<http://www.w3.org/2001/XMLSchema#int>;
+ont:numBarridoMecanico"0"^^<http://www.w3.org/2001/XMLSchema#int>;
+ont:numBarridoMixto"125"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion137> a ont:ActuacionesLimpiezaUrbana ;
+ont:mes "JULIO 2017";
+ont:distrito "BARAJAS";
+ont:kgRecogidaDeMuebles "13680"^^<http://www.w3.org/2001/XMLSchema#double> ;
+ont:kgRecogidaResiduos "137800"^^<http://www.w3.org/2001/XMLSchema#double> ;
+ont:numBarridoManual"223"^^<http://www.w3.org/2001/XMLSchema#int>;
+ont:numBarridoMecanico"6"^^<http://www.w3.org/2001/XMLSchema#int>;
+ont:numBarridoMixto"23"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion138> a ont:ActuacionesLimpiezaUrbana ;
+ont:mes "JULIO 2017";
+ont:distrito "HORTALEZA";
+ont:kgRecogidaDeMuebles "35880"^^<http://www.w3.org/2001/XMLSchema#double> ;
+ont:kgRecogidaResiduos "274640"^^<http://www.w3.org/2001/XMLSchema#double> ;
+ont:numBarridoManual"716"^^<http://www.w3.org/2001/XMLSchema#int>;
+ont:numBarridoMecanico"18"^^<http://www.w3.org/2001/XMLSchema#int>;
+ont:numBarridoMixto"44"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion139> a ont:ActuacionesLimpiezaUrbana ;
+ont:mes "JULIO 2017";
+ont:distrito "SAN BLAS";
+ont:kgRecogidaDeMuebles "47640"^^<http://www.w3.org/2001/XMLSchema#double> ;
+ont:kgRecogidaResiduos "387270"^^<http://www.w3.org/2001/XMLSchema#double> ;
+ont:numBarridoManual"716"^^<http://www.w3.org/2001/XMLSchema#int>;
+ont:numBarridoMecanico"4"^^<http://www.w3.org/2001/XMLSchema#int>;
+ont:numBarridoMixto"34"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion140> a ont:ActuacionesLimpiezaUrbana ;
+ont:mes "JULIO 2017";
+ont:distrito "CIUDAD LINEAL";
+ont:kgRecogidaDeMuebles "62120"^^<http://www.w3.org/2001/XMLSchema#double> ;
+ont:kgRecogidaResiduos "546730"^^<http://www.w3.org/2001/XMLSchema#double> ;
+ont:numBarridoManual"851"^^<http://www.w3.org/2001/XMLSchema#int>;
+ont:numBarridoMecanico"6"^^<http://www.w3.org/2001/XMLSchema#int>;
+ont:numBarridoMixto"82"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion141> a ont:ActuacionesLimpiezaUrbana ;
+ont:mes "JULIO 2017";
+ont:distrito "PTE. VALLECAS";
+ont:kgRecogidaDeMuebles "4255"^^<http://www.w3.org/2001/XMLSchema#double> ;
+ont:kgRecogidaResiduos "646745"^^<http://www.w3.org/2001/XMLSchema#double> ;
+ont:numBarridoManual"1743"^^<http://www.w3.org/2001/XMLSchema#int>;
+ont:numBarridoMecanico"45"^^<http://www.w3.org/2001/XMLSchema#int>;
+ont:numBarridoMixto"176"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion142> a ont:ActuacionesLimpiezaUrbana ;
+ont:mes "JULIO 2017";
+ont:distrito "VILLA VALLECAS";
+ont:kgRecogidaDeMuebles ""1276,5""^^<http://www.w3.org/2001/XMLSchema#double> ;
+ont:kgRecogidaResiduos ""194023,5""^^<http://www.w3.org/2001/XMLSchema#double> ;
+ont:numBarridoManual"376"^^<http://www.w3.org/2001/XMLSchema#int>;
+ont:numBarridoMecanico"9"^^<http://www.w3.org/2001/XMLSchema#int>;
+ont:numBarridoMixto"87"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion143> a ont:ActuacionesLimpiezaUrbana ;
+ont:mes "JULIO 2017";
+ont:distrito "MORATALAZ";
+ont:kgRecogidaDeMuebles "1702"^^<http://www.w3.org/2001/XMLSchema#double> ;
+ont:kgRecogidaResiduos "258698"^^<http://www.w3.org/2001/XMLSchema#double> ;
+ont:numBarridoManual"463"^^<http://www.w3.org/2001/XMLSchema#int>;
+ont:numBarridoMecanico"1"^^<http://www.w3.org/2001/XMLSchema#int>;
+ont:numBarridoMixto"30"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion144> a ont:ActuacionesLimpiezaUrbana ;
+ont:mes "JULIO 2017";
+ont:distrito "VICÁLVARO";
+ont:kgRecogidaDeMuebles ""1276,5""^^<http://www.w3.org/2001/XMLSchema#double> ;
+ont:kgRecogidaResiduos ""194023,5""^^<http://www.w3.org/2001/XMLSchema#double> ;
+ont:numBarridoManual"306"^^<http://www.w3.org/2001/XMLSchema#int>;
+ont:numBarridoMecanico"11"^^<http://www.w3.org/2001/XMLSchema#int>;
+ont:numBarridoMixto"49"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion145> a ont:ActuacionesLimpiezaUrbana ;
+ont:mes "JULIO 2017";
+ont:distrito "CARABANCHEL";
+ont:kgRecogidaDeMuebles "16532"^^<http://www.w3.org/2001/XMLSchema#double> ;
+ont:kgRecogidaResiduos "520260"^^<http://www.w3.org/2001/XMLSchema#double> ;
+ont:numBarridoManual"1369"^^<http://www.w3.org/2001/XMLSchema#int>;
+ont:numBarridoMecanico"4"^^<http://www.w3.org/2001/XMLSchema#int>;
+ont:numBarridoMixto"93"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion146> a ont:ActuacionesLimpiezaUrbana ;
+ont:mes "JULIO 2017";
+ont:distrito "USERA";
+ont:kgRecogidaDeMuebles "9345"^^<http://www.w3.org/2001/XMLSchema#double> ;
+ont:kgRecogidaResiduos "294060"^^<http://www.w3.org/2001/XMLSchema#double> ;
+ont:numBarridoManual"868"^^<http://www.w3.org/2001/XMLSchema#int>;
+ont:numBarridoMecanico"0"^^<http://www.w3.org/2001/XMLSchema#int>;
+ont:numBarridoMixto"31"^^<http://www.w3.org/2001/XMLSchema#int>;
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#ActuacionesLimpiezaUrbana+actuacion147> a ont:ActuacionesLimpiezaUrbana ;
+ont:mes "JULIO 2017";
+ont:distrito "VILLAVERDE";
+ont:kgRecogidaDeMuebles "10063"^^<http://www.w3.org/2001/XMLSchema#double> ;
+ont:kgRecogidaResiduos "316680"^^<http://www.w3.org/2001/XMLSchema#double> ;
+ont:numBarridoManual"658"^^<http://www.w3.org/2001/XMLSchema#int>;
+ont:numBarridoMecanico"4"^^<http://www.w3.org/2001/XMLSchema#int>;
+ont:numBarridoMixto"7"^^<http://www.w3.org/2001/XMLSchema#int>;
+
