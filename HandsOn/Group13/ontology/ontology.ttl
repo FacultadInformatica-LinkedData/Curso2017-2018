@@ -107,19 +107,19 @@
                  
                  rdfs:range xsd:string .
 
-:telefonoEvento rdf:type owl:DatatypeProperty ;
+:telefonoInstalacion rdf:type owl:DatatypeProperty ;
                  
                  rdfs:domain :Instalacion ;
                  
                  rdfs:range xsd:integer .
 				 
-:coordenadaXEvento rdf:type owl:DatatypeProperty ;
+:coordenadaXInstalacion rdf:type owl:DatatypeProperty ;
                  
                  rdfs:domain :Instalacion ;
                  
                  rdfs:range xsd:integer .
 
-:coordenadaYEvento rdf:type owl:DatatypeProperty ;
+:coordenadaYInstalacion rdf:type owl:DatatypeProperty ;
                  
                  rdfs:domain :Instalacion ;
                  
