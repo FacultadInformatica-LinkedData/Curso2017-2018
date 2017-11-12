@@ -135,12 +135,6 @@
   },
   {
     "op": "core/column-rename",
-    "description": "Rename column adresse 2 2 to RoadNumber2",
-    "oldColumnName": "adresse 2 2",
-    "newColumnName": "RoadNumber2"
-  },
-  {
-    "op": "core/column-rename",
     "description": "Rename column adres 1 1 to RoadName1@BE",
     "oldColumnName": "adres 1 1",
     "newColumnName": "RoadName1@BE"
@@ -283,5 +277,18 @@
     "description": "Rename column FID to PrimaryKeyFID",
     "oldColumnName": "FID",
     "newColumnName": "PrimaryKeyFID"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Enterprise using expression grel:if(get(value,0)==\"?\",\"\",value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Enterprise",
+    "expression": "grel:if(get(value,0)==\"?\",\"\",value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
   }
 ]
