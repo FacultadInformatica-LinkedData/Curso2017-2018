@@ -1,0 +1,1704 @@
+@prefix myont: <http://www.fi.upm.es/linked-data/group13/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+<http://www.fi.upm.es/linked-data/group13/ontology/0> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a9344b6faa61c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Adolfo Suárez" ;
+	myont:coordenadaXInstalacion "444807"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4482402"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "HORTALEZA" ;
+	myont:telefonoInstalacion "917 502 058 / 676 562 792"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/1> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=dd68a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Agustina Díez" ;
+	myont:coordenadaXInstalacion "445176"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4471253"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "PUENTE DE VALLECAS" ;
+	myont:telefonoInstalacion "917 770 073"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/2> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=706c615f4eb66110VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Agustín Rodriguez Sahagún" ;
+	myont:coordenadaXInstalacion "447288"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4469000"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "VILLA DE VALLECAS" ;
+	myont:telefonoInstalacion "913 324 348"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/3> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2388a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Alberto Alcocer" ;
+	myont:coordenadaXInstalacion "448197"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4476243"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "SAN BLAS-CANILLEJAS" ;
+	myont:telefonoInstalacion "913 202 609"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/4> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7898a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Alcalde de Móstoles" ;
+	myont:coordenadaXInstalacion "434201"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4470414"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "LATINA" ;
+	myont:telefonoInstalacion "917 055 465"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/5> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=cda8a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Alfonso X El Sabio" ;
+	myont:coordenadaXInstalacion "448883"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4472893"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "VICALVARO" ;
+	myont:telefonoInstalacion "913 719 661"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/6> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=13c8a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Alhambra" ;
+	myont:coordenadaXInstalacion "438517"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4481884"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "FUENCARRAL-EL PARDO" ;
+	myont:telefonoInstalacion "913 162 273"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/7> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=68d8a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Amadeo Vives" ;
+	myont:coordenadaXInstalacion "436005"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4472352"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "LATINA" ;
+	myont:telefonoInstalacion "917 183 389"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/8> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=bde8a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Amador de los Ríos" ;
+	myont:coordenadaXInstalacion "443568"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4475493"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "SALAMANCA" ;
+	myont:telefonoInstalacion "917 252 610"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/9> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0309a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Amós Acero" ;
+	myont:coordenadaXInstalacion "443774"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4471489"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "PUENTE DE VALLECAS" ;
+	myont:telefonoInstalacion "914 785 161"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/10> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=93f1a0910bcca210VgnVCM2000000c205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Antonio Fontan" ;
+	myont:coordenadaXInstalacion "441330"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4484979"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "FUENCARRAL-EL PARDO" ;
+	myont:telefonoInstalacion "911 722 243"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/11> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ad29a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Antonio Machado" ;
+	myont:coordenadaXInstalacion "436078"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4469020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "CARABANCHEL" ;
+	myont:telefonoInstalacion "915 088 661"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/12> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f249a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Antonio Moreno Rosales" ;
+	myont:coordenadaXInstalacion "440611"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4473872"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "CENTRO" ;
+	myont:telefonoInstalacion "915 390 646"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/13> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5819a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Antonio de Nebrija" ;
+	myont:coordenadaXInstalacion "441839"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4467246"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "VILLAVERDE" ;
+	myont:telefonoInstalacion "917 963 500"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/14> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4859a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Aragón" ;
+	myont:coordenadaXInstalacion "446016"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4471719"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "PUENTE DE VALLECAS" ;
+	myont:telefonoInstalacion "913 039 852"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/15> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9d69a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Aravaca" ;
+	myont:coordenadaXInstalacion "433495"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4479383"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "MONCLOA-ARAVACA" ;
+	myont:telefonoInstalacion "913 078 119 - 913 071 832"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/16> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e289a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Arcipreste de Hita" ;
+	myont:coordenadaXInstalacion "438524"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4470930"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "CARABANCHEL" ;
+	myont:telefonoInstalacion "915 605 495"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/17> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3899a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Arquitecto Gaudí" ;
+	myont:coordenadaXInstalacion "443388"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4479839"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "CHAMARTIN" ;
+	myont:telefonoInstalacion "913 506 564"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/18> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d2c9a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Asturias" ;
+	myont:coordenadaXInstalacion "445565"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4470686"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "PUENTE DE VALLECAS" ;
+	myont:telefonoInstalacion "91 785 06 80"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/19> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=28d9a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Asunción Rincón" ;
+	myont:coordenadaXInstalacion "439813"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4477036"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "CHAMBERI" ;
+	myont:telefonoInstalacion "915 542 118"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/20> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=67c74431fcf04210VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Ausias March" ;
+	myont:coordenadaXInstalacion "442804"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4466409"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "VILLAVERDE" ;
+	myont:telefonoInstalacion "917 980 756"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/21> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7de9a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Azorín" ;
+	myont:coordenadaXInstalacion "441762"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4466252"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "VILLAVERDE" ;
+	myont:telefonoInstalacion "917 975 733"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/22> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c20aa3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Barcelona" ;
+	myont:coordenadaXInstalacion "440988"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4467979"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "VILLAVERDE" ;
+	myont:telefonoInstalacion "913 603 078"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/23> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=bb4868fe04878410VgnVCM2000000c205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Blas de Lezo" ;
+	myont:coordenadaXInstalacion "443308"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4484759"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "FUENCARRAL-EL PARDO" ;
+	myont:telefonoInstalacion "912 761 564 - 626 122 902"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/24> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=181aa3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Blas de Otero" ;
+	myont:coordenadaXInstalacion "448164"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4470461"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "VILLA DE VALLECAS" ;
+	myont:telefonoInstalacion "913 311 550"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/25> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6d2aa3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Bolivia" ;
+	myont:coordenadaXInstalacion "436483"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4473480"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "LATINA" ;
+	myont:telefonoInstalacion "914 649 989"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/26> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b24aa3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Bravo Murillo" ;
+	myont:coordenadaXInstalacion "439252"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4481550"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "FUENCARRAL-EL PARDO" ;
+	myont:telefonoInstalacion "917 385 793"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/27> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=085aa3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Breogán" ;
+	myont:coordenadaXInstalacion "440569"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4480970"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "FUENCARRAL-EL PARDO" ;
+	myont:telefonoInstalacion "917 304 040"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/28> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5d6aa3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Calderón de la Barca" ;
+	myont:coordenadaXInstalacion "450602"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4480375"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "BARAJAS" ;
+	myont:telefonoInstalacion "917 472 465"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/29> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a28aa3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Camilo José Cela" ;
+	myont:coordenadaXInstalacion "440721"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4481208"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "FUENCARRAL-EL PARDO" ;
+	myont:telefonoInstalacion "917 392 424"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/30> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f79aa3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Capitán Cortés" ;
+	myont:coordenadaXInstalacion "437054"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4470509"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "CARABANCHEL" ;
+	myont:telefonoInstalacion "91 462 86 62"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/31> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4daaa3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Cardenal Herrera Oria" ;
+	myont:coordenadaXInstalacion "439842"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4481775"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "FUENCARRAL-EL PARDO" ;
+	myont:telefonoInstalacion "913 781 613"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/32> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=92caa3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Carlos Sáinz de los Terreros" ;
+	myont:coordenadaXInstalacion "445870"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4470873"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "PUENTE DE VALLECAS" ;
+	myont:telefonoInstalacion "917 783 885"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/33> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e7daa3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Carlos V" ;
+	myont:coordenadaXInstalacion "444608"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4476702"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "CIUDAD LINEAL" ;
+	myont:telefonoInstalacion "914 041 481"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/34> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3deaa3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Carmen Cabezuelo" ;
+	myont:coordenadaXInstalacion "446771"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4475895"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "SAN BLAS-CANILLEJAS" ;
+	myont:telefonoInstalacion "913 040 117"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/35> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=12cf00444dcca210VgnVCM2000000c205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Carmen Laforet" ;
+	myont:coordenadaXInstalacion "449282"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4472611"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "VICALVARO" ;
+	myont:telefonoInstalacion "917 760 141"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/36> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=820ba3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Cervantes" ;
+	myont:coordenadaXInstalacion "440485"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4477774"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "CHAMBERI" ;
+	myont:telefonoInstalacion "915 330 837"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/37> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=52cba3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Ciudad Pegaso" ;
+	myont:coordenadaXInstalacion "449397"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4477778"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "SAN BLAS-CANILLEJAS" ;
+	myont:telefonoInstalacion "917 412 017"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/38> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d71ba3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Ciudad de Badajoz" ;
+	myont:coordenadaXInstalacion "433997"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4470876"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "LATINA" ;
+	myont:telefonoInstalacion "917 065 611"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/39> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2d2ba3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Ciudad de Córdoba" ;
+	myont:coordenadaXInstalacion "440878"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4468436"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "VILLAVERDE" ;
+	myont:telefonoInstalacion "913 179 827 - 913 172 417"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/40> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=724ba3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Ciudad de Guadalajara" ;
+	myont:coordenadaXInstalacion "450528"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4479070"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "BARAJAS" ;
+	myont:telefonoInstalacion "917 470 938"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/41> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c75ba3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Ciudad de Jaén" ;
+	myont:coordenadaXInstalacion "440577"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4469555"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "USERA" ;
+	myont:telefonoInstalacion "913 174 313 - 913 171 644"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/42> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=628ba3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Ciudad de Roma" ;
+	myont:coordenadaXInstalacion "443674"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4474336"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "RETIRO" ;
+	myont:telefonoInstalacion "915 743 897"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/43> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b79ba3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Ciudad de Valencia" ;
+	myont:coordenadaXInstalacion "448809"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4470902"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "VILLA DE VALLECAS" ;
+	myont:telefonoInstalacion "913 310 805"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/44> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0daba3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Ciudad de Zaragoza" ;
+	myont:coordenadaXInstalacion "449984"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4479224"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "BARAJAS" ;
+	myont:telefonoInstalacion "913 293 756 - 917 477 420"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/45> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1d6ba3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Ciudad de los Ángeles" ;
+	myont:coordenadaXInstalacion "441002"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4467672"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "VILLAVERDE" ;
+	myont:telefonoInstalacion "917 954 993"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/46> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a7dba3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Claudio Moyano" ;
+	myont:coordenadaXInstalacion "439993"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4476929"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "CHAMBERI" ;
+	myont:telefonoInstalacion "915 335 718"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/47> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8ff6a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Complejo Escolar Príncipe Felipe" ;
+	myont:coordenadaXInstalacion "440693"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4481503"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "FUENCARRAL-EL PARDO" ;
+	myont:telefonoInstalacion "913 146 819"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/48> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=420ca3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Concha Espina" ;
+	myont:coordenadaXInstalacion "445453"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4470983"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "PUENTE DE VALLECAS" ;
+	myont:telefonoInstalacion "917 781 461"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/49> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=971ca3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Conde de Romanones" ;
+	myont:coordenadaXInstalacion "445632"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4476721"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "CIUDAD LINEAL" ;
+	myont:telefonoInstalacion "913 673 655 - 914 080 947"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/50> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=34cee4f2de891310VgnVCM2000000c205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Cortes de Cádiz" ;
+	myont:coordenadaXInstalacion "444522"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4483551"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "HORTALEZA" ;
+	myont:telefonoInstalacion "911 727 223"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/51> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ec2ca3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Costa Rica" ;
+	myont:coordenadaXInstalacion "435943"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4471028"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "LATINA" ;
+	myont:telefonoInstalacion "917 171 601"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/52> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=324ca3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Cristóbal Colón" ;
+	myont:coordenadaXInstalacion "440150"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4467091"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "VILLAVERDE" ;
+	myont:telefonoInstalacion "917 973 312"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/53> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=875ca3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Cuba" ;
+	myont:coordenadaXInstalacion "435492"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4472096"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "LATINA" ;
+	myont:telefonoInstalacion "915 187 564"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/54> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=228ca3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Daniel Vázquez Díaz" ;
+	myont:coordenadaXInstalacion "439661"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4479797"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "MONCLOA-ARAVACA" ;
+	myont:telefonoInstalacion "914 505 842"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/55> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=779ca3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Dionisio Ridruejo" ;
+	myont:coordenadaXInstalacion "446321"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4480661"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "HORTALEZA" ;
+	myont:telefonoInstalacion "917 639 188"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/56> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ccaca3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Doctor Conde Arruga" ;
+	myont:coordenadaXInstalacion "445499"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4472986"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "MORATALAZ" ;
+	myont:telefonoInstalacion "917 732 393"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/57> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=12cca3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Doctor Federico Rubio" ;
+	myont:coordenadaXInstalacion "439792"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4478425"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "TETUAN" ;
+	myont:telefonoInstalacion "914 502 091"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/58> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=67dca3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Doctor Severo Ochoa" ;
+	myont:coordenadaXInstalacion "448041"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4473688"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "VICALVARO" ;
+	myont:telefonoInstalacion "917 752 715"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/59> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=bceca3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Doctor Tolosa Latour" ;
+	myont:coordenadaXInstalacion "445615"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4470563"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "PUENTE DE VALLECAS" ;
+	myont:telefonoInstalacion "91 778 47 94"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/60> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=dc6ca3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Dámaso Alonso" ;
+	myont:coordenadaXInstalacion "439900"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4466615"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "VILLAVERDE" ;
+	myont:telefonoInstalacion "917 970 620"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/61> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=020da3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público EEUU - Huarte de San Juan" ;
+	myont:coordenadaXInstalacion "437874"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4475807"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "MONCLOA-ARAVACA" ;
+	myont:telefonoInstalacion "915 418 978 - 915 420 841"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/62> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f6c4ae10c471c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Eduardo Rojo" ;
+	myont:coordenadaXInstalacion "443854"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4471178"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "PUENTE DE VALLECAS" ;
+	myont:telefonoInstalacion "914 774 560"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/63> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0d77598d1351c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público El Espinillo" ;
+	myont:coordenadaXInstalacion "441245"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4468328"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "VILLAVERDE" ;
+	myont:telefonoInstalacion "917 237 434 - 913 182 512"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/64> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b9f34b6faa61c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público El Greco" ;
+	myont:coordenadaXInstalacion "442785"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4466530"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "VILLAVERDE" ;
+	myont:telefonoInstalacion "917 100 008"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/65> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=571da3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público El Madroño" ;
+	myont:coordenadaXInstalacion "444572"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4472813"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "PUENTE DE VALLECAS" ;
+	myont:telefonoInstalacion "915 014 668"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/66> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ac2da3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público El Quijote" ;
+	myont:coordenadaXInstalacion "447154"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4469764"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "VILLA DE VALLECAS" ;
+	myont:telefonoInstalacion "913 800 214"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/67> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e667598d1351c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público El Sol" ;
+	myont:coordenadaXInstalacion "448221"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4475206"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "SAN BLAS-CANILLEJAS" ;
+	myont:telefonoInstalacion "91 777 76 79  (Colegio Público) / 913 060 345 / 913 060 347 (Educación Especial)"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/68> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f14da3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Emilia Pardo Bazán" ;
+	myont:coordenadaXInstalacion "440245"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4473354"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "CENTRO" ;
+	myont:telefonoInstalacion "915 306 059"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/69> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9c6da3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Ermita del Santo" ;
+	myont:coordenadaXInstalacion "438732"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4473826"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "LATINA" ;
+	myont:telefonoInstalacion "914 642 590"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/70> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e18da3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Escuelas Aguirre" ;
+	myont:coordenadaXInstalacion "442897"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4474196"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "RETIRO" ;
+	myont:telefonoInstalacion "915 741 864"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/71> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=379da3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Escuelas Bosque" ;
+	myont:coordenadaXInstalacion "439697"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4479154"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "MONCLOA-ARAVACA" ;
+	myont:telefonoInstalacion "91 450 50 60- 91 459 05 57"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/72> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8cada3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Esperanza" ;
+	myont:coordenadaXInstalacion "445359"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4479383"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "HORTALEZA" ;
+	myont:telefonoInstalacion "913 003 012"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/73> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=27dda3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Eugenio María de Hostos" ;
+	myont:coordenadaXInstalacion "439262"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4480287"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "MONCLOA-ARAVACA" ;
+	myont:telefonoInstalacion "913 736 366"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/74> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c10ea3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Felipe II" ;
+	myont:coordenadaXInstalacion "440828"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4480690"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "TETUAN" ;
+	myont:telefonoInstalacion "913 157 353"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/75> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6c2ea3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Fernando el Católico" ;
+	myont:coordenadaXInstalacion "439912"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4476390"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "CHAMBERI" ;
+	myont:telefonoInstalacion "914 442 902"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/76> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=171ea3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Fernández de Moratín" ;
+	myont:coordenadaXInstalacion "438415"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4475584"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "MONCLOA-ARAVACA" ;
+	myont:telefonoInstalacion "915 479 787 - 915 596 791"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/77> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b14ea3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Filósofo Séneca" ;
+	myont:coordenadaXInstalacion "444995"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4481266"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "HORTALEZA" ;
+	myont:telefonoInstalacion "917 638 145"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/78> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=075ea3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Fontarrón" ;
+	myont:coordenadaXInstalacion "446341"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4472013"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "MORATALAZ" ;
+	myont:telefonoInstalacion "917 720 378"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/79> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5c6ea3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Francisco Arranz" ;
+	myont:coordenadaXInstalacion "435371"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4469859"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "LATINA" ;
+	myont:telefonoInstalacion "917 066 882"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/80> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=91cea3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Francisco Fatóu" ;
+	myont:coordenadaXInstalacion "447611"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4469880"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "VILLA DE VALLECAS" ;
+	myont:telefonoInstalacion "913 321 050"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/81> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e6dea3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Francisco Ruano" ;
+	myont:coordenadaXInstalacion "442936"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4470370"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "PUENTE DE VALLECAS" ;
+	myont:telefonoInstalacion "917 862 196"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/82> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a18ea3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Francisco de Goya" ;
+	myont:coordenadaXInstalacion "438360"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4473859"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "LATINA" ;
+	myont:telefonoInstalacion "914 637 472"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/83> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f69ea3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Francisco de Luis" ;
+	myont:coordenadaXInstalacion "444085"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4473553"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "MORATALAZ" ;
+	myont:telefonoInstalacion "914 394 600"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/84> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4caea3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Francisco de Quevedo" ;
+	myont:coordenadaXInstalacion "442466"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4473110"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "RETIRO" ;
+	myont:telefonoInstalacion "915 515 211"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/85> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3ceea3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Fray Junípero Serra" ;
+	myont:coordenadaXInstalacion "444255"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4472050"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "PUENTE DE VALLECAS" ;
+	myont:telefonoInstalacion "914 304 882"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/86> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0f044b6faa61c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Gabriela Mistral" ;
+	myont:coordenadaXInstalacion "443552"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4484536"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "FUENCARRAL-EL PARDO" ;
+	myont:telefonoInstalacion "913 586 549"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/87> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=810fa3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Gandhi" ;
+	myont:coordenadaXInstalacion "446115"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4475193"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "CIUDAD LINEAL" ;
+	myont:telefonoInstalacion "917 544 592 - 913 044 982 "^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/88> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2c2fa3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Garcilaso de la Vega" ;
+	myont:coordenadaXInstalacion "446353"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4479992"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "HORTALEZA" ;
+	myont:telefonoInstalacion "913 882 060"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/89> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d61fa3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público García Morente" ;
+	myont:coordenadaXInstalacion "443615"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4469619"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "PUENTE DE VALLECAS" ;
+	myont:telefonoInstalacion "917 852 016"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/90> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c65fa3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Giner de los Ríos" ;
+	myont:coordenadaXInstalacion "443366"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4470305"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "PUENTE DE VALLECAS" ;
+	myont:telefonoInstalacion "917 858 021"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/91> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1c6fa3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Gloria Fuertes" ;
+	myont:coordenadaXInstalacion "440245"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4469195"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "USERA" ;
+	myont:telefonoInstalacion "913 414 448 - 913 412 180"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/92> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b69fa3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Gonzalo Fernández de Córdoba" ;
+	myont:coordenadaXInstalacion "433973"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4472004"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "LATINA" ;
+	myont:telefonoInstalacion "917 113 625"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/93> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=618fa3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Gonzalo de Berceo" ;
+	myont:coordenadaXInstalacion "438827"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4470916"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "CARABANCHEL" ;
+	myont:telefonoInstalacion "915 697 819 (Infantil y Primer ciclo de Primaria) - 915 697 225 ( Segundo y tercer ciclo primaria)"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/94> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0cafa3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Guindalera" ;
+	myont:coordenadaXInstalacion "443538"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4476715"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "SALAMANCA" ;
+	myont:telefonoInstalacion """917 252 437 - 913 559 839                  
+"""^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/95> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=51cfa3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Gustavo Adolfo Bécquer" ;
+	myont:coordenadaXInstalacion "445052"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4475231"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "CIUDAD LINEAL" ;
+	myont:telefonoInstalacion "914 051 507"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/96> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a6dfa3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Haití" ;
+	myont:coordenadaXInstalacion "436762"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4471084"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "CARABANCHEL" ;
+	myont:telefonoInstalacion "914 220 250"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/97> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fbefa3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Hermanos Pinzón" ;
+	myont:coordenadaXInstalacion "434868"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4472489"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "LATINA" ;
+	myont:telefonoInstalacion "915 186 040"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/98> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4100a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Hernán Cortés" ;
+	myont:coordenadaXInstalacion "436348"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4471655"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "LATINA" ;
+	myont:telefonoInstalacion "917 176 844"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/99> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9610a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Honduras" ;
+	myont:coordenadaXInstalacion "447414"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4470078"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "VILLA DE VALLECAS" ;
+	myont:telefonoInstalacion "913 325 719 - 913 317 441"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/100> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=72f9059cb751c010VgnVCM2000000c205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Hortaleza" ;
+	myont:coordenadaXInstalacion "445202"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4480605"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "HORTALEZA" ;
+	myont:telefonoInstalacion "917 642 900"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/101> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=eb20a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Ignacio Zuloaga" ;
+	myont:coordenadaXInstalacion "439782"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4478850"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "TETUAN" ;
+	myont:telefonoInstalacion "914 509 620"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/102> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=54244b6faa61c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Infanta Leonor" ;
+	myont:coordenadaXInstalacion "439827"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4483668"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "FUENCARRAL-EL PARDO" ;
+	myont:telefonoInstalacion "917 508 788"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/103> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3140a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Isaac Albéniz" ;
+	myont:coordenadaXInstalacion "443382"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4479707"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "CHAMARTIN" ;
+	myont:telefonoInstalacion "913 596 972"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/104> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8650a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Isaac Peral" ;
+	myont:coordenadaXInstalacion "438073"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4471098"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "CARABANCHEL" ;
+	myont:telefonoInstalacion "914 726 780"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/105> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=db60a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Isabel la Católica" ;
+	myont:coordenadaXInstalacion "440755"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4475555"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "CENTRO" ;
+	myont:telefonoInstalacion "915 217 840"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/106> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2180a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Jaime Balmes" ;
+	myont:coordenadaXInstalacion "443179"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4471236"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "PUENTE DE VALLECAS" ;
+	myont:telefonoInstalacion "914 785 884"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/107> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7690a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Jaime Vera" ;
+	myont:coordenadaXInstalacion "440503"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4478425"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "TETUAN" ;
+	myont:telefonoInstalacion "915 723 019 - 915 723 026"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/108> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=cba0a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Javier de Miguel" ;
+	myont:coordenadaXInstalacion "444328"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4471036"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "PUENTE DE VALLECAS" ;
+	myont:telefonoInstalacion "913 035 102"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/109> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=11c0a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Joaquín Costa" ;
+	myont:coordenadaXInstalacion "439477"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4473224"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "ARGANZUELA" ;
+	myont:telefonoInstalacion "913 653 632 - 913 642 825"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/110> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=66d0a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Joaquín Dicenta" ;
+	myont:coordenadaXInstalacion "437456"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4473250"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "LATINA" ;
+	myont:telefonoInstalacion "914 632 093"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/111> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4cd4ae10c471c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Joaquín Turina" ;
+	myont:coordenadaXInstalacion "443633"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4481527"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "CIUDAD LINEAL" ;
+	myont:telefonoInstalacion "913 025 556"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/112> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=bbe0a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Jorge Guillén" ;
+	myont:coordenadaXInstalacion "440121"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4480963"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "FUENCARRAL-EL PARDO" ;
+	myont:telefonoInstalacion "917 393 801"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/113> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0101a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Jorge Manrique" ;
+	myont:coordenadaXInstalacion "439817"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4471285"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "USERA" ;
+	myont:telefonoInstalacion "915 656 300"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/114> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0f3147ec3af04210VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Josep Tarradellas" ;
+	myont:coordenadaXInstalacion "443308"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4484759"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "FUENCARRAL-EL PARDO" ;
+	myont:telefonoInstalacion "914 274 125"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/115> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5611a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público José Bergamín" ;
+	myont:coordenadaXInstalacion "441127"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4483197"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "FUENCARRAL-EL PARDO" ;
+	myont:telefonoInstalacion "917 355 560 -917 345 042"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/116> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ab21a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público José Calvo Sotelo" ;
+	myont:coordenadaXInstalacion "442935"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4472674"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "RETIRO" ;
+	myont:telefonoInstalacion "914 337 125"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/117> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f041a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público José María de Pereda" ;
+	myont:coordenadaXInstalacion "442824"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4470565"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "PUENTE DE VALLECAS" ;
+	myont:telefonoInstalacion "915 072 651"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/118> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4651a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público José Ortega y Gasset" ;
+	myont:coordenadaXInstalacion "441254"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4479432"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "TETUAN" ;
+	myont:telefonoInstalacion "915 720 997"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/119> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=dd26d08058cd8310VgnVCM2000000c205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público José de Echegaray" ;
+	myont:coordenadaXInstalacion "447938"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4469021"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "VILLA DE VALLECAS" ;
+	myont:telefonoInstalacion "911 996 781 / 911 996 782"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/120> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9b61a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Jovellanos" ;
+	myont:coordenadaXInstalacion "433643"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4470356"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "LATINA" ;
+	myont:telefonoInstalacion "917 055 018"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/121> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3691a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Juan Gris" ;
+	myont:coordenadaXInstalacion "447701"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4469508"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "VILLA DE VALLECAS" ;
+	myont:telefonoInstalacion "913 327 264"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/122> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8ba1a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Juan Ramón Jiménez" ;
+	myont:coordenadaXInstalacion "440490"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4479624"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "TETUAN" ;
+	myont:telefonoInstalacion "915 717 512"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/123> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d0c1a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Juan Sebastián Elcano" ;
+	myont:coordenadaXInstalacion "440294"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4471385"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "USERA" ;
+	myont:telefonoInstalacion "914 765 139"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/124> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=26d1a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Juan Zaragüeta" ;
+	myont:coordenadaXInstalacion "446619"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4480558"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "HORTALEZA" ;
+	myont:telefonoInstalacion "917 630 869 - 913 821 057"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/125> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e081a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Juan de la Cierva" ;
+	myont:coordenadaXInstalacion "441478"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4467534"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "VILLAVERDE" ;
+	myont:telefonoInstalacion "917 965 560 - 917 230 235"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/126> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7be1a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Julián Besteiro" ;
+	myont:coordenadaXInstalacion "438306"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4470466"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "CARABANCHEL" ;
+	myont:telefonoInstalacion "915 600 091"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/127> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fe444b6faa61c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Julián Marías" ;
+	myont:coordenadaXInstalacion "448996"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4475550"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "SAN BLAS-CANILLEJAS" ;
+	myont:telefonoInstalacion "917 609 323"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/128> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c002a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público La Alameda" ;
+	myont:coordenadaXInstalacion "448509"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4476708"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "SAN BLAS-CANILLEJAS" ;
+	myont:telefonoInstalacion "917 411 453"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/129> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a1b4ae10c471c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público La Dehesa del Príncipe" ;
+	myont:coordenadaXInstalacion "432715"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4470420"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "LATINA" ;
+	myont:telefonoInstalacion "915 091 679"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/130> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1612a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público La Latina" ;
+	myont:coordenadaXInstalacion "435434"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4471408"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "LATINA" ;
+	myont:telefonoInstalacion "915 099 915"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/131> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6b22a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público La Rioja" ;
+	myont:coordenadaXInstalacion "446044"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4471242"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "PUENTE DE VALLECAS" ;
+	myont:telefonoInstalacion "917 773 912"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/132> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b042a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Legado Crespo" ;
+	myont:coordenadaXInstalacion "440380"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4473134"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "ARGANZUELA" ;
+	myont:telefonoInstalacion "915 286 325"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/133> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0652a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Leopoldo Alas" ;
+	myont:coordenadaXInstalacion "444683"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4475703"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "CIUDAD LINEAL" ;
+	myont:telefonoInstalacion "914 033 755"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/134> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7205ffc4131ab110VgnVCM2000000c205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Leopoldo Calvo Sotelo" ;
+	myont:coordenadaXInstalacion "442903"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4483774"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "FUENCARRAL-EL PARDO" ;
+	myont:telefonoInstalacion "914 273 351"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/135> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5b62a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Lepanto" ;
+	myont:coordenadaXInstalacion "438984"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4480209"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "MONCLOA-ARAVACA" ;
+	myont:telefonoInstalacion "913 160 937"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/136> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a082a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Lope de Vega" ;
+	myont:coordenadaXInstalacion "438731"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4472019"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "CARABANCHEL" ;
+	myont:telefonoInstalacion "914 710 955"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/137> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f592a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Lorenzo Luzuriaga" ;
+	myont:coordenadaXInstalacion "440648"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4482217"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "FUENCARRAL-EL PARDO" ;
+	myont:telefonoInstalacion "917 305 938"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/138> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c897598d1351c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Los Almendros" ;
+	myont:coordenadaXInstalacion "447004"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4472139"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "VICALVARO" ;
+	myont:telefonoInstalacion "917 510 982"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/139> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4ba2a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Los Rosales" ;
+	myont:coordenadaXInstalacion "442548"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4467228"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "VILLAVERDE" ;
+	myont:telefonoInstalacion "917 956 756"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/140> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4c96ffc4131ab110VgnVCM2000000c205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Loyola de Palacio" ;
+	myont:coordenadaXInstalacion "449296"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4468166"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "VILLA DE VALLECAS" ;
+	myont:telefonoInstalacion "913 326 020 - 913 851 330"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/141> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=90c2a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Luis Bello" ;
+	myont:coordenadaXInstalacion "442990"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4477429"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "CHAMARTIN" ;
+	myont:telefonoInstalacion "912 205 533"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/142> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e5d2a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Luis Cernuda" ;
+	myont:coordenadaXInstalacion "444663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4479374"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "HORTALEZA" ;
+	myont:telefonoInstalacion "913 002 732"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/143> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3be2a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Luis de Góngora" ;
+	myont:coordenadaXInstalacion "439552"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4480888"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "FUENCARRAL-EL PARDO" ;
+	myont:telefonoInstalacion "91 386 08 16"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/144> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=cfa7598d1351c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Madrid Sur" ;
+	myont:coordenadaXInstalacion "444478"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4469969"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "PUENTE DE VALLECAS" ;
+	myont:telefonoInstalacion "91 785 55 39"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/145> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8b5800444dcca210VgnVCM2000000c205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Maestro Padilla" ;
+	myont:coordenadaXInstalacion "436676"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4468490"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "CARABANCHEL" ;
+	myont:telefonoInstalacion "911 731 852 - 699 502 386"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/146> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8003a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Manuel Bartolomé Cossío" ;
+	myont:coordenadaXInstalacion "434603"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4470579"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "LATINA" ;
+	myont:telefonoInstalacion "917 067 408 (Infantil) / 917 064 098 (Primaria)"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/147> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2b23a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Manuel Núñez de Arenas" ;
+	myont:coordenadaXInstalacion "443934"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4469826"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "PUENTE DE VALLECAS" ;
+	myont:telefonoInstalacion "917 855 972 - 917 855 923"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/148> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7043a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Manuel Sáinz de Vicuña" ;
+	myont:coordenadaXInstalacion "444960"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4473613"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "MORATALAZ" ;
+	myont:telefonoInstalacion "914 391 349"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/149> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d513a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Manuel de Falla" ;
+	myont:coordenadaXInstalacion "440193"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4466636"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "VILLAVERDE" ;
+	myont:telefonoInstalacion "917 971 448"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/150> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1b63a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Marcelo Usera" ;
+	myont:coordenadaXInstalacion "440730"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4471172"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "USERA" ;
+	myont:telefonoInstalacion "914 753 495"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/151> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8c8b39efd6cef310VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Margaret Thatcher" ;
+	myont:coordenadaXInstalacion "450055"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4480353"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "BARAJAS" ;
+	myont:telefonoInstalacion "913 056 086"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/152> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b593a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Mariano José de Larra" ;
+	myont:coordenadaXInstalacion "448456"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4475939"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "SAN BLAS-CANILLEJAS" ;
+	myont:telefonoInstalacion "913 133 789"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/153> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0ba3a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Marqués de Marcenado" ;
+	myont:coordenadaXInstalacion "438979"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4473763"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "ARGANZUELA" ;
+	myont:telefonoInstalacion "913 658 588"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/154> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=50c3a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Marqués de Suanzes" ;
+	myont:coordenadaXInstalacion "447144"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4477333"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "SAN BLAS-CANILLEJAS" ;
+	myont:telefonoInstalacion "917 412 072"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/155> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a5d3a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Martínez Montañés" ;
+	myont:coordenadaXInstalacion "446318"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4472768"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "MORATALAZ" ;
+	myont:telefonoInstalacion "917 738 878"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/156> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6083a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público María Moliner" ;
+	myont:coordenadaXInstalacion "447589"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4475008"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "SAN BLAS-CANILLEJAS" ;
+	myont:telefonoInstalacion "913 133 969"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/157> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9514a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Menéndez Pelayo" ;
+	myont:coordenadaXInstalacion "441443"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4473211"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "ARGANZUELA" ;
+	myont:telefonoInstalacion "915 272 781"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/158> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ea24a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Menéndez Pidal" ;
+	myont:coordenadaXInstalacion "445702"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4472620"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "MORATALAZ" ;
+	myont:telefonoInstalacion "917 736 781"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/159> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3044a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Meseta de Orcasitas" ;
+	myont:coordenadaXInstalacion "439790"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4469491"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "USERA" ;
+	myont:telefonoInstalacion "913 413 045"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/160> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8554a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Mesonero Romanos" ;
+	myont:coordenadaXInstalacion "445423"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4471861"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "PUENTE DE VALLECAS" ;
+	myont:telefonoInstalacion "913 037 096"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/161> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=da64a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Miguel Blasco Vilatela" ;
+	myont:coordenadaXInstalacion "446486"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4475812"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "CIUDAD LINEAL" ;
+	myont:telefonoInstalacion "913 043 999"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/162> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7594a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Miguel Servet" ;
+	myont:coordenadaXInstalacion "437579"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4471968"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "CARABANCHEL" ;
+	myont:telefonoInstalacion "914 611 757"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/163> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2084a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Miguel de Unamuno" ;
+	myont:coordenadaXInstalacion "441257"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4471959"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "ARGANZUELA" ;
+	myont:telefonoInstalacion "915 282 554"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/164> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=caa4a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Mirasierra" ;
+	myont:coordenadaXInstalacion "439585"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4482724"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "FUENCARRAL-EL PARDO" ;
+	myont:telefonoInstalacion "917 345 665"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/165> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=10c4a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Monte de El Pardo" ;
+	myont:coordenadaXInstalacion "434520"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4485655"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "FUENCARRAL-EL PARDO" ;
+	myont:telefonoInstalacion "913 760 692 "^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/166> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fae3a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Méjico (México)" ;
+	myont:coordenadaXInstalacion "444918"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4477393"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "CIUDAD LINEAL" ;
+	myont:telefonoInstalacion "91 403 57 44"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/167> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4004a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Méndez Núñez" ;
+	myont:coordenadaXInstalacion "444199"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4481338"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "HORTALEZA" ;
+	myont:telefonoInstalacion "913 024 834"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/168> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=65d4a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Navas de Tolosa" ;
+	myont:coordenadaXInstalacion "441908"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4466410"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "VILLAVERDE" ;
+	myont:telefonoInstalacion "917 976 083"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/169> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0005a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Nuestra Señora de la Almudena" ;
+	myont:coordenadaXInstalacion "442602"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4474694"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "RETIRO" ;
+	myont:telefonoInstalacion "915 735 899"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/170> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5515a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Nuestra Señora de la Concepción" ;
+	myont:coordenadaXInstalacion "444977"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4476689"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "CIUDAD LINEAL" ;
+	myont:telefonoInstalacion "914 040 275"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/171> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=aa25a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Nuestra Señora de la Fuencisla" ;
+	myont:coordenadaXInstalacion "440839"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4470399"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "USERA" ;
+	myont:telefonoInstalacion "914 754 327"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/172> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ff35a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Nuestra Señora de la Luz" ;
+	myont:coordenadaXInstalacion "440182"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4466348"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "VILLAVERDE" ;
+	myont:telefonoInstalacion "917 950 766"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/173> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4555a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Nuestra Señora de la Paloma" ;
+	myont:coordenadaXInstalacion "439752"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4473836"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "CENTRO" ;
+	myont:telefonoInstalacion "913 640 630 - 913 653 675"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/174> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9a65a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Nuestra Señora del Lucero" ;
+	myont:coordenadaXInstalacion "437227"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4472895"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "LATINA" ;
+	myont:telefonoInstalacion "914 647 678"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/175> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ef75a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Pablo Picasso" ;
+	myont:coordenadaXInstalacion "445250"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4480421"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "HORTALEZA" ;
+	myont:telefonoInstalacion "913 821 795 / 917 646 297"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/176> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3595a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Padre Coloma" ;
+	myont:coordenadaXInstalacion "447968"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4477926"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "SAN BLAS-CANILLEJAS" ;
+	myont:telefonoInstalacion "91 742 64 47"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/177> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8aa5a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Padre Mariana" ;
+	myont:coordenadaXInstalacion "443124"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4470030"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "PUENTE DE VALLECAS" ;
+	myont:telefonoInstalacion "917 861 773"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/178> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=dfb5a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Padre Poveda" ;
+	myont:coordenadaXInstalacion "443490"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4478262"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "CHAMARTIN" ;
+	myont:telefonoInstalacion "914 151 195 - 915 199 877"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/179> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=25d5a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Palacio Valdés" ;
+	myont:coordenadaXInstalacion "441318"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4473765"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "CENTRO" ;
+	myont:telefonoInstalacion "914 203 370 - 913 695 034"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/180> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7ae5a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Palomeras Bajas" ;
+	myont:coordenadaXInstalacion "444012"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4470263"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "PUENTE DE VALLECAS" ;
+	myont:telefonoInstalacion "91 785 48 17"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/181> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=cff5a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Parque Aluche" ;
+	myont:coordenadaXInstalacion "435523"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4471623"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "LATINA" ;
+	myont:telefonoInstalacion "91 717 81 90"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/182> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d1cda3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Parque Eugenia de Montijo" ;
+	myont:coordenadaXInstalacion "436244"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4470234"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "CARABANCHEL" ;
+	myont:telefonoInstalacion "914 615 653"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/183> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1516a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Pasamonte" ;
+	myont:coordenadaXInstalacion "445128"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4473926"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "MORATALAZ" ;
+	myont:telefonoInstalacion "91 430 53 66"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/184> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6a26a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Patriarca Obispo Eijo y Garay" ;
+	myont:coordenadaXInstalacion "442303"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4476991"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "CHAMARTIN" ;
+	myont:telefonoInstalacion "917 450 282"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/185> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ee844b6faa61c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Pedro Duque" ;
+	myont:coordenadaXInstalacion "448572"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4472231"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "VICALVARO" ;
+	myont:telefonoInstalacion "917 762 363"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/186> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=bf36a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Perú" ;
+	myont:coordenadaXInstalacion "439577"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4471918"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "CARABANCHEL" ;
+	myont:telefonoInstalacion "91 569 14 65"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/187> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0556a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Pi I Margall" ;
+	myont:coordenadaXInstalacion "440343"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4475575"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "CENTRO" ;
+	myont:telefonoInstalacion "915 323 420"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/188> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=99744b6faa61c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Pinar de San José" ;
+	myont:coordenadaXInstalacion "435211"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4468538"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "CARABANCHEL" ;
+	myont:telefonoInstalacion "915 112 417 "^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/189> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5a66a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Pinar del Rey" ;
+	myont:coordenadaXInstalacion "444650"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4480518"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "HORTALEZA" ;
+	myont:telefonoInstalacion "917 664 763"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/190> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=af76a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Pintor Rosales" ;
+	myont:coordenadaXInstalacion "442559"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4477537"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "CHAMARTIN" ;
+	myont:telefonoInstalacion """915 623 948                 
+"""^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/191> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9fb6a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Portugal" ;
+	myont:coordenadaXInstalacion "439465"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4475374"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "MONCLOA-ARAVACA" ;
+	myont:telefonoInstalacion "91 541 73 30"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/192> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e4d6a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Pradolongo" ;
+	myont:coordenadaXInstalacion "439345"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4470270"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "USERA" ;
+	myont:telefonoInstalacion "91 469 35 81"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/193> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3ae6a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Príncipe de Asturias" ;
+	myont:coordenadaXInstalacion "441102"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4488310"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "FUENCARRAL-EL PARDO" ;
+	myont:telefonoInstalacion "917 355 115"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/194> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d417a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Puerto Rico" ;
+	myont:coordenadaXInstalacion "439033"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4469053"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "USERA" ;
+	myont:telefonoInstalacion "913 412 726"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/195> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f496a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Pío Baroja" ;
+	myont:coordenadaXInstalacion "445977"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4472951"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "MORATALAZ" ;
+	myont:telefonoInstalacion "917 739 618 - 913 713 235"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/196> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4aa6a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Pío XII" ;
+	myont:coordenadaXInstalacion "441285"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4480024"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "TETUAN" ;
+	myont:telefonoInstalacion "91 315 12 21"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/197> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2a27a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Rabindranath Tagore" ;
+	myont:coordenadaXInstalacion "441128"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4481819"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "FUENCARRAL-EL PARDO" ;
+	myont:telefonoInstalacion "917 332 373"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/198> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=91f4ae10c471c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Ramiro de Maeztu" ;
+	myont:coordenadaXInstalacion "441920"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4477261"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "CHAMARTIN" ;
+	myont:telefonoInstalacion "915 616 249"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/199> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7f37a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Ramón Gómez de la Serna" ;
+	myont:coordenadaXInstalacion "441540"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4465897"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "VILLAVERDE" ;
+	myont:telefonoInstalacion "917 972 522 - 915 053 446"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/200> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c457a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Ramón María del Valle Inclán" ;
+	myont:coordenadaXInstalacion "447666"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4475860"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "SAN BLAS-CANILLEJAS" ;
+	myont:telefonoInstalacion "913 130 739"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/201> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1a67a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Ramón Pérez de Ayala" ;
+	myont:coordenadaXInstalacion "446427"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4479920"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "HORTALEZA" ;
+	myont:telefonoInstalacion "917 592 205"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/202> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6f77a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Real Armada" ;
+	myont:coordenadaXInstalacion "445329"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4472752"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "MORATALAZ" ;
+	myont:telefonoInstalacion """917 736 583        
+917 724 429 (Primaria)       
+"""^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/203> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b497a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Regimiento Inmemorial del Rey" ;
+	myont:coordenadaXInstalacion "444330"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4473390"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "MORATALAZ" ;
+	myont:telefonoInstalacion "914 390 948"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/204> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=714fa3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Reina Victoria" ;
+	myont:coordenadaXInstalacion "442462"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4476303"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "SALAMANCA" ;
+	myont:telefonoInstalacion "915 631 283"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/205> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e96813db5b71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público República Dominicana" ;
+	myont:coordenadaXInstalacion "436256"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4470002"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "CARABANCHEL" ;
+	myont:telefonoInstalacion "914 629 060"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/206> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0aa7a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público República de Brasil" ;
+	myont:coordenadaXInstalacion "441537"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4469310"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "USERA" ;
+	myont:telefonoInstalacion "917 923 478"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/207> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5fb7a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público República de Chile" ;
+	myont:coordenadaXInstalacion "447113"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4475669"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "SAN BLAS-CANILLEJAS" ;
+	myont:telefonoInstalacion "91 304 66 58"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/208> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a4d7a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público República de Colombia" ;
+	myont:coordenadaXInstalacion "437550"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4469963"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "CARABANCHEL" ;
+	myont:telefonoInstalacion "914 650 587"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/209> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f9e7a3f5ca71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público República de Ecuador" ;
+	myont:coordenadaXInstalacion "438554"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4471240"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "CARABANCHEL" ;
+	myont:telefonoInstalacion "914 603 284 - 915 600 937"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/210> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=945813db5b71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público República de El Salvador" ;
+	myont:coordenadaXInstalacion "440838"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4466991"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "VILLAVERDE" ;
+	myont:telefonoInstalacion "917 964 041"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/211> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a41813db5b71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público República de Paraguay" ;
+	myont:coordenadaXInstalacion "441190"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4482801"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "FUENCARRAL-EL PARDO" ;
+	myont:telefonoInstalacion "917 343 888"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/212> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f92813db5b71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público República de Uruguay" ;
+	myont:coordenadaXInstalacion "437203"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4471902"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "LATINA" ;
+	myont:telefonoInstalacion "914 661 360"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/213> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4f3813db5b71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público República de Venezuela" ;
+	myont:coordenadaXInstalacion "439537"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4470785"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "USERA" ;
+	myont:telefonoInstalacion "915 698 392"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/214> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3f7813db5b71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Rosa Luxemburgo" ;
+	myont:coordenadaXInstalacion "434683"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4478202"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "MONCLOA-ARAVACA" ;
+	myont:telefonoInstalacion "913 570 212"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/215> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=849813db5b71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Rufino Blanco" ;
+	myont:coordenadaXInstalacion "440533"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4476841"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "CHAMBERI" ;
+	myont:telefonoInstalacion "914 484 083"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/216> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d9a813db5b71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Sagunto" ;
+	myont:coordenadaXInstalacion "441938"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4466057"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "VILLAVERDE" ;
+	myont:telefonoInstalacion "917 976 726"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/217> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2fb813db5b71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público San Benito" ;
+	myont:coordenadaXInstalacion "445248"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4477477"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "CIUDAD LINEAL" ;
+	myont:telefonoInstalacion "913 670 800 - 913 680 735"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/218> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=74d813db5b71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público San Carlos" ;
+	myont:coordenadaXInstalacion "439712"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4466392"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "VILLAVERDE" ;
+	myont:telefonoInstalacion "917 966 105"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/219> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c9e813db5b71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público San Cristóbal" ;
+	myont:coordenadaXInstalacion "440363"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4476756"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "CHAMBERI" ;
+	myont:telefonoInstalacion "914 481 381"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/220> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1ff813db5b71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público San Eugenio y San Isidro" ;
+	myont:coordenadaXInstalacion "440441"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4472837"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "ARGANZUELA" ;
+	myont:telefonoInstalacion "914 737 711"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/221> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=641913db5b71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público San Ignacio de Loyola" ;
+	myont:coordenadaXInstalacion "438851"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4470931"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "CARABANCHEL" ;
+	myont:telefonoInstalacion "915 651 989"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/222> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e605ae10c471c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público San Ildefonso" ;
+	myont:coordenadaXInstalacion "439686"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4474058"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "CENTRO" ;
+	myont:telefonoInstalacion "913 643 923"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/223> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b92913db5b71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público San Isidoro" ;
+	myont:coordenadaXInstalacion "442297"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4473307"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "RETIRO" ;
+	myont:telefonoInstalacion "915 514 845"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/224> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0f3913db5b71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público San Juan Bautista" ;
+	myont:coordenadaXInstalacion "444228"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4478250"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "CIUDAD LINEAL" ;
+	myont:telefonoInstalacion "914 131 225"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/225> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=545913db5b71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público San Juan Bosco" ;
+	myont:coordenadaXInstalacion "444750"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4474752"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "CIUDAD LINEAL" ;
+	myont:telefonoInstalacion "914 053 610"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/226> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a96913db5b71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público San Juan de la Cruz" ;
+	myont:coordenadaXInstalacion "442495"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4479193"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "CHAMARTIN" ;
+	myont:telefonoInstalacion "913 453 044"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/227> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fe7913db5b71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público San Miguel" ;
+	myont:coordenadaXInstalacion "444823"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4480826"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "HORTALEZA" ;
+	myont:telefonoInstalacion "917 639 281"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/228> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=449913db5b71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público San Pablo" ;
+	myont:coordenadaXInstalacion "444793"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4471390"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "PUENTE DE VALLECAS" ;
+	myont:telefonoInstalacion "913 031 550"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/229> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=99a913db5b71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público San Roque" ;
+	myont:coordenadaXInstalacion "440390"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4466702"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "VILLAVERDE" ;
+	myont:telefonoInstalacion "917 962 774"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/230> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=eeb913db5b71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Santa María" ;
+	myont:coordenadaXInstalacion "440126"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4473283"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "CENTRO" ;
+	myont:telefonoInstalacion "915 275 281"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/231> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=34d913db5b71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Santo Domingo" ;
+	myont:coordenadaXInstalacion "445293"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4471677"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "PUENTE DE VALLECAS" ;
+	myont:telefonoInstalacion "917 785 293"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/232> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=89e913db5b71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Tirso de Molina" ;
+	myont:coordenadaXInstalacion "441707"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4471728"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "ARGANZUELA" ;
+	myont:telefonoInstalacion "915 278 932"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/233> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=def913db5b71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Tomás Bretón" ;
+	myont:coordenadaXInstalacion "439364"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4472727"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "ARGANZUELA" ;
+	myont:telefonoInstalacion "913 642 214"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/234> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6ad7598d1351c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Valdebernardo" ;
+	myont:coordenadaXInstalacion "447683"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4472924"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "VICALVARO" ;
+	myont:telefonoInstalacion "913 713 523"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/235> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=241a13db5b71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Vasco Núñez de Balboa" ;
+	myont:coordenadaXInstalacion "441946"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4483622"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "FUENCARRAL-EL PARDO" ;
+	myont:telefonoInstalacion "917 343 267 - 917 350 225"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/236> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ce3a13db5b71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Vicálvaro" ;
+	myont:coordenadaXInstalacion "449105"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4473094"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "VICALVARO" ;
+	myont:telefonoInstalacion "917 769 938 - 917 760 333"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/237> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=145a13db5b71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Virgen del Cerro" ;
+	myont:coordenadaXInstalacion "445024"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4472116"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "PUENTE DE VALLECAS" ;
+	myont:telefonoInstalacion "917 785 083"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/238> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=696a13db5b71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Virgen del Cortijo" ;
+	myont:coordenadaXInstalacion "444173"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4482257"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "HORTALEZA" ;
+	myont:telefonoInstalacion "917 661 215"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/239> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=792a13db5b71c010VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Vázquez de Mella" ;
+	myont:coordenadaXInstalacion "439531"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4473950"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "CENTRO" ;
+	myont:telefonoInstalacion "913 654 878 "^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/240> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d3875f9fa7166110VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Winston Churchill" ;
+	myont:coordenadaXInstalacion "449594"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4472862"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "VICALVARO" ;
+	myont:telefonoInstalacion "913 716 066 - 676 695 332"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.fi.upm.es/linked-data/group13/ontology/241> myont:urlInstalacion "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=eb583058a6166110VgnVCM1000000b205a0aRCRD" ;
+	myont:nombreInstalacion "Colegio Público Álvaro de Bazan" ;
+	myont:coordenadaXInstalacion "448596"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:coordenadaYInstalacion "4474931"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	myont:distritoInstalacion "SAN BLAS-CANILLEJAS" ;
+	myont:telefonoInstalacion "917 757 114"^^<http://www.w3.org/2001/XMLSchema#int> .
