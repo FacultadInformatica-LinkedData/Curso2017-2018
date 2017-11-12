@@ -13,13 +13,19 @@
 	 Basandonos en la notacion de Creative Comons podriamos decir que nuestro uso sera CC BY-NC-SA ---> Permite a otros entremezclar, ajustar y construir a partir de su obra con fines no comerciales, siempre y cuando le reconozcan la autoría y sus nuevas creaciones estén bajo una licencia con los mismos términos.</p>
 </head>
 <body>
-	<h2> Analisis para el dataset 'Usos Oct16-Mar17 1.csv'</h2>
-	<p> Este dataset contiene información sobre  todos los viajes realizados durante 6 meses (de Octubre a Marzo). <br>Hay en total 1024821 datos con los siguientes campos:</br></p>
-		<li> • IDUsuario: Es el número identificador del usuario que realizará el viaje. -- >	 Tipo de datos: Entero.</li>
-		<li> • RetiroDT: Muestra el dia y fecha en la que el usuario retira la bici de la estación. -- > 	Tipo de datos: xsd:dateTime.</li>
-		<li> • RetiroEstacion: Muestra la estación de donde se retira la bicicleta. -- > 	Tipo de datos: Entero.</li>
-		<li> • AnclajeDT: Muestra el dia y fecha en la que el usuario devuelve la bicicleta. -- >	Tipo de datos: xsd:dateTime</li>
-		<li> • AnclajeEstacion: Muestra la estación donde se devolvió la bicicleta. -- > 	Tipo de datos: Entero</li>
+	<h2> Analisis para el dataset 'estacion-bicicleta.csv'</h2>
+	<p> Este dataset contiene información sobre las estaciones de bici disponibles en Zaragoza <br>Hay en total 50 datos con los siguientes campos:</br></p>
+		<li> • id: Es un enlace para mostrar la información de la estación con ese id. -- >	 Tipo de datos: URI.</li>
+		<li> • about: Muestra más información de la estación. -- > 	Tipo de datos: URI.</li>
+		<li> • title: Muestra el nombre de la calle donde se encuentra la estacion. -- >        Tipo de datos: String.</li>
+		<li> • estado: Muestra si la estacion esta abierta -- >        Tipo de datos: String.</li>
+		<li> • bicisDisponibles: Muestra el numero de bicicletas disponibles en la estacion. -- >        Tipo de datos: Entero.</li>
+		<li> • anclajesDisponibles: Muestra el numero de espacios dispoibles para dejar las bicicletas. -- >        Tipo de datos: Entero.</li>
+		<li> • geometry: Muestra las coordenadas de la estacion -- >        Tipo de datos: Entero.</li>
+		<li> • lastUpdate: Muestra la fecha de la última actualizacion de la informacion. -- >        Tipo de datos:  xsd:dateTime .</li>
+		<li> • description: Muestra un resumen de la informacion disponible -- >        Tipo de datos: String.</li>
+		<li> • icon: Muestra un enlace al icono de una estacion de bicicletas. -- >     Tipo de datos: URI</li>
+
 
 	<h2> Analisis para el dataset 'poste-autobus.csv'</h2>
 	<p> Este dataset contiene un listado de las marquesinas de autobús de la ciudad de Zaragoza. <br>Hay en total 1208 marquesinas con los siguientes campos:</br></p>
