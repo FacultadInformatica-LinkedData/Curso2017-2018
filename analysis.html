@@ -1,0 +1,1023 @@
+<!DOCTYPE htm  <h4>Dataset: agenda eventos culturales</h4>
+        <table>
+l>
+<html>
+    <head>
+        <meta <charset="utf-8">
+            <title>Analysis</title>
+    </head>
+    <body>
+        <h1>Analyse the dataset</h1>
+        <!--Analyse both the data (quantities, value ranges, etc.)
+             as well as the schema of the data.-->
+        <h4>Polideportivos</h4>
+        <table>
+
+            <tr>
+                <th>Nombre</th>
+                <th>Tipo de valor</th>
+                <th>Descripción</th>
+		        <th>Rango de valores</th>
+            </tr>
+            <tr>
+                <td>PK</td>
+                <td>Integer</td>
+                <td>Campo clave identificador del centro deportivo dentro de la web del ayuntamiento, para uso interno</td>
+		<td>[0-9]</td>
+            </tr>
+            <tr>
+                <td>Nombre</td>
+                <td>String</td>
+                <td>Nombre del centro</td>
+            	<td>[a-Z][0-9]</td>
+	    </tr>
+            <tr>
+                <td>Descripción-entidad</td>
+                <td>String</td>
+                <td>Describe como es el centro y dónde se ubica.</td>
+            </tr>
+            <tr>
+                <td>Horario</td>
+                <td>String</td>
+                <td>Indica donde encontrar el horario del centro.</td>
+            </tr>
+            <tr>
+                <td>Equipamiento</td>
+                <td>String</td>
+                <td>Detalle de deportes disponibles en el centro.</td>
+		<td>[a-z][A-Z]</td>
+            </tr>
+            <tr>
+                <td>Transporte</td>
+                <td>String</td>
+                <td>Estaciones de metro; líneas de bus; estaciones de Renfe.</td>
+		<td>[a-z][A-Z][0-9]</td>
+            </tr>
+            <tr>
+                <td>Descripción</td>
+                <td>String</td>
+                <td>Información adicional; por ej.:forma de gestión o tipo de gestión; otros equpamientos adicionales del centro.</td>
+            	<td>[a-z][A-Z][0-9]</td>
+	    </tr>
+            <tr>
+                <td>Accesibilidad</td>
+                <td>Boolean</td>
+                <td>Si es accesible o no para personas con minusvalías.</td>
+		<td>[[0-1]</td>
+            </tr>
+            <tr>
+                <td>Content-URL</td>
+                <td>String</td>
+                <td>Nombre del recurso en internet.</td>
+		<td>[a-z][A-Z][0-9]</td>
+            </tr>
+            <tr>
+                <td>Nombre vía</td>
+                <td>String</td>
+                <td>Indica el nombre de la vía donde se encuentra el centro.</td>
+		<td>[a-z][A-Z]</td>
+            </tr>
+            <tr>
+                <td>Clase vía</td>
+                <td>String</td>
+                <td>Si la vía es calle, avenida, etc.</td>
+		<td>[a-z][A-Z]</td>
+            </tr>
+            <tr>
+                <td>Tipo num</td>
+                <td>String</td>
+                <td>V, S/N, KM</td>
+		<td><td>[A-Z]</td>
+            </tr>
+            <tr>
+                <td>Núm</td>
+                <td>Integer</td>
+                <td>número del centro en la vía indicada.</td>
+		<td>[0-9]</td>
+            </tr>
+            <tr>
+                <td>Planta</td>
+                <td>Integer</td>
+                <td>Nivel que ocupa el centro.</td>
+		<td>[0-9]</td>
+            </tr>
+            <tr>
+                <td>Puerta</td>
+                <td>String</td>
+                <td>Puerta que ocupa centro dentro del inmueble</td>
+		<td>[0-9]</td>
+            </tr>
+            <tr>
+                <td>Escalera</td>
+                <td>Integer</td>
+                <td>Escalera de acceso.</td>
+		<td>[0-9]</td>
+            </tr>
+            <tr>
+                <td>Orientación</td>
+                <td>String</td>
+                <td>Detalles descriptivos de la dirección.</td>
+		<td>[a-z][A-Z]</td>
+            </tr>
+            <tr>
+                <td>Localidad</td>
+                <td>String</td>
+                <td>Municipio del lugar.</td>
+		<td>[a-z][A-Z]</td>
+            </tr>
+            <tr>
+                <td>Provincia</td>
+                <td>String</td>
+                <td>Provincia a la que pertenece la localidad.</td>
+		<td>[a-z][A-Z]</td>
+            </tr>
+            <tr>
+                <td>Código postal</td>
+                <td>Integer</td>
+                <td>Código postal del centro.</td>
+		<td>[0-9]</td>
+            </tr>
+            <tr>
+                <td>Barrio</td>
+                <td>String</td>
+                <td>Barrio donde esta el centro.</td>
+		<td>[a-z][A-Z]</td>
+            </tr>
+            <tr>
+                <td>Distrito</td>
+                <td>String</td>
+                <td>Distrito donde esta el centro.</td>
+		<td>[a-z][A-Z]</td>
+            </tr>
+            <tr>
+                <td>Coordenada X</td>
+                <td>Integer</td>
+                <td>coordenada de 6 caracteres sobre plano de la ciudad.</td>
+		<td>[0-9]</td>
+            </tr>
+            <tr>
+                <td>Cordenada Y</td>
+                <td>Integer</td>
+                <td>coordenada de 7 caracteres sobre plano de la ciudad.</td>
+		<td>[0-9]</td>
+            </tr>
+            <tr>
+                <td>Latitud</td>
+                <td>Decimal</td>
+                <td>coordenada latitud en el sistema de referencia WGS84</td>
+		<td>[0-9].[0-9]</td>
+            </tr>
+            <tr>
+                <td>Longitud</td>
+                <td>String</td>
+                <td>coordenada longitud en el sistema de referencia WGS84</td>
+		<td>[-][0-9].[0-9]</td>
+            </tr>
+            <tr>
+                <td>Teléfono</td>
+                <td>Integer</td>
+                <td>Teléfono del centro.</td>
+		<td>[0-9]</td>
+            </tr>
+            <tr>
+                <td>Fax</td>
+                <td>Integer</td>
+                <td>Fax del centro.</td>
+		<td>[0-9]</td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>String</td>
+                <td>Correo electrónico de contacto del centro.</td>
+		<td>[a-z][A-Z][0-9]</td>
+            </tr>
+            <tr>
+                <td>Tipo</td>
+                <td>String</td>
+                <td>Descripción de la tipología de la instalación.</td>
+		<td>[a-z][A-Z][0-9]</td>
+            </tr>
+        </table>
+
+        <h4>Instalaciones deportivas</h4>
+        <table>
+
+            <tr>
+                <th>Nombre</th>
+                <th>Tipo de valor</th>
+                <th>Descripción</th>
+                <th>Rango de valores</th>
+            </tr>
+            <tr>
+                <td>PK</td>
+                <td>Integer</td>
+                <td>Campo clave identificador del centro deportivo dentro de la web del ayuntamiento, para uso interno</td>
+        <td>[0-9]</td>
+            </tr>
+            <tr>
+                <td>Nombre</td>
+                <td>String</td>
+                <td>Nombre de la instalación.</td>
+                <td>[a-Z][0-9]</td>
+        </tr>
+            <tr>
+                <td>Descripción-entidad</td>
+                <td>String</td>
+                <td>Describe como es el centro y dónde se ubica.</td>
+            </tr>
+            <tr>
+                <td>Horario</td>
+                <td>String</td>
+                <td>Indica donde encontrar el horario del centro o el horario.</td>
+            </tr>
+            <tr>
+                <td>Equipamiento</td>
+                <td>String</td>
+                <td>Detalle de las instalaciones deportivas disponibles en cada centro.</td>
+        <td>[a-z][A-Z]</td>
+            </tr>
+            <tr>
+                <td>Transporte</td>
+                <td>String</td>
+                <td>Estaciones de metro; líneas de bus; estaciones de Renfe.</td>
+        <td>[a-z][A-Z][0-9]</td>
+            </tr>
+            <tr>
+                <td>Descripción</td>
+                <td>String</td>
+                <td>Información adicional.</td>
+                <td>[a-z][A-Z][0-9]</td>
+        </tr>
+            <tr>
+                <td>Accesibilidad</td>
+                <td>Boolean</td>
+                <td>Si es accesible o no para personas con minusvalías.</td>
+        <td>[0-1]</td>
+            </tr>
+            <tr>
+                <td>Content-URL</td>
+                <td>String</td>
+                <td>Nombre del recurso en internet.</td>
+        <td>[a-z][A-Z][0-9]</td>
+            </tr>
+            <tr>
+                <td>Nombre vía</td>
+                <td>String</td>
+                <td>Indica el nombre de la vía donde se encuentra el centro.</td>
+        <td>[a-z][A-Z]</td>
+            </tr>
+            <tr>
+                <td>Clase vía</td>
+                <td>String</td>
+                <td>Si la vía es calle, avenida, etc.</td>
+        <td>[a-z][A-Z]</td>
+            </tr>
+            <tr>
+                <td>Tipo num</td>
+                <td>String</td>
+                <td>V, S/N, KM</td>
+        <td><td>[A-Z]</td>
+            </tr>
+            <tr>
+                <td>Núm</td>
+                <td>Integer</td>
+                <td>número del centro en la vía indicada.</td>
+        <td>[0-9]</td>
+            </tr>
+            <tr>
+                <td>Planta</td>
+                <td>Integer</td>
+                <td>Nivel que ocupa el centro.</td>
+        <td>[0-9]</td>
+            </tr>
+            <tr>
+                <td>Puerta</td>
+                <td>String</td>
+                <td>Puerta que ocupa centro dentro del inmueble</td>
+        <td>[0-9]</td>
+            </tr>
+            <tr>
+                <td>Escalera</td>
+                <td>Integer</td>
+                <td>Escalera de acceso.</td>
+        <td>[0-9]</td>
+            </tr>
+            <tr>
+                <td>Orientación</td>
+                <td>String</td>
+                <td>Detalles descriptivos de la dirección.</td>
+        <td>[a-z][A-Z]</td>
+            </tr>
+            <tr>
+                <td>Localidad</td>
+                <td>String</td>
+                <td>Municipio del lugar.</td>
+        <td>[a-z][A-Z]</td>
+            </tr>
+            <tr>
+                <td>Provincia</td>
+                <td>String</td>
+                <td>Provincia a la que pertenece la localidad.</td>
+        <td>[a-z][A-Z]</td>
+            </tr>
+            <tr>
+                <td>Código postal</td>
+                <td>Integer</td>
+                <td>Código postal del centro.</td>
+        <td>[0-9]</td>
+            </tr>
+            <tr>
+                <td>Barrio</td>
+                <td>String</td>
+                <td>Barrio donde esta el centro.</td>
+        <td>[a-z][A-Z]</td>
+            </tr>
+            <tr>
+                <td>Distrito</td>
+                <td>String</td>
+                <td>Distrito donde esta el centro.</td>
+        <td>[a-z][A-Z]</td>
+            </tr>
+            <tr>
+                <td>Coordenada X</td>
+                <td>Integer</td>
+                <td>coordenada de 6 caracteres sobre plano de la ciudad.</td>
+        <td>[0-9]</td>
+            </tr>
+            <tr>
+                <td>Cordenada Y</td>
+                <td>Integer</td>
+                <td>coordenada de 7 caracteres sobre plano de la ciudad.</td>
+        <td>[0-9]</td>
+            </tr>
+            <tr>
+                <td>Latitud</td>
+                <td>Decimal</td>
+                <td>coordenada latitud en el sistema de referencia WGS84</td>
+        <td>[0-9].[0-9]</td>
+            </tr>
+            <tr>
+                <td>Longitud</td>
+                <td>String</td>
+                <td>coordenada longitud en el sistema de referencia WGS84</td>
+        <td>[-][0-9].[0-9]</td>
+            </tr>
+            <tr>
+                <td>Teléfono</td>
+                <td>Integer</td>
+                <td>Teléfono del centro.</td>
+        <td>[0-9]</td>
+            </tr>
+            <tr>
+                <td>Fax</td>
+                <td>Integer</td>
+                <td>Fax del centro.</td>
+        <td>[0-9]</td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>String</td>
+                <td>Correo electrónico de contacto del centro.</td>
+        <td>[a-z][A-Z][0-9]</td>
+            </tr>
+            <tr>
+                <td>Tipo</td>
+                <td>String</td>
+                <td>Descripción de la tipología de la instalación.</td>
+        <td>[a-z][A-Z][0-9]</td>
+            </tr>
+        </table>
+
+        <h4>Agenda de actividades</h4>
+        <table>
+
+            <tr>
+                <th>Nombre</th>
+                <th>Tipo de valor</th>
+                <th>Descripción</th>
+                <th>Rango de valores</th>
+            </tr>
+            <tr>
+                <td>Id Evento</td>
+                <td>Integer</td>
+                <td>Campo clave identificador del evento deportivo dentro de la web del ayuntamiento, para uso interno</td>
+        <td>[0-9]</td>
+            </tr>
+            <tr>
+                <td>Titulo</td>
+                <td>String</td>
+                <td>Nombre de la actividad deportiva.</td>
+                <td>[a-Z][0-9]</td>
+            </tr>
+            <tr>
+                <td>Precio</td>
+                <td>String</td>
+                <td>Describe cuanto vale la entrada para los distintos publicos.</td>
+                <td>[a-Z][0-9]</td>
+            </tr>
+            <tr>
+                <td>Gratuito</td>
+                <td>Boolean</td>
+                <td>Indica si el evento es gratuito o no.</td>
+                <td>[0-1]</td>
+            </tr>
+            <tr>
+                <td>Larga duración</td>
+                <td>Boolean</td>
+                <td>Indica si el evento es de larga duración o no.</td>
+                <td>[0-1]</td>
+            </tr>
+            <tr>
+                <td>Dias-Semana</td>
+                <td>String</td>
+                <td>Indica los días de la semana que es la actividad deportiva.</td>
+                <td>[L,M,X,J,V,S,D][,]</td>
+            </tr>
+            <tr>
+                <td>Dias excluidos</td>
+                <td>String</td>
+                <td>Indica los días que a pesar de que estan en el rango de días indicado no se realiza el evento.</td>
+                <td>0-9][/,;]]</td>
+        </tr>
+            <tr>
+                <td>Fecha</td>
+                <td>String</td>
+                <td>Muestra el día de inicio de la actividad.</td>
+                <td>[0-1][-,:]</td>
+            </tr>
+            <tr>
+                <td>Fecha Fin</td>
+                <td>String</td>
+                <td>Muestra el día de inicio de la actividad.</td>
+                <td>[0-1][-,:]</td>
+            </tr>
+            <tr>
+                <td>Hora</td>
+                <td>String</td>
+                <td>Indica la hora de inicio del evento.</td>
+                <td>[0-9][:]</td>
+            </tr>
+            <tr>
+                <td>Descripción</td>
+                <td>String</td>
+                <td>Información adicional.</td>
+                <td>[a-z][A-Z][0-9]</td>
+            </tr>
+            <tr>
+                <td>Content-URL</td>
+                <td>String</td>
+                <td>Nombre del recurso en internet.</td>
+                <td>[a-z][A-Z][0-9]</td>
+            </tr>
+            <tr>
+                <td>Titulo Actividad</td>
+                <td>String</td>
+                <td>Nombre de la actividad deportiva.</td>
+                <td>[a-Z][0-9]</td>
+            </tr>
+            <tr>
+                <td>URL-Actividad</td>
+                <td>String</td>
+                <td>Nombre de la actividad en internet.</td>
+                <td>[a-z][A-Z][0-9]</td>
+            </tr>
+            <tr>
+                <td>URL-Instalacion</td>
+                <td>String</td>
+                <td>Nombre de la instalacion donde se realiza el evento en internet.</td>
+                <td>[a-z][A-Z][0-9]</td>
+            </tr>
+            <tr>
+                <td>Nombre-Instalacion</td>
+                <td>String</td>
+                <td>Nombre de la instalación donde se realiza actividad deportiva.</td>
+                <td>[a-Z][0-9]</td>
+            </tr>
+             <tr>
+                <td>Coordenada X</td>
+                <td>Integer</td>
+                <td>coordenada de 6 caracteres sobre plano de la ciudad.</td>
+                <td>[0-9]</td>
+            </tr>
+            <tr>
+                <td>Cordenada Y</td>
+                <td>Integer</td>
+                <td>coordenada de 7 caracteres sobre plano de la ciudad.</td>
+                <td>[0-9]</td>
+            </tr>
+            <tr>
+                <td>Latitud</td>
+                <td>Decimal</td>
+                <td>coordenada latitud en el sistema de referencia WGS84</td>
+                <td>[0-9].[0-9]</td>
+            </tr>
+            <tr>
+                <td>Longitud</td>
+                <td>String</td>
+                <td>coordenada longitud en el sistema de referencia WGS84</td>
+                <td>[-][0-9].[0-9]</td>
+            </tr>
+             <tr>
+                <td>Distrito</td>
+                <td>String</td>
+                <td>Distrito donde se llevará acabo la actividad.</td>
+                <td>[a-z][A-Z]</td>
+            </tr>
+            <tr>
+                <td>Tipo</td>
+                <td>String</td>
+                <td>Descripción de la tipología de la actividad.</td>
+                <td>[a-z][A-Z][0-9]</td>
+            </tr>
+            <tr>
+                <td>Audiencia</td>
+                <td>String</td>
+                <td>Describe los usuarios hacia los que se destina la actividad deportiva.</td>
+                <td>[a-z][A-Z][/]</td>
+            </tr>
+        </table>
+
+
+        <h4>Abonados</h4>
+        <table>
+
+            <tr>
+                <th>Nombre</th>
+                <th>Tipo de valor</th>
+                <th>Descripción</th>
+                <th>Rango de valores</th>
+            </tr>
+            <tr>
+                <td>Nº de abonados</td>
+                <td>Integer</td>
+                <td>Indica la cantidad de abinados</td>
+        <td>[0-9]</td>
+            </tr>
+            <tr>
+                <td>Sexo</td>
+                <td>String</td>
+                <td>Indica el género de los abonados.</td>
+                <td>[A-Z]</td>
+            </tr>
+            <tr>
+                <td>Edad</td>
+                <td>Integer</td>
+                <td>Indica la edad de los abonados.</td>
+                <td>[0-9]</td>
+            </tr>
+            <tr>
+                <td>Tipo de Abonado</td>
+                <td>String</td>
+                <td>Indica el tipo de abono de los usuarios.</td>
+                <td>[A-Z]</td>
+            </tr>
+            <tr>
+                <td>Centro deportivo</td>
+                <td>String</td>
+                <td>Indica el centro donde están abonados los usuarios.</td>
+                <td>[A-Z]</td>
+            </tr>
+            <tr>
+                <td>Med</td>
+                <td>String</td>
+                <td>Indica el mes en el que se abonaron.</td>
+                <td>[a-z]-[0-9]</td>
+            </tr>
+           
+        </table>
+
+         <h4>Ocupación instalaciones</h4>
+
+
+
+        <table>
+
+            <tr>
+
+                <th>Nombre</th>
+
+                <th>Tipo de valor</th>
+
+                <th>Descripción</th>
+
+                <th>Rango de valores</th>
+
+            </tr>
+
+            <tr>
+
+                <td>Tipo de cupo</td>
+
+                <td>String</td>
+
+                <td>Define el estado del curso siendo cerrado o abierto.</td>
+
+                    <td>[A-Z]</td>
+
+            </tr>
+
+            <tr>
+
+                <td>Denominación de la clase</td>
+
+                <td>String</td>
+
+                <td>Nombre de la clase y horario.</td>
+
+                    <td>[-][.][a-z][A-Z]</td>
+
+            </tr>
+
+            <tr>
+
+                <td>Año</td>
+
+                <td>Date</td>
+
+                <td>Año en curso.</td>
+
+                    <td>[.][0-9]</td>
+
+            </tr>
+
+            <tr>
+
+                <td>Mes Ocupación</td>
+
+                <td>String</td>
+
+                <td>Periodo en el que se imparte.</td>
+
+                    <td>[.][0-9][A-Z]</td>
+
+            </tr>
+
+            <tr>
+
+                <td>Actividad deportiva</td>
+
+                <td>String</td>
+
+                <td>Actividad o ejercicio físico en el que se basa la clase</td>
+
+                    <td>[.][/][a-z][A-Z]</td>
+
+            </tr>
+
+            <tr>
+
+                <td>Categoría edad</td>
+
+                <td>String</td>
+
+                <td>Indica el rango de edad en el que se encuentran los alumnos.</td>
+
+                    <td>[a-z][A-Z]</td>
+
+            </tr>
+
+            <tr>
+
+                <td>Distrito</td>
+
+                <td>String</td>
+
+                <td>Distrito al que pertenece el centro.</td>
+
+                    <td>[.][a-z][A-Z]</td>
+
+            </tr>
+
+            <tr>
+
+                <td>Centro deportivo</td>
+
+                <td>String</td>
+
+                <td>Indica el nombre del centro deportivo.</td>
+
+                    <td>[a-z][A-Z]</td>
+
+            </tr>
+
+            <tr>
+
+                <td>Nº Plazas Ofertadas</td>
+
+                <td>Integer</td>
+
+                <td>Número de plazas ofertadas al público.</td>
+
+                    <td>[0-9]</td>
+
+            </tr>
+
+            <tr>
+
+                <td>Nº Plazas Ocupadas</td>
+
+                <td>Integer</td>
+
+                <td>Número de plazas en uso.</td>
+
+                    <td>[0-9]</td>
+
+            </tr>
+
+            <tr>
+
+                <td>Nº Plazas Libres</td>
+
+                <td>Integer</td>
+
+                <td>Plazas disponibles.</td>
+
+                    <td>[0-9]</td>
+
+            </tr>
+
+            <tr>
+
+                <td>Nº Plazas Ocupadas (Masculino)</td>
+
+                <td>Integer</td>
+
+                <td>Número de plazas ocupadas por hombres.</td>
+
+                    <td>[0-9]</td>
+
+            </tr>
+
+            <tr>
+
+                <td>Nº Plazas Ocupadas (Femenino)</td>
+
+                <td>Integer</td>
+
+                <td>Número de plazas ocupadas por mujeres.</td>
+
+                    <td>[0-9]</td>
+
+            </tr>
+
+
+
+        </table>
+
+
+
+        <h4>Alumnos</h4>
+
+
+
+        <table>
+
+            <tr>
+
+                <th>Nombre</th>
+
+                <th>Tipo de valor</th>
+
+                <th>Descripción</th>
+
+                <th>Rango de valores</th>
+
+            </tr>
+
+            <tr>
+
+                <td>Sexo</td>
+
+                <td>String</td>
+
+                <td>Define el género siendo hombre o mujer.</td>
+
+                    <td>[H][M]</td>
+
+            </tr>
+
+            <tr>
+
+                <td>Deporte</td>
+
+                <td>String</td>
+
+                <td>Indica la actividad o ejercicio físico.</td>
+
+                    <td>[-][.][a-z][A-Z]</td>
+
+            </tr>
+
+            <tr>
+
+                <td>Fecha</td>
+
+                <td>Date</td>
+
+                <td>Fecha de inicio.</td>
+
+                    <td>[/][0-9]</td>
+
+            </tr>
+
+            <tr>
+
+                <td>Temporada</td>
+
+                <td>Date</td>
+
+                <td>Periodo en la que se encuentran.</td>
+
+                    <td>[-][0-9]</td>
+
+            </tr>
+
+            <tr>
+
+                <td>Municipio</td>
+
+                <td>String</td>
+
+                <td>Municipio al que pertenece el centro.</td>
+
+                    <td>[.][a-z][A-Z]</td>
+
+            </tr>
+
+            <tr>
+
+                <td>C P</td>
+
+                <td>Integer</td>
+
+                <td>Código postal en el que se encuentra el centro.</td>
+
+                    <td>[0-9]</td>
+
+            </tr>
+
+            <tr>
+
+                <td>Colegio</td>
+
+                <td>String</td>
+
+                <td>Colegio asociado.</td>
+
+                    <td>[.][a-z][A-Z]</td>
+
+            </tr>
+
+            <tr>
+
+                <td>Distrito</td>
+
+                <td>String</td>
+
+                <td>Distrito al que pertenece el centro.</td>
+
+                    <td>[.][a-z][A-Z]</td>
+
+            </tr>
+
+
+
+        </table>
+
+
+
+        <h4>Descuento instalaciones</h4>
+
+
+
+        <table>
+
+            <tr>
+
+                <th>Nombre</th>
+
+                <th>Tipo de valor</th>
+
+                <th>Descripción</th>
+
+                <th>Rango de valores</th>
+
+            </tr>
+
+            <tr>
+
+                <td>Grupo Descuento/Recargo</td>
+
+                <td>String</td>
+
+                <td>Define el rango de edad a la que se le aplica descuento.</td>
+
+                    <td>[a-z][A-Z]</td>
+
+            </tr>
+
+            <tr>
+
+                <td>Mes</td>
+
+                <td>String</td>
+
+                <td>Mes en el que se aplica el descuento.</td>
+
+                    <td>[.][a-z][A-Z]</td>
+
+            </tr>
+
+            <tr>
+
+                <td>Centro deportivo</td>
+
+                <td>String</td>
+
+                <td>Indica el nombre del centro deportivo.</td>
+
+                    <td>[a-z][A-Z]</td>
+
+            </tr>
+
+            <tr>
+
+                <td>Distrito</td>
+
+                <td>String</td>
+
+                <td>Distrito al que pertenece el centro</td>
+
+                    <td>[.][a-z][A-Z]</td>
+
+            </tr>
+
+            <tr>
+
+                <td>Grupo de actividad deportiva</td>
+
+                <td>String</td>
+
+                <td>Indica la actividad deportiva a la que pertenece.</td>
+
+                    <td>[a-z][A-Z]</td>
+
+            </tr>
+
+            <tr>
+
+                <td>Sexo</td>
+
+                <td>String</td>
+
+                <td>Define el género siendo hombre o mujer.</td>
+
+                    <td>[H][M]</td>
+
+            </tr>
+
+            <tr>
+
+                <td>Nº Descuentos</td>
+
+                <td>Integer</td>
+
+                <td>Número ofertado de descuentos disponibles.</td>
+
+                    <td>[0-9]</td>
+
+            </tr>
+
+        </table>
+
+
+
+
+
+
+
+        <h1>Analyse licensing of the data source</h1>
+        <!--Analyse who is the publisher of the dataset and its rightsholder,
+             as well as the licence of the dataset. Define the potential license
+             to be used for the dataset to be generated.-->
+        The dataset uses an open license created by Madrid. You can read about it here: http://datos.madrid.es/egob/catalogo/aviso-legal
+
+        <h1>Naming strategy</h1>
+        <!-- Define the resource naming strategy to be followed for the
+             ontology and the data to be generated (URI form, content negotiation,
+             URIs domain, path, patterns, etc.).-->
+        <h4>Centros Deportivos</h4>
+        <ul>
+            <li><u>Centros Deportivos</u>: http://www.madriddeportes.es/ontologies/2017/Class</li>
+        </ul>
+
+        <h4>Agendas eventos culturales</h4>
+        <ul>
+            <li><u>Evento</u>: http://www.madriddeportes.es/recursos/evento</li>
+            <li><u>Centro</u>: http://www.madriddeportes.es/recursos/lugar</li>
+            <li><u>Distrito</u>:  http://www.madriddeportes.es/ontologies/2017/Class</li>
+            <li><u>Sector</u>: http://www.madriddeportes.es/ontologies/2017/Sector</li>
+        </ul>
+
+    </body>
+</html>
