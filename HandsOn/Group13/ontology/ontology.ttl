@@ -17,12 +17,12 @@
 
 :Colegio rdf:type owl:Class ;
             
-            rdfs:subClassOf :Intalacion .
+            rdfs:subClassOf :Instalacion .
 
 
 # Resto de la Ontologia
 			
-:CentroEvento rdf:type owl:Class ;
+:centroEvento rdf:type owl:Class ;
             rdfs:subClassOf :Instalacion .
 
 :tituloEvento rdf:type owl:DatatypeProperty ;
