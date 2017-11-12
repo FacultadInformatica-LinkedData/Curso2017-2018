@@ -1,0 +1,163 @@
+[
+  {
+    "op": "core/column-removal",
+    "description": "Remove column ID-EVENTO",
+    "columnName": "ID-EVENTO"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column PRECIO",
+    "columnName": "PRECIO"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column GRATUITO",
+    "columnName": "GRATUITO"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column LARGA-DURACION",
+    "columnName": "LARGA-DURACION"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column DIAS-EXCLUIDOS",
+    "columnName": "DIAS-EXCLUIDOS"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column DESCRIPCION",
+    "columnName": "DESCRIPCION"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column CONTENT-URL",
+    "columnName": "CONTENT-URL"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column URL-INSTALACION",
+    "columnName": "URL-INSTALACION"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column COORDENADA-X",
+    "columnName": "COORDENADA-X"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column COORDENADA-Y",
+    "columnName": "COORDENADA-Y"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column LATITUD",
+    "columnName": "LATITUD"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column LONGITUD",
+    "columnName": "LONGITUD"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column DISTRITO",
+    "columnName": "DISTRITO"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column TIPO",
+    "columnName": "TIPO"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column AUDIENCIA",
+    "columnName": "AUDIENCIA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column",
+    "columnName": "Column"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column HORARIO at index 2 based on column DIAS-SEMANA using expression grel:cells[\"DIAS-SEMANA\"].value +\" \" +cells[\"HORA\"].value",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "HORARIO",
+    "columnInsertIndex": 2,
+    "baseColumnName": "DIAS-SEMANA",
+    "expression": "grel:cells[\"DIAS-SEMANA\"].value +\" \" +cells[\"HORA\"].value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column DIAS-SEMANA",
+    "columnName": "DIAS-SEMANA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column HORA",
+    "columnName": "HORA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column TITULO-ACTIVIDAD",
+    "columnName": "TITULO-ACTIVIDAD"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://localhost:3333/",
+      "prefixes": [],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column TITULO to TITLE",
+    "oldColumnName": "TITULO",
+    "newColumnName": "TITLE"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column HORARIO to TIMETABLE",
+    "oldColumnName": "HORARIO",
+    "newColumnName": "TIMETABLE"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column FECHA to DATE-START",
+    "oldColumnName": "FECHA",
+    "newColumnName": "DATE-START"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column FECHA-FIN to DATE-END",
+    "oldColumnName": "FECHA-FIN",
+    "newColumnName": "DATE-END"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column URL-ACTIVIDAD to URL",
+    "oldColumnName": "URL-ACTIVIDAD",
+    "newColumnName": "URL"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column NOMBRE-INSTALACION to LOCATION",
+    "oldColumnName": "NOMBRE-INSTALACION",
+    "newColumnName": "LOCATION"
+  }
+]
