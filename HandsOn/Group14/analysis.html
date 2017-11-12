@@ -1,0 +1,591 @@
+<!DOCTYPE ENCODING="UTF-8">
+
+<html>
+	<head>
+		<center>
+			<title>Analysis of the Data</title>
+			<h1>Analysis of the Data</h1>
+			<h3>Group14</h3>
+		</center>
+	</head>
+
+	<body>
+
+		
+
+			In this page we will do an analysis of the following points:
+			<ul>
+				<li>
+					Analyse Data Set.
+				</li>
+				
+				<li>
+					Analyse Licensing of the Data Source.
+				</li>
+				
+				<li>
+					Define Resource Naming Strategy.
+				</li>
+			</ul>
+		
+
+				<h1> <u>Analyse Data Set </u></h1>
+				
+					<h3>Museos de la ciudad de Madrid</h3>
+					<ul>
+						<li>
+							<b>File name:</b> turismo.csv
+						</li>
+						<li>
+							<b>Origin of the data:</b> <a href="http://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=118f2fdbecc63410VgnVCM1000000b205a0aRCRD&vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default" target=" _blank"> Click Here </a>
+						</li>
+
+				
+					</ul>
+						<p>In this csv file we can get different type of data of the Museums of the city of Madrid (Location, transportation, schedules, visits, contact information) :</p>
+						
+						<table border="1" style="margin: 0 auto;">
+							<tr>
+								<td><center><b>Column</b></center></td>
+								<td><center><b>Type</b></center></td>
+								<td><center><b>Comments / Range</b></center></td>
+							</tr>
+							
+							<tr>
+								<td>PK</td>
+								<td>int</td>
+								<td>0 - 11000000</td>
+							</tr>
+							
+							<tr>
+								<td>Nombre</td>
+								<td>string</td>
+								<td></td>
+							</tr>
+							
+							<tr>
+								<td>Descripcion-entidad</td>
+								<td>string</td>
+								<td>)</td>
+							</tr>
+							
+							<tr>
+								<td>Horario</td>
+								<td>string</td>
+								<td></td>
+							</tr>
+							<tr>
+							
+								<td>Equipamiento</td>
+								<td>string</td>
+								<td> </td>
+							</tr>
+							
+							<tr>
+								<td>transporte</td>
+								<td>string</td>
+								<td> </td>
+							</tr>
+							
+							<tr>
+								<td>Descripcion</td>
+								<td>string</td>
+								<td> </td>
+							</tr>
+							
+							<tr>
+								<td>Accesibilidad</td>
+								<td>bool</td>
+								<td> 0 or 1 </td>
+							</tr>
+							<tr>
+								<td>Content-URL</td>
+								<td>String</td>
+								<td></td>
+							</tr>
+
+							<tr>
+								<td>Nombre-vial</td>
+								<td>string</td>
+								<td></td>
+							</tr>
+							
+							<tr>
+								<td>Clase-vial</td>
+								<td>string</td>
+								<td></td>
+							</tr>
+							
+							<tr>
+								<td>Num</td>
+								<td>int</td>
+								<td>Ver exceelll!! a</td>
+							</tr>
+							<tr>
+								<td>Planta</td>
+								<td>String</td>
+								<td></td>
+							</tr>
+						
+							<tr>
+								<td>Localidad</td>
+								<td>string</td>
+								<td></td>
+							</tr>
+							
+							<tr>
+								<td>Provincia</td>
+								<td>string</td>
+								<td></td>
+							</tr>
+							
+							<tr>
+								<td>Código Postal</td>
+								<td>string</td>
+								<td>28001 - 28050</td>
+							</tr>
+							
+							<tr>
+								<td>Barrio</td>
+								<td>string</td>
+								<td></td>
+							</tr>
+							
+							<tr>
+								<td>Distrito</td>
+								<td>string</td>
+								<td></td>
+							</tr>
+							
+							<tr>
+								<td>Coordenada-X</td>
+								<td>int</td>
+								<td> 0 - 450000</td>
+							</tr>
+							
+							<tr>
+								<td>Coordenada-Y</td>
+								<td>int</td>
+								<td> 0 - 4500000</td>
+							</tr>
+							
+							<tr>
+								<td>Latitud</td>
+								<td>float</td>
+								<td> 40.37 - 40.52 </td>
+							</tr>
+							
+							<tr>
+								<td>Longitud</td>
+								<td>float</td>
+								<td> -3.80 - -3.59</td>
+							</tr>
+							<tr>
+								<td>Telefono</td>
+								<td>int</td>
+								<td>0-9</td>
+							</tr>
+							<tr>
+								<td>Fax</td>
+								<td>int</td>
+								<td>0-9</td>
+							</tr>
+							<tr>
+								<td>Email</td>
+								<td>string</td>
+								<td></td>
+							</tr>
+							
+							<tr>
+								<td>Tipo</td>
+								<td>string</td>
+								<td></td>
+							</tr>
+
+						
+						</table>
+						
+					</br></br></br>
+				<h3>Salas de espectáculos artísticos</h3>
+					<ul>
+						<li>
+							<b>File name:</b> ocio_salas.csv
+						</li>
+						<li>
+							<b>Origin of the data:</b> <a href="http://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=842385ce457a8410VgnVCM2000000c205a0aRCRD&vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default" target=" _blank"> Click Here </a>
+						</li>
+
+				
+					</ul>
+						<p>In this csv file we can get different type of data of the art shows in the city of Madrid. They include film projection rooms, film libraries,
+							theatres, concert halls and auditoriums, both outdoors and covered.
+						
+						</p>
+						
+						<table border="1" style="margin: 0 auto;">
+							<tr>
+								<td><center><b>Column</b></center></td>
+								<td><center><b>Type</b></center></td>
+								<td><center><b>Comments / Range</b></center></td>
+							</tr>
+							
+							<tr>
+								<td>PK</td>
+								<td>int</td>
+								<td>0 - 11000000</td>
+							</tr>
+							
+							<tr>
+								<td>Nombre</td>
+								<td>string</td>
+								<td></td>
+							</tr>
+							
+							<tr>
+								<td>Descripcion-entidad</td>
+								<td>string</td>
+								<td></td>
+							</tr>
+							
+							<tr>
+								<td>Horario</td>
+								<td>string</td>
+								<td></td>
+							</tr>
+							<tr>
+							
+								<td>Equipamiento</td>
+								<td>string</td>
+								<td> </td>
+							</tr>
+							
+							<tr>
+								<td>transporte</td>
+								<td>string</td>
+								<td> </td>
+							</tr>
+							
+							<tr>
+								<td>Descripcion</td>
+								<td>string</td>
+								<td> </td>
+							</tr>
+							
+							<tr>
+								<td>Accesibilidad</td>
+								<td>bool</td>
+								<td> 0 or 1 </td>
+							</tr>
+							<tr>
+								<td>Content-URL</td>
+								<td>String</td>
+								<td></td>
+							</tr>
+
+							<tr>
+								<td>Nombre-via</td>
+								<td>string</td>
+								<td></td>
+							</tr>
+							
+							<tr>
+								<td>Clase-vial</td>
+								<td>string</td>
+								<td></td>
+							</tr>
+							
+							<tr>
+								<td>Num</td>
+								<td>int</td>
+								<td>Ver exceelll!! a</td>
+							</tr>
+							<tr>
+								<td>Planta</td>
+								<td>String</td>
+								<td></td>
+							</tr>
+						
+							<tr>
+								<td>Localidad</td>
+								<td>string</td>
+								<td></td>
+							</tr>
+							
+							<tr>
+								<td>Provincia</td>
+								<td>string</td>
+								<td></td>
+							</tr>
+							
+							<tr>
+								<td>Código Postal</td>
+								<td>string</td>
+								<td>28001 - 28050</td>
+							</tr>
+							
+							<tr>
+								<td>Barrio</td>
+								<td>string</td>
+								<td></td>
+							</tr>
+							
+							<tr>
+								<td>Distrito</td>
+								<td>string</td>
+								<td></td>
+							</tr>
+							
+							<tr>
+								<td>Coordenada-X</td>
+								<td>int</td>
+								<td> 437000 - 445400</td>
+							</tr>
+							
+							<tr>
+								<td>Coordenada-Y</td>
+								<td>int</td>
+								<td> 4471000 - 4478100 </td>
+							</tr>
+							
+							<tr>
+								<td>Latitud</td>
+								<td>float</td>
+								<td> 40.39 - 40.45 </td>
+							</tr>
+							
+							<tr>
+								<td>Longitud</td>
+								<td>float</td>
+								<td> -3.74 - -3.65</td>
+							</tr>
+							<tr>
+								<td>Telefono</td>
+								<td>int</td>
+								<td>0-9</td>
+							</tr>
+							<tr>
+								<td>Fax</td>
+								<td>int</td>
+								<td>0-9</td>
+							</tr>
+							<tr>
+								<td>Email</td>
+								<td>string</td>
+								<td></td>
+							</tr>
+							
+							<tr>
+								<td>Tipo</td>
+								<td>string</td>
+								<td></td>
+							</tr>
+
+						
+						</table>
+						
+						
+						
+						<h3>Edificios de carácter monumental</h3>
+					<ul>
+						<li>
+							<b>File name:</b> monumentos-edificios.csv
+						</li>
+						<li>
+							<b>Origin of the data:</b> <a href="http://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=69e30c658f6a8410VgnVCM2000000c205a0aRCRD&vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default" target=" _blank"> Click Here </a>
+						</li>
+
+				
+					</ul>
+						<p>In this csv file we can get a list of artistic buildings in the city of Madrid, with address and location data to georeference them.
+						</p>
+						
+						<table border="1" style="margin: 0 auto;">
+							<tr>
+								<td><center><b>Column</b></center></td>
+								<td><center><b>Type</b></center></td>
+								<td><center><b>Comments / Range</b></center></td>
+							</tr>
+							
+							<tr>
+								<TD>PK</TD>
+								<TD>int</TD>
+								<TD>1744</TD>
+							</tr>
+							
+							<tr>
+								<TD>Nombre</TD>
+								<TD>string</TD>
+								<TD></TD>
+							</tr>
+							
+							<tr>
+								<TD>Descripcion-entidad</TD>
+								<TD>string</TD>
+								<TD>   </TD>
+							</tr>
+							
+							<tr>
+								<TD>Horario</TD>
+								<TD>string</TD>
+								<TD></TD>
+							</tr>
+							
+							<tr>
+								<TD>transporte</TD>
+								<TD>string</TD>
+								<TD></TD>
+							</tr>
+							
+							<tr>
+								<TD>Description</TD>
+								<TD>string</TD>
+								<TD>  </TD>
+							</tr>
+							
+							<tr>
+								<TD>Accesibilidad</TD>
+								<TD>bool</TD>
+								<TD>0</TD>
+							</tr>
+							<tr>
+								<td>Content-URL</td>
+								<td>String</td>
+								<td></td>
+							</tr>
+							<tr>
+								<TD>Nombre-vial</TD>
+								<TD>string</TD>
+								<TD></TD>
+							</tr>
+							
+							<tr>
+								<TD>Clase-vial</TD>
+								<TD>string</TD>
+								<TD>P</TD>
+							</tr>
+							
+							<tr>
+								<TD>Num</TD>
+								<TD>int</TD>
+								<TD></TD>
+							</tr>
+							
+							<tr>
+								<TD>Localidad</TD>
+								<TD>string</TD>
+								<TD></TD>
+							</tr>
+							
+							<tr>
+								<TD>Provincia</TD>
+								<TD>string</TD>
+								<TD></TD>
+							</tr>
+							
+							<tr>
+								<TD>Código Postal</TD>
+								<TD>String</TD>
+								<TD></TD>
+							</tr>
+							
+							<tr>
+								<TD>Barrio</TD>
+								<TD>string</TD>
+								<TD></TD>
+							</tr>
+							
+							<tr>
+								<TD>Distrito</TD>
+								<TD>string</TD>
+								<TD></TD>
+							</tr>
+							
+							<tr>
+								<TD>Coordenada-X</TD>
+								<TD>int</TD>
+								<TD> 0 - 450000</TD>
+							</tr>
+							
+							<tr>
+								<TD>Coordenada-Y</TD>
+								<TD>int</TD>
+								<TD> 0 - 4500000</TD>
+							</tr>
+							
+							<tr>
+								<TD>Latitud</TD>
+								<TD>float</TD>
+								<TD> 40.37 - 40.52</TD>
+							</tr>
+							
+							<tr>
+								<TD>Longitud</TD>
+								<TD>float</TD>
+								<TD> -3.78 - -3.59</TD>
+							</tr>
+							
+							<tr>
+								<TD>Email</TD>
+								<TD>string</TD>
+								<TD></TD>
+							</tr>
+							
+							<tr>
+								<TD>Tipo</TD>
+								<TD>string</TD>
+								<TD></TD>
+							</tr>
+							
+							</tr>
+						</table>
+						
+				
+			
+			
+
+			</br>			</br>			</br>
+
+
+				<h1> <u>Analysis Licensing of the Data Source </u></h1>
+					
+						The general conditions allow us to reuse the documents for commercial and non-commercial purpose.
+						The publisher and owner of the rights is the Ayuntamiento of Madrid 
+						</p>The general conditions for reuse:</p>
+						<p>1. It's forbidden to denaturalize the meaning of the information.</p>
+						<p>2. The source of the documents must be cited.</p>
+						<p>3. The date of the last update of the documents object of the reuse must be mentioned.</p>
+						<p>4. You can not indicate or suggest that the "Ayuntamiento" of Madridmparticipates, sponsors or supports the reuse carried out with the information.</p>
+						<p>5. The original metadata must be preserved.</p>
+						<p>6. It's expressly forbidden to perfom task of re-identification of people from these data.</p>
+						<a href="http://datos.madrid.es/portal/site/egob/menuitem.400a817358ce98c34e937436a8a409a0/?vgnextoid=b4c412b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextchannel=b4c412b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default" target=" _blank"> Click Here for more information </a>
+						
+					<p>The type of licence that we will use is CC BY-ND, 
+						because it allows the reuse and diffusion as long as reference is made to the autor of the same and work doesn`t suffer any change or alteration.
+					</p>
+			
+						</br>			</br>			</br>
+			</br>	
+			
+				<h1><u>Define Resource Naming Strategy</u></h1>
+				
+				<!--   Define the resource naming strategy to be followed for
+					the ontology and the data to be generated (URI form, content negotiation, URIs domain, path, patterns, etc.).). -->
+					<H3>Resource Naming Strategy</H3>
+					
+
+							The url-pattern of the URI that We've choosen: <a HREF="http://www.wsdlfiupm.es/resources/group14/">http://www.wsdlfiupm.es/resources/group14/</a>
+							<p>The following URI's, were selected to describe the entities:</p>
+							<ul>
+						       <li><b>Domain: </b>http://www.wsdlfiupm.es/resources/group14/</li>
+						       <li><b>Individuals path: </b>http://www.wsdlfiupm.es/resources/group14/</li>
+						       <li><b>Individuals pattern: </b>http://www.wsdlfiupm.es/resources/group14/&lt;resource_type&gt;/&lt;resource_name&gt;</li>
+						       <li><b>Ontological terms path: </b>http://www.wsdlfiupm.es/resources/group14/ontology/Place#</li>
+						       <li><b>Ontological terms pattern: </b>http://www.wsdlfiupm.es/resources/group14/ontology/Place#&lt;place_name&gt;</li>
+						    </ul>
+					
+			
+
+		
+
+	</body>
+</html>
