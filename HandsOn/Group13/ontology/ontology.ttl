@@ -81,13 +81,13 @@
                  
                  rdfs:domain :Evento ;
                  
-                 rdfs:range xsd:date .
+                 rdfs:range xsd:dateTime .
 				 
 :horaEventoFin rdf:type owl:DatatypeProperty ;
                  
                  rdfs:domain :Evento ;
                  
-                 rdfs:range xsd:date .
+                 rdfs:range xsd:dateTime .
 
 :nombreInstalacion rdf:type owl:DatatypeProperty ;
                  
