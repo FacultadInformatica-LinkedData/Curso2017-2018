@@ -1,0 +1,654 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+	<title>Análisis del Data Set</title>
+    <style>
+        .tg {
+            border-collapse: collapse;
+            border-spacing: 0;
+            border-color: #aaa;
+        }
+        .tg td {
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            padding: 11px 20px;
+            border-style: solid;
+            border-width: 1px;
+            overflow: hidden;
+            word-break: normal;
+            border-color: #aaa;
+            color: #333;
+            background-color: #fff;
+        }
+        .tg th {
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            font-weight: normal;
+            padding: 11px 20px;
+            border-style: solid;
+            border-width: 1px;
+            overflow: hidden;
+            word-break: normal;
+            border-color: #aaa;
+            color: #fff;
+            background-color: #f38630;
+        }
+        .tg .tg-s6z2 {
+            text-align: center;
+        }
+        .tg .tg-zlxb {
+            background-color: #ffffff;
+            text-align: center;
+        }
+    </style>
+</head>
+<body data-gramm="true" data-gramm_editor="true" data-gramm_id="2577b862-9a51-b187-e1b0-5d9b0ded0ae1">
+    <h1 style="text-align: center;">Análisis del Data Set</h1>
+
+    <hr>
+
+    <h2>Aparcamientos para residentes y aparcamientos públicos mixtos</h2>
+
+    <ul>
+        <li>
+            <strong>Nombre del fichero:&nbsp;</strong>202584-0-aparcamientos-residentes.csv
+        </li>
+        <li>
+            <strong>Descripción:&nbsp;</strong>Plazas de parking para residentes en Madrid.
+        </li>
+        <li>
+            <strong>Origen de los datos:&nbsp;<a href="http://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=e84276ac109d3410VgnVCM2000000c205a0aRCRD&amp;vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD&amp;vgnextfmt=default">http://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=e84276ac109d3410VgnVCM2000000c205a0aRCRD&amp;vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD&amp;vgnextfmt=default</a></strong>
+        </li>
+    </ul>
+    <table class="tg">
+        <tbody>
+            <tr>
+                <th class="tg-s6z2">Columna</th>
+                <th class="tg-s6z2">Descripción</th>
+                <th class="tg-s6z2">Tipo</th>
+                <th class="tg-s6z2">Comentarios / Rango</th>
+                <th class="tg-s6z2">Problemas</th>
+            </tr>
+            <tr>
+                <td class="tg-zlxb">Nombre</td>
+                <td class="tg-zlxb">Nombre del aparcamiento</td>
+                <td class="tg-zlxb">String</td>
+                <td class="tg-zlxb">No es único</td>
+                <td class="tg-zlxb">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="tg-zlxb">Descripción</td>
+                <td class="tg-zlxb">Información variada sobre el aparcamiento</td>
+                <td class="tg-zlxb">String</td>
+                <td class="tg-zlxb">
+                    No es único<br />
+                    Incluye el número de plazas, horario de apertura, zonas accesibles, entre otros
+                </td>
+                <td class="tg-zlxb">
+                    Esta información debería estar separada en diversas columnas en lugar de estar condensada solo en una
+                    <br /><br />
+                    Algunas filas no tienen información
+                </td>
+            </tr>
+            <tr>
+                <td class="tg-zlxb">Accesibilidad</td>
+                <td class="tg-zlxb">Indica si el aparcamiento es accesible para personas con discapacidad</td>
+                <td class="tg-zlxb">int</td>
+                <td class="tg-zlxb">
+                    No es único<br />
+                    Rango: 0 - 1<br />
+                </td>
+                <td class="tg-zlxb">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="tg-zlxb">Nº de plazas públicas</td>
+                <td class="tg-zlxb">Número de plazas públicas</td>
+                <td class="tg-zlxb">int</td>
+                <td class="tg-zlxb">No es único</td>
+                <td class="tg-zlxb">Esta información debe ser extraída de la columna descripción en caso de existir</td>
+            </tr>
+            <tr>
+                <td class="tg-zlxb">Nº de plazas de residentes</td>
+                <td class="tg-zlxb">Número de plazas reservadas para residentes</td>
+                <td class="tg-zlxb">int</td>
+                <td class="tg-zlxb">No es único</td>
+                <td class="tg-zlxb">Esta información debe ser extraída de la columna descripción en caso de existir</td>
+            </tr>
+            <tr>
+                <td class="tg-zlxb">Nº de plazas para minusválidos</td>
+                <td class="tg-zlxb">Número de plazas reservadas para minusválidos</td>
+                <td class="tg-zlxb">int</td>
+                <td class="tg-zlxb">No es único</td>
+                <td class="tg-zlxb">Esta información debe ser extraída de la columna descripción en caso de existir</td>
+            </tr>
+            <tr>
+                <td class="tg-zlxb">Horario</td>
+                <td class="tg-zlxb">Horario de apertura</td>
+                <td class="tg-zlxb">String</td>
+                <td class="tg-zlxb">No es único</td>
+                <td class="tg-zlxb">Esta información debe ser extraída de la columna descripción en caso de existir</td>
+            </tr>
+            <tr>
+                <td class="tg-zlxb">Tipo de vía</td>
+                <td class="tg-zlxb">Tipo de la vía</td>
+                <td class="tg-zlxb">String</td>
+                <td class="tg-zlxb">
+                    No es único<br />
+                    Los posibles valores son:<br />
+                    Avenida, Calle, Paseo y Plaza
+                </td>
+                <td class="tg-zlxb">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="tg-zlxb">Nombre de vía</td>
+                <td class="tg-zlxb">Nombre de la vía</td>
+                <td class="tg-zlxb">String</td>
+                <td class="tg-zlxb">No es único</td>
+                <td class="tg-zlxb">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="tg-zlxb">Nº de vía</td>
+                <td class="tg-zlxb">Número de la vía</td>
+                <td class="tg-zlxb">int</td>
+                <td class="tg-zlxb">
+                    No es único<br />
+                    Rango: 0 - 180
+                </td>
+                <td class="tg-zlxb">Hay filas sin información</td>
+            </tr>
+            <tr>
+                <td class="tg-zlxb">Localidad</td>
+                <td class="tg-zlxb">Nombre de la Localidad</td>
+                <td class="tg-zlxb">String</td>
+                <td class="tg-zlxb">
+                    Es único<br />
+                    Valor: Madrid
+                </td>
+                <td class="tg-zlxb">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="tg-zlxb">Provincia</td>
+                <td class="tg-zlxb">Nombre de la Provincia</td>
+                <td class="tg-zlxb">String</td>
+                <td class="tg-zlxb">
+                    Es único<br />
+                    Valor: Madrid
+                </td>
+                <td class="tg-zlxb">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="tg-zlxb">Código Postal</td>
+                <td class="tg-zlxb">Código Postal</td>
+                <td class="tg-zlxb">int</td>
+                <td class="tg-zlxb">
+                    No es único<br />
+                    Rango: 28001 - 28038
+                </td>
+                <td class="tg-zlxb">Hay filas sin información</td>
+            </tr>
+            <tr>
+                <td class="tg-zlxb">Barrio</td>
+                <td class="tg-zlxb">Nombre del Barrio</td>
+                <td class="tg-zlxb">String</td>
+                <td class="tg-zlxb">No es único</td>
+                <td class="tg-zlxb">Hay filas sin información</td>
+            </tr>
+            <tr>
+                <td class="tg-zlxb">Distrito</td>
+                <td class="tg-zlxb">Nombre del Distrito</td>
+                <td class="tg-zlxb">String</td>
+                <td class="tg-zlxb">No es único</td>
+                <td class="tg-zlxb">Hay filas sin información</td>
+            </tr>
+            <tr>
+                <td class="tg-zlxb">Latitud</td>
+                <td class="tg-zlxb">Latitud</td>
+                <td class="tg-zlxb">String</td>
+                <td class="tg-zlxb">No es único</td>
+                <td class="tg-zlxb">Hay filas sin información</td>
+            </tr>
+            <tr>
+                <td class="tg-zlxb">Longitud</td>
+                <td class="tg-zlxb">Longitud</td>
+                <td class="tg-zlxb">String</td>
+                <td class="tg-zlxb">No es único</td>
+                <td class="tg-zlxb">Hay filas sin información</td>
+            </tr>
+            <tr>
+                <td class="tg-zlxb">Tipo</td>
+                <td class="tg-zlxb">Tipo de aparcamiento</td>
+                <td class="tg-zlxb">String</td>
+                <td class="tg-zlxb">
+                    No es único<br />
+                    Solo hay dos posibles valores:<br />
+                    Aparcamientos públicos o residentes
+                </td>
+                <td class="tg-zlxb">&nbsp;</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Aparcamientos públicos municipales</h2>
+
+    <ul>
+        <li><strong>Nombre del fichero:&nbsp;</strong>202625-0-aparcamientos-publicos.csv</li>
+        <li><b>Descripción:&nbsp;</b><span style="font-size:16px;"><span style="font-family:times new roman,times,serif;"><span style="color: rgb(51, 51, 51); background-color: rgb(255, 255, 255);">Relación de los aparcamientos destinados a la provisión de plazas de de uso público de la ciudad de Madrid, en la que se incluyen&nbsp;aquellos que tienen zonas reservada para residentes.</span></span></span></li>
+        <li><strong>Origen de los datos:&nbsp;<a href="http://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=26e6cc885fcd3410VgnVCM1000000b205a0aRCRD&amp;vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD&amp;vgnextfmt=default">http://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=26e6cc885fcd3410VgnVCM1000000b205a0aRCRD&amp;vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD&amp;vgnextfmt=default​</a></strong></li>
+    </ul>
+    <table class="tg">
+        <tbody>
+            <tr>
+                <th class="tg-s6z2">Columna</th>
+                <th class="tg-s6z2">Descripción</th>
+                <th class="tg-s6z2">Tipo</th>
+                <th class="tg-s6z2">Comentarios / Rango</th>
+                <th class="tg-s6z2">Problemas</th>
+            </tr>
+            <tr>
+                <td class="tg-zlxb">Nombre</td>
+                <td class="tg-zlxb">Nombre del aparcamiento</td>
+                <td class="tg-zlxb">String</td>
+                <td class="tg-zlxb">No es único</td>
+                <td class="tg-zlxb">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="tg-zlxb">Descripción</td>
+                <td class="tg-zlxb">Información variada sobre el aparcamiento</td>
+                <td class="tg-zlxb">String</td>
+                <td class="tg-zlxb">
+                    No es único<br />
+                    Incluye el número de plazas, horario de apertura, zonas accesibles, entre otros
+                </td>
+                <td class="tg-zlxb">Esta información debería estar separada en diversas columnas en lugar de estar condensada solo en una</td>
+            </tr>
+            <tr>
+                <td class="tg-zlxb">Accesibilidad</td>
+                <td class="tg-zlxb">Indica si el aparcamiento es accesible para personas con discapacidad</td>
+                <td class="tg-zlxb">int</td>
+                <td class="tg-zlxb">
+                    No es único<br />
+                    Rango: 0 - 1<br />
+                </td>
+                <td class="tg-zlxb">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="tg-zlxb">Nº de plazas públicas</td>
+                <td class="tg-zlxb">Número de plazas públicas</td>
+                <td class="tg-zlxb">int</td>
+                <td class="tg-zlxb">No es único</td>
+                <td class="tg-zlxb">Esta información debe ser extraída de la columna descripción en caso de existir</td>
+            </tr>
+            <tr>
+                <td class="tg-zlxb">Nº de plazas de residentes</td>
+                <td class="tg-zlxb">Número de plazas reservadas para residentes</td>
+                <td class="tg-zlxb">int</td>
+                <td class="tg-zlxb">No es único</td>
+                <td class="tg-zlxb">Esta información debe ser extraída de la columna descripción en caso de existir</td>
+            </tr>
+            <tr>
+                <td class="tg-zlxb">Nº de plazas para minusválidos</td>
+                <td class="tg-zlxb">Número de plazas reservadas para minusválidos</td>
+                <td class="tg-zlxb">int</td>
+                <td class="tg-zlxb">No es único</td>
+                <td class="tg-zlxb">Esta información debe ser extraída de la columna descripción en caso de existirs</td>
+            </tr>
+            <tr>
+                <td class="tg-zlxb">Horario de apertura</td>
+                <td class="tg-zlxb">Horario de apertura</td>
+                <td class="tg-zlxb">String</td>
+                <td class="tg-zlxb">No es único</td>
+                <td class="tg-zlxb">Esta información debe ser extraída de la columna descripción en caso de existir</td>
+            </tr>
+            <tr>
+                <td class="tg-zlxb">Tipo de vía</td>
+                <td class="tg-zlxb">Tipo de la vía</td>
+                <td class="tg-zlxb">String</td>
+                <td class="tg-zlxb">
+                    No es único<br />
+                    Los posibles valores son:<br />
+                    Avenida, Calle, Paseo y Plaza
+                </td>
+                <td class="tg-zlxb">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="tg-zlxb">Nombre de vía</td>
+                <td class="tg-zlxb">Nombre de la vía</td>
+                <td class="tg-zlxb">String</td>
+                <td class="tg-zlxb">No es único</td>
+                <td class="tg-zlxb">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="tg-zlxb">Nº de vía</td>
+                <td class="tg-zlxb">Número de la vía</td>
+                <td class="tg-zlxb">int</td>
+                <td class="tg-zlxb">
+                    No es único<br />
+                    Rango: 0 - 180
+                </td>
+                <td class="tg-zlxb">Hay filas sin información</td>
+            </tr>
+            <tr>
+                <td class="tg-zlxb">Localidad</td>
+                <td class="tg-zlxb">Nombre de la Localidad</td>
+                <td class="tg-zlxb">String</td>
+                <td class="tg-zlxb">
+                    Es único<br />
+                    Valor: Madrid
+                </td>
+                <td class="tg-zlxb">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="tg-zlxb">Provincia</td>
+                <td class="tg-zlxb">Nombre de la Provincia</td>
+                <td class="tg-zlxb">String</td>
+                <td class="tg-zlxb">
+                    Es único<br />
+                    Valor: Madrid
+                </td>
+                <td class="tg-zlxb">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="tg-zlxb">Código Postal</td>
+                <td class="tg-zlxb">Código Postal</td>
+                <td class="tg-zlxb">int</td>
+                <td class="tg-zlxb">
+                    No es único<br />
+                    Rango: 28001 - 28038
+                </td>
+                <td class="tg-zlxb">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="tg-zlxb">Barrio</td>
+                <td class="tg-zlxb">Nombre del Barrio</td>
+                <td class="tg-zlxb">String</td>
+                <td class="tg-zlxb">No es único</td>
+                <td class="tg-zlxb">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="tg-zlxb">Distrito</td>
+                <td class="tg-zlxb">Nombre del Distrito</td>
+                <td class="tg-zlxb">String</td>
+                <td class="tg-zlxb">No es único</td>
+                <td class="tg-zlxb">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="tg-zlxb">Latitud</td>
+                <td class="tg-zlxb">Latitud</td>
+                <td class="tg-zlxb">String</td>
+                <td class="tg-zlxb">No es único</td>
+                <td class="tg-zlxb">Hay filas sin información</td>
+            </tr>
+            <tr>
+                <td class="tg-zlxb">Longitud</td>
+                <td class="tg-zlxb">Longitud</td>
+                <td class="tg-zlxb">String</td>
+                <td class="tg-zlxb">No es único</td>
+                <td class="tg-zlxb">Hay filas sin información</td>
+            </tr>
+            <tr>
+                <td class="tg-zlxb">Tipo</td>
+                <td class="tg-zlxb">Tipo de aparcamiento</td>
+                <td class="tg-zlxb">String</td>
+                <td class="tg-zlxb">
+                    No es único<br />
+                    Solo hay dos posibles valores: Aparcamientos públicos o residentes
+                </td>
+                <td class="tg-zlxb">&nbsp;</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Estacionamiento para personas con movilidad reducida</h2>
+
+    <ul>
+        <li><strong>Nombre del fichero:&nbsp;</strong>Estacionamiento_Personas_Movilidad_Reducida​.csv</li>
+        <li><b>Descripción:&nbsp;</b>Plazas de estacionamiento para personas de movilidad reducida en Madrid.</li>
+        <li><strong>Origen de los datos:&nbsp;<a href="http://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=dd5900ac205a7410VgnVCM2000000c205a0aRCRD&amp;vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD&amp;vgnextfmt=default">http://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=dd5900ac205a7410VgnVCM2000000c205a0aRCRD&amp;vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD&amp;vgnextfmt=default</a></strong></li>
+    </ul>
+    <table class="tg">
+        <tbody>
+            <tr>
+                <th class="tg-s6z2">Columna</th>
+                <th class="tg-s6z2">Descripción</th>
+                <th class="tg-s6z2">Tipo</th>
+                <th class="tg-s6z2">Comentarios / Rango</th>
+                <th class="tg-s6z2">Problemas</th>
+            </tr>
+            <tr>
+                <td class="tg-zlxb">Distrito</td>
+                <td class="tg-zlxb">Nombre del Distrito</td>
+                <td class="tg-zlxb">String</td>
+                <td class="tg-zlxb">No es único</td>
+                <td class="tg-zlxb">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="tg-zlxb">Barrio</td>
+                <td class="tg-zlxb">Nombre del Barrio</td>
+                <td class="tg-zlxb">String</td>
+                <td class="tg-zlxb">No es único</td>
+                <td class="tg-zlxb">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="tg-zlxb">Tipo de vía</td>
+                <td class="tg-zlxb">Tipo de la vía</td>
+                <td class="tg-zlxb">String</td>
+                <td class="tg-zlxb">
+                    No es único<br />
+                    Los posibles valores son:<br />
+                    Avenida, Calle, Glorieta, Paseo, Plaza y Ronda
+                </td>
+                <td class="tg-zlxb">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="tg-zlxb">Nombre de vía</td>
+                <td class="tg-zlxb">Nombre de la vía</td>
+                <td class="tg-zlxb">String</td>
+                <td class="tg-zlxb">No es único</td>
+                <td class="tg-zlxb">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="tg-zlxb">Nº de vía</td>
+                <td class="tg-zlxb">Número de la vía</td>
+                <td class="tg-zlxb">String</td>
+                <td class="tg-zlxb">
+                    No es único<br />
+                    Número + letra (en caso de existir letra)
+                </td>
+                <td class="tg-zlxb">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="tg-zlxb">Nº de plazas</td>
+                <td class="tg-zlxb">Número de plazas</td>
+                <td class="tg-zlxb">int</td>
+                <td class="tg-zlxb">
+                    No es único<br />
+                    1 - 56
+                </td>
+                <td class="tg-zlxb">Hay filas sin información</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Parquímetros</h2>
+
+    <ul>
+        <li><strong>Nombre del fichero:&nbsp;</strong>Parquimetros_2017.csv</li>
+        <li><strong>Descripción:&nbsp;</strong>Localización de los distintos parquímetros de Madrid.</li>
+        <li><strong>Origen de los datos:&nbsp;<a href="http://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=4973b0dd4a872510VgnVCM1000000b205a0aRCRD&amp;vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD&amp;vgnextfmt=default">http://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=4973b0dd4a872510VgnVCM1000000b205a0aRCRD&amp;vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD&amp;vgnextfmt=default</a></strong></li>
+    </ul>
+    <table class="tg">
+        <tbody>
+            <tr>
+                <th class="tg-s6z2">Columna</th>
+                <th class="tg-s6z2">Descripción</th>
+                <th class="tg-s6z2">Tipo</th>
+                <th class="tg-s6z2">Comentarios / Rango</th>
+                <th class="tg-s6z2">Problemas</th>
+            </tr>
+            <tr>
+                <td class="tg-zlxb">Distrito</td>
+                <td class="tg-zlxb">Nombre del Distrito</td>
+                <td class="tg-zlxb">String</td>
+                <td class="tg-zlxb">No es único</td>
+                <td class="tg-zlxb">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="tg-zlxb">Barrio</td>
+                <td class="tg-zlxb">Nombre del Barrio</td>
+                <td class="tg-zlxb">String</td>
+                <td class="tg-zlxb">No es único</td>
+                <td class="tg-zlxb">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="tg-zlxb">Tipo de vía</td>
+                <td class="tg-zlxb">Tipo de la vía</td>
+                <td class="tg-zlxb">String</td>
+                <td class="tg-zlxb">
+                    No es único<br />
+                    Los posibles valores son:<br />
+                    Avenida, Calle, Glorieta, Paseo, Plaza y Ronda
+                </td>
+                <td class="tg-zlxb">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="tg-zlxb">Nombre de vía</td>
+                <td class="tg-zlxb">Nombre de la vía</td>
+                <td class="tg-zlxb">String</td>
+                <td class="tg-zlxb">No es único</td>
+                <td class="tg-zlxb">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="tg-zlxb">Nº de vía</td>
+                <td class="tg-zlxb">Número de la vía</td>
+                <td class="tg-zlxb">int</td>
+                <td class="tg-zlxb">
+                    No es único<br />
+                    Número + letra (en caso de existir letra)
+                </td>
+                <td class="tg-zlxb">&nbsp;</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Puntos de recarga de vehículos eléctricos</h2>
+
+    <ul>
+        <li><strong>Nombre del fichero:</strong>puntos_recarga_electrica_2017.xls</li>
+        <li><strong>Descripción:&nbsp;</strong><span style="font-size:16px;"><span style="font-family:times new roman,times,serif;"><span style="color: rgb(51, 51, 51); background-color: rgb(255, 255, 255);">Inventario de puntos de recarga de vehículos eléctricos en vía pública y aparcamientos de rotación, ubicados &nbsp;en el término municipal de Madrid.</span></span></span></li>
+        <li><strong>Origen de los datos:&nbsp;<a href="http://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=4a29c987781b8410VgnVCM1000000b205a0aRCRD&amp;vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD&amp;vgnextfmt=default">http://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=4a29c987781b8410VgnVCM1000000b205a0aRCRD&amp;vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD&amp;vgnextfmt=default</a></strong></li>
+    </ul>
+    <table class="tg">
+        <tbody>
+            <tr>
+                <th class="tg-s6z2">Columna</th>
+                <th class="tg-s6z2">Descripción</th>
+                <th class="tg-s6z2">Tipo</th>
+                <th class="tg-s6z2">Comentarios / Rango</th>
+                <th class="tg-s6z2">Problemas</th>
+            </tr>
+            <tr>
+                <td class="tg-zlxb">Tipo</td>
+                <td class="tg-zlxb">Tipo de punto de recarga</td>
+                <td class="tg-zlxb">String</td>
+                <td class="tg-zlxb">
+                    No es único<br />
+                    Solo existen 3 tipos
+                </td>
+                <td class="tg-zlxb">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="tg-zlxb">Distrito</td>
+                <td class="tg-zlxb">Nombre del Distrito</td>
+                <td class="tg-zlxb">String</td>
+                <td class="tg-zlxb">No es único</td>
+                <td class="tg-zlxb">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="tg-zlxb">Tipo de vía</td>
+                <td class="tg-zlxb">Tipo de la vía</td>
+                <td class="tg-zlxb">String</td>
+                <td class="tg-zlxb">
+                    No es único<br />
+                    Los posibles valores son:<br />
+                    Avenida, Calle, Glorieta, Paseo, Plaza y Ronda
+                </td>
+                <td class="tg-zlxb">Debe extraerse de la columna dirección, que incluye tanto el tipo y nombre de la vía como el nº</td>
+            </tr>
+            <tr>
+                <td class="tg-zlxb">Nombre de vía</td>
+                <td class="tg-zlxb">Nombre de la vía</td>
+                <td class="tg-zlxb">String</td>
+                <td class="tg-zlxb">No es único</td>
+                <td class="tg-zlxb">Debe extraerse de la columna dirección, que incluye tanto el tipo y nombre de la vía como el nº</td>
+            </tr>
+            <tr>
+                <td class="tg-zlxb">Nº de vía</td>
+                <td class="tg-zlxb">Número de la vía</td>
+                <td class="tg-zlxb">int</td>
+                <td class="tg-zlxb">
+                    No es único<br />
+                    Número + letra (en caso de existir letra)
+                </td>
+                <td class="tg-zlxb">Debe extraerse de la columna dirección, que incluye tanto el tipo y nombre de la vía como el nº</td>
+            </tr>
+            <tr>
+                <td class="tg-zlxb">Nº de conectores</td>
+                <td class="tg-zlxb">Número de conectores</td>
+                <td class="tg-zlxb">int</td>
+                <td class="tg-zlxb">
+                    No es único<br />
+                    Rango: 1 - 37
+                </td>
+                <td class="tg-zlxb">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="tg-zlxb">Tipo de conector</td>
+                <td class="tg-zlxb">Tipo de conector del punto de recarga</td>
+                <td class="tg-zlxb">String</td>
+                <td class="tg-zlxb">
+                    No es único
+                    Posibles valores:<br />
+                    Schuko, Mennekes, Schuko/Mennekes, Schuko/Cetac,<br />
+                    Schuko/Mennekes/Combo/CHAdeMO y Cargador Trimanguera
+                </td>
+                <td class="tg-zlxb">&nbsp;</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h1 style="text-align: center; margin-top: 60px;">Análisis de la licencia del Data Set</h1>
+
+    <hr>
+
+    <div style="text-align: justify;">
+        <strong>Las condiciones generales permiten la reutilización de los documentos para fines comerciales y no comerciales</strong>. Se entiende por reutilización el uso de documentos que obran en poder del Ayuntamiento de Madrid, siempre que dicho uso no constituya una actividad administrativa pública.&nbsp;
+    </div>
+
+    <div style="text-align: justify;">
+        <strong>Esta licencia nos permite la copia, difusión, modificación, adaptación, extracción, reordenación y combinación de la información</strong> ya que el contenido redaccional (texto) de los Recursos turísticos proporcionados en la presente grupo de datos abierto, <strong>no está sujeto a derechos de autor o de propiedad intelectual y por lo tanto son de libre uso</strong>, la licencia completa se puede ver&nbsp; <a href="http://datos.madrid.es/portal/site/egob/menuitem.3efdb29b813ad8241e830cc2a8a409a0/?vgnextoid=748eb054f9edb410VgnVCM1000000b205a0aRCRD&amp;vgnextchannel=b4c412b9ace9f310VgnVCM100000171f5a0aRCRD&amp;vgnextfmt=default">aquí</a>&nbsp;.
+    </div>
+
+    <h1 style="text-align: center; margin-top: 60px;">Resource Naming Strategy</h1>
+
+    <hr>
+
+    <ul>
+        <li>
+            <strong>Domain:</strong> http://www.semanticweb.org/
+        </li>
+        <li>
+            <strong>Ontological terms path:</strong> http://www.semanticweb.org/group03/ontology
+        </li>
+        <li>
+            <strong>Individuals path:</strong> http://www.semanticweb.org/group03/resource
+        </li>
+        <li>
+            <strong>Ontological terms pattern:</strong> http://www.semanticweb.org/group03/ontology/<terms#></terms#>
+        </li>
+        <li>
+            <strong>Individuals pattern:</strong> http://www.semanticweb.org/group03/resource/resource_type/resource_name
+        </li>
+    </ul>
+</body>
+</html>

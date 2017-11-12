@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html> <head>
+<title>Group 18</title>
+<meta charset="utf-8"> 
+<style type="text/css">
+		
+	table {
+   width: 100%;
+   border: 1px solid #000;
+
+	}
+
+	th, td {
+	   width: 25%;
+	   text-align: left;
+	   vertical-align: top;
+	   border: 1px solid #000;
+	   border-spacing: 0;
+	}
+
+</style>
+</head>
+<body>
+
+<div>
+    <h1>Analyse data set</h1>
+
+    <h2 >Parkings publicos de Bruselas</h2>
+    <ul>
+    <li><b>Nombre del fichero:</b>parkingpublic-2016-01-01.csv</li>
+	</ul>
+
+    <table>
+            <tr >
+                <th><p><b>Parametro</b></p></th>
+                <th><p><b>Tipo</b></p></th>
+                <th><p><b>Rango</p></b></th>
+                <th><p><b>Comentario</b></p></th>
+            </tr>
+            <tr>
+                <td><p>FID</p></td>
+                <td><p>String</p></td>
+                <td><p></p></td>
+                <td><p>Identificador de texto del parking</p></td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td><p>ID del parking</p></td>
+                <td><p>int</p></td>
+                <td><p>1 - 60</p></td>
+                <td><p>Identificador en numero del parking</p></td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td><p>ID2 del parking</p></td>
+                <td><p>int</p></td>
+                <td><p>1 - 60</p></td>
+                <td><p>Identificador en numero del parking</p></td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td><p>Nombre (frances)</p></td>
+                <td><p>String</p></td>
+                <td><p></p></td>
+                <td><p>Nombre en frances del parking</p></td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td><p>Nombre (belga)</p></td>
+                <td><p>String</p></td>
+                <td><p></p></td>
+                <td><p>Nombre en belga del parking</p></td>
+                <td><p></p></td>
+            </tr>
+            <tr>
+                <td><p>Gestor del parking</p></td>
+                <td><p>String</p></td>
+                <td><p></p></td>
+                <td><p>Empresa encargada de gestionar el parking</p></td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td><p>Zona</p></td>
+                <td><p>String</p></td>
+                <td><p></p></td>
+                <td><p>Zona de Belgica en la que se encuentra el parking</p></td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td><p>Direccion (frances)</p></td>
+                <td><p>String</p></td>
+                <td><p></p></td>
+                <td><p>Direccion del parking en frances</p></td>
+                <td>&nbsp;</td>
+            </tr>
+                 <tr>
+                <td><p>Direccion (belga)</p></td>
+                <td><p>String</p></td>
+                <td><p></p></td>
+                <td><p>Direccion del parking en belga</p></td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td><p>Municipio (frances)</p></td>
+                <td><p>String</p></td>
+                <td><p></p></td>
+                <td><p>Municipio en el que se encuentra el parking en frances</p></td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td><p>Municipio (belga)</p></td>
+                <td><p>String</p></td>
+                <td><p></p></td>
+                <td><p>Municipio en el que se encuentra el parking en belga</p></td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td><p>Codigo postal</p></td>
+                <td><p>int</p></td>
+                <td><p>1000 - 1300</p></td>
+                <td><p>Codigo postal de la direccion en la que se encuentra el parking</p></td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td><p>Capacidad</p></td>
+                <td><p>int</p></td>
+                <td><p></p></td>
+                <td><p>Capacidad de coches del parking</p></td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td><p>Coordenadas</p></td>
+                <td><p>String</p></td>
+                <td><p></p></td>
+                <td><p>Coordenadas en las que se encuentra el parking</p></td>
+                <td>&nbsp;</td>
+            </tr>
+    </table>
+
+
+	<h1>Analyse Licensing of the Data Source</h1>
+	<p>Tal y como se indica en el siguiente documento: <a href="http://cirb.brussels/fr/nos-solutions/urbis-solutions/licence-urbis-open-data"> Brussels OpenData License</a>, siempre y cuando se menciona al menos al autor de la fuente de información, siendo recomendable mencionar además la fuente y la fecha de su última modificación, cualquier persona es libre de realizar los siguientes puntos:
+    <ul>
+        <li>Reproducir, copiar, publicar y transmitir la Información</li>
+        <li>Diseminar y redistribuir la información</li>
+        <li>Adaptar, modificar, extraer y transformar de Información en otra derivada </li>
+        <li>Usar con fines comerciales la información</li>
+    </ul>
+    La totalidad de la información pertenecerá al autor de esa fuente, asegurando que no se vulnera la propiedad intelectual de terceros, pero en ningun caso se asegura la total fiabilidad de la misma.
+    Esta se rige bajo la ley belga, siendo compatible con la licencia abierta del gobierno de Reino Unido (OGL).
+    </p>
+	
+
+    <h1>Define Resource Naming Strategy</h1>
+    <ul>
+    <li>Domain:</li>
+    http://www.semanticweb.org/grupo18/
+    </ul> 
+    <ul>
+    <li>Ontological terms path:</li>
+    http://www.semanticweb.org/grupo18/ontologies#
+    </ul>
+    <ul>
+    <li>Individuals path:</li> 
+    http://www.semanticweb.org/grupo18/resources/
+    </ul>
+    <ul> 
+    <li>Ontological terms pattern:</li>
+    http://www.semanticweb.org/grupo18/ontologies#&lt;term_name&gt;
+    </ul>
+    <ul>
+    <li>Individuals pattern:</li>
+    http://www.semanticweb.org/grupo18/resources/&lt;resource_type&gt;/&lt;resource_name&gt;
+
+        
+    </div>    
+</body>
+</html>

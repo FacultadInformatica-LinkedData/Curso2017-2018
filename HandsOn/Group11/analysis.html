@@ -1,0 +1,69 @@
+<html>
+	<head>
+		<title>Analysis of the Data Source</title>
+		<h1>By Group 11</h1>
+	</head>
+	
+	<body>
+	
+		<h1>Analyse Licensing of the Data Source to be generated</h1>
+			<p>
+				The conditions of the dataset we selected let us use it for commercial and not-commercial uses as long as we credit the source of the data, and the date of the last update of the files which are being used. Our dataset will be not-commercial as well, and everybody will be able to use it as long as we and the original source of data are credited.
+			<p>
+			
+		<h1>Analyse Data Set</h1>
+			<p>
+				For each event we have 23 fields:
+			<p>
+				- ID-EVENTO: 8-digit number which identifies a unique event
+			<p>
+				- TITULO: String with the name of the event
+			<p>
+				- PRECIO: String with the price of the event, or empty if the event is free
+			<p>
+				- GRATUITO: Boolean which will have value 1 when the event is free or 0 otherwise
+			<p>
+				- LARGA-DURACION: Boolean which will have value 1 when the event is developed over time, like expositions, 0 otherwise.
+			<p>
+				- DIAS-SEMANA: Initials of the days of the week the event is done, only valid for events with LARGA-DURACION. Values will be (LMXJVSD)
+			<p>
+				- DIAS-EXCLUIDOS: Dates of specific days when the event will not happen, if there are more than one date they will be separated with a semi-colon.
+			<p>
+				- FECHA: Date of when the even will start with format "yyyy-mm-dd hh:mm:ss.0"
+			<p>
+				- FECHA-FIN: Date of when the even will finish with format "yyyy-mm-dd hh:mm:ss.0"
+			<p>
+				- HORA: Hour at which the even will start with format "hh:mm"
+			<p>
+				- DESCRIPCION: String field with the description of the event
+			<p>
+				- CONTENT-URL: URL of the resource on Internet of the specific event
+			<p>
+				- TITULO-ACTIVIDAD: String with the name of the event or activity associated to this event
+			<p>
+				- URL-ACTIVIDAD: URL of the resource of the activity at which the event belongs to
+			<p>
+				- URL-INSTALACION: URL of the resource of the location where the event takes place.
+			<p>
+				- NOMBRE-INSTALACION: String with the name of the location of the event
+			<p>
+				- COORDENADA-X: 6 characters coordinate over the map of the city, UTM-30, in the reference system ED50
+			<p>
+				- COORDENADA-Y: 7 characters coordinate over the map of the city, UTM-30, in the reference system ED50
+			<p>
+				- COORDENADA-LATITUD: latitude coordinate in the reference system WGS84
+			<p>
+				- DISTRITO: String with the name of the district where the event will take place	
+			<p>
+				- TIPO: Path of the resource with the definition of the type of the event
+			<p>
+				- AUDIENCIA: Path to the resource to the public which the event is oriented to
+			<p>
+		<h1>Resource naming strategy</h1>
+			<p>
+				The resoures we have identified have been named with a simplified version of their name in the original dataset, translated the name to english.
+			<p>
+				The names of the resources are a signle String which, in case it is composed of various words, capitalizes the first letter of each word.
+			<p>
+	</body>
+</html>
