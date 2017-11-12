@@ -43,17 +43,29 @@
                  
                  rdfs:range xsd:string .
 
+:diasSemanaEvento rdf:type owl:DatatypeProperty ;
+                 
+                 rdfs:domain :Evento ;
+                 
+                 rdfs:range xsd:string .
+
 :urlEvento rdf:type owl:DatatypeProperty ;
                  
                  rdfs:domain :Evento ;
                  
                  rdfs:range xsd:string .
 
+:tipoEvento rdf:type owl:DatatypeProperty ;
+                 
+                 rdfs:domain :Evento ;
+                 
+                 rdfs:range xsd:string .
+
 :instalacionEvento rdf:type owl:ObjectProperty ;
+		 
+		 rdfs:domain :Instalacion ;
                             
-                            rdfs:domain :Instalacion ;
-                            
-                            rdfs:range :Instalacion	.
+                 rdfs:range :Instalacion .
 							
 :idEvento rdf:type owl:DatatypeProperty ;
                  
