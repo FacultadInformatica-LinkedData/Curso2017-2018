@@ -27,8 +27,30 @@
 - [X] Defines all class names starting with a capital letter
 - [X] Defines all property names starting with a non-capital letter
 - [X] Does not mix labels in different languages (e.g., Spanish and English)
-- [ ] Does not define multiple domains or multiple ranges in properties
+- [X] Does not define multiple domains or multiple ranges in properties
 - [X] Contains at least one class that will be used to link to other entities
 
 ##Comments on the self-assessment##
-_(If required)_
+
+El trabajo se realizó de la siguiente forma:
+
+Adrián Agramón:
+- Análisis del Data Set
+- Elaboración y revisión del analysis.html
+- Corrección de la ontología
+
+Michelle Santos:
+- Análisis del Data Set 
+- Elaboración y revisión del analysis.html
+- Corrección de la ontología
+
+Andrea Niño:
+- Análisis de la licencia del Data Set
+- Elaboración del Resource Naming Strategy
+- Elaboración de la ontología
+- Reelaboración de la ontología (debido al cambio de los datasets) (Se generó una nueva jerarquía de clases y nueva relaciones entre dichas clases) 
+
+José Fatjó:
+- Revisión y corrección del analysis.html
+- Revisión de la ontología
+- Reelaboración de analysis.html (debido al cambio de los datasets)
