@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="UTF-8" />
+	<title>Hands-on Group 02 WSLD</title>
+	<head>
+		<style type="text/css">
+			table {
+				border: 1px solid #bbb;
+				margin-bottom: 1em;
+				width: 100%;
+				border-collapse: collapse;
+			}
+			td, th {
+				border: 1px solid #bbb;
+				line-height: 1.7;
+				text-align: center;
+			}
+			th {
+				background: #f5f5f5;
+			}
+			tr:hover {
+				background: #c1bfbf;
+			}
+			.tdlight{
+				background: #37bb47;
+			}
+			.tdlight:hover{
+				background: #37bb47;
+			}
+			.h1_doc{
+				text-align: center !important;
+				font-size: 300%;
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+			<h1 class="h1_doc">Analyse dataSets Requirements</h1>
+			<hr>
+			<h2 style="border-bottom: 2px">Accidentes de tráfico con impliacación de bicicletas</h2>
+			<ul>
+				<li><b>Nombre del fichero:</b>Accidentes_Bicicletas_2017.csv</li>
+				<li><b>Descripción:</b>Accidentes de tráfico donde está implicada al menos una bicicleta, indicando día, hora, nº de víctimas, distrito, nombre de la vía y tipo de accidente.</li>
+				<li><b>Origen de los datos:</b><a target="_blank" href="http://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=20f4a87ebb65b510VgnVCM1000001d4a900aRCRD&vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default">Click Aqui</a></li>
+				<li><a target="_blank" href="http://datos.madrid.es/portal/site/egob/menuitem.400a817358ce98c34e937436a8a409a0/?vgnextoid=eba412b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextchannel=eba412b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default">Acerca de los Datos abiertos</a></li>
+			</ul>
+			<table>
+				<tbody>
+					<tr class="tdlight">
+						<td><p>Columna</p></td>
+						<td><p>Tipo</p></td>
+						<td><p>Comentarios / Rango</p></td>
+					</tr>
+					<tr>
+						<td><p>Fecha</p></td>
+						<td><p>DateTime</p></td>
+						<td><p>not unique, not empty</p><p>01/01/2017 - 30/09/2017</p></td>
+					</tr>
+					<tr>
+						<td><p>Tramo Horario</p></td>
+						<td><p>String</p></td>
+						<td><p>Full Time</p></td>
+					</tr>
+					<tr>
+						<td><p>Número total de Víctimas</p></td>
+						<td><p>Integer</p></td>
+						<td><p>0 - n</p></td>
+					</tr>
+					<tr>
+						<td><p>Distrito</p></td>
+						<td><p>String</p></td>
+						<td><p>not unique, not empty</p></td>
+					</tr>
+					<tr>
+						<td><p>Lugar</p></td>
+						<td><p>String</p></td>
+						<td><p>Calle x</p></td></td>
+					</tr>
+					<tr>
+						<td><p>Número</p></td>
+						<td><p>Integer</p></td>
+						<td><p>[1 — n]</p></td>
+					</tr>
+					<tr>
+						<td><p>Tipo de Accidente</p></td>
+						<td><p>String</p></td>
+						<td><p>not unique, not empty</p></td>
+					</tr>
+					<tr>
+						<td><p>Tipo de Vehiculo</p></td>
+						<td><p>String</p></td>
+						<td><p>not unique, not empty</p></td>
+					</tr>
+				</tbody>
+			</table>
+			<h2 style="border-bottom: 2px">Actuaciones en materia de limpieza urbana</h2>
+			<ul>
+			<li><b>Nombre del fichero:</b>Actuaciones_Limpieza_Urbana.csv</li>
+			<li><b>Descripción:</b>Información sobre actuaciones en materia de limpieza urbana</li>
+			<li><b>Origen de los datos:</b><a target="_blank" href="http://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=6d45adbb460dd510VgnVCM2000001f4a900aRCRD&vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default">Click Aqui</a></li>
+			<li><a target="_blank" href="http://datos.madrid.es/portal/site/egob/menuitem.400a817358ce98c34e937436a8a409a0/?vgnextoid=eba412b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextchannel=eba412b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default">Acerca de los Datos abiertos</a></li>
+		</ul>
+			<table>
+				<tbody>
+					<tr class="tdlight">
+						<td><p>Columna</p></td>
+						<td><p>Tipo</p></td>
+						<td><p>Comentarios / Rango</p></td>
+						
+					</tr>
+					<tr>
+						<td><p>Mes</p></td>
+						<td><p>String</p></td>
+						<td><p>not unique, not empty</p></td>
+						
+					</tr>
+					<tr>
+						<td><p>Lote</p></td>
+						<td><p>Integer</p></td>
+						<td><p>not unique, not empty</p></td>
+						
+					</tr>
+					<tr>
+						<td><p>Distrito</p></td>
+						<td><p>String</p></td>
+						<td><p>not unique, not empty</p></td>
+						
+					</tr>
+					<tr>
+						<td><p>Kg Recogida Muebles</p></td>
+						<td><p>Double</p></td>
+						<td><p>not unique, not empty</p></td>
+						
+					</tr>					<tr>
+						<td><p>Kg recogida Residuos Viarios</p></td>
+						<td><p>Double</p></td>
+						<td><p>not unique, not empty</p></td>
+						
+					</tr>					<tr>
+						<td><p>Num Servicios Barrido Manual</p></td>
+						<td><p>Integer</p></td>
+						<td><p>not unique, not empty</p></td>
+						
+					</tr>					<tr>
+						<td><p>Num Servicios Barrido Mecánico</p></td>
+						<td><p>Integer</p></td>
+						<td><p>not unique, not empty</p></td>
+						
+					</tr>					<tr>
+						<td><p>Num Servicios Barrido Mixto</p></td>
+						<td><p>Integer</p></td>
+						<td><p>not unique, not empty</p></td>
+						
+					</tr>					<tr>
+						<td><p>Num Servicios Baldeo Mixto</p></td>
+						<td><p>Integer</p></td>
+						<td><p>not unique, not empty</p></td>
+						
+					</tr>					<tr>
+						<td><p>Num Servicios Baldeo Mecánico</p></td>
+						<td><p>Integer</p></td>
+						<td><p>not unique, not empty</p></td>
+						
+					</tr>					<tr>
+						<td><p>Num Servicios Eliminación Grafitis</p></td>
+						<td><p>Integer</p></td>
+						<td><p>not unique, not empty</p></td>
+						
+					</tr>					<tr>
+						<td><p>M2 Eliminación Grafitis</p></td>
+						<td><p>Integer</p></td>
+						<td><p>not unique, not empty</p></td>
+						
+					</tr>					<tr>
+						<td><p>Ud Reposición Bolsas Caninas</p></td>
+						<td><p>Integer</p></td>
+						<td><p>not unique, not empty</p></td>
+						
+					</tr>					
+				</tbody>
+			</table>
+			<h2 style="border-bottom: 2px">Aseos Públicos operativos</h2>
+			   <ul>
+			<li><b>Nombre del fichero:</b>Aseos_Publicos_Municipales.csv</li>
+			<li><b>Descripción:</b>Como forma de atender las necesidades de servicios públicos en la vía pública, garantizando su correcta conservación y mantenimiento, sus adecuadas condiciones para un uso exigente y su acceso y uso por todas las personas, con independencia de sus capacidades físicas, funcionales o intelectuales, el Ayuntamiento ha impulsado su implantación en los elementos de mobiliario urbano con explotación publicitaria, sin coste en ninguna partida presupuestaria del Ayuntamiento.
+
+ El contrato denominado “Gestión del Servicio Público, modalidad de concesión de mobiliario urbano municipal informativo y otros servicios”, contempla entre otros elementos, la fabricación, instalación y mantenimiento de los aseos públicos con explotación publicitaria que se están instalando en Madrid. La empresa concesionaria es Clear Channel S.L.U.<li><b>Origen de los datos:</b>
+ <a target="_blank" href="http://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=edcaaa8cf6bda510VgnVCM1000001d4a900aRCRD&vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default">Click aqui</a></li>
+			<li><a target="_blank" href="http://datos.madrid.es/portal/site/egob/menuitem.400a817358ce98c34e937436a8a409a0/?vgnextoid=eba412b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextchannel=eba412b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default">Acerca de los Datos abiertos</a></li>
+		</ul>
+			<table>
+				<tbody>
+
+				<tr class="tdlight">
+					<td><p>Columna</p></td>
+					<td><p>Tipo</p></td>
+					<td><p>Comentarios / Rango</p></td>
+					
+				</tr>
+					   <tr>
+					<td><p>Código J.M.</p></td>
+					<td><p>Integer</p></td>
+					<td><p>not unique, not empty</p></td>
+					
+				</tr>
+				<tr>
+					<td><p>Distrito</p></td>
+					<td><p>String</p></td>
+					<td><p>not unique, not empty.</p></td>
+				</tr>
+				<tr>
+					<td><p>Vial</p></td>
+					<td><p>String</p></td>
+					<td><p>not unique, not empty.</p></td>
+					
+				</tr>
+				<tr>
+					<td><p>Nombre</p></td>
+					<td><p>String</p></td>
+					<td><p>not unique, not empty.</p></td>
+					
+				</tr>
+				<tr>
+					<td><p>Número</p></td>
+					<td><p>Integer</p></td>
+					<td><p>not unique, not empty.</p></td>
+					
+				</tr>
+				<tr>
+					<td><p>ANT/DES/ESQ</p></td>
+					<td><p>String</p></td>
+					<td><p>not unique, not empty. </p></td>
+				</tr>
+				<tr>
+					<td><p>X COORD UTM ETRS89</p></td>
+					<td><p>Double</p></td>
+					<td><p>not unique, not empty. </p></td>
+				</tr>
+				<tr>
+					<td><p>Y COORD UTM ETRS89</p></td>
+					<td><p>Double</p></td>
+					<td><p>not unique, not empty. </p></td>
+				</tr>
+				<tr>
+					<td><p>Longitud</p></td>
+					<td><p>Double</p></td>
+					<td><p>not unique, not empty. </p></td>
+				</tr>
+				<tr>
+					<td><p>Latitud</p></td>
+					<td><p>Double</p></td>
+					<td><p>not unique, not empty. </p></td>
+				</tr>
+				<tr>
+					<td><p>Dirección</p></td>
+					<td><p>String</p></td>
+					<td><p>not unique, not empty. </p></td>
+				</tr>
+			</tbody>
+			</table>
+			</div>
+			<div>
+	<h2>Análisis de la licencia de los datos</h2>
+		<p>
+		Para la información que nosotros generemos utilizaremos la licencia estandar de Creative Commons "CC BY". De esta manera
+		permitimos cualquier tipo de uso mientras que se reconozca la autoría del trabajo.
+	</p>
+	<p>
+		Los conjuntos de datos que estamos utilizando los proporciona el <strong>portal de datos abiertos de Madrid</strong>. <br>Según
+		su apartado de condiciones de uso: "Las condiciones generales permiten la reutilización de los documentos para fines comerciales
+		y no comerciales." <br>El uso que le demos no constituye una actividad administrativa pública, se considerará reutilización
+		de datos y podremos hacer uso libre de ellos tanto para fines comerciales como no comerciales.
+	</p>
+				
+					<h1>Define Resource Naming Strategy</h1>
+					
+					<p>Domain:</p> 
+					<p>http://www.wsldfiupm.org/handson/group02/</p>
+					<p>Ontological terms path:</p> 
+					<p>http://www.wsldfiupm.org/handson/group02/vocabulary#</p>
+					<p>Individuals path:</p>
+					<p>http://www.wsldfiupm.org/handson/group02</p>
+					<p>Ontological terms pattern:</p> 
+					<p>http://www.wsldfiupm.org/handson/group02/vocabulary#<term_name</p>
+					<p>Individuals pattern:</p> 
+					<p>http://www.wsldfiupm.org/handson/group02/resource/&ltresource_type&gt/&ltresource_name&gt</p>
+	
+				</div> 
+
+
+
+
+
+
+
+
+
+
+			
+	</body>
+</html>

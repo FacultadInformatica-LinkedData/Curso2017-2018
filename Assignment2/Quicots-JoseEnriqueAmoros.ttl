@@ -1,0 +1,19 @@
+@prefix nsd: <http://www.ontogrid.net/StickyNote#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+nsd:Class01
+	nsd:includes 
+        nsd:Sensor029,
+        nsd:Computer101 .
+
+nsd:Sensor029
+	nsd:hasMeasurement  
+        nsd:Measurement8401.
+nsd:Computer101
+	nsd:hasOwner  
+        nsd:User10A.
+nsd:Measurement8401
+	nsd:hasTemperature "29"^^xsd:decimal;
+	nsd:atTime "2010-06-12T12:00:12"^^xsd:dateTime.
+nsd:User10A
+	nsd:hasName "Pedro"^^xsd:string. 
