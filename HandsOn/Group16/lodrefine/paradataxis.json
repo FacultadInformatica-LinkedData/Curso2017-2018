@@ -1,0 +1,93 @@
+[
+  {
+    "op": "core/column-rename",
+    "description": "Rename column NÃºmero plazas to Numero plazas",
+    "oldColumnName": "NÃºmero plazas",
+    "newColumnName": "Numero plazas"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column DescripciÃ³n to Descripcion",
+    "oldColumnName": "DescripciÃ³n",
+    "newColumnName": "Descripcion"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column CategorÃ­a to Categoria",
+    "oldColumnName": "CategorÃ­a",
+    "newColumnName": "Categoria"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column TÃ­tulo to Titulo",
+    "oldColumnName": "TÃ­tulo",
+    "newColumnName": "Titulo"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column Site types at index 3 based on column Descripcion using expression grel:substring(value,0,lastIndexOf(value,\"-\"))",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "Site types",
+    "columnInsertIndex": 3,
+    "baseColumnName": "Descripcion",
+    "expression": "grel:substring(value,0,lastIndexOf(value,\"-\"))",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column Site types by separator",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Site types",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "-",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "description": "Split multi-valued cells in column Site types 1",
+    "columnName": "Site types 1",
+    "keyColumnName": "Titulo",
+    "separator": "-",
+    "mode": "plain"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column Coordenadas at index 7 based on column Longitud using expression grel:value+ \" \" +cells[\"Latitud\"].value",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "Coordenadas",
+    "columnInsertIndex": 7,
+    "baseColumnName": "Longitud",
+    "expression": "grel:value+ \" \" +cells[\"Latitud\"].value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Coordenadas",
+    "columnName": "Coordenadas"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column Coordenadas at index 7 based on column Longitud using expression grel:value+ \",\"+\" \"+cells[\"Latitud\"].value",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "Coordenadas",
+    "columnInsertIndex": 7,
+    "baseColumnName": "Longitud",
+    "expression": "grel:value+ \",\"+\" \"+cells[\"Latitud\"].value",
+    "onError": "set-to-blank"
+  }
+]
