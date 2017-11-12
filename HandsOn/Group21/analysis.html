@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Group 21: Analysis of Data Set</title>
+</head>
+<style>
+    h3 {
+        text-transform: uppercase;
+        text-decoration: underline;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    table,
+    th,
+    td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 0.5em 1.25em;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <h3>Analysis of Data Set</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Column Name</th>
+                    <th>Type</th>
+                    <th>Value Range</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Day</td>
+                    <td>Date (dd/mm/yyyy)</td>
+                    <td>[01/01/2000 - 31/12/2017]</td>
+                    <td>Day that bike was used</td>
+                </tr>
+                <tr>
+                    <td>Total Hours of Use</td>
+                    <td>Integer</td>
+                    <td>[0 - n]</td>
+                    <td>Hours of use</td>
+                </tr>
+                <tr>
+                    <td>Total Hours of Availability</td>
+                    <td>Integer</td>
+                    <td>[0 - n]</td>
+                    <td>Hours of availability</td>
+                </tr>
+                <tr>
+                    <td>Total Hours of Service</td>
+                    <td>Integer</td>
+                    <td>[0 - n]</td>
+                    <td>Hours of service</td>
+                </tr>
+                <tr>
+                    <td>Average of Availability</td>
+                    <td>Integer</td>
+                    <td>[0 - n]</td>
+                    <td>Average of bikes are available</td>
+                </tr>
+                <tr>
+                    <td>Uses of Annual Subscription</td>
+                    <td>Integer</td>
+                    <td>[0 - n]</td>
+                    <td>Uses of annual subscription</td>
+                </tr>
+                <tr>
+                    <td>Uses of Occasional Subscription</td>
+                    <td>Integer</td>
+                    <td>[0 - n]</td>
+                    <td>Uses of occasional subscription</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>Analyse Licensing of the Data Source </h3>
+        <p>The publisher of the data is the Ayuntamiento of Madrid</p>
+        <p>The dataset uses an open license created by Madrid:
+            <a href="http://datos.madrid.es/egob/catalogo/aviso-legal">License URL</a>
+        </p>
+        <h3>Define Resource Naming Strategy </h3>
+        <p>Domain: http://semanticweb.org/Group21/ </p>
+        <p>Ontological terms path: http://semanticweb.org/Group21/ontology/</p>
+        <p>Individuals path: http://semanticweb.org/Group21/ontology/resource/</p>
+        <p>Ontological terms pattern: http://semanticweb.org/Group21/ontology#term_name</p>
+        <p>Individuals pattern: http://semanticweb.org/Group21/ontology/resource/resource_type/resource_name</p>
+    </div>
+
+</body>
+
+</html>
