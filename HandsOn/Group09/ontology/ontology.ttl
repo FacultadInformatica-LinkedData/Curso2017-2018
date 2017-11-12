@@ -1,0 +1,355 @@
+@prefix : <http://www.semanticweb.org/2017grupo9/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/2017grupo9/> .
+
+<http://www.semanticweb.org/2017grupo9/> rdf:type owl:Ontology ;
+                                          owl:versionInfo "versión 1.0"^^xsd:string ;
+                                          rdfs:comment "Ontología que representa las distintas entidades deducidas de los datos obtenidos y analizados en la entrega anterior, así como los object properties y los data properties a las que pueden estar asociadas"^^xsd:string .
+
+#################################################################
+#    Datatypes
+#################################################################
+
+###  http://www.w3.org/2003/01/geo/wgs84_pos#lat
+<http://www.w3.org/2003/01/geo/wgs84_pos#lat> rdf:type rdfs:Datatype .
+
+
+###  http://www.w3.org/2003/01/geo/wgs84_pos#long
+<http://www.w3.org/2003/01/geo/wgs84_pos#long> rdf:type rdfs:Datatype .
+
+
+###  https://www.w3.org/2003/01/geo/wgs84_pos#location
+<https://www.w3.org/2003/01/geo/wgs84_pos#location> rdf:type rdfs:Datatype .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/2017grupo9/Calidad_del_Aire
+:Calidad_del_Aire rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/2017grupo9/Esperanza_de_Vida
+:Esperanza_de_Vida rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf owl:topObjectProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/2017grupo9/
+<http://www.semanticweb.org/2017grupo9/> rdf:type owl:DatatypeProperty ;
+                                         rdfs:range xsd:float .
+
+
+###  http://www.semanticweb.org/2017grupo9/año
+:año rdf:type owl:DatatypeProperty ;
+     rdfs:range xsd:decimal .
+
+
+###  http://www.semanticweb.org/2017grupo9/barrio
+:barrio rdf:type owl:DatatypeProperty ;
+        rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/2017grupo9/benceno
+:benceno rdf:type owl:DatatypeProperty ;
+         rdfs:range xsd:float .
+
+
+###  http://www.semanticweb.org/2017grupo9/co
+:co rdf:type owl:DatatypeProperty ;
+    rdfs:range xsd:float .
+
+
+###  http://www.semanticweb.org/2017grupo9/coordenadas_x_etrs89
+:coordenadas_x_etrs89 rdf:type owl:DatatypeProperty ;
+                      rdfs:range <https://www.w3.org/2003/01/geo/wgs84_pos#location> .
+
+
+###  http://www.semanticweb.org/2017grupo9/coordenadas_y_etrs89
+:coordenadas_y_etrs89 rdf:type owl:DatatypeProperty ;
+                      rdfs:range <https://www.w3.org/2003/01/geo/wgs84_pos#location> .
+
+
+###  http://www.semanticweb.org/2017grupo9/descripción
+:descripción rdf:type owl:DatatypeProperty ;
+             rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/2017grupo9/direc
+:direc rdf:type owl:DatatypeProperty ;
+       rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/2017grupo9/dirección
+:dirección rdf:type owl:DatatypeProperty ;
+           rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/2017grupo9/distrito
+:distrito rdf:type owl:DatatypeProperty ;
+          rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/2017grupo9/dióxido_de_nitrógeno
+:dióxido_de_nitrógeno rdf:type owl:DatatypeProperty ;
+                      owl:equivalentProperty :no2 ;
+                      rdfs:range xsd:decimal .
+
+
+###  http://www.semanticweb.org/2017grupo9/día
+:día rdf:type owl:DatatypeProperty ;
+     owl:equivalentProperty :fecha ;
+     rdfs:range xsd:dateTime .
+
+
+###  http://www.semanticweb.org/2017grupo9/estación
+:estación rdf:type owl:DatatypeProperty ;
+          rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/2017grupo9/fecha
+:fecha rdf:type owl:DatatypeProperty ;
+       rdfs:range xsd:dateTime .
+
+
+###  http://www.semanticweb.org/2017grupo9/h.rel
+:h.rel rdf:type owl:DatatypeProperty ;
+       rdfs:range xsd:decimal .
+
+
+###  http://www.semanticweb.org/2017grupo9/hidrocarburos_no_metano
+:hidrocarburos_no_metano rdf:type owl:DatatypeProperty ;
+                         rdfs:range xsd:float .
+
+
+###  http://www.semanticweb.org/2017grupo9/hidrocarburos_totales
+:hidrocarburos_totales rdf:type owl:DatatypeProperty ;
+                       rdfs:range xsd:float .
+
+
+###  http://www.semanticweb.org/2017grupo9/hora
+:hora rdf:type owl:DatatypeProperty ;
+      rdfs:range xsd:decimal .
+
+
+###  http://www.semanticweb.org/2017grupo9/latitud
+:latitud rdf:type owl:DatatypeProperty ;
+         rdfs:range <http://www.w3.org/2003/01/geo/wgs84_pos#lat> .
+
+
+###  http://www.semanticweb.org/2017grupo9/longitud
+:longitud rdf:type owl:DatatypeProperty ;
+          rdfs:range <http://www.w3.org/2003/01/geo/wgs84_pos#long> .
+
+
+###  http://www.semanticweb.org/2017grupo9/monóxido_de_nitrógeno
+:monóxido_de_nitrógeno rdf:type owl:DatatypeProperty ;
+                       owl:equivalentProperty :no ;
+                       rdfs:range xsd:decimal .
+
+
+###  http://www.semanticweb.org/2017grupo9/no
+:no rdf:type owl:DatatypeProperty ;
+    rdfs:range xsd:decimal .
+
+
+###  http://www.semanticweb.org/2017grupo9/no2
+:no2 rdf:type owl:DatatypeProperty ;
+     rdfs:range xsd:decimal .
+
+
+###  http://www.semanticweb.org/2017grupo9/nombre
+:nombre rdf:type owl:DatatypeProperty ;
+        rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/2017grupo9/nox
+:nox rdf:type owl:DatatypeProperty ;
+     rdfs:range xsd:decimal .
+
+
+###  http://www.semanticweb.org/2017grupo9/o3
+:o3 rdf:type owl:DatatypeProperty ;
+    owl:equivalentProperty :ozono ;
+    rdfs:range xsd:decimal .
+
+
+###  http://www.semanticweb.org/2017grupo9/ozono
+:ozono rdf:type owl:DatatypeProperty ;
+       rdfs:range xsd:decimal .
+
+
+###  http://www.semanticweb.org/2017grupo9/partículas_en_suspensión_pm10
+:partículas_en_suspensión_pm10 rdf:type owl:DatatypeProperty ;
+                               owl:equivalentProperty :pm10 ;
+                               rdfs:range xsd:decimal .
+
+
+###  http://www.semanticweb.org/2017grupo9/pm1
+:pm1 rdf:type owl:DatatypeProperty ;
+     rdfs:range xsd:float .
+
+
+###  http://www.semanticweb.org/2017grupo9/pm10
+:pm10 rdf:type owl:DatatypeProperty ;
+      rdfs:range xsd:decimal .
+
+
+###  http://www.semanticweb.org/2017grupo9/pm2.5
+:pm2.5 rdf:type owl:DatatypeProperty ;
+       rdfs:range xsd:decimal .
+
+
+###  http://www.semanticweb.org/2017grupo9/precip
+:precip rdf:type owl:DatatypeProperty ;
+        rdfs:range xsd:float .
+
+
+###  http://www.semanticweb.org/2017grupo9/pres
+:pres rdf:type owl:DatatypeProperty ;
+      rdfs:range xsd:decimal .
+
+
+###  http://www.semanticweb.org/2017grupo9/provincia
+:provincia rdf:type owl:DatatypeProperty ;
+           rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/2017grupo9/pst
+:pst rdf:type owl:DatatypeProperty ;
+     rdfs:range xsd:decimal .
+
+
+###  http://www.semanticweb.org/2017grupo9/pueblo
+:pueblo rdf:type owl:DatatypeProperty ;
+        rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/2017grupo9/r.sol
+:r.sol rdf:type owl:DatatypeProperty ;
+       rdfs:range xsd:decimal .
+
+
+###  http://www.semanticweb.org/2017grupo9/sh2
+:sh2 rdf:type owl:DatatypeProperty ;
+     rdfs:range xsd:decimal .
+
+
+###  http://www.semanticweb.org/2017grupo9/so2
+:so2 rdf:type owl:DatatypeProperty ;
+     rdfs:range xsd:decimal .
+
+
+###  http://www.semanticweb.org/2017grupo9/temp
+:temp rdf:type owl:DatatypeProperty ;
+      rdfs:range xsd:float .
+
+
+###  http://www.semanticweb.org/2017grupo9/tolueno
+:tolueno rdf:type owl:DatatypeProperty ;
+         rdfs:range xsd:float .
+
+
+###  http://www.semanticweb.org/2017grupo9/veloc
+:veloc rdf:type owl:DatatypeProperty ;
+       rdfs:range xsd:float .
+
+
+###  http://www.semanticweb.org/2017grupo9/xileno
+:xileno rdf:type owl:DatatypeProperty ;
+        rdfs:range xsd:float .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/2017grupo9/Ciudades
+:Ciudades rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/2017grupo9/Alcobendas
+:Alcobendas rdf:type owl:NamedIndividual ;
+            :benceno "" ;
+            :dióxido_de_nitrógeno "" ;
+            :fecha "" ;
+            :hidrocarburos_no_metano "" ;
+            :monóxido_de_nitrógeno "" ;
+            :ozono "" ;
+            :partículas_en_suspensión_pm10 "" ;
+            :tolueno "" ;
+            :xileno "" .
+
+
+###  http://www.semanticweb.org/2017grupo9/Barcelona
+:Barcelona rdf:type owl:NamedIndividual ;
+           <http://www.semanticweb.org/2017grupo9/> "" ;
+           :barrio "" ;
+           :distrito "" .
+
+
+###  http://www.semanticweb.org/2017grupo9/Castilla_y_León
+:Castilla_y_León rdf:type owl:NamedIndividual ;
+                 :co "" ;
+                 :día "" ;
+                 :estación "" ;
+                 :no "" ;
+                 :no2 "" ;
+                 :o3 "" ;
+                 :pm10 "" ;
+                 :pm2.5 "" ;
+                 :provincia "" ;
+                 :pst "" ;
+                 :sh2 "" ;
+                 :so2 "" .
+
+
+###  http://www.semanticweb.org/2017grupo9/Euskadi
+:Euskadi rdf:type owl:NamedIndividual ;
+         :coordenadas_x_etrs89 "" ;
+         :coordenadas_y_etrs89 "" ;
+         :descripción "" ;
+         :dirección "" ;
+         :latitud "" ;
+         :longitud "" ;
+         :nombre "" ;
+         :provincia "" ;
+         :pueblo "" .
+
+
+###  http://www.semanticweb.org/2017grupo9/Torrent
+:Torrent rdf:type owl:NamedIndividual ;
+         :año "" ;
+         :co "" ;
+         :direc "" ;
+         :fecha "" ;
+         :h.rel "" ;
+         :hora "" ;
+         :no "" ;
+         :no2 "" ;
+         :nox "" ;
+         :o3 "" ;
+         :pm1 "" ;
+         :pm10 "" ;
+         :pm2.5 "" ;
+         :precip "" ;
+         :pres "" ;
+         :r.sol "" ;
+         :so2 "" ;
+         :temp "" ;
+         :veloc "" .
+
+
+###  Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi

@@ -10,13 +10,13 @@ The “analysis.html” file:
 The resource naming strategy:
 
 - [x] Uses a domain that is not the one given by default in Protégé
-- [ ] Uses different paths for ontology resources (i.e., classes and properties) and individuals
+- [x] Uses different paths for ontology resources (i.e., classes and properties) and individuals
 - [x] Ensures that the paths for individuals of different classes are not the same
 - [ ] Defines property URIs independently of class URIs
 
 The ontology file:
 
-- [ ] Uses the .ttl extension
+- [x] Uses the .ttl extension
 - [x] Is serialized in the Turtle format
 - [x] Follows the resource naming strategy
 - [x] Contains at least one class
@@ -25,8 +25,9 @@ The ontology file:
 - [x] Defines the domain of all the properties (the origin of the property)
 - [x] Defines the range of all the properties (the destination of the property)
 - [x] Defines all class names starting with a capital letter
-- [ ] Defines all property names starting with a non-capital letter
-- [ ] Does not mix labels in different languages (e.g., Spanish and English)
-- [ ] Does not define multiple domains or multiple ranges in properties
+- [x] Defines all property names starting with a non-capital letter
+- [x] Does not mix labels in different languages (e.g., Spanish and English)
+- [x] Does not define multiple domains or multiple ranges in properties
 - [x] Contains at least one class that will be used to link to other entities
+
 ##Comments on the self-assessment## (If required)
