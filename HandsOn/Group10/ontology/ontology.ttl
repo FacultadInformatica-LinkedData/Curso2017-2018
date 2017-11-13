@@ -24,15 +24,33 @@
                        rdfs:range :Neighborhood .
 
 
-###  htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasSituation
-:hasSituation rdf:type owl:ObjectProperty ;
-              rdfs:domain :Zone ;
-              rdfs:range :Situation .
-
-
 #################################################################
 #    Data properties
 #################################################################
+
+###  htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasCompleteName
+:hasCompleteName rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :Situation ;
+                 rdfs:range xsd:string .
+
+
+###  htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasCompleteNameAccent
+:hasCompleteNameAccent rdf:type owl:DatatypeProperty ;
+                       rdfs:domain :Situation ;
+                       rdfs:range xsd:string .
+
+
+###  htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasIdDistrict
+:hasIdDistrict rdf:type owl:DatatypeProperty ;
+               rdfs:domain :District ;
+               rdfs:range xsd:string .
+
+
+###  htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasIdNeighborhood
+:hasIdNeighborhood rdf:type owl:DatatypeProperty ;
+                   rdfs:domain :Neighborhood ;
+                   rdfs:range xsd:string .
+
 
 ###  htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasInfixe
 :hasInfixe rdf:type owl:DatatypeProperty ;
@@ -46,12 +64,22 @@
                rdfs:range xsd:decimal .
 
 
-###  htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasName
-:hasName rdf:type owl:DatatypeProperty ;
-         rdfs:domain :District ,
-                     :Neighborhood ,
-                     :Situation ;
-         rdfs:range xsd:string .
+###  htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameDistrict
+:hasNameDistrict rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :District ;
+                 rdfs:range xsd:string .
+
+
+###  htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameNeighborhood
+:hasNameNeighborhood rdf:type owl:DatatypeProperty ;
+                     rdfs:domain :Neighborhood ;
+                     rdfs:range xsd:string .
+
+
+###  htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameSituation
+:hasNameSituation rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Situation ;
+                  rdfs:range xsd:string .
 
 
 ###  htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameWithAccent
@@ -60,18 +88,28 @@
                    rdfs:range xsd:string .
 
 
-###  htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumDistrict
-:hasNumDistrict rdf:type owl:DatatypeProperty ;
-                rdfs:domain :Situation ,
-                            :Zone ;
-                rdfs:range xsd:string .
+###  htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumDistrictSituation
+:hasNumDistrictSituation rdf:type owl:DatatypeProperty ;
+                         rdfs:domain :Situation ;
+                         rdfs:range xsd:string .
 
 
-###  htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumNeighborhood
-:hasNumNeighborhood rdf:type owl:DatatypeProperty ;
-                    rdfs:domain :Situation ,
-                                :Zone ;
+###  htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumDistrictZone
+:hasNumDistrictZone rdf:type owl:DatatypeProperty ;
+                    rdfs:domain :Zone ;
                     rdfs:range xsd:string .
+
+
+###  htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumNeighborhoodSituation
+:hasNumNeighborhoodSituation rdf:type owl:DatatypeProperty ;
+                             rdfs:domain :Situation ;
+                             rdfs:range xsd:string .
+
+
+###  htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumNeighborhoodZone
+:hasNumNeighborhoodZone rdf:type owl:DatatypeProperty ;
+                        rdfs:domain :Zone ;
+                        rdfs:range xsd:string .
 
 
 ###  htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasType
