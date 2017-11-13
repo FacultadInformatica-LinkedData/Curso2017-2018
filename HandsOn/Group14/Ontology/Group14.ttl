@@ -17,35 +17,44 @@ rdfs:type rdf:type owl:AnnotationProperty ;
 #    Datatypes
 #################################################################
 
+###  http://www.wsdlfiupm.es/resources/group14/types/Typeclass
+<http://www.wsdlfiupm.es/resources/group14/type/Typeclass> rdf:type rdfs:Datatype ;
+                                                                    rdfs:label "typeclass"^^xsd:string .
 
 ###  http://www.wsdlfiupm.es/resources/group14/types/Religious
 <http://www.wsdlfiupm.es/resources/group14/type/Religious> rdf:type rdfs:Datatype ;
-                                                                    rdfs:label "Religious"^^xsd:string .
+																	rdfs:subClassOf <http://www.wsdlfiupm.es/resources/group14/type/Typeclass> ;
+																	rdfs:label "Religious"^^xsd:string .
 
 
 ###  http://www.wsdlfiupm.es/resources/group14/types/Ministry
 <http://www.wsdlfiupm.es/resources/group14/type/Ministry> rdf:type rdfs:Datatype ;
-                                                                    rdfs:label "Ministry"^^xsd:string .
+																	rdfs:subClassOf <http://www.wsdlfiupm.es/resources/group14/type/Typeclass> ;
+																	rdfs:label "Ministry"^^xsd:string .
 
 
 ###  http://www.wsdlfiupm.es/resources/group14/types/Leisure
 <http://www.wsdlfiupm.es/resources/group14/type/Leisure> rdf:type rdfs:Datatype ;
+																	rdfs:subClassOf <http://www.wsdlfiupm.es/resources/group14/type/Typeclass> ;
                                                                     rdfs:label "Leisure"^^xsd:string .
 
 
 ###  http://www.wsdlfiupm.es/resources/group14/types/Bars
 <http://www.wsdlfiupm.es/resources/group14/type/Bars> rdf:type rdfs:Datatype ;
+																	rdfs:subClassOf <http://www.wsdlfiupm.es/resources/group14/type/Typeclass> ;
                                                                     rdfs:label "Bars"^^xsd:string .
 
 
 ###  http://www.wsdlfiupm.es/resources/group14/types/Institutes
 <http://www.wsdlfiupm.es/resources/group14/type/Institutes> rdf:type rdfs:Datatype ;
+																	rdfs:subClassOf <http://www.wsdlfiupm.es/resources/group14/type/Typeclass> ;
                                                                     rdfs:label "Institutes"^^xsd:string .
 
 
 ###  http://www.wsdlfiupm.es/resources/group14/types/Historic
 <http://www.wsdlfiupm.es/resources/group14/type/Historic> rdf:type rdfs:Datatype ;
-                                                                   rdfs:label "Historic"^^xsd:string .
+																	rdfs:subClassOf <http://www.wsdlfiupm.es/resources/group14/type/Typeclass> ;
+																	rdfs:label "Historic"^^xsd:string .
 
 
 #################################################################
@@ -100,12 +109,7 @@ rdfs:type rdf:type owl:AnnotationProperty ;
 <http://www.wsdlfiupm.es/resources/group14/properties/type> rdf:type owl:DatatypeProperty ;
                                                                     rdfs:subPropertyOf owl:topDataProperty ;
                                                                     rdfs:domain <http://www.wsdlfiupm.es/resources/group14/clase/Organizations> ;
-                                                                    rdfs:range <http://www.wsdlfiupm.es/resources/group14/types/Religioso> ,
-                                                                               <http://www.wsdlfiupm.es/resources/group14/types/Ministerios> ,
-                                                                               <http://www.wsdlfiupm.es/resources/group14/types/Leisure> ,
-                                                                               <http://www.wsdlfiupm.es/resources/group14/types/Bars> ,
-                                                                               <http://www.wsdlfiupm.es/resources/group14/types/Institutes> ,
-                                                                               <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+                                                                    rdfs:range <http://www.wsdlfiupm.es/resources/group14/type/Typeclass> ;
                                                                     rdfs:label "type"^^xsd:string .
 
 

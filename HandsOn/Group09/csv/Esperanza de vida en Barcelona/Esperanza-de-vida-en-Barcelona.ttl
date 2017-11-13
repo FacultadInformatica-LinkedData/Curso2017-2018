@@ -1,0 +1,222 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#1.+el+Raval> xsd:string "1" ;
+	xsd:float "82.6" , "79.7" , "79.9" , "80.3" , "80.7" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#2.+el+Barri+G%C3%B2tic> xsd:string "1" ;
+	xsd:float "84.7" , "81.3" , "81.5" , "81.4" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#3.+la+Barceloneta> xsd:string "1" ;
+	xsd:float "83.3" , "80" , "80.1" , "80.4" , "80.3" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#4.+Sant+Pere%2C+Santa+Caterina+i+la+Ribera> xsd:string "1" ;
+	xsd:float "85.1" , "82.1" , "82" , "82.4" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#5.+el+Fort+Pienc> xsd:string "2" ;
+	xsd:float "86.7" , "84.2" , "84.3" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#6.+la+Sagrada+Fam%C3%ADlia> xsd:string "2" ;
+	xsd:float "86.5" , "83.9" , "84.2" , "84.3" , "84.6" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#7.+la+Dreta+de+l%27Eixample> xsd:string "2" ;
+	xsd:float "84.5" , "82.2" , "82.5" , "82.9" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#8.+l%27Antiga+Esquerra+de+l%27Eixample> xsd:string "2" ;
+	xsd:float "86.1" , "83.5" , "83.7" , "83.8" , "84.2" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#9.+la+Nova+Esquerra+de+l%27Eixample> xsd:string "2" ;
+	xsd:float "86.4" , "83.9" , "84" , "84.6" , "85.2" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#10.+Sant+Antoni> xsd:string "2" ;
+	xsd:float "85.8" , "83.2" , "83.3" , "83.8" , "84" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#11.+el+Poble+Sec+-+Parc+Montju%C3%AFc> xsd:string "3" ;
+	xsd:float "84.9" , "82.1" , "82.4" , "82.6" , "82.8" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#12.+la+Marina+del+Prat+Vermell+-+Zona+Franca> xsd:string "3" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#13.+la+Marina+de+Port> xsd:string "3" ;
+	xsd:float "85.9" , "83.3" , "84" , "83.9" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#14.+la+Font+de+la+Guatlla> xsd:string "3" ;
+	xsd:float "85.4" , "82" , "81.8" , "82.3" , "81.7" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#15.+Hostafrancs> xsd:string "3" ;
+	xsd:float "84.6" , "82.3" , "82.6" , "83.7" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#16.+la+Bordeta> xsd:string "3" ;
+	xsd:float "86.5" , "83.8" , "83.2" , "83.3" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#17.+Sants+-+Badal> xsd:string "3" ;
+	xsd:float "86.3" , "83.8" , "84.1" , "84.5" , "85.1" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#18.+Sants> xsd:string "3" ;
+	xsd:float "85.8" , "83.2" , "83.4" , "83.7" , "84.1" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#19.+les+Corts> xsd:string "4" ;
+	xsd:float "86.5" , "84.4" , "84.6" , "85.3" , "85.5" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#20.+la+Maternitat+i+Sant+Ramon> xsd:string "4" ;
+	xsd:float "87.3" , "84.9" , "85" , "85.8" , "86.5" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#21.+Pedralbes> xsd:string "4" ;
+	xsd:float "87.1" , "85.2" , "85.5" , "86.5" , "86.2" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#22.+Vallvidrera%2C+el+Tibidabo+i+les+Planes> xsd:string "5" ;
+	xsd:float "81.2" , "79.1" , "79.2" , "80.1" , "80.6" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#23.+Sarri%C3%A0> xsd:string "5" ;
+	xsd:float "87.8" , "84.7" , "84.5" , "84.6" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#24.+les+Tres+Torres> xsd:string "5" ;
+	xsd:float "87.5" , "85.6" , "85.9" , "86.2" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#25.+Sant+Gervasi+-+la+Bonanova> xsd:string "5" ;
+	xsd:float "86.8" , "84.4" , "84.5" , "84.7" , "84.9" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#26.+Sant+Gervasi+-+Galvany> xsd:string "5" ;
+	xsd:float "86.6" , "84.2" , "84.6" , "84.7" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#27.+el+Putxet+i+el+Farr%C3%B3> xsd:string "5" ;
+	xsd:float "87.3" , "84.8" , "85.1" , "85.3" , "85.6" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#28.+Vallcarca+i+els+Penitents> xsd:string "6" ;
+	xsd:float "85.7" , "83.4" , "83.8" , "83.6" , "83.9" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#29.+el+Coll> xsd:string "6" ;
+	xsd:float "85.8" , "83.9" , "84.5" , "85" , "85.2" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#30.+la+Salut> xsd:string "6" ;
+	xsd:float "82.8" , "81" , "81.8" , "82.6" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#31.+la+Vila+de+Gr%C3%A0cia> xsd:string "6" ;
+	xsd:float "85.1" , "82.4" , "82.7" , "83" , "83.4" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#32.+el+Camp+d%27en+Grassot+i+Gr%C3%A0cia+Nova> xsd:string "6" ;
+	xsd:float "86.8" , "84.4" , "84.6" , "84.8" , "84.7" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#33.+el+Baix+Guinard%C3%B3> xsd:string "7" ;
+	xsd:float "87.4" , "84.5" , "84.3" , "84.2" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#34.+Can+Bar%C3%B3> xsd:string "7" ;
+	xsd:float "85.1" , "82.8" , "83.3" , "83.6" , "84.1" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#35.+el+Guinard%C3%B3> xsd:string "7" ;
+	xsd:float "85.8" , "83.3" , "83.8" , "84.1" , "84.5" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#36.+la+Font+d%27en+Fargues> xsd:string "7" ;
+	xsd:float "84.7" , "82.8" , "83.5" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#37.+el+Carmel> xsd:string "7" ;
+	xsd:float "84.9" , "82.7" , "83.2" , "83.4" , "83.8" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#38.+la+Teixonera> xsd:string "7" ;
+	xsd:float "84.6" , "82.3" , "82.4" , "83.2" , "84" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#39.+Sant+Gen%C3%ADs+dels+Agudells> xsd:string "7" ;
+	xsd:float "84.9" , "82.7" , "83" , "83.2" , "83.8" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#40.+Montbau> xsd:string "7" ;
+	xsd:float "80.6" , "78.4" , "79.1" , "80" , "80.9" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#41.+la+Vall+d%27Hebron> xsd:string "7" ;
+	xsd:float "85.3" , "83.1" , "83.3" , "83.2" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#42.+la+Clota> xsd:string "7" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#43.+Horta> xsd:string "7" ;
+	xsd:float "84.5" , "82.3" , "82.7" , "82.8" , "83.6" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#44.+Vilapicina+i+la+Torre+Llobeta> xsd:string "8" ;
+	xsd:float "86" , "83.4" , "83.7" , "83.5" , "83.6" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#45.+Porta> xsd:string "8" ;
+	xsd:float "85.2" , "83.1" , "83.4" , "84" , "84.5" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#46.+el+Tur%C3%B3+de+la+Peira> xsd:string "8" ;
+	xsd:float "85.7" , "83.4" , "84.1" , "84.8" , "85.6" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#47.+Can+Peguera> xsd:string "8" ;
+	xsd:float "78.6" , "76.2" , "78.1" , "80" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#48.+la+Guineueta> xsd:string "8" ;
+	xsd:float "84.8" , "82.4" , "82.6" , "83.2" , "84.2" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#49.+Canyelles> xsd:string "8" ;
+	xsd:float "86" , "82.8" , "83" , "83.1" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#50.+les+Roquetes> xsd:string "8" ;
+	xsd:float "83.8" , "81.2" , "81.4" , "81.9" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#51.+Verdun> xsd:string "8" ;
+	xsd:float "84.5" , "82.3" , "82.5" , "83.2" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#52.+la+Prosperitat> xsd:string "8" ;
+	xsd:float "85.7" , "83.2" , "83.8" , "84" , "84.5" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#53.+la+Trinitat+Nova> xsd:string "8" ;
+	xsd:float "82.9" , "80.3" , "79.8" , "80.1" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#54.+Torre+Bar%C3%B3> xsd:string "8" ;
+	xsd:float "75.4" , "74.7" , "75.2" , "77.2" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#55.+Ciutat+Meridiana> xsd:string "8" ;
+	xsd:float "84.2" , "81.6" , "82" , "83" , "83.7" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#56.+Vallbona> xsd:string "8" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#57.+la+Trinitat+Vella> xsd:string "9" ;
+	xsd:float "83.8" , "81.7" , "82.7" , "85.1" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#58.+Bar%C3%B3+de+Viver> xsd:string "9" ;
+	xsd:float "78.5" , "75.6" , "…" , "78.2" , "80.3" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#59.+el+Bon+Pastor> xsd:string "9" ;
+	xsd:float "83.5" , "81.3" , "81.7" , "82.1" , "82.2" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#60.+Sant+Andreu> xsd:string "9" ;
+	xsd:float "85.5" , "83.2" , "83.7" , "83.9" , "84.7" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#61.+la+Sagrera> xsd:string "9" ;
+	xsd:float "87.1" , "84.4" , "84.7" , "84.8" , "85.4" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#62.+el+Congr%C3%A9s+i+els+Indians> xsd:string "9" ;
+	xsd:float "86.1" , "83.6" , "83.9" , "84.7" , "84.8" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#63.+Navas> xsd:string "9" ;
+	xsd:float "86.5" , "84.1" , "84.4" , "85.4" , "86.3" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#64.+el+Camp+de+l%27Arpa+del+Clot> xsd:string "10" ;
+	xsd:float "86.3" , "83.8" , "84.4" , "84.6" , "85" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#65.+el+Clot> xsd:string "10" ;
+	xsd:float "85.6" , "83.7" , "84.1" , "84.5" , "85.1" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#66.+el+Parc+i+la+Llacuna+del+Poblenou> xsd:string "10" ;
+	xsd:float "85.5" , "82.8" , "83.1" , "83.4" , "83.2" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#67.+la+Vila+Ol%C3%ADmpica+del+Poblenou> xsd:string "10" ;
+	xsd:float "88.8" , "85" , "85.2" , "85.6" , "85.4" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#68.+el+Poblenou> xsd:string "10" ;
+	xsd:float "85.1" , "82.4" , "83" , "83.5" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#69.+Diagonal+Mar+i+el+Front+Mar%C3%ADtim+del+Poblenou> xsd:string "10" ;
+	xsd:float "85.3" , "84.2" , "84.4" , "85" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#70.+el+Bes%C3%B2s+i+el+Maresme> xsd:string "10" ;
+	xsd:float "83.6" , "81.7" , "82" , "82.4" , "83.1" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#71.+Proven%C3%A7als+del+Poblenou> xsd:string "10" ;
+	xsd:float "84.6" , "82.8" , "83.1" , "83.6" , "85.1" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#72.+Sant+Mart%C3%AD+de+Proven%C3%A7als> xsd:string "10" ;
+	xsd:float "85.6" , "83" , "83.2" , "83.4" , "83.9" .
+
+<http://localhost:3333/http://www.semanticweb.org/2017grupo9/ontology/Ciudades/Barcelona#73.+la+Verneda+i+la+Pau> xsd:string "10" ;
+	xsd:float "85.1" , "82.9" , "83.3" , "83.9" .
