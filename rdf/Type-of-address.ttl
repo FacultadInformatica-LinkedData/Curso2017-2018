@@ -1,0 +1,30 @@
+
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix Address: <http://www.madriddeportes.es/ontologies/2017/Address> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+<http://www.madriddeportes.es/ontologies/2017/Calle> a Address:HasAddressType
+	rdfs: "Calle"
+
+<http://www.madriddeportes.es/ontologies/2017/Avenida> a Address:HasAddressType
+	rdfs: "Avenida"
+
+<http://www.madriddeportes.es/ontologies/2017/Camino> a Address:HasAddressType
+	rdfs: "Camino"
+
+<http://www.madriddeportes.es/ontologies/2017/Carretera> a Address:HasAddressType
+	rdfs: "Carretera"
+
+<http://www.madriddeportes.es/ontologies/2017/Paseo> a Address:HasAddressType
+	rdfs: "Paseo"
+
+<http://www.madriddeportes.es/ontologies/2017/Plaza> a Address:HasAddressType
+	rdfs: "Plaza"
+
+<http://www.madriddeportes.es/ontologies/2017/Ronda> a Address:HasAddressType
+	rdfs: "Ronda"

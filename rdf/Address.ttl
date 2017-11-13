@@ -1,0 +1,498 @@
+
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix Address: <http://www.madriddeportes.es/ontologies/2017/Address> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+Alberto+García> a Address:Address
+    rdfs: Centro Deportivo Municipal Alberto García
+    Address:Address "REGUERA DE TOMATEROS"
+    Adress:HasAddressType "CALLE"
+    Address:HasNumber "39"
+    Address:HasCode "28053"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+Alfredo+Goyeneche> a Address:Address
+    rdfs: Centro Deportivo Municipal Alfredo Goyeneche
+    Address:Address "ARROYO DE POZUELO"
+    Adress:HasAddressType "CALLE"
+    Address:HasNumber "99"
+    Address:HasCode "28023"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+Aluche> a Address:Address
+    rdfs: Centro Deportivo Municipal Aluche
+    Address:Address "GENERAL FANJUL"
+    Adress:HasAddressType "AVENIDA"
+    Address:HasNumber "14"
+    Address:HasCode "28044"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+Antiguo+Canódromo> a Address:Address
+    rdfs: Centro Deportivo Municipal Antiguo Canódromo
+    Address:Address "VIA CARPETANA"
+    Adress:HasAddressType "CALLE"
+    Address:HasNumber "57"
+    Address:HasCode "28047"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+Antonio+Díaz+Miguel> a Address:Address
+    rdfs: Centro Deportivo Municipal Antonio Díaz Miguel
+    Address:Address "JOAQUIN DICENTA"
+    Adress:HasAddressType "CALLE"
+    Address:HasNumber "1"
+    Address:HasCode "28029"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+Arganzuela> a Address:Address
+    rdfs: Centro Deportivo Municipal Arganzuela
+    Address:Address "ALICANTE"
+    Adress:HasAddressType "CALLE"
+    Address:HasNumber "14"
+    Address:HasCode "28045"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+Barajas> a Address:Address
+    rdfs: Centro Deportivo Municipal Barajas
+    Address:Address "LOGROÑO"
+    Adress:HasAddressType "AVENIDA"
+    Address:HasNumber "70"
+    Address:HasCode "28042"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+Casa+de+Campo> a Address:Address
+    rdfs: Centro Deportivo Municipal Casa de Campo
+    Address:Address "PUERTA DEL ANGEL"
+    Adress:HasAddressType "PASEO"
+    Address:HasNumber "7"
+    Address:HasCode "28011"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+Centro+Integrado+Arganzuela> a Address:Address
+    rdfs: Centro Deportivo Municipal Centro Integrado Arganzuela
+    Address:Address "CANARIAS"
+    Adress:HasAddressType "CALLE"
+    Address:HasNumber "17"
+    Address:HasCode "28045"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+Cerro+Almodóvar> a Address:Address
+    rdfs: Centro Deportivo Municipal Cerro Almodóvar
+    Address:Address "CERRO DE ALMODOVAR"
+    Adress:HasAddressType "CALLE"
+    Address:HasNumber "9"
+    Address:HasCode "28007"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+Chamartín> a Address:Address
+    rdfs: Centro Deportivo Municipal Chamartín
+    Address:Address "PIO XII"
+    Adress:HasAddressType "AVENIDA"
+    Address:HasNumber "2"
+    Address:HasCode "28016"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+Circuito+BMX> a Address:Address
+    rdfs: Centro Deportivo Municipal Circuito BMX
+    Address:Address "EMBAJADORES"
+    Adress:HasAddressType "CALLE"
+    Address:HasNumber "316"
+    Address:HasCode "28045"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+Ciudad+de+Los+Poetas> a Address:Address
+    rdfs: Centro Deportivo Municipal Ciudad de Los Poetas
+    Address:Address "ANTONIO MACHADO"
+    Adress:HasAddressType "CALLE"
+    Address:HasNumber "12"
+    Address:HasCode "28035"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+Concepción> a Address:Address
+    rdfs: Centro Deportivo Municipal Concepción
+    Address:Address "JOSE DEL HIERRO"
+    Adress:HasAddressType "CALLE"
+    Address:HasNumber "5"
+    Address:HasCode "28027"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+Daoíz+y+Velarde%1> a Address:Address
+    rdfs: Centro Deportivo Municipal Daoíz y Velarde 1
+    Address:Address "DAOIZ Y VELARDE"
+    Adress:HasAddressType "PLAZA"
+    Address:HasNumber "5"
+    Address:HasCode "28007"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+Daoíz+y+Velarde%2> a Address:Address
+    rdfs: Centro Deportivo Municipal Daoíz y Velarde 2
+    Address:Address "ALBERCHE"
+    Adress:HasAddressType "CALLE"
+    Address:HasNumber "21"
+    Address:HasCode "28007"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+El+Espinillo> a Address:Address
+    rdfs: Centro Deportivo Municipal El Espinillo
+    Address:Address "VILLAVERDE A VALLECAS"
+    Adress:HasAddressType "CARRETERA"
+    Address:HasNumber "19"
+    Address:HasCode "28041"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+El+Olivillo> a Address:Address
+    rdfs: Centro Deportivo Municipal El Olivillo
+    Address:Address "OLIVILLO"
+    Adress:HasAddressType "CALLE"
+    Address:HasNumber "4"
+    Address:HasCode "28011"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+Entrevías> a Address:Address
+    rdfs: Centro Deportivo Municipal Entrevías
+    Address:Address "SUR"
+    Adress:HasAddressType "RONDA"
+    Address:HasNumber "4"
+    Address:HasCode "28053"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+Escuelas+de+San+Antón> a Address:Address
+    rdfs: Centro Deportivo Municipal Escuelas de San Antón
+    Address:Address "FARMACIA"
+    Adress:HasAddressType "CALLE"
+    Address:HasNumber "13"
+    Address:HasCode "28004"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+Estanque+del+Retiro> a Address:Address
+    rdfs: Centro Deportivo Municipal Estanque del Retiro
+    Address:Address "COLOMBIA"
+    Adress:HasAddressType "PASEO"
+    Address:HasNumber "2"
+    Address:HasCode "28009"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+Fabián+Roncero> a Address:Address
+    rdfs: Centro Deportivo Municipal Fabián Roncero
+    Address:Address "SEPTIMA"
+    Adress:HasAddressType "AVENIDA"
+    Address:HasNumber "68"
+    Address:HasCode "28022"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+Fernando+Martín> a Address:Address
+    rdfs: Centro Deportivo Municipal Fernando Martín
+    Address:Address "SANTO ANGEL DE LA GUARDA"
+    Adress:HasAddressType "AVENIDA"
+    Address:HasNumber "6"
+    Address:HasCode "28039"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+Francisco+Fernández+Ochoa> a Address:Address
+    rdfs: Centro Deportivo Municipal Francisco Fernández Ochoa
+    Address:Address "CATORCE OLIVAS"
+    Adress:HasAddressType "CALLE"
+    Address:HasNumber "1"
+    Address:HasCode "28054"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+Francos+Rodríguez> a Address:Address
+    rdfs: Centro Deportivo Municipal Francos Rodríguez
+    Address:Address "NUMANCIA"
+    Adress:HasAddressType "CALLE"
+    Address:HasNumber "11"
+    Address:HasCode "28039"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+Fuente+del+Berro> a Address:Address
+    rdfs: Centro Deportivo Municipal Fuente del Berro
+    Address:Address "ELVIRA"
+    Adress:HasAddressType "CALLE"
+    Address:HasNumber "36"
+    Address:HasCode "28028"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+Félix+Rubio> a Address:Address
+    rdfs: Centro Deportivo Municipal Félix Rubio
+    Address:Address "ALIANZA"
+    Adress:HasAddressType "CALLE"
+    Address:HasNumber "4"
+    Address:HasCode "28041"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+Gallur> a Address:Address
+    rdfs: Centro Deportivo Municipal Gallur
+    Address:Address "GALLUR"
+    Adress:HasAddressType "CALLE"
+    Address:HasNumber "2"
+    Address:HasCode "28047"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+Gimnasio+Moscardó> a Address:Address
+    rdfs: Centro Deportivo Municipal Gimnasio Moscardó
+    Address:Address "PILAR DE ZARAGOZA"
+    Adress:HasAddressType "CALLE"
+    Address:HasNumber "93"
+    Address:HasCode "28028"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+Hortaleza> a Address:Address
+    rdfs: Centro Deportivo Municipal Hortaleza
+    Address:Address "ESTACION DE HORTALEZA"
+    Adress:HasAddressType "CARRETERA"
+    Address:HasNumber "11"
+    Address:HasCode "28033"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+José+María+Cagigal> a Address:Address
+    rdfs: Centro Deportivo Municipal José María Cagigal
+    Address:Address "SANTA POLA"
+    Adress:HasAddressType "CALLE"
+    Address:HasNumber "22"
+    Address:HasCode "28008"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+La+Almudena> a Address:Address
+    rdfs: Centro Deportivo Municipal La Almudena
+    Address:Address "NICOLAS SALMERÓN"
+    Adress:HasAddressType "CALLE"
+    Address:HasNumber "8"
+    Address:HasCode "28017"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+La+Bombilla> a Address:Address
+    rdfs: Centro Deportivo Municipal La Bombilla
+    Address:Address "SENDA DEL REY"
+    Adress:HasAddressType "CALLE"
+    Address:HasNumber "8"
+    Address:HasCode "28040"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+La+Chopera> a Address:Address
+    rdfs: Centro Deportivo Municipal La Chopera
+    Address:Address "FERNAN NUÑEZ"
+    Adress:HasAddressType "PASEO"
+    Address:HasNumber "3"
+    Address:HasCode "28009"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+La+Elipa> a Address:Address
+    rdfs: Centro Deportivo Municipal La Elipa
+    Address:Address "ALCALDE GARRIDO JUARISTI"
+    Adress:HasAddressType "CALLE"
+    Address:HasNumber "17"
+    Address:HasCode "28030"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+La+Masó> a Address:Address
+    rdfs: Centro Deportivo Municipal La Masó
+    Address:Address "MASO"
+    Adress:HasAddressType "CALLE"
+    Address:HasNumber "80"
+    Address:HasCode "28034"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+La+Mina> a Address:Address
+    rdfs: Centro Deportivo Municipal La Mina
+    Address:Address "MONSEÑOR OSCAR ROMERO"
+    Adress:HasAddressType "CALLE"
+    Address:HasNumber "41"
+    Address:HasCode "28025"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+La+Vaguada> a Address:Address
+    rdfs: Centro Deportivo Municipal La Vaguada
+    Address:Address "MONFORTE DE LEMOS"
+    Adress:HasAddressType "AVENIDA"
+    Address:HasNumber "38 A"
+    Address:HasCode "28029"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+Lago+Casa+de+Campo> a Address:Address
+    rdfs: Centro Deportivo Municipal Lago Casa de Campo
+    Address:Address "EMBARCADERO"
+    Adress:HasAddressType "PASEO"
+    Address:HasNumber "8"
+    Address:HasCode "28011"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+Las+Cruces> a Address:Address
+    rdfs: Centro Deportivo Municipal Las Cruces
+    Address:Address "POBLADOS"
+    Adress:HasAddressType "AVENIDA"
+    Address:HasNumber "72"
+    Address:HasCode "28044"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+Los+Prunos> a Address:Address
+    rdfs: Centro Deportivo Municipal Los Prunos
+    Address:Address "PETUNIAS"
+    Adress:HasAddressType "CALLE"
+    Address:HasNumber "30"
+    Address:HasCode "28042"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+Luis+Aragonés> a Address:Address
+    rdfs: Centro Deportivo Municipal Luis Aragonés
+    Address:Address "EL PROVENCIO"
+    Adress:HasAddressType "CALLE"
+    Address:HasNumber "20"
+    Address:HasCode "28043"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+Marqués+de+Samaranch> a Address:Address
+    rdfs: Centro Deportivo Municipal Marqués de Samaranch
+    Address:Address "IMPERIAL"
+    Adress:HasAddressType "PASEO"
+    Address:HasNumber "20"
+    Address:HasCode "28005"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+Miguel+Guillén+Prim> a Address:Address
+    rdfs: Centro Deportivo Municipal Miguel Guillén Prim
+    Address:Address "FUENTIDUEÑA"
+    Adress:HasAddressType "CALLE"
+    Address:HasNumber "6"
+    Address:HasCode "28031"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+Moratalaz> a Address:Address
+    rdfs: Centro Deportivo Municipal Moratalaz
+    Address:Address "VALDEBERNARDO"
+    Adress:HasAddressType "CALLE"
+    Address:HasNumber "2"
+    Address:HasCode "28030"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+Moscardó> a Address:Address
+    rdfs: Centro Deportivo Municipal Moscardó
+    Address:Address "ANDRES ARTEAGA"
+    Adress:HasAddressType "CALLE"
+    Address:HasNumber "5"
+    Address:HasCode "28026"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+Orcasitas> a Address:Address
+    rdfs: Centro Deportivo Municipal Orcasitas
+    Address:Address "RAFAELA YBARRA"
+    Adress:HasAddressType "AVENIDA"
+    Address:HasNumber "52"
+    Address:HasCode "28026"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+Orcasur> a Address:Address
+    rdfs: Centro Deportivo Municipal Orcasur
+    Address:Address "MOREJA"
+    Adress:HasAddressType "CALLE"
+    Address:HasNumber "11"
+    Address:HasCode "28041"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+Palomeras> a Address:Address
+    rdfs: Centro Deportivo Municipal Palomeras
+    Address:Address "TRANVIA DE ARGANDA"
+    Adress:HasAddressType "CALLE"
+    Address:HasNumber "4"
+    Address:HasCode "28031"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+Pepu+Hernández> a Address:Address
+    rdfs: Centro Deportivo Municipal Pepu Hernández
+    Address:Address "NIZA"
+    Adress:HasAddressType "AVENIDA"
+    Address:HasNumber "8"
+    Address:HasCode "28022"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+Peñuelas> a Address:Address
+    rdfs: Centro Deportivo Municipal Peñuelas
+    Address:Address "ARGANDA"
+    Adress:HasAddressType "CALLE"
+    Address:HasNumber "25"
+    Address:HasCode "28005"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+Plata+y+Castañar> a Address:Address
+    rdfs: Centro Deportivo Municipal Plata y Castañar
+    Address:Address "PLATA Y CASTAÑAR"
+    Adress:HasAddressType "PASEO"
+    Address:HasNumber "7"
+    Address:HasCode "28021"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+Playa+Victoria> a Address:Address
+    rdfs: Centro Deportivo Municipal Playa Victoria
+    Address:Address "HIERBABUENA"
+    Adress:HasAddressType "CALLE"
+    Address:HasNumber "2"
+    Address:HasCode "28039"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+Pradillo> a Address:Address
+    rdfs: Centro Deportivo Municipal Pradillo
+    Address:Address "PRADILLO"
+    Adress:HasAddressType "CALLE"
+    Address:HasNumber "33"
+    Address:HasCode "28002"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+Pueblo+Nuevo> a Address:Address
+    rdfs: Centro Deportivo Municipal Pueblo Nuevo
+    Address:Address "FRANCISCO RIOJA"
+    Adress:HasAddressType "CALLE"
+    Address:HasNumber "14"
+    Address:HasCode "28017"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+Puente+de+Vallecas> a Address:Address
+    rdfs: Centro Deportivo Municipal Puente de Vallecas
+    Address:Address "PAYASO FOFO"
+    Adress:HasAddressType "CALLE"
+    Address:HasNumber "7"
+    Address:HasCode "28018"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+Raúl+González> a Address:Address
+    rdfs: Centro Deportivo Municipal Raúl González
+    Address:Address "BENIMAMET"
+    Adress:HasAddressType "CALLE"
+    Address:HasNumber "137"
+    Address:HasCode "28021"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+San+Blas> a Address:Address
+    rdfs: Centro Deportivo Municipal San Blas
+    Address:Address "ARCOS DE JALON"
+    Adress:HasAddressType "CALLE"
+    Address:HasNumber "59"
+    Address:HasCode "28037"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+San+Cristóbal> a Address:Address
+    rdfs: Centro Deportivo Municipal San Cristóbal
+    Address:Address "PINAZO"
+    Adress:HasAddressType "PLAZA"
+    Address:HasNumber "9"
+    Address:HasCode "28021"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+San+Fermín> a Address:Address
+    rdfs: Centro Deportivo Municipal San Fermín
+    Address:Address "SAN MARIO"
+    Adress:HasAddressType "CALLE"
+    Address:HasNumber "18"
+    Address:HasCode "28041"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+San+Juan+Bautista> a Address:Address
+    rdfs: Centro Deportivo Municipal San Juan Bautista
+    Address:Address "TREVIANA"
+    Adress:HasAddressType "CALLE"
+    Address:HasNumber "1"
+    Address:HasCode "28043"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+Santa+Ana> a Address:Address
+    rdfs: Centro Deportivo Municipal Santa Ana
+    Address:Address "ALAMEDILLAS"
+    Adress:HasAddressType "PASEO"
+    Address:HasNumber "5"
+    Address:HasCode "28034"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+Tenis+Casa+de+Campo> a Address:Address
+    rdfs: Centro Deportivo Municipal Tenis Casa de Campo
+    Address:Address "PRINCIPE"
+    Adress:HasAddressType "CAMINO"
+    Address:HasNumber "2"
+    Address:HasCode "28011"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+Triángulo+de+Oro> a Address:Address
+    rdfs: Centro Deportivo Municipal Triángulo de Oro
+    Address:Address "BRAVO MURILLO"
+    Adress:HasAddressType "CALLE"
+    Address:HasNumber "376"
+    Address:HasCode "28020"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+Valdebernardo> a Address:Address
+    rdfs: Centro Deportivo Municipal Valdebernardo
+    Address:Address "LADERA DE LOS ALMENDROS"
+    Adress:HasAddressType "CALLE"
+    Address:HasNumber "2"
+    Address:HasCode "28032"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+Vallecas> a Address:Address
+    rdfs: Centro Deportivo Municipal Vallecas
+    Address:Address "ARROYO DEL OLIVAR"
+    Adress:HasAddressType "CALLE"
+    Address:HasNumber "51"
+    Address:HasCode "28018"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+Vallehermoso> a Address:Address
+    rdfs: Centro Deportivo Municipal Vallehermoso
+    Address:Address "FILIPINAS"
+    Adress:HasAddressType "AVENIDA"
+    Address:HasNumber "7"
+    Address:HasCode "28003"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+Vicente+del+Bosque> a Address:Address
+    rdfs: Centro Deportivo Municipal Vicente del Bosque
+    Address:Address "MONFORTE DE LEMOS"
+    Adress:HasAddressType "AVENIDA"
+    Address:HasNumber "13"
+    Address:HasCode "28029"
+
+<http://www.madriddeportes.es/ontologies/2017Centro+Deportivo+Municipal+Vicálvaro> a Address:Address
+    rdfs: Centro Deportivo Municipal Vicálvaro
+    Address:Address "POLIDEPORTIVO"
+    Adress:HasAddressType "PASEO"
+    Address:HasNumber "3"
+    Address:HasCode "28032"
+
+<http://www.madriddeportes.es/ontologies/2017Madrid+Caja+Mágica> a Address:Address
+    rdfs: Madrid Caja Mágica
+    Address:Address "PERALES"
+    Adress:HasAddressType "CAMINO"
+    Address:HasNumber "23"
+    Address:HasCode "28041"
