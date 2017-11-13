@@ -19,3 +19,19 @@
 **The "applicationRequirements.html” file:**
 
 - [X] Includes a description of the application user interface
+
+##Comments on the self-assessment#
+
+El trabajo se realizó de la siguiente forma:
+
+Adrián Agramón: 
+- Mockups
+- applicationRequirements.html
+				
+Michelle Santos: 
+- applicationRequirements.html
+- datasetRequirement.html
+
+Andrea Niño:
+- applicationRequirements.html
+- datasetRequirement.html
