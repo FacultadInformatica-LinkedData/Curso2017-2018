@@ -1,129 +1,129 @@
 
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix Address: <http://www.madriddeportes.es/ontologies/2017/Address> .
+@prefix address: <http://www.madriddeportes.es/ontologies/2017/address> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix hasNumber: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
 
-<http://www.madriddeportes.es/ontologies/2017/%1> a Address:HasNumber
-	rdfs: "1"
+<http://www.madriddeportes.es/ontologies/2017/%1> a address:hasNumber
+	hasNumber: "1"
 
-<http://www.madriddeportes.es/ontologies/2017/%2> a Address:HasNumber
-	rdfs: "2"
+<http://www.madriddeportes.es/ontologies/2017/%2> a address:hasNumber
+	hasNumber: "2"
 
-<http://www.madriddeportes.es/ontologies/2017/%3> a Address:HasNumber
-	rdfs: "3"
+<http://www.madriddeportes.es/ontologies/2017/%3> a address:hasNumber
+	hasNumber: "3"
 
-<http://www.madriddeportes.es/ontologies/2017/%4> a Address:HasNumber
-	rdfs: "4"
+<http://www.madriddeportes.es/ontologies/2017/%4> a address:hasNumber
+	hasNumber: "4"
 
-<http://www.madriddeportes.es/ontologies/2017/%5> a Address:HasNumber
-	rdfs: "5"
+<http://www.madriddeportes.es/ontologies/2017/%5> a address:hasNumber
+	hasNumber: "5"
 
-<http://www.madriddeportes.es/ontologies/2017/%6> a Address:HasNumber
-	rdfs: "6"
+<http://www.madriddeportes.es/ontologies/2017/%6> a address:hasNumber
+	hasNumber: "6"
 
-<http://www.madriddeportes.es/ontologies/2017/%7> a Address:HasNumber
-	rdfs: "7"
+<http://www.madriddeportes.es/ontologies/2017/%7> a address:hasNumber
+	hasNumber: "7"
 
-<http://www.madriddeportes.es/ontologies/2017/%8> a Address:HasNumber
-	rdfs: "8"
+<http://www.madriddeportes.es/ontologies/2017/%8> a address:hasNumber
+	hasNumber: "8"
 
-<http://www.madriddeportes.es/ontologies/2017/%9> a Address:HasNumber
-	rdfs: "9"
+<http://www.madriddeportes.es/ontologies/2017/%9> a address:hasNumber
+	hasNumber: "9"
 
-<http://www.madriddeportes.es/ontologies/2017/%11> a Address:HasNumber
-	rdfs: "11"
+<http://www.madriddeportes.es/ontologies/2017/%11> a address:hasNumber
+	hasNumber: "11"
 
-<http://www.madriddeportes.es/ontologies/2017/%12> a Address:HasNumber
-	rdfs: "12"
+<http://www.madriddeportes.es/ontologies/2017/%12> a address:hasNumber
+	hasNumber: "12"
 
-<http://www.madriddeportes.es/ontologies/2017/%13> a Address:HasNumber
-	rdfs: "13"
+<http://www.madriddeportes.es/ontologies/2017/%13> a address:hasNumber
+	hasNumber: "13"
 
-<http://www.madriddeportes.es/ontologies/2017/%14> a Address:HasNumber
-	rdfs: "14"
+<http://www.madriddeportes.es/ontologies/2017/%14> a address:hasNumber
+	hasNumber: "14"
 
-<http://www.madriddeportes.es/ontologies/2017/%17> a Address:HasNumber
-	rdfs: "17"
+<http://www.madriddeportes.es/ontologies/2017/%17> a address:hasNumber
+	hasNumber: "17"
 
-<http://www.madriddeportes.es/ontologies/2017/%18> a Address:HasNumber
-	rdfs: "18"
+<http://www.madriddeportes.es/ontologies/2017/%18> a address:hasNumber
+	hasNumber: "18"
 
-<http://www.madriddeportes.es/ontologies/2017/%19> a Address:HasNumber
-	rdfs: "19"
+<http://www.madriddeportes.es/ontologies/2017/%19> a address:hasNumber
+	hasNumber: "19"
 
-<http://www.madriddeportes.es/ontologies/2017/%20> a Address:HasNumber
-	rdfs: "20"
+<http://www.madriddeportes.es/ontologies/2017/%20> a address:hasNumber
+	hasNumber: "20"
 
-<http://www.madriddeportes.es/ontologies/2017/%21> a Address:HasNumber
-	rdfs: "21"
+<http://www.madriddeportes.es/ontologies/2017/%21> a address:hasNumber
+	hasNumber: "21"
 
-<http://www.madriddeportes.es/ontologies/2017/%22> a Address:HasNumber
-	rdfs: "22"
+<http://www.madriddeportes.es/ontologies/2017/%22> a address:hasNumber
+	hasNumber: "22"
 
-<http://www.madriddeportes.es/ontologies/2017/%23> a Address:HasNumber
-	rdfs: "23"
+<http://www.madriddeportes.es/ontologies/2017/%23> a address:hasNumber
+	hasNumber: "23"
 
-<http://www.madriddeportes.es/ontologies/2017/%25> a Address:HasNumber
-	rdfs: "25"
+<http://www.madriddeportes.es/ontologies/2017/%25> a address:hasNumber
+	hasNumber: "25"
 
-<http://www.madriddeportes.es/ontologies/2017/%30> a Address:HasNumber
-	rdfs: "30"
+<http://www.madriddeportes.es/ontologies/2017/%30> a address:hasNumber
+	hasNumber: "30"
 
-<http://www.madriddeportes.es/ontologies/2017/%33> a Address:HasNumber
-	rdfs: "33"
+<http://www.madriddeportes.es/ontologies/2017/%33> a address:hasNumber
+	hasNumber: "33"
 
-<http://www.madriddeportes.es/ontologies/2017/%36> a Address:HasNumber
-	rdfs: "36"
+<http://www.madriddeportes.es/ontologies/2017/%36> a address:hasNumber
+	hasNumber: "36"
 
-<http://www.madriddeportes.es/ontologies/2017/%39> a Address:HasNumber
-	rdfs: "39"
+<http://www.madriddeportes.es/ontologies/2017/%39> a address:hasNumber
+	hasNumber: "39"
 
-<http://www.madriddeportes.es/ontologies/2017/%41> a Address:HasNumber
-	rdfs: "41"
+<http://www.madriddeportes.es/ontologies/2017/%41> a address:hasNumber
+	hasNumber: "41"
 
-<http://www.madriddeportes.es/ontologies/2017/%51> a Address:HasNumber
-	rdfs: "51"
+<http://www.madriddeportes.es/ontologies/2017/%51> a address:hasNumber
+	hasNumber: "51"
 
-<http://www.madriddeportes.es/ontologies/2017/%52> a Address:HasNumber
-	rdfs: "52"
+<http://www.madriddeportes.es/ontologies/2017/%52> a address:hasNumber
+	hasNumber: "52"
 
-<http://www.madriddeportes.es/ontologies/2017/%57> a Address:HasNumber
-	rdfs: "57"
+<http://www.madriddeportes.es/ontologies/2017/%57> a address:hasNumber
+	hasNumber: "57"
 
-<http://www.madriddeportes.es/ontologies/2017/%59> a Address:HasNumber
-	rdfs: "59"
+<http://www.madriddeportes.es/ontologies/2017/%59> a address:hasNumber
+	hasNumber: "59"
 
-<http://www.madriddeportes.es/ontologies/2017/%68> a Address:HasNumber
-	rdfs: "68"
+<http://www.madriddeportes.es/ontologies/2017/%68> a address:hasNumber
+	hasNumber: "68"
 
-<http://www.madriddeportes.es/ontologies/2017/%70> a Address:HasNumber
-	rdfs: "70"
+<http://www.madriddeportes.es/ontologies/2017/%70> a address:hasNumber
+	hasNumber: "70"
 
-<http://www.madriddeportes.es/ontologies/2017/%72> a Address:HasNumber
-	rdfs: "72"
+<http://www.madriddeportes.es/ontologies/2017/%72> a address:hasNumber
+	hasNumber: "72"
 
-<http://www.madriddeportes.es/ontologies/2017/%80> a Address:HasNumber
-	rdfs: "80"
+<http://www.madriddeportes.es/ontologies/2017/%80> a address:hasNumber
+	hasNumber: "80"
 
-<http://www.madriddeportes.es/ontologies/2017/%93> a Address:HasNumber
-	rdfs: "93"
+<http://www.madriddeportes.es/ontologies/2017/%93> a address:hasNumber
+	hasNumber: "93"
 
-<http://www.madriddeportes.es/ontologies/2017/%99> a Address:HasNumber
-	rdfs: "99"
+<http://www.madriddeportes.es/ontologies/2017/%99> a address:hasNumber
+	hasNumber: "99"
 
-<http://www.madriddeportes.es/ontologies/2017/%137> a Address:HasNumber
-	rdfs: "137"
+<http://www.madriddeportes.es/ontologies/2017/%137> a address:hasNumber
+	hasNumber: "137"
 
-<http://www.madriddeportes.es/ontologies/2017/%316> a Address:HasNumber
-	rdfs: "316"
+<http://www.madriddeportes.es/ontologies/2017/%316> a address:hasNumber
+	hasNumber: "316"
 
-<http://www.madriddeportes.es/ontologies/2017/%376> a Address:HasNumber
-	rdfs: "376"
+<http://www.madriddeportes.es/ontologies/2017/%376> a address:hasNumber
+	hasNumber: "376"
 
-<http://www.madriddeportes.es/ontologies/2017/%38+A> a Address:HasNumber
-	rdfs: "38 A"
+<http://www.madriddeportes.es/ontologies/2017/%38+A> a address:hasNumber
+	hasNumber: "38 A"
