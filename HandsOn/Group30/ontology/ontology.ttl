@@ -1,0 +1,167 @@
+@prefix : <http://www.semanticweb.es/group30/ontology/MetroStation##> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix metrostation#: <http://www.semanticweb.es/group30/ontology/MetroStation#> .
+@base <http://www.semanticweb.es/group30/ontology/MetroStation#> .
+
+<http://www.semanticweb.es/group30/ontology/MetroStation#> rdf:type owl:Ontology .
+
+#################################################################
+#    Datatypes
+#################################################################
+
+###  http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+rdf:type rdf:type rdfs:Datatype .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.es/group30/ontology/MetroStation#EnLaCalle
+metrostation#EnLaCalle rdf:type owl:ObjectProperty ;
+                        rdfs:domain metrostation#:Municipio ;
+                        rdfs:range metrostation#:Direccion .
+
+
+###  http://www.semanticweb.es/group30/ontology/MetroStation#Linea_Lineas
+metrostation#Linea_Lineas rdf:type owl:ObjectProperty ;
+                           rdfs:domain metrostation#:Denominacion ;
+                           rdfs:range metrostation#:N_Linea .
+
+
+###  http://www.semanticweb.es/group30/ontology/MetroStation#Pre-Distancia
+metrostation#Pre-Distancia rdf:type owl:ObjectProperty ;
+                            rdfs:domain metrostation#:Denominacion ;
+                            rdfs:range metrostation#:Long_Tramo_Anterior .
+
+
+###  http://www.semanticweb.es/group30/ontology/MetroStation#SuZonaEs
+metrostation#SuZonaEs rdf:type owl:ObjectProperty ;
+                       rdfs:domain metrostation#:Denominacion ;
+                       rdfs:range metrostation#:Zona_Tarifaria .
+
+
+###  http://www.semanticweb.es/group30/ontology/MetroStation#TipoParada
+metrostation#TipoParada rdf:type owl:ObjectProperty ;
+                         rdfs:domain metrostation#:Denominacion ;
+                         rdfs:range metrostation#:Tipo_Parada .
+
+
+###  http://www.semanticweb.es/group30/ontology/MetroStation#UbicadaEn
+metrostation#UbicadaEn rdf:type owl:ObjectProperty ;
+                        rdfs:domain metrostation#:Denominacion ;
+                        rdfs:range metrostation#:Municipio .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.es/group30/ontology/MetroStation#Direccion
+metrostation#Direccion rdf:type owl:DatatypeProperty ;
+                        rdfs:domain metrostation#:Direccion ;
+                        rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.es/group30/ontology/MetroStation#Linea
+metrostation#Linea rdf:type owl:DatatypeProperty ;
+                    rdfs:domain metrostation#:N_Linea ;
+                    rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.es/group30/ontology/MetroStation#Long_Tramo
+metrostation#Long_Tramo rdf:type owl:DatatypeProperty ;
+                         rdfs:domain metrostation#:Long_Tramo_Anterior ;
+                         rdfs:range xsd:float .
+
+
+###  http://www.semanticweb.es/group30/ontology/MetroStation#Municipio
+metrostation#Municipio rdf:type owl:DatatypeProperty ;
+                        rdfs:domain metrostation#:Municipio ;
+                        rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.es/group30/ontology/MetroStation#Nombre
+metrostation#Nombre rdf:type owl:DatatypeProperty ;
+                     rdfs:domain metrostation#:Denominacion ,
+                                 metrostation#:Direccion ,
+                                 metrostation#:Municipio ;
+                     rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.es/group30/ontology/MetroStation#Sentido
+metrostation#Sentido rdf:type owl:DatatypeProperty ;
+                      rdfs:domain metrostation#:Sentido ;
+                      rdfs:range xsd:int .
+
+
+###  http://www.semanticweb.es/group30/ontology/MetroStation#Tarifa
+metrostation#Tarifa rdf:type owl:DatatypeProperty ;
+                     rdfs:domain metrostation#:Zona_Tarifaria ;
+                     rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.es/group30/ontology/MetroStation#TipoParada
+metrostation#TipoParada rdf:type owl:DatatypeProperty ;
+                         rdfs:domain metrostation#:Tipo_Parada ;
+                         rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.es/group30/ontology/MetroStation#Denominacion
+metrostation#Denominacion rdf:type owl:Class .
+
+
+###  http://www.semanticweb.es/group30/ontology/MetroStation#Direccion
+metrostation#Direccion rdf:type owl:Class .
+
+
+###  http://www.semanticweb.es/group30/ontology/MetroStation#Long_Tramo_Anterior
+metrostation#Long_Tramo_Anterior rdf:type owl:Class .
+
+
+###  http://www.semanticweb.es/group30/ontology/MetroStation#Municipio
+metrostation#Municipio rdf:type owl:Class .
+
+
+###  http://www.semanticweb.es/group30/ontology/MetroStation#N_Linea
+metrostation#N_Linea rdf:type owl:Class .
+
+
+###  http://www.semanticweb.es/group30/ontology/MetroStation#Sentido
+metrostation#Sentido rdf:type owl:Class .
+
+
+###  http://www.semanticweb.es/group30/ontology/MetroStation#Tipo_Parada
+metrostation#Tipo_Parada rdf:type owl:Class .
+
+
+###  http://www.semanticweb.es/group30/ontology/MetroStation#Zona_Tarifaria
+metrostation#Zona_Tarifaria rdf:type owl:Class .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( metrostation#:Denominacion
+                metrostation#:Direccion
+                metrostation#:Long_Tramo_Anterior
+                metrostation#:Municipio
+                metrostation#:N_Linea
+                metrostation#:Sentido
+                metrostation#:Tipo_Parada
+                metrostation#:Zona_Tarifaria
+              )
+] .
+
+
+###  Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi

@@ -1,116 +1,90 @@
-@prefix : <http://www.semanticweb.org/group06/ontology/aparca-bicis#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@base <http://www.semanticweb.org/group08/ontology.ttl> 
+ @prefix owl: <http://www.w3.org/2002/07/owl#> .
+ @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+ @prefix xml: <http://www.w3.org/XML/1998/namespace> .
+ @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+ @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+ @prefix : <http://www.semanticweb.es/group08/ontology#> .
+ 
+ : rdf:type owl:Ontology . 
+ 
+ #################################################################
+ #    Object Properties
+ ################################################################# 
+ 
+ ###  http://www.semanticweb.es/group08/ontology#inLibrary
+ :inLibrary	rdf:type owl:ObjectProperty ;
+            rdfs:domain :activity ;
+            rdfs:range :library .
+ 
+ 
+ #################################################################
+ #    Data properties
+ #################################################################
+ 
+ ###  http://www.semanticweb.es/group08/ontology#hasName
+ :hasName rdf:type owl:DatatypeProperty ;
+          rdfs:domain :library ;
+          rdfs:range xsd:string .
+ 
+ 
+ ###  http://www.semanticweb.es/group08/ontology#hasSchedule
+ :hasSchedule rdf:type owl:DatatypeProperty ;
+              rdfs:domain :library ;
+              rdfs:range xsd:string .
+ 
+ 
+ ###  http://www.semanticweb.es/group08/ontology#hasAddress
+ :hasAddress rdf:type owl:DatatypeProperty ;
+             rdfs:domain :library ;
+             rdfs:range xsd:string .
+ 
+ 
+ ###  http://www.semanticweb.es/group08/ontology#hasTelephone
+ :hasTelephone rdf:type owl:DatatypeProperty ;
+               rdfs:domain :library ;
+               rdfs:range xsd:string .
+ 
+ ###  http://www.semanticweb.es/group08/ontology#hasEmail
+ :hasEmail rdf:type owl:DatatypeProperty ;
+               rdfs:domain :library ;
+               rdfs:range xsd:string .
+  
 
-<http://www.semanticweb.org/group08/> rdf:type owl:Ontology .
+ ###  http://www.semanticweb.es/group08/ontology#hasTitle
+ :hasTitle rdf:type owl:DatatypeProperty ;
+           rdfs:domain :activity ;
+           rdfs:range xsd:string .
+ 
+ 
+ ###  http://www.semanticweb.es/group08/ontology#hasHour
+ :hasHour rdf:type owl:DatatypeProperty ;
+          rdfs:domain :activity ;
+          rdfs:range xsd:string .
+					  
+					  
+ ###  http://www.semanticweb.es/group08/ontology#dateStart
+ :dateStart rdf:type owl:DatatypeProperty ;
+            rdfs:domain :activity ;
+            rdfs:range xsd:string .
 
-#####   Datatypes #####
+ ###  http://www.semanticweb.es/group08/ontology#dateEnd
+ :dateEnd rdf:type owl:DatatypeProperty ;
+          rdfs:domain :activity ;
+          rdfs:range xsd:string .
 
-###  http://www.w3.org/2006/vcard/ns#fn
-vcard:org rdf:type rdfs:Datatype .
-
-###  http://www.semanticweb.org/group08/resources#schedule
-resources:schedule  rdf:type rdfs:Datatype .
-
-###  http://www.w3.org/2006/vcard/ns#adr
-vcard:adr rdf:type rdfs:Datatype .
-
-###  http://www.w3.org/2006/vcard/ns#street-address
-vcard:street-address rdf:type rdfs:Datatype .
-
-###  http://www.w3.org/2006/vcard/ns#locality
-vcard:locality rdf:type rdfs:Datatype .
-
-###  http://www.w3.org/2006/vcard/ns#postal-code
-vcard:postal-code rdf:type rdfs:Datatype .
-
-###  http://www.w3.org/2006/vcard/ns#tel
-vcard:tel rdf:type rdfs:Datatype .
-
-###  http://www.w3.org/2006/vcard/ns#email
-vcard:email rdf:type rdfs:Datatype .
-
-###http://www.w3.org/2002/12/cal#rrule
-vevent:rrule rdf:type rdfs:Datatype .
-
-###http://www.w3.org/2002/12/cal#dtstart
-vevent:dtstart rdf:type rdfs:Datatype .
-
-###http://www.w3.org/2002/12/cal#dtend
-vevent:dtend rdf:type rdfs:Datatype .
-
-###http://www.w3.org/2002/12/cal#url
-vevent:url rdf:type rdfs:Datatype .
-
-###http://www.w3.org/2002/12/cal#location
-vevent:location rdf:type rdfs:Datatype .
-
-#####  Object Properties #####
-
-### http://www.w3.org/2006/vcard/ns#hasFN
-vcard:hasFN rdf:type owl:ObjectProperty ;
-         rdfs:domain : <> ;
-         rdfs:range : <> .
-### http://www.semanticweb.org/group08/resources#hasSchedule
-resources:hasSchedule rdf:type owl:ObjectProperty ;
-         rdfs:domain : <> ;
-         rdfs:range : <> .
-
-### http://www.w3.org/2006/vcard/ns#hasAddress 
-vcard:hasAddress  rdf:type owl:ObjectProperty ;
-         rdfs:domain : <> ;
-         rdfs:range : <> .
-
-### http://www.w3.org/2006/vcard/ns#hasStreetAddress 
-vcard:hasStreetAddress  rdf:type owl:ObjectProperty ;
-         rdfs:domain : <> ;
-         rdfs:range : <> .
-
-### http://www.w3.org/2006/vcard/ns#hasLocality
-vcard:hasLocality rdf:type owl:ObjectProperty ;
-         rdfs:domain : <> ;
-         rdfs:range : <> .
-
-### http://www.w3.org/2006/vcard/ns#hasPostalCode
-vcard:hasPostalCode rdf:type owl:ObjectProperty ;
-         rdfs:domain : <> ;
-         rdfs:range : <> .
-		 
-### http://www.w3.org/2006/vcard/ns#hasEmail
-vcard:hasEmail  rdf:type owl:ObjectProperty ;
-         rdfs:domain : <> ;
-         rdfs:range : <> .
-	
-### http://www.semanticweb.org/group08/resources#hasRrule
-resources:hasRrule  rdf:type owl:ObjectProperty ;
-         rdfs:domain : <> ;
-         rdfs:range : <> .	
-
-### http://www.semanticweb.org/group08/resources#hasDtstart
-resources:hasDtstart rdf:type owl:ObjectProperty ;
-         rdfs:domain : <> ;
-         rdfs:range : <> .	
-		
-### http://www.semanticweb.org/group08/resources#hasDtend
-resources:hasDtend rdf:type owl:ObjectProperty ;
-         rdfs:domain : <> ;
-         rdfs:range : <> .	
-
-### http://www.semanticweb.org/group08/resources#hasUrl
-resources:hasUrl rdf:type owl:ObjectProperty ;
-         rdfs:domain : <> ;
-         rdfs:range : <> .	
-### http://www.semanticweb.org/group08/resources#hasLocation
-resources:hasLocation rdf:type owl:ObjectProperty ;
-         rdfs:domain : <> ;
-         rdfs:range : <> .	
-		 
-#####   Classes #####
-
-### http://www.semanticweb.org/group08/resources#Library
-resources:library rdf:type owl:Class .
-
-### http://www.semanticweb.org/group08/resources#Activity
-resources:activity rdf:type owl:Class .
+ ###  http://www.semanticweb.es/group08/ontology#url
+ :url rdf:type owl:DatatypeProperty ;
+	  rdfs:domain :activity ;
+	  rdfs:range xsd:string .
+					  
+ 
+ #################################################################
+ #    Classes
+ #################################################################
+ 
+ ###  http://www.semanticweb.es/group08/ontology#library
+ :library rdf:type owl:Class .
+ 
+ 
+ ###  http://www.semanticweb.es/group08/ontology#activity
+ :activity rdf:type owl:Class . 

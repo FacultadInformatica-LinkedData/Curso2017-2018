@@ -1,0 +1,323 @@
+@prefix schema: <http://schema.org/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+<http://www.semanticweb.org/group16/resources/Calle+Albareda%2C+43> xsd:string "Calle Albareda, 43" , "Taxis" , "Parada de Taxis de 8 plazas" ;
+	xsd:int "8"^^xsd:int ;
+	geo:lat "28.144717"^^xsd:double ;
+	geo:long "-15.430275"^^xsd:double .
+
+<http://www.semanticweb.org/group16/resources/Calle+Faro+1%2C3%2C5%2C7> xsd:string "Calle Faro 1,3,5,7" , "Taxis" , "Parada de Taxi de 7 vehÃ­culos" ;
+	xsd:int "7"^^xsd:int ;
+	geo:lat "28.14853032247063"^^xsd:double ;
+	geo:long "-15.43012771191593"^^xsd:double .
+
+<http://www.semanticweb.org/group16/resources/Calle+Profesor+Lozano%2C14> xsd:string "Calle Profesor Lozano,14" , "Taxis" , "Parada de Taxi de 7 vehÃ­culos" ;
+	xsd:int "7"^^xsd:int ;
+	geo:lat "28.156192576081004"^^xsd:double ;
+	geo:long "-15.417723836326559"^^xsd:double .
+
+<http://www.semanticweb.org/group16/resources/Calle+Alfredo+L.Jones+31%2C33%2C35> xsd:string "Calle Alfredo L.Jones 31,33,35" , "Taxis" , "Parada de Taxi de 6 vehÃ­culos" ;
+	xsd:int "6"^^xsd:int ;
+	geo:lat "28.1421092155082"^^xsd:double ;
+	geo:long "-15.432856859588583"^^xsd:double .
+
+<http://www.semanticweb.org/group16/resources/Calle+Tom%C3%83%C2%A1s+Miller%2C+85> xsd:string "Calle TomÃ¡s Miller, 85" , "Taxis" , "Parada de Taxi de 4 vehÃ­culos" ;
+	xsd:int "4"^^xsd:int ;
+	geo:lat "28.14165511160173"^^xsd:double ;
+	geo:long "-15.433827819251974"^^xsd:double .
+
+<http://www.semanticweb.org/group16/resources/Calle+Jos%C3%83%C2%A9+Franchy+Roca%2C+18-20-22> xsd:string "Calle JosÃ© Franchy Roca, 18-20-22" , "Taxis" , "Parada de Taxi de 7 plazas" ;
+	xsd:int "7"^^xsd:int ;
+	geo:lat "28.13885121385311"^^xsd:double ;
+	geo:long "-15.432907821559866"^^xsd:double .
+
+<http://www.semanticweb.org/group16/resources/Calle+del+General+Vives%2C+14> xsd:string "Calle del General Vives, 14" , "Taxis" , "Parada de Taxi de 7 plazas" ;
+	xsd:int "7"^^xsd:int ;
+	geo:lat "28.135344760173602"^^xsd:double ;
+	geo:long "-15.43104636850353"^^xsd:double .
+
+<http://www.semanticweb.org/group16/resources/Avenida+Jos%C3%83%C2%A9+Mesa+y+L%C3%83%C2%B3pez%2C+13> xsd:string "Avenida JosÃ© Mesa y LÃ³pez, 13" , "Taxis" , "Parada de Taxis de 24 plazas" ;
+	xsd:int "24"^^xsd:int ;
+	geo:lat "28.1346233507481"^^xsd:double ;
+	geo:long "-15.431478204154928"^^xsd:double .
+
+<http://www.semanticweb.org/group16/resources/Avenida+Jos%C3%83%C2%A9+Mesa+y+L%C3%83%C2%B3pez%2C+41> xsd:string "Avenida JosÃ© Mesa y LÃ³pez, 41" , "Taxis" , "Parada de taxis de 11 plazas" ;
+	xsd:int "11"^^xsd:int ;
+	geo:lat "28.133303513719415"^^xsd:double ;
+	geo:long "-15.43635043683048"^^xsd:double .
+
+<http://www.semanticweb.org/group16/resources/Avenida+Jos%C3%83%C2%A9+Mesa+y+L%C3%83%C2%B3pez%2C+59> xsd:string "Avenida JosÃ© Mesa y LÃ³pez, 59" , "Taxis" , "Parada de Taxi de 3 plazas" ;
+	xsd:int "3"^^xsd:int ;
+	geo:lat "28.13198602577712"^^xsd:double ;
+	geo:long "-15.437875272655447"^^xsd:double .
+
+<http://www.semanticweb.org/group16/resources/Calle+Fernando+Guanarteme%2C+3-5> xsd:string "Calle Fernando Guanarteme, 3-5" , "Taxis" , "Parada de Taxi de 3 plazas" ;
+	xsd:int "3"^^xsd:int ;
+	geo:lat "28.139280495237994"^^xsd:double ;
+	geo:long "-15.432695927047689"^^xsd:double .
+
+<http://www.semanticweb.org/group16/resources/Portugal,68> xsd:string "Portugal,68" , "Taxis" , "Parada de Taxi de 4 plazas" ;
+	xsd:int "4"^^xsd:int ;
+	geo:lat "28.135895866396485"^^xsd:double ;
+	geo:long "-15.438641043329199"^^xsd:double .
+
+<http://www.semanticweb.org/group16/resources/Calle+Rep%C3%83%C2%BAblica+Dominicana%2C+8> xsd:string "Calle RepÃºblica Dominicana, 8" , "Taxis" , "Parada de Taxi de 4 plazas" ;
+	xsd:int "4"^^xsd:int ;
+	geo:lat "28.13331060966095"^^xsd:double ;
+	geo:long "-15.438360752487142"^^xsd:double .
+
+<http://www.semanticweb.org/group16/resources/Calle+Industrial+Jos%C3%83%C2%A9+S%C3%83%C2%A1nchez+Pe%C3%83%C2%B1ate+%28frente+a+C.C.+Las+Arenas%29> xsd:string "Calle Industrial JosÃ© SÃ¡nchez PeÃ±ate (frente a C.C. Las Arenas)" , "Taxis" , "Parada de Taxi de 14 plazas" ;
+	xsd:int "14"^^xsd:int ;
+	geo:lat "28.12882824637172"^^xsd:double ;
+	geo:long "-15.44776725950237"^^xsd:double .
+
+<http://www.semanticweb.org/group16/resources/Calle+Le%C3%83%C2%B3n+y+Castillo%2C+270> xsd:string "Calle LeÃ³n y Castillo, 270" , "Taxis" , "Parada de Taxi de 3 plazas" ;
+	xsd:int "3"^^xsd:int ;
+	geo:lat "28.12499384383078"^^xsd:double ;
+	geo:long "-15.428753079795797"^^xsd:double .
+
+<http://www.semanticweb.org/group16/resources/Calle+Doctor+Juan+Carlos+Marino+Fiol+%28Hotel+Santa+Catalina%29> xsd:string "Calle Doctor Juan Carlos Marino Fiol (Hotel Santa Catalina)" , "Taxis" , "Parada de Taxis de 4 plazas" ;
+	xsd:int "4"^^xsd:int ;
+	geo:lat "28.121114358058534"^^xsd:double ;
+	geo:long "-15.427513899230917"^^xsd:double .
+
+<http://www.semanticweb.org/group16/resources/Calle+Luis+Doreste+Silva%2C+46> xsd:string "Calle Luis Doreste Silva, 46" , "Taxis" , "Parada de Taxi de 19 plazas" ;
+	xsd:int "19"^^xsd:int ;
+	geo:lat "28.118315836955926"^^xsd:double ;
+	geo:long "-15.423157991790731"^^xsd:double .
+
+<http://www.semanticweb.org/group16/resources/Calle+Pintor+Juan+Guillermo%2C+8> xsd:string "Calle Pintor Juan Guillermo, 8" , "Taxis" , "Parada de Taxi de 7 plazas" ;
+	xsd:int "7"^^xsd:int ;
+	geo:lat "28.12620024066567"^^xsd:double ;
+	geo:long "-15.438291015052755"^^xsd:double .
+
+<http://www.semanticweb.org/group16/resources/Calle+Granadera+Canaria+%2C1> xsd:string "Calle Granadera Canaria ,1" , "Taxis" , "Parada de Taxi de 5 plazas" ;
+	xsd:int "5"^^xsd:int ;
+	geo:lat "28.096394716435054"^^xsd:double ;
+	geo:long "-15.412666531228979"^^xsd:double .
+
+<http://www.semanticweb.org/group16/resources/Calle+M%C3%83%C2%A1laga%2C+3> xsd:string "Calle MÃ¡laga, 3" , "Taxis" , "Parada de Taxi de 8 plazas" ;
+	xsd:int "8"^^xsd:int ;
+	geo:lat "28.092688112726467"^^xsd:double ;
+	geo:long "-15.414684893512685"^^xsd:double .
+
+<http://www.semanticweb.org/group16/resources/Avenida+Eufemiano+Jurado%2C+1+%28Nuevos+Juzgados%29> xsd:string "Avenida Eufemiano Jurado, 1 (Nuevos Juzgados)" , "Taxis" , "Parada de Taxi de 7 plazas" ;
+	xsd:int "7"^^xsd:int ;
+	geo:lat "28.09502590258705"^^xsd:double ;
+	geo:long "-15.413681747341116"^^xsd:double .
+
+<http://www.semanticweb.org/group16/resources/Calle+Mungu%C3%83%C2%ADa%2C1> xsd:string "Calle MunguÃ­a,1" , "Taxis" , "Parada de Taxi de 8 plazas" ;
+	xsd:int "8"^^xsd:int ;
+	geo:lat "28.106380495533518"^^xsd:double ;
+	geo:long "-15.415360810184438"^^xsd:double .
+
+<http://www.semanticweb.org/group16/resources/Calle+Malteses%2C+1> xsd:string "Calle Malteses, 1" , "Taxis" , "Parada de Taxi de 5 plazas" ;
+	xsd:int "5"^^xsd:int ;
+	geo:lat "28.103938393408672"^^xsd:double ;
+	geo:long "-15.415482488612042"^^xsd:double .
+
+<http://www.semanticweb.org/group16/resources/Calle+General+Bravo%2C+1> xsd:string "Calle General Bravo, 1" , "Taxis" , "Parada de Taxi de 6 plazas" ;
+	xsd:int "6"^^xsd:int ;
+	geo:lat "28.102673875418677"^^xsd:double ;
+	geo:long "-15.416463366952598"^^xsd:double .
+
+<http://www.semanticweb.org/group16/resources/Calle+Miguel+de+Cervantes%2C+6+frente> xsd:string "Calle Miguel de Cervantes, 6 frente" , "Taxis" , "Parada de Taxi de 6 plazas" ;
+	xsd:int "6"^^xsd:int ;
+	geo:lat "28.104314848084083"^^xsd:double ;
+	geo:long "-15.414316803212955"^^xsd:double .
+
+<http://www.semanticweb.org/group16/resources/Avenida+Rafael+Cabrera%2C+7> xsd:string "Avenida Rafael Cabrera, 7" , "Taxis" , "Parada de Taxi de 3 plazas" ;
+	xsd:int "3"^^xsd:int ;
+	geo:lat "28.105871630223863"^^xsd:double ;
+	geo:long "-15.414760246174183"^^xsd:double .
+
+<http://www.semanticweb.org/group16/resources/Parque+de+San+Telmo> xsd:string "Parque de San Telmo" , "Taxis" , "Parada de Taxi de 20 plazas" ;
+	xsd:int "20"^^xsd:int ;
+	geo:lat "28.108928525595235"^^xsd:double ;
+	geo:long "-15.416283536729225"^^xsd:double .
+
+<http://www.semanticweb.org/group16/resources/Calle+Mendiz%C3%83%C2%A1bal%2C+6> xsd:string "Calle MendizÃ¡bal, 6" , "Taxis" , "Parada de Taxi de 6 plazas" ;
+	xsd:int "6"^^xsd:int ;
+	geo:lat "28.102484802427032"^^xsd:double ;
+	geo:long "-15.413926389220478"^^xsd:double .
+
+<http://www.semanticweb.org/group16/resources/Carretera+General+del+Norte%2C+155+%28C.C.La+Ballena%29> xsd:string "Carretera General del Norte, 155 (C.C.La Ballena)" , "Taxis" , "Parada de Taxi de 13 plazas" ;
+	xsd:int "13"^^xsd:int ;
+	geo:lat "28.10029875682453"^^xsd:double ;
+	geo:long "-15.442367972755392"^^xsd:double .
+
+<http://www.semanticweb.org/group16/resources/Calzada+Lateral+Norte%2C+1> xsd:string "Calzada Lateral Norte, 1" , "Taxis" , "Parada de Taxi de 7 plazas" ;
+	xsd:int "7"^^xsd:int ;
+	geo:lat "28.10378316025432"^^xsd:double ;
+	geo:long "-15.43339929023125"^^xsd:double .
+
+<http://www.semanticweb.org/group16/resources/Calle+de+Villa+de+Zaraus%2C+1> xsd:string "Calle de Villa de Zaraus, 1" , "Taxis" , "Parada de Taxi de 20 plazas" ;
+	xsd:int "20"^^xsd:int ;
+	geo:lat "28.0843415935179"^^xsd:double ;
+	geo:long "-15.417430161279071"^^xsd:double .
+
+<http://www.semanticweb.org/group16/resources/Materno+Infantil> xsd:string "Materno Infantil" , "Taxis" , "Parada de Taxi de 5 plazas" ;
+	xsd:int "5"^^xsd:int ;
+	geo:lat "28.08077476831063"^^xsd:double ;
+	geo:long "-15.417706401967962"^^xsd:double .
+
+<http://www.semanticweb.org/group16/resources/Hospital+Insular> xsd:string "Hospital Insular" , "Taxis" , "Parada de Taxi de 14 plazas" ;
+	xsd:int "14"^^xsd:int ;
+	geo:lat "28.08289510665637"^^xsd:double ;
+	geo:long "-15.416889669322927"^^xsd:double .
+
+<http://www.semanticweb.org/group16/resources/Carrefour+Hoya+Plata> xsd:string "Carrefour Hoya Plata" , "Taxis" , "Parada de Taxi de 10 plazas" ;
+	xsd:int "10"^^xsd:int ;
+	geo:lat "28.071936563978532"^^xsd:double ;
+	geo:long "-15.4180192146016"^^xsd:double .
+
+<http://www.semanticweb.org/group16/resources/Plaza+Ram%C3%83%C2%B3n+Garc%C3%83%C2%ADa+Padr%C3%83%C2%B3n+%22Ramoncito+el+fontanero%22> xsd:string "Plaza RamÃ³n GarcÃ­a PadrÃ³n \"Ramoncito el fontanero\"" , "Taxis" , "Parada de Taxi de 3 plazas" ;
+	xsd:int "3"^^xsd:int ;
+	geo:lat "28.110324391551437"^^xsd:double ;
+	geo:long "-15.430598439598043"^^xsd:double .
+
+<http://www.semanticweb.org/group16/resources/Calle+Orinoco%2C+1> xsd:string "Calle Orinoco, 1" , "Taxis" , "Parada de Taxi de 3 plazas" ;
+	xsd:int "3"^^xsd:int ;
+	geo:lat "28.09226031196493"^^xsd:double ;
+	geo:long "-15.444320127491096"^^xsd:double .
+
+<http://www.semanticweb.org/group16/resources/Calle+Blas+Cabrera+Felipe%2C+46+%28Frente+a+Mercadona%29> xsd:string "Calle Blas Cabrera Felipe, 46 (Frente a Mercadona)" , "Taxis" , "Parada de Taxi de 4 plazas" ;
+	xsd:int "4"^^xsd:int ;
+	geo:lat "28.07048958679118"^^xsd:double ;
+	geo:long "-15.417840512418707"^^xsd:double .
+
+<http://www.semanticweb.org/group16/resources/Calle+Luis+Correa+Medina%2C+5> xsd:string "Calle Luis Correa Medina, 5" , "Taxis" , "Parada de Taxi de 7 plazas" ;
+	xsd:int "7"^^xsd:int ;
+	geo:lat "28.102864476873325"^^xsd:double ;
+	geo:long "-15.43548269724863"^^xsd:double .
+
+<http://www.semanticweb.org/group16/resources/Carretera+a+Las+Torres%2C+23> xsd:string "Carretera a Las Torres, 23" , "Taxis" , "Parada de Taxi de 3 plazas" ;
+	xsd:int "3"^^xsd:int ;
+	geo:lat "28.112354033053037"^^xsd:double ;
+	geo:long "-15.455191132514983"^^xsd:double .
+
+<http://www.semanticweb.org/group16/resources/Avenida+Juan+Carlos+I%2C+48F+%28CC.Las+Ramblas%29> xsd:string "Avenida Juan Carlos I, 48F (CC.Las Ramblas)" , "Taxis" , "Parada de Taxi de 7 plazas" ;
+	xsd:int "7"^^xsd:int ;
+	geo:lat "28.114139899595035"^^xsd:double ;
+	geo:long "-15.448977528248975"^^xsd:double .
+
+<http://www.semanticweb.org/group16/resources/Avenida+Pintor+Felo+Monz%C3%83%C2%B3n%2C+44+%28CC+7+Palmas%29> xsd:string "Avenida Pintor Felo MonzÃ³n, 44 (CC 7 Palmas)" , "Taxis" , "Parada de Taxi de 9 plazas" ;
+	xsd:int "9"^^xsd:int ;
+	geo:lat "28.097547319858325"^^xsd:double ;
+	geo:long "-15.455237290102446"^^xsd:double .
+
+<http://www.semanticweb.org/group16/resources/Avenida+Pintor+Felo+Monz%C3%83%C2%B3n%2C+46+%28Corte+Ingl%C3%83%C2%A9s-+Hipercor%29> xsd:string "Avenida Pintor Felo MonzÃ³n, 46 (Corte InglÃ©s- Hipercor)" , "Taxis" , "Parada de Taxi de 7 plazas" ;
+	xsd:int "7"^^xsd:int ;
+	geo:lat "28.095875907877875"^^xsd:double ;
+	geo:long "-15.455917524666575"^^xsd:double .
+
+<http://www.semanticweb.org/group16/resources/Calle+Fondos+de+Segura%2C+1> xsd:string "Calle Fondos de Segura, 1" , "Taxis" , "Parada de Taxi de 4 plazas" ;
+	xsd:int "4"^^xsd:int ;
+	geo:lat "28.106514906749933"^^xsd:double ;
+	geo:long "-15.453492711354102"^^xsd:double .
+
+<http://www.semanticweb.org/group16/resources/Calle+Hoya+del+Enamorado%2C+111+%28Parque+Juan+Pablo+II%29> xsd:string "Calle Hoya del Enamorado, 111 (Parque Juan Pablo II)" , "Taxis" , "Parada de Taxi de 2 plazas" ;
+	xsd:int "2"^^xsd:int ;
+	geo:lat "28.1032272672238"^^xsd:double ;
+	geo:long "-15.449658694085542"^^xsd:double .
+
+<http://www.semanticweb.org/group16/resources/Calle+Aldea+Blanca%2C+1+%28Tanatorio+San+Miguel%29> xsd:string "Calle Aldea Blanca, 1 (Tanatorio San Miguel)" , "Taxis" , "Parada de Taxi de 5 plazas" ;
+	xsd:int "5"^^xsd:int ;
+	geo:lat "28.112645236788232"^^xsd:double ;
+	geo:long "-15.455859484100301"^^xsd:double .
+
+<http://www.semanticweb.org/group16/resources/Calle+Alf%C3%83%C2%A9rez+Provisional%2C+129> xsd:string "Calle AlfÃ©rez Provisional, 129" , "Taxis" , "Parada de Taxi de 4 plazas" ;
+	xsd:int "4"^^xsd:int ;
+	geo:lat "28.11077979379136"^^xsd:double ;
+	geo:long "-15.446828774650157"^^xsd:double .
+
+<http://www.semanticweb.org/group16/resources/Calle+Alf%C3%83%C2%A9rez+Provisional%2C+6> xsd:string "Calle AlfÃ©rez Provisional, 6" , "Taxis" , "Parada de Taxi de 3 plazas" ;
+	xsd:int "3"^^xsd:int ;
+	geo:lat "28.099962249036192"^^xsd:double ;
+	geo:long "-15.449050223025665"^^xsd:double .
+
+<http://www.semanticweb.org/group16/resources/Calle+Diego+Betancor+Su%C3%83%C2%A1rez%2C+19> xsd:string "Calle Diego Betancor SuÃ¡rez, 19" , "Taxis" , "Parada de Taxi de 3 plazas" ;
+	xsd:int "3"^^xsd:int ;
+	geo:lat "28.10939155442289"^^xsd:double ;
+	geo:long "-15.445500540380976"^^xsd:double .
+
+<http://www.semanticweb.org/group16/resources/Plaza+Barranco+de+la+Ballena> xsd:string "Plaza Barranco de la Ballena" , "Taxis" , "Parada de Taxi de 3 plazas" ;
+	xsd:int "3"^^xsd:int ;
+	geo:lat "28.113863994169577"^^xsd:double ;
+	geo:long "-15.447011181574453"^^xsd:double .
+
+<http://www.semanticweb.org/group16/resources/Calle+Severo+Ochoa%2C+13> xsd:string "Calle Severo Ochoa, 13" , "Taxis" , "Parada de Taxi de 3 plazas" ;
+	xsd:int "3"^^xsd:int ;
+	geo:lat "28.093467003855977"^^xsd:double ;
+	geo:long "-15.429281452494365"^^xsd:double .
+
+<http://www.semanticweb.org/group16/resources/Calle+Severo+Ochoa%2C+3> xsd:string "Calle Severo Ochoa, 3" , "Taxis" , "Parada de Taxi de 4 plazas" ;
+	xsd:int "4"^^xsd:int ;
+	geo:lat "28.095969155828218"^^xsd:double ;
+	geo:long "-15.42622841311902"^^xsd:double .
+
+<http://www.semanticweb.org/group16/resources/Calle+Miguel+%C3%83%EF%BF%BDngel+Asturias%2C2> xsd:string "Calle Miguel Ã�ngel Asturias,2" , "Taxis" , "Parada de Taxi de 3 plazas" ;
+	xsd:int "3"^^xsd:int ;
+	geo:lat "28.095390448329166"^^xsd:double ;
+	geo:long "-15.428985278116897"^^xsd:double .
+
+<http://www.semanticweb.org/group16/resources/Calle+Betania%2C+57+Frente> xsd:string "Calle Betania, 57 Frente" , "Taxis" , "Parada de Taxi de 5 plazas" ;
+	xsd:int "5"^^xsd:int ;
+	geo:lat "28.101502609037116"^^xsd:double ;
+	geo:long "-15.469221840535852"^^xsd:double .
+
+<http://www.semanticweb.org/group16/resources/Calle+Luc%C3%83%C2%ADa+Cabrera+Su%C3%83%C2%A1rez%2C+3+%28Lateral+Intercambiador%29> xsd:string "Calle LucÃ­a Cabrera SuÃ¡rez, 3 (Lateral Intercambiador)" , "Taxis" , "Parada de Taxi de 4 plazas" ;
+	xsd:int "4"^^xsd:int ;
+	geo:lat "28.098698286845515"^^xsd:double ;
+	geo:long "-15.47902177100741"^^xsd:double .
+
+<http://www.semanticweb.org/group16/resources/Carretera+General+a+Tamaraceite.+179> xsd:string "Carretera General a Tamaraceite. 179" , "Taxis" , "Parada de Taxi de 8 plazas" ;
+	xsd:int "8"^^xsd:int ;
+	geo:lat "28.098291151369484"^^xsd:double ;
+	geo:long "-15.475289406204183"^^xsd:double .
+
+<http://www.semanticweb.org/group16/resources/Calle+San+Jos%C3%83%C2%A9+Artesano%2C+24> xsd:string "Calle San JosÃ© Artesano, 24" , "Taxis" , "Parada de Taxi de 4 plazas" ;
+	xsd:int "4"^^xsd:int ;
+	geo:lat "28.084950172507966"^^xsd:double ;
+	geo:long "-15.44311565915632"^^xsd:double .
+
+<http://www.semanticweb.org/group16/resources/Calle+Carretera+de+Almatriche%2C+71+Frente> xsd:string "Calle Carretera de Almatriche, 71 Frente" , "Taxis" , "Parada de Taxi de 4 plazas" ;
+	xsd:int "4"^^xsd:int ;
+	geo:lat "28.089349514538767"^^xsd:double ;
+	geo:long "-15.459345367623769"^^xsd:double .
+
+<http://www.semanticweb.org/group16/resources/Consultas+Externas+Dr.+Negr%C3%83%C2%ADn> xsd:string "Consultas Externas Dr. NegrÃ­n" , "Taxis" , "Parada de Taxi de 14 plazas" ;
+	xsd:int "14"^^xsd:int ;
+	geo:lat "28.119303773597554"^^xsd:double ;
+	geo:long "-15.444874377130645"^^xsd:double .
+
+<http://www.semanticweb.org/group16/resources/Hospitalizaci%C3%83%C2%B3n+Dr.+Negr%C3%83%C2%ADn> xsd:string "HospitalizaciÃ³n Dr. NegrÃ­n" , "Taxis" , "Parada de Taxi de 14 plazas" ;
+	xsd:int "14"^^xsd:int ;
+	geo:lat "28.120896627471062"^^xsd:double ;
+	geo:long "-15.443449762772161"^^xsd:double .
+
+<http://www.semanticweb.org/group16/resources/Calle+Doctor+Francisco+P%C3%83%C2%A9rez+P%C3%83%C2%A9rez%2C> xsd:string "Calle Doctor Francisco PÃ©rez PÃ©rez," , "Taxis" , "Parada de Taxi de 9 plazas" ;
+	xsd:int "9"^^xsd:int ;
+	geo:lat "28.11245997650614"^^xsd:double ;
+	geo:long "-15.418543091938773"^^xsd:double .
+
+<http://www.semanticweb.org/group16/resources/Calle+La+Tornera%2C+1> xsd:string "Calle La Tornera, 1" , "Taxis" , "Parada de Taxi de 3 plazas" ;
+	xsd:int "3"^^xsd:int ;
+	geo:lat "28.055849965869783"^^xsd:double ;
+	geo:long "-15.46285010528129"^^xsd:double .
+
+<http://www.semanticweb.org/group16/resources/Calle+Planas+de+Poes%C3%83%C2%ADa%2C+10> xsd:string "Calle Planas de PoesÃ­a, 10" , "Taxis" , "Parada de Taxi de 4 plazas" ;
+	xsd:int "4"^^xsd:int ;
+	geo:lat "28.04140879429682"^^xsd:double ;
+	geo:long "-15.427992127269135"^^xsd:double .
+
+<http://www.semanticweb.org/group16/resources/Calle+Juan+Ram%C3%83%C2%B3n+Jim%C3%83%C2%A9nez%2C+39> xsd:string "Calle Juan RamÃ³n JimÃ©nez, 39" , "Taxis" , "Parada de Taxi de 4 plazas" ;
+	xsd:int "3"^^xsd:int ;
+	geo:lat "28.11607456524098"^^xsd:double ;
+	geo:long "-15.434917566713011"^^xsd:double .
