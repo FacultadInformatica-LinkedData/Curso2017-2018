@@ -1,0 +1,226 @@
+[
+    {
+      "op": "core/column-split",
+      "description": "Split column DIA by separator",
+      "engineConfig": {
+        "mode": "row-based",
+        "facets": []
+      },
+      "columnName": "DIA",
+      "guessCellType": true,
+      "removeOriginalColumn": false,
+      "mode": "separator",
+      "separator": "/",
+      "regex": false,
+      "maxColumns": 0
+    },
+    {
+      "op": "core/column-removal",
+      "description": "Remove column DIA 1",
+      "columnName": "DIA 1"
+    },
+    {
+      "op": "core/column-removal",
+      "description": "Remove column DIA 3",
+      "columnName": "DIA 3"
+    },
+    {
+      "op": "core/column-rename",
+      "description": "Rename column DIA 2 to MES",
+      "oldColumnName": "DIA 2",
+      "newColumnName": "MES"
+    },
+    {
+      "op": "core/column-move",
+      "description": "Move column MES to position 0",
+      "columnName": "MES",
+      "index": 0
+    },
+    {
+      "op": "core/row-reorder",
+      "description": "Reorder rows",
+      "mode": "record-based",
+      "sorting": {
+        "criteria": [
+          {
+            "errorPosition": 1,
+            "valueType": "number",
+            "column": "MES",
+            "blankPosition": 2,
+            "reverse": false
+          }
+        ]
+      }
+    },
+    {
+      "op": "core/blank-down",
+      "description": "Blank down cells in column MES",
+      "engineConfig": {
+        "mode": "row-based",
+        "facets": []
+      },
+      "columnName": "MES"
+    },
+    {
+      "op": "core/text-transform",
+      "description": "Text transform on cells in column MES using expression grel:replace(value, '1', 'Enero')",
+      "engineConfig": {
+        "mode": "row-based",
+        "facets": []
+      },
+      "columnName": "MES",
+      "expression": "grel:replace(value, '1', 'Enero')",
+      "onError": "set-to-blank",
+      "repeat": false,
+      "repeatCount": 10
+    },
+    {
+      "op": "core/text-transform",
+      "description": "Text transform on cells in column MES using expression grel:replace(value, '2', 'Febrero')",
+      "engineConfig": {
+        "mode": "row-based",
+        "facets": []
+      },
+      "columnName": "MES",
+      "expression": "grel:replace(value, '2', 'Febrero')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10
+    },
+    {
+      "op": "core/text-transform",
+      "description": "Text transform on cells in column MES using expression grel:replace(value, '3', 'Marzo')",
+      "engineConfig": {
+        "mode": "row-based",
+        "facets": []
+      },
+      "columnName": "MES",
+      "expression": "grel:replace(value, '3', 'Marzo')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10
+    },
+    {
+      "op": "core/text-transform",
+      "description": "Text transform on cells in column MES using expression grel:replace(value, '4', 'Abril')",
+      "engineConfig": {
+        "mode": "row-based",
+        "facets": []
+      },
+      "columnName": "MES",
+      "expression": "grel:replace(value, '4', 'Abril')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10
+    },
+    {
+      "op": "core/text-transform",
+      "description": "Text transform on cells in column MES using expression grel:replace(value, '5', 'Mayo')",
+      "engineConfig": {
+        "mode": "row-based",
+        "facets": []
+      },
+      "columnName": "MES",
+      "expression": "grel:replace(value, '5', 'Mayo')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10
+    },
+    {
+      "op": "core/text-transform",
+      "description": "Text transform on cells in column MES using expression grel:replace(value, '6', 'Junio')",
+      "engineConfig": {
+        "mode": "row-based",
+        "facets": []
+      },
+      "columnName": "MES",
+      "expression": "grel:replace(value, '6', 'Junio')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10
+    },
+    {
+      "op": "core/text-transform",
+      "description": "Text transform on cells in column MES using expression grel:replace(value, '7', 'Julio')",
+      "engineConfig": {
+        "mode": "row-based",
+        "facets": []
+      },
+      "columnName": "MES",
+      "expression": "grel:replace(value, '7', 'Julio')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10
+    },
+    {
+      "op": "core/text-transform",
+      "description": "Text transform on cells in column MES using expression grel:replace(value, '8', 'Agosto')",
+      "engineConfig": {
+        "mode": "row-based",
+        "facets": []
+      },
+      "columnName": "MES",
+      "expression": "grel:replace(value, '8', 'Agosto')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10
+    },
+    {
+      "op": "core/text-transform",
+      "description": "Text transform on cells in column MES using expression grel:replace(value, '9', 'Septiembre')",
+      "engineConfig": {
+        "mode": "row-based",
+        "facets": []
+      },
+      "columnName": "MES",
+      "expression": "grel:replace(value, '9', 'Septiembre')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10
+    },
+    {
+      "op": "core/text-transform",
+      "description": "Text transform on cells in column MES using expression grel:replace(value, '10', 'Octubre')",
+      "engineConfig": {
+        "mode": "row-based",
+        "facets": []
+      },
+      "columnName": "MES",
+      "expression": "grel:replace(value, '10', 'Octubre')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10
+    },
+    {
+      "op": "core/text-transform",
+      "description": "Text transform on cells in column MES using expression grel:replace(value, '11', 'Noviembre')",
+      "engineConfig": {
+        "mode": "row-based",
+        "facets": []
+      },
+      "columnName": "MES",
+      "expression": "grel:replace(value, '11', 'Noviembre')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10
+    },
+    {
+      "op": "core/text-transform",
+      "description": "Text transform on cells in column MES using expression grel:replace(value, '12', 'Diciembre')",
+      "engineConfig": {
+        "mode": "row-based",
+        "facets": []
+      },
+      "columnName": "MES",
+      "expression": "grel:replace(value, '12', 'Diciembre')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10
+    },
+    {
+      "op": "core/column-rename",
+      "description": "Rename column DIA to FECHA",
+      "oldColumnName": "DIA",
+      "newColumnName": "FECHA"
+    }
+  ]
