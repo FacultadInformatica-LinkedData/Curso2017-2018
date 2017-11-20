@@ -1,0 +1,470 @@
+[
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column route_id using expression grel:value.replace('_','')",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "route_id",
+    "expression": "grel:value.replace('_','')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column route_short_name using expression grel:value.replace(' ','')",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "route_short_name",
+    "expression": "grel:value.replace(' ','')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column route_id to routeID",
+    "oldColumnName": "route_id",
+    "newColumnName": "routeID"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column agency_id",
+    "columnName": "agency_id"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column route_short_name to routeShortName",
+    "oldColumnName": "route_short_name",
+    "newColumnName": "routeShortName"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column route_long_name to routeLongName",
+    "oldColumnName": "route_long_name",
+    "newColumnName": "routeLongName"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column route_type",
+    "columnName": "route_type"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column route_url to routeURL",
+    "oldColumnName": "route_url",
+    "newColumnName": "routeURL"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column route_color to routeColor",
+    "oldColumnName": "route_color",
+    "newColumnName": "routeColor"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column route_text_color to routeTextColor",
+    "oldColumnName": "route_text_color",
+    "newColumnName": "routeTextColor"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group12/ontology#",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+              "curie": "rdfs:Literal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "routeID"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#string",
+              "curie": "xsd:string",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "routeShortName"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#string",
+              "curie": "xsd:string",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "routeLongName"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#string",
+              "curie": "xsd:string",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "routeURL"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#hexBinary",
+              "curie": "xsd:hexBinary",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "routeColor"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#hexBinary",
+              "curie": "xsd:hexBinary",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "routeTextColor"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group12/resources/Ruta/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+              "curie": "rdfs:Literal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "routeID"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#string",
+              "curie": "xsd:string",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "routeShortName"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#string",
+              "curie": "xsd:string",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "routeLongName"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#string",
+              "curie": "xsd:string",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "routeURL"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#hexBinary",
+              "curie": "xsd:hexBinary",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "routeColor"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#hexBinary",
+              "curie": "xsd:hexBinary",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "routeTextColor"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group12/resources/Ruta/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+              "curie": "rdfs:Literal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "routeID"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#string",
+              "curie": "xsd:string",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "routeShortName"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#string",
+              "curie": "xsd:string",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "routeLongName"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#string",
+              "curie": "xsd:string",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "routeURL"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#hexBinary",
+              "curie": "xsd:hexBinary",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "routeColor"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#hexBinary",
+              "curie": "xsd:hexBinary",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "routeTextColor"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group12/resources/Ruta/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+              "curie": "rdfs:Literal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "routeID"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#string",
+              "curie": "xsd:string",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "routeShortName"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#string",
+              "curie": "xsd:string",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "routeLongName"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#string",
+              "curie": "xsd:string",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "routeURL"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#hexBinary",
+              "curie": "xsd:hexBinary",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "routeColor"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#hexBinary",
+              "curie": "xsd:hexBinary",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "routeTextColor"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

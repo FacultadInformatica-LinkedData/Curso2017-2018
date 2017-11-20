@@ -1,0 +1,226 @@
+[
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/instances/",
+      "prefixes": [
+        {
+          "name": "ont",
+          "uri": "http://www.semanticweb.org/OntologyGroup15#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/OntologyGroup15#Parking",
+              "curie": "ont:Parking"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/OntologyGroup15#hasDistrito",
+              "curie": "ont:hasDistrito",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/OntologyGroup15#hasName",
+              "curie": "ont:hasName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/OntologyGroup15#hasUrl",
+              "curie": "ont:hasUrl",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CONTENT-URL",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/OntologyGroup15#hasCodPostal",
+              "curie": "ont:hasCodPostal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO-POSTAL"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/OntologyGroup15#hasDireccion",
+              "curie": "ont:hasDireccion",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PK",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/instances/",
+      "prefixes": [
+        {
+          "name": "ont",
+          "uri": "http://www.semanticweb.org/OntologyGroup15#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/OntologyGroup15#Parking",
+              "curie": "ont:Parking"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/OntologyGroup15#hasDistrito",
+              "curie": "ont:hasDistrito",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/OntologyGroup15#hasName",
+              "curie": "ont:hasName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/OntologyGroup15#hasUrl",
+              "curie": "ont:hasUrl",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CONTENT-URL",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/OntologyGroup15#hasCodPostal",
+              "curie": "ont:hasCodPostal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO-POSTAL"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/OntologyGroup15#hasDireccion",
+              "curie": "ont:hasDireccion",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PK",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semanticweb.org/OntologyGroup15#Direccion",
+                    "curie": "ont:Direccion"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.semanticweb.org/OntologyGroup15#hasClaseVial",
+                    "curie": "ont:hasClaseVial",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "CLASE-VIAL"
+                    }
+                  },
+                  {
+                    "uri": "http://www.semanticweb.org/OntologyGroup15#hasNombreVia",
+                    "curie": "ont:hasNombreVia",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "NOMBRE-VIA"
+                    }
+                  },
+                  {
+                    "uri": "http://www.semanticweb.org/OntologyGroup15#hasNumVia",
+                    "curie": "ont:hasNumVia",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "NUM"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

@@ -13,11 +13,10 @@
 #    Object Properties
 #################################################################
 
-###  http://www.semanticweb.org/grupo18/ontologies##isComposedOf
-:isComposedOf rdf:type owl:ObjectProperty ;
-              owl:inverseOf :isPartOf ;
-              rdfs:domain :City ;
-              rdfs:range :Zone .
+###  http://www.semanticweb.org/grupo18/ontologies#belongsTo
+<http://www.semanticweb.org/grupo18/ontologies#belongsTo> rdf:type owl:ObjectProperty ;
+                                                          rdfs:domain :Address ;
+                                                          rdfs:range :Zone .
 
 
 ###  http://www.semanticweb.org/grupo18/ontologies##isOwnedBy
@@ -44,22 +43,16 @@
 #    Data properties
 #################################################################
 
-###  http://www.semanticweb.org/grupo18/ontologies##hasCoordinate
-:hasCoordinate rdf:type owl:DatatypeProperty ;
-               rdfs:domain :Parking ;
-               rdfs:range xsd:boolean .
-
-
 ###  http://www.semanticweb.org/grupo18/ontologies##hasCoordinate_1
 :hasCoordinate_1 rdf:type owl:DatatypeProperty ;
-                 rdfs:subPropertyOf :hasCoordinate ;
+                 rdfs:subPropertyOf owl:topDataProperty ;
                  rdfs:domain :Parking ;
                  rdfs:range xsd:float .
 
 
 ###  http://www.semanticweb.org/grupo18/ontologies##hasCoordinate_2
 :hasCoordinate_2 rdf:type owl:DatatypeProperty ;
-                 rdfs:subPropertyOf :hasCoordinate ;
+                 rdfs:subPropertyOf owl:topDataProperty ;
                  rdfs:domain :Parking ;
                  rdfs:range xsd:float .
 
@@ -72,7 +65,7 @@
 
 ###  http://www.semanticweb.org/grupo18/ontologies##hasPostalCode
 :hasPostalCode rdf:type owl:DatatypeProperty ;
-               rdfs:domain :Zone ;
+               rdfs:domain :Address ;
                rdfs:range xsd:int .
 
 

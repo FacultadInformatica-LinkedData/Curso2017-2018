@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Grupo 05 analysis.html</title>
+	</head>
+	<body>
+		<div>
+			<h2>Análisis de la licencia de los datos</h2>
+			<p>
+			Utilizaremos la licencia estandar de Creative Commons CC-BY-NC para cualquier informacion que generemos.
+			Así, permitimos el uso de nuestra información mientras se nos de la autoría.
+			</p>
+			<p>
+			Los conjuntos de datos los obtuvimos del portal de datos abiertos de la Comunidad de Madrid. 
+			<br>
+			En sus condiciones de uso dice que sus datos pueden ser usados con fines comerciales y no comerciales.
+			Además, no permite su uso para alguna administración pública.
+			Como no nos salimos de esos terminos de uso, no hay problema usando los datos.
+	 		</p>
+				
+			<h1>Define Resource Naming Strategy</h1>
+
+			<p>Ontologia:</p> 
+			<p>http://semanticweb.org/grupo05/ontology</p>
+			<p>Recursos de la ontologia:</p> 
+			<p>http://semanticweb.org/grupo05/ontology#resource</p>
+			<p>Individuos:</p> 
+			<p>http://semanticweb.org/grupo05/ontology/individual</p>
+	
+		</div> 
+		<div>
+			<h1>Analisis de los datasets</h1>
+			<hr>
+			<h2>Actuaciones de limpieza urbana en la ciudad de Madrid</h2>
+			<ul>
+			<li><b>Nombre del fichero:</b>actuaciones_limpieza_urbana.csv</li>
+			<li><b>Descripción:</b>Información sobre actuaciones de limpieza urbana en la ciudad de madrid</li>
+		</ul>
+			<table>
+				<tbody>
+					<tr class="tdlight">
+						<td><p>Variable</p></td>
+						<td><p>Tipo</p></td>
+						<td><p>Comentarios / Rango</p></td>
+						
+					</tr>
+					<tr>
+						<td><p>Mes</p></td>
+						<td><p>String</p></td>
+						<td><p>not unique, not empty</p></td>
+						
+					</tr>
+					<tr>
+						<td><p>Lote</p></td>
+						<td><p>Integer</p></td>
+						<td><p>not unique, not empty</p></td>
+						
+					</tr>
+					<tr>
+						<td><p>Distrito</p></td>
+						<td><p>String</p></td>
+						<td><p>not unique, not empty</p></td>
+						
+					</tr>
+					<tr>
+						<td><p>Kg Recogida Muebles</p></td>
+						<td><p>Double</p></td>
+						<td><p>not unique, not empty</p></td>
+						
+					</tr>					<tr>
+						<td><p>Kg recogida Residuos Viarios</p></td>
+						<td><p>Double</p></td>
+						<td><p>not unique, not empty</p></td>
+						
+					</tr>					<tr>
+						<td><p>Num Servicios Barrido Manual</p></td>
+						<td><p>Integer</p></td>
+						<td><p>not unique, not empty</p></td>
+						
+					</tr>					<tr>
+						<td><p>Num Servicios Barrido Mecánico</p></td>
+						<td><p>Integer</p></td>
+						<td><p>not unique, not empty</p></td>
+						
+					</tr>					<tr>
+						<td><p>Num Servicios Barrido Mixto</p></td>
+						<td><p>Integer</p></td>
+						<td><p>not unique, not empty</p></td>
+						
+					</tr>					<tr>
+						<td><p>Num Servicios Baldeo Mixto</p></td>
+						<td><p>Integer</p></td>
+						<td><p>not unique, not empty</p></td>
+						
+					</tr>					<tr>
+						<td><p>Num Servicios Baldeo Mecánico</p></td>
+						<td><p>Integer</p></td>
+						<td><p>not unique, not empty</p></td>
+						
+					</tr>					<tr>
+						<td><p>Num Servicios Eliminación Grafitis</p></td>
+						<td><p>Integer</p></td>
+						<td><p>not unique, not empty</p></td>
+						
+					</tr>					<tr>
+						<td><p>M2 Eliminación Grafitis</p></td>
+						<td><p>Integer</p></td>
+						<td><p>not unique, not empty</p></td>
+						
+					</tr>					<tr>
+						<td><p>Ud Reposición Bolsas Caninas</p></td>
+						<td><p>Integer</p></td>
+						<td><p>not unique, not empty</p></td>
+						
+					</tr>					
+				</tbody>
+			</table>
+			<h2>Actividades gratuitas en Bibliotecas Municipales</h2>
+			<ul>
+			<li><b>Nombre del fichero:</b>agenda-eventos-bibliotecas.csv</li>
+			<li><b>Descripción:</b>Relación de actividades de carácter gratuito, para público infantil y adulto, desarrolladas por las siguientes instituciones de titularidad municipal: la red de Bibliotecas Públicas, la Biblioteca Histórica, la Biblioteca Musical Víctor Espinós, la Hemeroteca y la Imprenta. Se presentan las actividades de los próximos 60 dias.</li>			
+		</ul>
+			<table>
+				<tbody>
+
+				<tr class="tdlight">
+					<td><p>Variable</p></td>
+					<td><p>Tipo</p></td>
+					<td><p>Comentarios / Rango</p></td>
+					
+				</tr>
+				<tr>
+			    		<td>Id-Evento</td>
+        				<td>String</td>
+        				<td>unique, not empty</td>
+    				</tr>
+    				<tr>
+    					<td>Titulo</td>
+        				<td>String</td>
+        				<td>not unique, not empty</td>
+    				</tr>
+    				<tr>
+    					<td>Precio</td>
+        				<td>String</td>
+        				<td>not unique, not empty</td>
+    				</tr>
+    				<tr>
+    					<td>Gratuito</td>
+        				<td>String</td>
+        				<td>not unique, not empty</td>
+    				</tr>
+    				<tr>
+    					<td>Larga-duracion</td>
+        				<td>String</td>
+        				<td>not unique, not empty</td>
+    				</tr>
+    				<tr>
+    					<td>Dias-semanas</td>
+        				<td>String</td>
+        				<td>not unique, not empty</td>
+    				</tr>
+    				<tr>
+    					<td>Dias-excluidos</td>
+        				<td>String</td>
+        				<td>not unique, not empty</td>
+    				</tr>
+    				<tr>
+    					<td>Fecha</td>
+        				<td>String</td>
+        				<td>not unique, not empty</td>
+    				</tr>
+    				<tr>
+    					<td>Fecha-Fin</td>
+        				<td>String</td>
+        				<td>not unique, not empty</td>
+    				</tr>
+    				<tr>
+    					<td>Hora</td>
+        				<td>String</td>
+        				<td>not unique, not empty</td>
+    				</tr>
+    				<tr>
+    					<td>Descripcion</td>
+        				<td>String</td>
+        				<td>not unique, not empty</td>
+    				</tr>
+    				<tr>
+    					<td>Content-url</td>
+        				<td>String</td>
+        				<td>not unique, not empty</td>
+    				</tr>
+    				<tr>
+    					<td>Titulo-Actividad</td>
+        				<td>String</td>
+        				<td>not unique, not empty</td>
+    				</tr>
+    				<tr>
+    					<td>Url-Actividad</td>
+        				<td>String</td>
+        				<td>not unique, not empty</td>
+    				</tr>
+    				<tr>
+    					<td>Url-Instalacion</td>
+        				<td>String</td>
+        				<td>not unique, not empty</td>
+    				</tr>
+    				<tr>
+    					<td>Nombre-Instalacion</td>
+        				<td>String</td>
+        				<td>not unique, not empty</td>
+    				</tr>
+    				<tr>
+    					<td>Coordenada-X</td>
+        				<td>String</td>
+        				<td>not unique, not empty</td>
+   	 			</tr>
+    				<tr>
+     					<td>Coordenada-Y</td>
+        				<td>String</td>
+        				<td>not unique, not empty</td>
+     				</tr>
+     				<tr>
+     					<td>Latitud</td>
+        				<td>String</td>
+        				<td>not unique, not empty</td>
+     				</tr>
+     				<tr>
+     					<td>Longitud</td>
+        				<td>String</td>
+        				<td>not unique, not empty</td>
+     				</tr>
+     				<tr>
+     					<td>Distrito</td>
+        				<td>String</td>
+        				<td>not unique, not empty</td>
+     				</tr>
+     				<tr>
+     					<td>Tipo</td>
+        				<td>String</td>
+        				<td>not unique, not empty</td>
+     				</tr>
+     				<tr>
+     					<td>Audiencia</td>
+        				<td>String</td>
+        				<td>not unique, not empty</td>
+     				</tr>
+			</tbody>
+			</table>
+			</div>			
+	</body>
+</html>

@@ -16,14 +16,12 @@
 :Evento rdf:type owl:Class .
 
 :Colegio rdf:type owl:Class ;
-            
-            rdfs:subClassOf :Intalacion .
+            rdfs:subClassOf :Instalacion .
 
-
-# Resto de la Ontologia
-			
 :CentroEvento rdf:type owl:Class ;
             rdfs:subClassOf :Instalacion .
+
+# Resto de la Ontologia
 
 :tituloEvento rdf:type owl:DatatypeProperty ;
                  
@@ -43,17 +41,29 @@
                  
                  rdfs:range xsd:string .
 
+:diasSemanaEvento rdf:type owl:DatatypeProperty ;
+                 
+                 rdfs:domain :Evento ;
+                 
+                 rdfs:range xsd:string .
+
 :urlEvento rdf:type owl:DatatypeProperty ;
                  
                  rdfs:domain :Evento ;
                  
                  rdfs:range xsd:string .
 
+:tipoEvento rdf:type owl:DatatypeProperty ;
+                 
+                 rdfs:domain :Evento ;
+                 
+                 rdfs:range xsd:string .
+
 :instalacionEvento rdf:type owl:ObjectProperty ;
+		 
+		 rdfs:domain :Instalacion ;
                             
-                            rdfs:domain :Instalacion ;
-                            
-                            rdfs:range :Instalacion	.
+                 rdfs:range :Instalacion .
 							
 :idEvento rdf:type owl:DatatypeProperty ;
                  
@@ -71,13 +81,13 @@
                  
                  rdfs:domain :Evento ;
                  
-                 rdfs:range xsd:date .
+                 rdfs:range xsd:dateTime .
 				 
 :horaEventoFin rdf:type owl:DatatypeProperty ;
                  
                  rdfs:domain :Evento ;
                  
-                 rdfs:range xsd:date .
+                 rdfs:range xsd:dateTime .
 
 :nombreInstalacion rdf:type owl:DatatypeProperty ;
                  
@@ -97,19 +107,19 @@
                  
                  rdfs:range xsd:string .
 
-:telefonoEvento rdf:type owl:DatatypeProperty ;
+:telefonoInstalacion rdf:type owl:DatatypeProperty ;
                  
                  rdfs:domain :Instalacion ;
                  
                  rdfs:range xsd:integer .
 				 
-:coordenadaXEvento rdf:type owl:DatatypeProperty ;
+:coordenadaXInstalacion rdf:type owl:DatatypeProperty ;
                  
                  rdfs:domain :Instalacion ;
                  
                  rdfs:range xsd:integer .
 
-:coordenadaYEvento rdf:type owl:DatatypeProperty ;
+:coordenadaYInstalacion rdf:type owl:DatatypeProperty ;
                  
                  rdfs:domain :Instalacion ;
                  
