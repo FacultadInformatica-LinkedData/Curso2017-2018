@@ -1,0 +1,2187 @@
+[
+  {
+    "op": "core/column-removal",
+    "description": "Remove column description",
+    "columnName": "description"
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column geometry by separator",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "geometry",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": ",",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column geometry 1 to Latitud",
+    "oldColumnName": "geometry 1",
+    "newColumnName": "Latitud"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column geometry 2 to Longitud",
+    "oldColumnName": "geometry 2",
+    "newColumnName": "Longitud"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column about to Info",
+    "oldColumnName": "about",
+    "newColumnName": "Info"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "ontology",
+          "uri": "http://www.zaramove.es/transportes/ontology/TransportOntology#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "id",
+          "rdfTypes": [
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/TransportOntology#EstacionBici",
+              "curie": "ontology:EstacionBici"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/TransportOntology#tiene_id",
+              "curie": "ontology:tiene_id",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "id"
+              }
+            },
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/TransportOntology#tiene_info",
+              "curie": "ontology:tiene_info",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Info"
+              }
+            },
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/TransportOntology#has_address",
+              "curie": "ontology:has_address",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "title"
+              }
+            },
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/TransportOntology#tiene_estado",
+              "curie": "ontology:tiene_estado",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "estado"
+              }
+            },
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/TransportOntology#tiene_bicis",
+              "curie": "ontology:tiene_bicis",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "bicisDisponibles"
+              }
+            },
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/TransportOntology#tiene_anclajes",
+              "curie": "ontology:tiene_anclajes",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "anclajesDisponibles"
+              }
+            },
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/TransportOntology#tiene_Latitud",
+              "curie": "ontology:tiene_Latitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Latitud"
+              }
+            },
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/TransportOntology#tiene_Longitud",
+              "curie": "ontology:tiene_Longitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Longitud"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]
+
+[
+  {
+    "op": "core/column-removal",
+    "description": "Remove column destinos",
+    "columnName": "destinos"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column title using expression grel:value.substring(6)",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "title",
+    "expression": "grel:value.substring(6)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column title by separator",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "title",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "Líneas: ",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column title 1 to Address",
+    "oldColumnName": "title 1",
+    "newColumnName": "Address"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column title 2 to Líneas",
+    "oldColumnName": "title 2",
+    "newColumnName": "Líneas"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.zaramove.es/transportes/resource/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "ontology",
+          "uri": "http://www.zaramove.es/transportes/ontology"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column geometry by separator",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "geometry",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": ",",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column geometry 1 to latitud",
+    "oldColumnName": "geometry 1",
+    "newColumnName": "latitud"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column geometry 2 to longitud",
+    "oldColumnName": "geometry 2",
+    "newColumnName": "longitud"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.zaramove.es/transportes/resource/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "ontology",
+          "uri": "http://www.zaramove.es/transportes/ontology"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.zaramove.es/transportes/resource/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "ontology",
+          "uri": "http://www.zaramove.es/transportes/ontology"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.zaramove.es/transportes/resource/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "ontology",
+          "uri": "http://www.zaramove.es/transportes/ontology"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.zaramove.es/transportes/resource",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "ontology",
+          "uri": "http://www.zaramove.es/transportes/ontology"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.zaramove.es/transportes/resource",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "ontology",
+          "uri": "http://www.zaramove.es/transportes/ontology"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.zaramove.es/transportes/resource/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "ontology",
+          "uri": "http://www.zaramove.es/transportes/ontology/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "ontology",
+          "uri": "http://www.zaramove.es/transportes/ontology/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "resource",
+          "value": "Parada",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/hasAddress",
+              "curie": "ontology:hasAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Address"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "ontology",
+          "uri": "http://www.zaramove.es/transportes/ontology/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "id",
+          "rdfTypes": [
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/Marquesina",
+              "curie": "ontology:Marquesina"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/hasAddress",
+              "curie": "ontology:hasAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Address"
+              }
+            },
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/tiene_id",
+              "curie": "ontology:tiene_id",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "id",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/tiene_cono",
+              "curie": "ontology:tiene_cono",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Líneas"
+              }
+            },
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/fecha_Actualizacion",
+              "curie": "ontology:fecha_Actualizacion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "lastUpdated"
+              }
+            },
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/tiene_Latitud",
+              "curie": "ontology:tiene_Latitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "latitud"
+              }
+            },
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/tiene_Longitud",
+              "curie": "ontology:tiene_Longitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "longitud"
+              }
+            },
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/tiene_Link",
+              "curie": "ontology:tiene_Link",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "link"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "id",
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  }
+]
+[
+  {
+    "op": "core/column-removal",
+    "description": "Remove column description",
+    "columnName": "description"
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column geometry by separator",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "geometry",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": ",",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column geometry 1 to Latitud",
+    "oldColumnName": "geometry 1",
+    "newColumnName": "Latitud"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column geometry 2 to Longitud",
+    "oldColumnName": "geometry 2",
+    "newColumnName": "Longitud"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column about to Info",
+    "oldColumnName": "about",
+    "newColumnName": "Info"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "ontology",
+          "uri": "http://www.zaramove.es/transportes/ontology/TransportOntology#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "id",
+          "rdfTypes": [
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/TransportOntology#EstacionBici",
+              "curie": "ontology:EstacionBici"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/TransportOntology#tiene_id",
+              "curie": "ontology:tiene_id",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "id"
+              }
+            },
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/TransportOntology#tiene_info",
+              "curie": "ontology:tiene_info",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Info"
+              }
+            },
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/TransportOntology#has_address",
+              "curie": "ontology:has_address",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "title"
+              }
+            },
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/TransportOntology#tiene_estado",
+              "curie": "ontology:tiene_estado",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "estado"
+              }
+            },
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/TransportOntology#tiene_bicis",
+              "curie": "ontology:tiene_bicis",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "bicisDisponibles"
+              }
+            },
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/TransportOntology#tiene_anclajes",
+              "curie": "ontology:tiene_anclajes",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "anclajesDisponibles"
+              }
+            },
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/TransportOntology#tiene_Latitud",
+              "curie": "ontology:tiene_Latitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Latitud"
+              }
+            },
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/TransportOntology#tiene_Longitud",
+              "curie": "ontology:tiene_Longitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Longitud"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.zaramove.es/transportes/resource/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "ontology",
+          "uri": "http://www.zaramove.es/transportes/ontology/TransportOntology#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "id",
+          "rdfTypes": [
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/TransportOntology#EstacionBici",
+              "curie": "ontology:EstacionBici"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/TransportOntology#tiene_id",
+              "curie": "ontology:tiene_id",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "\"bici-\"+value.substring(-3)",
+                "isRowNumberCell": false,
+                "columnName": "id"
+              }
+            },
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/TransportOntology#tiene_info",
+              "curie": "ontology:tiene_info",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Info",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/TransportOntology#has_address",
+              "curie": "ontology:has_address",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "title"
+              }
+            },
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/TransportOntology#tiene_estado",
+              "curie": "ontology:tiene_estado",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "estado"
+              }
+            },
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/TransportOntology#tiene_bicis",
+              "curie": "ontology:tiene_bicis",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "bicisDisponibles"
+              }
+            },
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/TransportOntology#tiene_anclajes",
+              "curie": "ontology:tiene_anclajes",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "anclajesDisponibles"
+              }
+            },
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/TransportOntology#tiene_Latitud",
+              "curie": "ontology:tiene_Latitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#float",
+                "columnName": "Latitud"
+              }
+            },
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/TransportOntology#tiene_Longitud",
+              "curie": "ontology:tiene_Longitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#float",
+                "columnName": "Longitud"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column name at index 1 based on column id using expression grel:\"Estacion \"+value.substring(-3)",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "name",
+    "columnInsertIndex": 1,
+    "baseColumnName": "id",
+    "expression": "grel:\"Estacion \"+value.substring(-3)",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.zaramove.es/transportes/resource/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "ontology",
+          "uri": "http://www.zaramove.es/transportes/ontology/TransportOntology#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "id",
+          "rdfTypes": [
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/TransportOntology#EstacionBici",
+              "curie": "ontology:EstacionBici"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/TransportOntology#tiene_id",
+              "curie": "ontology:tiene_id",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "\"bici-\"+value.substring(-3)",
+                "isRowNumberCell": false,
+                "columnName": "id"
+              }
+            },
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/TransportOntology#tiene_info",
+              "curie": "ontology:tiene_info",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Info",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/TransportOntology#has_address",
+              "curie": "ontology:has_address",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "title"
+              }
+            },
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/TransportOntology#tiene_estado",
+              "curie": "ontology:tiene_estado",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "estado"
+              }
+            },
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/TransportOntology#tiene_bicis",
+              "curie": "ontology:tiene_bicis",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "bicisDisponibles"
+              }
+            },
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/TransportOntology#tiene_anclajes",
+              "curie": "ontology:tiene_anclajes",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "anclajesDisponibles"
+              }
+            },
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/TransportOntology#tiene_Latitud",
+              "curie": "ontology:tiene_Latitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#float",
+                "columnName": "Latitud"
+              }
+            },
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/TransportOntology#tiene_Longitud",
+              "curie": "ontology:tiene_Longitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#float",
+                "columnName": "Longitud"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "name"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]
+
+[
+  {
+    "op": "core/column-removal",
+    "description": "Remove column destinos",
+    "columnName": "destinos"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column title using expression grel:value.substring(6)",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "title",
+    "expression": "grel:value.substring(6)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column title by separator",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "title",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "Líneas: ",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column title 1 to Address",
+    "oldColumnName": "title 1",
+    "newColumnName": "Address"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column title 2 to Líneas",
+    "oldColumnName": "title 2",
+    "newColumnName": "Líneas"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.zaramove.es/transportes/resource/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "ontology",
+          "uri": "http://www.zaramove.es/transportes/ontology"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column geometry by separator",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "geometry",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": ",",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column geometry 1 to latitud",
+    "oldColumnName": "geometry 1",
+    "newColumnName": "latitud"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column geometry 2 to longitud",
+    "oldColumnName": "geometry 2",
+    "newColumnName": "longitud"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.zaramove.es/transportes/resource/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "ontology",
+          "uri": "http://www.zaramove.es/transportes/ontology"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.zaramove.es/transportes/resource/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "ontology",
+          "uri": "http://www.zaramove.es/transportes/ontology"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.zaramove.es/transportes/resource/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "ontology",
+          "uri": "http://www.zaramove.es/transportes/ontology"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.zaramove.es/transportes/resource",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "ontology",
+          "uri": "http://www.zaramove.es/transportes/ontology"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.zaramove.es/transportes/resource",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "ontology",
+          "uri": "http://www.zaramove.es/transportes/ontology"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.zaramove.es/transportes/resource/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "ontology",
+          "uri": "http://www.zaramove.es/transportes/ontology/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "ontology",
+          "uri": "http://www.zaramove.es/transportes/ontology/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "resource",
+          "value": "Parada",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/hasAddress",
+              "curie": "ontology:hasAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Address"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "ontology",
+          "uri": "http://www.zaramove.es/transportes/ontology/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "id",
+          "rdfTypes": [
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/Marquesina",
+              "curie": "ontology:Marquesina"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/hasAddress",
+              "curie": "ontology:hasAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Address"
+              }
+            },
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/tiene_id",
+              "curie": "ontology:tiene_id",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "id",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/tiene_cono",
+              "curie": "ontology:tiene_cono",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Líneas"
+              }
+            },
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/fecha_Actualizacion",
+              "curie": "ontology:fecha_Actualizacion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "lastUpdated"
+              }
+            },
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/tiene_Latitud",
+              "curie": "ontology:tiene_Latitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "latitud"
+              }
+            },
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/tiene_Longitud",
+              "curie": "ontology:tiene_Longitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "longitud"
+              }
+            },
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/tiene_Link",
+              "curie": "ontology:tiene_Link",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "link"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "id",
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://localhost:3333/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "ontology",
+          "uri": "http://www.zaramove.es/transportes/ontology/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "id",
+          "rdfTypes": [
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/Marquesina",
+              "curie": "ontology:Marquesina"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/hasAddress",
+              "curie": "ontology:hasAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Address"
+              }
+            },
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/tiene_id",
+              "curie": "ontology:tiene_id",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "id",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/tiene_cono",
+              "curie": "ontology:tiene_cono",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Líneas"
+              }
+            },
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/fecha_Actualizacion",
+              "curie": "ontology:fecha_Actualizacion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "lastUpdated"
+              }
+            },
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/tiene_Latitud",
+              "curie": "ontology:tiene_Latitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "latitud"
+              }
+            },
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/tiene_Longitud",
+              "curie": "ontology:tiene_Longitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "longitud"
+              }
+            },
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/tiene_Link",
+              "curie": "ontology:tiene_Link",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "link"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "id",
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column name at index 1 based on column id using expression grel:value.substring(-3)",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "name",
+    "columnInsertIndex": 1,
+    "baseColumnName": "id",
+    "expression": "grel:value.substring(-3)",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.zaramove.es/transportes/resource/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "ontology",
+          "uri": "http://www.zaramove.es/transportes/ontology/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "id",
+          "rdfTypes": [
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/Marquesina",
+              "curie": "ontology:Marquesina"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/hasAddress",
+              "curie": "ontology:hasAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Address"
+              }
+            },
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/tiene_id",
+              "curie": "ontology:tiene_id",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "id",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/tiene_cono",
+              "curie": "ontology:tiene_cono",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Líneas"
+              }
+            },
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/fecha_Actualizacion",
+              "curie": "ontology:fecha_Actualizacion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "lastUpdated"
+              }
+            },
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/tiene_Latitud",
+              "curie": "ontology:tiene_Latitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "latitud"
+              }
+            },
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/tiene_Longitud",
+              "curie": "ontology:tiene_Longitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "longitud"
+              }
+            },
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/tiene_Link",
+              "curie": "ontology:tiene_Link",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "link"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "name"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "id",
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.zaramove.es/transportes/resource/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "ontology",
+          "uri": "http://www.zaramove.es/transportes/ontology/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Marquesina#\"+value.substring(-3)",
+          "isRowNumberCell": false,
+          "columnName": "id",
+          "rdfTypes": [
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/Marquesina",
+              "curie": "ontology:Marquesina"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/hasAddress",
+              "curie": "ontology:hasAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Address"
+              }
+            },
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/tiene_id",
+              "curie": "ontology:tiene_id",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Marquesina#\"+value.substring(-3)",
+                "isRowNumberCell": false,
+                "columnName": "id",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/tiene_icono",
+              "curie": "ontology:tiene_icono",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "icon"
+              }
+            },
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/fecha_Actualizacion",
+              "curie": "ontology:fecha_Actualizacion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "lastUpdated"
+              }
+            },
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/tiene_Latitud",
+              "curie": "ontology:tiene_Latitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#float",
+                "columnName": "latitud"
+              }
+            },
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/tiene_Longitud",
+              "curie": "ontology:tiene_Longitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "longitud"
+              }
+            },
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/tiene_Link",
+              "curie": "ontology:tiene_Link",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "link"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "name"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "id",
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.zaramove.es/transportes/resource/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "ontology",
+          "uri": "http://www.zaramove.es/transportes/ontology/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Marquesina#\"+value.substring(-3)",
+          "isRowNumberCell": false,
+          "columnName": "id",
+          "rdfTypes": [
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/Marquesina",
+              "curie": "ontology:Marquesina"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/hasAddress",
+              "curie": "ontology:hasAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Address"
+              }
+            },
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/tiene_id",
+              "curie": "ontology:tiene_id",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value.substring(-9)",
+                "isRowNumberCell": false,
+                "columnName": "id"
+              }
+            },
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/tiene_icono",
+              "curie": "ontology:tiene_icono",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "icon"
+              }
+            },
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/fecha_Actualizacion",
+              "curie": "ontology:fecha_Actualizacion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "lastUpdated"
+              }
+            },
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/tiene_Latitud",
+              "curie": "ontology:tiene_Latitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#float",
+                "columnName": "latitud"
+              }
+            },
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/tiene_Longitud",
+              "curie": "ontology:tiene_Longitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#float",
+                "columnName": "longitud"
+              }
+            },
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/tiene_Link",
+              "curie": "ontology:tiene_Link",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "link"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "\"Marquesina \"+value",
+                "isRowNumberCell": false,
+                "columnName": "name"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "id",
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  }
+]
