@@ -1,0 +1,90 @@
+ @prefix owl: <http://www.w3.org/2002/07/owl#> .
+ @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+ @prefix xml: <http://www.w3.org/XML/1998/namespace> .
+ @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+ @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+ @prefix : <http://www.semanticweb.es/group08/ontology#> .
+ 
+ : rdf:type owl:Ontology . 
+ 
+ #################################################################
+ #    Object Properties
+ ################################################################# 
+ 
+ ###  http://www.semanticweb.es/group08/ontology#inLibrary
+ :inLibrary	rdf:type owl:ObjectProperty ;
+            rdfs:domain :activity ;
+            rdfs:range :library .
+ 
+ 
+ #################################################################
+ #    Data properties
+ #################################################################
+ 
+ ###  http://www.semanticweb.es/group08/ontology#hasName
+ :hasName rdf:type owl:DatatypeProperty ;
+          rdfs:domain :library ;
+          rdfs:range xsd:string .
+ 
+ 
+ ###  http://www.semanticweb.es/group08/ontology#hasSchedule
+ :hasSchedule rdf:type owl:DatatypeProperty ;
+              rdfs:domain :library ;
+              rdfs:range xsd:string .
+ 
+ 
+ ###  http://www.semanticweb.es/group08/ontology#hasAddress
+ :hasAddress rdf:type owl:DatatypeProperty ;
+             rdfs:domain :library ;
+             rdfs:range xsd:string .
+ 
+ 
+ ###  http://www.semanticweb.es/group08/ontology#hasTelephone
+ :hasTelephone rdf:type owl:DatatypeProperty ;
+               rdfs:domain :library ;
+               rdfs:range xsd:string .
+ 
+ ###  http://www.semanticweb.es/group08/ontology#hasEmail
+ :hasEmail rdf:type owl:DatatypeProperty ;
+               rdfs:domain :library ;
+               rdfs:range xsd:string .
+  
+
+ ###  http://www.semanticweb.es/group08/ontology#hasTitle
+ :hasTitle rdf:type owl:DatatypeProperty ;
+           rdfs:domain :activity ;
+           rdfs:range xsd:string .
+ 
+ 
+ ###  http://www.semanticweb.es/group08/ontology#hasHour
+ :hasHour rdf:type owl:DatatypeProperty ;
+          rdfs:domain :activity ;
+          rdfs:range xsd:string .
+					  
+					  
+ ###  http://www.semanticweb.es/group08/ontology#dateStart
+ :dateStart rdf:type owl:DatatypeProperty ;
+            rdfs:domain :activity ;
+            rdfs:range xsd:string .
+
+ ###  http://www.semanticweb.es/group08/ontology#dateEnd
+ :dateEnd rdf:type owl:DatatypeProperty ;
+          rdfs:domain :activity ;
+          rdfs:range xsd:string .
+
+ ###  http://www.semanticweb.es/group08/ontology#url
+ :url rdf:type owl:DatatypeProperty ;
+	  rdfs:domain :activity ;
+	  rdfs:range xsd:string .
+					  
+ 
+ #################################################################
+ #    Classes
+ #################################################################
+ 
+ ###  http://www.semanticweb.es/group08/ontology#library
+ :library rdf:type owl:Class .
+ 
+ 
+ ###  http://www.semanticweb.es/group08/ontology#activity
+ :activity rdf:type owl:Class . 

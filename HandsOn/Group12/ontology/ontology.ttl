@@ -1,0 +1,183 @@
+@prefix : <http://www.semanticweb.org/group12/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/group12/ontology> .
+
+<http://www.semanticweb.org/group12/ontology> rdf:type owl:Ontology .
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/group12/ontology#dateFrom
+:dateFrom rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Calendar ;
+          rdfs:range xsd:dateTime .
+
+
+###  http://www.semanticweb.org/group12/ontology#dateTo
+:dateTo rdf:type owl:DatatypeProperty ;
+        rdfs:domain :Calendar ;
+        rdfs:range xsd:dateTime .
+
+
+###  http://www.semanticweb.org/group12/ontology#directionID
+:directionID rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Service ;
+             rdfs:range xsd:boolean .
+
+
+###  http://www.semanticweb.org/group12/ontology#hasServiceFriday
+:hasServiceFriday rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Calendar ;
+                  rdfs:range xsd:boolean .
+
+
+###  http://www.semanticweb.org/group12/ontology#hasServiceMonday
+:hasServiceMonday rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Calendar ;
+                  rdfs:range xsd:boolean .
+
+
+###  http://www.semanticweb.org/group12/ontology#hasServiceSaturday
+:hasServiceSaturday rdf:type owl:DatatypeProperty ;
+                    rdfs:domain :Calendar ;
+                    rdfs:range xsd:boolean .
+
+
+###  http://www.semanticweb.org/group12/ontology#hasServiceSunday
+:hasServiceSunday rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Calendar ;
+                  rdfs:range xsd:boolean .
+
+
+###  http://www.semanticweb.org/group12/ontology#hasServiceThursday
+:hasServiceThursday rdf:type owl:DatatypeProperty ;
+                    rdfs:domain :Calendar ;
+                    rdfs:range xsd:boolean .
+
+
+###  http://www.semanticweb.org/group12/ontology#hasServiceTuesday
+:hasServiceTuesday rdf:type owl:DatatypeProperty ;
+                   rdfs:domain :Calendar ;
+                   rdfs:range xsd:boolean .
+
+
+###  http://www.semanticweb.org/group12/ontology#hasServiceWednesday
+:hasServiceWednesday rdf:type owl:DatatypeProperty ;
+                     rdfs:domain :Calendar ;
+                     rdfs:range xsd:boolean .
+
+
+###  http://www.semanticweb.org/group12/ontology#hasTimeTable
+:hasTimeTable rdf:type owl:DatatypeProperty ;
+              rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/group12/ontology#journey
+:journey rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Route ;
+         rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/group12/ontology#parentStation
+:parentStation rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Busstop ;
+               rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/group12/ontology#routeID
+:routeID rdf:type owl:DatatypeProperty ;
+         rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/group12/ontology#routeLine
+:routeLine rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Route ;
+           rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/group12/ontology#routeURL
+:routeURL rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Route ;
+          rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/group12/ontology#serviceID
+:serviceID rdf:type owl:DatatypeProperty ;
+           rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/group12/ontology#stopAddress
+:stopAddress rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Busstop ;
+             rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/group12/ontology#stopID
+:stopID rdf:type owl:DatatypeProperty ;
+        rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/group12/ontology#stopName
+:stopName rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Busstop ;
+          rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/group12/ontology#stopZone
+:stopZone rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Busstop ;
+          rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/group12/ontology#tripHeadsign
+:tripHeadsign rdf:type owl:DatatypeProperty ;
+              rdfs:domain :Service ;
+              rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/group12/ontology#tripShortName
+:tripShortName rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Service ;
+               rdfs:range xsd:string .
+
+
+###  http://www.w3.org/2003/01/geo/wgs84_pos#lat
+<http://www.w3.org/2003/01/geo/wgs84_pos#lat> rdf:type owl:DatatypeProperty ;
+                                              rdfs:domain :Busstop .
+
+
+###  http://www.w3.org/2003/01/geo/wgs84_pos#long
+<http://www.w3.org/2003/01/geo/wgs84_pos#long> rdf:type owl:DatatypeProperty ;
+                                               rdfs:domain :Busstop .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/group12/ontology#Busstop
+:Busstop rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/group12/ontology#Calendar
+:Calendar rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/group12/ontology#Route
+:Route rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/group12/ontology#Service
+:Service rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/group12/ontology#Timetable
+:Timetable rdf:type owl:Class .
+
+
+###  Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi

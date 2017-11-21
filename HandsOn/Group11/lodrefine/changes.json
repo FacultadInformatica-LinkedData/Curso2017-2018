@@ -1,0 +1,3324 @@
+[
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 3",
+    "columnName": "Column 3"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 7",
+    "columnName": "Column 7"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 23",
+    "columnName": "Column 23"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://127.0.0.1:3333/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://127.0.0.1:3333/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xml",
+          "uri": "http://www.w3.org/XML/1998/namespace"
+        },
+        {
+          "name": "property",
+          "uri": "//datos.madrid_evento.es/group11/resources/property#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "ns0",
+          "uri": "http://datos.madrid_evento.es/group11/resources#"
+        },
+        {
+          "name": "type",
+          "uri": "//datos.madrid_evento.es/group11/resources/type#"
+        },
+        {
+          "name": "class",
+          "uri": "//datos.madrid_evento.es/group11/resources/class#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://127.0.0.1:3333/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xml",
+          "uri": "http://www.w3.org/XML/1998/namespace"
+        },
+        {
+          "name": "property",
+          "uri": "//datos.madrid_evento.es/group11/resources/property#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "ns0",
+          "uri": "http://datos.madrid_evento.es/group11/resources#"
+        },
+        {
+          "name": "type",
+          "uri": "//datos.madrid_evento.es/group11/resources/type#"
+        },
+        {
+          "name": "class",
+          "uri": "//datos.madrid_evento.es/group11/resources/class#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://127.0.0.1:3333/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xml",
+          "uri": "http://www.w3.org/XML/1998/namespace"
+        },
+        {
+          "name": "property",
+          "uri": "//datos.madrid_evento.es/group11/resources/property#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "ns0",
+          "uri": "http://datos.madrid_evento.es/group11/resources#"
+        },
+        {
+          "name": "type",
+          "uri": "//datos.madrid_evento.es/group11/resources/type#"
+        },
+        {
+          "name": "class",
+          "uri": "//datos.madrid_evento.es/group11/resources/class#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://datos.madrid_evento.es/group11/resources#",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xml",
+          "uri": "http://www.w3.org/XML/1998/namespace"
+        },
+        {
+          "name": "property",
+          "uri": "//datos.madrid_evento.es/group11/resources/property#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "ns0",
+          "uri": "http://datos.madrid_evento.es/group11/resources#"
+        },
+        {
+          "name": "class",
+          "uri": "//datos.madrid_evento.es/group11/resources/class#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2002/07/owl#Class",
+              "curie": "owl:Class"
+            }
+          ],
+          "links": [
+            {
+              "uri": "//datos.madrid_evento.es/group11/resources/property#name",
+              "curie": "property:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Column 2"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://datos.madrid_evento.es/group11/resources#",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xml",
+          "uri": "http://www.w3.org/XML/1998/namespace"
+        },
+        {
+          "name": "property",
+          "uri": "//datos.madrid_evento.es/group11/resources/property#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "ns0",
+          "uri": "http://datos.madrid_evento.es/group11/resources#"
+        },
+        {
+          "name": "type",
+          "uri": "//datos.madrid_evento.es/group11/resources/type#"
+        },
+        {
+          "name": "class",
+          "uri": "//datos.madrid_evento.es/group11/resources/class#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [
+            {
+              "uri": "//datos.madrid_evento.es/group11/resources/class#Event",
+              "curie": "class:Event"
+            }
+          ],
+          "links": [
+            {
+              "uri": "//datos.madrid_evento.es/group11/resources/property#name",
+              "curie": "property:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Column 2"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://datos.madrid_evento.es/group11/resources#",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xml",
+          "uri": "http://www.w3.org/XML/1998/namespace"
+        },
+        {
+          "name": "property",
+          "uri": "//datos.madrid_evento.es/group11/resources/property#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "ns0",
+          "uri": "http://datos.madrid_evento.es/group11/resources#"
+        },
+        {
+          "name": "type",
+          "uri": "//datos.madrid_evento.es/group11/resources/type#"
+        },
+        {
+          "name": "class",
+          "uri": "//datos.madrid_evento.es/group11/resources/class#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "resource",
+          "value": "class",
+          "rdfTypes": [
+            {
+              "uri": "//datos.madrid_evento.es/group11/resources/class#Event",
+              "curie": "class:Event"
+            }
+          ],
+          "links": [
+            {
+              "uri": "//datos.madrid_evento.es/group11/resources/property#name",
+              "curie": "property:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Column 2"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://datos.madrid_evento.es/group11/resources#",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xml",
+          "uri": "http://www.w3.org/XML/1998/namespace"
+        },
+        {
+          "name": "property",
+          "uri": "//datos.madrid_evento.es/group11/resources/property#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "ns0",
+          "uri": "http://datos.madrid_evento.es/group11/resources#"
+        },
+        {
+          "name": "type",
+          "uri": "//datos.madrid_evento.es/group11/resources/type#"
+        },
+        {
+          "name": "class",
+          "uri": "//datos.madrid_evento.es/group11/resources/class#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "resource",
+          "value": "class",
+          "rdfTypes": [
+            {
+              "uri": "//datos.madrid_evento.es/group11/resources/class#Event",
+              "curie": "class:Event"
+            }
+          ],
+          "links": [
+            {
+              "uri": "//datos.madrid_evento.es/group11/resources/property#name",
+              "curie": "property:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Column 2"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column to  ID-EVENTO",
+    "oldColumnName": "Column",
+    "newColumnName": " ID-EVENTO"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 2 to TITULO",
+    "oldColumnName": "Column 2",
+    "newColumnName": "TITULO"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 4 to GRATUITO",
+    "oldColumnName": "Column 4",
+    "newColumnName": "GRATUITO"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 5 to LARGA-DURACION",
+    "oldColumnName": "Column 5",
+    "newColumnName": "LARGA-DURACION"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 6 to DIAS-SEMANA",
+    "oldColumnName": "Column 6",
+    "newColumnName": "DIAS-SEMANA"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 8 to FECHA",
+    "oldColumnName": "Column 8",
+    "newColumnName": "FECHA"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 9 to FECHA-FIN",
+    "oldColumnName": "Column 9",
+    "newColumnName": "FECHA-FIN"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 10 to HORA",
+    "oldColumnName": "Column 10",
+    "newColumnName": "HORA"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 11 to DESCRIPCION",
+    "oldColumnName": "Column 11",
+    "newColumnName": "DESCRIPCION"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 12 to CONTENT-URL",
+    "oldColumnName": "Column 12",
+    "newColumnName": "CONTENT-URL"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 13 to TITULO-ACTIVIDAD",
+    "oldColumnName": "Column 13",
+    "newColumnName": "TITULO-ACTIVIDAD"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 14 to URL-ACTIVIDAD",
+    "oldColumnName": "Column 14",
+    "newColumnName": "URL-ACTIVIDAD"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 15 to URL-INSTALACION",
+    "oldColumnName": "Column 15",
+    "newColumnName": "URL-INSTALACION"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 16 to NOMBRE-INSTALACION",
+    "oldColumnName": "Column 16",
+    "newColumnName": "NOMBRE-INSTALACION"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 17 to COORDENADA-X",
+    "oldColumnName": "Column 17",
+    "newColumnName": "COORDENADA-X"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 18 to COORDENADA-Y",
+    "oldColumnName": "Column 18",
+    "newColumnName": "COORDENADA-Y"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 19 to LATITUD",
+    "oldColumnName": "Column 19",
+    "newColumnName": "LATITUD"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 20 to LONGITUD",
+    "oldColumnName": "Column 20",
+    "newColumnName": "LONGITUD"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 21 to DISTRITO",
+    "oldColumnName": "Column 21",
+    "newColumnName": "DISTRITO"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 22 to TIPO",
+    "oldColumnName": "Column 22",
+    "newColumnName": "TIPO"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://datos.madrid_evento.es/group11/resources#",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xml",
+          "uri": "http://www.w3.org/XML/1998/namespace"
+        },
+        {
+          "name": "property",
+          "uri": "//datos.madrid_evento.es/group11/resources/property#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "ns0",
+          "uri": "http://datos.madrid_evento.es/group11/resources#"
+        },
+        {
+          "name": "type",
+          "uri": "//datos.madrid_evento.es/group11/resources/type#"
+        },
+        {
+          "name": "class",
+          "uri": "//datos.madrid_evento.es/group11/resources/class#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "resource",
+          "value": "class",
+          "rdfTypes": [
+            {
+              "uri": "//datos.madrid_evento.es/group11/resources/class#Event",
+              "curie": "class:Event"
+            }
+          ],
+          "links": [
+            {
+              "uri": "//datos.madrid_evento.es/group11/resources/property#name",
+              "curie": "property:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TITULO"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DESCRIPCION",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DESCRIPCION",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "DESCRIPCION"
+        ],
+        "to": ""
+      }
+    ]
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://datos.madrid_evento.es/group11/resources#",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xml",
+          "uri": "http://www.w3.org/XML/1998/namespace"
+        },
+        {
+          "name": "property",
+          "uri": "//datos.madrid_evento.es/group11/resources/property#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "ns0",
+          "uri": "http://datos.madrid_evento.es/group11/resources#"
+        },
+        {
+          "name": "type",
+          "uri": "//datos.madrid_evento.es/group11/resources/type#"
+        },
+        {
+          "name": "class",
+          "uri": "//datos.madrid_evento.es/group11/resources/class#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "resource",
+          "value": "class",
+          "rdfTypes": [
+            {
+              "uri": "//datos.madrid_evento.es/group11/resources/class#Event",
+              "curie": "class:Event"
+            }
+          ],
+          "links": [
+            {
+              "uri": "//datos.madrid_evento.es/group11/resources/property#name",
+              "curie": "property:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TITULO"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://datos.madrid_evento.es/group11/resources#",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xml",
+          "uri": "http://www.w3.org/XML/1998/namespace"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "property",
+          "uri": "http://datos.madrid_evento.es/group11/resources/property#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "ns0",
+          "uri": "http://datos.madrid_evento.es/group11/resources#"
+        },
+        {
+          "name": "type",
+          "uri": "//datos.madrid_evento.es/group11/resources/type#"
+        },
+        {
+          "name": "class",
+          "uri": "//datos.madrid_evento.es/group11/resources/class#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "resource",
+          "value": "class",
+          "rdfTypes": [
+            {
+              "uri": "//datos.madrid_evento.es/group11/resources/class#Event",
+              "curie": "class:Event"
+            }
+          ],
+          "links": [
+            {
+              "uri": "//datos.madrid_evento.es/group11/resources/property#name",
+              "curie": "property:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TITULO"
+              }
+            },
+            {
+              "uri": "//datos.madrid_evento.es/group11/resources/property#description",
+              "curie": "property:description",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "//datos.madrid_evento.es/group11/resources/property#daysOfTheWeek",
+              "curie": "property:daysOfTheWeek",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DIAS-SEMANA"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://datos.madrid_evento.es/group11/resources#",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xml",
+          "uri": "http://www.w3.org/XML/1998/namespace"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "property",
+          "uri": "http://datos.madrid_evento.es/group11/resources/property#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "ns0",
+          "uri": "http://datos.madrid_evento.es/group11/resources#"
+        },
+        {
+          "name": "type",
+          "uri": "//datos.madrid_evento.es/group11/resources/type#"
+        },
+        {
+          "name": "class",
+          "uri": "//datos.madrid_evento.es/group11/resources/class#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "resource",
+          "value": "class",
+          "rdfTypes": [
+            {
+              "uri": "//datos.madrid_evento.es/group11/resources/class#Event",
+              "curie": "class:Event"
+            }
+          ],
+          "links": [
+            {
+              "uri": "//datos.madrid_evento.es/group11/resources/property#name",
+              "curie": "property:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TITULO"
+              }
+            },
+            {
+              "uri": "//datos.madrid_evento.es/group11/resources/property#description",
+              "curie": "property:description",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "//datos.madrid_evento.es/group11/resources/property#daysOfTheWeek",
+              "curie": "property:daysOfTheWeek",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DIAS-SEMANA"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://datos.madrid_evento.es/group11/resources#",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xml",
+          "uri": "http://www.w3.org/XML/1998/namespace"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "property",
+          "uri": "http://datos.madrid_evento.es/group11/resources/property#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "ns0",
+          "uri": "http://datos.madrid_evento.es/group11/resources#"
+        },
+        {
+          "name": "type",
+          "uri": "//datos.madrid_evento.es/group11/resources/type#"
+        },
+        {
+          "name": "class",
+          "uri": "//datos.madrid_evento.es/group11/resources/class#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "resource",
+          "value": "class",
+          "rdfTypes": [
+            {
+              "uri": "//datos.madrid_evento.es/group11/resources/class#Event",
+              "curie": "class:Event"
+            }
+          ],
+          "links": [
+            {
+              "uri": "//datos.madrid_evento.es/group11/resources/property#name",
+              "curie": "property:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TITULO"
+              }
+            },
+            {
+              "uri": "//datos.madrid_evento.es/group11/resources/property#description",
+              "curie": "property:description",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "//datos.madrid_evento.es/group11/resources/property#daysOfTheWeek",
+              "curie": "property:daysOfTheWeek",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DIAS-SEMANA"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#isFree",
+              "curie": "property:isFree",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "GRATUITO"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://datos.madrid_evento.es/group11/resources#",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xml",
+          "uri": "http://www.w3.org/XML/1998/namespace"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "property",
+          "uri": "http://datos.madrid_evento.es/group11/resources/property#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "ns0",
+          "uri": "http://datos.madrid_evento.es/group11/resources#"
+        },
+        {
+          "name": "type",
+          "uri": "//datos.madrid_evento.es/group11/resources/type#"
+        },
+        {
+          "name": "class",
+          "uri": "//datos.madrid_evento.es/group11/resources/class#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "resource",
+          "value": "class",
+          "rdfTypes": [
+            {
+              "uri": "//datos.madrid_evento.es/group11/resources/class#Event",
+              "curie": "class:Event"
+            }
+          ],
+          "links": [
+            {
+              "uri": "//datos.madrid_evento.es/group11/resources/property#name",
+              "curie": "property:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TITULO"
+              }
+            },
+            {
+              "uri": "//datos.madrid_evento.es/group11/resources/property#description",
+              "curie": "property:description",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "//datos.madrid_evento.es/group11/resources/property#daysOfTheWeek",
+              "curie": "property:daysOfTheWeek",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DIAS-SEMANA"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#isFree",
+              "curie": "property:isFree",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "GRATUITO"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://datos.madrid_evento.es/group11/resources#",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xml",
+          "uri": "http://www.w3.org/XML/1998/namespace"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "property",
+          "uri": "http://datos.madrid_evento.es/group11/resources/property#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "ns0",
+          "uri": "http://datos.madrid_evento.es/group11/resources#"
+        },
+        {
+          "name": "type",
+          "uri": "//datos.madrid_evento.es/group11/resources/type#"
+        },
+        {
+          "name": "class",
+          "uri": "//datos.madrid_evento.es/group11/resources/class#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "resource",
+          "value": "class",
+          "rdfTypes": [
+            {
+              "uri": "//datos.madrid_evento.es/group11/resources/class#Event",
+              "curie": "class:Event"
+            }
+          ],
+          "links": [
+            {
+              "uri": "//datos.madrid_evento.es/group11/resources/property#name",
+              "curie": "property:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TITULO"
+              }
+            },
+            {
+              "uri": "//datos.madrid_evento.es/group11/resources/property#description",
+              "curie": "property:description",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "//datos.madrid_evento.es/group11/resources/property#daysOfTheWeek",
+              "curie": "property:daysOfTheWeek",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DIAS-SEMANA"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#isFree",
+              "curie": "property:isFree",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "GRATUITO"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://datos.madrid_evento.es/group11/resources#",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xml",
+          "uri": "http://www.w3.org/XML/1998/namespace"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "property",
+          "uri": "http://datos.madrid_evento.es/group11/resources/property#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "ns0",
+          "uri": "http://datos.madrid_evento.es/group11/resources#"
+        },
+        {
+          "name": "type",
+          "uri": "//datos.madrid_evento.es/group11/resources/type#"
+        },
+        {
+          "name": "class",
+          "uri": "//datos.madrid_evento.es/group11/resources/class#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "resource",
+          "value": "class",
+          "rdfTypes": [
+            {
+              "uri": "//datos.madrid_evento.es/group11/resources/class#Event",
+              "curie": "class:Event"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#name",
+              "curie": "property:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TITULO"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#description",
+              "curie": "property:description",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#daysOfTheWeek",
+              "curie": "property:daysOfTheWeek",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DIAS-SEMANA"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#isFree",
+              "curie": "property:isFree",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "GRATUITO"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://datos.madrid_evento.es/group11/resources#",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xml",
+          "uri": "http://www.w3.org/XML/1998/namespace"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "property",
+          "uri": "http://datos.madrid_evento.es/group11/resources/property#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "ns0",
+          "uri": "http://datos.madrid_evento.es/group11/resources#"
+        },
+        {
+          "name": "type",
+          "uri": "//datos.madrid_evento.es/group11/resources/type#"
+        },
+        {
+          "name": "class",
+          "uri": "http://datos.madrid_evento.es/group11/resources/class#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "resource",
+          "value": "class",
+          "rdfTypes": [
+            {
+              "uri": "//datos.madrid_evento.es/group11/resources/class#Event",
+              "curie": "class:Event"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#name",
+              "curie": "property:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TITULO"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#description",
+              "curie": "property:description",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#daysOfTheWeek",
+              "curie": "property:daysOfTheWeek",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DIAS-SEMANA"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#isFree",
+              "curie": "property:isFree",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "GRATUITO"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://datos.madrid_evento.es/group11/resources#",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xml",
+          "uri": "http://www.w3.org/XML/1998/namespace"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "property",
+          "uri": "http://datos.madrid_evento.es/group11/resources/property#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "ns0",
+          "uri": "http://datos.madrid_evento.es/group11/resources#"
+        },
+        {
+          "name": "type",
+          "uri": "//datos.madrid_evento.es/group11/resources/type#"
+        },
+        {
+          "name": "class",
+          "uri": "http://datos.madrid_evento.es/group11/resources/class#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "resource",
+          "value": "class",
+          "rdfTypes": [
+            {
+              "uri": "//datos.madrid_evento.es/group11/resources/class#Event",
+              "curie": "class:Event"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#name",
+              "curie": "property:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TITULO"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#description",
+              "curie": "property:description",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#daysOfTheWeek",
+              "curie": "property:daysOfTheWeek",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DIAS-SEMANA"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#isFree",
+              "curie": "property:isFree",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "GRATUITO"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://datos.madrid_evento.es/group11/resources#",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xml",
+          "uri": "http://www.w3.org/XML/1998/namespace"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "property",
+          "uri": "http://datos.madrid_evento.es/group11/resources/property#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "ns0",
+          "uri": "http://datos.madrid_evento.es/group11/resources#"
+        },
+        {
+          "name": "type",
+          "uri": "//datos.madrid_evento.es/group11/resources/type#"
+        },
+        {
+          "name": "class",
+          "uri": "http://datos.madrid_evento.es/group11/resources/class#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "resource",
+          "value": "class",
+          "rdfTypes": [
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/class#Event",
+              "curie": "class:Event"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#name",
+              "curie": "property:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TITULO"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#description",
+              "curie": "property:description",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#daysOfTheWeek",
+              "curie": "property:daysOfTheWeek",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DIAS-SEMANA"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#isFree",
+              "curie": "property:isFree",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "GRATUITO"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://datos.madrid_evento.es/group11/resources#",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xml",
+          "uri": "http://www.w3.org/XML/1998/namespace"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "property",
+          "uri": "http://datos.madrid_evento.es/group11/resources/property#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "ns0",
+          "uri": "http://datos.madrid_evento.es/group11/resources#"
+        },
+        {
+          "name": "type",
+          "uri": "//datos.madrid_evento.es/group11/resources/type#"
+        },
+        {
+          "name": "class",
+          "uri": "http://datos.madrid_evento.es/group11/resources/class#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "resource",
+          "value": "class",
+          "rdfTypes": [
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/class#Event",
+              "curie": "class:Event"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#name",
+              "curie": "property:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TITULO"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#description",
+              "curie": "property:description",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#daysOfTheWeek",
+              "curie": "property:daysOfTheWeek",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DIAS-SEMANA"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#isFree",
+              "curie": "property:isFree",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "GRATUITO"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://datos.madrid_evento.es/group11/resources#",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xml",
+          "uri": "http://www.w3.org/XML/1998/namespace"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "property",
+          "uri": "http://datos.madrid_evento.es/group11/resources/property#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "ns0",
+          "uri": "http://datos.madrid_evento.es/group11/resources#"
+        },
+        {
+          "name": "type",
+          "uri": "//datos.madrid_evento.es/group11/resources/type#"
+        },
+        {
+          "name": "class",
+          "uri": "http://datos.madrid_evento.es/group11/resources/class#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "resource",
+          "value": "class",
+          "rdfTypes": [
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/class#Event",
+              "curie": "class:Event"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#name",
+              "curie": "property:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TITULO"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#description",
+              "curie": "property:description",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#daysOfTheWeek",
+              "curie": "property:daysOfTheWeek",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DIAS-SEMANA"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#isFree",
+              "curie": "property:isFree",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "GRATUITO"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://datos.madrid_evento.es/group11/resources#",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xml",
+          "uri": "http://www.w3.org/XML/1998/namespace"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "property",
+          "uri": "http://datos.madrid_evento.es/group11/resources/property#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "ns0",
+          "uri": "http://datos.madrid_evento.es/group11/resources#"
+        },
+        {
+          "name": "type",
+          "uri": "//datos.madrid_evento.es/group11/resources/type#"
+        },
+        {
+          "name": "class",
+          "uri": "http://datos.madrid_evento.es/group11/resources/class#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "resource",
+          "value": "class",
+          "rdfTypes": [
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/class#Event",
+              "curie": "class:Event"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#name",
+              "curie": "property:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TITULO"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#description",
+              "curie": "property:description",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#daysOfTheWeek",
+              "curie": "property:daysOfTheWeek",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DIAS-SEMANA"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#isFree",
+              "curie": "property:isFree",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "GRATUITO"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://datos.madrid_evento.es/group11/resources#",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xml",
+          "uri": "http://www.w3.org/XML/1998/namespace"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "property",
+          "uri": "http://datos.madrid_evento.es/group11/resources/property#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "ns0",
+          "uri": "http://datos.madrid_evento.es/group11/resources#"
+        },
+        {
+          "name": "type",
+          "uri": "//datos.madrid_evento.es/group11/resources/type#"
+        },
+        {
+          "name": "class",
+          "uri": "http://datos.madrid_evento.es/group11/resources/class#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "resource",
+          "value": "class",
+          "rdfTypes": [
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/class#Event",
+              "curie": "class:Event"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#name",
+              "curie": "property:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TITULO"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#description",
+              "curie": "property:description",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#daysOfTheWeek",
+              "curie": "property:daysOfTheWeek",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DIAS-SEMANA"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#isFree",
+              "curie": "property:isFree",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "GRATUITO"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://datos.madrid_evento.es/group11/resources#",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xml",
+          "uri": "http://www.w3.org/XML/1998/namespace"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "property",
+          "uri": "http://datos.madrid_evento.es/group11/resources/property#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "ns0",
+          "uri": "http://datos.madrid_evento.es/group11/resources#"
+        },
+        {
+          "name": "type",
+          "uri": "//datos.madrid_evento.es/group11/resources/type#"
+        },
+        {
+          "name": "class",
+          "uri": "http://datos.madrid_evento.es/group11/resources/class#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "resource",
+          "value": "class",
+          "rdfTypes": [
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/class#Event",
+              "curie": "class:Event"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#name",
+              "curie": "property:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TITULO"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#description",
+              "curie": "property:description",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#daysOfTheWeek",
+              "curie": "property:daysOfTheWeek",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DIAS-SEMANA"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#isFree",
+              "curie": "property:isFree",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "GRATUITO"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://datos.madrid_evento.es/group11/resources#",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xml",
+          "uri": "http://www.w3.org/XML/1998/namespace"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "property",
+          "uri": "http://datos.madrid_evento.es/group11/resources/property#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "ns0",
+          "uri": "http://datos.madrid_evento.es/group11/resources#"
+        },
+        {
+          "name": "type",
+          "uri": "//datos.madrid_evento.es/group11/resources/type#"
+        },
+        {
+          "name": "class",
+          "uri": "http://datos.madrid_evento.es/group11/resources/class#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "resource",
+          "value": "class",
+          "rdfTypes": [
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/class#Event",
+              "curie": "class:Event"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#name",
+              "curie": "property:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TITULO"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#description",
+              "curie": "property:description",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#daysOfTheWeek",
+              "curie": "property:daysOfTheWeek",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DIAS-SEMANA"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#isFree",
+              "curie": "property:isFree",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "GRATUITO"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#location",
+              "curie": "property:location",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-INSTALACION"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#district",
+              "curie": "property:district",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#coordinateX",
+              "curie": "property:coordinateX",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "COORDENADA-X"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#coordinateY",
+              "curie": "property:coordinateY",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "COORDENADA-Y"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://datos.madrid_evento.es/group11/resources#",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xml",
+          "uri": "http://www.w3.org/XML/1998/namespace"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "property",
+          "uri": "http://datos.madrid_evento.es/group11/resources/property#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "ns0",
+          "uri": "http://datos.madrid_evento.es/group11/resources#"
+        },
+        {
+          "name": "type",
+          "uri": "//datos.madrid_evento.es/group11/resources/type#"
+        },
+        {
+          "name": "class",
+          "uri": "http://datos.madrid_evento.es/group11/resources/class#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "resource",
+          "value": "class",
+          "rdfTypes": [
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/class#Event",
+              "curie": "class:Event"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#name",
+              "curie": "property:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TITULO"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#description",
+              "curie": "property:description",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#daysOfTheWeek",
+              "curie": "property:daysOfTheWeek",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DIAS-SEMANA"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#isFree",
+              "curie": "property:isFree",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "GRATUITO"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#location",
+              "curie": "property:location",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-INSTALACION"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#district",
+              "curie": "property:district",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#coordinateX",
+              "curie": "property:coordinateX",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "COORDENADA-X"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#coordinateY",
+              "curie": "property:coordinateY",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "COORDENADA-Y"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://datos.madrid_evento.es/group11/resources#",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xml",
+          "uri": "http://www.w3.org/XML/1998/namespace"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "property",
+          "uri": "http://datos.madrid_evento.es/group11/resources/property#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "ns0",
+          "uri": "http://datos.madrid_evento.es/group11/resources#"
+        },
+        {
+          "name": "type",
+          "uri": "//datos.madrid_evento.es/group11/resources/type#"
+        },
+        {
+          "name": "class",
+          "uri": "http://datos.madrid_evento.es/group11/resources/class#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "resource",
+          "value": "class",
+          "rdfTypes": [
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/class#Event",
+              "curie": "class:Event"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#name",
+              "curie": "property:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TITULO"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#description",
+              "curie": "property:description",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#daysOfTheWeek",
+              "curie": "property:daysOfTheWeek",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DIAS-SEMANA"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#isFree",
+              "curie": "property:isFree",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "GRATUITO"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#location",
+              "curie": "property:location",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-INSTALACION"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#district",
+              "curie": "property:district",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#coordinateX",
+              "curie": "property:coordinateX",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "COORDENADA-X"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#coordinateY",
+              "curie": "property:coordinateY",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "COORDENADA-Y"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://datos.madrid_evento.es/group11/resources#",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xml",
+          "uri": "http://www.w3.org/XML/1998/namespace"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "property",
+          "uri": "http://datos.madrid_evento.es/group11/resources/property#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "ns0",
+          "uri": "http://datos.madrid_evento.es/group11/resources#"
+        },
+        {
+          "name": "type",
+          "uri": "//datos.madrid_evento.es/group11/resources/type#"
+        },
+        {
+          "name": "class",
+          "uri": "http://datos.madrid_evento.es/group11/resources/class#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "resource",
+          "value": "class",
+          "rdfTypes": [
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/class#Event",
+              "curie": "class:Event"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#name",
+              "curie": "property:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TITULO"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#description",
+              "curie": "property:description",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#daysOfTheWeek",
+              "curie": "property:daysOfTheWeek",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DIAS-SEMANA"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#isFree",
+              "curie": "property:isFree",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "GRATUITO"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#location",
+              "curie": "property:location",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-INSTALACION"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#district",
+              "curie": "property:district",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#coordinateX",
+              "curie": "property:coordinateX",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "COORDENADA-X"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#coordinateY",
+              "curie": "property:coordinateY",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "COORDENADA-Y"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TITULO"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://datos.madrid_evento.es/group11/resources#",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xml",
+          "uri": "http://www.w3.org/XML/1998/namespace"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "property",
+          "uri": "http://datos.madrid_evento.es/group11/resources/property#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "ns0",
+          "uri": "http://datos.madrid_evento.es/group11/resources#"
+        },
+        {
+          "name": "type",
+          "uri": "//datos.madrid_evento.es/group11/resources/type#"
+        },
+        {
+          "name": "class",
+          "uri": "http://datos.madrid_evento.es/group11/resources/class#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "resource",
+          "value": "class",
+          "rdfTypes": [
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/class#Event",
+              "curie": "class:Event"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#name",
+              "curie": "property:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TITULO"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#description",
+              "curie": "property:description",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#daysOfTheWeek",
+              "curie": "property:daysOfTheWeek",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DIAS-SEMANA"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#isFree",
+              "curie": "property:isFree",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "GRATUITO"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#location",
+              "curie": "property:location",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-INSTALACION"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#district",
+              "curie": "property:district",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#coordinateX",
+              "curie": "property:coordinateX",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "COORDENADA-X"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#coordinateY",
+              "curie": "property:coordinateY",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "COORDENADA-Y"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TITULO"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://datos.madrid_evento.es/group11/resources#",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xml",
+          "uri": "http://www.w3.org/XML/1998/namespace"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "property",
+          "uri": "http://datos.madrid_evento.es/group11/resources/property#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "ns0",
+          "uri": "http://datos.madrid_evento.es/group11/resources#"
+        },
+        {
+          "name": "type",
+          "uri": "//datos.madrid_evento.es/group11/resources/type#"
+        },
+        {
+          "name": "class",
+          "uri": "http://datos.madrid_evento.es/group11/resources/class#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "resource",
+          "value": "class",
+          "rdfTypes": [
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/class#Event",
+              "curie": "class:Event"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#name",
+              "curie": "property:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TITULO"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#description",
+              "curie": "property:description",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#daysOfTheWeek",
+              "curie": "property:daysOfTheWeek",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DIAS-SEMANA"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#isFree",
+              "curie": "property:isFree",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "GRATUITO"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#location",
+              "curie": "property:location",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-INSTALACION"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#district",
+              "curie": "property:district",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#coordinateX",
+              "curie": "property:coordinateX",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "COORDENADA-X"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#coordinateY",
+              "curie": "property:coordinateY",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "COORDENADA-Y"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TITULO"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://datos.madrid_evento.es/group11/resources#",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xml",
+          "uri": "http://www.w3.org/XML/1998/namespace"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "property",
+          "uri": "http://datos.madrid_evento.es/group11/resources/property#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "ns0",
+          "uri": "http://datos.madrid_evento.es/group11/resources#"
+        },
+        {
+          "name": "type",
+          "uri": "//datos.madrid_evento.es/group11/resources/type#"
+        },
+        {
+          "name": "class",
+          "uri": "http://datos.madrid_evento.es/group11/resources/class#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "resource",
+          "value": "class",
+          "rdfTypes": [
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/class#Event",
+              "curie": "class:Event"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#name",
+              "curie": "property:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TITULO"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#description",
+              "curie": "property:description",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#daysOfTheWeek",
+              "curie": "property:daysOfTheWeek",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DIAS-SEMANA"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#isFree",
+              "curie": "property:isFree",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "GRATUITO"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#location",
+              "curie": "property:location",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-INSTALACION"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#district",
+              "curie": "property:district",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#coordinateX",
+              "curie": "property:coordinateX",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "COORDENADA-X"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#coordinateY",
+              "curie": "property:coordinateY",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "COORDENADA-Y"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TITULO"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://datos.madrid_evento.es/group11/resources#",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xml",
+          "uri": "http://www.w3.org/XML/1998/namespace"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "property",
+          "uri": "http://datos.madrid_evento.es/group11/resources/property#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "ns0",
+          "uri": "http://datos.madrid_evento.es/group11/resources#"
+        },
+        {
+          "name": "type",
+          "uri": "//datos.madrid_evento.es/group11/resources/type#"
+        },
+        {
+          "name": "class",
+          "uri": "http://datos.madrid_evento.es/group11/resources/class#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "resource",
+          "value": "class",
+          "rdfTypes": [
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/class#Event",
+              "curie": "class:Event"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#name",
+              "curie": "property:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TITULO"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#description",
+              "curie": "property:description",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#daysOfTheWeek",
+              "curie": "property:daysOfTheWeek",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DIAS-SEMANA"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#isFree",
+              "curie": "property:isFree",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "GRATUITO"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#location",
+              "curie": "property:location",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-INSTALACION"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#district",
+              "curie": "property:district",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#coordinateX",
+              "curie": "property:coordinateX",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "COORDENADA-X"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#coordinateY",
+              "curie": "property:coordinateY",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "COORDENADA-Y"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TITULO"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]
