@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Hands-on_Assignment2</title>
+  </head>
+    <body>
+    	<h1>Analisis DataSet</h1>
+
+	<h3>Paradas Taxi Las Palmas</h3>
+	<ul>
+	<li><b>Nombre CSV:</b> baseparadastaxi.csv</li>
+	<li><b>Descripcion:</b> Contiene las paradas de taxi de las Palmas.</li>
+	<!--<li><b>Origin of the data: <a href="https://nycopendata.socrata.com/">NYC Open Data</a></b>/*-->
+	</ul>
+	<table border="10" style="width:100%">
+            <tr>
+                <th>Column</th>
+                <th>Type</th>
+                <th>Descripcion/Problemas</th>
+				<td><p>Comentarios</p></td>
+            </tr>
+	    <tr>
+                <td>Calle</td>
+                <td>xsd:string</td>
+                <td>Nombre de la calle donde esta la parada</td>
+				<td>Name Unique, not null</td>
+				
+        </tr>
+	    <tr>
+                <td>Categoria</td>
+                <td>xsd:string</td>
+		        <td>Tipo de vehiculo</td>
+				<td>Not Unique, not null</td>
+        </tr>
+	    <tr>
+                <td>Descripcion</td>
+                <td>xsd:string</td>
+                <td>Descripcion de la Parada del taxi</td>
+				<td>Not Unique, not null</td>
+            </tr>
+            <tr>
+                <td>Numero Plazas</td>
+                <td>xsd:Number</td>
+                <td>Numero de Plazas Disponibles</td>
+				<td>Not Unique, not null</td>
+            </tr>
+	    <tr>
+	    <tr>
+                <td>Latitud</td>
+                <td>xsd:float</td>
+                <td>Coordenada de la parada del taxi</td>
+				<td>Not Unique, not null</td>
+            </tr>
+	    <tr>
+                <td>Longitud</td>
+                <td>xsd:float</td>
+                <td>Coordenada de la parada del taxi</td>
+				<td>Not Unique, not null</td>
+            </tr>
+	    <tr>
+            
+	
+        <h1>Liciencia de los Datos</h1>
+	Las condiciones generales permiten la reutilizacion de los documentos para fines comerciales y no comerciales. Se entiende que por reutilizacion el uso de documentos que obran en poder del Ayuntamiento de Las Palmas, siempre con dicho uso no constituya una activida administrativa publica.
+	<ul> http://datosabiertos.laspalmasgc.es/condiciones-de-reutilizacion/</ul>
+	<br>
+	<br>
+        
+        <h1>Fuente de los Datos</h1>
+	<ul>
+	<li><b>Proyecto</b>: http://semanticweb.es/group16/ </li>
+		<li><b>CSV</b>: http://semanticweb.es/group16/csv </li>
+	<li><b>Ontology</b>: http://semanticweb.es/group16/ontology/ </li>
+	<li><b>Requerimientos</b>: http://semanticweb.es/group16/requeriments </li>
+
+	</ul>
+    </body>
+</html>

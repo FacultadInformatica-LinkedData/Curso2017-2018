@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<style>
+		table, th, td {
+			border: 1px solid black;
+			border-collapse: collapse;
+			padding: 5px;
+			
+		}
+		th {
+			text-align: center;
+			background-color: #010d74;
+			color: #ffffff;
+		}
+		table {
+			width: 75%;
+			background-color: #f1f1c1;
+		}
+	</style>
+		<center>
+			<meta charset="UTF-8">
+			<title>DataSet Analysis</title>
+			<h1>Datasets Requirements Analysis</h1>
+			<h2>Group 20</h2>
+			<hr>
+		</center>
+	</head>
+	<body>
+		<h2 style="border-bottom: 2px">Aseos públicos</h2>
+		<ul>
+			<li><b>Nombre del fichero: </b>aseos.csv</li>
+			<li><b>Descripción: </b>Localización de los distintos aseos disponibles en la ciudad de Madrid.</li>
+			<li><b>Origen de los datos: </b><a target="_blank" href="http://datos.madrid.es/sites/v/index.jsp?vgnextoid=edcaaa8cf6bda510VgnVCM1000001d4a900aRCRD&vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD">Click aquí</a></li>
+		</ul>
+		<center>
+			<table>
+				<tbody>
+					<tr>
+						<th>Columna</td>
+						<th>Tipo</td>
+						<th>Comentarios / Rango</td>
+					</tr>
+					<tr>
+						<td>Código J.M.</td>
+						<td>Integer</td>
+						<td>1 - n</td>
+					</tr>
+					<tr>
+						<td>Distrito</td>
+						<td>String</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>Vial</td>
+						<td>String</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>Dirección</td>
+						<td>String</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>Número</td>
+						<td>Integer</td>
+						<td>1 - n</td>
+					</tr>
+					<tr>
+						<td>Ant/Des/Esq</td>
+						<td>String</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>X</td>
+						<td>Double</td>
+						<td>439901.31 - 443197.05</td>
+					</tr>
+					<tr>
+						<td>Y</td>
+						<td>Double</td>
+						<td>4470280.97 - 4473160.81</td>
+					</tr>
+				</tbody>
+			</table>
+		</center>
+		<h1>Licensing</h1>
+		<p>
+			Para la información que nosotros generemos utilizaremos la licencia estandar de Creative Commons "CC BY". De esta manera
+			podemos hacer uso de la información a la que necesitamos acceder, siempre y cuando no modifiquemos dicha información y
+			se reconozca su autoría.
+		</p>
+		<p>
+			Los conjuntos de datos que estamos utilizando los proporciona el  
+			<a href="http://datos.madrid.es/portal/site/egob/menuitem.400a817358ce98c34e937436a8a409a0/?vgnextoid=b4c412b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextchannel=b4c412b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default" target=" _blank">portal de datos abiertos de Madrid. </a>
+		<br>
+		<h1>Resource Naming Strategy</h1>
+		<p><b>Domain: </b></p>
+		<p>http://www.semanticweb.org/Group20/ontology</p>
+		<p><b>Ontological terms path: </b></p>
+		<p>http://www.semanticweb.org/Group20/ontology/vocab/{id}</p>
+		<p><b>Individuals path: </b></p>
+		<p>http://www.semanticweb.org/Group20/ontology</p>
+		<p><b>Ontological terms pattern: </b></p> 
+		<p>http://www.semanticweb.org/Group20/ontology/vocab/{id}/{id_term}</p>
+		<p><b>Individuals pattern: </b></p> 
+		<p>http://www.semanticweb.org/Group20/ontology/resource/&ltresource_type&gt/&ltresource_name&gt</p>
+	</body>
+</html>

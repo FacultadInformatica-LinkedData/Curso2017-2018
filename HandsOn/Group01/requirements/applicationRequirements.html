@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Requirements of the application</title>
+		<meta charset="utf-8">
+  		<meta name="viewport" content="width=device-width, initial-scale=1">
+  		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<h2>Requisitos de la aplicación</h2>
+		<h3>Descripción General</h3>
+		<p>La aplicación que utilizará los datos presentes en los dataets recogidos, así como también los datos de los dataset con lo que se lincarán, está orientada al ámbito de la búsqueda de eventos y centros deportivos . Se pretende con la aplicación que el usuario encuentre el centro deportivo adecuado para la realización del deporte que este prefiera así como que pueda descubrir que eventos deportivos existen.</p>
+
+		<h3>Application Requirements</h3>
+		<ul>
+			<li>La aplicación debe poder almacenar la preferencia que el usuario tiene con respecto al precio de la tarifa.</li>
+			<br>
+			<li>La aplicación debe poder almacenar la preferencia que el usuario tiene con respecto a la cercanía del evento o centro deportivo a su casa.</li>
+			<br>
+			<li>La aplicación debe poder almacenar la preferencia que el usuario tiene con respecto la cantidad de alumnos en el centro.</li>
+			<br>
+			<li>La aplicación debe poder almacenar la preferencia que el usuario tiene con respecto al deporte que quiere realizar.</li>
+			<br>
+			<li>La aplicación debe poder ofrecer al usuario en cuanto a centros deportivos se refiere los que disponen de ofertas primero.</li>
+			<br>
+			<li>La aplicación debe poder ofrecer al usuario en cuanto a eventos se refiere, los eventos que se correspondan con la información establecida por el mismo.</li>
+			<br>
+		</ul>
+		<h3>Mock-up</h3>
+		<p>Mock-up de la pantalla principal de la aplicación. La segunda pantalla sería la lista de sugerencias de la aplicación.</p>
+		<h2>Centros deportivos</h2>
+		<form>
+		<div class="row form-group" style="margin-left: 25px">
+          <label class="col-sm-2 control-label">Seleccione un rango de precios</label>
+            <div class="input-group col-md-4">
+               <label class="control-label">Precio Maximo</label>
+               <span class="input-group-addon"><i class="fa fa-money"></i></span>
+               <input type="number" style="height: 28px;" name="quantity" min="0" max="10000">
+            </div>
+            <div class="input-group col-md-4" style="margin-top: 15px">
+               <label class="control-label">Precio Mínimo</label>
+               <span class="input-group-addon"><i class="fa fa-money"></i></span>
+               <input type="number" style="height: 28px;" name="quantity" min="0" max="10000">
+            </div>
+       </div>
+		<div class="row form-group" style="margin-left: 25px">
+          <label class="col-sm-2 control-label">Seleccione un deporte</label>
+            <div class="input-group col-md-4">
+               <span class="input-group-addon"><i class="fa fa-futbol-o"></i></span>
+              <select class="form-control">
+                 <option value="" disabled selected>Seleccione un deporte</option>
+                 <option value="volvo">Fútbol</option>
+ 				 <option value="saab">Tenis</option>
+ 				 <option value="opel">Baloncesto</option>
+ 				 <option value="audi">Muay Thai</option>
+ 				 <option value="audi">Boxeo</option>
+              </select>
+        </div>
+      </div>
+      <div class="row form-group" style="margin-left: 25px">
+          <label class="col-sm-2 control-label">Seleccione la zona del centro deportivo.</label>
+            <div class="input-group col-md-4">
+               <span class="input-group-addon"><i class="fa fa-map-marker"></i></span>
+              <select class="form-control">
+                 <option value="" disabled selected>Seleccione la zona del centro deportivo.</option>
+                 <option value="volvo">Centro</option>
+ 				 <option value="saab">Chamberí</option>
+ 				 <option value="opel">Chueca</option>
+ 				 <option value="audi">Huertas</option>
+ 				 <option value="audi">Lavapiés</option>
+              </select>
+        </div>
+      </div>
+      <div class="row form-group" style="margin-left: 25px">
+          <label class="col-sm-2 control-label">Seleccione la cantidad de asistentes al centro.</label>
+            <div class="input-group col-md-4">
+               <span class="input-group-addon"><i class="fa fa-graduation-cap"></i></span>
+              <select class="form-control">
+                 <option value="" disabled selected>Seleccione la cantidad de asistentes al centro.</option>
+                 <option value="volvo">Pocos</option>
+ 				 <option value="saab">Medio</option>
+ 				 <option value="opel">Muchos</option>
+              </select>
+        </div>
+      </div>
+      <button type="button" style="margin-left:37px" class="btn">Buscar</button>
+      </form>
+      <h2>Eventos Deportivos</h2>
+      <form>
+      	 <div class="row form-group" style="margin-left: 25px">
+          <label class="col-sm-2 control-label">Seleccione un deporte</label>
+            <div class="input-group col-md-4">
+               <span class="input-group-addon"><i class="fa fa-futbol-o"></i></span>
+              <select class="form-control">
+                 <option value="" disabled selected>Seleccione un deporte</option>
+                 <option value="volvo">Fútbol</option>
+ 				 <option value="saab">Tenis</option>
+ 				 <option value="opel">Baloncesto</option>
+ 				 <option value="audi">Muay Thai</option>
+ 				 <option value="audi">Boxeo</option>
+              </select>
+        </div>
+      </div>
+      <div class="row form-group" style="margin-left: 25px">
+          <label class="col-sm-2 control-label">Seleccione la zona del evento deportivo.</label>
+            <div class="input-group col-md-4">
+               <span class="input-group-addon"><i class="fa fa-map-marker"></i></span>
+              <select class="form-control">
+                 <option value="" disabled selected>Seleccione la zona del evento deportivo.</option>
+                 <option value="volvo">Centro</option>
+ 				 <option value="saab">Chamberí</option>
+ 				 <option value="opel">Chueca</option>
+ 				 <option value="audi">Huertas</option>
+ 				 <option value="audi">Lavapiés</option>
+              </select>
+        </div>
+      </div>
+      <button type="button" style="margin-left:37px" class="btn">Buscar</button>
+      </form>
+	</body>
+</html>
