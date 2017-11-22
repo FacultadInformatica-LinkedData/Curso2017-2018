@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Analysis - Group 07</title>
+	<h1>Analisis del dataset:</h1>
+	<p></p>
+	<h1>Análisis de la licencia de la fuente  de datos </h1>
+	<h3>Analyse who is the publisher of the dataset and its rightsholder, as well as the licence of the dataset</h3>
+	<p>La publicación del dataset y los derechos de propiedad intelectual pertenecen al Excmo. Ayuntamiento de Zaragoza, los diseños, logotipos, texto y/o gráficos ajenos al Excmo. Ayuntamiento de Zaragoza que pudieran aparecer en la misma pertenecen a sus respectivos propietarios, siendo ellos responsables de cualquier posible controversia que pudiera suscitarse respecto a los mismos</p>
+	<h3> Define the potential license to be used for the dataset to be generated</h3>
+	<p>Respecto a la licencia del dataset, cualquiera es libre de reutilizar sus documentos siempre que aquel que lo haga no desnaturalice el sentido de la información y mencione el origen legítimo de éstos.
+	 Basandonos en la notacion de Creative Comons podriamos decir que nuestro uso sera CC BY-NC-SA ---> Permite a otros entremezclar, ajustar y construir a partir de su obra con fines no comerciales, siempre y cuando le reconozcan la autoría y sus nuevas creaciones estén bajo una licencia con los mismos términos.</p>
+</head>
+<body>
+	<h2> Analisis para el dataset 'estacion-bicicleta.csv'</h2>
+	<p> Este dataset contiene información sobre las estaciones de bici disponibles en Zaragoza <br>Hay en total 50 datos con los siguientes campos:</br></p>
+		<li> • id: Es un enlace para mostrar la información de la estación con ese id. -- >	 Tipo de datos: URI.</li>
+		<li> • about: Muestra más información de la estación. -- > 	Tipo de datos: URI.</li>
+		<li> • title: Muestra el nombre de la calle donde se encuentra la estacion. -- >        Tipo de datos: String.</li>
+		<li> • estado: Muestra si la estacion esta abierta -- >        Tipo de datos: String.</li>
+		<li> • bicisDisponibles: Muestra el numero de bicicletas disponibles en la estacion. -- >        Tipo de datos: Entero.</li>
+		<li> • anclajesDisponibles: Muestra el numero de espacios dispoibles para dejar las bicicletas. -- >        Tipo de datos: Entero.</li>
+		<li> • geometry: Muestra las coordenadas de la estacion -- >        Tipo de datos: Entero.</li>
+		<li> • lastUpdate: Muestra la fecha de la última actualizacion de la informacion. -- >        Tipo de datos:  xsd:dateTime .</li>
+		<li> • description: Muestra un resumen de la informacion disponible -- >        Tipo de datos: String.</li>
+		<li> • icon: Muestra un enlace al icono de una estacion de bicicletas. -- >     Tipo de datos: URI</li>
+
+
+	<h2> Analisis para el dataset 'poste-autobus.csv'</h2>
+	<p> Este dataset contiene un listado de las marquesinas de autobús de la ciudad de Zaragoza. <br>Hay en total 1208 marquesinas con los siguientes campos:</br></p>
+		<li> • id: Es el identificador de la marquesina en cuestión. (Enlace a un xml). -- >	 Tipo de datos: URI.</li>
+		<li> • title: Muestra el número de la marquesina, el destino y las líneas de autobus que pasan por ella. -- > 	Tipo de datos: String.</li>
+		<li> • geometry: Muestra las coordenadas de una marquesina. -- >	Tipo de datos: float</li>
+		<li> • link: Muestra un enlace para el visionado en web de la información de la marquesina. -- > 	Tipo de datos: URI</li>
+		<li> • icon: Muestra un enlace al icono de un autobus. -- > 	Tipo de datos: URI</li>
+	<h2> Resource Naming Strategy</h2>
+	<p> A continuación, se detalla la estrategia de nombrado de recursos <p>
+		<ul>
+			<li>Dado que no se espera tener una gran cantidad de datos, utilizaremos hash URIS. </li>
+			<li>El dominio de las URI será www.zaramove.es </li>
+			<li>El path de las URI será el siguiente: http://www.zaramove.es/transportes </li>
+			<li>Los pattern serán los siguientes: Para las clases en la ontologia http://www.zaramove.es/transportes/ontology/<ontologyName>#<className>. Para las propiedades en la ontología http://www.zaramove.es/transportes/ontology/<ontologyName>#<propertyName>. Y para las instancias será en la ontología http://www.zaramove.es/transportes/resource/<className>#<identifier>. </li>
+
+		</ul>
+</body>
+</html>

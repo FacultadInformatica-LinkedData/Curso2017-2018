@@ -1,0 +1,2069 @@
+[
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Distrito",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Distrito",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Latina",
+          "Latina "
+        ],
+        "to": "Latina"
+      }
+    ]
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Situación using expression value.toUppercase()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Situación",
+    "expression": "value.toUppercase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Distrito using expression value.toUppercase()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Distrito",
+    "expression": "value.toUppercase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Barrio using expression value.toUppercase()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Barrio",
+    "expression": "value.toUppercase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column ID at index 1 based on column Situación using expression grel:replace(cells[\"Situación\"].value, \" \", \"_\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "ID",
+    "columnInsertIndex": 1,
+    "baseColumnName": "Situación",
+    "expression": "grel:replace(cells[\"Situación\"].value, \" \", \"_\")",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "htpp://www.contaminacion-acustica-madrid.org/group10/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "g10",
+          "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "ID",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasMedNoiseLv",
+              "curie": "g10:hasMedNoiseLv",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LAeq24"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumDistrictZone",
+              "curie": "g10:hasNumDistrictZone",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NumDistrito"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#belongsToDistrict",
+              "curie": "g10:belongsToDistrict",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Distrito"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#belongsToNeighborhood",
+              "curie": "g10:belongsToNeighborhood",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Barrio"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumNeighborhoodZone",
+              "curie": "g10:hasNumNeighborhoodZone",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NumBarrio"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "htpp://www.contaminacion-acustica-madrid.org/group10/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "g10",
+          "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "ID",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasMedNoiseLv",
+              "curie": "g10:hasMedNoiseLv",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LAeq24"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumDistrictZone",
+              "curie": "g10:hasNumDistrictZone",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NumDistrito"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#belongsToDistrict",
+              "curie": "g10:belongsToDistrict",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Distrito"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#belongsToNeighborhood",
+              "curie": "g10:belongsToNeighborhood",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Barrio"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumNeighborhoodZone",
+              "curie": "g10:hasNumNeighborhoodZone",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NumBarrio"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Barrio",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameNeighborhood",
+              "curie": "g10:hasNameNeighborhood",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Barrio"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "htpp://www.contaminacion-acustica-madrid.org/group10/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "g10",
+          "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "ID",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasMedNoiseLv",
+              "curie": "g10:hasMedNoiseLv",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LAeq24"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumDistrictZone",
+              "curie": "g10:hasNumDistrictZone",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NumDistrito"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#belongsToDistrict",
+              "curie": "g10:belongsToDistrict",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Distrito"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#belongsToNeighborhood",
+              "curie": "g10:belongsToNeighborhood",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Barrio"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumNeighborhoodZone",
+              "curie": "g10:hasNumNeighborhoodZone",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NumBarrio"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#belongsToNeighborhood",
+              "curie": "g10:belongsToNeighborhood",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": true,
+                "valueType": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#Neighborhood"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Barrio",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameNeighborhood",
+              "curie": "g10:hasNameNeighborhood",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Barrio"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "htpp://www.contaminacion-acustica-madrid.org/group10/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "g10",
+          "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "ID",
+          "rdfTypes": [
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#Zone",
+              "curie": "g10:Zone"
+            }
+          ],
+          "links": [
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasMedNoiseLv",
+              "curie": "g10:hasMedNoiseLv",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LAeq24"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumDistrictZone",
+              "curie": "g10:hasNumDistrictZone",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NumDistrito"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#belongsToDistrict",
+              "curie": "g10:belongsToDistrict",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Distrito"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#belongsToNeighborhood",
+              "curie": "g10:belongsToNeighborhood",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Barrio"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumNeighborhoodZone",
+              "curie": "g10:hasNumNeighborhoodZone",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NumBarrio"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Barrio",
+          "rdfTypes": [
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#Neighborhood",
+              "curie": "g10:Neighborhood"
+            }
+          ],
+          "links": [
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameNeighborhood",
+              "curie": "g10:hasNameNeighborhood",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Barrio"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zones/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "g10",
+          "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "ID",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasMedNoiseLv",
+              "curie": "g10:hasMedNoiseLv",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LAeq24"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumDistrictZone",
+              "curie": "g10:hasNumDistrictZone",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NumDistrito"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#belongsToDistrict",
+              "curie": "g10:belongsToDistrict",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Distrito",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameDistrict",
+                    "curie": "g10:hasNameDistrict",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "Distrito"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#belongsToNeighborhood",
+              "curie": "g10:belongsToNeighborhood",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Barrio",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameNeighborhood",
+                    "curie": "g10:hasNameNeighborhood",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "Barrio"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumNeighborhoodZone",
+              "curie": "g10:hasNumNeighborhoodZone",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NumBarrio"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasSituation",
+              "curie": "g10:hasSituation",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": true,
+                "rdfTypes": [
+                  {
+                    "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#Situation",
+                    "curie": "g10:Situation"
+                  }
+                ],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Situación to Zone",
+    "oldColumnName": "Situación",
+    "newColumnName": "Zone"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "htpp://www.contaminacion-acustica-madrid.org/group10/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "g10",
+          "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "ID",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasMedNoiseLv",
+              "curie": "g10:hasMedNoiseLv",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LAeq24"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumDistrictZone",
+              "curie": "g10:hasNumDistrictZone",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NumDistrito"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#belongsToDistrict",
+              "curie": "g10:belongsToDistrict",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Distrito",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameDistrict",
+                    "curie": "g10:hasNameDistrict",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "Distrito"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#belongsToNeighborhood",
+              "curie": "g10:belongsToNeighborhood",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Barrio",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameNeighborhood",
+                    "curie": "g10:hasNameNeighborhood",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "Barrio"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumNeighborhoodZone",
+              "curie": "g10:hasNumNeighborhoodZone",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NumBarrio"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasSituation",
+              "curie": "g10:hasSituation",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": true,
+                "rdfTypes": [
+                  {
+                    "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#Situation",
+                    "curie": "g10:Situation"
+                  }
+                ],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "htpp://www.contaminacion-acustica-madrid.org/group10/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "g10",
+          "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Zonas/\" + value",
+          "isRowNumberCell": false,
+          "columnName": "ID",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasMedNoiseLv",
+              "curie": "g10:hasMedNoiseLv",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LAeq24"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumDistrictZone",
+              "curie": "g10:hasNumDistrictZone",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NumDistrito"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#belongsToDistrict",
+              "curie": "g10:belongsToDistrict",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Distrito",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameDistrict",
+                    "curie": "g10:hasNameDistrict",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "Distrito"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#belongsToNeighborhood",
+              "curie": "g10:belongsToNeighborhood",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Barrio",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameNeighborhood",
+                    "curie": "g10:hasNameNeighborhood",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "Barrio"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumNeighborhoodZone",
+              "curie": "g10:hasNumNeighborhoodZone",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NumBarrio"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasSituation",
+              "curie": "g10:hasSituation",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": true,
+                "rdfTypes": [
+                  {
+                    "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#Situation",
+                    "curie": "g10:Situation"
+                  }
+                ],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "htpp://www.contaminacion-acustica-madrid.org/group10/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "g10",
+          "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Zonas/\" + value",
+          "isRowNumberCell": false,
+          "columnName": "ID",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasMedNoiseLv",
+              "curie": "g10:hasMedNoiseLv",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LAeq24"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumDistrictZone",
+              "curie": "g10:hasNumDistrictZone",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NumDistrito"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#belongsToDistrict",
+              "curie": "g10:belongsToDistrict",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Distritos/\" + value",
+                "isRowNumberCell": false,
+                "columnName": "Distrito",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameDistrict",
+                    "curie": "g10:hasNameDistrict",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "Distrito"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#belongsToNeighborhood",
+              "curie": "g10:belongsToNeighborhood",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Barrios/\" + value",
+                "isRowNumberCell": false,
+                "columnName": "Barrio",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameNeighborhood",
+                    "curie": "g10:hasNameNeighborhood",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "Barrio"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumNeighborhoodZone",
+              "curie": "g10:hasNumNeighborhoodZone",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NumBarrio"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasSituation",
+              "curie": "g10:hasSituation",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Situaciones/\" + value",
+                "isRowNumberCell": true,
+                "rdfTypes": [
+                  {
+                    "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#Situation",
+                    "curie": "g10:Situation"
+                  }
+                ],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "htpp://www.contaminacion-acustica-madrid.org/group10/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "g10",
+          "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Zonas/\" + value",
+          "isRowNumberCell": false,
+          "columnName": "ID",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasMedNoiseLv",
+              "curie": "g10:hasMedNoiseLv",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LAeq24"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumDistrictZone",
+              "curie": "g10:hasNumDistrictZone",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NumDistrito"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#belongsToDistrict",
+              "curie": "g10:belongsToDistrict",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Distritos/\" + value",
+                "isRowNumberCell": false,
+                "columnName": "Distrito",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameDistrict",
+                    "curie": "g10:hasNameDistrict",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "\"/\" + value",
+                      "isRowNumberCell": false,
+                      "columnName": "Distrito"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#belongsToNeighborhood",
+              "curie": "g10:belongsToNeighborhood",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Barrios/\" + value",
+                "isRowNumberCell": false,
+                "columnName": "Barrio",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameNeighborhood",
+                    "curie": "g10:hasNameNeighborhood",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "Barrio"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumNeighborhoodZone",
+              "curie": "g10:hasNumNeighborhoodZone",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NumBarrio"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasSituation",
+              "curie": "g10:hasSituation",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Situaciones/\" + value",
+                "isRowNumberCell": true,
+                "rdfTypes": [
+                  {
+                    "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#Situation",
+                    "curie": "g10:Situation"
+                  }
+                ],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "htpp://www.contaminacion-acustica-madrid.org/group10/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "g10",
+          "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Zonas/\" + value",
+          "isRowNumberCell": false,
+          "columnName": "ID",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasMedNoiseLv",
+              "curie": "g10:hasMedNoiseLv",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LAeq24"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumDistrictZone",
+              "curie": "g10:hasNumDistrictZone",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NumDistrito"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#belongsToDistrict",
+              "curie": "g10:belongsToDistrict",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Distritos/\" + value",
+                "isRowNumberCell": false,
+                "columnName": "Distrito",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameDistrict",
+                    "curie": "g10:hasNameDistrict",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "\"/\" + value",
+                      "isRowNumberCell": false,
+                      "columnName": "Distrito"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#belongsToNeighborhood",
+              "curie": "g10:belongsToNeighborhood",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Barrios/\" + value",
+                "isRowNumberCell": false,
+                "columnName": "Barrio",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameNeighborhood",
+                    "curie": "g10:hasNameNeighborhood",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "Barrio"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumNeighborhoodZone",
+              "curie": "g10:hasNumNeighborhoodZone",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NumBarrio"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasSituation",
+              "curie": "g10:hasSituation",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Situaciones/\" + value",
+                "isRowNumberCell": true,
+                "rdfTypes": [
+                  {
+                    "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#Situation",
+                    "curie": "g10:Situation"
+                  }
+                ],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column ID_Distrito at index 5 based on column Distrito using expression grel:replace(cells[\"Distrito\"].value, \" \", \"_\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "ID_Distrito",
+    "columnInsertIndex": 5,
+    "baseColumnName": "Distrito",
+    "expression": "grel:replace(cells[\"Distrito\"].value, \" \", \"_\")",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column ID_Barrio at index 7 based on column Barrio using expression grel:replace(cells[\"Barrio\"].value, \" \", \"_\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "ID_Barrio",
+    "columnInsertIndex": 7,
+    "baseColumnName": "Barrio",
+    "expression": "grel:replace(cells[\"Barrio\"].value, \" \", \"_\")",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "htpp://www.contaminacion-acustica-madrid.org/group10/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "g10",
+          "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Zonas/\" + value",
+          "isRowNumberCell": false,
+          "columnName": "ID",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasMedNoiseLv",
+              "curie": "g10:hasMedNoiseLv",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LAeq24"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumDistrictZone",
+              "curie": "g10:hasNumDistrictZone",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NumDistrito"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#belongsToDistrict",
+              "curie": "g10:belongsToDistrict",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Distritos/\" + value",
+                "isRowNumberCell": false,
+                "columnName": "ID_Distrito",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameDistrict",
+                    "curie": "g10:hasNameDistrict",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "\"/\" + value",
+                      "isRowNumberCell": false,
+                      "columnName": "Distrito"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#belongsToNeighborhood",
+              "curie": "g10:belongsToNeighborhood",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Barrios/\" + value",
+                "isRowNumberCell": false,
+                "columnName": "ID_Barrio",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameNeighborhood",
+                    "curie": "g10:hasNameNeighborhood",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "Barrio"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumNeighborhoodZone",
+              "curie": "g10:hasNumNeighborhoodZone",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NumBarrio"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasSituation",
+              "curie": "g10:hasSituation",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Situaciones/\" + value",
+                "isRowNumberCell": true,
+                "rdfTypes": [
+                  {
+                    "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#Situation",
+                    "curie": "g10:Situation"
+                  }
+                ],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "htpp://www.contaminacion-acustica-madrid.org/group10/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "g10",
+          "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Zonas/\" + value",
+          "isRowNumberCell": false,
+          "columnName": "ID",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasMedNoiseLv",
+              "curie": "g10:hasMedNoiseLv",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LAeq24"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumDistrictZone",
+              "curie": "g10:hasNumDistrictZone",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NumDistrito"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#belongsToDistrict",
+              "curie": "g10:belongsToDistrict",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Distritos/\" + value",
+                "isRowNumberCell": false,
+                "columnName": "ID_Distrito",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameDistrict",
+                    "curie": "g10:hasNameDistrict",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "\"/\" + value",
+                      "isRowNumberCell": false,
+                      "columnName": "Distrito"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#belongsToNeighborhood",
+              "curie": "g10:belongsToNeighborhood",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Barrios/\" + value",
+                "isRowNumberCell": false,
+                "columnName": "ID_Barrio",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameNeighborhood",
+                    "curie": "g10:hasNameNeighborhood",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "Barrio"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumNeighborhoodZone",
+              "curie": "g10:hasNumNeighborhoodZone",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NumBarrio"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "htpp://www.contaminacion-acustica-madrid.org/group10/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "g10",
+          "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Zonas/\" + value",
+          "isRowNumberCell": false,
+          "columnName": "ID",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasMedNoiseLv",
+              "curie": "g10:hasMedNoiseLv",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LAeq24"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumDistrictZone",
+              "curie": "g10:hasNumDistrictZone",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NumDistrito"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#belongsToDistrict",
+              "curie": "g10:belongsToDistrict",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Distritos/\" + value",
+                "isRowNumberCell": false,
+                "columnName": "ID_Distrito",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameDistrict",
+                    "curie": "g10:hasNameDistrict",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "\"/\" + value",
+                      "isRowNumberCell": false,
+                      "columnName": "Distrito"
+                    }
+                  },
+                  {
+                    "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasIdDistrict",
+                    "curie": "g10:hasIdDistrict",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "NumDistrito"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#belongsToNeighborhood",
+              "curie": "g10:belongsToNeighborhood",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Barrios/\" + value",
+                "isRowNumberCell": false,
+                "columnName": "ID_Barrio",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameNeighborhood",
+                    "curie": "g10:hasNameNeighborhood",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "Barrio"
+                    }
+                  },
+                  {
+                    "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasIdNeighborhood",
+                    "curie": "g10:hasIdNeighborhood",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "NumBarrio"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumNeighborhoodZone",
+              "curie": "g10:hasNumNeighborhoodZone",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NumBarrio"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "htpp://www.contaminacion-acustica-madrid.org/group10/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "g10",
+          "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Zonas/\" + value",
+          "isRowNumberCell": false,
+          "columnName": "ID",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasMedNoiseLv",
+              "curie": "g10:hasMedNoiseLv",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LAeq24"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumDistrictZone",
+              "curie": "g10:hasNumDistrictZone",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NumDistrito"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#belongsToDistrict",
+              "curie": "g10:belongsToDistrict",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Distritos/\" + value",
+                "isRowNumberCell": false,
+                "columnName": "ID_Distrito",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameDistrict",
+                    "curie": "g10:hasNameDistrict",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "\"/\" + value",
+                      "isRowNumberCell": false,
+                      "columnName": "Distrito"
+                    }
+                  },
+                  {
+                    "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasIdDistrict",
+                    "curie": "g10:hasIdDistrict",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "NumDistrito"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#belongsToNeighborhood",
+              "curie": "g10:belongsToNeighborhood",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Barrios/\" + value",
+                "isRowNumberCell": false,
+                "columnName": "ID_Barrio",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameNeighborhood",
+                    "curie": "g10:hasNameNeighborhood",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "Barrio"
+                    }
+                  },
+                  {
+                    "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasIdNeighborhood",
+                    "curie": "g10:hasIdNeighborhood",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "NumBarrio"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumNeighborhoodZone",
+              "curie": "g10:hasNumNeighborhoodZone",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NumBarrio"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "htpp://www.contaminacion-acustica-madrid.org/group10/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "g10",
+          "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Zonas/\" + value",
+          "isRowNumberCell": false,
+          "columnName": "ID",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasMedNoiseLv",
+              "curie": "g10:hasMedNoiseLv",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LAeq24"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumDistrictZone",
+              "curie": "g10:hasNumDistrictZone",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NumDistrito"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#belongsToDistrict",
+              "curie": "g10:belongsToDistrict",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Distritos/\" + value",
+                "isRowNumberCell": false,
+                "columnName": "ID_Distrito",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameDistrict",
+                    "curie": "g10:hasNameDistrict",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "Distrito"
+                    }
+                  },
+                  {
+                    "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasIdDistrict",
+                    "curie": "g10:hasIdDistrict",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "NumDistrito"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#belongsToNeighborhood",
+              "curie": "g10:belongsToNeighborhood",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Barrios/\" + value",
+                "isRowNumberCell": false,
+                "columnName": "ID_Barrio",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameNeighborhood",
+                    "curie": "g10:hasNameNeighborhood",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "Barrio"
+                    }
+                  },
+                  {
+                    "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasIdNeighborhood",
+                    "curie": "g10:hasIdNeighborhood",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "NumBarrio"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumNeighborhoodZone",
+              "curie": "g10:hasNumNeighborhoodZone",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NumBarrio"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  }
+]

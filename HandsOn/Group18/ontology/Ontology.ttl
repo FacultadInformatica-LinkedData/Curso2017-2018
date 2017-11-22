@@ -1,0 +1,152 @@
+@prefix : <http://www.semanticweb.org/grupo18/ontologies##> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix park: <http://www.semanticweb.org/webSemantica/grupo18/vocabulary#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/grupo18/ontologies> .
+
+<http://www.semanticweb.org/grupo18/ontologies> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/grupo18/ontologiesbelongsTo
+<http://www.semanticweb.org/grupo18/ontologiesbelongsTo> rdf:type owl:ObjectProperty ;
+                                                         rdfs:domain :Address ;
+                                                         rdfs:range :Zone .
+
+
+###  http://www.semanticweb.org/grupo18/ontologies#isOwnedBy
+:isOwnedBy rdf:type owl:ObjectProperty ,
+                    owl:AsymmetricProperty ;
+           rdfs:domain :Parking ;
+           rdfs:range :Enterprise .
+
+
+###  http://www.semanticweb.org/grupo18/ontologies#isPartOf
+:isPartOf rdf:type owl:ObjectProperty ;
+          rdfs:domain :Zone ;
+          rdfs:range :City .
+
+
+###  http://www.semanticweb.org/grupo18/ontologies#isSituatedIn
+:isSituatedIn rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf owl:topObjectProperty ;
+              rdfs:domain :Parking ;
+              rdfs:range :Address .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/grupo18/ontologies#hasCoordinate_1
+:hasCoordinate_1 rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf owl:topDataProperty ;
+                 rdfs:domain :Parking ;
+                 rdfs:range xsd:float .
+
+
+###  http://www.semanticweb.org/grupo18/ontologies#hasCoordinate_2
+:hasCoordinate_2 rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf owl:topDataProperty ;
+                 rdfs:domain :Parking ;
+                 rdfs:range xsd:float .
+
+
+###  http://www.semanticweb.org/grupo18/ontologies#hasParkingSpots
+:hasParkingSpots rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :Parking ;
+                 rdfs:range xsd:int .
+
+
+###  http://www.semanticweb.org/grupo18/ontologies#hasPostalCode
+:hasPostalCode rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Address ;
+               rdfs:range xsd:int .
+
+
+###  http://www.semanticweb.org/grupo18/ontologies#hasRoadName
+:hasRoadName rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Address ;
+             rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/grupo18/ontologies#hasRoadNumber
+:hasRoadNumber rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Address ;
+               rdfs:range xsd:int .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/grupo18/ontologies#Address
+:Address rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/grupo18/ontologies#City
+:City rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/grupo18/ontologies#Enterprise
+:Enterprise rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/grupo18/ontologies#Parking
+:Parking rdf:type owl:Class ;
+         rdfs:subClassOf [ rdf:type owl:Restriction ;
+                           owl:onProperty :isOwnedBy ;
+                           owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                           owl:onClass :Enterprise
+                         ] ,
+                         [ rdf:type owl:Restriction ;
+                           owl:onProperty :isSituatedIn ;
+                           owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                           owl:onClass :Zone
+                         ] .
+
+
+###  http://www.semanticweb.org/grupo18/ontologies#Zone
+:Zone rdf:type owl:Class ;
+      rdfs:subClassOf [ rdf:type owl:Restriction ;
+                        owl:onProperty :isPartOf ;
+                        owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                        owl:onClass :City
+                      ] .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/grupo18/ontologies#Bruxelles
+:Bruxelles rdf:type owl:NamedIndividual ,
+                    :City .
+
+
+###  http://www.semanticweb.org/grupo18/ontologies#Interparking
+:Interparking rdf:type owl:NamedIndividual ,
+                       :Enterprise .
+
+
+###  http://www.semanticweb.org/grupo18/ontologies#Nord-Rogier
+:Nord-Rogier rdf:type owl:NamedIndividual ,
+                      :Zone .
+
+
+###  http://www.semanticweb.org/grupo18/ontologies#Ommega_16-20
+:Ommega_16-20 rdf:type owl:NamedIndividual ,
+                       :Address .
+
+
+###  http://www.semanticweb.org/grupo18/ontologies#Passage_44
+:Passage_44 rdf:type owl:NamedIndividual ,
+                     :Parking .
+
+
+###  Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi

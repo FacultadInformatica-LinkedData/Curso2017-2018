@@ -1,0 +1,308 @@
+[
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column trip_id using expression grel:value.replace('_','')",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "trip_id",
+    "expression": "grel:value.replace('_','')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group12/resources/Horario/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group12/resources/Horario/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column trip_id to tripID",
+    "oldColumnName": "trip_id",
+    "newColumnName": "tripID"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column arrival_time to arrivalTime",
+    "oldColumnName": "arrival_time",
+    "newColumnName": "arrivalTime"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column departure_time to departureTime",
+    "oldColumnName": "departure_time",
+    "newColumnName": "departureTime"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column stop_id to stopID",
+    "oldColumnName": "stop_id",
+    "newColumnName": "stopID"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column stop_sequence to stopSequence",
+    "oldColumnName": "stop_sequence",
+    "newColumnName": "stopSequence"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column stopID using expression grel:value.replace('_8_','')",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "stopID",
+    "expression": "grel:value.replace('_8_','')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group12/resources/Horario/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+              "curie": "rdfs:Literal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "tripID"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#time",
+              "curie": "xsd:time",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "arrivalTime"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#time",
+              "curie": "xsd:time",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "departureTime"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+              "curie": "rdfs:Literal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "stopID"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+              "curie": "xsd:nonNegativeInteger",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "stopSequence"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group12/resources/Horario/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+              "curie": "rdfs:Literal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "tripID"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#time",
+              "curie": "xsd:time",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "arrivalTime"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#time",
+              "curie": "xsd:time",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "departureTime"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+              "curie": "rdfs:Literal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "stopID"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+              "curie": "xsd:nonNegativeInteger",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "stopSequence"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]
