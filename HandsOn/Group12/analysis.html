@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>analysis.html</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="https://s19.postimg.org/c6lnsm783/logo_OEG-150.png" />
+    <style> 
+      .flex-container {
+      display: -webkit-flex;
+      display: flex;  
+      -webkit-flex-flow: row wrap;
+      flex-flow: row wrap;
+      text-align: center;
+      }
+
+      .flex-container > * {
+      padding: 15px;
+      -webkit-flex: 1 100%;
+      flex: 1 100%;
+      }
+
+      .article {
+      text-align: left;
+      }
+
+      header {background: #052077;color:white;}
+      footer {background: #052077;color:white;}
+      .nav {background:#eee;}
+
+      .nav ul {
+      list-style-type: none;
+      padding: 0;
+      }
+      .nav ul a {
+      text-decoration: none;
+      }
+      hr {
+      border: 1px dotted #ff0000;
+      border-style: none none dotted; 
+      color: #fff; 
+      background-color: #fff;
+      }
+      table {
+      width:100%;
+      }
+      table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      }
+      th, td {
+      padding: 5px;
+      text-align: left;
+      }
+      table.names tr:nth-child(even) {
+      background-color: #eee;
+      }
+      table.names tr:nth-child(odd) {
+      background-color:#A1D2D1;
+      }
+      table.names th {
+      background-color: blue;
+      color: white
+      }
+    </style>
+  </head>
+  <body> <!--  style="background-color:#B9C6F1;" -->
+    <div class="flex-container">
+
+      <header>
+	<h2> HTML document that includes the analyses performed over the data source and the licensing of the data source, as well as the resource naming strategy defined.</h2>
+      </header>
+
+      <!-- NAVBAR -->
+      <nav class="nav">
+	<ul>
+	    <li><a href="#">Index</a></li>
+	    <li><a href="#">Analyse Data Set</a></li>
+	    <li><a href="#">Analyse Licensing of the Data Source</a></li>
+	    <li><a href="#">Define Resource Naming Strategy</a></li>
+	</ul>
+      </nav>
+      
+
+      <!-- INDEX -->
+      <article class="article">
+	<h1>Index</h1>
+	<p>HTML document that explain the following goals:<p>
+	  <ul>
+	    <li>Analyse Data Set:
+	      <ul>
+		<li>Analyse both the data (quantities, value ranges, etc.) as well as the schema of the data.
+		</li>
+	      </ul>
+	    </li>
+	    
+	    <li>Analyse Licensing of the Data Source:
+	      <ul>
+		<li>Analyse who is the publisher of the dataset and its rightsholder, as well as the licence of the dataset. Define the potential license to be used for the dataset to be generated.
+		</li>
+	      </ul>
+	    </li>
+	    
+	    <li>Define Resource Naming Strategy:
+	      <ul>
+		<li>Define the resource naming strategy to be followed for the ontology and the data to be generated (URI form, content negotiation, URIs domain, path, patterns, etc.).
+		</li>
+	      </ul>
+	  </ul>
+      </article>
+      <hr>
+      
+      <!-- Analyse Data Set -->
+      <article class="article">
+	<h1>Analyse Data Set</h1>
+	
+	<!-- Data set 1 -->
+	<h3>Excepciones de autobús</h3>
+	<ul>
+	  <li>Description: Excepciones del calendario de los servicios de autobuses relacionadas con Alcobendas.</li>
+	  <li>CSV Name File: calendardatesautobus.csv</li>
+	  <li>Data Link: <a href="http://datos.alcobendas.org/dataset/excepciones-de-autobus">Data</a></li>
+	  <li>License Link:<a href="http://opendefinition.org/licenses/odc-by/">License</a></li>
+	</ul>
+	<table class="names">
+	  <tr>
+	    <th>Fields of the set</th>
+	    <th>Value Range</th>
+	    <th>Info</th>
+	  </tr>
+	  <tr>
+	    <td>service_id</td>
+	    <td>Integer>=1</td>
+	    <td>ID que identifica de forma exclusiva un conjunto de fechas en el que el servicio está disponible en una o más rutas.</td>
+	  </tr>
+	  <tr>
+	    <td>date</td>
+	    <td>Formato AAAAMMDD</td>
+	    <td>Fecha concreta en la que la disponibilidad del servicio sea diferente a la de la norma</td>
+	  </tr>
+	  <tr>
+	    <td>exception_type</td>
+	    <td>1-2</td>
+	    <td>
+	      <li>1 indica que el servicio se ha agregado a la fecha especificada.</li>
+	      <li>2 indica que el servicio se ha suprimido en la fecha especificada.</li>
+	    </td>
+	    
+	  </tr>
+	</table>
+
+
+	<!-- Data set 2 -->
+	<h3>Calendario de autobús</h3>
+	<ul>
+	  <li>Description: Calendario de los servicios de autobuses relacionadas con Alcobendas</li>
+	  <li>CSV Name File: calendarautobus.csv</li>
+	  <li>Data Link: <a href="http://datos.alcobendas.org/dataset/calendario-de-autobus/resource/3603fe3e-b184-46e5-a8ff-d4a77a98b66a">Data</a></li>
+	  <li>License Link: <a href="http://opendefinition.org/licenses/odc-by/">License</a></li>
+	</ul>
+	<table class="names">
+	  <tr>
+	    <th>Fields of the set</th>
+	    <th>Value Range</th>
+	    <th>Info</th>
+	  </tr>
+	  <tr>
+	    <td>service_id</td>
+	    <td>Integer>=1</td>
+	    <td>ID que identifica de forma exclusiva un conjunto de fechas en el que el servicio está disponible en una o más rutas.</td>
+	  </tr>
+	  <tr>
+	    <td>monday</td>
+	    <td>valor binario</td>
+	    <td>
+	      <li>1 indica que el servicio está disponible para todos los lunes incluidos en el intervalo de fechas. (start_date y end_date)</li>
+	      <li>0 indica que el servicio no está disponible los lunes incluidos en el intervalo de fechas.</li>
+	    </td>
+	  </tr>
+	  <tr>
+	    <td>tuesday</td>
+	    <td>valor binario</td>
+	    <td>
+	      <li>1 indica que el servicio está disponible para todos los martes incluidos en el intervalo de fechas. (start_date y end_date)</li>
+	      <li>0 indica que el servicio no está disponible los martes incluidos en el intervalo de fechas.</li>
+	    </td>
+	  </tr>
+	  <tr>
+	    <td>wednesday</td>
+	    <td>valor binario</td>
+	    <td>
+	      <li>1 indica que el servicio está disponible para todos los miércoles incluidos en el intervalo de fechas. (start_date y end_date)</li>
+	      <li>0 indica que el servicio no está disponible los miércoles incluidos en el intervalo de fechas.</li>
+	    </td>
+	  </tr>
+	  <tr>
+	    <td>thursday</td>
+	    <td>valor binario</td>
+	    <td>
+	      <li>1 indica que el servicio está disponible para todos los jueves incluidos en el intervalo de fechas. (start_date y end_date)</li>
+	      <li>0 indica que el servicio no está disponible los jueves incluidos en el intervalo de fechas.</li>
+	    </td>
+	  </tr>
+	  <tr>
+	    <td>friday</td>
+	    <td>valor binario</td>
+	    <td>
+	      <li>1 indica que el servicio está disponible para todos los viernes incluidos en el intervalo de fechas. (start_date y end_date)</li>
+	      <li>0 indica que el servicio no está disponible los viernes incluidos en el intervalo de fechas.</li>
+	    </td>
+	  </tr>
+	  <tr>
+	    <td>saturday</td>
+	    <td>valor binario</td>
+	    <td>
+	      <li>1 indica que el servicio está disponible para todos los sábados incluidos en el intervalo de fechas. (start_date y end_date)</li>
+	      <li>0 indica que el servicio no está disponible los sábados incluidos en el intervalo de fechas.</li>
+	    </td>
+	  </tr>
+	    <td>sunday</td>
+	    <td>valor binario</td>
+	    <td>
+	      <li>1 indica que el servicio está disponible para todos los domingos incluidos en el intervalo de fechas. (start_date y end_date)</li>
+	      <li>0 indica que el servicio no está disponible los domingos incluidos en el intervalo de fechas.</li>
+	    </td>
+	  <tr>
+	    <td>start_date</td>
+	    <td>Formato AAAAMMDD</td>
+	    <td>Fecha de inicio del servicio.</td>
+	  </tr>
+	  <tr>
+	    <td></td>
+	    <td>Formato AAAAMMDD</td>
+	    <td>Fecha de finalización del servicio.</td>
+	  </tr>
+	</table>
+
+	<!-- Data set 3 -->
+	<h3>Rutas de autobús</h3>
+	<ul>
+	  <li>Description: Rutas de autobuses relacionadas con Alcobendas</li>
+	  <li>CSV Name File: routesautobus.csv</li>
+	  <li>Data Link: <a href="http://datos.alcobendas.org/dataset/rutas-de-autobus/resource/9ffe900d-2c55-4c93-bdf3-2343e89bc025">Data</a></li>
+	  <li>License Link: <a href="http://opendefinition.org/licenses/odc-by/">License</a></li>
+	</ul>
+	<table class="names">
+	  <tr>
+	    <th>Fields of the set</th>
+	    <th>Value Range</th>
+	    <th>Info</th>
+	  </tr>
+	  <tr>
+	    <td>route_id</td>
+	    <td>Integer>=1</td>
+	    <td>Identifica una ruta de forma exclusiva.</td>
+	  </tr>
+	  <tr>
+	    <td>agency_id</td>
+	    <td>String</td>
+	    <td>Identifica una empresa para la ruta especificada.</td>
+	  </tr>
+	  <tr>
+	    <td>route_short_name</td>
+	    <td>String</td>
+	    <td>Nombre corto de una ruta</td>
+	  </tr>
+	  <tr>
+	    <td>route_long_name</td>
+	    <td>String</td>
+	    <td>Nombre completo de una ruta</td>
+	  </tr>
+	  <tr>
+	    <td>route_type</td>
+	    <td>0-7</td>
+	    <td>
+	      <li>0: tranvía, metro ligero. Cualquier metro ligero o sistema ferroviario en superficie dentro de un áreametropolitana.</li>
+	      <li>1: subterráneo, metro. Cualquier sistema ferroviario subterráneo dentro de un área metropolitana.</li>
+	      <li>2: tren. Utilizado para viajes de larga distancia.</li>
+	      <li>3: autobús. Utilizado para rutas en autobús de corta y larga distancia.</li>
+	      <li>4: transbordador, ferry. Utilizado para servicio de transporte público fluvial o marítimo de corta y larga distancia.</li>
+	      <li>5: funicular. Utilizado para funiculares en superficie en donde el cable pasa por debajo del vehículo.</li>
+	      <li>6: cabina, vehículo suspendido de un cable. Normalmente se utiliza para medios de transporte público por cable en donde el vehículo queda suspendido de un cable.</li>
+	      <li>7: funicular. Cualquier sistema diseñado para recorridos con una gran inclinación.</li>
+	    </td>
+	  </tr>
+	  <tr>
+	    <td>route_url</td>
+	    <td>Formato URL</td>
+	    <td>URL de una página web relativa a una ruta concreta.</td>
+	  </tr>
+	  <tr>
+	    <td>route_color</td>
+	    <td>Hexadecimal (ej. 00FFFF)</td>
+	    <td>
+	      <li>Color correspondiente a una ruta.</li>
+	      <li>Si no se especifica ningún color, el color de ruta predeterminado es el blanco (FFFFFF)</li>
+	    </td>
+	  </tr>
+	  <tr>
+	    <td>route_text_color</td>
+	    <td>Hexadecimal</td>
+	    <td>
+	      <li>Color legible para el texto incluido sobre un fondo del valor route_color.</li>
+	      <li>Si no se especifica ningún tipo de ubicación, el color del texto predeterminado es el negro (000000)</li>
+	    </td>
+	  </tr>
+	</table>
+
+	<!-- Data set 4 -->
+	<h3>Servicios de autobús</h3>
+	<ul>
+	  <li>Description: Servicios de las rutas de autobuses relacionadas con Alcobendas</li>
+	  <li>CSV Name File: tripsautobus.csv</li>
+	  <li>Data Link: <a href="http://datos.alcobendas.org/dataset/servicios-de-autobus/resource/cbcf27e7-e4af-403c-aac3-26b4e144aae3">Data</a></li>
+	  <li>License Link: <a href="http://opendefinition.org/licenses/odc-by/">License</a></li>
+	</ul>
+	<table class="names">
+	  <tr>
+	    <th>Fields of the set</th>
+	    <th>Value Range</th>
+	    <th>Info</th>
+	  </tr>
+	  <tr>
+	    <td>route_id</td>
+	    <td>Integer>=1</td>
+	    <td>Identifica una ruta de forma exclusiva.</td>
+	  </tr>
+	  <tr>
+	    <td>service_id</td>
+	    <td>Integer>=1</td>
+	    <td>Identifica de forma exclusiva un conjunto de fechas en el que el servicio se encuentra disponible en una o más rutas.</td>
+	  </tr>
+	  <tr>
+	    <td>trip_id</td>
+	    <td>Integer>=1</td>
+	    <td>Identifica un viaje.</td>
+	  </tr>
+	  <tr>
+	    <td>trip_headsign</td>
+	    <td>String</td>
+	    <td>Texto que aparece en un cartel que identifica el destino del viaje para los pasajeros. </td>
+	  </tr>
+	  <tr>
+	    <td>trip_short_name</td>
+	    <td>String</td>
+	    <td>Texto que aparece en horarios y carteles para que los pasajeros identifiquen el viaje.</td>
+	  </tr>
+	  <tr>
+	    <td>direction_id</td>
+	    <td>valor binario</td>
+	    <td>
+	      <li>0 : viaje en una dirección (p. ej., viaje que sale)</li>
+	      <li>1: viaje en la dirección opuesta (p. ej., viaje que llega).</li>
+	    </td>
+	  </tr>
+	  <tr>
+	    <td>wheelchair_accessible</td>
+	    <td>0-2</td>
+	    <td>
+	      <li>0 (o vacío): indica que no hay información de accesibilidad para el viaje.</li>
+	      <li>1: indica que en el vehículo utilizado para este viaje en particular hay accesibilidad para al menos un pasajero con silla de ruedas.</li>
+	      <li>2: indica que no hay accesibilidad para pasajeros con silla de ruedas en este viaje.</li>
+	    </td>
+	  </tr>
+	</table>
+
+	<!-- Data set 5 -->
+	<h3>Horarios de autobús</h3>
+	<ul>
+	  <li>Description: Horarios de las paradas de autobuses relacionadas con Alcobendas</li>
+	  <li>CSV Name File: stoptimesautobus.csv</li>
+	  <li>Data Link: <a href="http://datos.alcobendas.org/dataset/horarios-de-autobus">Data</a></li>
+	  <li>License Link: <a href="http://opendefinition.org/licenses/odc-by/">License</a></li>
+	</ul>
+	<table class="names">
+	  <tr>
+	    <th>Fields of the set</th>
+	    <th>Value Range</th>
+	    <th>Info</th>
+	  </tr>
+	  	  <tr>
+	    <td>trip_id</td>
+	    <td>String</td>
+	    <td>Identifica un viaje.</td>
+	  </tr>
+	  <tr>
+	    <td>arrival_time</td>
+	    <td>Formato HH:MM:SS</td>
+	    <td>
+	      <li>También se acepta H:MM:SS si la hora empieza por 0</li>
+	      <li>Hora de llegada a una parada concreta correspondiente a un viaje específico de una ruta.</li>
+	    </td>
+	  </tr>
+	  <tr>
+	    <td>departure_time</td>
+	    <td>Formato HH:MM:SS</td>
+	    <td>
+	      <li>También se acepta H:MM:SS si la hora empieza por 0</li>
+	      <li>Hora de salida de una parada concreta correspondiente a un viaje específico en una ruta.</li>
+	    </td>
+	  </tr>
+	  <tr>
+	    <td>stop_id</td>
+	    <td>String</td>
+	    <td>Identifica de forma exclusiva a una parada</td>
+	  </tr>
+	  <tr>
+	    <td>stop_sequence</td>
+	    <td>enteros no negativos</td>
+	    <td>Identifica el orden de las paradas en un viaje en concreto</td>
+	  </tr>
+
+	</table>
+
+	<!-- Data set 6 -->
+	<h3>Paradas de autobús</h3>
+	<ul>
+	  <li>Description: Datos de las paradas de autobuses relacionadas con Alcobendas</li>
+	  <li>CSV Name File: stopsautobus.csv</li>
+	  <li>Data Link: <a href="http://datos.alcobendas.org/dataset/paradas-de-autobus/resource/f68022a8-515e-4e24-b446-6e222712e411?view_id=25c4d944-f5a2-43eb-9f0c-544ff8961a7d">Data</a></li>
+	  <li>License Link: <a href="http://opendefinition.org/licenses/odc-by/">License</a></li>
+	</ul>
+	<table class="names">
+	  <tr>
+	    <th>Fields of the set</th>
+	    <th>Value Range</th>
+	    <th>Info</th>
+	  </tr>
+	  <tr>
+	    <td>stop_id</td>
+	    <td>String</td>
+	    <td>Identifica de forma exclusiva a una parada o estación.</td>
+	  </tr>
+	  <tr>
+	    <td>stop_code</td>
+	    <td>String</td>
+	    <td>Texto corto o un número que identifica de forma exclusiva laparada de los pasajeros.</td>
+	  </tr>
+	  <tr>
+	    <td>stop_name</td>
+	    <td>String</td>
+	    <td>Nombre de una parada o estación. </td>
+	  </tr>
+	  <tr>
+	    <td>stop_desc</td>
+	    <td>String</td>
+	    <td>Descripción de una parada.</td>
+	  </tr>
+	  <tr>
+	    <td>stop_lat</td>
+	    <td>Debe ser una latitud WGS 84 válida</td>
+	    <td>Latitud de una parada o estación.</td>
+	  </tr>
+	  <tr>
+	    <td>stop_lon</td>
+	    <td>Debe ser una latitud WGS 84 válida entre -180 y 180.</td>
+	    <td>Longitud de una parada o estación.</td>
+	  </tr>
+	  <tr>
+	    <td>zone_id</td>
+	    <td>A,B1,B2,B3</td>
+	    <td>Zona tarifaria de un ID de parada.</td>
+	  </tr>
+	  <tr>
+	    <td>stop_url</td>
+	    <td>URL</td>
+	    <td>URL de una página web relativa a una parada concreta.</td>
+	  </tr>
+	  <tr>
+	    <td>location_type</td>
+	    <td>Valor binario</td>
+	    <td>
+	      <li>Identifica si este ID de parada representa a una parada o estación.</li>
+	      <li>0 o en blanco: parada. Ubicación en la que los pasajeros suben a bordo o bajan de un medio de transporte público.</li>
+	      <li>1: estación. Estructura física o área que contiene una o más paradas.</li>
+	    </td>
+	  </tr>
+	  <tr>
+	    <td>parent_station</td>
+	    <td>String</td>
+	    <td>Paradas que se encuentran físicamente en el interior de estaciones.</td>
+	  </tr>
+	  <tr>
+	    <td>stop_timezone</td>
+	    <td>Europe/Madrid</td>
+	    <td>Zona horaria en la que se ubica esta parada o estación.</td>
+	  </tr>
+	  <tr>
+	    <td>wheelchair_boarding</td>
+	    <td>Identifica si es posible acceder en silla de rueda a la parada o estación especificada.</td>
+	    <td>
+	      <li>0 (o vacío): indica que no hay información de accesibilidad para la parada.</li>
+	      <li>1: indica que un pasajero en silla de ruedas puede subir a algunos vehículos en esta parada.</li>
+	      <li>2: no es posible acceder en silla de rueda a esta parada.</li>
+	    </td>
+	  </tr>
+	</table>
+	
+      </article> <!-- Final de Analyse Data Set -->
+      <hr>
+      
+      <!-- Analyse Licensing of the Data Source -->
+      <article class="article">
+	<h1>Analyse Licensing of the Data Source</h1>
+	<h3>Who is the publisher of the dataset and its rightsholder, as well as the licence of the dataset</h3>
+	<ul>
+	  <ol>
+	    <li>Author: Ayuntamiento de Alcobendas.</li>
+	    <li>e-mail: serviciosinteractivos@aytoalcobendas.org</li>
+	    <li>License: Open Data Commons Attribution License (ODC-By) v1.0</li>
+	  </ol>
+	</ul>
+	
+	<h3>Define the potential license to be used for the dataset to be generated</h3>
+	<p>Open Data Commons Attribution License (ODC-By) v1.0</p>
+	<ul>
+	  <li>You are free:
+	    <ul>
+	      <ol>
+		<li>To Share: To copy, distribute and use the database.</li>
+		<li>To Create: To produce works from the database.</li>
+		<li>To Adapt: To modify, transform and build upon the database.</li>
+	      </ol>
+	    </ul>
+	  </li>
+
+	  <li>As long as you:
+	    <ul>
+	      <ol>
+		<li>Attribute: You must attribute any public use of the database, or works produced from the database, in the manner specified in the license. For any use or redistribution of the database, or works produced from it, you must make clear to others the license of the database and keep intact any notices on the original database.</li>
+	      </ol>
+	    </ul>
+	  </li>
+	</ul>
+	
+      </article>
+      <hr>
+      
+      <!-- Define Resource Naming Strategy -->
+      <article class="article">
+	<h1>Define Resource Naming Strategy</h1>
+	<table class="names">
+	  <tr>
+	    <th>Domain</th>
+	    <td>http://www.semanticweb.org/semanticWeb/group12/</td>
+	  </tr>
+	  <tr>
+	    <th>Ontological terms path</th>
+	    <td>http://www.semanticweb.org/semanticWeb/group12/vocabulary#</td>
+	  </tr>
+	  <tr>
+	    <th>Individuals path</th>
+	    <td>http://www.semanticweb.org/semanticWeb/group12/</td>
+	  </tr>
+	  <tr>
+	    <th>Ontological terms pattern</th>
+	    <td>http://www.semanticweb.org/semanticWeb/group12/vocabulary#</td>
+	  </tr>
+	  <tr>
+	    <th>Individuals pattern</th>
+	    <td>http://www.semanticweb.org/semanticWeb/group12/resource/&ltresource_type&gt/&ltresource_name&gt</td>
+	  </tr>
+	</table>
+      </article>
+      
+      <!-- Pie de página -->
+      <footer>GROUP12</footer>
+    </div>
+  </body>
+</html>

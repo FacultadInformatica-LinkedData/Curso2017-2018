@@ -1,0 +1,447 @@
+[
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Distrito using expression value.toString()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Distrito",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Barrio using expression value.toString()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Barrio",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Gis_X",
+    "columnName": "Gis_X"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Gis_Y",
+    "columnName": "Gis_Y"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Fecha de Alta",
+    "columnName": "Fecha de Alta"
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column Distrito by separator",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Distrito",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": " ",
+    "regex": false,
+    "maxColumns": 2
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Distrito 1",
+    "columnName": "Distrito 1"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Distrito 2 to Distrito",
+    "oldColumnName": "Distrito 2",
+    "newColumnName": "Distrito"
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column Barrio by separator",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Barrio",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": " ",
+    "regex": false,
+    "maxColumns": 2
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Barrio 1",
+    "columnName": "Barrio 1"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Barrio 2 to Barrio",
+    "oldColumnName": "Barrio 2",
+    "newColumnName": "Barrio"
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column Calle by separator",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Calle",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": ",",
+    "regex": false,
+    "maxColumns": 3
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Calle 1 to Nombre de la vía",
+    "oldColumnName": "Calle 1",
+    "newColumnName": "Nombre de la vía"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Calle 2 to Tipo de la vía",
+    "oldColumnName": "Calle 2",
+    "newColumnName": "Tipo de la vía"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Calle 3 to Particula de la vía",
+    "oldColumnName": "Calle 3",
+    "newColumnName": "Particula de la vía"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Número de Finca to Nº de la vía",
+    "oldColumnName": "Número de Finca",
+    "newColumnName": "Nº de la vía"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Matrícula",
+    "columnName": "Matrícula"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Distrito using expression value.toTitlecase()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Distrito",
+    "expression": "value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Barrio using expression value.toTitlecase()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Barrio",
+    "expression": "value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Nombre de la vía using expression value.toTitlecase()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Nombre de la vía",
+    "expression": "value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Tipo de la vía using expression value.toTitlecase()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Tipo de la vía",
+    "expression": "value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Particula de la vía using expression value.toLowercase()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Particula de la vía",
+    "expression": "value.toLowercase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group03/resource#",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "g03",
+          "uri": ""
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Parquimetro\"+cells[\"Nombre de la vía\"].value+cells[\"Nº de la vía\"].value",
+          "isRowNumberCell": false,
+          "columnName": "Nº de la vía",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/group03/ontologyParquimetro",
+              "curie": "g03:ontologyParquimetro"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/group03/ontologyestaEn",
+              "curie": "g03:ontologyestaEn",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "cells[\"Nombre de la vía\"].value+cells[\"Nº de la vía\"].value",
+                "isRowNumberCell": false,
+                "columnName": "Nombre de la vía",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semanticweb.org/group03/ontologyUbicacion",
+                    "curie": "g03:ontologyUbicacion"
+                  }
+                ],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column tipo2 at index 4 based on column Tipo de la vía using expression grel:substring(value,value.indexOf(\" \"))",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "tipo2",
+    "columnInsertIndex": 4,
+    "baseColumnName": "Tipo de la vía",
+    "expression": "grel:substring(value,value.indexOf(\" \"))",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column tipo3 at index 4 based on column Tipo de la vía using expression grel:substring(value,1)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "tipo3",
+    "columnInsertIndex": 4,
+    "baseColumnName": "Tipo de la vía",
+    "expression": "grel:substring(value,1)",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column tipo2",
+    "columnName": "tipo2"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Tipo de la vía",
+    "columnName": "Tipo de la vía"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column tipo3 to Tipo de la vía",
+    "oldColumnName": "tipo3",
+    "newColumnName": "Tipo de la vía"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column Particula de la vía 2 at index 5 based on column Particula de la vía using expression grel:substring(value,1)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "Particula de la vía 2",
+    "columnInsertIndex": 5,
+    "baseColumnName": "Particula de la vía",
+    "expression": "grel:substring(value,1)",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Particula de la vía",
+    "columnName": "Particula de la vía"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group03/resource#",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "g03",
+          "uri": ""
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Parquimetro\"+cells[\"Nombre de la vía\"].value+cells[\"Nº de la vía\"].value",
+          "isRowNumberCell": false,
+          "columnName": "Nº de la vía",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/group03/ontologyParquimetro",
+              "curie": "g03:ontologyParquimetro"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/group03/ontologyestaEn",
+              "curie": "g03:ontologyestaEn",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "cells[\"Nombre de la vía\"].value+cells[\"Nº de la vía\"].value",
+                "isRowNumberCell": false,
+                "columnName": "Nombre de la vía",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semanticweb.org/group03/ontologyUbicacion",
+                    "curie": "g03:ontologyUbicacion"
+                  }
+                ],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group03/resource#",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "g03",
+          "uri": ""
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Parquimetro\"+cells[\"Nombre de la vía\"].value+cells[\"Nº de la vía\"].value",
+          "isRowNumberCell": false,
+          "columnName": "Nº de la vía",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/group03/ontologyParquimetro",
+              "curie": "g03:ontologyParquimetro"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/group03/ontologyestaEn",
+              "curie": "g03:ontologyestaEn",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "cells[\"Nombre de la vía\"].value+cells[\"Nº de la vía\"].value",
+                "isRowNumberCell": false,
+                "columnName": "Nombre de la vía",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semanticweb.org/group03/ontologyUbicacion",
+                    "curie": "g03:ontologyUbicacion"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "\"Parquimetro\"+cells[\"Nombre de la vía\"].value+cells[\"Nº de la vía\"].value",
+                "isRowNumberCell": true
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]
