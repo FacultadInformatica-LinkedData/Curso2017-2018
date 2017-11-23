@@ -1,0 +1,71 @@
+- How many accidents were there in Madrid in 2013?
+
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
+PREFIX sdmx-measure: <http://purl.org/linked-data/sdmx/2009/measure#> 
+PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> 
+PREFIX sdmx: <http://purl.org/linked-data/sdmx#> 
+PREFIX mn: <http://example.org/resources/> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX owl: <http://www.w3.org/2002/07/owl#> 
+PREFIX mv: <http://example.org/myVocabulary#> 
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX qb: <http://purl.org/linked-data/cube#> 
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#> 
+
+SELECT (str(SUM(xsd:integer(?numberOfAccidents))) AS ?numeroDeAccidentes)
+WHERE {
+	?accident a qb:Observation .
+	?accident mv:numberOfAccidents ?numberOfAccidents
+}
+
+- Give me the number of accidents in Usera for each type of accident
+
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
+PREFIX sdmx-measure: <http://purl.org/linked-data/sdmx/2009/measure#> 
+PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> 
+PREFIX sdmx: <http://purl.org/linked-data/sdmx#> 
+PREFIX mn: <http://example.org/resources/> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX owl: <http://www.w3.org/2002/07/owl#> 
+PREFIX mv: <http://example.org/myVocabulary#> 
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX qb: <http://purl.org/linked-data/cube#> 
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+SELECT ?tipoAccidente xsd:integer(?numberOfAccidents) AS ?numeroDeAccidentes
+WHERE {
+	?accident a qb:Observation .
+	?accident mv:relatedDistrict "USERA" .
+	?accident mv:hasAccidentType ?tipoAccidente .
+	?accident mv:numberOfAccidents ?numberOfAccidents .
+}
+ORDER BY(?tipoAccidente)
+
+- Give me the number of multiple collisions for each district
+
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
+PREFIX sdmx-measure: <http://purl.org/linked-data/sdmx/2009/measure#> 
+PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> 
+PREFIX sdmx: <http://purl.org/linked-data/sdmx#> 
+PREFIX mn: <http://example.org/resources/> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX owl: <http://www.w3.org/2002/07/owl#> 
+PREFIX mv: <http://example.org/myVocabulary#> 
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX qb: <http://purl.org/linked-data/cube#> 
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+SELECT ?district xsd:integer(?numberOfAccidents) AS ?numeroDeAccidentesMultiples
+WHERE {
+	?accident a qb:Observation .
+	?accident mv:relatedDistrict ?district .
+	?accident mv:hasAccidentType mv:MultipleCollision .
+	?accident mv:numberOfAccidents ?numberOfAccidents .
+}
+ORDER BY(?district)
+
+- Which is the district were the number of bicycle falls was higher in 2013?
+
+
+
+- Give me the districts with more than 500 accidents in 2013
