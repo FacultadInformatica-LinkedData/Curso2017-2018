@@ -19,7 +19,9 @@
 
 - [ ] Has a label with the name of the individual
 - [ ] Has a type
-- [ ] Every value in the RDF files:
+
+**Every value in the RDF files:**
+
 - [ ] Is not empty (i.e., “”)
 - [ ] Is trimmed
 - [ ] Is properly encoded (e.g., dates, booleans)

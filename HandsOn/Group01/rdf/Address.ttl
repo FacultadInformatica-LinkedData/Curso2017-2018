@@ -1,0 +1,410 @@
+
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix address: <http://www.madriddeportes.es/ontologies/2017/address> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix hasAddressType: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Reguera+De+Tomateros+39> :calleRegueraDeTomateros39
+	address: hasName: "Reguera De Tomateros"
+	address: hasNumber:  "39"
+	address: hasAddressType: "Calle"
+	address: hasCode:  "28053"
+
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Arroyo+De+Pozuelo+99> :calleArroyoDePozuelo99
+	address: hasName: "Arroyo De Pozuelo"
+	address: hasNumber:  "99"
+	address: hasAddressType: "Calle"
+	address: hasCode:  "28023"
+
+<http://www.madriddeportes.es/ontologies/2017/Avenida+General+Fanju+14> :avenidaGeneralFanju14
+	address: hasName: "General Fanju"
+	address: hasNumber:  "14"
+	address: hasAddressType: "Avenida"
+	address: hasCode:  "28044"
+
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Via+Carpetana+57> :calleViaCarpetana57
+	address: hasName: "Via Carpetana"
+	address: hasNumber:  "57"
+	address: hasAddressType: "Calle"
+	address: hasCode:  "28047"
+
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Joaquin+Dicena+1> :calleJoaquinDicena1
+	address: hasName: "Joaquin Dicena"
+	address: hasNumber:  "1"
+	address: hasAddressType: "Calle"
+	address: hasCode:  "28029"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Alicante+14> :calleAlicante14
+	address: hasName: "Alicante"
+	address: hasNumber:  "14"
+	address: hasAddressType: "Calle"
+	address: hasCode:  "28045"
+
+<http://www.madriddeportes.es/ontologies/2017/Avenida+Logroño+70> :avenidaLogroño70
+	address: hasName: "Logroño"
+	address: hasNumber:  "70"
+	address: hasAddressType: "Avenida"
+	address: hasCode:  "28042"
+
+<http://www.madriddeportes.es/ontologies/2017/Paseo+Puerta+Del+Angel+7> :paseoPuertaDelAngel7
+	address: hasName: "Puerta Del Angel"
+	address: hasNumber:  "7"
+	address: hasAddressType: "Paseo"
+	address: hasCode:  "28011"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Canarias+17> :calleCanarias17
+	address: hasName: "Canarias"
+	address: hasNumber:  "17"
+	address: hasAddressType: "Calle"
+	address: hasCode:  "28045"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Cerro+De+Almodovar+9> :calleCerroDeAlmodovar9
+	address: hasName: "Cerro De Almodovar"
+	address: hasNumber:  "9"
+	address: hasAddressType: "Calle"
+	address: hasCode:  "28007"
+
+<http://www.madriddeportes.es/ontologies/2017/Avenida+PioXII+2> :avenidaPioXII2
+	address: hasName: "PioXII"
+	address: hasNumber:  "2"
+	address: hasAddressType: "avenida"
+	address: hasCode:  "28016"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Embajadores+316> :calleEmbajadores316
+	address: hasName: "Embajadores"
+	address: hasNumber:  "316"
+	address: hasAddressType: "calle"
+	address: hasCode:  "28045"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Antonio+Machado+12> :calleAntonioMachado12
+	address: hasName: "Antonio Machado"
+	address: hasNumber:  "12"
+	address: hasAddressType: "calle"
+	address: hasCode:  "28035"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Jose+Del+Hierro+5> :calleJoseDelHierro5
+	address: hasName: "Jose Del Hierro"
+	address: hasNumber:  "5"
+	address: hasAddressType: "calle"
+	address: hasCode:  "28027"
+
+<http://www.madriddeportes.es/ontologies/2017/Plaza+Daoiz+Y+Velarde+5> :plazaDaoizYVelarde5
+	address: hasName: "Daoiz Y Velarde"
+	address: hasNumber:  "5"
+	address: hasAddressType: "plaza"
+	address: hasCode:  "28007"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Alberche+21> :calleAlberche21
+	address: hasName: "Alberche"
+	address: hasNumber:  "21"
+	address: hasAddressType: "calle"
+	address: hasCode:  "28007"
+
+<http://www.madriddeportes.es/ontologies/2017/Carretera+Villaver+de+A+Vallecas+19> :carreteraVillaverdeAVallecas19
+	address: hasName: "VillaverdeAVallecas"
+	address: hasNumber:  "19"
+	address: hasAddressType: "carretera"
+	address: hasCode:  "28041"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Olivillo+4> :calleOlivillo4
+	address: hasName: "Olivillo"
+	address: hasNumber:  "4"
+	address: hasAddressType: "calle"
+	address: hasCode:  "28011"
+
+<http://www.madriddeportes.es/ontologies/2017/Ronda+Sur+4> :rondaSur4
+	address: hasName: "Sur"
+	address: hasNumber:  "4"
+	address: hasAddressType: "ronda"
+	address: hasCode:  "28053"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Farmacia+13> :calleFarmacia13
+	address: hasName: "Farmacia"
+	address: hasNumber:  "13"
+	address: hasAddressType: "calle"
+	address: hasCode:  "28004"
+
+<http://www.madriddeportes.es/ontologies/2017/Paseo+Colombia+2> :paseoColombia2
+	address: hasName: "Colombia"
+	address: hasNumber:  "2"
+	address: hasAddressType: "paseo"
+	address: hasCode:  "28009"
+
+<http://www.madriddeportes.es/ontologies/2017/Avenida+Septima+68> :avenidaSeptima68
+	address: hasName: "Septima"
+	address: hasNumber:  "68"
+	address: hasAddressType: "avenida"
+	address: hasCode:  "28022"
+
+<http://www.madriddeportes.es/ontologies/2017/Avenida+Santo+Angel+De+La+Guardia+6> :avenidaSantoAngelDeLaGuardia6
+	address: hasName: "Santo Angel De La Guardia"
+	address: hasNumber:  "6"
+	address: hasAddressType: "avenida"
+	address: hasCode:  "28039"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Catorce+Olivas+1> :calleCatorceOlivas1
+	address: hasName: "Catorce Olivas"
+	address: hasNumber:  "1"
+	address: hasAddressType: "calle"
+	address: hasCode:  "28054"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Numancia+11> :calleNumancia11
+	address: hasName: "Numancia"
+	address: hasNumber:  "11"
+	address: hasAddressType: "calle"
+	address: hasCode:  "28039"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Elvira+36> :calleElvira36
+	address: hasName: "Elvira"
+	address: hasNumber:  "36"
+	address: hasAddressType: "calle"
+	address: hasCode:  "28028"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Alianza+4> :calleAlianza4
+	address: hasName: "Alianza"
+	address: hasNumber:  "4"
+	address: hasAddressType: "calle"
+	address: hasCode:  "28041"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Gallur+2> :calleGallur2
+	address: hasName: "Gallur"
+	address: hasNumber:  "2"
+	address: hasAddressType: "calle"
+	address: hasCode:  "28047"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Pilar+De+Zaragoza+97> :callePilarDeZaragoza97
+	address: hasName: "Pilar De Zaragoza"
+	address: hasNumber:  "97"
+	address: hasAddressType: "calle"
+	address: hasCode:  "28028"
+
+<http://www.madriddeportes.es/ontologies/2017/Carretera+Estacion+De+Hortaleza+11> :carreteraEstacionDeHortaleza11
+	address: hasName: "Estacion De Hortaleza"
+	address: hasNumber:  "11"
+	address: hasAddressType: "carretera"
+	address: hasCode:  "28033"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Santa+Pola+22> :carreteraEstacionDeHortaleza11
+	address: hasName: "Santa Pola"
+	address: hasNumber:  "22"
+	address: hasAddressType: "calle"
+	address: hasCode:  "28008"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Nicolas+Salmeron+8> :calleNicolasSalmeron8
+	address: hasName: "Nicolas Salmeron"
+	address: hasNumber:  "8"
+	address: hasAddressType: "calle"
+	address: hasCode:  "28017"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Senda+Del+Rey+8> :calleSendaDelRey8
+	address: hasName: "Senda Del Rey"
+	address: hasNumber:  "8"
+	address: hasAddressType: "calle"
+	address: hasCode:  "28040"
+
+<http://www.madriddeportes.es/ontologies/2017/Paseo+Fernan+Nuñez+3> :paseoFernanNuñez3
+	address: hasName: "Fernan Nuñez"
+	address: hasNumber:  "3"
+	address: hasAddressType: "paseo"
+	address: hasCode:  "28009"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Alcalde+Garrido+Juaristi+17> :calleAlcaldeGarridoJuaristi17
+	address: hasName: "Alcalde Garrido Juaristi"
+	address: hasNumber:  "17"
+	address: hasAddressType: "calle"
+	address: hasCode:  "28030"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Maso+80> :calleMaso80
+	address: hasName: "Maso"
+	address: hasNumber:  "80"
+	address: hasAddressType: "calle"
+	address: hasCode:  "28034"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Monseñor+Oscar+Romero+41> :calleMonseñorOscarRomero41
+	address: hasName: "Monseñor Oscar Romero"
+	address: hasNumber:  "41"
+	address: hasAddressType: "calle"
+	address: hasCode:  "28025"
+
+<http://www.madriddeportes.es/ontologies/2017/Avenida+Monforte+De+Lemos+38> :avenidaMonforteDeLemos38
+	address: hasName: "Monforte De Lemos"
+	address: hasNumber:  "38 A"
+	address: hasAddressType: "avenida"
+	address: hasCode:  "28029"
+
+<http://www.madriddeportes.es/ontologies/2017/Paseo+Embarcadero+8> :paseoEmbarcadero8
+	address: hasName: "Embarcadero"
+	address: hasNumber:  "8"
+	address: hasAddressType: "paseo"
+	address: hasCode:  "28011"
+
+<http://www.madriddeportes.es/ontologies/2017/Avenida+Poblados+72> :avenidaPoblados72
+	address: hasName: "Poblados"
+	address: hasNumber:  "72"
+	address: hasAddressType: "avenida"
+	address: hasCode:  "28044"
+
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Petunias30> :callePetunias30
+	address: hasName: "Petunias"
+	address: hasNumber:  "30"
+	address: hasAddressType: "calle"
+	address: hasCode:  "28042"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+El+Provencio+20> :calleElProvencio20
+	address: hasName: "El Provencio"
+	address: hasNumber:  "20"
+	address: hasAddressType: "calle"
+	address: hasCode:  "28043"
+
+<http://www.madriddeportes.es/ontologies/2017/Paseo+Imperial+52> :paseoImperial52
+	address: hasName: "Imperial"
+	address: hasNumber:  "52"
+	address: hasAddressType: "paseo"
+	address: hasCode:  "28005"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Moraleja+11> :calleMoraleja11
+	address: hasName: "Moraleja"
+	address: hasNumber:  "11"
+	address: hasAddressType: "calle"
+	address: hasCode:  "28041"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Tranvia+De+Arganda+4> :calleTranviaDeArganda4
+	address: hasName: "Tranvia De Arganda"
+	address: hasNumber:  "4"
+	address: hasAddressType: "calle"
+	address: hasCode:  "28031"
+
+<http://www.madriddeportes.es/ontologies/2017/Avenida+Niza+8> :avenidaNiza8
+	address: hasName: "Niza"
+	address: hasNumber:  "8"
+	address: hasAddressType: "avenida"
+	address: hasCode:  "28022"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Arganda+25> :calleArganda25
+	address: hasName: "Arganda"
+	address: hasNumber:  "25"
+	address: hasAddressType: "calle"
+	address: hasCode:  "28005"
+
+<http://www.madriddeportes.es/ontologies/2017/Paseo+Plata+Y+Castañar+7> :paseoPlataYCastañar7
+	address: hasName: "Plata Y Castañar"
+	address: hasNumber:  "7"
+	address: hasAddressType: "paseo"
+	address: hasCode:  "28021"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Hierbabuena+2> :calleHierbabuena2
+	address: hasName: "Hierbabuena"
+	address: hasNumber:  "2"
+	address: hasAddressType: "calle"
+	address: hasCode:  "28039"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Pradillo+33> :callePradillo33
+	address: hasName: "Pradillo"
+	address: hasNumber:  "33"
+	address: hasAddressType: "calle"
+	address: hasCode:  "28002"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Franciso+Rioja+14> :calleFrancisoRioja14
+	address: hasName: "Franciso Rioja"
+	address: hasNumber:  "14"
+	address: hasAddressType: "calle"
+	address: hasCode:  "28017"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Payaso+Fofo+7> :callePayasoFofo7
+	address: hasName: "Payaso Fofo"
+	address: hasNumber:  "7"
+	address: hasAddressType: "calle"
+	address: hasCode:  "28017"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Benimamet+137> :calleBenimamet137
+	address: hasName: "Benimamet"
+	address: hasNumber:  "137"
+	address: hasAddressType: "calle"
+	address: hasCode:  "28021"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Arcos+De+Jalon+59> :calleArcosDeJalon59
+	address: hasName: "Arcos De Jalon"
+	address: hasNumber:  "59"
+	address: hasAddressType: "calle"
+	address: hasCode:  "28037"
+
+
+<http://www.madriddeportes.es/ontologies/2017/Plaza+Pinazo+9> :plazaPinazo9
+	address: hasName: "Pinazo"
+	address: hasNumber:  "9"
+	address: hasAddressType: "plaza"
+	address: hasCode:  "28021"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+San+Mario+18> :calleSanMario18
+	address: hasName: "SanMario"
+	address: hasNumber:  "18"
+	address: hasAddressType: "calle"
+	address: hasCode:  "28041"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Treviana+1> :calleTreviana1
+	address: hasName: "Treviana"
+	address: hasNumber:  "1"
+	address: hasAddressType: "calle"
+	address: hasCode:  "28043"
+
+<http://www.madriddeportes.es/ontologies/2017/Paseo+Alamedillas+5> :paseoAlamedillas5
+	address: hasName: "Alamedillas"
+	address: hasNumber:  "5"
+	address: hasAddressType: "paseo"
+	address: hasCode:  "28034"
+
+<http://www.madriddeportes.es/ontologies/2017/Camino+Principe+2> :caminoPrincipe2
+	address: hasName: "Principe"
+	address: hasNumber:  "2"
+	address: hasAddressType: "camino"
+	address: hasCode:  "28011"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Bravo+Murillo+376> :calleBravoMurillo376
+	address: hasName: "Bravo Murillo"
+	address: hasNumber:  "376"
+	address: hasAddressType: "calle"
+	address: hasCode:  "28020"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Ladera+De+Los+Almendros+2> :calleLaderaDeLosAlmendros2
+	address: hasName: "Ladera De Los Almendros"
+	address: hasNumber:  "2"
+	address: hasAddressType: "calle"
+	address: hasCode:  "28032"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Arroyo+Del+Olivar+51> :calleArroyoDelOlivar51
+	address: hasName: "Arroyo Del Olivar"
+	address: hasNumber:  "51"
+	address: hasAddressType: "calle"
+	address: hasCode:  "28018"
+
+<http://www.madriddeportes.es/ontologies/2017/Avenida+Filipinas+7> :avenidaFilipinas7
+	address: hasName: "Filipinas"
+	address: hasNumber:  "7"
+	address: hasAddressType: "avenida"
+	address: hasCode:  "28029"
+
+<http://www.madriddeportes.es/ontologies/2017/Avenida+Monforte+De+Lemos+13> :avenidaMonforteDeLemos13
+	address: hasName: "Monforte De Lemos"
+	address: hasNumber:  "13"
+	address: hasAddressType: "avenida"
+	address: hasCode:  "28029"
+
+<http://www.madriddeportes.es/ontologies/2017/Paseo+Polideportivo+3> :paseoPolideportivo3
+	address: hasName: "Polideportivo"
+	address: hasNumber:  "3"
+	address: hasAddressType: "paseo"
+	address: hasCode:  "28032"
+
+<http://www.madriddeportes.es/ontologies/2017/Camino+Perales+23> :caminoPerales23
+	address: hasName: "Perales"
+	address: hasNumber:  "23"
+	address: hasAddressType: "camino"
+	address: hasCode:  "28041"

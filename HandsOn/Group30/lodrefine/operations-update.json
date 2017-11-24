@@ -1,0 +1,3470 @@
+[
+  {
+    "op": "core/column-removal",
+    "description": "Remove column ﻿OBJECTID",
+    "columnName": "﻿OBJECTID"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column IDTRAMO",
+    "columnName": "IDTRAMO"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column FECHAACTUAL",
+    "columnName": "FECHAACTUAL"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column MODO",
+    "columnName": "MODO"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column CODIGOITINERARIO",
+    "columnName": "CODIGOITINERARIO"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column CODIGOGESTIONLINEA",
+    "columnName": "CODIGOGESTIONLINEA"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column NUMEROLINEAUSUARIO to NumeroLinea",
+    "oldColumnName": "NUMEROLINEAUSUARIO",
+    "newColumnName": "NumeroLinea"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column SENTIDO to Sentido",
+    "oldColumnName": "SENTIDO",
+    "newColumnName": "Sentido"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column TIPOITINERARIO",
+    "columnName": "TIPOITINERARIO"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column CODIGOESTACION",
+    "columnName": "CODIGOESTACION"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column CODIGOPOSTE",
+    "columnName": "CODIGOPOSTE"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column CODIGOANDEN",
+    "columnName": "CODIGOANDEN"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column NUMEROORDEN",
+    "columnName": "NUMEROORDEN"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column IDENTIFICADORTIPOPARADA",
+    "columnName": "IDENTIFICADORTIPOPARADA"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column TIPOPARADA to TipoParada",
+    "oldColumnName": "TIPOPARADA",
+    "newColumnName": "TipoParada"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column CODIGOPROVINCIA",
+    "columnName": "CODIGOPROVINCIA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column CODIGOMUNICIPIO",
+    "columnName": "CODIGOMUNICIPIO"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column CORONATARIFARIA to Zona_Tarifa",
+    "oldColumnName": "CORONATARIFARIA",
+    "newColumnName": "Zona_Tarifa"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column FECHAALTA",
+    "columnName": "FECHAALTA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column FECHAFIN",
+    "columnName": "FECHAFIN"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column FECHAINICIO",
+    "columnName": "FECHAINICIO"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column VELOCIDADTRAMOANTERIOR",
+    "columnName": "VELOCIDADTRAMOANTERIOR"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column MODOLINEA",
+    "columnName": "MODOLINEA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column MODOINTERCAMBIADOR",
+    "columnName": "MODOINTERCAMBIADOR"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column CODIGOINTERCAMBIADOR",
+    "columnName": "CODIGOINTERCAMBIADOR"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column CODPROV_LINEA",
+    "columnName": "CODPROV_LINEA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column CODMUN_LINEA",
+    "columnName": "CODMUN_LINEA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column IDFTRAMO",
+    "columnName": "IDFTRAMO"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column CODIGOOBSERVACION",
+    "columnName": "CODIGOOBSERVACION"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column CODIGOSUBLINEA",
+    "columnName": "CODIGOSUBLINEA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column DENOMINACION_SAE",
+    "columnName": "DENOMINACION_SAE"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column IDFLINEA",
+    "columnName": "IDFLINEA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column IDFITINERARIO",
+    "columnName": "IDFITINERARIO"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column IDFESTACION",
+    "columnName": "IDFESTACION"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column IDFPOSTE",
+    "columnName": "IDFPOSTE"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column IDFANDEN",
+    "columnName": "IDFANDEN"
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NumeroLinea",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NumeroLinea",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "1"
+        ],
+        "to": "1"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Sentido",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Sentido",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "1"
+        ],
+        "to": "1"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column TipoParada",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TipoParada",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "C"
+        ],
+        "to": "Cambio"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column TipoParada",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TipoParada",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Intercambiador"
+        ],
+        "to": "Intercambiador"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column TipoParada",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TipoParada",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "I"
+        ],
+        "to": "Intercambiador"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column TipoParada",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TipoParada",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "T"
+        ],
+        "to": "Transbordo"
+      }
+    ]
+  }
+{
+    "op": "core/column-rename",
+    "description": "Rename column DENOMINACION to Parada",
+    "oldColumnName": "DENOMINACION",
+    "newColumnName": "Parada"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column MUNICIPIO to Municipio",
+    "oldColumnName": "MUNICIPIO",
+    "newColumnName": "Municipio"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column DIRECCION to Direccion",
+    "oldColumnName": "DIRECCION",
+    "newColumnName": "Direccion"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column LONGITUDTRAMOANTERIOR to Long_Tramo_Anterior",
+    "oldColumnName": "LONGITUDTRAMOANTERIOR",
+    "newColumnName": "Long_Tramo_Anterior"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.es/group30/ontology/MetroStation#",
+      "prefixes": [
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"N_Linea/\"+ value.urlify()",
+          "isRowNumberCell": false,
+          "columnName": "NumeroLinea",
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.es/group30/ontology/MetroStation#",
+      "prefixes": [
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"N_Linea/\"+ value.urlify()",
+          "isRowNumberCell": false,
+          "columnName": "NumeroLinea",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "EnLaCalle",
+              "curie": ":EnLaCalle",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Direccion/\"+ value.urlify()",
+                "isRowNumberCell": false,
+                "columnName": "Direccion",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Municipio/\"+value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Municipio",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Direccion/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Direccion",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "Linea_Lineas",
+              "curie": ":Linea_Lineas",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"N_Linea/\"+ value.urlify()",
+                "isRowNumberCell": false,
+                "columnName": "NumeroLinea",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Parada/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Parada",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"N_Linea/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "NumeroLinea",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.es/group30/ontology/MetroStation#",
+      "prefixes": [
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"N_Linea/\"+ value.urlify()",
+          "isRowNumberCell": false,
+          "columnName": "NumeroLinea",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "EnLaCalle",
+              "curie": ":EnLaCalle",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Direccion/\"+ value.urlify()",
+                "isRowNumberCell": false,
+                "columnName": "Direccion",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Municipio/\"+value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Municipio",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Direccion/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Direccion",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "Linea_Lineas",
+              "curie": ":Linea_Lineas",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"N_Linea/\"+ value.urlify()",
+                "isRowNumberCell": false,
+                "columnName": "NumeroLinea",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Parada/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Parada",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"N_Linea/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "NumeroLinea",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "SuZonaEs",
+              "curie": ":SuZonaEs",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TipoParada"
+              }
+            },
+            {
+              "uri": "Pre-Distancia",
+              "curie": ":Pre-Distancia",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"DistanciaTramoAnterior/\"+value.urlify()",
+                "isRowNumberCell": false,
+                "columnName": "Long_Tramo_Anterior",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Parada/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Parada",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"DistanciaTramoAnterior/\"+value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Long_Tramo_Anterior",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.es/group30/ontology/MetroStation#",
+      "prefixes": [
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"N_Linea/\"+ value.urlify()",
+          "isRowNumberCell": false,
+          "columnName": "NumeroLinea",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "EnLaCalle",
+              "curie": ":EnLaCalle",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Direccion/\"+ value.urlify()",
+                "isRowNumberCell": false,
+                "columnName": "Direccion",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Municipio/\"+value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Municipio",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Direccion/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Direccion",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "Linea_Lineas",
+              "curie": ":Linea_Lineas",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"N_Linea/\"+ value.urlify()",
+                "isRowNumberCell": false,
+                "columnName": "NumeroLinea",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Parada/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Parada",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"N_Linea/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "NumeroLinea",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "SuZonaEs",
+              "curie": ":SuZonaEs",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TipoParada"
+              }
+            },
+            {
+              "uri": "TipoParada",
+              "curie": ":TipoParada",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"TipoParada/\"+ value.urlify()",
+                "isRowNumberCell": false,
+                "columnName": "TipoParada",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Parada/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Parada",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"TipoParada/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "TipoParada",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "Pre-Distancia",
+              "curie": ":Pre-Distancia",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"DistanciaTramoAnterior/\"+value.urlify()",
+                "isRowNumberCell": false,
+                "columnName": "Long_Tramo_Anterior",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Parada/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Parada",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"DistanciaTramoAnterior/\"+value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Long_Tramo_Anterior",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "UbicadaEn",
+              "curie": ":UbicadaEn",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Municipio/\"+value.urlify()",
+                "isRowNumberCell": false,
+                "columnName": "Municipio",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Parada/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Parada",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Municipio/\"+value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Municipio",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.es/group30/ontology/MetroStation#",
+      "prefixes": [
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "metrostation",
+          "uri": "http://www.semanticweb.es/group30/ontology/MetroStation#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"N_Linea/\"+ value.urlify()",
+          "isRowNumberCell": false,
+          "columnName": "NumeroLinea",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "EnLaCalle",
+              "curie": ":EnLaCalle",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Direccion/\"+ value.urlify()",
+                "isRowNumberCell": false,
+                "columnName": "Direccion",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Municipio/\"+value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Municipio",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Direccion/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Direccion",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "Linea_Lineas",
+              "curie": ":Linea_Lineas",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"N_Linea/\"+ value.urlify()",
+                "isRowNumberCell": false,
+                "columnName": "NumeroLinea",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Parada/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Parada",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"N_Linea/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "NumeroLinea",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "SuZonaEs",
+              "curie": ":SuZonaEs",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TipoParada"
+              }
+            },
+            {
+              "uri": "TipoParada",
+              "curie": ":TipoParada",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"TipoParada/\"+ value.urlify()",
+                "isRowNumberCell": false,
+                "columnName": "TipoParada",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Parada/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Parada",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"TipoParada/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "TipoParada",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "Pre-Distancia",
+              "curie": ":Pre-Distancia",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"DistanciaTramoAnterior/\"+value.urlify()",
+                "isRowNumberCell": false,
+                "columnName": "Long_Tramo_Anterior",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Parada/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Parada",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"DistanciaTramoAnterior/\"+value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Long_Tramo_Anterior",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "UbicadaEn",
+              "curie": ":UbicadaEn",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Municipio/\"+value.urlify()",
+                "isRowNumberCell": false,
+                "columnName": "Municipio",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Parada/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Parada",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Municipio/\"+value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Municipio",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.es/group30/ontology/MetroStation#",
+      "prefixes": [
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "metrostation",
+          "uri": "http://www.semanticweb.es/group30/ontology/MetroStation#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"N_Linea/\"+ value.urlify()",
+          "isRowNumberCell": false,
+          "columnName": "NumeroLinea",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "EnLaCalle",
+              "curie": ":EnLaCalle",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Direccion/\"+ value.urlify()",
+                "isRowNumberCell": false,
+                "columnName": "Direccion",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Municipio/\"+value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Municipio",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Direccion/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Direccion",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "Linea_Lineas",
+              "curie": ":Linea_Lineas",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"N_Linea/\"+ value.urlify()",
+                "isRowNumberCell": false,
+                "columnName": "NumeroLinea",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Parada/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Parada",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"N_Linea/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "NumeroLinea",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "SuZonaEs",
+              "curie": ":SuZonaEs",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TipoParada"
+              }
+            },
+            {
+              "uri": "TipoParada",
+              "curie": ":TipoParada",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"TipoParada/\"+ value.urlify()",
+                "isRowNumberCell": false,
+                "columnName": "TipoParada",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Parada/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Parada",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"TipoParada/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "TipoParada",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "Pre-Distancia",
+              "curie": ":Pre-Distancia",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"DistanciaTramoAnterior/\"+value.urlify()",
+                "isRowNumberCell": false,
+                "columnName": "Long_Tramo_Anterior",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Parada/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Parada",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"DistanciaTramoAnterior/\"+value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Long_Tramo_Anterior",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "UbicadaEn",
+              "curie": ":UbicadaEn",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Municipio/\"+value.urlify()",
+                "isRowNumberCell": false,
+                "columnName": "Municipio",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Parada/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Parada",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Municipio/\"+value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Municipio",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.es/group30/ontology/MetroStation#",
+      "prefixes": [
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "metrostation",
+          "uri": "http://www.semanticweb.es/group30/ontology/MetroStation#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"N_Linea/\"+ value.urlify()",
+          "isRowNumberCell": false,
+          "columnName": "NumeroLinea",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "EnLaCalle",
+              "curie": ":EnLaCalle",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Direccion/\"+ value.urlify()",
+                "isRowNumberCell": false,
+                "columnName": "Direccion",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Municipio/\"+value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Municipio",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Direccion/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Direccion",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "Linea_Lineas",
+              "curie": ":Linea_Lineas",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"N_Linea/\"+ value.urlify()",
+                "isRowNumberCell": false,
+                "columnName": "NumeroLinea",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Parada/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Parada",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"N_Linea/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "NumeroLinea",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "SuZonaEs",
+              "curie": ":SuZonaEs",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TipoParada"
+              }
+            },
+            {
+              "uri": "TipoParada",
+              "curie": ":TipoParada",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"TipoParada/\"+ value.urlify()",
+                "isRowNumberCell": false,
+                "columnName": "TipoParada",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Parada/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Parada",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"TipoParada/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "TipoParada",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "Pre-Distancia",
+              "curie": ":Pre-Distancia",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"DistanciaTramoAnterior/\"+value.urlify()",
+                "isRowNumberCell": false,
+                "columnName": "Long_Tramo_Anterior",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Parada/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Parada",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"DistanciaTramoAnterior/\"+value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Long_Tramo_Anterior",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "UbicadaEn",
+              "curie": ":UbicadaEn",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Municipio/\"+value.urlify()",
+                "isRowNumberCell": false,
+                "columnName": "Municipio",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Parada/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Parada",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Municipio/\"+value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Municipio",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.es/group30/ontology/MetroStation#",
+      "prefixes": [
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "metrostation",
+          "uri": "http://www.semanticweb.es/group30/ontology/MetroStation#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"N_Linea/\"+ value.urlify()",
+          "isRowNumberCell": false,
+          "columnName": "NumeroLinea",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "EnLaCalle",
+              "curie": ":EnLaCalle",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Direccion/\"+ value.urlify()",
+                "isRowNumberCell": false,
+                "columnName": "Direccion",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain"
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range"
+                  },
+                  {
+                    "uri": "http://www.w3.org/2001/XMLSchema#string",
+                    "curie": "xsd:string"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Municipio/\"+value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Municipio",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Direccion/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Direccion",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "Linea_Lineas",
+              "curie": ":Linea_Lineas",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"N_Linea/\"+ value.urlify()",
+                "isRowNumberCell": false,
+                "columnName": "NumeroLinea",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Parada/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Parada",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"N_Linea/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "NumeroLinea",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "SuZonaEs",
+              "curie": ":SuZonaEs",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TipoParada"
+              }
+            },
+            {
+              "uri": "TipoParada",
+              "curie": ":TipoParada",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"TipoParada/\"+ value.urlify()",
+                "isRowNumberCell": false,
+                "columnName": "TipoParada",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Parada/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Parada",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"TipoParada/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "TipoParada",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "Pre-Distancia",
+              "curie": ":Pre-Distancia",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"DistanciaTramoAnterior/\"+value.urlify()",
+                "isRowNumberCell": false,
+                "columnName": "Long_Tramo_Anterior",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Parada/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Parada",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"DistanciaTramoAnterior/\"+value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Long_Tramo_Anterior",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "UbicadaEn",
+              "curie": ":UbicadaEn",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Municipio/\"+value.urlify()",
+                "isRowNumberCell": false,
+                "columnName": "Municipio",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Parada/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Parada",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Municipio/\"+value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Municipio",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.es/group30/ontology/MetroStation#",
+      "prefixes": [
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "metrostation",
+          "uri": "http://www.semanticweb.es/group30/ontology/MetroStation#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"N_Linea/\"+ value.urlify()",
+          "isRowNumberCell": false,
+          "columnName": "NumeroLinea",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "EnLaCalle",
+              "curie": ":EnLaCalle",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Direccion/\"+ value.urlify()",
+                "isRowNumberCell": false,
+                "columnName": "Direccion",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain"
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range"
+                  },
+                  {
+                    "uri": "http://www.w3.org/2001/XMLSchema#string",
+                    "curie": "xsd:string"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Municipio/\"+value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Municipio",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Direccion/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Direccion",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "Linea_Lineas",
+              "curie": ":Linea_Lineas",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"N_Linea/\"+ value.urlify()",
+                "isRowNumberCell": false,
+                "columnName": "NumeroLinea",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Parada/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Parada",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"N_Linea/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "NumeroLinea",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "SuZonaEs",
+              "curie": ":SuZonaEs",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TipoParada"
+              }
+            },
+            {
+              "uri": "TipoParada",
+              "curie": ":TipoParada",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"TipoParada/\"+ value.urlify()",
+                "isRowNumberCell": false,
+                "columnName": "TipoParada",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Parada/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Parada",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"TipoParada/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "TipoParada",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "Pre-Distancia",
+              "curie": ":Pre-Distancia",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"DistanciaTramoAnterior/\"+value.urlify()",
+                "isRowNumberCell": false,
+                "columnName": "Long_Tramo_Anterior",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Parada/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Parada",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"DistanciaTramoAnterior/\"+value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Long_Tramo_Anterior",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "UbicadaEn",
+              "curie": ":UbicadaEn",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Municipio/\"+value.urlify()",
+                "isRowNumberCell": false,
+                "columnName": "Municipio",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Parada/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Parada",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Municipio/\"+value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Municipio",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.es/group30/ontology/MetroStation#",
+      "prefixes": [
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "metrostation",
+          "uri": "http://www.semanticweb.es/group30/ontology/MetroStation#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"N_Linea/\"+ value.urlify()",
+          "isRowNumberCell": false,
+          "columnName": "NumeroLinea",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "EnLaCalle",
+              "curie": ":EnLaCalle",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Direccion/\"+ value.urlify()",
+                "isRowNumberCell": false,
+                "columnName": "Direccion",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain"
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range"
+                  },
+                  {
+                    "uri": "http://www.w3.org/2001/XMLSchema#string",
+                    "curie": "xsd:string"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Municipio/\"+value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Municipio",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Direccion/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Direccion",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "Linea_Lineas",
+              "curie": ":Linea_Lineas",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"N_Linea/\"+ value.urlify()",
+                "isRowNumberCell": false,
+                "columnName": "NumeroLinea",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Parada/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Parada",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"N_Linea/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "NumeroLinea",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "SuZonaEs",
+              "curie": ":SuZonaEs",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TipoParada"
+              }
+            },
+            {
+              "uri": "TipoParada",
+              "curie": ":TipoParada",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"TipoParada/\"+ value.urlify()",
+                "isRowNumberCell": false,
+                "columnName": "TipoParada",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Parada/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Parada",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"TipoParada/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "TipoParada",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "Pre-Distancia",
+              "curie": ":Pre-Distancia",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"DistanciaTramoAnterior/\"+value.urlify()",
+                "isRowNumberCell": false,
+                "columnName": "Long_Tramo_Anterior",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Parada/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Parada",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"DistanciaTramoAnterior/\"+value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Long_Tramo_Anterior",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "UbicadaEn",
+              "curie": ":UbicadaEn",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Municipio/\"+value.urlify()",
+                "isRowNumberCell": false,
+                "columnName": "Municipio",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Parada/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Parada",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Municipio/\"+value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Municipio",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.es/group30/ontology/MetroStation#",
+      "prefixes": [
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "metrostation",
+          "uri": "http://www.semanticweb.es/group30/ontology/MetroStation#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"N_Linea/\"+ value.urlify()",
+          "isRowNumberCell": false,
+          "columnName": "NumeroLinea",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "EnLaCalle",
+              "curie": ":EnLaCalle",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Direccion/\"+ value.urlify()",
+                "isRowNumberCell": false,
+                "columnName": "Direccion",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain"
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range"
+                  },
+                  {
+                    "uri": "http://www.w3.org/2001/XMLSchema#string",
+                    "curie": "xsd:string"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Municipio/\"+value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Municipio",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Direccion/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Direccion",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "Linea_Lineas",
+              "curie": ":Linea_Lineas",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"N_Linea/\"+ value.urlify()",
+                "isRowNumberCell": false,
+                "columnName": "NumeroLinea",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Parada/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Parada",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"N_Linea/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "NumeroLinea",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "SuZonaEs",
+              "curie": ":SuZonaEs",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TipoParada"
+              }
+            },
+            {
+              "uri": "TipoParada",
+              "curie": ":TipoParada",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"TipoParada/\"+ value.urlify()",
+                "isRowNumberCell": false,
+                "columnName": "TipoParada",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Parada/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Parada",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"TipoParada/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "TipoParada",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "Pre-Distancia",
+              "curie": ":Pre-Distancia",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"DistanciaTramoAnterior/\"+value.urlify()",
+                "isRowNumberCell": false,
+                "columnName": "Long_Tramo_Anterior",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Parada/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Parada",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"DistanciaTramoAnterior/\"+value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Long_Tramo_Anterior",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "UbicadaEn",
+              "curie": ":UbicadaEn",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Municipio/\"+value.urlify()",
+                "isRowNumberCell": false,
+                "columnName": "Municipio",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Parada/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Parada",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Municipio/\"+value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Municipio",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.es/group30/ontology/MetroStation#",
+      "prefixes": [
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "metrostation",
+          "uri": "http://www.semanticweb.es/group30/ontology/MetroStation#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"N_Linea/\"+ value.urlify()",
+          "isRowNumberCell": false,
+          "columnName": "NumeroLinea",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "EnLaCalle",
+              "curie": ":EnLaCalle",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Direccion/\"+ value.urlify()",
+                "isRowNumberCell": false,
+                "columnName": "Direccion",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain"
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range"
+                  },
+                  {
+                    "uri": "http://www.w3.org/2001/XMLSchema#string",
+                    "curie": "xsd:string"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Municipio/\"+value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Municipio",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Direccion/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Direccion",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "Linea_Lineas",
+              "curie": ":Linea_Lineas",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"N_Linea/\"+ value.urlify()",
+                "isRowNumberCell": false,
+                "columnName": "NumeroLinea",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain"
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range"
+                  },
+                  {
+                    "uri": "http://www.w3.org/2001/XMLSchema#string",
+                    "curie": "xsd:string"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Parada/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Parada",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"N_Linea/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "NumeroLinea",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "SuZonaEs",
+              "curie": ":SuZonaEs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Tarifa/\" +value.urlify()",
+                "isRowNumberCell": false,
+                "columnName": "Zona_Tarifa",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain"
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range"
+                  },
+                  {
+                    "uri": "http://www.w3.org/2001/XMLSchema#string",
+                    "curie": "xsd:string"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "TipoParada",
+              "curie": ":TipoParada",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"TipoParada/\"+ value.urlify()",
+                "isRowNumberCell": false,
+                "columnName": "TipoParada",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain"
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range"
+                  },
+                  {
+                    "uri": "http://www.w3.org/2001/XMLSchema#string",
+                    "curie": "xsd:string"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Parada/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Parada",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"TipoParada/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "TipoParada",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "Pre-Distancia",
+              "curie": ":Pre-Distancia",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"DistanciaTramoAnterior/\"+value.urlify()",
+                "isRowNumberCell": false,
+                "columnName": "Long_Tramo_Anterior",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain"
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range"
+                  },
+                  {
+                    "uri": "http://www.w3.org/2001/XMLSchema#float",
+                    "curie": "xsd:float"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Parada/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Parada",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"DistanciaTramoAnterior/\"+value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Long_Tramo_Anterior",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "UbicadaEn",
+              "curie": ":UbicadaEn",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Municipio/\"+value.urlify()",
+                "isRowNumberCell": false,
+                "columnName": "Municipio",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Parada/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Parada",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Municipio/\"+value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Municipio",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.es/group30/ontology/MetroStation#",
+      "prefixes": [
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "metrostation",
+          "uri": "http://www.semanticweb.es/group30/ontology/MetroStation#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"N_Linea/\"+ value.urlify()",
+          "isRowNumberCell": false,
+          "columnName": "NumeroLinea",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "EnLaCalle",
+              "curie": ":EnLaCalle",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Direccion/\"+ value.urlify()",
+                "isRowNumberCell": false,
+                "columnName": "Direccion",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain"
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range"
+                  },
+                  {
+                    "uri": "http://www.w3.org/2001/XMLSchema#string",
+                    "curie": "xsd:string"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Municipio/\"+value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Municipio",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Direccion/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Direccion",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "Linea_Lineas",
+              "curie": ":Linea_Lineas",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"N_Linea/\"+ value.urlify()",
+                "isRowNumberCell": false,
+                "columnName": "NumeroLinea",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain"
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range"
+                  },
+                  {
+                    "uri": "http://www.w3.org/2001/XMLSchema#string",
+                    "curie": "xsd:string"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Parada/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Parada",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"N_Linea/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "NumeroLinea",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "SuZonaEs",
+              "curie": ":SuZonaEs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Tarifa/\" +value.urlify()",
+                "isRowNumberCell": false,
+                "columnName": "Zona_Tarifa",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain"
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range"
+                  },
+                  {
+                    "uri": "http://www.w3.org/2001/XMLSchema#string",
+                    "curie": "xsd:string"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "TipoParada",
+              "curie": ":TipoParada",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"TipoParada/\"+ value.urlify()",
+                "isRowNumberCell": false,
+                "columnName": "TipoParada",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain"
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range"
+                  },
+                  {
+                    "uri": "http://www.w3.org/2001/XMLSchema#string",
+                    "curie": "xsd:string"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Parada/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Parada",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"TipoParada/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "TipoParada",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "Pre-Distancia",
+              "curie": ":Pre-Distancia",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"DistanciaTramoAnterior/\"+value.urlify()",
+                "isRowNumberCell": false,
+                "columnName": "Long_Tramo_Anterior",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain"
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range"
+                  },
+                  {
+                    "uri": "http://www.w3.org/2001/XMLSchema#float",
+                    "curie": "xsd:float"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Parada/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Parada",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"DistanciaTramoAnterior/\"+value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Long_Tramo_Anterior",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "UbicadaEn",
+              "curie": ":UbicadaEn",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Municipio/\"+value.urlify()",
+                "isRowNumberCell": false,
+                "columnName": "Municipio",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain"
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range"
+                  },
+                  {
+                    "uri": "http://www.w3.org/2001/XMLSchema#string",
+                    "curie": "xsd:string"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Parada/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Parada",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Municipio/\"+value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Municipio",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.es/group30/ontology/MetroStation#",
+      "prefixes": [
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "metrostation",
+          "uri": "http://www.semanticweb.es/group30/ontology/MetroStation#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"N_Linea/\"+ value.urlify()",
+          "isRowNumberCell": false,
+          "columnName": "NumeroLinea",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "EnLaCalle",
+              "curie": ":EnLaCalle",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Direccion/\"+ value.urlify()",
+                "isRowNumberCell": false,
+                "columnName": "Direccion",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain"
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range"
+                  },
+                  {
+                    "uri": "http://www.w3.org/2001/XMLSchema#string",
+                    "curie": "xsd:string"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Municipio/\"+value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Municipio",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Direccion/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Direccion",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "Linea_Lineas",
+              "curie": ":Linea_Lineas",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"N_Linea/\"+ value.urlify()",
+                "isRowNumberCell": false,
+                "columnName": "NumeroLinea",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain"
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range"
+                  },
+                  {
+                    "uri": "http://www.w3.org/2001/XMLSchema#string",
+                    "curie": "xsd:string"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Parada/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Parada",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"N_Linea/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "NumeroLinea",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "SuZonaEs",
+              "curie": ":SuZonaEs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Tarifa/\" +value.urlify()",
+                "isRowNumberCell": false,
+                "columnName": "Zona_Tarifa",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain"
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range"
+                  },
+                  {
+                    "uri": "http://www.w3.org/2001/XMLSchema#string",
+                    "curie": "xsd:string"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "TipoParada",
+              "curie": ":TipoParada",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"TipoParada/\"+ value.urlify()",
+                "isRowNumberCell": false,
+                "columnName": "TipoParada",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain"
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range"
+                  },
+                  {
+                    "uri": "http://www.w3.org/2001/XMLSchema#string",
+                    "curie": "xsd:string"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Parada/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Parada",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"TipoParada/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "TipoParada",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "Pre-Distancia",
+              "curie": ":Pre-Distancia",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"DistanciaTramoAnterior/\"+value.urlify()",
+                "isRowNumberCell": false,
+                "columnName": "Long_Tramo_Anterior",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain"
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range"
+                  },
+                  {
+                    "uri": "http://www.w3.org/2001/XMLSchema#float",
+                    "curie": "xsd:float"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Parada/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Parada",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"DistanciaTramoAnterior/\"+value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Long_Tramo_Anterior",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "UbicadaEn",
+              "curie": ":UbicadaEn",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Municipio/\"+value.urlify()",
+                "isRowNumberCell": false,
+                "columnName": "Municipio",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain"
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range"
+                  },
+                  {
+                    "uri": "http://www.w3.org/2001/XMLSchema#string",
+                    "curie": "xsd:string"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#domain",
+                    "curie": "rdfs:domain",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Parada/\"+ value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Parada",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#range",
+                    "curie": "rdfs:range",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"Municipio/\"+value.urlify()",
+                      "isRowNumberCell": false,
+                      "columnName": "Municipio",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+
+  
+]
