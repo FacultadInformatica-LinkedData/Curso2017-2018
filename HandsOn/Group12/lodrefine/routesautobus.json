@@ -466,5 +466,307 @@
         }
       ]
     }
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column routeShortName to routeLine",
+    "oldColumnName": "routeShortName",
+    "newColumnName": "routeLine"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column routeLongName to journey",
+    "oldColumnName": "routeLongName",
+    "newColumnName": "journey"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column routeColor",
+    "columnName": "routeColor"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column routeTextColor",
+    "columnName": "routeTextColor"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group12/resources/",
+      "prefixes": [
+        {
+          "name": "",
+          "uri": "http://www.semanticweb.org/group12/ontology#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Route/\" + value",
+          "isRowNumberCell": false,
+          "columnName": "routeID",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/group12/ontology#routeLine",
+              "curie": ":routeLine",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "routeLine"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group12/ontology#journey",
+              "curie": ":journey",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "journey"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group12/ontology#routeURL",
+              "curie": ":routeURL",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "routeURL"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group12/resources/",
+      "prefixes": [
+        {
+          "name": "",
+          "uri": "http://www.semanticweb.org/group12/ontology#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Route/\" + value",
+          "isRowNumberCell": false,
+          "columnName": "routeID",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/group12/ontology#routeLine",
+              "curie": ":routeLine",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "routeLine"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group12/ontology#journey",
+              "curie": ":journey",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "journey"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group12/ontology#routeURL",
+              "curie": ":routeURL",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "routeURL"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group12/resources/",
+      "prefixes": [
+        {
+          "name": "",
+          "uri": "http://www.semanticweb.org/group12/ontology#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Route/\" + value",
+          "isRowNumberCell": false,
+          "columnName": "routeID",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/group12/ontology#routeLine",
+              "curie": ":routeLine",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "routeLine"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group12/ontology#journey",
+              "curie": ":journey",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "journey"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group12/ontology#routeURL",
+              "curie": ":routeURL",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "routeURL"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group12/resources/",
+      "prefixes": [
+        {
+          "name": "",
+          "uri": "http://www.semanticweb.org/group12/ontology#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Route/\" + value",
+          "isRowNumberCell": false,
+          "columnName": "routeID",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/group12/ontology#routeLine",
+              "curie": ":routeLine",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "routeLine"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group12/ontology#journey",
+              "curie": ":journey",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "journey"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group12/ontology#routeURL",
+              "curie": ":routeURL",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "routeURL"
+              }
+            }
+          ]
+        }
+      ]
+    }
   }
 ]
