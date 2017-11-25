@@ -1,0 +1,113 @@
+@prefix : <http://www.madriddeportes.es/ontologies/2017> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+
+<http://www.madriddeportes.es/ontologies/2017> a owl:Ontology .
+
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.madriddeportes.es/ontologies/2017/Address
+
+<http://www.madriddeportes.es/ontologies/2017Address> a owl:ObjectProperty ;
+	rdfs:domain <http://www.madriddeportes.es/ontologies/2017/Number> , <www.madriddeportes.es/ontologies/2017/STREET_NAME> , <http://www.madriddeportes.es/ontologies/2017/CITY>;
+	rdfs:range <http://www.madriddeportes.es/ontologies/2017/Address> .
+# 
+# http://www.madriddeportes.es/ontologies/2017/hasAdressType
+
+<http://www.madriddeportes.es/ontologies/2017/hasAdressType> a owl:ObjectProperty ;
+	rdfs:domain <http://www.madriddeportes.es/ontologies/2017/Address> ;
+	rdfs:range <http://www.madriddeportes.es/ontologies/2017/Address_Type> .
+# 
+# http://www.semanticweb.org/group32/ontologies/2016/9/calgary-ontologyhasCode
+
+<http://www.madriddeportes.es/ontologies/2017/hasCode> a owl:ObjectProperty ;
+	rdfs:domain <http://www.madriddeportes.es/ontologies/2017/Class> ;
+	rdfs:range <http://www.madriddeportes.es/ontologies/2017/ClassCode> .
+# 
+# http://www.semanticweb.org/group32/ontologies/2016/9/calgary-ontologyhasNumber
+
+<http://www.madriddeportes.es/ontologies/2017/hasNumber> a owl:ObjectProperty ;
+	rdfs:domain <http://www.madriddeportes.es/ontologies/2017/Address> ;
+	rdfs:range <http://www.madriddeportes.es/ontologies/2017/Number> .
+# 
+# http://www.madriddeportes.es/ontologies/2017/hasSector
+
+<http://www.madriddeportes.es/ontologies/2017/hasSector> a owl:ObjectProperty ;
+	rdfs:domain <http://www.madriddeportes.es/ontologies/2017/Class> ;
+	rdfs:range <http://www.madriddeportes.es/ontologies/2017/Sector> .
+# 
+# http://www.madriddeportes.es/ontologies/2017/hasStatus
+
+<http://www.madriddeportes.es/ontologies/2017/hasStatus> a owl:ObjectProperty ;
+	rdfs:domain <http://www.madriddeportes.es/ontologies/2017/Class> ;
+	rdfs:range <http://www.madriddeportes.es/ontologies/2017/Status> .
+# 
+# http://www.madriddeportes.es/ontologies/2017/hasType
+
+<http://www.madriddeportes.es/ontologies/2017/hasType> a owl:ObjectProperty ;
+	rdfs:domain <http://www.madriddeportes.es/ontologies/2017/Class> ;
+	rdfs:range <http://www.madriddeportes.es/ontologies/2017/Type> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.madriddeportes.es/ontologies/2017/Address_Type
+
+<http://www.madriddeportes.es/ontologies/2017/Address_Type> a owl:Class .
+# 
+# http://www.madriddeportes.es/ontologies/2017/Type
+
+http://www.madriddeportes.es/ontologies/2017/Type a owl:Class
+# 
+# http://www.madriddeportes.es/ontologies/2017/Class
+
+<http://www.madriddeportes.es/ontologies/2017/Class> a owl:Class .
+# 
+# http://www.madriddeportes.es/ontologies/2017/ClassCode
+
+<http://www.madriddeportes.es/ontologies/2017/ClassCode> a owl:Class .
+# 
+# http://www.madriddeportes.es/ontologies/2017/Status
+
+<http://www.madriddeportes.es/ontologies/2017/Status> a owl:Class .
+# 
+# http://www.madriddeportes.es/ontologies/2017/STREET_NAME
+
+<http://www.madriddeportes.es/ontologies/2017/STREET_NAME> a owl:Class .
+# 
+# http://www.madriddeportes.es/ontologies/2017/Number
+
+<http://www.madriddeportes.es/ontologies/2017/Number> a owl:Class .
+# 
+# http://www.madriddeportes.es/ontologies/2017/CITY
+
+<http://www.madriddeportes.es/ontologies/2017/CITY> a owl:Class .
+# 
+# http://www.madriddeportes.es/ontologies/2017/Type
+
+<http://www.madriddeportes.es/ontologies/2017/Type> a owl:Class .
+# 
+# http://www.madriddeportes.es/ontologies/2017/Sector
+
+<http://www.madriddeportes.es/ontologies/2017/Sector> a owl:Class .
+# 
+# http://www.madriddeportes.es/ontologies/2017/ClassCode
+
+<http://www.madriddeportes.es/ontologies/2017/ClassCode> a owl:Class .

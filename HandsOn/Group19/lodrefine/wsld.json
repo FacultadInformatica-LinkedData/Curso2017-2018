@@ -1,0 +1,2125 @@
+[
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "https://www.linkeddataupm.es/group19/",
+      "prefixes": [
+        {
+          "name": "re",
+          "uri": "https://www.linkeddataupm.es/group19/resource/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "voc",
+          "uri": "https://www.linkeddataupm.es/group19/vocabulary#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Measurement",
+          "rdfTypes": [
+            {
+              "uri": "https://www.linkeddataupm.es/group19/Measurement",
+              "curie": "re:Measurement"
+            }
+          ],
+          "links": [
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#hasDate",
+              "curie": "voc:hasDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "Fecha"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLd",
+              "curie": "voc:pLd",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Ld"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLe",
+              "curie": "voc:pLe",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Le"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLn",
+              "curie": "voc:pLn",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Ln"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAeq24",
+              "curie": "voc:pLAeq24",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAeq24"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAS01",
+              "curie": "voc:pLAS01",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAS01"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAS10",
+              "curie": "voc:pLAS10",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAS10"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAS50",
+              "curie": "voc:pLAS50",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAS50"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAS90",
+              "curie": "voc:pLAS90",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAS90"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAS99",
+              "curie": "voc:pLAS99",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAS99"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "https://www.linkeddataupm.es/group19/",
+      "prefixes": [
+        {
+          "name": "re",
+          "uri": "https://www.linkeddataupm.es/group19/resource/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "voc",
+          "uri": "https://www.linkeddataupm.es/group19/vocabulary#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Measurement",
+          "rdfTypes": [
+            {
+              "uri": "https://www.linkeddataupm.es/group19/Measurement",
+              "curie": "re:Measurement"
+            }
+          ],
+          "links": [
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#hasDate",
+              "curie": "voc:hasDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "Fecha"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLd",
+              "curie": "voc:pLd",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Ld"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLe",
+              "curie": "voc:pLe",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Le"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLn",
+              "curie": "voc:pLn",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Ln"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAeq24",
+              "curie": "voc:pLAeq24",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAeq24"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAS01",
+              "curie": "voc:pLAS01",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAS01"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAS10",
+              "curie": "voc:pLAS10",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAS10"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAS50",
+              "curie": "voc:pLAS50",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAS50"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAS90",
+              "curie": "voc:pLAS90",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAS90"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAS99",
+              "curie": "voc:pLAS99",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAS99"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [
+            {
+              "uri": "https://www.linkeddataupm.es/group19/resource/Ubication",
+              "curie": "re:Ubication"
+            }
+          ],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "https://www.linkeddataupm.es/group19/",
+      "prefixes": [
+        {
+          "name": "re",
+          "uri": "https://www.linkeddataupm.es/group19/resource/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "voc",
+          "uri": "https://www.linkeddataupm.es/group19/vocabulary#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Measurement",
+          "rdfTypes": [
+            {
+              "uri": "https://www.linkeddataupm.es/group19/Measurement",
+              "curie": "re:Measurement"
+            }
+          ],
+          "links": [
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#hasDate",
+              "curie": "voc:hasDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "Fecha"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLd",
+              "curie": "voc:pLd",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Ld"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLe",
+              "curie": "voc:pLe",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Le"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLn",
+              "curie": "voc:pLn",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Ln"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAeq24",
+              "curie": "voc:pLAeq24",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAeq24"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAS01",
+              "curie": "voc:pLAS01",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAS01"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAS10",
+              "curie": "voc:pLAS10",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAS10"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAS50",
+              "curie": "voc:pLAS50",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAS50"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAS90",
+              "curie": "voc:pLAS90",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAS90"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAS99",
+              "curie": "voc:pLAS99",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAS99"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [
+            {
+              "uri": "https://www.linkeddataupm.es/group19/resource/Ubication",
+              "curie": "re:Ubication"
+            }
+          ],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "https://www.linkeddataupm.es/group19/",
+      "prefixes": [
+        {
+          "name": "re",
+          "uri": "https://www.linkeddataupm.es/group19/resource/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "voc",
+          "uri": "https://www.linkeddataupm.es/group19/vocabulary#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Measurement",
+          "rdfTypes": [
+            {
+              "uri": "https://www.linkeddataupm.es/group19/Measurement",
+              "curie": "re:Measurement"
+            }
+          ],
+          "links": [
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#hasDate",
+              "curie": "voc:hasDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "Fecha"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLd",
+              "curie": "voc:pLd",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Ld"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLe",
+              "curie": "voc:pLe",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Le"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLn",
+              "curie": "voc:pLn",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Ln"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAeq24",
+              "curie": "voc:pLAeq24",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAeq24"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAS01",
+              "curie": "voc:pLAS01",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAS01"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAS10",
+              "curie": "voc:pLAS10",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAS10"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAS50",
+              "curie": "voc:pLAS50",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAS50"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAS90",
+              "curie": "voc:pLAS90",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAS90"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAS99",
+              "curie": "voc:pLAS99",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAS99"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [
+            {
+              "uri": "https://www.linkeddataupm.es/group19/resource/Ubication",
+              "curie": "re:Ubication"
+            }
+          ],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "https://www.linkeddataupm.es/group19/",
+      "prefixes": [
+        {
+          "name": "re",
+          "uri": "https://www.linkeddataupm.es/group19/resource/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "voc",
+          "uri": "https://www.linkeddataupm.es/group19/vocabulary#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Measurement",
+          "rdfTypes": [
+            {
+              "uri": "https://www.linkeddataupm.es/group19/Measurement",
+              "curie": "re:Measurement"
+            }
+          ],
+          "links": [
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#hasDate",
+              "curie": "voc:hasDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "Fecha"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLd",
+              "curie": "voc:pLd",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Ld"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLe",
+              "curie": "voc:pLe",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Le"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLn",
+              "curie": "voc:pLn",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Ln"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAeq24",
+              "curie": "voc:pLAeq24",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAeq24"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAS01",
+              "curie": "voc:pLAS01",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAS01"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAS10",
+              "curie": "voc:pLAS10",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAS10"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAS50",
+              "curie": "voc:pLAS50",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAS50"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAS90",
+              "curie": "voc:pLAS90",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAS90"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAS99",
+              "curie": "voc:pLAS99",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAS99"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [
+            {
+              "uri": "https://www.linkeddataupm.es/group19/resource/Ubication",
+              "curie": "re:Ubication"
+            }
+          ],
+          "links": [
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#hasNMT",
+              "curie": "voc:hasNMT",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NMT"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#hasMeasurement",
+              "curie": "voc:hasMeasurement",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Measurement"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "https://www.linkeddataupm.es/group19/",
+      "prefixes": [
+        {
+          "name": "re",
+          "uri": "https://www.linkeddataupm.es/group19/resource/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "voc",
+          "uri": "https://www.linkeddataupm.es/group19/vocabulary#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Measurement",
+          "rdfTypes": [
+            {
+              "uri": "https://www.linkeddataupm.es/group19/resource/Measurement",
+              "curie": "re:Measurement"
+            }
+          ],
+          "links": [
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#hasDate",
+              "curie": "voc:hasDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "Fecha"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLd",
+              "curie": "voc:pLd",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Ld"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLe",
+              "curie": "voc:pLe",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Le"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLn",
+              "curie": "voc:pLn",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Ln"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAeq24",
+              "curie": "voc:pLAeq24",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAeq24"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAS01",
+              "curie": "voc:pLAS01",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAS01"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAS10",
+              "curie": "voc:pLAS10",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAS10"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAS50",
+              "curie": "voc:pLAS50",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAS50"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAS90",
+              "curie": "voc:pLAS90",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAS90"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAS99",
+              "curie": "voc:pLAS99",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAS99"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Situacion",
+          "rdfTypes": [
+            {
+              "uri": "https://www.linkeddataupm.es/group19/resource/Ubication",
+              "curie": "re:Ubication"
+            }
+          ],
+          "links": [
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#hasNMT",
+              "curie": "voc:hasNMT",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NMT"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#hasMeasurement",
+              "curie": "voc:hasMeasurement",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Measurement"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "https://www.linkeddataupm.es/group19/",
+      "prefixes": [
+        {
+          "name": "re",
+          "uri": "https://www.linkeddataupm.es/group19/resource/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "voc",
+          "uri": "https://www.linkeddataupm.es/group19/vocabulary#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Measurement",
+          "rdfTypes": [
+            {
+              "uri": "https://www.linkeddataupm.es/group19/resource/Measurement",
+              "curie": "re:Measurement"
+            }
+          ],
+          "links": [
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#hasDate",
+              "curie": "voc:hasDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "Fecha"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLd",
+              "curie": "voc:pLd",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Ld"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLe",
+              "curie": "voc:pLe",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Le"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLn",
+              "curie": "voc:pLn",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Ln"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAeq24",
+              "curie": "voc:pLAeq24",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAeq24"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAS01",
+              "curie": "voc:pLAS01",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAS01"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAS10",
+              "curie": "voc:pLAS10",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAS10"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAS50",
+              "curie": "voc:pLAS50",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAS50"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAS90",
+              "curie": "voc:pLAS90",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAS90"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAS99",
+              "curie": "voc:pLAS99",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAS99"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Situacion",
+          "rdfTypes": [
+            {
+              "uri": "https://www.linkeddataupm.es/group19/resource/Ubication",
+              "curie": "re:Ubication"
+            }
+          ],
+          "links": [
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#hasNMT",
+              "curie": "voc:hasNMT",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NMT"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#hasMeasurement",
+              "curie": "voc:hasMeasurement",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Measurement"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Measurement",
+    "columnName": "Measurement"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column Measurement at index 2 based on column NMT using expression grel:value+\"_\"+substring(cells[\"Fecha\"].value,5,7)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "Measurement",
+    "columnInsertIndex": 2,
+    "baseColumnName": "NMT",
+    "expression": "grel:value+\"_\"+substring(cells[\"Fecha\"].value,5,7)",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-move",
+    "description": "Move column Measurement to position 0",
+    "columnName": "Measurement",
+    "index": 0
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "https://www.linkeddataupm.es/group19/",
+      "prefixes": [
+        {
+          "name": "re",
+          "uri": "https://www.linkeddataupm.es/group19/resource/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "voc",
+          "uri": "https://www.linkeddataupm.es/group19/vocabulary#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Measurement",
+          "rdfTypes": [
+            {
+              "uri": "https://www.linkeddataupm.es/group19/resource/Measurement",
+              "curie": "re:Measurement"
+            }
+          ],
+          "links": [
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#hasDate",
+              "curie": "voc:hasDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "Fecha"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLd",
+              "curie": "voc:pLd",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Ld"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLe",
+              "curie": "voc:pLe",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Le"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLn",
+              "curie": "voc:pLn",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Ln"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAeq24",
+              "curie": "voc:pLAeq24",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAeq24"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAS01",
+              "curie": "voc:pLAS01",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAS01"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAS10",
+              "curie": "voc:pLAS10",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAS10"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAS50",
+              "curie": "voc:pLAS50",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAS50"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAS90",
+              "curie": "voc:pLAS90",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAS90"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAS99",
+              "curie": "voc:pLAS99",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAS99"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Situacion",
+          "rdfTypes": [
+            {
+              "uri": "https://www.linkeddataupm.es/group19/resource/Ubication",
+              "curie": "re:Ubication"
+            }
+          ],
+          "links": [
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#hasNMT",
+              "curie": "voc:hasNMT",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NMT"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#hasMeasurement",
+              "curie": "voc:hasMeasurement",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Measurement"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Situacion using expression value.trim()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Situacion",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Ld using expression value.trim()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Ld",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Le using expression value.trim()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Le",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Ln using expression value.trim()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Ln",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column LAeq24 using expression value.trim()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "LAeq24",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column LAS01 using expression value.trim()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "LAS01",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column LAS10 using expression value.trim()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "LAS10",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column LAS50 using expression value.trim()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "LAS50",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column LAS90 using expression value.trim()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "LAS90",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column LAS90 using expression value.trim()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "LAS90",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column LAS99 using expression value.trim()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "LAS99",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Situacion using expression value.trim()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Situacion",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column NMT using expression value.trim()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NMT",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Fecha using expression value.trim()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Fecha",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Measurement using expression value.trim()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Measurement",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Situacion",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Situacion",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Plaza de Espa�a"
+        ],
+        "to": "Plaza de España"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Situacion",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Situacion",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Gregorio Mara�on"
+        ],
+        "to": "Gregorio Marañon"
+      }
+    ]
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "https://www.linkeddataupm.es/group19/",
+      "prefixes": [
+        {
+          "name": "re",
+          "uri": "https://www.linkeddataupm.es/group19/resource/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "voc",
+          "uri": "https://www.linkeddataupm.es/group19/vocabulary#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Measurement",
+          "rdfTypes": [
+            {
+              "uri": "https://www.linkeddataupm.es/group19/resource/Measurement",
+              "curie": "re:Measurement"
+            }
+          ],
+          "links": [
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#hasDate",
+              "curie": "voc:hasDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "Fecha"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLd",
+              "curie": "voc:pLd",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Ld"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLe",
+              "curie": "voc:pLe",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Le"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLn",
+              "curie": "voc:pLn",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Ln"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAeq24",
+              "curie": "voc:pLAeq24",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAeq24"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAS01",
+              "curie": "voc:pLAS01",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAS01"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAS10",
+              "curie": "voc:pLAS10",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAS10"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAS50",
+              "curie": "voc:pLAS50",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAS50"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAS90",
+              "curie": "voc:pLAS90",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAS90"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAS99",
+              "curie": "voc:pLAS99",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAS99"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#hasCode",
+              "curie": "voc:hasCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Measurement"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Situacion",
+          "rdfTypes": [
+            {
+              "uri": "https://www.linkeddataupm.es/group19/resource/Ubication",
+              "curie": "re:Ubication"
+            }
+          ],
+          "links": [
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#hasNMT",
+              "curie": "voc:hasNMT",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NMT"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#hasMeasurement",
+              "curie": "voc:hasMeasurement",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Measurement"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#hasName",
+              "curie": "voc:hasName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Situacion"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "https://www.linkeddataupm.es/group19/",
+      "prefixes": [
+        {
+          "name": "re",
+          "uri": "https://www.linkeddataupm.es/group19/resource/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "voc",
+          "uri": "https://www.linkeddataupm.es/group19/vocabulary#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Measurement",
+          "rdfTypes": [
+            {
+              "uri": "https://www.linkeddataupm.es/group19/resource/Measurement",
+              "curie": "re:Measurement"
+            }
+          ],
+          "links": [
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#hasDate",
+              "curie": "voc:hasDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "Fecha"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLd",
+              "curie": "voc:pLd",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Ld"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLe",
+              "curie": "voc:pLe",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Le"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLn",
+              "curie": "voc:pLn",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Ln"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAeq24",
+              "curie": "voc:pLAeq24",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAeq24"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAS01",
+              "curie": "voc:pLAS01",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAS01"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAS10",
+              "curie": "voc:pLAS10",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAS10"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAS50",
+              "curie": "voc:pLAS50",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAS50"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAS90",
+              "curie": "voc:pLAS90",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAS90"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAS99",
+              "curie": "voc:pLAS99",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAS99"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#hasCode",
+              "curie": "voc:hasCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Measurement"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Situacion",
+          "rdfTypes": [
+            {
+              "uri": "https://www.linkeddataupm.es/group19/resource/Ubication",
+              "curie": "re:Ubication"
+            }
+          ],
+          "links": [
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#hasNMT",
+              "curie": "voc:hasNMT",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NMT"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#hasMeasurement",
+              "curie": "voc:hasMeasurement",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Measurement"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#hasName",
+              "curie": "voc:hasName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Situacion"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  }
+]
