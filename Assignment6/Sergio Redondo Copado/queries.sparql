@@ -1,0 +1,74 @@
+# How many accidents were there in Madrid in 2013?
+
+PREFIX qube: <http://purl.org/linked-data/cube#>
+PREFIX prop: <http://example.org/myVocabulary#>
+
+SELECT (SUM(?accidentes) AS ?total) WHERE {
+?obs a qube:Observation;
+   prop:numberOfAccidents ?accidentes.
+}
+
+
+# Give me the number of accidents in Usera for each type of accident 
+
+PREFIX qube: <http://purl.org/linked-data/cube#>
+PREFIX prop: <http://example.org/myVocabulary#>
+
+SELECT ?tipoAccidentes ?accidentes WHERE {
+?obs a qube:Observation;
+   prop:relatedDistrict "USERA";
+   prop:hasAccidentType ?tipoAccidentes;
+   prop:numberOfAccidents ?accidentes.
+}
+
+# Give me the number of multiple collisions for each district
+PREFIX qube: <http://purl.org/linked-data/cube#>
+PREFIX prop: <http://example.org/myVocabulary#>
+
+SELECT ?distrito ?accidentes WHERE {
+?obs a qube:Observation;
+   prop:relatedDistrict ?distrito;
+   prop:hasAccidentType prop:MultipleCollision;
+   prop:numberOfAccidents ?accidentes.
+}
+
+
+
+
+# Which is the district were the number of bicycle falls was higher in 2013? 
+
+PREFIX qube: <http://purl.org/linked-data/cube#>
+PREFIX prop: <http://example.org/myVocabulary#>
+
+SELECT ?distrito ?maxNumAccidentes WHERE {
+?obs a qube:Observation;
+   prop:relatedDistrict ?distrito;
+   prop:hasAccidentType prop:BicycleFall;
+   prop:numberOfAccidents ?maxNumAccidentes 
+   {
+      SELECT (MAX(?accidentes) AS ?maxNumAccidentes) WHERE {
+      ?obs a qube:Observation;
+ 	prop:relatedDistrict ?distrito;
+	prop:hasAccidentType prop:BicycleFall;
+ 	prop:numberOfAccidents ?accidentes.
+
+      }
+   }
+} 
+
+# Give me the districts with more than 500 accidents in 2013
+
+PREFIX qube: <http://purl.org/linked-data/cube#>
+PREFIX prop: <http://example.org/myVocabulary#>
+
+SELECT ?distrito ?accidentesDistrito{
+   {
+      SELECT ?distrito (SUM(xsd:double(?accidentes)) AS ?accidentesDistrito) WHERE {
+      ?obs a qube:Observation;
+         prop:relatedDistrict ?distrito;
+	 prop:numberOfAccidents ?accidentes.
+
+      } GROUP BY ?distrito
+   }FILTER(?accidentesDistrito> 500)
+} ORDER BY ASC(?accidentesDistrito)
+ 

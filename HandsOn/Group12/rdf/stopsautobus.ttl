@@ -1,0 +1,850 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+<http://www.semanticweb.org/group12/resources/Parada/0> rdfs:Literal "par06864" ;
+	xsd:string "CTRA.A1-EL ENCINAR DE LOS REYES" , "Ctra de Irún  13.000" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/1> rdfs:Literal "par5023" ;
+	xsd:string "AV.CONSEJO DE EUROPA-RIBERA LOIRA" , "Avda del Consejo de Europa 3" , "A" , "Europe/Madrid" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Parada/2> rdfs:Literal "par12241" ;
+	xsd:string "NARDO-CENTRO CÍVICO" , "Calle del Nardo 44" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/3> rdfs:Literal "par08357" ;
+	xsd:string "MANUEL DE FALLA-CENTRO DE MAYORES" , "Calle   Manuel de Falla 5" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/4> rdfs:Literal "par06710" ;
+	xsd:string "AV.GUADALIX-AV.MONTE" , "Avda del Guadalix 31" , "B3" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/5> rdfs:Literal "par17519" ;
+	xsd:string "PºCONDE LOS GAITANES Nº65" , "Paseo del Conde de los Gaitanes 74" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/6> rdfs:Literal "par09431" ;
+	xsd:string "CAMINO DE LA HUERTA-CºALTO" , "Calle  Camino de la Huerta 1" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/7> rdfs:Literal "par06770" ;
+	xsd:string "AV.ESPAÑA-CONSTITUCIÓN" , "Avda de España 14" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/8> rdfs:Literal "par18078" ;
+	xsd:string "MARQUÉS VALDAVIA-HIPERMERCADO" , "Calle del Marqués de la Valdavia 167" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Parada/9> rdfs:Literal "par11983" ;
+	xsd:string "REAL-CENTRO DE SALUD" , "Calle del Real 93" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/10> rdfs:Literal "par06686" ;
+	xsd:string "AV.BURGOS-C.C.SANCHINARRO" , "Avda de Burgos 133" , "A" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/11> rdfs:Literal "par11277" ;
+	xsd:string "BEGONIA-AZALEA" , "Calle de Begonia 279" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/12> rdfs:Literal "par4916" ;
+	xsd:string "PARTENÓN-GTA.HAMBURGO" , "Avda del Partenón 20" , "A" , "Europe/Madrid" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Parada/13> rdfs:Literal "par12032" ;
+	xsd:string "MANUEL DE FALLA-CALDERÓN DE LA BARCA" , "Calle  Manuel de Falla 4" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/14> rdfs:Literal "par07375" ;
+	xsd:string "CTRA.M616-COLEGIO" , "Ctra del Goloso 4600" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/15> rdfs:Literal "par11794" ;
+	xsd:string "AV.LA VEGA-FRANCISCA DELGADO" , "Avda de la Vega 12" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/16> rdfs:Literal "par06749" ;
+	xsd:string "CTRA.ANTIGUA DE BURGOS-GRANJA ESCUELA" , "Ctra  N-I Burgos S/N" , "B2" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/17> rdfs:Literal "par4917" ;
+	xsd:string "PARTENON-GTA.HAMBURGO" , "Avda del Partenón 11" , "A" , "Europe/Madrid" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Parada/18> rdfs:Literal "par18637" ;
+	xsd:string "NEWTON-FCO.TOMÁS Y VALIENTE" , "Calle de Newton 13" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Parada/19> rdfs:Literal "par19103" ;
+	xsd:string "CºDEL ENCINAR-PºDEL PARQUE" , "Paseo de los Parques 4" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Parada/20> rdfs:Literal "par17025" ;
+	xsd:string "PºEUROPA-HOSPITAL INFANTA SOFÍA" , "Paseo   Europa 11" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/21> rdfs:Literal "par10019" ;
+	xsd:string "PºEUROPA-GTA.ANTONIO GAUDÍ" , "Paseo   Europa 7" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/22> rdfs:Literal "par18061" ;
+	xsd:string "PºFUENTE LUCHA-SUEÑOS" , "Paseo de Fuente Lucha 7" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Parada/23> rdfs:Literal "par12421" ;
+	xsd:string "PºEUROPA-AV.MONTES DE OCA" , "Avda de Somosierra 14" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/24> rdfs:Literal "par16942" ;
+	xsd:string "CAMINO DEL GOLF-PºCONDE LOS GAITANES" , "Calle del Camino del Golf 42" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/25> rdfs:Literal "par06709" ;
+	xsd:string "AV.GUADALIX-CENTRO COMERCIAL" , "Avda del Guadalix 35 A" , "B3" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/26> rdfs:Literal "par11402" ;
+	xsd:string "PºEUROPA-GTA.ANTONIO GAUDÍ" , "Paseo   Europa 7" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/27> rdfs:Literal "par18175" ;
+	xsd:string "FELICIDAD-COLEGIO" , "Calle de la Felicidad SN" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Parada/28> rdfs:Literal "par06713" ;
+	xsd:string "AV.MONTE-CERRO" , "Avda del Monte 90" , "B3" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/29> rdfs:Literal "par17513" ;
+	xsd:string "AV.ERMITA-EST.LA MORALEJA" , "Avda de la Ermita 2" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/30> rdfs:Literal "par16926" ;
+	xsd:string "PºPARQUES-ENCINAR DE LOS REYES" , "Paseo de los Parques 36" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/31> rdfs:Literal "par10607" ;
+	xsd:string "MARQUÉS VALDAVIA-AV.ESPAÑA" , "Calle del Marqués de la Valdavia 90" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/32> rdfs:Literal "par17514" ;
+	xsd:string "CºENCINAR-ESTAFETA" , "Calle  Estafeta 1" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/33> rdfs:Literal "par4915" ;
+	xsd:string "PARTENON-CAMPO NACIONES" , "Avda del Partenón 12" , "A" , "Europe/Madrid" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Parada/34> rdfs:Literal "par06862" ;
+	xsd:string "DALIA-KERRIA" , "Calle   Dalia 23" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/35> rdfs:Literal "par06808" ;
+	xsd:string "AZALEA Nº65" , "Calle de la Azalea 203" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/36> rdfs:Literal "par06719" ;
+	xsd:string "CTRA.A1-URB.CIUDALCAMPO" , "Ctra   A-1 27.9" , "B3" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/37> rdfs:Literal "par18638" ;
+	xsd:string "NEWTON-NICOLÁS CABRERA" , "Calle de Newton 13" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Parada/38> rdfs:Literal "par06825" ;
+	xsd:string "PºALCOBENDAS-CºANCHO" , "Paseo de Alcobendas 9" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/39> rdfs:Literal "par12033" ;
+	xsd:string "AV.LA VEGA-AV.LA ERMITA" , "Avda de la Vega 24" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/40> rdfs:Literal "par06762" ;
+	xsd:string "AV.ESPAÑA-AYUNTAMIENTO" , "Avda de España SN" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/41> rdfs:Literal "par11844" ;
+	xsd:string "AV.ANDES-C.C.CAMPO NACIONES" , "Avda de los Andes 52" , "A" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/42> rdfs:Literal "par06756" ;
+	xsd:string "MARQUÉS VALDAVIA-RAMÓN FDEZ.GUISASOLA" , "Calle del Marqués de la Valdavia 20" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/43> rdfs:Literal "par06885" ;
+	xsd:string "PºCHOPERA-CENTRO SALUD VALDAVIA" , "Paseo de la Chopera 108" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/44> rdfs:Literal "par06768" ;
+	xsd:string "LIBERTAD-JULIÁN BAENA CASTRO" , "Calle de la Libertad 26" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/45> rdfs:Literal "par12422" ;
+	xsd:string "PºEUROPA-AV.MONTES DE OCA" , "Paseo   Europa 1" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/46> rdfs:Literal "par06722" ;
+	xsd:string "CTRA.A1-EL ALEMÁN" , "Ctra   N-I ( Burgos) 24300" , "B2" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/47> rdfs:Literal "par06811" ;
+	xsd:string "BEGONIA-CEMENTERIO" , "Calle de Begonia 277" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/48> rdfs:Literal "par06817" ;
+	xsd:string "AZALEA-PZA.DEL SOTO" , "Calle de la Azalea 1" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/49> rdfs:Literal "par06790" ;
+	xsd:string "REAL-SACRAMENTO" , "Calle del Real 3" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/50> rdfs:Literal "par17459" ;
+	xsd:string "PºPARQUES-CAMINO DEL ENCINAR" , "Paseo de los Parques 38" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/51> rdfs:Literal "par19102" ;
+	xsd:string "PºPARQUES-PARQUE" , "Paseo de los Parques 2" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Parada/52> rdfs:Literal "par10614" ;
+	xsd:string "AV.ESPAÑA-EST.ALCOBENDAS S.SEB.REYES" , "Avda de España 52" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/53> rdfs:Literal "par06812" ;
+	xsd:string "AZALEA-BEGONIA" , "Calle de la Azalea 532" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/54> rdfs:Literal "par06818" ;
+	xsd:string "AZALEA-ZARZAMORA" , "Calle de la Azalea 227" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/55> rdfs:Literal "par06772" ;
+	xsd:string "MARQUÉS VALDAVIA-AV.DOCTOR SEVERO OCHOA" , "Calle del Marqués de la Valdavia 91" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/56> rdfs:Literal "par12723" ;
+	xsd:string "MARQUÉS VALDAVIA-EST.VALDELASFUENTES" , "Calle del Marqués de la Valdavia 138" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/57> rdfs:Literal "par16646" ;
+	xsd:string "AV.HISPANIDAD-AEROPUERTO T4" , "Avda de la Hispanidad 1 D" , "A" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/58> rdfs:Literal "par09128" ;
+	xsd:string "IVÁN PAVLOV-RECTORADO" , "Calle de Iván Pavlov 4" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/59> rdfs:Literal "par06712" ;
+	xsd:string "AV.MONTE-ALTA" , "Avda del Monte 62" , "B3" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/60> rdfs:Literal "par06823" ;
+	xsd:string "PºALCOBENDAS-SALVIA" , "Paseo de Alcobendas 3" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/61> rdfs:Literal "par5827" ;
+	xsd:string "AV.PARTENÓN-CAMPO DE LAS NACIONES" , "Avda del Partenón 5" , "A" , "Europe/Madrid" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Parada/62> rdfs:Literal "par3266" ;
+	xsd:string "AV.BURGOS-AV.SAN LUIS" , "Avda de Burgos 40" , "A" , "Europe/Madrid" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Parada/63> rdfs:Literal "par07528" ;
+	xsd:string "MANUEL DE FALLA-PARQUE EXTREMADURA" , "Calle  Manuel de Falla 42" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/64> rdfs:Literal "par16946" ;
+	xsd:string "PºALCOBENDAS-VEREDILLA" , "Paseo de Alcobendas 3" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/65> rdfs:Literal "par18074" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "Paseo de la Castellana 195 A" , "A" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Parada/66> rdfs:Literal "par12217" ;
+	xsd:string "AV.MATAPIÑONERA-AV.CERRO DEL ÁGUILA" , "Avda  Matapiñonera 24" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/67> rdfs:Literal "par06695" ;
+	xsd:string "CTRA.ANTIGUA DE BURGOS-CARAVANAS" , "Ctra   N-I ( Burgos) 21900" , "B2" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/68> rdfs:Literal "par17520" ;
+	xsd:string "PºALCOBENDAS-COLEGIO" , "Paseo de Alcobendas 9" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/69> rdfs:Literal "par18174" ;
+	xsd:string "FELICIDAD-HECHIZO" , "Calle de la Felicidad SN" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Parada/70> rdfs:Literal "par16437" ;
+	xsd:string "CTRA.ANTIGUA DE BURGOS-C.C.ALEGRA" , "Ctra   N-I ( Burgos) 19900" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/71> rdfs:Literal "par12841" ;
+	xsd:string "PZA.LA FUENTE-URB.CIUDALCAMPO" , "Plaza de La Fuente SN" , "B3" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/72> rdfs:Literal "par18639" ;
+	xsd:string "NEWTON-NICOLÁS CABRERA" , "Calle de Newton 13" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Parada/73> rdfs:Literal "par12344" ;
+	xsd:string "PºPARQUES-CºEL ENCINAR" , "Paseo de los Parques 7" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/74> rdfs:Literal "par18591" ;
+	xsd:string "CºHUERTA-ENRIQUE LAFUENTE FERRARI" , "Cmno de la Huerta 143 C" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Parada/75> rdfs:Literal "par17518" ;
+	xsd:string "CAMINO ANCHO-PºMARQUESA VIUDA ALDAMA" , "Calle del Camino Ancho 63" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/76> rdfs:Literal "par09441" ;
+	xsd:string "CAMINO VIEJO-INTERGOLF" , "Calle del Camino Viejo 84" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/77> rdfs:Literal "par06788" ;
+	xsd:string "AV.COLMENAR VIEJO-RAMÓN ESTEBAN" , "Avda de Colmenar Viejo 5" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/78> rdfs:Literal "par12924" ;
+	xsd:string "AV.ESPAÑA-ÁVILA" , "Avda de España 56 A" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/79> rdfs:Literal "par18066" ;
+	xsd:string "PºFUENTE LUCHA-FANTASÍA" , "Paseo de Fuente Lucha 7" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Parada/80> rdfs:Literal "par06792" ;
+	xsd:string "AV.COLMENAR VIEJO-NTRA.SRA.CARMEN" , "Avda de Colmenar Viejo 27" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/81> rdfs:Literal "par06841" ;
+	xsd:string "AV.BARAJAS-URB.FUENTE HITO" , "Avda de Barajas 4" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/82> rdfs:Literal "par12347" ;
+	xsd:string "PºLOS PARQUES-VEREDA DE PALACIO" , "Paseo de los Parques 25" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/83> rdfs:Literal "par06715" ;
+	xsd:string "AV.GUADALIX Nº108" , "Avda del Guadalix 108" , "B3" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/84> rdfs:Literal "par09422" ;
+	xsd:string "AZALEA-PºDE ALCOBENDAS" , "Calle de la Azalea 755" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/85> rdfs:Literal "par16919" ;
+	xsd:string "CºDEL SOTO-PZA.MORALEJA" , "Calle del Camino del Soto 1" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/86> rdfs:Literal "par07365" ;
+	xsd:string "MARQUÉS VALDAVIA-JACINTO BENAVENTE" , "Calle del Marqués de la Valdavia 83" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/87> rdfs:Literal "par18177" ;
+	xsd:string "FANTASÍA-AV.MAGIA" , "Calle de la Fantasía 3" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Parada/88> rdfs:Literal "par06750" ;
+	xsd:string "CTRA.ANTIGUA DE BURGOS-LA GRANJILLA" , "Ctra   N-I ( Burgos) 20400" , "B2" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/89> rdfs:Literal "par06716" ;
+	xsd:string "AV.GUADALIX-NORTE" , "Avda del Guadalix 88" , "B3" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/90> rdfs:Literal "par06821" ;
+	xsd:string "AZALEA-DALIA" , "Calle de la Azalea 604" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/91> rdfs:Literal "par06718" ;
+	xsd:string "AV.GUADALIX-CENTRO DE SALUD" , "Avda del Guadalix 50" , "B3" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/92> rdfs:Literal "par16938" ;
+	xsd:string "CAMINO NUEVO-GTA.LA PALMERA" , "Calle   Camino Nuevo 229" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/93> rdfs:Literal "par50000" ;
+	xsd:string "AV.BURGOS-CENTRO FINANCIERO" , "Avda de Burgos 135" , "A" , "Europe/Madrid" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Parada/94> rdfs:Literal "par11795" ;
+	xsd:string "AV.LA VEGA-FRANCISCA DELGADO" , "Avda de la Vega 13" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/95> rdfs:Literal "par13293" ;
+	xsd:string "AV.PABLO IGLESIAS-PALESTINA" , "Avda   Pablo Iglesias 10" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/96> rdfs:Literal "par3261" ;
+	xsd:string "AV.BURGOS-FCO.PI Y MARGALL" , "Avda de Burgos 10300" , "A" , "Europe/Madrid" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Parada/97> rdfs:Literal "par3820" ;
+	xsd:string "VIA DE DUBLIN-GTA. SINTRA" , "Calle  Vía de Dublín 14" , "A" , "Europe/Madrid" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Parada/98> rdfs:Literal "par12240" ;
+	xsd:string "NARDO-CENTRO CÍVICO" , "Calle del Nardo SN" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/99> rdfs:Literal "par07370" ;
+	xsd:string "CTRA.BARAJAS-BUTANO" , "Ctra de Barajas 9000" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/100> rdfs:Literal "par06832" ;
+	xsd:string "CAMINO VIEJO-PºCONDE DE LOS GAITANES" , "Calle del Camino Viejo 88" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/101> rdfs:Literal "par06813" ;
+	xsd:string "DALIA-AZALEA" , "Calle   Dalia 385" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/102> rdfs:Literal "par06689" ;
+	xsd:string "CTRA.A1-CUESTA BLANCA" , "Ctra de Irún 13700" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/103> rdfs:Literal "par06863" ;
+	xsd:string "CTRA.A1-CUESTA BLANCA" , "Ctra  A-1 (VÍA DE SERVICIO) 14.200" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/104> rdfs:Literal "par406" ;
+	xsd:string "CAMPO NACIONES-GTA.JUAN DE BORBON" , "Avda de la Capital de España Madrid 3" , "A" , "Europe/Madrid" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Parada/105> rdfs:Literal "par06763" ;
+	xsd:string "AV.ESPAÑA-AYUNTAMIENTO" , "Avda de España 34" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/106> rdfs:Literal "par06819" ;
+	xsd:string "AZALEA-CALÉNDULA" , "Calle de la Azalea 84" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/107> rdfs:Literal "par06769" ;
+	xsd:string "AV.SIERRA-C.C.LA VIÑA" , "Avda de la Sierra 37" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/108> rdfs:Literal "par07373" ;
+	xsd:string "MARQUÉS VALDAVIA-CAMILO JOSÉ CELA" , "Calle del Marqués de la Valdavia 123" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/109> rdfs:Literal "par07236" ;
+	xsd:string "AV.ESPAÑA-M.SEBASTIÁN IZUEL" , "Avda de España 72" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/110> rdfs:Literal "par06815" ;
+	xsd:string "DALIA-JAZMÍN" , "Calle   Dalia 255" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/111> rdfs:Literal "par06687" ;
+	xsd:string "AV.BURGOS-DOMINICOS" , "Avda de Burgos 11300" , "A" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/112> rdfs:Literal "par07374" ;
+	xsd:string "CTRA.M616-COLEGIO" , "Ctra del Goloso 4600" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/113> rdfs:Literal "par16923" ;
+	xsd:string "CTRA.MEDIODÍA-URB.PUERTA ENCINAR II" , "Ctra del Mediodía 50" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/114> rdfs:Literal "par18635" ;
+	xsd:string "MARIE CURIE-FACULTAD INFORMÁTICA" , "Calle de Marie Curie 4" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Parada/115> rdfs:Literal "par09435" ;
+	xsd:string "CAMINO HUERTA-VEREDA LOS ÁLAMOS" , "Calle   Camino de la Huerta 61" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/116> rdfs:Literal "par06698" ;
+	xsd:string "CTRA.A1-EL ALEMÁN" , "Ctra   N-I ( Burgos) 24200" , "B2" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/117> rdfs:Literal "par17512" ;
+	xsd:string "AV.ERMITA-EST.LA MORALEJA" , "Avda de la Ermita 5" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/118> rdfs:Literal "par17460" ;
+	xsd:string "CºDEL CURA-URB.OTERO DEL ENCINAR" , "Cmno   del Cura 99" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/119> rdfs:Literal "par18636" ;
+	xsd:string "NEWTON-FCO.TOMÁS Y VALIENTE" , "Calle de Newton 13" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Parada/120> rdfs:Literal "par18095" ;
+	xsd:string "CANILLEJAS-AREA INTERMODAL" , "Calle de Josefa Valcárcel 152" , "A" , "Europe/Madrid" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Parada/121> rdfs:Literal "par06780" ;
+	xsd:string "MARQUESA VIUDA DE ALDAMA-TRVA.DELCAÑÓN" , "Calle de la Marquesa Viuda de Aldama SN" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/122> rdfs:Literal "par1917" ;
+	xsd:string "AGUSTÍN DE FOXÁ-CHAMARTÍN" , "Calle de Agustín de Foxá 40" , "A" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Parada/123> rdfs:Literal "par06814" ;
+	xsd:string "DALIA-LAUREL" , "Calle  Dalia 62" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/124> rdfs:Literal "par09437" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "Calle  Camino de la Huerta 82" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/125> rdfs:Literal "par16924" ;
+	xsd:string "CTRA.MEDIODÍA-VEREDA DEL PALACIO" , "Ctra del Mediodía 50" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/126> rdfs:Literal "par08695" ;
+	xsd:string "PºCHOPERA-EDUCACIÓN INFANTIL ESPECIAL" , "Paseo de la Chopera 107" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/127> rdfs:Literal "par11336" ;
+	xsd:string "NARDO-GARDENIA" , "Calle del Nardo 12" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/128> rdfs:Literal "par07369" ;
+	xsd:string "CTRA-M12-LA MORALEJA" , "Ctra de Barajas 4" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/129> rdfs:Literal "par12724" ;
+	xsd:string "MARQUÉS VALDAVIA-EST.VALDELASFUENTES" , "Calle del Marqués de la Valdavia 105" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/130> rdfs:Literal "par11843" ;
+	xsd:string "AV.CONSEJO EUROPA-CAMPO NACIONES" , "Avda del Consejo de Europa 2" , "A" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/131> rdfs:Literal "par13132" ;
+	xsd:string "PºPARQUES-CTRA.A1" , "Paseo de los Parques SN" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/132> rdfs:Literal "par06827" ;
+	xsd:string "PºALCOBENDAS-C.C.BULEVAR" , "Paseo de Alcobendas 10" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/133> rdfs:Literal "par06771" ;
+	xsd:string "MARQUÉS VALDAVIA-MANUEL DE FALLA" , "Calle del Marqués de la Valdavia 110" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/134> rdfs:Literal "par07376" ;
+	xsd:string "CTRA.M616-UNIVERSIDAD COMILLAS" , "Ctra   M-616 (Alcobendas) 5300" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/135> rdfs:Literal "par06758" ;
+	xsd:string "MARQUÉS VALDAVIA-NEMESIO CASTRO" , "Calle del Marqués de la Valdavia 50" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/136> rdfs:Literal "par16438" ;
+	xsd:string "CTRA.ANTIGUA DE BURGOS-C.C.ALEGRA" , "Ctra   N-I ( Burgos) 19900" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/137> rdfs:Literal "par3602" ;
+	xsd:string "AV.BURGOS Nº 93" , "Avda de Burgos 10100" , "A" , "Europe/Madrid" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Parada/138> rdfs:Literal "par16944" ;
+	xsd:string "CAMINO ANCHO-HALCÓN" , "Calle del Camino Ancho 84" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/139> rdfs:Literal "par11333" ;
+	xsd:string "AV.LA VEGA-AV.BARAJAS" , "Avda de la Vega 2" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/140> rdfs:Literal "par06714" ;
+	xsd:string "AV.MONTE-AV.GUADALIX" , "Avda del Monte 108" , "B3" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/141> rdfs:Literal "par06692" ;
+	xsd:string "AV.OLÍMPICA-PABELLÓN DEPORTIVO" , "Avda   Olímpica 3 A" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/142> rdfs:Literal "par06839" ;
+	xsd:string "CAMINO NUEVO-PZA.SOTO" , "Calle   Camino Nuevo 4" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/143> rdfs:Literal "par09433" ;
+	xsd:string "CAMINO HUERTA-VEREDA LOS CHOPOS" , "Calle  Camino de la Huerta 13" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/144> rdfs:Literal "par16933" ;
+	xsd:string "VEREDA NORTE-CAMINO NUEVO" , "Calle  Camino Nuevo 18" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/145> rdfs:Literal "par06720" ;
+	xsd:string "CTRA.A1-CIRCUITO DEL JARAMA" , "Ctra   N-I Burgos S/N" , "B3" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/146> rdfs:Literal "par3253" ;
+	xsd:string "Pº CASTELLANA-HOSPITAL LA PAZ" , "Acces  Nudo Norte 29700" , "A" , "Europe/Madrid" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Parada/147> rdfs:Literal "par06840" ;
+	xsd:string "AV.BARAJAS-ARROYO DE LA VEGA" , "Avda de Barajas 4" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/148> rdfs:Literal "par09428" ;
+	xsd:string "CAMINO SUR-PºMARQUESA VIUDA ALDAMA" , "Calle del Camino Sur 66" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/149> rdfs:Literal "par07324" ;
+	xsd:string "AV.LOGROÑO-PºALAMEDA DE OSUNA" , "Avda de Logroño 6 A" , "A" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/150> rdfs:Literal "par06723" ;
+	xsd:string "CTRA.A1-URB.FUENTE EL FRESNO" , "Ctra   N-I ( Burgos) 23400" , "B2" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/151> rdfs:Literal "par06809" ;
+	xsd:string "JAZMÍN-IRIS" , "Calle  Jazmín 8" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/152> rdfs:Literal "par06717" ;
+	xsd:string "AV.GUADALIX-CENTRO DEPORTIVO" , "Avda del Guadalix 62" , "B3" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/153> rdfs:Literal "par09421" ;
+	xsd:string "CAMINO NUEVO-CUESTA DEL CERRO" , "Calle  Camino Nuevo 49" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/154> rdfs:Literal "par3819" ;
+	xsd:string "VIA DE DUBLIN-GTA. SINTRA" , "Calle  Vía de Dublín 14" , "A" , "Europe/Madrid" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Parada/155> rdfs:Literal "par17474" ;
+	xsd:string "PºEUROPA-HOSPITAL INFANTA SOFÍA" , "Paseo   Europa 11" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/156> rdfs:Literal "par11331" ;
+	xsd:string "AV.LA VEGA-C.C.LA VEGA" , "Avda de la Ermita 5" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/157> rdfs:Literal "par06829" ;
+	xsd:string "PºALCOBENDAS-VEREDA DE LAS PEÑAS" , "Paseo de Alcobendas 12" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/158> rdfs:Literal "par06700" ;
+	xsd:string "CTRA.A1-CIRCUITO DEL JARAMA" , "Ctra   N-I ( Burgos) 26000" , "B3" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/159> rdfs:Literal "par18789" ;
+	xsd:string "CTRA.A1-URB.FRESNO NORTE" , "Ctra   CTRA. A1 23800" , "B2" , "Europe/Madrid" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Parada/160> rdfs:Literal "par11330" ;
+	xsd:string "MARQUÉS VALDAVIA Nº147" , "Calle del Marqués de la Valdavia 159" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/161> rdfs:Literal "par18077" ;
+	xsd:string "MARQUÉS VALDAVIA-MÁQUINA DEL TREN" , "Calle del Marqués de la Valdavia 131" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Parada/162> rdfs:Literal "par16932" ;
+	xsd:string "VEREDA NORTE-PºCONDE LOS GAITANES" , "Calle de la Vereda Norte 2" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/163> rdfs:Literal "par07396" ;
+	xsd:string "AV.LOGROÑO-PºALAMEDA DE OSUNA" , "Avda de Logroño 29" , "A" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/164> rdfs:Literal "par06838" ;
+	xsd:string "AV.BARAJAS-PARQUE BOMBEROS" , "Ctra de Barajas 4" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/165> rdfs:Literal "par18823" ;
+	xsd:string "AV.BARAJAS-HOTEL" , "Avda de Barajas 4" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Parada/166> rdfs:Literal "par06786" ;
+	xsd:string "REAL-AYUNTAMIENTO" , "Calle del Real 25" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/167> rdfs:Literal "par15313" ;
+	xsd:string "MANUEL DE FALLA-EST.MANUEL DE FALLA" , "Calle   Manuel de Falla 59" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/168> rdfs:Literal "par12925" ;
+	xsd:string "AV.ESPAÑA-CENTRO DE MAYORES" , "Avda de España 58" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/169> rdfs:Literal "par15392" ;
+	xsd:string "AV.MATAPIÑONERA-CºJUNCAL" , "Avda  Matapiñonera 24" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/170> rdfs:Literal "par07364" ;
+	xsd:string "MARQUÉS VALDAVIA-RUPERTO CHAPÍ" , "Calle del Marqués de la Valdavia 94" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/171> rdfs:Literal "par3265" ;
+	xsd:string "AV.BURGOS Nº 87-PASO ELEVADO" , "Avda de Burgos 87" , "A" , "Europe/Madrid" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Parada/172> rdfs:Literal "par17521" ;
+	xsd:string "CAMINO DEL GOLF-CAMINO DE MESONCILLOS" , "Calle del Camino del Golf 32" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/173> rdfs:Literal "par123" ;
+	xsd:string "BAMBU-AV.PIO XII" , "Calle del Bambú 4" , "A" , "Europe/Madrid" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Parada/174> rdfs:Literal "par11335" ;
+	xsd:string "NARDO-COMPLEJO DEPORTIVO" , "Calle del Nardo SN" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/175> rdfs:Literal "par16921" ;
+	xsd:string "ESTAFETA-PºLOS PARQUES" , "Paseo de los Parques 5" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/176> rdfs:Literal "par12345" ;
+	xsd:string "PºPARQUES Nº17" , "Paseo de los Parques 19" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/177> rdfs:Literal "par17457" ;
+	xsd:string "VEREDA DE PALACIO-CºHUERTA" , "Calle   Vereda de Palacio 6" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/178> rdfs:Literal "par06759" ;
+	xsd:string "MARQUÉS VALDAVIA-AV.ESPAÑA" , "Calle del Marqués de la Valdavia 88" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/179> rdfs:Literal "par06697" ;
+	xsd:string "CTRA.A1-URB.FUENTE EL FRESNO" , "Ctra   N-I ( Burgos) 23400" , "B2" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/180> rdfs:Literal "par16925" ;
+	xsd:string "PºLOS PARQUES-VEREDA DEL PALACIO" , "Paseo de los Parques 30" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/181> rdfs:Literal "par06755" ;
+	xsd:string "MARQUESA VIUDA DE ALDAMA-NªSRA.DEL PILAR" , "Calle de la Marquesa Viuda de Aldama 14" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/182> rdfs:Literal "par12218" ;
+	xsd:string "AV.MATAPIÑONERA-AV.CAMINO DE LO CORTAO" , "Avda   Matapiñonera 6" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/183> rdfs:Literal "par09425" ;
+	xsd:string "PºMARQUESA VIUDA ALDAMA-VEREDILLA" , "Paseo de la Marquesa Viuda de Aldama 15" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/184> rdfs:Literal "par17516" ;
+	xsd:string "CAMINO DEL SOTO-PZA.LA MORALEJA" , "Plaza de la Moraleja 1" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/185> rdfs:Literal "par06694" ;
+	xsd:string "CTRA.ANTIGUA DE BURGOS-LA GRANJILLA" , "Ctra   N-I ( Burgos) 20300" , "B2" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/186> rdfs:Literal "par06691" ;
+	xsd:string "AV.OLÍMPICA-C.C.LA VEGA" , "Avda   Olímpica 9" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/187> rdfs:Literal "par09430" ;
+	xsd:string "CAMINO SUR-CºDE LA FUENTE" , "Calle del Camino Sur 28" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/188> rdfs:Literal "par08419" ;
+	xsd:string "CTRA.M616-UNIVERSIDAD COMILLAS" , "Ctra   M-616 (Alcobendas) 5400" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/189> rdfs:Literal "par5061" ;
+	xsd:string "AV.BURGOS Nº 85" , "Ctra de Fuencarral a Hortaleza 8" , "A" , "Europe/Madrid" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Parada/190> rdfs:Literal "par18076" ;
+	xsd:string "AV.PABLO IGLESIAS-JOSÉ HIERRO" , "Avda   Pablo Iglesias 2" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Parada/191> rdfs:Literal "par09423" ;
+	xsd:string "PºCONDE DE LOS GAITANES-IGLESIA" , "Paseo del Conde de los Gaitanes 21" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/192> rdfs:Literal "par16940" ;
+	xsd:string "CAMINO DEL GOLF-CAMINO MESONCILLOS" , "Calle del Camino del Golf 22" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/193> rdfs:Literal "par12351" ;
+	xsd:string "CºHUERTA-DÁMASO ALONSO" , "Cmno de la Huerta 223" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/194> rdfs:Literal "par09443" ;
+	xsd:string "CAMINO VIEJO-CºLIEBRES" , "Calle del Camino Viejo 76" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/195> rdfs:Literal "par06711" ;
+	xsd:string "AV.MONTE-CORTA" , "Avda del Monte 28" , "B3" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/196> rdfs:Literal "par16936" ;
+	xsd:string "JAZMÍN-KERRIA" , "Calle   Jazmín 95" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/197> rdfs:Literal "par06865" ;
+	xsd:string "AV.BURGOS-DOMINICOS" , "Avda de Santo Domingo de la Calzada 1" , "A" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/198> rdfs:Literal "par18068" ;
+	xsd:string "AV.PABLO IGLESIAS-DR.ÁNGEL OLIVARES" , "Avda   Pablo Iglesias 6" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Parada/199> rdfs:Literal "par06810" ;
+	xsd:string "JAZMÍN-BEGONIA" , "Calle de Begonia 258" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/200> rdfs:Literal "par11792" ;
+	xsd:string "AV.LA VEGA-ANABEL SEGURA" , "Avda de la Vega 8" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/201> rdfs:Literal "par405" ;
+	xsd:string "CAMPO NACIONES-GTA.JUAN DE BORBON" , "Avda de la Capital de España Madrid 2" , "A" , "Europe/Madrid" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Parada/202> rdfs:Literal "par16922" ;
+	xsd:string "CTRA.MEDIODÍA-PUENTE DEL ENCINAR" , "Ctra del Mediodía 34" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/203> rdfs:Literal "par06831" ;
+	xsd:string "PºALCOBENDAS-URB.LEVIT PARK" , "Paseo de Alcobendas 14" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/204> rdfs:Literal "par09439" ;
+	xsd:string "CAMINO VIEJO-CºANCHO" , "Calle del Camino Viejo 64" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/205> rdfs:Literal "par11793" ;
+	xsd:string "AV.LA VEGA-ANABEL SEGURA" , "Avda de la Vega 7" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/206> rdfs:Literal "par11232" ;
+	xsd:string "PºCHOPERA-AV.CAMILO JOSÉ CELA" , "Paseo de la Chopera 178" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/207> rdfs:Literal "par12820" ;
+	xsd:string "AV.MATAPIÑONERA-PLAZA NORTE" , "Avda  Matapiñonera 24" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Parada/208> rdfs:Literal "par18176" ;
+	xsd:string "FANTASÍA-AV.MAGIA" , "Avda de la Magia 17" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Parada/209> rdfs:Literal "par18634" ;
+	xsd:string "MARIE CURIE-FCO.TOMÁS Y VALIENTE" , "Calle de Marie Curie 4" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Parada/210> rdfs:Literal "par09445" ;
+	xsd:string "AZALEA-BEGONIA" , "Calle de la Azalea 532" , "B1" , "Europe/Madrid" ;
+	xsd:boolean "1" .
