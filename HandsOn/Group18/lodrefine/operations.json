@@ -1,0 +1,294 @@
+[
+  {
+    "op": "core/column-split",
+    "description": "Split column adres by separator",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "adres",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": " - ",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column adres 1 using expression grel:if(get(value.partition(/([\\d?][-]?)+(\\w)*/),0)==\"\", join(get(reverse(value.partition(/([\\d?][-]?)+(\\w)*/)),0,2),\";\"), join(get(value.partition(/([\\d?][-]?)+(\\w)*/),0,2),\";\"))",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "adres 1",
+    "expression": "grel:if(get(value.partition(/([\\d?][-]?)+(\\w)*/),0)==\"\", join(get(reverse(value.partition(/([\\d?][-]?)+(\\w)*/)),0,2),\";\"), join(get(value.partition(/([\\d?][-]?)+(\\w)*/),0,2),\";\"))",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column adres 1 by separator",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "adres 1",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": ";",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column adres 2 by separator",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "adres 2",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": " ",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column adresse by separator",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "adresse",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": " - ",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column adresse 1 using expression grel:if(get(value.partition(/([\\d?][-]?)+(\\w)*/),0)==\"\", join(get(reverse(value.partition(/([\\d?][-]?)+(\\w)*/)),0,2),\";\"), join(get(value.partition(/([\\d?][-]?)+(\\w)*/),0,2),\";\"))",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "adresse 1",
+    "expression": "grel:if(get(value.partition(/([\\d?][-]?)+(\\w)*/),0)==\"\", join(get(reverse(value.partition(/([\\d?][-]?)+(\\w)*/)),0,2),\";\"), join(get(value.partition(/([\\d?][-]?)+(\\w)*/),0,2),\";\"))",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column adresse 1 by separator",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "adresse 1",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": ";",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column adresse 2 by separator",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "adresse 2",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": ";",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column adresse 1 1 to RoadName1@FR",
+    "oldColumnName": "adresse 1 1",
+    "newColumnName": "RoadName1@FR"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column adresse 1 2 to RoadNumber1",
+    "oldColumnName": "adresse 1 2",
+    "newColumnName": "RoadNumber1"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column adresse 2 1 to RoadName2@FR",
+    "oldColumnName": "adresse 2 1",
+    "newColumnName": "RoadName2@FR"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column adres 1 1 to RoadName1@BE",
+    "oldColumnName": "adres 1 1",
+    "newColumnName": "RoadName1@BE"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column adres 2 1 to RoadName2@BE",
+    "oldColumnName": "adres 2 1",
+    "newColumnName": "RoadName2@BE"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column adres 1 2",
+    "columnName": "adres 1 2"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column adres 2 2",
+    "columnName": "adres 2 2"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column nom to Parking@FR",
+    "oldColumnName": "nom",
+    "newColumnName": "Parking@FR"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column naam to Parking@BE",
+    "oldColumnName": "naam",
+    "newColumnName": "Parking@BE"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column gestionnaire to Enterprise",
+    "oldColumnName": "gestionnaire",
+    "newColumnName": "Enterprise"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column zone to Zone",
+    "oldColumnName": "zone",
+    "newColumnName": "Zone"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column cp to PostalCode",
+    "oldColumnName": "cp",
+    "newColumnName": "PostalCode"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column capac_aff to ParkingSpots",
+    "oldColumnName": "capac_aff",
+    "newColumnName": "ParkingSpots"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column commune to City@FR",
+    "oldColumnName": "commune",
+    "newColumnName": "City@FR"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column gemeente to City@BE",
+    "oldColumnName": "gemeente",
+    "newColumnName": "City@BE"
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column wkb_geometry by separator",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "wkb_geometry",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": " ",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column wkb_geometry 1",
+    "columnName": "wkb_geometry 1"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column wkb_geometry 2 to Coordinate_1",
+    "oldColumnName": "wkb_geometry 2",
+    "newColumnName": "Coordinate_1"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column wkb_geometry 3 to Coordinate_2",
+    "oldColumnName": "wkb_geometry 3",
+    "newColumnName": "Coordinate_2"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Coordinate_1 using expression grel:get(value.split(/\\(/),1)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Coordinate_1",
+    "expression": "grel:get(value.split(/\\(/),1)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Coordinate_2 using expression grel:get(value.split(/\\)/),0)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Coordinate_2",
+    "expression": "grel:get(value.split(/\\)/),0)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column nr",
+    "columnName": "nr"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column ogc_fid to PrimaryKeyNumber",
+    "oldColumnName": "ogc_fid",
+    "newColumnName": "PrimaryKeyNumber"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column FID to PrimaryKeyFID",
+    "oldColumnName": "FID",
+    "newColumnName": "PrimaryKeyFID"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Enterprise using expression grel:if(get(value,0)==\"?\",\"\",value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Enterprise",
+    "expression": "grel:if(get(value,0)==\"?\",\"\",value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  }
+]

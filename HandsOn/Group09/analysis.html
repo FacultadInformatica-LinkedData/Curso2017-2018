@@ -1,0 +1,1010 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Hands-on_Assignment2</title>
+  </head>
+<<<<<<< HEAD
+    <body>
+    	<h1>Datasets Analysis</h1>
+
+	<h3>Calidad del Aire en alcobendas</h3>
+	<ul>
+	<li><b>CSV Name:</b> datos-mensuales-de-contaminacion-atmosferica-2000-2017.csv</li>
+	<li><b>Description:</b> Este dataset contiene información sobre la contaminación atmosférica en los últimos 17 años en la ciudad de Alcobendas. El dataset recoge entre otros datos los niveles de N0 y N02.</li>
+	<li><b>Origin of the data: <a href="http://datos.gob.es/es/catalogo/l01280066-contaminacion-atmosferica">Resource</a></b>
+	</ul>
+	<table border="5" style="width:100%">
+            <tr>
+                <th>Column</th>
+                <th>Type</th>
+		<th>Range</th>
+                <th>Comments</th>
+                <th>Problems</th>
+            </tr>
+	    <tr>
+                <td>Fecha</td>
+                <td>xsd:date</td>
+		<td>[31/01/2000, 31/08/2017]</td>
+                <td>Fechas en las que han sido recogidas las muestras</td>
+                <td>--</td>
+            </tr>
+	    <tr>
+                <td>Monóxido de nitrógeno</td>
+                <td>xsd:decimal</td>
+		<td>[2, 88]</td>
+                <td>Registro del nivel de Monóxido de Nitrógeno en el aire en una fecha determinada</td>
+                <td>--</td>
+            </tr>
+	    <tr>
+                <td>Dióxido de nitrógeno</td>
+                <td>xsd:decimal</td>
+		<td>[10, 81]</td>
+                <td>Registro del nivel de Dióxido de Nitrógeno en el aire en una fecha determinada</td>
+                <td>--</td>
+            </tr>
+            <tr>
+                <td>Partículas en suspensión PM10</td>
+                <td>xsd:decimal</td>
+		<td>[8, 67]</td>
+                <td>Registro del nivel de partículas PM10 en el aire en una fecha determinada</td>
+                <td>--</td>
+            </tr>
+	    <tr>
+                <td>Ozono</td>
+                <td>xsd:decimal</td>
+		<td>[10, 96]</td>
+                <td>Registro del nivel de Ozono en el aire en una fecha determinada</td>
+                <td>--</td>
+            </tr>
+	    <tr>
+                <td>Tolueno</td>
+                <td>xsd:float</td>
+		<td>[0.1, 28.7]</td>
+                <td>Valor de las muestras recogidas para cada una de las fechas</td>
+                <td>--</td>
+            </tr>
+	    <tr>
+                <td>Benceno</td>
+                <td>xsd:float</td>
+		<td>[0.1, 2.8]</td>
+                <td>Valor de las muestras recogidas para cada una de las fechas</td>
+                <td>--</td>
+            </tr>
+	    <tr>
+                <td>Xileno</td>
+                <td>xsd:float</td>
+		<td>[0.1, 16.4]</td>
+                <td>Valor de las muestras recogidas para cada una de las fechas</td>
+                <td>--</td>
+            </tr>
+	    <tr>
+                <td>Hidrocarburos totales</td>
+                <td>xsd:float</td>
+		<td>[4.2, 33.7]</td>
+                <td>Valor de las muestras recogidas para cada una de las fechas</td>
+                <td>--</td>
+            </tr><tr>
+                <td>Hidrocarburos no metano</td>
+                <td>xsd:float</td>
+		<td>[0.1, 4.7]</td>
+                <td>Valor de las muestras recogidas para cada una de las fechas</td>
+                <td>--</td>
+            </tr>
+        </table> 
+
+	<h3>Calidad del aire en Euskadi durante el 2017</h3>
+	<ul>
+	<li><b>CSV Name:</b> estaciones.csv</li>
+	<li><b>Description:</b> --</li>
+	<li><b>Origin of the data: <a href="http://datos.gob.es/catalogo/a16003011-calidad-del-aire-en-euskadi-durante-el-2017">Resource</a></b>
+	</ul>
+
+	<table border="5" style="width:100%">
+
+            <tr>
+                <th>Column</th>
+                <th>Type</th>
+		<th>Range</th>
+                <th>Comments</th>
+                <th>Problems</th>
+            </tr>
+	   <tr>
+		<td>Name</td>
+                <td>xsd:string</td>
+		<td>--</td>                
+		<td>--</td>
+                <td>--</td>
+            </tr>
+	   <tr>
+		<td>Description</td>
+                <td>xsd:string</td>
+		<td>--</td>                
+		<td>--</td>
+                <td>--</td>
+            </tr>
+            <tr>
+		<td>Province</td>
+                <td>xsd:string</td>
+		<td>--</td>                
+		<td>--</td>
+                <td>--</td>
+            </tr>
+            <tr>
+		<td>Town</td>
+                <td>xsd:string</td>
+		<td>--</td>                
+		<td>--</td>
+                <td>--</td>
+            </tr>
+            <tr>
+		<td>Address</td>
+                <td>xsd:string</td>
+		<td>--</td>                
+		<td>--</td>
+                <td>--</td>
+            </tr>
+	    <tr>
+                <td>Coordenates ETRS89</td>
+                <td>xsd:float</td>
+		<td>[481073.6693, 592449.2822]</td>
+                <td>--</td>
+                <td>--</td>
+            </tr>
+	    <tr>
+                <td>Coordenates ETRS89</td>
+                <td>xsd:float</td>
+		<td>[4707389.47, 4805932.45]</td>
+                <td>--</td>
+                <td>--</td>
+            </tr>
+	    <tr>
+                <td>Latitude</td>
+                <td>xsd:float</td>
+		<td>[42.5182481, 43.4058888]</td>
+                <td>--</td>
+                <td>--</td>
+            </tr>
+	    <tr>
+                <td>Longitude</td>
+                <td>xsd:float</td>
+		<td>[-3.23173251, -1.8594129]</td>
+                <td>--</td>
+                <td>--</td>
+            </tr>
+        </table> 
+
+	<h3>Calidad del aire en Castilla y León</h3>
+	<ul>
+	<li><b>CSV Name:</b> Calidad_del_aire_97_2015.csv</li>
+	<li><b>Description:</b> --</li>
+	<li><b>Origin of the data: <a href="http://datos.gob.es/es/catalogo/a07002862-calidad-del-aire1">Resource</a></b>
+	</ul>
+
+	<table border="5" style="width:100%">
+	    <tr>
+                <th>Column</th>
+                <th>Type</th>
+		<th>Range</th>
+                <th>Comments</th>
+                <th>Problems</th>
+
+	    </tr>
+	    <tr>
+                <td>Dia</td>
+                <td>xsd:date</td>
+		  <td>[01/01/1997-31/12/2015]</td>
+                <td>Fecha en la que se recogieron las muestras</td>
+                <td>--</td>
+            </tr>
+            <tr>
+                <td>CO (mg/m3)</td>
+                <td>xsd:float</td>
+		<td>[0-25, 1]</td>
+                <td>Cantidad de mg/m3 de CO en el aire en una fecha determinada</td>
+                <td>--</td>
+            </tr>
+	    <tr>
+                <td>NO (ug/m3)</td>
+                <td>xsd:decimal</td>
+		<td>[0-634]</td>
+                <td>Cantidad de ug/m3 de NO en el aire en una fecha determinada</td>
+                <td>--</td>
+            </tr>
+	    <tr>
+                <td>NO2 (ug/m3)</td>
+                <td>xsd:decimal</td>
+		<td>[1-228]</td>
+                <td>Cantidad de ug/m3 de NO2 en el aire en una fecha determinada</td>
+                <td>--</td>
+            </tr>
+	    <tr>
+                <td>O3 (ug/m3)</td>
+                <td>xsd:decimal</td>
+		<td>[0-4364]</td>
+                <td>Cantidad de ug/m3 de O3 en el aire en una fecha determinada</td>
+                <td>--</td>
+            </tr>
+	    <tr>
+                <td>PM10 (ug/m3)</td>
+                <td>xsd:decimal</td>
+		<td>[0-557]</td>
+                <td>Cantidad de ug/m3 de PM10 en el aire en una fecha determinada</td>
+                <td>--</td>
+            </tr>
+	    <tr>
+                <td>SH2 (ug/m3)</td>
+                <td>xsd:decimal</td>
+		<td>[0-63]</td>
+                <td>Cantidad de ug/m3 de SH2 en el aire en una fecha determinada</td>
+                <td>--</td>
+            </tr>
+             <tr>
+                <td>PM25 (ug/m3)</td>
+                <td>xsd:decimal</td>
+		<td>[0-216]</td>
+                <td>Cantidad de ug/m3 de PM25 en el aire en una fecha determinada</td>
+                <td>--</td>
+            </tr>
+             <tr>
+                <td>PST (ug/m3)</td>
+                <td>xsd:decimal</td>
+		<td>[2-234]</td>
+                <td>Cantidad de ug/m3 de PST en el aire en una fecha determinada</td>
+                <td>--</td>
+            </tr>
+              <tr>
+                <td>SO2 (ug/m3)</td>
+                <td>xsd:decimal</td>
+		<td>[0-364]</td>
+                <td>Cantidad de ug/m3 de SO2 en el aire en una fecha determinada</td>
+                <td>--</td>
+            </tr>
+             <tr>
+                <td>PROVINCIA</td>
+                <td>xsd:string</td>
+		<td>--</td>
+                <td>--</td>
+                <td>--</td>
+            </tr>
+             <tr>
+                <td>ESTACIÓN</td>
+                <td>xsd:string</td>
+		<td>--</td>
+                <td>--</td>
+                <td>--</td>
+            </tr>
+
+
+        </table>
+	<h3>Calidad del aire en Torrent</h3>
+	<ul>
+	<li><b>CSV Name:</b> ODMECalidadDelAirePorDias2016.csv</li>
+	<li><b>Description:</b> --</li>
+	<li><b>Origin of the data: <a href="http://datos.gob.es/es/catalogo/l01462444-qualitat-de-laire-mesurament-diari-2016-calidad-del-aire-medicion-diaria-2016">Resource</a></b>
+	</ul>
+
+	<table border="5" style="width:100%">
+	    <tr>
+                <th>Column</th>
+                <th>Type</th>
+		<th>Range</th>
+                <th>Comments</th>
+                <th>Problems</th>
+
+	    </tr>
+            <tr>
+                <td>ANY</td>
+                <td>xsd:decimal</td>
+		<td>[2016, 2016]</td>
+                <td>--</td>
+                <td>--</td>
+            </tr>
+		 <tr>
+                <td>FECHA</td>
+                <td>xsd:date</td>
+		<td>[01/01/2016, 31/12/2016]</td>
+                <td>--</td>
+                <td>--</td>
+            </tr>
+                <tr>
+                <td>HORA</td>
+                <td>xsd:float</td>
+		<td>--</td>
+                <td>--</td>
+                <td>--</td>
+            </tr>
+		<tr>
+                <td>PM2.5(µg/m3)</td>
+                <td>--</td>
+		<td>--</td>
+                <td>Representa el número asociado al edificio en el que la biblioteca se encuentra</td>
+                <td>Algunas bibliotecas ocupan mas de un numero (edificio) o están en centro comerciales</td>
+            </tr>
+			
+		<tr>
+                <td>City</td>
+                <td>xsd:string</td>
+		<td>--</td>
+                <td>Nos sirve para localizar la ciudad en la que se encuentra la biblioteca. Nos servirá para enlazarla con dbpedia a traves de la ciudad</td>
+                <td>--</td>
+            </tr>
+		<tr>
+                <td>ZIP</td>
+                <td>xsd:decimal</td>
+		<td>10002-11694</td>
+                <td>Codigo ZIP</td>
+                <td>No enlazable con dbpedia</td>
+            </tr>
+		<tr>
+                <td>URL</td>
+                <td>xsd:string</td>
+		<td>--</td>
+                <td>Nos enlaza con una web con información varia de la biblioteca como horarios o servicios</td>
+                <td>No enlazable con dbpedia</td>
+            </tr>
+
+        </table>
+
+	<h3>New York City State Park Facilities</h3>
+	<ul>
+	<li><b>CSV Name:</b> State_Park_Facility.csv</li>
+	<li><b>Description:</b> It contains the all the New York City parks including beaches, golf course, nature parks, playgrounds,etc. with their locations in latitude and longitude coordinates</li>
+	<li><b>Origin of the data: <a href="https://nycopendata.socrata.com/">NYC Open Data</a></b>
+	</ul>
+	<table border="10" style="width:100%">
+
+	    <tr>
+                <th>Column</th>
+                <th>Type</th>
+		<th>Range</th>
+                <th>Comments</th>
+                <th>Problems</th>
+
+	    </tr>
+	    <tr>
+                <td>Name</td>
+                <td>xsd:string</td>
+		<td>--</td>
+                <td>Atributo que proporciona el nombre del lugar natural</td>
+                <td>Dificultad al encontrarlos todos en dbpedia. ¿Podría mirarse en datasets de otro carácter para posible union mediante nombre? </td>
+            </tr>
+	    <tr>
+                <td>Category</td>
+                <td>xsd:string</td>
+		<td>--</td>
+                <td>Representa el tipo de lugar natural </td>
+                <td>--</td>
+            </tr>
+		<tr>
+                <td>Región</td>
+                <td>xsd:float</td>
+		<td>0-12</td>
+                <td>Representa el nombre de la región en la que se ubica</td>
+                <td>No enlazable con dbpedia</td>
+            </tr>
+		<tr>
+                <td>County</td>
+                <td>xsd:string</td>
+		<td>--</td>
+                <td>Representa el nombre del condado en la que se ubica</td>
+                <td>--</td>
+            </tr>
+		<tr>
+                <td>Golf</td>
+                <td>xsd:string</td>
+		<td>[Y,N]</td>
+                <td>Indica si ese lugar natural tiene campo de golf o no</td>
+                <td>--</td>
+            </tr>
+		<tr>
+                <td>Camp</td>
+                <td>xsd:string</td>
+		<td>[Y,N]</td>
+                <td>Indica si en ese lugar natural se puede acampar </td>
+                <td>--</td>
+            </tr>
+		<tr>
+                <td>Playground</td>
+                <td>xsd:string</td>
+		<td>[Y,N]</td>
+                <td>Indica si en ese lugar natural hay zona de juegos </td>
+                <td>--</td>
+            </tr>
+		<tr>
+                <td>Playground</td>
+                <td>xsd:string</td>
+		<td>[Y,N]</td>
+                <td>Indica si en ese lugar natural hay zona de juegos </td>
+                <td>--</td>
+            </tr>
+		<tr>
+                <td>Nature Center</td>
+                <td>xsd:string</td>
+		<td>[Y,N]</td>
+                <td>Indica si es una reserva natural </td>
+                <td>--</td>
+            </tr>
+		<tr>
+                <td>Nature Center</td>
+                <td>xsd:string</td>
+		<td>[Y,N]</td>
+                <td>Indica si tiene playa o no </td>
+                <td>--</td>
+            </tr>
+		 <td>Facility URL</td>
+                <td>xsd:string</td>
+		<td>--</td>
+                <td>Representa la direccion de la pagina web que contiene información acerca del lugar</td>
+                <td>--</td>
+            </tr>
+		<td>URL GOLF</td>
+                <td>xsd:string</td>
+		<td>--</td>
+                <td>Representa la direccion de la pagina web que contiene información acerca del campo del golf ubicado dentro del lugar</td>
+                <td>--</td>
+            </tr>
+		<td>Nature Center URL</td>
+                <td>xsd:string</td>
+		<td>--</td>
+                <td>Representa la direccion de la pagina web que contiene información acerca de la reserva natural ubicada en dicho lugar</td>
+                <td>--</td>
+            </tr>
+            <tr>
+                <td>Longitude</td>
+                <td>xsd:float</td>
+		<td>--</td>
+                <td>Nos servirá para encontrar la biblioteca dentro de los lugares cercanos de una posición determinada por el cliente</td>
+                <td>No enlazable con dbpedia</td>
+            </tr>
+	    <tr>
+                <td>Latitude</td>
+                <td>xsd:float</td>
+		<td>--</td>
+                <td>Nos servirá para encontrar la biblioteca dentro de los lugares cercanos de una posición determinada por el cliente</td>
+                <td>No enlazable con dbpedia</td>
+            </tr>
+         </table>
+
+
+
+        <h1>Analysis of the Licensing of the Data</h1>
+
+	La información almacenada en los dataset que provienen de <a href="https://nycopendata.socrata.com/">NYC Open Data</a> no tienen asociada explícitamente ninguna licencia de datos abiertos ni tampoco una que restringa su uso. En la sección about (<a href="http://www.nyc.gov/html/data/about.html">About NYC OpenData.</a>) de la página oficial gubernamental de la ciudad de Nueva York, se deja constancia de manera escrita que los datos son abiertos y de uso publico bien para investigaciones o aplicaciones o cualquier otro uso que contribuya a mejorar la ciudad de Nueva York. Es dicho también que ciertos dataset pueden tener licencias restrictivas de copyright, como la DMCA, pero que en tal caso debe ser indicado en la descripción así como en la ficha del dataset.
+	<br>
+	<br>
+	Debido a que los dataset que se utilizarán en el desarrollo de la aplicación no especifican licencia restrictiva alguna, se entiende que su carácter es abierto y de uso público. Es por ello que se utilizará la licencia <a href="https://creativecommons.org/licenses/by/4.0/legalcode"> Creative Commons Attribution 4.0 International License</a> (<img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" />) de manera que tambien los datos derivados de los originales así como nuesta aplicación y todo el material creado pueda ser distribuido, copiado, adaptado, exhibido y/o usado comercialmente por terceros siempre y cuando se muestre en los créditos los autores originales, que en este caso seríamos nosotros.
+        
+        <h1>Definition of the Resource Naming Strategy</h1>
+	Se muestra a continuación el patrón que se seguirá para la construcción de las URIs tanto de los recursos como de las properties asociadas:
+	
+	<ul>
+	<li><b>Dominio</b>: http://www.linkedData_Group13.com/</li>
+	<li><b>Ontology terms</b>: http://www.linkedData_Group13.com/ontology/livingPlaces#&lt;termName&gt;</li>
+	<li><b>Individuals</b>: http://www.linkedData_Group13.com/resource/&lt;resource_type&gt;/&lt;resource_name&gt;</li>
+	</ul>
+	Así mismo se han definido dos <b>Datatypes</b> necesarios para la definición de los recursos de nuestra ontología debido al carácter de de los atributos latitud y longitud que se utilizan para definir la localización de ciertos recursos. Estos tipos de datos hacen referencia a los ya definidos por el vocabulario <a href="https://www.w3.org/2003/01/geo/">"geo"</a>, por tanto han sido introducidos como geo:lat y geo:long con sus correspondientes URIs oficiales <a href="http://www.w3.org/2003/01/geo/wgs84_pos#lat">http://www.w3.org/2003/01/geo/wgs84_pos#lat</a> y <a href="http://www.w3.org/2003/01/geo/wgs84_pos#long">http://www.w3.org/2003/01/geo/wgs84_pos#long</a>
+	
+    </body>
+=======
+  <body>
+    <h1>Datasets Analysis</h1>
+    <h3>Calidad del aire en Alcobendas</h3>
+    <ul>
+      <li><b>CSV Name:</b> datos-mensuales-de-contaminacion-atmosferica-2000-2017.csv</li>
+      <li><b>Description:</b> Este dataset contiene información sobre la contaminación atmosférica en los últimos 17 años en la ciudad de Alcobendas. El dataset recoge entre otros datos los niveles de N0 y N02</li>
+      <li><b>Origin of the data: <a href="http://datos.gob.es/es/catalogo/l01280066-contaminacion-atmosferica">Resource</a></b>
+    </ul>
+    <table border="5" style="width:100%">
+      <tr>
+        <th>Column</th>
+        <th>Type</th>
+	<th>Range</th>
+        <th>Comments</th>
+        <th>Problems</th>
+      </tr>
+      <tr>
+        <td>Fecha</td>
+        <td>xsd:date</td>
+	<td>[31/01/2000, 31/08/2017]</td>
+        <td>Fechas en las que han sido recogidas las muestras</td>
+        <td>N/A</td>
+      </tr>
+      <tr>
+        <td>Monóxido de nitrógeno</td>
+        <td>xsd:decimal</td>
+	<td>[2, 88]</td>
+        <td>Registro del nivel de Monóxido de Nitrógeno en el aire en una fecha determinada</td>
+        <td>N/A</td>
+      </tr>
+      <tr>
+        <td>Dióxido de nitrógeno</td>
+        <td>xsd:decimal</td>
+	<td>[10, 81]</td>
+        <td>Registro del nivel de Dióxido de Nitrógeno en el aire en una fecha determinada</td>
+        <td>N/A</td>
+      </tr>
+      <tr>
+        <td>Partículas en suspensión PM10</td>
+        <td>xsd:decimal</td>
+	<td>[8, 67]</td>
+        <td>Registro del nivel de partículas PM10 en el aire en una fecha determinada</td>
+        <td>No enlazable con dbpedia</td>
+      </tr>
+      <tr>
+        <td>Ozono</td>
+        <td>xsd:decimal</td>
+	<td>[10, 96]</td>
+        <td>Registro del nivel de Ozono en el aire en una fecha determinada</td>
+        <td>N/A</td>
+      </tr>
+      <tr>
+        <td>Tolueno</td>
+        <td>xsd:float</td>
+	<td>[0.1, 28.7]</td>
+        <td>Registro del nivel de Tolueno en el aire en una fecha determinada</td>
+        <td>N/A</td>
+      </tr>
+      <tr>
+        <td>Benceno</td>
+        <td>xsd:float</td>
+	<td>[0.1, 2.8]</td>
+        <td>Registro del nivel de Benceno en el aire en una fecha determinada</td>
+        <td>N/A</td>
+      </tr>
+      <tr>
+        <td>Xileno</td>
+        <td>xsd:float</td>
+	<td>[0.1, 16.4]</td>
+        <td>Registro del nivel de Xileno en el aire en una fecha determinada</td>
+        <td>N/A</td>
+      </tr>
+      <tr>
+        <td>Hidrocarburos totales</td>
+        <td>xsd:float</td>
+	<td>[4.2, 33.7]</td>
+        <td>Registro del nivel de Hidrocarburos totales en el aire en una fecha determinada</td>
+        <td>No enlazable con dbpedia</td>
+      </tr>
+      <tr>
+        <td>Hidrocarburos no metano</td>
+        <td>xsd:float</td>
+	<td>[0.1, 4.7]</td>
+        <td>Registro del nivel de Hidrocarburos no metano en el aire en una fecha determinada</td>
+        <td>No enlazable con dbpedia</td>
+      </tr>
+    </table> 
+    
+    <h3>Calidad del aire en Euskadi durante el 2017</h3>
+    <ul>
+      <li><b>CSV Name:</b> estaciones.csv</li>
+      <li><b>Description:</b> Este dataset contiene información sobre la posición de las estaciones de medicion de polución en las distintas provincias de Euskadi</li>
+      <li><b>Origin of the data: <a href="http://datos.gob.es/catalogo/a16003011-calidad-del-aire-en-euskadi-durante-el-2017">Resource</a></b>
+    </ul>
+    <table border="5" style="width:100%">
+      <tr>
+        <th>Column</th>
+        <th>Type</th>
+	<th>Range</th>
+        <th>Comments</th>
+        <th>Problems</th>
+      </tr>
+      <tr>
+	<td>Name</td>
+        <td>xsd:string</td>
+	<td>N/A</td>                
+	<td>Es el nombre del municipio o pueblo</td>
+        <td>N/A</td>
+      </tr>
+      <tr>
+	<td>Description</td>
+        <td>xsd:string</td>
+	<td>N/A</td>                
+	<td>Una breve descripción con información del municipio</td>
+        <td>Todos los campos están vacíos, probablemente no se puedan enlazar</td>
+      </tr>
+      <tr>
+	<td>Province</td>
+        <td>xsd:string</td>
+	<td>N/A</td>                
+	<td>Es el nombre de la provincia de Euskadi</td>
+        <td>Difícil de enlazar</td>
+      </tr>
+      <tr>
+	<td>Town</td>
+        <td>xsd:string</td>
+	<td>N/A</td>                
+	<td>Es el nombre de la ciudad</td>
+        <td>N/A</td>
+      </tr>
+      <tr>
+	<td>Address</td>
+        <td>xsd:string</td>
+	<td>N/A</td>                
+	<td>Es la dirección donde se encuentra la estación de medición</td>
+        <td>No se puede enlazar con dbpedia</td>
+      </tr>
+      <tr>
+        <td>Coordenates X ETRS89</td>
+        <td>xsd:float</td>
+	<td>[481073.6693, 592449.2822]</td>
+        <td>Es la coordenada X de la situación exacta de la estación</td>
+        <td>Posibles problemas con el formato de las coordenadas debido a que se usa el caracter '.' en lugar de ','.No se puede enlazar con dbpedia</td>
+      </tr>
+      <tr>
+        <td>Coordenates Y ETRS89</td>
+        <td>xsd:float</td>
+	<td>[4707389,4714, 4805932.4502]</td>
+        <td>Es la coordenada Y de la situación exacta de la estación</td>
+        <td>Posibles problemas con el formato de las coordenadas debido a que se usa el caracter '.' en lugar de ','. No se puede enlazar con dbpedia</td>
+      </tr>
+      <tr>
+        <td>Latitude</td>
+        <td>xsd:float</td>
+	<td>[42,51824807424, 43.40588884294258]</td>
+        <td>Es la latitud exacta de la estación</td>
+        <td>Difícil de enlazar</td>
+      </tr>
+      <tr>
+        <td>Longitude</td>
+        <td>xsd:float</td>
+	<td>[-3,231732505322038, -1.8594129027945114]</td>
+        <td>Es la longitud exacta de la estación</td>
+        <td>N/A</td>
+      </tr>
+    </table> 
+    <h3>Calidad del aire en Castilla y León</h3>
+    <ul>
+      <li><b>CSV Name:</b> Calidad_del_aire_97_2015.csv</li>
+      <li><b>Description:</b> Este dataset contiene datos de concentración de contaminantes registrados en las estaciones de control de la calidad del aire de la Junta de Castilla y León</li>
+      <li><b>Origin of the data: <a href="http://datos.gob.es/es/catalogo/a07002862-calidad-del-aire1">Resource</a></b>
+    </ul>
+    <table border="5" style="width:100%">
+      <tr>
+        <th>Column</th>
+        <th>Type</th>
+	<th>Range</th>
+        <th>Comments</th>
+        <th>Problems</th>
+      </tr>
+      <tr>
+        <td>Dia</td>
+        <td>xsd:date</td>
+	<td>[01/01/1997, 31/12/2015]</td>
+        <td>Fecha en la que se recogieron las muestras</td>
+        <td>N/A</td>
+      </tr>
+      <tr>
+        <td>CO (mg/m3)</td>
+        <td>xsd:float</td>
+	<td>[0, 26.00]</td>
+        <td>Cantidad de mg/m3 de CO en el aire en una fecha determinada</td>
+        <td>N/A</td>
+      </tr>
+      <tr>
+        <td>NO (ug/m3)</td>
+        <td>xsd:decimal</td>
+	<td>[0, 640]</td>
+        <td>Cantidad de ug/m3 de NO en el aire en una fecha determinada</td>
+        <td>Posibles problemas por ambigüedad</td>
+      </tr>
+      <tr>
+        <td>NO2 (ug/m3)</td>
+        <td>xsd:decimal</td>
+	<td>[0, 230]</td>
+        <td>Cantidad de ug/m3 de NO2 en el aire en una fecha determinada</td>
+        <td>N/A</td>
+      </tr>
+      <tr>
+        <td>O3 (ug/m3)</td>
+        <td>xsd:decimal</td>
+	<td>[0, 4400]</td>
+        <td>Cantidad de ug/m3 de O3 en el aire en una fecha determinada</td>
+        <td>N/A</td>
+      </tr>
+      <tr>
+        <td>PM10 (ug/m3)</td>
+        <td>xsd:decimal</td>
+	<td>[0, 560]</td>
+        <td>Cantidad de ug/m3 de PM10 en el aire en una fecha determinada</td>
+        <td>N/A</td>
+      </tr>
+      <tr>
+        <td>SH2 (ug/m3)</td>
+        <td>xsd:decimal</td>
+	<td>[0, 64]</td>
+        <td>Cantidad de ug/m3 de SH2 en el aire en una fecha determinada</td>
+        <td>No se puede enlanzar con dbpedia</td>
+      </tr>
+      <tr>
+        <td>PM2.5 (ug/m3)</td>
+        <td>xsd:decimal</td>
+	<td>[0, 220]</td>
+        <td>Cantidad de ug/m3 de PM25 en el aire en una fecha determinada</td>
+        <td>No se puede enlanzar con dbpedia</td>
+      </tr>
+      <tr>
+        <td>PST (ug/m3)</td>
+        <td>xsd:decimal</td>
+	<td>[2, 240]</td>
+        <td>Cantidad de ug/m3 de PST en el aire en una fecha determinada</td>
+        <td>N/A</td>
+      </tr>
+      <tr>
+        <td>SO2 (ug/m3)</td>
+        <td>xsd:decimal</td>
+	<td>[0, 370]</td>
+        <td>Cantidad de ug/m3 de SO2 en el aire en una fecha determinada</td>
+        <td>N/A</td>
+      </tr>
+      <tr>
+        <td>PROVINCIA</td>
+        <td>xsd:string</td>
+	<td>N/A</td>
+        <td>Provincia donde se han recogido los datos en una fecha determinada</td>
+        <td>No se puede enlazar con dbpedia</td>
+      </tr>
+      <tr>
+        <td>ESTACIÓN</td>
+        <td>xsd:string</td>
+	<td>N/A</td>
+        <td>La localidad de donde se han recogido los datos en una fecha determinada</td>
+        <td>No se puede enlazar con dbpedia</td>
+      </tr>
+    </table>
+    <h3>Calidad del aire en Torrent</h3>
+    <ul>
+      <li><b>CSV Name:</b> ODMECalidadDelAirePorDias2016.csv</li>
+      <li><b>Description: </b> Este dataset contiene información sobre la calidad del aire de las mediciones diarias durante el año 2016 en Torrent</li>
+      <li><b>Origin of the data: <a href="http://datos.gob.es/es/catalogo/l01462444-qualitat-de-laire-mesurament-diari-2016-calidad-del-aire-medicion-diaria-2016">Resource</a></b>
+    </ul>
+    <table border="5" style="width:100%">
+      <tr>
+        <th>Column</th>
+        <th>Type</th>
+	<th>Range</th>
+        <th>Comments</th>
+        <th>Problems</th>
+      </tr>
+      <tr>
+        <td>ANY</td>
+        <td>xsd:decimal</td>
+	<td>[2016, 2016]</td>
+        <td>El año de donde se recogen los datos</td>
+        <td>No se puede enlazar con dbpedia</td>
+      </tr>
+      <tr>
+        <td>FECHA</td>
+        <td>xsd:date</td>
+	<td>[01/01/2016, 31/12/2016]</td>
+        <td>La feha en la que se han recogido los datos</td>
+        <td>No se puede enlazar con dbpedia</td>
+      </tr>
+      <tr>
+        <td>HORA</td>
+        <td>xsd:decimal</td>
+	<td>[0, 51]</td>
+        <td>La hora en la que se ha recogio la medicion</td>
+        <td>No se puede enlazar con dbpedia</td>
+      </tr>
+      <tr>
+        <td>PM2.5(µg/m3)</td>
+ 	<td>xsd:decimal</td>
+        <td>[0, 37]</td>
+	<td>Cantidad de ug/m3 de PM25 en el aire en una fecha determinada</td>
+        <td>Dificilmente enlazable</td>
+      </tr>
+      <tr>
+        <td>PM1(µg/m3)</td>
+ 	<td>xsd:float</td>
+        <td>[3, 8.02]</td>
+	<td>Cantidad de ug/m3 de PM1 en el aire en una fecha determinada</td>
+        <td>No se puede enlazar con dbpedia</td>
+      </tr>
+      <tr>
+        <td>SO2(µg/m3)</td>
+ 	<td>xsd:decimal</td>
+        <td>[0.10, 0.20]</td>
+	<td>Cantidad de ug/m3 de SO2 en el aire en una fecha determinada</td>
+        <td>N/A</td>
+      </tr>
+      <tr>
+        <td>CO(mg/m3)</td>
+ 	<td>xsd:decimal</td>
+        <td>[2, 16]</td>
+	<td>Cantidad de mg/m3 de CO en el aire en una fecha determinada</td>
+        <td>N/A</td>
+      </tr>
+      <tr>
+        <td>NO(µg/m3)</td>
+ 	<td>xsd:decimal</td>
+        <td>[4, 22]</td>
+	<td>Cantidad de µg/m3 de NO en el aire en una fecha determinada</td>
+        <td>N/A</td>
+      </tr>
+      <tr>
+        <td>NO2(µg/m3)</td>
+ 	<td>xsd:decimal</td>
+        <td>[0, 150]</td>
+	<td>Cantidad de µg/m3 de NO2 en el aire en una fecha determinada</td>
+        <td>N/A</td>
+      </tr>
+      <tr>
+        <td>PM10(µg/m3)</td>
+ 	<td>xsd:decimal</td>
+        <td>[6, 42]</td>
+	<td>Cantidad de µg/m3 de PM10 en el aire en una fecha determinada</td>
+        <td>N/A</td>
+      </tr>
+      <tr>
+        <td>Nox(µg/m3)</td>
+ 	<td>xsd:decimal</td>
+        <td>[0, 120]</td>
+	<td>Cantidad de µg/m3 de Nox en el aire en una fecha determinada</td>
+        <td>N/A</td>
+      </tr>
+      <tr>
+        <td>O3(µg/m3)</td>
+ 	<td>xsd:float</td>
+        <td>[0.01, 1.0]</td>
+	<td>Cantidad de µg/m3 de O3 en el aire en una fecha determinada</td>
+        <td>N/A</td>
+      </tr>
+      <tr>
+        <td>Veloc(m/s)</td>
+ 	<td>xsd:float</td>
+        <td>[0.10, 4.02]</td>
+	<td>Velocidad en m/s del aire en una fecha determinada</td>
+        <td>No se puede enlazar con dbpedia</td>
+      </tr>
+      <tr>
+        <td>Direc(grados)</td>
+ 	<td>xsd:decimal</td>
+        <td>[0, 350]</td>
+	<td>Direccion en grados del aire en una fecha determinada</td>
+        <td>No se puede enlazar con dbpedia</td>
+      </tr>
+      <tr>
+        <td>Temp(ºC)</td>
+ 	<td>xsd:float</td>
+        <td>[6, 28.0]</td>
+	<td>Temperatura en grados centigrados en una fecha determinada</td>
+        <td>N/A</td>
+      </tr>
+      <tr>
+        <td>H.Rel(% H.R)</td>
+ 	<td>xsd:decimal</td>
+        <td>[25, 85.0]</td>
+	<td>Medida de humedad (higrometro) en H.R en una fecha determinada</td>
+        <td>No se puede enlazar con dbpedia</td>
+      </tr>
+      <tr>
+        <td>Pres.(mb)</td>
+ 	<td>xsd:decimal</td>
+        <td>[978, 1020]</td>
+	<td>Medida de presion en milibares en una fecha determinada</td>
+        <td>No se puede enlazar con dbpedia</td>
+      </tr>
+      <tr>
+        <td>R.Sol.(W/m2)</td>
+ 	<td>xsd:decimal</td>
+        <td>[0, 310]</td>
+	<td>Radiacion solar medida en W/m2 en una fecha determinada</td>
+        <td>No se puede enlazar con dbpedia</td>
+      </tr>
+      <tr>
+        <td>Precip(l/m2)</td>
+ 	<td>xsd:float</td>
+        <td>[0, 4.82]</td>
+	<td>Precipitacion medida en l/m2 una fecha determinada</td>
+        <td>No se puede enlazar con dbpedia</td>
+      </tr>
+    </table>
+    <h3>Esperanza de vida en Barcelona</h3>
+    <ul>
+      <li><b>CSV Name:</b> t09.csv</li>
+      <li><b>Description: </b>Este dataset presenta la media de la esperanza de vida para cada uno de los barrios de los distritos de Barcelona entre unos años determinados</li>
+      <li><b>Origin of the data: <a href="http://datos.gob.es/es/catalogo/l01080193-esperanza-de-vida-quinquenal-2006-2013">Resource</a></b>
+    </ul>
+    <table border="5" style="width:100%">
+      <tr>
+        <th>Column</th>
+        <th>Type</th>
+	<th>Range</th>
+        <th>Comments</th>
+        <th>Problems</th>
+      </tr>
+      <tr>
+        <td>Dte.</td>
+        <td>xsd:string</td>
+	<td>N/A</td>
+        <td>Representa cada distrito de Barcelona mediante su número de distrito</td>
+        <td>Puede haber problemas al enlazar debido a la ambiguedad del campo</td>
+      </tr>
+      <tr>
+        <td>Barris</td>
+        <td>xsd:string</td>
+	<td>N/A</td>
+        <td>Es el nombre del barrio dentro de un distrito</td>
+        <td>No se puede enlazar con dbpedia</td>
+      </tr>
+      <tr>
+        <td>2006-2010</td>
+        <td>xsd:float</td>
+	<td>[78.5, 88.8]</td>
+        <td>Representa la esperanza de vida media en ese barrio</td>
+        <td>No enlazable con dbpedia</td>
+      </tr>
+      <tr>
+        <td>2007-2011</td>
+        <td>xsd:float</td>
+	<td>[75.4, 85.6]</td>
+        <td>Representa la esperanza de vida media en ese barrio</td>
+        <td>No se puede enlazar con dbpedia</td>
+      </tr>
+      <tr>
+        <td>2008-2012</td>
+        <td>xsd:float</td>
+	<td>[74.7, 85.6]</td>
+        <td>Representa la esperanza de vida media en ese barrio</td>
+        <td>No se puede enlazar con dbpedia</td>
+      </tr>
+      <tr>
+        <td>2009-2013</td>
+        <td>xsd:float</td>
+	<td>[75.2, 86.5]</td>
+        <td>Representa la esperanza de vida media en ese barrio</td>
+        <td>No se puede enlazar con dbpedia</td>
+      </tr>
+      <tr>
+        <td>2010-2014</td>
+        <td>xsd:float</td>
+	<td>[77.2, 86.5]</td>
+        <td>Representa la esperanza de vida media en ese barrio</td>
+        <td>No se puede enlazar con dbpedia</td>
+      </tr>
+    </table>
+    <h1>Analysis of the Licensing of the Data</h1>
+    A continuación se definirán todas las licencias utilizadas y, posteriormente, se indicarán los datasets con la licencia que usa.
+    <br>
+    Creative Commons Attribution 4.0 International License (CC BY 4.0): Esta licencia permite copiar y redistribuir el dataset por cualquier medio y en cualquier formato. También permite usar, transformar o modificar el dataset, para cualquier propósito, incluso comercial. 
+    Se podrán cumplir las anteriores condiciones, siempre y cuando: se de crédito a los autores del dataset, se proporcione un enlace a la licencia utilizada y en caso de que hubiera modificaciones, indicarlas.
+    Además no se permitirá, aplicar términos legales o imponer restricciones legales que vaya en contra de lo que expone la licencia.
+    <br>
+    Open Data Commons Attribution International License (ODC BY 1.0): Esta licencia permite copiar y redistribuir el dataset por cualquier medio y en cualquier formato. También permite usar, transformar o modificar el dataset, para cualquier propósito, incluso comercial. 
+    Se podrán cumplir las anteriores condiciones, siempre y cuando: se de crédito a los autores del dataset, se proporcione un enlace a la licencia utilizada y se mantengan intactas las noticias que estén incluidas en el dataset.
+    <br>
+    Creative Commons Attribution 3.0 España License (CC BY 3.0 ES): Esta licencia permite copiar y redistribuir el dataset por cualquier medio y en cualquier formato. También permite usar, transformar o modificar el dataset, para cualquier propósito, incluso comercial. 
+    Se podrán cumplir las anteriores condiciones, siempre y cuando: se de crédito a los autores del dataset, se proporcione un enlace a la licencia utilizada y en caso de que hubiera modificaciones, indicarlas.
+    Además no se permitirá, aplicar términos legales o imponer restricciones legales que vaya en contra de lo que expone la licencia.
+    <br>
+    <h3>Calidad del aire en Euskadi durante el 2017</h3>
+    La licencia que tiene este dataset es: Creative Commons Attribution 4.0 International License (CC BY 4.0)
+    <br>
+    <h3>Calidad del aire en Castilla y Leon</h3>
+    La licencia que tiene este dataset es: Creative Commons Attribution 3.0 España License (CC BY 3.0 ES)
+    <br>
+    <h3>Calidad del aire en Alcobendas</h3>
+    La licencia que tiene este dataset es: Open Data Commons Attribution International License (ODC BY 1.0)
+    <br>
+    <h3>Calidad del aire en Torrent</h3>
+    La licencia que tiene este dataset es: Attribution 4.0 International (CC BY 4.0)
+    <br>
+    <h3>Esperanza de vida en Barcelona</h3>
+    La licencia que tiene este dataset es: Attribution 4.0 International (CC BY 4.0)
+    <br>
+       
+    <h1>Definition of the Resource Naming Strategy</h1>
+    
+    La siguiente información contendrá la construcción de las URIs de nuestros recursos y sus propiedades siguiendo la documentación proporcionada por la asignatura
+    <ul>
+      <li><b>Domain: </b>http://www.semanticweb.org/2017grupo9/</li>
+      <li><b>Ontological terms path: </b>http://www.semanticweb.org/2017grupo9/ontology/Ciudades#</li>
+      <li><b>Individuals path: </b>http://www.semanticweb.org/2017grupo9/resource/</li>
+      <li><b>Ontological terms pattern: </b>http://www.semanticweb.org/2017grupo9/ontology/Ciudades#&lt;term_name&gt;</li>
+      <li><b>Individuals pattern: </b>http://www.semanticweb.org/2017grupo9/&lt;resource_type&gt;/&lt;resource_name&gt;</li>
+    </ul>
+   <p> Para la definición de los recursos especiales de nuestra ontología como son la latitud y la longitud y localización se han definido dos <b>Datatypes</b> utilizados para definir la localización de las ciudades/recursos que se encuentran en nuestra ontología. Los datos reflejados hacen referencia a los que ya se encuentran definidos por el vocabulario <a href="https://www.w3.org/2003/01/geo/">"geo"</a>, por tanto han sido introducidos como geo:lat, geo:long y geo:location, con sus correspondientes URIs oficiales <a href="http://www.w3.org/2003/01/geo/wgs84_pos#lat">http://www.w3.org/2003/01/geo/wgs84_pos#lat</a>, <a href="http://www.w3.org/2003/01/geo/wgs84_pos#long">http://www.w3.org/2003/01/geo/wgs84_pos#long</a> y <a href="https://www.w3.org/2003/01/geo/wgs84_pos#location">https://www.w3.org/2003/01/geo/wgs84_pos#location</a></p>
+  </body>
+>>>>>>> 406444ed156e9fd2521a99b0be0badf7a1ae279e
+</html>

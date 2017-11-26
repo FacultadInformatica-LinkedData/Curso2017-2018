@@ -1,0 +1,748 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix g03: <> .
+
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaAlfonso+XII2> a <http://www.semanticweb.org/group03/ontologyPuntosDeRecarga> .
+
+<http://www.semanticweb.org/group03/resource#Alfonso+XII2> a <http://www.semanticweb.org/group03/ontologyUbicacion> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaAlfonso+XII2> <http://www.semanticweb.org/group03/ontologyestaEn> <http://www.semanticweb.org/group03/resource#Alfonso+XII2> .
+
+<http://www.semanticweb.org/group03/resource#ParquimetroAlfonso+XII2> a <http://www.semanticweb.org/group03/ontologyParquimetro> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaAlfonso+XII2> <http://www.semanticweb.org/group03/ontologycercaDe> <http://www.semanticweb.org/group03/resource#ParquimetroAlfonso+XII2> ;
+	<http://www.semanticweb.org/group03/resource#ontologytipoEstacionamiento> "Punto de recarga" ;
+	<http://www.semanticweb.org/group03/ontologytipoDeConector> "Mennekes" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeConectores> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	rdfs:label "ZonaPuntoRecargaAlfonso XII2" .
+
+<http://www.semanticweb.org/group03/resource#Alfonso+XII2> <http://www.semanticweb.org/group03/ontologytipoDeLaVia> "Punto de recarga eléctrica en vía pública " ;
+	<http://www.semanticweb.org/group03/ontologynombreDeLaVia> "Alfonso XII" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeLaVia> "2" ;
+	<http://www.semanticweb.org/group03/ontologydistrito> "Retiro" ;
+	rdfs:label "Alfonso XII2" .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaBueso+Pineda29> a <http://www.semanticweb.org/group03/ontologyPuntosDeRecarga> .
+
+<http://www.semanticweb.org/group03/resource#Bueso+Pineda29> a <http://www.semanticweb.org/group03/ontologyUbicacion> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaBueso+Pineda29> <http://www.semanticweb.org/group03/ontologyestaEn> <http://www.semanticweb.org/group03/resource#Bueso+Pineda29> .
+
+<http://www.semanticweb.org/group03/resource#ParquimetroBueso+Pineda29> a <http://www.semanticweb.org/group03/ontologyParquimetro> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaBueso+Pineda29> <http://www.semanticweb.org/group03/ontologycercaDe> <http://www.semanticweb.org/group03/resource#ParquimetroBueso+Pineda29> ;
+	<http://www.semanticweb.org/group03/resource#ontologytipoEstacionamiento> "Punto de recarga" ;
+	<http://www.semanticweb.org/group03/ontologytipoDeConector> "Schuko/Mennekes" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeConectores> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	rdfs:label "ZonaPuntoRecargaBueso Pineda29" .
+
+<http://www.semanticweb.org/group03/resource#Bueso+Pineda29> <http://www.semanticweb.org/group03/ontologytipoDeLaVia> "Punto de recarga eléctrica en vía pública " ;
+	<http://www.semanticweb.org/group03/ontologynombreDeLaVia> "Bueso Pineda" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeLaVia> "29" ;
+	<http://www.semanticweb.org/group03/ontologydistrito> "Ciudad Lineal" ;
+	rdfs:label "Bueso Pineda29" .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaCastellana33> a <http://www.semanticweb.org/group03/ontologyPuntosDeRecarga> .
+
+<http://www.semanticweb.org/group03/resource#Castellana33> a <http://www.semanticweb.org/group03/ontologyUbicacion> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaCastellana33> <http://www.semanticweb.org/group03/ontologyestaEn> <http://www.semanticweb.org/group03/resource#Castellana33> .
+
+<http://www.semanticweb.org/group03/resource#ParquimetroCastellana33> a <http://www.semanticweb.org/group03/ontologyParquimetro> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaCastellana33> <http://www.semanticweb.org/group03/ontologycercaDe> <http://www.semanticweb.org/group03/resource#ParquimetroCastellana33> ;
+	<http://www.semanticweb.org/group03/resource#ontologytipoEstacionamiento> "Punto de recarga" ;
+	<http://www.semanticweb.org/group03/ontologytipoDeConector> "Schuko/Mennekes" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeConectores> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	rdfs:label "ZonaPuntoRecargaCastellana33" .
+
+<http://www.semanticweb.org/group03/resource#Castellana33> <http://www.semanticweb.org/group03/ontologytipoDeLaVia> "Punto de recarga eléctrica en vía pública " ;
+	<http://www.semanticweb.org/group03/ontologynombreDeLaVia> "Castellana" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeLaVia> "33" ;
+	<http://www.semanticweb.org/group03/ontologydistrito> "Chamberí" ;
+	rdfs:label "Castellana33" .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaCastellana52> a <http://www.semanticweb.org/group03/ontologyPuntosDeRecarga> .
+
+<http://www.semanticweb.org/group03/resource#Castellana52> a <http://www.semanticweb.org/group03/ontologyUbicacion> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaCastellana52> <http://www.semanticweb.org/group03/ontologyestaEn> <http://www.semanticweb.org/group03/resource#Castellana52> .
+
+<http://www.semanticweb.org/group03/resource#ParquimetroCastellana52> a <http://www.semanticweb.org/group03/ontologyParquimetro> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaCastellana52> <http://www.semanticweb.org/group03/ontologycercaDe> <http://www.semanticweb.org/group03/resource#ParquimetroCastellana52> ;
+	<http://www.semanticweb.org/group03/resource#ontologytipoEstacionamiento> "Punto de recarga" ;
+	<http://www.semanticweb.org/group03/ontologytipoDeConector> "Mennekes" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeConectores> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	rdfs:label "ZonaPuntoRecargaCastellana52" .
+
+<http://www.semanticweb.org/group03/resource#Castellana52> <http://www.semanticweb.org/group03/ontologytipoDeLaVia> "Punto de recarga eléctrica en vía pública " ;
+	<http://www.semanticweb.org/group03/ontologynombreDeLaVia> "Castellana" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeLaVia> "52" ;
+	<http://www.semanticweb.org/group03/ontologydistrito> "Salamanca" ;
+	rdfs:label "Castellana52" .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaCastellana106> a <http://www.semanticweb.org/group03/ontologyPuntosDeRecarga> .
+
+<http://www.semanticweb.org/group03/resource#Castellana106> a <http://www.semanticweb.org/group03/ontologyUbicacion> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaCastellana106> <http://www.semanticweb.org/group03/ontologyestaEn> <http://www.semanticweb.org/group03/resource#Castellana106> .
+
+<http://www.semanticweb.org/group03/resource#ParquimetroCastellana106> a <http://www.semanticweb.org/group03/ontologyParquimetro> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaCastellana106> <http://www.semanticweb.org/group03/ontologycercaDe> <http://www.semanticweb.org/group03/resource#ParquimetroCastellana106> ;
+	<http://www.semanticweb.org/group03/resource#ontologytipoEstacionamiento> "Punto de recarga" ;
+	<http://www.semanticweb.org/group03/ontologytipoDeConector> "Mennekes" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeConectores> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	rdfs:label "ZonaPuntoRecargaCastellana106" .
+
+<http://www.semanticweb.org/group03/resource#Castellana106> <http://www.semanticweb.org/group03/ontologytipoDeLaVia> "Punto de recarga eléctrica en vía pública " ;
+	<http://www.semanticweb.org/group03/ontologynombreDeLaVia> "Castellana" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeLaVia> "106" ;
+	<http://www.semanticweb.org/group03/ontologydistrito> "Chamberí" ;
+	rdfs:label "Castellana106" .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaCastellana160> a <http://www.semanticweb.org/group03/ontologyPuntosDeRecarga> .
+
+<http://www.semanticweb.org/group03/resource#Castellana160> a <http://www.semanticweb.org/group03/ontologyUbicacion> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaCastellana160> <http://www.semanticweb.org/group03/ontologyestaEn> <http://www.semanticweb.org/group03/resource#Castellana160> .
+
+<http://www.semanticweb.org/group03/resource#ParquimetroCastellana160> a <http://www.semanticweb.org/group03/ontologyParquimetro> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaCastellana160> <http://www.semanticweb.org/group03/ontologycercaDe> <http://www.semanticweb.org/group03/resource#ParquimetroCastellana160> ;
+	<http://www.semanticweb.org/group03/resource#ontologytipoEstacionamiento> "Punto de recarga" ;
+	<http://www.semanticweb.org/group03/ontologytipoDeConector> "Mennekes" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeConectores> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	rdfs:label "ZonaPuntoRecargaCastellana160" .
+
+<http://www.semanticweb.org/group03/resource#Castellana160> <http://www.semanticweb.org/group03/ontologytipoDeLaVia> "Punto de recarga eléctrica en vía pública " ;
+	<http://www.semanticweb.org/group03/ontologynombreDeLaVia> "Castellana" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeLaVia> "160" ;
+	<http://www.semanticweb.org/group03/ontologydistrito> "Chamartín " ;
+	rdfs:label "Castellana160" .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaCastellana259> a <http://www.semanticweb.org/group03/ontologyPuntosDeRecarga> .
+
+<http://www.semanticweb.org/group03/resource#Castellana259> a <http://www.semanticweb.org/group03/ontologyUbicacion> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaCastellana259> <http://www.semanticweb.org/group03/ontologyestaEn> <http://www.semanticweb.org/group03/resource#Castellana259> .
+
+<http://www.semanticweb.org/group03/resource#ParquimetroCastellana259> a <http://www.semanticweb.org/group03/ontologyParquimetro> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaCastellana259> <http://www.semanticweb.org/group03/ontologycercaDe> <http://www.semanticweb.org/group03/resource#ParquimetroCastellana259> ;
+	<http://www.semanticweb.org/group03/resource#ontologytipoEstacionamiento> "Punto de recarga" ;
+	<http://www.semanticweb.org/group03/ontologytipoDeConector> "Schuko/Mennekes" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeConectores> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	rdfs:label "ZonaPuntoRecargaCastellana259" .
+
+<http://www.semanticweb.org/group03/resource#Castellana259> <http://www.semanticweb.org/group03/ontologytipoDeLaVia> "Punto de recarga eléctrica en vía pública " ;
+	<http://www.semanticweb.org/group03/ontologynombreDeLaVia> "Castellana" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeLaVia> "259" ;
+	<http://www.semanticweb.org/group03/ontologydistrito> "Fuencarral-El Pardo" ;
+	rdfs:label "Castellana259" .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaCastello105> a <http://www.semanticweb.org/group03/ontologyPuntosDeRecarga> .
+
+<http://www.semanticweb.org/group03/resource#Castello105> a <http://www.semanticweb.org/group03/ontologyUbicacion> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaCastello105> <http://www.semanticweb.org/group03/ontologyestaEn> <http://www.semanticweb.org/group03/resource#Castello105> .
+
+<http://www.semanticweb.org/group03/resource#ParquimetroCastello105> a <http://www.semanticweb.org/group03/ontologyParquimetro> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaCastello105> <http://www.semanticweb.org/group03/ontologycercaDe> <http://www.semanticweb.org/group03/resource#ParquimetroCastello105> ;
+	<http://www.semanticweb.org/group03/resource#ontologytipoEstacionamiento> "Punto de recarga" ;
+	<http://www.semanticweb.org/group03/ontologytipoDeConector> "Schuko/Mennekes" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeConectores> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	rdfs:label "ZonaPuntoRecargaCastello105" .
+
+<http://www.semanticweb.org/group03/resource#Castello105> <http://www.semanticweb.org/group03/ontologytipoDeLaVia> "Punto de recarga eléctrica en vía pública " ;
+	<http://www.semanticweb.org/group03/ontologynombreDeLaVia> "Castello" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeLaVia> "105" ;
+	<http://www.semanticweb.org/group03/ontologydistrito> "Salamanca" ;
+	rdfs:label "Castello105" .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaCerro+de+la+Plata4> a <http://www.semanticweb.org/group03/ontologyPuntosDeRecarga> .
+
+<http://www.semanticweb.org/group03/resource#Cerro+de+la+Plata4> a <http://www.semanticweb.org/group03/ontologyUbicacion> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaCerro+de+la+Plata4> <http://www.semanticweb.org/group03/ontologyestaEn> <http://www.semanticweb.org/group03/resource#Cerro+de+la+Plata4> .
+
+<http://www.semanticweb.org/group03/resource#ParquimetroCerro+de+la+Plata4> a <http://www.semanticweb.org/group03/ontologyParquimetro> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaCerro+de+la+Plata4> <http://www.semanticweb.org/group03/ontologycercaDe> <http://www.semanticweb.org/group03/resource#ParquimetroCerro+de+la+Plata4> ;
+	<http://www.semanticweb.org/group03/resource#ontologytipoEstacionamiento> "Punto de recarga" ;
+	<http://www.semanticweb.org/group03/ontologytipoDeConector> "Schuko/Mennekes" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeConectores> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	rdfs:label "ZonaPuntoRecargaCerro de la Plata4" .
+
+<http://www.semanticweb.org/group03/resource#Cerro+de+la+Plata4> <http://www.semanticweb.org/group03/ontologytipoDeLaVia> "Punto de recarga eléctrica en vía pública " ;
+	<http://www.semanticweb.org/group03/ontologynombreDeLaVia> "Cerro de la Plata" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeLaVia> "4" ;
+	<http://www.semanticweb.org/group03/ontologydistrito> "Retiro" ;
+	rdfs:label "Cerro de la Plata4" .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaChulaposs/n> a <http://www.semanticweb.org/group03/ontologyPuntosDeRecarga> .
+
+<http://www.semanticweb.org/group03/resource#Chulaposs/n> a <http://www.semanticweb.org/group03/ontologyUbicacion> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaChulaposs/n> <http://www.semanticweb.org/group03/ontologyestaEn> <http://www.semanticweb.org/group03/resource#Chulaposs/n> .
+
+<http://www.semanticweb.org/group03/resource#ParquimetroChulaposs/n> a <http://www.semanticweb.org/group03/ontologyParquimetro> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaChulaposs/n> <http://www.semanticweb.org/group03/ontologycercaDe> <http://www.semanticweb.org/group03/resource#ParquimetroChulaposs/n> ;
+	<http://www.semanticweb.org/group03/resource#ontologytipoEstacionamiento> "Punto de recarga" ;
+	<http://www.semanticweb.org/group03/ontologytipoDeConector> "Mennekes" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeConectores> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	rdfs:label "ZonaPuntoRecargaChulaposs/n" .
+
+<http://www.semanticweb.org/group03/resource#Chulaposs/n> <http://www.semanticweb.org/group03/ontologytipoDeLaVia> "Punto de recarga eléctrica en vía pública " ;
+	<http://www.semanticweb.org/group03/ontologynombreDeLaVia> "Chulapos" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeLaVia> "s/n" ;
+	<http://www.semanticweb.org/group03/ontologydistrito> "Arganzuela " ;
+	rdfs:label "Chulaposs/n" .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaFernandez+de+los+R%C3%ADos42> a <http://www.semanticweb.org/group03/ontologyPuntosDeRecarga> .
+
+<http://www.semanticweb.org/group03/resource#Fernandez+de+los+R%C3%ADos42> a <http://www.semanticweb.org/group03/ontologyUbicacion> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaFernandez+de+los+R%C3%ADos42> <http://www.semanticweb.org/group03/ontologyestaEn> <http://www.semanticweb.org/group03/resource#Fernandez+de+los+R%C3%ADos42> .
+
+<http://www.semanticweb.org/group03/resource#ParquimetroFernandez+de+los+R%C3%ADos42> a <http://www.semanticweb.org/group03/ontologyParquimetro> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaFernandez+de+los+R%C3%ADos42> <http://www.semanticweb.org/group03/ontologycercaDe> <http://www.semanticweb.org/group03/resource#ParquimetroFernandez+de+los+R%C3%ADos42> ;
+	<http://www.semanticweb.org/group03/resource#ontologytipoEstacionamiento> "Punto de recarga" ;
+	<http://www.semanticweb.org/group03/ontologytipoDeConector> "Mennekes" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeConectores> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	rdfs:label "ZonaPuntoRecargaFernandez de los Ríos42" .
+
+<http://www.semanticweb.org/group03/resource#Fernandez+de+los+R%C3%ADos42> <http://www.semanticweb.org/group03/ontologytipoDeLaVia> "Punto de recarga eléctrica en vía pública " ;
+	<http://www.semanticweb.org/group03/ontologynombreDeLaVia> "Fernandez de los Ríos" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeLaVia> "42" ;
+	<http://www.semanticweb.org/group03/ontologydistrito> "Chamberí" ;
+	rdfs:label "Fernandez de los Ríos42" .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaFuencarral+114> a <http://www.semanticweb.org/group03/ontologyPuntosDeRecarga> .
+
+<http://www.semanticweb.org/group03/resource#Fuencarral+114> a <http://www.semanticweb.org/group03/ontologyUbicacion> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaFuencarral+114> <http://www.semanticweb.org/group03/ontologyestaEn> <http://www.semanticweb.org/group03/resource#Fuencarral+114> .
+
+<http://www.semanticweb.org/group03/resource#ParquimetroFuencarral+114> a <http://www.semanticweb.org/group03/ontologyParquimetro> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaFuencarral+114> <http://www.semanticweb.org/group03/ontologycercaDe> <http://www.semanticweb.org/group03/resource#ParquimetroFuencarral+114> ;
+	<http://www.semanticweb.org/group03/resource#ontologytipoEstacionamiento> "Punto de recarga" ;
+	<http://www.semanticweb.org/group03/ontologytipoDeConector> "Mennekes" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeConectores> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	rdfs:label "ZonaPuntoRecargaFuencarral 114" .
+
+<http://www.semanticweb.org/group03/resource#Fuencarral+114> <http://www.semanticweb.org/group03/ontologytipoDeLaVia> "Punto de recarga eléctrica en vía pública " ;
+	<http://www.semanticweb.org/group03/ontologynombreDeLaVia> "Fuencarral 114" ;
+	<http://www.semanticweb.org/group03/ontologydistrito> "Chamberí" ;
+	rdfs:label "Fuencarral 114" .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaGénova24> a <http://www.semanticweb.org/group03/ontologyPuntosDeRecarga> .
+
+<http://www.semanticweb.org/group03/resource#Génova24> a <http://www.semanticweb.org/group03/ontologyUbicacion> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaGénova24> <http://www.semanticweb.org/group03/ontologyestaEn> <http://www.semanticweb.org/group03/resource#Génova24> .
+
+<http://www.semanticweb.org/group03/resource#ParquimetroGénova24> a <http://www.semanticweb.org/group03/ontologyParquimetro> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaGénova24> <http://www.semanticweb.org/group03/ontologycercaDe> <http://www.semanticweb.org/group03/resource#ParquimetroGénova24> ;
+	<http://www.semanticweb.org/group03/resource#ontologytipoEstacionamiento> "Punto de recarga" ;
+	<http://www.semanticweb.org/group03/ontologytipoDeConector> "Schuko/Mennekes" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeConectores> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	rdfs:label "ZonaPuntoRecargaGénova24" .
+
+<http://www.semanticweb.org/group03/resource#Génova24> <http://www.semanticweb.org/group03/ontologytipoDeLaVia> "Punto de recarga eléctrica en vía pública " ;
+	<http://www.semanticweb.org/group03/ontologynombreDeLaVia> "Génova" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeLaVia> "24" ;
+	<http://www.semanticweb.org/group03/ontologydistrito> "Centro" ;
+	rdfs:label "Génova24" .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaGoya36> a <http://www.semanticweb.org/group03/ontologyPuntosDeRecarga> .
+
+<http://www.semanticweb.org/group03/resource#Goya36> a <http://www.semanticweb.org/group03/ontologyUbicacion> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaGoya36> <http://www.semanticweb.org/group03/ontologyestaEn> <http://www.semanticweb.org/group03/resource#Goya36> .
+
+<http://www.semanticweb.org/group03/resource#ParquimetroGoya36> a <http://www.semanticweb.org/group03/ontologyParquimetro> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaGoya36> <http://www.semanticweb.org/group03/ontologycercaDe> <http://www.semanticweb.org/group03/resource#ParquimetroGoya36> ;
+	<http://www.semanticweb.org/group03/resource#ontologytipoEstacionamiento> "Punto de recarga" ;
+	<http://www.semanticweb.org/group03/ontologytipoDeConector> "Schuko/Mennekes" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeConectores> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	rdfs:label "ZonaPuntoRecargaGoya36" .
+
+<http://www.semanticweb.org/group03/resource#Goya36> <http://www.semanticweb.org/group03/ontologytipoDeLaVia> "Punto de recarga eléctrica en vía pública " ;
+	<http://www.semanticweb.org/group03/ontologynombreDeLaVia> "Goya" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeLaVia> "36" ;
+	<http://www.semanticweb.org/group03/ontologydistrito> "Salamanca" ;
+	rdfs:label "Goya36" .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaGoya123> a <http://www.semanticweb.org/group03/ontologyPuntosDeRecarga> .
+
+<http://www.semanticweb.org/group03/resource#Goya123> a <http://www.semanticweb.org/group03/ontologyUbicacion> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaGoya123> <http://www.semanticweb.org/group03/ontologyestaEn> <http://www.semanticweb.org/group03/resource#Goya123> .
+
+<http://www.semanticweb.org/group03/resource#ParquimetroGoya123> a <http://www.semanticweb.org/group03/ontologyParquimetro> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaGoya123> <http://www.semanticweb.org/group03/ontologycercaDe> <http://www.semanticweb.org/group03/resource#ParquimetroGoya123> ;
+	<http://www.semanticweb.org/group03/resource#ontologytipoEstacionamiento> "Punto de recarga" ;
+	<http://www.semanticweb.org/group03/ontologytipoDeConector> "Mennekes" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeConectores> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	rdfs:label "ZonaPuntoRecargaGoya123" .
+
+<http://www.semanticweb.org/group03/resource#Goya123> <http://www.semanticweb.org/group03/ontologytipoDeLaVia> "Punto de recarga eléctrica en vía pública " ;
+	<http://www.semanticweb.org/group03/ontologynombreDeLaVia> "Goya" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeLaVia> "123" ;
+	<http://www.semanticweb.org/group03/ontologydistrito> "Salamanca" ;
+	rdfs:label "Goya123" .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaIbiza1> a <http://www.semanticweb.org/group03/ontologyPuntosDeRecarga> .
+
+<http://www.semanticweb.org/group03/resource#Ibiza1> a <http://www.semanticweb.org/group03/ontologyUbicacion> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaIbiza1> <http://www.semanticweb.org/group03/ontologyestaEn> <http://www.semanticweb.org/group03/resource#Ibiza1> .
+
+<http://www.semanticweb.org/group03/resource#ParquimetroIbiza1> a <http://www.semanticweb.org/group03/ontologyParquimetro> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaIbiza1> <http://www.semanticweb.org/group03/ontologycercaDe> <http://www.semanticweb.org/group03/resource#ParquimetroIbiza1> ;
+	<http://www.semanticweb.org/group03/resource#ontologytipoEstacionamiento> "Punto de recarga" ;
+	<http://www.semanticweb.org/group03/ontologytipoDeConector> "Schuko" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeConectores> "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	rdfs:label "ZonaPuntoRecargaIbiza1" .
+
+<http://www.semanticweb.org/group03/resource#Ibiza1> <http://www.semanticweb.org/group03/ontologytipoDeLaVia> "Punto de recarga eléctrica en vía pública " ;
+	<http://www.semanticweb.org/group03/ontologynombreDeLaVia> "Ibiza" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeLaVia> "1" ;
+	<http://www.semanticweb.org/group03/ontologydistrito> "Retiro" ;
+	rdfs:label "Ibiza1" .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaManuel+Silvela16> a <http://www.semanticweb.org/group03/ontologyPuntosDeRecarga> .
+
+<http://www.semanticweb.org/group03/resource#Manuel+Silvela16> a <http://www.semanticweb.org/group03/ontologyUbicacion> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaManuel+Silvela16> <http://www.semanticweb.org/group03/ontologyestaEn> <http://www.semanticweb.org/group03/resource#Manuel+Silvela16> .
+
+<http://www.semanticweb.org/group03/resource#ParquimetroManuel+Silvela16> a <http://www.semanticweb.org/group03/ontologyParquimetro> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaManuel+Silvela16> <http://www.semanticweb.org/group03/ontologycercaDe> <http://www.semanticweb.org/group03/resource#ParquimetroManuel+Silvela16> ;
+	<http://www.semanticweb.org/group03/resource#ontologytipoEstacionamiento> "Punto de recarga" ;
+	<http://www.semanticweb.org/group03/ontologytipoDeConector> "Schuko/Mennekes" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeConectores> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	rdfs:label "ZonaPuntoRecargaManuel Silvela16" .
+
+<http://www.semanticweb.org/group03/resource#Manuel+Silvela16> <http://www.semanticweb.org/group03/ontologytipoDeLaVia> "Punto de recarga eléctrica en vía pública " ;
+	<http://www.semanticweb.org/group03/ontologynombreDeLaVia> "Manuel Silvela" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeLaVia> "16" ;
+	<http://www.semanticweb.org/group03/ontologydistrito> "Chamberí" ;
+	rdfs:label "Manuel Silvela16" .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaCardenal+Marcelo+Sp%C3%ADnola10> a <http://www.semanticweb.org/group03/ontologyPuntosDeRecarga> .
+
+<http://www.semanticweb.org/group03/resource#Cardenal+Marcelo+Sp%C3%ADnola10> a <http://www.semanticweb.org/group03/ontologyUbicacion> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaCardenal+Marcelo+Sp%C3%ADnola10> <http://www.semanticweb.org/group03/ontologyestaEn> <http://www.semanticweb.org/group03/resource#Cardenal+Marcelo+Sp%C3%ADnola10> .
+
+<http://www.semanticweb.org/group03/resource#ParquimetroCardenal+Marcelo+Sp%C3%ADnola10> a <http://www.semanticweb.org/group03/ontologyParquimetro> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaCardenal+Marcelo+Sp%C3%ADnola10> <http://www.semanticweb.org/group03/ontologycercaDe> <http://www.semanticweb.org/group03/resource#ParquimetroCardenal+Marcelo+Sp%C3%ADnola10> ;
+	<http://www.semanticweb.org/group03/resource#ontologytipoEstacionamiento> "Punto de recarga" ;
+	<http://www.semanticweb.org/group03/ontologytipoDeConector> "Schuko/Mennekes" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeConectores> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	rdfs:label "ZonaPuntoRecargaCardenal Marcelo Spínola10" .
+
+<http://www.semanticweb.org/group03/resource#Cardenal+Marcelo+Sp%C3%ADnola10> <http://www.semanticweb.org/group03/ontologytipoDeLaVia> "Punto de recarga eléctrica en vía pública " ;
+	<http://www.semanticweb.org/group03/ontologynombreDeLaVia> "Cardenal Marcelo Spínola" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeLaVia> "10" ;
+	<http://www.semanticweb.org/group03/ontologydistrito> "Chamartín " ;
+	rdfs:label "Cardenal Marcelo Spínola10" .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaLealtads/n> a <http://www.semanticweb.org/group03/ontologyPuntosDeRecarga> .
+
+<http://www.semanticweb.org/group03/resource#Lealtads/n> a <http://www.semanticweb.org/group03/ontologyUbicacion> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaLealtads/n> <http://www.semanticweb.org/group03/ontologyestaEn> <http://www.semanticweb.org/group03/resource#Lealtads/n> .
+
+<http://www.semanticweb.org/group03/resource#ParquimetroLealtads/n> a <http://www.semanticweb.org/group03/ontologyParquimetro> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaLealtads/n> <http://www.semanticweb.org/group03/ontologycercaDe> <http://www.semanticweb.org/group03/resource#ParquimetroLealtads/n> ;
+	<http://www.semanticweb.org/group03/resource#ontologytipoEstacionamiento> "Punto de recarga" ;
+	<http://www.semanticweb.org/group03/ontologytipoDeConector> "Schuko/Mennekes" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeConectores> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	rdfs:label "ZonaPuntoRecargaLealtads/n" .
+
+<http://www.semanticweb.org/group03/resource#Lealtads/n> <http://www.semanticweb.org/group03/ontologytipoDeLaVia> "Punto de recarga eléctrica en vía pública " ;
+	<http://www.semanticweb.org/group03/ontologynombreDeLaVia> "Lealtad" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeLaVia> "s/n" ;
+	<http://www.semanticweb.org/group03/ontologydistrito> "Retiro" ;
+	rdfs:label "Lealtads/n" .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaalencia1> a <http://www.semanticweb.org/group03/ontologyPuntosDeRecarga> .
+
+<http://www.semanticweb.org/group03/resource#alencia1> a <http://www.semanticweb.org/group03/ontologyUbicacion> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaalencia1> <http://www.semanticweb.org/group03/ontologyestaEn> <http://www.semanticweb.org/group03/resource#alencia1> .
+
+<http://www.semanticweb.org/group03/resource#Parquimetroalencia1> a <http://www.semanticweb.org/group03/ontologyParquimetro> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaalencia1> <http://www.semanticweb.org/group03/ontologycercaDe> <http://www.semanticweb.org/group03/resource#Parquimetroalencia1> ;
+	<http://www.semanticweb.org/group03/resource#ontologytipoEstacionamiento> "Punto de recarga" ;
+	<http://www.semanticweb.org/group03/ontologytipoDeConector> "Schuko/Mennekes" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeConectores> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	rdfs:label "ZonaPuntoRecargaalencia1" .
+
+<http://www.semanticweb.org/group03/resource#alencia1> <http://www.semanticweb.org/group03/ontologytipoDeLaVia> "Punto de recarga eléctrica en vía pública " ;
+	<http://www.semanticweb.org/group03/ontologyparticulaDeLaVia> "de" ;
+	<http://www.semanticweb.org/group03/ontologynombreDeLaVia> "alencia" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeLaVia> "1" ;
+	<http://www.semanticweb.org/group03/ontologydistrito> "Arganzuela " ;
+	rdfs:label "alencia1" .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaSan+Bernardo14> a <http://www.semanticweb.org/group03/ontologyPuntosDeRecarga> .
+
+<http://www.semanticweb.org/group03/resource#San+Bernardo14> a <http://www.semanticweb.org/group03/ontologyUbicacion> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaSan+Bernardo14> <http://www.semanticweb.org/group03/ontologyestaEn> <http://www.semanticweb.org/group03/resource#San+Bernardo14> .
+
+<http://www.semanticweb.org/group03/resource#ParquimetroSan+Bernardo14> a <http://www.semanticweb.org/group03/ontologyParquimetro> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaSan+Bernardo14> <http://www.semanticweb.org/group03/ontologycercaDe> <http://www.semanticweb.org/group03/resource#ParquimetroSan+Bernardo14> ;
+	<http://www.semanticweb.org/group03/resource#ontologytipoEstacionamiento> "Punto de recarga" ;
+	<http://www.semanticweb.org/group03/ontologytipoDeConector> "Schuko" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeConectores> "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	rdfs:label "ZonaPuntoRecargaSan Bernardo14" .
+
+<http://www.semanticweb.org/group03/resource#San+Bernardo14> <http://www.semanticweb.org/group03/ontologytipoDeLaVia> "Punto de recarga eléctrica en vía pública " ;
+	<http://www.semanticweb.org/group03/ontologynombreDeLaVia> "San Bernardo" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeLaVia> "14" ;
+	<http://www.semanticweb.org/group03/ontologydistrito> "Centro" ;
+	rdfs:label "San Bernardo14" .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaSan+Bernardo122> a <http://www.semanticweb.org/group03/ontologyPuntosDeRecarga> .
+
+<http://www.semanticweb.org/group03/resource#San+Bernardo122> a <http://www.semanticweb.org/group03/ontologyUbicacion> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaSan+Bernardo122> <http://www.semanticweb.org/group03/ontologyestaEn> <http://www.semanticweb.org/group03/resource#San+Bernardo122> .
+
+<http://www.semanticweb.org/group03/resource#ParquimetroSan+Bernardo122> a <http://www.semanticweb.org/group03/ontologyParquimetro> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaSan+Bernardo122> <http://www.semanticweb.org/group03/ontologycercaDe> <http://www.semanticweb.org/group03/resource#ParquimetroSan+Bernardo122> ;
+	<http://www.semanticweb.org/group03/resource#ontologytipoEstacionamiento> "Punto de recarga" ;
+	<http://www.semanticweb.org/group03/ontologytipoDeConector> "Mennekes" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeConectores> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	rdfs:label "ZonaPuntoRecargaSan Bernardo122" .
+
+<http://www.semanticweb.org/group03/resource#San+Bernardo122> <http://www.semanticweb.org/group03/ontologytipoDeLaVia> "Punto de recarga eléctrica en vía pública " ;
+	<http://www.semanticweb.org/group03/ontologynombreDeLaVia> "San Bernardo" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeLaVia> "122" ;
+	<http://www.semanticweb.org/group03/ontologydistrito> "Chamberí" ;
+	rdfs:label "San Bernardo122" .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaSanta+Engracia115> a <http://www.semanticweb.org/group03/ontologyPuntosDeRecarga> .
+
+<http://www.semanticweb.org/group03/resource#Santa+Engracia115> a <http://www.semanticweb.org/group03/ontologyUbicacion> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaSanta+Engracia115> <http://www.semanticweb.org/group03/ontologyestaEn> <http://www.semanticweb.org/group03/resource#Santa+Engracia115> .
+
+<http://www.semanticweb.org/group03/resource#ParquimetroSanta+Engracia115> a <http://www.semanticweb.org/group03/ontologyParquimetro> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaSanta+Engracia115> <http://www.semanticweb.org/group03/ontologycercaDe> <http://www.semanticweb.org/group03/resource#ParquimetroSanta+Engracia115> ;
+	<http://www.semanticweb.org/group03/resource#ontologytipoEstacionamiento> "Punto de recarga" ;
+	<http://www.semanticweb.org/group03/ontologytipoDeConector> "Schuko/Mennekes" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeConectores> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	rdfs:label "ZonaPuntoRecargaSanta Engracia115" .
+
+<http://www.semanticweb.org/group03/resource#Santa+Engracia115> <http://www.semanticweb.org/group03/ontologytipoDeLaVia> "Punto de recarga eléctrica en vía pública " ;
+	<http://www.semanticweb.org/group03/ontologynombreDeLaVia> "Santa Engracia" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeLaVia> "115" ;
+	<http://www.semanticweb.org/group03/ontologydistrito> "Chamberí" ;
+	rdfs:label "Santa Engracia115" .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaVelazquez74> a <http://www.semanticweb.org/group03/ontologyPuntosDeRecarga> .
+
+<http://www.semanticweb.org/group03/resource#Velazquez74> a <http://www.semanticweb.org/group03/ontologyUbicacion> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaVelazquez74> <http://www.semanticweb.org/group03/ontologyestaEn> <http://www.semanticweb.org/group03/resource#Velazquez74> .
+
+<http://www.semanticweb.org/group03/resource#ParquimetroVelazquez74> a <http://www.semanticweb.org/group03/ontologyParquimetro> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaVelazquez74> <http://www.semanticweb.org/group03/ontologycercaDe> <http://www.semanticweb.org/group03/resource#ParquimetroVelazquez74> ;
+	<http://www.semanticweb.org/group03/resource#ontologytipoEstacionamiento> "Punto de recarga" ;
+	<http://www.semanticweb.org/group03/ontologytipoDeConector> "Schuko" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeConectores> "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	rdfs:label "ZonaPuntoRecargaVelazquez74" .
+
+<http://www.semanticweb.org/group03/resource#Velazquez74> <http://www.semanticweb.org/group03/ontologytipoDeLaVia> "Punto de recarga eléctrica en vía pública " ;
+	<http://www.semanticweb.org/group03/ontologynombreDeLaVia> "Velazquez" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeLaVia> "74" ;
+	<http://www.semanticweb.org/group03/ontologydistrito> "Salamanca" ;
+	rdfs:label "Velazquez74" .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaJuan+Bravo4b> a <http://www.semanticweb.org/group03/ontologyPuntosDeRecarga> .
+
+<http://www.semanticweb.org/group03/resource#Juan+Bravo4b> a <http://www.semanticweb.org/group03/ontologyUbicacion> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaJuan+Bravo4b> <http://www.semanticweb.org/group03/ontologyestaEn> <http://www.semanticweb.org/group03/resource#Juan+Bravo4b> .
+
+<http://www.semanticweb.org/group03/resource#ParquimetroJuan+Bravo4b> a <http://www.semanticweb.org/group03/ontologyParquimetro> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaJuan+Bravo4b> <http://www.semanticweb.org/group03/ontologycercaDe> <http://www.semanticweb.org/group03/resource#ParquimetroJuan+Bravo4b> ;
+	<http://www.semanticweb.org/group03/resource#ontologytipoEstacionamiento> "Punto de recarga" ;
+	<http://www.semanticweb.org/group03/ontologytipoDeConector> "Schuko/Cetac" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeConectores> "14"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	rdfs:label "ZonaPuntoRecargaJuan Bravo4b" .
+
+<http://www.semanticweb.org/group03/resource#Juan+Bravo4b> <http://www.semanticweb.org/group03/ontologytipoDeLaVia> "Punto de recarga eléctrica en aparcamiento de acceso público " ;
+	<http://www.semanticweb.org/group03/ontologynombreDeLaVia> "Juan Bravo" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeLaVia> "4b" ;
+	<http://www.semanticweb.org/group03/ontologydistrito> "Salamanca " ;
+	rdfs:label "Juan Bravo4b" .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaortega+y+Gasset2> a <http://www.semanticweb.org/group03/ontologyPuntosDeRecarga> .
+
+<http://www.semanticweb.org/group03/resource#ortega+y+Gasset2> a <http://www.semanticweb.org/group03/ontologyUbicacion> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaortega+y+Gasset2> <http://www.semanticweb.org/group03/ontologyestaEn> <http://www.semanticweb.org/group03/resource#ortega+y+Gasset2> .
+
+<http://www.semanticweb.org/group03/resource#Parquimetroortega+y+Gasset2> a <http://www.semanticweb.org/group03/ontologyParquimetro> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaortega+y+Gasset2> <http://www.semanticweb.org/group03/ontologycercaDe> <http://www.semanticweb.org/group03/resource#Parquimetroortega+y+Gasset2> ;
+	<http://www.semanticweb.org/group03/resource#ontologytipoEstacionamiento> "Punto de recarga" ;
+	<http://www.semanticweb.org/group03/ontologytipoDeConector> "Schuko/Cetac" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeConectores> "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	rdfs:label "ZonaPuntoRecargaortega y Gasset2" .
+
+<http://www.semanticweb.org/group03/resource#ortega+y+Gasset2> <http://www.semanticweb.org/group03/ontologytipoDeLaVia> "Punto de recarga eléctrica en aparcamiento de acceso público " ;
+	<http://www.semanticweb.org/group03/ontologynombreDeLaVia> "ortega y Gasset" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeLaVia> "2" ;
+	<http://www.semanticweb.org/group03/ontologydistrito> "Salamanca " ;
+	rdfs:label "ortega y Gasset2" .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaJorge+Juan1B> a <http://www.semanticweb.org/group03/ontologyPuntosDeRecarga> .
+
+<http://www.semanticweb.org/group03/resource#Jorge+Juan1B> a <http://www.semanticweb.org/group03/ontologyUbicacion> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaJorge+Juan1B> <http://www.semanticweb.org/group03/ontologyestaEn> <http://www.semanticweb.org/group03/resource#Jorge+Juan1B> .
+
+<http://www.semanticweb.org/group03/resource#ParquimetroJorge+Juan1B> a <http://www.semanticweb.org/group03/ontologyParquimetro> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaJorge+Juan1B> <http://www.semanticweb.org/group03/ontologycercaDe> <http://www.semanticweb.org/group03/resource#ParquimetroJorge+Juan1B> ;
+	<http://www.semanticweb.org/group03/resource#ontologytipoEstacionamiento> "Punto de recarga" ;
+	<http://www.semanticweb.org/group03/ontologytipoDeConector> "Schuko/Cetac" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeConectores> "15"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	rdfs:label "ZonaPuntoRecargaJorge Juan1B" .
+
+<http://www.semanticweb.org/group03/resource#Jorge+Juan1B> <http://www.semanticweb.org/group03/ontologytipoDeLaVia> "Punto de recarga eléctrica en aparcamiento de acceso público " ;
+	<http://www.semanticweb.org/group03/ontologynombreDeLaVia> "Jorge Juan" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeLaVia> "1B" ;
+	<http://www.semanticweb.org/group03/ontologydistrito> "Salamanca " ;
+	rdfs:label "Jorge Juan1B" .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaAugusto+Figueroa32> a <http://www.semanticweb.org/group03/ontologyPuntosDeRecarga> .
+
+<http://www.semanticweb.org/group03/resource#Augusto+Figueroa32> a <http://www.semanticweb.org/group03/ontologyUbicacion> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaAugusto+Figueroa32> <http://www.semanticweb.org/group03/ontologyestaEn> <http://www.semanticweb.org/group03/resource#Augusto+Figueroa32> .
+
+<http://www.semanticweb.org/group03/resource#ParquimetroAugusto+Figueroa32> a <http://www.semanticweb.org/group03/ontologyParquimetro> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaAugusto+Figueroa32> <http://www.semanticweb.org/group03/ontologycercaDe> <http://www.semanticweb.org/group03/resource#ParquimetroAugusto+Figueroa32> ;
+	<http://www.semanticweb.org/group03/resource#ontologytipoEstacionamiento> "Punto de recarga" ;
+	<http://www.semanticweb.org/group03/ontologytipoDeConector> "Schuko" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeConectores> "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	rdfs:label "ZonaPuntoRecargaAugusto Figueroa32" .
+
+<http://www.semanticweb.org/group03/resource#Augusto+Figueroa32> <http://www.semanticweb.org/group03/ontologytipoDeLaVia> "Punto de recarga eléctrica en aparcamiento de acceso público " ;
+	<http://www.semanticweb.org/group03/ontologynombreDeLaVia> "Augusto Figueroa" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeLaVia> "32" ;
+	<http://www.semanticweb.org/group03/ontologydistrito> "Centro" ;
+	rdfs:label "Augusto Figueroa32" .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaBailen8> a <http://www.semanticweb.org/group03/ontologyPuntosDeRecarga> .
+
+<http://www.semanticweb.org/group03/resource#Bailen8> a <http://www.semanticweb.org/group03/ontologyUbicacion> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaBailen8> <http://www.semanticweb.org/group03/ontologyestaEn> <http://www.semanticweb.org/group03/resource#Bailen8> .
+
+<http://www.semanticweb.org/group03/resource#ParquimetroBailen8> a <http://www.semanticweb.org/group03/ontologyParquimetro> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaBailen8> <http://www.semanticweb.org/group03/ontologycercaDe> <http://www.semanticweb.org/group03/resource#ParquimetroBailen8> ;
+	<http://www.semanticweb.org/group03/resource#ontologytipoEstacionamiento> "Punto de recarga" ;
+	<http://www.semanticweb.org/group03/ontologytipoDeConector> "Schuko " ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeConectores> "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	rdfs:label "ZonaPuntoRecargaBailen8" .
+
+<http://www.semanticweb.org/group03/resource#Bailen8> <http://www.semanticweb.org/group03/ontologytipoDeLaVia> "Punto de recarga eléctrica en aparcamiento de acceso público " ;
+	<http://www.semanticweb.org/group03/ontologynombreDeLaVia> "Bailen" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeLaVia> "8" ;
+	<http://www.semanticweb.org/group03/ontologydistrito> "Centro" ;
+	rdfs:label "Bailen8" .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaey1B> a <http://www.semanticweb.org/group03/ontologyPuntosDeRecarga> .
+
+<http://www.semanticweb.org/group03/resource#ey1B> a <http://www.semanticweb.org/group03/ontologyUbicacion> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaey1B> <http://www.semanticweb.org/group03/ontologyestaEn> <http://www.semanticweb.org/group03/resource#ey1B> .
+
+<http://www.semanticweb.org/group03/resource#Parquimetroey1B> a <http://www.semanticweb.org/group03/ontologyParquimetro> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaey1B> <http://www.semanticweb.org/group03/ontologycercaDe> <http://www.semanticweb.org/group03/resource#Parquimetroey1B> ;
+	<http://www.semanticweb.org/group03/resource#ontologytipoEstacionamiento> "Punto de recarga" ;
+	<http://www.semanticweb.org/group03/ontologytipoDeConector> "Schuko" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeConectores> "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	rdfs:label "ZonaPuntoRecargaey1B" .
+
+<http://www.semanticweb.org/group03/resource#ey1B> <http://www.semanticweb.org/group03/ontologytipoDeLaVia> "Punto de recarga eléctrica en aparcamiento de acceso público " ;
+	<http://www.semanticweb.org/group03/ontologyparticulaDeLaVia> "del" ;
+	<http://www.semanticweb.org/group03/ontologynombreDeLaVia> "ey" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeLaVia> "1B" ;
+	<http://www.semanticweb.org/group03/ontologydistrito> "Centro" ;
+	rdfs:label "ey1B" .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaOrense50> a <http://www.semanticweb.org/group03/ontologyPuntosDeRecarga> .
+
+<http://www.semanticweb.org/group03/resource#Orense50> a <http://www.semanticweb.org/group03/ontologyUbicacion> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaOrense50> <http://www.semanticweb.org/group03/ontologyestaEn> <http://www.semanticweb.org/group03/resource#Orense50> .
+
+<http://www.semanticweb.org/group03/resource#ParquimetroOrense50> a <http://www.semanticweb.org/group03/ontologyParquimetro> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaOrense50> <http://www.semanticweb.org/group03/ontologycercaDe> <http://www.semanticweb.org/group03/resource#ParquimetroOrense50> ;
+	<http://www.semanticweb.org/group03/resource#ontologytipoEstacionamiento> "Punto de recarga" ;
+	<http://www.semanticweb.org/group03/ontologytipoDeConector> "Schuko" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeConectores> "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	rdfs:label "ZonaPuntoRecargaOrense50" .
+
+<http://www.semanticweb.org/group03/resource#Orense50> <http://www.semanticweb.org/group03/ontologytipoDeLaVia> "Punto de recarga eléctrica en aparcamiento de acceso público " ;
+	<http://www.semanticweb.org/group03/ontologynombreDeLaVia> "Orense" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeLaVia> "50" ;
+	<http://www.semanticweb.org/group03/ontologydistrito> "Tetuán" ;
+	rdfs:label "Orense50" .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaHiedra36> a <http://www.semanticweb.org/group03/ontologyPuntosDeRecarga> .
+
+<http://www.semanticweb.org/group03/resource#Hiedra36> a <http://www.semanticweb.org/group03/ontologyUbicacion> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaHiedra36> <http://www.semanticweb.org/group03/ontologyestaEn> <http://www.semanticweb.org/group03/resource#Hiedra36> .
+
+<http://www.semanticweb.org/group03/resource#ParquimetroHiedra36> a <http://www.semanticweb.org/group03/ontologyParquimetro> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaHiedra36> <http://www.semanticweb.org/group03/ontologycercaDe> <http://www.semanticweb.org/group03/resource#ParquimetroHiedra36> ;
+	<http://www.semanticweb.org/group03/resource#ontologytipoEstacionamiento> "Punto de recarga" ;
+	<http://www.semanticweb.org/group03/ontologytipoDeConector> "Schuko" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeConectores> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	rdfs:label "ZonaPuntoRecargaHiedra36" .
+
+<http://www.semanticweb.org/group03/resource#Hiedra36> <http://www.semanticweb.org/group03/ontologytipoDeLaVia> "Punto de recarga eléctrica en aparcamiento de acceso público " ;
+	<http://www.semanticweb.org/group03/ontologynombreDeLaVia> "Hiedra" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeLaVia> "36" ;
+	<http://www.semanticweb.org/group03/ontologydistrito> "Chamartín" ;
+	rdfs:label "Hiedra36" .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaMarques+de+Salamancas%2Fn> a <http://www.semanticweb.org/group03/ontologyPuntosDeRecarga> .
+
+<http://www.semanticweb.org/group03/resource#Marques+de+Salamancas%2Fn> a <http://www.semanticweb.org/group03/ontologyUbicacion> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaMarques+de+Salamancas%2Fn> <http://www.semanticweb.org/group03/ontologyestaEn> <http://www.semanticweb.org/group03/resource#Marques+de+Salamancas%2Fn> .
+
+<http://www.semanticweb.org/group03/resource#ParquimetroMarques+de+Salamancas%2Fn> a <http://www.semanticweb.org/group03/ontologyParquimetro> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaMarques+de+Salamancas%2Fn> <http://www.semanticweb.org/group03/ontologycercaDe> <http://www.semanticweb.org/group03/resource#ParquimetroMarques+de+Salamancas%2Fn> ;
+	<http://www.semanticweb.org/group03/resource#ontologytipoEstacionamiento> "Punto de recarga" ;
+	<http://www.semanticweb.org/group03/ontologytipoDeConector> "Schuko/Cetac" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeConectores> "36"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	rdfs:label "ZonaPuntoRecargaMarques de Salamancas/n" .
+
+<http://www.semanticweb.org/group03/resource#Marques+de+Salamancas%2Fn> <http://www.semanticweb.org/group03/ontologytipoDeLaVia> "Punto de recarga eléctrica en aparcamiento de acceso público " ;
+	<http://www.semanticweb.org/group03/ontologynombreDeLaVia> "Marques de Salamanca" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeLaVia> "s/n" ;
+	<http://www.semanticweb.org/group03/ontologydistrito> "Salamanca" ;
+	rdfs:label "Marques de Salamancas/n" .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaPortugal51> a <http://www.semanticweb.org/group03/ontologyPuntosDeRecarga> .
+
+<http://www.semanticweb.org/group03/resource#Portugal51> a <http://www.semanticweb.org/group03/ontologyUbicacion> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaPortugal51> <http://www.semanticweb.org/group03/ontologyestaEn> <http://www.semanticweb.org/group03/resource#Portugal51> .
+
+<http://www.semanticweb.org/group03/resource#ParquimetroPortugal51> a <http://www.semanticweb.org/group03/ontologyParquimetro> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaPortugal51> <http://www.semanticweb.org/group03/ontologycercaDe> <http://www.semanticweb.org/group03/resource#ParquimetroPortugal51> ;
+	<http://www.semanticweb.org/group03/resource#ontologytipoEstacionamiento> "Punto de recarga" ;
+	<http://www.semanticweb.org/group03/ontologytipoDeConector> "Schuko" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeConectores> "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	rdfs:label "ZonaPuntoRecargaPortugal51" .
+
+<http://www.semanticweb.org/group03/resource#Portugal51> <http://www.semanticweb.org/group03/ontologytipoDeLaVia> "Punto de recarga eléctrica en aparcamiento de acceso público " ;
+	<http://www.semanticweb.org/group03/ontologynombreDeLaVia> "Portugal" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeLaVia> "51" ;
+	<http://www.semanticweb.org/group03/ontologydistrito> "Latina" ;
+	rdfs:label "Portugal51" .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaacinto+Benaventesn> a <http://www.semanticweb.org/group03/ontologyPuntosDeRecarga> .
+
+<http://www.semanticweb.org/group03/resource#acinto+Benaventesn> a <http://www.semanticweb.org/group03/ontologyUbicacion> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaacinto+Benaventesn> <http://www.semanticweb.org/group03/ontologyestaEn> <http://www.semanticweb.org/group03/resource#acinto+Benaventesn> .
+
+<http://www.semanticweb.org/group03/resource#Parquimetroacinto+Benaventesn> a <http://www.semanticweb.org/group03/ontologyParquimetro> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaacinto+Benaventesn> <http://www.semanticweb.org/group03/ontologycercaDe> <http://www.semanticweb.org/group03/resource#Parquimetroacinto+Benaventesn> ;
+	<http://www.semanticweb.org/group03/resource#ontologytipoEstacionamiento> "Punto de recarga" ;
+	<http://www.semanticweb.org/group03/ontologytipoDeConector> "Schuko/Mennekes/Combo/CHAdeMO" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeConectores> "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	rdfs:label "ZonaPuntoRecargaacinto Benaventesn" .
+
+<http://www.semanticweb.org/group03/resource#acinto+Benaventesn> <http://www.semanticweb.org/group03/ontologytipoDeLaVia> "Punto de Recarga Rapida de acceso público" ;
+	<http://www.semanticweb.org/group03/ontologyparticulaDeLaVia> "de" ;
+	<http://www.semanticweb.org/group03/ontologynombreDeLaVia> "acinto Benavente" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeLaVia> "sn" ;
+	<http://www.semanticweb.org/group03/ontologydistrito> "Centro" ;
+	rdfs:label "acinto Benaventesn" .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaAlberto+Aguilera+9> a <http://www.semanticweb.org/group03/ontologyPuntosDeRecarga> .
+
+<http://www.semanticweb.org/group03/resource#Alberto+Aguilera+9> a <http://www.semanticweb.org/group03/ontologyUbicacion> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaAlberto+Aguilera+9> <http://www.semanticweb.org/group03/ontologyestaEn> <http://www.semanticweb.org/group03/resource#Alberto+Aguilera+9> .
+
+<http://www.semanticweb.org/group03/resource#ParquimetroAlberto+Aguilera+9> a <http://www.semanticweb.org/group03/ontologyParquimetro> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaAlberto+Aguilera+9> <http://www.semanticweb.org/group03/ontologycercaDe> <http://www.semanticweb.org/group03/resource#ParquimetroAlberto+Aguilera+9> ;
+	<http://www.semanticweb.org/group03/resource#ontologytipoEstacionamiento> "Punto de recarga" ;
+	<http://www.semanticweb.org/group03/ontologytipoDeConector> "Cargador Trimanguera (CHAdeMO/Mennekes/Combo)" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeConectores> "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	rdfs:label "ZonaPuntoRecargaAlberto Aguilera 9" .
+
+<http://www.semanticweb.org/group03/resource#Alberto+Aguilera+9> <http://www.semanticweb.org/group03/ontologytipoDeLaVia> "Punto de Recarga Rapida de acceso público" ;
+	<http://www.semanticweb.org/group03/ontologynombreDeLaVia> "Alberto Aguilera " ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeLaVia> "9" ;
+	<http://www.semanticweb.org/group03/ontologydistrito> "Hortaleza" ;
+	rdfs:label "Alberto Aguilera 9" .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaachupichu105> a <http://www.semanticweb.org/group03/ontologyPuntosDeRecarga> .
+
+<http://www.semanticweb.org/group03/resource#achupichu105> a <http://www.semanticweb.org/group03/ontologyUbicacion> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaachupichu105> <http://www.semanticweb.org/group03/ontologyestaEn> <http://www.semanticweb.org/group03/resource#achupichu105> .
+
+<http://www.semanticweb.org/group03/resource#Parquimetroachupichu105> a <http://www.semanticweb.org/group03/ontologyParquimetro> .
+
+<http://www.semanticweb.org/group03/resource#ZonaPuntoRecargaachupichu105> <http://www.semanticweb.org/group03/ontologycercaDe> <http://www.semanticweb.org/group03/resource#Parquimetroachupichu105> ;
+	<http://www.semanticweb.org/group03/resource#ontologytipoEstacionamiento> "Punto de recarga" ;
+	<http://www.semanticweb.org/group03/ontologytipoDeConector> "Cargador Trimanguera (CHAdeMO/Mennekes/Combo)" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeConectores> "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	rdfs:label "ZonaPuntoRecargaachupichu105" .
+
+<http://www.semanticweb.org/group03/resource#achupichu105> <http://www.semanticweb.org/group03/ontologytipoDeLaVia> "Punto de Recarga Rapida de acceso público" ;
+	<http://www.semanticweb.org/group03/ontologyparticulaDeLaVia> "de" ;
+	<http://www.semanticweb.org/group03/ontologynombreDeLaVia> "achupichu" ;
+	<http://www.semanticweb.org/group03/ontologynumeroDeLaVia> "105" ;
+	<http://www.semanticweb.org/group03/ontologydistrito> "Salamanca" ;
+	rdfs:label "achupichu105" .
