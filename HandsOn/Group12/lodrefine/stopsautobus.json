@@ -1,0 +1,495 @@
+[
+  {
+    "op": "core/column-rename",
+    "description": "Rename column stop_id to stopID",
+    "oldColumnName": "stop_id",
+    "newColumnName": "stopID"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column stopID using expression grel:value.replace('_8_','')",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "stopID",
+    "expression": "grel:value.replace('_8_','')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column stop_code",
+    "columnName": "stop_code"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column stop_name to stopName",
+    "oldColumnName": "stop_name",
+    "newColumnName": "stopName"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column stop_desc to stopDesc",
+    "oldColumnName": "stop_desc",
+    "newColumnName": "stopDesc"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column stop_lat to stopLat",
+    "oldColumnName": "stop_lat",
+    "newColumnName": "stopLat"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column stop_lon to stopLon",
+    "oldColumnName": "stop_lon",
+    "newColumnName": "stopLon"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column zone_id to zoneID",
+    "oldColumnName": "zone_id",
+    "newColumnName": "zoneID"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column stop_url",
+    "columnName": "stop_url"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column location_type",
+    "columnName": "location_type"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column parent_station to parentStation",
+    "oldColumnName": "parent_station",
+    "newColumnName": "parentStation"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column parentStation",
+    "columnName": "parentStation"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column stop_timezone to stopTimezone",
+    "oldColumnName": "stop_timezone",
+    "newColumnName": "stopTimezone"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column wheelchair_boarding to wheelchairBoarding",
+    "oldColumnName": "wheelchair_boarding",
+    "newColumnName": "wheelchairBoarding"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://localhost:3333/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+              "curie": "rdfs:Literal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "stopID"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#string",
+              "curie": "xsd:string",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "stopName"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#string",
+              "curie": "xsd:string",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "stopDesc"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#string",
+              "curie": "xsd:string",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "zoneID"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#string",
+              "curie": "xsd:string",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "stopTimezone"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column wheelchairBoarding",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "wheelchairBoarding",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "2"
+        ],
+        "to": "1"
+      }
+    ]
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group12/resources/Parada/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+              "curie": "rdfs:Literal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "stopID"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#string",
+              "curie": "xsd:string",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "stopName"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#string",
+              "curie": "xsd:string",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "stopDesc"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#string",
+              "curie": "xsd:string",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "zoneID"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#string",
+              "curie": "xsd:string",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "stopTimezone"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#boolean",
+              "curie": "xsd:boolean",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "wheelchairBoarding"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group12/resources/Parada/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+              "curie": "rdfs:Literal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "stopID"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#string",
+              "curie": "xsd:string",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "stopName"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#string",
+              "curie": "xsd:string",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "stopDesc"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#string",
+              "curie": "xsd:string",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "zoneID"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#string",
+              "curie": "xsd:string",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "stopTimezone"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#boolean",
+              "curie": "xsd:boolean",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "wheelchairBoarding"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group12/resources/Parada/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+              "curie": "rdfs:Literal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "stopID"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#string",
+              "curie": "xsd:string",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "stopName"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#string",
+              "curie": "xsd:string",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "stopDesc"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#string",
+              "curie": "xsd:string",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "zoneID"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#string",
+              "curie": "xsd:string",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "stopTimezone"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#boolean",
+              "curie": "xsd:boolean",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "wheelchairBoarding"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]
