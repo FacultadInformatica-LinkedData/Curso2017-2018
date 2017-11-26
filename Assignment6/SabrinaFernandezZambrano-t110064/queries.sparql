@@ -1,0 +1,33 @@
+PREFIX mv: <http://example.org/myVocabulary#>
+PREFIX mn: <http://example.org/resources/>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+
+#Query 1: How many accidents were there in Madrid in 2013?
+
+SELECT DISTINCT (SUM(?accidents) AS ?Accidents)
+  where {
+  	?obs a qb:Observation;
+  	mv:numberOfAccidents ?accidents .
+  } LIMIT 100
+
+
+#Query 2: Give me the number of accidents in Usera for each type of
+accident
+
+SELECT ?y ?x WHERE {
+	?obs a qb:Observation ;
+	mv:relatedDistrict "USERA" ;
+	mv:hasAccidentType ?y ;
+	mv:numberOfAccidents ?x ;
+}
+
+#Query 3: Give me the number of multiple collisions for each district
+
+SELECT ?district (xsd:integer(?number) as ?NumberOfMultipleCollisions)
+WHERE
+{
+	?obs a qb:Observation;
+  mv:relatedDistrict ?district;
+  mv:hasAccidentType mv:MultipleCollision;
+  mv:numberOfAccidents ?number.
+}
