@@ -1,0 +1,1955 @@
+@prefix schema: <http://schema.org/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix mcm: <http://mapaContaminacionMadrid.com/> .
+@prefix juso: <http://rdfs.co/juso/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbpedia: <http://dbpedia.org/ontology/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix db: <http://dbpedia.org/resource/> .
+
+
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Arquitecto+Ribera> a dbpedia:Station ;
+	<mcm:Relations/hasDescription> "Plazas:  318 p�blicas y 298 para residentes  Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad:  Ayuntamiento de Madrid" ;
+	geo:lat "40.426687899755734"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6996173701222492"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/hasAdress> "CALLE BARCELO 2" ;
+	dbpedia:postalCode "28004" ;
+	juso:Neighborhood "JUSTICIA" ;
+	<mcm:Relations/coordenada-x> "440764"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/coordenada-y> "4475560"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Avenida+de+Am%EF%BF%BDrica+%28intercambiador%29> a dbpedia:Station ;
+	<mcm:Relations/hasDescription> "Informaci�n sobre accesibilidad :  Tiene escaleras adaptadas  Ascensor de salida a la calle Avenida de Am�rica, 9  Tiene aseos accesibles  Plazas para minusv�lidos     Plazas : 269 p�blicas y 392 para residentes   Abierto 24 horas    Titularidad : Ayuntamiento de Madrid" ;
+	geo:lat "40.43886083125741"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6766217383743345"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/hasAdress> "CALLE PRADENA DEL RINCON 4" ;
+	dbpedia:postalCode "28002" ;
+	juso:Neighborhood "PROSPERIDAD" ;
+	<mcm:Relations/coordenada-x> "442725"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/coordenada-y> "4476896"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Avenida+de+Portugal> a dbpedia:Station ;
+	<mcm:Relations/hasDescription> "Plazas:  433 p�blicas y 437 para residentes   Informacion sobre accesibilidad:   No tiene escalera adaptada  Tiene ascensor de salida a Avenida de Portugal, s/n  1 aseo accesible (nivel-3)  Plazas para minusv�lidos residentes: 20    Abierto 24 horas   Titularidad : Ayuntamiento de Madrid   Gesti�n : Empresa Municipal de Transportes (EMT) ( m�s informaci�n )" ;
+	geo:lat "40.411180021966345"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7378318857463158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/hasAdress> "AVENIDA PORTUGAL 155" ;
+	dbpedia:postalCode "28011" ;
+	juso:Neighborhood "PUERTA DEL ANGEL" ;
+	<mcm:Relations/coordenada-x> "437508"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/coordenada-y> "4473865"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Brasil> a dbpedia:Station ;
+	<mcm:Relations/hasDescription> "Plazas:  226 p�blicas y 400 para residentes  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid" ;
+	geo:lat "40.45610834965894"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.694131675088486"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/hasAdress> "CALLE GENERAL YAG&Uuml;E 11" ;
+	dbpedia:postalCode "28020" ;
+	juso:Neighborhood "CUATRO CAMINOS" ;
+	<mcm:Relations/coordenada-x> "441255"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/coordenada-y> "4478822"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Casino+de+la+Reina> a dbpedia:Station ;
+	<mcm:Relations/hasDescription> "Plazas:  135 p�blicas y 449 para residentes  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid" ;
+	geo:lat "40.406792648617134"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7046086019457167"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/hasAdress> "CALLE CASINO 3" ;
+	dbpedia:postalCode "28005" ;
+	juso:Neighborhood "EMBAJADORES" ;
+	<mcm:Relations/coordenada-x> "440323"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/coordenada-y> "4473355"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Condesa+de+Gavia> a dbpedia:Station ;
+	<mcm:Relations/hasDescription> "Plazas : 73 p�blicas y 79 para residentes   Abierto 24 horas   Titularidad : Ayuntamiento de Madrid" ;
+	geo:lat "40.44938567948415"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7019164121880888"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/hasAdress> "PLAZA CONDESA DE GAVIA 0" ;
+	dbpedia:postalCode "28020" ;
+	juso:Neighborhood "CUATRO CAMINOS" ;
+	<mcm:Relations/coordenada-x> "440589"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/coordenada-y> "4478081"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Coraz%EF%BF%BDn+de+Mar%EF%BF%BDa+II> a dbpedia:Station ;
+	<mcm:Relations/hasDescription> "Plazas : 327 p�blicas y 750 para residentes   Informacion sobre accesibilidad:   No tiene escalera adaptada  No tiene ascensor de salida a calle  2 aseos accesibles ( 1&ordf;  planta)   Plazas para minusv�lidos residentes: 6     Abierto 24 horas    Titularidad : Ayuntamiento de Madrid" ;
+	geo:lat "40.444421820483264"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.666902094780133"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/hasAdress> "CALLE CORAZON DE MARIA 46" ;
+	dbpedia:postalCode "28002" ;
+	juso:Neighborhood "PROSPERIDAD" ;
+	<mcm:Relations/coordenada-x> "443554"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/coordenada-y> "4477507"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Corona+Boreal> a dbpedia:Station ;
+	<mcm:Relations/hasDescription> "Plazas : 120 p�blicas y 125 para residentes   Informaci�n sobre accesibilidad:   No tiene escaleras adaptadas  Ascensor de salida a la calle P�rez de Victoria  2 aseos accesibles (1&ordf; planta)  Plazas para minusv�lidos residentes: 3     Abierto 24 horas    Titularidad : Ayuntamiento de Madrid" ;
+	geo:lat "40.45852127134047"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.78317943069732"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	dbpedia:postalCode "28023" ;
+	juso:Neighborhood "ARAVACA" ;
+	<mcm:Relations/coordenada-x> "433707"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/coordenada-y> "4479153"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Dao%EF%BF%BDz+y+Velarde> a dbpedia:Station ;
+	<mcm:Relations/hasDescription> "Plazas:  312 p�blicas y 174 para residentes  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid" ;
+	geo:lat "40.40531540835356"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.683557034656531"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/hasAdress> "AVENIDA CIUDAD DE BARCELONA 3" ;
+	dbpedia:postalCode "28007" ;
+	juso:Neighborhood "PACIFICO" ;
+	<mcm:Relations/coordenada-x> "442108"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/coordenada-y> "4473177"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+D%EF%BF%BDaz+Porlier> a dbpedia:Station ;
+	<mcm:Relations/hasDescription> "Plazas:  203 p�blicas y 421 para residentes  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid" ;
+	geo:lat "40.434415601006386"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.675728293375598"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/hasAdress> "CALLE DIEGO DE LEON 62" ;
+	dbpedia:postalCode "28006" ;
+	juso:Neighborhood "LISTA" ;
+	<mcm:Relations/coordenada-x> "442797"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/coordenada-y> "4476402"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Encuentro> a dbpedia:Station ;
+	<mcm:Relations/hasDescription> "Plazas:  104 p�blicas y 550 para residentes  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid" ;
+	geo:lat "40.40581270738191"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.652048809515808"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/hasAdress> "PLAZA ENCUENTRO 1" ;
+	dbpedia:postalCode "28030" ;
+	juso:Neighborhood "MEDIA LEGUA" ;
+	<mcm:Relations/coordenada-x> "444782"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/coordenada-y> "4473212"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Felipe+II> a dbpedia:Station ;
+	<mcm:Relations/hasDescription> "Plazas : 1218 p�blicas y 607 para residentes   Plazas : 120 p�blicas y 125 para residentes   Informaci�n sobre accesibilidad:    No tiene escaleras adaptadas  Ascensor de salida a la plaza de Felipe II  Aseo accesible (1&ordf; planta)  Plazas para minusv�lidos residentes:23    Abierto 24 horas    Admite tarjeta BonoRed    Titularidad : Ayuntamiento de Madrid" ;
+	geo:lat "40.42422175692137"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.673433652213169"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/hasAdress> "CALLE ANTONIA MERCE 5" ;
+	dbpedia:postalCode "28009" ;
+	juso:Neighborhood "GOYA" ;
+	<mcm:Relations/coordenada-x> "442983"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/coordenada-y> "4475269"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Fuencarral> a dbpedia:Station ;
+	<mcm:Relations/hasDescription> "Plazas : 410 p�blicas y 111 para residentes   Informaci�n sobre accesibilidad:    No tiene escalera adaptada  1 ascensor con salida a la calle Fuencarral, 117  1 aseo accesible en la 1&ordf; planta  Plazas para minusv�lidos residentes: 7    Abierto 24 horas    Admite Tarjeta BonoRed    Titularidad : Ayuntamiento de Madrid" ;
+	geo:lat "40.42948845687032"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7027941027177986"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/hasAdress> "CALLE FUENCARRAL 111" ;
+	dbpedia:postalCode "28010" ;
+	juso:Neighborhood "TRAFALGAR" ;
+	<mcm:Relations/coordenada-x> "440497"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/coordenada-y> "4475873"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+General+Yag%EF%BF%BDe> a dbpedia:Station ;
+	<mcm:Relations/hasDescription> "Plazas:  409 p�blicas y 717 residentes  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid" ;
+	geo:lat "40.45673936450418"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.694067405537416"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/hasAdress> "AVENIDA BRASIL 15" ;
+	dbpedia:postalCode "28020" ;
+	juso:Neighborhood "CASTILLEJOS" ;
+	<mcm:Relations/coordenada-x> "441261"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/coordenada-y> "4478892"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Hernani> a dbpedia:Station ;
+	<mcm:Relations/hasDescription> "Plazas:  115 p�blicas y 383 residentes   Informaci�n sobre accesibilidad:   No tiene escaleras adptadas  Ascensor de salida a la calle Hernai, 68  1 aseo accesible en 1&ordf; planta  Plazas para minusv�lidos residentes. 3      Abierto 24 horas    Titularidad:  Ayuntamiento de Madrid" ;
+	geo:lat "40.448394729978006"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7033919552673127"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/hasAdress> "CALLE HERNANI 60" ;
+	dbpedia:postalCode "28020" ;
+	juso:Neighborhood "CUATRO CAMINOS" ;
+	<mcm:Relations/coordenada-x> "440463"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/coordenada-y> "4477972"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Jacinto+Benavente> a dbpedia:Station ;
+	<mcm:Relations/hasDescription> "Plazas:  285 p�blicas y 110 para residentes.   Plazas motos:  7.   Informaci�n sobre accesibilidad:    No tiene escaleras adaptadas  Ascensor con salida a la calle Jacinto benavente, s/n  1 aseo accesible Plaza para minusv�lidos residentes: 16   Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad:  Ayuntamiento de Madrid   Gesti�n:  Empresa Municipal de Transportes (EMT) ( m�s informaci�n )" ;
+	geo:lat "40.41444016371457"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.70332112917586"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/hasAdress> "PLAZA JACINTO BENAVENTE 6" ;
+	dbpedia:postalCode "28012" ;
+	juso:Neighborhood "CORTES" ;
+	<mcm:Relations/coordenada-x> "440439"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/coordenada-y> "4474203"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Jos%EF%BF%BD+Cast%EF%BF%BDn+Tobe%EF%BF%BDas> a dbpedia:Station ;
+	<mcm:Relations/hasDescription> "Plazas:  205 p�blicas y 43 para residentes   Informaci�n sobre accesibilidad:   No tiene escaleras adaptadas  No disponde ascensor  No disponde de aseos accesible  Plazas para minusv�lidos residentes: 5     Abierto 24 horas    Titularidad:  Ayuntamiento de Madrid" ;
+	geo:lat "40.46451060463543"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6916467875121377"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/hasAdress> "CALLE CAPITAN HAYA 57" ;
+	dbpedia:postalCode "28020" ;
+	juso:Neighborhood "CASTILLEJOS" ;
+	<mcm:Relations/coordenada-x> "441477"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/coordenada-y> "4479747"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Marqu%EF%BF%BDs+de+Salamanca> a dbpedia:Station ;
+	<mcm:Relations/hasDescription> "Plazas : 360 p�blicas y 70 para residentes   Informaci�n sobre accesibilidad:    No tiene escaleras adaptadas  1 ascensor en la salida a la plaza del Marqu�s de Salamanca  1 aseo accesible en  2&ordf;   planta  Plaza para minusv�lidos residentes: 14   Admite Tarjeta BonoRed   Abierto 24 horas    Titularidad : Ayuntamiento de Madrid" ;
+	geo:lat "40.43046723981028"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6792137901324056"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/hasAdress> "PLAZA MARQUES DE SALAMANCA 8" ;
+	dbpedia:postalCode "28006" ;
+	juso:Neighborhood "LISTA" ;
+	<mcm:Relations/coordenada-x> "442498"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/coordenada-y> "4475966"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Miguel+Yuste> a dbpedia:Station ;
+	<mcm:Relations/hasDescription> "Plazas:  182  p�blicas y 68 para residentes  Abierto: 24 horas  Admite Tarjeta BonoRed   Titularidad:  Ayuntamiento de Madrid" ;
+	geo:lat "40.4402052387976"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.625049272913964"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/hasAdress> "CALLE MIGUEL YUSTE 11" ;
+	dbpedia:postalCode "28037" ;
+	juso:Neighborhood "SIMANCAS" ;
+	<mcm:Relations/coordenada-x> "447100"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/coordenada-y> "4477013"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Orense> a dbpedia:Station ;
+	<mcm:Relations/hasDescription> "Plazas : 128 p�blicas y 663 para residentes   Informaci�n sobre accesibilidad:   1 escalera adaptada  No dispone de ascensor  1 aseo accesible  Plaza para minusv�lidos residentes: 5     Abierto 24 horas    Titularidad : Ayuntamiento de Madrid   Gesti�n:  Empresa Municipal de Transportes (EMT) ( m�s informaci�n )" ;
+	geo:lat "40.45973534025835"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6962330375922363"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/hasAdress> "CALLE SOR ANGELA DE LA CRUZ 27" ;
+	dbpedia:postalCode "28020" ;
+	juso:Neighborhood "CASTILLEJOS" ;
+	<mcm:Relations/coordenada-x> "441080"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/coordenada-y> "4479226"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Plaza+de+Oriente> a dbpedia:Station ;
+	<mcm:Relations/hasDescription> "Plazas : 242 p�blicas y 511 para residentes  Abierto 24 horas  Admite Tarjeta BonoRed  Este PAR est� adherido a la zona de APR   Titularidad : Ayuntamiento de Madrid" ;
+	geo:lat "40.417632509561116"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7116407088004757"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/hasAdress> "PLAZA ORIENTE 1" ;
+	dbpedia:postalCode "28013" ;
+	juso:Neighborhood "PALACIO" ;
+	<mcm:Relations/coordenada-x> "439736"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/coordenada-y> "4474563"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Presidente+Carmona> a dbpedia:Station ;
+	<mcm:Relations/hasDescription> "Plazas : 379 p�blicas y 124 para residentes  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid" ;
+	geo:lat "40.45362846199134"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6975262417380064"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/hasAdress> "AVENIDA PRESIDENTE CARMONA 3" ;
+	dbpedia:postalCode "28020" ;
+	juso:Neighborhood "CUATRO CAMINOS" ;
+	<mcm:Relations/coordenada-x> "440965"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/coordenada-y> "4478549"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Recoletos> a dbpedia:Station ;
+	<mcm:Relations/hasDescription> "Plazas : 102 p�blicas y 289 para residentes   Informaci�n sobre accesibilidad:    No tiene escaleras adaptadas  1 ascensor en la salida al Paseo de Recoletos  1 aseo accesible  Plaza para minusv�lidos residentes: 10    Abierto 24 horas   Admite Tarjeta BonoRed   Titularidad : Ayuntamiento de Madrid   Gesti�n:  Empresa Municipal de Transportes (EMT) ( m�s informaci�n )" ;
+	geo:lat "40.42054469225109"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.691974283683488"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/hasAdress> "PASEO RECOLETOS 4" ;
+	dbpedia:postalCode "28001" ;
+	juso:Neighborhood "RECOLETOS" ;
+	<mcm:Relations/coordenada-x> "441407"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/coordenada-y> "4474873"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Rep%EF%BF%BDblica+Dominicana> a dbpedia:Station ;
+	<mcm:Relations/hasDescription> "Plazas : 892 p�blicas y 203 para residentes  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid" ;
+	geo:lat "40.45887037458626"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6765275895176677"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/hasAdress> "PLAZA REPUBLICA DOMINICANA 6" ;
+	dbpedia:postalCode "28016" ;
+	juso:Neighborhood "NUEVA ESPA�A" ;
+	<mcm:Relations/coordenada-x> "442750"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/coordenada-y> "4479117"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+San+Cayetano> a dbpedia:Station ;
+	<mcm:Relations/hasDescription> "Plazas : 222 p�blicas y 261 para residentes  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid" ;
+	geo:lat "40.43432235224971"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6700799322371056"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/hasAdress> "PLAZA SAN CAYETANO 1" ;
+	dbpedia:postalCode "28028" ;
+	juso:Neighborhood "GUINDALERA" ;
+	<mcm:Relations/coordenada-x> "443276"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/coordenada-y> "4476388"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+S%EF%BF%BDnchez+Bustillo> a dbpedia:Station ;
+	<mcm:Relations/hasDescription> "Plazas : 132 p�blicas y 408 para residentes  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid" ;
+	geo:lat "40.40917205238472"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6940145592988043"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/hasAdress> "CALLE SANCHEZ BUSTILLO 1" ;
+	dbpedia:postalCode "28012" ;
+	juso:Neighborhood "EMBAJADORES" ;
+	<mcm:Relations/coordenada-x> "441224"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/coordenada-y> "4473612"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Serrano+I> a dbpedia:Station ;
+	<mcm:Relations/hasDescription> "Plazas : 307 p�blicas y 831 para residentes  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid" ;
+	geo:lat "40.43289700914247"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6857697780390155"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/hasAdress> "CALLE JUAN BRAVO 4" ;
+	dbpedia:postalCode "28006" ;
+	juso:Neighborhood "CASTELLANA" ;
+	<mcm:Relations/coordenada-x> "441944"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/coordenada-y> "4476240"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Serrano+II> a dbpedia:Station ;
+	<mcm:Relations/hasDescription> "Plazas : 379 p�blicas y 794 para residentes  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid" ;
+	geo:lat "40.43059379257075"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.688281097618061"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/hasAdress> "CALLE JOSE ORTEGA Y GASSET 1" ;
+	dbpedia:postalCode "28006" ;
+	juso:Neighborhood "CASTELLANA" ;
+	<mcm:Relations/coordenada-x> "441729"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/coordenada-y> "4475986"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Serrano+III> a dbpedia:Station ;
+	<mcm:Relations/hasDescription> "Plazas : 261 p�blicas y 725 para residentes  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid" ;
+	geo:lat "40.42446775888825"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6897747066093993"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/hasAdress> "CALLE JORGE JUAN 1" ;
+	dbpedia:postalCode "28001" ;
+	juso:Neighborhood "RECOLETOS" ;
+	<mcm:Relations/coordenada-x> "441597"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/coordenada-y> "4475307"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Sevilla> a dbpedia:Station ;
+	<mcm:Relations/hasDescription> "Plazas : 476 p�blicas y 70 para residentes  Abierto 24 horas  Admite Tarjeta BonoRed    Titularidad : Ayuntamiento de Madrid" ;
+	geo:lat "40.41780383567921"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6998082261071747"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/hasAdress> "CALLE ALCALA 17" ;
+	dbpedia:postalCode "28014" ;
+	juso:Neighborhood "SOL" ;
+	<mcm:Relations/coordenada-x> "440740"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/coordenada-y> "4474574"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+V%EF%BF%BDzquez+de+Mella> a dbpedia:Station ;
+	<mcm:Relations/hasDescription> "Plazas:  107 p�blicas y 261 para residentes.   Plazas motos:  6.   Informaci�n sobre accesibilidad:   No tiene escaleras adaptadas  1 ascensor con salida a la Plaza de Vazquez de Mella  1 aseo accesible  Plaza para minusv�lidos residentes: 7     Abierto 24 horas    Titularidad:  Ayuntamiento de Madrid   Gesti�n:  Empresa Municipal de Transportes (EMT) ( m�s informaci�n )" ;
+	geo:lat "40.4209564450911"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.699899832865304"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/hasAdress> "PLAZA PEDRO ZEROLO 1" ;
+	dbpedia:postalCode "28004" ;
+	juso:Neighborhood "JUSTICIA" ;
+	<mcm:Relations/coordenada-x> "440735"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/coordenada-y> "4474924"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Vel%EF%BF%BDzquez+-+Ayala> a dbpedia:Station ;
+	<mcm:Relations/hasDescription> "Plazas:  464 p�blicas y 235 para residentes  Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad:  Ayuntamiento de Madrid" ;
+	geo:lat "40.427203787185476"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6841676172873936"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/hasAdress> "CALLE VELAZQUEZ 47" ;
+	dbpedia:postalCode "28001" ;
+	juso:Neighborhood "RECOLETOS" ;
+	<mcm:Relations/coordenada-x> "442075"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/coordenada-y> "4475607"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Vel%EF%BF%BDzquez+-+Jorge+Juan> a dbpedia:Station ;
+	<mcm:Relations/hasDescription> "Plazas:  549 p�blicas y 395 para residentes  Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad:  Ayuntamiento de Madrid" ;
+	geo:lat "40.4243649253884"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.684339253399854"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/hasAdress> "CALLE VELAZQUEZ 25" ;
+	dbpedia:postalCode "28001" ;
+	juso:Neighborhood "RECOLETOS" ;
+	<mcm:Relations/coordenada-x> "442058"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/coordenada-y> "4475292"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Verdaguer+y+Garc%EF%BF%BDa> a dbpedia:Station ;
+	<mcm:Relations/hasDescription> "Plazas:  83 p�blicas y 180 para residentes   Informaci�n sobre accesibilidad:   No tiene escaleras adaptadas  1 ascensor en la salida a la Calle Verdaguer y garc�a  1 aseo accesible en la planta -1  Plaza para minusv�lidos residentes: 4     Abierto 24 horas    Titularidad:  Ayuntamiento de Madrid" ;
+	geo:lat "40.43992277144076"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.656505118007155"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/hasAdress> "CALLE VERDAGUER Y GARCIA 1" ;
+	dbpedia:postalCode "28027" ;
+	juso:Neighborhood "SAN PASCUAL" ;
+	<mcm:Relations/coordenada-x> "444432"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/coordenada-y> "4477001"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://mapaContaminacionMadrid.com/Aparcamiento+p%EF%BF%BDblico+disuasorio+Estadio+Metropolitano+Sur+ES-02b> a dbpedia:Station ;
+	<mcm:Relations/hasDescription> "Plazas :   para autom�viles 1719  para motocicletas 61" ;
+	geo:lat "40.434154"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.598831"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/hasAdress> "AVENIDA ARCENTALES 37" ;
+	dbpedia:postalCode "28022" ;
+	juso:Neighborhood "ROSAS" ;
+	<mcm:Relations/coordenada-x> "448878"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/coordenada-y> "4476342"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://mapaContaminacionMadrid.com/Aparcamiento+p%EF%BF%BDblico.+Almagro> a dbpedia:Station ;
+	<mcm:Relations/hasDescription> "Plazas : 462   Informacion sobre accesibilidad:    1 escalera adaptada  No tiene ascensor de salida a calle  1 aseo accesible  Plazas para minusv�lidos residentes: 17   Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad : Ayuntamiento de Madrid   Gesti�n : Empresa Municipal de Transportes (EMT) ( m�s informaci�n )" ;
+	geo:lat "40.43030345785862"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6931471299523446"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/hasAdress> "CALLE ALMAGRO 13" ;
+	dbpedia:postalCode "28010" ;
+	juso:Neighborhood "ALMAGRO" ;
+	<mcm:Relations/coordenada-x> "441316"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/coordenada-y> "4475957"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://mapaContaminacionMadrid.com/Aparcamiento+p%EF%BF%BDblico.+Auditorio+Nacional+de+M%EF%BF%BDsica+%28Pr%EF%BF%BDncipe+de+Vergara%29> a dbpedia:Station ;
+	<mcm:Relations/hasDescription> "Plazas:  376  Abierto 24 horas  Admite la Tarjeta Bono Red   Titularidad:  Ayuntamiento de Madrid" ;
+	geo:lat "40.44426892073378"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6777018495296048"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/hasAdress> "CALLE CARTAGENA 176" ;
+	dbpedia:postalCode "28002" ;
+	juso:Neighborhood "CIUDAD JARDIN" ;
+	<mcm:Relations/coordenada-x> "442638"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/coordenada-y> "4477497"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://mapaContaminacionMadrid.com/Aparcamiento+p%EF%BF%BDblico.+Descalzas> a dbpedia:Station ;
+	<mcm:Relations/hasDescription> "Plazas:  400   Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad:  Ayuntamiento de Madrid" ;
+	geo:lat "40.41809765692244"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.706306013191402"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/hasAdress> "PLAZA DESCALZAS 4" ;
+	dbpedia:postalCode "28013" ;
+	juso:Neighborhood "SOL" ;
+	<mcm:Relations/coordenada-x> "440189"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/coordenada-y> "4474611"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://mapaContaminacionMadrid.com/Aparcamiento+p%EF%BF%BDblico.+Fern%EF%BF%BDndez+Shaw> a dbpedia:Station ;
+	<mcm:Relations/hasDescription> "Plazas : 245  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid" ;
+	geo:lat "40.406002468696784"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.669292239090564"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	dbpedia:postalCode "28007" ;
+	juso:Neighborhood "ADELFAS" ;
+	<mcm:Relations/coordenada-x> "443319"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/coordenada-y> "4473244"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://mapaContaminacionMadrid.com/Aparcamiento+p%EF%BF%BDblico.+Glorieta+Puerta+de+Toledo> a dbpedia:Station ;
+	<mcm:Relations/hasDescription> "Plazas:  244  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid" ;
+	geo:lat "40.40745328367243"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7100131737859567"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/hasAdress> "CALLE CAPITAN SALAZAR MARTINEZ 2" ;
+	dbpedia:postalCode "28005" ;
+	juso:Neighborhood "EMBAJADORES" ;
+	<mcm:Relations/coordenada-x> "439865"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/coordenada-y> "4473432"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://mapaContaminacionMadrid.com/Aparcamiento+p%EF%BF%BDblico.+Las+Cortes> a dbpedia:Station ;
+	<mcm:Relations/hasDescription> "Plazas : 480  Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad : Ayuntamiento de Madrid" ;
+	geo:lat "40.41576756093728"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.695367083138702"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/hasAdress> "PLAZA LAS CORTES 0" ;
+	dbpedia:postalCode "28014" ;
+	juso:Neighborhood "CORTES" ;
+	<mcm:Relations/coordenada-x> "441115"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/coordenada-y> "4474345"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://mapaContaminacionMadrid.com/Aparcamiento+p%EF%BF%BDblico.+Luna+-+Tudescos> a dbpedia:Station ;
+	<mcm:Relations/hasDescription> "Plazas : 481  Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad : Ayuntamiento de Madrid" ;
+	geo:lat "40.4214535549175"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.705563118253955"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/hasAdress> "PLAZA SANTA MARIA SOLEDAD TORRES ACOSTA 2" ;
+	dbpedia:postalCode "28004" ;
+	juso:Neighborhood "UNIVERSIDAD" ;
+	<mcm:Relations/coordenada-x> "440255"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/coordenada-y> "4474983"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://mapaContaminacionMadrid.com/Aparcamiento+p%EF%BF%BDblico.+Marqu%EF%BF%BDs+de+Urquijo> a dbpedia:Station ;
+	<mcm:Relations/hasDescription> "Plazas : 482  Abierto 24 horas  Admite Tarjeta BonoRed" ;
+	geo:lat "40.42955928333471"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.719111078507027"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/hasAdress> "CALLE MARQUES DE URQUIJO 27" ;
+	dbpedia:postalCode "28008" ;
+	juso:Neighborhood "ARGUELLES" ;
+	<mcm:Relations/coordenada-x> "439113"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/coordenada-y> "4475892"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://mapaContaminacionMadrid.com/Aparcamiento+p%EF%BF%BDblico.+Montalb%EF%BF%BDn> a dbpedia:Station ;
+	<mcm:Relations/hasDescription> "Plazas:  275  Abierto 24 horas  Admite Tarjet BonoRed   Titularidad:  Ayuntamiento de Madrid   Gesti�n:  Empresa Municipal de Transportes (EMT) ( m�s informaci�n )" ;
+	geo:lat "40.41802725000116"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.691123387515545"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/hasAdress> "CALLE MONTALBAN 4" ;
+	dbpedia:postalCode "28014" ;
+	juso:Neighborhood "LOS JERONIMOS" ;
+	<mcm:Relations/coordenada-x> "441477"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/coordenada-y> "4474593"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://mapaContaminacionMadrid.com/Aparcamiento+p%EF%BF%BDblico.+Mostenses> a dbpedia:Station ;
+	<mcm:Relations/hasDescription> "Plazas:  362   Informaci�n sobre accesibilidad:    No tiene escaleras adaptadas  1 ascensor  1 aseo accesible en  2&ordf;   planta  Plaza para minusv�lidos residentes: 16    Abierto 24 horas    Admite Tarjeta BonoRed     Titularidad:  Ayuntamiento de Madrid" ;
+	geo:lat "40.4227759148193"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.708830424647755"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/hasAdress> "CALLE GARCIA MOLINAS 4" ;
+	dbpedia:postalCode "28015" ;
+	juso:Neighborhood "UNIVERSIDAD" ;
+	<mcm:Relations/coordenada-x> "439979"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/coordenada-y> "4475132"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://mapaContaminacionMadrid.com/Aparcamiento+p%EF%BF%BDblico.+Museo+de+la+Ciudad> a dbpedia:Station ;
+	<mcm:Relations/hasDescription> "Plazas:  147  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid" ;
+	geo:lat "40.44366224087455"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6782263814004565"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/hasAdress> "CALLE PRINCIPE DE VERGARA 134" ;
+	dbpedia:postalCode "28002" ;
+	juso:Neighborhood "CIUDAD JARDIN" ;
+	<mcm:Relations/coordenada-x> "442593"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/coordenada-y> "4477430"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://mapaContaminacionMadrid.com/Aparcamiento+p%EF%BF%BDblico.+Olavide> a dbpedia:Station ;
+	<mcm:Relations/hasDescription> "Plazas : 397    Informaci�n sobre accesibilidad:    Disponde de escaleras adaptadas  1 ascensor en la salida a la Plaza de Olavide  1 aseo accesible en la  1&ordf;   planta  Plaza para minusv�lidos residentes: 8   Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad : Ayuntamiento de Madrid" ;
+	geo:lat "40.43277769820206"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7011542013121264"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/hasAdress> "PLAZA OLAVIDE 17" ;
+	dbpedia:postalCode "28010" ;
+	juso:Neighborhood "TRAFALGAR" ;
+	<mcm:Relations/coordenada-x> "440639"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/coordenada-y> "4476237"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://mapaContaminacionMadrid.com/Aparcamiento+p%EF%BF%BDblico.+Plaza+de+Col%EF%BF%BDn> a dbpedia:Station ;
+	<mcm:Relations/hasDescription> "Plazas : 605  Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad : Ayuntamiento de Madrid" ;
+	geo:lat "40.42518540300912"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6887800207651495"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/hasAdress> "CALLE GOYA 2" ;
+	dbpedia:postalCode "28001" ;
+	juso:Neighborhood "RECOLETOS" ;
+	<mcm:Relations/coordenada-x> "441682"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/coordenada-y> "4475386"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://mapaContaminacionMadrid.com/Aparcamiento+p%EF%BF%BDblico.+Plaza+de+Espa%EF%BF%BDa> a dbpedia:Station ;
+	<mcm:Relations/hasDescription> "Plazas : 800 (hasta 535 abonados)  Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad : Ayuntamiento de Madrid   Gesti�n : Empresa Municipal de Transportes (EMT) ( m�s informaci�n )" ;
+	geo:lat "40.42372251184839"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7116577340508523"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/hasAdress> "PLAZA ESPA&Ntilde;A 20" ;
+	dbpedia:postalCode "28008" ;
+	juso:Neighborhood "ARGUELLES" ;
+	<mcm:Relations/coordenada-x> "439740"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/coordenada-y> "4475239"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://mapaContaminacionMadrid.com/Aparcamiento+p%EF%BF%BDblico.+Plaza+del+Carmen> a dbpedia:Station ;
+	<mcm:Relations/hasDescription> "Plazas:  450   Informaci�n sobre accesibilidad:    No tiene escaleras adaptadas  1 ascensor  1 aseo accesible en   1&ordf;   planta  Plaza para minusv�lidos residentes: 7    Abierto 24 horas    Admite Tarjeta BonoRed    Titularidad:  Ayuntamiento de Madrid" ;
+	geo:lat "40.41848676016168"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.703068586180966"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/hasAdress> "PLAZA CARMEN 10" ;
+	dbpedia:postalCode "28013" ;
+	juso:Neighborhood "SOL" ;
+	<mcm:Relations/coordenada-x> "440464"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/coordenada-y> "4474652"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://mapaContaminacionMadrid.com/Aparcamiento+p%EF%BF%BDblico.+Plaza+del+Rey> a dbpedia:Station ;
+	<mcm:Relations/hasDescription> "Plazas : 160   Informaci�n sobre accesibilidad:    Si tiene escaleras adaptadas  1 ascensor  3 aseos accesibles (uno por planta): 8  Plaza para minusv�lidos residentes: 16   Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad : Ayuntamiento de Madrid" ;
+	geo:lat "40.42018796139455"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.69587231093941"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/hasAdress> "PLAZA REY 1" ;
+	dbpedia:postalCode "28004" ;
+	juso:Neighborhood "JUSTICIA" ;
+	<mcm:Relations/coordenada-x> "441076"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/coordenada-y> "4474836"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://mapaContaminacionMadrid.com/Aparcamiento+p%EF%BF%BDblico.+Plaza+Mayor> a dbpedia:Station ;
+	<mcm:Relations/hasDescription> "Plazas : 694  Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad : Ayuntamiento de Madrid" ;
+	geo:lat "40.41586882022003"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.706895619414367"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/hasAdress> "CALLE FELIPE III 11" ;
+	dbpedia:postalCode "28012" ;
+	juso:Neighborhood "SOL" ;
+	<mcm:Relations/coordenada-x> "440137"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/coordenada-y> "4474364"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://mapaContaminacionMadrid.com/Aparcamiento+p%EF%BF%BDblico.+Santa+Ana> a dbpedia:Station ;
+	<mcm:Relations/hasDescription> "Plazas:  325   Informaci�n sobre accesibilidad:    No tiene escaleras adaptadas  1 ascensor  1 aseo accesible en  1&ordf;  planta  Plaza para minusv�lidos residentes: 6    Abierto 24 horas    Admite Tarjeta BonoRed    Titularidad:  Ayuntamiento de Madrid" ;
+	geo:lat "40.41487830605113"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.700897645451053"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/hasAdress> "PLAZA SANTA ANA 16" ;
+	dbpedia:postalCode "28012" ;
+	juso:Neighborhood "CORTES" ;
+	<mcm:Relations/coordenada-x> "440645"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/coordenada-y> "4474250"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://mapaContaminacionMadrid.com/Aparcamiento+p%EF%BF%BDblico.+Vel%EF%BF%BDzquez+-+Juan+Bravo> a dbpedia:Station ;
+	<mcm:Relations/hasDescription> "Plazas:  371  Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad:  Ayuntamiento de Madrid" ;
+	geo:lat "40.431991827319116"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.683449815935094"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/hasAdress> "CALLE VELAZQUEZ 88" ;
+	dbpedia:postalCode "28006" ;
+	juso:Neighborhood "CASTELLANA" ;
+	<mcm:Relations/coordenada-x> "442140"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/coordenada-y> "4476138"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://mapaContaminacionMadrid.com/Aparcamiento+p%EF%BF%BDblico.+Villa+de+Par%EF%BF%BDs> a dbpedia:Station ;
+	<mcm:Relations/hasDescription> "Plazas rotaci�n:  169   Plazas motos:  2    Informaci�n sobre accesibilidad:    No tiene escaleras adaptadas  No disponde de ascensor  1 aseo accesible  Plaza para minusv�lidos residentes: 13    Abierto 24 horas    Admite Tarjeta BonoRed    Titularidad:  Ayuntamiento de Madrid   Gesti�n:  Empresa Municipal de Transportes (EMT) ( m�s informaci�n )" ;
+	geo:lat "40.42533530030625"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6923416648619947"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/hasAdress> "CALLE MARQUES DE LA ENSENADA 1" ;
+	dbpedia:postalCode "28004" ;
+	juso:Neighborhood "JUSTICIA" ;
+	<mcm:Relations/coordenada-x> "441373"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<mcm:Relations/coordenada-y> "4475380"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+mcm:4 a dbpedia:Station ;
+	<mcm:Relations/Gas> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "1" ;
+	<mcm:Relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
+	<mcm:Relations/Gas> "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "0.2833333333333334" ;
+	<mcm:Relations/Gas> "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "18.291666666666668" ;
+	<mcm:Relations/Gas> "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "31.541666666666668" ;
+	<mcm:Relations/Gas> "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "59.708333333333336" .
+
+mcm:8 a dbpedia:Station ;
+	<mcm:Relations/Gas> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "1.9166666666666667" ;
+	<mcm:Relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
+	<mcm:Relations/Gas> "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "0.17499999999999996" ;
+	<mcm:Relations/Gas> "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "3.625" ;
+	<mcm:Relations/Gas> "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "27" ;
+	<mcm:Relations/Gas> "9"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "4.5" ;
+	<mcm:Relations/Gas> "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "6.208333333333333" ;
+	<mcm:Relations/Gas> "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "32.5" ;
+	<mcm:Relations/Gas> "14"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "39.667500000000004" ;
+	<mcm:Relations/Gas> "20"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "0.07083333333333335" ;
+	<mcm:Relations/Gas> "30"^^<http://www.w3.org/2001/XMLSchema#int> , "35"^^<http://www.w3.org/2001/XMLSchema#int> , "42"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "0.9691666666666667" ;
+	<mcm:Relations/Gas> "43"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "0.9116666666666666" ;
+	<mcm:Relations/Gas> "44"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "0.058750000000000004" .
+
+mcm:11 a dbpedia:Station ;
+	<mcm:Relations/Gas> "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "5.291666666666667" ;
+	<mcm:Relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
+	<mcm:Relations/Gas> "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "19.375" ;
+	<mcm:Relations/Gas> "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "27.583333333333332" ;
+	<mcm:Relations/Gas> "20"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "0.40833333333333327" ;
+	<mcm:Relations/Gas> "30"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "0.16249999999999998" ;
+	<mcm:Relations/Gas> "35"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "0.07500000000000001" .
+
+mcm:16 a dbpedia:Station ;
+	<mcm:Relations/Gas> "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "0.14583333333333337" ;
+	<mcm:Relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
+	<mcm:Relations/Gas> "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "1.3333333333333333" ;
+	<mcm:Relations/Gas> "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "13.75" ;
+	<mcm:Relations/Gas> "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "15.875" ;
+	<mcm:Relations/Gas> "14"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "42.96208333333333" .
+
+mcm:17 a dbpedia:Station ;
+	<mcm:Relations/Gas> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "1.5416666666666667" ;
+	<mcm:Relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
+	<mcm:Relations/Gas> "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "6.541666666666667" ;
+	<mcm:Relations/Gas> "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "30.666666666666668" ;
+	<mcm:Relations/Gas> "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "40.541666666666664" ;
+	<mcm:Relations/Gas> "14"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "22.198333333333334" .
+
+mcm:18 a dbpedia:Station ;
+	<mcm:Relations/Gas> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "2.7083333333333335" ;
+	<mcm:Relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
+	<mcm:Relations/Gas> "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "0.19583333333333328" ;
+	<mcm:Relations/Gas> "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "5.25" ;
+	<mcm:Relations/Gas> "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "25" ;
+	<mcm:Relations/Gas> "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "8.791666666666666" ;
+	<mcm:Relations/Gas> "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "32.875" ;
+	<mcm:Relations/Gas> "14"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "26.066666666666663" ;
+	<mcm:Relations/Gas> "20"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "1.2708333333333333" ;
+	<mcm:Relations/Gas> "30"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "0.28750000000000003" ;
+	<mcm:Relations/Gas> "35"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "0.1458333333333334" .
+
+mcm:24 a dbpedia:Station ;
+	<mcm:Relations/Gas> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "2.3333333333333335" ;
+	<mcm:Relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
+	<mcm:Relations/Gas> "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "0.15" ;
+	<mcm:Relations/Gas> "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "2.875" ;
+	<mcm:Relations/Gas> "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "13.291666666666666" ;
+	<mcm:Relations/Gas> "9"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "4.333333333333333" ;
+	<mcm:Relations/Gas> "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "9.291666666666666" ;
+	<mcm:Relations/Gas> "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "17.708333333333332" ;
+	<mcm:Relations/Gas> "14"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "35.102916666666665" ;
+	<mcm:Relations/Gas> "20"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "0.7083333333333331" ;
+	<mcm:Relations/Gas> "30"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "0.19166666666666665" ;
+	<mcm:Relations/Gas> "35"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "0.07083333333333335" ;
+	<mcm:Relations/Gas> "42"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "0.9329166666666667" ;
+	<mcm:Relations/Gas> "43"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "0.8612500000000002" ;
+	<mcm:Relations/Gas> "44"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "0.07125000000000001" .
+
+mcm:27 a dbpedia:Station ;
+	<mcm:Relations/Gas> "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "7.791666666666667" ;
+	<mcm:Relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
+	<mcm:Relations/Gas> "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "27.5" ;
+	<mcm:Relations/Gas> "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "39.416666666666664" ;
+	<mcm:Relations/Gas> "14"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "25.528750000000002" .
+
+mcm:35 a dbpedia:Station ;
+	<mcm:Relations/Gas> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "3.0416666666666665" ;
+	<mcm:Relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
+	<mcm:Relations/Gas> "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "0.30000000000000004" ;
+	<mcm:Relations/Gas> "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "13.125" ;
+	<mcm:Relations/Gas> "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "36.833333333333336" ;
+	<mcm:Relations/Gas> "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "56.791666666666664" ;
+	<mcm:Relations/Gas> "14"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "16.246666666666666" .
+
+mcm:36 a dbpedia:Station ;
+	<mcm:Relations/Gas> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "3.4166666666666665" ;
+	<mcm:Relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
+	<mcm:Relations/Gas> "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "0.1291666666666667" ;
+	<mcm:Relations/Gas> "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "3.5" ;
+	<mcm:Relations/Gas> "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "15.666666666666666" ;
+	<mcm:Relations/Gas> "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "8.041666666666666" ;
+	<mcm:Relations/Gas> "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "21.083333333333332" .
+
+mcm:38 a dbpedia:Station ;
+	<mcm:Relations/Gas> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "2.1666666666666665" ;
+	<mcm:Relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
+	<mcm:Relations/Gas> "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "7.25" ;
+	<mcm:Relations/Gas> "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "23.5" ;
+	<mcm:Relations/Gas> "9"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "3.5" ;
+	<mcm:Relations/Gas> "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "5.833333333333333" ;
+	<mcm:Relations/Gas> "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "34.833333333333336" ;
+	<mcm:Relations/Gas> "20"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "1.383333333333333" ;
+	<mcm:Relations/Gas> "30"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "0.3624999999999999" ;
+	<mcm:Relations/Gas> "35"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "0.42916666666666664" .
+
+mcm:39 a dbpedia:Station ;
+	<mcm:Relations/Gas> "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "0.1708333333333333" ;
+	<mcm:Relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
+	<mcm:Relations/Gas> "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "4.75" ;
+	<mcm:Relations/Gas> "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "18.791666666666668" ;
+	<mcm:Relations/Gas> "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "26" ;
+	<mcm:Relations/Gas> "14"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "38.33166666666667" .
+
+mcm:40 a dbpedia:Station ;
+	<mcm:Relations/Gas> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "1.4166666666666667" ;
+	<mcm:Relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
+	<mcm:Relations/Gas> "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "2.375" ;
+	<mcm:Relations/Gas> "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "14.916666666666666" ;
+	<mcm:Relations/Gas> "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "7.791666666666667" ;
+	<mcm:Relations/Gas> "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "18.583333333333332" .
+
+mcm:47 a dbpedia:Station ;
+	<mcm:Relations/Gas> "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "4.125" ;
+	<mcm:Relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
+	<mcm:Relations/Gas> "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "24.166666666666668" ;
+	<mcm:Relations/Gas> "9"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "5.833333333333333" ;
+	<mcm:Relations/Gas> "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "8.833333333333334" ;
+	<mcm:Relations/Gas> "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "30.333333333333332" .
+
+mcm:48 a dbpedia:Station ;
+	<mcm:Relations/Gas> "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "1.5833333333333333" ;
+	<mcm:Relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
+	<mcm:Relations/Gas> "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "14.458333333333334" ;
+	<mcm:Relations/Gas> "9"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "3.25" ;
+	<mcm:Relations/Gas> "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "4.875" ;
+	<mcm:Relations/Gas> "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "16.958333333333332" .
+
+mcm:49 a dbpedia:Station ;
+	<mcm:Relations/Gas> "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "1.2916666666666667" ;
+	<mcm:Relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
+	<mcm:Relations/Gas> "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "16.458333333333332" ;
+	<mcm:Relations/Gas> "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "18.375" ;
+	<mcm:Relations/Gas> "14"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "39.04749999999999" .
+
+mcm:50 a dbpedia:Station ;
+	<mcm:Relations/Gas> "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "7.166666666666667" ;
+	<mcm:Relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
+	<mcm:Relations/Gas> "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "14.833333333333334" ;
+	<mcm:Relations/Gas> "9"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "4.458333333333333" ;
+	<mcm:Relations/Gas> "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "6.041666666666667" ;
+	<mcm:Relations/Gas> "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "25.583333333333332" .
+
+mcm:54 a dbpedia:Station ;
+	<mcm:Relations/Gas> "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "1.6666666666666667" ;
+	<mcm:Relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
+	<mcm:Relations/Gas> "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "16.625" ;
+	<mcm:Relations/Gas> "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "19.208333333333332" ;
+	<mcm:Relations/Gas> "14"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "41.72541666666666" .
+
+mcm:55 a dbpedia:Station ;
+	<mcm:Relations/Gas> "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "7.041666666666667" ;
+	<mcm:Relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
+	<mcm:Relations/Gas> "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "31.125" ;
+	<mcm:Relations/Gas> "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "7.541666666666667" ;
+	<mcm:Relations/Gas> "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "42.041666666666664" ;
+	<mcm:Relations/Gas> "20"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "0.5624999999999999" ;
+	<mcm:Relations/Gas> "30"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "0.22916666666666666" ;
+	<mcm:Relations/Gas> "35"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "0.16666666666666666" ;
+	<mcm:Relations/Gas> "42"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "1.03625" ;
+	<mcm:Relations/Gas> "43"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "0.9158333333333334" ;
+	<mcm:Relations/Gas> "44"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "0.12041666666666667" .
+
+mcm:56 a dbpedia:Station ;
+	<mcm:Relations/Gas> "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "0.22916666666666663" ;
+	<mcm:Relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
+	<mcm:Relations/Gas> "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "18.708333333333332" ;
+	<mcm:Relations/Gas> "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "38.291666666666664" ;
+	<mcm:Relations/Gas> "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "67.08333333333333" ;
+	<mcm:Relations/Gas> "14"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "20.215833333333332" .
+
+mcm:57 a dbpedia:Station ;
+	<mcm:Relations/Gas> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "6.625" ;
+	<mcm:Relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
+	<mcm:Relations/Gas> "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "0.1625" ;
+	<mcm:Relations/Gas> "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "2.2916666666666665" ;
+	<mcm:Relations/Gas> "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "11.375" ;
+	<mcm:Relations/Gas> "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "5.041666666666667" ;
+	<mcm:Relations/Gas> "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "14.875" .
+
+mcm:58 a dbpedia:Station ;
+	<mcm:Relations/Gas> "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "1.2083333333333333" ;
+	<mcm:Relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
+	<mcm:Relations/Gas> "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "7.583333333333333" ;
+	<mcm:Relations/Gas> "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "9.625" ;
+	<mcm:Relations/Gas> "14"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "30.89791666666667" .
+
+mcm:59 a dbpedia:Station ;
+	<mcm:Relations/Gas> "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "1.75" ;
+	<mcm:Relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
+	<mcm:Relations/Gas> "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "9.125" ;
+	<mcm:Relations/Gas> "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "11.708333333333334" ;
+	<mcm:Relations/Gas> "14"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "41.14541666666667" .
+
+mcm:60 a dbpedia:Station ;
+	<mcm:Relations/Gas> "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "1.5416666666666667" ;
+	<mcm:Relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
+	<mcm:Relations/Gas> "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "12.958333333333334" ;
+	<mcm:Relations/Gas> "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "3.375" ;
+	<mcm:Relations/Gas> "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "15.333333333333334" ;
+	<mcm:Relations/Gas> "14"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<mcm:Relations/Valor> "45.56333333333333" .
+
+<http://mapaContaminacionMadrid.com/440394,554474280,53> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "PUERTA DEL SOL, PLAZA, DE LA 1 B" ;
+	juso:Neighborhood " SOL" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "440394,55" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4474280,53" .
+
+<http://mapaContaminacionMadrid.com/440404,214474287,39> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "ALCALA, CALLE, DE 1" ;
+	juso:Neighborhood " SOL" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "440404,21" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4474287,39" .
+
+<http://mapaContaminacionMadrid.com/440134,834474678,23> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "MIGUEL MOYA, CALLE, DE 1" ;
+	juso:Neighborhood " UNIVERSIDAD" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "440134,83" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4474678,23" .
+
+<http://mapaContaminacionMadrid.com/440012,984475760,68> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "CONDE DEL VALLE DE SUCHIL, PLAZA, DEL 2" ;
+	juso:Neighborhood " ARAPILES" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "440012,98" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4475760,68" .
+
+<http://mapaContaminacionMadrid.com/440396,44475565,36> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "MANUELA MALASA�A, CALLE, DE 3" ;
+	juso:Neighborhood " UNIVERSIDAD" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "440396,4" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4475565,36" .
+
+<http://mapaContaminacionMadrid.com/440446,94475539,69> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "FUENCARRAL, CALLE, DE 106" ;
+	juso:Neighborhood " JUSTICIA" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "440446,9" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4475539,69" .
+
+<http://mapaContaminacionMadrid.com/440754,264475071,08> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "HORTALEZA, CALLE, DE 63" ;
+	juso:Neighborhood " JUSTICIA" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "440754,26" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4475071,08" .
+
+<http://mapaContaminacionMadrid.com/440811,974475187,49> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "HORTALEZA, CALLE, DE 75" ;
+	juso:Neighborhood " JUSTICIA" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "440811,97" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4475187,49" .
+
+<http://mapaContaminacionMadrid.com/441020,564475463,16> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "ALONSO MARTINEZ, PLAZA, DE 6" ;
+	juso:Neighborhood " ALMAGRO" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "441020,56" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4475463,16" .
+
+<http://mapaContaminacionMadrid.com/439813,514474129,47> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "SAN MIGUEL, PLAZA, DE 9" ;
+	juso:Neighborhood " PALACIO" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "439813,51" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4474129,47" .
+
+<http://mapaContaminacionMadrid.com/441292,124475204,43> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "MARQUES DE LA ENSENADA, CALLE, DEL 16" ;
+	juso:Neighborhood " JUSTICIA" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "441292,12" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4475204,43" .
+
+<http://mapaContaminacionMadrid.com/440314,864475395,19> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "SAN ANDRES, CALLE, DE 20" ;
+	juso:Neighborhood " UNIVERSIDAD" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "440314,86" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4475395,19" .
+
+<http://mapaContaminacionMadrid.com/440095,534475560,73> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "SAN BERNARDO, CALLE, DE 87" ;
+	juso:Neighborhood " UNIVERSIDAD" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "440095,53" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4475560,73" .
+
+<http://mapaContaminacionMadrid.com/439733,784475434,65> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "CONDE DUQUE, CALLE, DEL 22" ;
+	juso:Neighborhood " UNIVERSIDAD" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "439733,78" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4475434,65" .
+
+<http://mapaContaminacionMadrid.com/439478,784475285,54> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "VENTURA RODRIGUEZ, CALLE, DE 2" ;
+	juso:Neighborhood " ARG�ELLES" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "439478,78" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4475285,54" .
+
+<http://mapaContaminacionMadrid.com/440006,724475294,52> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "SAN VICENTE FERRER, CALLE, DE 62" ;
+	juso:Neighborhood " UNIVERSIDAD" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "440006,72" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4475294,52" .
+
+<http://mapaContaminacionMadrid.com/439982,594474940,94> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "SAN BERNARDO, CALLE, DE 22" ;
+	juso:Neighborhood " UNIVERSIDAD" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "439982,59" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4474940,94" .
+
+<http://mapaContaminacionMadrid.com/440263,354474964,43> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "CARLOS CAMBRONERO, PLAZA, DE 2" ;
+	juso:Neighborhood " UNIVERSIDAD" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "440263,35" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4474964,43" .
+
+<http://mapaContaminacionMadrid.com/440653,134474711,92> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "VAZQUEZ DE MELLA, PLAZA, DE 1" ;
+	juso:Neighborhood " JUSTICIA" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "440653,13" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4474711,92" .
+
+<http://mapaContaminacionMadrid.com/441008,014474818,09> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "PRIM, CALLE, DE 4" ;
+	juso:Neighborhood " JUSTICIA" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "441008,01" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4474818,09" .
+
+<http://mapaContaminacionMadrid.com/441021,374474517,89> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "ALCALA, CALLE, DE 49" ;
+	juso:Neighborhood " JUSTICIA" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "441021,37" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4474517,89" .
+
+<http://mapaContaminacionMadrid.com/441034,934474520,74> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "ALCALA, CALLE, DE 49" ;
+	juso:Neighborhood " JUSTICIA" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "441034,93" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4474520,74" .
+
+<http://mapaContaminacionMadrid.com/440483,064474586,7> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "RED DE SAN LUIS, PLAZA, DE LA S/N" ;
+	juso:Neighborhood " SOL" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "440483,06" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4474586,7" .
+
+<http://mapaContaminacionMadrid.com/440488,634474598,34> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "RED DE SAN LUIS, PLAZA, DE LA S/N" ;
+	juso:Neighborhood " SOL" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "440488,63" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4474598,34" .
+
+<http://mapaContaminacionMadrid.com/440064,44474630,53> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "JACOMETREZO, CALLE, DE 1" ;
+	juso:Neighborhood " SOL" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "440064,4" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4474630,53" .
+
+<http://mapaContaminacionMadrid.com/439912,564474639,35> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "SANTO DOMINGO, CUESTA, DE S/N" ;
+	juso:Neighborhood " PALACIO" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "439912,56" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4474639,35" .
+
+<http://mapaContaminacionMadrid.com/439715,674474384,75> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "CARLOS III, CALLE, DE 1" ;
+	juso:Neighborhood " PALACIO" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "439715,67" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4474384,75" .
+
+<http://mapaContaminacionMadrid.com/440104,484474318,99> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "CELENQUE, PLAZA, DEL 1" ;
+	juso:Neighborhood " SOL" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "440104,48" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4474318,99" .
+
+<http://mapaContaminacionMadrid.com/440102,164474309,87> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "CELENQUE, PLAZA, DEL 1" ;
+	juso:Neighborhood " SOL" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "440102,16" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4474309,87" .
+
+<http://mapaContaminacionMadrid.com/441081,064475031,74> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "SALESAS, PLAZA, DE LAS 8" ;
+	juso:Neighborhood " JUSTICIA" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "441081,06" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4475031,74" .
+
+<http://mapaContaminacionMadrid.com/440983,674473861,46> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "JESUS, CALLE, DE 1" ;
+	juso:Neighborhood " CORTES" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "440983,67" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4473861,46" .
+
+<http://mapaContaminacionMadrid.com/440712,844474406,69> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "ALCALA, CALLE, DE 25" ;
+	juso:Neighborhood " CORTES" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "440712,84" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4474406,69" .
+
+<http://mapaContaminacionMadrid.com/440968,624474190,29> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "MARQUES DE CUBAS, CALLE, DEL 25" ;
+	juso:Neighborhood " CORTES" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "440968,62" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4474190,29" .
+
+<http://mapaContaminacionMadrid.com/439635,834474544,08> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "PAVIA, CALLE, DE 6" ;
+	juso:Neighborhood " PALACIO" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "439635,83" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4474544,08" .
+
+<http://mapaContaminacionMadrid.com/440050,384474208,74> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "MAYOR, CALLE 18" ;
+	juso:Neighborhood " SOL" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "440050,38" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4474208,74" .
+
+<http://mapaContaminacionMadrid.com/440090,594474042,64> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "PROVINCIA, PLAZA, DE LA 1" ;
+	juso:Neighborhood " SOL" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "440090,59" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4474042,64" .
+
+<http://mapaContaminacionMadrid.com/440335,684474097,84> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "CARRETAS, CALLE, DE LAS 10" ;
+	juso:Neighborhood " SOL" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "440335,68" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4474097,84" .
+
+<http://mapaContaminacionMadrid.com/440313,434473992,08> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "JACINTO BENAVENTE, PLAZA, DE S/N" ;
+	juso:Neighborhood " CORTES" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "440313,43" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4473992,08" .
+
+<http://mapaContaminacionMadrid.com/439730,934473970,93> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "CORDON, CALLE, DEL 4" ;
+	juso:Neighborhood " PALACIO" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "439730,93" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4473970,93" .
+
+<http://mapaContaminacionMadrid.com/439626,964474272,13> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "RAMALES, PLAZA, DE 1" ;
+	juso:Neighborhood " PALACIO" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "439626,96" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4474272,13" .
+
+<http://mapaContaminacionMadrid.com/439409,34473605,14> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "VISTILLAS, TRAVESIA, DE LAS S/N" ;
+	juso:Neighborhood " PALACIO" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "439409,3" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4473605,14" .
+
+<http://mapaContaminacionMadrid.com/4396374473651,64> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "SAN FRANCISCO, CARRERA, DE 1" ;
+	juso:Neighborhood " PALACIO" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "439637" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4473651,64" .
+
+<http://mapaContaminacionMadrid.com/4398444473646,66> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "CEBADA, PLAZA, DE LA 16" ;
+	juso:Neighborhood " PALACIO" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "439844" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4473646,66" .
+
+<http://mapaContaminacionMadrid.com/440207,514473923,52> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "CONDE DE ROMANONES, CALLE, DEL 2" ;
+	juso:Neighborhood " EMBAJADORES" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "440207,51" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4473923,52" .
+
+<http://mapaContaminacionMadrid.com/440689,34473748,28> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "ATOCHA, CALLE, DE 54" ;
+	juso:Neighborhood " EMBAJADORES" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "440689,3" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4473748,28" .
+
+<http://mapaContaminacionMadrid.com/440759,674473581,4> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "SANTA ISABEL, CALLE, DE 32" ;
+	juso:Neighborhood " EMBAJADORES" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "440759,67" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4473581,4" .
+
+<http://mapaContaminacionMadrid.com/440391,044473511,6> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "LAVAPIES, CALLE, DE 36" ;
+	juso:Neighborhood " EMBAJADORES" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "440391,04" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4473511,6" .
+
+<http://mapaContaminacionMadrid.com/440274,634473482,26> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "MESON DE PAREDES, CALLE, DEL 35" ;
+	juso:Neighborhood " EMBAJADORES" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "440274,63" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4473482,26" .
+
+<http://mapaContaminacionMadrid.com/439659,264473169,54> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "PUERTA DE TOLEDO, GLORIETA, DE LA 1" ;
+	juso:Neighborhood " EMBAJADORES" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "439659,26" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4473169,54" .
+
+<http://mapaContaminacionMadrid.com/439997,734473006,31> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "RIBERA DE CURTIDORES, CALLE, DE LA 28" ;
+	juso:Neighborhood " ACACIAS" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "439997,73" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4473006,31" .
+
+<http://mapaContaminacionMadrid.com/440368,374472905,07> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "EMBAJADORES, GLORIETA, DE 7 B" ;
+	juso:Neighborhood " ACACIAS" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "440368,37" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4472905,07" .
+
+<http://mapaContaminacionMadrid.com/440424,74472996,09> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "MIGUEL SERVET, CALLE, DE 25" ;
+	juso:Neighborhood " EMBAJADORES" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "440424,7" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4472996,09" .
+
+<http://mapaContaminacionMadrid.com/440667,664473061,04> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "ATOCHA, RONDA, DE 36" ;
+	juso:Neighborhood " EMBAJADORES" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "440667,66" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4473061,04" .
+
+<http://mapaContaminacionMadrid.com/441180,674473307,92> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "SANTA ISABEL, CALLE, DE 57" ;
+	juso:Neighborhood " EMBAJADORES" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "441180,67" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4473307,92" .
+
+<http://mapaContaminacionMadrid.com/441148,474473243,04> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "EMPERADOR CARLOS V, PLAZA, DEL 7" ;
+	juso:Neighborhood " EMBAJADORES" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "441148,47" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4473243,04" .
+
+<http://mapaContaminacionMadrid.com/440544,344474002,06> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "SANTA ANA, PLAZA, DE 9" ;
+	juso:Neighborhood " CORTES" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "440544,34" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4474002,06" .
+
+<http://mapaContaminacionMadrid.com/440543,464473309,62> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "VALENCIA, CALLE, DE 4" ;
+	juso:Neighborhood " EMBAJADORES" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "440543,46" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4473309,62" .
+
+<http://mapaContaminacionMadrid.com/440592,354475345,44> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "BARCELO, CALLE, DE 7" ;
+	juso:Neighborhood " JUSTICIA" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "440592,35" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4475345,44" .
+
+<http://mapaContaminacionMadrid.com/440455,564475063,26> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "SAN ILDEFONSO, PLAZA, DE 8" ;
+	juso:Neighborhood " UNIVERSIDAD" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "440455,56" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4475063,26" .
+
+<http://mapaContaminacionMadrid.com/440335,434474443,96> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "CARMEN, PLAZA, DEL 1" ;
+	juso:Neighborhood " SOL" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "440335,43" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4474443,96" .
+
+<http://mapaContaminacionMadrid.com/439536,864475688,34> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "SANTA CRUZ DE MARCENADO, CALLE, DE 24" ;
+	juso:Neighborhood " UNIVERSIDAD" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "439536,86" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4475688,34" .
+
+<http://mapaContaminacionMadrid.com/440792,314474859,33> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "AUGUSTO FIGUEROA, CALLE, DE 33" ;
+	juso:Neighborhood " JUSTICIA" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "440792,31" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4474859,33" .
+
+<http://mapaContaminacionMadrid.com/440271,274475221,1> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "ESPIRITU SANTO, CALLE, DEL 30" ;
+	juso:Neighborhood " UNIVERSIDAD" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "440271,27" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4475221,1" .
+
+<http://mapaContaminacionMadrid.com/441616,34474541,2> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "ALFONSO XII, CALLE, DE S/N" ;
+	juso:Neighborhood " JER�NIMOS" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "441616,3" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4474541,2" .
+
+<http://mapaContaminacionMadrid.com/442720,294474753,26> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "O'DONNELL, CALLE, DE 30" ;
+	juso:Neighborhood " IBIZA" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "442720,29" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4474753,26" .
+
+<http://mapaContaminacionMadrid.com/443105,214474725,61> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "O'DONNELL, CALLE, DE S/N" ;
+	juso:Neighborhood " IBIZA" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "443105,21" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4474725,61" .
+
+<http://mapaContaminacionMadrid.com/443101,234474356,23> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "IBIZA, CALLE, DE 64" ;
+	juso:Neighborhood " IBIZA" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "443101,23" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4474356,23" .
+
+<http://mapaContaminacionMadrid.com/441513,544474236,11> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "ANTONIO MAURA, CALLE, DE 15" ;
+	juso:Neighborhood " JER�NIMOS" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "441513,54" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4474236,11" .
+
+<http://mapaContaminacionMadrid.com/441190,084473587,45> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "ALMADEN, CALLE, DE 28" ;
+	juso:Neighborhood " CORTES" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "441190,08" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4473587,45" .
+
+<http://mapaContaminacionMadrid.com/441358,924473802,81> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "ESPALTER, CALLE, DE 1" ;
+	juso:Neighborhood " JER�NIMOS" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "441358,92" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4473802,81" .
+
+<http://mapaContaminacionMadrid.com/441551,544473499,36> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "ALFONSO XII, CALLE, DE 54" ;
+	juso:Neighborhood " JER�NIMOS" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "441551,54" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4473499,36" .
+
+<http://mapaContaminacionMadrid.com/442496,794474058,47> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "MENENDEZ PELAYO, AVENIDA, DE S/N" ;
+	juso:Neighborhood " JER�NIMOS" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "442496,79" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4474058,47" .
+
+<http://mapaContaminacionMadrid.com/442816,224474149,49> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "DOCE DE OCTUBRE, CALLE, DEL 28" ;
+	juso:Neighborhood " NI�O JES�S" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "442816,22" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4474149,49" .
+
+<http://mapaContaminacionMadrid.com/443219,954474136,22> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "DOCTOR ESQUERDO, CALLE, DEL 99" ;
+	juso:Neighborhood " ESTRELLA" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "443219,95" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4474136,22" .
+
+<http://mapaContaminacionMadrid.com/443229,994473642,11> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "ASTROS, PLAZA, DE LOS S/N" ;
+	juso:Neighborhood " ESTRELLA" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "443229,99" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4473642,11" .
+
+<http://mapaContaminacionMadrid.com/442611,724473580,04> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "MENENDEZ PELAYO, AVENIDA, DE 73" ;
+	juso:Neighborhood " NI�O JES�S" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "442611,72" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4473580,04" .
+
+<http://mapaContaminacionMadrid.com/442436,914473301,34> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "MENENDEZ PELAYO, AVENIDA, DE S/N" ;
+	juso:Neighborhood " JER�NIMOS" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "442436,91" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4473301,34" .
+
+<http://mapaContaminacionMadrid.com/442712,674473182,27> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "JUAN DE URBIETA, CALLE, DE 48" ;
+	juso:Neighborhood " NI�O JES�S" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "442712,67" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4473182,27" .
+
+<http://mapaContaminacionMadrid.com/443083,534473073,95> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "CONDE DE CASAL, PLAZA, DEL 8" ;
+	juso:Neighborhood " PAC�FICO" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "443083,53" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4473073,95" .
+
+<http://mapaContaminacionMadrid.com/442755,864472436,57> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "CERRO DE LA PLATA, CALLE, DEL 2" ;
+	juso:Neighborhood " ADELFAS" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "442755,86" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4472436,57" .
+
+<http://mapaContaminacionMadrid.com/442252,734472937,49> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "MENENDEZ PELAYO, AVENIDA, DE 38" ;
+	juso:Neighborhood " PAC�FICO" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "442252,73" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4472937,49" .
+
+<http://mapaContaminacionMadrid.com/441417,534473211,23> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "CIUDAD DE BARCELONA, AVENIDA, DE LA S/N" ;
+	juso:Neighborhood " ATOCHA" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "441417,53" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4473211,23" .
+
+<http://mapaContaminacionMadrid.com/441394,744473233,56> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "CIUDAD DE BARCELONA, AVENIDA, DE LA S/N" ;
+	juso:Neighborhood " ATOCHA" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "441394,74" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4473233,56" .
+
+<http://mapaContaminacionMadrid.com/441288,144473447,57> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "PRADO, PASEO, DEL S/N" ;
+	juso:Neighborhood " JER�NIMOS" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "441288,14" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4473447,57" .
+
+<http://mapaContaminacionMadrid.com/443177,934473311,29> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "LIRA, CALLE, DE LA 2" ;
+	juso:Neighborhood " ESTRELLA" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "443177,93" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4473311,29" .
+
+<http://mapaContaminacionMadrid.com/442770,384473844,96> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "PIO BAROJA, CALLE, DE 8 B" ;
+	juso:Neighborhood " NI�O JES�S" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "442770,38" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4473844,96" .
+
+<http://mapaContaminacionMadrid.com/442918,274472746,05> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "DOCTOR ESQUERDO, CALLE, DEL 191" ;
+	juso:Neighborhood " ADELFAS" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "442918,27" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4472746,05" .
+
+<http://mapaContaminacionMadrid.com/442319,294474723,43> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "MENENDEZ PELAYO, AVENIDA, DE S/N" ;
+	juso:Neighborhood " JER�NIMOS" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "442319,29" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4474723,43" .
+
+<http://mapaContaminacionMadrid.com/441180,294474447,71> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "PRADO, PASEO, DEL S/N" ;
+	juso:Neighborhood " CORTES" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "441180,29" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4474447,71" .
+
+<http://mapaContaminacionMadrid.com/442016,684475450,66> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "AYALA, CALLE, DE 44" ;
+	juso:Neighborhood " RECOLETOS" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "442016,68" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4475450,66" .
+
+<http://mapaContaminacionMadrid.com/442005,14475857,79> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "VELAZQUEZ, CALLE, DE 75" ;
+	juso:Neighborhood " CASTELLANA" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "442005,1" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4475857,79" .
+
+<http://mapaContaminacionMadrid.com/442728,154475399,8> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "AYALA, CALLE, DE 102" ;
+	juso:Neighborhood " GOYA" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "442728,15" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4475399,8" .
+
+<http://mapaContaminacionMadrid.com/442000,334475163,96> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "GOYA, CALLE, DE 18" ;
+	juso:Neighborhood " RECOLETOS" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "442000,33" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4475163,96" .
+
+<http://mapaContaminacionMadrid.com/442417,664475274,35> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "HERMOSILLA, CALLE, DE 73" ;
+	juso:Neighborhood " GOYA" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "442417,66" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4475274,35" .
+
+<http://mapaContaminacionMadrid.com/441767,834475291,85> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "CLAUDIO COELLO, CALLE, DE 45" ;
+	juso:Neighborhood " RECOLETOS" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "441767,83" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4475291,85" .
+
+<http://mapaContaminacionMadrid.com/441518,84475235,48> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "GOYA, CALLE, DE 3" ;
+	juso:Neighborhood " RECOLETOS" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "441518,8" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4475235,48" .
+
+<http://mapaContaminacionMadrid.com/441407,184474977,73> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "RECOLETOS, PASEO, DE S/N" ;
+	juso:Neighborhood " RECOLETOS" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "441407,18" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4474977,73" .
+
+<http://mapaContaminacionMadrid.com/441721,554474897> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "CLAUDIO COELLO, CALLE, DE 19" ;
+	juso:Neighborhood " RECOLETOS" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "441721,55" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4474897" .
+
+<http://mapaContaminacionMadrid.com/442140,464474825,84> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "ALCALA, CALLE, DE 111" ;
+	juso:Neighborhood " RECOLETOS" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "442140,46" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4474825,84" .
+
+<http://mapaContaminacionMadrid.com/442301,644474872,66> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "MENENDEZ PELAYO, AVENIDA, DE 1" ;
+	juso:Neighborhood " GOYA" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "442301,64" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4474872,66" .
+
+<http://mapaContaminacionMadrid.com/442705,54475058,99> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "FELIPE II, AVENIDA, DE 5" ;
+	juso:Neighborhood " GOYA" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "442705,5" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4475058,99" .
+
+<http://mapaContaminacionMadrid.com/442829,624475270,48> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "ALCANTARA, CALLE, DE 2" ;
+	juso:Neighborhood " GOYA" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "442829,62" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4475270,48" .
+
+<http://mapaContaminacionMadrid.com/442835,814475123,85> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "GOYA, CALLE, DE 99" ;
+	juso:Neighborhood " GOYA" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "442835,81" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4475123,85" .
+
+<http://mapaContaminacionMadrid.com/443212,164474936,49> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "JORGE JUAN, CALLE, DE 131" ;
+	juso:Neighborhood " GOYA" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "443212,16" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4474936,49" .
+
+<http://mapaContaminacionMadrid.com/441967,184474727,67> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "ALCALA, CALLE, DE 95" ;
+	juso:Neighborhood " RECOLETOS" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "441967,18" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4474727,67" .
+
+<http://mapaContaminacionMadrid.com/441766,914475752,49> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "JOSE ORTEGA Y GASSET, CALLE, DE 4" ;
+	juso:Neighborhood " CASTELLANA" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "441766,91" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4475752,49" .
+
+<http://mapaContaminacionMadrid.com/441505,584475354,07> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "CASTELLANA, PASEO, DE LA 4" ;
+	juso:Neighborhood " RECOLETOS" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "441505,58" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4475354,07" .
+
+<http://mapaContaminacionMadrid.com/441684,374475386,27> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "SERRANO, CALLE, DE 46" ;
+	juso:Neighborhood " RECOLETOS" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "441684,37" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4475386,27" .
+
+<http://mapaContaminacionMadrid.com/441648,474475149,56> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "SERRANO, CALLE, DE 32" ;
+	juso:Neighborhood " RECOLETOS" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "441648,47" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4475149,56" .
+
+<http://mapaContaminacionMadrid.com/441599,074474779,37> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "SERRANO, CALLE, DE 8" ;
+	juso:Neighborhood " RECOLETOS" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "441599,07" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4474779,37" .
+
+<http://mapaContaminacionMadrid.com/443111,64475416,83> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "MARTIRES CONCEPCIONISTAS, CALLE, DE LOS 2" ;
+	juso:Neighborhood " GOYA" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "443111,6" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4475416,83" .
+
+<http://mapaContaminacionMadrid.com/442191,644475721,98> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "JOSE ORTEGA Y GASSET, CALLE, DE 32" ;
+	juso:Neighborhood " CASTELLANA" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "442191,64" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4475721,98" .
+
+<http://mapaContaminacionMadrid.com/438921,154476262,7> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "MORET, PASEO, DE S/N" ;
+	juso:Neighborhood " CASA DE CAMPO" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "438921,15" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4476262,7" .
+
+<http://mapaContaminacionMadrid.com/439144,164476128,65> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "ARCIPRESTE DE HITA, CALLE, DEL 8" ;
+	juso:Neighborhood " GAZTAMBIDE" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "439144,16" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4476128,65" .
+
+<http://mapaContaminacionMadrid.com/439120,044476174,12> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "ARCIPRESTE DE HITA, CALLE, DEL 10" ;
+	juso:Neighborhood " GAZTAMBIDE" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "439120,04" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4476174,12" .
+
+<http://mapaContaminacionMadrid.com/438517,074476028,6> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "MORET, PASEO, DE 11" ;
+	juso:Neighborhood " ARG�ELLES" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "438517,07" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4476028,6" .
+
+<http://mapaContaminacionMadrid.com/438865,354475484,09> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "PINTOR ROSALES, PASEO, DEL S/N" ;
+	juso:Neighborhood " CASA DE CAMPO" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "438865,35" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4475484,09" .
+
+<http://mapaContaminacionMadrid.com/439145,664475489,87> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "QUINTANA, CALLE, DE 13" ;
+	juso:Neighborhood " ARG�ELLES" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "439145,66" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4475489,87" .
+
+<http://mapaContaminacionMadrid.com/439181,484475218,76> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "MARQUES DE CERRALBO, PLAZA, DEL S/N" ;
+	juso:Neighborhood " ARG�ELLES" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "439181,48" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4475218,76" .
+
+<http://mapaContaminacionMadrid.com/439616,594475074,01> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "ESPA�A, PLAZA, DE S/N" ;
+	juso:Neighborhood " ARG�ELLES" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "439616,59" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4475074,01" .
+
+<http://mapaContaminacionMadrid.com/439610,684475084,23> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "ESPA�A, PLAZA, DE S/N" ;
+	juso:Neighborhood " ARG�ELLES" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "439610,68" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4475084,23" .
+
+<http://mapaContaminacionMadrid.com/439020,834475833,31> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "ALTAMIRANO, CALLE, DE 24" ;
+	juso:Neighborhood " ARG�ELLES" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "439020,83" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4475833,31" .
+
+<http://mapaContaminacionMadrid.com/441605,274472470,69> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "JUAN MARTIN EL EMPECINADO, CALLE, DE 16" ;
+	juso:Neighborhood " PALOS DE MOGUER" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "441605,27" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4472470,69" .
+
+<http://mapaContaminacionMadrid.com/441738,364472542,79> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "MENDEZ ALVARO, CALLE, DE 7" ;
+	juso:Neighborhood " ATOCHA" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "441738,36" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4472542,79" .
+
+<http://mapaContaminacionMadrid.com/441058,144472722,16> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "PALOS DE LA FRONTERA, CALLE, DE 27" ;
+	juso:Neighborhood " PALOS DE MOGUER" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "441058,14" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4472722,16" .
+
+<http://mapaContaminacionMadrid.com/440718,14472592,85> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "SANTA MARIA DE LA CABEZA, PASEO, DE 58" ;
+	juso:Neighborhood " PALOS DE MOGUER" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "440718,1" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4472592,85" .
+
+<http://mapaContaminacionMadrid.com/440941,064475664,68> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "SANTA ENGRACIA, CALLE, DE 16" ;
+	juso:Neighborhood " ALMAGRO" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "440941,06" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4475664,68" .
+
+<http://mapaContaminacionMadrid.com/439482,594475800,04> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "GUZMAN EL BUENO, CALLE, DE 2" ;
+	juso:Neighborhood " GAZTAMBIDE" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "439482,59" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4475800,04" .
+
+<http://mapaContaminacionMadrid.com/440683,014475810,28> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "MANUEL SILVELA, CALLE, DE 18" ;
+	juso:Neighborhood " TRAFALGAR" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "440683,01" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4475810,28" .
+
+<http://mapaContaminacionMadrid.com/441066,994476306,47> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "FERNANDEZ DE LA HOZ, CALLE, DE 29" ;
+	juso:Neighborhood " ALMAGRO" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "441066,99" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4476306,47" .
+
+<http://mapaContaminacionMadrid.com/440480,694476228,15> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "GENERAL ALVAREZ DE CASTRO, CALLE, DEL 4" ;
+	juso:Neighborhood " TRAFALGAR" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "440480,69" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4476228,15" .
+
+<http://mapaContaminacionMadrid.com/439915,534476159,48> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "FERNANDO EL CATOLICO, CALLE, DE 19" ;
+	juso:Neighborhood " ARAPILES" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "439915,53" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4476159,48" .
+
+<http://mapaContaminacionMadrid.com/439310,294476734,2> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "CEA BERMUDEZ, CALLE, DE 59" ;
+	juso:Neighborhood " GAZTAMBIDE" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "439310,29" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4476734,2" .
+
+<http://mapaContaminacionMadrid.com/440776,24476658,18> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "JOSE ABASCAL, CALLE, DE 33" ;
+	juso:Neighborhood " R�OS ROSAS" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "440776,2" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4476658,18" .
+
+<http://mapaContaminacionMadrid.com/440498,24476985,78> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "SANTA ENGRACIA, CALLE, DE 124" ;
+	juso:Neighborhood " R�OS ROSAS" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "440498,2" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4476985,78" .
+
+<http://mapaContaminacionMadrid.com/440293,584477026,74> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "BRAVO MURILLO, CALLE, DE 44" ;
+	juso:Neighborhood " R�OS ROSAS" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "440293,58" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4477026,74" .
+
+<http://mapaContaminacionMadrid.com/440334,344477541,61> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "SANTA ENGRACIA, CALLE, DE 168" ;
+	juso:Neighborhood " R�OS ROSAS" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "440334,34" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4477541,61" .
+
+<http://mapaContaminacionMadrid.com/440637,084477625,61> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "DULCINEA, CALLE, DE 3" ;
+	juso:Neighborhood " CUATRO CAMINOS" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "440637,08" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4477625,61" .
+
+<http://mapaContaminacionMadrid.com/441017,644477274,53> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "MARIA DE GUZMAN, CALLE, DE 58" ;
+	juso:Neighborhood " R�OS ROSAS" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "441017,64" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4477274,53" .
+
+<http://mapaContaminacionMadrid.com/441237,584476989,99> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "SAN JUAN DE LA CRUZ, PLAZA, DE S/N" ;
+	juso:Neighborhood " R�OS ROSAS" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "441237,58" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4476989,99" .
+
+<http://mapaContaminacionMadrid.com/441417,024477410,33> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "CASTELLANA, PASEO, DE LA 106" ;
+	juso:Neighborhood " EL VISO" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "441417,02" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4477410,33" .
+
+<http://mapaContaminacionMadrid.com/441885,334477430,27> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "REPUBLICA ARGENTINA, PLAZA, DE LA 6" ;
+	juso:Neighborhood " EL VISO" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "441885,33" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4477430,27" .
+
+<http://mapaContaminacionMadrid.com/441352,154477455,81> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "CASTELLANA, PASEO, DE LA S/N" ;
+	juso:Neighborhood " R�OS ROSAS" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "441352,15" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4477455,81" .
+
+<http://mapaContaminacionMadrid.com/441440,294476752,98> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "JOSE GUTIERREZ ABASCAL, CALLE, DE S/N" ;
+	juso:Neighborhood " EL VISO" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "441440,29" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4476752,98" .
+
+<http://mapaContaminacionMadrid.com/442081,574476664,17> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "VELAZQUEZ, CALLE, DE 134" ;
+	juso:Neighborhood " EL VISO" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "442081,57" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4476664,17" .
+
+<http://mapaContaminacionMadrid.com/441537,594476315,08> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "CASTELLANA, PASEO, DE LA 43" ;
+	juso:Neighborhood " ALMAGRO" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "441537,59" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4476315,08" .
+
+<http://mapaContaminacionMadrid.com/441641,974476103,45> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "CASTELLANA, PASEO, DE LA S/N" ;
+	juso:Neighborhood " CASTELLANA" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "441641,97" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4476103,45" .
+
+<http://mapaContaminacionMadrid.com/442474,524476217,99> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "DIEGO DE LEON, CALLE, DE 54" ;
+	juso:Neighborhood " LISTA" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "442474,52" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4476217,99" .
+
+<http://mapaContaminacionMadrid.com/442707,064475962,33> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "JUAN BRAVO, CALLE, DE 50" ;
+	juso:Neighborhood " LISTA" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "442707,06" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4475962,33" .
+
+<http://mapaContaminacionMadrid.com/443050,84475674,99> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "JOSE ORTEGA Y GASSET, CALLE, DE 87" ;
+	juso:Neighborhood " LISTA" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "443050,8" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4475674,99" .
+
+<http://mapaContaminacionMadrid.com/442434,994477286,31> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "MARIA FRANCISCA, CALLE, DE 1" ;
+	juso:Neighborhood " EL VISO" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "442434,99" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4477286,31" .
+
+<http://mapaContaminacionMadrid.com/442372,14477741,71> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "DOCTOR ARCE, AVENIDA, DEL 45" ;
+	juso:Neighborhood " EL VISO" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "442372,1" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4477741,71" .
+
+<http://mapaContaminacionMadrid.com/442194,624478041,41> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "SERRANO, CALLE, DE 210" ;
+	juso:Neighborhood " EL VISO" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "442194,62" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4478041,41" .
+
+<http://mapaContaminacionMadrid.com/441672,374477914,72> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "LA HABANA, PASEO, DE 42" ;
+	juso:Neighborhood " EL VISO" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "441672,37" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4477914,72" .
+
+<http://mapaContaminacionMadrid.com/441444,054477840,59> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "CASTELLANA, PASEO, DE LA S/N" ;
+	juso:Neighborhood " EL VISO" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "441444,05" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4477840,59" .
+
+<http://mapaContaminacionMadrid.com/441047,094477810,46> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "ORENSE, CALLE, DE 10" ;
+	juso:Neighborhood " CUATRO CAMINOS" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "441047,09" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4477810,46" .
+
+<http://mapaContaminacionMadrid.com/440733,54478240,82> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "GENERAL PERON, AVENIDA, DEL S/N" ;
+	juso:Neighborhood " CUATRO CAMINOS" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "440733,5" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4478240,82" .
+
+<http://mapaContaminacionMadrid.com/441229,674478195,07> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "GENERAL PERON, AVENIDA, DEL S/N" ;
+	juso:Neighborhood " CUATRO CAMINOS" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "441229,67" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4478195,07" .
+
+<http://mapaContaminacionMadrid.com/441096,524478466,6> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "ORENSE, CALLE, DE 36" ;
+	juso:Neighborhood " CUATRO CAMINOS" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "441096,52" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4478466,6" .
+
+<http://mapaContaminacionMadrid.com/440572,974478750,49> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "GENERAL YAG�E, CALLE, DEL 55" ;
+	juso:Neighborhood " CUATRO CAMINOS" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "440572,97" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4478750,49" .
+
+<http://mapaContaminacionMadrid.com/441385,884478959,93> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "SOR ANGELA DE LA CRUZ, CALLE, DE S/N" ;
+	juso:Neighborhood " CASTILLEJOS" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "441385,88" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4478959,93" .
+
+<http://mapaContaminacionMadrid.com/441554,844478963,2> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "CASTELLANA, PASEO, DE LA S/N" ;
+	juso:Neighborhood " NUEVA ESPA�A" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "441554,84" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4478963,2" .
+
+<http://mapaContaminacionMadrid.com/441946,464478886,67> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "ALBERTO ALCOCER, AVENIDA, DE 22 A" ;
+	juso:Neighborhood " HISPANOAM�RICA" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "441946,46" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4478886,67" .
+
+<http://mapaContaminacionMadrid.com/442024,964478401,51> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "LA HABANA, PASEO, DE 63" ;
+	juso:Neighborhood " HISPANOAM�RICA" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "442024,96" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4478401,51" .
+
+<http://mapaContaminacionMadrid.com/442637,464478722,46> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "COLOMBIA, CALLE, DE 7" ;
+	juso:Neighborhood " HISPANOAM�RICA" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "442637,46" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4478722,46" .
+
+<http://mapaContaminacionMadrid.com/438754,044474852,84> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "FLORIDA, PASEO, DE LA 6" ;
+	juso:Neighborhood " CASA DE CAMPO" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "438754,04" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4474852,84" .
+
+<http://mapaContaminacionMadrid.com/439688,474472787,76> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "OLMOS, PASEO, DE LOS 28" ;
+	juso:Neighborhood " ACACIAS" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "439688,47" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4472787,76" .
+
+<http://mapaContaminacionMadrid.com/440055,044472797,85> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "ESPERANZA, PASEO, DE LA 2a" ;
+	juso:Neighborhood " ACACIAS" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "440055,04" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4472797,85" .
+
+<http://mapaContaminacionMadrid.com/441064,154472071,33> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "DELICIAS, PASEO, DE LAS 92" ;
+	juso:Neighborhood " DELICIAS" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "441064,15" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4472071,33" .
+
+<http://mapaContaminacionMadrid.com/440779,234471608,61> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "CHOPERA, PASEO, DE LA 47" ;
+	juso:Neighborhood " CHOPERA" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "440779,23" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4471608,61" .
+
+<http://mapaContaminacionMadrid.com/439477,714473947,39> a dbpedia:Station ;
+	<http://mapaContaminacionMadrid.com/Relations/hasAdress> "SEGOVIA, CALLE, DE 26" ;
+	juso:Neighborhood " PALACIO" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-x> "439477,71" ;
+	<http://mapaContaminacionMadrid.com/Relations/coordenada-y> "4473947,39" .

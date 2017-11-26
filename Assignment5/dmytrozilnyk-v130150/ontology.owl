@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<!DOCTYPE Ontology[
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace">
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+]>
+<Ontology   xmlns="http://www.w3.org/2002/07/owl#"
+            xml:base="http://linkeddata.example.com"
+            xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+            xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+            xmlns:xml="http://www.w3.org/XML/1998/namespace"
+            xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+            ontologyIRI="http://linkeddata.example.com">
+
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+
+    <Declaration>
+        <Class IRI="#Cuidad"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasDistrict"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasCountryCode"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasPopulation"/>
+    </Declaration>
+
+
+    <DataPropertyRange>
+        <DataProperty IRI="#hasDistrict"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasCountryCode"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasPopulation"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+	<DataPropertyRange>
+        <DataProperty IRI="#hasName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+
+</Ontology>

@@ -1,0 +1,42 @@
+- How many accidents were there in Madrid in 2013?
+
+SELECT SUM(?NumberOfAccidents) AS ?TOTAL_NUMBER WHERE {
+   ?District <http://example.org/myVocabulary#numberOfAccidents> ?NumberOfAccidents
+} 
+
+- Give me the number of accidents in Usera for each type of accident
+
+SELECT "USERA" AS ?DISTRICT SUM(?Number) AS ?TOTAL_NUMBER WHERE {
+   ?Accident <http://example.org/myVocabulary#relatedDistrict> "USERA" .
+   ?Accident <http://example.org/myVocabulary#numberOfAccidents> ?Number
+} 
+
+- Give me the number of multiple collisions for each district
+
+SELECT ?District STR(?Number) AS ?N_multiple_collision_accidents WHERE {
+   ?Accident <http://example.org/myVocabulary#hasAccidentType> <http://example.org/myVocabulary#MultipleCollision> .
+   ?Accident <http://example.org/myVocabulary#relatedDistrict> ?District .
+   ?Accident <http://example.org/myVocabulary#numberOfAccidents> ?Number .  
+} ORDER BY (?District)
+
+- Which is the district were the number of bicycle falls was higher in 2013?
+
+SELECT ?District WHERE {
+   ?Accident <http://example.org/myVocabulary#hasAccidentType> <http://example.org/myVocabulary#BicycleFall> .
+   ?Accident <http://example.org/myVocabulary#numberOfAccidents> ?N_bicycle_fall_accidents.
+   ?Accident <http://example.org/myVocabulary#relatedDistrict> ?District .
+   {SELECT MAX(?Number) AS ?N_bicycle_fall_accidents WHERE {
+      ?Accident <http://example.org/myVocabulary#hasAccidentType> <http://example.org/myVocabulary#BicycleFall> .
+      ?Accident <http://example.org/myVocabulary#relatedDistrict> ?District .
+      ?Accident <http://example.org/myVocabulary#numberOfAccidents> ?Number .  
+   }}
+} 
+
+- Give me the districts with more than 500 accidents in 2013
+
+SELECT ?District STR(?N_Accidents) AS ?N_Accidents WHERE {
+   ?Accident <http://example.org/myVocabulary#numberOfAccidents> ?N_Accidents.
+   ?Accident <http://example.org/myVocabulary#relatedDistrict> ?District .
+   FILTER (<http://www.w3.org/2001/XMLSchema#integer>(?N_Accidents) > 500) .
+} ORDER BY(?District)
+

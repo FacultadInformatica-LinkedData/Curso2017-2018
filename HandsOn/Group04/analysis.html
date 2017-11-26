@@ -1,0 +1,158 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Group 04: Analysis</title>
+  </head>
+  <style>
+  body{
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+  </style>
+  <body>
+    <h3>Analyse Data Set </h3>
+    <table>
+      <tr>
+        <td style="font-weight:bold;">Column Name</td>
+        <td style="font-weight:bold;">Type</td>
+        <td style="font-weight:bold;">Value Range</td>
+        <td style="font-weight:bold;">Description</td>
+      </tr>
+      <tr>
+        <td>PK</td>
+        <td>Integer</td>
+        <td>[0-9]</td>
+        <td>Public Parking identifier</td>
+      </tr>
+      <tr>
+        <td>Name</td>
+        <td>String</td>
+        <td>[a-z][A-Z]</td>
+        <td>Parking Name</td>
+      </tr>
+      <tr>
+        <td>Schedule</td>
+        <td>String</td>
+        <td>[a-z][A-Z]</td>
+        <td>Schedule of the parking</td>
+      </tr>
+      <tr>
+        <td>Transport</td>
+        <td>String</td>
+        <td>[a-z][A-Z][0-9]</td>
+        <td>Location of underground, train and bus stations</td>
+      </tr>
+      <tr>
+        <td>Description</td>
+        <td>String</td>
+        <td>[a-z][A-Z][0-9]</td>
+        <td>Extra information of the parking: number of parking places, schedule...</td>
+      </tr>
+      <tr>
+        <td>Access</td>
+        <td>Integer</td>
+        <td>[0-1]</td>
+        <td>Whether it's accesible to handicap</td>
+      </tr>
+      <tr>
+        <td>Content-url</td>
+        <td>String</td>
+        <td>[a-z][A-Z][0-9]</td>
+        <td>Resource name</td>
+      </tr>
+      <tr>
+        <td>Street-name</td>
+        <td>String</td>
+        <td>[a-z][A-Z][0-9]</td>
+        <td>Location of the parking</td>
+      </tr>
+      <tr>
+        <td>Street Type</td>
+        <td>String</td>
+        <td>[a-z][A-Z]</td>
+        <td>Street type: street, avenue</td>
+      </tr>
+      <tr>
+        <td>Number Type</td>
+        <td>String</td>
+        <td>[A-Z]</td>
+        <td>Number Type: V, S/N, KM</td>
+      </tr>
+      <tr>
+        <td>Number</td>
+        <td>Integer</td>
+        <td>[0-9]</td>
+        <td>Number Type: V, S/N, KM</td>
+      </tr>
+      <tr>
+        <td>Location</td>
+        <td>String</td>
+        <td>[A-Z]</td>
+        <td>Parking Location</td>
+      </tr>
+      <tr>
+        <td>State</td>
+        <td>String</td>
+        <td>[A-Z]</td>
+        <td>Parking Location State</td>
+      </tr>
+      <tr>
+        <td>Postal Code</td>
+        <td>Integer</td>
+        <td>[0-9]</td>
+        <td>Parking Location Postal Code</td>
+      </tr>
+      <tr>
+        <td>Neighborhood</td>
+        <td>String</td>
+        <td>[A-Z]</td>
+        <td>Parking Location Neighborhood</td>
+      </tr>
+      <tr>
+        <td>District Name</td>
+        <td>String</td>
+        <td>[A-Z]</td>
+        <td>Parking Location District Name</td>
+      </tr>
+      <tr>
+        <td>X-Axis</td>
+        <td>Integer</td>
+        <td>[0-9]</td>
+        <td>Parking Location X-Axis</td>
+      </tr>
+      <tr>
+        <td>Y-Axis</td>
+        <td>Integer</td>
+        <td>[0-9]</td>
+        <td>Parking Location Y-Axis</td>
+      </tr>
+      <tr>
+        <td>Latitude</td>
+        <td>float</td>
+        <td>[0-9]</td>
+        <td>Parking Location Y-Axis</td>
+      </tr>
+      <tr>
+        <td>Longitude</td>
+        <td>float</td>
+        <td>[0-9]</td>
+        <td>Parking Location Y-Axis</td>
+      </tr>
+      <tr>
+        <td>Type</td>
+        <td>String</td>
+        <td>[a-z][A-Z][0-9]</td>
+        <td>Description of the entity typology</td>
+      </tr>
+    </table>
+    <h3>Analyse Licensing of the Data Source </h3>
+    <p>The publisher of the data is the Ayuntamiento of Madrid</p>
+    <p>The dataset uses an open license created by Madrid: <a href="http://datos.madrid.es/egob/catalogo/aviso-legal">License URL</a> </p>
+    <h3>Define Resource Naming Strategy </h3>
+    <p>Domain: http://semanticweb.org/Group04/ </p>
+    <p>Ontological terms path: http://semanticweb.org/Group04/ontology/</p>
+    <p>Individuals path: http://semanticweb.org/Group04/ontology/resource/</p>
+    <p>Ontological terms pattern: http://semanticweb.org/Group04/ontology#term_name</p>
+    <p>Individuals pattern: http://semanticweb.org/Group04/ontology/resource/resource_type/resource_name</p>
+  </body>
+</html>

@@ -1,0 +1,1462 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+<http://www.semanticweb.org/group12/resources/Servicio/0> rdfs:Literal "8171" , "118171" , "118171-8171116:50:002cc 368171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/1> rdfs:Literal "8171" , "68171" , "68171-8171107:35:001-68171" ;
+	xsd:string "AV.GUADALIX-CENTRO COMERCIAL" , "171 URB. SANTO DOMINGO" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/2> rdfs:Literal "8171" , "48171" , "48171-8171114:30:001-268171" ;
+	xsd:string "AV.GUADALIX-CENTRO DE SALUD" , "Termina en Av. Guadalix Centro de Salud" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/3> rdfs:Literal "8171" , "58171" , "58171-8171106:35:002cc 58171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/4> rdfs:Literal "8171" , "68171" , "68171-8171215:00:002-168171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/5> rdfs:Literal "91006" , "10591006" , "10591006-91006116:40:001-1691006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/6> rdfs:Literal "93006" , "7693006" , "7693006-93006312:30:002-793006" ;
+	xsd:string "AV.ERMITA-EST.LA MORALEJA" , "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/7> rdfs:Literal "92006" , "71692006" , "71692006-92006113:05:002-292006" ;
+	xsd:string "PºCHOPERA-AV.CAMILO JOSÉ CELA" , "lv 2 ALCOBENDAS" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/8> rdfs:Literal "8171" , "38171" , "38171-8171116:10:002cc 338171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/9> rdfs:Literal "91006" , "10491006" , "10491006-91006112:40:001-1091006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/10> rdfs:Literal "91006" , "70591006" , "70591006-91006121:20:001-2391006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/11> rdfs:Literal "91006" , "70591006" , "70591006-91006119:20:001-2091006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/12> rdfs:Literal "93006" , "7793006" , "7793006-93006316:20:001-1693006" ;
+	xsd:string "PºPARQUES-CTRA.A1" , "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/13> rdfs:Literal "8171" , "48171" , "48171-8171217:00:001-178171" ;
+	xsd:string "AV.GUADALIX-CENTRO COMERCIAL" , "171 URB. SANTO DOMINGO" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/14> rdfs:Literal "91006" , "80491006" , "80491006-91006114:00:001-1291006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/15> rdfs:Literal "92006" , "11292006" , "11292006-92006115:10:002-892006" ;
+	xsd:string "PºCHOPERA-AV.CAMILO JOSÉ CELA" , "lv 2 ALCOBENDAS" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/16> rdfs:Literal "92006" , "12592006" , "12592006-92006107:40:001-392006" ;
+	xsd:string "AV.LA VEGA-C.C.LA VEGA" , "lv 2 LA MORALEJA" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/17> rdfs:Literal "8171" , "68171" , "68171-8171222:00:001-248171" ;
+	xsd:string "AV.GUADALIX-CENTRO DE SALUD" , "Termina en Av. Guadalix Centro de Salud" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/18> rdfs:Literal "93006" , "7793006" , "7793006-93006318:30:002-1693006" ;
+	xsd:string "AV.ERMITA-EST.LA MORALEJA" , "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/19> rdfs:Literal "92006" , "71692006" , "71692006-92006113:45:001-1092006" ;
+	xsd:string "AV.LA VEGA-C.C.LA VEGA" , "lv 2 LA MORALEJA" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/20> rdfs:Literal "93006" , "7693006" , "7693006-93006315:10:002-1193006" ;
+	xsd:string "AV.ERMITA-EST.LA MORALEJA" , "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/21> rdfs:Literal "8171" , "18171" , "18171-8171106:00:002cc 18171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/22> rdfs:Literal "8171" , "48171" , "48171-8171319:50:001-138171" ;
+	xsd:string "AV.GUADALIX-CENTRO COMERCIAL" , "171 URB. SANTO DOMINGO" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/23> rdfs:Literal "8171" , "68171" , "68171-8171220:00:001-228171" ;
+	xsd:string "AV.GUADALIX-CENTRO COMERCIAL" , "171 URB. SANTO DOMINGO" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/24> rdfs:Literal "8171" , "38171" , "38171-8171320:00:002-158171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/25> rdfs:Literal "8171" , "18171" , "18171-8171214:20:001-138171" ;
+	xsd:string "AV.GUADALIX-CENTRO DE SALUD" , "Termina en Av. Guadalix Centro de Salud" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/26> rdfs:Literal "91006" , "70591006" , "70591006-91006116:00:001-1591006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/27> rdfs:Literal "91006" , "80591006" , "80591006-91006114:40:001-1391006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/28> rdfs:Literal "91006" , "10491006" , "10491006-91006108:00:001-391006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/29> rdfs:Literal "93006" , "7693006" , "7693006-93006312:20:001-1093006" ;
+	xsd:string "PºPARQUES-CTRA.A1" , "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/30> rdfs:Literal "8171" , "48171" , "48171-8171112:30:001-228171" ;
+	xsd:string "AV.GUADALIX-CENTRO COMERCIAL" , "171 URB. SANTO DOMINGO" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/31> rdfs:Literal "8171" , "68171" , "68171-8171110:40:002cc 208171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/32> rdfs:Literal "93006" , "7693006" , "7693006-93006315:00:001-1493006" ;
+	xsd:string "PºPARQUES-CTRA.A1" , "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/33> rdfs:Literal "8171" , "48171" , "48171-8171317:00:002-128171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/34> rdfs:Literal "8828" , "1238828" , "1238828-8828115:05:001-38828" ;
+	xsd:string "IVÁN PAVLOV-RECTORADO" , "lv 828 ALCOBENDAS-U.AUTONOMA" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/35> rdfs:Literal "93006" , "7793006" , "7793006-93006315:50:002-1293006" ;
+	xsd:string "AV.ERMITA-EST.LA MORALEJA" , "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/36> rdfs:Literal "8171" , "28171" , "28171-8171107:10:002cc 98171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/37> rdfs:Literal "91006" , "80491006" , "80491006-91006108:00:001-391006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/38> rdfs:Literal "8171" , "28171" , "28171-8171309:00:002-48171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/39> rdfs:Literal "8171" , "58171" , "58171-8171218:30:002-218171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/40> rdfs:Literal "93006" , "7793006" , "7793006-93006316:30:002-1393006" ;
+	xsd:string "AV.ERMITA-EST.LA MORALEJA" , "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/41> rdfs:Literal "8171" , "68171" , "68171-8171109:40:001-158171" ;
+	xsd:string "AV.GUADALIX-CENTRO COMERCIAL" , "171 URB. SANTO DOMINGO" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/42> rdfs:Literal "91006" , "10591006" , "10591006-91006117:20:001-1791006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/43> rdfs:Literal "91006" , "70591006" , "70591006-91006120:40:001-2291006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/44> rdfs:Literal "93006" , "7693006" , "7693006-93006313:00:001-1193006" ;
+	xsd:string "PºPARQUES-CTRA.A1" , "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/45> rdfs:Literal "8171" , "18171" , "18171-8171107:35:002cc 108171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/46> rdfs:Literal "8171" , "28171" , "28171-8171118:00:001-378171" ;
+	xsd:string "AV.GUADALIX-CENTRO COMERCIAL" , "171 URB. SANTO DOMINGO" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/47> rdfs:Literal "91006" , "80591006" , "80591006-91006120:40:001-2291006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/48> rdfs:Literal "8171" , "18171" , "18171-8171313:10:001-78171" ;
+	xsd:string "AV.GUADALIX-CENTRO DE SALUD" , "Termina en Av. Guadalix Centro de Salud" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/49> rdfs:Literal "8171" , "68171" , "68171-8171111:30:001-208171" ;
+	xsd:string "AV.GUADALIX-CENTRO COMERCIAL" , "171 URB. SANTO DOMINGO" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/50> rdfs:Literal "8171" , "38171" , "38171-8171210:00:001-68171" ;
+	xsd:string "AV.GUADALIX-CENTRO COMERCIAL" , "171 URB. SANTO DOMINGO" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/51> rdfs:Literal "92006" , "71292006" , "71292006-92006116:10:002-1292006" ;
+	xsd:string "PºCHOPERA-AV.CAMILO JOSÉ CELA" , "lv 2 ALCOBENDAS" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/52> rdfs:Literal "93006" , "7793006" , "7793006-93006321:40:001-2493006" ;
+	xsd:string "PºPARQUES-CTRA.A1" , "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/53> rdfs:Literal "91006" , "80491006" , "80491006-91006113:20:001-1191006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/54> rdfs:Literal "93006" , "7693006" , "7693006-93006310:30:002-493006" ;
+	xsd:string "AV.ERMITA-EST.LA MORALEJA" , "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/55> rdfs:Literal "91006" , "10591006" , "10591006-91006118:40:001-1991006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/56> rdfs:Literal "8171" , "78171" , "78171-8171117:15:002uc388171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "Hasta/desde Urb. Ciudalcampo" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/57> rdfs:Literal "92006" , "70192006" , "70192006-92006108:30:002-a.1092006" ;
+	xsd:string "PºCHOPERA-AV.CAMILO JOSÉ CELA" , "lv 2 ALCOBENDAS" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/58> rdfs:Literal "8828" , "1168828" , "1168828-8828117:55:002-78828" ;
+	xsd:string "CANILLEJAS-AREA INTERMODAL" , "lv 828 MADRID(Canillejas)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/59> rdfs:Literal "92006" , "10992006" , "10992006-92006108:30:002-a.1092006" ;
+	xsd:string "PºCHOPERA-AV.CAMILO JOSÉ CELA" , "lv 2 ALCOBENDAS" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/60> rdfs:Literal "8171" , "18171" , "18171-8171108:35:001-118171" ;
+	xsd:string "AV.GUADALIX-CENTRO COMERCIAL" , "171 URB. SANTO DOMINGO" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/61> rdfs:Literal "8171" , "58171" , "58171-8171319:30:002-148171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/62> rdfs:Literal "91006" , "70591006" , "70591006-91006114:00:001-1291006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/63> rdfs:Literal "92006" , "11292006" , "11292006-92006113:45:001-1092006" ;
+	xsd:string "AV.LA VEGA-C.C.LA VEGA" , "lv 2 LA MORALEJA" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/64> rdfs:Literal "92006" , "11092006" , "11092006-92006116:50:001-792006" ;
+	xsd:string "AV.LA VEGA-C.C.LA VEGA" , "lv 2 LA MORALEJA" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/65> rdfs:Literal "93006" , "7793006" , "7793006-93006317:00:001-1793006" ;
+	xsd:string "PºPARQUES-CTRA.A1" , "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/66> rdfs:Literal "91006" , "10491006" , "10491006-91006113:20:001-1191006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/67> rdfs:Literal "8171" , "28171" , "28171-8171208:30:002-58171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/68> rdfs:Literal "8171" , "38171" , "38171-8171317:00:001-118171" ;
+	xsd:string "AV.GUADALIX-CENTRO COMERCIAL" , "171 URB. SANTO DOMINGO" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/69> rdfs:Literal "8171" , "18171" , "18171-8171210:30:001-78171" ;
+	xsd:string "AV.GUADALIX-CENTRO COMERCIAL" , "171 URB. SANTO DOMINGO" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/70> rdfs:Literal "8171" , "138171" , "138171-8171121:30:001-508171" ;
+	xsd:string "AV.GUADALIX-CENTRO DE SALUD" , "Termina en Av. Guadalix Centro de Salud" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/71> rdfs:Literal "93006" , "7793006" , "7793006-93006317:50:002-1593006" ;
+	xsd:string "AV.ERMITA-EST.LA MORALEJA" , "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/72> rdfs:Literal "8171" , "98171" , "98171-8171119:10:001-428171" ;
+	xsd:string "AV.GUADALIX-CENTRO COMERCIAL" , "171 URB. SANTO DOMINGO" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/73> rdfs:Literal "93006" , "7693006" , "7693006-93006314:30:002-1093006" ;
+	xsd:string "AV.ERMITA-EST.LA MORALEJA" , "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/74> rdfs:Literal "8171" , "38171" , "38171-8171106:15:002cc 28171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/75> rdfs:Literal "8171" , "28171" , "28171-8171307:10:002-28171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/76> rdfs:Literal "8171" , "88171" , "88171-8171109:00:002cc 168171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/77> rdfs:Literal "91006" , "10491006" , "10491006-91006112:00:001-991006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/78> rdfs:Literal "93006" , "7793006" , "7793006-93006321:50:002-2193006" ;
+	xsd:string "AV.ERMITA-EST.LA MORALEJA" , "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/79> rdfs:Literal "8171" , "28171" , "28171-8171211:10:001-88171" ;
+	xsd:string "AV.GUADALIX-CENTRO COMERCIAL" , "171 URB. SANTO DOMINGO" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/80> rdfs:Literal "8171" , "18171" , "18171-8171207:50:002-48171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/81> rdfs:Literal "8171" , "118171" , "118171-8171115:00:002cc 308171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/82> rdfs:Literal "91006" , "10491006" , "10491006-91006107:20:001-291006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/83> rdfs:Literal "8171" , "128171" , "128171-8171118:30:001-398171" ;
+	xsd:string "AV.GUADALIX-CENTRO COMERCIAL" , "171 URB. SANTO DOMINGO" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/84> rdfs:Literal "8171" , "148171" , "148171-8171107:50:001-78171" ;
+	xsd:string "AV.GUADALIX-CENTRO DE SALUD" , "Termina en Av. Guadalix Centro de Salud" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/85> rdfs:Literal "8171" , "78171" , "78171-8171108:55:001-128171" ;
+	xsd:string "AV.GUADALIX-CENTRO DE SALUD" , "Termina en Av. Guadalix Centro de Salud" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/86> rdfs:Literal "93006" , "7693006" , "7693006-93006314:20:001-1393006" ;
+	xsd:string "PºPARQUES-CTRA.A1" , "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/87> rdfs:Literal "8171" , "108171" , "108171-8171113:55:002cc 278171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/88> rdfs:Literal "8171" , "98171" , "98171-8171116:35:002cc 358171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/89> rdfs:Literal "91006" , "70591006" , "70591006-91006115:20:001-1491006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/90> rdfs:Literal "91006" , "80591006" , "80591006-91006115:20:001-1491006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/91> rdfs:Literal "93006" , "7793006" , "7793006-93006318:20:001-1993006" ;
+	xsd:string "PºPARQUES-CTRA.A1" , "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/92> rdfs:Literal "8171" , "88171" , "88171-8171114:50:002cc 298171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/93> rdfs:Literal "8171" , "38171" , "38171-8171316:00:002-118171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/94> rdfs:Literal "93006" , "7693006" , "7693006-93006311:40:001-993006" ;
+	xsd:string "PºPARQUES-CTRA.A1" , "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/95> rdfs:Literal "8171" , "108171" , "108171-8171119:50:002cc 488171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/96> rdfs:Literal "91006" , "80491006" , "80491006-91006110:00:001-691006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/97> rdfs:Literal "8171" , "18171" , "18171-8171213:30:002-138171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/98> rdfs:Literal "92006" , "12592006" , "12592006-92006109:05:002-192006" ;
+	xsd:string "PºCHOPERA-AV.CAMILO JOSÉ CELA" , "lv 2 ALCOBENDAS" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/99> rdfs:Literal "93006" , "7793006" , "7793006-93006317:10:002-1493006" ;
+	xsd:string "AV.ERMITA-EST.LA MORALEJA" , "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/100> rdfs:Literal "8171" , "48171" , "48171-8171218:00:002-208171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/101> rdfs:Literal "92006" , "71192006" , "71192006-92006107:10:001-292006" ;
+	xsd:string "AV.LA VEGA-C.C.LA VEGA" , "lv 2 LA MORALEJA" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/102> rdfs:Literal "8171" , "138171" , "138171-8171120:35:002cc 508171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/103> rdfs:Literal "8171" , "38171" , "38171-8171117:10:001-338171" ;
+	xsd:string "AV.GUADALIX-CENTRO COMERCIAL" , "171 URB. SANTO DOMINGO" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/104> rdfs:Literal "8171" , "18171" , "18171-8171112:05:001-218171" ;
+	xsd:string "AV.GUADALIX-CENTRO COMERCIAL" , "171 URB. SANTO DOMINGO" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/105> rdfs:Literal "8171" , "118171" , "118171-8171119:45:001-448171" ;
+	xsd:string "AV.GUADALIX-CENTRO DE SALUD" , "Termina en Av. Guadalix Centro de Salud" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/106> rdfs:Literal "8171" , "38171" , "38171-8171119:00:001-418171" ;
+	xsd:string "AV.GUADALIX-CENTRO DE SALUD" , "Termina en Av. Guadalix Centro de Salud" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/107> rdfs:Literal "92006" , "10992006" , "10992006-92006109:40:002-792006" ;
+	xsd:string "PºCHOPERA-AV.CAMILO JOSÉ CELA" , "lv 2 ALCOBENDAS" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/108> rdfs:Literal "92006" , "71292006" , "71292006-92006116:50:001-792006" ;
+	xsd:string "AV.LA VEGA-C.C.LA VEGA" , "lv 2 LA MORALEJA" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/109> rdfs:Literal "8171" , "138171" , "138171-8171119:25:001-438171" ;
+	xsd:string "AV.GUADALIX-CENTRO COMERCIAL" , "171 URB. SANTO DOMINGO" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/110> rdfs:Literal "8171" , "38171" , "38171-8171108:15:001a.98171" ;
+	xsd:string "AV.GUADALIX-CENTRO DE SALUD" , "Sólo desde Alcobendas y S.S. de los Reyes" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/111> rdfs:Literal "91006" , "80591006" , "80591006-91006121:20:001-2391006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/112> rdfs:Literal "91006" , "70491006" , "70491006-91006114:00:001-1291006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/113> rdfs:Literal "8171" , "28171" , "28171-8171108:15:001-108171" ;
+	xsd:string "AV.GUADALIX-CENTRO DE SALUD" , "Termina en Av. Guadalix Centro de Salud" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/114> rdfs:Literal "91006" , "80591006" , "80591006-91006116:40:001-1691006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/115> rdfs:Literal "8171" , "88171" , "88171-8171115:40:001-298171" ;
+	xsd:string "AV.GUADALIX-CENTRO DE SALUD" , "Termina en Av. Guadalix Centro de Salud" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/116> rdfs:Literal "91006" , "70591006" , "70591006-91006118:40:001-1991006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/117> rdfs:Literal "8171" , "28171" , "28171-8171121:50:001-518171" ;
+	xsd:string "AV.GUADALIX-CENTRO DE SALUD" , "Termina en Av. Guadalix Centro de Salud" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/118> rdfs:Literal "8171" , "158171" , "158171-8171123:00:002ccv.548171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/119> rdfs:Literal "93006" , "7693006" , "7693006-93006313:50:002-993006" ;
+	xsd:string "AV.ERMITA-EST.LA MORALEJA" , "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/120> rdfs:Literal "8171" , "28171" , "28171-8171313:00:002-88171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/121> rdfs:Literal "8171" , "18171" , "18171-8171311:10:001-58171" ;
+	xsd:string "AV.GUADALIX-CENTRO COMERCIAL" , "171 URB. SANTO DOMINGO" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/122> rdfs:Literal "91006" , "10491006" , "10491006-91006114:00:001-1291006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/123> rdfs:Literal "8171" , "18171" , "18171-8171208:40:001-48171" ;
+	xsd:string "AV.GUADALIX-CENTRO COMERCIAL" , "171 URB. SANTO DOMINGO" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/124> rdfs:Literal "8171" , "68171" , "68171-8171219:00:002-228171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/125> rdfs:Literal "8171" , "98171" , "98171-8171121:40:002cc 538171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/126> rdfs:Literal "92006" , "71192006" , "71192006-92006108:35:002-492006" ;
+	xsd:string "PºCHOPERA-AV.CAMILO JOSÉ CELA" , "lv 2 ALCOBENDAS" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/127> rdfs:Literal "8171" , "158171" , "158171-8171100:00:001-v.548171" ;
+	xsd:string "AV.GUADALIX-CENTRO DE SALUD" , "Termina en Av. Guadalix Centro de Salud" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/128> rdfs:Literal "8171" , "28171" , "28171-8171212:15:002-118171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/129> rdfs:Literal "93006" , "7793006" , "7793006-93006322:20:001-2593006" ;
+	xsd:string "PºPARQUES-CTRA.A1" , "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/130> rdfs:Literal "8171" , "88171" , "88171-8171107:00:002cc 88171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/131> rdfs:Literal "8171" , "138171" , "138171-8171114:30:002cc 288171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/132> rdfs:Literal "93006" , "7793006" , "7793006-93006322:30:002-2293006" ;
+	xsd:string "AV.ERMITA-EST.LA MORALEJA" , "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/133> rdfs:Literal "8171" , "78171" , "78171-8171118:15:001-388171" ;
+	xsd:string "AV.GUADALIX-CENTRO COMERCIAL" , "171 URB. SANTO DOMINGO" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/134> rdfs:Literal "93006" , "7793006" , "7793006-93006317:40:001-1893006" ;
+	xsd:string "PºPARQUES-CTRA.A1" , "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/135> rdfs:Literal "8828" , "1238828" , "1238828-8828113:05:001-28828" ;
+	xsd:string "IVÁN PAVLOV-RECTORADO" , "lv 828 ALCOBENDAS-U.AUTONOMA" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/136> rdfs:Literal "8171" , "78171" , "78171-8171107:00:001-28171" ;
+	xsd:string "AV.GUADALIX-CENTRO COMERCIAL" , "171 URB. SANTO DOMINGO" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/137> rdfs:Literal "91006" , "70491006" , "70491006-91006111:20:001-891006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/138> rdfs:Literal "92006" , "71192006" , "71192006-92006109:20:001-592006" ;
+	xsd:string "AV.LA VEGA-C.C.LA VEGA" , "lv 2 LA MORALEJA" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/139> rdfs:Literal "92006" , "70992006" , "70992006-92006109:05:002-192006" ;
+	xsd:string "PºCHOPERA-AV.CAMILO JOSÉ CELA" , "lv 2 ALCOBENDAS" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/140> rdfs:Literal "8171" , "88171" , "88171-8171113:55:001-258171" ;
+	xsd:string "AV.GUADALIX-CENTRO COMERCIAL" , "171 URB. SANTO DOMINGO" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/141> rdfs:Literal "8171" , "68171" , "68171-8171112:20:002cc 238171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/142> rdfs:Literal "8828" , "1218828" , "1218828-8828106:45:002a.28828" ;
+	xsd:string "CANILLEJAS-AREA INTERMODAL" , "Hasta/desde Alcobendas" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/143> rdfs:Literal "8828" , "1238828" , "1238828-8828109:55:002-38828" ;
+	xsd:string "CANILLEJAS-AREA INTERMODAL" , "lv 828 MADRID(Canillejas)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/144> rdfs:Literal "8171" , "48171" , "48171-8171107:15:001-48171" ;
+	xsd:string "AV.GUADALIX-CENTRO COMERCIAL" , "171 URB. SANTO DOMINGO" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/145> rdfs:Literal "91006" , "10491006" , "10491006-91006110:40:001-791006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/146> rdfs:Literal "91006" , "80591006" , "80591006-91006116:00:001-1591006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/147> rdfs:Literal "8171" , "48171" , "48171-8171216:00:002-178171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/148> rdfs:Literal "8171" , "108171" , "108171-8171116:40:001-328171" ;
+	xsd:string "AV.GUADALIX-CENTRO COMERCIAL" , "171 URB. SANTO DOMINGO" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/149> rdfs:Literal "91006" , "10491006" , "10491006-91006110:00:001-691006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/150> rdfs:Literal "93006" , "7793006" , "7793006-93006319:40:001-2193006" ;
+	xsd:string "PºPARQUES-CTRA.A1" , "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/151> rdfs:Literal "91006" , "70591006" , "70591006-91006122:00:001-2491006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/152> rdfs:Literal "8171" , "18171" , "18171-8171211:20:002-108171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/153> rdfs:Literal "92006" , "71692006" , "71692006-92006114:50:001-692006" ;
+	xsd:string "AV.LA VEGA-C.C.LA VEGA" , "lv 2 LA MORALEJA" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/154> rdfs:Literal "8171" , "108171" , "108171-8171118:45:001-408171" ;
+	xsd:string "AV.GUADALIX-CENTRO COMERCIAL" , "171 URB. SANTO DOMINGO" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/155> rdfs:Literal "8171" , "38171" , "38171-8171315:00:001-98171" ;
+	xsd:string "AV.GUADALIX-CENTRO COMERCIAL" , "171 URB. SANTO DOMINGO" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/156> rdfs:Literal "91006" , "80591006" , "80591006-91006122:00:001-2491006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/157> rdfs:Literal "8171" , "128171" , "128171-8171115:30:002cc 318171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/158> rdfs:Literal "8171" , "58171" , "58171-8171217:30:001-188171" ;
+	xsd:string "AV.GUADALIX-CENTRO COMERCIAL" , "171 URB. SANTO DOMINGO" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/159> rdfs:Literal "92006" , "71192006" , "71192006-92006108:15:001-492006" ;
+	xsd:string "AV.LA VEGA-C.C.LA VEGA" , "lv 2 LA MORALEJA" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/160> rdfs:Literal "8171" , "38171" , "38171-8171107:05:001d.38171" ;
+	xsd:string "AV.GUADALIX-CENTRO COMERCIAL" , "Directo" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/161> rdfs:Literal "8171" , "38171" , "38171-8171211:00:002-98171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/162> rdfs:Literal "91006" , "10591006" , "10591006-91006122:00:001-2491006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/163> rdfs:Literal "8171" , "78171" , "78171-8171106:15:002g.r.38171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "Desde La Granjilla" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/164> rdfs:Literal "93006" , "7793006" , "7793006-93006320:30:002-1993006" ;
+	xsd:string "AV.ERMITA-EST.LA MORALEJA" , "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/165> rdfs:Literal "8171" , "68171" , "68171-8171216:00:001-168171" ;
+	xsd:string "AV.GUADALIX-CENTRO COMERCIAL" , "171 URB. SANTO DOMINGO" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/166> rdfs:Literal "8171" , "28171" , "28171-8171210:10:002-88171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/167> rdfs:Literal "93006" , "7693006" , "7693006-93006310:20:001-793006" ;
+	xsd:string "PºPARQUES-CTRA.A1" , "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/168> rdfs:Literal "8171" , "18171" , "18171-8171206:10:002-18171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/169> rdfs:Literal "8171" , "88171" , "88171-8171108:00:001-88171" ;
+	xsd:string "AV.GUADALIX-CENTRO COMERCIAL" , "171 URB. SANTO DOMINGO" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/170> rdfs:Literal "8171" , "78171" , "78171-8171119:15:002cc 468171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/171> rdfs:Literal "8171" , "18171" , "18171-8171310:10:002-58171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/172> rdfs:Literal "92006" , "71292006" , "71292006-92006117:10:002-992006" ;
+	xsd:string "PºCHOPERA-AV.CAMILO JOSÉ CELA" , "lv 2 ALCOBENDAS" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/173> rdfs:Literal "92006" , "71692006" , "71692006-92006115:10:002-892006" ;
+	xsd:string "PºCHOPERA-AV.CAMILO JOSÉ CELA" , "lv 2 ALCOBENDAS" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/174> rdfs:Literal "91006" , "10491006" , "10491006-91006108:40:001-491006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/175> rdfs:Literal "8171" , "18171" , "18171-8171312:10:002-78171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/176> rdfs:Literal "8171" , "38171" , "38171-8171321:00:001-158171" ;
+	xsd:string "AV.GUADALIX-CENTRO DE SALUD" , "Termina en Av. Guadalix Centro de Salud" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/177> rdfs:Literal "93006" , "7693006" , "7693006-93006308:20:001-493006" ;
+	xsd:string "PºPARQUES-CTRA.A1" , "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/178> rdfs:Literal "8171" , "28171" , "28171-8171311:00:002-68171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/179> rdfs:Literal "8171" , "28171" , "28171-8171310:00:001-48171" ;
+	xsd:string "AV.GUADALIX-CENTRO COMERCIAL" , "171 URB. SANTO DOMINGO" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/180> rdfs:Literal "8171" , "38171" , "38171-8171319:00:001-128171" ;
+	xsd:string "AV.GUADALIX-CENTRO COMERCIAL" , "171 URB. SANTO DOMINGO" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/181> rdfs:Literal "8171" , "28171" , "28171-8171119:00:002cc 458171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/182> rdfs:Literal "92006" , "11092006" , "11092006-92006117:10:002-992006" ;
+	xsd:string "PºCHOPERA-AV.CAMILO JOSÉ CELA" , "lv 2 ALCOBENDAS" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/183> rdfs:Literal "8171" , "48171" , "48171-8171110:05:002cc 188171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/184> rdfs:Literal "8171" , "128171" , "128171-8171121:20:002cc 528171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/185> rdfs:Literal "8171" , "68171" , "68171-8171218:00:001-198171" ;
+	xsd:string "AV.GUADALIX-CENTRO COMERCIAL" , "171 URB. SANTO DOMINGO" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/186> rdfs:Literal "91006" , "70591006" , "70591006-91006116:40:001-1691006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/187> rdfs:Literal "8828" , "1238828" , "1238828-8828111:05:001-18828" ;
+	xsd:string "IVÁN PAVLOV-RECTORADO" , "lv 828 ALCOBENDAS-U.AUTONOMA" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/188> rdfs:Literal "92006" , "11192006" , "11192006-92006107:10:001-292006" ;
+	xsd:string "AV.LA VEGA-C.C.LA VEGA" , "lv 2 LA MORALEJA" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/189> rdfs:Literal "91006" , "70491006" , "70491006-91006109:20:001-591006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/190> rdfs:Literal "91006" , "80591006" , "80591006-91006120:00:001-2191006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/191> rdfs:Literal "93006" , "7793006" , "7793006-93006319:00:001-2093006" ;
+	xsd:string "PºPARQUES-CTRA.A1" , "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/192> rdfs:Literal "8171" , "108171" , "108171-8171115:45:002cc 328171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/193> rdfs:Literal "91006" , "80491006" , "80491006-91006106:40:001-191006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/194> rdfs:Literal "92006" , "70992006" , "70992006-92006107:40:001-392006" ;
+	xsd:string "AV.LA VEGA-C.C.LA VEGA" , "lv 2 LA MORALEJA" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/195> rdfs:Literal "8171" , "38171" , "38171-8171208:00:001-38171" ;
+	xsd:string "AV.GUADALIX-CENTRO COMERCIAL" , "171 URB. SANTO DOMINGO" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/196> rdfs:Literal "93006" , "7693006" , "7693006-93006309:10:002-293006" ;
+	xsd:string "AV.ERMITA-EST.LA MORALEJA" , "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/197> rdfs:Literal "8171" , "48171" , "48171-8171319:00:002-148171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/198> rdfs:Literal "91006" , "80591006" , "80591006-91006118:40:001-1991006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/199> rdfs:Literal "8171" , "18171" , "18171-8171111:15:002cc 218171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/200> rdfs:Literal "91006" , "10591006" , "10591006-91006121:20:001-2391006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/201> rdfs:Literal "91006" , "70491006" , "70491006-91006112:40:001-1091006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/202> rdfs:Literal "8171" , "58171" , "58171-8171219:30:001-218171" ;
+	xsd:string "AV.GUADALIX-CENTRO DE SALUD" , "Termina en Av. Guadalix Centro de Salud" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/203> rdfs:Literal "8828" , "1238828" , "1238828-8828113:55:002-58828" ;
+	xsd:string "CANILLEJAS-AREA INTERMODAL" , "lv 828 MADRID(Canillejas)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/204> rdfs:Literal "91006" , "10591006" , "10591006-91006119:20:001-2091006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/205> rdfs:Literal "8171" , "68171" , "68171-8171217:00:002-198171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/206> rdfs:Literal "92006" , "11192006" , "11192006-92006107:30:002-592006" ;
+	xsd:string "PºCHOPERA-AV.CAMILO JOSÉ CELA" , "lv 2 ALCOBENDAS" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/207> rdfs:Literal "8171" , "18171" , "18171-8171110:30:001-178171" ;
+	xsd:string "AV.GUADALIX-CENTRO COMERCIAL" , "171 URB. SANTO DOMINGO" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/208> rdfs:Literal "8171" , "18171" , "18171-8171308:10:002-38171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/209> rdfs:Literal "8171" , "48171" , "48171-8171215:00:001-148171" ;
+	xsd:string "AV.GUADALIX-CENTRO COMERCIAL" , "171 URB. SANTO DOMINGO" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/210> rdfs:Literal "92006" , "11192006" , "11192006-92006108:35:002-492006" ;
+	xsd:string "PºCHOPERA-AV.CAMILO JOSÉ CELA" , "lv 2 ALCOBENDAS" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/211> rdfs:Literal "91006" , "10591006" , "10591006-91006116:00:001-1591006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/212> rdfs:Literal "8171" , "58171" , "58171-8171216:30:002-188171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/213> rdfs:Literal "8171" , "128171" , "128171-8171116:30:001-318171" ;
+	xsd:string "AV.GUADALIX-CENTRO COMERCIAL" , "171 URB. SANTO DOMINGO" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/214> rdfs:Literal "8171" , "18171" , "18171-8171113:40:001-248171" ;
+	xsd:string "AV.GUADALIX-CENTRO DE SALUD" , "Termina en Av. Guadalix Centro de Salud" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/215> rdfs:Literal "8171" , "48171" , "48171-8171106:30:002uc48171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "Hasta/desde Urb. Ciudalcampo" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/216> rdfs:Literal "93006" , "7793006" , "7793006-93006321:00:001-2393006" ;
+	xsd:string "PºPARQUES-CTRA.A1" , "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/217> rdfs:Literal "8828" , "1118828" , "1118828-8828119:05:001a.58828" ;
+	xsd:string "FELICIDAD-HECHIZO" , "Hasta/desde Alcobendas" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/218> rdfs:Literal "91006" , "80491006" , "80491006-91006111:20:001-891006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/219> rdfs:Literal "8171" , "48171" , "48171-8171214:00:002-148171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/220> rdfs:Literal "91006" , "10491006" , "10491006-91006111:20:001-891006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/221> rdfs:Literal "8828" , "1168828" , "1168828-8828115:55:002-68828" ;
+	xsd:string "CANILLEJAS-AREA INTERMODAL" , "lv 828 MADRID(Canillejas)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/222> rdfs:Literal "92006" , "71692006" , "71692006-92006114:05:002-392006" ;
+	xsd:string "PºCHOPERA-AV.CAMILO JOSÉ CELA" , "lv 2 ALCOBENDAS" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/223> rdfs:Literal "8171" , "118171" , "118171-8171117:45:001-368171" ;
+	xsd:string "AV.GUADALIX-CENTRO COMERCIAL" , "171 URB. SANTO DOMINGO" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/224> rdfs:Literal "8171" , "18171" , "18171-8171307:05:001-18171" ;
+	xsd:string "AV.GUADALIX-CENTRO COMERCIAL" , "171 URB. SANTO DOMINGO" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/225> rdfs:Literal "8171" , "88171" , "88171-8171113:00:002cc 258171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/226> rdfs:Literal "8171" , "98171" , "98171-8171120:55:001-498171" ;
+	xsd:string "AV.GUADALIX-CENTRO COMERCIAL" , "171 URB. SANTO DOMINGO" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/227> rdfs:Literal "8171" , "128171" , "128171-8171119:30:002cc 478171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/228> rdfs:Literal "93006" , "7793006" , "7793006-93006319:50:002-1893006" ;
+	xsd:string "AV.ERMITA-EST.LA MORALEJA" , "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/229> rdfs:Literal "91006" , "80491006" , "80491006-91006109:20:001-591006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/230> rdfs:Literal "91006" , "70591006" , "70591006-91006117:20:001-1791006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/231> rdfs:Literal "8171" , "128171" , "128171-8171120:30:001-478171" ;
+	xsd:string "AV.GUADALIX-CENTRO COMERCIAL" , "171 URB. SANTO DOMINGO" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/232> rdfs:Literal "91006" , "70491006" , "70491006-91006106:40:001-191006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/233> rdfs:Literal "8171" , "38171" , "38171-8171212:00:001-98171" ;
+	xsd:string "AV.GUADALIX-CENTRO COMERCIAL" , "171 URB. SANTO DOMINGO" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/234> rdfs:Literal "8171" , "38171" , "38171-8171314:00:002-98171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/235> rdfs:Literal "8171" , "108171" , "108171-8171120:45:001-488171" ;
+	xsd:string "AV.GUADALIX-CENTRO DE SALUD" , "Termina en Av. Guadalix Centro de Salud" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/236> rdfs:Literal "8171" , "18171" , "18171-8171306:20:002-18171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/237> rdfs:Literal "91006" , "10591006" , "10591006-91006120:40:001-2291006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/238> rdfs:Literal "92006" , "71692006" , "71692006-92006112:45:001-992006" ;
+	xsd:string "AV.LA VEGA-C.C.LA VEGA" , "lv 2 LA MORALEJA" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/239> rdfs:Literal "8171" , "38171" , "38171-8171318:00:002-138171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/240> rdfs:Literal "8171" , "18171" , "18171-8171207:00:001-18171" ;
+	xsd:string "AV.GUADALIX-CENTRO COMERCIAL" , "171 URB. SANTO DOMINGO" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/241> rdfs:Literal "91006" , "10491006" , "10491006-91006106:40:001-191006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/242> rdfs:Literal "91006" , "70491006" , "70491006-91006113:20:001-1191006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/243> rdfs:Literal "8171" , "98171" , "98171-8171118:15:002c.428171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "Directo a/desde Urb. Ciudalcampo" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/244> rdfs:Literal "8171" , "28171" , "28171-8171120:00:001-458171" ;
+	xsd:string "AV.GUADALIX-CENTRO COMERCIAL" , "171 URB. SANTO DOMINGO" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/245> rdfs:Literal "91006" , "70491006" , "70491006-91006107:20:001-291006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/246> rdfs:Literal "8171" , "88171" , "88171-8171110:00:001-168171" ;
+	xsd:string "AV.GUADALIX-CENTRO DE SALUD" , "Termina en Av. Guadalix Centro de Salud" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/247> rdfs:Literal "8171" , "128171" , "128171-8171117:30:002cc 398171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/248> rdfs:Literal "8171" , "108171" , "108171-8171117:45:002cc 408171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/249> rdfs:Literal "8171" , "128171" , "128171-8171122:10:001-528171" ;
+	xsd:string "AV.GUADALIX-CENTRO DE SALUD" , "Termina en Av. Guadalix Centro de Salud" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/250> rdfs:Literal "8171" , "48171" , "48171-8171219:00:001-208171" ;
+	xsd:string "AV.GUADALIX-CENTRO COMERCIAL" , "171 URB. SANTO DOMINGO" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/251> rdfs:Literal "8171" , "68171" , "68171-8171221:00:002-248171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/252> rdfs:Literal "8171" , "68171" , "68171-8171108:40:002cc 158171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/253> rdfs:Literal "91006" , "10591006" , "10591006-91006115:20:001-1491006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/254> rdfs:Literal "92006" , "12492006" , "12492006-92006113:05:002-292006" ;
+	xsd:string "PºCHOPERA-AV.CAMILO JOSÉ CELA" , "lv 2 ALCOBENDAS" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/255> rdfs:Literal "8171" , "28171" , "28171-8171206:30:002-28171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/256> rdfs:Literal "8171" , "48171" , "48171-8171110:55:001-188171" ;
+	xsd:string "AV.GUADALIX-CENTRO COMERCIAL" , "171 URB. SANTO DOMINGO" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/257> rdfs:Literal "92006" , "11292006" , "11292006-92006114:50:001-692006" ;
+	xsd:string "AV.LA VEGA-C.C.LA VEGA" , "lv 2 LA MORALEJA" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/258> rdfs:Literal "8171" , "118171" , "118171-8171118:45:002cc 448171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/259> rdfs:Literal "8171" , "38171" , "38171-8171118:00:002cc 418171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/260> rdfs:Literal "93006" , "7693006" , "7693006-93006309:40:001-693006" ;
+	xsd:string "PºPARQUES-CTRA.A1" , "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/261> rdfs:Literal "8171" , "38171" , "38171-8171213:50:001-128171" ;
+	xsd:string "AV.GUADALIX-CENTRO DE SALUD" , "Termina en Av. Guadalix Centro de Salud" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/262> rdfs:Literal "91006" , "70491006" , "70491006-91006112:00:001-991006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/263> rdfs:Literal "8171" , "18171" , "18171-8171106:45:001-18171" ;
+	xsd:string "AV.GUADALIX-CENTRO COMERCIAL" , "171 URB. SANTO DOMINGO" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/264> rdfs:Literal "8171" , "38171" , "38171-8171207:00:002-38171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/265> rdfs:Literal "93006" , "7793006" , "7793006-93006320:20:001-2293006" ;
+	xsd:string "PºPARQUES-CTRA.A1" , "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/266> rdfs:Literal "8171" , "28171" , "28171-8171213:15:001-118171" ;
+	xsd:string "AV.GUADALIX-CENTRO DE SALUD" , "Termina en Av. Guadalix Centro de Salud" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/267> rdfs:Literal "91006" , "80491006" , "80491006-91006108:40:001-491006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/268> rdfs:Literal "8171" , "38171" , "38171-8171209:00:002-68171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/269> rdfs:Literal "8171" , "138171" , "138171-8171115:30:001-288171" ;
+	xsd:string "AV.GUADALIX-CENTRO COMERCIAL" , "171 URB. SANTO DOMINGO" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/270> rdfs:Literal "8171" , "38171" , "38171-8171107:45:002cca 118171" ;
+	xsd:string "LIBERTAD-JULIÁN BAENA CASTRO" , "Procede de Av. Guadalix Centro Comercial hasta Alcobendas y S.S. de los Reyes" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/271> rdfs:Literal "92006" , "71292006" , "71292006-92006115:50:001-1192006" ;
+	xsd:string "AV.LA VEGA-C.C.LA VEGA" , "lv 2 LA MORALEJA" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/272> rdfs:Literal "93006" , "7693006" , "7693006-93006308:30:002-193006" ;
+	xsd:string "AV.ERMITA-EST.LA MORALEJA" , "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/273> rdfs:Literal "8171" , "48171" , "48171-8171109:15:001-138171" ;
+	xsd:string "AV.GUADALIX-CENTRO COMERCIAL" , "171 URB. SANTO DOMINGO" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/274> rdfs:Literal "8171" , "78171" , "78171-8171120:15:001-468171" ;
+	xsd:string "AV.GUADALIX-CENTRO DE SALUD" , "Termina en Av. Guadalix Centro de Salud" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/275> rdfs:Literal "91006" , "10591006" , "10591006-91006118:00:001-1891006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/276> rdfs:Literal "8171" , "138171" , "138171-8171118:20:002cc 438171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/277> rdfs:Literal "91006" , "80491006" , "80491006-91006110:40:001-791006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/278> rdfs:Literal "91006" , "10491006" , "10491006-91006109:20:001-591006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/279> rdfs:Literal "92006" , "12592006" , "12592006-92006108:00:002-692006" ;
+	xsd:string "PºCHOPERA-AV.CAMILO JOSÉ CELA" , "lv 2 ALCOBENDAS" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/280> rdfs:Literal "8171" , "28171" , "28171-8171312:00:001-68171" ;
+	xsd:string "AV.GUADALIX-CENTRO COMERCIAL" , "171 URB. SANTO DOMINGO" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/281> rdfs:Literal "8828" , "1238828" , "1238828-8828111:55:002-48828" ;
+	xsd:string "CANILLEJAS-AREA INTERMODAL" , "lv 828 MADRID(Canillejas)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/282> rdfs:Literal "93006" , "7693006" , "7693006-93006313:40:001-1293006" ;
+	xsd:string "PºPARQUES-CTRA.A1" , "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/283> rdfs:Literal "8828" , "1238828" , "1238828-8828115:55:002-68828" ;
+	xsd:string "CANILLEJAS-AREA INTERMODAL" , "lv 828 MADRID(Canillejas)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/284> rdfs:Literal "91006" , "80491006" , "80491006-91006112:40:001-1091006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/285> rdfs:Literal "8171" , "28171" , "28171-8171209:20:001-58171" ;
+	xsd:string "AV.GUADALIX-CENTRO COMERCIAL" , "171 URB. SANTO DOMINGO" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/286> rdfs:Literal "93006" , "7693006" , "7693006-93006313:10:002-893006" ;
+	xsd:string "AV.ERMITA-EST.LA MORALEJA" , "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/287> rdfs:Literal "8171" , "48171" , "48171-8171220:00:002-238171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/288> rdfs:Literal "8171" , "18171" , "18171-8171112:50:002cc 248171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/289> rdfs:Literal "91006" , "80591006" , "80591006-91006119:20:001-2091006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/290> rdfs:Literal "8171" , "138171" , "138171-8171117:20:001-348171" ;
+	xsd:string "AV.GUADALIX-CENTRO COMERCIAL" , "171 URB. SANTO DOMINGO" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/291> rdfs:Literal "92006" , "12492006" , "12492006-92006112:45:001-992006" ;
+	xsd:string "AV.LA VEGA-C.C.LA VEGA" , "lv 2 LA MORALEJA" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/292> rdfs:Literal "8171" , "48171" , "48171-8171222:00:002-258171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/293> rdfs:Literal "8828" , "1248828" , "1248828-8828117:55:002-78828" ;
+	xsd:string "CANILLEJAS-AREA INTERMODAL" , "lv 828 MADRID(Canillejas)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/294> rdfs:Literal "8171" , "18171" , "18171-8171109:35:002cc 178171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/295> rdfs:Literal "93006" , "7693006" , "7693006-93006311:10:002-593006" ;
+	xsd:string "AV.ERMITA-EST.LA MORALEJA" , "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/296> rdfs:Literal "8171" , "18171" , "18171-8171209:30:002-78171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/297> rdfs:Literal "8171" , "58171" , "58171-8171107:25:001-58171" ;
+	xsd:string "AV.GUADALIX-CENTRO COMERCIAL" , "171 URB. SANTO DOMINGO" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/298> rdfs:Literal "92006" , "12592006" , "12592006-92006108:45:001-192006" ;
+	xsd:string "AV.LA VEGA-C.C.LA VEGA" , "lv 2 LA MORALEJA" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/299> rdfs:Literal "8171" , "18171" , "18171-8171309:10:001-38171" ;
+	xsd:string "AV.GUADALIX-CENTRO COMERCIAL" , "171 URB. SANTO DOMINGO" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/300> rdfs:Literal "8171" , "48171" , "48171-8171318:00:001-128171" ;
+	xsd:string "AV.GUADALIX-CENTRO COMERCIAL" , "171 URB. SANTO DOMINGO" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/301> rdfs:Literal "93006" , "7693006" , "7693006-93006309:00:001-593006" ;
+	xsd:string "PºPARQUES-CTRA.A1" , "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/302> rdfs:Literal "8171" , "48171" , "48171-8171111:40:002cc 228171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/303> rdfs:Literal "8171" , "108171" , "108171-8171114:50:001-278171" ;
+	xsd:string "AV.GUADALIX-CENTRO COMERCIAL" , "171 URB. SANTO DOMINGO" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/304> rdfs:Literal "8171" , "138171" , "138171-8171116:20:002cc 348171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/305> rdfs:Literal "91006" , "80591006" , "80591006-91006117:20:001-1791006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/306> rdfs:Literal "92006" , "71192006" , "71192006-92006109:40:002-792006" ;
+	xsd:string "PºCHOPERA-AV.CAMILO JOSÉ CELA" , "lv 2 ALCOBENDAS" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/307> rdfs:Literal "91006" , "70491006" , "70491006-91006108:00:001-391006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/308> rdfs:Literal "8171" , "48171" , "48171-8171322:00:001-168171" ;
+	xsd:string "AV.GUADALIX-CENTRO DE SALUD" , "Termina en Av. Guadalix Centro de Salud" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/309> rdfs:Literal "91006" , "70591006" , "70591006-91006114:40:001-1391006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/310> rdfs:Literal "93006" , "7693006" , "7693006-93006311:00:001-893006" ;
+	xsd:string "PºPARQUES-CTRA.A1" , "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/311> rdfs:Literal "92006" , "70992006" , "70992006-92006108:00:002-692006" ;
+	xsd:string "PºCHOPERA-AV.CAMILO JOSÉ CELA" , "lv 2 ALCOBENDAS" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/312> rdfs:Literal "8171" , "68171" , "68171-8171106:45:002uc68171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "Hasta/desde Urb. Ciudalcampo" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/313> rdfs:Literal "91006" , "70491006" , "70491006-91006110:00:001-691006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/314> rdfs:Literal "92006" , "11092006" , "11092006-92006115:50:001-1192006" ;
+	xsd:string "AV.LA VEGA-C.C.LA VEGA" , "lv 2 LA MORALEJA" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/315> rdfs:Literal "93006" , "7793006" , "7793006-93006321:10:002-2093006" ;
+	xsd:string "AV.ERMITA-EST.LA MORALEJA" , "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/316> rdfs:Literal "8171" , "28171" , "28171-8171308:00:001-28171" ;
+	xsd:string "AV.GUADALIX-CENTRO COMERCIAL" , "171 URB. SANTO DOMINGO" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/317> rdfs:Literal "8171" , "98171" , "98171-8171120:05:002cc 498171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/318> rdfs:Literal "8171" , "48171" , "48171-8171113:30:002cc 268171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/319> rdfs:Literal "91006" , "70491006" , "70491006-91006110:40:001-791006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/320> rdfs:Literal "8171" , "148171" , "148171-8171106:50:002cc 78171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/321> rdfs:Literal "8171" , "118171" , "118171-8171116:00:001-308171" ;
+	xsd:string "AV.GUADALIX-CENTRO COMERCIAL" , "171 URB. SANTO DOMINGO" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/322> rdfs:Literal "8171" , "58171" , "58171-8171110:20:002cc 198171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/323> rdfs:Literal "8171" , "58171" , "58171-8171320:30:001-158171" ;
+	xsd:string "AV.GUADALIX-CENTRO DE SALUD" , "Termina en Av. Guadalix Centro de Salud" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/324> rdfs:Literal "8171" , "58171" , "58171-8171108:25:002cc 148171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/325> rdfs:Literal "92006" , "70992006" , "70992006-92006108:45:001-192006" ;
+	xsd:string "AV.LA VEGA-C.C.LA VEGA" , "lv 2 LA MORALEJA" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/326> rdfs:Literal "8171" , "28171" , "28171-8171120:50:002cc 518171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/327> rdfs:Literal "8171" , "78171" , "78171-8171107:50:002cc 128171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/328> rdfs:Literal "8171" , "28171" , "28171-8171314:00:001-88171" ;
+	xsd:string "AV.GUADALIX-CENTRO DE SALUD" , "Termina en Av. Guadalix Centro de Salud" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/329> rdfs:Literal "8171" , "28171" , "28171-8171117:05:002cc 378171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/330> rdfs:Literal "93006" , "7793006" , "7793006-93006315:40:001-1593006" ;
+	xsd:string "PºPARQUES-CTRA.A1" , "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/331> rdfs:Literal "8171" , "38171" , "38171-8171212:50:002-128171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/332> rdfs:Literal "92006" , "10992006" , "10992006-92006109:20:001-592006" ;
+	xsd:string "AV.LA VEGA-C.C.LA VEGA" , "lv 2 LA MORALEJA" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/333> rdfs:Literal "92006" , "11192006" , "11192006-92006108:15:001-492006" ;
+	xsd:string "AV.LA VEGA-C.C.LA VEGA" , "lv 2 LA MORALEJA" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/334> rdfs:Literal "92006" , "71192006" , "71192006-92006107:30:002-592006" ;
+	xsd:string "PºCHOPERA-AV.CAMILO JOSÉ CELA" , "lv 2 ALCOBENDAS" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/335> rdfs:Literal "8171" , "28171" , "28171-8171207:30:001-28171" ;
+	xsd:string "AV.GUADALIX-CENTRO COMERCIAL" , "171 URB. SANTO DOMINGO" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/336> rdfs:Literal "8171" , "98171" , "98171-8171122:30:001-538171" ;
+	xsd:string "AV.GUADALIX-CENTRO DE SALUD" , "Termina en Av. Guadalix Centro de Salud" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/337> rdfs:Literal "91006" , "80491006" , "80491006-91006107:20:001-291006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/338> rdfs:Literal "8171" , "48171" , "48171-8171321:00:002-168171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/339> rdfs:Literal "8171" , "68171" , "68171-8171113:10:001-238171" ;
+	xsd:string "AV.GUADALIX-CENTRO DE SALUD" , "Termina en Av. Guadalix Centro de Salud" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/340> rdfs:Literal "8171" , "58171" , "58171-8171109:25:001-148171" ;
+	xsd:string "AV.GUADALIX-CENTRO COMERCIAL" , "171 URB. SANTO DOMINGO" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/341> rdfs:Literal "8828" , "1238828" , "1238828-8828107:15:002a.18828" ;
+	xsd:string "CANILLEJAS-AREA INTERMODAL" , "Hasta/desde Alcobendas" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/342> rdfs:Literal "8171" , "58171" , "58171-8171111:05:001-198171" ;
+	xsd:string "AV.GUADALIX-CENTRO DE SALUD" , "Termina en Av. Guadalix Centro de Salud" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/343> rdfs:Literal "92006" , "11092006" , "11092006-92006116:10:002-1292006" ;
+	xsd:string "PºCHOPERA-AV.CAMILO JOSÉ CELA" , "lv 2 ALCOBENDAS" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/344> rdfs:Literal "91006" , "80591006" , "80591006-91006118:00:001-1891006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/345> rdfs:Literal "91006" , "10591006" , "10591006-91006120:00:001-2191006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/346> rdfs:Literal "8171" , "98171" , "98171-8171117:35:001c.358171" ;
+	xsd:string "PZA.LA FUENTE-URB.CIUDALCAMPO" , "Directo a/desde Urb. Ciudalcampo" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/347> rdfs:Literal "93006" , "7793006" , "7793006-93006319:10:002-1793006" ;
+	xsd:string "AV.ERMITA-EST.LA MORALEJA" , "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/348> rdfs:Literal "8171" , "48171" , "48171-8171221:00:001-238171" ;
+	xsd:string "AV.GUADALIX-CENTRO COMERCIAL" , "171 URB. SANTO DOMINGO" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/349> rdfs:Literal "8171" , "48171" , "48171-8171315:00:002-108171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/350> rdfs:Literal "8171" , "58171" , "58171-8171215:30:001-158171" ;
+	xsd:string "AV.GUADALIX-CENTRO COMERCIAL" , "171 URB. SANTO DOMINGO" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/351> rdfs:Literal "93006" , "7693006" , "7693006-93006309:50:002-393006" ;
+	xsd:string "AV.ERMITA-EST.LA MORALEJA" , "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/352> rdfs:Literal "91006" , "80491006" , "80491006-91006112:00:001-991006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/353> rdfs:Literal "92006" , "11292006" , "11292006-92006114:05:002-392006" ;
+	xsd:string "PºCHOPERA-AV.CAMILO JOSÉ CELA" , "lv 2 ALCOBENDAS" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/354> rdfs:Literal "8828" , "1168828" , "1168828-8828117:05:001-48828" ;
+	xsd:string "IVÁN PAVLOV-RECTORADO" , "lv 828 ALCOBENDAS-U.AUTONOMA" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/355> rdfs:Literal "91006" , "70591006" , "70591006-91006120:00:001-2191006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/356> rdfs:Literal "91006" , "70591006" , "70591006-91006118:00:001-1891006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/357> rdfs:Literal "8171" , "48171" , "48171-8171108:10:002cc 138171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/358> rdfs:Literal "8171" , "18171" , "18171-8171212:30:001-108171" ;
+	xsd:string "AV.GUADALIX-CENTRO COMERCIAL" , "171 URB. SANTO DOMINGO" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/359> rdfs:Literal "8171" , "48171" , "48171-8171223:00:001-258171" ;
+	xsd:string "AV.GUADALIX-CENTRO DE SALUD" , "Termina en Av. Guadalix Centro de Salud" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/360> rdfs:Literal "93006" , "7693006" , "7693006-93006311:50:002-693006" ;
+	xsd:string "AV.ERMITA-EST.LA MORALEJA" , "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	xsd:boolean "1" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/361> rdfs:Literal "8171" , "48171" , "48171-8171316:00:001-108171" ;
+	xsd:string "AV.GUADALIX-CENTRO COMERCIAL" , "171 URB. SANTO DOMINGO" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/362> rdfs:Literal "91006" , "70491006" , "70491006-91006108:40:001-491006" ;
+	xsd:string "CAMINO HUERTA-CºANCHO" , "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	xsd:boolean "0" .
+
+<http://www.semanticweb.org/group12/resources/Servicio/363> rdfs:Literal "8171" , "58171" , "58171-8171214:30:002-158171" ;
+	xsd:string "INTERCAMBIADOR DE PLAZA CASTILLA" , "171 MADRID (Pza. Castilla)" ;
+	xsd:boolean "1" .

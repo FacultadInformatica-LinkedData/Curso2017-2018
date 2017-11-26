@@ -1,0 +1,50 @@
+# How many accidents were there in Madrid in 2013?
+
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX pr: <http://example.org/myVocabulary#>
+
+SELECT (SUM(?accidents) AS ?total) WHERE {
+?obs a qb:Observation;
+   pr:numberOfAccidents ?accidents.
+}
+
+
+# Give me the number of accidents in Usera for each type of accident 
+
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX pr: <http://example.org/myVocabulary#>
+
+SELECT ?typeAcc ?accidents WHERE {
+?obs a qb:Observation;
+   pr:relatedDistrict "USERA";
+   pr:hasAccidentType ?typeAcc;
+   pr:numberOfAccidents ?accidents.
+}
+
+
+# Give me the number of multiple collisions for each district
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX pr: <http://example.org/myVocabulary#>
+
+SELECT ?district ?accidents WHERE {
+?obs a qb:Observation;
+   pr:relatedDistrict ?district;
+   pr:hasAccidentType pr:MultipleCollision;
+   pr:numberOfAccidents ?accidents.
+}
+
+
+# Give me the districts with more than 500 accidents in 2013
+
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX pr: <http://example.org/myVocabulary#>
+
+SELECT ?district ?accidentsDist{
+   {
+      SELECT ?district (SUM(xsd:double(?accidents)) AS ?accidentsDist) WHERE {
+      ?obs a qb:Observation;
+      pr:relatedDistrict ?district;
+	   pr:numberOfAccidents ?accidents.
+      } GROUP BY ?district
+   }FILTER(?accidentsDist> 500)
+} ORDER BY ASC(?accidentsDist)
