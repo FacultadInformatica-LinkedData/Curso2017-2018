@@ -1,0 +1,79 @@
+# 1) Cantidad accidentes en Madrid en el 2013
+
+PREFIX grafic: <http://example.org/myVocabulary#>
+PREFIX cub: <http://purl.org/linked-data/cube#>
+PREFIX dat: <http://example.org/resources/> 
+
+SELECT (SUM(?k) AS ?absoluto)
+WHERE {
+  ?obs a cub:Observation;
+    grafic:numberOfAccidents ?k.
+    grafic: relatedDistrict ?w;
+    grafic: hasAccidentType ?x;
+    cub:dataSet dat:MyDataset .
+}
+
+
+# 2) Cada tipo de accidentes en Usera con su cuantia
+
+PREFIX grafic: <http://example.org/myVocabulary#>
+PREFIX cub: <http://purl.org/linked-data/cube#>
+
+SELECT ?type ?cnt
+WHERE {
+  ?obs a cub:Observation;
+    grafic:numberOfAccidents ?cnt;
+    grafic:relatedDistrict "USERA";
+    grafic:hasAccidentType ?type
+}
+
+
+# 3) numero de colisiones multiples en cada distrito
+
+PREFIX grafic: <http://example.org/myVocabulary#>
+PREFIX cub: <http://purl.org/linked-data/cube#>
+
+SELECT DISTINCT ?distrito xsd:integer(?cnt) as ?cntacc
+WHERE {
+  ?obs a cub:Observation;
+    grafic:relatedDistrict ?distrito;
+    grafic:hasAccidentType grafic:MultipleCollision;
+    grafic:relatedDistrict ?cnt.
+}
+
+
+# 4) Distrito con mas numero de caidas de bicis en 2013
+
+PREFIX grafic: <http://example.org/myVocabulary#>
+PREFIX cub: <http://purl.org/linked-data/cube#>
+
+SELECT ?distrito ?tot
+WHERE {
+  ?obs a cub:Observation;
+    grafic:numberOfAccidents ?tot;
+    grafic:hasAccidentType grafic:BicycleFall;
+    grafic:relatedDistrict ?distrito.
+
+   {
+    SELECT (MAX(?cnt) as ?tot)
+    WHERE{
+       ?obs a cub:Observation;
+          grafic:numberOfAccidents ?cnt;
+          grafic:hasAccidentType grafic:BicycleFall.
+   }
+ }
+
+
+
+# 5) los distritos que tuvieron en 2013 mas de 500 accidentes
+
+PREFIX grafic: <http://example.org/myVocabulary#>
+PREFIX cub: <http://purl.org/linked-data/cube#>
+
+SELECT DISTINCT (?distrito) xsd:double(?cnt) as ?absoluto
+WHERE {
+  ?obs a cub:Observation;
+    grafic:relatedDistrict ?distrito;
+    grafic:numberOfAccidents ?cnt.
+    FILTER(?cnt > 500).
+    }

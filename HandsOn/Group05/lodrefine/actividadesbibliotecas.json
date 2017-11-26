@@ -1,0 +1,38 @@
+[
+  {
+    "op": "core/column-rename",
+    "description": "Rename column TITULO to TITLE",
+    "oldColumnName": "TITULO",
+    "newColumnName": "TITLE"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column HORARIO to TIMETABLE",
+    "oldColumnName": "HORARIO",
+    "newColumnName": "TIMETABLE"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column FECHA to DATE-START",
+    "oldColumnName": "FECHA",
+    "newColumnName": "DATE-START"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column FECHA-FIN to DATE-END",
+    "oldColumnName": "FECHA-FIN",
+    "newColumnName": "DATE-END"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column URL-ACTIVIDAD to URL",
+    "oldColumnName": "URL-ACTIVIDAD",
+    "newColumnName": "URL"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column NOMBRE-INSTALACION to LOCATION",
+    "oldColumnName": "NOMBRE-INSTALACION",
+    "newColumnName": "LOCATION"
+  }
+]

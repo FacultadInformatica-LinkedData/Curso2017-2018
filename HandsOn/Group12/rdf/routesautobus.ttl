@@ -1,0 +1,26 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+<http://www.semanticweb.org/group12/resources/Ruta/0> rdfs:Literal "8828" ;
+	xsd:string "828" , "MADRID (Canillejas)-ALCOBENDAS-UNIVERSIDAD AUTÓNOMA" , "http://www.crtm.es/tu-transporte-publico/autobuses-interurbanos/lineas/8__828___.aspx" ;
+	xsd:hexBinary "8EBF42" , "FFFFFF" .
+
+<http://www.semanticweb.org/group12/resources/Ruta/1> rdfs:Literal "91006" ;
+	xsd:string "1" , "ARROYO DE LA VEGA-EL SOTO-LA MORALEJA" , "http://www.crtm.es/tu-transporte-publico/otros-autobuses-urbanos/lineas/9__1__006_.aspx" ;
+	xsd:hexBinary "E60003" , "FFFFFF" .
+
+<http://www.semanticweb.org/group12/resources/Ruta/2> rdfs:Literal "92006" ;
+	xsd:string "2" , "ALCOBENDAS-LA MORALEJA" , "http://www.crtm.es/tu-transporte-publico/otros-autobuses-urbanos/lineas/9__2__006_.aspx" ;
+	xsd:hexBinary "E60003" , "FFFFFF" .
+
+<http://www.semanticweb.org/group12/resources/Ruta/3> rdfs:Literal "8171" ;
+	xsd:string "171" , "MADRID (Plaza de Castilla)-URB. SANTO DOMINGO" , "http://www.crtm.es/tu-transporte-publico/autobuses-interurbanos/lineas/8__171___.aspx" ;
+	xsd:hexBinary "8EBF42" , "FFFFFF" .
+
+<http://www.semanticweb.org/group12/resources/Ruta/4> rdfs:Literal "93006" ;
+	xsd:string "3" , "ARROYO DE LA VEGA-SOTO DE LA MORALEJA-EL ENCINAR DE LOS REYES" , "http://www.crtm.es/tu-transporte-publico/otros-autobuses-urbanos/lineas/9__3__006_.aspx" ;
+	xsd:hexBinary "E60003" , "FFFFFF" .

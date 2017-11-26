@@ -1,0 +1,40 @@
+PREFIX rdfs: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX ex: <http://example.org/myVocabulary#>
+
+SELECT SUM(<http://www.w3.org/2001/XMLSchema#integer>(?number_accidents)) AS ?total WHERE
+{
+	?accident_types rdfs:type ex:AccidentType .
+	?accident ex:hasAccidentType ?accident_types .
+	?accident ex:numberOfAccidents ?number_accidents
+}
+
+SELECT SUM(<http://www.w3.org/2001/XMLSchema#integer>(?number_accidents)) AS ?total WHERE
+{
+	?accident_types rdfs:type ex:AccidentType .
+	?accident ex:hasAccidentType ?accident_types FILTER regex(?accident, "^.*usera.*", "i") .
+	?accident ex:numberOfAccidents ?number_accidents
+}
+
+SELECT ?accident ?number_accidents WHERE
+{
+	?accident_types rdfs:type ex:AccidentType .
+	?accident ex:hasAccidentType ?accident_types .
+	?accident ex:hasAccidentType ex:MultipleCollision .
+	?accident ex:numberOfAccidents ?number_accidents
+}
+
+SELECT ?accident ?number_accidents WHERE
+{
+	?accident_types rdfs:type ex:AccidentType .
+	?accident ex:hasAccidentType ?accident_types .
+	?accident ex:hasAccidentType ex:MultipleCollision .
+	?accident ex:numberOfAccidents ?number_accidents
+}
+
+SELECT ?accident WHERE
+{
+	?accident_types rdfs:type ex:AccidentType .
+	?accident ex:hasAccidentType ?accident_types .
+	?accident ex:hasAccidentType ex:BicycleFall .
+	?accident ex:numberOfAccidents ?number_accidents
+} ORDER BY DESC(<http://www.w3.org/2001/XMLSchema#integer>(?number_accidents)) LIMIT 1
