@@ -1,0 +1,45 @@
+1- 
+
+PREFIX voc: <http://example.org/myVocabulary#>
+PREFIX cube: <http://purl.org/linked-data/cube#>
+
+select sum(?x) AS ?total where {
+?s a cube:Observation ;
+voc:numberOfAccidents ?x.
+}
+
+2- 
+
+PREFIX voc: <http://example.org/myVocabulary#>
+PREFIX cube: <http://purl.org/linked-data/cube#>
+
+select ?accidentes where {
+?s a cube:Observation.
+?s voc:relatedDistrict "USERA".
+?s voc:numberOfAccidents ?accidentes.
+}
+
+3-
+
+PREFIX voc: <http://example.org/myVocabulary#>
+PREFIX cube: <http://purl.org/linked-data/cube#>
+
+select ?distrito ?numero where {
+?s a cube:Observation.
+?s voc:relatedDistrict ?distrito.
+?s voc:hasAccidentType voc:MultipleCollision.
+?s voc:numberOfAccidents ?numero.
+}
+
+4-
+
+PREFIX voc: <http://example.org/myVocabulary#>
+PREFIX cube: <http://purl.org/linked-data/cube#>
+
+select ?distrito ?numero where {
+?s a cube:Observation.
+?s voc:relatedDistrict ?distrito.
+?s voc:hasAccidentType voc:BicycleFall.
+?s voc:numberOfAccidents ?numero.
+}
+Order by desc(?numero)
