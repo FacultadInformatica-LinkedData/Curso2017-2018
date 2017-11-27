@@ -1,0 +1,11 @@
+@prefix sn: <http://www.ontogrid.net/StickyNote#> .
+@prefix xm: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.ontogrid.net/StickyNote#Class01> sn:involves sn:Sensor029, sn:Computer101 .
+sn:Sensor029 sn:hasMeasurement sn:Measurement8401 .
+sn:Measurement8401
+  sn:hasTemperature 29.0 ;
+  sn:atTime "2010-06-12T12:00:12"^^xm:dateTime .
+
+sn:Computer101 sn:hasOwner sn:User10A .
+sn:User10A sn:hasOwner "Pedro"^^xm:string .

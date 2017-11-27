@@ -1,0 +1,60 @@
+PREFIX mn: <http://example.org/resources/>
+PREFIX mv: <http://example.org/myVocabulary#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+
+
+#Query 1
+SELECT (SUM(?numAccidentes) as ?totalAccidentes) WHERE
+{
+  ?obs a qb:Observation ;
+  mv:hasAccidentType ?tipoAccidente ;
+  mv:numberOfAccidents ?numAccidentes .
+}
+
+
+#Query 2
+SELECT ?tipoAccidente ?numeroAccidentes WHERE
+{
+  ?obs a qb:Observation ;
+  mv:relatedDistrict "USERA" ;
+  mv:hasAccidentType ?tipoAccidente ;
+  mv:numberOfAccidents ?numeroAccidentes .
+}
+
+
+#Query 3
+SELECT ?distrito ?numAccidentes WHERE
+{
+  ?obs a qb:Observation ;
+  mv:relatedDistrict ?distrito ;
+  mv:hasAccidentType mv:MultipleCollision ;
+  mv:numberOfAccidents ?numAccidentes .
+}
+
+
+#Query 4
+SELECT ?distrito ?maxAccidentes WHERE
+{
+  ?obs a qb:Observation ;
+  mv:relatedDistrict ?distrito ;
+  mv:hasAccidentType mv:BicycleFall ;
+  mv:numberOfAccidents ?maxAccidentes .
+
+  { SELECT (MAX(?numAccidentes) as ?maxAccidentes) WHERE {
+    ?obs a qb:Observation ;
+    mv:hasAccidentType mv:BicycleFall ;
+    mv:numberOfAccidents ?numAccidentes .
+  }
+  }
+}
+
+
+#Query 5
+SELECT ?distrito ?numAccidentes WHERE
+{{ SELECT ?distrito (SUM(xsd:int(?numero)) AS ?numAccidentes) WHERE
+  { ?obs a qb:Observation ;
+    mv:relatedDistrict ?distrito ;
+    mv:numberOfAccidents ?numero .
+  }
+} FILTER (?numAccidentes > 500)
+}ORDER BY asc(?numAccidentes)

@@ -1,0 +1,170 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF xmlns="http://www.example.linkeddata.es/"
+     xml:base="http://www.example.linkeddata.es/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://www.example.linkeddata.es/"/>
+ 
+	
+	<!-- 
+	///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////-->
+    <!-- http://www.example.linkeddata.es/Capital -->
+    <owl:DatatypeProperty rdf:about="http://www.example.linkeddata.es/Capital">
+        <rdfs:domain rdf:resource="http://www.example.linkeddata.es/Country"/>
+        <rdfs:range rdf:resource="&xsd;int"/>
+    </owl:DatatypeProperty>
+    
+    <!-- http://www.example.linkeddata.es/Code -->
+    <owl:DatatypeProperty rdf:about="http://www.example.linkeddata.es/Code">
+        <rdfs:domain rdf:resource="http://www.example.linkeddata.es/Country"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+    <!-- http://www.example.linkeddata.es/Code2 -->
+    <owl:DatatypeProperty rdf:about="http://www.example.linkeddata.es/Code2">
+        <rdfs:domain rdf:resource="http://www.example.linkeddata.es/Country"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+    <!-- http://www.example.linkeddata.es/Continent -->
+    <owl:DatatypeProperty rdf:about="http://www.example.linkeddata.es/Continent">
+        <rdfs:domain rdf:resource="http://www.example.linkeddata.es/Country"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+    <!-- http://www.example.linkeddata.es/CountryCode -->
+    <owl:DatatypeProperty rdf:about="http://www.example.linkeddata.es/CountryCode">
+        <rdfs:domain rdf:resource="http://www.example.linkeddata.es/City"/>
+        <rdfs:domain rdf:resource="http://www.example.linkeddata.es/CountryLanguage"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+    <!-- http://www.example.linkeddata.es/District -->
+    <owl:DatatypeProperty rdf:about="http://www.example.linkeddata.es/District">
+        <rdfs:domain rdf:resource="http://www.example.linkeddata.es/City"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+    <!-- http://www.example.linkeddata.es/GNP -->
+    <owl:DatatypeProperty rdf:about="http://www.example.linkeddata.es/GNP">
+        <rdfs:domain rdf:resource="http://www.example.linkeddata.es/Country"/>
+        <rdfs:range rdf:resource="&xsd;float"/>
+    </owl:DatatypeProperty>
+    
+    <!-- http://www.example.linkeddata.es/GNPOld -->
+    <owl:DatatypeProperty rdf:about="http://www.example.linkeddata.es/GNPOld">
+        <rdfs:domain rdf:resource="http://www.example.linkeddata.es/Country"/>
+        <rdfs:range rdf:resource="&xsd;float"/>
+    </owl:DatatypeProperty>
+    
+    <!-- http://www.example.linkeddata.es/GovernmentForm -->
+    <owl:DatatypeProperty rdf:about="http://www.example.linkeddata.es/GovernmentForm">
+        <rdfs:domain rdf:resource="http://www.example.linkeddata.es/Country"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+    <!-- http://www.example.linkeddata.es/HeadOfState -->
+    <owl:DatatypeProperty rdf:about="http://www.example.linkeddata.es/HeadOfState">
+        <rdfs:domain rdf:resource="http://www.example.linkeddata.es/Country"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+    <!-- http://www.example.linkeddata.es/Id -->
+    <owl:DatatypeProperty rdf:about="http://www.example.linkeddata.es/Id">
+        <rdfs:domain rdf:resource="http://www.example.linkeddata.es/City"/>
+        <rdfs:range rdf:resource="&xsd;int"/>
+    </owl:DatatypeProperty>
+    
+    <!-- http://www.example.linkeddata.es/IndepYear -->
+    <owl:DatatypeProperty rdf:about="http://www.example.linkeddata.es/IndepYear">
+        <rdfs:domain rdf:resource="http://www.example.linkeddata.es/Country"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+    <!-- http://www.example.linkeddata.es/IsOfficial -->
+
+    <owl:DatatypeProperty rdf:about="http://www.example.linkeddata.es/IsOfficial">
+        <rdfs:domain rdf:resource="http://www.example.linkeddata.es/CountryLanguage"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+    <!-- http://www.example.linkeddata.es/Language -->
+    <owl:DatatypeProperty rdf:about="http://www.example.linkeddata.es/Language">
+        <rdfs:domain rdf:resource="http://www.example.linkeddata.es/CountryLanguage"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+    <!-- http://www.example.linkeddata.es/LifeExpectancy -->
+    <owl:DatatypeProperty rdf:about="http://www.example.linkeddata.es/LifeExpectancy">
+        <rdfs:domain rdf:resource="http://www.example.linkeddata.es/Country"/>
+        <rdfs:range rdf:resource="&xsd;float"/>
+    </owl:DatatypeProperty>
+    
+    <!-- http://www.example.linkeddata.es/LocalName -->
+    <owl:DatatypeProperty rdf:about="http://www.example.linkeddata.es/LocalName">
+        <rdfs:domain rdf:resource="http://www.example.linkeddata.es/Country"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+    <!-- http://www.example.linkeddata.es/Name -->
+    <owl:DatatypeProperty rdf:about="http://www.example.linkeddata.es/Name">
+        <rdfs:domain rdf:resource="http://www.example.linkeddata.es/City"/>
+        <rdfs:domain rdf:resource="http://www.example.linkeddata.es/Country"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+    <!-- http://www.example.linkeddata.es/Percentage -->
+    <owl:DatatypeProperty rdf:about="http://www.example.linkeddata.es/Percentage">
+        <rdfs:domain rdf:resource="http://www.example.linkeddata.es/CountryLanguage"/>
+        <rdfs:range rdf:resource="&xsd;float"/>
+    </owl:DatatypeProperty>
+    
+    <!-- http://www.example.linkeddata.es/Population -->
+    <owl:DatatypeProperty rdf:about="http://www.example.linkeddata.es/Population">
+        <rdfs:domain rdf:resource="http://www.example.linkeddata.es/City"/>
+        <rdfs:domain rdf:resource="http://www.example.linkeddata.es/Country"/>
+        <rdfs:range rdf:resource="&xsd;int"/>
+    </owl:DatatypeProperty>
+    
+    <!-- http://www.example.linkeddata.es/Region -->
+    <owl:DatatypeProperty rdf:about="http://www.example.linkeddata.es/Region">
+        <rdfs:domain rdf:resource="http://www.example.linkeddata.es/Country"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+    <!-- http://www.example.linkeddata.es/SurfaceArea -->
+    <owl:DatatypeProperty rdf:about="http://www.example.linkeddata.es/SurfaceArea">
+        <rdfs:domain rdf:resource="http://www.example.linkeddata.es/Country"/>
+        <rdfs:range rdf:resource="&xsd;float"/>
+    </owl:DatatypeProperty>
+    
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////-->
+    <!-- http://www.example.linkeddata.es/City -->
+    <owl:Class rdf:about="http://www.example.linkeddata.es/City"/>
+    
+    <!-- http://www.example.linkeddata.es/Country -->
+    <owl:Class rdf:about="http://www.example.linkeddata.es/Country"/>
+
+    <!-- http://www.example.linkeddata.es/CountryLanguage -->
+    <owl:Class rdf:about="http://www.example.linkeddata.es/CountryLanguage"/>
+</rdf:RDF>

@@ -1,0 +1,80 @@
+1. Accidents in Madrid in 2013
+
+PREFIX mv: <http://example.org/myVocabulary#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+
+SELECT sum(?acc) as ?accidentsMadrid2013 WHERE
+{ 
+	?obs a qb:Observation;
+  	mv:numberOfAccidents ?acc.
+}
+
+2. Accidents in Usera by type
+
+PREFIX mv: <http://example.org/myVocabulary#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+
+SELECT ?accidentType (xsd:integer(?accidentsUsera) as ?accidentNumber) WHERE 
+{
+ 	?obs a qb:Observation;
+
+  	mv:relatedDistrict "USERA";
+	mv:numberOfAccidents ?accidentsUsera;
+   	mv:hasAccidentType ?accidentType.
+}
+
+3. Multiple collisions for each district
+
+PREFIX mv: <http://example.org/myVocabulary#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+
+SELECT ?district (xsd:integer(?number) as ?multipleCollisions)
+WHERE
+{  
+	?obs a qb:Observation;
+
+   	mv:relatedDistrict ?district;
+  	mv:hasAccidentType mv:MultipleCollision;
+   	mv:numberOfAccidents ?number.
+}
+
+4. District with higher number of bicycle falls in 2013?
+
+PREFIX mv: <http://example.org/myVocabulary#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+
+SELECT ?district (xsd:integer(?number) as ?maxBicycleFalls) WHERE 
+{ 
+	?obs a qb:Observation;
+
+  	mv:relatedDistrict ?district;
+  	mv:hasAccidentType mv:BicycleFall;
+  	mv:numberOfAccidents ?number 
+  	{ 
+		SELECT (MAX(?accidents) AS ?number) WHERE 
+    		{ 
+			?obs a qb:Observation;
+
+     			mv:relatedDistrict ?district;
+      			mv:hasAccidentType mv:BicycleFall;
+      			mv:numberOfAccidents ?accidents.
+    		}
+  	}
+}
+
+5. Districts with more than 500 accidents in 2013
+
+PREFIX mv: <http://example.org/myVocabulary#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+
+SELECT ?district ?accidents 
+WHERE 
+{{ SELECT ?district SUM(xsd:integer(?number)) AS ?accidents WHERE 
+   	{ 
+		?obs a qb:Observation;
+
+    		 mv:relatedDistrict ?district;
+    		 mv:numberOfAccidents ?number.
+   	}
+  } FILTER (?accidents > 500)
+}

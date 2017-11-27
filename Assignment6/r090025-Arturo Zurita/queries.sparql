@@ -1,0 +1,80 @@
+1. Accidentes en Madrid en 2013
+
+PREFIX grafic: <http://example.org/myVocabulary#> 
+PREFIX cub: <http://purl.org/linked-data/cube#>  
+
+SELECT (SUM(?x) AS ?totalAccidentsInMadrid) WHERE { 
+   ?obs a cub:Observation; 
+   grafic:numberOfAccidents ?x. 
+}
+
+
+
+2. Accidentes en Usera por tipo de accidente
+
+PREFIX grafic: <http://example.org/myVocabulary#> 
+PREFIX cub: <http://purl.org/linked-data/cube#>  
+
+SELECT (SUM(xsd:int(?x)) AS ?totalAccidentsInUsera) ?tipeAccident WHERE {  
+  ?obs a cub:Observation; 
+  grafic:hasAccidentType ?tipeAccident;
+  grafic:relatedDistrict "USERA";
+  grafic:numberOfAccidents ?x.
+} GROUP BY (?tipeAccident)
+
+
+
+3. Numero de multiples colisiones por distrito 
+
+PREFIX grafic: <http://example.org/myVocabulary#> 
+PREFIX cub: <http://purl.org/linked-data/cube#>  
+
+SELECT (SUM(xsd:int(?x)) AS ?totalAccidentsDistrict) ?tipeDistrict WHERE {  
+  ?obs a cub:Observation; 
+  grafic:hasAccidentType grafic:MultipleCollision;
+  grafic:relatedDistrict ?tipeDistrict;
+  grafic:numberOfAccidents ?x.
+} GROUP BY (?tipeDistrict)
+
+
+
+4. Distrito donde mas caidas en bicicleta hubo en 2013
+
+PREFIX grafic: <http://example.org/myVocabulary#> 
+PREFIX cub: <http://purl.org/linked-data/cube#>
+
+SELECT (SUM(xsd:int(?x)) AS ?numBicycleFalls) ?tipeDistrict WHERE { 
+  ?obs a cub:Observation; 
+  grafic:relatedDistrict ?tipeDistrict; 
+  grafic:hasAccidentType grafic:BicycleFall ;
+  grafic:numberOfAccidents ?x. 
+  {
+    SELECT (MAX(?numBicycleFalls) AS ?maxBicycleFalls) WHERE {
+    {
+      SELECT (SUM(xsd:int(?y)) AS ?numBicycleFalls) WHERE { 
+        ?obs a cub:Observation ; 
+          grafic:relatedDistrict ?tipeDistrict; 
+          grafic:hasAccidentType grafic:BicycleFall ;
+          grafic:numberOfAccidents ?y. 
+      }GROUP BY (?tipeDistrict)
+    }    
+  }
+}FILTER (?x=?maxBicycleFalls)
+}GROUP BY (?tipeDistrict)
+
+
+
+5. Distritos con mas de 500 accidentes en 2013
+
+PREFIX grafic: <http://example.org/myVocabulary#>
+PREFIX cub: <http://purl.org/linked-data/cube#>
+
+SELECT ?tipeDistrict ?numAccidents WHERE {
+{
+  SELECT (SUM(xsd:int(?x)) AS ?numAccidents) ?tipeDistrict WHERE {
+    ?obs a cub:Observation;
+    grafic:numberOfAccidents ?x;
+    grafic:relatedDistrict ?tipeDistrict.
+    }
+  }FILTER(?numAccidents > 500)	
+}

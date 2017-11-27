@@ -1,0 +1,126 @@
+@prefix : 	 <http://www.fi.upm.org/linked-data/group13/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.fi.upm.es/linked-data/group13/ontology> .
+
+<http://www.fi.upm.org/linked-data/group13/ontology> rdf:type owl:Ontology .
+
+
+# Clases
+
+:Instalacion rdf:type owl:Class .
+
+:Evento rdf:type owl:Class .
+
+:Colegio rdf:type owl:Class ;
+            rdfs:subClassOf :Instalacion .
+
+:CentroEvento rdf:type owl:Class ;
+            rdfs:subClassOf :Instalacion .
+
+# Resto de la Ontologia
+
+:tituloEvento rdf:type owl:DatatypeProperty ;
+                 
+                 rdfs:domain :Evento ;
+                 
+                 rdfs:range xsd:string .
+
+:descripcionEvento rdf:type owl:DatatypeProperty ;
+                 
+                 rdfs:domain :Evento ;
+                 
+                 rdfs:range xsd:string .
+				 
+:audienciaEvento rdf:type owl:DatatypeProperty ;
+                 
+                 rdfs:domain :Evento ;
+                 
+                 rdfs:range xsd:string .
+
+:diasSemanaEvento rdf:type owl:DatatypeProperty ;
+                 
+                 rdfs:domain :Evento ;
+                 
+                 rdfs:range xsd:string .
+
+:urlEvento rdf:type owl:DatatypeProperty ;
+                 
+                 rdfs:domain :Evento ;
+                 
+                 rdfs:range xsd:string .
+
+:tipoEvento rdf:type owl:DatatypeProperty ;
+                 
+                 rdfs:domain :Evento ;
+                 
+                 rdfs:range xsd:string .
+
+:instalacionEvento rdf:type owl:ObjectProperty ;
+		 
+		 rdfs:domain :Instalacion ;
+                            
+                 rdfs:range :Instalacion .
+							
+:idEvento rdf:type owl:DatatypeProperty ;
+                 
+                 rdfs:domain :Evento ;
+                 
+                 rdfs:range xsd:integer .
+
+:precioEvento rdf:type owl:DatatypeProperty ;
+                 
+                 rdfs:domain :Evento ;
+                 
+                 rdfs:range xsd:integer .
+
+:horaEventoIni rdf:type owl:DatatypeProperty ;
+                 
+                 rdfs:domain :Evento ;
+                 
+                 rdfs:range xsd:dateTime .
+				 
+:horaEventoFin rdf:type owl:DatatypeProperty ;
+                 
+                 rdfs:domain :Evento ;
+                 
+                 rdfs:range xsd:dateTime .
+
+:nombreInstalacion rdf:type owl:DatatypeProperty ;
+                 
+                 rdfs:domain :Instalacion ;
+                 
+                 rdfs:range xsd:string .
+				 
+:distritoInstalacion rdf:type owl:DatatypeProperty ;
+                 
+                 rdfs:domain :Instalacion ;
+                 
+                 rdfs:range xsd:string .
+				 
+:urlInstalacion rdf:type owl:DatatypeProperty ;
+                 
+                 rdfs:domain :Instalacion ;
+                 
+                 rdfs:range xsd:string .
+
+:telefonoInstalacion rdf:type owl:DatatypeProperty ;
+                 
+                 rdfs:domain :Instalacion ;
+                 
+                 rdfs:range xsd:integer .
+				 
+:coordenadaXInstalacion rdf:type owl:DatatypeProperty ;
+                 
+                 rdfs:domain :Instalacion ;
+                 
+                 rdfs:range xsd:integer .
+
+:coordenadaYInstalacion rdf:type owl:DatatypeProperty ;
+                 
+                 rdfs:domain :Instalacion ;
+                 
+                 rdfs:range xsd:integer .

@@ -1,0 +1,33 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix my_vocabulary: <http://example.linkeddata.es/my_vocabulary#> .
+@prefix my_elements: <http://example.linkeddata.es/elements/> .
+@base <http://example.linkeddata.es/> .
+
+
+<http://example.linkeddata.es/TriplesMapCity>
+  a rr:TriplesMap ;
+  rr:logicalTable [ rr:tableName "City" ] ;
+  rr:subjectMap [
+    rr:termType rr:IRI ;
+    rr:template "http://example.linkeddata.es/elements/City/{ID}" ;
+    rr:class <http://example.linkeddata.es/my_vocabulary#City>
+  ] ;
+  rr:predicateObjectMap [
+    rr:predicateMap [ rr:constant <http://example.linkeddata.es/my_vocabulary#hasPopulation> ] ;
+    rr:objectMap [
+      rr:termType rr:Literal ;
+      rr:column "Population"
+    ]
+  ], [
+    rr:predicateMap [ rr:constant <http://example.linkeddata.es/my_vocabulary#hasName> ] ;
+    rr:objectMap [
+      rr:termType rr:Literal ;
+      rr:column "Name"
+    ]
+  ], [
+    rr:predicateMap [ rr:constant <http://example.linkeddata.es/my_vocabulary#hasCapital> ] ;
+    rr:objectMap [
+      rr:termType rr:Literal ;
+      rr:column "Capital"
+    ]
+  ] .
