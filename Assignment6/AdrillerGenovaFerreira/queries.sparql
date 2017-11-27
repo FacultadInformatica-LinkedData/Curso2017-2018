@@ -1,0 +1,67 @@
+/*Accidents in Madrid in 2013*/
+PREFIX vc:<http://example.org/myVocabulary#> 
+
+SELECT ( SUM(?accidentes) ) WHERE {
+	?x vc:numberOfAccidents ?accidentes
+}
+
+
+/*Number of accidents in Usera for each type of accident*/
+PREFIX vc:<http://example.org/myVocabulary#> 
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+
+SELECT ?tipo ?nAccidentes WHERE {
+ ?x a qb:Observation;
+   vc:relatedDistrict "USERA";
+   vc:numberOfAccidents ?nAccidentes;
+   vc:hasAccidentType ?tipoAccidente.
+
+ ?tipoAccidente skos:prefLabel ?tipo
+}
+
+
+/*Number of multiple collisions for each district*/
+PREFIX vc:<http://example.org/myVocabulary#> 
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+
+SELECT ?district ?n WHERE {
+?obs a qb:Observation ;
+vc:relatedDistrict ?district ;
+vc:hasAccidentType vc:MultipleCollision ;
+vc:numberOfAccidents ?n.
+
+} 
+
+/*District were the number of bicycle falls was higher in 2013*/
+PREFIX vc:<http://example.org/myVocabulary#> 
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+
+SELECT ?District ?falls WHERE {
+ ?obs a qb:Observation;
+   vc:relatedDistrict ?District ;
+   vc:hasAccidentType vc:BicycleFall;
+   vc:numberOfAccidents ?falls.
+}
+ORDER BY DESC(?falls) 
+LIMIT 1
+
+/*Districts with more than 500 accidents in 2013*/
+PREFIX vc:<http://example.org/myVocabulary#> 
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?distrito{
+    {
+        SELECT ?distrito SUM(xsd:integer(?x)) as ?total WHERE {
+            ?accidentes vc:relatedDistrict ?distrito .
+            ?accidentes vc:numberOfAccidents ?x .
+        }
+        GROUP BY ?distrito
+    }
+
+    filter (?total > 500) .
+}
