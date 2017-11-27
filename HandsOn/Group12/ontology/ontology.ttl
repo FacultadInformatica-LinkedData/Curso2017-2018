@@ -9,8 +9,22 @@
 <http://www.semanticweb.org/group12/ontology> rdf:type owl:Ontology .
 
 #################################################################
+#    Datatypes
+#################################################################
+
+###  http://www.w3.org/2001/XMLSchema#time
+xsd:time rdf:type rdfs:Datatype .
+
+
+#################################################################
 #    Data properties
 #################################################################
+
+###  http://www.semanticweb.org/group12/ontology#arrivalTime
+:arrivalTime rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Timetable ;
+             rdfs:range xsd:time .
+
 
 ###  http://www.semanticweb.org/group12/ontology#dateFrom
 :dateFrom rdf:type owl:DatatypeProperty ;
@@ -126,6 +140,12 @@
 :stopName rdf:type owl:DatatypeProperty ;
           rdfs:domain :Busstop ;
           rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/group12/ontology#stopSequence
+:stopSequence rdf:type owl:DatatypeProperty ;
+              rdfs:domain :Timetable ;
+              rdfs:range xsd:nonNegativeInteger .
 
 
 ###  http://www.semanticweb.org/group12/ontology#stopZone

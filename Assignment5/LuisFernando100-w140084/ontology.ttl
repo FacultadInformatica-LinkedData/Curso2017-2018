@@ -1,0 +1,137 @@
+@prefix class: <http://linkedata.com/assignment5/w140084/class#>.
+@prefix prop: <http://linkedata.com/assignment5/w140084/property#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://linkedata.com/assignment5/w140084/>.
+
+<http://linkedata.com/assignment5/w140084/> rdf:type owl:Ontology .
+
+#################################################################
+#    Data properties
+#################################################################
+
+###--------------------------------CITY
+
+
+### http://linkedata.com/assignment5/w140084/property#name
+prop:name rdf:type owl:DatatypeProperty ;
+             rdfs:domain class:city ;
+             rdfs:range xsd:string .
+
+### http://linkedata.com/assignment5/w140084/property#countryCode
+prop:countryCode rdf:type owl:DatatypeProperty ;
+                    rdfs:domain class:city ;
+                    rdfs:range xsd:string .
+
+### http://linkedata.com/assignment5/w140084/property#district
+prop:district rdf:type owl:DatatypeProperty ;
+                   rdfs:domain class:city ;
+                   rdfs:range xsd:string .
+				   
+### http://linkedata.com/assignment5/w140084/property#population
+prop:population rdf:type owl:DatatypeProperty ;
+                   rdfs:domain class:city ;
+                   rdfs:range xsd:int .		   
+				   
+				   
+###--------------------------------COUNTRY
+
+
+###  http://linkedata.com/assignment5/w140084/property#name
+prop:name rdf:type owl:DatatypeProperty ;
+            rdfs:domain class:country ;
+            rdfs:range xsd:string .
+
+### http://linkedata.com/assignment5/w140084/property#continent
+prop:continent rdf:type owl:DatatypeProperty ;
+         rdfs:domain class:country ;
+         rdfs:range xsd:string .
+		 
+### http://linkedata.com/assignment5/w140084/property#region
+prop:region rdf:type owl:DatatypeProperty ;
+         rdfs:domain class:country ;
+         rdfs:range xsd:string .
+		 
+### http://linkedata.com/assignment5/w140084/property#surfaceArea
+prop:surfaceArea rdf:type owl:DatatypeProperty ;
+         rdfs:domain class:country ;
+         rdfs:range xsd:int .
+		 
+### http://linkedata.com/assignment5/w140084/property#population
+prop:population rdf:type owl:DatatypeProperty ;
+         rdfs:domain class:country ;
+         rdfs:range xsd:int .
+		 
+### http://linkedata.com/assignment5/w140084/property#lifeExpectancy
+prop:lifeExpectancy rdf:type owl:DatatypeProperty ;
+         rdfs:domain class:country ;
+         rdfs:range xsd:int .
+		 
+### http://linkedata.com/assignment5/w140084/property#gnp
+prop:gnp rdf:type owl:DatatypeProperty ;
+         rdfs:domain class:country ;
+         rdfs:range xsd:int .
+		 
+### http://linkedata.com/assignment5/w140084/property#gnpold
+prop:gnpold rdf:type owl:DatatypeProperty ;
+         rdfs:domain class:country ;
+         rdfs:range xsd:int .
+		 
+### http://linkedata.com/assignment5/w140084/property#localName
+prop:localName rdf:type owl:DatatypeProperty ;
+         rdfs:domain class:country ;
+         rdfs:range xsd:string .
+		
+### http://linkedata.com/assignment5/w140084/property#governmentForm
+prop:governmentForm rdf:type owl:DatatypeProperty ;
+         rdfs:domain class:country ;
+         rdfs:range xsd:string .
+		 
+### http://linkedata.com/assignment5/w140084/property#headOfState
+prop:headOfState rdf:type owl:DatatypeProperty ;
+         rdfs:domain class:country ;
+         rdfs:range xsd:string .
+		 
+### http://linkedata.com/assignment5/w140084/property#capital
+prop:capital rdf:type owl:DatatypeProperty ;
+         rdfs:domain class:country ;
+         rdfs:range xsd:string .
+		 
+### http://linkedata.com/assignment5/w140084/property#code2
+prop:code2 rdf:type owl:DatatypeProperty ;
+         rdfs:domain class:country ;
+         rdfs:range xsd:string .
+		 
+###--------------------------------COUNTRYLANGUAGE
+
+### http://linkedata.com/assignment5/w140084/property#countryCode
+prop:countryCode rdf:type owl:DatatypeProperty ;
+         rdfs:domain class:countrylanguage ;
+         rdfs:range xsd:string . 
+		 
+### http://linkedata.com/assignment5/w140084/property#isOfficial
+prop:isOfficial rdf:type owl:DatatypeProperty ;
+         rdfs:domain class:countrylanguage ;
+         rdfs:range xsd:string . 
+		 
+### http://linkedata.com/assignment5/w140084/property#percentage
+prop:percentage rdf:type owl:DatatypeProperty ;
+         rdfs:domain class:countrylanguage ;
+         rdfs:range xsd:int . 
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://linkedata.com/assignment5/w140084/city
+class:city rdf:type owl:Class .
+
+
+###  http://linkedata.com/assignment5/w140084/country
+class:country rdf:type owl:Class .
+
+
+###  http://linkedata.com/assignment5/w140084/language
+class:countrylanguage rdf:type owl:Class .
