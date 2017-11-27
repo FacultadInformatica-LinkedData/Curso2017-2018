@@ -2073,5 +2073,1613 @@
         }
       ]
     }
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column monday to hasServiceMonday",
+    "oldColumnName": "monday",
+    "newColumnName": "hasServiceMonday"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column tuesday to hasServiceTuesday",
+    "oldColumnName": "tuesday",
+    "newColumnName": "hasServiceTuesday"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column wednesday to hasServiceWednesday",
+    "oldColumnName": "wednesday",
+    "newColumnName": "hasServiceWednesday"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column thursday to hasServiceThursday",
+    "oldColumnName": "thursday",
+    "newColumnName": "hasServiceThursday"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column friday to hasServiceFriday",
+    "oldColumnName": "friday",
+    "newColumnName": "hasServiceFriday"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column saturday to hasServiceSaturday",
+    "oldColumnName": "saturday",
+    "newColumnName": "hasServiceSaturday"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column sunday to hasServiceSunday",
+    "oldColumnName": "sunday",
+    "newColumnName": "hasServiceSunday"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column startDate to dateFrom",
+    "oldColumnName": "startDate",
+    "newColumnName": "dateFrom"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column endDate to dateTo",
+    "oldColumnName": "endDate",
+    "newColumnName": "dateTo"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group12/resources/Calendar/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+              "curie": "rdfs:Literal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "serviceID"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#boolean",
+              "curie": "xsd:boolean",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "monday"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#boolean",
+              "curie": "xsd:boolean",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "tuesday"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#boolean",
+              "curie": "xsd:boolean",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "wednesday"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#boolean",
+              "curie": "xsd:boolean",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "thursday"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#boolean",
+              "curie": "xsd:boolean",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "friday"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#boolean",
+              "curie": "xsd:boolean",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "saturday"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#boolean",
+              "curie": "xsd:boolean",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "sunday"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#dateTime",
+              "curie": "xsd:dateTime",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "startDate"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#dateTime",
+              "curie": "xsd:dateTime",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "endDate"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group12/resources/Calendar/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#string",
+              "curie": "xsd:string",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "serviceID",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#boolean",
+              "curie": "xsd:boolean",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "hasServiceMonday"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#boolean",
+              "curie": "xsd:boolean",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "hasServiceTuesday"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#boolean",
+              "curie": "xsd:boolean",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "hasServiceWednesday"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#boolean",
+              "curie": "xsd:boolean",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "hasServiceThursday"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#boolean",
+              "curie": "xsd:boolean",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "hasServiceFriday"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#boolean",
+              "curie": "xsd:boolean",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "hasServiceSaturday"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#boolean",
+              "curie": "xsd:boolean",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "hasServiceSunday"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#dateTime",
+              "curie": "xsd:dateTime",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "dateFrom"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#dateTime",
+              "curie": "xsd:dateTime",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "dateTo"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group12/resources/Calendar/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#string",
+              "curie": "xsd:string",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "serviceID",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#boolean",
+              "curie": "xsd:boolean",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "hasServiceMonday"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#boolean",
+              "curie": "xsd:boolean",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "hasServiceTuesday"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#boolean",
+              "curie": "xsd:boolean",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "hasServiceWednesday"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#boolean",
+              "curie": "xsd:boolean",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "hasServiceThursday"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#boolean",
+              "curie": "xsd:boolean",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "hasServiceFriday"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#boolean",
+              "curie": "xsd:boolean",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "hasServiceSaturday"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#boolean",
+              "curie": "xsd:boolean",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "hasServiceSunday"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#dateTime",
+              "curie": "xsd:dateTime",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "dateFrom"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#dateTime",
+              "curie": "xsd:dateTime",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "dateTo"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-star",
+    "description": "Star rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "starred": true
+  },
+  {
+    "op": "core/row-star",
+    "description": "Unstar rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "starred": false
+  },
+  {
+    "op": "core/column-reorder",
+    "description": "Reorder columns",
+    "columnNames": [
+      "serviceID",
+      "hasServiceMonday",
+      "hasServiceTuesday",
+      "hasServiceWednesday",
+      "hasServiceThursday",
+      "hasServiceFriday",
+      "hasServiceSaturday",
+      "hasServiceSunday",
+      "dateFrom",
+      "dateTo"
+    ]
+  },
+  {
+    "op": "core/column-reorder",
+    "description": "Reorder columns",
+    "columnNames": [
+      "serviceID",
+      "hasServiceMonday",
+      "hasServiceTuesday",
+      "hasServiceWednesday",
+      "hasServiceThursday",
+      "hasServiceFriday",
+      "hasServiceSaturday",
+      "hasServiceSunday",
+      "dateFrom",
+      "dateTo"
+    ]
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group12/resources/Calendar/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#string",
+              "curie": "xsd:string",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "serviceID",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#boolean",
+              "curie": "xsd:boolean",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "hasServiceMonday"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#boolean",
+              "curie": "xsd:boolean",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "hasServiceTuesday"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#boolean",
+              "curie": "xsd:boolean",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "hasServiceWednesday"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#boolean",
+              "curie": "xsd:boolean",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "hasServiceThursday"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#boolean",
+              "curie": "xsd:boolean",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "hasServiceFriday"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#boolean",
+              "curie": "xsd:boolean",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "hasServiceSaturday"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#boolean",
+              "curie": "xsd:boolean",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "hasServiceSunday"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#dateTime",
+              "curie": "xsd:dateTime",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "dateFrom"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#dateTime",
+              "curie": "xsd:dateTime",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "dateTo"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group12/resources/Calendar/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#string",
+              "curie": "xsd:string",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "serviceID",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#boolean",
+              "curie": "xsd:boolean",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "hasServiceMonday"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#boolean",
+              "curie": "xsd:boolean",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "hasServiceTuesday"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#boolean",
+              "curie": "xsd:boolean",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "hasServiceWednesday"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#boolean",
+              "curie": "xsd:boolean",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "hasServiceThursday"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#boolean",
+              "curie": "xsd:boolean",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "hasServiceFriday"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#boolean",
+              "curie": "xsd:boolean",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "hasServiceSaturday"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#boolean",
+              "curie": "xsd:boolean",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "hasServiceSunday"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#dateTime",
+              "curie": "xsd:dateTime",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "dateFrom"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#dateTime",
+              "curie": "xsd:dateTime",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "dateTo"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group12/resources/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "g12",
+          "uri": "\thttp://www.semanticweb.org/group12/ontology#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "serviceID",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/group12/ontologyhasServiceMonday",
+              "curie": "g12:hasServiceMonday",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "hasServiceMonday"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#boolean",
+              "curie": "xsd:boolean",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "hasServiceTuesday"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#boolean",
+              "curie": "xsd:boolean",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "hasServiceWednesday"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#boolean",
+              "curie": "xsd:boolean",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "hasServiceThursday"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#boolean",
+              "curie": "xsd:boolean",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "hasServiceFriday"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#boolean",
+              "curie": "xsd:boolean",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "hasServiceSaturday"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#boolean",
+              "curie": "xsd:boolean",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "hasServiceSunday"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#dateTime",
+              "curie": "xsd:dateTime",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "dateFrom"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#dateTime",
+              "curie": "xsd:dateTime",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "dateTo"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group12/resources/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "g12",
+          "uri": "\thttp://www.semanticweb.org/group12/ontology#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Calendar/\" + value",
+          "isRowNumberCell": false,
+          "columnName": "serviceID",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "\thttp://www.semanticweb.org/group12/ontology#hasServiceMonday",
+              "curie": "g12:hasServiceMonday",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "hasServiceMonday"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#boolean",
+              "curie": "xsd:boolean",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "hasServiceTuesday"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#boolean",
+              "curie": "xsd:boolean",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "hasServiceWednesday"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#boolean",
+              "curie": "xsd:boolean",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "hasServiceThursday"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#boolean",
+              "curie": "xsd:boolean",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "hasServiceFriday"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#boolean",
+              "curie": "xsd:boolean",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "hasServiceSaturday"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#boolean",
+              "curie": "xsd:boolean",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "hasServiceSunday"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#dateTime",
+              "curie": "xsd:dateTime",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "dateFrom"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#dateTime",
+              "curie": "xsd:dateTime",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "dateTo"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group12/resources/",
+      "prefixes": [
+        {
+          "name": "",
+          "uri": "http://www.semanticweb.org/group12/ontology#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Calendar/\" + value",
+          "isRowNumberCell": false,
+          "columnName": "serviceID",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "\thttp://www.semanticweb.org/group12/ontology#hasServiceMonday",
+              "curie": "g12:hasServiceMonday",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "hasServiceMonday"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#boolean",
+              "curie": "xsd:boolean",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "hasServiceTuesday"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#boolean",
+              "curie": "xsd:boolean",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "hasServiceWednesday"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#boolean",
+              "curie": "xsd:boolean",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "hasServiceThursday"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#boolean",
+              "curie": "xsd:boolean",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "hasServiceFriday"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#boolean",
+              "curie": "xsd:boolean",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "hasServiceSaturday"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#boolean",
+              "curie": "xsd:boolean",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "hasServiceSunday"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#dateTime",
+              "curie": "xsd:dateTime",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "dateFrom"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#dateTime",
+              "curie": "xsd:dateTime",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "dateTo"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group12/resources/",
+      "prefixes": [
+        {
+          "name": "",
+          "uri": "http://www.semanticweb.org/group12/ontology#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Calendar/\" + value",
+          "isRowNumberCell": false,
+          "columnName": "serviceID",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/group12/ontology#hasServiceMonday",
+              "curie": ":hasServiceMonday",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "hasServiceMonday"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group12/ontology#hasServiceTuesday",
+              "curie": ":hasServiceTuesday",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "hasServiceTuesday"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group12/ontology#hasServiceWednesday",
+              "curie": ":hasServiceWednesday",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "hasServiceWednesday"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group12/ontology#hasServiceThursday",
+              "curie": ":hasServiceThursday",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "hasServiceThursday"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group12/ontology#hasServiceFriday",
+              "curie": ":hasServiceFriday",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "hasServiceFriday"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group12/ontology#hasServiceSaturday",
+              "curie": ":hasServiceSaturday",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "hasServiceSaturday"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group12/ontology#hasServiceSunday",
+              "curie": ":hasServiceSunday",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "hasServiceSunday"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group12/ontology#dateFrom",
+              "curie": ":dateFrom",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "dateFrom"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group12/ontology#dateTo",
+              "curie": ":dateTo",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "dateTo"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group12/resources/",
+      "prefixes": [
+        {
+          "name": "",
+          "uri": "http://www.semanticweb.org/group12/ontology#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Calendar/\" + value",
+          "isRowNumberCell": false,
+          "columnName": "serviceID",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/group12/ontology#hasServiceMonday",
+              "curie": ":hasServiceMonday",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "hasServiceMonday"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group12/ontology#hasServiceTuesday",
+              "curie": ":hasServiceTuesday",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "hasServiceTuesday"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group12/ontology#hasServiceWednesday",
+              "curie": ":hasServiceWednesday",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "hasServiceWednesday"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group12/ontology#hasServiceThursday",
+              "curie": ":hasServiceThursday",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "hasServiceThursday"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group12/ontology#hasServiceFriday",
+              "curie": ":hasServiceFriday",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "hasServiceFriday"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group12/ontology#hasServiceSaturday",
+              "curie": ":hasServiceSaturday",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "hasServiceSaturday"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group12/ontology#hasServiceSunday",
+              "curie": ":hasServiceSunday",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "hasServiceSunday"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group12/ontology#dateFrom",
+              "curie": ":dateFrom",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "dateFrom"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group12/ontology#dateTo",
+              "curie": ":dateTo",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "dateTo"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group12/resources/",
+      "prefixes": [
+        {
+          "name": "",
+          "uri": "http://www.semanticweb.org/group12/ontology#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Calendar/\" + value",
+          "isRowNumberCell": false,
+          "columnName": "serviceID",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/group12/ontology#hasServiceMonday",
+              "curie": ":hasServiceMonday",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "hasServiceMonday"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group12/ontology#hasServiceTuesday",
+              "curie": ":hasServiceTuesday",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "hasServiceTuesday"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group12/ontology#hasServiceWednesday",
+              "curie": ":hasServiceWednesday",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "hasServiceWednesday"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group12/ontology#hasServiceThursday",
+              "curie": ":hasServiceThursday",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "hasServiceThursday"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group12/ontology#hasServiceFriday",
+              "curie": ":hasServiceFriday",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "hasServiceFriday"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group12/ontology#hasServiceSaturday",
+              "curie": ":hasServiceSaturday",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "hasServiceSaturday"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group12/ontology#hasServiceSunday",
+              "curie": ":hasServiceSunday",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "hasServiceSunday"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group12/ontology#dateFrom",
+              "curie": ":dateFrom",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "dateFrom"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group12/ontology#dateTo",
+              "curie": ":dateTo",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "dateTo"
+              }
+            }
+          ]
+        }
+      ]
+    }
   }
 ]
