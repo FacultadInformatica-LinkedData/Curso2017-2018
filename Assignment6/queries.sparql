@@ -1,0 +1,56 @@
+
+#Numero de accidentes en Madrid en 2013
+
+SELECT sum(?accidente) AS ?accidentes WHERE {
+  ?obs a <http://purl.org/linked-data/cube#Observation>;
+  <http://example.org/myVocabulary#numberOfAccidents> ?accidente .
+}
+
+
+#Cantidad de accidentes en Usera por cada tipo de accidente 
+
+SELECT ?tipo ?accidente  WHERE {
+  ?obs a <http://purl.org/linked-data/cube#Observation>;
+  <http://example.org/myVocabulary#relatedDistrict>  "USERA";
+  <http://example.org/myVocabulary#hasAccidentType> ?tipo;
+  <http://example.org/myVocabulary#numberOfAccidents> ?accidente.
+}
+
+#Numero de colisiones múltiples para cada distrito
+
+SELECT ?distrito ?accidente WHERE{
+  ?obs a <http://purl.org/linked-data/cube#Observation>;
+  <http://example.org/myVocabulary#hasAccidentType> <http://example.org/myVocabulary#MultipleCollision>;
+  <http://example.org/myVocabulary#numberOfAccidents> ?accidente;
+  <http://example.org/myVocabulary#relatedDistrict> ?distrito.
+}
+
+# Distrito donde el número de caídas de bicicletas fue más alto en 2013
+
+SELECT ?distrito ?maxAccidentes WHERE {
+?obs a <http://purl.org/linked-data/cube#Observation>;
+   <http://example.org/myVocabulary#relatedDistrict> ?distrito;
+   <http://example.org/myVocabulary#hasAccidentType> <http://example.org/myVocabulary#BicycleFall>;
+   <http://example.org/myVocabulary#numberOfAccidents> ?maxAccidentes 
+   {SELECT (MAX(?accidente) AS ?maxAccidentes) WHERE {
+      ?obs a <http://purl.org/linked-data/cube#Observation>;
+   <http://example.org/myVocabulary#relatedDistrict> ?distrito;
+   <http://example.org/myVocabulary#hasAccidentType> <http://example.org/myVocabulary#BicycleFall>;
+   <http://example.org/myVocabulary#numberOfAccidents> ?accidente.
+   }
+   }
+} 
+
+# Distrito con mas de 500 accidentes en 2013
+
+SELECT ?distrito ?accidentes{
+   {SELECT ?distrito (SUM(xsd:int(?accidente)) AS ?accidentes) WHERE {
+     ?obs a <http://purl.org/linked-data/cube#Observation>;
+        <http://example.org/myVocabulary#relatedDistrict> ?distrito;
+   <http://example.org/myVocabulary#numberOfAccidents> ?accidente.
+   } 
+   GROUP BY ?distrito
+   }
+   FILTER(?accidentes> 500)
+} 
+ORDER BY ASC(?accidentes)

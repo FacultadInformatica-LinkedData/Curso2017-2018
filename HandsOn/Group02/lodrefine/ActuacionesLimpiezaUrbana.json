@@ -1,0 +1,44 @@
+[
+{
+	"op": "core/column-rename",
+	"description": "Rename column  distritoRecogida to DISTRITO ",
+	"oldColumnName": "distritoRecogida",
+	"newColumnName": "DISTRITO"
+},
+{
+	"op": "core/column-rename",
+	"description": "Rename column mesRecogida to MES",
+	"oldColumnName": "mesRecogida",
+	"newColumnName": "MES"
+},
+{
+	"op": "core/column-rename",
+	"description": "Rename column kgRecogidaMuebles to Kg Recogida de muebles",
+	"oldColumnName": "kgRecogidaMuebles",
+	"newColumnName": "Kg Recogida de muebles"
+},
+{
+	"op": "core/column-rename",
+	"description": "Rename column kgRecogidaResiduos to Kg Recogida Residuos Viarios ",
+	"oldColumnName": "kgRecogidaResiduos",
+	"newColumnName": "Kg Recogida Residuos Viarios"
+},
+{
+	"op": "core/column-rename",
+	"description": "Rename column numBarridoMixto to Nº Servicios Barrido Mixto",
+	"oldColumnName": "numBarridoMixto",
+	"newColumnName": "Nº Servicios Barrido Mixto"
+},
+{
+	"op": "core/column-rename",
+	"description": "Rename column numBarridoManual to Nº Servicios Barrido Manual",
+	"oldColumnName": "numBarridoManual",
+	"newColumnName": "Nº Servicios Barrido Manual"
+},
+{
+	"op": "core/column-rename",
+	"description": "Rename column numBarridoMecanico to Nº Servicios Barrido Mecánico",
+	"oldColumnName": "numBarridoMecanico",
+	"newColumnName": "Nº Servicios Barrido Mecánico"
+}
+]

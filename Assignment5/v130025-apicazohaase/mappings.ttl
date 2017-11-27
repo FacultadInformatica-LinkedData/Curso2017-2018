@@ -1,0 +1,68 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#> . 
+@prefix my_vocabulary: <http://example.world.org/vocab#> . 
+@prefix my_instances: <http://example.world.org/resources/> . 
+@base <http://example.world.es/> . 
+
+<TriplesMapCity>
+	a rr:TriplesMap;
+
+	rr:logicalTable [ rr:tableName "City"];
+
+	rr:subjectMap [ rr:termType rr:IRI;
+		rr:template "http://example.world.org/resources/City/{ID}";
+		rr:class my_vocabulary:City
+	];
+
+	rr:predicateObjectMap [
+		 rr:predicateMap [ rr:constant my_vocabulary:hasName ];
+		 rr:objectMap    [ rr:termType rr:Literal; rr:column "Name"; ];
+	];
+
+	rr:predicateObjectMap [
+		 rr:predicateMap [ rr:constant my_vocabulary:hasPopulation ];
+		 rr:objectMap    [ rr:termType rr:Literal; rr:column "Population"; ];
+	];
+
+	rr:predicateObjectMap [
+		 rr:predicateMap [ rr:constant my_vocabulary:inDistrict ];
+		 rr:objectMap    [ rr:termType rr:Literal; rr:column "District"; ];
+	]
+.
+
+<TriplesMapCountry>
+	a rr:TriplesMap;
+
+	rr:logicalTable [ rr:tableName "Country"];
+
+	rr:subjectMap [ rr:termType rr:IRI;
+		rr:template "http://example.world.org/resources/Country/{Code}";
+		rr:class my_vocabulary:Country
+	];
+
+	rr:predicateObjectMap [
+		rr:predicateMap [ rr:constant my_vocabulary:hasName ];
+		rr:objectMap    [ rr:termType rr:Literal; rr:column "Name"; ];
+	];
+
+	rr:predicateObjectMap [
+		rr:predicateMap [ rr:constant my_vocabulary:inContinent ];
+		rr:objectMap    [ rr:termType rr:Literal; rr:column "Continent"; ];
+	]
+.
+
+<TriplesMapCountry2>
+	a rr:TriplesMap;
+
+	rr:logicalTable [ rr:sqlQuery "SELECT Language,CountryCode FROM CountryLanguage"];
+
+
+	rr:subjectMap [ rr:termType rr:IRI;
+		rr:template "http://example.world.org/resources/Country/{CountryCode}";
+		rr:class my_vocabulary:Language
+	];
+
+	rr:predicateObjectMap [
+		rr:predicateMap [ rr:constant my_vocabulary:hasLanguage ];
+		rr:objectMap    [ rr:termType rr:Literal; rr:column "Language"; ];
+	]
+.

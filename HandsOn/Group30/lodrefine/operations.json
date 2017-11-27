@@ -1,0 +1,306 @@
+[
+  {
+    "op": "core/column-removal",
+    "description": "Remove column ﻿OBJECTID",
+    "columnName": "﻿OBJECTID"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column IDTRAMO",
+    "columnName": "IDTRAMO"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column FECHAACTUAL",
+    "columnName": "FECHAACTUAL"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column MODO",
+    "columnName": "MODO"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column CODIGOITINERARIO",
+    "columnName": "CODIGOITINERARIO"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column CODIGOGESTIONLINEA",
+    "columnName": "CODIGOGESTIONLINEA"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column NUMEROLINEAUSUARIO to NumeroLinea",
+    "oldColumnName": "NUMEROLINEAUSUARIO",
+    "newColumnName": "NumeroLinea"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column SENTIDO to Sentido",
+    "oldColumnName": "SENTIDO",
+    "newColumnName": "Sentido"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column TIPOITINERARIO",
+    "columnName": "TIPOITINERARIO"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column CODIGOESTACION",
+    "columnName": "CODIGOESTACION"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column CODIGOPOSTE",
+    "columnName": "CODIGOPOSTE"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column CODIGOANDEN",
+    "columnName": "CODIGOANDEN"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column NUMEROORDEN",
+    "columnName": "NUMEROORDEN"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column IDENTIFICADORTIPOPARADA",
+    "columnName": "IDENTIFICADORTIPOPARADA"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column TIPOPARADA to TipoParada",
+    "oldColumnName": "TIPOPARADA",
+    "newColumnName": "TipoParada"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column CODIGOPROVINCIA",
+    "columnName": "CODIGOPROVINCIA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column CODIGOMUNICIPIO",
+    "columnName": "CODIGOMUNICIPIO"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column CORONATARIFARIA to Zona_Tarifa",
+    "oldColumnName": "CORONATARIFARIA",
+    "newColumnName": "Zona_Tarifa"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column FECHAALTA",
+    "columnName": "FECHAALTA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column FECHAFIN",
+    "columnName": "FECHAFIN"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column FECHAINICIO",
+    "columnName": "FECHAINICIO"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column VELOCIDADTRAMOANTERIOR",
+    "columnName": "VELOCIDADTRAMOANTERIOR"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column MODOLINEA",
+    "columnName": "MODOLINEA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column MODOINTERCAMBIADOR",
+    "columnName": "MODOINTERCAMBIADOR"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column CODIGOINTERCAMBIADOR",
+    "columnName": "CODIGOINTERCAMBIADOR"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column CODPROV_LINEA",
+    "columnName": "CODPROV_LINEA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column CODMUN_LINEA",
+    "columnName": "CODMUN_LINEA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column IDFTRAMO",
+    "columnName": "IDFTRAMO"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column CODIGOOBSERVACION",
+    "columnName": "CODIGOOBSERVACION"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column CODIGOSUBLINEA",
+    "columnName": "CODIGOSUBLINEA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column DENOMINACION_SAE",
+    "columnName": "DENOMINACION_SAE"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column IDFLINEA",
+    "columnName": "IDFLINEA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column IDFITINERARIO",
+    "columnName": "IDFITINERARIO"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column IDFESTACION",
+    "columnName": "IDFESTACION"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column IDFPOSTE",
+    "columnName": "IDFPOSTE"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column IDFANDEN",
+    "columnName": "IDFANDEN"
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NumeroLinea",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NumeroLinea",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "1"
+        ],
+        "to": "1"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Sentido",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Sentido",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "1"
+        ],
+        "to": "1"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column TipoParada",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TipoParada",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "C"
+        ],
+        "to": "Cambio"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column TipoParada",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TipoParada",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Intercambiador"
+        ],
+        "to": "Intercambiador"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column TipoParada",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TipoParada",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "I"
+        ],
+        "to": "Intercambiador"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column TipoParada",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TipoParada",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "T"
+        ],
+        "to": "Transbordo"
+      }
+    ]
+  }
+]

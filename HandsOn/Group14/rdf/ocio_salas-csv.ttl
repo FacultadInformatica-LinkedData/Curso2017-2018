@@ -1,0 +1,926 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+
+<http://www.wsdlfiupm.es/resources/group14/Caf%C3%A9+Teatro+Serendipia> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "10511835" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Café Teatro Serendipia" ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE GERMAN PEREZ CARRASCO 21" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CIUDAD LINEAL" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.435190000069746" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.645847906504054" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Centro+de+Ense%C3%B1anza+R%C3%A9plika+Teatro.+Academia+del+Actor> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "124469" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Centro de Enseñanza Réplika Teatro. Academia del Actor" ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE PEDRO JUSTO DORADO DELLMANS 8" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "MONCLOA-ARAVACA" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.448692123387005" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.7122040788250885" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/CNC+Sala+Mirador> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "10511842" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "CNC Sala Mirador" ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE DOCTOR FOURQUET 31" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.40706148755647" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.6989073365849734" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/DT+Espacio+Esc%C3%A9nico> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "7869361" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "DT Espacio Escénico" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "DT Espacio Escénico es un lugar para exhibir espectáculos con lenguaje escénico mixto y utilización de escenarios no convencionales. Ofrece una programación continuada y varios ciclos de teatro, danza y cabaret" ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE REINA 9" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.42040457289982" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.700283103997518" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/El+burdel+a+escena> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "10511843" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "El burdel a escena" ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE SOMBRERERIA 3" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.40759757832717" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.699643574471185" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/El+foro+de+Izab> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "10511844" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "El foro de Izab" ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE RIBERA DE CURTIDORES 37" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.406579930805236" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.706986990152966" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/El+umbral+de+la+primavera> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "10037757" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "El umbral de la primavera" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "Este espacio escénico pretende conjugar y acoger propuestas de las diferentes manifestaciones artísticas actuales, desde teatro, danza y música hasta exposiciones, tertulias o instalaciones." ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE PRIMAVERA 11" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.40952998024258" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.700394299299595" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Escuela+y+Sala+de+teatro.+La+Usina> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "7093521" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Escuela y Sala de teatro. La Usina" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "Este local es a su vez una sala teatral y un espacio de formación donde todos sus profesores son profesionales del ámbito teatral, ya sean actores, directores o dramaturgos. Se caracteriza por ser un lugar de creación e investigación, donde los alumnos pueden desarrollar con libertad y autonomía sus propios proyectos teatrales, y en su programación ocupan un lugar destacado las obras dedicadas al público infantil." ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE PALOS DE LA FRONTERA 42" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "ARGANZUELA" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.40277432308375" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.7002064293048953" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Espacio+Labruc> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "7875358" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Espacio Labruc" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "Espacio Labruc es un lugar de creación, experimentación, investigación y formación escénica y visual ubicado en el barrio madrileño de Malasaña que nace con la intención de difundir la creación y el pensamiento contemporáneos. Centra su actividad en el comisariado de artes escénicas y visuales como plataforma de exhibición de piezas de pequeño formato, sin dejar de lado la performance, los conciertos acústicos o la danza contemporánea." ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE PALMA 18" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.426279583153445" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.7030672051282876" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Estudio+2+Manuel+Galiana> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "10511854" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Estudio 2 Manuel Galiana" ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE MORATINES 11" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "ARGANZUELA" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.40321881564558" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.7026740157487428" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Extensi%C3%B3n+AVAM.+Matadero+Madrid> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "8158007" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Extensión AVAM. Matadero Madrid" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "La Asociación de Artistas Visuales de Madrid dispone de un espacio en Matadero destinado a  la participación, debate y visibilidad de las producciones de los artistas." ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "PASEO CHOPERA 14" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "ARGANZUELA" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.39241367848808" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.697259467865366" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Factor%C3%ADa+cultural.+Matadero+Madrid> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "8158008" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Factoría cultural. Matadero Madrid" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "El nuevo vivero de industrias creativas, con capacidad para más de 100 puestos de trabajo, ofrece a los emprendedores creativos la posibilidad de llevar a cabo sus proyectos en un espacio flexible y multidisciplinar, en el entorno privilegiado de Matadero Madrid." ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "PASEO CHOPERA 14" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "ARGANZUELA" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.39241367848808" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.697259467865366" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Fern%C3%A1n+G%C3%B3mez+Centro+Cultural+de+la+Villa> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "1915" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Fernán Gómez Centro Cultural de la Villa" ;
+	<http://www.wsdlfiupm.es/resources/group14/horary> "Venta anticipada de martes a domingo  : mañanas de 11:00 a 13:30 horas y tardes de 17:00 a 19:00 horas.    Mismo día: martes a domingo:  mañanas de 11:00 a 13:30 horas y tardes de 17:00 hasta comienzo de representación. Lunes cerrado." ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "PLAZA COLON 4" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "SALAMANCA" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.424926347610764" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.6899208519663427" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Gran+Teatro+Bankia+Pr%C3%ADncipe+P%C3%ADo> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "10037852" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Gran Teatro Bankia Príncipe Pío" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "Este gran multi-espacio, situado en una de las alas sin uso de la estación de Príncipe Pío, se convertirá a finales de 2017 en un referente de la cultura y el ocio madrileños, con una amplia oferta de entretenimiento que incluirá programación teatral y de conciertos, así como restauración.  Como un adelanto a este gran proyecto, se ha abierto en las afueras de la estación una carpa de espejos llamada Spiegeltent, un nuevo espacio escénico con aires de cabaret, que se inspira en los salones de baile alemanes previos a la II Guerra Mundial." ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CUESTA SAN VICENTE 44" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "MONCLOA-ARAVACA" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.420433378754346" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.7190728318719177" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Microteatro+Por+Dinero> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "6599384" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Microteatro Por Dinero" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "Un nuevo concepto de formato teatral: micro obras de entre diez y quince minutos, sobre un mismo tema, representadas en espacios pequeños para menos de quince espectadores por pase y seis sesiones al día. De esta forma, el espectador puede elegir tanto el tiempo que quiere pasar en el teatro, según el número de obras que quiera ver, como el precio que quiere pagar, ya que cada visita a una sala se paga de forma individual. Microteatro es también un espacio multifuncional en el centro de Madrid donde también se puede asistir a microteatro infantil, conciertos, proyección de películas inéditas, arte, experimentación, alquiler de espacios para todo tipo de eventos, un bar... todo esto en un local que en su día fue un burdel y que ahora es un centro para la cultura y el ocio." ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE LORETO Y CHICOTE 9" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.42152574011699" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.7040668231939438" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Naves+Matadero.+Centro+Internacional+Artes+Vivas> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "6963121" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Naves Matadero. Centro Internacional Artes Vivas" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "Naves Matadero. Centro Internacional de Artes Vivas  tiene como objetivo generar un espacio de creación y pensamiento contemporáneos - prestando especial atención a los nuevos lenguajes escénicos y a los territorios de transversalidad- para que funcione como un catalizador entre creadores y ciudadanía. Un espacio en el que las artes escénicas, visuales, la literatura, la filosofía, el cine, la música y las actividades transmedia se interconectan en un programa interdisciplinar.       Consultar programación" ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "PASEO CHOPERA 14" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "ARGANZUELA" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.39241374953321" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.697247685884226" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Nave-Teatro+Dao%C3%ADz+y+Velarde> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "8628780" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Nave-Teatro Daoíz y Velarde" ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "PLAZA DAOÍZ Y VELARDE 4" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "RETIRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.402324327188175" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.6774460025489395" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Nuevo+Teatro+Alcal%C3%A1> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "109277" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Nuevo Teatro Alcalá" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "La sala nació bajo el nombre de Coliseo Pardiñas en 1927 y fue obra de Luis Ferrero. Posteriormente se llamó Coliseo Alcalá  y transcurridos unos años Teatro Alcalá Palace.  Bajo este último nombre el teatro vivió años de esplendor  y por su programación no faltaban importantes zarzuelas y más destacadas figuras del flamenco. Durante la década de los 70 se estrenó el musical 'Jesucristo Superstar', exitoso a la vez que polémico.  En los años ochenta tuvo que cerrar y no fue abierto hasta el año 2001.  Después de catorce años el empresario Alejandro Romay, junto con la arquitecta Margarita Massó, levantó el actual Nuevo Teatro Alcalá donde antes se erguía el antiguo Teatro Alcalá Palace.  El nuevo teatro cuenta con dos salas. La más importante es la más grande con su estilo y disposición tradicional a la italiana, su gran patio de butacas y la distribución de los espacios la convierten en un sala única con buena visibilidad en todos sus ángulos. La siguiente sala es un espacio polivalente de teatro y está ubicada en el subsuelo del edificio. Tiene una disposición y estilo más modernos, perfecta para acoger obras de corte más vanguardista." ;
+	<http://www.wsdlfiupm.es/resources/group14/horary> "Cerrado el lunes" ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE JORGE JUAN 62" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "SALAMANCA" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.42340075550414" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.678258596986864" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Off+de+la+Latina> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "7875490" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Off de la Latina" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "Este espacio cultural se encuentra situado en pleno corazón de Madrid, en el barrio de La Latina. En él se puede disfrutar de diferentes espectáculos de teatro, danza y música, en especial jazz y flamenco. El local tiene una superficie de 320 metros cuadrados repartidos en tres zonas bien diferenciadas: la planta principal, donde se encuentra en bar, la cava alta donde se sitúa el teatro, y la cava baja, antigua carbonería del siglo  XVII  reservada para los eventos más íntimos y especiales." ;
+	<http://www.wsdlfiupm.es/resources/group14/horary> "Días de cierre: lunes y martes" ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE MANCEBOS 4" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.41204479812585" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.7119825698992885" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Pav%C3%B3n+Teatro+Kamikaze++%28Compa%C3%B1%C3%ADa+Nacional+de+Teatro+Cl%C3%A1sico%29> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "81184" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Pavón Teatro Kamikaze  (Compañía Nacional de Teatro Clásico)" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "El teatro Pavón, inaugurado en 1925, es uno de los primeros edificios madrileños construidos enteramente en estilo Art Decó. Tras la vuelta en mayo de 2015 de la Compañía Nacional de Teatro Clásico al Teatro de la Comedia el teatro cerró su actividad, que regresa en agosto de la mano de varios profesionales del teatro, entre ellos el prestigioso director Miguel del Arco." ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE EMBAJADORES 9" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.410026211183464" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.7061980491148603" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Peque%C3%B1o+Teatro+Gran+V%C3%ADa> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "10140094" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Pequeño Teatro Gran Vía" ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE GRAN VIA 66" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.42240577324947" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.7089562066882342" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Sala+Azarte> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "7093690" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Sala Azarte" ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE SAN MARCOS 19" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.42140719770071" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.698360306512048" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Sala+Birib%C3%B3> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "10035003" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Sala Biribó" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "Ubicada en el barrio de Acacias, esta sala cuenta con una programación multidisciplinar en la que tienen cabida desde obras de teatro y danza hasta talleres, proyecciones o debates. Se trata de  un local repartido en dos plantas, donde también se ofrece la posibilidad de tomar algo antes o después del espectáculo en su pequeño ambigú, charlar con los artistas o consultar su librería ." ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "PASEO ESPERANZA 16" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "ARGANZUELA" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.39864006342172" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.7030270580093982" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Sala+el+Montacargas> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "1983" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Sala el Montacargas" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "Sala de teatro alternativo" ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE ANTILLON 19" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "LATINA" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.411774419017874" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.727914502030771" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Sala+Nada> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "10035193" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Sala Nada" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "Este espacio teatral alternativo está ubicado en el corazón del barrio de La Latina y acoge espectáculos de diferentes disciplinas artísticas. Tiene una superficie de 200 metros cuadrados repartidos en dos plantas con un aforo para 55 personas." ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE SANTA ANA 6" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.410268287012045" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.7078623807530793" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Sala+Nave+73> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "7246699" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Sala Nave 73" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "Espacio multicultural, situado en el barrio de Embajadores, que ofrece una programación variada de conciertos que van desde el jazz o el blues hasta el indie. Cuenta además con una pequeña galería de exposiciones donde se muestra la obra de autores nacionales e internacionales." ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE PALOS DE LA FRONTERA 5" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "ARGANZUELA" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.40316180456706" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.6987020172137433" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Sala+Tarambana> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "161000" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Sala Tarambana" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "Esta sala es un espacio multidisciplinar para la expresión de las artes. Sus socios, actores, músicos y fanáticos de la farándula en general, promueven una programación muy variada con teatro, danza, teatro infantil, conciertos y exposiciones de pintura y fotografía." ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE DOLORES ARMENGOT 31" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CARABANCHEL" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.38580301942374" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.7432218183125814" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Sala+T%C3%BA> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "10035099" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Sala Tú" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "Esta sala de teatro dedicada a los espectáculos de pequeño y mediano formato, está situada en el corazón de Malasaña y es gestionada de manera privada por  profesionales de las artes escénicas. El espacio cuenta con una pequeña sala para las representaciones y un café-ambigú donde tomar algo después." ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE VELARDE 15" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.42680028110073" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.703367344935001" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Tablao+flamenco+Caf%C3%A9+de+Chinitas> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "10037667" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Tablao flamenco Café de Chinitas" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "Restaurante tablao flamenco que abrió sus puertas en 1970, en un bonito local siutado en un palacete del siglo  XVIII , la decoración inspirada en Federico García Lorca y el mundo taurino junto con sus mantones de Manila, hacen de este tablao flamenco el lugar ideal para perderse en el embrujo del flamenco y de la gastronomia española, siendo su especialidad, la paella uno de sus máximos exponentes." ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE TORIJA 7" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.42074803731289" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.7104358351726" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Tablao+Flamenco+Caf%C3%A9+Ziryab> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "10187413" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Tablao Flamenco Café Ziryab" ;
+	<http://www.wsdlfiupm.es/resources/group14/horary> "Actuaciones  :    de martes a jueves: 19 - 1 horas  viernes y sábado: 19 - 3 horas  domingos: 13 - 23:45 horas." ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "PASEO ESPERANZA 17" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "ARGANZUELA" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.402248850411304" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.705138659259797" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Tablao+Flamenco+Candela> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "10187560" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Tablao Flamenco Candela" ;
+	<http://www.wsdlfiupm.es/resources/group14/horary> "Actuaciones  :    de lunes a domingo  22 a 5:30 horas" ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE OLMO 2" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.411468882602335" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.70155764657445" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Tablao+Flamenco+Cardamomo> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "10187763" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Tablao Flamenco Cardamomo" ;
+	<http://www.wsdlfiupm.es/resources/group14/horary> "Actuaciones  :    de lunes a domingo  16:30 a 00:00 horas" ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE ECHEGARAY 15" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.415463057589214" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.699548238936712" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Tablao+Flamenco+Casa+Patas> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "7091909" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Tablao Flamenco Casa Patas" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "Convertido en lugar de culto de los amantes del buen flamenco, este local ubicado en la zona de Sol (que aúna sala de espectáculos y restaurante) aparece en las mejores guías turísticas como uno de los lugares donde se ofrece el flamenco más auténtico de Madrid." ;
+	<http://www.wsdlfiupm.es/resources/group14/horary> "Cerrado los domingos   Actuaciones :   De lunes a jueves a las 22:30 horas  Viernes y sábado a las 21 y a las 24 horas" ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE CA&Ntilde;IZARES 10" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.412729068876004" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.7017357416661167" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Tablao+Flamenco+Corral+de+la+Morer%C3%ADa> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "10187520" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Tablao Flamenco Corral de la Morería" ;
+	<http://www.wsdlfiupm.es/resources/group14/horary> "Actuaciones  :    de lunes a domingo 19 -1:30 horas" ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE MORERIA 17" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.412706403145705" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.7142642886798996" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Tablao+Flamenco+La+Estaci%C3%B3n+de+los+Porches> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "10513763" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Tablao Flamenco La Estación de los Porches" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "Espacio escénico: flamenco, jazz, blues, teatro y actuaciones para niños..." ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE TIMOTEO PEREZ RUBIO 2" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "PUENTE DE VALLECAS" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.388030423146326" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.672212953589482" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Tablao+flamenco+Las+Tablas> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "143436" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Tablao flamenco Las Tablas" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "Espacio escénico: flamenco, jazz, blues, teatro y actuaciones para niños..." ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "PLAZA ESPAÑA 9" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "MONCLOA-ARAVACA" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.42198032023045" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.713678674361515" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Tablao+Flamenco+Torres+Bermejas> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "10187547" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Tablao Flamenco Torres Bermejas" ;
+	<http://www.wsdlfiupm.es/resources/group14/horary> "Actuaciones  :    de lunes a domingo  20:30 - 2 horas; espectáculo de 21 a 00:30 horas." ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE MESONERO ROMANOS 11" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.419885409942566" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.7041793844860695" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Tablao+Flamenco+Villa+Rosa> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "10187829" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Tablao Flamenco Villa Rosa" ;
+	<http://www.wsdlfiupm.es/resources/group14/horary> "Abierto todos los días de 11 a 1 horas  Espectáculos diarios: de lunes a domingo: 20:30 y 22:45 horas (en temporada de verano los horarios varían)  Único día de cierre: 24 de diciembre" ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "PLAZA SANTA ANA 15" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.414920132021535" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.7014284781662314" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Teatro+Alfil> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "2199" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Teatro Alfil" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "Es una sala con más de medio siglo de historia. Actualmente, se encuentra a mitad de camino entre lo comercial y lo alternativo. El escenario es de reducidas dimensiones y carece de 'peine', por lo que no permite montar escenografías aparatosas, pero los espectadores gozan de completa visibilidad desde cualquier localidad y los artistas trabajan con sensación de cercanía al público." ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE PEZ 10" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.4231448936827" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.7044727114319844" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Teatro+Amaya> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "17306" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Teatro Amaya" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "Alberga además de grandes producciones teatrales, exposiciones de pintura, fotografía, etc. Busca de esta manera, abrir una puerta más a la cultura de la ciudad." ;
+	<http://www.wsdlfiupm.es/resources/group14/horary> "Cerrado los lunes" ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "PASEO GENERAL MARTINEZ CAMPOS 9" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CHAMBERI" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.43513498732234" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.697193610846834" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Teatro+Arlequ%C3%ADn+Gran+V%C3%ADa> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "7717745" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Teatro Arlequín Gran Vía" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "Fue proyectado por  Enrique López-Izquierdo . Está situado muy  cerca de la Gran Vía , en el bajo de un gran edificio conocido como Los Sótanos.  En esa zona, a lo largo de la historia, se levantaron un convento de dominicos, un cuartel de artillería, el teatro Recreo y, finalmente, una casa de los Jesuitas, incendiada en mayo 1931.  El Arlequín, como el Bellas Artes y el Príncipe, tiene la singularidad de estar bajo el nivel de la calle. Es actualmente una sala con capacidad para unos  350 espectadores , confortable, de planta rectangular. La mayor parte de su aforo se ubica en el patio de butacas, aunque tiene un pequeño anfiteatro. Tanto el escenario como los camerinos han sido totalmente  reconstruidos y dotados de comodidades.  Viene a ser como un hermano pequeño de los enormes cines y teatros que lo rodean en las manzanas vecinas de la Gran Vía." ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE SAN BERNARDO 5" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.421022372676056" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.7083051475459974" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Teatro+Artistic+La+Morada> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "10511914" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Teatro Artistic La Morada" ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE PALMA 11" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.42613002218805" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.7024762180677455" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Teatro+Bellas+Artes> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "2178" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Teatro Bellas Artes" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "Presenta una completa programación que combina espectáculos de empresas privadas con teatro público, textos clásicos con contemporáneos, juventud frente a veteranía, tanto de actrices, actores, directores de escena, etc." ;
+	<http://www.wsdlfiupm.es/resources/group14/horary> "Cerrado los lunes" ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE MARQUES DE CASA RIERA 2" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.418337815969636" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.6964190351426174" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Teatro+Calder%C3%B3n> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "8176468" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Teatro Calderón" ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE ATOCHA 18" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.41396242769233" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.703363300804268" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Teatro+Circo+Price> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "184955" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Teatro Circo Price" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "Toma su nombre del que existió, durante casi un siglo, en el Paseo de Recoletos. A comienzos del 2000, el ayuntamiento recuperó el antiguo edificio industrial de una fábrica, de estilo neomudéjar, para ubicar el nuevo Teatro Circo Price que desde 2007 ofrece una variada programación de circo, música y teatro.  Teléfono de taquilla: 915 288 122" ;
+	<http://www.wsdlfiupm.es/resources/group14/horary> "Taquilla    De martes a viernes de 18 a 21 horas.  Fines de semana, lunes y festivos desde 2 horas antes del inicio del espectáculo programado. Si no hay espectáculo en estos días, la taquilla permanecerá cerrada." ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "RONDA ATOCHA 35" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "ARGANZUELA" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.40596423138839" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.698601359753866" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Teatro+Cofidis+Alc%C3%A1zar> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "2177" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Teatro Cofidis Alcázar" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "Fue construido en 1921. En sus comienzos era conocido como Palacio de Recreos. Tiene una espectacular fachada, restaurada en el 2004. Actualmente cuenta con más de 800 localidades." ;
+	<http://www.wsdlfiupm.es/resources/group14/horary> "Cerrado los lunes" ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "PASEO CHOPERA 14" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "ARGANZUELA" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.39245900527101" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.69721280449928" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Teatro+Coliseum> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "10511809" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Teatro Coliseum" ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE GRAN VIA 78" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.422131603573256" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.7036959273154326" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Teatro+de+la+Abad%C3%ADa> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "2207" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Teatro de la Abadía" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "El Teatro de La Abadía es una casa de teatro y estudios que aspira a incidir en la vida social y cultural a través del teatro. Aquí se aspira a aunar la creación y exhibición de espectáculos con la búsqueda artística y humana mediante talleres y encuentros, todo ello bajo la dirección de José Luis Gómez que, en la tradición de los teatros de arte europeos, ha configurado un equipo teatral." ;
+	<http://www.wsdlfiupm.es/resources/group14/horary> "Día de cierre: lunes" ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE FERNANDEZ DE LOS RIOS 42" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CHAMBERI" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.43522406333126" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.709208726699302" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Teatro+de+la+Comedia.+Compa%C3%B1%C3%ADa+Nacional+de+Teatro+Cl%C3%A1sico> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "2193" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Teatro de la Comedia. Compañía Nacional de Teatro Clásico" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "Situado en el Barrio de las Letras, donde ya existían corrales de comedias en los siglos  XVI  y  XVII  -el de la Cruz y el del Príncipe, hoy Teatro Español-, el Teatro de la Comedia se inauguró en 1875. En 1915 fue completamente destruido por un incendio y reconstruido en el mismo año, y, un siglo después, de nuevo reinaugurado tras años de restauración. Actualmente es la sede de la Compañía Nacional de Teatro Clásico." ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE PRÍNCIPE 14" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.41566504361928" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.7004107649636144" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Teatro+de+la+Luz+Philips+%28Antiguo+Teatro+Compac+Gran+V%C3%ADa%29> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "17334" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Teatro de la Luz Philips (Antiguo Teatro Compac Gran Vía)" ;
+	<http://www.wsdlfiupm.es/resources/group14/horary> "Cerrado los lunes." ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE GRAN VIA 66" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.42240577324947" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.7089562066882342" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Teatro+de+la+Zarzuela> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "2194" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Teatro de la Zarzuela" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "El Teatro de la Zarzuela es el primer y único teatro de la lírica española. Situado en pleno centro, detrás de las Cortes, en él siempre se ha cultivado la música del género lírico español, y actualmente se siguen cantando y oyendo las mejores obras de su repertorio." ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE JOVELLANOS 4" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.4171909688133" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.6968669041846796" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Teatro+de+las+Aguas> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "10511805" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Teatro de las Aguas" ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE DE LAS AGUAS 8" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.422131603573256" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.7036959273154326" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Teatro+del+Arte> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "6708522" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Teatro del Arte" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "Sala de teatro alternativo situada en el centro de Madrid, en el barrio de Lavapiés, una zona que destaca por el espíritu independiente en muchas de sus propuestas culturales. El objetivo de esta sala es conseguir una programación de calidad, a través de la representación de obras de teatro contemporáneas y comprometidas." ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE SAN COSME Y SAN DAMIAN 3" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.409373215131076" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.698011968601937" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Teatro+del+Barrio> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "7239548" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Teatro del Barrio" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "La sala alternativa Triángulo ha dado paso a El Teatro del Barrio. Un proyecto que nace con la vocación de saber qué está pasando y con la intención de ser una asamblea permanente mediante el teatro, la poesía, el baile, los talleres y la Universidad del Barrio." ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE ZURITA 20" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.409681819217646" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.699123015201178" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Teatro+Espa%C3%B1ol> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "2190" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Teatro Español" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "Denominado, hasta 1849, Teatro del Principe ampliamente reformado en los últimos años del siglo XIX.  Es uno de los teatros madrileños mas emblemáticos, con una trayectoria casi ininterrumpida de programación durante mas de 400 años." ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE PRINCIPE 25" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.41482868269558" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.7001663599562105" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Teatro+F%C3%ADgaro+-+Adolfo+Marsillach> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "2181" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Teatro Fígaro - Adolfo Marsillach" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "Situado en la zona céntrica y turística de Madrid: el barrio de las Letras. Acoge lo mejor de la comedia actual nacional e internacional." ;
+	<http://www.wsdlfiupm.es/resources/group14/horary> "Cerrado los lunes y los martes" ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE DOCTOR CORTEZO 5" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.41345601671212" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.703676260061599" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Teatro+Galileo> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "87056" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Teatro Galileo" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "Se encuentra dentro del Centro Cultural Galileo del Ayuntamiento de Madrid, gestionado por el Grupo Smedia. Una sala, dedicada a la representación de obras de teatro de arte y ensayo y al teatro familiar durante los fines de semana, ubicada en el distrito de Chamberí." ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE GALILEO 39" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CHAMBERI" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.43371190964793" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.7104543597957758" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Teatro+Goya> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "10511786" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Teatro Goya" ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE SEPÚLVEDA 3" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.411745481650485" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.703481650678806" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Teatro+Guindalera> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "130405" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Teatro Guindalera" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "Con un aforo de 75 localidades, esta sala apuesta por recuperar un teatro de arte y ensayo, punto de encuentro y de reflexión. En ella se reivindica la imaginación compartida con el espectador. Frente al despliegue de medios y frente a los grandes espacios se busca el acercamiento y un ambiente íntimo." ;
+	<http://www.wsdlfiupm.es/resources/group14/horary> "Cerrado lunes y martes" ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE MARTINEZ IZQUIERDO 20" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "SALAMANCA" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.43339686680235" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.6696580993972807" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Teatro+Infanta+Isabel> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "2198" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Teatro Infanta Isabel" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "El Teatro Infanta Isabel, conocido antes como 'Cinema Nacional' o 'Petit Palais', es una de las salas de teatro más antiguas de la ciudad, está situado en la calle Barquillo muy cerca de la Gran Vía." ;
+	<http://www.wsdlfiupm.es/resources/group14/horary> "Días de cierre: lunes." ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE BARQUILLO 24" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.42221671356561" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.6955867306586354" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Teatro+Karpas> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "99245" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Teatro Karpas" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "Es una pequeña sala, con 60 butacas, que ofrece producciones propias y de compañías invitadas. Además, colabora y participa en certámenes y festivales. Nace como teatro de cámara independiente en los años 70. Sus fundadores fueron Julio Pascual y Javier Franquelo, dos profesionales del mimo. Su escuela-taller forma cada año en el arte de la interpretación a jóvenes actores." ;
+	<http://www.wsdlfiupm.es/resources/group14/horary> "Días de cierre: lunes" ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE SANTA ISABEL 19" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.41045615490087" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.6977049393895824" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Teatro+La+Belloch> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "10511703" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Teatro La Belloch" ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE PEÑUELAS 61" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.422131603573256" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.7036959273154326" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Teatro+La+caja+del+terror> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "10511775" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Teatro La caja del terror" ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "PASEO ESPERANZA 16" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "ARGANZUELA" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.39864006342172" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.7030270580093982" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Teatro+La+Corseter%C3%ADa> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "10511730" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Teatro La Corsetería" ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE CABEZA 8" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.411745481650485" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.703481650678806" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Teatro+La+Encina> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "10511853" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Teatro La Encina" ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE ERCILLA 15" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "ARGANZUELA" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.402920675882314" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.7028123300797953" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Teatro+La+Gatomaquia> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "10511761" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Teatro La Gatomaquia" ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE SAN COSME Y SAN DAMIÁN 16" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.411745481650485" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.703481650678806" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Teatro+La+Infinito> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "10511855" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Teatro La Infinito" ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE TRES PECES 22" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.41070743291592" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.699357561056897" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Teatro+la+Latina> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "2182" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Teatro la Latina" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "Con casi un siglo de actividad escénica, desde que en 1919 fuera inaugurado como cinematógrafo, ha sido estirpe de artistas que forman parte del patrimonio teatral español, sede de empresarios, centro de trabajo de miles de profesionales y receptor de los aplausos de millones de espectadores.  Obra del arquitecto Pedro Muguruza. Ha sido uno de los escenarios más importantes para la representación de comedia y revista en la historia del teatro a lo largo del siglo  XX .  Debe su nombre a Beatriz Galindo, llamda 'la Latina', escritora y humanista española del siglo  XV ." ;
+	<http://www.wsdlfiupm.es/resources/group14/horary> "Cerrado: los lunes." ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "PLAZA CEBADA 2" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.411397795053" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.708781739576842" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Teatro+La+Nao+8> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "10511615" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Teatro La Nao 8" ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE NAO 8" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.422131603573256" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.7036959273154326" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Teatro+La+Pensi%C3%B3n+de+las+Pulgas> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "10511563" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Teatro La Pensión de las Pulgas" ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE HUERTAS 48" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.41324333320637" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.697144409057269" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Teatro+La+Puerta+Estrecha> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "10242463" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Teatro La Puerta Estrecha" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "Esta pequeña sala, situada en el barrio de Lavapiés, cuenta con diferentes espacios que acogen una biblioteca, un centro de documentación audiovisual y centro de publicaciones, un espacio para exposiciones y dos salas de teatro, una para las obras de repertorio y otra para las piezas más experimentales y arriesgadas." ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE AMPARO 94" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.406348983239184" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.7005263161629527" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Teatro+Lagrada> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "79864" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Teatro Lagrada" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "Sala de teatro alternativo, situada en la zona de Embajadores, donde se apuesta por la mezcla de diferentes manifestaciones artísticas como la fotografía, la música, la pintura y el propio teatro, haciendo especial hincapié en la representación de obras de nuevos autores.  Además de ser un espacio de representación artística, también lo es de formación, ya que, cuenta con una academia de actores donde se trabajan la interpretación, el entrenamiento corporal y vocal, la música y el canto." ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE ERCILLA 20" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "ARGANZUELA" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.40268595360097" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.70289238039068" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Teatro+Lara> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "2208" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Teatro Lara" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "Es un espacio plural que da cabida a la música, a la poesía o a cualquier expresión artística, y que congrega a un público fiel y exigente.  Fue construido en 1879 e inaugurado el 3 de septiembre del año siguiente. Es uno de los teatros más llamativos de la Comunidad de Madrid desde el punto de vista arquitectónico." ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE CORREDERA BAJA DE SAN PABLO 15" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.42208196713365" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.7044498348290293" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Teatro+Lope+de+Vega> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "17338" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Teatro Lope de Vega" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "Se trata de un escenario legendario especializado en musicales de gran formato y montajes espectaculares. Su privilegiada ubicación en la Gran Vía y la ambición de sus producciones hacen de ella una de las salas más significativas y reconocidas del circuito madrileño." ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE GRAN VÍA 57" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.42189272510087" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.7088800933302783" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Teatro+Maravillas> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "174142" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Teatro Maravillas" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "Situado en el céntrico barrio de Malasaña, con capacidad para 400 espectadores. Inaugurado en 1886, tras cinco años de obras, vuelve a abrir sus puertas en el 2005, ." ;
+	<http://www.wsdlfiupm.es/resources/group14/horary> "Días de cierre: lunes y martes" ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE MANUELA MALASAÑA 6" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.428675760717795" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.703103946758172" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Teatro+Mar%C3%ADa+Guerrero.+Centro+Dram%C3%A1tico+Nacional> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "2191" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Teatro María Guerrero. Centro Dramático Nacional" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "El teatro María Guerrero fue inaugurado en 1885 como teatro de la Princesa y declarado por el Ministerio de Cultura en 1996 Bien de Interés Cultural. En la actualidad cuenta con un segundo espacio para espectáculos de pequeño formato, con una capacidad máxima de 120 espectadores." ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE TAMAYO Y BAUS 4" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.42288948179915" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.693071021887218" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Teatro+Marquina> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "2184" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Teatro Marquina" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "El teatro Marquina con capacidad para 500 espectadores, fue inaugurado en 1962. En 1996 fue derribado para levantarlo nuevamente con la última tecnología. Dos años más tarde se reinauguró." ;
+	<http://www.wsdlfiupm.es/resources/group14/horary> "Cerrado los lunes." ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE PRIM 11" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.42195750772574" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.6937451531542638" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Teatro+Monumental> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "2131" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Teatro Monumental" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "Este teatro es la sede de la Orquesta de Radio Televisión Española y en él la Banda Sinfónica Municipal ofrece sus ciclos de Otoño y de Invierno. Fue construido entre 1922 y 1923 en la calle Atocha y ha albergado a múltiples compañías de teatro, revistas, espectáculos y conciertos. Por la estructura y la calidad de sus materiales es un recinto sinfónico de una excelente calidad acústica." ;
+	<http://www.wsdlfiupm.es/resources/group14/horary> "Día de cierre: lunes" ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE ATOCHA 65" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.41248331678507" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.6991755805601443" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Teatro+Municipal+de+T%C3%ADteres+de+El+Retiro+al+Aire+Libre> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "4077" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Teatro Municipal de Títeres de El Retiro al Aire Libre" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "Dentro del parque de El Retiro, muy cerca de la entrada desde la plaza de la Independencia, donde se encuentra la Puerta de Alcalá, está el Teatro de Títeres, toda una institución para el público infantil madrileño.   Este teatro permanente de títeres ofrece casi todos los sábados y domingos un espectáculo en el que las artes plásticas, la interpretación, la música y la literatura se conjugan de manera magistral." ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "AVENIDA MÉXICO 4" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "RETIRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.41878362561595" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.6866519471003647" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Teatro+Mu%C3%B1oz+Seca> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "2185" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Teatro Muñoz Seca" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "El teatro Muñoz Seca se encuentra en pleno centro de Madrid, en una ubicación privilegiada y muy turística. La sala ofrece una amplia variedad de obras teatrales." ;
+	<http://www.wsdlfiupm.es/resources/group14/horary> "Cerrado los lunes." ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "PLAZA CARMEN 1" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.41840439358014" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.7032798991593827" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Teatro+Nuev9+Norte> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "10037829" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Teatro Nuev9 Norte" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "Centrada en el teatro, pero abierta a todas las manifestaciones de las artes escénicas, Nueve Norte se postula como uno de los lugares culturales de referencia en el barrio de Noviciado, en pleno centro de Madrid.  Sede de la compañía de teatro Materialmente Imposible, especializada en comedia contemporánea, Nueve Norte busca ser un elemento de cohesión social, con una programación dirigida tanto a mayores como a los más pequeños de la casa." ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE NORTE 9" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.4260176028424" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.70761486653819" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Teatro+Nuevo+Apolo> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "2186" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Teatro Nuevo Apolo" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "El teatro Nuevo Apolo, con 1000 butacas, es el teatro musical por excelencia de la ciudad. Situado en la zona centro, en la plaza de Tirso de Molina, en él se han representado grandes producciones como Los Miserables o Chicago. También tienen lugar espectáculos de humor y danza." ;
+	<http://www.wsdlfiupm.es/resources/group14/horary> "Cerrado los lunes." ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "PLAZA TIRSO DE MOLINA 1" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.41234075831118" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.703369987899476" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Teatro+Pradillo> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "2202" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Teatro Pradillo" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "Teatro Pradillo reabrió sus puertas como centro de investigación y creación en abril de 2012 con la intención de ofrecerse como un espacio vivo que aspira a incidir en la vida pública y cultural, y a estar permanentemente conectado con la sociedad de la que forma parte ." ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE PRADILLO 12" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CHAMARTIN" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.44856560554628" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.6747261219408607" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Teatro+Pr%C3%ADncipe+Gran+V%C3%ADa> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "31360" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Teatro Príncipe Gran Vía" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "Este teatro madrileño lleva en su nombre el de la calle con la que prácticamente hace esquina, llamándose: Príncipe Gran Vía. Está especializado en comedia." ;
+	<http://www.wsdlfiupm.es/resources/group14/horary> "Cerrado los lunes." ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE TRES CRUCES 8" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.41941656735497" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.702760005318704" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Teatro+Quevedo> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "7089081" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Teatro Quevedo" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "El Teatro Quevedo es una apuesta personal del productor Luis Antonio Rodríguez.  El teatro cuenta con 150 butacas y, además de las artes escénicas, tiene otro protagonista, el microcine. El nombre de este espacio hace referencia a uno de los literatos más importantes del Siglo de Oro, Francisco de Quevedo, y aprovecha su proximidad de la glorieta dedicada al mismo." ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE BRAVO MURILLO 18" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CHAMBERI" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.43560652525375" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.704119358317509" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Teatro+Reina+Victoria> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "2187" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Teatro Reina Victoria" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "Inaugurado el 10 de junio de 1916, fue construido según los planos del arquitecto José Espelius. Para la apertura, presidida por los reyes don Alfonso XIII y doña Victoria Eugenia, se eligió la obra El capricho de las damas.  La fachada es una de las más singulares de los teatros madrileños, con vidrieras de Maumejean y mosaicos de Talavera.  Tiene capacidad para más de 600 espectadores. De la decoración original del interior no queda ningún elemento. Sobre el patio de butacas se ve una claraboya que en sus primeros años se abría para ventilar la sala.  Durante la II República se llamó simplemente Victoria y en octubre de 1936 fue rebautizado con el nombre del dramaturgo Joaquín Dicenta. Aunque en su primera etapa produjo numerosos espectáculos musicales, acabó por ser uno de los teatros especializados en alta comedia. Y así sigue, dirigido actualmente por el empresario Enrique Cornejo." ;
+	<http://www.wsdlfiupm.es/resources/group14/horary> "Días de cierre: lunes" ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CARRERA SAN JERONIMO 24" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.41651548060074" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.699818451104129" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Teatro+Rialto> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "17361" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Teatro Rialto" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "El teatro, situado en pleno corazón de la Gran Vía, tiene una capacidad para 1000 espectadores y es resultado de las obras de transformación del antiguo cine en un moderno escenario teatral." ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE GRAN VIA 54" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.42138841205714" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.707377753413243" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Teatro+Sala+Cuarta+Pared> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "2205" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Teatro Sala Cuarta Pared" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "Centro de formación, investigación y producción teatral independiente creado en 1985 por un grupo de personas de diferentes procedencias teatrales. Entonces apostaron por una línea de continuidad frente a proyectos efímeros de mero interés económico. Su objetivo era convertirse en un núcleo dinamizador en una situación teatral con síntomas de parálisis. Hoy en día es un lugar de encuentro para todos los que pretenden vivir y conocer el teatro de una forma diferente." ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE ERCILLA 17" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "ARGANZUELA" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.402777112937486" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.7027165608127723" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Teatro+Sanpol> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "2189" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Teatro Sanpol" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "El teatro Sanpol es pionero en España al dedicarse en exclusiva al público infantil y juvenil. Dispone de una programación anual estable, que va de septiembre a junio." ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE SAN POL DE MAR 1" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "MONCLOA-ARAVACA" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.4239449097705" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.7265957347882104" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Teatro+Sexto+Derecha> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "10511901" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Teatro Sexto Derecha" ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE TOLEDO 107" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.408649094079635" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.710402877897473" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Teatro+Tribue%C3%B1e> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "135051" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Teatro Tribueñe" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "De la mano del joven director y artista Hugo Pérez Rodríguez de la Pica y de la directora ucraniana Irina Kouberskaya , nace el Teatro Tribueñe en 2003. Un antiguo almacén de ferretería convertido en espacio teatral.  Se trata de una sencilla y acogedora sala, situada en los alrededores de la plaza de toros de las Ventas, cuya programación combina textos dramáticos con algunas obras más innovadoras y actuales.  Algunas de las obras representadas en el teatro han sido:  La casa de Bernarda Alba,   Por los ojos de Raquel Meller ,  Bodas de sangre ,  Dónde mira el ruiseñor cuando cruje una rama,  entre otras. Tanto Hugo Pérez como Irina Kouberskaya han recibido galardones como  El Ojo Crítico  de  RNE  en 2012 y el premio a la Mejor Dirección por  La casa de Bernarda Alba  de Federico García Lorca, entre otros." ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE SANCHO DAVILA 31" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "SALAMANCA" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.425569368259886" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.6615996399032054" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Teatro+Valle+Incl%C3%A1n.+Centro+Dr%C3%A1matico+Nacional> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "173052" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Teatro Valle Inclán. Centro Drámatico Nacional" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "Antiguo edificio del Teatro Olimpia, que se inauguró en 1926 para inmediatamente después funcionar como sala cinematográfica. En 1974 se estrenó como sala de teatro y treinta años después pasa a depender del Centro Dramático Nacional. Tras una intensa remodelación y modernización de las instalaciones, en 2006 se reinaugura como Teatro Valle-Inclán en el barrio de Lavapiés.  Cuenta con dos modernos escenarios, el principal con aforo de 510 butacas y la denominada Sala Francisco Neiva, con disposición a la italiana y 150 butacas. Funciona como segunda sede del Centro Dramático Nacional y acoge la representación de la mitad de las obras de su programa, así como la visita de compañías extranjeras." ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE VALENCIA 1" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.40800690285846" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.7004845788684912" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Teatro+Victoria> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "174525" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Teatro Victoria" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "El Teatro Victoria, situado en el barrio de  Malasaña , ofrece una cuidada selección de obras de teatro; comedias, monólogos, musicales y teatro infantil. Pretende rescatar obras clásicas intentando aportar en ellas las nuevas técnicas y aportaciones artísticas que ofrece la modernidad" ;
+	<http://www.wsdlfiupm.es/resources/group14/horary> "Días de cierre: lunes y martes" ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE PEZ 17" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.42378660181596" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.705611071847053" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Teatros+del+Canal> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "5000655" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Teatros del Canal" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "Moderno complejo de 35.200 metros cuadrados dedicados a las artes escénicas. El edificio, Premio Nacional de Arquitectura, es obra del arquitecto Juan Navarro Baldeweg y fue inaugurado en 2009 con las últimas novedades tecnológicas en el barrio de Chamberí.  Compuestos de dos modernos teatros (Sala Roja y Sala Verde), una sala de ensayos (Sala Negra) y el Centro Danza Canal.  Su programación apuesta por la calidad técnica y la excelencia artística. La sala acoge desde textos clásicos y piezas modernas hasta conciertos, danza, flamenco, zarzuela, ópera, circo o cabaret." ;
+	<http://www.wsdlfiupm.es/resources/group14/horary> "Taquillas  (Calle Cea Bermúdez, 1): con acceso desde la explanada de entrada a la Sala Roja, a la izquierda.   De apertura : de 14:30 h a 21 horas., todos los días.  Cerrada  los días 24, 35 y 31 Diciembre." ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE CEA BERMUDEZ 1" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CHAMBERI" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.43854675141601" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.705057921443053" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Teatros+Luchana> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "10037669" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Teatros Luchana" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "Los antiguos cines Luchana, situados en el barrio de Chamberí, son hoy un multiespacio dedicado al teatro, con cuatro salas repartidas en dos plantas, donde se representan diferentes obras de manera simultánea.  Los Teatros Luchana son un espacio rehabilitado cuya emblemática entrada, situada en un esquinazo de la calle Luchana, está encabezada por un gran letrero de neón al más puro estilo de Broadway. Grandes cristaleras dejan ver el interior del bar del establecimiento, antesala de un gran local en el que se conserva parte de la decoración de los antiguos cines que albergaba, con proyectores, máquinas de cortar y ensamblar películas." ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE LUCHANA 38" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CHAMBERI" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.43193980366074" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.698186306223295" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Teatro.+Arte+%26+Desmayo> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "10038955" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Teatro. Arte & Desmayo" ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE BALEARES 14" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CARABANCHEL" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.394818706807854" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.7135685613542195" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Teatro.+ArtEspacio+Plot+Point> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "187464" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Teatro. ArtEspacio Plot Point" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "Plot Point tiene su propia compañía teatral y ofrece un programa muy completo de representaciones. Además de sala de  espectáculos, también es escuela de teatro, cine y televisión donde los nuevos talentos pueden desarrollarse y vivir la interpretación de forma apasionada." ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE ERCILLA 29" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "ARGANZUELA" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.40192531437177" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.7020477784084793" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Teatro.+Bulul%C3%BA+2120> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "6831483" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Teatro. Bululú 2120" ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE CANARIAS 16" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "ARGANZUELA" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.401958738062355" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.6965212526388838" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Teatro.+El+Escondite> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "10038784" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Teatro. El Escondite" ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE ESTUDIOS 2" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.41228849313228" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.707506391804827" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Teatro.+M%C3%ADnima+espacio+esc%C3%A9nico> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "10038751" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Teatro. Mínima espacio escénico" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "En pleno barrio de Lavapiés, se encuentra esta sala de teatro, una alternativa al panorama cultural actual, donde creadores escénicos puedan desarrollar y exhibir sus trabajos con libertad y profesionalidad." ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE MALLORCA 4" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.40704888094098" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.698011525994152" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Teatro.+Sala+Trovador> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "10038763" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Teatro. Sala Trovador" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "Esta sala, situada en el histórico Barrio de las Letras de Madrid, es el espacio idóneo para montajes teatrales, donde el público y los actores se dejan apresar por un mundo imaginario.  Las artes escénicas orman el motor de todo el proyecto. Con un aforo de cincuenta personas y una perfecta acústica, es el espacio dióneo para comercialización de espectáculos teatrales de pequeño formato." ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "CALLE SAN JOSE 3" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.41298286862909" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.6970120716680395" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Teseo+Teatro> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "10037710" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Teseo Teatro" ;
+	<http://www.wsdlfiupm.es/resources/group14/description> "Este pequeño teatro, situado en el barrio de la Latina, pretende acercar el arte teatral a los más pequeños a través de la adaptación de los clásicos infantiles que la compañía residente, Complejo de Esquilo, interpreta de una manera sorprendente y original. Su objetivo principal es presentar el teatro como una herramienta para transmitir valores, promover reflexiones y ejercitar el propio pensamiento.  Además, este espacio cuenta con cursos de interpretación, canto y voz para niños y adultos." ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "RONDA SEGOVIA 61" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.408489029770145" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.7159050283874873" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .
+
+<http://www.wsdlfiupm.es/resources/group14/Theatre+for+the+people> <http://www.wsdlfiupm.es/resources/group14/kilometric_point> "10511907" ;
+	<http://www.wsdlfiupm.es/resources/group14/name> "Theatre for the people" ;
+	<http://www.wsdlfiupm.es/resources/group14/street> "PLAZA CARLOS CAMBRONERO 5" ;
+	<http://www.wsdlfiupm.es/resources/group14/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/latitude> "40.42313947499592" ;
+	<http://www.wsdlfiupm.es/resources/group14/longitude> "-3.703883251330829" ;
+	<http://www.wsdlfiupm.es/resources/group14/type> "/contenido/entidadesYorganismos/Teatros" .

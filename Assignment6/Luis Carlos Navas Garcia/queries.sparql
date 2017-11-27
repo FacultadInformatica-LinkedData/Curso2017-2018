@@ -1,0 +1,36 @@
+PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> 
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX mv: <http://example.org/myVocabulary#> 
+
+SELECT (SUM(?num)) WHERE {
+?obs a qb:Observation;
+    mv:numberOfAccidents ?num .
+} 
+
+SELECT ?num ?type WHERE {
+?obs a qb:Observation;
+    mv:numberOfAccidents ?num; 
+    mv:hasAccidentType ?type;
+    mv:relatedDistrict "USERA" .
+} 
+
+SELECT ?dist ?num  WHERE {
+?obs a qb:Observation;
+    mv:relatedDistrict ?dist; 
+    mv:numberOfAccidents ?num; 
+    mv:hasAccidentType mv:MultipleCollision .
+} 
+
+SELECT ?dist MAX(?num)  WHERE {
+?obs a qb:Observation;
+    mv:relatedDistrict ?dist; 
+    mv:numberOfAccidents ?num; 
+    mv:hasAccidentType mv:BicycleFall .
+} ORDER BY DESC(?num) LIMIT 1
+
+SELECT ?dist MAX(?num)  WHERE {
+?obs a qb:Observation;
+    mv:relatedDistrict ?dist; 
+    mv:numberOfAccidents ?num.
+    FILTER(?num > 500)
+}
