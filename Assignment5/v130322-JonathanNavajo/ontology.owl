@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="www.worldstuff.org/world.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="www.worldstuff.org/world.owl">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#City"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Country"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#cit_hasCountryCode"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#cit_hasID"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#co_hasCapital"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#co_hasName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Co_Capital"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Co_Name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#cit_CountryCode"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#cit_District"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#cit_ID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#cit_Name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#cit_Population"/>
+    </Declaration>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#cit_hasCountryCode"/>
+        <Class IRI="#City"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#cit_hasID"/>
+        <Class IRI="#City"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#co_hasCapital"/>
+        <Class IRI="#Country"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#co_hasName"/>
+        <Class IRI="#Country"/>
+    </ObjectPropertyDomain>
+</Ontology>

@@ -1,0 +1,53 @@
+PREFIX mv:<http://example.org/myVocabulary#> 
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT (SUM(?acc) AS ?nAccidents) WHERE {
+	?obs mv:numberOfAccidents ?acc
+}
+
+
+
+SELECT ?Tipo ?numAccidentes WHERE {
+ ?obs a qb:Observation;
+   mv:relatedDistrict "USERA";
+   mv:numberOfAccidents ?numAccidentes;
+   mv:hasAccidentType ?tipoAcc.
+
+ ?tipoAccidente skos:prefLabel ?Tipo
+}
+
+
+
+
+SELECT ?Distrito ?numGolpes WHERE {
+ ?obs a qb:Observation;
+   mv:relatedDistrict ?Distrito;
+   mv:hasAccidentType mv:MultipleCollision;
+   mv:numberOfAccidents ?numGolpes.
+}
+
+
+
+
+SELECT ?Distrito ?Caidas WHERE {
+ ?obs a qb:Observation;
+   mv:relatedDistrict ?Distrito;
+   mv:hasAccidentType mv:BicycleFall;
+   mv:numberOfAccidents ?Caidas.
+}
+ORDER BY DESC(?CaidasDeBicis) 
+
+
+SELECT ?Distrito ?numAccidentes WHERE {
+{
+ SELECT ?Distrito (SUM(xsd:double(?num)) AS ?numAccidentes) {
+ ?obs a qb:Observation;
+   mv:relatedDistrict ?Distrito;
+   mv:numberOfAccidents ?num.
+ }
+}
+FILTER (xsd:double(?numAccidentes) > 500)
+}
+ORDER BY DESC (?numAccidentes)
