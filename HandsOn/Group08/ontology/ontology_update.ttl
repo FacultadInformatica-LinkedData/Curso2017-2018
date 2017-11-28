@@ -8,7 +8,7 @@
 @prefix vivo: <http://vivoweb.org/ontology/core#Library>
 @prefix prov: <http://www.w3.org/ns/prov#Activity>
 @prefix : <http://www.semanticweb.es/group08/ontology#> .
-
+@base <http://www.semanticweb.es/group08/ontology> .
  
  
  : rdf:type owl:Ontology . 
