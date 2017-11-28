@@ -4,6 +4,7 @@
  @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
  @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
  @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix c: <http://www.w3.org/2002/12/cal#>
  @prefix vivo: <http://vivoweb.org/ontology/core#Library>
  @prefix prov: <http://www.w3.org/ns/prov#Activity>
  @prefix : <http://www.semanticweb.es/group08/ontology#> .
@@ -28,58 +29,58 @@
  
  ###  https://www.w3.org/2006/vcard/ns#given-name
  vcard:given-name rdf:type owl:DatatypeProperty ;
-          rdfs:domain :library ;
+          rdfs:domain vivo:library ;
           rdfs:range xsd:string .
  
  
  ###  http://www.semanticweb.es/group08/ontology#hasSchedule
  :hasSchedule rdf:type owl:DatatypeProperty ;
-              rdfs:domain :library ;
+              rdfs:domain vivo:library ;
               rdfs:range xsd:string .
  
  
  ###  https://www.w3.org/2006/vcard/ns#hasAddress
  vcard:hasAddress rdf:type owl:DatatypeProperty ;
-             rdfs:domain :library ;
+             rdfs:domain vivo:library ;
              rdfs:range xsd:string .
  
  
  ###  https://www.w3.org/2006/vcard/ns#hasTelephone
  vcard:hasTelephone rdf:type owl:DatatypeProperty ;
-               rdfs:domain :library ;
+               rdfs:domain vivo:library ;
                rdfs:range xsd:string .
  
  ###  https://www.w3.org/2006/vcard/ns#hasEmail
  vcard:hasEmail rdf:type owl:DatatypeProperty ;
-               rdfs:domain :library ;
+               rdfs:domain vivo:library ;
                rdfs:range xsd:string .
   
 
- ###  http://www.semanticweb.es/group08/ontology#hasTitle
- :hasTitle rdf:type owl:DatatypeProperty ;
-           rdfs:domain :activity ;
+ ###  https://www.w3.org/2006/vcard/ns#fn
+ vcard:fn rdf:type owl:DatatypeProperty ;
+           rdfs:domain prov:activity ;
            rdfs:range xsd:string .
  
  
- ###  http://www.semanticweb.es/group08/ontology#hasHour
- :hasHour rdf:type owl:DatatypeProperty ;
-          rdfs:domain :activity ;
+ ###  http://www.w3.org/2002/12/cal#byday
+ c:byday rdf:type owl:DatatypeProperty ;
+          rdfs:domain prov:activity ;
           rdfs:range xsd:string .
 					  
 					  
- ###  http://www.semanticweb.es/group08/ontology#dateStart
- :dateStart rdf:type owl:DatatypeProperty ;
-            rdfs:domain :activity ;
+ ###  http://www.w3.org/2002/12/cal#dtstart
+ c:ddtstart rdf:type owl:DatatypeProperty ;
+            rdfs:domain prov:activity ;
             rdfs:range xsd:string .
 
- ###  http://www.semanticweb.es/group08/ontology#dateEnd
- :dateEnd rdf:type owl:DatatypeProperty ;
-          rdfs:domain :activity ;
+ ###  http://www.w3.org/2002/12/cal#dtend
+ c:dtend rdf:type owl:DatatypeProperty ;
+          rdfs:domain prov:activity ;
           rdfs:range xsd:string .
 
- ###  http://www.semanticweb.es/group08/ontology#url
- :url rdf:type owl:DatatypeProperty ;
-	  rdfs:domain :activity ;
+ ###  https://www.w3.org/2006/vcard/ns#hasUrl
+ v:hasUrl rdf:type owl:DatatypeProperty ;
+	  rdfs:domain prov:activity ;
 	  rdfs:range xsd:string .
 					  
  
