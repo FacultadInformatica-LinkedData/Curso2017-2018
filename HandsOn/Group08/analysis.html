@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+
+<html>
+	
+	<head>
+		<meta charset="utf-8" />
+		<title>
+			Documento de Análisis.
+		</title>
+	</head>
+	
+	<body>
+		<h1> 
+			Documento de Análisis.
+		</h1>
+        
+    <h2>
+    	1. Analisis de la licencia de datos:
+    </h2>
+		<ol>
+			<li><strong>Who is the publisher and the rightsholder?</strong></li>
+				Ayuntamiento de Madrid.<br>
+			<li><strong>What is the licence?</strong></li>
+				Es una licencia que permite el uso comercial y no-comercial de los datos contenidos, siempre y 
+			        cuando su uso no constituya una actividad administrativa pública.<br>
+			<li><strong>Which will be the license to be used for the generated dataset?</strong></li>
+				Licencia CC-BY-NC.<br>
+		</ol>
+    
+    <h2>
+    	2. Analisis del conjunto de datos:
+    </h2>
+    
+	<h3>
+		201747-0-bibliobuses-bibliotecas.csv
+	</h3>
+        
+    <table border="2 px">
+    <tr>
+    	<td><strong>VARIABLE</strong></td>
+        <td><strong>TIPO</strong></td>
+        <td><strong>RANGO DE VAL.</strong></td>
+        <td><strong>COMENTARIOS</strong></td>
+    </tr>
+    <tr>
+    	<td>PK</td>
+        <td>String (único)</td>
+        <td>[0-9]</td>
+        <td>Identificador de la biblioteca/bibliobus</td>
+    </tr>
+    <tr>
+    	<td>NOMBRE</td>
+        <td>String</td>
+        <td>[a-z]U[A-Z][0-9]</td>
+        <td>Nombre de la biblioteca/bibliobus</td>
+    <tr>
+    	<td>DESCRIPCION-ENTIDAD</td>
+        <td>String</td>
+        <td>[a-z]U[A-Z]U[0-9]</td>
+        <td>Descripcion de la biblioteca/bibliobus (puede no existir)</td>
+    </tr>
+    <tr>
+    	<td>HORARIO</td>
+        <td>String</td>
+        <td>[a-z]U[A-Z]U[0-9]</td>
+        <td>Horario de la biblioteca/bibliobus (puede no incluirse o requerirse la consulta de documentacion asociada</td>
+    </tr>
+    <tr>
+    	<td>EQUIPAMIENTO</td>
+        <td>String</td>
+        <td>[a-z]U[A-Z]U[0-9]</td>
+        <td>Equipamiento de la biblioteca/bibliobus</td>
+    </tr>
+    <tr>
+    	<td>TRANSPORTE</td>
+        <td>String</td>
+        <td>[a-z]U[A-Z]U[0-9]</td>
+        <td>Informacion acerca del transporte hacia la localizacion de la biblioteca/bibliobus</td>
+    </tr>
+    <tr>
+    	<td>DESCRIPCION</td>
+        <td>String</td>
+        <td>[a-z]U[A-Z]U[0-9]</td>
+        <td>Información sobre el funcionamiento de la biblioteca/bibliobus</td>
+    </tr>
+    <tr>
+    	<td>ACCESIBILIDAD</td>
+        <td>String</td>
+        <td>[0-1]</td>
+        <td>0: No apto para personas de mov. reducida<br>
+        1: Apto para personas de mov. reducida</td>
+    </tr>
+    <tr>
+    	<td>CONTENT-URL</td>
+        <td>String</td>
+        <td>Alfanuméricos</td>
+        <td>URL con el recorrido semanal del bibliobus</td>
+     </tr>
+     <tr>
+     	<td>NOMBRE-VIA</td>
+        <td>String</td>
+        <td>[a-z]U[A-Z]</td>
+        <td>Nombre de la calle donde esta localizada la biblioteca/bibliobus</td>
+	 </tr>
+     <tr>
+     	<td>CLASE-VIAL</td>
+        <td>String</td>
+        <td>[a-z]U[A-Z]</td>
+        <td>Tipo de calle</td>
+     </tr>
+     <tr>
+     	<td>TIPO-NUM</td>
+        <td>String></td>
+        <td>[a-z]U[A-Z]</td>
+        <td>Indica si el numero de la calle esta en numeros naturales o numeros romanos</td>
+     </tr>
+     <tr>
+     	<td>NUM</td>
+        <td>String</td>
+        <td>[0-9]</td>
+        <td>Indica el numero de la calle</td>
+     </tr>
+     <tr>
+     	<td>ORIENTACION</td>
+        <td>String</td>
+        <td>[a-z]U[A-Z]</td>
+        <td>Informacion adicional sobre la localizacion</td>
+     </tr>
+     <tr>
+     	<td>LOCALIDAD</td>
+        <td>String</td>
+        <td>[a-z]U[A-Z]</td>
+        <td>Localidad donde se encuentra</td>
+     </tr>
+     <tr>
+     	<td>PROVINCIA</td>
+        <td>String</td>
+        <td>[a-z]U[A-Z]</td>
+        <td>Provincia donde se encuentra</td>
+     </tr>
+     <tr>
+     	<td>CODIGO-POSTAL</td>
+        <td>String</td>
+        <td>[0-9]</td>
+        <td>Codigo postal</td>
+     </tr>
+     <tr>
+     	<td>BARRIO</td>
+        <td>String</td>
+        <td>[a-z]U[A-Z]</td>
+        <td>Barrio donde se encuentra</td>
+     </tr>
+     <tr>
+     	<td>DISTRITO</td>
+        <td>String</td>
+        <td>[a-z]U[A-Z]</td>
+        <td>Distrito donde se encuentra</td>
+     </tr>
+     <tr>
+     	<td>COORDENADA-X</td>
+        <td>String</td>
+        <td>[0-9]</td>
+        <td>Coordenada-x de la localización</td>
+     </tr>
+     <tr>
+     	<td>COORDENADA-Y</td>
+        <td>String</td>
+        <td>[0-9]</td>
+        <td>Coordenada-y de la localizacion</td>
+     </tr>
+     <tr>
+     	<td>LATITUD</td>
+        <td>String</td>
+        <td>[0-9]</td>
+        <td>Latitud de la biblioteca/bibliobus</td>
+     </tr>
+     <tr>
+     	<td>LONGITUD</td>
+        <td>String</td>
+        <td>[0-9]</td>
+        <td>-</td>
+     </tr>
+     <tr>
+     	<td>TELEFONO</td>
+        <td>String</td>
+        <td>[a-z]U[0-9]</td>
+        <td>Telefono de contacto</td>
+     </tr>
+     <tr>
+     	<td>FAX</td>
+        <td>String</td>
+        <td>[0-9]</td>
+        <td>Numero de Fax</td>
+     </tr>
+     <tr>
+     	<td>EMAIL</td>
+        <td>String</td>
+        <td>Alfanumericos</td>
+        <td>Correo electronico</td>
+     </tr>
+     <tr>
+     	<td>TIPO</td>
+        <td>String</td>
+        <td>Alfanumericos</td>
+        <td>Tipo de sitio</td>
+     </tr>
+  
+  	 </table>
+        
+    <h3>
+		206717-0-agenda-eventos-bibliotecas.csv
+	</h3>
+    
+  <table border="2 px">
+	<tr>
+    	<td><strong>VARIABLE</strong></td>
+        <td><strong>TIPO</strong></td>
+        <td><strong>RANGO DE VAL.</strong></td>
+        <td><strong>COMENTARIOS</strong></td>
+    </tr>
+    <tr>
+    	<td>ID-EVENTO</td>
+        <td>String (unico)</td>
+        <td>[0-9]</td>
+        <td>Identificador del evento</td>
+    </tr>
+    <tr>
+    	<td>TITULO</td>
+        <td>String</td>
+        <td>[a-z]U[A-Z]</td>
+        <td>Titulo del evento</td>
+    </tr>
+    <tr>
+    	<td>PRECIO</td>
+        <td>String</td>
+        <td>[0-9]</td>
+        <td>Precio de la entrada del evento (actualmente no contiene datos</td>
+    </tr>
+    <tr>
+    	<td>GRATUITO</td>
+        <td>String</td>
+        <td>[0-1]</td>
+        <td>0: la actividad no es gratuita<br>
+        	1: la actividad es gratuita</td>
+    </tr>
+    <tr>
+    	<td>LARGA-DURACION</td>
+        <td>String</td>
+        <td>[0-1]</td>
+        <td>0: la actividad no es de larga duracion<br>
+        	1: la actividad es de larga duracion</td>
+    </tr>
+    <tr>
+    	<td>DIAS-SEMANAS</td>
+        <td>String</td>
+        <td>[L,M.X,J,V,S,D]</td>
+        <td>Indica que dias se realiza la actividad</td>
+    </tr>
+    <tr>
+    	<td>DIAS-EXCLUIDOS</td>
+        <td>String</td>
+        <td>Alfanumericos</td>
+        <td>Dias del año en los que no se realiza la actividad</td>
+    </tr>
+    <tr>
+    	<td>FECHA</td>
+        <td>String</td>
+        <td>Alfanumericos</td>
+        <td>Fecha de comienzo de la actividad</td>
+    <tr>
+    <tr>
+    	<td>FECHA-FIN</td>
+        <td>String</td>
+        <td>Alfanumericos</td>
+        <td>Fecha de finalizacion de la actividad</td>
+    <tr>
+    <tr>
+    	<td>HORA</td>
+        <td>String</td>
+        <td>Alfanumericos</td>
+        <td>Hora de comienzo de actividad</td>
+    </tr>
+    <tr>
+    	<td>DESCRIPCION</td>
+        <td>String</td>
+        <td>[a-z]U[A-Z]U[0-9]</td>
+        <td>Descripcion de la actividad</td>
+    </tr>
+    <tr>
+    	<td>CONTENT-URL</td>
+        <td>String</td>
+        <td>Alfanumericos</td>
+        <td>URL con el contenido de la pagina del evento</td>
+    </tr>
+    <tr>
+    	<td>TITULO-ACTIVIDAD</td>
+        <td>String</td>
+        <td>[a-z]U[A-Z]</td>
+        <td>Titulo de la actividad</td>
+    </tr>
+    <tr>
+    	<td>URL-ACTIVIDAD</td>
+        <td>String</td>
+        <td>Alfanumericos</td>
+        <td>URL con informacion de la actividad</td>
+    </tr>
+    <tr>
+    	<td>URL-INSTALACION</td>
+        <td>String</td>
+        <td>Alfanumericos</td>
+        <td>URL con informacion sobre las instalaciones donde se realiza el evento</td>
+    </tr>
+    <tr>
+    	<td>NOMBRE-INSTALACION</td>
+        <td>String</td>
+        <td>[a-z]U[A-Z]</td>
+        <td>Nombre de la instalacion donde se celebra el evento</td>
+    </tr>
+    <tr>
+    	<td>COORDENADA-X</td>
+        <td>String</td>
+        <td>[0-9]</td>
+        <td>Coordenada-x de la localización</td>
+    </tr>
+    <tr>
+     	<td>COORDENADA-Y</td>
+        <td>String</td>
+        <td>[0-9]</td>
+        <td>Coordenada-y de la localizacion</td>
+     </tr>
+     <tr>
+     	<td>LATITUD</td>
+        <td>String</td>
+        <td>[0-9]</td>
+        <td>Latitud de la localizacion del evento</td>
+     </tr>
+     <tr>
+     	<td>LONGITUD</td>
+        <td>String</td>
+        <td>[0-9]</td>
+        <td>-</td>
+     </tr>
+     <tr>
+     	<td>DISTRITO</td>
+        <td>String</td>
+        <td>[a-z]U[A-Z]</td>
+        <td>Distrito donde se encuentra</td>
+     </tr>
+     <tr>
+     	<td>TIPO</td>
+        <td>String</td>
+        <td>Alfanumericos</td>
+        <td>Tipo de evento</td>
+     </tr>
+     <tr>
+     	<td>AUDIENCIA</td>
+        <td>String</td>
+        <td>Alfanumericos</td>
+        <td>Tipo de audencia para el evento</td>
+     </tr>
+    </table>
+
+    <h2>
+    	3. Estrategia de nombrado de recursos:
+    </h2>
+		
+    <ol>
+			<li>Entidades de la ontología: http://semanticweb.org/group08/ontologies/</li>
+			<li>Nomencaltura de los recursos de la ontologia: http://semanticweb.org/group08/ontologies#resource</li>
+			<li>Nomenclatura de individuos: http://semanticweb.org/group08/ontologies/individuo</li>
+		</ol>
+
+	</body>
+	
+</html>

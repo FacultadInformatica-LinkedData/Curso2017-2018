@@ -1,0 +1,91 @@
+@prefix ns0:  <http://datos.madrid_evento.es/group11/resources#>.
+@prefix type:  <http://datos.madrid_evento.es/group11/resources/type#> .
+@prefix class:  <http://datos.madrid_evento.es/group11/resources/class#>.
+@prefix property:  <http://datos.madrid_evento.es/group11/resources/property#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+#################################################################
+#    Datatypes
+#################################################################
+
+type:ActividadesDeportivas rdf:type rdfs:Datatype ;
+ rdfs:label "Sports Activities"^^xsd:string .
+
+type:ActividadesEscolares rdf:type rdfs:Datatype ;
+ rdfs:label "School Activities"^^xsd:string .
+
+type:ActividadesInfantiles rdf:type rdfs:Datatype ;
+rdfs:label "Kids Activities"^^xsd:string .
+
+type:ActosReligiosos rdf:type rdfs:Datatype ;
+rdfs:label "Religious Activities"^^xsd:string .
+
+type:Campamentos rdf:type rdfs:Datatype ;
+rdfs:label "Camping"^^xsd:string .
+
+type:Carnavales rdf:type rdfs:Datatype ;
+rdfs:label "Carnivals"^^xsd:string .
+
+type:Circos rdf:type rdfs:Datatype ;
+rdfs:label "Circuses"^^xsd:string .
+
+type:ConmemoracionesHomenajes rdf:type rdfs:Datatype ;
+rdfs:label "Commemorations and tributes"^^xsd:string .
+
+type:Conciertos rdf:type rdfs:Datatype ;
+rdfs:label "Concerts"^^xsd:string .
+
+#################################################################
+#    Data properties
+#################################################################
+
+property:name rdf:type owl:DatatypeProperty ;
+				rdfs:domain class:Event ;
+				rdfs:range rdfs:Literal ;
+				rdfs:label "Name"^^xsd:string .
+				
+property:description rdf:type owl:DatatypeProperty ;
+				rdfs:domain class:Event ;
+				rdfs:range rdfs:Literal ;
+				rdfs:label "Description"^^xsd:string .
+				
+property:daysOfTheWeek rdf:type owl:DatatypeProperty ;
+				rdfs:domain class:Event ;
+				rdfs:range rdfs:Literal ;
+				rdfs:label "Days of the week"^^xsd:string .
+				
+property:isFree rdf:type owl:DatatypeProperty ;
+				rdfs:domain class:Event ;
+				rdfs:range xsd:boolean ;
+				rdfs:label "Is Free?"^^xsd:string .
+				
+property:location  rdf:type owl:DatatypeProperty ;
+					rdfs:domain class:Event ;
+					rdfs:range rdfs:Literal ;
+					rdfs:label "Location"^^xsd:string .
+ 
+property:district  rdf:type owl:DatatypeProperty ;
+					rdfs:domain class:Location ;
+					rdfs:range rdfs:Literal ;
+					rdfs:label "District"^^xsd:string .
+					
+property:coordinateX rdf:type owl:DatatypeProperty ;
+					rdfs:domain class:Location ;
+					rdfs:range xsd:integer ;
+					rdfs:label "Coordinate X"^^xsd:string .
+					
+property:coordinateY rdf:type owl:DatatypeProperty ;
+					rdfs:domain class:Location ;
+					rdfs:range xsd:integer ;
+					rdfs:label "Coordinate Y"^^xsd:string .
+
+#################################################################
+#    Classes
+#################################################################
+
+class:Event rdf:type owl:Class .
+class:Location rdf:type owl:Class .

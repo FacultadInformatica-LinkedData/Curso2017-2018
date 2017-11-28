@@ -1,0 +1,198 @@
+﻿<!DOCTYPE html>
+<html>
+	<meta charset="UTF-8">
+	<meta name="authors" content="Group10">
+	
+	<head>
+		<title>Análisis Datasets Grupo10</title>
+		<style>		
+			body {margin: 15px 40px 40px 18px;
+				  background: BlanchedAlmond ;	 
+				  font: 100%/30px 'Helvetica Neue', helvetica, arial, sans-serif;
+			}
+			h1 {color: royalblue;}
+			h2 {color: red; font-size:28px;}
+			h3 {font-weight: bold; font-size:20px;}
+			h4 {font-size:16px; margin: 0px 0px 0px 5px;}
+			table {
+				background: Black;
+				border-size: 11px; 
+				font-size: 12px;
+				line-height: auto;
+				margin: 30px auto;
+			}
+			td {
+				background: White;
+				text-align: center;	
+				padding: 10px 5px;	
+			}
+			th {
+				background: White;
+				text-align: center;	
+				background-color: LightSkyBlue;		
+				color: white;
+				font-size: 16px;
+				padding: 4px 10px;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<h1> Análisis de Datasets. Grupo 10 </h1>
+		<p> A continuación, se expone el análisis realizado sobre los recursos de datos, su licencia, así como la estrategia de nombrado.</p>
+		<br>
+		<h2> 1. Análisis de la Licencia </h2>
+		<h3>- Portal de datos abiertos del Ayuntamiento de Madrid</h3>
+			<p>Los datos que van a ser utilizados provienen de dicho espacio, el cual proporiciona distintos apartados sobre condiciones de uso, que pueden ser resumidos en los siguientes puntos:</p>
+			<h4> Autorización:</h4>					
+			 <ul> 
+				<li>Uso de documentos que obran en poder del Ayuntamiento de Madrid y demás adscritos a él, personas físicas o jurídicas, con fines comerciales o no comerciales, con un uso que no constituya una actividad administrativa pública.</li>
+				<li>Esta autorización conlleva, la cesión gratuita y no exclusiva de los derechos de propiedad intelectual. Autorizándose la realización de actividades como reproducción, distribución o transformación,para desarrollar la actividad de reutilización autorizada, en cualquier modalidad y bajo cualquier formato, para todo el mundo y por el plazo máximo permitido por la Ley.</li>
+			 </ul>			 
+			<h4> Reutilización:</h4>					
+			 <ul> 
+				<li>Está prohibido desnaturalizar el sentido de la información.</li>
+				<li> Debe citarse la fuente de los documentos objeto de la reutilización.</li>
+				<li>No se podrá indicar, insinuar o sugerir que el Ayuntamiento de Madrid participa, patrocina o apoya la reutilización que se lleve a cabo con la información.</li>
+				<li> En caso de información anonimizada por protección de datos personales u otros motivos, está expresamente prohibido realizar labores de re-identificación de personas a partir de estos datos y otras fuentes de datos e información posibles, pasadas, actuales o futuras.</li>
+			 </ul>	
+			 <h4> Exclusión de responsabilidad:</h4>					
+			 <ul> 
+				<li>La utilización de los conjuntos de datos se realizará por parte de las personas y/o empresas que reutilizacen datos,  bajo su propia cuenta y riesgo, correspondiéndoles en exclusiva a ellos responder frente a terceros por daños que pudieran derivarse de ella.</li>
+				<li>El Ayuntamiento de Madrid no será responsable del uso que de su información hagan las personas y/o empresas que reutilicen datos, ni tampoco de los daños sufridos o pérdidas económicas que, de forma directa o indirecta, produzcan o puedan producir perjuicios económicos, materiales o sobre datos, provocados por el uso de la información reutilizada.</li>
+			 </ul>		 
+		<h3>- Reconocimiento 4.0 Internacional (CC BY 4.0)</h3>	
+			<p>Para la información generada, y de forma general, nos basaremos en esta licencia, que permite disintos aspectos como:</p>
+			<h4> Derechos que concede la licencia:</h4>
+			 <ul>
+				<li>Compartir - copiar y redistribuir el material en cualquier medio o formato. </li>
+				<li>Adaptar - remezclar, transformar y crear a partir del material para cualquier propósito, incluso comercial.</li>
+				<li>Reconocimiento - se debe reconocer adecuadamente la autoría, proporcionando un enlace a la licencia e indicar si se han realizado cambios. </li>
+			 </ul>	 
+		<br>
+		<h2> 2. Análisis de los Datasets </h2>
+		<p>En este apartado, nos vamos a encargar de analizar los campos de cada uno de los recursos de datos elegidos. Siendo el primero de ellos, un dataset que recoge la información mensual sobre contaminación acústica en Madrid, a través de unos medidores colocados a lo largo de la ciudad. Por su parte, el segundo recoge los datos de los nombres de las calles de la ciudad.</p>
+			<h3> Contaminacion_Acustica_Mad_17.csv</h3>
+				<table>  
+					<tr>
+						<th>Datos</th>
+						<th>Tipo</th>
+						<th>Comentarios/Rango</th>
+						<th>Problemas</th>
+					</tr>
+					<tr>
+						<td>zone</td>
+						<td>String</td>
+						<td>- Identifica la situación de los datos de contaminación disponibles.<br> - Rango: ["" - Total of Memory]</td>
+						<td>Es posible que varias situaciones tengan distinto nombrado.</td>
+					</tr>		
+					<tr>
+						<td>medNoiseLv</td>
+						<td>double</td>
+						<td>- Nivel sonoro medio a largo plazo determinado a lo largo de todos los períodos diarios (24 horas) del mes.<br>- Rango: [0-100]
+						</td>
+						<td>-</td>
+					</tr>	
+					<tr>
+						<td>numDistrict</td>
+						<td>string</td>
+						<td>- Número de distrito al que pertenece.<br> - Rango: ["" - Total of Memory]</td></td>
+						</td>
+						<td>-</td>
+					</tr>
+					<tr>
+						<td>district</td>
+						<td>string</td>
+						<td>- Nombre del distrito al que pertenece.<br> - Rango: ["" - Total of Memory]</td></td>
+						</td>
+						<td>-</td>
+					</tr>
+					<tr>
+						<td>neighborhood</td>
+						<td>string</td>
+						<td>- Nombre del barrio al que pertenece.<br> - Rango: ["" - Total of Memory]</td></td>
+						</td>
+						<td>-</td>
+					</tr>
+					<tr>
+						<td>numNeighborhood</td>
+						<td>string</td>
+						<td>- Número de barrio al que pertenece.<br> - Rango: ["" - Total of Memory]</td></td>
+						</td>
+						<td>-</td>
+					</tr>
+				</table>
+			
+			<h3>Callejero_Madrid.csv</h3>
+			<table>  
+				<tr>
+					<th>Datos</th>
+					<th>Tipo</th>
+					<th>Comentarios/Rango</th>
+					<th>Problemas</th>
+				</tr>
+				<tr>
+					<td>type</td>
+					<td>String</td>
+					<td>- Clase de vía (calle, plaza, etc.)<br>- Rango: ["" - Total of Memory]</td>
+					<td>-</td>
+				</tr>	
+				<tr>
+					<td>infixe</td>
+					<td>String</td>
+					<td>- Párticula de la denominación. <br> - Rango: ["" - Total of Memory]</td></td>
+					<td>-</td>
+				</tr>		
+				<tr>
+					<td>name</td>
+					<td>String</td>
+					<td>- Denominación de la vía.<br> - Rango: ["" - Total of Memory]</td></td>
+					<td>-</td>
+				</tr>		
+				<tr>
+					<td>name_with_accent</td>
+					<td>String</td>
+					<td>- Denominación de la vía con acento.<br> - Rango: ["" - Total of Memory]</td></td>
+					<td>Elegido por si fuera necesario</td>
+				</tr>		
+				<tr>
+					<td>districtCode</td>
+					<td>String</td>
+					<td>- Código del distrito al que pertenece.<br> - Rango: ["" - Total of Memory]</td></td>
+					<td>-</td>
+				</tr>
+				<tr>
+					<td>neighbCode</td>
+					<td>String</td>
+					<td>- Código del barrio al que pertenece.<br> - Rango: ["" - Total of Memory]</td></td>
+					<td>-</td>
+				</tr>
+			</table>
+		<br>
+		<h2> 3. Estrategia de nombrado </h2>
+			<p>A continuación, se detallan una serie de consideraciones seguidas para alcanzar una estrategia de nombrado. Y, posteriormente, se detalla una tabla a modo de ejemplo.</p>
+			<ul> 
+				<li>El dominio elegido posee un nombre relacionado con los datasets elegidos, y sobre el contenido que se va a desarrollar.</li>
+				<li>Se usan <em>"Hash URIs (#)"</em> para términos ontológicos, y <em>"Slash URIs (/)"</em> para aquellos individuales.</li>
+				<li>Para palabras separadas por espacios, se va a insertar un guión "-", como se muestra en el dominio plasmado en la tabla.</li>
+			</ul>		
+			<table>  
+				<tr>
+					<th>Concepto</th>
+					<th>Dirección</th>
+				</tr>
+				<tr>
+					<td>Dominio</td>
+					<td>htpp://www.contaminacion-acustica-madrid.org/</td>
+				</tr>	
+				<tr>
+					<td>Términos ontológicos</td>
+					<td>htpp://www.contaminacion-acustica-madrid.org/group10/ontology<em>#{term}</em></td>
+				</tr>	
+				<tr>
+					<td>Patrones individuales</td>
+					<td>htpp://www.contaminacion-acustica-madrid.org/group10/resource/<em>{resource_type}/{resource_name}</em></td>
+				</tr>								
+			</table>
+	</body>	
+</html>

@@ -1,0 +1,36 @@
+<rdf:RDF xmlns="http://example.linkeddata.es/my_vocabulary#"
+     xml:base="http://example.linkeddata.es/my_vocabulary"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:my_vocabulary="http://example.linkeddata.es/my_vocabulary#">
+    <owl:Ontology rdf:about="http://example.linkeddata.es/my_vocabulary"/>
+    
+	
+	<!-- Data properties -->  
+
+		<owl:DatatypeProperty rdf:about="&my_vocabulary;hasName">
+			<rdfs:domain rdf:resource="&my_vocabulary;City"/>
+			<rdfs:range rdf:resource="&xsd;string"/>
+		</owl:DatatypeProperty>
+
+		<owl:DatatypeProperty rdf:about="&my_vocabulary;hasPopulation">
+			<rdfs:domain rdf:resource="&my_vocabulary;City"/>
+			<rdfs:range rdf:resource="&xsd;integer"/>
+		</owl:DatatypeProperty>
+    
+
+	<!-- Classes -->     
+
+		<owl:Class rdf:about="&my_vocabulary;City"/>
+    
+
+    <!-- Individuals -->      
+		
+		<owl:NamedIndividual rdf:about="&my_vocabulary;Kabul">
+			<rdf:type rdf:resource="&my_vocabulary;City"/>
+			<hasName>Kabul</hasName>
+			<hasPopulation rdf:datatype="&xsd;integer">1780000</hasPopulation>
+		</owl:NamedIndividual>
+</rdf:RDF>

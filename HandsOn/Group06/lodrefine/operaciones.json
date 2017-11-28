@@ -1,0 +1,790 @@
+[
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column",
+    "columnName": "Column"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 2 to NOMBRE",
+    "oldColumnName": "Column 2",
+    "newColumnName": "NOMBRE"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 3",
+    "columnName": "Column 3"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 4",
+    "columnName": "Column 4"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 5",
+    "columnName": "Column 5"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 6",
+    "columnName": "Column 6"
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "row.starred",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Starred Rows",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": ""
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 8",
+    "columnName": "Column 8"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 7 to DESCRIPCION",
+    "oldColumnName": "Column 7",
+    "newColumnName": "DESCRIPCION"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 9",
+    "columnName": "Column 9"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column DIRECCION at index 4 based on column Column 10 using expression grel:cells[\"Column 11\"].value+\" \"+value+\" \"+cells[\"Column 13\"].value",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "DIRECCION",
+    "columnInsertIndex": 4,
+    "baseColumnName": "Column 10",
+    "expression": "grel:cells[\"Column 11\"].value+\" \"+value+\" \"+cells[\"Column 13\"].value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 10",
+    "columnName": "Column 10"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 11",
+    "columnName": "Column 11"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 12",
+    "columnName": "Column 12"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 13",
+    "columnName": "Column 13"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 14",
+    "columnName": "Column 14"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 15",
+    "columnName": "Column 15"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 16",
+    "columnName": "Column 16"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 17",
+    "columnName": "Column 17"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 18",
+    "columnName": "Column 18"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 19",
+    "columnName": "Column 19"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 20 to CODIGO POSTAL",
+    "oldColumnName": "Column 20",
+    "newColumnName": "CODIGO POSTAL"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 22",
+    "columnName": "Column 22"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 21 to BARRIO",
+    "oldColumnName": "Column 21",
+    "newColumnName": "BARRIO"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 23 to COORDENADA-X",
+    "oldColumnName": "Column 23",
+    "newColumnName": "COORDENADA-X"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 24 to COORDENADA-Y",
+    "oldColumnName": "Column 24",
+    "newColumnName": "COORDENADA-Y"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 25 to LATITUD",
+    "oldColumnName": "Column 25",
+    "newColumnName": "LATITUD"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 26 to LONGITUD",
+    "oldColumnName": "Column 26",
+    "newColumnName": "LONGITUD"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 30",
+    "columnName": "Column 30"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 29",
+    "columnName": "Column 29"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 28",
+    "columnName": "Column 28"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 27",
+    "columnName": "Column 27"
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "row.starred",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Starred Rows",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": ""
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column PROVINCIA",
+    "columnName": "PROVINCIA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column MUNICIPIO",
+    "columnName": "MUNICIPIO"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column PUNTO_MUESTREO",
+    "columnName": "PUNTO_MUESTREO"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column FECHA at index 14 based on column ANO using expression grel:value+\" \"+cells[\"MES\"].value+\" \"+cells[\"DIA\"].value",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "FECHA",
+    "columnInsertIndex": 14,
+    "baseColumnName": "ANO",
+    "expression": "grel:value+\" \"+cells[\"MES\"].value+\" \"+cells[\"DIA\"].value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column ANO",
+    "columnName": "ANO"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column MES",
+    "columnName": "MES"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column DIA",
+    "columnName": "DIA"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column VALOR at index 15 based on column H01 using expression jython:return (float(value) + float(cells[\"H02\"][\"value\"]) + float(cells[\"H03\"][\"value\"])+ float(cells[\"H04\"][\"value\"])+ float(cells[\"H05\"][\"value\"])+ float(cells[\"H06\"][\"value\"])+ float(cells[\"H07\"][\"value\"])+ float(cells[\"H08\"][\"value\"])+ float(cells[\"H09\"][\"value\"])+ float(cells[\"H10\"][\"value\"])+ float(cells[\"H11\"][\"value\"])+ float(cells[\"H12\"][\"value\"])+ float(cells[\"H13\"][\"value\"])+float(cells[\"H14\"][\"value\"])+ float(cells[\"H15\"][\"value\"])+ float(cells[\"H16\"][\"value\"])+ float(cells[\"H17\"][\"value\"])+ float(cells[\"H18\"][\"value\"])+ float(cells[\"H19\"][\"value\"])+ float(cells[\"H20\"][\"value\"])+ float(cells[\"H21\"][\"value\"])+ float(cells[\"H22\"][\"value\"])+ float(cells[\"H23\"][\"value\"])+ float(cells[\"H24\"][\"value\"]))/24",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "VALOR",
+    "columnInsertIndex": 15,
+    "baseColumnName": "H01",
+    "expression": "jython:return (float(value) + float(cells[\"H02\"][\"value\"]) + float(cells[\"H03\"][\"value\"])+ float(cells[\"H04\"][\"value\"])+ float(cells[\"H05\"][\"value\"])+ float(cells[\"H06\"][\"value\"])+ float(cells[\"H07\"][\"value\"])+ float(cells[\"H08\"][\"value\"])+ float(cells[\"H09\"][\"value\"])+ float(cells[\"H10\"][\"value\"])+ float(cells[\"H11\"][\"value\"])+ float(cells[\"H12\"][\"value\"])+ float(cells[\"H13\"][\"value\"])+float(cells[\"H14\"][\"value\"])+ float(cells[\"H15\"][\"value\"])+ float(cells[\"H16\"][\"value\"])+ float(cells[\"H17\"][\"value\"])+ float(cells[\"H18\"][\"value\"])+ float(cells[\"H19\"][\"value\"])+ float(cells[\"H20\"][\"value\"])+ float(cells[\"H21\"][\"value\"])+ float(cells[\"H22\"][\"value\"])+ float(cells[\"H23\"][\"value\"])+ float(cells[\"H24\"][\"value\"]))/24",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column H01",
+    "columnName": "H01"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V01",
+    "columnName": "V01"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V02",
+    "columnName": "V02"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column H02",
+    "columnName": "H02"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column H03",
+    "columnName": "H03"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column H04",
+    "columnName": "H04"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V09",
+    "columnName": "V09"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V10",
+    "columnName": "V10"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V11",
+    "columnName": "V11"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column H12",
+    "columnName": "H12"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V12",
+    "columnName": "V12"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column H10",
+    "columnName": "H10"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V13",
+    "columnName": "V13"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column H14",
+    "columnName": "H14"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V14",
+    "columnName": "V14"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column H13",
+    "columnName": "H13"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V15",
+    "columnName": "V15"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column H15",
+    "columnName": "H15"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column H16",
+    "columnName": "H16"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V16",
+    "columnName": "V16"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column H17",
+    "columnName": "H17"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V17",
+    "columnName": "V17"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column H11",
+    "columnName": "H11"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V18",
+    "columnName": "V18"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column H19",
+    "columnName": "H19"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V19",
+    "columnName": "V19"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column H20",
+    "columnName": "H20"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V07",
+    "columnName": "V07"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V08",
+    "columnName": "V08"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column H09",
+    "columnName": "H09"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column H18",
+    "columnName": "H18"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V20",
+    "columnName": "V20"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column H21",
+    "columnName": "H21"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V21",
+    "columnName": "V21"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column H22",
+    "columnName": "H22"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V22",
+    "columnName": "V22"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column H23",
+    "columnName": "H23"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V03",
+    "columnName": "V03"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V04",
+    "columnName": "V04"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column H05",
+    "columnName": "H05"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column H06",
+    "columnName": "H06"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V06",
+    "columnName": "V06"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column H07",
+    "columnName": "H07"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column H08",
+    "columnName": "H08"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V23",
+    "columnName": "V23"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column H24",
+    "columnName": "H24"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V24",
+    "columnName": "V24"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column V05",
+    "columnName": "V05"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column N� Finca to NumeroFinca",
+    "oldColumnName": "N� Finca",
+    "newColumnName": "NumeroFinca"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column DIRECCION2 at index 4 based on column DIRECCION using expression jython:if value is None:\n return cells[\"Calle\"][\"value\"]+\" \"+cells[\"NumeroFinca\"][\"value\"]\nelse:\n return value",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "DIRECCION2",
+    "columnInsertIndex": 4,
+    "baseColumnName": "DIRECCION",
+    "expression": "jython:if value is None:\n return cells[\"Calle\"][\"value\"]+\" \"+cells[\"NumeroFinca\"][\"value\"]\nelse:\n return value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column DIRECCION",
+    "columnName": "DIRECCION"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column DIRECCION2 to DIRECCION",
+    "oldColumnName": "DIRECCION2",
+    "newColumnName": "DIRECCION"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column N�mero",
+    "columnName": "N�mero"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column NumeroFinca",
+    "columnName": "NumeroFinca"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column N�mero de Plazas",
+    "columnName": "N�mero de Plazas"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Calle",
+    "columnName": "Calle"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column COORDENADA-X2 at index 7 based on column COORDENADA-X using expression jython:if value is None:\n return cells[\"Gis_X\"][\"value\"]\nelse:\n return value",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "COORDENADA-X2",
+    "columnInsertIndex": 7,
+    "baseColumnName": "COORDENADA-X",
+    "expression": "jython:if value is None:\n return cells[\"Gis_X\"][\"value\"]\nelse:\n return value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column COORDENADA-X",
+    "columnName": "COORDENADA-X"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column COORDENADA-X2 to COORDENADA-X",
+    "oldColumnName": "COORDENADA-X2",
+    "newColumnName": "COORDENADA-X"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column COORDENADA-Y2 at index 8 based on column COORDENADA-Y using expression jython:if value is None:\n return cells[\"Gis_Y\"][\"value\"]\nelse:\n return value",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "COORDENADA-Y2",
+    "columnInsertIndex": 8,
+    "baseColumnName": "COORDENADA-Y",
+    "expression": "jython:if value is None:\n return cells[\"Gis_Y\"][\"value\"]\nelse:\n return value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column COORDENADA-Y",
+    "columnName": "COORDENADA-Y"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column COORDENADA-Y2 to COORDENADA-Y",
+    "oldColumnName": "COORDENADA-Y2",
+    "newColumnName": "COORDENADA-Y"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Gis_X",
+    "columnName": "Gis_X"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Gis_Y",
+    "columnName": "Gis_Y"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Fecha de Alta",
+    "columnName": "Fecha de Alta"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column BARRIO2 at index 6 based on column BARRIO using expression jython:if value is None:\n return cells[\"Barrio\"][\"value\"][5:]\nelse:\n return value",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "BARRIO2",
+    "columnInsertIndex": 6,
+    "baseColumnName": "BARRIO",
+    "expression": "jython:if value is None:\n return cells[\"Barrio\"][\"value\"][5:]\nelse:\n return value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column BARRIO",
+    "columnName": "BARRIO"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column BARRIO2 to BARRIO",
+    "oldColumnName": "BARRIO2",
+    "newColumnName": "BARRIO"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Barrio",
+    "columnName": "Barrio"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Distrito",
+    "columnName": "Distrito"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 48",
+    "columnName": "Column 48"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 47",
+    "columnName": "Column 47"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 46",
+    "columnName": "Column 46"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 45",
+    "columnName": "Column 45"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 44",
+    "columnName": "Column 44"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 43",
+    "columnName": "Column 43"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 42",
+    "columnName": "Column 42"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 41",
+    "columnName": "Column 41"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 40",
+    "columnName": "Column 40"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 39",
+    "columnName": "Column 39"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 38",
+    "columnName": "Column 38"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 37",
+    "columnName": "Column 37"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 36",
+    "columnName": "Column 36"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 35",
+    "columnName": "Column 35"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 34",
+    "columnName": "Column 34"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 33",
+    "columnName": "Column 33"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 32",
+    "columnName": "Column 32"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 31",
+    "columnName": "Column 31"
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "row.starred",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Starred Rows",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": ""
+        }
+      ]
+    }
+  }
+]

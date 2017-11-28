@@ -1,0 +1,253 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix class: <http://linkedata.com/assignment5/w140084/class#>.
+@prefix prop: <http://linkedata.com/assignment5/w140084/property#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@base <http://linkedata.com/assignment5/w140084/>.
+
+<TriplesMap1>
+
+	a rr:TriplesMap;
+
+	rr:logicalTable [ rr:tableName "city" ] ;
+
+	rr:subjectMap [ rr:template "http://linkedata.com/assignment5/w140084/city/{ID}"; 
+			rr:class class:city] ;
+
+	rr:predicateObjectMap
+
+	[
+
+		rr:predicate prop:name ;
+
+		rr:objectMap [ rr:column "Name";];
+
+	];
+
+	rr:predicateObjectMap
+
+	[
+
+		rr:predicate prop:countryCode ;
+
+		rr:objectMap [ rr:column "CountryCode";];
+
+	];
+
+	rr:predicateObjectMap
+
+	[
+
+		rr:predicate prop:district ;
+
+		rr:objectMap [ rr:column "District";];
+
+	];
+
+	rr:predicateObjectMap
+
+	[
+
+		rr:predicate prop:population ;
+
+		rr:objectMap [ rr:column "Population";];
+
+	]
+
+.
+
+	
+
+<TriplesMap2>
+
+	a rr:TriplesMap;
+
+	rr:logicalTable [ rr:tableName "country"; ] ;
+
+	rr:subjectMap [ rr:template "http://linkedata.com/assignment5/w140084/country/{Code}"; 
+			rr:class class:country] ;
+
+	rr:predicateObjectMap
+
+	[
+
+		rr:predicate prop:name ;
+
+		rr:objectMap [ rr:column "Name";];
+
+	];
+
+	rr:predicateObjectMap
+
+	[
+
+		rr:predicate prop:continent ;
+
+		rr:objectMap [ rr:column "Continent";];
+
+	];
+
+	rr:predicateObjectMap
+
+	[
+
+		rr:predicate prop:region ;
+
+		rr:objectMap [ rr:column "Region";];
+
+	];
+
+	rr:predicateObjectMap
+
+	[
+
+		rr:predicate prop:surfaceArea ;
+
+		rr:objectMap [ rr:column "SurfaceArea";];
+
+	];
+
+	rr:predicateObjectMap
+
+	[
+
+		rr:predicate prop:indepYear ;
+
+		rr:objectMap [ rr:column "IndepYear";];
+
+	];
+
+	rr:predicateObjectMap
+
+	[
+
+		rr:predicate prop:population ;
+
+		rr:objectMap [ rr:column "Population";];
+
+	];
+
+	rr:predicateObjectMap
+
+	[
+
+		rr:predicate prop:lifeExpectancy ;
+
+		rr:objectMap [ rr:column "LifeExpectancy";];
+
+	];
+
+	rr:predicateObjectMap
+
+	[
+
+		rr:predicate prop:gnp ;
+
+		rr:objectMap [ rr:column "GNP";];
+
+	];
+
+	rr:predicateObjectMap
+
+	[
+
+		rr:predicate prop:gnpold ;
+
+		rr:objectMap [ rr:column "GNPOld";];
+
+	];
+
+	rr:predicateObjectMap
+
+	[
+
+		rr:predicate prop:localName ;
+
+		rr:objectMap [ rr:column "LocalName";];
+
+	];
+
+	rr:predicateObjectMap
+
+	[
+
+		rr:predicate prop:governmentForm ;
+
+		rr:objectMap [ rr:column "GovernmentForm";];
+
+	];
+
+	rr:predicateObjectMap
+
+	[
+
+		rr:predicate prop:headOfState ;
+
+		rr:objectMap [ rr:column "HeadOfState";];
+
+	];
+
+	rr:predicateObjectMap
+
+	[
+
+		rr:predicate prop:capital ;
+
+		rr:objectMap [ rr:column "Capital";];
+
+	];
+
+	rr:predicateObjectMap
+
+	[
+
+		rr:predicate prop:code2 ;
+
+		rr:objectMap [ rr:column "Code2";];
+
+	]
+
+.
+
+	
+
+<TriplesMap3>
+
+	a rr:TriplesMap;
+
+	rr:logicalTable [ rr:tableName "countrylanguage"; ] ;
+
+	rr:subjectMap [ rr:template "http://linkedata.com/assignment5/w140084/language/{Language}"; 
+			rr:class class:countrylanguage] ;
+
+	rr:predicateObjectMap
+
+	[
+
+		rr:predicate prop:countryCode ;
+
+		rr:objectMap [ rr:column "CountryCode"; ] ;
+
+	];
+
+	rr:predicateObjectMap
+
+	[
+
+		rr:predicate prop:isOfficial ;
+
+		rr:objectMap [ rr:column "IsOfficial";];
+
+	];
+
+	rr:predicateObjectMap
+
+	[
+
+		rr:predicate prop:percentage ;
+
+		rr:objectMap [ rr:column "Percentage";];
+
+	]
+
+.
+

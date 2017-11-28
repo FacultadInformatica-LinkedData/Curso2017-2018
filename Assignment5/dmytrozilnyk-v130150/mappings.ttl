@@ -1,0 +1,35 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix mi_vocabulario: <http://linkeddata.example.com/vocabulario#> .
+@prefix mi_instancias: <http://linkeddata.example.com/instancia/> .
+@base <http://linkeddata.example.com/> .
+
+<TriplesMapCity>
+		a rr:TriplesMap;
+		
+		rr:logicalTable [ rr:tableName "Cuidad" ];
+		
+		rr:subjectMap [ rr:termType rr:IRI;
+			rr:template "http://linkeddata.example.com/iinstancias/Cuidad/{ID}";
+			rr:class vocabulary:City
+		];
+
+		rr:predicateObjectMap [ 
+		rr:predicateMap [ rr:constant mi_vocabulario:hasDistrict ]; 
+		rr:objectMap [ rr:termType rr:Literal; rr:column "District"; ]; 
+		]
+
+		rr:predicateObjectMap [ 
+		rr:predicateMap [ rr:constant mi_vocabulario:hasCountryCode ]; 
+		rr:objectMap [ rr:termType rr:Literal; rr:column "CountryCode"; ]; 
+		];
+
+		rr:predicateObjectMap [ 
+			rr:predicateMap [ rr:constant mi_vocabulario:hasName ]; 
+			rr:objectMap [ rr:termType rr:Literal; rr:column "Name"; ]; 
+		];
+		
+		rr:predicateObjectMap [
+			rr:predicateMap [ rr:constant mi_vocabulario:hasPopulation ];
+			rr:objectMap [ rr:termType rr:Literal; rr:column "Population"; ];
+		];
+.
