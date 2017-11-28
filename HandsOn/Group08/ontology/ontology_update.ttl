@@ -4,7 +4,7 @@
  @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
  @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
  @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
-@prefix c: <http://www.w3.org/2002/12/cal#>
+@prefix vevent: <http://www.w3.org/2002/12/cal#>
  @prefix vivo: <http://vivoweb.org/ontology/core#Library>
  @prefix prov: <http://www.w3.org/ns/prov#Activity>
  @prefix : <http://www.semanticweb.es/group08/ontology#> .
@@ -17,10 +17,10 @@
  #    Object Properties
  ################################################################# 
  
- ###  http://www.semanticweb.es/group08/ontology#inLibrary
- :inLibrary	rdf:type owl:ObjectProperty ;
-            rdfs:domain :activity ;
-            rdfs:range :library .
+ ###  http://www.w3.org/2002/12/cal#location
+ vevent:location	rdf:type owl:ObjectProperty ;
+            rdfs:domain prov:activity ;
+            rdfs:range vivo:library .
  
  
  #################################################################
@@ -63,23 +63,23 @@
  
  
  ###  http://www.w3.org/2002/12/cal#byday
- c:byday rdf:type owl:DatatypeProperty ;
+ vevent:byday rdf:type owl:DatatypeProperty ;
           rdfs:domain prov:activity ;
           rdfs:range xsd:string .
 					  
 					  
  ###  http://www.w3.org/2002/12/cal#dtstart
- c:ddtstart rdf:type owl:DatatypeProperty ;
+ vevent:ddtstart rdf:type owl:DatatypeProperty ;
             rdfs:domain prov:activity ;
             rdfs:range xsd:string .
 
  ###  http://www.w3.org/2002/12/cal#dtend
- c:dtend rdf:type owl:DatatypeProperty ;
+ vevent:dtend rdf:type owl:DatatypeProperty ;
           rdfs:domain prov:activity ;
           rdfs:range xsd:string .
 
  ###  https://www.w3.org/2006/vcard/ns#hasUrl
- v:hasUrl rdf:type owl:DatatypeProperty ;
+ vevent:hasUrl rdf:type owl:DatatypeProperty ;
 	  rdfs:domain prov:activity ;
 	  rdfs:range xsd:string .
 					  
