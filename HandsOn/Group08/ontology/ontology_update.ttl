@@ -4,7 +4,10 @@
  @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
  @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
  @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+ @prefix vivo: <http://vivoweb.org/ontology/core#Library>
+ @prefix prov: <http://www.w3.org/ns/prov#Activity>
  @prefix : <http://www.semanticweb.es/group08/ontology#> .
+
  
  
  : rdf:type owl:Ontology . 
@@ -84,9 +87,9 @@
  #    Classes
  #################################################################
  
- ###  http://www.semanticweb.es/group08/ontology#library
- :library rdf:type owl:Class .
+ ###  http://vivoweb.org/ontology/core#Library
+ vivo:library rdf:type owl:Class .
  
  
- ###  http://www.semanticweb.es/group08/ontology#activity
- :activity rdf:type owl:Class . 
+ ###  http://www.w3.org/ns/prov#Activity
+ prov:activity rdf:type owl:Class . 
