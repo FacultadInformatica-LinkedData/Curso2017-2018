@@ -1,4 +1,4 @@
-@prefix : <http://www.semanticweb.org/group03/ontology#> .
+@prefix : <http://www.semanticweb.org/group03/ontology> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -12,190 +12,147 @@
 #    Object Properties
 #################################################################
 
-###  http://www.semanticweb.org/group03/ontology#tieneDirección
-:tieneDirección rdf:type owl:ObjectProperty ;
-                rdfs:domain :Aparcamiento ,
-                            :Estacionamiento_para_personas_movilidad_reducida ,
-                            :Parquimetro ,
-                            :Puntos_de_recarga ;
-                rdfs:range :Dirección .
+###  http://www.semanticweb.org/group03/ontology#cercaDe
+:cercaDe rdf:type owl:ObjectProperty ;
+         owl:inverseOf :cercaDe ;
+         rdfs:domain :Estacionamiento ;
+         rdfs:range :Parquimetro .
+
+
+###  http://www.semanticweb.org/group03/ontology#estaEn
+:estaEn rdf:type owl:ObjectProperty ;
+        owl:inverseOf :hayEn ;
+        rdfs:domain :Lugar ;
+        rdfs:range :Ubicacion .
+
+
+###  http://www.semanticweb.org/group03/ontology#hayEn
+:hayEn rdf:type owl:ObjectProperty ;
+       rdfs:subPropertyOf owl:topObjectProperty ;
+       rdfs:domain :Ubicacion ;
+       rdfs:range :Lugar .
 
 
 #################################################################
 #    Data properties
 #################################################################
 
-###  http://www.semanticweb.org/group03/ontology#accesibilidad
-:accesibilidad rdf:type owl:DatatypeProperty ;
-               rdfs:domain :Aparcamiento ;
-               rdfs:range xsd:int .
-
-
 ###  http://www.semanticweb.org/group03/ontology#barrio
 :barrio rdf:type owl:DatatypeProperty ;
-        rdfs:domain :Aparcamiento ,
-                    :Estacionamiento_para_personas_movilidad_reducida ,
-                    :Parquimetro ;
+        rdfs:domain :Ubicacion ;
         rdfs:range xsd:string .
-
-
-###  http://www.semanticweb.org/group03/ontology#codigoPostal
-:codigoPostal rdf:type owl:DatatypeProperty ;
-              rdfs:domain :Aparcamiento ;
-              rdfs:range xsd:int .
-
-
-###  http://www.semanticweb.org/group03/ontology#descripcion
-:descripcion rdf:type owl:DatatypeProperty ;
-             rdfs:domain :Aparcamiento ;
-             rdfs:range xsd:string .
 
 
 ###  http://www.semanticweb.org/group03/ontology#distrito
 :distrito rdf:type owl:DatatypeProperty ;
-          rdfs:domain :Aparcamiento ,
-                      :Estacionamiento_para_personas_movilidad_reducida ,
-                      :Parquimetro ,
-                      :Puntos_de_recarga ;
+          rdfs:domain :Ubicacion ;
           rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/group03/ontology#horarioDeApertura
-:horarioDeApertura rdf:type owl:DatatypeProperty ;
-                   rdfs:domain :Aparcamiento ;
-                   rdfs:range xsd:dateTime .
+###  http://www.semanticweb.org/group03/ontology#formaDeAparcamiento
+:formaDeAparcamiento rdf:type owl:DatatypeProperty ;
+                     rdfs:domain :Estacionamiento ;
+                     rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/group03/ontology#latitud
-:latitud rdf:type owl:DatatypeProperty ;
-         rdfs:domain :Aparcamiento ;
-         rdfs:range xsd:string .
-
-
-###  http://www.semanticweb.org/group03/ontology#localidad
-:localidad rdf:type owl:DatatypeProperty ;
-           rdfs:domain :Aparcamiento ;
-           rdfs:range xsd:string ;
-           rdfs:comment "Madrid" .
-
-
-###  http://www.semanticweb.org/group03/ontology#longitud
-:longitud rdf:type owl:DatatypeProperty ;
-          rdfs:domain :Aparcamiento ;
-          rdfs:range xsd:string .
-
-
-###  http://www.semanticweb.org/group03/ontology#nombre
-:nombre rdf:type owl:DatatypeProperty ;
-        rdfs:domain :Aparcamiento ;
-        rdfs:range xsd:string .
-
-
-###  http://www.semanticweb.org/group03/ontology#nombreDeVia
-:nombreDeVia rdf:type owl:DatatypeProperty ;
-             rdfs:domain :Dirección ;
-             rdfs:range xsd:string .
+###  http://www.semanticweb.org/group03/ontology#nombreDeLaVia
+:nombreDeLaVia rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Ubicacion ;
+               rdfs:range xsd:string .
 
 
 ###  http://www.semanticweb.org/group03/ontology#numeroDeConectores
 :numeroDeConectores rdf:type owl:DatatypeProperty ;
-                    rdfs:domain :Puntos_de_recarga ;
+                    rdfs:domain :PuntosDeRecarga ;
                     rdfs:range xsd:int .
+
+
+###  http://www.semanticweb.org/group03/ontology#numeroDeLaVia
+:numeroDeLaVia rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Ubicacion ;
+               rdfs:range xsd:string .
 
 
 ###  http://www.semanticweb.org/group03/ontology#numeroDePlazas
 :numeroDePlazas rdf:type owl:DatatypeProperty ;
-                rdfs:domain :Estacionamiento_para_personas_movilidad_reducida ;
+                rdfs:domain :Estacionamiento ;
                 rdfs:range xsd:int .
 
 
-###  http://www.semanticweb.org/group03/ontology#numeroDePlazasDeResidentes
-:numeroDePlazasDeResidentes rdf:type owl:DatatypeProperty ;
-                            rdfs:domain :Aparcamiento ;
-                            rdfs:range xsd:int .
-
-
-###  http://www.semanticweb.org/group03/ontology#numeroDePlazasParaMinusvalidos
-:numeroDePlazasParaMinusvalidos rdf:type owl:DatatypeProperty ;
-                                rdfs:domain :Aparcamiento ;
-                                rdfs:range xsd:int .
-
-
-###  http://www.semanticweb.org/group03/ontology#numeroDePlazasPublicas
-:numeroDePlazasPublicas rdf:type owl:DatatypeProperty ;
-                        rdfs:domain :Aparcamiento ;
-                        rdfs:range xsd:int .
-
-
-###  http://www.semanticweb.org/group03/ontology#numeroDeVia
-:numeroDeVia rdf:type owl:DatatypeProperty ;
-             rdfs:domain :Dirección ;
-             rdfs:range xsd:int .
-
-
-###  http://www.semanticweb.org/group03/ontology#provincia
-:provincia rdf:type owl:DatatypeProperty ;
-           rdfs:domain :Aparcamiento ;
-           rdfs:range xsd:string ;
-           rdfs:comment "Madrid" .
-
-
-###  http://www.semanticweb.org/group03/ontology#tipo
-:tipo rdf:type owl:DatatypeProperty ;
-      rdfs:domain :Aparcamiento ;
-      rdfs:range xsd:string .
+###  http://www.semanticweb.org/group03/ontology#particulaDeLaVia
+:particulaDeLaVia rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Ubicacion ;
+                  rdfs:range xsd:string .
 
 
 ###  http://www.semanticweb.org/group03/ontology#tipoDeConector
 :tipoDeConector rdf:type owl:DatatypeProperty ;
-                rdfs:domain :Puntos_de_recarga ;
+                rdfs:domain :PuntosDeRecarga ;
                 rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/group03/ontology#tipoDeVia
-:tipoDeVia rdf:type owl:DatatypeProperty ;
-           rdfs:domain :Dirección ;
-           rdfs:range xsd:string .
+###  http://www.semanticweb.org/group03/ontology#tipoDeLaVia
+:tipoDeLaVia rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Ubicacion ;
+             rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/group03/ontology#tipoPuntoDeRecarga
-:tipoPuntoDeRecarga rdf:type owl:DatatypeProperty ;
-                    rdfs:domain :Puntos_de_recarga ;
-                    rdfs:range xsd:string .
+###  http://www.semanticweb.org/group03/ontology#tipoEstacionamiento
+:tipoEstacionamiento rdf:type owl:DatatypeProperty ;
+                     rdfs:domain :Estacionamiento .
 
 
 #################################################################
 #    Classes
 #################################################################
 
-###  http://www.semanticweb.org/group03/ontology#Aparcamiento
-:Aparcamiento rdf:type owl:Class .
+###  http://www.semanticweb.org/group03/ontology#Estacionamiento
+:Estacionamiento rdf:type owl:Class ;
+                 rdfs:subClassOf :Lugar .
 
 
-###  http://www.semanticweb.org/group03/ontology#Aparcamiento_publico_municipal
-:Aparcamiento_publico_municipal rdf:type owl:Class ;
-                                rdfs:subClassOf :Aparcamiento .
-
-
-###  http://www.semanticweb.org/group03/ontology#Aparcamiento_residentes_y_publicos_mixtos
-:Aparcamiento_residentes_y_publicos_mixtos rdf:type owl:Class ;
-                                           rdfs:subClassOf :Aparcamiento .
-
-
-###  http://www.semanticweb.org/group03/ontology#Dirección
-:Dirección rdf:type owl:Class .
-
-
-###  http://www.semanticweb.org/group03/ontology#Estacionamiento_para_personas_movilidad_reducida
-:Estacionamiento_para_personas_movilidad_reducida rdf:type owl:Class .
+###  http://www.semanticweb.org/group03/ontology#Lugar
+:Lugar rdf:type owl:Class ;
+       rdfs:comment :Lugar .
 
 
 ###  http://www.semanticweb.org/group03/ontology#Parquimetro
-:Parquimetro rdf:type owl:Class .
+:Parquimetro rdf:type owl:Class ;
+             rdfs:subClassOf :Lugar .
 
 
-###  http://www.semanticweb.org/group03/ontology#Puntos_de_recarga
-:Puntos_de_recarga rdf:type owl:Class .
+###  http://www.semanticweb.org/group03/ontology#PuntosDeRecarga
+:PuntosDeRecarga rdf:type owl:Class ;
+                 rdfs:subClassOf :Estacionamiento .
+
+
+###  http://www.semanticweb.org/group03/ontology#Ubicacion
+:Ubicacion rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/group03/ontology#ZonaAzul
+:ZonaAzul rdf:type owl:Class ;
+          rdfs:subClassOf :Estacionamiento .
+
+
+###  http://www.semanticweb.org/group03/ontology#ZonaMinusvalidos
+:ZonaMinusvalidos rdf:type owl:Class ;
+                  rdfs:subClassOf :Estacionamiento .
+
+
+###  http://www.semanticweb.org/group03/ontology#ZonaNaranja
+:ZonaNaranja rdf:type owl:Class ;
+             rdfs:subClassOf :Estacionamiento .
+
+
+###  http://www.semanticweb.org/group03/ontology#ZonaRojo
+:ZonaRojo rdf:type owl:Class ;
+          rdfs:subClassOf :Estacionamiento .
+
+
+###  http://www.semanticweb.org/group03/ontology#ZonaVerde
+:ZonaVerde rdf:type owl:Class ;
+           rdfs:subClassOf :Estacionamiento .
 
 
 ###  Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi

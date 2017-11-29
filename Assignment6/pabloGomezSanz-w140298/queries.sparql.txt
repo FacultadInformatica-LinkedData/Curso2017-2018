@@ -1,0 +1,54 @@
+#Pablo Gomez Sanz
+
+PREFIX mv: <http://example.org/myVocabulary#> 
+PREFIX qb: <http://purl.org/linked-data/cube#>
+
+#1 
+SELECT (SUM(?x) AS ?accidentes) WHERE {
+	?obs a qb:Observation ;
+	mv:relatedDistrict ?z ;
+	mv:hasAccidentType ?y ;
+	mv:numberOfAccidents ?x ;
+	qb:dataSet mn:MyDataset .
+}
+#2
+
+SELECT ?type AS ?Tipo_accidente xsd:integer(?numAcc) AS ?numero_accidentes
+WHERE 
+{
+	?obs a qb:Observation;
+	mv:relatedDistrict "USERA";
+	mv:hasAccidentType ?type;
+	mv:numberOfAccidents ?numAcc
+}
+
+#3
+
+SELECT ?Distrito (xsd:integer(?num) as ?Numero_Colisiones_multiples)
+WHERE {	
+	?obs a qb:Observation;
+    	mv:relatedDistrict ?Distrito;
+    	mv:hasAccidentType mv:MultipleCollision;
+    	mv:numberOfAccidents ?num.
+}
+
+#4
+
+SELECT ?district MAX(?nAccidents)
+ WHERE {
+ ?obs a qb:Observation;
+ mv:relatedDistrict ?district;
+ mv:hasAccidentType mv:BicycleFall;
+ mv:numberOfAccidents ?nAccidents
+ }
+ORDER by desc(?nAccidents) LIMIT 1
+
+#5
+
+SELECT DISTINCT (?district) xsd:integer(?n) as ?nAccidents
+ WHERE{
+ ?obs a qb:Observation ;
+ mv:relatedDistrict ?district;
+ mv:numberOfAccidents ?n.
+ FILTER(?n > 500).
+}

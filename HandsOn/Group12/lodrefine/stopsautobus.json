@@ -1,0 +1,198 @@
+[
+  {
+    "op": "core/column-rename",
+    "description": "Rename column stop_id to stopID",
+    "oldColumnName": "stop_id",
+    "newColumnName": "stopID"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column stopID using expression grel:value.replace('_8_','')",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "stopID",
+    "expression": "grel:value.replace('_8_','')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column stopID",
+    "columnName": "stopID"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column stop_code to stopID",
+    "oldColumnName": "stop_code",
+    "newColumnName": "stopID"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column stop_name to stopName",
+    "oldColumnName": "stop_name",
+    "newColumnName": "stopName"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column stop_desc to stopAddress",
+    "oldColumnName": "stop_desc",
+    "newColumnName": "stopAddress"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column stop_lat to lat",
+    "oldColumnName": "stop_lat",
+    "newColumnName": "lat"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column stop_lon to lon",
+    "oldColumnName": "stop_lon",
+    "newColumnName": "lon"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column zone_id to stopZone",
+    "oldColumnName": "zone_id",
+    "newColumnName": "stopZone"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column stop_url",
+    "columnName": "stop_url"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column location_type",
+    "columnName": "location_type"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column parent_station to parentStation",
+    "oldColumnName": "parent_station",
+    "newColumnName": "parentStation"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column stop_timezone",
+    "columnName": "stop_timezone"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column wheelchair_boarding",
+    "columnName": "wheelchair_boarding"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group12/resources/",
+      "prefixes": [
+        {
+          "name": "",
+          "uri": "http://www.semanticweb.org/group12/ontology#"
+        },
+        {
+          "name": "geo",
+          "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Busstop/\" + value",
+          "isRowNumberCell": false,
+          "columnName": "stopID",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/group12/ontology#stopName",
+              "curie": ":stopName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "stopName"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group12/ontology#stopAddress",
+              "curie": ":stopAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "stopAddress"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#lat",
+              "curie": "geo:lat",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "lat"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#long",
+              "curie": "geo:long",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "lon"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group12/ontology#stopZone",
+              "curie": ":stopZone",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "stopZone"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group12/ontology#parentStation",
+              "curie": ":parentStation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "parentStation"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,1621 @@
+[
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column",
+    "columnName": "Column"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PK using expression value.toNumber()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PK",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column CODIGO-POSTAL using expression value.toNumber()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "CODIGO-POSTAL",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column NUM using expression value.toNumber()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NUM",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column COORDENADA-X using expression value.toNumber()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "COORDENADA-X",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column COORDENADA-Y using expression value.toNumber()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "COORDENADA-Y",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column LATITUD using expression value.toNumber()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "LATITUD",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column LONGITUD using expression value.toNumber()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "LONGITUD",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TELEFONO using expression grel:value.replace(' ','')",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TELEFONO",
+    "expression": "grel:value.replace(' ','')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TELEFONO using expression value.toNumber()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TELEFONO",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column ACCESIBILIDAD using expression value.toNumber()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "ACCESIBILIDAD",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TRANSPORTE using expression value.toUppercase()",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value.toUppercase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TRANSPORTE using expression grel:value.replace(\"METRO\", \"*METRO\")",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "grel:value.replace(\"METRO\", \"*METRO\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TRANSPORTE using expression grel:value.replace(\"BUS\", \"*BUS\")",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "grel:value.replace(\"BUS\", \"*BUS\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TRANSPORTE using expression grel:value.replace(\"CERCANIAS\", \"\")",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "grel:value.replace(\"CERCANIAS\", \"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TRANSPORTE using expression grel:value.replace(\"CERCANÍAS\", \"\")",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "grel:value.replace(\"CERCANÍAS\", \"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TRANSPORTE using expression grel:value.replace(\"RENFE\", \"*RENFE\")",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "grel:value.replace(\"RENFE\", \"*RENFE\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column TRANSPORTE by separator",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "TRANSPORTE",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "*",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column TRANSPORTE 1",
+    "columnName": "TRANSPORTE 1"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column URI at index 31 based on column TIPO using expression grel:value.replace('/contenido/entidadesYorganismos/','http://www.fiupmwsld.org/handson/group17/')",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "URI",
+    "columnInsertIndex": 31,
+    "baseColumnName": "TIPO",
+    "expression": "grel:value.replace('/contenido/entidadesYorganismos/','http://www.fiupmwsld.org/handson/group17/')",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column URI using expression grel:value+\"/\"+cells[\"PK\"].value",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "URI",
+    "expression": "grel:value+\"/\"+cells[\"PK\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://localhost:3333/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "URI",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "nombre",
+              "curie": ":nombre",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "descripcionEntidad",
+              "curie": ":descripcionEntidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION-ENTIDAD"
+              }
+            },
+            {
+              "uri": "horario",
+              "curie": ":horario",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "equipamiento",
+              "curie": ":equipamiento",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EQUIPAMIENTO"
+              }
+            },
+            {
+              "uri": "transporte2",
+              "curie": ":transporte2",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TRANSPORTE 2"
+              }
+            },
+            {
+              "uri": "transporte3",
+              "curie": ":transporte3",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TRANSPORTE 3"
+              }
+            },
+            {
+              "uri": "transporte4",
+              "curie": ":transporte4",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TRANSPORTE 4"
+              }
+            },
+            {
+              "uri": "descripcion",
+              "curie": ":descripcion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "accesibilidad",
+              "curie": ":accesibilidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ACCESIBILIDAD"
+              }
+            },
+            {
+              "uri": "contentURI",
+              "curie": ":contentURI",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CONTENT-URL"
+              }
+            },
+            {
+              "uri": "nombreVia",
+              "curie": ":nombreVia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA"
+              }
+            },
+            {
+              "uri": "claseVia",
+              "curie": ":claseVia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CLASE-VIAL"
+              }
+            },
+            {
+              "uri": "tipoNum",
+              "curie": ":tipoNum",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO-NUM"
+              }
+            },
+            {
+              "uri": "num",
+              "curie": ":num",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NUM"
+              }
+            },
+            {
+              "uri": "planta",
+              "curie": ":planta",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PLANTA"
+              }
+            },
+            {
+              "uri": "puerta",
+              "curie": ":puerta",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PUERTA"
+              }
+            },
+            {
+              "uri": "escaleras",
+              "curie": ":escaleras",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ESCALERAS"
+              }
+            },
+            {
+              "uri": "orientacion",
+              "curie": ":orientacion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ORIENTACION"
+              }
+            },
+            {
+              "uri": "localidad",
+              "curie": ":localidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LOCALIDAD"
+              }
+            },
+            {
+              "uri": "provincia",
+              "curie": ":provincia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PROVINCIA"
+              }
+            },
+            {
+              "uri": "codigoPostal",
+              "curie": ":codigoPostal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO-POSTAL"
+              }
+            },
+            {
+              "uri": "barrio",
+              "curie": ":barrio",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "BARRIO"
+              }
+            },
+            {
+              "uri": "distrito",
+              "curie": ":distrito",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO"
+              }
+            },
+            {
+              "uri": "coordenadaX",
+              "curie": ":coordenadaX",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "COORDENADA-X"
+              }
+            },
+            {
+              "uri": "coordenadaY",
+              "curie": ":coordenadaY",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "COORDENADA-Y"
+              }
+            },
+            {
+              "uri": "latitud",
+              "curie": ":latitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LATITUD"
+              }
+            },
+            {
+              "uri": "longitud",
+              "curie": ":longitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LONGITUD"
+              }
+            },
+            {
+              "uri": "telefono",
+              "curie": ":telefono",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TELEFONO"
+              }
+            },
+            {
+              "uri": "fax",
+              "curie": ":fax",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "FAX"
+              }
+            },
+            {
+              "uri": "email",
+              "curie": ":email",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EMAIL"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.fiupmwsld.org/handson/group17/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "URI",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "nombre",
+              "curie": ":nombre",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "descripcionEntidad",
+              "curie": ":descripcionEntidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION-ENTIDAD"
+              }
+            },
+            {
+              "uri": "horario",
+              "curie": ":horario",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "equipamiento",
+              "curie": ":equipamiento",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EQUIPAMIENTO"
+              }
+            },
+            {
+              "uri": "transporte2",
+              "curie": ":transporte2",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TRANSPORTE 2"
+              }
+            },
+            {
+              "uri": "transporte3",
+              "curie": ":transporte3",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TRANSPORTE 3"
+              }
+            },
+            {
+              "uri": "transporte4",
+              "curie": ":transporte4",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TRANSPORTE 4"
+              }
+            },
+            {
+              "uri": "descripcion",
+              "curie": ":descripcion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "accesibilidad",
+              "curie": ":accesibilidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ACCESIBILIDAD"
+              }
+            },
+            {
+              "uri": "contentURI",
+              "curie": ":contentURI",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CONTENT-URL"
+              }
+            },
+            {
+              "uri": "nombreVia",
+              "curie": ":nombreVia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA"
+              }
+            },
+            {
+              "uri": "claseVia",
+              "curie": ":claseVia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CLASE-VIAL"
+              }
+            },
+            {
+              "uri": "tipoNum",
+              "curie": ":tipoNum",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO-NUM"
+              }
+            },
+            {
+              "uri": "num",
+              "curie": ":num",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NUM"
+              }
+            },
+            {
+              "uri": "planta",
+              "curie": ":planta",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PLANTA"
+              }
+            },
+            {
+              "uri": "puerta",
+              "curie": ":puerta",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PUERTA"
+              }
+            },
+            {
+              "uri": "escaleras",
+              "curie": ":escaleras",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ESCALERAS"
+              }
+            },
+            {
+              "uri": "orientacion",
+              "curie": ":orientacion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ORIENTACION"
+              }
+            },
+            {
+              "uri": "localidad",
+              "curie": ":localidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LOCALIDAD"
+              }
+            },
+            {
+              "uri": "provincia",
+              "curie": ":provincia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PROVINCIA"
+              }
+            },
+            {
+              "uri": "codigoPostal",
+              "curie": ":codigoPostal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO-POSTAL"
+              }
+            },
+            {
+              "uri": "barrio",
+              "curie": ":barrio",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "BARRIO"
+              }
+            },
+            {
+              "uri": "distrito",
+              "curie": ":distrito",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO"
+              }
+            },
+            {
+              "uri": "coordenadaX",
+              "curie": ":coordenadaX",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "COORDENADA-X"
+              }
+            },
+            {
+              "uri": "coordenadaY",
+              "curie": ":coordenadaY",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "COORDENADA-Y"
+              }
+            },
+            {
+              "uri": "latitud",
+              "curie": ":latitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LATITUD"
+              }
+            },
+            {
+              "uri": "longitud",
+              "curie": ":longitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LONGITUD"
+              }
+            },
+            {
+              "uri": "telefono",
+              "curie": ":telefono",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TELEFONO"
+              }
+            },
+            {
+              "uri": "fax",
+              "curie": ":fax",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "FAX"
+              }
+            },
+            {
+              "uri": "email",
+              "curie": ":email",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EMAIL"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.fiupmwsld.org/handson/group17/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "URI",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "nombre",
+              "curie": ":nombre",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "descripcionEntidad",
+              "curie": ":descripcionEntidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION-ENTIDAD"
+              }
+            },
+            {
+              "uri": "horario",
+              "curie": ":horario",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "equipamiento",
+              "curie": ":equipamiento",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EQUIPAMIENTO"
+              }
+            },
+            {
+              "uri": "transporte2",
+              "curie": ":transporte2",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TRANSPORTE 2"
+              }
+            },
+            {
+              "uri": "transporte3",
+              "curie": ":transporte3",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TRANSPORTE 3"
+              }
+            },
+            {
+              "uri": "transporte4",
+              "curie": ":transporte4",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TRANSPORTE 4"
+              }
+            },
+            {
+              "uri": "descripcion",
+              "curie": ":descripcion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "accesibilidad",
+              "curie": ":accesibilidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ACCESIBILIDAD"
+              }
+            },
+            {
+              "uri": "contentURI",
+              "curie": ":contentURI",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CONTENT-URL"
+              }
+            },
+            {
+              "uri": "nombreVia",
+              "curie": ":nombreVia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA"
+              }
+            },
+            {
+              "uri": "claseVia",
+              "curie": ":claseVia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CLASE-VIAL"
+              }
+            },
+            {
+              "uri": "tipoNum",
+              "curie": ":tipoNum",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO-NUM"
+              }
+            },
+            {
+              "uri": "num",
+              "curie": ":num",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NUM"
+              }
+            },
+            {
+              "uri": "planta",
+              "curie": ":planta",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PLANTA"
+              }
+            },
+            {
+              "uri": "puerta",
+              "curie": ":puerta",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PUERTA"
+              }
+            },
+            {
+              "uri": "escaleras",
+              "curie": ":escaleras",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ESCALERAS"
+              }
+            },
+            {
+              "uri": "orientacion",
+              "curie": ":orientacion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ORIENTACION"
+              }
+            },
+            {
+              "uri": "localidad",
+              "curie": ":localidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LOCALIDAD"
+              }
+            },
+            {
+              "uri": "provincia",
+              "curie": ":provincia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PROVINCIA"
+              }
+            },
+            {
+              "uri": "codigoPostal",
+              "curie": ":codigoPostal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO-POSTAL"
+              }
+            },
+            {
+              "uri": "barrio",
+              "curie": ":barrio",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "BARRIO"
+              }
+            },
+            {
+              "uri": "distrito",
+              "curie": ":distrito",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO"
+              }
+            },
+            {
+              "uri": "coordenadaX",
+              "curie": ":coordenadaX",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "COORDENADA-X"
+              }
+            },
+            {
+              "uri": "coordenadaY",
+              "curie": ":coordenadaY",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "COORDENADA-Y"
+              }
+            },
+            {
+              "uri": "latitud",
+              "curie": ":latitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LATITUD"
+              }
+            },
+            {
+              "uri": "longitud",
+              "curie": ":longitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LONGITUD"
+              }
+            },
+            {
+              "uri": "telefono",
+              "curie": ":telefono",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TELEFONO"
+              }
+            },
+            {
+              "uri": "fax",
+              "curie": ":fax",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "FAX"
+              }
+            },
+            {
+              "uri": "email",
+              "curie": ":email",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EMAIL"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.fiupmwsld.org/handson/group17/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "URI",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "nombre",
+              "curie": ":nombre",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "descripcionEntidad",
+              "curie": ":descripcionEntidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION-ENTIDAD"
+              }
+            },
+            {
+              "uri": "horario",
+              "curie": ":horario",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "equipamiento",
+              "curie": ":equipamiento",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EQUIPAMIENTO"
+              }
+            },
+            {
+              "uri": "transporte2",
+              "curie": ":transporte2",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TRANSPORTE 2"
+              }
+            },
+            {
+              "uri": "transporte3",
+              "curie": ":transporte3",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TRANSPORTE 3"
+              }
+            },
+            {
+              "uri": "transporte4",
+              "curie": ":transporte4",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TRANSPORTE 4"
+              }
+            },
+            {
+              "uri": "descripcion",
+              "curie": ":descripcion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "accesibilidad",
+              "curie": ":accesibilidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ACCESIBILIDAD"
+              }
+            },
+            {
+              "uri": "contentURI",
+              "curie": ":contentURI",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CONTENT-URL"
+              }
+            },
+            {
+              "uri": "nombreVia",
+              "curie": ":nombreVia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA"
+              }
+            },
+            {
+              "uri": "claseVia",
+              "curie": ":claseVia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CLASE-VIAL"
+              }
+            },
+            {
+              "uri": "tipoNum",
+              "curie": ":tipoNum",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO-NUM"
+              }
+            },
+            {
+              "uri": "num",
+              "curie": ":num",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NUM"
+              }
+            },
+            {
+              "uri": "planta",
+              "curie": ":planta",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PLANTA"
+              }
+            },
+            {
+              "uri": "puerta",
+              "curie": ":puerta",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PUERTA"
+              }
+            },
+            {
+              "uri": "escaleras",
+              "curie": ":escaleras",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ESCALERAS"
+              }
+            },
+            {
+              "uri": "orientacion",
+              "curie": ":orientacion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ORIENTACION"
+              }
+            },
+            {
+              "uri": "localidad",
+              "curie": ":localidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LOCALIDAD"
+              }
+            },
+            {
+              "uri": "provincia",
+              "curie": ":provincia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PROVINCIA"
+              }
+            },
+            {
+              "uri": "codigoPostal",
+              "curie": ":codigoPostal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO-POSTAL"
+              }
+            },
+            {
+              "uri": "barrio",
+              "curie": ":barrio",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "BARRIO"
+              }
+            },
+            {
+              "uri": "distrito",
+              "curie": ":distrito",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO"
+              }
+            },
+            {
+              "uri": "coordenadaX",
+              "curie": ":coordenadaX",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "COORDENADA-X"
+              }
+            },
+            {
+              "uri": "coordenadaY",
+              "curie": ":coordenadaY",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "COORDENADA-Y"
+              }
+            },
+            {
+              "uri": "latitud",
+              "curie": ":latitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LATITUD"
+              }
+            },
+            {
+              "uri": "longitud",
+              "curie": ":longitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LONGITUD"
+              }
+            },
+            {
+              "uri": "telefono",
+              "curie": ":telefono",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TELEFONO"
+              }
+            },
+            {
+              "uri": "fax",
+              "curie": ":fax",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "FAX"
+              }
+            },
+            {
+              "uri": "email",
+              "curie": ":email",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EMAIL"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

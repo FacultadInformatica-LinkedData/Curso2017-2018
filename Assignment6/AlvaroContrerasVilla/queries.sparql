@@ -1,0 +1,58 @@
+#GRAPH IRI: http://sandbox.linkeddata.es/graph/accidentes
+
+PREFIX mn: <http://example.org/resources/>
+PREFIX mv: <http://example.org/myVocabulary#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+
+#Query 1
+SELECT (SUM(?numAcc) as ?totalAcc) WHERE
+{
+?obs a qb:Observation ;
+mv:hasAccidentType ?tipoAcc ;
+mv:numberOfAccidents ?numAcc .
+}
+
+#Query 2
+SELECT ?tipoAcc ?numAcc WHERE
+{
+?obs a qb:Observation ;
+mv:relatedDistrict "USERA" ;
+mv:hasAccidentType ?tipoAcc ;
+mv:numberOfAccidents ?numAcc .
+}
+
+#Query 3
+SELECT ?distrito ?numAcc WHERE
+{
+?obs a qb:Observation ;
+mv:relatedDistrict ?distrito ;
+mv:hasAccidentType mv:MultipleCollision ;
+mv:numberOfAccidents ?numAcc .
+}
+
+#Query 4
+SELECT ?distrito ?numMaxAcc WHERE 
+{
+    ?obs a qb:Observation ;
+    mv:relatedDistrict ?distrito ;
+    mv:hasAccidentType mv:BicycleFall ;
+    mv:numberOfAccidents ?numMaxAcc .
+
+   { SELECT (MAX(?numAcc) as ?numMaxAcc) WHERE {
+            ?obs a qb:Observation;
+                 mv:hasAccidentType mv:BicycleFall ;
+                 mv:numberOfAccidents ?numAcc .
+    }
+   }
+}
+
+#Query 5
+SELECT ?distrito ?numAcc 
+WHERE 
+{{ SELECT ?distrito (SUM(xsd:int(?numero)) AS ?numAcc) WHERE 
+   { ?obs a qb:Observation;
+     mv:relatedDistrict ?distrito;
+     mv:numberOfAccidents ?numero.
+   }
+  } FILTER (?numAcc > 500)
+}ORDER BY asc(?numAcc)

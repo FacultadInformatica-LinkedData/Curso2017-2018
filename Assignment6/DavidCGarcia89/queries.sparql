@@ -1,0 +1,61 @@
+1.- How many accidents were there in Madrid in 2013?
+
+PREFIX mv: <http://example.org/myVocabulary#>
+
+SELECT sum(?Accidents) as ?Accidents_2013
+WHERE
+{
+  ?accidente mv:numberOfAccidents ?Accidents.
+}
+
+2.- Give me the number of accidents in Usera for each type of accident
+
+PREFIX mv: <http://example.org/myVocabulary#>
+
+SELECT ?typeAccident ?number
+WHERE
+{ 
+  ?accidente mv:relatedDistrict "USERA".
+  ?accidente mv:hasAccidentType ?typeAccident.
+  ?accidente mv:numberOfAccidents ?number.
+}
+
+3.- Give me the number of multiple collisions for each district
+
+PREFIX mv: <http://example.org/myVocabulary#>
+
+SELECT ?District ?NMultipleCollisions
+WHERE
+{
+   ?accidente mv:relatedDistrict ?District.
+   ?accidente mv:hasAccidentType mv:MultipleCollision.
+   ?accidente mv:numberOfAccidents ?NMultipleCollisions.
+}
+
+4.- Which is the district were the number of bicycle falls was higher in 2013?
+
+PREFIX mv: <http://example.org/myVocabulary#>
+
+SELECT ?District ?NBicycleFalls
+WHERE 
+{
+  ?accidente mv:relatedDistrict ?District.
+  ?accidente mv:hasAccidentType mv:BicycleFall.
+  ?accidente mv:numberOfAccidents ?NBicycleFalls 
+}
+ORDER BY DESC(?NBicycleFalls) LIMIT 1
+
+5.- Give me the districts with more than 500 accidents in 2013
+
+PREFIX mv: <http://example.org/myVocabulary#>
+
+SELECT ?District ?NumberOfAccidents 
+WHERE 
+{{ SELECT ?District SUM(xsd:integer(?number)) AS ?NumberOfAccidents 
+   WHERE 
+   { 
+     ?accidente mv:relatedDistrict ?District.
+     ?accidente mv:numberOfAccidents ?number.
+   }
+  } FILTER (?NumberOfAccidents > 500)
+}
