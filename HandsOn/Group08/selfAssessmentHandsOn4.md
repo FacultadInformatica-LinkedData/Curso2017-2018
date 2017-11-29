@@ -1,6 +1,10 @@
 #Hands-on assignment 3 - Self assessment#
 
-[X]Uses the .ttl extension
+##Checklist##
+
+ontology-updated.owl file
+
+[X]Uses the .owl extension
 [X]Is serialized in the Turtle format
 [X]Follows the resource naming strategy
 [x]Contains at least one class
@@ -13,8 +17,6 @@
 [x]Does not mix labels in different languages (e.g., Spanish and English)
 [x]Does not define multiple domains or multiple ranges in properties
 [x]Contains at least one class that will be used to link to other entities
-
-##Checklist##
 
 Every RDF file
 
