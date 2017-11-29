@@ -1,0 +1,232 @@
+http://www.wsldfiupm.org/handson/group02/vocabulary#
+
+@prefix : <> .
+@prefix ont: <http://www.wsldfiupm.org/handson/group02/vocabulary#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+<http://www.wsldfiupm.org/handson/group02/vocabulary#AseosPublicos+banio1> a ont:AseosPublicos ;
+
+    ont:codigoJm "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    ont:nombre "ISABEL II";
+    ont:numero"7"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:direccion "PLAZA ISABEL II,  7";
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#AseosPublicos+banio2> a ont:AseosPublicos ;
+
+    ont:codigoJm "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    ont:nombre "EMPERADOR CARLOS V";
+    ont:numero"9"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:direccion "PLAZA EMPERADOR CARLOS V,  9";
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#AseosPublicos+banio3> a ont:AseosPublicos ;
+
+    ont:codigoJm "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    ont:nombre "JACINTO BENAVENTE";
+    ont:numero"3"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:direccion "PLAZA JACINTO BENAVENTE,  3";
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#AseosPublicos+banio4> a ont:AseosPublicos ;
+
+    ont:codigoJm "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    ont:nombre "TIRSO DE MOLINA";
+    ont:numero"14"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:direccion "PLAZA TIRSO DE MOLINA,  14";
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#AseosPublicos+banio5> a ont:AseosPublicos ;
+
+    ont:codigoJm "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    ont:nombre "SAN ANDRES";
+    ont:numero"20"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:direccion "CALLE SAN ANDRES,  20";
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#AseosPublicos+banio6> a ont:AseosPublicos ;
+
+    ont:codigoJm "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    ont:nombre "MADRID RIO";
+    ont:numero""""^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:direccion "PARQUE MADRID RIO,";
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#AseosPublicos+banio7> a ont:AseosPublicos ;
+
+    ont:codigoJm "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    ont:nombre "CARMEN";
+    ont:numero"2"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:direccion "PLAZA CARMEN,  2";
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#AseosPublicos+banio8> a ont:AseosPublicos ;
+
+    ont:codigoJm "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    ont:nombre "CAMPILLO DEL MUNDO NUEVO";
+    ont:numero"9"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:direccion "PLAZA CAMPILLO DEL MUNDO NUEVO,  9";
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#AseosPublicos+banio9> a ont:AseosPublicos ;
+
+    ont:codigoJm "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    ont:nombre "EMBAJADORES";
+    ont:numero"7"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:direccion "GLORIETA EMBAJADORES,  7";
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#AseosPublicos+banio10> a ont:AseosPublicos ;
+
+    ont:codigoJm "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    ont:nombre "MENDEZ ALVARO";
+    ont:numero"5"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:direccion "CALLE MENDEZ ALVARO ,  5";
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#AseosPublicos+banio11> a ont:AseosPublicos ;
+
+    ont:codigoJm "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    ont:nombre "INFANTA ISABEL";
+    ont:numero"9"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:direccion "PASEO INFANTA ISABEL,  9";
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#AseosPublicos+banio12> a ont:AseosPublicos ;
+
+    ont:codigoJm "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    ont:nombre "SERRANO";
+    ont:numero"32"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:direccion "CALLE SERRANO,  32";
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#AseosPublicos+banio13> a ont:AseosPublicos ;
+
+    ont:codigoJm "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    ont:nombre "FELIPE II";
+    ont:numero"12"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:direccion "AVENIDA FELIPE II,  12";
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#AseosPublicos+banio14> a ont:AseosPublicos ;
+
+    ont:codigoJm "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    ont:nombre "MANUEL BECERRA";
+    ont:numero"7"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:direccion "PLAZA MANUEL BECERRA,  7";
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#AseosPublicos+banio15> a ont:AseosPublicos ;
+
+    ont:codigoJm "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    ont:nombre "CASTILLA";
+    ont:numero"9"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:direccion "PLAZA CASTILLA,  9";
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#AseosPublicos+banio16> a ont:AseosPublicos ;
+
+    ont:codigoJm "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    ont:nombre "RODRIGUEZ SAHAGUN";
+    ont:numero""S/N""^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:direccion "PARQUE RODRIGUEZ SAHAGUN,  S/N";
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#AseosPublicos+banio17> a ont:AseosPublicos ;
+
+    ont:codigoJm "9"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    ont:nombre "PINTOR ROSALES";
+    ont:numero"14"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:direccion "PASEO PINTOR ROSALES,  14";
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#AseosPublicos+banio18> a ont:AseosPublicos ;
+
+    ont:codigoJm "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    ont:nombre "COSTA BRAVA";
+    ont:numero"13"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:direccion "CALLE COSTA BRAVA,  13";
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#AseosPublicos+banio19> a ont:AseosPublicos ;
+
+    ont:codigoJm "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    ont:nombre "RAFAELA YBARRA";
+    ont:numero""S/N""^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:direccion "AVENIDA RAFAELA YBARRA,  S/N";
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#AseosPublicos+banio20> a ont:AseosPublicos ;
+
+    ont:codigoJm "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    ont:nombre "CAMINO DE PERALES";
+    ont:numero"48"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:direccion "CALLE CAMINO DE PERALES,  48";
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#AseosPublicos+banio21> a ont:AseosPublicos ;
+
+    ont:codigoJm "13"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    ont:nombre "ALBUFERA";
+    ont:numero"1"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:direccion "AVENIDA ALBUFERA,  1";
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#AseosPublicos+banio22> a ont:AseosPublicos ;
+
+    ont:codigoJm "13"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    ont:nombre "DEMOCRACIA";
+    ont:numero"1"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:direccion "AVENIDA DEMOCRACIA,  1";
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#AseosPublicos+banio23> a ont:AseosPublicos ;
+
+    ont:codigoJm "13"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    ont:nombre "MANCHA";
+    ont:numero"1"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:direccion "CALLE MANCHA,  1";
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#AseosPublicos+banio24> a ont:AseosPublicos ;
+
+    ont:codigoJm "15"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    ont:nombre "MISTERIOS";
+    ont:numero"1"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:direccion "CALLE MISTERIOS,  1";
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#AseosPublicos+banio25> a ont:AseosPublicos ;
+
+    ont:codigoJm "17"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    ont:nombre "SANTA PETRONILA";
+    ont:numero"15"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:direccion "CALLE SANTA PETRONILA,  15";
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#AseosPublicos+banio26> a ont:AseosPublicos ;
+
+    ont:codigoJm "17"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    ont:nombre "AGATA";
+    ont:numero"1"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:direccion "PLAZA AGATA,  1";
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#AseosPublicos+banio27> a ont:AseosPublicos ;
+
+    ont:codigoJm "18"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    ont:nombre "SANTA EUGENIA";
+    ont:numero"79"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:direccion "AVENIDA SANTA EUGENIA,  79";
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#AseosPublicos+banio28> a ont:AseosPublicos ;
+
+    ont:codigoJm "20"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    ont:nombre "ALSACIA";
+    ont:numero"1"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:direccion "PLAZA ALSACIA,  1";
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#AseosPublicos+banio29> a ont:AseosPublicos ;
+
+    ont:codigoJm "20"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    ont:nombre "ALCAL�";
+    ont:numero"632"^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:direccion "CALLE ALCAL�,  632";
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#AseosPublicos+banio30> a ont:AseosPublicos ;
+
+    ont:codigoJm "21"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    ont:nombre "DE LAS NACIONES";
+    ont:numero""S/N""^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:direccion "PARQUE DE LAS NACIONES,  S/N";
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#AseosPublicos+banio31> a ont:AseosPublicos ;
+
+    ont:codigoJm "21"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    ont:nombre "DE LAS NACIONES";
+    ont:numero""S/N""^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:direccion "PARQUE DE LAS NACIONES,  S/N";
+
+<http://www.wsldfiupm.org/handson/group02/vocabulary#AseosPublicos+banio32> a ont:AseosPublicos ;
+
+    ont:codigoJm "21"^^<http://www.w3.org/2001/XMLSchema#int> ;
+    ont:nombre "DE LAS NACIONES";
+    ont:numero""S/N""^^<http://www.w3.org/2001/XMLSchema#int>;
+    ont:direccion "PARQUE DE LAS NACIONES,  S/N";
+  }
