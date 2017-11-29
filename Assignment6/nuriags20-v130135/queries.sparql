@@ -1,0 +1,74 @@
+1.
+
+PREFIX qube: <http://purl.org/linked-data/cube#>
+PREFIX prop: <http://example.org/myVocabulary#>
+
+SELECT (SUM(?accidentes) AS ?total) WHERE {
+?obs a qube:Observation;
+   prop:numberOfAccidents ?accidentes.
+}
+
+
+2.
+
+PREFIX qube: <http://purl.org/linked-data/cube#>
+PREFIX prop: <http://example.org/myVocabulary#>
+
+SELECT ?tipoAccidentes ?accidentes WHERE {
+?obs a qube:Observation;
+   prop:relatedDistrict "USERA";
+   prop:hasAccidentType ?tipoAccidentes;
+   prop:numberOfAccidents ?accidentes.
+}
+
+
+3.
+
+PREFIX qube: <http://purl.org/linked-data/cube#>
+PREFIX prop: <http://example.org/myVocabulary#>
+
+SELECT ?distrito ?accidentes WHERE {
+?obs a qube:Observation;
+   prop:relatedDistrict ?distrito;
+   prop:hasAccidentType prop:MultipleCollision;
+   prop:numberOfAccidents ?accidentes.
+}
+
+
+4. 
+
+PREFIX qube: <http://purl.org/linked-data/cube#>
+PREFIX prop: <http://example.org/myVocabulary#>
+
+SELECT ?distrito ?maxNumAccidentes WHERE {
+?obs a qube:Observation;
+   prop:relatedDistrict ?distrito;
+   prop:hasAccidentType prop:BicycleFall;
+   prop:numberOfAccidents ?maxNumAccidentes 
+   {
+      SELECT (MAX(?accidentes) AS ?maxNumAccidentes) WHERE {
+      ?obs a qube:Observation;
+ 	prop:relatedDistrict ?distrito;
+	prop:hasAccidentType prop:BicycleFall;
+ 	prop:numberOfAccidents ?accidentes.
+
+      }
+   }
+} 
+
+
+5.
+
+PREFIX qube: <http://purl.org/linked-data/cube#>
+PREFIX prop: <http://example.org/myVocabulary#>
+
+SELECT ?distrito ?accidentesDistrito{
+   {
+      SELECT ?distrito (SUM(xsd:double(?accidentes)) AS ?accidentesDistrito) WHERE {
+      ?obs a qube:Observation;
+         prop:relatedDistrict ?distrito;
+	 prop:numberOfAccidents ?accidentes.
+
+      } GROUP BY ?distrito
+   }FILTER(?accidentesDistrito> 500)
+} 
