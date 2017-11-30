@@ -65,8 +65,8 @@ rdfs:type rdf:type owl:AnnotationProperty ;
 <http://www.wsdlfiupm.es/resources/group14/properties/location> rdf:type owl:ObjectProperty ;
                                                                     rdfs:subPropertyOf owl:topObjectProperty ;
                                                                     rdfs:domain <http://dbpedia.org/ontology/Place> ;
-                                                                    rdfs:range <http://dbpedia.org/ontology/Position> ;
-                                                                    rdfs:label "location"^^xsd:string .																
+                                                                    rdfs:range <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+                                                                    rdfs:label "location"^^xsd:string .															
 																	
 
 #################################################################

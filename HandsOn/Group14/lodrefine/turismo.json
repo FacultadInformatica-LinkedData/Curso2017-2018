@@ -92,12 +92,12 @@
   },
   {
     "op": "core/column-addition",
-    "description": "Create column calle at index 5 based on column CLASE-VIAL using expression grel:value+ \" \"+cells[\"NOMBRE-VIA\"].value +\" \"+cells[\"NUM\"].value",
+    "description": "Create column Calle at index 5 based on column CLASE-VIAL using expression grel:value+ \" \"+cells[\"NOMBRE-VIA\"].value +\" \"+cells[\"NUM\"].value",
     "engineConfig": {
       "mode": "row-based",
       "facets": []
     },
-    "newColumnName": "calle",
+    "newColumnName": "Calle",
     "columnInsertIndex": 5,
     "baseColumnName": "CLASE-VIAL",
     "expression": "grel:value+ \" \"+cells[\"NOMBRE-VIA\"].value +\" \"+cells[\"NUM\"].value",
