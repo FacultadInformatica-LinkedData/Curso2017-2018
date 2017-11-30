@@ -139,16 +139,10 @@ rdfs:type rdf:type owl:AnnotationProperty ;
                                                                     rdfs:label "Leisure"^^xsd:string .
 
 
-###  http://www.wsdlfiupm.es/resources/group14/class/Organizations
-<http://www.wsdlfiupm.es/resources/group14/class/Organizations> rdf:type owl:Class ;
+###  http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations
+<http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> rdf:type owl:Class ;
                                                                     rdfs:subClassOf <http://dbpedia.org/ontology/Place> ;
-                                                                    rdfs:label "Organization"^^xsd:string .
-
-
-###  http://www.wsdlfiupm.es/resources/group14/class/Museums
-<http://www.wsdlfiupm.es/resources/group14/class/Museums> rdf:type owl:Class ;
-                                                                    rdfs:subClassOf <http://dbpedia.org/ontology/Place> ;
-                                                                    rdfs:label "Museums"^^xsd:string .
+                                                                    rdfs:label "Monuments_Museums_Organizations"^^xsd:string .
 
 
 ###  http://www.wsdlfiupm.es/resources/group14/class/Position
@@ -160,8 +154,3 @@ rdfs:type rdf:type owl:AnnotationProperty ;
 <http://dbpedia.org/ontology/Place> rdf:type owl:Class ;
 													rdfs:label "dbo:Place"^^xsd:string .
 
-
-###  http://www.wsdlfiupm.es/resources/group14/class/Monuments
-<http://www.wsdlfiupm.es/resources/group14/class/Monuments> rdf:type owl:Class ;
-                                                                   rdfs:subClassOf <http://dbpedia.org/ontology/Place> ;
-                                                                   rdfs:label "Monuments"^^xsd:string .
