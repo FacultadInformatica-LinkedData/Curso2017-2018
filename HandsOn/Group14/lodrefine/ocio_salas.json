@@ -190,10 +190,12 @@
               "uri": "properties/type",
               "curie": ":properties/type",
               "target": {
-                "nodeType": "cell-as-literal",
+                "nodeType": "cell-as-resource",
                 "expression": "value",
                 "isRowNumberCell": false,
-                "columnName": "TIPO"
+                "columnName": "TIPO",
+                "rdfTypes": [],
+                "links": []
               }
             },
             {
@@ -266,5 +268,18 @@
         }
       ]
     }
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TIPO using expression grel:\"http://www.wsdlfiupm.es/resources/group14/types/Leisure\"",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TIPO",
+    "expression": "grel:\"http://www.wsdlfiupm.es/resources/group14/types/Leisure\"",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
   }
 ]

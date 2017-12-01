@@ -190,10 +190,12 @@
               "uri": "properties/type",
               "curie": ":properties/type",
               "target": {
-                "nodeType": "cell-as-literal",
+                "nodeType": "cell-as-resource",
                 "expression": "value",
                 "isRowNumberCell": false,
-                "columnName": "TIPO"
+                "columnName": "TIPO",
+                "rdfTypes": [],
+                "links": []
               }
             },
             {
@@ -203,7 +205,7 @@
                 "nodeType": "cell-as-resource",
                 "expression": "value",
                 "isRowNumberCell": false,
-                "columnName": "Calle",
+                "columnName": "calle",
                 "rdfTypes": [],
                 "links": []
               }
@@ -214,7 +216,7 @@
           "nodeType": "cell-as-resource",
           "expression": "value",
           "isRowNumberCell": false,
-          "columnName": "Calle",
+          "columnName": "calle",
           "rdfTypes": [
             {
               "uri": "class/Position",
@@ -229,7 +231,7 @@
                 "nodeType": "cell-as-literal",
                 "expression": "value",
                 "isRowNumberCell": false,
-                "columnName": "Calle"
+                "columnName": "calle"
               }
             },
             {
@@ -266,5 +268,71 @@
         }
       ]
     }
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TIPO using expression grel:\"http://www.wsdlfiupm.es/resources/group14/types/Historic\"",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "Museos",
+          "name": "TIPO",
+          "type": "text",
+          "columnName": "TIPO"
+        }
+      ]
+    },
+    "columnName": "TIPO",
+    "expression": "grel:\"http://www.wsdlfiupm.es/resources/group14/types/Historic\"",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TIPO using expression grel:\"http://www.wsdlfiupm.es/resources/group14/types/Historic\"",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "monumentos",
+          "name": "TIPO",
+          "type": "text",
+          "columnName": "TIPO"
+        }
+      ]
+    },
+    "columnName": "TIPO",
+    "expression": "grel:\"http://www.wsdlfiupm.es/resources/group14/types/Historic\"",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TIPO using expression grel:\"http://www.wsdlfiupm.es/resources/group14/types/Institutes\"",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "fundaciones",
+          "name": "TIPO",
+          "type": "text",
+          "columnName": "TIPO"
+        }
+      ]
+    },
+    "columnName": "TIPO",
+    "expression": "grel:\"http://www.wsdlfiupm.es/resources/group14/types/Institutes\"",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
   }
 ]
