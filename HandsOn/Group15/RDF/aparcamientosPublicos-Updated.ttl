@@ -1,0 +1,717 @@
+@prefix ont: <http://linkedgeodata.org/ontology/Parking#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+
+<http://www.semanticweb.org/instances/0> a <http://www.semanticweb.org/OntologyGroup15#Parking> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasDistrito> "CENTRO" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Aparcamiento mixto. Arquitecto Ribera" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a50e15cbed51c010VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasCodPostal> "28004" .
+
+<http://www.semanticweb.org/instances/13470> a <http://www.semanticweb.org/OntologyGroup15#Direccion> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasClaseVial> "CALLE" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNombreVia> "BARCELO" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNumVia> "2" .
+
+<http://www.semanticweb.org/instances/0> <http://www.semanticweb.org/OntologyGroup15#hasDireccion> <http://www.semanticweb.org/instances/13470> .
+
+<http://www.semanticweb.org/instances/1> a <http://www.semanticweb.org/OntologyGroup15#Parking> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasDistrito> "CHAMARTIN" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Aparcamiento mixto. Avenida de América (intercambiador)" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3f3bc2c6e051c010VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasCodPostal> "28002" .
+
+<http://www.semanticweb.org/instances/59060> a <http://www.semanticweb.org/OntologyGroup15#Direccion> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasClaseVial> "CALLE" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNombreVia> "PRADENA DEL RINCON" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNumVia> "4" .
+
+<http://www.semanticweb.org/instances/1> <http://www.semanticweb.org/OntologyGroup15#hasDireccion> <http://www.semanticweb.org/instances/59060> .
+
+<http://www.semanticweb.org/instances/2> a <http://www.semanticweb.org/OntologyGroup15#Parking> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasDistrito> "LATINA" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Aparcamiento mixto. Avenida de Portugal" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c313e26f2b3fc210VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasCodPostal> "28011" .
+
+<http://www.semanticweb.org/instances/5898885> a <http://www.semanticweb.org/OntologyGroup15#Direccion> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasClaseVial> "AVENIDA" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNombreVia> "PORTUGAL" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNumVia> "155" .
+
+<http://www.semanticweb.org/instances/2> <http://www.semanticweb.org/OntologyGroup15#hasDireccion> <http://www.semanticweb.org/instances/5898885> .
+
+<http://www.semanticweb.org/instances/3> a <http://www.semanticweb.org/OntologyGroup15#Parking> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasDistrito> "CENTRO" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Aparcamiento mixto. Benavente" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c48f15cbed51c010VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasCodPostal> "28012" .
+
+<http://www.semanticweb.org/instances/13459> a <http://www.semanticweb.org/OntologyGroup15#Direccion> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasClaseVial> "PLAZA" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNombreVia> "JACINTO BENAVENTE" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNumVia> "6" .
+
+<http://www.semanticweb.org/instances/3> <http://www.semanticweb.org/OntologyGroup15#hasDireccion> <http://www.semanticweb.org/instances/13459> .
+
+<http://www.semanticweb.org/instances/4> a <http://www.semanticweb.org/OntologyGroup15#Parking> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasDistrito> "TETUAN" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Aparcamiento mixto. Brasil" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fb2e15cbed51c010VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasCodPostal> "28020" .
+
+<http://www.semanticweb.org/instances/13475> a <http://www.semanticweb.org/OntologyGroup15#Direccion> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasClaseVial> "CALLE" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNombreVia> "GENERAL YAG&Uuml;E" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNumVia> "11" .
+
+<http://www.semanticweb.org/instances/4> <http://www.semanticweb.org/OntologyGroup15#hasDireccion> <http://www.semanticweb.org/instances/13475> .
+
+<http://www.semanticweb.org/instances/5> a <http://www.semanticweb.org/OntologyGroup15#Parking> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasDistrito> "CENTRO" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Aparcamiento mixto. Casino de la Reina" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c5f4bdc85c01c010VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasCodPostal> "28005" .
+
+<http://www.semanticweb.org/instances/183747> a <http://www.semanticweb.org/OntologyGroup15#Direccion> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasClaseVial> "CALLE" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNombreVia> "CASINO" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNumVia> "3" .
+
+<http://www.semanticweb.org/instances/5> <http://www.semanticweb.org/OntologyGroup15#hasDireccion> <http://www.semanticweb.org/instances/183747> .
+
+<http://www.semanticweb.org/instances/6> a <http://www.semanticweb.org/OntologyGroup15#Parking> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasDistrito> "TETUAN" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Aparcamiento mixto. Condesa de Gavia" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7e5f15cbed51c010VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasCodPostal> "28020" .
+
+<http://www.semanticweb.org/instances/13477> a <http://www.semanticweb.org/OntologyGroup15#Direccion> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasClaseVial> "PLAZA" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNombreVia> "CONDESA DE GAVIA" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNumVia> "0" .
+
+<http://www.semanticweb.org/instances/6> <http://www.semanticweb.org/OntologyGroup15#hasDireccion> <http://www.semanticweb.org/instances/13477> .
+
+<http://www.semanticweb.org/instances/7> a <http://www.semanticweb.org/OntologyGroup15#Parking> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasDistrito> "CHAMARTIN" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Aparcamiento mixto. Corazón de María II" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b74e6545f951c010VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasCodPostal> "28002" .
+
+<http://www.semanticweb.org/instances/24103> a <http://www.semanticweb.org/OntologyGroup15#Direccion> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasClaseVial> "CALLE" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNombreVia> "CORAZON DE MARIA" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNumVia> "46" .
+
+<http://www.semanticweb.org/instances/7> <http://www.semanticweb.org/OntologyGroup15#hasDireccion> <http://www.semanticweb.org/instances/24103> .
+
+<http://www.semanticweb.org/instances/8> a <http://www.semanticweb.org/OntologyGroup15#Parking> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasDistrito> "MONCLOA-ARAVACA" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Aparcamiento mixto. Corona Boreal" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=db8bc2c6e051c010VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasCodPostal> "28023" .
+
+<http://www.semanticweb.org/instances/81736> a <http://www.semanticweb.org/OntologyGroup15#Direccion> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasClaseVial> "CALLE" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNombreVia> "PEREZ DE VICTORIA" .
+
+<http://www.semanticweb.org/instances/8> <http://www.semanticweb.org/OntologyGroup15#hasDireccion> <http://www.semanticweb.org/instances/81736> .
+
+<http://www.semanticweb.org/instances/9> a <http://www.semanticweb.org/OntologyGroup15#Parking> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasDistrito> "RETIRO" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Aparcamiento mixto. Daoíz y Velarde" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0f85bdc85c01c010VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasCodPostal> "28007" .
+
+<http://www.semanticweb.org/instances/183748> a <http://www.semanticweb.org/OntologyGroup15#Direccion> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasClaseVial> "AVENIDA" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNombreVia> "CIUDAD DE BARCELONA" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNumVia> "3" .
+
+<http://www.semanticweb.org/instances/9> <http://www.semanticweb.org/OntologyGroup15#hasDireccion> <http://www.semanticweb.org/instances/183748> .
+
+<http://www.semanticweb.org/instances/10> a <http://www.semanticweb.org/OntologyGroup15#Parking> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasDistrito> "SALAMANCA" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Aparcamiento mixto. Díaz Porlier" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9e69946be351c010VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasCodPostal> "28006" .
+
+<http://www.semanticweb.org/instances/44724> a <http://www.semanticweb.org/OntologyGroup15#Direccion> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasClaseVial> "CALLE" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNombreVia> "DIEGO DE LEON" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNumVia> "62" .
+
+<http://www.semanticweb.org/instances/10> <http://www.semanticweb.org/OntologyGroup15#hasDireccion> <http://www.semanticweb.org/instances/44724> .
+
+<http://www.semanticweb.org/instances/11> a <http://www.semanticweb.org/OntologyGroup15#Parking> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasDistrito> "MORATALAZ" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Aparcamiento mixto. Encuentro" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c3e12c798651c010VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasCodPostal> "28030" .
+
+<http://www.semanticweb.org/instances/36269> a <http://www.semanticweb.org/OntologyGroup15#Direccion> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasClaseVial> "PLAZA" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNombreVia> "ENCUENTRO" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNumVia> "1" .
+
+<http://www.semanticweb.org/instances/11> <http://www.semanticweb.org/OntologyGroup15#hasDireccion> <http://www.semanticweb.org/instances/36269> .
+
+<http://www.semanticweb.org/instances/12> a <http://www.semanticweb.org/OntologyGroup15#Parking> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasDistrito> "SALAMANCA" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Aparcamiento mixto. Felipe II" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=425e15cbed51c010VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasCodPostal> "28009" .
+
+<http://www.semanticweb.org/instances/13464> a <http://www.semanticweb.org/OntologyGroup15#Direccion> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasClaseVial> "CALLE" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNombreVia> "ANTONIA MERCE" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNumVia> "5-B" .
+
+<http://www.semanticweb.org/instances/12> <http://www.semanticweb.org/OntologyGroup15#hasDireccion> <http://www.semanticweb.org/instances/13464> .
+
+<http://www.semanticweb.org/instances/13> a <http://www.semanticweb.org/OntologyGroup15#Parking> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasDistrito> "CHAMBERI" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Aparcamiento mixto. Fuencarral" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=987e15cbed51c010VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasCodPostal> "28010" .
+
+<http://www.semanticweb.org/instances/13462> a <http://www.semanticweb.org/OntologyGroup15#Direccion> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasClaseVial> "CALLE" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNombreVia> "FUENCARRAL" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNumVia> "111 a 121" .
+
+<http://www.semanticweb.org/instances/13> <http://www.semanticweb.org/OntologyGroup15#hasDireccion> <http://www.semanticweb.org/instances/13462> .
+
+<http://www.semanticweb.org/instances/14> a <http://www.semanticweb.org/OntologyGroup15#Parking> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasDistrito> "TETUAN" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Aparcamiento mixto. General Yagüe" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ee9e15cbed51c010VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasCodPostal> "28020" .
+
+<http://www.semanticweb.org/instances/13515> a <http://www.semanticweb.org/OntologyGroup15#Direccion> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasClaseVial> "AVENIDA" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNombreVia> "BRASIL" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNumVia> "15" .
+
+<http://www.semanticweb.org/instances/14> <http://www.semanticweb.org/OntologyGroup15#hasDireccion> <http://www.semanticweb.org/instances/13515> .
+
+<http://www.semanticweb.org/instances/15> a <http://www.semanticweb.org/OntologyGroup15#Parking> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasDistrito> "TETUAN" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Aparcamiento mixto. Hernani" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d0712c798651c010VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasCodPostal> "28020" .
+
+<http://www.semanticweb.org/instances/36270> a <http://www.semanticweb.org/OntologyGroup15#Direccion> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasClaseVial> "CALLE" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNombreVia> "HERNANI" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNumVia> "60" .
+
+<http://www.semanticweb.org/instances/15> <http://www.semanticweb.org/OntologyGroup15#hasDireccion> <http://www.semanticweb.org/instances/36270> .
+
+<http://www.semanticweb.org/instances/16> a <http://www.semanticweb.org/OntologyGroup15#Parking> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasDistrito> "TETUAN" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Aparcamiento mixto. José Castán Tobeñas" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=35ce15cbed51c010VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasCodPostal> "28020" .
+
+<http://www.semanticweb.org/instances/13479> a <http://www.semanticweb.org/OntologyGroup15#Direccion> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasClaseVial> "CALLE" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNombreVia> "CAPITAN HAYA" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNumVia> "57" .
+
+<http://www.semanticweb.org/instances/16> <http://www.semanticweb.org/OntologyGroup15#hasDireccion> <http://www.semanticweb.org/instances/13479> .
+
+<http://www.semanticweb.org/instances/17> a <http://www.semanticweb.org/OntologyGroup15#Parking> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasDistrito> "SALAMANCA" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Aparcamiento mixto. Marqués de Salamanca" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=cb5b1b2bb5b61310VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasCodPostal> "28006" .
+
+<http://www.semanticweb.org/instances/6143690> a <http://www.semanticweb.org/OntologyGroup15#Direccion> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasClaseVial> "PLAZA" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNombreVia> "MARQUES DE SALAMANCA" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNumVia> "8" .
+
+<http://www.semanticweb.org/instances/17> <http://www.semanticweb.org/OntologyGroup15#hasDireccion> <http://www.semanticweb.org/instances/6143690> .
+
+<http://www.semanticweb.org/instances/18> a <http://www.semanticweb.org/OntologyGroup15#Parking> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasDistrito> "SAN BLAS-CANILLEJAS" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Aparcamiento mixto. Miguel Yuste" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1c15bdc85c01c010VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasCodPostal> "28037" .
+
+<http://www.semanticweb.org/instances/182188> a <http://www.semanticweb.org/OntologyGroup15#Direccion> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasClaseVial> "CALLE" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNombreVia> "MIGUEL YUSTE" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNumVia> "11" .
+
+<http://www.semanticweb.org/instances/18> <http://www.semanticweb.org/OntologyGroup15#hasDireccion> <http://www.semanticweb.org/instances/182188> .
+
+<http://www.semanticweb.org/instances/19> a <http://www.semanticweb.org/OntologyGroup15#Parking> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasDistrito> "TETUAN" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Aparcamiento mixto. Orense" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=eee35ed15bb95210VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasCodPostal> "28020" .
+
+<http://www.semanticweb.org/instances/5517342> a <http://www.semanticweb.org/OntologyGroup15#Direccion> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasClaseVial> "CALLE" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNombreVia> "SOR ANGELA DE LA CRUZ" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNumVia> "27" .
+
+<http://www.semanticweb.org/instances/19> <http://www.semanticweb.org/OntologyGroup15#hasDireccion> <http://www.semanticweb.org/instances/5517342> .
+
+<http://www.semanticweb.org/instances/20> a <http://www.semanticweb.org/OntologyGroup15#Parking> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasDistrito> "CENTRO" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Aparcamiento mixto. Oriente" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7db12c798651c010VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasCodPostal> "28013" .
+
+<http://www.semanticweb.org/instances/33440> a <http://www.semanticweb.org/OntologyGroup15#Direccion> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasClaseVial> "PLAZA" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNombreVia> "ORIENTE" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNumVia> "1" .
+
+<http://www.semanticweb.org/instances/20> <http://www.semanticweb.org/OntologyGroup15#hasDireccion> <http://www.semanticweb.org/instances/33440> .
+
+<http://www.semanticweb.org/instances/21> a <http://www.semanticweb.org/OntologyGroup15#Parking> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasDistrito> "TETUAN" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Aparcamiento mixto. Presidente Carmona" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8a412c798651c010VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasCodPostal> "28020" .
+
+<http://www.semanticweb.org/instances/36271> a <http://www.semanticweb.org/OntologyGroup15#Direccion> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasClaseVial> "AVENIDA" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNombreVia> "PRESIDENTE CARMONA" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNumVia> "3" .
+
+<http://www.semanticweb.org/instances/21> <http://www.semanticweb.org/OntologyGroup15#hasDireccion> <http://www.semanticweb.org/instances/36271> .
+
+<http://www.semanticweb.org/instances/22> a <http://www.semanticweb.org/OntologyGroup15#Parking> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasDistrito> "SALAMANCA" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Aparcamiento mixto. Recoletos" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=283f15cbed51c010VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasCodPostal> "28001" .
+
+<http://www.semanticweb.org/instances/13476> a <http://www.semanticweb.org/OntologyGroup15#Direccion> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasClaseVial> "PASEO" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNombreVia> "RECOLETOS" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNumVia> "4" .
+
+<http://www.semanticweb.org/instances/22> <http://www.semanticweb.org/OntologyGroup15#hasDireccion> <http://www.semanticweb.org/instances/13476> .
+
+<http://www.semanticweb.org/instances/23> a <http://www.semanticweb.org/OntologyGroup15#Parking> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasDistrito> "CHAMARTIN" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Aparcamiento mixto. República Dominicana" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=aabe6545f951c010VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasCodPostal> "28016" .
+
+<http://www.semanticweb.org/instances/24193> a <http://www.semanticweb.org/OntologyGroup15#Direccion> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasClaseVial> "PLAZA" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNombreVia> "REPUBLICA DOMINICANA" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNumVia> "6-B" .
+
+<http://www.semanticweb.org/instances/23> <http://www.semanticweb.org/OntologyGroup15#hasDireccion> <http://www.semanticweb.org/instances/24193> .
+
+<http://www.semanticweb.org/instances/24> a <http://www.semanticweb.org/OntologyGroup15#Parking> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasDistrito> "SALAMANCA" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Aparcamiento mixto. San Cayetano" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a284ff632081c010VgnVCM1000000b205a0aRCRD> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasCodPostal> "28028" .
+
+<http://www.semanticweb.org/instances/167692> a <http://www.semanticweb.org/OntologyGroup15#Direccion> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasClaseVial> "PLAZA" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNombreVia> "SAN CAYETANO" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNumVia> "1-B" .
+
+<http://www.semanticweb.org/instances/24> <http://www.semanticweb.org/OntologyGroup15#hasDireccion> <http://www.semanticweb.org/instances/167692> .
+
+<http://www.semanticweb.org/instances/25> a <http://www.semanticweb.org/OntologyGroup15#Parking> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasDistrito> "CENTRO" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Aparcamiento mixto. Sánchez Bustillo" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=27912c798651c010VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasCodPostal> "28012" .
+
+<http://www.semanticweb.org/instances/19053> a <http://www.semanticweb.org/OntologyGroup15#Direccion> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasClaseVial> "CALLE" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNombreVia> "SANCHEZ BUSTILLO" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNumVia> "1" .
+
+<http://www.semanticweb.org/instances/25> <http://www.semanticweb.org/OntologyGroup15#hasDireccion> <http://www.semanticweb.org/instances/19053> .
+
+<http://www.semanticweb.org/instances/26> a <http://www.semanticweb.org/OntologyGroup15#Parking> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasDistrito> "SALAMANCA" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Aparcamiento mixto. Serrano I" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=bd61f94ae1d15410VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasCodPostal> "28006" .
+
+<http://www.semanticweb.org/instances/7416748> a <http://www.semanticweb.org/OntologyGroup15#Direccion> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasClaseVial> "CALLE" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNombreVia> "JUAN BRAVO" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNumVia> "4-B" .
+
+<http://www.semanticweb.org/instances/26> <http://www.semanticweb.org/OntologyGroup15#hasDireccion> <http://www.semanticweb.org/instances/7416748> .
+
+<http://www.semanticweb.org/instances/27> a <http://www.semanticweb.org/OntologyGroup15#Parking> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasDistrito> "SALAMANCA" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Aparcamiento mixto. Serrano II" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=bc096f1c35d15410VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasCodPostal> "28006" .
+
+<http://www.semanticweb.org/instances/7417028> a <http://www.semanticweb.org/OntologyGroup15#Direccion> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasClaseVial> "CALLE" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNombreVia> "JOSE ORTEGA Y GASSET" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNumVia> "1-B" .
+
+<http://www.semanticweb.org/instances/27> <http://www.semanticweb.org/OntologyGroup15#hasDireccion> <http://www.semanticweb.org/instances/7417028> .
+
+<http://www.semanticweb.org/instances/28> a <http://www.semanticweb.org/OntologyGroup15#Parking> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasDistrito> "SALAMANCA" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Aparcamiento mixto. Serrano III" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9a1c6f1c35d15410VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasCodPostal> "28001" .
+
+<http://www.semanticweb.org/instances/7417052> a <http://www.semanticweb.org/OntologyGroup15#Direccion> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasClaseVial> "CALLE" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNombreVia> "JORGE JUAN" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNumVia> "1-B" .
+
+<http://www.semanticweb.org/instances/28> <http://www.semanticweb.org/OntologyGroup15#hasDireccion> <http://www.semanticweb.org/instances/7417052> .
+
+<http://www.semanticweb.org/instances/29> a <http://www.semanticweb.org/OntologyGroup15#Parking> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasDistrito> "CENTRO" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Aparcamiento mixto. Sevilla" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9dd67339ae51c010VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasCodPostal> "28014" .
+
+<http://www.semanticweb.org/instances/13460> a <http://www.semanticweb.org/OntologyGroup15#Direccion> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasClaseVial> "CALLE" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNombreVia> "ALCALA" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNumVia> "17-B" .
+
+<http://www.semanticweb.org/instances/29> <http://www.semanticweb.org/OntologyGroup15#hasDireccion> <http://www.semanticweb.org/instances/13460> .
+
+<http://www.semanticweb.org/instances/30> a <http://www.semanticweb.org/OntologyGroup15#Parking> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasDistrito> "CENTRO" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Aparcamiento mixto. Vázquez de Mella" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e499946be351c010VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasCodPostal> "28004" .
+
+<http://www.semanticweb.org/instances/52114> a <http://www.semanticweb.org/OntologyGroup15#Direccion> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasClaseVial> "PLAZA" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNombreVia> "VAZQUEZ DE MELLA" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNumVia> "1" .
+
+<http://www.semanticweb.org/instances/30> <http://www.semanticweb.org/OntologyGroup15#hasDireccion> <http://www.semanticweb.org/instances/52114> .
+
+<http://www.semanticweb.org/instances/31> a <http://www.semanticweb.org/OntologyGroup15#Parking> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasDistrito> "SALAMANCA" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Aparcamiento mixto. Velázquez Ayala" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8bee15cbed51c010VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasCodPostal> "28001" .
+
+<http://www.semanticweb.org/instances/13458> a <http://www.semanticweb.org/OntologyGroup15#Direccion> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasClaseVial> "CALLE" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNombreVia> "VELAZQUEZ" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNumVia> "1" .
+
+<http://www.semanticweb.org/instances/31> <http://www.semanticweb.org/OntologyGroup15#hasDireccion> <http://www.semanticweb.org/instances/13458> .
+
+<http://www.semanticweb.org/instances/32> a <http://www.semanticweb.org/OntologyGroup15#Parking> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasDistrito> "SALAMANCA" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Aparcamiento mixto. Velázquez Jorge Juan" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d11f15cbed51c010VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasCodPostal> "28001" .
+
+<http://www.semanticweb.org/instances/13457> a <http://www.semanticweb.org/OntologyGroup15#Direccion> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasClaseVial> "CALLE" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNombreVia> "VELAZQUEZ" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNumVia> "25-B" .
+
+<http://www.semanticweb.org/instances/32> <http://www.semanticweb.org/OntologyGroup15#hasDireccion> <http://www.semanticweb.org/instances/13457> .
+
+<http://www.semanticweb.org/instances/33> a <http://www.semanticweb.org/OntologyGroup15#Parking> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasDistrito> "CIUDAD LINEAL" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Aparcamiento mixto. Verdaguer y García" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6245bdc85c01c010VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasCodPostal> "28027" .
+
+<http://www.semanticweb.org/instances/183607> a <http://www.semanticweb.org/OntologyGroup15#Direccion> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasClaseVial> "CALLE" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNombreVia> "VERDAGUER Y GARCIA" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNumVia> "1" .
+
+<http://www.semanticweb.org/instances/33> <http://www.semanticweb.org/OntologyGroup15#hasDireccion> <http://www.semanticweb.org/instances/183607> .
+
+<http://www.semanticweb.org/instances/34> a <http://www.semanticweb.org/OntologyGroup15#Parking> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasDistrito> "CHAMARTIN" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Aparcamiento público.  Nuestra Señora del Recuerdo" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=12f4322b42690410VgnVCM1000000b205a0aRCRD> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasCodPostal> "28036" .
+
+<http://www.semanticweb.org/instances/7073131> a <http://www.semanticweb.org/OntologyGroup15#Direccion> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasClaseVial> "CALLE" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNombreVia> "HIEDRA" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNumVia> "26" .
+
+<http://www.semanticweb.org/instances/34> <http://www.semanticweb.org/OntologyGroup15#hasDireccion> <http://www.semanticweb.org/instances/7073131> .
+
+<http://www.semanticweb.org/instances/35> a <http://www.semanticweb.org/OntologyGroup15#Parking> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasDistrito> "CHAMBERI" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Aparcamiento público. Almagro" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0e167339ae51c010VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasCodPostal> "28010" .
+
+<http://www.semanticweb.org/instances/13452> a <http://www.semanticweb.org/OntologyGroup15#Direccion> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasClaseVial> "CALLE" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNombreVia> "ALMAGRO" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNumVia> "13" .
+
+<http://www.semanticweb.org/instances/35> <http://www.semanticweb.org/OntologyGroup15#hasDireccion> <http://www.semanticweb.org/instances/13452> .
+
+<http://www.semanticweb.org/instances/36> a <http://www.semanticweb.org/OntologyGroup15#Parking> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasDistrito> "CHAMARTIN" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Aparcamiento público. Auditorio Nacional de Música (Príncipe de Vergara)" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ed88f25e040c4410VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasCodPostal> "28002" .
+
+<http://www.semanticweb.org/instances/7393089> a <http://www.semanticweb.org/OntologyGroup15#Direccion> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasClaseVial> "CALLE" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNombreVia> "CARTAGENA" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNumVia> "176" .
+
+<http://www.semanticweb.org/instances/36> <http://www.semanticweb.org/OntologyGroup15#hasDireccion> <http://www.semanticweb.org/instances/7393089> .
+
+<http://www.semanticweb.org/instances/37> a <http://www.semanticweb.org/OntologyGroup15#Parking> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasDistrito> "CENTRO" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Aparcamiento público. Carmen" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8ec881eb5f51c010VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasCodPostal> "28013" .
+
+<http://www.semanticweb.org/instances/13472> a <http://www.semanticweb.org/OntologyGroup15#Direccion> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasClaseVial> "PLAZA" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNombreVia> "CARMEN" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNumVia> "10" .
+
+<http://www.semanticweb.org/instances/37> <http://www.semanticweb.org/OntologyGroup15#hasDireccion> <http://www.semanticweb.org/instances/13472> .
+
+<http://www.semanticweb.org/instances/38> a <http://www.semanticweb.org/OntologyGroup15#Parking> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasDistrito> "CENTRO" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Aparcamiento público. Descalzas" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=98e77339ae51c010VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasCodPostal> "28013" .
+
+<http://www.semanticweb.org/instances/13473> a <http://www.semanticweb.org/OntologyGroup15#Direccion> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasClaseVial> "PLAZA" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNombreVia> "DESCALZAS" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNumVia> "4" .
+
+<http://www.semanticweb.org/instances/38> <http://www.semanticweb.org/OntologyGroup15#hasDireccion> <http://www.semanticweb.org/instances/13473> .
+
+<http://www.semanticweb.org/instances/39> a <http://www.semanticweb.org/OntologyGroup15#Parking> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasDistrito> "RETIRO" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Aparcamiento público. Fernández Shaw" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0e6e6545f951c010VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasCodPostal> "28007" .
+
+<http://www.semanticweb.org/instances/24809> a <http://www.semanticweb.org/OntologyGroup15#Direccion> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasClaseVial> "CALLE" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNombreVia> "CARLOS Y GUILLERMO FERNANDEZ SHAW" .
+
+<http://www.semanticweb.org/instances/39> <http://www.semanticweb.org/OntologyGroup15#hasDireccion> <http://www.semanticweb.org/instances/24809> .
+
+<http://www.semanticweb.org/instances/40> a <http://www.semanticweb.org/OntologyGroup15#Parking> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasDistrito> "CENTRO" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Aparcamiento público. Glorieta Puerta de Toledo" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5f477339ae51c010VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasCodPostal> "28005" .
+
+<http://www.semanticweb.org/instances/13478> a <http://www.semanticweb.org/OntologyGroup15#Direccion> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasClaseVial> "CALLE" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNombreVia> "CAPITAN SALAZAR MARTINEZ" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNumVia> "2" .
+
+<http://www.semanticweb.org/instances/40> <http://www.semanticweb.org/OntologyGroup15#hasDireccion> <http://www.semanticweb.org/instances/13478> .
+
+<http://www.semanticweb.org/instances/41> a <http://www.semanticweb.org/OntologyGroup15#Parking> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Aparcamiento público. Las Cortes" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=42c77339ae51c010VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasCodPostal> "28014" .
+
+<http://www.semanticweb.org/instances/13467> a <http://www.semanticweb.org/OntologyGroup15#Direccion> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasClaseVial> "PLAZA" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNombreVia> "LAS CORTES" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNumVia> "0" .
+
+<http://www.semanticweb.org/instances/41> <http://www.semanticweb.org/OntologyGroup15#hasDireccion> <http://www.semanticweb.org/instances/13467> .
+
+<http://www.semanticweb.org/instances/42> a <http://www.semanticweb.org/OntologyGroup15#Parking> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasDistrito> "CENTRO" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Aparcamiento público. Luna - Tudescos" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=54467339ae51c010VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasCodPostal> "28004" .
+
+<http://www.semanticweb.org/instances/13449> a <http://www.semanticweb.org/OntologyGroup15#Direccion> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasClaseVial> "PLAZA" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNombreVia> "SANTA MARIA SOLEDAD TORRES ACOSTA" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNumVia> "2" .
+
+<http://www.semanticweb.org/instances/42> <http://www.semanticweb.org/OntologyGroup15#hasDireccion> <http://www.semanticweb.org/instances/13449> .
+
+<http://www.semanticweb.org/instances/43> a <http://www.semanticweb.org/OntologyGroup15#Parking> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasDistrito> "MONCLOA-ARAVACA" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Aparcamiento público. Marqués de Urquijo" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=aa667339ae51c010VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasCodPostal> "28008" .
+
+<http://www.semanticweb.org/instances/13469> a <http://www.semanticweb.org/OntologyGroup15#Direccion> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasClaseVial> "CALLE" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNombreVia> "MARQUES DE URQUIJO" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNumVia> "27" .
+
+<http://www.semanticweb.org/instances/43> <http://www.semanticweb.org/OntologyGroup15#hasDireccion> <http://www.semanticweb.org/instances/13469> .
+
+<http://www.semanticweb.org/instances/44> a <http://www.semanticweb.org/OntologyGroup15#Parking> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasDistrito> "RETIRO" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Aparcamiento público. Montalbán" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f0967339ae51c010VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasCodPostal> "28014" .
+
+<http://www.semanticweb.org/instances/13465> a <http://www.semanticweb.org/OntologyGroup15#Direccion> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasClaseVial> "CALLE" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNombreVia> "MONTALBAN" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNumVia> "4" .
+
+<http://www.semanticweb.org/instances/44> <http://www.semanticweb.org/OntologyGroup15#hasDireccion> <http://www.semanticweb.org/instances/13465> .
+
+<http://www.semanticweb.org/instances/45> a <http://www.semanticweb.org/OntologyGroup15#Parking> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasDistrito> "CENTRO" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Aparcamiento público. Mostenses" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fe0881eb5f51c010VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasCodPostal> "28015" .
+
+<http://www.semanticweb.org/instances/13451> a <http://www.semanticweb.org/OntologyGroup15#Direccion> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasClaseVial> "CALLE" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNombreVia> "GARCIA MOLINAS" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNumVia> "4" .
+
+<http://www.semanticweb.org/instances/45> <http://www.semanticweb.org/OntologyGroup15#hasDireccion> <http://www.semanticweb.org/instances/13451> .
+
+<http://www.semanticweb.org/instances/46> a <http://www.semanticweb.org/OntologyGroup15#Parking> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasDistrito> "CHAMARTIN" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Aparcamiento público. Museo de la Ciudad" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=bdc7bdc85c01c010VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasCodPostal> "28002" .
+
+<http://www.semanticweb.org/instances/88141> a <http://www.semanticweb.org/OntologyGroup15#Direccion> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasClaseVial> "CALLE" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNombreVia> "PRINCIPE DE VERGARA" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNumVia> "134" .
+
+<http://www.semanticweb.org/instances/46> <http://www.semanticweb.org/OntologyGroup15#hasDireccion> <http://www.semanticweb.org/instances/88141> .
+
+<http://www.semanticweb.org/instances/47> a <http://www.semanticweb.org/OntologyGroup15#Parking> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasDistrito> "CHAMBERI" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Aparcamiento público. Olavide" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=453881eb5f51c010VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasCodPostal> "28010" .
+
+<http://www.semanticweb.org/instances/13450> a <http://www.semanticweb.org/OntologyGroup15#Direccion> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasClaseVial> "PLAZA" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNombreVia> "OLAVIDE" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNumVia> "17" .
+
+<http://www.semanticweb.org/instances/47> <http://www.semanticweb.org/OntologyGroup15#hasDireccion> <http://www.semanticweb.org/instances/13450> .
+
+<http://www.semanticweb.org/instances/48> a <http://www.semanticweb.org/OntologyGroup15#Parking> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasDistrito> "SALAMANCA" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Aparcamiento público. Plaza de Colón" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a5777339ae51c010VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasCodPostal> "28001" .
+
+<http://www.semanticweb.org/instances/13454> a <http://www.semanticweb.org/OntologyGroup15#Direccion> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasClaseVial> "CALLE" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNombreVia> "GOYA" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNumVia> "2" .
+
+<http://www.semanticweb.org/instances/48> <http://www.semanticweb.org/OntologyGroup15#hasDireccion> <http://www.semanticweb.org/instances/13454> .
+
+<http://www.semanticweb.org/instances/49> a <http://www.semanticweb.org/OntologyGroup15#Parking> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasDistrito> "MONCLOA-ARAVACA" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Aparcamiento público. Plaza de España" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fb977339ae51c010VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasCodPostal> "28008" .
+
+<http://www.semanticweb.org/instances/13463> a <http://www.semanticweb.org/OntologyGroup15#Direccion> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasClaseVial> "PLAZA" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNombreVia> "ESPA&Ntilde;A" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNumVia> "20" .
+
+<http://www.semanticweb.org/instances/49> <http://www.semanticweb.org/OntologyGroup15#hasDireccion> <http://www.semanticweb.org/instances/13463> .
+
+<http://www.semanticweb.org/instances/50> a <http://www.semanticweb.org/OntologyGroup15#Parking> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasDistrito> "CENTRO" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Aparcamiento público. Plaza Mayor" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2b1981eb5f51c010VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasCodPostal> "28012" .
+
+<http://www.semanticweb.org/instances/13466> a <http://www.semanticweb.org/OntologyGroup15#Direccion> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasClaseVial> "CALLE" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNombreVia> "FELIPE III" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNumVia> "11" .
+
+<http://www.semanticweb.org/instances/50> <http://www.semanticweb.org/OntologyGroup15#hasDireccion> <http://www.semanticweb.org/instances/13466> .
+
+<http://www.semanticweb.org/instances/51> a <http://www.semanticweb.org/OntologyGroup15#Parking> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasDistrito> "CENTRO" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Aparcamiento público. Rey" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d4f881eb5f51c010VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasCodPostal> "28004" .
+
+<http://www.semanticweb.org/instances/13474> a <http://www.semanticweb.org/OntologyGroup15#Direccion> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasClaseVial> "PLAZA" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNombreVia> "REY" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNumVia> "1" .
+
+<http://www.semanticweb.org/instances/51> <http://www.semanticweb.org/OntologyGroup15#hasDireccion> <http://www.semanticweb.org/instances/13474> .
+
+<http://www.semanticweb.org/instances/52> a <http://www.semanticweb.org/OntologyGroup15#Parking> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasDistrito> "CENTRO" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Aparcamiento público. Santa Ana" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9b5881eb5f51c010VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasCodPostal> "28012" .
+
+<http://www.semanticweb.org/instances/13456> a <http://www.semanticweb.org/OntologyGroup15#Direccion> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasClaseVial> "PLAZA" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNombreVia> "SANTA ANA" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNumVia> "16" .
+
+<http://www.semanticweb.org/instances/52> <http://www.semanticweb.org/OntologyGroup15#hasDireccion> <http://www.semanticweb.org/instances/13456> .
+
+<http://www.semanticweb.org/instances/53> a <http://www.semanticweb.org/OntologyGroup15#Parking> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasDistrito> "SALAMANCA" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Aparcamiento público. Velázquez - Juan Bravo" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e3077339ae51c010VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasCodPostal> "28006" .
+
+<http://www.semanticweb.org/instances/13468> a <http://www.semanticweb.org/OntologyGroup15#Direccion> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasClaseVial> "CALLE" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNombreVia> "VELAZQUEZ" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNumVia> "88-B" .
+
+<http://www.semanticweb.org/instances/53> <http://www.semanticweb.org/OntologyGroup15#hasDireccion> <http://www.semanticweb.org/instances/13468> .
+
+<http://www.semanticweb.org/instances/54> a <http://www.semanticweb.org/OntologyGroup15#Parking> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasDistrito> "CENTRO" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Aparcamiento público. Villa de París" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=38a881eb5f51c010VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasCodPostal> "28004" .
+
+<http://www.semanticweb.org/instances/13453> a <http://www.semanticweb.org/OntologyGroup15#Direccion> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasClaseVial> "CALLE" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNombreVia> "MARQUES DE LA ENSENADA" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasNumVia> "1-B" .
+
+<http://www.semanticweb.org/instances/54> <http://www.semanticweb.org/OntologyGroup15#hasDireccion> <http://www.semanticweb.org/instances/13453> .

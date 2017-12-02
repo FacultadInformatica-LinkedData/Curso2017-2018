@@ -77,7 +77,8 @@
 #################################################################
 
 ###  http://www.semanticweb.org/jmerlin/ontologies/2017/10/untitled-ontology-5#Direccion
-:Direccion rdf:type owl:Class .
+:Direccion rdf:type owl:Class ;
+           rdfs:subClassOf :EventoDeportivo .
 
 
 ###  http://www.semanticweb.org/jmerlin/ontologies/2017/10/untitled-ontology-5#EventoDeportivo
