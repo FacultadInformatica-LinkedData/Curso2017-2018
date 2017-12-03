@@ -1,0 +1,13 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://exercise.fi.upm.es/rdf/Class01> <http://exercise.fi.upm.es/rdf/includes> <http://exercise.fi.upm.es/rdf/Sensor029>,
+     <http://exercise.fi.upm.es/rdf/Computer101> .
+
+<http://exercise.fi.upm.es/rdf/Computer101> <http://exercise.fi.upm.es/rdf/hasOwner> <http://exercise.fi.upm.es/rdf/User10A> .
+
+<http://exercise.fi.upm.es/rdf/Measurement8401> <http://exercise.fi.upm.es/rdf/atTime> "2010-06-12T12:00:12"^^xsd:dateTime;
+   <http://exercise.fi.upm.es/rdf/hasTemperature> "29"^^xsd:int .
+
+<http://exercise.fi.upm.es/rdf/Sensor029> <http://exercise.fi.upm.es/rdf/hasMeasurement> <http://exercise.fi.upm.es/rdf/Measurement8401> .
+
+<http://exercise.fi.upm.es/rdf/User10A> <http://exercise.fi.upm.es/rdf/hasName> "Pedro" .

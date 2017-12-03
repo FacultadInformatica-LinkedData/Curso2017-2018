@@ -1,0 +1,58 @@
+#QUESTION 1: How many accidents were there in Madrid in 2013?
+
+PREFIX voc: <http://example.org/myVocabulary#> 
+PREFIX cube: <http://purl.org/linked-data/cube#>  
+
+SELECT (SUM(?num) AS ?total) WHERE {
+?obs a cube:Observation ;
+voc:relatedDistrict ?dist ;
+voc:numberOfAccidents ?num.
+}
+
+#QUESTION 2: Give me the number of accidents in Usera for each type of accident
+
+PREFIX voc: <http://example.org/myVocabulary#> 
+PREFIX cube: <http://purl.org/linked-data/cube#>  
+
+SELECT ?tipo ?num WHERE {
+?obs a cube:Observation ;
+voc:relatedDistrict "USERA" ;
+voc:numberOfAccidents ?num ;
+voc:hasAccidentType ?tipo .
+} 
+
+#QUESTION 3: Give me the number of multiple collisions for each district
+
+PREFIX voc: <http://example.org/myVocabulary#> 
+PREFIX cube: <http://purl.org/linked-data/cube#>  
+
+SELECT ?dist ?num WHERE {
+?obs a cube:Observation ;
+voc:relatedDistrict ?dist ;
+voc:numberOfAccidents ?num;
+voc:hasAccidentType voc:MultipleCollision .
+}
+
+#QUESTION 4: Which is the district were the number of bicycle falls was higher in 2013?
+
+PREFIX voc: <http://example.org/myVocabulary#> 
+PREFIX cube: <http://purl.org/linked-data/cube#>
+
+SELECT ?dist  WHERE {
+?obs a cube:Observation ;
+voc:relatedDistrict ?dist ;
+voc:numberOfAccidents ?num;
+voc:hasAccidentType voc:BicycleFall .
+} ORDER BY DESC(<http://www.w3.org/2001/XMLSchema#integer>(?num)) LIMIT 1
+
+#QUESTION 5: Give me the districts with more than 500 accidents in 2013
+
+PREFIX voc: <http://example.org/myVocabulary#> 
+PREFIX cube: <http://purl.org/linked-data/cube#>
+
+SELECT ?dist  WHERE {
+?obs a cube:Observation ;
+voc:relatedDistrict ?dist ;
+voc:numberOfAccidents ?num.
+FILTER(?num>500)
+}

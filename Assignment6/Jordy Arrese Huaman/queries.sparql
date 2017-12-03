@@ -1,0 +1,68 @@
+How many accidents were there in Madrid in 2013?
+
+PREFIX qb: <http://purl.org/linked-data/cube#>
+prefix mv: <http://example.org/myVocabulary#> 
+
+select sum(?n_accidentes) as ?totalAccidentes2013 where {
+?obs a qb:Observation .
+?obs mv:numberOfAccidents ?n_accidentes .
+}
+
+Give me the number of accidents in Usera for each type of accident
+
+PREFIX qb: <http://purl.org/linked-data/cube#> 
+PREFIX mv: <http://example.org/myVocabulary#>
+
+select ?t_accidente (xsd:integer(?n_accidentes) as ?n_accidentes) where {
+    ?obs  a qb:Observation.
+    ?obs  mv:relatedDistrict "USERA".
+    ?obs  mv:hasAccidentType ?t_accidente .
+    ?obs  mv:numberOfAccidents ?n_accidentes .
+}
+
+Give me the number of multiple collisions for each district:
+
+PREFIX qb: <http://purl.org/linked-data/cube#> 
+PREFIX mv: <http://example.org/myVocabulary#>
+
+select ?distrito (xsd:integer(?n_accidentes) as ?n_accidentes) where {
+    ?obs a qb:Observation .
+    ?obs mv:relatedDistrict ?distrito .
+    ?obs mv:hasAccidentType mv:MultipleCollision .
+    ?obs mv:numberOfAccidents ?n_accidentes .
+}
+
+Which is the district were the number of bicycle falls was higher in 2013?
+
+PREFIX qb: <http://purl.org/linked-data/cube#> 
+PREFIX mv: <http://example.org/myVocabulary#>
+select ?distrito (xsd:integer(?maximo)as ?max_n_accidentes ) where {
+    ?obs a qb:Observation .
+    ?obs mv:relatedDistrict ?distrito .
+    ?obs mv:hasAccidentType mv:BicycleFall .
+    ?obs mv:numberOfAccidents ?maximo.
+    {
+     select  max(?n_accidentes) as ?maximo where {     
+	 ?obs a qb:Observation .
+	 ?obs mv:relatedDistrict ?distrito .
+	 ?obs mv:hasAccidentType mv:BicycleFall .
+	 ?obs mv:numberOfAccidents ?n_accidentes .
+	    }
+    }
+}
+Give me the districts with more than 500 accidents in 2013
+
+
+PREFIX qb: <http://purl.org/linked-data/cube#> 
+PREFIX mv: <http://example.org/myVocabulary#>
+select ?distrito  ?n_accidentes where {
+{
+  select ?distrito (sum(xsd:integer(?n_accidentes)) as ?n_accidentes) where {
+      ?obs a qb:Observation .
+      ?obs mv:relatedDistrict ?distrito.
+      ?obs mv:numberOfAccidents ?n_accidentes.
+  } ORDER BY (?distrito)
+ }
+ FILTER (xsd:integer(?n_accidentes) > 500)
+}
+
