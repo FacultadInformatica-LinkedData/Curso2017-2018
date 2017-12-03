@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <title>Ruidos Madrid</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="main.css" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <body>
+
+    <div class="w3-bar w3-white">
+      
+      <div class="links">
+        <img src="img/icon.png" class="icon w3-left " />
+        <a href="#" class="w3-bar-item w3-button homeLink w3-text-blue">Ruidos Madrid</a>
+        <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right">Quienes Somos</a>
+        <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right">Contribuye</a>
+        <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right">Estatisdicas</a>
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium iconBar" onclick="myFunction()">&#9776;</a>
+      </div>
+    </div>
+
+    <div id="demo" class="w3-bar-block w3-light-blue w3-hide w3-hide-large w3-hide-medium">
+      <a href="#" class="w3-bar-item w3-button">Link 1</a>
+      <a href="#" class="w3-bar-item w3-button">Link 2</a>
+      <a href="#" class="w3-bar-item w3-button">Link 3</a>
+    </div>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("demo");
+        if (x.className.indexOf("w3-show") == -1) {
+          x.className += " w3-show";
+        } else { 
+          x.className = x.className.replace(" w3-show", "");
+        }
+      }
+    </script>
+
+  </body>
+</html>
