@@ -1,0 +1,78 @@
+#Nicolas Ortiz Suaña
+
+
+#Query 1
+
+PREFIX dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>
+PREFIX cub: <http://purl.org/linked-data/cube#>
+PREFIX voc: <http://example.org/myVocabulary#>
+
+
+SELECT SUM(?accidents) AS ?Accidentes WHERE {
+  ?obs a cub:Observation ;
+  voc:numberOfAccidents ?accidents .
+}
+
+
+#Query 2
+
+PREFIX dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>
+PREFIX cub: <http://purl.org/linked-data/cube#>
+PREFIX voc: <http://example.org/myVocabulary#>
+
+
+SELECT ?tipoAccidente str(?numero) AS ?numero WHERE {
+  ?obs a cub:Observation ;
+  voc:relatedDistrict "USERA";
+  voc:hasAccidentType ?tipoAccidente ;
+  voc:numberOfAccidents ?numero .
+}
+
+
+#Query 3
+
+PREFIX dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>
+PREFIX cub: <http://purl.org/linked-data/cube#>
+PREFIX voc: <http://example.org/myVocabulary#>
+
+
+SELECT ?distrito str(?numero) as ?number WHERE {
+  ?obs a cub:Observation ;
+  voc:relatedDistrict ?distrito;
+  voc:hasAccidentType voc:MultipleCollision ;
+  voc:numberOfAccidents ?numero .
+}
+
+#Query 4
+
+PREFIX dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>
+PREFIX cub: <http://purl.org/linked-data/cube#>
+PREFIX voc: <http://example.org/myVocabulary#>
+
+SELECT ?distrito WHERE {
+?obs a cub:Observation ;
+voc:relatedDistrict ?distrito;
+  voc:hasAccidentType voc:BicycleFall ;
+  voc:numberOfAccidents ?max .
+
+{SELECT MAX(?numero) as ?max WHERE {
+  ?obs a cub:Observation ;
+  voc:relatedDistrict ?distrito;
+  voc:hasAccidentType voc:BicycleFall ;
+  voc:numberOfAccidents ?numero .
+}}
+}
+
+
+#Query 5
+
+PREFIX dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>
+PREFIX cub: <http://purl.org/linked-data/cube#>
+PREFIX voc: <http://example.org/myVocabulary#>
+
+SELECT ?distrito WHERE {
+  ?obs a cub:Observation ;
+  voc:relatedDistrict ?distrito;
+  voc:numberOfAccidents ?numero .
+  FILTER (?numero>500)
+}

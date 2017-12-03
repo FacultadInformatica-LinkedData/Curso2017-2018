@@ -1,0 +1,45 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#> . 
+@prefix my_vocab: <http://example.linkeddata.es/my_vocab#> . 
+@prefix my_instances: <http://example.linkeddata.es/instances/> . 
+@base <http://example.linkeddata.es/> . 
+ 
+	a rr:TriplesMap;
+ 
+	rr:logicalTable [ rr:tableName  "CLanguage" ]; 
+
+	rr:subjectMap [
+		rr:termType rr:IRI; 
+		rr:template "http://example.linkeddata.es/instances/CountryLanguage/{CountryCode}"; 
+		rr:class my_vocab:CLanguage
+	]; 
+
+	rr:predicateObjectMap [  
+		rr:predicateMap [ rr:constant my_vocab:language ];  
+		rr:objectMap    [ rr:termType rr:Literal; 
+		rr:column "Language";
+		]; 
+	
+	]; 
+	rr:predicateObjectMap [  
+		rr:predicateMap [ rr:constant my_vocab:official ];  
+		rr:objectMap    [ rr:termType rr:Literal; rr:column "official"; ]; 
+	];
+	rr:predicateObjectMap [  
+		rr:predicateMap [ rr:constant my_vocab:percentage ];  
+		rr:objectMap    [ rr:termType rr:Literal; rr:column "Percentage"; ]; 
+	].
+	
+
+	a rr:TriplesMap;
+ 
+	rr:logicalTable [ rr:tableName  "city" ]; 
+
+	rr:subjectMap [ rr:termType rr:IRI; 
+		rr:template "http://example.linkeddata.es/instances/city/{ID}"; 
+		rr:class my_vocab:city
+	]; 
+
+	rr:predicateObjectMap [  
+		rr:predicateMap [ rr:constant my_vocab:population ];  
+		rr:objectMap    [ rr:termType rr:Literal; rr:column "Population"; ]; 
+	].

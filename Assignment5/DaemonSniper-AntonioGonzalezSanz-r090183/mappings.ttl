@@ -1,0 +1,105 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix ontology: <http://assigment5.linkeddata.es/ontology#>.
+@prefix my_instances: <http://assigment5.linkeddata.es/individuals/>.
+@base <http://assigment5.linkeddata.es/>.
+
+<TriplesMapCity>
+	a rr:TriplesMap;
+	rr:logicalTable [ rr:tableName "city" ];
+	rr:subjectMap [ rr:termType rr:IRI;
+		rr:template "http://assigment5.linkeddata.es/individuals/city/{ID}";
+		rr:class ontology:city
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [ rr:constant ontology:hasPopulation ];
+		rr:objectMap [ rr:termType rr:Literal; rr:column "Population";];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [ rr:constant ontology:hasDistrict ];
+		rr:objectMap [ rr:termType rr:Literal; rr:column "District";];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [ rr:constant ontology:hasCountryCode ];
+		rr:objectMap [ rr:termType rr:Literal; rr:column "CountryCode";];
+	]
+.
+<TriplesMapCountry>
+	a rr:TriplesMap;
+	rr:logicalTable [ rr:tableName "country" ];
+	rr:subjectMap [ rr:termType rr:IRI;
+		rr:template "http://assigment5.linkeddata.es/individuals/country/{Name}";
+		rr:class ontology:country
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [ rr:constant ontology:hasCode ];
+		rr:objectMap [ rr:termType rr:Literal; rr:column "Code";];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [ rr:constant ontology:isInContinent ];
+		rr:objectMap [ rr:termType rr:Literal; rr:column "Continent";];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [ rr:constant ontology:isInRegion ];
+		rr:objectMap [ rr:termType rr:Literal; rr:column "Region";];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [ rr:constant ontology:hasSurfaceArea ];
+		rr:objectMap [ rr:termType rr:Literal; rr:column "SurfaceArea";];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [ rr:constant ontology:hasIndepYear ];
+		rr:objectMap [ rr:termType rr:Literal; rr:column "IndepYear";];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [ rr:constant ontology:hasPopulation ];
+		rr:objectMap [ rr:termType rr:Literal; rr:column "Population";];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [ rr:constant ontology:hasLifeExpectancy ];
+		rr:objectMap [ rr:termType rr:Literal; rr:column "LifeExpectancy";];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [ rr:constant ontology:hasGNP ];
+		rr:objectMap [ rr:termType rr:Literal; rr:column "GNP";];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [ rr:constant ontology:hasGNPOld ];
+		rr:objectMap [ rr:termType rr:Literal; rr:column "GNPOld";];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [ rr:constant ontology:hasLocalName ];
+		rr:objectMap [ rr:termType rr:Literal; rr:column "LocalName";];
+	];	
+	rr:predicateObjectMap [
+		rr:predicateMap [ rr:constant ontology:hasGovForm ];
+		rr:objectMap [ rr:termType rr:Literal; rr:column "GovernmentForm";];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [ rr:constant ontology:hasHeadState ];
+		rr:objectMap [ rr:termType rr:Literal; rr:column "HeadOfState";];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [ rr:constant ontology:hasCapital ];
+		rr:objectMap [ rr:termType rr:Literal; rr:column "Capital";];
+	] .
+<TriplesMapCountryLanguage>
+	a rr:TriplesMap;
+	rr:logicalTable [ rr:tableName "countrylanguage" ];
+	rr:subjectMap [ rr:termType rr:IRI;
+		rr:template "http://assigment5.linkeddata.es/individuals/countrylanguage/{Language}";
+		rr:class ontology:country_language
+	];
+		rr:predicateObjectMap [
+		rr:predicateMap [ rr:constant ontology:hasCountryCode ];
+		rr:objectMap [ rr:termType rr:Literal; rr:column "CountryCode";];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [ rr:constant ontology:isOfficial ];
+		rr:objectMap [ rr:termType rr:Literal; rr:column "IsOfficial";];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [ rr:constant ontology:hasPercentage ];
+		rr:objectMap [ rr:termType rr:Literal; rr:column "Percentage";];
+	]
+
+.
