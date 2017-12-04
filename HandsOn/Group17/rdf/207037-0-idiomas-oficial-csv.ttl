@@ -1,0 +1,291 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEnseñanzaIdiomas/6616> <http://www.fiupmwsld.org/handson/group17/nombre> "Escuela Oficial de Idiomas de Madrid - Carabanchel" ;
+	<http://www.fiupmwsld.org/handson/group17/horario> "Consultar telefónicamente" ;
+	<http://www.fiupmwsld.org/handson/group17/transporte2> "METRO: OPAÑEL (LÍNEA 6), OPORTO (LÍNEAS 5, 6)  " ;
+	<http://www.fiupmwsld.org/handson/group17/transporte3> "BUS: 118" ;
+	<http://www.fiupmwsld.org/handson/group17/descripcion> "Enseñanzas autorizadas:  ciclos básico, intermedio y avanzado de alemán, francés, inglés, italiano, español para extranjeros (mañana y tarde) y  That's English y C1 de inglés, francés e italiano a distancia." ;
+	<http://www.fiupmwsld.org/handson/group17/accesibilidad> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/contentURI> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=82c0a4ea6871c010VgnVCM1000000b205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/nombreVia> "PORTALEGRE" ;
+	<http://www.fiupmwsld.org/handson/group17/claseVia> "CALLE" ;
+	<http://www.fiupmwsld.org/handson/group17/tipoNum> "V" ;
+	<http://www.fiupmwsld.org/handson/group17/num> "52" ;
+	<http://www.fiupmwsld.org/handson/group17/localidad> "MADRID" ;
+	<http://www.fiupmwsld.org/handson/group17/provincia> "MADRID" ;
+	<http://www.fiupmwsld.org/handson/group17/codigoPostal> "28019" ;
+	<http://www.fiupmwsld.org/handson/group17/barrio> "OPAÑEL" ;
+	<http://www.fiupmwsld.org/handson/group17/distrito> "CARABANCHEL" ;
+	<http://www.fiupmwsld.org/handson/group17/coordenadaX> "438607" ;
+	<http://www.fiupmwsld.org/handson/group17/coordenadaY> "4471319" ;
+	<http://www.fiupmwsld.org/handson/group17/latitud> "40.38832642007782" ;
+	<http://www.fiupmwsld.org/handson/group17/longitud> "-3.7246340187667677" ;
+	<http://www.fiupmwsld.org/handson/group17/telefono> "9.14695812E8" ;
+	<http://www.fiupmwsld.org/handson/group17/fax> "914 602 901" ;
+	<http://www.fiupmwsld.org/handson/group17/email> "eoi.carabanchel.madrid@educa.madrid.org" .
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEnseñanzaIdiomas/6118469> <http://www.fiupmwsld.org/handson/group17/nombre> "Escuela Oficial de Idiomas de Madrid - Ciudad Lineal" ;
+	<http://www.fiupmwsld.org/handson/group17/transporte2> "METRO: BARRIO DE LA CONCEPCIÓN (LÍNEA 7)  " ;
+	<http://www.fiupmwsld.org/handson/group17/transporte3> "BUS: 11, 21, 48, 53, 122, 146, L7" ;
+	<http://www.fiupmwsld.org/handson/group17/descripcion> "Enseñanzas autorizadas:  ciclos básico, intermedio y avanzado (tardes) de alemán, francés, inglés y  That&acute;s English y C1 inglés y francés a distancia." ;
+	<http://www.fiupmwsld.org/handson/group17/accesibilidad> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/contentURI> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=738247f979fd0310VgnVCM2000000c205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/nombreVia> "CARLOTA O'NEILL" ;
+	<http://www.fiupmwsld.org/handson/group17/claseVia> "CALLE" ;
+	<http://www.fiupmwsld.org/handson/group17/tipoNum> "V" ;
+	<http://www.fiupmwsld.org/handson/group17/num> "15" ;
+	<http://www.fiupmwsld.org/handson/group17/localidad> "MADRID" ;
+	<http://www.fiupmwsld.org/handson/group17/provincia> "MADRID" ;
+	<http://www.fiupmwsld.org/handson/group17/codigoPostal> "28027" ;
+	<http://www.fiupmwsld.org/handson/group17/barrio> "SAN PASCUAL" ;
+	<http://www.fiupmwsld.org/handson/group17/distrito> "CIUDAD LINEAL" ;
+	<http://www.fiupmwsld.org/handson/group17/coordenadaX> "444987" ;
+	<http://www.fiupmwsld.org/handson/group17/coordenadaY> "4477371" ;
+	<http://www.fiupmwsld.org/handson/group17/latitud> "40.44330197979908" ;
+	<http://www.fiupmwsld.org/handson/group17/longitud> "-3.6499818563927504" ;
+	<http://www.fiupmwsld.org/handson/group17/telefono> "9.132648E8" ;
+	<http://www.fiupmwsld.org/handson/group17/fax> "914 033 543" ;
+	<http://www.fiupmwsld.org/handson/group17/email> "eoi.ciudadlineal.madrid@educa.madrid.org" .
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEnseñanzaIdiomas/6662> <http://www.fiupmwsld.org/handson/group17/nombre> "Escuela Oficial de Idiomas de Madrid - Embajadores" ;
+	<http://www.fiupmwsld.org/handson/group17/horario> "Consultar telefónicamente" ;
+	<http://www.fiupmwsld.org/handson/group17/transporte2> "METRO: EMBAJADORES (LÍNEA 3)  " ;
+	<http://www.fiupmwsld.org/handson/group17/transporte3> "BUS: 27, 34, 36, 41, 119  " ;
+	<http://www.fiupmwsld.org/handson/group17/transporte4> "RENFE: EMBAJADORES" ;
+	<http://www.fiupmwsld.org/handson/group17/descripcion> "Enseñanzas autorizadas:  ciclo básico, intermedio, avanzado y C1 de alemán, francés, inglés, español para extranjeros (tardes)." ;
+	<http://www.fiupmwsld.org/handson/group17/accesibilidad> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/contentURI> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a7e0a4ea6871c010VgnVCM1000000b205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/nombreVia> "EMBAJADORES" ;
+	<http://www.fiupmwsld.org/handson/group17/claseVia> "CALLE" ;
+	<http://www.fiupmwsld.org/handson/group17/tipoNum> "V" ;
+	<http://www.fiupmwsld.org/handson/group17/num> "68" ;
+	<http://www.fiupmwsld.org/handson/group17/localidad> "MADRID" ;
+	<http://www.fiupmwsld.org/handson/group17/provincia> "MADRID" ;
+	<http://www.fiupmwsld.org/handson/group17/codigoPostal> "28012" ;
+	<http://www.fiupmwsld.org/handson/group17/barrio> "EMBAJADORES" ;
+	<http://www.fiupmwsld.org/handson/group17/distrito> "CENTRO" ;
+	<http://www.fiupmwsld.org/handson/group17/coordenadaX> "440399" ;
+	<http://www.fiupmwsld.org/handson/group17/coordenadaY> "4473293" ;
+	<http://www.fiupmwsld.org/handson/group17/latitud> "40.406239576909144" ;
+	<http://www.fiupmwsld.org/handson/group17/longitud> "-3.703707165043153" ;
+	<http://www.fiupmwsld.org/handson/group17/telefono> "9.14681E8" ;
+	<http://www.fiupmwsld.org/handson/group17/fax> "914 681 122" ;
+	<http://www.fiupmwsld.org/handson/group17/email> "eoi.embajadores.madrid@educa.madrid.org" .
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEnseñanzaIdiomas/6114038> <http://www.fiupmwsld.org/handson/group17/nombre> "Escuela Oficial de Idiomas de Madrid - Jesús Maestro" ;
+	<http://www.fiupmwsld.org/handson/group17/horario> "Consultar telefónicamente" ;
+	<http://www.fiupmwsld.org/handson/group17/transporte2> "METRO: ISLAS FILIPINAS (LÍNEA 7), GUZMÁN EL BUENO (LÍNEA 6 Y 7)  " ;
+	<http://www.fiupmwsld.org/handson/group17/transporte3> "BUS: 12, 45" ;
+	<http://www.fiupmwsld.org/handson/group17/descripcion> "Enseñanzas autorizadas:  ciclo básico, intermedio y avanzado de alemán, árabe, catalán, chino, danés, euskera, francés, gallego, griego, inglés, italiano, japonés, neerlandés, portugués, rumano, ruso, finés, sueco, irlandés, español para extranjeros, (mañana y tarde).  That's English y C1 de inglés, alemán, catalán, español para extranjeros, euskera, francés, gallego e italiano, a distancia." ;
+	<http://www.fiupmwsld.org/handson/group17/accesibilidad> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/contentURI> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=38724d106f6b0310VgnVCM1000000b205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/nombreVia> "JESUS MAESTRO" ;
+	<http://www.fiupmwsld.org/handson/group17/claseVia> "CALLE" ;
+	<http://www.fiupmwsld.org/handson/group17/tipoNum> "V" ;
+	<http://www.fiupmwsld.org/handson/group17/num> "5" ;
+	<http://www.fiupmwsld.org/handson/group17/localidad> "MADRID" ;
+	<http://www.fiupmwsld.org/handson/group17/provincia> "MADRID" ;
+	<http://www.fiupmwsld.org/handson/group17/codigoPostal> "28003" ;
+	<http://www.fiupmwsld.org/handson/group17/barrio> "VALLEHERMOSO" ;
+	<http://www.fiupmwsld.org/handson/group17/distrito> "CHAMBERI" ;
+	<http://www.fiupmwsld.org/handson/group17/coordenadaX> "439775" ;
+	<http://www.fiupmwsld.org/handson/group17/coordenadaY> "4477107" ;
+	<http://www.fiupmwsld.org/handson/group17/latitud> "40.44055280261112" ;
+	<http://www.fiupmwsld.org/handson/group17/longitud> "-3.711422497399746" ;
+	<http://www.fiupmwsld.org/handson/group17/telefono> "9.15335802E8" ;
+	<http://www.fiupmwsld.org/handson/group17/fax> "915 335 331" ;
+	<http://www.fiupmwsld.org/handson/group17/email> "eoi.jesusmaestro.madrid@educa.madrid.org" .
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEnseñanzaIdiomas/6661> <http://www.fiupmwsld.org/handson/group17/nombre> "Escuela Oficial de Idiomas de Madrid - Moratalaz" ;
+	<http://www.fiupmwsld.org/handson/group17/horario> "Consultar telefónicamente" ;
+	<http://www.fiupmwsld.org/handson/group17/transporte2> "METRO: PAVONES (LÍNEA 9)  " ;
+	<http://www.fiupmwsld.org/handson/group17/transporte3> "BUS: 8, 20, 30, 32, 71" ;
+	<http://www.fiupmwsld.org/handson/group17/descripcion> "Enseñanzas autorizadas : ciclo básico, intermedio y avanzado (tarde) de alemán, francés, inglés e italiano y C! de inglés." ;
+	<http://www.fiupmwsld.org/handson/group17/accesibilidad> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/contentURI> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5f11a4ea6871c010VgnVCM1000000b205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/nombreVia> "VALDEBERNARDO" ;
+	<http://www.fiupmwsld.org/handson/group17/claseVia> "CALLE" ;
+	<http://www.fiupmwsld.org/handson/group17/tipoNum> "V" ;
+	<http://www.fiupmwsld.org/handson/group17/num> "3" ;
+	<http://www.fiupmwsld.org/handson/group17/localidad> "MADRID" ;
+	<http://www.fiupmwsld.org/handson/group17/provincia> "MADRID" ;
+	<http://www.fiupmwsld.org/handson/group17/codigoPostal> "28030" ;
+	<http://www.fiupmwsld.org/handson/group17/barrio> "PAVONES" ;
+	<http://www.fiupmwsld.org/handson/group17/distrito> "MORATALAZ" ;
+	<http://www.fiupmwsld.org/handson/group17/coordenadaX> "446384" ;
+	<http://www.fiupmwsld.org/handson/group17/coordenadaY> "4472381" ;
+	<http://www.fiupmwsld.org/handson/group17/latitud> "40.39843146459067" ;
+	<http://www.fiupmwsld.org/handson/group17/longitud> "-3.63309996975464" ;
+	<http://www.fiupmwsld.org/handson/group17/telefono> "9.13711749E8" ;
+	<http://www.fiupmwsld.org/handson/group17/fax> "913 711 740" ;
+	<http://www.fiupmwsld.org/handson/group17/email> "eoi.moratalaz.madrid@educa.madrid.org" .
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEnseñanzaIdiomas/6617> <http://www.fiupmwsld.org/handson/group17/nombre> "Escuela Oficial de Idiomas de Madrid - San Blas" ;
+	<http://www.fiupmwsld.org/handson/group17/horario> "Consultar telefónicamente" ;
+	<http://www.fiupmwsld.org/handson/group17/equipamiento> "Biblioteca" ;
+	<http://www.fiupmwsld.org/handson/group17/transporte2> "METRO: SIMANCAS (LÍNEA 7), SAN BLAS (LÍNEA 7).  " ;
+	<http://www.fiupmwsld.org/handson/group17/transporte3> "BUS: 38 , 48" ;
+	<http://www.fiupmwsld.org/handson/group17/descripcion> "Enseñanzas autorizadas:  ciclos básico, intermedio y avanzado (mañana y tarde) de alemán, francés  e inglés. That's English y C1 de inglés, alemán y francés a distancia." ;
+	<http://www.fiupmwsld.org/handson/group17/accesibilidad> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/contentURI> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e131a4ea6871c010VgnVCM1000000b205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/nombreVia> "ARTIFICES" ;
+	<http://www.fiupmwsld.org/handson/group17/claseVia> "CALLE" ;
+	<http://www.fiupmwsld.org/handson/group17/tipoNum> "V" ;
+	<http://www.fiupmwsld.org/handson/group17/num> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/localidad> "MADRID" ;
+	<http://www.fiupmwsld.org/handson/group17/provincia> "MADRID" ;
+	<http://www.fiupmwsld.org/handson/group17/codigoPostal> "28037" ;
+	<http://www.fiupmwsld.org/handson/group17/barrio> "ARCOS" ;
+	<http://www.fiupmwsld.org/handson/group17/distrito> "SAN BLAS-CANILLEJAS" ;
+	<http://www.fiupmwsld.org/handson/group17/coordenadaX> "447639" ;
+	<http://www.fiupmwsld.org/handson/group17/coordenadaY> "4475308" ;
+	<http://www.fiupmwsld.org/handson/group17/latitud> "40.424879760074234" ;
+	<http://www.fiupmwsld.org/handson/group17/longitud> "-3.6185534339595433" ;
+	<http://www.fiupmwsld.org/handson/group17/telefono> "9.13066979E8" ;
+	<http://www.fiupmwsld.org/handson/group17/fax> "913 066 894" ;
+	<http://www.fiupmwsld.org/handson/group17/email> "eoi.sanblas.madrid@educa.madrid.org" .
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEnseñanzaIdiomas/6663> <http://www.fiupmwsld.org/handson/group17/nombre> "Escuela Oficial de Idiomas de Madrid - Tribunal" ;
+	<http://www.fiupmwsld.org/handson/group17/horario> "Consultar telefónicamente" ;
+	<http://www.fiupmwsld.org/handson/group17/transporte2> "METRO: TRIBUNAL (LÍNEAS 1, 10)  " ;
+	<http://www.fiupmwsld.org/handson/group17/transporte3> "BUS: 3, 40, 149" ;
+	<http://www.fiupmwsld.org/handson/group17/descripcion> "Enseñanzas autorizadas:  ciclo básico, intermedio y avanzado de alemán, francés, inglés, italiano y español para extranjeros (mañana y tarde), That&acute;s english y C1 de inglés y francés a distancia." ;
+	<http://www.fiupmwsld.org/handson/group17/accesibilidad> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/contentURI> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3af0a4ea6871c010VgnVCM1000000b205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/nombreVia> "SANTA BRIGIDA" ;
+	<http://www.fiupmwsld.org/handson/group17/claseVia> "CALLE" ;
+	<http://www.fiupmwsld.org/handson/group17/tipoNum> "V" ;
+	<http://www.fiupmwsld.org/handson/group17/num> "10" ;
+	<http://www.fiupmwsld.org/handson/group17/localidad> "MADRID" ;
+	<http://www.fiupmwsld.org/handson/group17/provincia> "MADRID" ;
+	<http://www.fiupmwsld.org/handson/group17/codigoPostal> "28004" ;
+	<http://www.fiupmwsld.org/handson/group17/barrio> "JUSTICIA" ;
+	<http://www.fiupmwsld.org/handson/group17/distrito> "CENTRO" ;
+	<http://www.fiupmwsld.org/handson/group17/coordenadaX> "440738" ;
+	<http://www.fiupmwsld.org/handson/group17/coordenadaY> "4475312" ;
+	<http://www.fiupmwsld.org/handson/group17/latitud> "40.42445194531467" ;
+	<http://www.fiupmwsld.org/handson/group17/longitud> "-3.699900698501113" ;
+	<http://www.fiupmwsld.org/handson/group17/telefono> "9.15213286E8" ;
+	<http://www.fiupmwsld.org/handson/group17/fax> "915 213 420" ;
+	<http://www.fiupmwsld.org/handson/group17/email> "eoi.goya.madrid@educa.madrid.org" .
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEnseñanzaIdiomas/6618> <http://www.fiupmwsld.org/handson/group17/nombre> "Escuela Oficial de Idiomas de Madrid - Valdezarza" ;
+	<http://www.fiupmwsld.org/handson/group17/horario> "Consultar telefónicamente" ;
+	<http://www.fiupmwsld.org/handson/group17/transporte2> "BUS: 137, 42, 127, 132" ;
+	<http://www.fiupmwsld.org/handson/group17/descripcion> "Enseñanzas autorizadas:  nivel básico, intermedio y avanzado (tarde), alemán, francés, inglés e italiano. That&acute;s English y C1 de inglés a distancia." ;
+	<http://www.fiupmwsld.org/handson/group17/accesibilidad> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/contentURI> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7441a4ea6871c010VgnVCM1000000b205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/nombreVia> "ISLA MALAITA" ;
+	<http://www.fiupmwsld.org/handson/group17/claseVia> "CALLE" ;
+	<http://www.fiupmwsld.org/handson/group17/tipoNum> "V" ;
+	<http://www.fiupmwsld.org/handson/group17/num> "2" ;
+	<http://www.fiupmwsld.org/handson/group17/localidad> "MADRID" ;
+	<http://www.fiupmwsld.org/handson/group17/provincia> "MADRID" ;
+	<http://www.fiupmwsld.org/handson/group17/codigoPostal> "28035" ;
+	<http://www.fiupmwsld.org/handson/group17/barrio> "PEÑA GRANDE" ;
+	<http://www.fiupmwsld.org/handson/group17/distrito> "FUENCARRAL-EL PARDO" ;
+	<http://www.fiupmwsld.org/handson/group17/coordenadaX> "438906" ;
+	<http://www.fiupmwsld.org/handson/group17/coordenadaY> "4480729" ;
+	<http://www.fiupmwsld.org/handson/group17/latitud> "40.473117622127866" ;
+	<http://www.fiupmwsld.org/handson/group17/longitud> "-3.72201749768645" ;
+	<http://www.fiupmwsld.org/handson/group17/telefono> "9.13734324E8" ;
+	<http://www.fiupmwsld.org/handson/group17/fax> "913 739 484" ;
+	<http://www.fiupmwsld.org/handson/group17/email> "eoi.valdezarza.madrid@educa.madrid.org" .
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEnseñanzaIdiomas/6650> <http://www.fiupmwsld.org/handson/group17/nombre> "Escuela Oficial de Idiomas de Madrid - Villaverde" ;
+	<http://www.fiupmwsld.org/handson/group17/horario> "Consultar telefónicamente" ;
+	<http://www.fiupmwsld.org/handson/group17/transporte2> "BUS: 78, 116" ;
+	<http://www.fiupmwsld.org/handson/group17/descripcion> "Enseñanzas autorizadas:  ciclos básico, intermedio y avanzado (tarde) de alemán, francés e inglés.  That's English y C1 de inglés a distancia." ;
+	<http://www.fiupmwsld.org/handson/group17/accesibilidad> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/contentURI> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0751a4ea6871c010VgnVCM1000000b205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/nombreVia> "FERNANDO ORTIZ" ;
+	<http://www.fiupmwsld.org/handson/group17/claseVia> "CALLE" ;
+	<http://www.fiupmwsld.org/handson/group17/tipoNum> "V" ;
+	<http://www.fiupmwsld.org/handson/group17/num> "2" ;
+	<http://www.fiupmwsld.org/handson/group17/localidad> "MADRID" ;
+	<http://www.fiupmwsld.org/handson/group17/provincia> "MADRID" ;
+	<http://www.fiupmwsld.org/handson/group17/codigoPostal> "28041" ;
+	<http://www.fiupmwsld.org/handson/group17/barrio> "ORCASUR" ;
+	<http://www.fiupmwsld.org/handson/group17/distrito> "USERA" ;
+	<http://www.fiupmwsld.org/handson/group17/coordenadaX> "440442" ;
+	<http://www.fiupmwsld.org/handson/group17/coordenadaY> "4468965" ;
+	<http://www.fiupmwsld.org/handson/group17/latitud> "40.367253786749025" ;
+	<http://www.fiupmwsld.org/handson/group17/longitud> "-3.7027950597553976" ;
+	<http://www.fiupmwsld.org/handson/group17/telefono> "9.13175E8" ;
+	<http://www.fiupmwsld.org/handson/group17/fax> "917 558 126" ;
+	<http://www.fiupmwsld.org/handson/group17/email> "eoi.villaverde.madrid@educa.madrid.org" .
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEnseñanzaIdiomas/4620440> <http://www.fiupmwsld.org/handson/group17/nombre> "Extensión Escuela Oficial de Idiomas de Madrid - Ciudad Lineal en Barajas" ;
+	<http://www.fiupmwsld.org/handson/group17/horario> "Consultar telefónicamente." ;
+	<http://www.fiupmwsld.org/handson/group17/transporte2> "BUS: 101, 105" ;
+	<http://www.fiupmwsld.org/handson/group17/descripcion> "Enseñanzas autorizadas:  ciclo básico, intermedio y avanzado, de francés e inglés y C1 de inglés (tardes)" ;
+	<http://www.fiupmwsld.org/handson/group17/accesibilidad> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/contentURI> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f594cb42d3704110VgnVCM1000000b205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/nombreVia> "ANTONIO SANCHA" ;
+	<http://www.fiupmwsld.org/handson/group17/claseVia> "CALLE" ;
+	<http://www.fiupmwsld.org/handson/group17/tipoNum> "V" ;
+	<http://www.fiupmwsld.org/handson/group17/num> "11" ;
+	<http://www.fiupmwsld.org/handson/group17/localidad> "MADRID" ;
+	<http://www.fiupmwsld.org/handson/group17/provincia> "MADRID" ;
+	<http://www.fiupmwsld.org/handson/group17/codigoPostal> "28042" ;
+	<http://www.fiupmwsld.org/handson/group17/barrio> "ALAMEDA DE OSUNA" ;
+	<http://www.fiupmwsld.org/handson/group17/distrito> "BARAJAS" ;
+	<http://www.fiupmwsld.org/handson/group17/coordenadaX> "450186" ;
+	<http://www.fiupmwsld.org/handson/group17/coordenadaY> "4479219" ;
+	<http://www.fiupmwsld.org/handson/group17/latitud> "40.460269269312455" ;
+	<http://www.fiupmwsld.org/handson/group17/longitud> "-3.5888370717050853" ;
+	<http://www.fiupmwsld.org/handson/group17/telefono> "9.17476019E8" ;
+	<http://www.fiupmwsld.org/handson/group17/fax> "913 296 257" ;
+	<http://www.fiupmwsld.org/handson/group17/email> "eoi.extciudadlineal-barajas.madrid@educa.madrid.org" .
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEnseñanzaIdiomas/4620845> <http://www.fiupmwsld.org/handson/group17/nombre> "Extensión Escuela Oficial de Idiomas de Madrid - Moratalaz en Puente de Vallecas" ;
+	<http://www.fiupmwsld.org/handson/group17/horario> "Consultar telefónicamente" ;
+	<http://www.fiupmwsld.org/handson/group17/transporte2> "BUS: 102, 103" ;
+	<http://www.fiupmwsld.org/handson/group17/descripcion> "Enseñanzas autorizadas:  ciclos básico, intermedio y avanzado (tardes) de francés e inglés." ;
+	<http://www.fiupmwsld.org/handson/group17/accesibilidad> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/contentURI> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=cba45af5f1614110VgnVCM1000000b205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/nombreVia> "SUR" ;
+	<http://www.fiupmwsld.org/handson/group17/claseVia> "RONDA" ;
+	<http://www.fiupmwsld.org/handson/group17/tipoNum> "V" ;
+	<http://www.fiupmwsld.org/handson/group17/num> "229" ;
+	<http://www.fiupmwsld.org/handson/group17/localidad> "MADRID" ;
+	<http://www.fiupmwsld.org/handson/group17/provincia> "MADRID" ;
+	<http://www.fiupmwsld.org/handson/group17/codigoPostal> "28053" ;
+	<http://www.fiupmwsld.org/handson/group17/barrio> "ENTREVIAS" ;
+	<http://www.fiupmwsld.org/handson/group17/distrito> "PUENTE DE VALLECAS" ;
+	<http://www.fiupmwsld.org/handson/group17/coordenadaX> "443615" ;
+	<http://www.fiupmwsld.org/handson/group17/coordenadaY> "4469619" ;
+	<http://www.fiupmwsld.org/handson/group17/latitud> "40.37336648575158" ;
+	<http://www.fiupmwsld.org/handson/group17/longitud> "-3.665482524950977" ;
+	<http://www.fiupmwsld.org/handson/group17/telefono> "9.17863195E8" ;
+	<http://www.fiupmwsld.org/handson/group17/fax> "917 863 929" ;
+	<http://www.fiupmwsld.org/handson/group17/email> "eoi.extmoratalaz-ptevallecas.madrid@educa.madrid.org" .
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEnseñanzaIdiomas/5726383> <http://www.fiupmwsld.org/handson/group17/nombre> "Extensión Escuela Oficial de Idiomas de Madrid - Villaverde en El Espinillo" ;
+	<http://www.fiupmwsld.org/handson/group17/horario> "Consultar telefónicamente" ;
+	<http://www.fiupmwsld.org/handson/group17/transporte2> "METRO: CIUDAD LOS ANGELES (LÍNEA 3)  " ;
+	<http://www.fiupmwsld.org/handson/group17/transporte3> "BUS: 22, 23, 59, 85, 86" ;
+	<http://www.fiupmwsld.org/handson/group17/descripcion> "Enseñanzas autorizadas:  nivel básico, intermedio y avanzado (tardes) de francés e inglés." ;
+	<http://www.fiupmwsld.org/handson/group17/accesibilidad> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/contentURI> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0d397a9d2a549210VgnVCM2000000c205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/nombreVia> "ALIANZA" ;
+	<http://www.fiupmwsld.org/handson/group17/claseVia> "CALLE" ;
+	<http://www.fiupmwsld.org/handson/group17/tipoNum> "V" ;
+	<http://www.fiupmwsld.org/handson/group17/num> "1" ;
+	<http://www.fiupmwsld.org/handson/group17/localidad> "MADRID" ;
+	<http://www.fiupmwsld.org/handson/group17/provincia> "MADRID" ;
+	<http://www.fiupmwsld.org/handson/group17/codigoPostal> "28041" ;
+	<http://www.fiupmwsld.org/handson/group17/barrio> "LOS ROSALES" ;
+	<http://www.fiupmwsld.org/handson/group17/distrito> "VILLAVERDE" ;
+	<http://www.fiupmwsld.org/handson/group17/coordenadaX> "441321" ;
+	<http://www.fiupmwsld.org/handson/group17/coordenadaY> "4467882" ;
+	<http://www.fiupmwsld.org/handson/group17/latitud> "40.35755994620206" ;
+	<http://www.fiupmwsld.org/handson/group17/longitud> "-3.6923427241919202" ;
+	<http://www.fiupmwsld.org/handson/group17/telefono> "9.131763E8" ;
+	<http://www.fiupmwsld.org/handson/group17/fax> "913 175 084" ;
+	<http://www.fiupmwsld.org/handson/group17/email> "eoi.extvillaverde-elespinillo.madrid@educa.madrid.org" .

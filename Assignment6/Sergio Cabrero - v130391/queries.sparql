@@ -1,0 +1,68 @@
+PREFIX mn: <http://example.org/resources/>
+PREFIX mv: <http://example.org/myVocabulary#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+
+
+1.Accidentes en Madrid en 2013
+
+SELECT (SUM(?numAccidentes) as ?totalAccidentes) WHERE
+{
+  ?obs a qb:Observation ;
+  mv:numberOfAccidents ?numAccidentes .
+}
+
+
+2. Accidentes en Usera por tipo de accidente
+
+SELECT ?tipoAccidente ?numeroAccidentes WHERE
+{
+  ?obs a qb:Observation ;
+  mv:hasAccidentType ?tipoAccidente ;
+  mv:relatedDistrict "USERA" ;
+  mv:numberOfAccidents ?numeroAccidentes .
+} GROUP BY (?tipoAccidente)
+
+
+3. Número de múltiples colisiones por distrito 
+
+SELECT ?distrito ?numAccidentes WHERE
+{
+  ?obs a qb:Observation ;
+  mv:hasAccidentType mv:MultipleCollision ;
+  mv:relatedDistrict ?distrito ;
+  mv:numberOfAccidents ?numAccidentes .
+} GROUP BY (?distrito)
+
+
+4. Distrito donde más caidas en bicicleta hubo en 2013
+
+SELECT (SUM(xsd:int(?maxAccidentes)) AS ?numBicycleFalls) ?distrito WHERE {
+  ?obs a qb:Observation ;
+  mv:relatedDistrict ?distrito ;
+  mv:hasAccidentType mv:BicycleFall ;
+  mv:numberOfAccidents ?maxAccidentes .
+  {
+  SELECT (MAX(?numBicycleFalls) AS ?maxBicycleFalls) WHERE {
+	{
+	 SELECT (SUM(xsd:int(?numAccidentes)) AS ?numBicycleFalls) WHERE { 
+		?obs a qb:Observation ;
+		mv:relatedDistrict ?distrito ;
+		mv:hasAccidentType mv:BicycleFall ;
+		mv:numberOfAccidents ?numAccidentes .
+	  }GROUP BY (?distrito)
+	}
+  }
+}FILTER (?x=?maxBicycleFalls)
+}GROUP BY (?distrito)
+
+5. Distritos con mas de 500 accidentes en 2013
+
+SELECT ?distrito ?numAccidentes WHERE{
+{ 
+SELECT (SUM(xsd:int(?numero)) AS ?numAccidentes) ?distrito  WHERE
+  { ?obs a qb:Observation ;
+    mv:relatedDistrict ?distrito ;
+    mv:numberOfAccidents ?numero .
+  }
+} FILTER (?numAccidentes > 500)
+}

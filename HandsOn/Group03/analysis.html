@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Análisis de los Data Set</title>
+    <style>
+        .container {
+            margin: 0 auto;
+            width: 800px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .title {
+            text-align: center;
+        }
+        .analysis {
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        .resume {
+            display: flex;
+            justify-content: center;
+        }
+        .resume-content {
+            border: 1px solid #808080;
+            border-collapse: collapse;
+        }
+        .header-row {
+            background-color: #ff9900;
+            color: #ffffcc;
+        }
+        .data-row {
+            text-align: center;
+        }
+        .data-row:hover {
+            background-color: #ccffff;
+        }
+        .cell {
+            border: 1px solid #000;
+            padding: 10px;
+        }
+        .text-block {
+            text-align: justify;
+        }
+    </style>
+</head>
+<body class="container">
+    <section>
+        <h1 class="title">Análisis de los Data Set</h1>
+        <section class="analysis">
+            <h2>Estacionamientos</h2>
+            <ul>
+                <li>
+                    <strong>Nombre del fichero:</strong>
+                    Estacionamientos.xls
+                </li>
+                <li>
+                    <strong>Descripción:</strong>
+                    Plazas de estacionamiento
+                </li>
+                <li>
+                    <strong>Origen de los datos:</strong>
+					<a href="http://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=4973b0dd4a872510VgnVCM1000000b205a0aRCRD&vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default">http://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=4973b0dd4a872510VgnVCM1000000b205a0aRCRD&vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default</a>
+                </li>
+            </ul>
+            <section class="resume">
+                <table class="resume-content">
+                    <tr class="header-row">
+                        <th class="cell">Columna</th>
+                        <th class="cell">Tipo</th>
+                        <th class="cell">Comentarios / Rango</th>
+                    </tr>
+                    <tr class="data-row">
+                        <td class="cell">Distrito</td>
+                        <td class="cell">String</td>
+                        <td class="cell">
+                            No es único <br>
+                            Número de opciones: 9
+                        </td>
+                    </tr>
+                    <tr class="data-row">
+                        <td class="cell">Barrio</td>
+                        <td class="cell">String</td>
+                        <td class="cell">
+                            No es único <br>
+                            Número de opciones: 48
+                        </td>
+                    </tr>
+                    <tr class="data-row">
+                        <td class="cell">Nombre de la vía</td>
+                        <td class="cell">String</td>
+                        <td class="cell">
+                            No es único <br>
+                            Número de opciones: 1867
+                        </td>
+                    </tr>
+                    <tr class="data-row">
+                        <td class="cell">Tipo de la vía</td>
+                        <td class="cell">String</td>
+                        <td class="cell">
+                            No es único <br>
+                            Número de opciones: 21
+                        </td>
+                    </tr>
+                    <tr class="data-row">
+                        <td class="cell">Partícula de la vía</td>
+                        <td class="cell">String</td>
+                        <td class="cell">
+                            No es único <br>
+                            Número de opciones: 5
+                        </td>
+                    </tr>
+                    <tr class="data-row">
+                        <td class="cell">Nº de la vía</td>
+                        <td class="cell">String</td>
+                        <td class="cell">
+                            No es único <br>
+                            Número de opciones: 562 <br>
+                            Formato: Número + [Letra]
+                        </td>
+                    </tr>
+                    <tr class="data-row">
+                        <td class="cell">Tipo de estacionamiento</td>
+                        <td class="cell">String</td>
+                        <td class="cell">
+                            No es único <br>
+                            Opciones: Azul, Naranja, Rojo y Verde
+                        </td>
+                    </tr>
+                    <tr class="data-row">
+                        <td class="cell">Forma de aparcamiento</td>
+                        <td class="cell">String</td>
+                        <td class="cell">
+                            No es único <br>
+                            Opciones: Batería y Línea
+                        </td>
+                    </tr>
+                    <tr class="data-row">
+                        <td class="cell">Nº de plazas</td>
+                        <td class="cell">Integer</td>
+                        <td class="cell">
+                            No es único <br>
+                            Rango: [0 - 200]
+                        </td>
+                    </tr>
+                </table>
+            </section>
+        </section>
+        <hr>
+        <section class="analysis">
+            <h2>Estacionamientos para Personas con Movilidad Reducida</h2>
+            <ul>
+                <li>
+                    <strong>Nombre del fichero:</strong>
+                    Estacionamiento_Personas_Movilidad_Reducida.xls
+                </li>
+                <li>
+                    <strong>Descripción:</strong>
+                    Plazas de estacionamiento reservadas para personas con movilidad reducida.
+                </li>
+                <li>
+                    <strong>Origen de los datos:</strong>
+                    <a href="http://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=dd5900ac205a7410VgnVCM2000000c205a0aRCRD&amp;vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD&amp;vgnextfmt=default">http://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=dd5900ac205a7410VgnVCM2000000c205a0aRCRD&amp;vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD&amp;vgnextfmt=default</a>
+                </li>
+            </ul>
+            <section class="resume">
+                <table class="resume-content">
+                    <tr class="header-row">
+                        <th class="cell">Columna</th>
+                        <th class="cell">Tipo</th>
+                        <th class="cell">Comentarios / Rango</th>
+                    </tr>
+                    <tr class="data-row">
+                        <td class="cell">Distrito</td>
+                        <td class="cell">String</td>
+                        <td class="cell">
+                            No es único <br>
+                            Número de opciones: 21
+                        </td>
+                    </tr>
+                    <tr class="data-row">
+                        <td class="cell">Barrio</td>
+                        <td class="cell">String</td>
+                        <td class="cell">
+                            No es único <br>
+                            Número de opciones: 128
+                        </td>
+                    </tr>
+                    <tr class="data-row">
+                        <td class="cell">Nombre de la vía</td>
+                        <td class="cell">String</td>
+                        <td class="cell">
+                            No es único <br>
+                            Número de opciones: 3501
+                        </td>
+                    </tr>
+                    <tr class="data-row">
+                        <td class="cell">Tipo de la vía</td>
+                        <td class="cell">String</td>
+                        <td class="cell">
+                            No es único <br>
+                            Número de opciones: 23
+                        </td>
+                    </tr>
+                    <tr class="data-row">
+                        <td class="cell">Partícula de la vía</td>
+                        <td class="cell">String</td>
+                        <td class="cell">
+                            No es único <br>
+                            Número de opciones: 7
+                        </td>
+                    </tr>
+                    <tr class="data-row">
+                        <td class="cell">Nº de la vía</td>
+                        <td class="cell">String</td>
+                        <td class="cell">
+                            No es único <br>
+                            Número de opciones: 616 <br>
+                            Formato: Número + [Letra]
+                        </td>
+                    </tr>
+					<tr class="data-row">
+                        <td class="cell">Tipo de estacionamiento</td>
+                        <td class="cell">String</td>
+                        <td class="cell">
+                            Es único: <br>
+                            Minusválidos
+                        </td>
+                    </tr>
+                    <tr class="data-row">
+                        <td class="cell">Forma de aparcamiento</td>
+                        <td class="cell">String</td>
+                        <td class="cell">
+                            No es único <br>
+                            Opciones: Batería, Línea Y blanco
+                        </td>
+                    </tr>
+                    <tr class="data-row">
+                        <td class="cell">Nº de plazas</td>
+                        <td class="cell">Integer</td>
+                        <td class="cell">
+                            No es único <br>
+                            Rango: [0 - 56]
+                        </td>
+                    </tr>
+                </table>
+            </section>
+        </section>
+        <hr>
+        <section class="analysis">
+            <h2>Parquímetros</h2>
+            <ul>
+                <li>
+                    <strong>Nombre del fichero:</strong>
+                    Parquimetros_2017.csv
+                </li>
+                <li>
+                    <strong>Descripción:</strong>
+                    Unidades de parquímetro
+                </li>
+                <li>
+                    <strong>Origen de los datos:</strong>
+                    <a href="http://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=4973b0dd4a872510VgnVCM1000000b205a0aRCRD&amp;vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD&amp;vgnextfmt=default">http://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=4973b0dd4a872510VgnVCM1000000b205a0aRCRD&amp;vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD&amp;vgnextfmt=default</a>
+                </li>
+            </ul>
+            <section class="resume">
+                <table class="resume-content">
+                    <tr class="header-row">
+                        <th class="cell">Columna</th>
+                        <th class="cell">Tipo</th>
+                        <th class="cell">Comentarios / Rango</th>
+                    </tr>
+                    <tr class="data-row">
+                        <td class="cell">Distrito</td>
+                        <td class="cell">String</td>
+                        <td class="cell">
+                            No es único <br>
+                            Número de opciones: 9
+                        </td>
+                    </tr>
+                    <tr class="data-row">
+                        <td class="cell">Barrio</td>
+                        <td class="cell">String</td>
+                        <td class="cell">
+                            No es único <br>
+                            Número de opciones: 48
+                        </td>
+                    </tr>
+                    <tr class="data-row">
+                        <td class="cell">Nombre de la vía</td>
+                        <td class="cell">String</td>
+                        <td class="cell">
+                            No es único <br>
+                            Número de opciones: 1370
+                        </td>
+                    </tr>
+                    <tr class="data-row">
+                        <td class="cell">Tipo de la vía</td>
+                        <td class="cell">String</td>
+                        <td class="cell">
+                            No es único <br>
+                            Número de opciones: 17
+                        </td>
+                    </tr>
+                    <tr class="data-row">
+                        <td class="cell">Partícula de la vía</td>
+                        <td class="cell">String</td>
+                        <td class="cell">
+                            No es único <br>
+                            Número de opciones: 5
+                        </td>
+                    </tr>
+                    <tr class="data-row">
+                        <td class="cell">Nº de la vía</td>
+                        <td class="cell">String</td>
+                        <td class="cell">
+                            No es único <br>
+                            Número de opciones: 345 <br>
+                            Formato: Número + [Letra]
+                        </td>
+                    </tr>
+                </table>
+            </section>
+        </section>
+        <hr>
+        <section class="analysis">
+            <h2>Puntos de Recarga Eléctrica</h2>
+            <ul>
+                <li>
+                    <strong>Nombre del fichero:</strong>
+                    puntos_recarga_electrica_2017.xls
+                </li>
+                <li>
+                    <strong>Descripción:</strong>
+                    Puntos de recarga para vehículos eléctricos
+                </li>
+                <li>
+                    <strong>Origen de los datos:</strong>
+                    <a href="http://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=4a29c987781b8410VgnVCM1000000b205a0aRCRD&amp;vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD&amp;vgnextfmt=default">http://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=4a29c987781b8410VgnVCM1000000b205a0aRCRD&amp;vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD&amp;vgnextfmt=default</a>
+                </li>
+            </ul>
+            <section class="resume">
+                <table class="resume-content">
+                    <tr class="header-row">
+                        <th class="cell">Columna</th>
+                        <th class="cell">Tipo</th>
+                        <th class="cell">Comentarios / Rango</th>
+                    </tr>
+                    <tr class="data-row">
+                        <td class="cell">Distrito</td>
+                        <td class="cell">String</td>
+                        <td class="cell">
+                            No es único <br>
+                            Número de opciones: 9
+                        </td>
+                    </tr>
+                    <tr class="data-row">
+                        <td class="cell">Barrio</td>
+                        <td class="cell">String</td>
+                        <td class="cell">
+                            No es único <br>
+                            Número de opciones: 48
+                        </td>
+                    </tr>
+                    <tr class="data-row">
+                        <td class="cell">Nombre de la vía</td>
+                        <td class="cell">String</td>
+                        <td class="cell">
+                            No es único <br>
+                            Número de opciones: 1370
+                        </td>
+                    </tr>
+                    <tr class="data-row">
+                        <td class="cell">Tipo de la vía</td>
+                        <td class="cell">String</td>
+                        <td class="cell">
+                            No es único <br>
+                            Número de opciones: 17
+                        </td>
+                    </tr>
+                    <tr class="data-row">
+                        <td class="cell">Partícula de la vía</td>
+                        <td class="cell">String</td>
+                        <td class="cell">
+                            No es único <br>
+                            Número de opciones: 5
+                        </td>
+                    </tr>
+                    <tr class="data-row">
+                        <td class="cell">Nº de la vía</td>
+                        <td class="cell">String</td>
+                        <td class="cell">
+                            No es único <br>
+                            Número de opciones: 345 <br>
+                            Formato: Número + [Letra]
+                        </td>
+                    </tr>
+                    <tr class="data-row">
+                        <td class="cell">Nº de conectores</td>
+                        <td class="cell">Integer</td>
+                        <td class="cell">
+                            No es único <br>
+                            Rango: 1 - 37 <br>
+                            Formato: Número 
+                        </td>
+                    </tr>
+                    <tr class="data-row">
+                        <td class="cell">Tipo de conector</td>
+                        <td class="cell">String</td>
+                        <td class="cell">
+                            No es único<br>
+                    		Posibles valores:
+                    		Schuko, Mennekes, Schuko/Mennekes, Schuko/Cetac,<br />
+                    		Schuko/Mennekes/Combo/CHAdeMO y Cargador Trimanguera<br>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+        </section>
+    </section>
+    <hr>
+    <section>
+        <h1 class="title">Análisis de la Licencia de los Data Set</h1>
+        <section class="analysis">
+            <p class="text-block">
+                <strong>Las condiciones generales permiten la reutilización de los documentos para fines comerciales y no comerciales</strong>.
+                Se entiende por reutilización el uso de documentos que obran en poder del Ayuntamiento de Madrid,
+                siempre que dicho uso no constituya una actividad administrativa pública.
+            </p>
+            <p class="text-block">
+                <strong>Esta licencia nos permite la copia, difusión, modificación, adaptación, extracción, reordenación y combinación de la información</strong>
+                ya que el contenido redaccional (texto) de los Recursos turísticos proporcionados en la presente grupo de datos abierto,
+                <strong>no está sujeto a derechos de autor o de propiedad intelectual y por lo tanto son de libre uso</strong>,
+                la licencia completa se puede ver
+                <a href="http://datos.madrid.es/portal/site/egob/menuitem.3efdb29b813ad8241e830cc2a8a409a0/?vgnextoid=748eb054f9edb410VgnVCM1000000b205a0aRCRD&amp;vgnextchannel=b4c412b9ace9f310VgnVCM100000171f5a0aRCRD&amp;vgnextfmt=default">aquí</a>                    
+            </p>
+        </section>
+    </section>
+    <hr>
+    <section>
+        <h1 class="title">Estrategia de Nombrado de los Recursos</h1>
+        <section class="analysis">
+            <section class="resume">
+                <table class="resume-content">
+                    <tr class="header-row">
+                        <th class="cell">Nombre</th>
+                        <th class="cell">URI</th>
+                    </tr>
+                    <tr class="data-row">
+                        <td class="cell">Domain</td>
+                        <td class="cell">http://www.semanticweb.org/</td>
+                    </tr>
+                    <tr class="data-row">
+                        <td class="cell">Ontological terms path</td>
+                        <td class="cell">http://www.semanticweb.org/group03/ontology</td>
+                    </tr>
+                    <tr class="data-row">
+                        <td class="cell">Individuals path</td>
+                        <td class="cell">http://www.semanticweb.org/group03/resource</td>
+                    </tr>
+                    <tr class="data-row">
+                        <td class="cell">Ontological terms pattern</td>
+                        <td class="cell">http://www.semanticweb.org/group03/ontology/<terms#></terms#></td>
+                    </tr>
+                    <tr class="data-row">
+                        <td class="cell">Individuals pattern</td>
+                        <td class="cell">http://www.semanticweb.org/group03/resource/resource_type/resource_name</td>
+                    </tr>
+                </table>
+            </section>
+        </section>
+    </section>
+</body>
+</html>

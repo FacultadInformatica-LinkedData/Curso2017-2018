@@ -1,0 +1,43 @@
+
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX mv: <http://example.org/myVocabulary#>
+PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>
+
+1.Numero de accidentes en madrid en 2013.
+SELECT SUM(?acc) AS ?Accidentes WHERE {
+  ?obs a qb:Observation ;
+  mv:numberOfAccidents ?acc .
+}
+
+2.Numero de accidentes por tipo ocurridos en el distrito de Usera
+SELECT ?typeAcc ?acc  WHERE {
+  ?obs a qb:Observation ;
+  mv:relatedDistrict  "USERA" ;
+  mv:hasAccidentType ?typeAcc ;
+  mv:numberOfAccidents ?acc .
+}
+
+3.Numero de accidentes por multiple colision en cada distrito
+SELECT  ?district ?acc  WHERE{
+  ?obs a qb:Observation ;
+  mv:hasAccidentType mv:MultipleCollision ;
+  mv:numberOfAccidents ?acc ;
+  mv:relatedDistrict ?district .
+}
+
+4.Distrito con mayor numero de caidas en bici
+SELECT ?district MAX(?acc) WHERE{
+  ?obs a qb:Observation ;
+  mv:hasAccidentType mv:BicycleFall;
+  mv:numberOfAccidents ?acc ;
+  mv:relatedDistrict ?district .
+
+}
+
+5.Distritos mas de 500 accidentes ocurridos
+SELECT ?district WHERE{
+  ?obs a qb:Observation ;
+  mv:numberOfAccidents ?acc ;
+  mv:relatedDistrict ?district .
+  FILTER (?acc>500)
+}

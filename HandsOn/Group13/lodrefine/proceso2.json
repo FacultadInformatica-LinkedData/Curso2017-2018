@@ -1,0 +1,761 @@
+[
+  {
+    "op": "core/column-removal",
+    "description": "Remove column PK",
+    "columnName": "PK"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column NOMBRE to nombreInstalacion",
+    "oldColumnName": "NOMBRE",
+    "newColumnName": "nombreInstalacion"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column DESCRIPCION-ENTIDAD",
+    "columnName": "DESCRIPCION-ENTIDAD"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column HORARIO",
+    "columnName": "HORARIO"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column EQUIPAMIENTO",
+    "columnName": "EQUIPAMIENTO"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column TRANSPORTE",
+    "columnName": "TRANSPORTE"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column DESCRIPCION",
+    "columnName": "DESCRIPCION"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column ACCESIBILIDAD",
+    "columnName": "ACCESIBILIDAD"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column CONTENT-URL to urlInstalacion",
+    "oldColumnName": "CONTENT-URL",
+    "newColumnName": "urlInstalacion"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column NOMBRE-VIA",
+    "columnName": "NOMBRE-VIA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column CLASE-VIAL",
+    "columnName": "CLASE-VIAL"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column TIPO-NUM",
+    "columnName": "TIPO-NUM"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column NUM",
+    "columnName": "NUM"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column PLANTA",
+    "columnName": "PLANTA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column PUERTA",
+    "columnName": "PUERTA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column ESCALERAS",
+    "columnName": "ESCALERAS"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column ORIENTACION",
+    "columnName": "ORIENTACION"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column LOCALIDAD",
+    "columnName": "LOCALIDAD"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column PROVINCIA",
+    "columnName": "PROVINCIA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column CODIGO-POSTAL",
+    "columnName": "CODIGO-POSTAL"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column BARRIO",
+    "columnName": "BARRIO"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column LATITUD",
+    "columnName": "LATITUD"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column LONGITUD",
+    "columnName": "LONGITUD"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column FAX",
+    "columnName": "FAX"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column EMAIL",
+    "columnName": "EMAIL"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column TIPO",
+    "columnName": "TIPO"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column",
+    "columnName": "Column"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column DISTRITO to distritoInstalacion",
+    "oldColumnName": "DISTRITO",
+    "newColumnName": "distritoInstalacion"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column COORDENADA-X to coordenadaXInstalacion",
+    "oldColumnName": "COORDENADA-X",
+    "newColumnName": "coordenadaXInstalacion"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column COORDENADA-Y to coordenadaYInstalacion",
+    "oldColumnName": "COORDENADA-Y",
+    "newColumnName": "coordenadaYInstalacion"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column TELEFONO to telefonoInstalacion",
+    "oldColumnName": "TELEFONO",
+    "newColumnName": "telefonoInstalacion"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://localhost:3333/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://localhost:3333/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.fi.upm.es/linked-data/group13/ontology/",
+      "prefixes": [
+        {
+          "name": "myont",
+          "uri": "http://www.fi.upm.es/linked-data/group13/ontology/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.fi.upm.es/linked-data/group13/ontology/",
+      "prefixes": [
+        {
+          "name": "myont",
+          "uri": "http://www.fi.upm.es/linked-data/group13/ontology/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.fi.upm.es/linked-data/group13/ontology/idEvento",
+              "curie": "myont:idEvento",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "idEvento"
+              }
+            },
+            {
+              "uri": "http://www.fi.upm.es/linked-data/group13/ontology/tituloEvento",
+              "curie": "myont:tituloEvento",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "tituloEvento"
+              }
+            },
+            {
+              "uri": "http://www.fi.upm.es/linked-data/group13/ontology/precioEvento",
+              "curie": "myont:precioEvento",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "precioEvento"
+              }
+            },
+            {
+              "uri": "http://www.fi.upm.es/linked-data/group13/ontology/diasSemanaEvento",
+              "curie": "myont:diasSemanaEvento",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "diasSemanaEvento"
+              }
+            },
+            {
+              "uri": "http://www.fi.upm.es/linked-data/group13/ontology/fechaEventoIni",
+              "curie": "myont:fechaEventoIni",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "fechaEventoIni"
+              }
+            },
+            {
+              "uri": "http://www.fi.upm.es/linked-data/group13/ontology/fechaEventoFin",
+              "curie": "myont:fechaEventoFin",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "fechaEventoFin"
+              }
+            },
+            {
+              "uri": "http://www.fi.upm.es/linked-data/group13/ontology/descripcionEvento",
+              "curie": "myont:descripcionEvento",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "descripcionEvento"
+              }
+            },
+            {
+              "uri": "http://www.fi.upm.es/linked-data/group13/ontology/urlEvento",
+              "curie": "myont:urlEvento",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "urlEvento"
+              }
+            },
+            {
+              "uri": "http://www.fi.upm.es/linked-data/group13/ontology/urlInstalacion",
+              "curie": "myont:urlInstalacion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "urlInstalacion"
+              }
+            },
+            {
+              "uri": "http://www.fi.upm.es/linked-data/group13/ontology/nombreInstalacion",
+              "curie": "myont:nombreInstalacion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "nombreInstalacion"
+              }
+            },
+            {
+              "uri": "http://www.fi.upm.es/linked-data/group13/ontology/coordenadaXInstalacion",
+              "curie": "myont:coordenadaXInstalacion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "coordenadaXInstalacion"
+              }
+            },
+            {
+              "uri": "http://www.fi.upm.es/linked-data/group13/ontology/coordenadaYInstalacion",
+              "curie": "myont:coordenadaYInstalacion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "coordenadaYInstalacion"
+              }
+            },
+            {
+              "uri": "http://www.fi.upm.es/linked-data/group13/ontology/distritoInstalacion",
+              "curie": "myont:distritoInstalacion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "distritoInstalacion"
+              }
+            },
+            {
+              "uri": "http://www.fi.upm.es/linked-data/group13/ontology/tipoEvento",
+              "curie": "myont:tipoEvento",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "tipoEvento"
+              }
+            },
+            {
+              "uri": "http://www.fi.upm.es/linked-data/group13/ontology/audienciaEvento",
+              "curie": "myont:audienciaEvento",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "audienciaEvento"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.fi.upm.es/linked-data/group13/ontology/",
+      "prefixes": [
+        {
+          "name": "myont",
+          "uri": "http://www.fi.upm.es/linked-data/group13/ontology/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.fi.upm.es/linked-data/group13/ontology/idEvento",
+              "curie": "myont:idEvento",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "idEvento"
+              }
+            },
+            {
+              "uri": "http://www.fi.upm.es/linked-data/group13/ontology/tituloEvento",
+              "curie": "myont:tituloEvento",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "tituloEvento"
+              }
+            },
+            {
+              "uri": "http://www.fi.upm.es/linked-data/group13/ontology/precioEvento",
+              "curie": "myont:precioEvento",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "precioEvento"
+              }
+            },
+            {
+              "uri": "http://www.fi.upm.es/linked-data/group13/ontology/diasSemanaEvento",
+              "curie": "myont:diasSemanaEvento",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "diasSemanaEvento"
+              }
+            },
+            {
+              "uri": "http://www.fi.upm.es/linked-data/group13/ontology/fechaEventoIni",
+              "curie": "myont:fechaEventoIni",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "fechaEventoIni"
+              }
+            },
+            {
+              "uri": "http://www.fi.upm.es/linked-data/group13/ontology/fechaEventoFin",
+              "curie": "myont:fechaEventoFin",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "fechaEventoFin"
+              }
+            },
+            {
+              "uri": "http://www.fi.upm.es/linked-data/group13/ontology/descripcionEvento",
+              "curie": "myont:descripcionEvento",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "descripcionEvento"
+              }
+            },
+            {
+              "uri": "http://www.fi.upm.es/linked-data/group13/ontology/urlEvento",
+              "curie": "myont:urlEvento",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "urlEvento"
+              }
+            },
+            {
+              "uri": "http://www.fi.upm.es/linked-data/group13/ontology/urlInstalacion",
+              "curie": "myont:urlInstalacion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "urlInstalacion"
+              }
+            },
+            {
+              "uri": "http://www.fi.upm.es/linked-data/group13/ontology/nombreInstalacion",
+              "curie": "myont:nombreInstalacion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "nombreInstalacion"
+              }
+            },
+            {
+              "uri": "http://www.fi.upm.es/linked-data/group13/ontology/coordenadaXInstalacion",
+              "curie": "myont:coordenadaXInstalacion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "coordenadaXInstalacion"
+              }
+            },
+            {
+              "uri": "http://www.fi.upm.es/linked-data/group13/ontology/coordenadaYInstalacion",
+              "curie": "myont:coordenadaYInstalacion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "coordenadaYInstalacion"
+              }
+            },
+            {
+              "uri": "http://www.fi.upm.es/linked-data/group13/ontology/distritoInstalacion",
+              "curie": "myont:distritoInstalacion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "distritoInstalacion"
+              }
+            },
+            {
+              "uri": "http://www.fi.upm.es/linked-data/group13/ontology/tipoEvento",
+              "curie": "myont:tipoEvento",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "tipoEvento"
+              }
+            },
+            {
+              "uri": "http://www.fi.upm.es/linked-data/group13/ontology/audienciaEvento",
+              "curie": "myont:audienciaEvento",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "audienciaEvento"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.fi.upm.es/linked-data/group13/ontology/",
+      "prefixes": [
+        {
+          "name": "myont",
+          "uri": "http://www.fi.upm.es/linked-data/group13/ontology/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.fi.upm.es/linked-data/group13/ontology/urlInstalacion",
+              "curie": "myont:urlInstalacion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "urlInstalacion"
+              }
+            },
+            {
+              "uri": "http://www.fi.upm.es/linked-data/group13/ontology/nombreInstalacion",
+              "curie": "myont:nombreInstalacion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "nombreInstalacion"
+              }
+            },
+            {
+              "uri": "http://www.fi.upm.es/linked-data/group13/ontology/coordenadaXInstalacion",
+              "curie": "myont:coordenadaXInstalacion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "coordenadaXInstalacion"
+              }
+            },
+            {
+              "uri": "http://www.fi.upm.es/linked-data/group13/ontology/coordenadaYInstalacion",
+              "curie": "myont:coordenadaYInstalacion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "coordenadaYInstalacion"
+              }
+            },
+            {
+              "uri": "http://www.fi.upm.es/linked-data/group13/ontology/distritoInstalacion",
+              "curie": "myont:distritoInstalacion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "distritoInstalacion"
+              }
+            },
+            {
+              "uri": "http://www.fi.upm.es/linked-data/group13/ontology/telefonoInstalacion",
+              "curie": "myont:telefonoInstalacion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "telefonoInstalacion"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]
