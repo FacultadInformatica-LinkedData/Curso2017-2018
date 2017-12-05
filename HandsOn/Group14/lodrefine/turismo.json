@@ -92,12 +92,12 @@
   },
   {
     "op": "core/column-addition",
-    "description": "Create column calle at index 5 based on column CLASE-VIAL using expression grel:value+ \" \"+cells[\"NOMBRE-VIA\"].value +\" \"+cells[\"NUM\"].value",
+    "description": "Create column Calle at index 5 based on column CLASE-VIAL using expression grel:value+ \" \"+cells[\"NOMBRE-VIA\"].value +\" \"+cells[\"NUM\"].value",
     "engineConfig": {
       "mode": "row-based",
       "facets": []
     },
-    "newColumnName": "calle",
+    "newColumnName": "Calle",
     "columnInsertIndex": 5,
     "baseColumnName": "CLASE-VIAL",
     "expression": "grel:value+ \" \"+cells[\"NOMBRE-VIA\"].value +\" \"+cells[\"NUM\"].value",
@@ -134,52 +134,51 @@
     "columnName": "Column"
   },
   {
+    "op": "core/column-removal",
+    "description": "Remove column PK",
+    "columnName": "PK"
+  },
+  {
     "op": "rdf-extension/save-rdf-schema",
     "description": "Save RDF schema skeleton",
     "schema": {
       "baseUri": "http://www.wsdlfiupm.es/resources/group14/",
-      "prefixes": [],
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
       "rootNodes": [
         {
           "nodeType": "cell-as-resource",
           "expression": "value",
           "isRowNumberCell": false,
           "columnName": "NOMBRE",
-          "rdfTypes": [],
+          "rdfTypes": [
+            {
+              "uri": "class/Monuments_Museums_Organizations",
+              "curie": ":class/Monuments_Museums_Organizations"
+            }
+          ],
           "links": [
             {
-              "uri": "kilometric_point",
-              "curie": ":kilometric_point",
+              "uri": "properties/description",
+              "curie": ":properties/description",
               "target": {
                 "nodeType": "cell-as-literal",
                 "expression": "value",
                 "isRowNumberCell": false,
-                "columnName": "PK"
+                "columnName": "Desripcion"
               }
             },
             {
-              "uri": "name",
-              "curie": ":name",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "NOMBRE"
-              }
-            },
-            {
-              "uri": "description",
-              "curie": ":description",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "DESCRIPCION-ENTIDAD"
-              }
-            },
-            {
-              "uri": "horary",
-              "curie": ":horary",
+              "uri": "properties/schedule",
+              "curie": ":properties/schedule",
               "target": {
                 "nodeType": "cell-as-literal",
                 "expression": "value",
@@ -188,8 +187,46 @@
               }
             },
             {
-              "uri": "street",
-              "curie": ":street",
+              "uri": "properties/type",
+              "curie": ":properties/type",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "properties/location",
+              "curie": ":properties/location",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "calle",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "calle",
+          "rdfTypes": [
+            {
+              "uri": "class/Position",
+              "curie": ":class/Position"
+            }
+          ],
+          "links": [
+            {
+              "uri": "properties/street",
+              "curie": ":properties/street",
               "target": {
                 "nodeType": "cell-as-literal",
                 "expression": "value",
@@ -198,8 +235,8 @@
               }
             },
             {
-              "uri": "district",
-              "curie": ":district",
+              "uri": "properties/district",
+              "curie": ":properties/district",
               "target": {
                 "nodeType": "cell-as-literal",
                 "expression": "value",
@@ -208,18 +245,8 @@
               }
             },
             {
-              "uri": "latitude",
-              "curie": ":latitude",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "LATITUD"
-              }
-            },
-            {
-              "uri": "longitude",
-              "curie": ":longitude",
+              "uri": "properties/longitude",
+              "curie": ":properties/longitude",
               "target": {
                 "nodeType": "cell-as-literal",
                 "expression": "value",
@@ -228,18 +255,84 @@
               }
             },
             {
-              "uri": "type",
-              "curie": ":type",
+              "uri": "properties/latitude",
+              "curie": ":properties/latitude",
               "target": {
                 "nodeType": "cell-as-literal",
                 "expression": "value",
                 "isRowNumberCell": false,
-                "columnName": "TIPO"
+                "columnName": "LATITUD"
               }
             }
           ]
         }
       ]
     }
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TIPO using expression grel:\"http://www.wsdlfiupm.es/resources/group14/types/Historic\"",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "Museos",
+          "name": "TIPO",
+          "type": "text",
+          "columnName": "TIPO"
+        }
+      ]
+    },
+    "columnName": "TIPO",
+    "expression": "grel:\"http://www.wsdlfiupm.es/resources/group14/types/Historic\"",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TIPO using expression grel:\"http://www.wsdlfiupm.es/resources/group14/types/Historic\"",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "monumentos",
+          "name": "TIPO",
+          "type": "text",
+          "columnName": "TIPO"
+        }
+      ]
+    },
+    "columnName": "TIPO",
+    "expression": "grel:\"http://www.wsdlfiupm.es/resources/group14/types/Historic\"",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TIPO using expression grel:\"http://www.wsdlfiupm.es/resources/group14/types/Institutes\"",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "fundaciones",
+          "name": "TIPO",
+          "type": "text",
+          "columnName": "TIPO"
+        }
+      ]
+    },
+    "columnName": "TIPO",
+    "expression": "grel:\"http://www.wsdlfiupm.es/resources/group14/types/Institutes\"",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
   }
 ]
