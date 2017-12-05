@@ -1,0 +1,843 @@
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#0> dbp:date "31/08/2017" ;
+	xsd:decimal "3" , "18" , "24" , "82" ;
+	xsd:float "1.3" , "0.3" , "0.2" , "7.5" , "0.4" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#1> dbp:date "31/07/2017" ;
+	xsd:decimal "3" , "22" , "20" , "78" ;
+	xsd:float "1.8" , "0.3" , "0.7" , "7.5" , "0.4" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#2> dbp:date "30/06/2017" ;
+	xsd:decimal "3" , "21" , "14" , "87" ;
+	xsd:float "0.5" , "0.2" , "0.3" , "7.4" , "0.4" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#3> dbp:date "31/05/2017" ;
+	xsd:decimal "4" , "22" , "13" , "77" ;
+	xsd:float "0.5" , "0.2" , "0.3" , "7.3" , "0.4" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#4> dbp:date "30/04/2017" ;
+	xsd:decimal "5" , "23" , "15" , "75" ;
+	xsd:float "0.6" , "0.2" , "0.3" , "6.9" , "0.4" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#5> dbp:date "31/03/2017" ;
+	xsd:decimal "15" , "35" , "18" , "52" ;
+	xsd:float "1.3" , "0.3" , "0.7" , "7.1" , "0.5" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#6> dbp:date "28/02/2017" ;
+	xsd:decimal "18" , "35" , "33" , "43" ;
+	xsd:float "1.2" , "0.4" , "0.8" , "6.5" , "0.3" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#7> dbp:date "31/01/2017" ;
+	xsd:decimal "3" , "18" , "20" , "79" ;
+	xsd:float "0.4" , "0.1" , "0.3" , "6.3" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#8> dbp:date "31/12/2016" ;
+	xsd:decimal "3" , "19" , "24" , "90" ;
+	xsd:float "0.5" , "0.2" , "0.4" , "6.3" , "0.1" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#9> dbp:date "30/11/2016" ;
+	xsd:decimal "2" , "19" , "23" , "81" ;
+	xsd:float "0.5" , "0.2" , "0.4" , "6.3" , "0.1" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#10> dbp:date "31/10/2016" ;
+	xsd:decimal "6" , "28" , "25" , "64" ;
+	xsd:float "0.8" , "0.2" , "0.7" , "6.5" , "0.1" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#11> dbp:date "30/09/2016" ;
+	xsd:decimal "16" , "36" , "26" , "38" ;
+	xsd:float "1.7" , "0.4" , "1.3" , "6.8" , "0.2" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#12> dbp:date "31/08/2016" ;
+	xsd:decimal "29" , "39" , "21" , "27" ;
+	xsd:float "2.2" , "0.4" , "1.4" , "7" , "0.2" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#13> dbp:date "31/07/2016" ;
+	xsd:decimal "56" , "48" , "27" , "20" ;
+	xsd:float "3.2" , "0.6" , "2.1" , "7.4" , "0.3" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#14> dbp:date "30/06/2016" ;
+	xsd:decimal "36" , "47" , "24" , "28" ;
+	xsd:float "1.8" , "0.5" , "1.2" , "7" , "0.2" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#15> dbp:date "31/05/2016" ;
+	xsd:decimal "5" , "22" , "14" , "71" ;
+	xsd:float "0.3" , "0.1" , "6.5" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#16> dbp:date "30/04/2016" ;
+	xsd:decimal "6" , "23" , "10" , "62" ;
+	xsd:float "0.5" , "0.2" , "0.4" , "6.6" , "0.1" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#17> dbp:date "31/03/2016" ;
+	xsd:decimal "8" , "26" , "12" , "62" ;
+	xsd:float "0.8" , "0.3" , "0.5" , "6.8" , "0.1" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#18> dbp:date "29/02/2016" ;
+	xsd:decimal "14" , "25" , "24" , "52" ;
+	xsd:float "1.1" , "0.4" , "0.6" , "6.7" , "0.1" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#19> dbp:date "31/01/2016" ;
+	xsd:decimal "23" , "34" , "13" , "33" ;
+	xsd:float "1.5" , "0.5" , "1" , "6.9" , "0.2" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#20> dbp:date "31/12/2015" ;
+	xsd:decimal "45" , "35" , "19" , "24" ;
+	xsd:float "5.4" , "0.8" , "3" , "7.2" , "0.4" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#21> dbp:date "30/11/2015" ;
+	xsd:decimal "45" , "35" , "19" , "24" ;
+	xsd:float "5.4" , "0.8" , "3" , "7.2" , "0.4" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#22> dbp:date "31/10/2015" ;
+	xsd:decimal "12" , "24" , "14" , "39" ;
+	xsd:float "1.6" , "0.3" , "1" , "6.9" , "0.2" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#23> dbp:date "30/09/2015" ;
+	xsd:decimal "6" , "22" , "13" , "65" ;
+	xsd:float "1.1" , "0.2" , "0.6" , "6.6" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#24> dbp:date "31/08/2015" ;
+	xsd:decimal "3" , "15" , "19" , "78" ;
+	xsd:float "0.9" , "0.2" , "0.7" , "6.6" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#25> dbp:date "31/07/2015" ;
+	xsd:decimal "3" , "15" , "21" , "93" ;
+	xsd:float "1.4" , "0.4" , "0.8" , "6.2" , "0.2" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#26> dbp:date "30/06/2015" ;
+	xsd:decimal "3" , "14" , "15" , "95" ;
+	xsd:float "1.1" , "0.6" , "1" , "5.9" , "0.2" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#27> dbp:date "31/05/2015" ;
+	xsd:decimal "4" , "15" , "13" , "75" ;
+	xsd:float "1.1" , "0.5" , "5.9" , "0.2" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#28> dbp:date "30/04/2015" ;
+	xsd:decimal "8" , "20" , "13" , "65" ;
+	xsd:float "0.9" , "0.6" , "1" , "6" , "0.2" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#29> dbp:date "31/03/2015" ;
+	xsd:decimal "20" , "36" , "12" , "47" ;
+	xsd:float "2.2" , "0.8" , "1.9" , "6.3" , "0.3" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#30> dbp:date "28/02/2015" ;
+	xsd:decimal "12" , "28" , "8" , "48" ;
+	xsd:float "1" , "0.6" , "1.2" , "6.1" , "0.2" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#31> dbp:date "31/01/2015" ;
+	xsd:decimal "63" , "19" , "27" ;
+	xsd:float "6.3" , "1" , "16.4" , "6.8" , "0.5" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#32> dbp:date "31/12/2014" ;
+	xsd:decimal "65" , "67" , "18" , "23" ;
+	xsd:float "5.2" , "1.4" , "3.6" , "7" , "0.8" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#33> dbp:date "30/12/2014" ;
+	xsd:decimal "15" , "47" , "18" , "27" ;
+	xsd:float "5.7" , "1.2" , "4" , "6.6" , "0.6" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#34> dbp:date "31/10/2014" ;
+	xsd:decimal "21" , "50" , "31" ;
+	xsd:float "10.8" , "1.9" , "5.7" , "6.6" , "0.6" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#35> dbp:date "30/09/2014" ;
+	xsd:decimal "6" , "38" , "15" , "51" ;
+	xsd:float "9.1" , "1.1" , "3.4" , "6.3" , "0.4" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#36> dbp:date "31/08/2014" ;
+	xsd:decimal "3" , "17" , "14" , "73" ;
+	xsd:float "8" , "0.9" , "3.3" , "6.1" , "0.3" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#37> dbp:date "31/07/2014" ;
+	xsd:decimal "2" , "18" , "17" , "83" ;
+	xsd:float "7" , "0.9" , "2.5" , "6.1" , "0.3" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#38> dbp:date "30/06/2014" ;
+	xsd:decimal "3" , "22" , "14" , "80" ;
+	xsd:float "6.2" , "0.8" , "2.3" , "0.3" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#39> dbp:date "31/05/2014" ;
+	xsd:decimal "4" , "24" , "14" , "72" ;
+	xsd:float "8.3" , "1.2" , "5.5" , "6.2" , "0.3" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#40> dbp:date "30/04/2014" ;
+	xsd:decimal "4" , "20" , "14" , "58" ;
+	xsd:float "10.1" , "1.2" , "5.2" , "6.2" , "0.3" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#41> dbp:date "31/03/2014" ;
+	xsd:decimal "8" , "31" , "15" , "52" ;
+	xsd:float "2.7" , "0.6" , "1.2" , "6.4" , "0.3" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#42> dbp:date "28/02/2014" ;
+	xsd:decimal "9" , "30" , "10" , "38" ;
+	xsd:float "2.1" , "0.7" , "1.1" , "6.4" , "0.2" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#43> dbp:date "31/01/2014" ;
+	xsd:decimal "16" , "32" , "13" , "35" ;
+	xsd:float "1.5" , "0.4" , "0.8" , "6.4" , "0.3" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#44> dbp:date "31/12/2013" ;
+	xsd:decimal "45" , "53" , "21" , "22" ;
+	xsd:float "3.4" , "0.6" , "1" , "7" , "0.5" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#45> dbp:date "30/11/2013" ;
+	xsd:decimal "13" , "32" , "14" , "34" ;
+	xsd:float "1.6" , "0.4" , "0.2" , "6.6" , "0.5" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#46> dbp:date "31/10/2013" ;
+	xsd:decimal "12" , "31" , "16" , "33" ;
+	xsd:float "2.6" , "0.3" , "6.6" , "0.5" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#47> dbp:date "30/09/2013" ;
+	xsd:decimal "5" , "29" , "18" , "59" ;
+	xsd:float "1.8" , "0.4" , "0.6" , "6.3" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#48> dbp:date "31/08/2013" ;
+	xsd:decimal "3" , "22" , "21" , "82" ;
+	xsd:float "1.3" , "0.5" , "0.7" , "6.4" , "0.3" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#49> dbp:date "31/07/2013" ;
+	xsd:decimal "3" , "22" , "89" ;
+	xsd:float "1.3" , "0.5" , "0.7" , "6.4" , "0.3" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#50> dbp:date "30/06/2013" ;
+	xsd:decimal "4" , "18" , "16" , "70" ;
+	xsd:float "1.3" , "0.5" , "0.7" , "6.4" , "0.3" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#51> dbp:date "31/05/2013" ;
+	xsd:decimal "5" , "20" , "13" , "67" ;
+	xsd:float "1.7" , "0.5" , "0.8" , "6.3" , "0.4" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#52> dbp:date "30/04/2013" ;
+	xsd:decimal "5" , "21" , "15" , "69" ;
+	xsd:float "1.4" , "0.4" , "0.6" , "6.4" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#53> dbp:date "31/03/2013" ;
+	xsd:decimal "6" , "25" , "12" , "59" ;
+	xsd:float "1.6" , "0.4" , "0.7" , "6.4" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#54> dbp:date "28/02/2013" ;
+	xsd:decimal "19" , "35" , "15" , "45" ;
+	xsd:float "2.4" , "0.5" , "1.2" , "6.6" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#55> dbp:date "31/01/2013" ;
+	xsd:decimal "46" , "41" , "20" , "37" ;
+	xsd:float "2.8" , "0.6" , "1.5" , "6.9" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#56> dbp:date "31/12/2012" ;
+	xsd:decimal "47" , "43" , "22" , "26" ;
+	xsd:float "2.5" , "0.5" , "1.4" , "7" , "0.6" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#57> dbp:date "30/11/2012" ;
+	xsd:decimal "16" , "31" , "17" , "33" ;
+	xsd:float "2.1" , "0.5" , "1.1" , "6.6" , "0.4" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#58> dbp:date "31/10/2012" ;
+	xsd:decimal "21" , "35" , "18" , "34" ;
+	xsd:float "2.2" , "0.5" , "1.2" , "6.7" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#59> dbp:date "30/09/2012" ;
+	xsd:decimal "7" , "23" , "19" , "68" ;
+	xsd:float "1.5" , "0.3" , "0.7" , "6.3" , "0.4" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#60> dbp:date "31/08/2012" ;
+	xsd:decimal "4" , "15" , "28" , "74" ;
+	xsd:float "0.5" , "0.3" , "0.6" , "6.3" , "0.4" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#61> dbp:date "31/07/2012" ;
+	xsd:decimal "3" , "10" , "20" , "90" ;
+	xsd:float "0.7" , "0.2" , "0.5" , "6.1" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#62> dbp:date "30/06/2012" ;
+	xsd:decimal "3" , "11" , "25" , "80" ;
+	xsd:float "0.5" , "0.1" , "0.4" , "6.1" , "0.2" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#63> dbp:date "31/05/2012" ;
+	xsd:decimal "6" , "19" , "18" , "72" ;
+	xsd:float "0.7" , "0.1" , "0.6" , "6.2" , "0.2" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#64> dbp:date "30/04/2012" ;
+	xsd:decimal "3" , "14" , "11" , "71" ;
+	xsd:float "0.5" , "0.1" , "0.4" , "6.1" , "0.2" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#65> dbp:date "31/03/2012" ;
+	xsd:decimal "14" , "38" , "20" , "50" ;
+	xsd:float "1" , "0.1" , "0.9" , "6.5" , "0.4" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#66> dbp:date "29/02/2012" ;
+	xsd:decimal "25" , "40" , "20" , "39" ;
+	xsd:float "1.3" , "0.2" , "1.1" , "6.6" , "0.5" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#67> dbp:date "31/01/2012" ;
+	xsd:decimal "65" , "55" , "18" ;
+	xsd:float "1.7" , "1.5" , "7.2" , "0.7" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#68> dbp:date "31/12/2011" ;
+	xsd:decimal "65" , "58" , "24" , "18" ;
+	xsd:float "1.9" , "0.3" , "1.6" , "7.3" , "0.6" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#69> dbp:date "30/11/2011" ;
+	xsd:decimal "33" , "51" , "18" , "22" ;
+	xsd:float "1.4" , "0.2" , "1.3" , "6.8" , "0.4" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#70> dbp:date "31/10/2011" ;
+	xsd:decimal "21" , "49" , "19" , "40" ;
+	xsd:float "1.7" , "0.3" , "1.4" , "6.6" , "0.4" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#71> dbp:date "30/09/2011" ;
+	xsd:decimal "9" , "37" , "18" , "56" ;
+	xsd:float "1.7" , "0.3" , "1.5" , "6.7" , "0.6" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#72> dbp:date "31/08/2011" ;
+	xsd:decimal "3" , "21" , "20" , "68" ;
+	xsd:float "0.9" , "0.1" , "0.8" , "6.3" , "0.4" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#73> dbp:date "31/07/2011" ;
+	xsd:decimal "3" , "20" , "17" , "76" ;
+	xsd:float "0.8" , "0.2" , "1.4" , "6" , "0.3" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#74> dbp:date "30/06/2011" ;
+	xsd:decimal "3" , "22" , "17" , "75" ;
+	xsd:float "0.6" , "0.2" , "1" , "6.1" , "0.3" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#75> dbp:date "31/05/2011" ;
+	xsd:decimal "5" , "25" , "15" , "64" ;
+	xsd:float "0.5" , "0.1" , "0.4" , "6.2" , "0.2" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#76> dbp:date "30/04/2011" ;
+	xsd:decimal "8" , "34" , "23" , "57" ;
+	xsd:float "0.9" , "0.2" , "0.7" , "6.3" , "0.3" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#77> dbp:date "31/03/2011" ;
+	xsd:decimal "5" , "42" , "16" , "41" ;
+	xsd:float "0.8" , "0.3" , "0.5" , "6.3" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#78> dbp:date "28/02/2011" ;
+	xsd:decimal "41" , "60" , "22" , "32" ;
+	xsd:float "3" , "0.5" , "1.8" , "6.8" , "0.6" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#79> dbp:date "31/01/2011" ;
+	xsd:decimal "34" , "50" , "18" , "23" ;
+	xsd:float "2.3" , "0.5" , "1.3" , "6.7" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#80> dbp:date "31/12/2010" ;
+	xsd:decimal "34" , "50" , "19" , "22" ;
+	xsd:float "2.1" , "0.6" , "1.2" , "6.8" , "0.5" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#81> dbp:date "30/11/2010" ;
+	xsd:decimal "23" , "39" , "14" , "37" ;
+	xsd:float "0.5" , "0.2" , "6.5" , "0.8" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#82> dbp:date "31/10/2010" ;
+	xsd:decimal "21" , "40" , "20" , "35" ;
+	xsd:float "2.1" , "0.8" , "6.7" , "1" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#83> dbp:date "30/09/2010" ;
+	xsd:decimal "7" , "29" , "17" , "51" ;
+	xsd:float "0.6" , "0.7" , "1.3" , "6.4" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#84> dbp:date "31/08/2010" ;
+	xsd:decimal "4" , "12" , "23" , "72" ;
+	xsd:float "0.5" , "0.4" , "6.3" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#85> dbp:date "31/07/2010" ;
+	xsd:decimal "4" , "13" , "22" , "80" ;
+	xsd:float "0.8" , "0.4" , "0.6" , "6.3" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#86> dbp:date "30/06/2010" ;
+	xsd:decimal "4" , "10" , "14" , "72" ;
+	xsd:float "1.3" , "0.4" , "0.5" , "6.2" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#87> dbp:date "31/05/2010" ;
+	xsd:decimal "4" , "14" , "16" , "65" ;
+	xsd:float "1.5" , "0.4" , "6.3" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#88> dbp:date "30/04/2010" ;
+	xsd:decimal "5" , "27" , "17" , "54" ;
+	xsd:float "2.3" , "0.5" , "1.2" , "6.4" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#89> dbp:date "31/03/2010" ;
+	xsd:decimal "8" , "33" , "21" , "38" ;
+	xsd:float "2.8" , "0.6" , "0.7" , "6.8" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#90> dbp:date "28/02/2010" ;
+	xsd:decimal "12" , "40" , "33" ;
+	xsd:float "3.2" , "0.6" , "0.9" , "6.5" , "0.4" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#91> dbp:date "31/01/2010" ;
+	xsd:decimal "20" , "39" , "26" ;
+	xsd:float "4.1" , "1.4" , "6.6" , "0.5" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#92> dbp:date "31/12/2009" ;
+	xsd:decimal "27" , "44" , "17" , "21" ;
+	xsd:float "6.6" , "0.9" , "2.1" , "0.6" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#93> dbp:date "30/11/2009" ;
+	xsd:decimal "33" , "43" , "27" , "26" ;
+	xsd:float "12" , "1" , "4.1" , "6.8" , "0.7" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#94> dbp:date "31/10/2009" ;
+	xsd:decimal "24" , "44" , "23" , "29" ;
+	xsd:float "11.2" , "1.1" , "3.4" , "6.6" , "0.6" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#95> dbp:date "30/09/2009" ;
+	xsd:decimal "5" , "27" , "21" , "57" ;
+	xsd:float "1.8" , "0.4" , "6.1" , "0.2" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#96> dbp:date "31/08/2009" ;
+	xsd:decimal "4" , "23" , "25" , "62" ;
+	xsd:float "0.5" , "0.1" , "0.3" , "6" , "0.2" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#97> dbp:date "31/07/2009" ;
+	xsd:decimal "5" , "23" , "25" , "62" ;
+	xsd:float "0.6" , "0.1" , "0.4" , "6.1" , "0.3" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#98> dbp:date "30/06/2009" ;
+	xsd:decimal "3" , "21" , "57" ;
+	xsd:float "0.5" , "0.1" , "0.3" , "6" , "0.2" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#99> dbp:date "31/05/2009" ;
+	xsd:decimal "6" , "34" , "23" , "50" ;
+	xsd:float "0.6" , "0.1" , "0.2" , "6.2" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#100> dbp:date "30/04/2009" ;
+	xsd:decimal "7" , "30" , "21" , "54" ;
+	xsd:float "0.8" , "0.2" , "0.3" , "6.1" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#101> dbp:date "31/03/2009" ;
+	xsd:decimal "12" , "36" , "25" , "42" ;
+	xsd:float "2" , "0.3" , "0.6" , "6.3" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#102> dbp:date "28/02/2009" ;
+	xsd:decimal "28" , "50" , "24" , "25" ;
+	xsd:float "2.9" , "0.4" , "1" , "6.5" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#103> dbp:date "31/01/2009" ;
+	xsd:decimal "26" , "45" , "25" , "24" ;
+	xsd:float "2.2" , "0.5" , "1" , "6.4" , "0.3" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#104> dbp:date "31/12/2008" ;
+	xsd:decimal "43" , "51" , "23" , "22" ;
+	xsd:float "4" , "0.6" , "1.9" , "6.6" , "0.5" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#105> dbp:date "30/11/2008" ;
+	xsd:decimal "29" , "43" , "21" , "28" ;
+	xsd:float "3.6" , "0.5" , "1.7" , "6.7" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#106> dbp:date "31/10/2008" ;
+	xsd:decimal "14" , "38" , "28" , "33" ;
+	xsd:float "2.6" , "0.3" , "1.1" , "6.7" , "0.6" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#107> dbp:date "30/09/2008" ;
+	xsd:decimal "7" , "37" , "22" , "45" ;
+	xsd:float "0.4" , "0.2" , "0.3" , "6.5" , "0.5" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#108> dbp:date "31/08/2008" ;
+	xsd:decimal "3" , "26" , "24" , "69" ;
+	xsd:float "0.3" , "0.1" , "0.2" , "6.4" , "0.4" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#109> dbp:date "31/07/2008" ;
+	xsd:decimal "5" , "25" , "24" , "75" ;
+	xsd:float "0.4" , "0.1" , "0.3" , "6.4" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#110> dbp:date "30/06/2008" ;
+	xsd:decimal "4" , "22" , "19" , "73" ;
+	xsd:float "0.3" , "0.1" , "0.2" , "6.4" , "0.4" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#111> dbp:date "31/05/2008" ;
+	xsd:decimal "7" , "28" , "20" , "59" ;
+	xsd:float "0.4" , "0.1" , "0.3" , "6.4" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#112> dbp:date "30/04/2008" ;
+	xsd:decimal "7" , "31" , "17" , "62" ;
+	xsd:float "0.5" , "0.2" , "0.3" , "6.5" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#113> dbp:date "31/03/2008" ;
+	xsd:decimal "10" , "34" , "18" , "53" ;
+	xsd:float "0.6" , "0.2" , "0.4" , "6.9" , "0.7" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#114> dbp:date "29/02/2008" ;
+	xsd:decimal "34" , "56" , "29" , "25" ;
+	xsd:float "1.5" , "0.3" , "0.8" , "7.4" , "1" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#115> dbp:date "31/01/2008" ;
+	xsd:decimal "46" , "57" , "33" , "18" ;
+	xsd:float "1.7" , "0.3" , "0.9" , "7.5" , "1" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#116> dbp:date "31/12/2007" ;
+	xsd:decimal "70" , "69" , "38" , "15" ;
+	xsd:float "2.7" , "0.4" , "1.4" , "8" , "1.3" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#117> dbp:date "30/11/2007" ;
+	xsd:decimal "66" , "77" , "33" , "20" ;
+	xsd:float "3" , "0.8" , "1.6" , "7.9" , "1.4" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#118> dbp:date "31/10/2007" ;
+	xsd:decimal "31" , "80" , "22" , "34" ;
+	xsd:float "0.9" , "0.2" , "0.5" , "7.2" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#119> dbp:date "30/09/2007" ;
+	xsd:decimal "13" , "62" , "26" , "61" ;
+	xsd:float "0.3" , "0.1" , "0.2" , "6.6" , "0.7" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#120> dbp:date "31/08/2007" ;
+	xsd:decimal "5" , "43" , "27" , "74" ;
+	xsd:float "0.2" , "0.1" , "6.3" , "0.6" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#121> dbp:date "31/07/2007" ;
+	xsd:decimal "5" , "30" , "26" , "65" ;
+	xsd:float "0.3" , "0.1" , "0.5" , "6.3" , "0.7" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#122> dbp:date "30/06/2007" ;
+	xsd:decimal "7" , "25" , "22" , "63" ;
+	xsd:float "0.1" , "6.3" , "0.6" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#123> dbp:date "31/05/2007" ;
+	xsd:decimal "12" , "31" , "27" , "49" ;
+	xsd:float "0.3" , "0.1" , "6.4" , "0.7" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#124> dbp:date "30/04/2007" ;
+	xsd:decimal "10" , "39" , "28" , "50" ;
+	xsd:float "0.5" , "0.2" , "6.5" , "0.8" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#125> dbp:date "31/03/2007" ;
+	xsd:decimal "13" , "42" , "25" , "41" ;
+	xsd:float "0.5" , "0.1" , "0.4" , "6.5" , "0.8" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#126> dbp:date "28/02/2007" ;
+	xsd:decimal "24" , "48" , "27" , "22" ;
+	xsd:float "1.6" , "0.5" , "1" , "6.7" , "0.7" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#127> dbp:date "31/01/2007" ;
+	xsd:decimal "61" , "60" , "43" , "11" ;
+	xsd:float "2.1" , "0.6" , "1.6" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#128> dbp:date "31/12/2006" ;
+	xsd:decimal "57" , "60" , "37" , "17" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#129> dbp:date "30/11/2006" ;
+	xsd:decimal "34" , "49" , "32" , "21" ;
+	xsd:float "5.9" , "1.1" , "2.7" , "7.5" , "0.9" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#130> dbp:date "31/10/2006" ;
+	xsd:decimal "21" , "41" , "31" , "32" ;
+	xsd:float "4.8" , "1" , "2.3" , "7.2" , "0.7" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#131> dbp:date "30/09/2006" ;
+	xsd:decimal "13" , "39" , "32" , "53" ;
+	xsd:float "6.9" , "0.6" , "2.9" , "7.9" , "0.9" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#132> dbp:date "31/08/2006" ;
+	xsd:decimal "7" , "27" , "26" , "71" ;
+	xsd:float "3.4" , "0.5" , "1.7" , "6.7" , "0.6" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#133> dbp:date "31/07/2006" ;
+	xsd:decimal "7" , "30" , "35" , "79" ;
+	xsd:float "1.3" , "0.1" , "0.2" , "4.2" , "0.4" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#134> dbp:date "30/06/2006" ;
+	xsd:decimal "6" , "33" , "39" , "75" ;
+	xsd:float "2.2" , "0.2" , "0.6" , "4.2" , "0.5" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#135> dbp:date "31/05/2006" ;
+	xsd:decimal "10" , "37" , "40" , "64" ;
+	xsd:float "2.6" , "0.2" , "0.7" , "5.9" , "1" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#136> dbp:date "30/04/2006" ;
+	xsd:decimal "10" , "44" , "27" , "65" ;
+	xsd:float "2.2" , "0.6" , "0.7" , "7.8" , "1.4" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#137> dbp:date "31/03/2006" ;
+	xsd:decimal "22" , "47" , "28" , "49" ;
+	xsd:float "3.5" , "1.3" , "1.9" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#138> dbp:date "28/02/2006" ;
+	xsd:decimal "61" , "64" , "54" , "32" ;
+	xsd:float "3.5" , "1.2" , "2.3" , "7" , "1.8" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#139> dbp:date "31/01/2006" ;
+	xsd:decimal "43" , "52" , "37" , "27" ;
+	xsd:float "3" , "1.2" , "2" , "7.8" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#140> dbp:date "31/12/2005" ;
+	xsd:decimal "49" , "63" , "37" ;
+	xsd:float "0.9" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#141> dbp:date "30/11/2005" ;
+	xsd:decimal "51" , "52" , "40" , "23" ;
+	xsd:float "5.3" , "1.7" , "5" , "6.7" , "2.2" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#142> dbp:date "31/10/2005" ;
+	xsd:decimal "28" , "50" , "34" , "30" ;
+	xsd:float "5.9" , "2" , "5.3" , "6.5" , "2.2" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#143> dbp:date "30/09/2005" ;
+	xsd:decimal "20" , "49" , "35" , "53" ;
+	xsd:float "6" , "1.8" , "5.1" , "6.7" , "2.1" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#144> dbp:date "31/08/2005" ;
+	xsd:decimal "9" , "42" , "38" , "59" ;
+	xsd:float "4.1" , "1.7" , "3" , "6.8" , "1.8" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#145> dbp:date "31/07/2005" ;
+	xsd:decimal "7" , "40" , "33" , "71" ;
+	xsd:float "1.5" , "0.8" , "1" , "6.9" , "1.4" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#146> dbp:date "30/06/2005" ;
+	xsd:decimal "6" , "42" , "35" , "64" ;
+	xsd:float "1.4" , "0.7" , "0.8" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#147> dbp:date "31/05/2005" ;
+	xsd:decimal "11" , "40" , "33" , "57" ;
+	xsd:float "1.7" , "0.8" , "0.9" , "6.4" , "1.8" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#148> dbp:date "30/04/2005" ;
+	xsd:decimal "11" , "35" , "24" , "61" ;
+	xsd:float "1.9" , "0.9" , "1.1" , "5.4" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#149> dbp:date "31/03/2005" ;
+	xsd:decimal "24" , "51" , "40" , "43" ;
+	xsd:float "3.9" , "1.1" , "2.2" , "6.8" , "2" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#150> dbp:date "28/02/2005" ;
+	xsd:decimal "23" , "50" , "25" , "39" ;
+	xsd:float "4.5" , "1.2" , "2.3" , "6.4" , "1.4" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#151> dbp:date "31/01/2005" ;
+	xsd:decimal "82" , "70" , "22" ;
+	xsd:float "3.7" , "2.6" , "6.8" , "2.1" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#152> dbp:date "31/12/2004" ;
+	xsd:decimal "45" , "47" , "27" , "26" ;
+	xsd:float "2.1" , "0.9" , "1.5" , "7.7" , "2.7" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#153> dbp:date "30/11/2004" ;
+	xsd:decimal "76" , "59" , "47" , "21" ;
+	xsd:float "4.7" , "0.5" , "3.2" , "10.4" , "3.6" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#154> dbp:date "31/10/2004" ;
+	xsd:decimal "27" , "41" , "33" , "35" ;
+	xsd:float "3.4" , "0.3" , "2" , "8" , "1.9" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#155> dbp:date "30/09/2004" ;
+	xsd:decimal "14" , "32" , "43" , "33" ;
+	xsd:float "3.8" , "0.3" , "2.6" , "7.3" , "3" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#156> dbp:date "31/08/2004" ;
+	xsd:decimal "6" , "14" , "29" , "52" ;
+	xsd:float "3.6" , "0.7" , "2.1" , "6.8" , "2" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#157> dbp:date "31/07/2004" ;
+	xsd:decimal "5" , "16" , "44" , "49" ;
+	xsd:float "1.7" , "1.1" , "1.5" , "7.4" , "3.2" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#158> dbp:date "30/06/2004" ;
+	xsd:decimal "6" , "27" , "34" , "68" ;
+	xsd:float "2.6" , "1.3" , "1.9" , "9.8" , "1.4" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#159> dbp:date "31/05/2004" ;
+	xsd:decimal "8" , "32" , "21" , "56" ;
+	xsd:float "3.6" , "1.4" , "2.4" , "7.5" , "1" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#160> dbp:date "30/04/2004" ;
+	xsd:decimal "10" , "32" , "22" , "54" ;
+	xsd:float "4.7" , "1" , "2.5" , "5.7" , "1.2" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#161> dbp:date "31/03/2004" ;
+	xsd:decimal "19" , "42" , "38" , "39" ;
+	xsd:float "3.1" , "0.4" , "2.4" , "6.1" , "1.4" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#162> dbp:date "29/02/2004" ;
+	xsd:decimal "47" , "48" , "28" ;
+	xsd:float "7.3" , "0.8" , "6.3" , "6.4" , "1.4" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#163> dbp:date "31/01/2004" ;
+	xsd:decimal "73" , "59" , "46" , "26" ;
+	xsd:float "9.2" , "1.2" , "7.6" , "8.5" , "1.9" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#164> dbp:date "31/12/2003" ;
+	xsd:decimal "76" , "63" , "49" , "22" ;
+	xsd:float "14.7" , "2.1" , "11.7" , "11.5" , "3.3" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#165> dbp:date "30/10/2003" ;
+	xsd:decimal "47" , "51" , "53" , "31" ;
+	xsd:float "10.8" , "0.8" , "8.8" , "10.2" , "3.3" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#166> dbp:date "31/10/2003" ;
+	xsd:decimal "18" , "45" , "34" , "41" ;
+	xsd:float "3.6" , "0.2" , "2.6" , "7.5" , "2.9" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#167> dbp:date "30/09/2003" ;
+	xsd:decimal "20" , "56" , "47" , "63" ;
+	xsd:float "5.2" , "0.3" , "3.4" , "8.8" , "2.9" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#168> dbp:date "31/08/2003" ;
+	xsd:decimal "8" , "50" , "52" , "90" ;
+	xsd:float "5.5" , "0.4" , "2.7" , "9.7" , "3.1" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#169> dbp:date "31/07/2003" ;
+	xsd:decimal "9" , "49" , "90" ;
+	xsd:float "8.4" , "0.6" , "5.1" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#170> dbp:date "30/06/2003" ;
+	xsd:decimal "12" , "48" , "56" , "86" ;
+	xsd:float "7.6" , "0.4" , "4.1" , "9.5" , "1.7" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#171> dbp:date "31/05/2003" ;
+	xsd:decimal "24" , "42" , "32" , "84" ;
+	xsd:float "4.4" , "3.2" , "8.6" , "1.2" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#172> dbp:date "30/04/2003" ;
+	xsd:decimal "22" , "53" , "24" , "61" ;
+	xsd:float "3.2" , "0.4" , "1.4" , "9.1" , "0.7" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#173> dbp:date "31/03/2003" ;
+	xsd:decimal "30" , "50" , "42" ;
+	xsd:float "8.9" , "0.8" , "4" , "10.4" , "1.3" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#174> dbp:date "28/02/2003" ;
+	xsd:decimal "29" , "31" , "26" , "36" ;
+	xsd:float "7.8" , "1" , "4.1" , "10.8" , "0.9" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#175> dbp:date "31/01/2003" ;
+	xsd:decimal "27" , "24" , "28" , "41" ;
+	xsd:float "10.3" , "1.1" , "5.5" , "6.9" , "1.6" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#176> dbp:date "31/12/2002" ;
+	xsd:decimal "31" , "27" , "28" , "26" ;
+	xsd:float "11.5" , "1.3" , "6.5" , "1.8" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#177> dbp:date "30/11/2002" ;
+	xsd:decimal "23" , "30" , "25" , "26" ;
+	xsd:float "7.6" , "1.1" , "3.8" , "8.2" , "1.6" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#178> dbp:date "31/10/2002" ;
+	xsd:decimal "22" , "29" , "30" , "31" ;
+	xsd:float "10" , "1" , "5" , "7.8" , "1.2" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#179> dbp:date "30/09/2002" ;
+	xsd:decimal "12" , "29" , "31" , "55" ;
+	xsd:float "7.7" , "0.8" , "3.3" , "7.1" , "1.3" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#180> dbp:date "31/08/2002" ;
+	xsd:decimal "5" , "16" , "27" , "83" ;
+	xsd:float "4.2" , "0.4" , "1" , "6.5" , "1.2" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#181> dbp:date "31/07/2002" ;
+	xsd:decimal "5" , "18" , "31" , "88" ;
+	xsd:float "4.9" , "0.5" , "2" , "8.4" , "2.2" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#182> dbp:date "30/06/2002" ;
+	xsd:decimal "5" , "19" , "42" , "84" ;
+	xsd:float "3.4" , "0.3" , "1" , "8.5" , "1.5" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#183> dbp:date "31/05/2002" ;
+	xsd:decimal "12" , "22" , "26" , "72" ;
+	xsd:float "4.3" , "0.4" , "1.6" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#184> dbp:date "30/04/2002" ;
+	xsd:decimal "11" , "28" , "77" ;
+	xsd:float "6.2" , "0.7" , "2.8" , "7.8" , "4.2" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#185> dbp:date "31/03/2002" ;
+	xsd:decimal "19" , "33" , "31" , "51" ;
+	xsd:float "7.6" , "1.1" , "3.4" , "9.9" , "4.6" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#186> dbp:date "28/02/2002" ;
+	xsd:decimal "42" ;
+	xsd:float "7.2" , "0.7" , "3.2" , "10.6" , "4.7" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#187> dbp:date "31/01/2001" ;
+	xsd:decimal "50" , "37" , "43" , "10" ;
+	xsd:float "13.2" , "1.1" , "5.1" , "9.4" , "2.4" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#188> dbp:date "31/12/2001" ;
+	xsd:decimal "73" , "45" , "66" , "12" ;
+	xsd:float "28.7" , "2.8" , "9.4" , "9.9" , "1.7" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#189> dbp:date "30/11/2001" ;
+	xsd:decimal "38" , "37" , "31" , "25" ;
+	xsd:float "13.8" , "1.2" , "4" , "9.7" , "2.1" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#190> dbp:date "31/10/2001" ;
+	xsd:decimal "26" , "36" , "16" , "23" ;
+	xsd:float "7.4" , "0.4" , "2.3" , "11.7" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#191> dbp:date "30/09/2001" ;
+	xsd:decimal "10" , "30" , "14" , "47" ;
+	xsd:float "0.3" , "30.3" , "2.3" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#192> dbp:date "31/08/2001" ;
+	xsd:decimal "6" , "22" , "15" , "55" ;
+	xsd:float "2.8" , "0.3" , "1.5" , "30.7" , "1.7" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#193> dbp:date "31/07/2001" ;
+	xsd:decimal "6" , "23" , "15" , "65" ;
+	xsd:float "3" , "0.4" , "1.8" , "33.7" , "0.5" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#194> dbp:date "30/06/2001" ;
+	xsd:decimal "7" , "27" , "16" , "71" ;
+	xsd:float "3.8" , "0.4" , "2.4" , "13.3" , "0.9" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#195> dbp:date "31/05/2001" ;
+	xsd:decimal "12" , "31" , "61" ;
+	xsd:float "3.7" , "0.8" , "2.6" , "11.5" , "0.6" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#196> dbp:date "30/04/2001" ;
+	xsd:decimal "10" , "23" , "12" , "59" ;
+	xsd:float "2.8" , "1.9" , "2.2" , "7.9" , "0.4" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#197> dbp:date "31/03/2001" ;
+	xsd:decimal "15" , "28" , "13" , "36" ;
+	xsd:float "6" , "2" , "4.1" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#198> dbp:date "28/02/2001" ;
+	xsd:decimal "36" , "38" , "19" , "27" ;
+	xsd:float "10" , "2.5" , "6.7" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#199> dbp:date "31/01/2001" ;
+	xsd:decimal "31" , "36" , "23" ;
+	xsd:float "3.1" , "3" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#200> dbp:date "31/12/2000" ;
+	xsd:decimal "42" , "37" , "32" , "19" ;
+	xsd:float "3.8" , "0.5" , "2.4" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#201> dbp:date "30/11/2000" ;
+	xsd:decimal "26" , "31" , "23" , "25" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#202> dbp:date "31/10/2000" ;
+	xsd:decimal "24" , "36" , "30" , "34" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#203> dbp:date "30/09/2000" ;
+	xsd:decimal "20" , "35" , "37" , "49" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#204> dbp:date "31/08/2000" ;
+	xsd:decimal "7" , "27" , "36" , "70" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#205> dbp:date "31/07/2000" ;
+	xsd:decimal "6" , "26" , "27" , "67" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#206> dbp:date "30/06/2000" ;
+	xsd:decimal "6" , "31" , "35" , "68" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#207> dbp:date "31/05/2000" ;
+	xsd:decimal "12" , "33" , "28" , "41" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#208> dbp:date "30/04/2000" ;
+	xsd:decimal "8" , "30" , "17" , "41" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#209> dbp:date "31/03/2000" ;
+	xsd:decimal "28" , "44" , "43" , "36" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#210> dbp:date "29/02/2000" ;
+	xsd:decimal "80" , "54" , "48" , "21" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Alcobendas#211> dbp:date "31/01/2000" ;
+	xsd:decimal "87" , "60" , "66" , "23" .
