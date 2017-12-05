@@ -1,0 +1,200 @@
+@prefix : <http://www.edumadrid.org/group22#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.edumadrid.org/group22> .
+
+<http://www.edumadrid.org/group22> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.edumadrid.org/group22#has_Contact
+:has_Contact rdf:type owl:ObjectProperty ;
+             rdfs:domain <http://dbpedia.org/ontology/EducationalInstitution> ;
+             rdfs:range :Contact .
+
+
+###  http://www.edumadrid.org/group22#has_latitude
+:has_latitude rdf:type owl:ObjectProperty ;
+              rdfs:domain <http://dbpedia.org/ontology/EducationalInstitution> ;
+              rdfs:range <http://dbpedia.org/page/Latitude> .
+
+
+###  http://www.edumadrid.org/group22#has_length
+:has_length rdf:type owl:ObjectProperty ;
+            rdfs:domain <http://dbpedia.org/ontology/EducationalInstitution> ;
+            rdfs:range <http://dbpedia.org/page/Length> .
+
+
+###  http://www.edumadrid.org/group22#is_located
+:is_located rdf:type owl:ObjectProperty ;
+            rdfs:domain <http://dbpedia.org/ontology/EducationalInstitution> ;
+            rdfs:range <http://dbpedia.org/ontology/District> .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.edumadrid.org/group22#accesibility
+:accesibility rdf:type owl:DatatypeProperty ;
+              rdfs:domain <http://dbpedia.org/ontology/EducationalInstitution> ;
+              rdfs:range xsd:boolean .
+
+
+###  http://www.edumadrid.org/group22#hasDescription
+:hasDescription rdf:type owl:DatatypeProperty ;
+                rdfs:domain <http://dbpedia.org/ontology/EducationalInstitution> ;
+                rdfs:range xsd:string .
+
+
+###  http://www.edumadrid.org/group22#hasEmail
+:hasEmail rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Contact ;
+          rdfs:range xsd:string .
+
+
+###  http://www.edumadrid.org/group22#hasFax
+:hasFax rdf:type owl:DatatypeProperty ;
+        rdfs:domain :Contact ;
+        rdfs:range xsd:string .
+
+
+###  http://www.edumadrid.org/group22#hasFoodService
+:hasFoodService rdf:type owl:DatatypeProperty ;
+                rdfs:domain <http://dbpedia.org/ontology/EducationalInstitution> ;
+                rdfs:range xsd:boolean .
+
+
+###  http://www.edumadrid.org/group22#hasName
+:hasName rdf:type owl:DatatypeProperty ;
+         rdfs:domain <http://dbpedia.org/ontology/EducationalInstitution> ;
+         rdfs:range xsd:string .
+
+
+###  http://www.edumadrid.org/group22#hasOrientation
+:hasOrientation rdf:type owl:DatatypeProperty ;
+                rdfs:domain <http://dbpedia.org/ontology/EducationalInstitution> ;
+                rdfs:range xsd:string .
+
+
+###  http://www.edumadrid.org/group22#hasPhoneNumber
+:hasPhoneNumber rdf:type owl:DatatypeProperty ;
+                rdfs:domain :Contact ;
+                rdfs:range xsd:string .
+
+
+###  http://www.edumadrid.org/group22#hasPostalCode
+:hasPostalCode rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Adress ;
+               rdfs:range xsd:int .
+
+
+###  http://www.edumadrid.org/group22#hasRoadName
+:hasRoadName rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Adress ;
+             rdfs:range xsd:string .
+
+
+###  http://www.edumadrid.org/group22#hasRoadNumber
+:hasRoadNumber rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Adress ;
+               rdfs:range xsd:string .
+
+
+###  http://www.edumadrid.org/group22#hasRoadType
+:hasRoadType rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Adress ;
+             rdfs:range xsd:string .
+
+
+###  http://www.edumadrid.org/group22#hasRouteService
+:hasRouteService rdf:type owl:DatatypeProperty ;
+                 rdfs:domain <http://dbpedia.org/ontology/EducationalInstitution> ;
+                 rdfs:range xsd:boolean .
+
+
+###  http://www.edumadrid.org/group22#hasSchedule
+:hasSchedule rdf:type owl:DatatypeProperty ;
+             rdfs:domain <http://dbpedia.org/ontology/EducationalInstitution> ;
+             rdfs:range xsd:string .
+
+
+###  http://www.edumadrid.org/group22#hasStreetNumber
+:hasStreetNumber rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :Adress ;
+                 rdfs:range xsd:int .
+
+
+###  http://www.edumadrid.org/group22#hasTransport
+:hasTransport rdf:type owl:DatatypeProperty ;
+              rdfs:domain <http://dbpedia.org/ontology/EducationalInstitution> ;
+              rdfs:range xsd:string .
+
+
+###  http://www.edumadrid.org/group22#hasType
+:hasType rdf:type owl:DatatypeProperty ;
+         rdfs:domain <http://dbpedia.org/ontology/EducationalInstitution> ;
+         rdfs:range xsd:string .
+
+
+###  http://www.edumadrid.org/group22#hasWebPage
+:hasWebPage rdf:type owl:DatatypeProperty ;
+            rdfs:domain <http://dbpedia.org/ontology/EducationalInstitution> ;
+            rdfs:range xsd:anyURI .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://dbpedia.org/ontology/College
+<http://dbpedia.org/ontology/College> rdf:type owl:Class ;
+                                      rdfs:subClassOf <http://dbpedia.org/ontology/EducationalInstitution> .
+
+
+###  http://dbpedia.org/ontology/District
+<http://dbpedia.org/ontology/District> rdf:type owl:Class .
+
+
+###  http://dbpedia.org/ontology/EducationalInstitution
+<http://dbpedia.org/ontology/EducationalInstitution> rdf:type owl:Class .
+
+
+###  http://dbpedia.org/ontology/School
+<http://dbpedia.org/ontology/School> rdf:type owl:Class ;
+                                     rdfs:subClassOf <http://dbpedia.org/ontology/EducationalInstitution> .
+
+
+###  http://dbpedia.org/page/Latitude
+<http://dbpedia.org/page/Latitude> rdf:type owl:Class ;
+                                   rdfs:subClassOf <http://mappings.dbpedia.org/server/ontology/classes/#Geo:SpatialThing> .
+
+
+###  http://dbpedia.org/page/Length
+<http://dbpedia.org/page/Length> rdf:type owl:Class ;
+                                 rdfs:subClassOf <http://mappings.dbpedia.org/server/ontology/classes/#Geo:SpatialThing> .
+
+
+###  http://dbpedia.org/page/Wards_of_Madrid
+<http://dbpedia.org/page/Wards_of_Madrid> rdf:type owl:Class ;
+                                          rdfs:subClassOf <http://dbpedia.org/ontology/District> .
+
+
+###  http://mappings.dbpedia.org/server/ontology/classes/#Geo:SpatialThing
+<http://mappings.dbpedia.org/server/ontology/classes/#Geo:SpatialThing> rdf:type owl:Class .
+
+
+###  http://www.edumadrid.org/group22#Adress
+:Adress rdf:type owl:Class .
+
+
+###  http://www.edumadrid.org/group22#Contact
+:Contact rdf:type owl:Class .
+
+
+###  Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi
