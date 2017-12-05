@@ -1,0 +1,436 @@
+@prefix : <http://www.semanticweb.org/group12/ontology#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dbpedia: <http://dbpedia.org/page/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+<http://www.semanticweb.org/group12/resources/Calendar/18171> a dbpedia:Calendar ;
+	:hasServiceMonday "1"^^xsd:boolean ;
+	:hasServiceTuesday "1"^^xsd:boolean ;
+	:hasServiceWednesday "1"^^xsd:boolean ;
+	:hasServiceThursday "1"^^xsd:boolean ;
+	:hasServiceFriday "1"^^xsd:boolean ;
+	:hasServiceSaturday "1"^^xsd:boolean ;
+	:hasServiceSunday "1"^^xsd:boolean ;
+	:dateFrom "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+	:dateTo "Sat Jun 23 00:00:00 CEST 2018"^^xsd:dateTime .
+
+<http://www.semanticweb.org/group12/resources/Calendar/128171> a dbpedia:Calendar ;
+	:hasServiceMonday "1"^^xsd:boolean ;
+	:hasServiceTuesday "1"^^xsd:boolean ;
+	:hasServiceWednesday "1"^^xsd:boolean ;
+	:hasServiceThursday "1"^^xsd:boolean ;
+	:hasServiceFriday "1"^^xsd:boolean ;
+	:hasServiceSaturday "0"^^xsd:boolean ;
+	:hasServiceSunday "0"^^xsd:boolean ;
+	:dateFrom "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+	:dateTo "Sat Jun 23 00:00:00 CEST 2018"^^xsd:dateTime .
+
+<http://www.semanticweb.org/group12/resources/Calendar/71292006> a dbpedia:Calendar ;
+	:hasServiceMonday "1"^^xsd:boolean ;
+	:hasServiceTuesday "1"^^xsd:boolean ;
+	:hasServiceWednesday "1"^^xsd:boolean ;
+	:hasServiceThursday "1"^^xsd:boolean ;
+	:hasServiceFriday "1"^^xsd:boolean ;
+	:hasServiceSaturday "0"^^xsd:boolean ;
+	:hasServiceSunday "0"^^xsd:boolean ;
+	:dateFrom "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+	:dateTo "Sat Jun 23 00:00:00 CEST 2018"^^xsd:dateTime .
+
+<http://www.semanticweb.org/group12/resources/Calendar/1168828> a dbpedia:Calendar ;
+	:hasServiceMonday "1"^^xsd:boolean ;
+	:hasServiceTuesday "1"^^xsd:boolean ;
+	:hasServiceWednesday "1"^^xsd:boolean ;
+	:hasServiceThursday "1"^^xsd:boolean ;
+	:hasServiceFriday "1"^^xsd:boolean ;
+	:hasServiceSaturday "0"^^xsd:boolean ;
+	:hasServiceSunday "0"^^xsd:boolean ;
+	:dateFrom "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+	:dateTo "Sat Jun 23 00:00:00 CEST 2018"^^xsd:dateTime .
+
+<http://www.semanticweb.org/group12/resources/Calendar/1248828> a dbpedia:Calendar ;
+	:hasServiceMonday "1"^^xsd:boolean ;
+	:hasServiceTuesday "1"^^xsd:boolean ;
+	:hasServiceWednesday "1"^^xsd:boolean ;
+	:hasServiceThursday "1"^^xsd:boolean ;
+	:hasServiceFriday "1"^^xsd:boolean ;
+	:hasServiceSaturday "0"^^xsd:boolean ;
+	:hasServiceSunday "0"^^xsd:boolean ;
+	:dateFrom "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+	:dateTo "Sat Jun 23 00:00:00 CEST 2018"^^xsd:dateTime .
+
+<http://www.semanticweb.org/group12/resources/Calendar/10992006> a dbpedia:Calendar ;
+	:hasServiceMonday "1"^^xsd:boolean ;
+	:hasServiceTuesday "1"^^xsd:boolean ;
+	:hasServiceWednesday "1"^^xsd:boolean ;
+	:hasServiceThursday "1"^^xsd:boolean ;
+	:hasServiceFriday "1"^^xsd:boolean ;
+	:hasServiceSaturday "0"^^xsd:boolean ;
+	:hasServiceSunday "0"^^xsd:boolean ;
+	:dateFrom "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+	:dateTo "Sat Jun 23 00:00:00 CEST 2018"^^xsd:dateTime .
+
+<http://www.semanticweb.org/group12/resources/Calendar/1118828> a dbpedia:Calendar ;
+	:hasServiceMonday "1"^^xsd:boolean ;
+	:hasServiceTuesday "1"^^xsd:boolean ;
+	:hasServiceWednesday "1"^^xsd:boolean ;
+	:hasServiceThursday "1"^^xsd:boolean ;
+	:hasServiceFriday "1"^^xsd:boolean ;
+	:hasServiceSaturday "0"^^xsd:boolean ;
+	:hasServiceSunday "0"^^xsd:boolean ;
+	:dateFrom "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+	:dateTo "Sat Jun 23 00:00:00 CEST 2018"^^xsd:dateTime .
+
+<http://www.semanticweb.org/group12/resources/Calendar/80591006> a dbpedia:Calendar ;
+	:hasServiceMonday "1"^^xsd:boolean ;
+	:hasServiceTuesday "1"^^xsd:boolean ;
+	:hasServiceWednesday "1"^^xsd:boolean ;
+	:hasServiceThursday "1"^^xsd:boolean ;
+	:hasServiceFriday "0"^^xsd:boolean ;
+	:hasServiceSaturday "0"^^xsd:boolean ;
+	:hasServiceSunday "0"^^xsd:boolean ;
+	:dateFrom "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+	:dateTo "Fri Jun 22 00:00:00 CEST 2018"^^xsd:dateTime .
+
+<http://www.semanticweb.org/group12/resources/Calendar/11292006> a dbpedia:Calendar ;
+	:hasServiceMonday "1"^^xsd:boolean ;
+	:hasServiceTuesday "1"^^xsd:boolean ;
+	:hasServiceWednesday "1"^^xsd:boolean ;
+	:hasServiceThursday "1"^^xsd:boolean ;
+	:hasServiceFriday "1"^^xsd:boolean ;
+	:hasServiceSaturday "0"^^xsd:boolean ;
+	:hasServiceSunday "0"^^xsd:boolean ;
+	:dateFrom "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+	:dateTo "Sat Jun 23 00:00:00 CEST 2018"^^xsd:dateTime .
+
+<http://www.semanticweb.org/group12/resources/Calendar/98171> a dbpedia:Calendar ;
+	:hasServiceMonday "1"^^xsd:boolean ;
+	:hasServiceTuesday "1"^^xsd:boolean ;
+	:hasServiceWednesday "1"^^xsd:boolean ;
+	:hasServiceThursday "1"^^xsd:boolean ;
+	:hasServiceFriday "1"^^xsd:boolean ;
+	:hasServiceSaturday "0"^^xsd:boolean ;
+	:hasServiceSunday "0"^^xsd:boolean ;
+	:dateFrom "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+	:dateTo "Sat Jun 23 00:00:00 CEST 2018"^^xsd:dateTime .
+
+<http://www.semanticweb.org/group12/resources/Calendar/158171> a dbpedia:Calendar ;
+	:hasServiceMonday "0"^^xsd:boolean ;
+	:hasServiceTuesday "0"^^xsd:boolean ;
+	:hasServiceWednesday "0"^^xsd:boolean ;
+	:hasServiceThursday "0"^^xsd:boolean ;
+	:hasServiceFriday "1"^^xsd:boolean ;
+	:hasServiceSaturday "0"^^xsd:boolean ;
+	:hasServiceSunday "0"^^xsd:boolean ;
+	:dateFrom "Fri May 26 00:00:00 CEST 2017"^^xsd:dateTime ;
+	:dateTo "Sat Jun 23 00:00:00 CEST 2018"^^xsd:dateTime .
+
+<http://www.semanticweb.org/group12/resources/Calendar/12492006> a dbpedia:Calendar ;
+	:hasServiceMonday "1"^^xsd:boolean ;
+	:hasServiceTuesday "1"^^xsd:boolean ;
+	:hasServiceWednesday "1"^^xsd:boolean ;
+	:hasServiceThursday "1"^^xsd:boolean ;
+	:hasServiceFriday "1"^^xsd:boolean ;
+	:hasServiceSaturday "0"^^xsd:boolean ;
+	:hasServiceSunday "0"^^xsd:boolean ;
+	:dateFrom "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+	:dateTo "Sat Jun 23 00:00:00 CEST 2018"^^xsd:dateTime .
+
+<http://www.semanticweb.org/group12/resources/Calendar/118171> a dbpedia:Calendar ;
+	:hasServiceMonday "1"^^xsd:boolean ;
+	:hasServiceTuesday "1"^^xsd:boolean ;
+	:hasServiceWednesday "1"^^xsd:boolean ;
+	:hasServiceThursday "1"^^xsd:boolean ;
+	:hasServiceFriday "1"^^xsd:boolean ;
+	:hasServiceSaturday "0"^^xsd:boolean ;
+	:hasServiceSunday "0"^^xsd:boolean ;
+	:dateFrom "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+	:dateTo "Sat Jun 23 00:00:00 CEST 2018"^^xsd:dateTime .
+
+<http://www.semanticweb.org/group12/resources/Calendar/58171> a dbpedia:Calendar ;
+	:hasServiceMonday "1"^^xsd:boolean ;
+	:hasServiceTuesday "1"^^xsd:boolean ;
+	:hasServiceWednesday "1"^^xsd:boolean ;
+	:hasServiceThursday "1"^^xsd:boolean ;
+	:hasServiceFriday "1"^^xsd:boolean ;
+	:hasServiceSaturday "1"^^xsd:boolean ;
+	:hasServiceSunday "1"^^xsd:boolean ;
+	:dateFrom "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+	:dateTo "Sat Jun 23 00:00:00 CEST 2018"^^xsd:dateTime .
+
+<http://www.semanticweb.org/group12/resources/Calendar/70591006> a dbpedia:Calendar ;
+	:hasServiceMonday "1"^^xsd:boolean ;
+	:hasServiceTuesday "1"^^xsd:boolean ;
+	:hasServiceWednesday "1"^^xsd:boolean ;
+	:hasServiceThursday "1"^^xsd:boolean ;
+	:hasServiceFriday "0"^^xsd:boolean ;
+	:hasServiceSaturday "0"^^xsd:boolean ;
+	:hasServiceSunday "0"^^xsd:boolean ;
+	:dateFrom "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+	:dateTo "Fri Jun 22 00:00:00 CEST 2018"^^xsd:dateTime .
+
+<http://www.semanticweb.org/group12/resources/Calendar/80491006> a dbpedia:Calendar ;
+	:hasServiceMonday "1"^^xsd:boolean ;
+	:hasServiceTuesday "1"^^xsd:boolean ;
+	:hasServiceWednesday "1"^^xsd:boolean ;
+	:hasServiceThursday "1"^^xsd:boolean ;
+	:hasServiceFriday "0"^^xsd:boolean ;
+	:hasServiceSaturday "0"^^xsd:boolean ;
+	:hasServiceSunday "0"^^xsd:boolean ;
+	:dateFrom "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+	:dateTo "Fri Jun 22 00:00:00 CEST 2018"^^xsd:dateTime .
+
+<http://www.semanticweb.org/group12/resources/Calendar/28171> a dbpedia:Calendar ;
+	:hasServiceMonday "1"^^xsd:boolean ;
+	:hasServiceTuesday "1"^^xsd:boolean ;
+	:hasServiceWednesday "1"^^xsd:boolean ;
+	:hasServiceThursday "1"^^xsd:boolean ;
+	:hasServiceFriday "1"^^xsd:boolean ;
+	:hasServiceSaturday "1"^^xsd:boolean ;
+	:hasServiceSunday "1"^^xsd:boolean ;
+	:dateFrom "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+	:dateTo "Sat Jun 23 00:00:00 CEST 2018"^^xsd:dateTime .
+
+<http://www.semanticweb.org/group12/resources/Calendar/7793006> a dbpedia:Calendar ;
+	:hasServiceMonday "0"^^xsd:boolean ;
+	:hasServiceTuesday "0"^^xsd:boolean ;
+	:hasServiceWednesday "0"^^xsd:boolean ;
+	:hasServiceThursday "0"^^xsd:boolean ;
+	:hasServiceFriday "0"^^xsd:boolean ;
+	:hasServiceSaturday "0"^^xsd:boolean ;
+	:hasServiceSunday "1"^^xsd:boolean ;
+	:dateFrom "Sun May 28 00:00:00 CEST 2017"^^xsd:dateTime ;
+	:dateTo "Mon Jun 18 00:00:00 CEST 2018"^^xsd:dateTime .
+
+<http://www.semanticweb.org/group12/resources/Calendar/108171> a dbpedia:Calendar ;
+	:hasServiceMonday "1"^^xsd:boolean ;
+	:hasServiceTuesday "1"^^xsd:boolean ;
+	:hasServiceWednesday "1"^^xsd:boolean ;
+	:hasServiceThursday "1"^^xsd:boolean ;
+	:hasServiceFriday "1"^^xsd:boolean ;
+	:hasServiceSaturday "0"^^xsd:boolean ;
+	:hasServiceSunday "0"^^xsd:boolean ;
+	:dateFrom "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+	:dateTo "Sat Jun 23 00:00:00 CEST 2018"^^xsd:dateTime .
+
+<http://www.semanticweb.org/group12/resources/Calendar/10591006> a dbpedia:Calendar ;
+	:hasServiceMonday "1"^^xsd:boolean ;
+	:hasServiceTuesday "1"^^xsd:boolean ;
+	:hasServiceWednesday "1"^^xsd:boolean ;
+	:hasServiceThursday "1"^^xsd:boolean ;
+	:hasServiceFriday "0"^^xsd:boolean ;
+	:hasServiceSaturday "0"^^xsd:boolean ;
+	:hasServiceSunday "0"^^xsd:boolean ;
+	:dateFrom "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+	:dateTo "Fri Jun 22 00:00:00 CEST 2018"^^xsd:dateTime .
+
+<http://www.semanticweb.org/group12/resources/Calendar/1238828> a dbpedia:Calendar ;
+	:hasServiceMonday "1"^^xsd:boolean ;
+	:hasServiceTuesday "1"^^xsd:boolean ;
+	:hasServiceWednesday "1"^^xsd:boolean ;
+	:hasServiceThursday "1"^^xsd:boolean ;
+	:hasServiceFriday "1"^^xsd:boolean ;
+	:hasServiceSaturday "0"^^xsd:boolean ;
+	:hasServiceSunday "0"^^xsd:boolean ;
+	:dateFrom "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+	:dateTo "Sat Jun 23 00:00:00 CEST 2018"^^xsd:dateTime .
+
+<http://www.semanticweb.org/group12/resources/Calendar/70491006> a dbpedia:Calendar ;
+	:hasServiceMonday "1"^^xsd:boolean ;
+	:hasServiceTuesday "1"^^xsd:boolean ;
+	:hasServiceWednesday "1"^^xsd:boolean ;
+	:hasServiceThursday "1"^^xsd:boolean ;
+	:hasServiceFriday "0"^^xsd:boolean ;
+	:hasServiceSaturday "0"^^xsd:boolean ;
+	:hasServiceSunday "0"^^xsd:boolean ;
+	:dateFrom "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+	:dateTo "Fri Jun 22 00:00:00 CEST 2018"^^xsd:dateTime .
+
+<http://www.semanticweb.org/group12/resources/Calendar/11192006> a dbpedia:Calendar ;
+	:hasServiceMonday "1"^^xsd:boolean ;
+	:hasServiceTuesday "1"^^xsd:boolean ;
+	:hasServiceWednesday "1"^^xsd:boolean ;
+	:hasServiceThursday "1"^^xsd:boolean ;
+	:hasServiceFriday "1"^^xsd:boolean ;
+	:hasServiceSaturday "0"^^xsd:boolean ;
+	:hasServiceSunday "0"^^xsd:boolean ;
+	:dateFrom "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+	:dateTo "Sat Jun 23 00:00:00 CEST 2018"^^xsd:dateTime .
+
+<http://www.semanticweb.org/group12/resources/Calendar/68171> a dbpedia:Calendar ;
+	:hasServiceMonday "1"^^xsd:boolean ;
+	:hasServiceTuesday "1"^^xsd:boolean ;
+	:hasServiceWednesday "1"^^xsd:boolean ;
+	:hasServiceThursday "1"^^xsd:boolean ;
+	:hasServiceFriday "1"^^xsd:boolean ;
+	:hasServiceSaturday "1"^^xsd:boolean ;
+	:hasServiceSunday "0"^^xsd:boolean ;
+	:dateFrom "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+	:dateTo "Sat Jun 23 00:00:00 CEST 2018"^^xsd:dateTime .
+
+<http://www.semanticweb.org/group12/resources/Calendar/148171> a dbpedia:Calendar ;
+	:hasServiceMonday "1"^^xsd:boolean ;
+	:hasServiceTuesday "1"^^xsd:boolean ;
+	:hasServiceWednesday "1"^^xsd:boolean ;
+	:hasServiceThursday "1"^^xsd:boolean ;
+	:hasServiceFriday "1"^^xsd:boolean ;
+	:hasServiceSaturday "0"^^xsd:boolean ;
+	:hasServiceSunday "0"^^xsd:boolean ;
+	:dateFrom "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+	:dateTo "Sat Jun 23 00:00:00 CEST 2018"^^xsd:dateTime .
+
+<http://www.semanticweb.org/group12/resources/Calendar/88171> a dbpedia:Calendar ;
+	:hasServiceMonday "1"^^xsd:boolean ;
+	:hasServiceTuesday "1"^^xsd:boolean ;
+	:hasServiceWednesday "1"^^xsd:boolean ;
+	:hasServiceThursday "1"^^xsd:boolean ;
+	:hasServiceFriday "1"^^xsd:boolean ;
+	:hasServiceSaturday "0"^^xsd:boolean ;
+	:hasServiceSunday "0"^^xsd:boolean ;
+	:dateFrom "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+	:dateTo "Sat Jun 23 00:00:00 CEST 2018"^^xsd:dateTime .
+
+<http://www.semanticweb.org/group12/resources/Calendar/38171> a dbpedia:Calendar ;
+	:hasServiceMonday "1"^^xsd:boolean ;
+	:hasServiceTuesday "1"^^xsd:boolean ;
+	:hasServiceWednesday "1"^^xsd:boolean ;
+	:hasServiceThursday "1"^^xsd:boolean ;
+	:hasServiceFriday "1"^^xsd:boolean ;
+	:hasServiceSaturday "1"^^xsd:boolean ;
+	:hasServiceSunday "1"^^xsd:boolean ;
+	:dateFrom "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+	:dateTo "Sat Jun 23 00:00:00 CEST 2018"^^xsd:dateTime .
+
+<http://www.semanticweb.org/group12/resources/Calendar/71192006> a dbpedia:Calendar ;
+	:hasServiceMonday "1"^^xsd:boolean ;
+	:hasServiceTuesday "1"^^xsd:boolean ;
+	:hasServiceWednesday "1"^^xsd:boolean ;
+	:hasServiceThursday "1"^^xsd:boolean ;
+	:hasServiceFriday "1"^^xsd:boolean ;
+	:hasServiceSaturday "0"^^xsd:boolean ;
+	:hasServiceSunday "0"^^xsd:boolean ;
+	:dateFrom "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+	:dateTo "Sat Jun 23 00:00:00 CEST 2018"^^xsd:dateTime .
+
+<http://www.semanticweb.org/group12/resources/Calendar/10491006> a dbpedia:Calendar ;
+	:hasServiceMonday "1"^^xsd:boolean ;
+	:hasServiceTuesday "1"^^xsd:boolean ;
+	:hasServiceWednesday "1"^^xsd:boolean ;
+	:hasServiceThursday "1"^^xsd:boolean ;
+	:hasServiceFriday "0"^^xsd:boolean ;
+	:hasServiceSaturday "0"^^xsd:boolean ;
+	:hasServiceSunday "0"^^xsd:boolean ;
+	:dateFrom "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+	:dateTo "Fri Jun 22 00:00:00 CEST 2018"^^xsd:dateTime .
+
+<http://www.semanticweb.org/group12/resources/Calendar/70992006> a dbpedia:Calendar ;
+	:hasServiceMonday "1"^^xsd:boolean ;
+	:hasServiceTuesday "1"^^xsd:boolean ;
+	:hasServiceWednesday "1"^^xsd:boolean ;
+	:hasServiceThursday "1"^^xsd:boolean ;
+	:hasServiceFriday "1"^^xsd:boolean ;
+	:hasServiceSaturday "0"^^xsd:boolean ;
+	:hasServiceSunday "0"^^xsd:boolean ;
+	:dateFrom "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+	:dateTo "Sat Jun 23 00:00:00 CEST 2018"^^xsd:dateTime .
+
+<http://www.semanticweb.org/group12/resources/Calendar/1218828> a dbpedia:Calendar ;
+	:hasServiceMonday "1"^^xsd:boolean ;
+	:hasServiceTuesday "1"^^xsd:boolean ;
+	:hasServiceWednesday "1"^^xsd:boolean ;
+	:hasServiceThursday "1"^^xsd:boolean ;
+	:hasServiceFriday "1"^^xsd:boolean ;
+	:hasServiceSaturday "0"^^xsd:boolean ;
+	:hasServiceSunday "0"^^xsd:boolean ;
+	:dateFrom "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+	:dateTo "Sat Jun 23 00:00:00 CEST 2018"^^xsd:dateTime .
+
+<http://www.semanticweb.org/group12/resources/Calendar/78171> a dbpedia:Calendar ;
+	:hasServiceMonday "1"^^xsd:boolean ;
+	:hasServiceTuesday "1"^^xsd:boolean ;
+	:hasServiceWednesday "1"^^xsd:boolean ;
+	:hasServiceThursday "1"^^xsd:boolean ;
+	:hasServiceFriday "1"^^xsd:boolean ;
+	:hasServiceSaturday "0"^^xsd:boolean ;
+	:hasServiceSunday "0"^^xsd:boolean ;
+	:dateFrom "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+	:dateTo "Sat Jun 23 00:00:00 CEST 2018"^^xsd:dateTime .
+
+<http://www.semanticweb.org/group12/resources/Calendar/138171> a dbpedia:Calendar ;
+	:hasServiceMonday "1"^^xsd:boolean ;
+	:hasServiceTuesday "1"^^xsd:boolean ;
+	:hasServiceWednesday "1"^^xsd:boolean ;
+	:hasServiceThursday "1"^^xsd:boolean ;
+	:hasServiceFriday "1"^^xsd:boolean ;
+	:hasServiceSaturday "0"^^xsd:boolean ;
+	:hasServiceSunday "0"^^xsd:boolean ;
+	:dateFrom "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+	:dateTo "Sat Jun 23 00:00:00 CEST 2018"^^xsd:dateTime .
+
+<http://www.semanticweb.org/group12/resources/Calendar/70192006> a dbpedia:Calendar ;
+	:hasServiceMonday "1"^^xsd:boolean ;
+	:hasServiceTuesday "1"^^xsd:boolean ;
+	:hasServiceWednesday "1"^^xsd:boolean ;
+	:hasServiceThursday "1"^^xsd:boolean ;
+	:hasServiceFriday "1"^^xsd:boolean ;
+	:hasServiceSaturday "0"^^xsd:boolean ;
+	:hasServiceSunday "0"^^xsd:boolean ;
+	:dateFrom "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+	:dateTo "Sat Jun 23 00:00:00 CEST 2018"^^xsd:dateTime .
+
+<http://www.semanticweb.org/group12/resources/Calendar/7693006> a dbpedia:Calendar ;
+	:hasServiceMonday "0"^^xsd:boolean ;
+	:hasServiceTuesday "0"^^xsd:boolean ;
+	:hasServiceWednesday "0"^^xsd:boolean ;
+	:hasServiceThursday "0"^^xsd:boolean ;
+	:hasServiceFriday "0"^^xsd:boolean ;
+	:hasServiceSaturday "0"^^xsd:boolean ;
+	:hasServiceSunday "1"^^xsd:boolean ;
+	:dateFrom "Sun May 28 00:00:00 CEST 2017"^^xsd:dateTime ;
+	:dateTo "Mon Jun 18 00:00:00 CEST 2018"^^xsd:dateTime .
+
+<http://www.semanticweb.org/group12/resources/Calendar/48171> a dbpedia:Calendar ;
+	:hasServiceMonday "1"^^xsd:boolean ;
+	:hasServiceTuesday "1"^^xsd:boolean ;
+	:hasServiceWednesday "1"^^xsd:boolean ;
+	:hasServiceThursday "1"^^xsd:boolean ;
+	:hasServiceFriday "1"^^xsd:boolean ;
+	:hasServiceSaturday "1"^^xsd:boolean ;
+	:hasServiceSunday "1"^^xsd:boolean ;
+	:dateFrom "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+	:dateTo "Sat Jun 23 00:00:00 CEST 2018"^^xsd:dateTime .
+
+<http://www.semanticweb.org/group12/resources/Calendar/11092006> a dbpedia:Calendar ;
+	:hasServiceMonday "1"^^xsd:boolean ;
+	:hasServiceTuesday "1"^^xsd:boolean ;
+	:hasServiceWednesday "1"^^xsd:boolean ;
+	:hasServiceThursday "1"^^xsd:boolean ;
+	:hasServiceFriday "1"^^xsd:boolean ;
+	:hasServiceSaturday "0"^^xsd:boolean ;
+	:hasServiceSunday "0"^^xsd:boolean ;
+	:dateFrom "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+	:dateTo "Sat Jun 23 00:00:00 CEST 2018"^^xsd:dateTime .
+
+<http://www.semanticweb.org/group12/resources/Calendar/12592006> a dbpedia:Calendar ;
+	:hasServiceMonday "1"^^xsd:boolean ;
+	:hasServiceTuesday "1"^^xsd:boolean ;
+	:hasServiceWednesday "1"^^xsd:boolean ;
+	:hasServiceThursday "1"^^xsd:boolean ;
+	:hasServiceFriday "1"^^xsd:boolean ;
+	:hasServiceSaturday "0"^^xsd:boolean ;
+	:hasServiceSunday "0"^^xsd:boolean ;
+	:dateFrom "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+	:dateTo "Sat Jun 23 00:00:00 CEST 2018"^^xsd:dateTime .
+
+<http://www.semanticweb.org/group12/resources/Calendar/71692006> a dbpedia:Calendar ;
+	:hasServiceMonday "1"^^xsd:boolean ;
+	:hasServiceTuesday "1"^^xsd:boolean ;
+	:hasServiceWednesday "1"^^xsd:boolean ;
+	:hasServiceThursday "1"^^xsd:boolean ;
+	:hasServiceFriday "1"^^xsd:boolean ;
+	:hasServiceSaturday "0"^^xsd:boolean ;
+	:hasServiceSunday "0"^^xsd:boolean ;
+	:dateFrom "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+	:dateTo "Sat Jun 23 00:00:00 CEST 2018"^^xsd:dateTime .
