@@ -15,65 +15,71 @@
 ###  htpp://www.contaminacion-acustica-madrid.org/group10/ontology#belongsToDistrict
 :belongsToDistrict rdf:type owl:ObjectProperty ;
                    rdfs:domain :Zone ;
-                   rdfs:range <http://dbpedia.org/page/Districts_of_Madrid> .
+                   rdfs:range :District .
 
 
 ###  htpp://www.contaminacion-acustica-madrid.org/group10/ontology#belongsToNeighborhood
 :belongsToNeighborhood rdf:type owl:ObjectProperty ;
                        rdfs:domain :Zone ;
-                       rdfs:range <http://dbpedia.org/page/Neighbourhood> .
+                       rdfs:range :Neighbourhood .
 
 
 #################################################################
 #    Data properties
 #################################################################
 
-###  htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasCompleteName
-:hasCompleteName rdf:type owl:DatatypeProperty ;
-                 rdfs:domain <http://dbpedia.org/ontology/Street> ;
-                 rdfs:range xsd:string .
-
-
-###  htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasCompleteNameAccent
-:hasCompleteNameAccent rdf:type owl:DatatypeProperty ;
-                       rdfs:domain <http://dbpedia.org/ontology/Street> ;
-                       rdfs:range xsd:string .
-
-
 ###  htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasIdDistrict
 :hasIdDistrict rdf:type owl:DatatypeProperty ;
-               rdfs:domain <http://dbpedia.org/page/Districts_of_Madrid> ;
+               rdfs:domain :District ;
                rdfs:range xsd:string .
 
 
 ###  htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasIdNeighborhood
 :hasIdNeighborhood rdf:type owl:DatatypeProperty ;
-                   rdfs:domain <http://dbpedia.org/page/Neighbourhood> ;
+                   rdfs:domain :Neighbourhood ;
                    rdfs:range xsd:string .
-
-
-###  htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasInfixe
-:hasInfixe rdf:type owl:DatatypeProperty ;
-           rdfs:domain <http://dbpedia.org/ontology/Street> ;
-           rdfs:range xsd:string .
 
 
 ###  htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasMedNoiseLv
 :hasMedNoiseLv rdf:type owl:DatatypeProperty ;
                rdfs:domain :Zone ;
-               rdfs:range xsd:decimal .
+               rdfs:range xsd:string .
 
 
-###  htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameWithAccent
-:hasNameWithAccent rdf:type owl:DatatypeProperty ;
-                   rdfs:domain <http://dbpedia.org/ontology/Street> ;
-                   rdfs:range xsd:string .
+###  htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameDistrict
+:hasNameDistrict rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :District ;
+                 rdfs:range xsd:string .
 
 
-###  htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumNeighborhoodSituation
-:hasNumNeighborhoodSituation rdf:type owl:DatatypeProperty ;
-                             rdfs:domain <http://dbpedia.org/ontology/Street> ;
-                             rdfs:range xsd:string .
+###  htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameNeighbourhood
+:hasNameNeighbourhood rdf:type owl:DatatypeProperty ;
+                      rdfs:domain :Neighbourhood ;
+                      rdfs:range xsd:string .
+
+
+###  htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameStreet
+:hasNameStreet rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Street ;
+               rdfs:range xsd:string .
+
+
+###  htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumDistrictStreet
+:hasNumDistrictStreet rdf:type owl:DatatypeProperty ;
+                      rdfs:domain :Street ;
+                      rdfs:range xsd:string .
+
+
+###  htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumDistrictZone
+:hasNumDistrictZone rdf:type owl:DatatypeProperty ;
+                    rdfs:domain :Zone ;
+                    rdfs:range xsd:string .
+
+
+###  htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumNeighborhoodStreet
+:hasNumNeighborhoodStreet rdf:type owl:DatatypeProperty ;
+                          rdfs:domain :Street ;
+                          rdfs:range xsd:string .
 
 
 ###  htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumNeighborhoodZone
@@ -82,48 +88,26 @@
                         rdfs:range xsd:string .
 
 
-###  htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasType
-:hasType rdf:type owl:DatatypeProperty ;
-         rdfs:domain <http://dbpedia.org/ontology/Street> ;
-         rdfs:range xsd:string .
-
-
-###  http://dbpedia.org/property/blankInfoSec
-<http://dbpedia.org/property/blankInfoSec> rdf:type owl:DatatypeProperty ;
-                                           rdfs:domain :Zone ,
-                                                       <http://dbpedia.org/ontology/Street> ,
-                                                       <http://dbpedia.org/page/Districts_of_Madrid> ;
-                                           rdfs:range xsd:string .
-
-
-###  http://www.w3.org/2000/01/rdf-schema#label
-rdfs:label rdf:type owl:DatatypeProperty ;
-           rdfs:domain <http://dbpedia.org/ontology/Street> ,
-                       <http://dbpedia.org/page/Districts_of_Madrid> ,
-                       <http://dbpedia.org/page/Neighbourhood> ;
-           rdfs:range xsd:string .
-
-
 #################################################################
 #    Classes
 #################################################################
 
+###  htpp://www.contaminacion-acustica-madrid.org/group10/ontology#District
+:District rdf:type owl:Class .
+
+
+###  htpp://www.contaminacion-acustica-madrid.org/group10/ontology#Neighbourhood
+:Neighbourhood rdf:type owl:Class .
+
+
+###  htpp://www.contaminacion-acustica-madrid.org/group10/ontology#Street
+:Street rdf:type owl:Class ;
+        rdfs:subClassOf <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> .
+
+
 ###  htpp://www.contaminacion-acustica-madrid.org/group10/ontology#Zone
 :Zone rdf:type owl:Class ;
       rdfs:subClassOf <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> .
-
-
-###  http://dbpedia.org/ontology/Street
-<http://dbpedia.org/ontology/Street> rdf:type owl:Class ;
-                                     rdfs:subClassOf <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> .
-
-
-###  http://dbpedia.org/page/Districts_of_Madrid
-<http://dbpedia.org/page/Districts_of_Madrid> rdf:type owl:Class .
-
-
-###  http://dbpedia.org/page/Neighbourhood
-<http://dbpedia.org/page/Neighbourhood> rdf:type owl:Class .
 
 
 ###  http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing

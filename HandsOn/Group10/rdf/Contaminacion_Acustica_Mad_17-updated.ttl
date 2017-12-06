@@ -1,0 +1,285 @@
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix g10: <htpp://www.contaminacion-acustica-madrid.org/group10/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/Zone/56f4a86a343cace678c1f6928ed6dd8f> g10:hasMedNoiseLv "68,2"^^xsd:string ;
+	g10:hasNumDistrictZone "1"^^xsd:string ;
+	g10:hasNumNeighborhoodZone "4"^^xsd:string ;
+	rdfs:subClassOf <geo:SpatialThing> ;
+	g10:belongsToDistrict <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/Zone/c54866f141dc5196bdbad0167306587b> g10:hasMedNoiseLv "69,3"^^xsd:string ;
+	g10:hasNumDistrictZone "1"^^xsd:string .
+
+<http://dbpedia.org/resource/Jerónimos_(Madrid)> g10:hasNameNeighbourhood "JERÓNIMOS"^^xsd:string ;
+	g10:hasIdNeighborhood "5"^^xsd:string .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/Zone/c54866f141dc5196bdbad0167306587b> g10:belongsToNeighborhood <http://dbpedia.org/resource/Jerónimos_(Madrid)> ;
+	g10:hasNumNeighborhoodZone "5"^^xsd:string ;
+	rdfs:subClassOf <geo:SpatialThing> ;
+	g10:belongsToDistrict <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/Zone/20e3db4fc720d6c8fb3d2c1776eb0b4a> g10:hasMedNoiseLv "65,8"^^xsd:string ;
+	g10:hasNumDistrictZone "1"^^xsd:string .
+
+<http://dbpedia.org/resource/Sol_(Madrid)> g10:hasNameNeighbourhood "SOL"^^xsd:string ;
+	g10:hasIdNeighborhood "6"^^xsd:string .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/Zone/20e3db4fc720d6c8fb3d2c1776eb0b4a> g10:belongsToNeighborhood <http://dbpedia.org/resource/Sol_(Madrid)> ;
+	g10:hasNumNeighborhoodZone "6"^^xsd:string ;
+	rdfs:subClassOf <geo:SpatialThing> ;
+	g10:belongsToDistrict <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/Zone/8b25b68b8170057c5030c7fa4de75085> g10:hasMedNoiseLv "65"^^xsd:string ;
+	g10:hasNumDistrictZone "1"^^xsd:string ;
+	g10:belongsToNeighborhood <http://dbpedia.org/resource/Sol_(Madrid)> ;
+	g10:hasNumNeighborhoodZone "6"^^xsd:string ;
+	rdfs:subClassOf <geo:SpatialThing> ;
+	g10:belongsToDistrict <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/Zone/386fe8d1105020216c345663f2f4f499> g10:hasMedNoiseLv "64,6"^^xsd:string ;
+	g10:hasNumDistrictZone "8"^^xsd:string .
+
+<http://dbpedia.org/resource/El_Pilar> g10:hasNameNeighbourhood "EL PILAR"^^xsd:string ;
+	g10:hasIdNeighborhood "4"^^xsd:string .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/Zone/386fe8d1105020216c345663f2f4f499> g10:belongsToNeighborhood <http://dbpedia.org/resource/El_Pilar> ;
+	g10:hasNumNeighborhoodZone "4"^^xsd:string ;
+	rdfs:subClassOf <geo:SpatialThing> ;
+	g10:belongsToDistrict <http://dbpedia.org/resource/Fuencarral-El_Pardo> .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/Zone/23a46be31058986478340ac1aa946a7e> g10:hasMedNoiseLv "70,7"^^xsd:string ;
+	g10:hasNumDistrictZone "7"^^xsd:string .
+
+<http://dbpedia.org/resource/Ríos_Rosas_(Madrid)> g10:hasNameNeighbourhood "RÍOS ROSAS"^^xsd:string ;
+	g10:hasIdNeighborhood "5"^^xsd:string .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/Zone/23a46be31058986478340ac1aa946a7e> g10:belongsToNeighborhood <http://dbpedia.org/resource/Ríos_Rosas_(Madrid)> ;
+	g10:hasNumNeighborhoodZone "5"^^xsd:string ;
+	rdfs:subClassOf <geo:SpatialThing> .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/Zone/d5fb1368ce0513dafc04ff1836193077> g10:hasMedNoiseLv "67"^^xsd:string ;
+	g10:hasNumDistrictZone "4"^^xsd:string .
+
+<http://dbpedia.org/resource/Recoletos_(Madrid)> g10:hasNameNeighbourhood "RECOLETOS"^^xsd:string ;
+	g10:hasIdNeighborhood "1"^^xsd:string .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/Zone/d5fb1368ce0513dafc04ff1836193077> g10:belongsToNeighborhood <http://dbpedia.org/resource/Recoletos_(Madrid)> ;
+	g10:hasNumNeighborhoodZone "1"^^xsd:string ;
+	rdfs:subClassOf <geo:SpatialThing> ;
+	g10:belongsToDistrict <http://dbpedia.org/resource/Salamanca_(Madrid)> .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/Zone/f85bedaad37265db8147965dfdaca1c2> g10:hasMedNoiseLv "65"^^xsd:string ;
+	g10:hasNumDistrictZone "6"^^xsd:string .
+
+<http://dbpedia.org/resource/Cuatro_Caminos_(Madrid)> g10:hasNameNeighbourhood "CUATRO CAMINOS"^^xsd:string ;
+	g10:hasIdNeighborhood "2"^^xsd:string .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/Zone/f85bedaad37265db8147965dfdaca1c2> g10:belongsToNeighborhood <http://dbpedia.org/resource/Cuatro_Caminos_(Madrid)> ;
+	g10:hasNumNeighborhoodZone "2"^^xsd:string ;
+	rdfs:subClassOf <geo:SpatialThing> ;
+	g10:belongsToDistrict <http://dbpedia.org/resource/Tetuán_(Madrid)> .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/Zone/8b5e5040560559aeb3c0875820ded4c3> g10:hasMedNoiseLv "64,8"^^xsd:string ;
+	g10:hasNumDistrictZone "4"^^xsd:string .
+
+<http://dbpedia.org/resource/Goya_(Madrid)> g10:hasNameNeighbourhood "GOYA"^^xsd:string ;
+	g10:hasIdNeighborhood "2"^^xsd:string .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/Zone/8b5e5040560559aeb3c0875820ded4c3> g10:belongsToNeighborhood <http://dbpedia.org/resource/Goya_(Madrid)> ;
+	g10:hasNumNeighborhoodZone "2"^^xsd:string ;
+	rdfs:subClassOf <geo:SpatialThing> ;
+	g10:belongsToDistrict <http://dbpedia.org/resource/Salamanca_(Madrid)> .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/Zone/13a0b21af5464cf61530d6bdfe9deeb1> g10:hasMedNoiseLv "63,8"^^xsd:string ;
+	g10:hasNumDistrictZone "13"^^xsd:string .
+
+<http://dbpedia.org/resource/Entrevias> g10:hasNameNeighbourhood "ENTREVIAS"^^xsd:string ;
+	g10:hasIdNeighborhood "1"^^xsd:string .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/Zone/13a0b21af5464cf61530d6bdfe9deeb1> g10:belongsToNeighborhood <http://dbpedia.org/resource/Entrevias> ;
+	g10:hasNumNeighborhoodZone "1"^^xsd:string ;
+	rdfs:subClassOf <geo:SpatialThing> ;
+	g10:belongsToDistrict <http://dbpedia.org/resource/Puente_de_Vallecas> .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/Zone/204b4aba41a2c22aa94d0e3f9f1f1982> g10:hasMedNoiseLv "65,3"^^xsd:string ;
+	g10:hasNumDistrictZone "12"^^xsd:string .
+
+<http://dbpedia.org/resource/Fuente_del_Berro> g10:hasNameNeighbourhood "FUENTE DEL BERRO"^^xsd:string ;
+	g10:hasIdNeighborhood "3"^^xsd:string .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/Zone/204b4aba41a2c22aa94d0e3f9f1f1982> g10:belongsToNeighborhood <http://dbpedia.org/resource/Fuente_del_Berro> ;
+	g10:hasNumNeighborhoodZone "3"^^xsd:string ;
+	rdfs:subClassOf <geo:SpatialThing> ;
+	g10:belongsToDistrict <http://dbpedia.org/resource/Usera> .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/Zone/a0e6b40fa7f3eebbb43846a5fe5f26ce> g10:hasMedNoiseLv "61,4"^^xsd:string ;
+	g10:hasNumDistrictZone "15"^^xsd:string .
+
+<http://dbpedia.org/resource/Quintana_(Madrid)> g10:hasNameNeighbourhood "QUINTANA"^^xsd:string ;
+	g10:hasIdNeighborhood "3"^^xsd:string .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/Zone/a0e6b40fa7f3eebbb43846a5fe5f26ce> g10:belongsToNeighborhood <http://dbpedia.org/resource/Quintana_(Madrid)> ;
+	g10:hasNumNeighborhoodZone "3"^^xsd:string ;
+	rdfs:subClassOf <geo:SpatialThing> ;
+	g10:belongsToDistrict <http://dbpedia.org/resource/Ciudad_Lineal> .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/Zone/8c42e3f4d8876623982e6618eabc113e> g10:hasMedNoiseLv "61,6"^^xsd:string ;
+	g10:hasNumDistrictZone "17"^^xsd:string .
+
+<http://dbpedia.org/resource/San_Andrés_(Madrid)> g10:hasNameNeighbourhood "SAN ANDRÉS"^^xsd:string ;
+	g10:hasIdNeighborhood "1"^^xsd:string .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/Zone/8c42e3f4d8876623982e6618eabc113e> g10:belongsToNeighborhood <http://dbpedia.org/resource/San_Andrés_(Madrid)> ;
+	g10:hasNumNeighborhoodZone "1"^^xsd:string ;
+	rdfs:subClassOf <geo:SpatialThing> .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/Zone/8692b633e60a1e2c5dd6ea1126b70e05> g10:hasMedNoiseLv "61,3"^^xsd:string ;
+	g10:hasNumDistrictZone "10"^^xsd:string .
+
+<http://dbpedia.org/resource/Lucero_(Madrid)> g10:hasNameNeighbourhood "LUCERO"^^xsd:string ;
+	g10:hasIdNeighborhood "3"^^xsd:string .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/Zone/8692b633e60a1e2c5dd6ea1126b70e05> g10:belongsToNeighborhood <http://dbpedia.org/resource/Lucero_(Madrid)> ;
+	g10:hasNumNeighborhoodZone "3"^^xsd:string ;
+	rdfs:subClassOf <geo:SpatialThing> .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/Zone/835539e8cd9417e1576275a37879792a> g10:hasMedNoiseLv "62,6"^^xsd:string ;
+	g10:hasNumDistrictZone "14"^^xsd:string .
+
+<http://dbpedia.org/resource/Vinateros_(Madrid)> g10:hasNameNeighbourhood "VINATEROS"^^xsd:string ;
+	g10:hasIdNeighborhood "6"^^xsd:string .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/Zone/835539e8cd9417e1576275a37879792a> g10:belongsToNeighborhood <http://dbpedia.org/resource/Vinateros_(Madrid)> ;
+	g10:hasNumNeighborhoodZone "6"^^xsd:string ;
+	rdfs:subClassOf <geo:SpatialThing> ;
+	g10:belongsToDistrict <http://dbpedia.org/resource/Moratalaz> .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/Zone/42f99968e9ad62d47ad56132e59954bd> g10:hasMedNoiseLv "47,5"^^xsd:string ;
+	g10:hasNumDistrictZone "9"^^xsd:string .
+
+<http://dbpedia.org/resource/Casa_de_Campo_(Madrid)> g10:hasNameNeighbourhood "CASA DE CAMPO"^^xsd:string ;
+	g10:hasIdNeighborhood "1"^^xsd:string .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/Zone/42f99968e9ad62d47ad56132e59954bd> g10:belongsToNeighborhood <http://dbpedia.org/resource/Casa_de_Campo_(Madrid)> ;
+	g10:hasNumNeighborhoodZone "1"^^xsd:string ;
+	rdfs:subClassOf <geo:SpatialThing> ;
+	g10:belongsToDistrict <http://dbpedia.org/resource/Moncloa-Aravaca> .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/Zone/09bbced9f12253d2ff02d17d107437af> g10:hasMedNoiseLv "65,9"^^xsd:string ;
+	g10:hasNumDistrictZone "18"^^xsd:string .
+
+<http://dbpedia.org/resource/Santa_Eugènia> g10:hasNameNeighbourhood "SANTA EUGENIA"^^xsd:string ;
+	g10:hasIdNeighborhood "2"^^xsd:string .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/Zone/09bbced9f12253d2ff02d17d107437af> g10:belongsToNeighborhood <http://dbpedia.org/resource/Santa_Eugènia> ;
+	g10:hasNumNeighborhoodZone "2"^^xsd:string ;
+	rdfs:subClassOf <geo:SpatialThing> ;
+	g10:belongsToDistrict <http://dbpedia.org/resource/Villa_de_Vallecas> .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/Zone/64066042ca4e586c5255b07ee9f72fd5> g10:hasMedNoiseLv "62"^^xsd:string ;
+	g10:hasNumDistrictZone "21"^^xsd:string .
+
+<http://dbpedia.org/resource/Alameda_de_Osuna> g10:hasNameNeighbourhood "ALAMEDA DE OSASUNA"^^xsd:string ;
+	g10:hasIdNeighborhood "1"^^xsd:string .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/Zone/64066042ca4e586c5255b07ee9f72fd5> g10:belongsToNeighborhood <http://dbpedia.org/resource/Alameda_de_Osuna> ;
+	g10:hasNumNeighborhoodZone "1"^^xsd:string ;
+	rdfs:subClassOf <geo:SpatialThing> .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/Zone/a1542f94a636f0746c3f6be8aa3bb9b9> g10:hasMedNoiseLv "67"^^xsd:string ;
+	g10:hasNumDistrictZone "10"^^xsd:string .
+
+<http://dbpedia.org/resource/Cuatro_Vientos> g10:hasNameNeighbourhood "CUATRO VIENTOS"^^xsd:string ;
+	g10:hasIdNeighborhood "6"^^xsd:string .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/Zone/a1542f94a636f0746c3f6be8aa3bb9b9> g10:belongsToNeighborhood <http://dbpedia.org/resource/Cuatro_Vientos> ;
+	g10:hasNumNeighborhoodZone "6"^^xsd:string ;
+	rdfs:subClassOf <geo:SpatialThing> .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/Zone/86741bfab833a39cb41ce6b2d0862f59> g10:hasMedNoiseLv "56,4"^^xsd:string ;
+	g10:hasNumDistrictZone "8"^^xsd:string .
+
+<http://dbpedia.org/resource/Fuencarral-El_Pardo_(Madrid)> g10:hasNameNeighbourhood "FUENCARRAL-EL PARDO"^^xsd:string ;
+	g10:hasIdNeighborhood "1"^^xsd:string .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/Zone/86741bfab833a39cb41ce6b2d0862f59> g10:belongsToNeighborhood <http://dbpedia.org/resource/Fuencarral-El_Pardo_(Madrid)> ;
+	g10:hasNumNeighborhoodZone "1"^^xsd:string ;
+	rdfs:subClassOf <geo:SpatialThing> ;
+	g10:belongsToDistrict <http://dbpedia.org/resource/Fuencarral-El_Pardo> .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/Zone/7a0f247c4a61f12d003535091577e966> g10:hasMedNoiseLv "64"^^xsd:string ;
+	g10:hasNumDistrictZone "21"^^xsd:string .
+
+<http://dbpedia.org/resource/Corralejos_(Madrid)> g10:hasNameNeighbourhood "CORRALEJOS"^^xsd:string ;
+	g10:hasIdNeighborhood "5"^^xsd:string .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/Zone/7a0f247c4a61f12d003535091577e966> g10:belongsToNeighborhood <http://dbpedia.org/resource/Corralejos_(Madrid)> ;
+	g10:hasNumNeighborhoodZone "5"^^xsd:string ;
+	rdfs:subClassOf <geo:SpatialThing> .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/Zone/29dd1e4a4944f5288fb2e3596a56b678> g10:hasMedNoiseLv "63,4"^^xsd:string ;
+	g10:hasNumDistrictZone "16"^^xsd:string .
+
+<http://dbpedia.org/resource/Valdefuentes_(Madrid)> g10:hasNameNeighbourhood "VALDEFUENTES"^^xsd:string ;
+	g10:hasIdNeighborhood "6"^^xsd:string .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/Zone/29dd1e4a4944f5288fb2e3596a56b678> g10:belongsToNeighborhood <http://dbpedia.org/resource/Valdefuentes_(Madrid)> ;
+	g10:hasNumNeighborhoodZone "6"^^xsd:string ;
+	rdfs:subClassOf <geo:SpatialThing> ;
+	g10:belongsToDistrict <http://dbpedia.org/resource/Hortaleza> .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/Zone/2cd0a4f5d56993a7ca38fa85420497f6> g10:hasMedNoiseLv "58,3"^^xsd:string ;
+	g10:hasNumDistrictZone "2"^^xsd:string .
+
+<http://dbpedia.org/resource/Las_Delicias_(Madrid)> g10:hasNameNeighbourhood "DELICIAS"^^xsd:string ;
+	g10:hasIdNeighborhood "5"^^xsd:string .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/Zone/2cd0a4f5d56993a7ca38fa85420497f6> g10:belongsToNeighborhood <http://dbpedia.org/resource/Las_Delicias_(Madrid)> ;
+	g10:hasNumNeighborhoodZone "5"^^xsd:string ;
+	rdfs:subClassOf <geo:SpatialThing> ;
+	g10:belongsToDistrict <http://dbpedia.org/resource/Arganzuela> .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/Zone/d20fe105cb5182f8a6cc3ab515421e0f> g10:hasMedNoiseLv "62,8"^^xsd:string ;
+	g10:hasNumDistrictZone "6"^^xsd:string .
+
+<http://dbpedia.org/resource/Castellana_(Madrid)> g10:hasNameNeighbourhood "CASTELLANA"^^xsd:string ;
+	g10:hasIdNeighborhood "4"^^xsd:string .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/Zone/d20fe105cb5182f8a6cc3ab515421e0f> g10:belongsToNeighborhood <http://dbpedia.org/resource/Castellana_(Madrid)> ;
+	g10:hasNumNeighborhoodZone "4"^^xsd:string ;
+	rdfs:subClassOf <geo:SpatialThing> .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/Zone/1bb31f82b6b86c20f5746781d4b5dc3e> g10:hasMedNoiseLv "68,5"^^xsd:string ;
+	g10:hasNumDistrictZone "6"^^xsd:string .
+
+<http://dbpedia.org/resource/Castillejos> g10:hasNameNeighbourhood "CASTILLEJOS"^^xsd:string ;
+	g10:hasIdNeighborhood "3"^^xsd:string .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/Zone/1bb31f82b6b86c20f5746781d4b5dc3e> g10:belongsToNeighborhood <http://dbpedia.org/resource/Castillejos> ;
+	g10:hasNumNeighborhoodZone "3"^^xsd:string ;
+	rdfs:subClassOf <geo:SpatialThing> ;
+	g10:belongsToDistrict <http://dbpedia.org/resource/Tetuán_(Madrid)> .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/Zone/dac55234ceceb8249c892b7c9b6ba403> g10:hasMedNoiseLv "61,5"^^xsd:string ;
+	g10:hasNumDistrictZone "18"^^xsd:string ;
+	g10:hasNumNeighborhoodZone "1"^^xsd:string ;
+	rdfs:subClassOf <geo:SpatialThing> ;
+	g10:belongsToDistrict <http://dbpedia.org/resource/Villa_de_Vallecas> .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/Zone/b56530c6ec40891ea6195902996fec66> g10:hasMedNoiseLv "58,7"^^xsd:string ;
+	g10:hasNumDistrictZone "8"^^xsd:string .
+
+<http://dbpedia.org/resource/Valverde_(Madrid)> g10:hasNameNeighbourhood "VALVERDE"^^xsd:string ;
+	g10:hasIdNeighborhood "6"^^xsd:string .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/Zone/b56530c6ec40891ea6195902996fec66> g10:belongsToNeighborhood <http://dbpedia.org/resource/Valverde_(Madrid)> ;
+	g10:hasNumNeighborhoodZone "6"^^xsd:string ;
+	rdfs:subClassOf <geo:SpatialThing> ;
+	g10:belongsToDistrict <http://dbpedia.org/resource/Fuencarral-El_Pardo> .

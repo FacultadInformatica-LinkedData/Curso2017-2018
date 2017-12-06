@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<title>Analysis</title>
+	</head>
+	<body>
+		<h1><u>Analysis</u></h1>
+		<h2>CENTROS DE EDUCACIÓN</h2>
+
+		<table border="1px">
+		        <tr>
+		                <td bgcolor="#99CCFF"><b>Columna</b></td>
+		                <td bgcolor="#99CCFF"><b>Tipo</b></td>
+		                <td bgcolor="#99CCFF"><b>Comentarios/Rango</b></td>
+		        </tr>
+		        <tr>
+		                <td>NOMBRE</td>
+		                <td>xsd: string</td>
+		                <td>Nombre del centro de educación. Unique, not empty values.</td>
+		        </tr>
+		        <tr>
+		                <td>HORARIO</td>
+		                <td>xsd:string</td>
+		                <td>Indica el horario de apertura del centro. Not unique, empty values. Range(00:00-23:59, Lunes-Domingo). 	</td>
+		        </tr>
+		        </tr>
+		        <tr>
+		                <td>SERVICIO_RUTA</td>
+		                <td>xsd:boolean</td>
+		                <td>Indica si el centro dispone de servicio de ruta o no. Not unique, not empty values. Range(TRUE/FALSE).</td>
+		        </tr>
+		        <tr>
+		                <td>COMEDOR</td>
+		                <td>xsd:boolean</td>
+		                <td>Indica si el centro dispone de comedor o no. Not unique, not empty values. Range(TRUE/FALSE).</td>
+		        </tr>
+		        <tr>
+		                <td>TRANSPORTE</td>
+		                <td>xsd:string</td>
+		                <td>Indica el tipo de transporte que se puede utilizar para llegar al centro. Not Unique, not empty value.</td>
+		        </tr>
+		        <tr>
+		                <td>DESCRIPCIÓN</td>
+		                <td>xsd:string</td>
+		                <td>Pequeña descripción del centro que indica el tipo de centro y las actividades que imparte. Unique, empty values.</td>
+		        </tr>
+		        <tr>
+		                <td>ACCESIBILIDAD</td>
+		                <td>xsd:boolean</td>
+		                <td>Indica si el centro está adaptado para gente con discapacidaz física. Not unique, not empty values. Range(TRUE/FALSE).</td>
+		        </tr>
+		        <tr>
+		                <td>CONTENT-URL</td>
+		                <td>xsd:anyURI</td>
+		                <td>Indica si el centro está adaptado para gente con discapacidaz física. Not unique, not empty values.</td>
+		        </tr>
+		        <tr>
+		                <td>CLASE-VIA</td>
+		                <td>xsd:string</td>
+		                <td>Indica el tipo de via. Not unique, not empty values.</td>
+		        </tr>
+		        <tr>
+		                <td>NOMBRE-VIA</td>
+		                <td>xsd:string</td>
+		                <td>Indica el nombre de la via. Not unique, not empty values.</td>
+		        </tr>
+		        <tr>
+		                <td>TIPO-NUM</td>
+		                <td>xsd:string</td>
+		                <td>Indica si es una autopista o el numero de la calle. Not unique, not empty values.</td>
+		        </tr>
+		        <tr>
+		                <td>NUM</td>
+		                <td>xsd:int</td>
+		                <td>Indica el número de la calle donde se encuentra el centro. Not unique, not empty values. Range(0-9999).</td>
+		        </tr>
+		        <tr>
+		                <td>ORIENTACIÓN</td>
+		                <td>xsd:string</td>
+		                <td>Indica una información extra en cuanto a la ubicación de centro para saber hacia donde mira el edificio. Not unique, empty values.</td>
+		        </tr>
+		        <tr>
+		                <td>CODIGO-POSTAL</td>
+		                <td>xsd:int</td>
+		                <td>Indica el código postal al que corresponde el centro. Not unique, empty values. Range(28000-28999).</td>
+		        </tr>
+		        <tr>
+		                <td>BARRIO</td>
+		                <td>xsd:string</td>
+		                <td>Indica el barrio al que pertenece el centro. Not unique, not empty values.</td>
+		        </tr>
+		        <tr>
+		                <td>DISTRITO</td>
+		                <td>xsd:string</td>
+		                <td>Indica el distrito al que pertenece el centro. Not unique, not empty values.</td>
+		        </tr>
+		        <tr>
+		                <td>LATITUD</td>
+		                <td>xsd:float</td>
+		                <td>Indica una de las coordenadas del centro. Unique, not empty values.</td>
+		        </tr>
+		        <tr>
+		                <td>LONGITUD</td>
+		                <td>xsd:float</td>
+		                <td>Indica una de las coordenadas del centro. Unique, not empty values.</td>
+		        </tr>
+		        <tr>
+		                <td>TELÉFONO</td>
+		                <td>xsd:string</td>
+		                <td>Indica el teléfono del centro. Unique, not empty values. Range(00000000-99999999).</td>
+		        </tr>
+		        <tr>
+		                <td>FAX</td>
+		                <td>xsd:string</td>
+		                <td>Indica el FAX del centro. Unique, empty values. Range(00000000-99999999).</td>
+		        </tr>
+		        <tr>
+		                <td>EMAIL</td>
+		                <td>xsd:string</td>
+		                <td>Indica el email del centro. Unique, empty values.</td>
+		        </tr>
+		        <tr>
+		                <td>TIPO</td>
+		                <td>xsd:anyURI</td>
+		                <td>Indica el tipo de centro educativo. Not unique, not empty values.</td>
+		        </tr>
+		</table>
+
+
+		<h2>LICENCIAS</h2>
+		Las condiciones generales permiten la reutilización de los documentos para fines comerciales y no comerciales. Se entiende por reutilización el uso de documentos que obran en poder del Ayuntamiento de Madrid, siempre que dicho uso no constituya una actividad administrativa pública.
+		<br /><br />
+		La licencia de los datasets de Madrid se puede ver en la siguiente página: <br /><br />http://datos.madrid.es/portal/site/egob/menuitem.400a817358ce98c34e937436a8a409a0/?vgnextoid=b4c412b9ace9f310VgnVCM100000171f5a0aRCRD
+		
+		<br />
+		<h2>RESOURCE NAMING STRATEGY DEFINED</h2>
+		<ul>
+			<li>
+				<b>Domain</b>: http://www.edumadrid.org/group22/
+			</li>
+			<li>
+				<b>Ontology terms</b>: http://www..edumadrid.org/group22#&lt;ontology_term&gt;
+			</li>
+			<li>
+				<b>Individuals</b>: http://www..edumadrid.org/group22#&lt;individual_term&gt;
+			</li>
+		</ul>
+	</body>
+</html>
