@@ -1,0 +1,1489 @@
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix : <http://www.semanticweb.org/group12/ontology#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbpedia: <http://dbpedia.org/page/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+<http://www.semanticweb.org/group12/resources/Busstop/06864> a dbpedia:Bus_stop ;
+	:stopName "CTRA.A1-EL ENCINAR DE LOS REYES" ;
+	:stopAddress "Ctra de Irún  13.000" ;
+	geo:lat "40.5145568847656"^^xsd:double ;
+	geo:long "-3.65547370910645"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/5023> a dbpedia:Bus_stop ;
+	:stopName "AV.CONSEJO DE EUROPA-RIBERA LOIRA" ;
+	:stopAddress "Avda del Consejo de Europa 3" ;
+	geo:lat "40.4592475891113"^^xsd:double ;
+	geo:long "-3.61679267883301"^^xsd:double ;
+	:stopZone "A" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/12241> a dbpedia:Bus_stop ;
+	:stopName "NARDO-CENTRO CÍVICO" ;
+	:stopAddress "Calle del Nardo 44" ;
+	geo:lat "40.5311317443848"^^xsd:double ;
+	geo:long "-3.63638973236084"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/08357> a dbpedia:Bus_stop ;
+	:stopName "MANUEL DE FALLA-CENTRO DE MAYORES" ;
+	:stopAddress "Calle   Manuel de Falla 5" ;
+	geo:lat "40.5485305786133"^^xsd:double ;
+	geo:long "-3.64936828613281"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06710> a dbpedia:Bus_stop ;
+	:stopName "AV.GUADALIX-AV.MONTE" ;
+	:stopAddress "Avda del Guadalix 31" ;
+	geo:lat "40.6264305114746"^^xsd:double ;
+	geo:long "-3.58094143867493"^^xsd:double ;
+	:stopZone "B3" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/17519> a dbpedia:Bus_stop ;
+	:stopName "PºCONDE LOS GAITANES Nº65" ;
+	:stopAddress "Paseo del Conde de los Gaitanes 74" ;
+	geo:lat "40.5246810913086"^^xsd:double ;
+	geo:long "-3.62167763710022"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/09431> a dbpedia:Bus_stop ;
+	:stopName "CAMINO DE LA HUERTA-CºALTO" ;
+	:stopAddress "Calle  Camino de la Huerta 1" ;
+	geo:lat "40.5103454589844"^^xsd:double ;
+	geo:long "-3.63392686843872"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06770> a dbpedia:Bus_stop ;
+	:stopName "AV.ESPAÑA-CONSTITUCIÓN" ;
+	:stopAddress "Avda de España 14" ;
+	geo:lat "40.5449676513672"^^xsd:double ;
+	geo:long "-3.64309859275818"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/18078> a dbpedia:Bus_stop ;
+	:stopName "MARQUÉS VALDAVIA-HIPERMERCADO" ;
+	:stopAddress "Calle del Marqués de la Valdavia 167" ;
+	geo:lat "40.5484199523926"^^xsd:double ;
+	geo:long "-3.66075205802917"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/11983> a dbpedia:Bus_stop ;
+	:stopName "REAL-CENTRO DE SALUD" ;
+	:stopAddress "Calle del Real 93" ;
+	geo:lat "40.5501976013184"^^xsd:double ;
+	geo:long "-3.62264585494995"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06686> a dbpedia:Bus_stop ;
+	:stopName "AV.BURGOS-C.C.SANCHINARRO" ;
+	:stopAddress "Avda de Burgos 133" ;
+	geo:lat "40.498046875"^^xsd:double ;
+	geo:long "-3.66299557685852"^^xsd:double ;
+	:stopZone "A" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/11277> a dbpedia:Bus_stop ;
+	:stopName "BEGONIA-AZALEA" ;
+	:stopAddress "Calle de Begonia 279" ;
+	geo:lat "40.5275573730469"^^xsd:double ;
+	geo:long "-3.63793802261353"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/4916> a dbpedia:Bus_stop ;
+	:stopName "PARTENÓN-GTA.HAMBURGO" ;
+	:stopAddress "Avda del Partenón 20" ;
+	geo:lat "40.4638977050781"^^xsd:double ;
+	geo:long "-3.61349725723267"^^xsd:double ;
+	:stopZone "A" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/12032> a dbpedia:Bus_stop ;
+	:stopName "MANUEL DE FALLA-CALDERÓN DE LA BARCA" ;
+	:stopAddress "Calle  Manuel de Falla 4" ;
+	geo:lat "40.5468215942383"^^xsd:double ;
+	geo:long "-3.65033197402954"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/07375> a dbpedia:Bus_stop ;
+	:stopName "CTRA.M616-COLEGIO" ;
+	:stopAddress "Ctra del Goloso 4600" ;
+	geo:lat "40.5527572631836"^^xsd:double ;
+	geo:long "-3.67541646957397"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/11794> a dbpedia:Bus_stop ;
+	:stopName "AV.LA VEGA-FRANCISCA DELGADO" ;
+	:stopAddress "Avda de la Vega 12" ;
+	geo:lat "40.5351181030273"^^xsd:double ;
+	geo:long "-3.63054728507996"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06749> a dbpedia:Bus_stop ;
+	:stopName "CTRA.ANTIGUA DE BURGOS-GRANJA ESCUELA" ;
+	:stopAddress "Ctra  N-I Burgos S/N" ;
+	geo:lat "40.5763740539551"^^xsd:double ;
+	geo:long "-3.59272480010986"^^xsd:double ;
+	:stopZone "B2" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/4917> a dbpedia:Bus_stop ;
+	:stopName "PARTENON-GTA.HAMBURGO" ;
+	:stopAddress "Avda del Partenón 11" ;
+	geo:lat "40.4641609191895"^^xsd:double ;
+	geo:long "-3.61321640014648"^^xsd:double ;
+	:stopZone "A" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/18637> a dbpedia:Bus_stop ;
+	:stopName "NEWTON-FCO.TOMÁS Y VALIENTE" ;
+	:stopAddress "Calle de Newton 13" ;
+	geo:lat "40.5471725463867"^^xsd:double ;
+	geo:long "-3.69074869155884"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/19103> a dbpedia:Bus_stop ;
+	:stopName "CºDEL ENCINAR-PºDEL PARQUE" ;
+	:stopAddress "Paseo de los Parques 4" ;
+	geo:lat "40.5128974914551"^^xsd:double ;
+	geo:long "-3.65244770050049"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/17025> a dbpedia:Bus_stop ;
+	:stopName "PºEUROPA-HOSPITAL INFANTA SOFÍA" ;
+	:stopAddress "Paseo   Europa 11" ;
+	geo:lat "40.5602951049805"^^xsd:double ;
+	geo:long "-3.61124610900879"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/10019> a dbpedia:Bus_stop ;
+	:stopName "PºEUROPA-GTA.ANTONIO GAUDÍ" ;
+	:stopAddress "Paseo   Europa 7" ;
+	geo:lat "40.5562934875488"^^xsd:double ;
+	geo:long "-3.61487126350403"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/18061> a dbpedia:Bus_stop ;
+	:stopName "PºFUENTE LUCHA-SUEÑOS" ;
+	:stopAddress "Paseo de Fuente Lucha 7" ;
+	geo:lat "40.550895690918"^^xsd:double ;
+	geo:long "-3.659512758255"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/12421> a dbpedia:Bus_stop ;
+	:stopName "PºEUROPA-AV.MONTES DE OCA" ;
+	:stopAddress "Avda de Somosierra 14" ;
+	geo:lat "40.5532073974609"^^xsd:double ;
+	geo:long "-3.61732339859009"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/16942> a dbpedia:Bus_stop ;
+	:stopName "CAMINO DEL GOLF-PºCONDE LOS GAITANES" ;
+	:stopAddress "Calle del Camino del Golf 42" ;
+	geo:lat "40.5242919921875"^^xsd:double ;
+	geo:long "-3.61539340019226"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06709> a dbpedia:Bus_stop ;
+	:stopName "AV.GUADALIX-CENTRO COMERCIAL" ;
+	:stopAddress "Avda del Guadalix 35 A" ;
+	geo:lat "40.6288299560547"^^xsd:double ;
+	geo:long "-3.58259391784668"^^xsd:double ;
+	:stopZone "B3" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/11402> a dbpedia:Bus_stop ;
+	:stopName "PºEUROPA-GTA.ANTONIO GAUDÍ" ;
+	:stopAddress "Paseo   Europa 7" ;
+	geo:lat "40.5563850402832"^^xsd:double ;
+	geo:long "-3.61443519592285"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/18175> a dbpedia:Bus_stop ;
+	:stopName "FELICIDAD-COLEGIO" ;
+	:stopAddress "Calle de la Felicidad SN" ;
+	geo:lat "40.5503959655762"^^xsd:double ;
+	geo:long "-3.66175174713135"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06713> a dbpedia:Bus_stop ;
+	:stopName "AV.MONTE-CERRO" ;
+	:stopAddress "Avda del Monte 90" ;
+	geo:lat "40.637523651123"^^xsd:double ;
+	geo:long "-3.57687497138977"^^xsd:double ;
+	:stopZone "B3" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/17513> a dbpedia:Bus_stop ;
+	:stopName "AV.ERMITA-EST.LA MORALEJA" ;
+	:stopAddress "Avda de la Ermita 2" ;
+	geo:lat "40.5319557189941"^^xsd:double ;
+	geo:long "-3.63606691360474"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/16926> a dbpedia:Bus_stop ;
+	:stopName "PºPARQUES-ENCINAR DE LOS REYES" ;
+	:stopAddress "Paseo de los Parques 36" ;
+	geo:lat "40.5093116760254"^^xsd:double ;
+	geo:long "-3.63810729980469"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/10607> a dbpedia:Bus_stop ;
+	:stopName "MARQUÉS VALDAVIA-AV.ESPAÑA" ;
+	:stopAddress "Calle del Marqués de la Valdavia 90" ;
+	geo:lat "40.5451889038086"^^xsd:double ;
+	geo:long "-3.64388012886047"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/17514> a dbpedia:Bus_stop ;
+	:stopName "CºENCINAR-ESTAFETA" ;
+	:stopAddress "Calle  Estafeta 1" ;
+	geo:lat "40.5147171020508"^^xsd:double ;
+	geo:long "-3.65124940872192"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/4915> a dbpedia:Bus_stop ;
+	:stopName "PARTENON-CAMPO NACIONES" ;
+	:stopAddress "Avda del Partenón 12" ;
+	geo:lat "40.4636154174805"^^xsd:double ;
+	geo:long "-3.61568856239319"^^xsd:double ;
+	:stopZone "A" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06862> a dbpedia:Bus_stop ;
+	:stopName "DALIA-KERRIA" ;
+	:stopAddress "Calle   Dalia 23" ;
+	geo:lat "40.5192794799805"^^xsd:double ;
+	geo:long "-3.64602851867676"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06808> a dbpedia:Bus_stop ;
+	:stopName "AZALEA Nº65" ;
+	:stopAddress "Calle de la Azalea 203" ;
+	geo:lat "40.5208168029785"^^xsd:double ;
+	geo:long "-3.64945507049561"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06719> a dbpedia:Bus_stop ;
+	:stopName "CTRA.A1-URB.CIUDALCAMPO" ;
+	:stopAddress "Ctra   A-1 27.9" ;
+	geo:lat "40.6262359619141"^^xsd:double ;
+	geo:long "-3.58786845207214"^^xsd:double ;
+	:stopZone "B3" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/18638> a dbpedia:Bus_stop ;
+	:stopName "NEWTON-NICOLÁS CABRERA" ;
+	:stopAddress "Calle de Newton 13" ;
+	geo:lat "40.5494270324707"^^xsd:double ;
+	geo:long "-3.69152760505676"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06825> a dbpedia:Bus_stop ;
+	:stopName "PºALCOBENDAS-CºANCHO" ;
+	:stopAddress "Paseo de Alcobendas 9" ;
+	geo:lat "40.5272407531738"^^xsd:double ;
+	geo:long "-3.62671899795532"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/12033> a dbpedia:Bus_stop ;
+	:stopName "AV.LA VEGA-AV.LA ERMITA" ;
+	:stopAddress "Avda de la Vega 24" ;
+	geo:lat "40.5340423583984"^^xsd:double ;
+	geo:long "-3.63501214981079"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06762> a dbpedia:Bus_stop ;
+	:stopName "AV.ESPAÑA-AYUNTAMIENTO" ;
+	:stopAddress "Avda de España SN" ;
+	geo:lat "40.5472755432129"^^xsd:double ;
+	geo:long "-3.6412193775177"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/11844> a dbpedia:Bus_stop ;
+	:stopName "AV.ANDES-C.C.CAMPO NACIONES" ;
+	:stopAddress "Avda de los Andes 52" ;
+	geo:lat "40.4576416015625"^^xsd:double ;
+	geo:long "-3.61732053756714"^^xsd:double ;
+	:stopZone "A" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06756> a dbpedia:Bus_stop ;
+	:stopName "MARQUÉS VALDAVIA-RAMÓN FDEZ.GUISASOLA" ;
+	:stopAddress "Calle del Marqués de la Valdavia 20" ;
+	geo:lat "40.5408248901367"^^xsd:double ;
+	geo:long "-3.6367175579071"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06885> a dbpedia:Bus_stop ;
+	:stopName "PºCHOPERA-CENTRO SALUD VALDAVIA" ;
+	:stopAddress "Paseo de la Chopera 108" ;
+	geo:lat "40.5446510314941"^^xsd:double ;
+	geo:long "-3.64672112464905"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06768> a dbpedia:Bus_stop ;
+	:stopName "LIBERTAD-JULIÁN BAENA CASTRO" ;
+	:stopAddress "Calle de la Libertad 26" ;
+	geo:lat "40.5397071838379"^^xsd:double ;
+	geo:long "-3.63648271560669"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/12422> a dbpedia:Bus_stop ;
+	:stopName "PºEUROPA-AV.MONTES DE OCA" ;
+	:stopAddress "Paseo   Europa 1" ;
+	geo:lat "40.553352355957"^^xsd:double ;
+	geo:long "-3.61756086349487"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06722> a dbpedia:Bus_stop ;
+	:stopName "CTRA.A1-EL ALEMÁN" ;
+	:stopAddress "Ctra   N-I ( Burgos) 24300" ;
+	geo:lat "40.5976371765137"^^xsd:double ;
+	geo:long "-3.58181476593018"^^xsd:double ;
+	:stopZone "B2" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06811> a dbpedia:Bus_stop ;
+	:stopName "BEGONIA-CEMENTERIO" ;
+	:stopAddress "Calle de Begonia 277" ;
+	geo:lat "40.5248832702637"^^xsd:double ;
+	geo:long "-3.63930583000183"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06817> a dbpedia:Bus_stop ;
+	:stopName "AZALEA-PZA.DEL SOTO" ;
+	:stopAddress "Calle de la Azalea 1" ;
+	geo:lat "40.5185966491699"^^xsd:double ;
+	geo:long "-3.65040159225464"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06790> a dbpedia:Bus_stop ;
+	:stopName "REAL-SACRAMENTO" ;
+	:stopAddress "Calle del Real 3" ;
+	geo:lat "40.5445709228516"^^xsd:double ;
+	geo:long "-3.62856936454773"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/17459> a dbpedia:Bus_stop ;
+	:stopName "PºPARQUES-CAMINO DEL ENCINAR" ;
+	:stopAddress "Paseo de los Parques 38" ;
+	geo:lat "40.5095634460449"^^xsd:double ;
+	geo:long "-3.6353714466095"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/19102> a dbpedia:Bus_stop ;
+	:stopName "PºPARQUES-PARQUE" ;
+	:stopAddress "Paseo de los Parques 2" ;
+	geo:lat "40.5133476257324"^^xsd:double ;
+	geo:long "-3.65429329872131"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/10614> a dbpedia:Bus_stop ;
+	:stopName "AV.ESPAÑA-EST.ALCOBENDAS S.SEB.REYES" ;
+	:stopAddress "Avda de España 52" ;
+	geo:lat "40.546688079834"^^xsd:double ;
+	geo:long "-3.63500165939331"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06812> a dbpedia:Bus_stop ;
+	:stopName "AZALEA-BEGONIA" ;
+	:stopAddress "Calle de la Azalea 532" ;
+	geo:lat "40.5277404785156"^^xsd:double ;
+	geo:long "-3.637526512146"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06818> a dbpedia:Bus_stop ;
+	:stopName "AZALEA-ZARZAMORA" ;
+	:stopAddress "Calle de la Azalea 227" ;
+	geo:lat "40.5224151611328"^^xsd:double ;
+	geo:long "-3.64849066734314"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06772> a dbpedia:Bus_stop ;
+	:stopName "MARQUÉS VALDAVIA-AV.DOCTOR SEVERO OCHOA" ;
+	:stopAddress "Calle del Marqués de la Valdavia 91" ;
+	geo:lat "40.5461845397949"^^xsd:double ;
+	geo:long "-3.64981818199158"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/12723> a dbpedia:Bus_stop ;
+	:stopName "MARQUÉS VALDAVIA-EST.VALDELASFUENTES" ;
+	:stopAddress "Calle del Marqués de la Valdavia 138" ;
+	geo:lat "40.5469703674316"^^xsd:double ;
+	geo:long "-3.65431332588196"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/16646> a dbpedia:Bus_stop ;
+	:stopName "AV.HISPANIDAD-AEROPUERTO T4" ;
+	:stopAddress "Avda de la Hispanidad 1 D" ;
+	geo:lat "40.4914817810059"^^xsd:double ;
+	geo:long "-3.59276795387268"^^xsd:double ;
+	:stopZone "A" ;
+	:parentStation "est_90_33" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/09128> a dbpedia:Bus_stop ;
+	:stopName "IVÁN PAVLOV-RECTORADO" ;
+	:stopAddress "Calle de Iván Pavlov 4" ;
+	geo:lat "40.5437889099121"^^xsd:double ;
+	geo:long "-3.69464635848999"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06712> a dbpedia:Bus_stop ;
+	:stopName "AV.MONTE-ALTA" ;
+	:stopAddress "Avda del Monte 62" ;
+	geo:lat "40.6333694458008"^^xsd:double ;
+	geo:long "-3.57378816604614"^^xsd:double ;
+	:stopZone "B3" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06823> a dbpedia:Bus_stop ;
+	:stopName "PºALCOBENDAS-SALVIA" ;
+	:stopAddress "Paseo de Alcobendas 3" ;
+	geo:lat "40.525089263916"^^xsd:double ;
+	geo:long "-3.63094902038574"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/5827> a dbpedia:Bus_stop ;
+	:stopName "AV.PARTENÓN-CAMPO DE LAS NACIONES" ;
+	:stopAddress "Avda del Partenón 5" ;
+	geo:lat "40.4642181396484"^^xsd:double ;
+	geo:long "-3.61600065231323"^^xsd:double ;
+	:stopZone "A" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/3266> a dbpedia:Bus_stop ;
+	:stopName "AV.BURGOS-AV.SAN LUIS" ;
+	:stopAddress "Avda de Burgos 40" ;
+	geo:lat "40.4810905456543"^^xsd:double ;
+	geo:long "-3.67592477798462"^^xsd:double ;
+	:stopZone "A" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/07528> a dbpedia:Bus_stop ;
+	:stopName "MANUEL DE FALLA-PARQUE EXTREMADURA" ;
+	:stopAddress "Calle  Manuel de Falla 42" ;
+	geo:lat "40.5519180297852"^^xsd:double ;
+	geo:long "-3.64441704750061"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/16946> a dbpedia:Bus_stop ;
+	:stopName "PºALCOBENDAS-VEREDILLA" ;
+	:stopAddress "Paseo de Alcobendas 3" ;
+	geo:lat "40.5249519348145"^^xsd:double ;
+	geo:long "-3.63162064552307"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/18074> a dbpedia:Bus_stop ;
+	:stopName "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:stopAddress "Paseo de la Castellana 195 A" ;
+	geo:lat "40.4675521850586"^^xsd:double ;
+	geo:long "-3.68892955780029"^^xsd:double ;
+	:stopZone "A" ;
+	:parentStation "est_90_21" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/12217> a dbpedia:Bus_stop ;
+	:stopName "AV.MATAPIÑONERA-AV.CERRO DEL ÁGUILA" ;
+	:stopAddress "Avda  Matapiñonera 24" ;
+	geo:lat "40.5457305908203"^^xsd:double ;
+	geo:long "-3.61737275123596"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06695> a dbpedia:Bus_stop ;
+	:stopName "CTRA.ANTIGUA DE BURGOS-CARAVANAS" ;
+	:stopAddress "Ctra   N-I ( Burgos) 21900" ;
+	geo:lat "40.5761680603027"^^xsd:double ;
+	geo:long "-3.59238028526306"^^xsd:double ;
+	:stopZone "B2" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/17520> a dbpedia:Bus_stop ;
+	:stopName "PºALCOBENDAS-COLEGIO" ;
+	:stopAddress "Paseo de Alcobendas 9" ;
+	geo:lat "40.5269317626953"^^xsd:double ;
+	geo:long "-3.62849879264832"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/18174> a dbpedia:Bus_stop ;
+	:stopName "FELICIDAD-HECHIZO" ;
+	:stopAddress "Calle de la Felicidad SN" ;
+	geo:lat "40.550609588623"^^xsd:double ;
+	geo:long "-3.66057300567627"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/16437> a dbpedia:Bus_stop ;
+	:stopName "CTRA.ANTIGUA DE BURGOS-C.C.ALEGRA" ;
+	:stopAddress "Ctra   N-I ( Burgos) 19900" ;
+	geo:lat "40.5660285949707"^^xsd:double ;
+	geo:long "-3.60559248924255"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/12841> a dbpedia:Bus_stop ;
+	:stopName "PZA.LA FUENTE-URB.CIUDALCAMPO" ;
+	:stopAddress "Plaza de La Fuente SN" ;
+	geo:lat "40.6267967224121"^^xsd:double ;
+	geo:long "-3.58864188194275"^^xsd:double ;
+	:stopZone "B3" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/18639> a dbpedia:Bus_stop ;
+	:stopName "NEWTON-NICOLÁS CABRERA" ;
+	:stopAddress "Calle de Newton 13" ;
+	geo:lat "40.54931640625"^^xsd:double ;
+	geo:long "-3.69196343421936"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/12344> a dbpedia:Bus_stop ;
+	:stopName "PºPARQUES-CºEL ENCINAR" ;
+	:stopAddress "Paseo de los Parques 7" ;
+	geo:lat "40.512767791748"^^xsd:double ;
+	geo:long "-3.6501681804657"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/18591> a dbpedia:Bus_stop ;
+	:stopName "CºHUERTA-ENRIQUE LAFUENTE FERRARI" ;
+	:stopAddress "Cmno de la Huerta 143 C" ;
+	geo:lat "40.5067520141602"^^xsd:double ;
+	geo:long "-3.64180088043213"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/17518> a dbpedia:Bus_stop ;
+	:stopName "CAMINO ANCHO-PºMARQUESA VIUDA ALDAMA" ;
+	:stopAddress "Calle del Camino Ancho 63" ;
+	geo:lat "40.5177192687988"^^xsd:double ;
+	geo:long "-3.61942958831787"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/09441> a dbpedia:Bus_stop ;
+	:stopName "CAMINO VIEJO-INTERGOLF" ;
+	:stopAddress "Calle del Camino Viejo 84" ;
+	geo:lat "40.5186004638672"^^xsd:double ;
+	geo:long "-3.60986399650574"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06788> a dbpedia:Bus_stop ;
+	:stopName "AV.COLMENAR VIEJO-RAMÓN ESTEBAN" ;
+	:stopAddress "Avda de Colmenar Viejo 5" ;
+	geo:lat "40.5452117919922"^^xsd:double ;
+	geo:long "-3.62874054908752"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/12924> a dbpedia:Bus_stop ;
+	:stopName "AV.ESPAÑA-ÁVILA" ;
+	:stopAddress "Avda de España 56 A" ;
+	geo:lat "40.544734954834"^^xsd:double ;
+	geo:long "-3.63181829452515"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/18066> a dbpedia:Bus_stop ;
+	:stopName "PºFUENTE LUCHA-FANTASÍA" ;
+	:stopAddress "Paseo de Fuente Lucha 7" ;
+	geo:lat "40.5523414611816"^^xsd:double ;
+	geo:long "-3.6602828502655"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06792> a dbpedia:Bus_stop ;
+	:stopName "AV.COLMENAR VIEJO-NTRA.SRA.CARMEN" ;
+	:stopAddress "Avda de Colmenar Viejo 27" ;
+	geo:lat "40.5472412109375"^^xsd:double ;
+	geo:long "-3.63149952888489"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06841> a dbpedia:Bus_stop ;
+	:stopName "AV.BARAJAS-URB.FUENTE HITO" ;
+	:stopAddress "Avda de Barajas 4" ;
+	geo:lat "40.5364570617676"^^xsd:double ;
+	geo:long "-3.62348675727844"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/12347> a dbpedia:Bus_stop ;
+	:stopName "PºLOS PARQUES-VEREDA DE PALACIO" ;
+	:stopAddress "Paseo de los Parques 25" ;
+	geo:lat "40.5095443725586"^^xsd:double ;
+	geo:long "-3.64345645904541"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06715> a dbpedia:Bus_stop ;
+	:stopName "AV.GUADALIX Nº108" ;
+	:stopAddress "Avda del Guadalix 108" ;
+	geo:lat "40.6398391723633"^^xsd:double ;
+	geo:long "-3.5789053440094"^^xsd:double ;
+	:stopZone "B3" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/09422> a dbpedia:Bus_stop ;
+	:stopName "AZALEA-PºDE ALCOBENDAS" ;
+	:stopAddress "Calle de la Azalea 755" ;
+	geo:lat "40.5251884460449"^^xsd:double ;
+	geo:long "-3.63444471359253"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/16919> a dbpedia:Bus_stop ;
+	:stopName "CºDEL SOTO-PZA.MORALEJA" ;
+	:stopAddress "Calle del Camino del Soto 1" ;
+	geo:lat "40.5162582397461"^^xsd:double ;
+	geo:long "-3.65094566345215"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/07365> a dbpedia:Bus_stop ;
+	:stopName "MARQUÉS VALDAVIA-JACINTO BENAVENTE" ;
+	:stopAddress "Calle del Marqués de la Valdavia 83" ;
+	geo:lat "40.5460166931152"^^xsd:double ;
+	geo:long "-3.64615535736084"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/18177> a dbpedia:Bus_stop ;
+	:stopName "FANTASÍA-AV.MAGIA" ;
+	:stopAddress "Calle de la Fantasía 3" ;
+	geo:lat "40.5527610778809"^^xsd:double ;
+	geo:long "-3.65783023834229"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06750> a dbpedia:Bus_stop ;
+	:stopName "CTRA.ANTIGUA DE BURGOS-LA GRANJILLA" ;
+	:stopAddress "Ctra   N-I ( Burgos) 20400" ;
+	geo:lat "40.5697021484375"^^xsd:double ;
+	geo:long "-3.60222339630127"^^xsd:double ;
+	:stopZone "B2" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06716> a dbpedia:Bus_stop ;
+	:stopName "AV.GUADALIX-NORTE" ;
+	:stopAddress "Avda del Guadalix 88" ;
+	geo:lat "40.6377296447754"^^xsd:double ;
+	geo:long "-3.58294320106506"^^xsd:double ;
+	:stopZone "B3" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06821> a dbpedia:Bus_stop ;
+	:stopName "AZALEA-DALIA" ;
+	:stopAddress "Calle de la Azalea 604" ;
+	geo:lat "40.5254287719727"^^xsd:double ;
+	geo:long "-3.63481283187866"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06718> a dbpedia:Bus_stop ;
+	:stopName "AV.GUADALIX-CENTRO DE SALUD" ;
+	:stopAddress "Avda del Guadalix 50" ;
+	geo:lat "40.6294136047363"^^xsd:double ;
+	geo:long "-3.58301281929016"^^xsd:double ;
+	:stopZone "B3" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/16938> a dbpedia:Bus_stop ;
+	:stopName "CAMINO NUEVO-GTA.LA PALMERA" ;
+	:stopAddress "Calle   Camino Nuevo 229" ;
+	geo:lat "40.5245475769043"^^xsd:double ;
+	geo:long "-3.6344621181488"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/50000> a dbpedia:Bus_stop ;
+	:stopName "AV.BURGOS-CENTRO FINANCIERO" ;
+	:stopAddress "Avda de Burgos 135" ;
+	geo:lat "40.4987258911133"^^xsd:double ;
+	geo:long "-3.66366314888"^^xsd:double ;
+	:stopZone "A" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/11795> a dbpedia:Bus_stop ;
+	:stopName "AV.LA VEGA-FRANCISCA DELGADO" ;
+	:stopAddress "Avda de la Vega 13" ;
+	geo:lat "40.5347862243652"^^xsd:double ;
+	geo:long "-3.63057947158813"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/13293> a dbpedia:Bus_stop ;
+	:stopName "AV.PABLO IGLESIAS-PALESTINA" ;
+	:stopAddress "Avda   Pablo Iglesias 10" ;
+	geo:lat "40.5507926940918"^^xsd:double ;
+	geo:long "-3.65665364265442"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/3261> a dbpedia:Bus_stop ;
+	:stopName "AV.BURGOS-FCO.PI Y MARGALL" ;
+	:stopAddress "Avda de Burgos 10300" ;
+	geo:lat "40.4943466186523"^^xsd:double ;
+	geo:long "-3.66751408576965"^^xsd:double ;
+	:stopZone "A" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/3820> a dbpedia:Bus_stop ;
+	:stopName "VIA DE DUBLIN-GTA. SINTRA" ;
+	:stopAddress "Calle  Vía de Dublín 14" ;
+	geo:lat "40.4705772399902"^^xsd:double ;
+	geo:long "-3.61288547515869"^^xsd:double ;
+	:stopZone "A" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/12240> a dbpedia:Bus_stop ;
+	:stopName "NARDO-CENTRO CÍVICO" ;
+	:stopAddress "Calle del Nardo SN" ;
+	geo:lat "40.5311508178711"^^xsd:double ;
+	geo:long "-3.63650798797607"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/07370> a dbpedia:Bus_stop ;
+	:stopName "CTRA.BARAJAS-BUTANO" ;
+	:stopAddress "Ctra de Barajas 9000" ;
+	geo:lat "40.5288963317871"^^xsd:double ;
+	geo:long "-3.60634446144104"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06832> a dbpedia:Bus_stop ;
+	:stopName "CAMINO VIEJO-PºCONDE DE LOS GAITANES" ;
+	:stopAddress "Calle del Camino Viejo 88" ;
+	geo:lat "40.5248489379883"^^xsd:double ;
+	geo:long "-3.60856294631958"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06813> a dbpedia:Bus_stop ;
+	:stopName "DALIA-AZALEA" ;
+	:stopAddress "Calle   Dalia 385" ;
+	geo:lat "40.5247993469238"^^xsd:double ;
+	geo:long "-3.63492488861084"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06689> a dbpedia:Bus_stop ;
+	:stopName "CTRA.A1-CUESTA BLANCA" ;
+	:stopAddress "Ctra de Irún 13700" ;
+	geo:lat "40.5217704772949"^^xsd:double ;
+	geo:long "-3.65101075172424"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06863> a dbpedia:Bus_stop ;
+	:stopName "CTRA.A1-CUESTA BLANCA" ;
+	:stopAddress "Ctra  A-1 (VÍA DE SERVICIO) 14.200" ;
+	geo:lat "40.5223350524902"^^xsd:double ;
+	geo:long "-3.65168905258179"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/406> a dbpedia:Bus_stop ;
+	:stopName "CAMPO NACIONES-GTA.JUAN DE BORBON" ;
+	:stopAddress "Avda de la Capital de España Madrid 3" ;
+	geo:lat "40.4613876342773"^^xsd:double ;
+	geo:long "-3.61597490310669"^^xsd:double ;
+	:stopZone "A" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06763> a dbpedia:Bus_stop ;
+	:stopName "AV.ESPAÑA-AYUNTAMIENTO" ;
+	:stopAddress "Avda de España 34" ;
+	geo:lat "40.5471458435059"^^xsd:double ;
+	geo:long "-3.64066290855408"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06819> a dbpedia:Bus_stop ;
+	:stopName "AZALEA-CALÉNDULA" ;
+	:stopAddress "Calle de la Azalea 84" ;
+	geo:lat "40.5238914489746"^^xsd:double ;
+	geo:long "-3.64728879928589"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06769> a dbpedia:Bus_stop ;
+	:stopName "AV.SIERRA-C.C.LA VIÑA" ;
+	:stopAddress "Avda de la Sierra 37" ;
+	geo:lat "40.5481033325195"^^xsd:double ;
+	geo:long "-3.63325548171997"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/07373> a dbpedia:Bus_stop ;
+	:stopName "MARQUÉS VALDAVIA-CAMILO JOSÉ CELA" ;
+	:stopAddress "Calle del Marqués de la Valdavia 123" ;
+	geo:lat "40.5471267700195"^^xsd:double ;
+	geo:long "-3.65675950050354"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/07236> a dbpedia:Bus_stop ;
+	:stopName "AV.ESPAÑA-M.SEBASTIÁN IZUEL" ;
+	:stopAddress "Avda de España 72" ;
+	geo:lat "40.5409965515137"^^xsd:double ;
+	geo:long "-3.62847685813904"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06815> a dbpedia:Bus_stop ;
+	:stopName "DALIA-JAZMÍN" ;
+	:stopAddress "Calle   Dalia 255" ;
+	geo:lat "40.5213623046875"^^xsd:double ;
+	geo:long "-3.64199924468994"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06687> a dbpedia:Bus_stop ;
+	:stopName "AV.BURGOS-DOMINICOS" ;
+	:stopAddress "Avda de Burgos 11300" ;
+	geo:lat "40.5014419555664"^^xsd:double ;
+	geo:long "-3.65994882583618"^^xsd:double ;
+	:stopZone "A" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/07374> a dbpedia:Bus_stop ;
+	:stopName "CTRA.M616-COLEGIO" ;
+	:stopAddress "Ctra del Goloso 4600" ;
+	geo:lat "40.5531806945801"^^xsd:double ;
+	geo:long "-3.67543268203735"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/16923> a dbpedia:Bus_stop ;
+	:stopName "CTRA.MEDIODÍA-URB.PUERTA ENCINAR II" ;
+	:stopAddress "Ctra del Mediodía 50" ;
+	geo:lat "40.5105857849121"^^xsd:double ;
+	geo:long "-3.64878964424133"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/18635> a dbpedia:Bus_stop ;
+	:stopName "MARIE CURIE-FACULTAD INFORMÁTICA" ;
+	:stopAddress "Calle de Marie Curie 4" ;
+	geo:lat "40.5459098815918"^^xsd:double ;
+	geo:long "-3.692542552948"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/09435> a dbpedia:Bus_stop ;
+	:stopName "CAMINO HUERTA-VEREDA LOS ÁLAMOS" ;
+	:stopAddress "Calle   Camino de la Huerta 61" ;
+	geo:lat "40.512767791748"^^xsd:double ;
+	geo:long "-3.6224057674408"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06698> a dbpedia:Bus_stop ;
+	:stopName "CTRA.A1-EL ALEMÁN" ;
+	:stopAddress "Ctra   N-I ( Burgos) 24200" ;
+	geo:lat "40.5971450805664"^^xsd:double ;
+	geo:long "-3.58106589317322"^^xsd:double ;
+	:stopZone "B2" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/17512> a dbpedia:Bus_stop ;
+	:stopName "AV.ERMITA-EST.LA MORALEJA" ;
+	:stopAddress "Avda de la Ermita 5" ;
+	geo:lat "40.5322647094727"^^xsd:double ;
+	geo:long "-3.63550305366516"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/17460> a dbpedia:Bus_stop ;
+	:stopName "CºDEL CURA-URB.OTERO DEL ENCINAR" ;
+	:stopAddress "Cmno   del Cura 99" ;
+	geo:lat "40.5083808898926"^^xsd:double ;
+	geo:long "-3.63589143753052"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/18636> a dbpedia:Bus_stop ;
+	:stopName "NEWTON-FCO.TOMÁS Y VALIENTE" ;
+	:stopAddress "Calle de Newton 13" ;
+	geo:lat "40.5473022460938"^^xsd:double ;
+	geo:long "-3.69028925895691"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/18095> a dbpedia:Bus_stop ;
+	:stopName "CANILLEJAS-AREA INTERMODAL" ;
+	:stopAddress "Calle de Josefa Valcárcel 152" ;
+	geo:lat "40.4492340087891"^^xsd:double ;
+	geo:long "-3.60962557792664"^^xsd:double ;
+	:stopZone "A" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06780> a dbpedia:Bus_stop ;
+	:stopName "MARQUESA VIUDA DE ALDAMA-TRVA.DELCAÑÓN" ;
+	:stopAddress "Calle de la Marquesa Viuda de Aldama SN" ;
+	geo:lat "40.5422782897949"^^xsd:double ;
+	geo:long "-3.63099241256714"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/1917> a dbpedia:Bus_stop ;
+	:stopName "AGUSTÍN DE FOXÁ-CHAMARTÍN" ;
+	:stopAddress "Calle de Agustín de Foxá 40" ;
+	geo:lat "40.4716714166663"^^xsd:double ;
+	geo:long "-3.68258411029222"^^xsd:double ;
+	:stopZone "A" ;
+	:parentStation "est_90_25" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06814> a dbpedia:Bus_stop ;
+	:stopName "DALIA-LAUREL" ;
+	:stopAddress "Calle  Dalia 62" ;
+	geo:lat "40.5236625671387"^^xsd:double ;
+	geo:long "-3.63860940933228"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/09437> a dbpedia:Bus_stop ;
+	:stopName "CAMINO HUERTA-CºANCHO" ;
+	:stopAddress "Calle  Camino de la Huerta 82" ;
+	geo:lat "40.5136528015137"^^xsd:double ;
+	geo:long "-3.62001776695251"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/16924> a dbpedia:Bus_stop ;
+	:stopName "CTRA.MEDIODÍA-VEREDA DEL PALACIO" ;
+	:stopAddress "Ctra del Mediodía 50" ;
+	geo:lat "40.5081787109375"^^xsd:double ;
+	geo:long "-3.64573311805725"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/08695> a dbpedia:Bus_stop ;
+	:stopName "PºCHOPERA-EDUCACIÓN INFANTIL ESPECIAL" ;
+	:stopAddress "Paseo de la Chopera 107" ;
+	geo:lat "40.5449485778809"^^xsd:double ;
+	geo:long "-3.65032577514648"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/11336> a dbpedia:Bus_stop ;
+	:stopName "NARDO-GARDENIA" ;
+	:stopAddress "Calle del Nardo 12" ;
+	geo:lat "40.5293922424316"^^xsd:double ;
+	geo:long "-3.63698720932007"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/07369> a dbpedia:Bus_stop ;
+	:stopName "CTRA-M12-LA MORALEJA" ;
+	:stopAddress "Ctra de Barajas 4" ;
+	geo:lat "40.5252838134766"^^xsd:double ;
+	geo:long "-3.59975957870483"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/12724> a dbpedia:Bus_stop ;
+	:stopName "MARQUÉS VALDAVIA-EST.VALDELASFUENTES" ;
+	:stopAddress "Calle del Marqués de la Valdavia 105" ;
+	geo:lat "40.5466423034668"^^xsd:double ;
+	geo:long "-3.65350723266602"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/11843> a dbpedia:Bus_stop ;
+	:stopName "AV.CONSEJO EUROPA-CAMPO NACIONES" ;
+	:stopAddress "Avda del Consejo de Europa 2" ;
+	geo:lat "40.4587707519531"^^xsd:double ;
+	geo:long "-3.61665868759155"^^xsd:double ;
+	:stopZone "A" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/13132> a dbpedia:Bus_stop ;
+	:stopName "PºPARQUES-CTRA.A1" ;
+	:stopAddress "Paseo de los Parques SN" ;
+	geo:lat "40.5134811401367"^^xsd:double ;
+	geo:long "-3.65497922897339"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06827> a dbpedia:Bus_stop ;
+	:stopName "PºALCOBENDAS-C.C.BULEVAR" ;
+	:stopAddress "Paseo de Alcobendas 10" ;
+	geo:lat "40.5280609130859"^^xsd:double ;
+	geo:long "-3.62173247337341"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06771> a dbpedia:Bus_stop ;
+	:stopName "MARQUÉS VALDAVIA-MANUEL DE FALLA" ;
+	:stopAddress "Calle del Marqués de la Valdavia 110" ;
+	geo:lat "40.5463714599609"^^xsd:double ;
+	geo:long "-3.64989066123962"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/07376> a dbpedia:Bus_stop ;
+	:stopName "CTRA.M616-UNIVERSIDAD COMILLAS" ;
+	:stopAddress "Ctra   M-616 (Alcobendas) 5300" ;
+	geo:lat "40.5531044006348"^^xsd:double ;
+	geo:long "-3.68221139907837"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06758> a dbpedia:Bus_stop ;
+	:stopName "MARQUÉS VALDAVIA-NEMESIO CASTRO" ;
+	:stopAddress "Calle del Marqués de la Valdavia 50" ;
+	geo:lat "40.5429191589355"^^xsd:double ;
+	geo:long "-3.63905215263367"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/16438> a dbpedia:Bus_stop ;
+	:stopName "CTRA.ANTIGUA DE BURGOS-C.C.ALEGRA" ;
+	:stopAddress "Ctra   N-I ( Burgos) 19900" ;
+	geo:lat "40.566089630127"^^xsd:double ;
+	geo:long "-3.6059238910675"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/3602> a dbpedia:Bus_stop ;
+	:stopName "AV.BURGOS Nº 93" ;
+	:stopAddress "Avda de Burgos 10100" ;
+	geo:lat "40.4935073852539"^^xsd:double ;
+	geo:long "-3.6703143119812"^^xsd:double ;
+	:stopZone "A" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/16944> a dbpedia:Bus_stop ;
+	:stopName "CAMINO ANCHO-HALCÓN" ;
+	:stopAddress "Calle del Camino Ancho 84" ;
+	geo:lat "40.5258369445801"^^xsd:double ;
+	geo:long "-3.62628102302551"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/11333> a dbpedia:Bus_stop ;
+	:stopName "AV.LA VEGA-AV.BARAJAS" ;
+	:stopAddress "Avda de la Vega 2" ;
+	geo:lat "40.5367088317871"^^xsd:double ;
+	geo:long "-3.62485885620117"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06714> a dbpedia:Bus_stop ;
+	:stopName "AV.MONTE-AV.GUADALIX" ;
+	:stopAddress "Avda del Monte 108" ;
+	geo:lat "40.6408195495605"^^xsd:double ;
+	geo:long "-3.57525944709778"^^xsd:double ;
+	:stopZone "B3" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06692> a dbpedia:Bus_stop ;
+	:stopName "AV.OLÍMPICA-PABELLÓN DEPORTIVO" ;
+	:stopAddress "Avda   Olímpica 3 A" ;
+	geo:lat "40.5364875793457"^^xsd:double ;
+	geo:long "-3.63275647163391"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06839> a dbpedia:Bus_stop ;
+	:stopName "CAMINO NUEVO-PZA.SOTO" ;
+	:stopAddress "Calle   Camino Nuevo 4" ;
+	geo:lat "40.5179023742676"^^xsd:double ;
+	geo:long "-3.64868330955505"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/09433> a dbpedia:Bus_stop ;
+	:stopName "CAMINO HUERTA-VEREDA LOS CHOPOS" ;
+	:stopAddress "Calle  Camino de la Huerta 13" ;
+	geo:lat "40.5108642578125"^^xsd:double ;
+	geo:long "-3.62975335121155"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/16933> a dbpedia:Bus_stop ;
+	:stopName "VEREDA NORTE-CAMINO NUEVO" ;
+	:stopAddress "Calle  Camino Nuevo 18" ;
+	geo:lat "40.5189056396484"^^xsd:double ;
+	geo:long "-3.64149188995361"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06720> a dbpedia:Bus_stop ;
+	:stopName "CTRA.A1-CIRCUITO DEL JARAMA" ;
+	:stopAddress "Ctra   N-I Burgos S/N" ;
+	geo:lat "40.6107482910156"^^xsd:double ;
+	geo:long "-3.58099460601807"^^xsd:double ;
+	:stopZone "B3" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/3253> a dbpedia:Bus_stop ;
+	:stopName "Pº CASTELLANA-HOSPITAL LA PAZ" ;
+	:stopAddress "Acces  Nudo Norte 29700" ;
+	geo:lat "40.4806365966797"^^xsd:double ;
+	geo:long "-3.68515825271606"^^xsd:double ;
+	:stopZone "A" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06840> a dbpedia:Bus_stop ;
+	:stopName "AV.BARAJAS-ARROYO DE LA VEGA" ;
+	:stopAddress "Avda de Barajas 4" ;
+	geo:lat "40.5370407104492"^^xsd:double ;
+	geo:long "-3.62340950965881"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/09428> a dbpedia:Bus_stop ;
+	:stopName "CAMINO SUR-PºMARQUESA VIUDA ALDAMA" ;
+	:stopAddress "Calle del Camino Sur 66" ;
+	geo:lat "40.5161361694336"^^xsd:double ;
+	geo:long "-3.6241250038147"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/07324> a dbpedia:Bus_stop ;
+	:stopName "AV.LOGROÑO-PºALAMEDA DE OSUNA" ;
+	:stopAddress "Avda de Logroño 6 A" ;
+	geo:lat "40.4509735107422"^^xsd:double ;
+	geo:long "-3.60770726203918"^^xsd:double ;
+	:stopZone "A" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06723> a dbpedia:Bus_stop ;
+	:stopName "CTRA.A1-URB.FUENTE EL FRESNO" ;
+	:stopAddress "Ctra   N-I ( Burgos) 23400" ;
+	geo:lat "40.5893402099609"^^xsd:double ;
+	geo:long "-3.58359813690186"^^xsd:double ;
+	:stopZone "B2" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06809> a dbpedia:Bus_stop ;
+	:stopName "JAZMÍN-IRIS" ;
+	:stopAddress "Calle  Jazmín 8" ;
+	geo:lat "40.5241394042969"^^xsd:double ;
+	geo:long "-3.64513063430786"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06717> a dbpedia:Bus_stop ;
+	:stopName "AV.GUADALIX-CENTRO DEPORTIVO" ;
+	:stopAddress "Avda del Guadalix 62" ;
+	geo:lat "40.6323127746582"^^xsd:double ;
+	geo:long "-3.58463430404663"^^xsd:double ;
+	:stopZone "B3" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/09421> a dbpedia:Bus_stop ;
+	:stopName "CAMINO NUEVO-CUESTA DEL CERRO" ;
+	:stopAddress "Calle  Camino Nuevo 49" ;
+	geo:lat "40.5214080810547"^^xsd:double ;
+	geo:long "-3.63880062103271"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/3819> a dbpedia:Bus_stop ;
+	:stopName "VIA DE DUBLIN-GTA. SINTRA" ;
+	:stopAddress "Calle  Vía de Dublín 14" ;
+	geo:lat "40.4709091186523"^^xsd:double ;
+	geo:long "-3.61269998550415"^^xsd:double ;
+	:stopZone "A" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/17474> a dbpedia:Bus_stop ;
+	:stopName "PºEUROPA-HOSPITAL INFANTA SOFÍA" ;
+	:stopAddress "Paseo   Europa 11" ;
+	geo:lat "40.5593185424805"^^xsd:double ;
+	geo:long "-3.61180424690247"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/11331> a dbpedia:Bus_stop ;
+	:stopName "AV.LA VEGA-C.C.LA VEGA" ;
+	:stopAddress "Avda de la Ermita 5" ;
+	geo:lat "40.5336952209473"^^xsd:double ;
+	geo:long "-3.63578820228577"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06829> a dbpedia:Bus_stop ;
+	:stopName "PºALCOBENDAS-VEREDA DE LAS PEÑAS" ;
+	:stopAddress "Paseo de Alcobendas 12" ;
+	geo:lat "40.5274696350098"^^xsd:double ;
+	geo:long "-3.61757111549377"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06700> a dbpedia:Bus_stop ;
+	:stopName "CTRA.A1-CIRCUITO DEL JARAMA" ;
+	:stopAddress "Ctra   N-I ( Burgos) 26000" ;
+	geo:lat "40.6117782592773"^^xsd:double ;
+	geo:long "-3.58051896095276"^^xsd:double ;
+	:stopZone "B3" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/18789> a dbpedia:Bus_stop ;
+	:stopName "CTRA.A1-URB.FRESNO NORTE" ;
+	:stopAddress "Ctra   CTRA. A1 23800" ;
+	geo:lat "40.5935401916504"^^xsd:double ;
+	geo:long "-3.58267760276794"^^xsd:double ;
+	:stopZone "B2" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/11330> a dbpedia:Bus_stop ;
+	:stopName "MARQUÉS VALDAVIA Nº147" ;
+	:stopAddress "Calle del Marqués de la Valdavia 159" ;
+	geo:lat "40.5480079650879"^^xsd:double ;
+	geo:long "-3.66038203239441"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/18077> a dbpedia:Bus_stop ;
+	:stopName "MARQUÉS VALDAVIA-MÁQUINA DEL TREN" ;
+	:stopAddress "Calle del Marqués de la Valdavia 131" ;
+	geo:lat "40.5474548339844"^^xsd:double ;
+	geo:long "-3.65757775306702"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/16932> a dbpedia:Bus_stop ;
+	:stopName "VEREDA NORTE-PºCONDE LOS GAITANES" ;
+	:stopAddress "Calle de la Vereda Norte 2" ;
+	geo:lat "40.5160827636719"^^xsd:double ;
+	geo:long "-3.64211416244507"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/07396> a dbpedia:Bus_stop ;
+	:stopName "AV.LOGROÑO-PºALAMEDA DE OSUNA" ;
+	:stopAddress "Avda de Logroño 29" ;
+	geo:lat "40.451114654541"^^xsd:double ;
+	geo:long "-3.60802698135376"^^xsd:double ;
+	:stopZone "A" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06838> a dbpedia:Bus_stop ;
+	:stopName "AV.BARAJAS-PARQUE BOMBEROS" ;
+	:stopAddress "Ctra de Barajas 4" ;
+	geo:lat "40.5351638793945"^^xsd:double ;
+	geo:long "-3.6209716796875"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/18823> a dbpedia:Bus_stop ;
+	:stopName "AV.BARAJAS-HOTEL" ;
+	:stopAddress "Avda de Barajas 4" ;
+	geo:lat "40.534496307373"^^xsd:double ;
+	geo:long "-3.62076473236084"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06786> a dbpedia:Bus_stop ;
+	:stopName "REAL-AYUNTAMIENTO" ;
+	:stopAddress "Calle del Real 25" ;
+	geo:lat "40.5465660095215"^^xsd:double ;
+	geo:long "-3.62637948989868"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/15313> a dbpedia:Bus_stop ;
+	:stopName "MANUEL DE FALLA-EST.MANUEL DE FALLA" ;
+	:stopAddress "Calle   Manuel de Falla 59" ;
+	geo:lat "40.5502624511719"^^xsd:double ;
+	geo:long "-3.64691662788391"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/12925> a dbpedia:Bus_stop ;
+	:stopName "AV.ESPAÑA-CENTRO DE MAYORES" ;
+	:stopAddress "Avda de España 58" ;
+	geo:lat "40.5435981750488"^^xsd:double ;
+	geo:long "-3.62847757339478"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/15392> a dbpedia:Bus_stop ;
+	:stopName "AV.MATAPIÑONERA-CºJUNCAL" ;
+	:stopAddress "Avda  Matapiñonera 24" ;
+	geo:lat "40.540699005127"^^xsd:double ;
+	geo:long "-3.61807060241699"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/07364> a dbpedia:Bus_stop ;
+	:stopName "MARQUÉS VALDAVIA-RUPERTO CHAPÍ" ;
+	:stopAddress "Calle del Marqués de la Valdavia 94" ;
+	geo:lat "40.5461883544922"^^xsd:double ;
+	geo:long "-3.64602732658386"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/3265> a dbpedia:Bus_stop ;
+	:stopName "AV.BURGOS Nº 87-PASO ELEVADO" ;
+	:stopAddress "Avda de Burgos 87" ;
+	geo:lat "40.4900970458984"^^xsd:double ;
+	geo:long "-3.67299437522888"^^xsd:double ;
+	:stopZone "A" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/17521> a dbpedia:Bus_stop ;
+	:stopName "CAMINO DEL GOLF-CAMINO DE MESONCILLOS" ;
+	:stopAddress "Calle del Camino del Golf 32" ;
+	geo:lat "40.5221366882324"^^xsd:double ;
+	geo:long "-3.61437010765076"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/123> a dbpedia:Bus_stop ;
+	:stopName "BAMBU-AV.PIO XII" ;
+	:stopAddress "Calle del Bambú 4" ;
+	geo:lat "40.4739990234375"^^xsd:double ;
+	geo:long "-3.67745804786682"^^xsd:double ;
+	:stopZone "A" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/11335> a dbpedia:Bus_stop ;
+	:stopName "NARDO-COMPLEJO DEPORTIVO" ;
+	:stopAddress "Calle del Nardo SN" ;
+	geo:lat "40.5294075012207"^^xsd:double ;
+	geo:long "-3.6371054649353"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/16921> a dbpedia:Bus_stop ;
+	:stopName "ESTAFETA-PºLOS PARQUES" ;
+	:stopAddress "Paseo de los Parques 5" ;
+	geo:lat "40.5134773254395"^^xsd:double ;
+	geo:long "-3.65220522880554"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/12345> a dbpedia:Bus_stop ;
+	:stopName "PºPARQUES Nº17" ;
+	:stopAddress "Paseo de los Parques 19" ;
+	geo:lat "40.5112457275391"^^xsd:double ;
+	geo:long "-3.64719080924988"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/17457> a dbpedia:Bus_stop ;
+	:stopName "VEREDA DE PALACIO-CºHUERTA" ;
+	:stopAddress "Calle   Vereda de Palacio 6" ;
+	geo:lat "40.5081520080566"^^xsd:double ;
+	geo:long "-3.64429306983948"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06759> a dbpedia:Bus_stop ;
+	:stopName "MARQUÉS VALDAVIA-AV.ESPAÑA" ;
+	:stopAddress "Calle del Marqués de la Valdavia 88" ;
+	geo:lat "40.5447883605957"^^xsd:double ;
+	geo:long "-3.64296698570251"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06697> a dbpedia:Bus_stop ;
+	:stopName "CTRA.A1-URB.FUENTE EL FRESNO" ;
+	:stopAddress "Ctra   N-I ( Burgos) 23400" ;
+	geo:lat "40.5890731811523"^^xsd:double ;
+	geo:long "-3.58275675773621"^^xsd:double ;
+	:stopZone "B2" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/16925> a dbpedia:Bus_stop ;
+	:stopName "PºLOS PARQUES-VEREDA DEL PALACIO" ;
+	:stopAddress "Paseo de los Parques 30" ;
+	geo:lat "40.5094566345215"^^xsd:double ;
+	geo:long "-3.64277100563049"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06755> a dbpedia:Bus_stop ;
+	:stopName "MARQUESA VIUDA DE ALDAMA-NªSRA.DEL PILAR" ;
+	:stopAddress "Calle de la Marquesa Viuda de Aldama 14" ;
+	geo:lat "40.5413055419922"^^xsd:double ;
+	geo:long "-3.63294339179993"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/12218> a dbpedia:Bus_stop ;
+	:stopName "AV.MATAPIÑONERA-AV.CAMINO DE LO CORTAO" ;
+	:stopAddress "Avda   Matapiñonera 6" ;
+	geo:lat "40.5483512878418"^^xsd:double ;
+	geo:long "-3.61938095092773"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/09425> a dbpedia:Bus_stop ;
+	:stopName "PºMARQUESA VIUDA ALDAMA-VEREDILLA" ;
+	:stopAddress "Paseo de la Marquesa Viuda de Aldama 15" ;
+	geo:lat "40.5173645019531"^^xsd:double ;
+	geo:long "-3.63054609298706"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/17516> a dbpedia:Bus_stop ;
+	:stopName "CAMINO DEL SOTO-PZA.LA MORALEJA" ;
+	:stopAddress "Plaza de la Moraleja 1" ;
+	geo:lat "40.5154647827148"^^xsd:double ;
+	geo:long "-3.65090250968933"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06694> a dbpedia:Bus_stop ;
+	:stopName "CTRA.ANTIGUA DE BURGOS-LA GRANJILLA" ;
+	:stopAddress "Ctra   N-I ( Burgos) 20300" ;
+	geo:lat "40.5691719055176"^^xsd:double ;
+	geo:long "-3.6023485660553"^^xsd:double ;
+	:stopZone "B2" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06691> a dbpedia:Bus_stop ;
+	:stopName "AV.OLÍMPICA-C.C.LA VEGA" ;
+	:stopAddress "Avda   Olímpica 9" ;
+	geo:lat "40.5352478027344"^^xsd:double ;
+	geo:long "-3.63698363304138"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/09430> a dbpedia:Bus_stop ;
+	:stopName "CAMINO SUR-CºDE LA FUENTE" ;
+	:stopAddress "Calle del Camino Sur 28" ;
+	geo:lat "40.5128211975098"^^xsd:double ;
+	geo:long "-3.6327817440033"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/08419> a dbpedia:Bus_stop ;
+	:stopName "CTRA.M616-UNIVERSIDAD COMILLAS" ;
+	:stopAddress "Ctra   M-616 (Alcobendas) 5400" ;
+	geo:lat "40.5522384643555"^^xsd:double ;
+	geo:long "-3.68385601043701"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/5061> a dbpedia:Bus_stop ;
+	:stopName "AV.BURGOS Nº 85" ;
+	:stopAddress "Ctra de Fuencarral a Hortaleza 8" ;
+	geo:lat "40.4872817993164"^^xsd:double ;
+	geo:long "-3.67360329627991"^^xsd:double ;
+	:stopZone "A" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/18076> a dbpedia:Bus_stop ;
+	:stopName "AV.PABLO IGLESIAS-JOSÉ HIERRO" ;
+	:stopAddress "Avda   Pablo Iglesias 2" ;
+	geo:lat "40.5477828979492"^^xsd:double ;
+	geo:long "-3.65678954124451"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/09423> a dbpedia:Bus_stop ;
+	:stopName "PºCONDE DE LOS GAITANES-IGLESIA" ;
+	:stopAddress "Paseo del Conde de los Gaitanes 21" ;
+	geo:lat "40.5168609619141"^^xsd:double ;
+	geo:long "-3.63992595672607"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/16940> a dbpedia:Bus_stop ;
+	:stopName "CAMINO DEL GOLF-CAMINO MESONCILLOS" ;
+	:stopAddress "Calle del Camino del Golf 22" ;
+	geo:lat "40.5202789306641"^^xsd:double ;
+	geo:long "-3.61626577377319"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/12351> a dbpedia:Bus_stop ;
+	:stopName "CºHUERTA-DÁMASO ALONSO" ;
+	:stopAddress "Cmno de la Huerta 223" ;
+	geo:lat "40.5071411132813"^^xsd:double ;
+	geo:long "-3.63796877861023"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/09443> a dbpedia:Bus_stop ;
+	:stopName "CAMINO VIEJO-CºLIEBRES" ;
+	:stopAddress "Calle del Camino Viejo 76" ;
+	geo:lat "40.5152359008789"^^xsd:double ;
+	geo:long "-3.61226511001587"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06711> a dbpedia:Bus_stop ;
+	:stopName "AV.MONTE-CORTA" ;
+	:stopAddress "Avda del Monte 28" ;
+	geo:lat "40.6289138793945"^^xsd:double ;
+	geo:long "-3.57494425773621"^^xsd:double ;
+	:stopZone "B3" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/16936> a dbpedia:Bus_stop ;
+	:stopName "JAZMÍN-KERRIA" ;
+	:stopAddress "Calle   Jazmín 95" ;
+	geo:lat "40.520938873291"^^xsd:double ;
+	geo:long "-3.64075565338135"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06865> a dbpedia:Bus_stop ;
+	:stopName "AV.BURGOS-DOMINICOS" ;
+	:stopAddress "Avda de Santo Domingo de la Calzada 1" ;
+	geo:lat "40.5019798278809"^^xsd:double ;
+	geo:long "-3.66061496734619"^^xsd:double ;
+	:stopZone "A" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/18068> a dbpedia:Bus_stop ;
+	:stopName "AV.PABLO IGLESIAS-DR.ÁNGEL OLIVARES" ;
+	:stopAddress "Avda   Pablo Iglesias 6" ;
+	geo:lat "40.5494842529297"^^xsd:double ;
+	geo:long "-3.65698337554932"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06810> a dbpedia:Bus_stop ;
+	:stopName "JAZMÍN-BEGONIA" ;
+	:stopAddress "Calle de Begonia 258" ;
+	geo:lat "40.5229377746582"^^xsd:double ;
+	geo:long "-3.64226222038269"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/11792> a dbpedia:Bus_stop ;
+	:stopName "AV.LA VEGA-ANABEL SEGURA" ;
+	:stopAddress "Avda de la Vega 8" ;
+	geo:lat "40.5358734130859"^^xsd:double ;
+	geo:long "-3.62779140472412"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/405> a dbpedia:Bus_stop ;
+	:stopName "CAMPO NACIONES-GTA.JUAN DE BORBON" ;
+	:stopAddress "Avda de la Capital de España Madrid 2" ;
+	geo:lat "40.461254119873"^^xsd:double ;
+	geo:long "-3.61544299125671"^^xsd:double ;
+	:stopZone "A" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/16922> a dbpedia:Bus_stop ;
+	:stopName "CTRA.MEDIODÍA-PUENTE DEL ENCINAR" ;
+	:stopAddress "Ctra del Mediodía 34" ;
+	geo:lat "40.5110206604004"^^xsd:double ;
+	geo:long "-3.65183925628662"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/06831> a dbpedia:Bus_stop ;
+	:stopName "PºALCOBENDAS-URB.LEVIT PARK" ;
+	:stopAddress "Paseo de Alcobendas 14" ;
+	geo:lat "40.527271270752"^^xsd:double ;
+	geo:long "-3.61228013038635"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/09439> a dbpedia:Bus_stop ;
+	:stopName "CAMINO VIEJO-CºANCHO" ;
+	:stopAddress "Calle del Camino Viejo 64" ;
+	geo:lat "40.5126495361328"^^xsd:double ;
+	geo:long "-3.61562919616699"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/11793> a dbpedia:Bus_stop ;
+	:stopName "AV.LA VEGA-ANABEL SEGURA" ;
+	:stopAddress "Avda de la Vega 7" ;
+	geo:lat "40.5356292724609"^^xsd:double ;
+	geo:long "-3.62767100334167"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/11232> a dbpedia:Bus_stop ;
+	:stopName "PºCHOPERA-AV.CAMILO JOSÉ CELA" ;
+	:stopAddress "Paseo de la Chopera 178" ;
+	geo:lat "40.5451965332031"^^xsd:double ;
+	geo:long "-3.6568706035614"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/12820> a dbpedia:Bus_stop ;
+	:stopName "AV.MATAPIÑONERA-PLAZA NORTE" ;
+	:stopAddress "Avda  Matapiñonera 24" ;
+	geo:lat "40.5431594848633"^^xsd:double ;
+	geo:long "-3.61633372306824"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/18176> a dbpedia:Bus_stop ;
+	:stopName "FANTASÍA-AV.MAGIA" ;
+	:stopAddress "Avda de la Magia 17" ;
+	geo:lat "40.5523452758789"^^xsd:double ;
+	geo:long "-3.65782618522644"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/18634> a dbpedia:Bus_stop ;
+	:stopName "MARIE CURIE-FCO.TOMÁS Y VALIENTE" ;
+	:stopAddress "Calle de Marie Curie 4" ;
+	geo:lat "40.5459899902344"^^xsd:double ;
+	geo:long "-3.69224810600281"^^xsd:double ;
+	:stopZone "B1" .
+
+<http://www.semanticweb.org/group12/resources/Busstop/09445> a dbpedia:Bus_stop ;
+	:stopName "AZALEA-BEGONIA" ;
+	:stopAddress "Calle de la Azalea 532" ;
+	geo:lat "40.5276412963867"^^xsd:double ;
+	geo:long "-3.63754916191101"^^xsd:double ;
+	:stopZone "B1" .

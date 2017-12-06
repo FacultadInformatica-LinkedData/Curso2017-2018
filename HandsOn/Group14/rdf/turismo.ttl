@@ -1,0 +1,756 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+<http://www.wsdlfiupm.es/resources/group14/Casa+-+Museo+del+Ratoncito+P%C3%A9rez> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "Lunes  de 17 a 20 horas.  De martes a viernes de 11 a 14 horas y de 17 a 20 horas.  Sábados de 11 a 15 horas y de 16 a 20 horas.  Enero y Febrero: domingos y festivos de 12 a 15 horas y de 16 a 18 horas.  Horario orientativo, consultad disponibilidad en la web del Museo." ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/CALLE+ARENAL+8> .
+
+<http://www.wsdlfiupm.es/resources/group14/CALLE+ARENAL+8> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "CALLE ARENAL 8" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-37.055.288.844.865.200" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "4.041.704.834.412.290" .
+
+<http://www.wsdlfiupm.es/resources/group14/Casa+Museo+Lope+de+Vega> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "Para la visita es  imprescindible reserva anticipada  en:  casamuseolopedevega@madrid.org  o en el teléfono: 914 299 216, en horario del museo.  De martes a domingo de 10 a 18 horas.  Cerrado los lunes, días 1 y 6 de enero, 1 de mayo, 9 de noviembre y 24, 25 y 31 de diciembre.  Este horario puede sufrir alteraciones por actividades extraordinarias que se celebran en este espacio." ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/CALLE+CERVANTES+11> .
+
+<http://www.wsdlfiupm.es/resources/group14/CALLE+CERVANTES+11> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "CALLE CERVANTES 11" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-36.974.741.545.860.000" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "40.414.358.466.555.200" .
+
+<http://www.wsdlfiupm.es/resources/group14/Castillo+de+la+Alameda> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "Abierto fines de semana y festivos (incluso los lunes festivos)  De 1 de abril a 15 de junio y de 15 de septiembre a 30 de septiembre: sábados, domingos y festivos de 10 a 21 horas.  De 16 de junio a 15 de septiembre: sábados, domingos y festivos de 10 a 20 horas.  De octubre a marzo: sábados, domingos y festivos de 10 a 18 horas.  Cerrado: 24, 25, 31 de diciembre, 1 de enero, 6 de enero, 1 de mayo." ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/CALLE+ANTONIO+SANCHA+1> .
+
+<http://www.wsdlfiupm.es/resources/group14/CALLE+ANTONIO+SANCHA+1> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "CALLE ANTONIO SANCHA 1" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "BARAJAS" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-35.932.903.820.278.700" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "4.045.835.460.563.490" .
+
+<http://www.wsdlfiupm.es/resources/group14/Cas%C3%B3n+del+Buen+Retiro> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "Mañanas     De lunes a jueves, de 9 a 15 h (Servicio de libros y otros materiales hasta las 14:30 horas)    Viernes, de 9 a 14:30 horas (Servicio de libros y otros materiales hasta las 14 h)     Tardes   Lunes y miércoles, de 15 a 18 horas (Servicio de libros y otros materiales hasta las 17:30 horas)   Horario de verano     Desde el 16 de junio al 15 de septiembre, de lunes a viernes, de 9 a 14:30 horas" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/CALLE+ALFONSO+XII+28> .
+
+<http://www.wsdlfiupm.es/resources/group14/CALLE+ALFONSO+XII+28> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "CALLE ALFONSO XII 28" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "RETIRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-3.689.232.811.717.630" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "40.415.263.749.471.500" .
+
+<http://www.wsdlfiupm.es/resources/group14/Centro+Social+y+Cultural+La+Casa+Encendida> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "De martes a domingo de 10 a 22 horas (todos los días del año, excepto festividades nacionales y de la Comunidad de Madrid)  Exposiciones: de 10 a 21:45 horas" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/RONDA+VALENCIA+2> .
+
+<http://www.wsdlfiupm.es/resources/group14/RONDA+VALENCIA+2> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "RONDA VALENCIA 2" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-3.699.779.793.558.760" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "4.040.595.710.517.700" .
+
+<http://www.wsdlfiupm.es/resources/group14/Ermita+de+San+Antonio+de+la+Florida+%28Museo%29> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "Horario:  ininterrumpido, de martes a domingos, de 9:30 a 20:00 horas.   Cerrado  los lunes, incluidos festivos, y los días 1 y 6 de enero, 1 de mayo y 24, 25 y 31 de diciembre.   Último pase de visita:  20 minutos antes del cierre (el desalojo de las salas comenzará 10 minutos antes)   Por motivos de conservación, el aforo máximo es de 25 personas en el interior de la capilla.  Los sábados que se celebren visitas animadas para familias se interrumpirá la visita durante el desarrollo de las mismas.  Este horario y la apertura de salas pueden sufrir modificaciones." ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/GLORIETA+SAN+ANTONIO+DE+LA+FLORIDA+5> .
+
+<http://www.wsdlfiupm.es/resources/group14/GLORIETA+SAN+ANTONIO+DE+LA+FLORIDA+5> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "GLORIETA SAN ANTONIO DE LA FLORIDA 5" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "MONCLOA-ARAVACA" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-3.725.725.718.176.110" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "40.425.256.682.855.800" .
+
+<http://www.wsdlfiupm.es/resources/group14/Espacio+Fundaci%C3%B3n+Telef%C3%B3nica> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "De martes a domingo, de 10 a 20 horas.  Cerrado al público todos los lunes y días 25 de diciembre, 1 y 6 de enero." ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/CALLE+FUENCARRAL+3> .
+
+<http://www.wsdlfiupm.es/resources/group14/CALLE+FUENCARRAL+3> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "CALLE FUENCARRAL 3" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-37.016.034.186.955.000" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "4.042.041.458.612.880" .
+
+<http://www.wsdlfiupm.es/resources/group14/Fundaci%C3%B3n+AMYC+%28Arte+Moderno+y+Contempor%C3%A1neo%29.+Casa+-+Museo+Fuente+del+Rey> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "De martes a sábados de 10 a 19 horas. Lunes, domingos y festivos cerrado.  Visitas para grupos de hasta 25 personas dentro de los horarios de apertura. Pueden ser con guía propio o con guía de la Fundación, y la duración de la misma es de una hora. Previa reserva telefónica o vía correo electrónico." ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Institutes> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/CALLE+FUENTE+DEL+REY+11> .
+
+<http://www.wsdlfiupm.es/resources/group14/CALLE+FUENTE+DEL+REY+11> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "CALLE FUENTE DEL REY 11" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "MONCLOA-ARAVACA" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-37.705.836.264.842.500" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "4.045.546.180.290.310" .
+
+<http://www.wsdlfiupm.es/resources/group14/Monasterio+de+las+Descalzas+Reales> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "Sólo con visita guiada  .     De martes a sábado de 10 a 14 horas y de 16 a 18:30 horas  Domingos y festivos, de 10 a 15 horas. Cerrado los lunes" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/PLAZA+DESCALZAS+3> .
+
+<http://www.wsdlfiupm.es/resources/group14/PLAZA+DESCALZAS+3> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "PLAZA DESCALZAS 3" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-3.706.213.134.639.160" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "40.418.233.359.889.400" .
+
+<http://www.wsdlfiupm.es/resources/group14/Museo+ABC> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "De martes a sábado de 11 a 20 horas  Domingos de 10 a 14 horas   Lunes cerrado    Durante 2017 el Museo ABC permanecerá cerrado los días:   1 y 6 de enero  24 y 31 de diciembre." ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/CALLE+AMANIEL+29> .
+
+<http://www.wsdlfiupm.es/resources/group14/CALLE+AMANIEL+29> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "CALLE AMANIEL 29" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-3.709.539.260.414.950" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "4.042.741.121.610.510" .
+
+<http://www.wsdlfiupm.es/resources/group14/Museo+Africano+Mundo+Negro> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "Grupos con cita previa : de lunes a viernes de 9,30 a 13,30 horas.   Particulares  (visitas guiadas): domingos a las 11,30 horas.   Cerrado : julio, agosto y septiembre." ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/CALLE+ARTURO+SORIA+101> .
+
+<http://www.wsdlfiupm.es/resources/group14/CALLE+ARTURO+SORIA+101> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "CALLE ARTURO SORIA 101" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "CIUDAD LINEAL" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-365.149.172.790.308" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "40.449.464.654.033.600" .
+
+<http://www.wsdlfiupm.es/resources/group14/Museo+Arqueol%C3%B3gico+Nacional> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "De martes a sábados de 9:30 a 20 horas  Domingos y festivos de 9:30 a 15 horas    Cerrado    Todos los lunes del año.  1 y 6 de enero, 1de mayo y 24, 25 y 31 de diciembre.    Horario de cierre de las taquillas:  15 minutos antes del cierre del Museo.   Días festivos 2017. Horario 9.30 a 15 horas:   13 y 14 de abril; 2 de mayo;15 de agosto; 12 de octubre; 1 de noviembre; 9 de noviembre; 6 de diciembre; 8 de diciembre." ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/CALLE+SERRANO+13> .
+
+<http://www.wsdlfiupm.es/resources/group14/CALLE+SERRANO+13> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "CALLE SERRANO 13" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "SALAMANCA" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-3.688.418.705.931.960" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "4.042.327.763.947.070" .
+
+<http://www.wsdlfiupm.es/resources/group14/Museo+Casa+de+la+Moneda> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "De martes a viernes ininterrumpidamente de 10 a 17:30 horas. Sábados, domingos y festivos de 10 a 14 horas  Cerrado los lunes, y los días 1 y 6 de enero; 19 de marzo; 1 de mayo; 24, 25 y 31 de diciembre" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/CALLE+DOCTOR+ESQUERDO+36> .
+
+<http://www.wsdlfiupm.es/resources/group14/CALLE+DOCTOR+ESQUERDO+36> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "CALLE DOCTOR ESQUERDO 36" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "SALAMANCA" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-36.691.502.061.733.600" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "4.042.259.797.372.900" .
+
+<http://www.wsdlfiupm.es/resources/group14/Museo+Cerralbo> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "De martes a sábado de 9:30 a 15 horas.  Jueves de 17 a 20 horas, excepto festivos.  Domingos y festivos de 10 a 15 horas.  Cerrado:  Todos los lunes.  1 y 6 de enero.  1 de mayo.  24, 25 y 31 de diciembre.  Por fiesta local." ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/CALLE+VENTURA+RODRIGUEZ+17> .
+
+<http://www.wsdlfiupm.es/resources/group14/CALLE+VENTURA+RODRIGUEZ+17> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "CALLE VENTURA RODRIGUEZ 17" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "MONCLOA-ARAVACA" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-37.146.170.388.153.400" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "4.042.376.732.078.650" .
+
+<http://www.wsdlfiupm.es/resources/group14/Museo+EMT> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "Visitas (con cita previa)   Apertura estacional durante seis meses al año: todos los sábados de abril, mayo, junio, julio, septiembre y octubre), a las 10, a las 11:30 y a las 13 horas.  Por ser un centro de trabajo únicamente pueden realizarse de forma organizada, previamente concertadas y limitadas a un máximo de 40 personas por turno.  Duración: 60 minutos aproximadamente.  Compra de entradas y reserva de horarios a través de la web:  http://tienda.emtmadrid.es  (a partir del 1 de marzo de 2017)" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Institutes> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/CALLE+MAURICIO+LEGENDRE+40> .
+
+<http://www.wsdlfiupm.es/resources/group14/CALLE+MAURICIO+LEGENDRE+40> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "CALLE MAURICIO LEGENDRE 40" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "CHAMARTIN" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-36.831.595.451.893.200" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "40.480.173.612.860.300" .
+
+<http://www.wsdlfiupm.es/resources/group14/Museo+F%C3%A9lix+Ca%C3%B1ada> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "Visitas: lunes, miércoles y viernes de 10 a 13 horas." ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/CALLE+ALENZA+1> .
+
+<http://www.wsdlfiupm.es/resources/group14/CALLE+ALENZA+1> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "CALLE ALENZA 1" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "CHAMBERI" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-3.700.796.192.332.980" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "40.442.581.673.356.800" .
+
+<http://www.wsdlfiupm.es/resources/group14/Museo+Geominero> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "De lunes a domingo y festivos de 9 a 14 horas  Cerrado los días 1 y 6 de enero y 24, 25 y 31 de diciembre  Visitas guiadas para grupos de lunes a viernes, previa petición cita" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/CALLE+RIOS+ROSAS+23> .
+
+<http://www.wsdlfiupm.es/resources/group14/CALLE+RIOS+ROSAS+23> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "CALLE RIOS ROSAS 23" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "CHAMBERI" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-3.699.670.468.881.420" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "40.442.047.952.073.600" .
+
+<http://www.wsdlfiupm.es/resources/group14/Museo+Hist%C3%B3rico+Minero+Don+Felipe+de+Borb%C3%B3n+y+Grecia> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "Previa cita concertada para grupos   Mercadillo de minerales y fósiles:  primer domingo de cada mes de 10 a 14 horas (en este período se podrá visitar también el museo y la mina)   Exposición anual:  el segundo fin de semana (viernes, sábado y domingo) de marzo (el museo permanecerá abierto todo el día)" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/CALLE+RIOS+ROSAS+21> .
+
+<http://www.wsdlfiupm.es/resources/group14/CALLE+RIOS+ROSAS+21> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "CALLE RIOS ROSAS 21" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "CHAMBERI" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-37.003.900.716.027.700" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "4.044.207.963.042.670" .
+
+<http://www.wsdlfiupm.es/resources/group14/Museo+ICO> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "De martes a sábados: de 11 a 20 horas    Domingos y festivos: de 10 a 14 horas    Cerrado:  Todos los lunes del año (incluidos festivos) y los días 1 de enero, 1 de mayo y 25 de diciembre.    Horario especial de Navidad: el 24 y el 31 de diciembre, de 10 a 14 horas" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/CALLE+ZORRILLA+3> .
+
+<http://www.wsdlfiupm.es/resources/group14/CALLE+ZORRILLA+3> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "CALLE ZORRILLA 3" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-36.977.346.235.068.300" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "4.041.675.330.128.860" .
+
+<http://www.wsdlfiupm.es/resources/group14/Museo+Los+Ca%C3%B1os+del+Peral.+Estaci%C3%B3n+de+Metro+%C3%93pera> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "Viernes, sábados y domingos de 11 a 13 y de 17 a 19 horas  Los días de Navidad y Año Nuevo cerrado al público" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/PLAZA+ISABEL+II+1> .
+
+<http://www.wsdlfiupm.es/resources/group14/PLAZA+ISABEL+II+1> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "PLAZA ISABEL II 1" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-3.709.202.070.089.530" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "4.041.775.560.280.740" .
+
+<http://www.wsdlfiupm.es/resources/group14/Museo+L%C3%A1zaro+Galdiano> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "Martes a sábados de 10 a 16:30 horas.  Domingos de 10 a 15 horas.  Cerrado todos los lunes.  Grupos y visitas guiadas consultar." ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/CALLE+SERRANO+122> .
+
+<http://www.wsdlfiupm.es/resources/group14/CALLE+SERRANO+122> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "CALLE SERRANO 122" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "SALAMANCA" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-36.861.980.129.207.800" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "40.436.750.328.725.900" .
+
+<http://www.wsdlfiupm.es/resources/group14/Museo+Nacional+Centro+de+Arte+Reina+Sof%C3%ADa+%28MNCARS%29> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "De lunes a sábado de 10 a 21 horas y domingos de 10 a 19 horas.  Martes cerrado (incluso festivos).  Cerrado 1 y 6 enero, 1 de mayo y 15 de mayo, 9 de noviembre, 24, 25 y 31 de diciembre" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/CALLE+SANTA+ISABEL+52> .
+
+<http://www.wsdlfiupm.es/resources/group14/CALLE+SANTA+ISABEL+52> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "CALLE SANTA ISABEL 52" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-36.940.316.511.856.000" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "4.040.854.131.574.010" .
+
+<http://www.wsdlfiupm.es/resources/group14/Museo+Nacional+Thyssen-Bornemisza> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "Colecciones permanentes:   lunes de 12 a 16 horas (acceso gratuito gracias al patrocinio de MasterCard). Martes a domingos de 10 a 19 horas.    Exposiciones temporales : consultar horario específico en Museo.  Último acceso 1 hora antes del cierre. El desalojo de todas las salas tendrá lugar 5 minutos antes del cierre.   Avisos y aperturas extraordinarias:  los días 1 de enero, 1 de mayo y 25 de diciembre el Museo permanecerá cerrado. El 24 y el 31 de diciembre el horario de apertura del Museo será de 10 a 15 horas" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/PASEO+PRADO+8> .
+
+<http://www.wsdlfiupm.es/resources/group14/PASEO+PRADO+8> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "PASEO PRADO 8" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-3.694.744.831.131.070" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "4.041.600.553.697.800" .
+
+<http://www.wsdlfiupm.es/resources/group14/Museo+Nacional+de+Antropolog%C3%ADa> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "De martes a sábado de 9:30 a 20 horas.  Domingos y festivos: de 10 a 15 horas.  Cerrado todos los lunes del año y los días 1 y 6 de enero, 1 de mayo, 24, 25 y 31 de diciembre y un festivo local." ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/CALLE+ALFONSO+XII+68> .
+
+<http://www.wsdlfiupm.es/resources/group14/CALLE+ALFONSO+XII+68> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "CALLE ALFONSO XII 68" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "RETIRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-3.688.862.923.660.600" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "40.407.887.537.677.700" .
+
+<http://www.wsdlfiupm.es/resources/group14/Museo+Nacional+de+Artes+Decorativas> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "Del 8 de septiembre al 30 de junio:    Martes a sábados de 9:30 a 15 horas.  Domingo y festivos: de 10 a 15 horas.  Jueves tarde de 17 a 20 horas.    Del 5 de julio al 4 de septiembre:    Martes a sábados de 9:30 a 15 horas.  Domingo y festivos: de 10 a 15 horas.    Cerrado:  todos los lunes del año, 1 y 6 de enero, 1 de mayo, 24, 25 y 31 de diciembre y un festivo local." ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/CALLE+MONTALBAN+12> .
+
+<http://www.wsdlfiupm.es/resources/group14/CALLE+MONTALBAN+12> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "CALLE MONTALBAN 12" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "RETIRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-3.689.754.685.481.900" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "40.417.891.279.015.100" .
+
+<http://www.wsdlfiupm.es/resources/group14/Museo+Nacional+de+Ciencias+Naturales> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "De martes a viernes de 10 a 17 horas.  Sábados, domingos y festivos de 10 a 20 horas.  Sábados y domingos de agosto de 10 a 15 horas.        Cerrado : todos los lunes no festivos, 1 y 6 de enero, 1 de mayo y 25 de diciembre." ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/CALLE+JOSE+GUTIERREZ+ABASCAL+2> .
+
+<http://www.wsdlfiupm.es/resources/group14/CALLE+JOSE+GUTIERREZ+ABASCAL+2> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "CALLE JOSE GUTIERREZ ABASCAL 2" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "CHAMARTIN" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-3.690.220.716.379.920" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "4.044.042.007.613.470" .
+
+<http://www.wsdlfiupm.es/resources/group14/Museo+Naval> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "De martes a domingo de 10 a 19 horas  Cerrado los lunes y los festivos 1 y 6 de enero y 24, 25 y 31 de diciembre  Agosto, martes a domingo de 10 a 15 horas" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/PASEO+PRADO+5> .
+
+<http://www.wsdlfiupm.es/resources/group14/PASEO+PRADO+5> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "PASEO PRADO 5" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "RETIRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-3.692.768.317.427.530" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "4.041.751.289.873.050" .
+
+<http://www.wsdlfiupm.es/resources/group14/Museo+Postal+y+Telegr%C3%A1fico> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "Museo: de lunes a viernes de 9 a 14 y de 16 a 18 horas  Biblioteca: de lunes a viernes de 9 a 14 y de 16 a 18 horas" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/CALLE+TAPIA+DE+CASARIEGO+6> .
+
+<http://www.wsdlfiupm.es/resources/group14/CALLE+TAPIA+DE+CASARIEGO+6> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "CALLE TAPIA DE CASARIEGO 6" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "MONCLOA-ARAVACA" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-37.690.721.403.206.700" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "40.467.706.026.917.400" .
+
+<http://www.wsdlfiupm.es/resources/group14/Museo+Sorolla> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "De martes a sábado: de 9:30 a 20 horas   Domingos: de 10 a 15 horas  Cerrado: todos los lunes del año, 1 de enero, 6 de enero, 1 de mayo, 24, 25 y 31 de diciembre y dos festivos locales." ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/PASEO+GENERAL+MARTINEZ+CAMPOS+37> .
+
+<http://www.wsdlfiupm.es/resources/group14/PASEO+GENERAL+MARTINEZ+CAMPOS+37> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "PASEO GENERAL MARTINEZ CAMPOS 37" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "CHAMBERI" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-36.923.288.211.390.000" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "4.043.557.863.874.970" .
+
+<http://www.wsdlfiupm.es/resources/group14/Museo+Taurino+de+la+Plaza+de+las+Ventas> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "Todos los días del año incluidos sábados, domingos y festivos de 10 a 18 horas, ininterrumpidamente, salvo los días de Festejo y en Feria de San Isidro y Otoño de 10 a 16 horas, ininterrumpidamente." ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/CALLE+ALCALA+237> .
+
+<http://www.wsdlfiupm.es/resources/group14/CALLE+ALCALA+237> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "CALLE ALCALA 237" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "SALAMANCA" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-3.662.872.780.933.850" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "4.043.157.110.306.010" .
+
+<http://www.wsdlfiupm.es/resources/group14/Museo+Tiflol%C3%B3gico> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "Martes a viernes de 10 a 14 horas y de 17 a 20 horas.  Sábados de 10 a 14 horas.  Lunes, domingos y festivos cerrado.   Las visitas de grupos se realizan previa reserva, de 8 a 14:00 horas, en el teléfono de información: 915 894 219" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/CALLE+LA+CORU%C3%91A+18> .
+
+<http://www.wsdlfiupm.es/resources/group14/CALLE+LA+CORU%C3%91A+18> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "CALLE LA CORUÑA 18" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "TETUAN" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-37.001.960.485.997.500" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "4.045.519.790.204.090" .
+
+<http://www.wsdlfiupm.es/resources/group14/Museo+de+Aeron%C3%A1utica+y+Astron%C3%A1utica> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "De martes a domingo de 10 a 14 horas.  Cerrado los días 1 y 6 de enero, el mes de agosto, Jueves y Viernes Santos, 12 de octubre, 10 de diciembre (Patrona de Aviación), 24, 25 y 31 de diciembre." ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/AUTOVIA+A-5+10.700> .
+
+<http://www.wsdlfiupm.es/resources/group14/AUTOVIA+A-5+10.700> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "AUTOVIA A-5 10.700" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "LATINA" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-3.798.200.034.372.680" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "403.733.013.700.739" .
+
+<http://www.wsdlfiupm.es/resources/group14/Museo+de+Am%C3%A9rica> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "Horario:    De martes a sábado, de 9:30 a 15 horas  Jueves, apertura continuada de 9:30 a 19 horas  Domingos y festivos de 10 a 15 horas    Cerrado:  todos los lunes del año, días 1 y 6 de enero, 1 de mayo, días 24, 25 y 31 de diciembre y un festivo local." ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/AVENIDA+REYES+CATOLICOS+6> .
+
+<http://www.wsdlfiupm.es/resources/group14/AVENIDA+REYES+CATOLICOS+6> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "AVENIDA REYES CATOLICOS 6" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "MONCLOA-ARAVACA" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-372.186.494.128.936" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "4.043.792.950.973.570" .
+
+<http://www.wsdlfiupm.es/resources/group14/Museo+de+Arte+Contempor%C3%A1neo+de+Madrid> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "Horario    De martes a sábado:  mañanas de 10 a 14 horas  tardes de 17:30 a 21 horas     Domingos y festivos  de 10:30 a 14 horas    Horario de Verano  del 15 de junio al 15 de septiembre   De martes a sábado:  mañanas de 10 a 14  horas  tardes de 17:30 a 20:30 horas    Domingos y festivos de 10:30 a 14 horas     Cerrado   Todos los lunes, 1 y 6 de enero, 1 de mayo y 25 de diciembre.  Las salas se desalojan 15 minutos antes del cierre." ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/CALLE+CONDE+DUQUE+9> .
+
+<http://www.wsdlfiupm.es/resources/group14/CALLE+CONDE+DUQUE+9> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "CALLE CONDE DUQUE 9" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-37.106.116.887.809.800" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "4.042.737.760.210.630" .
+
+<http://www.wsdlfiupm.es/resources/group14/Museo+de+Artes+y+Tradiciones+Populares.+Centro+Cultural+La+Corrala> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "Permanece abierto al público de lunes a viernes con horario de 10 a 20 horas. Sábados de 10 a 14 horas.  Cerrado domingos, festivos y mes de agosto" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/CALLE+CARLOS+ARNICHES+3> .
+
+<http://www.wsdlfiupm.es/resources/group14/CALLE+CARLOS+ARNICHES+3> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "CALLE CARLOS ARNICHES 3" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-3.708.330.456.274.060" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "4.040.882.397.197.270" .
+
+<http://www.wsdlfiupm.es/resources/group14/Museo+de+Astronom%C3%ADa+y+Geodesia> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "Visita con cita previa" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/PLAZA+CIENCIAS+3> .
+
+<http://www.wsdlfiupm.es/resources/group14/PLAZA+CIENCIAS+3> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "PLAZA CIENCIAS 3" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "MONCLOA-ARAVACA" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-37.262.214.898.219.100" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "4.044.942.472.705.850" .
+
+<http://www.wsdlfiupm.es/resources/group14/Museo+de+Bomberos> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "Abierto todos los días de 09'30 a 14 horas, excepto 25 de diciembre, 1 enero,  6 de enero y 1 de mayo.   Visitas Guiadas   Se pueden concertar en el teléfono: 914 786 572 (Museo)  Más información: 915 889 907 - 915 888 240" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/CALLE+BOADA+4> .
+
+<http://www.wsdlfiupm.es/resources/group14/CALLE+BOADA+4> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "CALLE BOADA 4" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "PUENTE DE VALLECAS" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-36.539.313.207.612.200" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "4.039.453.171.263.190" .
+
+<http://www.wsdlfiupm.es/resources/group14/Museo+de+Calcograf%C3%ADa+Nacional> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "Abierto con el mismo horario que la exposición temporal. En ausencia de exposiciones temporales, consultar en la taquilla del museo, telefónicamente o en la web." ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/CALLE+ALCALA+13> .
+
+<http://www.wsdlfiupm.es/resources/group14/CALLE+ALCALA+13> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "CALLE ALCALA 13" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-3.700.667.044.636.170" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "4.041.764.548.040.700" .
+
+<http://www.wsdlfiupm.es/resources/group14/Museo+de+Cera> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "De lunes a viernes de 10 a 14:30 y de 16:30 a 20:30 horas.  Sábados, domingos y festivos de 10 a 20:30 horas.  Los días 25 de diciembre y 1 de enero, el museo abre de 10 a 14:30 horas y de 16:30 a 20:30 horas.  Las taquillas cierran media hora antes." ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/PASEO+RECOLETOS+41> .
+
+<http://www.wsdlfiupm.es/resources/group14/PASEO+RECOLETOS+41> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "PASEO RECOLETOS 41" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-36.914.362.030.084.800" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "40.424.403.779.665.300" .
+
+<http://www.wsdlfiupm.es/resources/group14/Museo+de+Escultura+al+Aire+Libre+de+la+Castellana> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "Entrada libre. Espacio urbano abierto  Abierto 24 horas al día los 365 días del año." ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/PASEO+CASTELLANA+40> .
+
+<http://www.wsdlfiupm.es/resources/group14/PASEO+CASTELLANA+40> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "PASEO CASTELLANA 40" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "SALAMANCA" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-36.876.122.680.805.900" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "40.433.219.398.671.100" .
+
+<http://www.wsdlfiupm.es/resources/group14/Museo+de+Historia+de+Madrid> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "Horario    De martes a domingos de 10 a 20 horas.     Cerrado    Todos los lunes y los días 1 y 6 de enero, 1 de mayo,  24, 25 y 31 de diciembre." ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/CALLE+FUENCARRAL+78> .
+
+<http://www.wsdlfiupm.es/resources/group14/CALLE+FUENCARRAL+78> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "CALLE FUENCARRAL 78" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-3.700.845.660.719.600" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "4.042.577.054.821.340" .
+
+<http://www.wsdlfiupm.es/resources/group14/Museo+de+Mineralog%C3%ADa> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "Jueves de 10:30 a 14:30 horas, (conviene concertar previamente la visita).  Visitas guiadas por el personal del museo para grupos." ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/CARRETERA+COLMENAR+VIEJO+19000> .
+
+<http://www.wsdlfiupm.es/resources/group14/CARRETERA+COLMENAR+VIEJO+19000> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "CARRETERA COLMENAR VIEJO 19000" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "FUENCARRAL-EL PARDO" .
+
+<http://www.wsdlfiupm.es/resources/group14/Museo+de+San+Isidro.+Los+Or%C3%ADgenes+de+Madrid> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "General:  de martes a domingo y festivos de 9:30 a 20 horas.   Horario de verano  (16 de junio a 15 de septiembre):   martes a domingo de 10 a 19 horas.   Cerrado:  todos los lunes, 1 y 6 de enero, 1 de mayo y 24, 25 y 31 de diciembre." ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/PLAZA+SAN+ANDRES+1> .
+
+<http://www.wsdlfiupm.es/resources/group14/PLAZA+SAN+ANDRES+1> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "PLAZA SAN ANDRES 1" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-37.108.161.027.466.300" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "4.041.207.900.253.880" .
+
+<http://www.wsdlfiupm.es/resources/group14/Museo+de+Sanidad+e+Higiene+P%C3%BAblica> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "Sólo visitas de grupo con cita previa: de lunes a viernes, de 10 a 14 horas.  Cita previa por teléfono: 918 222 414  o a través del correo electrónico:  museodesanidad@isciii.es" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/AVENIDA+MONFORTE+DE+LEMOS+5> .
+
+<http://www.wsdlfiupm.es/resources/group14/AVENIDA+MONFORTE+DE+LEMOS+5> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "AVENIDA MONFORTE DE LEMOS 5" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "FUENCARRAL-EL PARDO" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-36.900.603.941.123.100" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "4.047.546.597.881.760" .
+
+<http://www.wsdlfiupm.es/resources/group14/Museo+de+la+Biblioteca+Nacional+de+Espa%C3%B1a> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "De martes a sábados: de 10 a 20 horas.   Domingos: de 10 a 14 horas.  Últimos pases 30 minutos antes del cierre  Día 5 de enero abierto de 10 a 18 horas.  Días 2 y 7 de enero; 20 de marzo; 13 y 14 de abril; 2 y 15 de mayo; 15 de agosto; 12 de octubre; 1 y 9 de noviembre; 8, 24 y 31 de diciembre: de 10 a 14 horas.  Días 1 y 6 de enero; 1 de mayo y 25 de diciembre: cerrado." ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/PASEO+RECOLETOS+20> .
+
+<http://www.wsdlfiupm.es/resources/group14/PASEO+RECOLETOS+20> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "PASEO RECOLETOS 20" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "SALAMANCA" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-369.084.423.390.357" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "40.423.001.908.945.900" .
+
+<http://www.wsdlfiupm.es/resources/group14/Museo+de+la+Catedral+de+la+Almudena> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "De lunes a sábado de 10 a 14:30 horas  Cerrado los domingos, fiestas de precepto y días de actos de culto especiales" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/CALLE+BAILEN+10> .
+
+<http://www.wsdlfiupm.es/resources/group14/CALLE+BAILEN+10> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "CALLE BAILEN 10" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-37.136.931.154.460.500" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "40.415.538.770.017.400" .
+
+<http://www.wsdlfiupm.es/resources/group14/Museo+de+la+Farmacia+Hispana> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "De lunes a viernes de 9 a 14 horas (periodo lectivo)." ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/PLAZA+RAMON+Y+CAJAL+0> .
+
+<http://www.wsdlfiupm.es/resources/group14/PLAZA+RAMON+Y+CAJAL+0> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "PLAZA RAMON Y CAJAL 0" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "MONCLOA-ARAVACA" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-37.262.160.043.788.100" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "404.445.328.804.645" .
+
+<http://www.wsdlfiupm.es/resources/group14/Museo+de+la+Guardia+Civil> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "Horario:  de lunes a viernes de 9 a 14 horas.    Individuales y grupos reducidos (cinco personas o menos):  sin previa petición de reserva - no guiadas.   Grupos grandes (más de cinco personas):  previa petición de reserva - guiadas." ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/CALLE+GUZMAN+EL+BUENO+110> .
+
+<http://www.wsdlfiupm.es/resources/group14/CALLE+GUZMAN+EL+BUENO+110> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "CALLE GUZMAN EL BUENO 110" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "CHAMBERI" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-3.712.300.118.990.830" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "4.044.438.523.242.580" .
+
+<http://www.wsdlfiupm.es/resources/group14/Museo+de+la+Real+Academia+de+Bellas+Artes+de+San+Fernando> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "De martes a domingos y festivos de 10 a 15 horas  Lunes cerrado   En periodos vacacionales puede sufrir cambios: llamar al 915 240 864   Cerrado:    1 y 6 de enero  1 y 30 de mayo  9 de noviembre  24, 25 y 31 de diciembre.    Exposiciones temporales : consultar telefónicamente" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/CALLE+ALCALA+13> .
+
+<http://www.wsdlfiupm.es/resources/group14/CALLE+ALCALA+13> <http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-37.006.553.517.170.600" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "4.041.765.456.031.190" .
+
+<http://www.wsdlfiupm.es/resources/group14/Museo+del+Atl%C3%A9tico+de+Madrid> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "Horarios del Museo   De lunes a domingo, de 11 a 19 horas (incluido fetivos).  Cerrado los días 24 y 31 de diciembre a partir de las 14 horas y todo el día del 25 de diciembre y el 1 y 6 de enero.     Horarios de las visitas guiadas   De lunes a domingo a las 12, 13, 16:30 y 17:30 horas  No se celebran los días 24, 25 y 31 de diciembre 1 y 6 de enero." ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/PASEO+VIRGEN+DEL+PUERTO+67> .
+
+<http://www.wsdlfiupm.es/resources/group14/PASEO+VIRGEN+DEL+PUERTO+67> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "PASEO VIRGEN DEL PUERTO 67" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "ARGANZUELA" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-3.721.216.029.988.990" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "40.401.464.995.943.600" .
+
+<http://www.wsdlfiupm.es/resources/group14/Museo+del+Ferrocarril+de+Madrid> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "Del 1 de enero al 31 de mayo y del 1 de octubre al 31 de diciembre:    Lunes a jueves, de 9.30 a 15 horas.  Viernes, sábado, domingo y festivos de 10 a 20 horas (el segundo viernes de mes permanecerá abierto hasta las 18 horas)    Del 1 de junio al 30 de septiembre   Lunes a domingo, de 10.00 a 15 horas.   Cerrado: 25 de diciembre, 1 y 6 de enero." ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/PASEO+DELICIAS+61> .
+
+<http://www.wsdlfiupm.es/resources/group14/PASEO+DELICIAS+61> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "PASEO DELICIAS 61" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "ARGANZUELA" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-3.693.817.192.160.560" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "40.400.281.290.485.500" .
+
+<http://www.wsdlfiupm.es/resources/group14/Museo+del+Prado> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "De lunes a sábado de 10 a 20 horas  Domingos y festivos de 10 a 19 horas  Cerrado los días 1 de enero, 1 de mayo y 25 de diciembre  Horario reducido, de 10 a 14 horas, los días 6 de enero, 24 y 31 de diciembre  Acceso al museo hasta 30 minutos antes del cierre (el desalojo de las salas comienza 10 minutos antes del cierre)  Horario gratuito, de lunes a sábado de 18 a 20 horas y domingos y festivos de 17 a 19 horas" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/CALLE+RUIZ+DE+ALARCON+23> .
+
+<http://www.wsdlfiupm.es/resources/group14/CALLE+RUIZ+DE+ALARCON+23> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "CALLE RUIZ DE ALARCON 23" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "RETIRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-3.691.325.445.518.220" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "4.041.358.458.131.170" .
+
+<http://www.wsdlfiupm.es/resources/group14/Museo+del+Reloj+Grassy> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "Jueves a las 17:30 y viernes a las 11:45 horas (excepto festivos).  Las visitas se efectúan con cita previa   Inscripción telefónica: 915 321 007  Inscripción por correo electrónico:  marta@grassy.es    La visita puede ser individual o en grupos de máximo 10 personas." ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/CALLE+GRAN+VIA+1> .
+
+<http://www.wsdlfiupm.es/resources/group14/CALLE+GRAN+VIA+1> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "CALLE GRAN VIA 1" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-369.806.583.195.521" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "4.041.914.770.731.550" .
+
+<http://www.wsdlfiupm.es/resources/group14/Museo+del+Robot> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "Martes a viernes: 13, 17 y 20 horas  Sábados: 16:30, 17:30, 18:45, 20 horas  Lunes y domingos cerrado   Reservas online:  http://www.therobotmuseum.eu/reservar-online/   Reserva Presencial: The Robot Museum tiene  disponibles el 50% de las entradas  para adquirirlas de forma presencial" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/CALLE+ALBERTO+AGUILERA+1> .
+
+<http://www.wsdlfiupm.es/resources/group14/CALLE+ALBERTO+AGUILERA+1> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "CALLE ALBERTO AGUILERA 1" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-37.068.731.815.207.000" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "4.042.949.061.464.900" .
+
+<http://www.wsdlfiupm.es/resources/group14/Museo+del+Romanticismo> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "Horario de invierno  (de noviembre a abril)  De martes a sábado: de 9:30 a 18:30. Domingos y festivos: de 10 a 15 horas   Horario de verano  (de mayo a octubre)  De martes a sábado: de 9:30 a 20:30. Domingos y festivos: de 10 a 15 horas   Cerrado:  Todos los lunes, 1 y 6 de enero, 1 de mayo, 24, 25 y 31 de diciembre." ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/CALLE+SAN+MATEO+13> .
+
+<http://www.wsdlfiupm.es/resources/group14/CALLE+SAN+MATEO+13> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "CALLE SAN MATEO 13" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-36.987.835.425.963.000" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "4.042.585.510.296.790" .
+
+<http://www.wsdlfiupm.es/resources/group14/Museo+del+Seguro.+Fundaci%C3%B3n+Mapfre> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "De lunes a Viernes previa petición de hora." ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/CALLE+BARBARA+DE+BRAGANZA+14> .
+
+<http://www.wsdlfiupm.es/resources/group14/CALLE+BARBARA+DE+BRAGANZA+14> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "CALLE BARBARA DE BRAGANZA 14" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-36.922.850.587.679.500" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "4.042.326.356.132.720" .
+
+<http://www.wsdlfiupm.es/resources/group14/Museo+del+Traje.+Centro+de+Investigaci%C3%B3n+del+Patrimonio+Etnol%C3%B3gico+%28CIPE%29> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "De martes a sábado de 9:30 a 19 horas. Domingos y festivos de 10 a 15 horas.  Verano (julio y agosto): los jueves se amplia el horario de 9: 30 a 22:30 horas.  Cerrado: todos los lunes, 1 y 6 de enero, 1 de mayo, 9 de noviembre, 24, 25 y 31 de diciembre." ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/AVENIDA+JUAN+DE+HERRERA+2> .
+
+<http://www.wsdlfiupm.es/resources/group14/AVENIDA+JUAN+DE+HERRERA+2> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "AVENIDA JUAN DE HERRERA 2" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "MONCLOA-ARAVACA" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-37.278.378.564.088.200" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "40.439.657.822.278.500" .
+
+<http://www.wsdlfiupm.es/resources/group14/Palacio+Real> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "Horario    De octubre a marzo: de 10 a 18 horas  De abril a septiembre: de 10 a 20 horas  Cierre taquillas una hora antes  Día 14 de junio de 2017 cerrado a las 15 horas  Día 15 de junio de 2017 cerrado en jornada completa" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/CALLE+BAILEN+0> .
+
+<http://www.wsdlfiupm.es/resources/group14/CALLE+BAILEN+0> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "CALLE BAILEN 0" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-3.712.699.107.286.400" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "4.042.075.212.551.190" .
+
+<http://www.wsdlfiupm.es/resources/group14/Palacio+de+Liria> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "Las visitas:  viernes a las 10, 11 y 12 horas . Cada turno estará formado por un máximo de 15 personas." ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/CALLE+PRINCESA+20> .
+
+<http://www.wsdlfiupm.es/resources/group14/CALLE+PRINCESA+20> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "CALLE PRINCESA 20" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-37.125.979.731.032.400" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "4.042.680.681.645.220" .
+
+<http://www.wsdlfiupm.es/resources/group14/Pante%C3%B3n+de+Hombres+Ilustres> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "De martes a sábado de 10 a 14 y de 16 a 18:30 horas  Domingos y festivos de 10 a 15 horas. Lunes cerrado  Cerrado todos los lunes del año" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/CALLE+JULIAN+GAYARRE+3> .
+
+<http://www.wsdlfiupm.es/resources/group14/CALLE+JULIAN+GAYARRE+3> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "CALLE JULIAN GAYARRE 3" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "RETIRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-3.683.413.041.846.520" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "4.040.622.617.519.110" .
+
+<http://www.wsdlfiupm.es/resources/group14/Parroquia+Santa+Cruz> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/CALLE+ATOCHA+6> .
+
+<http://www.wsdlfiupm.es/resources/group14/CALLE+ATOCHA+6> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "CALLE ATOCHA 6" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-3.705.255.882.048.690" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "40.414.608.558.946.000" .
+
+<http://www.wsdlfiupm.es/resources/group14/Planetario+de+Madrid> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "Horario del centro . Mañanas: de martes a viernes, de 9:30 a 13:45 horas (reservadas a escolares); fines de semana y festivos, de 11 a 13:45 horas. Tardes: de martes a viernes, de 17 a 19:45 horas; fines de semana y festivos, de 17 a 20:45 horas.     Cerrado:  Todos los  lunes  del año. Días  24, 25 y 31 de diciembre ,  1 de enero . Día  5  de enero (tarde), y  6  de enero (mañana)." ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Institutes> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/AVENIDA+PLANETARIO+16> .
+
+<http://www.wsdlfiupm.es/resources/group14/AVENIDA+PLANETARIO+16> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "AVENIDA PLANETARIO 16" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "ARGANZUELA" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-3.684.956.957.448.290" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "40.392.279.999.540.000" .
+
+<http://www.wsdlfiupm.es/resources/group14/Real+Bas%C3%ADlica+San+Francisco+el+Grande> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "Museo:     De martes a viernes de 10:30 a 12:30 y de 16 a 18 horas  Sábados de 10:30 a 12:30 y de 16 a 18 horas (si no se ofician actos religiosos).  Julio, agosto y septiembre: de martes a domingo de 10:30 a 12:30 y de 17 a 19 horas." ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/CALLE+SAN+BUENAVENTURA+1> .
+
+<http://www.wsdlfiupm.es/resources/group14/CALLE+SAN+BUENAVENTURA+1> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "CALLE SAN BUENAVENTURA 1" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-3.714.503.845.728.280" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "4.041.084.005.024.220" .
+
+<http://www.wsdlfiupm.es/resources/group14/Real+F%C3%A1brica+de+Tapices> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "De lunes a viernes de 10 a 14 horas.  Cerrado: sábados, domingos, festivos, Semana Santa y agosto." ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/CALLE+FUENTERRABIA+2> .
+
+<http://www.wsdlfiupm.es/resources/group14/CALLE+FUENTERRABIA+2> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "CALLE FUENTERRABIA 2" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "RETIRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-3.682.515.969.574.070" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "40.406.087.329.011.600" .
+
+<http://www.wsdlfiupm.es/resources/group14/Real+Monasterio+de+Santa+Isabel> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "El acceso al templo sólo es posible en horario de culto y por la fachada principal." ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/CALLE+SANTA+ISABEL+48> .
+
+<http://www.wsdlfiupm.es/resources/group14/CALLE+SANTA+ISABEL+48> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "CALLE SANTA ISABEL 48" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-36.994.547.941.964.900" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "4.041.213.027.498.250" .
+
+<http://www.wsdlfiupm.es/resources/group14/Real+Monasterio+de+la+Encarnaci%C3%B3n> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "De martes a sábado: de 10 a 14 horas y de 16 a 18:30 horas  Domingos y festivos: de 10 a 15 horas. Tardes cerrado  Cierre taquillas: una hora antes  Cerrado todos los lunes del año" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/PLAZA+ENCARNACION+1> .
+
+<http://www.wsdlfiupm.es/resources/group14/PLAZA+ENCARNACION+1> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "PLAZA ENCARNACION 1" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "CENTRO" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-3.711.567.962.866.150" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "4.041.967.800.877.380" .
+
+<http://www.wsdlfiupm.es/resources/group14/Real+Sitio+de+El+Pardo> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "Horario    De octubre a marzo: todos los días de 10 a 18 horas   De abril a septiembre: todos los días de 10 a 20 horas    Día 15 y 16 de junio de 2017, cerrado los dos días" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/CALLE+MANUEL+ALONSO+8> .
+
+<http://www.wsdlfiupm.es/resources/group14/CALLE+MANUEL+ALONSO+8> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "CALLE MANUEL ALONSO 8" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "FUENCARRAL-EL PARDO" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-37.762.390.614.462.800" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "40.520.522.342.970.100" .
+
+<http://www.wsdlfiupm.es/resources/group14/Templo+de+Debod> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "De martes a domingos y festivos: de 10:00 a 20:00 horas   El templo permanece cerrado los lunes y los días 1 y 6 de enero, 1 de mayo, 24, 25 y 31 de diciembre.   Último pase de visita 15 minutos antes del cierre.  Este horario y la apertura de salas pueden sufrir modificaciones, por favor, confírmelo en el teléfono de información del museo." ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/CALLE+FERRAZ+1> .
+
+<http://www.wsdlfiupm.es/resources/group14/CALLE+FERRAZ+1> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "CALLE FERRAZ 1" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "MONCLOA-ARAVACA" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-3.716.531.855.540.270" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "4.042.425.096.551.590" .
+
+<http://www.wsdlfiupm.es/resources/group14/Yacimiento+paleontol%C3%B3gico.+Estaci%C3%B3n+de+Metro+Carpetana> a <http://www.wsdlfiupm.es/resources/group14/class/Monuments_Museums_Organizations> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/schedule> "Visitas todos los días durante la apertura de la estación, de 6 a 1:30 horas" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/type> <http://www.wsdlfiupm.es/resources/group14/types/Historic> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/location> <http://www.wsdlfiupm.es/resources/group14/CALLE+VIA+CARPETANA+328> .
+
+<http://www.wsdlfiupm.es/resources/group14/CALLE+VIA+CARPETANA+328> a <http://www.wsdlfiupm.es/resources/group14/class/Position> ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/street> "CALLE VIA CARPETANA 328" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/district> "LATINA" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/longitude> "-37.428.839.286.586.100" ;
+	<http://www.wsdlfiupm.es/resources/group14/properties/latitude> "4.039.150.793.405.890" .
