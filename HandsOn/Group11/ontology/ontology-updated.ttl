@@ -67,6 +67,16 @@ property:isFree rdf:type owl:DatatypeProperty ;
 				rdfs:range xsd:boolean ;
 				rdfs:label "Is Free?"^^xsd:string .
 				
+property:district  rdf:type owl:DatatypeProperty ;
+					rdfs:domain class:Event ;
+					rdfs:range rdfs:Literal ;
+					rdfs:label "District"^^xsd:string .
+					
+property:isLong rdf:type owl:DatatypeProperty ;
+				rdfs:domain class:Event ;
+				rdfs:range xsd:boolean ;
+				rdfs:label "Is Long?"^^xsd:string .
+				
 geo:location  rdf:type owl:DatatypeProperty ;
 					rdfs:domain class:Event ;
 					rdfs:range geo:Point ;
