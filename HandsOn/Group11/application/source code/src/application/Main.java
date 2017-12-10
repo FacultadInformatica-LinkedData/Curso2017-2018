@@ -112,7 +112,7 @@ public class Main extends Application {
 		//TODO Connect to data on AWS or local server Virtuoso
 		
 		//DEBUG
-		for(int i = 0; i<30000; i++){
+		for(int i = 0; i<10000; i++){
 			System.out.println(i);
 		}
 		
