@@ -46,6 +46,10 @@ public class Main extends Application {
 			vbox.setAlignment(Pos.CENTER);
 			root.setTop(vbox);
 			
+			//Main scene
+			Scene scene = new Scene(root,800,600);
+			scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
+			
 			//Start button
 			Button startButton = new Button("Start");
 			startButton.setPrefSize(100, 100);
@@ -63,7 +67,7 @@ public class Main extends Application {
 			        @Override
 			        public void handle(WorkerStateEvent t) {
 			            if(connectingTask.getValue()){
-			            	primaryStage.close();
+			            	new EventsViewer(scene);
 			            }
 			            else{
 			            	textData.setVisible(true);
@@ -83,10 +87,6 @@ public class Main extends Application {
 		    });
 		    
 			root.setCenter(startButton);
-			
-			//Main scene
-			Scene scene = new Scene(root,800,600);
-			scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
 			
 			//Title
 			primaryStage.setTitle("Madrid Events");
@@ -112,10 +112,10 @@ public class Main extends Application {
 		//TODO Connect to data on AWS or local server Virtuoso
 		
 		//DEBUG
-		for(int i = 0; i<1000000; i++){
+		for(int i = 0; i<30000; i++){
 			System.out.println(i);
 		}
 		
-		return false;
+		return true;
 	}
 }
