@@ -1,0 +1,232 @@
+@prefix : <http://www.semanticweb.org/group03/ontology> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/group03/ontology> .
+
+<http://www.semanticweb.org/group03/ontology> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.disit.org/km4city/schema#hasStreetNumber
+<http://www.disit.org/km4city/schema#hasStreetNumber> rdf:type owl:ObjectProperty ;
+                                                      rdfs:domain <http://www.disit.org/km4city/schema#Road> ;
+                                                      rdfs:range <http://www.disit.org/km4city/schema#StreetNumber> ;
+                                                      rdfs:comment "Each road has street numbers."@en ,
+                                                                   "Ogni strada ha numeri civici."@it ;
+                                                      rdfs:label "Ha numero civico"@it ,
+                                                                 "Has street number"@en .
+
+
+###  http://www.semanticweb.org/group03/closeTo
+<http://www.semanticweb.org/group03/closeTo> rdf:type owl:ObjectProperty ;
+                                             owl:inverseOf <http://www.semanticweb.org/group03/closeTo> ;
+                                             rdfs:domain <http://www.semanticweb.org/group03/Parking> ;
+                                             rdfs:range <http://www.semanticweb.org/group03/ParkingMeter> .
+
+
+###  http://www.semanticweb.org/group03/ontology#hasLocation
+:hasLocation rdf:type owl:ObjectProperty ;
+             rdfs:domain <http://www.semanticweb.org/group03/Place> ;
+             rdfs:range :Location .
+
+
+###  http://www.semanticweb.org/group03/ontology#hasNeighborhood
+:hasNeighborhood rdf:type owl:ObjectProperty ;
+                 rdfs:domain <http://www.disit.org/km4city/schema#District> ;
+                 rdfs:range :Neighborhood .
+
+
+###  http://www.semanticweb.org/group03/ontology#hasRoad
+:hasRoad rdf:type owl:ObjectProperty ;
+         rdfs:domain <http://www.disit.org/km4city/schema#District> ;
+         rdfs:range <http://www.pms.ifi.uni-muenchen.de/OTN#Road> .
+
+
+###  http://www.semanticweb.org/group03/ontology#hashDistrict
+:hashDistrict rdf:type owl:ObjectProperty ;
+              rdfs:domain :Location ;
+              rdfs:range <http://www.disit.org/km4city/schema#District> .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.disit.org/km4city/schema#areaName
+<http://www.disit.org/km4city/schema#areaName> rdf:type owl:DatatypeProperty ;
+                                               rdfs:domain <http://www.disit.org/km4city/schema#Service> ;
+                                               rdfs:range xsd:string ;
+                                               rdfs:comment "Name of the area, defined at the municipal level, where the service or the sensor is located."@en ,
+                                                            "Nome dell'area, definita a livello comunale, all'interno della quale si trova localizzato il servizio o il sensore che ha eseguito una rilevazione."@it ;
+                                               rdfs:label "Area name"@en ,
+                                                          "Nome area"@it .
+
+
+###  http://www.disit.org/km4city/schema#number
+<http://www.disit.org/km4city/schema#number> rdf:type owl:DatatypeProperty ;
+                                             rdfs:domain <http://www.disit.org/km4city/schema#StreetNumber> ;
+                                             rdfs:range xsd:string ;
+                                             rdfs:comment "It provides the numerical part of the civic number."@en ,
+                                                          "Riporta la parte numerica del numero civico."@it ;
+                                             rdfs:label "Number"@en ,
+                                                        "Numero"@it .
+
+
+###  http://www.disit.org/km4city/schema#roadName
+<http://www.disit.org/km4city/schema#roadName> rdf:type owl:DatatypeProperty ;
+                                               rdfs:domain <http://www.disit.org/km4city/schema#Road> ;
+                                               rdfs:range xsd:string ;
+                                               rdfs:comment "It indicates the name of the road without the generic naming."@en ,
+                                                            "Riporta la denominazione della strada omettendo la denominazione urbanistica generica."@it ;
+                                               rdfs:label "Nome di strada"@it ,
+                                                          "Road name"@en .
+
+
+###  http://www.disit.org/km4city/schema#roadType
+<http://www.disit.org/km4city/schema#roadType> rdf:type owl:DatatypeProperty ;
+                                               rdfs:domain <http://www.disit.org/km4city/schema#Road> ;
+                                               rdfs:range xsd:string ;
+                                               rdfs:comment "It indicates the generic naming only."@en ,
+                                                            "Riporta la denominazione urbanistica generica della strada."@it ;
+                                               rdfs:label "Road type"@en ,
+                                                          "Tipo di strada"@it .
+
+
+###  http://www.semanticweb.org/group03/connectorType
+<http://www.semanticweb.org/group03/connectorType> rdf:type owl:DatatypeProperty ;
+                                                   rdfs:domain <http://www.semanticweb.org/group03/ElectricCarParkingArea> ;
+                                                   rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/group03/numberOfParkingPlaces
+<http://www.semanticweb.org/group03/numberOfParkingPlaces> rdf:type owl:DatatypeProperty ;
+                                                           rdfs:domain <http://www.semanticweb.org/group03/Parking> ;
+                                                           rdfs:range xsd:int .
+
+
+###  http://www.semanticweb.org/group03/numberOfconnectors
+<http://www.semanticweb.org/group03/numberOfconnectors> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:domain <http://www.semanticweb.org/group03/ElectricCarParkingArea> ;
+                                                        rdfs:range xsd:int .
+
+
+###  http://www.semanticweb.org/group03/parkingType
+<http://www.semanticweb.org/group03/parkingType> rdf:type owl:DatatypeProperty ;
+                                                 rdfs:domain <http://www.semanticweb.org/group03/Parking> ;
+                                                 rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/group03/wayOfParking
+<http://www.semanticweb.org/group03/wayOfParking> rdf:type owl:DatatypeProperty ;
+                                                  rdfs:domain <http://www.semanticweb.org/group03/Parking> ;
+                                                  rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/group03/ontology#areaName
+:areaName rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Neighborhood ;
+          rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.disit.org/km4city/schema#District
+<http://www.disit.org/km4city/schema#District> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.disit.org/km4city/schema#GovernmentOffice> ;
+                                               rdfs:comment "Class whose instances are the various neighborhoods in which a city can be subdivided."@en ,
+                                                            "Classe le cui istanze sono i vari quartieri in cui una città può essere suddivisa."@it ;
+                                               rdfs:label "District"@en ,
+                                                          "Quartiere"@it .
+
+
+###  http://www.disit.org/km4city/schema#GovernmentOffice
+<http://www.disit.org/km4city/schema#GovernmentOffice> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <http://www.disit.org/km4city/schema#Service> .
+
+
+###  http://www.disit.org/km4city/schema#Road
+<http://www.disit.org/km4city/schema#Road> rdf:type owl:Class ;
+                                           rdfs:subClassOf <http://www.pms.ifi.uni-muenchen.de/OTN#Road> ;
+                                           rdfs:comment "Class whose instances are the streets."@en ,
+                                                        "Classe le cui istanze sono le strade."@it ;
+                                           rdfs:label "Road"@en ,
+                                                      "Strada"@it .
+
+
+###  http://www.disit.org/km4city/schema#Service
+<http://www.disit.org/km4city/schema#Service> rdf:type owl:Class .
+
+
+###  http://www.disit.org/km4city/schema#StreetNumber
+<http://www.disit.org/km4city/schema#StreetNumber> rdf:type owl:Class ;
+                                                   rdfs:comment "Class whose instances are known civic numbers."@en ,
+                                                                "Classe le cui istanze sono i numeri civici conosciuti."@it ;
+                                                   rdfs:label "Numero Civico"@it ,
+                                                              "Street Number"@en .
+
+
+###  http://www.pms.ifi.uni-muenchen.de/OTN#Road
+<http://www.pms.ifi.uni-muenchen.de/OTN#Road> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/group03/BlueParkingArea
+<http://www.semanticweb.org/group03/BlueParkingArea> rdf:type owl:Class ;
+                                                     rdfs:subClassOf <http://www.semanticweb.org/group03/Parking> .
+
+
+###  http://www.semanticweb.org/group03/DisabledParkingArea
+<http://www.semanticweb.org/group03/DisabledParkingArea> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://www.semanticweb.org/group03/Parking> .
+
+
+###  http://www.semanticweb.org/group03/ElectricCarParkingArea
+<http://www.semanticweb.org/group03/ElectricCarParkingArea> rdf:type owl:Class ;
+                                                            rdfs:subClassOf <http://www.semanticweb.org/group03/Parking> .
+
+
+###  http://www.semanticweb.org/group03/GreenParkingArea
+<http://www.semanticweb.org/group03/GreenParkingArea> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <http://www.semanticweb.org/group03/Parking> .
+
+
+###  http://www.semanticweb.org/group03/OrangeParkingArea
+<http://www.semanticweb.org/group03/OrangeParkingArea> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <http://www.semanticweb.org/group03/Parking> .
+
+
+###  http://www.semanticweb.org/group03/Parking
+<http://www.semanticweb.org/group03/Parking> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://www.semanticweb.org/group03/Place> .
+
+
+###  http://www.semanticweb.org/group03/ParkingMeter
+<http://www.semanticweb.org/group03/ParkingMeter> rdf:type owl:Class ;
+                                                  rdfs:subClassOf <http://www.semanticweb.org/group03/Place> .
+
+
+###  http://www.semanticweb.org/group03/Place
+<http://www.semanticweb.org/group03/Place> rdf:type owl:Class ;
+                                           rdfs:comment <http://www.semanticweb.org/group03/Place> .
+
+
+###  http://www.semanticweb.org/group03/RedParkingArea
+<http://www.semanticweb.org/group03/RedParkingArea> rdf:type owl:Class ;
+                                                    rdfs:subClassOf <http://www.semanticweb.org/group03/Parking> .
+
+
+###  http://www.semanticweb.org/group03/ontology#Location
+:Location rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/group03/ontology#Neighborhood
+:Neighborhood rdf:type owl:Class .
+
+
+###  Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi

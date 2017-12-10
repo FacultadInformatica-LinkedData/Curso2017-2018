@@ -1,0 +1,139 @@
+[
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column ACCESIBILIDAD using expression grel:value == 1",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "ACCESIBILIDAD",
+    "expression": "grel:value == 1",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column DESCRIPCION-ENTIDAD",
+    "columnName": "DESCRIPCION-ENTIDAD"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column PK",
+    "columnName": "PK"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column EQUIPAMIENTO using expression value.trim()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "EQUIPAMIENTO",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column COMEDOR at index 3 based on column EQUIPAMIENTO using expression grel:value != null && value.toLowercase().contains(\"comedor\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "COMEDOR",
+    "columnInsertIndex": 3,
+    "baseColumnName": "EQUIPAMIENTO",
+    "expression": "grel:value != null && value.toLowercase().contains(\"comedor\")",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column TRANSPORTE_PRIVADO at index 3 based on column EQUIPAMIENTO using expression grel:value != null && value.toLowercase().contains(\"transporte\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "TRANSPORTE_PRIVADO",
+    "columnInsertIndex": 3,
+    "baseColumnName": "EQUIPAMIENTO",
+    "expression": "grel:value != null && value.toLowercase().contains(\"transporte\")",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column TRANSPORTE_PRIVADO to SERVICIO_RUTA",
+    "oldColumnName": "TRANSPORTE_PRIVADO",
+    "newColumnName": "SERVICIO_RUTA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column EQUIPAMIENTO",
+    "columnName": "EQUIPAMIENTO"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TIPO-NUM using expression grel:value.replace('V', 'NUM')",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "V",
+                "l": "V"
+              }
+            },
+            {
+              "v": {
+                "v": "NUM",
+                "l": "NUM"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "TIPO-NUM",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "TIPO-NUM"
+        }
+      ]
+    },
+    "columnName": "TIPO-NUM",
+    "expression": "grel:value.replace('V', 'NUM')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column ESCALERAS",
+    "columnName": "ESCALERAS"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column PUERTA",
+    "columnName": "PUERTA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column PLANTA",
+    "columnName": "PLANTA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column LOCALIDAD",
+    "columnName": "LOCALIDAD"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column PROVINCIA",
+    "columnName": "PROVINCIA"
+  }
+]
