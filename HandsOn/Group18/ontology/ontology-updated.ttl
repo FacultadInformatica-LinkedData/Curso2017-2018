@@ -1,0 +1,150 @@
+@prefix : <http://www.semanticweb.org/grupo18/ontologies##> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix park: <http://www.semanticweb.org/webSemantica/grupo18/vocabulary#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/grupo18/ontologies> .
+
+<http://www.semanticweb.org/grupo18/ontologies> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://dbpedia.org/ontology/isPartOf
+<http://dbpedia.org/ontology/isPartOf> rdf:type owl:ObjectProperty ,
+                                                owl:AsymmetricProperty ;
+                                       rdfs:domain <http://dbpedia.org/ontology/Settlement> ;
+                                       rdfs:range <http://dbpedia.org/ontology/City> .
+
+
+###  http://dbpedia.org/ontology/owns
+<http://dbpedia.org/ontology/owns> rdf:type owl:ObjectProperty ,
+                                            owl:AsymmetricProperty ;
+                                   rdfs:domain <http://dbpedia.org/ontology/Company> ;
+                                   rdfs:range <http://linkedgeodata.org/page/ontology/Parking> .
+
+
+###  http://www.w3.org/2006/vcard/ns#hasAddress
+<http://www.w3.org/2006/vcard/ns#hasAddress> rdf:type owl:ObjectProperty ;
+                                             rdfs:domain <http://linkedgeodata.org/page/ontology/Parking> ;
+                                             rdfs:range <http://www.w3.org/2006/vcard/ns#Address> .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://aims.fao.org/aos/geopolitical.owl#hasCoordinate
+<http://aims.fao.org/aos/geopolitical.owl#hasCoordinate> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://linkedgeodata.org/page/ontology/Parking> ;
+                                                         rdfs:range xsd:float .
+
+
+###  http://www.semanticweb.org/grupo18/ontologies##hasCoordinate_1
+:hasCoordinate_1 rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf <http://aims.fao.org/aos/geopolitical.owl#hasCoordinate> ;
+                 rdfs:domain <http://linkedgeodata.org/page/ontology/Parking> ;
+                 rdfs:range xsd:float .
+
+
+###  http://www.semanticweb.org/grupo18/ontologies##hasCoordinate_2
+:hasCoordinate_2 rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf <http://aims.fao.org/aos/geopolitical.owl#hasCoordinate> ;
+                 rdfs:domain <http://linkedgeodata.org/page/ontology/Parking> ;
+                 rdfs:range xsd:float .
+
+
+###  http://www.semanticweb.org/grupo18/ontologies##hasParkingSpots
+:hasParkingSpots rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf owl:topDataProperty ;
+                 rdfs:domain <http://linkedgeodata.org/page/ontology/Parking> ;
+                 rdfs:range xsd:int .
+
+
+###  http://www.semanticweb.org/grupo18/ontologies##hasRoadName
+:hasRoadName rdf:type owl:DatatypeProperty ;
+             rdfs:domain <http://www.w3.org/2006/vcard/ns#Address> ;
+             rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/grupo18/ontologies##hasRoadNumber
+:hasRoadNumber rdf:type owl:DatatypeProperty ;
+               rdfs:domain <http://www.w3.org/2006/vcard/ns#Address> ;
+               rdfs:range xsd:int .
+
+
+###  http://www.w3.org/2006/vcard/ns#hasPostalCode
+<http://www.w3.org/2006/vcard/ns#hasPostalCode> rdf:type owl:DatatypeProperty ;
+                                                rdfs:subPropertyOf owl:topDataProperty ;
+                                                rdfs:domain <http://www.w3.org/2006/vcard/ns#Address> ;
+                                                rdfs:range xsd:int .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://dbpedia.org/ontology/City
+<http://dbpedia.org/ontology/City> rdf:type owl:Class .
+
+
+###  http://dbpedia.org/ontology/Company
+<http://dbpedia.org/ontology/Company> rdf:type owl:Class ;
+                                      rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                        owl:onProperty <http://dbpedia.org/ontology/owns> ;
+                                                        owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                        owl:onClass <http://linkedgeodata.org/page/ontology/Parking>
+                                                      ] .
+
+
+###  http://dbpedia.org/ontology/Settlement
+<http://dbpedia.org/ontology/Settlement> rdf:type owl:Class ;
+                                         rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                           owl:onProperty <http://dbpedia.org/ontology/isPartOf> ;
+                                                           owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                           owl:onClass <http://dbpedia.org/ontology/City>
+                                                         ] .
+
+
+###  http://linkedgeodata.org/page/ontology/Parking
+<http://linkedgeodata.org/page/ontology/Parking> rdf:type owl:Class .
+
+
+###  http://www.w3.org/2006/vcard/ns#Address
+<http://www.w3.org/2006/vcard/ns#Address> rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/grupo18/ontologies##Bruxelles
+:Bruxelles rdf:type owl:NamedIndividual ,
+                    <http://dbpedia.org/ontology/City> .
+
+
+###  http://www.semanticweb.org/grupo18/ontologies##Interparking
+:Interparking rdf:type owl:NamedIndividual ,
+                       <http://dbpedia.org/ontology/Company> .
+
+
+###  http://www.semanticweb.org/grupo18/ontologies##Nord-Rogier
+:Nord-Rogier rdf:type owl:NamedIndividual ,
+                      <http://dbpedia.org/ontology/Settlement> .
+
+
+###  http://www.semanticweb.org/grupo18/ontologies##Ommega_16-20
+:Ommega_16-20 rdf:type owl:NamedIndividual ,
+                       <http://www.w3.org/2006/vcard/ns#Address> .
+
+
+###  http://www.semanticweb.org/grupo18/ontologies##Passage_44
+:Passage_44 rdf:type owl:NamedIndividual ,
+                     <http://linkedgeodata.org/page/ontology/Parking> .
+
+
+###  Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi
