@@ -32,3 +32,14 @@
            ,"Libraries in Madrid"@en;
 	dcat:keyword "Libraries"@en "Bibliotecas"@es ;
 	dct:license rdflicense: CC-BY-NC;
+	dcat:distribution :sparql ;
+.
+
+:sparql
+	a dcat:Distribution ;
+	void:sparqlEndpoint <http://ec2-34-239-122-250.compute-1.amazonaws.com/sparql> ;
+	dcat:accessURL <http://ec2-34-239-122-250.compute-1.amazonaws.com/sparql> ;
+	dct:title "Access to the SPARQL endpoint"@en ,
+			  "Acceso al endpoint SPARQL"@es ;
+    dct:license rdflicense:CC-BY-NC ;
+	.
