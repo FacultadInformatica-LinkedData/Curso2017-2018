@@ -26,7 +26,7 @@
 - [X] Defines the range of all the properties (the destination of the property)
 - [X] Defines all class names starting with a capital letter
 - [X] Defines all property names starting with a non-capital letter
-- [X] Does not mix labels in different languages (e.g., Spanish and English)
+- [] Does not mix labels in different languages (e.g., Spanish and English)
 - [X] Does not define multiple domains or multiple ranges in properties
 - [X] Contains at least one class that will be used to link to other entities
 
