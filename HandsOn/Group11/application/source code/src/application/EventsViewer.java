@@ -1,17 +1,15 @@
 package application;
 
+import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
 
-import javafx.beans.binding.Bindings;
-import javafx.collections.ObservableList;
 import javafx.geometry.Orientation;
-import javafx.scene.Node;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.CheckBox;
 import javafx.scene.control.Label;
-import javafx.scene.control.ScrollPane;
+import javafx.scene.control.ListView;
 import javafx.scene.control.Separator;
 import javafx.scene.control.TextField;
 import javafx.scene.image.Image;
@@ -30,19 +28,33 @@ import javafx.scene.layout.CornerRadii;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.scene.paint.Color;
-import javafx.scene.paint.Paint;
 import javafx.scene.text.Font;
 import javafx.scene.text.Text;
 
 
 public class EventsViewer{
 	
+	private HashMap<String, String> results;
+	
 	private Scene scene;
 	private BorderPane root;
 	
-	private VBox nameResults;
-	private VBox descriptionResults;
+	private ListView<String> nameResultsList;
+	private Label descriptionResultsLabel;
 	private Button startButton;
+
+	private TextField nameField;
+	private CheckBox mondayCheckbox;
+	private CheckBox tuesdayCheckbox;
+	private CheckBox wednesdayCheckbox;
+	private CheckBox thursdayCheckbox;
+	private CheckBox fridayCheckbox;
+	private CheckBox saturdayCheckbox;
+	private CheckBox sundayCheckbox;
+	private TextField districtField;
+	private CheckBox isFreeCheckbox;
+
+	private CheckBox isLongCheckbox;
 
 	public EventsViewer(Scene scene){
 		this.scene = scene;
@@ -52,6 +64,7 @@ public class EventsViewer{
 		setTopFilters();
 		setResultsArea();
 		this.scene.setRoot(root);
+		this.results = new HashMap<String, String>();
 	}
 
 	private void setTopFilters(){
@@ -70,7 +83,7 @@ public class EventsViewer{
 		firstRowfilters.setSpacing(20);
 		Text name = new Text("Name:");
 		name.setFont(new Font("Arial", 20));
-		TextField textField = new TextField ();
+		this.nameField = new TextField ();
 		//Box for days of the week
 		Text daysOfTheWeekText = new Text("Days of the Week:");
 		daysOfTheWeekText.setFont(new Font("Arial", 20));
@@ -79,54 +92,54 @@ public class EventsViewer{
 		VBox monday = new VBox();
 			Text mondayText = new Text("Mo");
 			mondayText.setFont(new Font("Arial", 15));
-			CheckBox mondayCheckbox = new CheckBox();
+			this.mondayCheckbox = new CheckBox();
 			monday.getChildren().add(mondayText);
 			monday.getChildren().add(mondayCheckbox);
 			daysOfTheWeek.getChildren().add(monday);
 		VBox tuesday = new VBox();
 			Text tuesdayText = new Text("Tu");
 			tuesdayText.setFont(new Font("Arial", 15));
-			CheckBox tuesdayCheckbox = new CheckBox();
+			this.tuesdayCheckbox = new CheckBox();
 			tuesday.getChildren().add(tuesdayText);
 			tuesday.getChildren().add(tuesdayCheckbox);
 			daysOfTheWeek.getChildren().add(tuesday);
 		VBox wednesday = new VBox();
 			Text wednesdayText = new Text("We");
 			wednesdayText.setFont(new Font("Arial", 15));
-			CheckBox wednesdayCheckbox = new CheckBox();
+			this.wednesdayCheckbox = new CheckBox();
 			wednesday.getChildren().add(wednesdayText);
 			wednesday.getChildren().add(wednesdayCheckbox);
 			daysOfTheWeek.getChildren().add(wednesday);
 		VBox thursday = new VBox();
 			Text thursdayText = new Text("Th");
 			thursdayText.setFont(new Font("Arial", 15));
-			CheckBox thursdayCheckbox = new CheckBox();
+			this.thursdayCheckbox = new CheckBox();
 			thursday.getChildren().add(thursdayText);
 			thursday.getChildren().add(thursdayCheckbox);
 			daysOfTheWeek.getChildren().add(thursday);
 		VBox friday = new VBox();
 			Text fridayText = new Text("Fr");
 			fridayText.setFont(new Font("Arial", 15));
-			CheckBox fridayCheckbox = new CheckBox();
+			this.fridayCheckbox = new CheckBox();
 			friday.getChildren().add(fridayText);
 			friday.getChildren().add(fridayCheckbox);
 			daysOfTheWeek.getChildren().add(friday);
 		VBox saturday = new VBox();
 			Text saturdayText = new Text("Sa");
 			saturdayText.setFont(new Font("Arial", 15));
-			CheckBox saturdayCheckbox = new CheckBox();
+			this.saturdayCheckbox = new CheckBox();
 			saturday.getChildren().add(saturdayText);
 			saturday.getChildren().add(saturdayCheckbox);
 			daysOfTheWeek.getChildren().add(saturday);
 		VBox sunday = new VBox();
 			Text sundayText = new Text("Su");
 			sundayText.setFont(new Font("Arial", 15));
-			CheckBox sundayCheckbox = new CheckBox();
+			this.sundayCheckbox = new CheckBox();
 			sunday.getChildren().add(sundayText);
 			sunday.getChildren().add(sundayCheckbox);
 			daysOfTheWeek.getChildren().add(sunday);
 		firstRowfilters.getChildren().add(name);
-		firstRowfilters.getChildren().add(textField);
+		firstRowfilters.getChildren().add(nameField);
 		firstRowfilters.getChildren().add(daysOfTheWeekText);
 		firstRowfilters.getChildren().add(daysOfTheWeek);
 		createButtonSearch();
@@ -138,7 +151,7 @@ public class EventsViewer{
 		secondRowfilters.setSpacing(20);
 		Text district = new Text("District:");
 		district.setFont(new Font("Arial", 20));
-		TextField districtField = new TextField ();
+		this.districtField = new TextField ();
 		secondRowfilters.getChildren().add(district);
 		secondRowfilters.getChildren().add(districtField);
 		filtersBox.getChildren().add(secondRowfilters);
@@ -148,10 +161,10 @@ public class EventsViewer{
 		thirdRowfilters.setSpacing(20);
 		Text isFree = new Text("Free:");
 		isFree.setFont(new Font("Arial", 20));
-		CheckBox isFreeCheckbox = new CheckBox();
+		this.isFreeCheckbox = new CheckBox();
 		Text isLong = new Text("Long:");
 		isLong.setFont(new Font("Arial", 20));
-		CheckBox isLongCheckbox = new CheckBox();
+		this.isLongCheckbox = new CheckBox();
 		thirdRowfilters.getChildren().add(isFree);
 		thirdRowfilters.getChildren().add(isFreeCheckbox);
 		thirdRowfilters.getChildren().add(isLong);
@@ -168,11 +181,11 @@ public class EventsViewer{
 	private void setResultsArea() {
 		HBox resultsBox = new HBox();
 		
-		this.nameResults = new VBox();
-		this.nameResults.setBackground(new Background(new BackgroundFill(Color.WHITE, CornerRadii.EMPTY, null)));
-		this.nameResults.setPrefWidth(200);
-		this.nameResults.setOnMouseClicked(e -> {
-			this.nameResults.requestFocus();
+		VBox nameResults = new VBox();
+		nameResults.setBackground(new Background(new BackgroundFill(Color.WHITE, CornerRadii.EMPTY, null)));
+		nameResults.setPrefWidth(200);
+		nameResults.setOnMouseClicked(e -> {
+			nameResults.requestFocus();
 		});
 		resultsBox.getChildren().add(nameResults);
 		Label labelNames = new Label("Name");
@@ -180,24 +193,29 @@ public class EventsViewer{
 		labelNames.setBorder(new Border(new BorderStroke(Color.BLACK, BorderStrokeStyle.SOLID, CornerRadii.EMPTY, new BorderWidths(2))));
 		labelNames.setPrefWidth(200);
 		nameResults.getChildren().add(labelNames);
-		ScrollPane scrollNames = new ScrollPane();
-		scrollNames.setContent(nameResults); 
-		resultsBox.getChildren().add(scrollNames);
+		this.nameResultsList = new ListView<String>();
+		nameResults.getChildren().add(nameResultsList);
+		nameResultsList.setOnMouseClicked( e -> {
+			setDescription(getDescription(nameResultsList.getSelectionModel().getSelectedItem()));
+	    });
+		
 		
 		Separator separator = new Separator();
 		separator.setBorder(new Border(new BorderStroke(Color.BLACK, BorderStrokeStyle.SOLID, CornerRadii.EMPTY, new BorderWidths(2))));
 		separator.setOrientation(Orientation.VERTICAL);
 		resultsBox.getChildren().add(separator);
 		
-		this.descriptionResults = new VBox();
-		this.descriptionResults.setBackground(new Background(new BackgroundFill(Color.WHITE, CornerRadii.EMPTY, null)));
-		this.descriptionResults.setPrefWidth(200);
+		VBox descriptionResults = new VBox();
+		descriptionResults.setBackground(new Background(new BackgroundFill(Color.WHITE, CornerRadii.EMPTY, null)));
+		descriptionResults.setPrefWidth(200);
 		resultsBox.getChildren().add(descriptionResults);
 		Label labelDescription = new Label("Description");
 		labelDescription.setFont(new Font("Arial", 20));
 		labelDescription.setBorder(new Border(new BorderStroke(Color.BLACK, BorderStrokeStyle.SOLID, CornerRadii.EMPTY, new BorderWidths(2))));
 		labelDescription.setPrefWidth(200);
 		descriptionResults.getChildren().add(labelDescription);
+		this.descriptionResultsLabel = new Label();
+		descriptionResults.getChildren().add(this.descriptionResultsLabel);
 		
 		Separator separator2 = new Separator();
 		separator2.setBorder(new Border(new BorderStroke(Color.BLACK, BorderStrokeStyle.SOLID, CornerRadii.EMPTY, new BorderWidths(2))));
@@ -220,62 +238,45 @@ public class EventsViewer{
 			}
 			strings.add("----------------------------------------------------------------------------");
 			setResults(strings);
+			makeSearch();
 	    	});
 	}
 	
 	private void setResults(List<String> list){
-		ObservableList<Node> children = this.nameResults.getChildren();
-		Label label = null;
-		for(Node n : children){
-			if(n instanceof Label){
-				label = (Label)n;
-			}
-		}
-		children.clear();
-		children.add(label);
+		this.nameResultsList.getItems().clear();
 		for (String result : list){
-			Text s = new Text(result);
-			s.setOnMouseClicked(e -> {
-				setDescription(getDescription(result));
-				s.requestFocus();
-			});
-			s.fillProperty().bind(Bindings
-					.when(s.focusedProperty())
-					.then(Color.RED)
-					.otherwise(Color.BLACK)
-			);
-			s.setFont(new Font("Arial", 15));
-			children.add(s);
+			this.nameResultsList.getItems().add(result);
 		}
 		System.gc();
 		return;
 	}
 	
 	private void setDescription(String description){
-		ObservableList<Node> children = this.descriptionResults.getChildren();
-		Label label = null;
-		for(Node n : children){
-			if(n instanceof Label){
-				label = (Label)n;
-				break;
-			}
-		}
-		children.clear();
-		children.add(label);
-		Label descrip = new Label(description);
-		descrip.setWrapText(true);
-		children.add(descrip);
+		this.descriptionResultsLabel.setText(description);
 	}
 	
-	private String getDescription(String s){
-		return s+"ABC";
-	}
-	
-	public int[] getFilters(){
-		return null;
+	private String getDescription(String name){
+		return this.results.get(name);
 	}
 	
 	private List<String> makeSearch(){
+		String name = nameField.getText();
+		String district = districtField.getText();
+		if(name.equals(""))
+			name = null;
+		if(district.equals(""))
+			district = null;
+		boolean free = isFreeCheckbox.isSelected();
+		boolean lon = isLongCheckbox.isSelected();
+		boolean mo = mondayCheckbox.isSelected();
+		boolean tu = tuesdayCheckbox.isSelected();
+		boolean we = wednesdayCheckbox.isSelected();
+		boolean th = thursdayCheckbox.isSelected();
+		boolean fr = fridayCheckbox.isSelected();
+		boolean sa = saturdayCheckbox.isSelected();
+		boolean su = sundayCheckbox.isSelected();
+		//makeQuery(name,district,[free,long,mo,tu,we,th,fr,sa,su]);
+		System.out.println(name+ " - " +district+ " - " +free+ " - " +lon+ " - " +mo+ " - " +tu+ " - " +we+ " - " +th+ " - " +fr+ " - " +sa+ " - " +su);
 		return null;
 	}
 
