@@ -6,12 +6,12 @@
 	dct:title "Catalogo de actividades realizadas en bibliotecas y bibliobuses de Madrid"@es,
             "Catalogue for activities done in libraries of Madrid"@en;
 	dct:source <http://datos.madrid.es> ;
-  dct:license rdflicense: CC-BY-NC ;
+  	dct:license rdflicense: CC-BY-NC ;
 	dct:publisher <http://github.com/javig13>;
 	dct:publisher <http://github.com/Hiro-xyz>;
 	dct:publisher <http://github.com/mordisquitos42>;
 	dct:publisher <http://github.com/Forcada>;
-  dct:publisher <http://github.com/LaiKash>;
+  	dct:publisher <http://github.com/LaiKash>;
 	dct:language <http://www.lexvo.org/page/iso639-3/eng> 
               ,<http://www.lexvo.org/page/iso639-3/spa> ;
 	dcat:dataset :Activities, Libraries: ;  .
@@ -20,7 +20,7 @@
 :Activities
 	a dcat:Dataset ;
 	dct:title "Actividades realizadas en bibliotecas y bibliobuses de Madrid."@es
-           ,"Activities done in libraries of Madrid"@en;
+           	 ,"Activities done in libraries of Madrid"@en;
 	dcat:keyword "Activities"@en "Actividades"@es ;
 	dct:license rdflicense: CC-BY-NC;
   .
@@ -40,6 +40,6 @@
 	void:sparqlEndpoint <http://ec2-34-239-122-250.compute-1.amazonaws.com/sparql> ;
 	dcat:accessURL <http://ec2-34-239-122-250.compute-1.amazonaws.com/sparql> ;
 	dct:title "Access to the SPARQL endpoint"@en ,
-			  "Acceso al endpoint SPARQL"@es ;
-    dct:license rdflicense:CC-BY-NC ;
+		  "Acceso al endpoint SPARQL"@es ;
+    	dct:license rdflicense:CC-BY-NC ;
 	.
