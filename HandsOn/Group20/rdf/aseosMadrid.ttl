@@ -1,0 +1,53 @@
+@prefix schema: <http://schema.org/> .
+@prefix ont: <http://www.semanticweb.org/Group20/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+<http://www.semanticweb.org/Group20/ontology/1> xsd:Integer "1" ;
+	xsd:String "PLAZA,ISABEL II,7,CENTRO" , "PLAZA,EMPERADOR CARLOS V,9,CENTRO" , "PLAZA,JACINTO BENAVENTE,3,CENTRO" , "PLAZA,TIRSO DE MOLINA,14,CENTRO" , "CALLE,SAN ANDRES,20,CENTRO" , "PARQUE,MADRID RIO,CENTRO" , "PLAZA,CARMEN,2,CENTRO" , "PLAZA,CAMPILLO DEL MUNDO NUEVO,9,CENTRO" .
+
+<http://www.semanticweb.org/Group20/ontology/2> xsd:Integer "2" ;
+	xsd:String "GLORIETA,EMBAJADORES,7,ARGANZUELA" , "CALLE,MENDEZ ALVARO,5,ARGANZUELA" , "CALLE,FERROCARRIL,1,ARGANZUELA" .
+
+<http://www.semanticweb.org/Group20/ontology/3> xsd:Integer "3" ;
+	xsd:String "PASEO,INFANTA ISABEL,9,RETIRO" .
+
+<http://www.semanticweb.org/Group20/ontology/4> xsd:Integer "4" ;
+	xsd:String "CALLE,SERRANO,32,SALAMANCA" , "AVENIDA,FELIPE II,12,SALAMANCA" , "PLAZA,MANUEL BECERRA,7,SALAMANCA" .
+
+<http://www.semanticweb.org/Group20/ontology/5> xsd:Integer "5" ;
+	xsd:String "PLAZA,CASTILLA,9,CHAMARTIN" .
+
+<http://www.semanticweb.org/Group20/ontology/6> xsd:Integer "6" ;
+	xsd:String "PARQUE,RODRIGUEZ SAHAGUN,TETUAN" .
+
+<http://www.semanticweb.org/Group20/ontology/9> xsd:Integer "9" ;
+	xsd:String "PASEO,PINTOR ROSALES,14,MONCLOA-ARAVACA     " .
+
+<http://www.semanticweb.org/Group20/ontology/8> xsd:Integer "8" ;
+	xsd:String "CALLE,COSTA BRAVA,13,FUENCARRAL - EL PARDO" .
+
+<http://www.semanticweb.org/Group20/ontology/12> xsd:Integer "12" ;
+	xsd:String "AVENIDA,RAFAELA YBARRA,USERA" , "CALLE,CAMINO DE PERALES,48,USERA" .
+
+<http://www.semanticweb.org/Group20/ontology/13> xsd:Integer "13" ;
+	xsd:String "AVENIDA,ALBUFERA,1,PUENTE DE VALLECAS" , "AVENIDA,DEMOCRACIA,1,PUENTE DE VALLECAS" , "CALLE,MANCHA,1,PUENTE DE VALLECAS" .
+
+<http://www.semanticweb.org/Group20/ontology/15> xsd:Integer "15" ;
+	xsd:String "CALLE,MISTERIOS,1,CIUDAD LINEAL" .
+
+<http://www.semanticweb.org/Group20/ontology/17> xsd:Integer "17" ;
+	xsd:String "CALLE,SANTA PETRONILA,15,VILLAVERDE" , "PLAZA,AGATA,1,VILLAVERDE" .
+
+<http://www.semanticweb.org/Group20/ontology/18> xsd:Integer "18" ;
+	xsd:String "AVENIDA,SANTA EUGENIA,79,VILLA DE VALLECAS   " .
+
+<http://www.semanticweb.org/Group20/ontology/20> xsd:Integer "20" ;
+	xsd:String "PLAZA,ALSACIA,1,SAN BLAS-CANILLEJAS " , "CALLE,ALCALÁ,632,SAN BLAS-CANILLEJAS " .
+
+<http://www.semanticweb.org/Group20/ontology/21> xsd:Integer "21" ;
+	xsd:String "PARQUE,DE LAS NACIONES,BARAJAS" .
