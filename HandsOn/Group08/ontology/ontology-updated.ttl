@@ -9,8 +9,10 @@
 @base <http://www.semanticweb.es/group08/ontology> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix void: <http://rdfs.org/ns/void#> .
 
-<http://www.semanticweb.es/group08/ontology> rdf:type owl:Ontology .
+<http://www.semanticweb.es/group08/ontology> rdf:type owl:Ontology.
+
 
 #################################################################
 #    Object Properties
@@ -103,7 +105,7 @@ vcard:hasURL rdf:type owl:DatatypeProperty ;
 	dct:title "Catalogo de actividades realizadas en bibliotecas y bibliobuses de Madrid"@es,
             "Catalogue for activities done in libraries of Madrid"@en;
 	dct:source <http://datos.madrid.es> ;
-  	dct:license rdflicense: CC-BY-NC ;
+	dct:license <http://rdflicense.appspot.com/rdflicense/cc-by-nc-nd3.0es> ;
 	dct:publisher <http://github.com/javig13>;
 	dct:publisher <http://github.com/Hiro-xyz>;
 	dct:publisher <http://github.com/mordisquitos42>;
@@ -111,24 +113,26 @@ vcard:hasURL rdf:type owl:DatatypeProperty ;
   	dct:publisher <http://github.com/LaiKash>;
 	dct:language <http://www.lexvo.org/page/iso639-3/eng> 
               ,<http://www.lexvo.org/page/iso639-3/spa> ;
-	dcat:dataset :Activities, Libraries: ;  .
+	dcat:dataset :Activity, :Library ;  .
 
 # Activities
-:Activities
+:Activity
 	a dcat:Dataset ;
 	dct:title "Actividades realizadas en bibliotecas y bibliobuses de Madrid."@es
            	 ,"Activities done in libraries of Madrid"@en;
-	dcat:keyword "Activities"@en "Actividades"@es ;
-	dct:license rdflicense: CC-BY-NC;
+	dcat:keyword "Activities"@en,
+		     "Actividades"@es ;
+	dct:license <http://rdflicense.appspot.com/rdflicense/cc-by-nc-nd3.0es> ;
   .
   
 # Libraries
-:Libraries
+:Library
 	a dcat:Dataset ;
 	dct:title "Bibliotecas y bibliobuses de Madrid."@es
-           ,"Libraries in Madrid"@en;
-	dcat:keyword "Libraries"@en "Bibliotecas"@es ;
-	dct:license rdflicense: CC-BY-NC;
+                 ,"Libraries in Madrid"@en;
+	dcat:keyword "Libraries"@en,
+		     "Bibliotecas"@es ;
+	dct:license <http://rdflicense.appspot.com/rdflicense/cc-by-nc-nd3.0es> ;
 	dcat:distribution :sparql ;
 .
 
@@ -138,7 +142,7 @@ vcard:hasURL rdf:type owl:DatatypeProperty ;
 	dcat:accessURL <http://ec2-34-239-122-250.compute-1.amazonaws.com/sparql> ;
 	dct:title "Access to the SPARQL endpoint"@en ,
 		  "Acceso al endpoint SPARQL"@es ;
-    	dct:license rdflicense:CC-BY-NC ;
+	dct:license <http://rdflicense.appspot.com/rdflicense/cc-by-nc-nd3.0es> ;
 .
 
 
