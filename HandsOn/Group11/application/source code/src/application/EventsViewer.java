@@ -1,7 +1,6 @@
 package application;
 
 import java.util.HashMap;
-import java.util.LinkedList;
 import java.util.List;
 
 import javafx.geometry.Orientation;
@@ -13,6 +12,7 @@ import javafx.scene.control.ListView;
 import javafx.scene.control.Separator;
 import javafx.scene.control.TextField;
 import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.scene.layout.Background;
 import javafx.scene.layout.BackgroundFill;
 import javafx.scene.layout.BackgroundImage;
@@ -35,6 +35,7 @@ import javafx.scene.text.Text;
 public class EventsViewer{
 	
 	private HashMap<String, String> results;
+	private HashMap<String, String> resultsLocation;
 	
 	private Scene scene;
 	private BorderPane root;
@@ -55,6 +56,7 @@ public class EventsViewer{
 	private CheckBox isFreeCheckbox;
 
 	private CheckBox isLongCheckbox;
+
 
 	public EventsViewer(Scene scene){
 		this.scene = scene;
@@ -197,7 +199,8 @@ public class EventsViewer{
 		nameResults.getChildren().add(nameResultsList);
 		nameResultsList.setOnMouseClicked( e -> {
 			setDescription(getDescription(nameResultsList.getSelectionModel().getSelectedItem()));
-	    });
+			setImage(nameResultsList.getSelectionModel().getSelectedItem());
+		});
 		
 		
 		Separator separator = new Separator();
@@ -225,27 +228,26 @@ public class EventsViewer{
 		this.root.setLeft(resultsBox);
 	}
 	
+	private void setImage(String name) {
+		Image mapImage = QuerySearch.getMapImage(this.resultsLocation.get(name));
+		ImageView mapView = new ImageView(mapImage);
+		root.setCenter(mapView);
+	}
+
 	//Search Button
 	private void createButtonSearch(){
 		this.startButton = new Button("Search");
 		startButton.setBorder(new Border(new BorderStroke(Color.BLACK, BorderStrokeStyle.SOLID, CornerRadii.EMPTY, new BorderWidths(3))));
 		startButton.setPrefSize(100, 50);
 		startButton.setOnAction(e -> {
-			//DEBUG
-			List<String> strings = new LinkedList<String>();
-			for(int i = 0; i < 100; i++){
-				strings.add(Double.toString(Math.random()));
-			}
-			strings.add("----------------------------------------------------------------------------");
-			setResults(strings);
 			makeSearch();
-	    	});
+		});
 	}
 	
-	private void setResults(List<String> list){
+	private void setResults(List<Event> list){
 		this.nameResultsList.getItems().clear();
-		for (String result : list){
-			this.nameResultsList.getItems().add(result);
+		for (Event result : list){
+			this.nameResultsList.getItems().add(result.getName());
 		}
 		System.gc();
 		return;
@@ -259,13 +261,14 @@ public class EventsViewer{
 		return this.results.get(name);
 	}
 	
-	private List<String> makeSearch(){
+	private void makeSearch(){
 		String name = nameField.getText();
 		String district = districtField.getText();
 		if(name.equals(""))
 			name = null;
 		if(district.equals(""))
 			district = null;
+		
 		boolean free = isFreeCheckbox.isSelected();
 		boolean lon = isLongCheckbox.isSelected();
 		boolean mo = mondayCheckbox.isSelected();
@@ -275,9 +278,18 @@ public class EventsViewer{
 		boolean fr = fridayCheckbox.isSelected();
 		boolean sa = saturdayCheckbox.isSelected();
 		boolean su = sundayCheckbox.isSelected();
-		//makeQuery(name,district,[free,long,mo,tu,we,th,fr,sa,su]);
+		
+		String query = QuerySearch.createQuery(name,district,free,lon,mo,tu,we,th,fr,sa,su);
+		List<Event> resultsList = QuerySearch.executeQuery(query);
+		root.setCenter(null);
+		this.results = new HashMap<String,String>();
+		this.resultsLocation = new HashMap<String,String>();
+		for(Event event : resultsList){
+			this.results.put(event.getName(),event.getDescription());
+			this.resultsLocation.put(event.getName(),event.getUriToLocation());
+		}
+		this.setResults(resultsList);
 		System.out.println(name+ " - " +district+ " - " +free+ " - " +lon+ " - " +mo+ " - " +tu+ " - " +we+ " - " +th+ " - " +fr+ " - " +sa+ " - " +su);
-		return null;
 	}
 
 
