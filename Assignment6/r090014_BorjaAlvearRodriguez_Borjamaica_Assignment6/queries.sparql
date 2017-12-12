@@ -1,0 +1,63 @@
+PREFIX vocabulary: <http://example.org/myVocabulary#>
+PREFIX cube: <http://purl.org/linked-data/cube#>
+
+############################################################
+#1. Número accidentes Madrid 2013
+
+SELECT distinct SUM(?num) as ?Accidents
+WHERE { 
+	?obs a cube:Observation.
+	?obs vocabulary:numberOfAccidents ?num.
+}
+
+
+############################################################
+#2. Número accidentes Usera por tipo de accidente
+
+SELECT ?type xsd:integer(?numAccidents)
+ WHERE {
+ 	?obs a cube:Observation;
+ 	vocabulary:relatedDistrict "USERA";
+ 	vocabulary:hasAccidentType ?type;
+ 	vocabulary:numberOfAccidents ?numAccidents
+ }
+
+
+############################################################
+#3. Número accidentes de múltiple colisión por distrito
+
+SELECT ?district xsd:integer(?mCollisions)
+ WHERE {
+ 	?obs a cube:Observation;
+ 	vocabulary:relatedDistrict ?district;
+ 	vocabulary:hasAccidentType vocabulary:MultipleCollision;
+ 	vocabulary:numberOfAccidents ?mCollisions.
+}
+
+############################################################
+#4. Distrito con mayor número de caidas en bici 2013
+
+SELECT ?district MAX(?nAccidents)
+ WHERE {
+ ?obs a cube:Observation;
+ vocabulary:relatedDistrict ?district;
+ vocabulary:hasAccidentType vocabulary:BicycleFall;
+ vocabulary:numberOfAccidents ?nAccidents
+ }
+ ORDER by desc(?nAccidents) LIMIT 1
+
+############################################################
+#5. Distritos con mas de 500 accidentes en 2013
+
+SELECT ?district ?nAccidents 
+	WHERE {
+ {
+	 SELECT DISTINCT ?district (SUM(xsd:double(?num) as ?nAccidents)
+	 WHERE {
+		 ?obs a cube:Observation.
+		 vocabulary:relatedDistrict ?district.
+		 vocabulary:numberOfAccidents ?num.
+	 }
+} 
+	 FILTER (?nAccidents > 500)
+} ORDER BY desc(?nAccidents)
