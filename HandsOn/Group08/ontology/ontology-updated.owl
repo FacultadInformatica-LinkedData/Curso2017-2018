@@ -120,6 +120,7 @@ vcard:hasURL rdf:type owl:DatatypeProperty ;
            	 ,"Activities done in libraries of Madrid"@en;
 	dcat:keyword "Activities"@en "Actividades"@es ;
 	dct:license rdflicense: CC-BY-NC;
+	dcat:distribution :sparql ;
   .
   
 # Libraries
@@ -132,6 +133,7 @@ vcard:hasURL rdf:type owl:DatatypeProperty ;
 	dcat:distribution :sparql ;
 .
 
+# SPARQL
 :sparql
 	a dcat:Distribution ;
 	void:sparqlEndpoint <http://ec2-34-239-122-250.compute-1.amazonaws.com/sparql> ;
