@@ -1,9 +1,9 @@
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix dbp: <http://dbpedia.org/property/> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
 
 <http://www.semanticweb.org/2017grupo9/ontology/city/Euskadi#0> dbp:name "3 DE MARZO" ;
@@ -13,8 +13,9 @@
 	geo:location "527141,4365" , "4744882,8893" ;
 	geo:lat "42,85604797053618" ;
 	geo:long "-2,667784994714487" ;
-	dbp:province "http://es.dbpedia.org/resource/Araba_/_Álava" ;
-	dbp:town "http://es.dbpedia.org/resource/Vitoria-Gasteiz" .
+	dbp:name "http://dbpedia.org/resource/March_3" ;
+	dbp:province "http://dbpedia.org/resource/Álava" ;
+	dbp:town "http://dbpedia.org/resource/Vitoria-Gasteiz" .
 
 <http://www.semanticweb.org/2017grupo9/ontology/city/Euskadi#1> dbp:name "ABANTO" ;
 	dbp:province "Bizkaia" ;
@@ -23,7 +24,8 @@
 	geo:location "493987,175" , "4796406,558" ;
 	geo:lat "43,32047399433485" ;
 	geo:long "-3,0741559961978044" ;
-	dbp:province "http://es.dbpedia.org/resource/Bizkaia" .
+	dbp:name "http://www.wikidata.org/entity/Q1645485" ;
+	dbp:province "http://dbpedia.org/resource/Category:Bizkaia" .
 
 <http://www.semanticweb.org/2017grupo9/ontology/city/Euskadi#2> dbp:name "AGURAIN" ;
 	dbp:province "Araba/Álava" ;
@@ -32,7 +34,8 @@
 	geo:location "549539,1393" , "4744226,3688" ;
 	geo:lat "42,84901250588428" ;
 	geo:long "-2,3937033896081683" ;
-	dbp:province "http://es.dbpedia.org/resource/Araba_/_Álava" .
+	dbp:name "http://dbpedia.org/resource/Salvatierra/Agurain" ;
+	dbp:province "http://dbpedia.org/resource/Álava" .
 
 <http://www.semanticweb.org/2017grupo9/ontology/city/Euskadi#3> dbp:name "ALGORTA (BBIZI2)" ;
 	dbp:province "Bizkaia" ;
@@ -41,7 +44,9 @@
 	geo:location "498154" , "4801022" ;
 	geo:lat "43,362055748944286" ;
 	geo:long "-3,0227822073211765" ;
-	dbp:province "http://es.dbpedia.org/resource/Bizkaia" .
+	dbp:name "http://dbpedia.org/resource/Algorta" ;
+	dbp:province "http://dbpedia.org/resource/Category:Bizkaia" ;
+	dbp:town "http://dbpedia.org/resource/Getxo" .
 
 <http://www.semanticweb.org/2017grupo9/ontology/city/Euskadi#4> dbp:name "ALONSOTEGI" ;
 	dbp:province "Bizkaia" ;
@@ -50,7 +55,9 @@
 	geo:location "500972,2158" , "4788307,4677" ;
 	geo:lat "43,247567997964374" ;
 	geo:long "-2,988024000380936" ;
-	dbp:province "http://es.dbpedia.org/resource/Bizkaia" .
+	dbp:name "http://dbpedia.org/resource/Alonsotegi" ;
+	dbp:province "http://dbpedia.org/resource/Category:Bizkaia" ;
+	dbp:town "http://dbpedia.org/resource/Alonsotegi" .
 
 <http://www.semanticweb.org/2017grupo9/ontology/city/Euskadi#5> dbp:name "ARRAIZ (Monte)" ;
 	dbp:province "Bizkaia" ;
@@ -59,8 +66,9 @@
 	geo:location "503208,6894" , "4788084,4656" ;
 	geo:lat "43,245553729819484" ;
 	geo:long "-2,960475856567045" ;
-	dbp:province "http://es.dbpedia.org/resource/Bizkaia" ;
-	dbp:town "http://dbpedia.org/resource/Bilbao" .
+	dbp:name "http://www.wikidata.org/entity/Q12254071" ;
+	dbp:province "http://dbpedia.org/resource/Category:Bizkaia" ;
+	dbp:town "http://dbpedia.org/resource/Category:Bilbao" .
 
 <http://www.semanticweb.org/2017grupo9/ontology/city/Euskadi#6> dbp:name "ATEGORRIETA" ;
 	dbp:province "Gipuzkoa" ;
@@ -68,7 +76,9 @@
 	dbp:address "Avda. Ategorrieta, 71" ;
 	geo:location "584272,2271" , "4797096,9139" ;
 	geo:lat "43,32199194732484" ;
-	geo:long "-1,960650618338729" .
+	geo:long "-1,960650618338729" ;
+	dbp:name "http://www.wikidata.org/entity/Q8779314" ;
+	dbp:province "http://dbpedia.org/resource/Category:Gipuzkoa" .
 
 <http://www.semanticweb.org/2017grupo9/ontology/city/Euskadi#7> dbp:name "AV. GASTEIZ" ;
 	dbp:province "Araba/Álava" ;
@@ -77,8 +87,8 @@
 	geo:location "526086,031" , "4744738,1348" ;
 	geo:lat "42,85478118366939" ;
 	geo:long "-2,6807098224581067" ;
-	dbp:province "http://es.dbpedia.org/resource/Araba_/_Álava" ;
-	dbp:town "http://es.dbpedia.org/resource/Vitoria-Gasteiz" .
+	dbp:province "http://dbpedia.org/resource/Álava" ;
+	dbp:town "http://dbpedia.org/resource/Vitoria-Gasteiz" .
 
 <http://www.semanticweb.org/2017grupo9/ontology/city/Euskadi#8> dbp:name "AVDA. TOLOSA" ;
 	dbp:province "Gipuzkoa" ;
@@ -86,7 +96,8 @@
 	dbp:address "C/ Andrestegi, 2 " ;
 	geo:location "580211,325" , "4795650,4773" ;
 	geo:lat "43,30941344063433" ;
-	geo:long "-2,010938423674493" .
+	geo:long "-2,010938423674493" ;
+	dbp:province "http://dbpedia.org/resource/Category:Gipuzkoa" .
 
 <http://www.semanticweb.org/2017grupo9/ontology/city/Euskadi#9> dbp:name "AZPEITIA" ;
 	dbp:province "Gipuzkoa" ;
@@ -94,7 +105,10 @@
 	dbp:address "C/ Perdillegi, s/n" ;
 	geo:location "559472,3" , "4781104,8" ;
 	geo:lat "43,180370053194196" ;
-	geo:long "-2,2682104189344456" .
+	geo:long "-2,2682104189344456" ;
+	dbp:name "http://dbpedia.org/resource/Azpeitia" ;
+	dbp:province "http://dbpedia.org/resource/Category:Gipuzkoa" ;
+	dbp:town "http://dbpedia.org/resource/Azpeitia" .
 
 <http://www.semanticweb.org/2017grupo9/ontology/city/Euskadi#10> dbp:name "AÑORGA" ;
 	dbp:province "Gipuzkoa" ;
@@ -102,7 +116,8 @@
 	dbp:address "Avda. de Añorga, 12 (Añorga Txiki)" ;
 	geo:location "581469,0172" , "4793568,2345" ;
 	geo:lat "43,29053138556358" ;
-	geo:long "-1,9957411467011474" .
+	geo:long "-1,9957411467011474" ;
+	dbp:province "http://dbpedia.org/resource/Category:Gipuzkoa" .
 
 <http://www.semanticweb.org/2017grupo9/ontology/city/Euskadi#11> dbp:name "BANDERAS (meteo)" ;
 	dbp:province "Bizkaia" ;
@@ -111,8 +126,9 @@
 	geo:location "503790,8" , "4792020,1" ;
 	geo:lat "43,28099012364825" ;
 	geo:long "-2,953278416670214" ;
-	dbp:province "http://es.dbpedia.org/resource/Bizkaia" ;
-	dbp:town "http://dbpedia.org/resource/Bilbao" .
+	dbp:name "http://dbpedia.org/resource/Banderas" ;
+	dbp:province "http://dbpedia.org/resource/Category:Bizkaia" ;
+	dbp:town "http://dbpedia.org/resource/Category:Bilbao" .
 
 <http://www.semanticweb.org/2017grupo9/ontology/city/Euskadi#12> dbp:name "BARAKALDO" ;
 	dbp:province "Bizkaia" ;
@@ -121,7 +137,9 @@
 	geo:location "501043,6789" , "4793950,2238" ;
 	geo:lat "43,298378997955" ;
 	geo:long "-2,987132999827669" ;
-	dbp:province "http://es.dbpedia.org/resource/Bizkaia" .
+	dbp:name "http://dbpedia.org/resource/Barakaldo" ;
+	dbp:province "http://dbpedia.org/resource/Category:Bizkaia" ;
+	dbp:town "http://dbpedia.org/resource/Barakaldo" .
 
 <http://www.semanticweb.org/2017grupo9/ontology/city/Euskadi#13> dbp:name "BASAURI" ;
 	dbp:province "Bizkaia" ;
@@ -130,7 +148,9 @@
 	geo:location "509437,3144" , "4787599,1408" ;
 	geo:lat "43,24113129588412" ;
 	geo:long "-2,8837610228035238" ;
-	dbp:province "http://es.dbpedia.org/resource/Bizkaia" .
+	dbp:name "http://dbpedia.org/resource/Basauri" ;
+	dbp:province "http://dbpedia.org/resource/Category:Bizkaia" ;
+	dbp:town "http://dbpedia.org/resource/Basauri" .
 
 <http://www.semanticweb.org/2017grupo9/ontology/city/Euskadi#14> dbp:name "BEASAIN" ;
 	dbp:province "Gipuzkoa" ;
@@ -138,7 +158,9 @@
 	dbp:address "Plaza Gipuzkoa, 1" ;
 	geo:location "565857,9851" , "4766472,8521" ;
 	geo:lat "43,04809432240711" ;
-	geo:long "-2,191380269702985" .
+	geo:long "-2,191380269702985" ;
+	dbp:name "http://dbpedia.org/resource/Beasain" ;
+	dbp:province "http://dbpedia.org/resource/Category:Gipuzkoa" .
 
 <http://www.semanticweb.org/2017grupo9/ontology/city/Euskadi#15> dbp:name "BOROA METEO" ;
 	dbp:province "Bizkaia" ;
@@ -147,7 +169,8 @@
 	geo:location "520243,146" , "4787042,3114" ;
 	geo:lat "43,23590459584916" ;
 	geo:long "-2,7506874305174405" ;
-	dbp:province "http://es.dbpedia.org/resource/Bizkaia" .
+	dbp:province "http://dbpedia.org/resource/Category:Bizkaia" ;
+	dbp:town "http://dbpedia.org/resource/Amorebieta-Etxano" .
 
 <http://www.semanticweb.org/2017grupo9/ontology/city/Euskadi#16> dbp:name "CASTREJANA" ;
 	dbp:province "Bizkaia" ;
@@ -156,7 +179,8 @@
 	geo:location "502154,4326" , "4789475,0682" ;
 	geo:lat "43,25807942736176" ;
 	geo:long "-2,973456590856772" ;
-	dbp:province "http://es.dbpedia.org/resource/Bizkaia" .
+	dbp:province "http://dbpedia.org/resource/Category:Bizkaia" ;
+	dbp:town "http://dbpedia.org/resource/Barakaldo" .
 
 <http://www.semanticweb.org/2017grupo9/ontology/city/Euskadi#17> dbp:name "DURANGO" ;
 	dbp:province "Bizkaia" ;
@@ -165,8 +189,7 @@
 	geo:location "529428,7974" , "4779566,5562" ;
 	geo:lat "43,168285997690994" ;
 	geo:long "-2,6379580009450136" ;
-	dbp:province "http://es.dbpedia.org/resource/Bizkaia" ;
-	dbp:town "http://dbpedia.org/resource/Durango" .
+	dbp:province "http://dbpedia.org/resource/Category:Bizkaia" .
 
 <http://www.semanticweb.org/2017grupo9/ontology/city/Euskadi#18> dbp:name "EASO" ;
 	dbp:province "Gipuzkoa" ;
@@ -174,7 +197,9 @@
 	dbp:address "Plaza del Centenario, s/n" ;
 	geo:location "582643,6267" , "4795983,9845" ;
 	geo:lat "43,31215280742268" ;
-	geo:long "-1,9809008637096939" .
+	geo:long "-1,9809008637096939" ;
+	dbp:name "http://dbpedia.org/resource/EASO" ;
+	dbp:province "http://dbpedia.org/resource/Category:Gipuzkoa" .
 
 <http://www.semanticweb.org/2017grupo9/ontology/city/Euskadi#19> dbp:name "ELCIEGO" ;
 	dbp:province "Araba/Álava" ;
@@ -183,7 +208,9 @@
 	geo:location "531257,1773" , "4707389,4714" ;
 	geo:lat "42,51824807424149" ;
 	geo:long "-2,61947521199466" ;
-	dbp:province "http://es.dbpedia.org/resource/Araba_/_Álava" .
+	dbp:name "http://dbpedia.org/resource/Elciego" ;
+	dbp:province "http://dbpedia.org/resource/Álava" ;
+	dbp:town "http://dbpedia.org/resource/Elciego" .
 
 <http://www.semanticweb.org/2017grupo9/ontology/city/Euskadi#20> dbp:name "ERANDIO" ;
 	dbp:province "Bizkaia" ;
@@ -192,7 +219,9 @@
 	geo:location "501846" , "4794425" ;
 	geo:lat "43,3026526345891" ;
 	geo:long "-2,9772399863752486" ;
-	dbp:province "http://es.dbpedia.org/resource/Bizkaia" .
+	dbp:name "http://dbpedia.org/resource/Erandio" ;
+	dbp:province "http://dbpedia.org/resource/Category:Bizkaia" ;
+	dbp:town "http://dbpedia.org/resource/Erandio" .
 
 <http://www.semanticweb.org/2017grupo9/ontology/city/Euskadi#21> dbp:name "EUROPA" ;
 	dbp:province "Bizkaia" ;
@@ -201,8 +230,8 @@
 	geo:location "507924,189" , "4789127,4396" ;
 	geo:lat "43,25491056506432" ;
 	geo:long "-2,902376115931137" ;
-	dbp:province "http://es.dbpedia.org/resource/Bizkaia" ;
-	dbp:town "http://dbpedia.org/resource/Bilbao" .
+	dbp:province "http://dbpedia.org/resource/Category:Bizkaia" ;
+	dbp:town "http://dbpedia.org/resource/Category:Bilbao" .
 
 <http://www.semanticweb.org/2017grupo9/ontology/city/Euskadi#22> dbp:name "FARMACIA" ;
 	dbp:province "Araba/Álava" ;
@@ -211,8 +240,9 @@
 	geo:location "526757,9486" , "4743110,3681" ;
 	geo:lat "42,840099615592926" ;
 	geo:long "-2,672563184280286" ;
-	dbp:province "http://es.dbpedia.org/resource/Araba_/_Álava" ;
-	dbp:town "http://es.dbpedia.org/resource/Vitoria-Gasteiz" .
+	dbp:name "http://dbpedia.org/resource/Pharmacy" ;
+	dbp:province "http://dbpedia.org/resource/Álava" ;
+	dbp:town "http://dbpedia.org/resource/Vitoria-Gasteiz" .
 
 <http://www.semanticweb.org/2017grupo9/ontology/city/Euskadi#23> dbp:name "FERIA (meteo)" ;
 	dbp:province "Bizkaia" ;
@@ -221,8 +251,9 @@
 	geo:location "504257,1663" , "4790269,2685" ;
 	geo:lat "43,26522199716327" ;
 	geo:long "-2,9475439999557134" ;
-	dbp:province "http://es.dbpedia.org/resource/Bizkaia" ;
-	dbp:town "http://dbpedia.org/resource/Bilbao" .
+	dbp:name "http://dbpedia.org/resource/Feria" ;
+	dbp:province "http://dbpedia.org/resource/Category:Bizkaia" ;
+	dbp:town "http://dbpedia.org/resource/Category:Bilbao" .
 
 <http://www.semanticweb.org/2017grupo9/ontology/city/Euskadi#24> dbp:name "HERNANI" ;
 	dbp:province "Gipuzkoa" ;
@@ -230,7 +261,10 @@
 	dbp:address "C/ Aristizabal, s/n. Centro de salud Hernani." ;
 	geo:location "582962,7015" , "4791020,6066" ;
 	geo:lat "43,26743142273141" ;
-	geo:long "-1,977715640356133" .
+	geo:long "-1,977715640356133" ;
+	dbp:name "http://dbpedia.org/resource/Hernani,_Gipuzkoa" ;
+	dbp:province "http://dbpedia.org/resource/Category:Gipuzkoa" ;
+	dbp:town "http://dbpedia.org/resource/Hernani,_Gipuzkoa" .
 
 <http://www.semanticweb.org/2017grupo9/ontology/city/Euskadi#25> dbp:name "JAIZKIBEL" ;
 	dbp:province "Gipuzkoa" ;
@@ -238,7 +272,10 @@
 	dbp:address "Monte Jaizkibel, s/n" ;
 	geo:location "592449,2822" , "4799512,1706" ;
 	geo:lat "43,342775184321106" ;
-	geo:long "-1,8594129027945114" .
+	geo:long "-1,8594129027945114" ;
+	dbp:name "http://dbpedia.org/resource/Jaizkibel" ;
+	dbp:province "http://dbpedia.org/resource/Category:Gipuzkoa" ;
+	dbp:town "http://dbpedia.org/resource/Hondarribia" .
 
 <http://www.semanticweb.org/2017grupo9/ontology/city/Euskadi#26> dbp:name "LARRABETZU" ;
 	dbp:province "Bizkaia" ;
@@ -247,7 +284,9 @@
 	geo:location "516281,215" , "4789843,71" ;
 	geo:lat "43,261226121618066" ;
 	geo:long "-2,799399084312731" ;
-	dbp:province "http://es.dbpedia.org/resource/Bizkaia" .
+	dbp:name "http://dbpedia.org/resource/Larrabetzu" ;
+	dbp:province "http://dbpedia.org/resource/Category:Bizkaia" ;
+	dbp:town "http://dbpedia.org/resource/Larrabetzu" .
 
 <http://www.semanticweb.org/2017grupo9/ontology/city/Euskadi#27> dbp:name "LAS CARRERAS" ;
 	dbp:province "Bizkaia" ;
@@ -256,7 +295,8 @@
 	geo:location "492102,56" , "4796311,78" ;
 	geo:lat "43,31960312849335" ;
 	geo:long "-3,0973975060209376" ;
-	dbp:province "http://es.dbpedia.org/resource/Bizkaia" .
+	dbp:name "http://www.wikidata.org/entity/Q1575567" ;
+	dbp:province "http://dbpedia.org/resource/Category:Bizkaia" .
 
 <http://www.semanticweb.org/2017grupo9/ontology/city/Euskadi#28> dbp:name "LEZO" ;
 	dbp:province "Gipuzkoa" ;
@@ -264,7 +304,10 @@
 	dbp:address "Plaza Polantzarene, s/n" ;
 	geo:location "589179,9795" , "4797107,63" ;
 	geo:lat "43,32152243586307" ;
-	geo:long "-1,900131049811533" .
+	geo:long "-1,900131049811533" ;
+	dbp:name "http://dbpedia.org/resource/Lezo" ;
+	dbp:province "http://dbpedia.org/resource/Category:Gipuzkoa" ;
+	dbp:town "http://dbpedia.org/resource/Lezo" .
 
 <http://www.semanticweb.org/2017grupo9/ontology/city/Euskadi#29> dbp:name "LLODIO" ;
 	dbp:province "Araba/Álava" ;
@@ -273,7 +316,8 @@
 	geo:location "502977,4251" , "4776809,8177" ;
 	geo:lat "43,1440289422417" ;
 	geo:long "-2,9633852821260223" ;
-	dbp:province "http://es.dbpedia.org/resource/Araba_/_Álava" .
+	dbp:name "http://dbpedia.org/resource/Laudio/Llodio" ;
+	dbp:province "http://dbpedia.org/resource/Álava" .
 
 <http://www.semanticweb.org/2017grupo9/ontology/city/Euskadi#30> dbp:name "LOS HERRAN" ;
 	dbp:province "Araba/Álava" ;
@@ -282,8 +326,8 @@
 	geo:location "527682,4365" , "4743514,1634" ;
 	geo:lat "42,84370295644861" ;
 	geo:long "-2,661230556636825" ;
-	dbp:province "http://es.dbpedia.org/resource/Araba_/_Álava" ;
-	dbp:town "http://es.dbpedia.org/resource/Vitoria-Gasteiz" .
+	dbp:province "http://dbpedia.org/resource/Álava" ;
+	dbp:town "http://dbpedia.org/resource/Vitoria-Gasteiz" .
 
 <http://www.semanticweb.org/2017grupo9/ontology/city/Euskadi#31> dbp:name "MAZARREDO" ;
 	dbp:province "Bizkaia" ;
@@ -292,8 +336,9 @@
 	geo:location "505259,7354" , "4790523,5641" ;
 	geo:lat "43,26750551179745" ;
 	geo:long "-2,935188110338201" ;
-	dbp:province "http://es.dbpedia.org/resource/Bizkaia" ;
-	dbp:town "http://dbpedia.org/resource/Bilbao" .
+	dbp:name "http://www.wikidata.org/entity/Q9030858" ;
+	dbp:province "http://dbpedia.org/resource/Category:Bizkaia" ;
+	dbp:town "http://dbpedia.org/resource/Category:Bilbao" .
 
 <http://www.semanticweb.org/2017grupo9/ontology/city/Euskadi#32> dbp:name "MONDRAGON" ;
 	dbp:province "Gipuzkoa" ;
@@ -301,7 +346,9 @@
 	dbp:address "Plaza Jose María Arizmendiarrieta, s/n" ;
 	geo:location "541493,746" , "4768061,3417" ;
 	geo:lat "43,06412079434686" ;
-	geo:long "-2,4903966831445423" .
+	geo:long "-2,4903966831445423" ;
+	dbp:name "http://dbpedia.org/resource/Mondragon" ;
+	dbp:province "http://dbpedia.org/resource/Category:Gipuzkoa" .
 
 <http://www.semanticweb.org/2017grupo9/ontology/city/Euskadi#33> dbp:name "MONTORRA" ;
 	dbp:province "Bizkaia" ;
@@ -310,7 +357,8 @@
 	geo:location "523021,9544" , "4784064,8793" ;
 	geo:lat "43,209014222504145" ;
 	geo:long "-2,7165885073623226" ;
-	dbp:province "http://es.dbpedia.org/resource/Bizkaia" .
+	dbp:province "http://dbpedia.org/resource/Category:Bizkaia" ;
+	dbp:town "http://dbpedia.org/resource/Amorebieta-Etxano" .
 
 <http://www.semanticweb.org/2017grupo9/ontology/city/Euskadi#34> dbp:name "MUNDAKA" ;
 	dbp:province "Bizkaia" ;
@@ -319,7 +367,9 @@
 	geo:location "524035,1288" , "4805932,4502" ;
 	geo:lat "43,40588884294258" ;
 	geo:long "-2,7031593675211343" ;
-	dbp:province "http://es.dbpedia.org/resource/Bizkaia" .
+	dbp:name "http://dbpedia.org/resource/Mundaka" ;
+	dbp:province "http://dbpedia.org/resource/Category:Bizkaia" ;
+	dbp:town "http://dbpedia.org/resource/Mundaka" .
 
 <http://www.semanticweb.org/2017grupo9/ontology/city/Euskadi#35> dbp:name "MUNOA" ;
 	dbp:province "Bizkaia" ;
@@ -328,7 +378,8 @@
 	geo:location "501728,39" , "4792529,8721" ;
 	geo:lat "43,28558799716144" ;
 	geo:long "-2,978696000976749" ;
-	dbp:province "http://es.dbpedia.org/resource/Bizkaia" .
+	dbp:province "http://dbpedia.org/resource/Category:Bizkaia" ;
+	dbp:town "http://dbpedia.org/resource/Barakaldo" .
 
 <http://www.semanticweb.org/2017grupo9/ontology/city/Euskadi#36> dbp:name "MUSKIZ" ;
 	dbp:province "Bizkaia" ;
@@ -337,7 +388,9 @@
 	geo:location "490860,6099" , "4796436,6121" ;
 	geo:lat "43,32071311956527" ;
 	geo:long "-3,1127162723783197" ;
-	dbp:province "http://es.dbpedia.org/resource/Bizkaia" .
+	dbp:name "http://dbpedia.org/resource/Muskiz" ;
+	dbp:province "http://dbpedia.org/resource/Category:Bizkaia" ;
+	dbp:town "http://dbpedia.org/resource/Muskiz" .
 
 <http://www.semanticweb.org/2017grupo9/ontology/city/Euskadi#37> dbp:name "Mª DIAZ HARO" ;
 	dbp:province "Bizkaia" ;
@@ -346,8 +399,8 @@
 	geo:location "504410,8" , "4789556,5" ;
 	geo:lat "43,25880286639215" ;
 	geo:long "-2,945656664175787" ;
-	dbp:province "http://es.dbpedia.org/resource/Bizkaia" ;
-	dbp:town "http://dbpedia.org/resource/Bilbao" .
+	dbp:province "http://dbpedia.org/resource/Category:Bizkaia" ;
+	dbp:town "http://dbpedia.org/resource/Category:Bilbao" .
 
 <http://www.semanticweb.org/2017grupo9/ontology/city/Euskadi#38> dbp:name "NAUTICA" ;
 	dbp:province "Bizkaia" ;
@@ -356,7 +409,8 @@
 	geo:location "498108,2533" , "4797122,7258" ;
 	geo:lat "43,32694444265417" ;
 	geo:long "-3,023333333735672" ;
-	dbp:province "http://es.dbpedia.org/resource/Bizkaia" .
+	dbp:province "http://dbpedia.org/resource/Category:Bizkaia" ;
+	dbp:town "http://dbpedia.org/resource/Portugalete" .
 
 <http://www.semanticweb.org/2017grupo9/ontology/city/Euskadi#39> dbp:name "PAGOETA" ;
 	dbp:province "Gipuzkoa" ;
@@ -364,7 +418,9 @@
 	dbp:address "Jardín Botánico de Iturraran. Parque Natural de Pagoeta. " ;
 	geo:location "568603,2817" , "4788991,3758" ;
 	geo:lat "43,25060521979407" ;
-	geo:long "-2,1548873966664503" .
+	geo:long "-2,1548873966664503" ;
+	dbp:province "http://dbpedia.org/resource/Category:Gipuzkoa" ;
+	dbp:town "http://dbpedia.org/resource/Aia" .
 
 <http://www.semanticweb.org/2017grupo9/ontology/city/Euskadi#40> dbp:name "PUYO" ;
 	dbp:province "Gipuzkoa" ;
@@ -372,7 +428,9 @@
 	dbp:address "Camino de Puyo, 14" ;
 	geo:location "582404,0515" , "4794939,6966" ;
 	geo:lat "43,302777170621106" ;
-	geo:long "-1,9840112864449164" .
+	geo:long "-1,9840112864449164" ;
+	dbp:name "http://dbpedia.org/resource/Buyeo" ;
+	dbp:province "http://dbpedia.org/resource/Category:Gipuzkoa" .
 
 <http://www.semanticweb.org/2017grupo9/ontology/city/Euskadi#41> dbp:name "SAN JULIAN" ;
 	dbp:province "Bizkaia" ;
@@ -381,7 +439,9 @@
 	geo:location "490839,8223" , "4797762,3066" ;
 	geo:lat "43,33265015831669" ;
 	geo:long "-3,112994770178107" ;
-	dbp:province "http://es.dbpedia.org/resource/Bizkaia" .
+	dbp:name "http://dbpedia.org/resource/San_Julián" ;
+	dbp:province "http://dbpedia.org/resource/Category:Bizkaia" ;
+	dbp:town "http://dbpedia.org/resource/Muskiz" .
 
 <http://www.semanticweb.org/2017grupo9/ontology/city/Euskadi#42> dbp:name "SANGRONIZ" ;
 	dbp:province "Bizkaia" ;
@@ -390,7 +450,8 @@
 	geo:location "505646,6" , "4793957,2" ;
 	geo:lat "43,29842135635236" ;
 	geo:long "-2,93038581833024" ;
-	dbp:province "http://es.dbpedia.org/resource/Bizkaia" .
+	dbp:province "http://dbpedia.org/resource/Category:Bizkaia" ;
+	dbp:town "http://dbpedia.org/resource/Sondika" .
 
 <http://www.semanticweb.org/2017grupo9/ontology/city/Euskadi#43> dbp:name "SANTURCE" ;
 	dbp:province "Bizkaia" ;
@@ -399,7 +460,9 @@
 	geo:location "496549,7975" , "4797797,1715" ;
 	geo:lat "43,33301199742545" ;
 	geo:long "-3,042560000349237" ;
-	dbp:province "http://es.dbpedia.org/resource/Bizkaia" .
+	dbp:name "http://dbpedia.org/resource/Santurtzi" ;
+	dbp:province "http://dbpedia.org/resource/Category:Bizkaia" ;
+	dbp:town "http://dbpedia.org/resource/Santurtzi" .
 
 <http://www.semanticweb.org/2017grupo9/ontology/city/Euskadi#44> dbp:name "SERANTES" ;
 	dbp:province "Bizkaia" ;
@@ -408,7 +471,9 @@
 	geo:location "494893,6762" , "4797956,4394" ;
 	geo:lat "43,3344367083824" ;
 	geo:long "-3,0629905698856272" ;
-	dbp:province "http://es.dbpedia.org/resource/Bizkaia" .
+	dbp:name "http://dbpedia.org/resource/Serantes" ;
+	dbp:province "http://dbpedia.org/resource/Category:Bizkaia" ;
+	dbp:town "http://dbpedia.org/resource/Santurtzi" .
 
 <http://www.semanticweb.org/2017grupo9/ontology/city/Euskadi#45> dbp:name "SESTAO" ;
 	dbp:province "Bizkaia" ;
@@ -417,7 +482,9 @@
 	geo:location "500328,4875" , "4794988,1863" ;
 	geo:lat "43,307726099387494" ;
 	geo:long "-2,9959496198447484" ;
-	dbp:province "http://es.dbpedia.org/resource/Bizkaia" .
+	dbp:name "http://dbpedia.org/resource/Sestao" ;
+	dbp:province "http://dbpedia.org/resource/Category:Bizkaia" ;
+	dbp:town "http://dbpedia.org/resource/Sestao" .
 
 <http://www.semanticweb.org/2017grupo9/ontology/city/Euskadi#46> dbp:name "TOLOSA" ;
 	dbp:province "Gipuzkoa" ;
@@ -425,7 +492,10 @@
 	dbp:address "Avda. Martin Jose Iraola, 23" ;
 	geo:location "574991,16" , "4775750,46" ;
 	geo:lat "43,13078067861342" ;
-	geo:long "-2,078002156707588" .
+	geo:long "-2,078002156707588" ;
+	dbp:name "http://dbpedia.org/resource/Toulouse" ;
+	dbp:province "http://dbpedia.org/resource/Category:Gipuzkoa" ;
+	dbp:town "http://dbpedia.org/resource/Toulouse" .
 
 <http://www.semanticweb.org/2017grupo9/ontology/city/Euskadi#47> dbp:name "URKIOLA" ;
 	dbp:province "Bizkaia" ;
@@ -434,7 +504,8 @@
 	geo:location "528410,62" , "4772028" ;
 	geo:lat "43,100442429429606" ;
 	geo:long "-2,6508700717196243" ;
-	dbp:province "http://es.dbpedia.org/resource/Bizkaia" .
+	dbp:name "http://dbpedia.org/resource/Urkiola" ;
+	dbp:province "http://dbpedia.org/resource/Category:Bizkaia" .
 
 <http://www.semanticweb.org/2017grupo9/ontology/city/Euskadi#48> dbp:name "VALDEREJO" ;
 	dbp:province "Araba/Álava" ;
@@ -443,7 +514,8 @@
 	geo:location "481073,6693" , "4746978,5075" ;
 	geo:lat "42,87516709375477" ;
 	geo:long "-3,231732505322038" ;
-	dbp:province "http://es.dbpedia.org/resource/Araba_/_Álava" .
+	dbp:name "http://dbpedia.org/resource/Valderejo" ;
+	dbp:province "http://dbpedia.org/resource/Álava" .
 
 <http://www.semanticweb.org/2017grupo9/ontology/city/Euskadi#49> dbp:name "ZALLA" ;
 	dbp:province "Bizkaia" ;
@@ -452,7 +524,9 @@
 	geo:location "489078,1917" , "4784461,4469" ;
 	geo:lat "43,2128572411877" ;
 	geo:long "-3,134461258966499" ;
-	dbp:province "http://es.dbpedia.org/resource/Bizkaia" .
+	dbp:name "http://dbpedia.org/resource/Zalla" ;
+	dbp:province "http://dbpedia.org/resource/Category:Bizkaia" ;
+	dbp:town "http://dbpedia.org/resource/Zalla" .
 
 <http://www.semanticweb.org/2017grupo9/ontology/city/Euskadi#50> dbp:name "ZELAIETA PARQUE" ;
 	dbp:province "Bizkaia" ;
@@ -461,7 +535,8 @@
 	geo:location "521563,7353" , "4785158,5803" ;
 	geo:lat "43,21890568490462" ;
 	geo:long "-2,7344969803118295" ;
-	dbp:province "http://es.dbpedia.org/resource/Bizkaia" .
+	dbp:province "http://dbpedia.org/resource/Category:Bizkaia" ;
+	dbp:town "http://dbpedia.org/resource/Amorebieta-Etxano" .
 
 <http://www.semanticweb.org/2017grupo9/ontology/city/Euskadi#51> dbp:name "ZIERBENA (Puerto)" ;
 	dbp:province "Bizkaia" ;
@@ -470,7 +545,8 @@
 	geo:location "493436,7" , "4800025,4" ;
 	geo:lat "43,35305543364201" ;
 	geo:long "-3,080988277376953" ;
-	dbp:province "http://es.dbpedia.org/resource/Bizkaia" .
+	dbp:province "http://dbpedia.org/resource/Category:Bizkaia" ;
+	dbp:town "http://dbpedia.org/resource/Zierbena" .
 
 <http://www.semanticweb.org/2017grupo9/ontology/city/Euskadi#52> dbp:name "ZUMARRAGA" ;
 	dbp:province "Gipuzkoa" ;
@@ -478,4 +554,6 @@
 	dbp:address "Grupo Izazpi 3, 6 " ;
 	geo:location "555656,194" , "4770489,269" ;
 	geo:lat "43,08507598449891" ;
-	geo:long "-2,316228856182885" .
+	geo:long "-2,316228856182885" ;
+	dbp:province "http://dbpedia.org/resource/Category:Gipuzkoa" ;
+	dbp:town "http://dbpedia.org/resource/Zumárraga" .
