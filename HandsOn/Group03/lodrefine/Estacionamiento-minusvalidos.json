@@ -1,96 +1,5 @@
 [
   {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column Barrio using expression value.toString()",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "Barrio",
-    "expression": "value.toString()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column Distrito using expression value.toString()",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "Distrito",
-    "expression": "value.toString()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column Calle using expression value.toString()",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "Calle",
-    "expression": "value.toString()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column Número de Plazas using expression value.toNumber()",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "Número de Plazas",
-    "expression": "value.toNumber()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column Distrito using expression value.toString()",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": [
-        {
-          "selectNumeric": false,
-          "expression": "value",
-          "selectBlank": true,
-          "selectNonNumeric": false,
-          "selectError": true,
-          "name": "Número de Plazas",
-          "from": 1,
-          "to": 56,
-          "type": "range",
-          "columnName": "Número de Plazas"
-        }
-      ]
-    },
-    "columnName": "Distrito",
-    "expression": "value.toString()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column Barrio using expression value.toString()",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "Barrio",
-    "expression": "value.toString()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
     "op": "core/column-removal",
     "description": "Remove column Gis_X",
     "columnName": "Gis_X"
@@ -126,6 +35,25 @@
     "columnName": "Distrito 1"
   },
   {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Distrito 2 using expression value.toTitlecase()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Distrito 2",
+    "expression": "value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Distrito 2 to Distrito",
+    "oldColumnName": "Distrito 2",
+    "newColumnName": "Distrito"
+  },
+  {
     "op": "core/column-split",
     "description": "Split column Barrio by separator",
     "engineConfig": {
@@ -146,19 +74,23 @@
     "columnName": "Barrio 1"
   },
   {
-    "op": "core/column-split",
-    "description": "Split column Calle by separator",
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Barrio 2 using expression value.toTitlecase()",
     "engineConfig": {
       "mode": "row-based",
       "facets": []
     },
-    "columnName": "Calle",
-    "guessCellType": true,
-    "removeOriginalColumn": true,
-    "mode": "separator",
-    "separator": ",",
-    "regex": false,
-    "maxColumns": 3
+    "columnName": "Barrio 2",
+    "expression": "value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Barrio 2 to Barrio",
+    "oldColumnName": "Barrio 2",
+    "newColumnName": "Barrio"
   },
   {
     "op": "core/column-removal",
@@ -171,67 +103,28 @@
     "columnName": "Texto Cajetines"
   },
   {
-    "op": "core/column-rename",
-    "description": "Rename column Distrito 2 to Distrito",
-    "oldColumnName": "Distrito 2",
-    "newColumnName": "Distrito"
-  },
-  {
-    "op": "core/column-rename",
-    "description": "Rename column Barrio 2 to Barrio",
-    "oldColumnName": "Barrio 2",
-    "newColumnName": "Barrio"
-  },
-  {
-    "op": "core/column-rename",
-    "description": "Rename column Calle 1 to Calle",
-    "oldColumnName": "Calle 1",
-    "newColumnName": "Calle"
-  },
-  {
-    "op": "core/column-rename",
-    "description": "Rename column Calle to Nombre de la vía",
-    "oldColumnName": "Calle",
-    "newColumnName": "Nombre de la vía"
-  },
-  {
-    "op": "core/column-rename",
-    "description": "Rename column Calle 2 to Tipo de la vía",
-    "oldColumnName": "Calle 2",
-    "newColumnName": "Tipo de la vía"
-  },
-  {
-    "op": "core/column-rename",
-    "description": "Rename column Calle 3 to Particula de la vía",
-    "oldColumnName": "Calle 3",
-    "newColumnName": "Particula de la vía"
-  },
-  {
-    "op": "core/column-rename",
-    "description": "Rename column Nº Finca to Nº de la vía",
-    "oldColumnName": "Nº Finca",
-    "newColumnName": "Nº de la vía"
-  },
-  {
-    "op": "core/column-rename",
-    "description": "Rename column Línea / Batería to Forma de aparcamiento",
-    "oldColumnName": "Línea / Batería",
-    "newColumnName": "Forma de aparcamiento"
-  },
-  {
-    "op": "core/column-rename",
-    "description": "Rename column Número de Plazas to Nº de Plazas",
-    "oldColumnName": "Número de Plazas",
-    "newColumnName": "Nº de Plazas"
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column Distrito using expression value.toTitlecase()",
+    "op": "core/column-split",
+    "description": "Split column Calle by separator",
     "engineConfig": {
       "mode": "row-based",
       "facets": []
     },
-    "columnName": "Distrito",
+    "columnName": "Calle",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": ",",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Calle 2 using expression value.toTitlecase()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Calle 2",
     "expression": "value.toTitlecase()",
     "onError": "keep-original",
     "repeat": false,
@@ -239,712 +132,68 @@
   },
   {
     "op": "core/text-transform",
-    "description": "Text transform on cells in column Barrio using expression value.toTitlecase()",
+    "description": "Text transform on cells in column Calle 3 using expression value.toLowercase()",
     "engineConfig": {
       "mode": "row-based",
       "facets": []
     },
-    "columnName": "Barrio",
-    "expression": "value.toTitlecase()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column Nombre de la vía using expression value.toTitlecase()",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "Nombre de la vía",
-    "expression": "value.toTitlecase()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column Tipo de la vía using expression value.toTitlecase()",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "Tipo de la vía",
-    "expression": "value.toTitlecase()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column Particula de la vía using expression value.toLowercase()",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "Particula de la vía",
+    "columnName": "Calle 3",
     "expression": "value.toLowercase()",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10
   },
   {
-    "op": "rdf-extension/save-rdf-schema",
-    "description": "Save RDF schema skeleton",
-    "schema": {
-      "baseUri": "http://www.semanticweb.org/group03/resource#",
-      "prefixes": [
-        {
-          "name": "rdf",
-          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        },
-        {
-          "name": "owl",
-          "uri": "http://www.w3.org/2002/07/owl#"
-        },
-        {
-          "name": "rdfs",
-          "uri": "http://www.w3.org/2000/01/rdf-schema#"
-        },
-        {
-          "name": "g03",
-          "uri": ""
-        }
-      ],
-      "rootNodes": [
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": true,
-          "rdfTypes": [
-            {
-              "uri": "http://www.semanticweb.org/group03/ontologyEstacionamiento",
-              "curie": "g03:ontologyEstacionamiento"
-            }
-          ],
-          "links": [
-            {
-              "uri": "http://www.semanticweb.org/group03/ontologyestaEn",
-              "curie": "g03:ontologyestaEn",
-              "target": {
-                "nodeType": "cell-as-resource",
-                "expression": "cells[\"Nombre de la vía\"].value+cells[\"Nº de la vía\"].value",
-                "isRowNumberCell": false,
-                "columnName": "Nombre de la vía",
-                "rdfTypes": [],
-                "links": []
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/group03/ontologycercaDe",
-              "curie": "g03:ontologycercaDe",
-              "target": {
-                "nodeType": "cell-as-resource",
-                "expression": "\"Parquimetro\"+cells[\"Nombre de la vía\"].value+cells[\"Nº de la vía\"].value",
-                "isRowNumberCell": false,
-                "columnName": "Nº de la vía",
-                "rdfTypes": [],
-                "links": []
-              }
-            },
-            {
-              "uri": "ontologytipoEstacionamiento",
-              "curie": "g03:ontologytipoEstacionamiento",
-              "target": {
-                "nodeType": "literal",
-                "value": "Minusvalidos"
-              }
-            }
-          ]
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "cells[\"Nombre de la vía\"].value+cells[\"Nº de la vía\"].value",
-          "isRowNumberCell": false,
-          "columnName": "Nombre de la vía",
-          "rdfTypes": [
-            {
-              "uri": "http://www.semanticweb.org/group03/ontologyUbicacion",
-              "curie": "g03:ontologyUbicacion"
-            }
-          ],
-          "links": [
-            {
-              "uri": "http://www.semanticweb.org/group03/ontologytipoDeLaVia",
-              "curie": "g03:ontologytipoDeLaVia",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "Tipo de la vía"
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/group03/ontologyparticulaDeLaVia",
-              "curie": "g03:ontologyparticulaDeLaVia",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "Particula de la vía"
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/group03/ontologynombreDeLaVia",
-              "curie": "g03:ontologynombreDeLaVia",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "Nombre de la vía"
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/group03/ontologynumeroDeLaVia",
-              "curie": "g03:ontologynumeroDeLaVia",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "Nº de la vía"
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/group03/ontologybarrio",
-              "curie": "g03:ontologybarrio",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "Barrio"
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/group03/ontologydistrito",
-              "curie": "g03:ontologydistrito",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "Distrito"
-              }
-            }
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "op": "rdf-extension/save-rdf-schema",
-    "description": "Save RDF schema skeleton",
-    "schema": {
-      "baseUri": "http://www.semanticweb.org/group03/resource#",
-      "prefixes": [
-        {
-          "name": "rdf",
-          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        },
-        {
-          "name": "owl",
-          "uri": "http://www.w3.org/2002/07/owl#"
-        },
-        {
-          "name": "rdfs",
-          "uri": "http://www.w3.org/2000/01/rdf-schema#"
-        },
-        {
-          "name": "g03",
-          "uri": ""
-        }
-      ],
-      "rootNodes": [
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "\"ZonaMinusvalidos\"+cells[\"Nombre de la vía\"].value+cells[\"Nº de la vía\"].value",
-          "isRowNumberCell": true,
-          "rdfTypes": [
-            {
-              "uri": "http://www.semanticweb.org/group03/ontologyEstacionamiento",
-              "curie": "g03:ontologyEstacionamiento"
-            }
-          ],
-          "links": [
-            {
-              "uri": "http://www.semanticweb.org/group03/ontologyestaEn",
-              "curie": "g03:ontologyestaEn",
-              "target": {
-                "nodeType": "cell-as-resource",
-                "expression": "cells[\"Nombre de la vía\"].value+cells[\"Nº de la vía\"].value",
-                "isRowNumberCell": false,
-                "columnName": "Nombre de la vía",
-                "rdfTypes": [],
-                "links": []
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/group03/ontologycercaDe",
-              "curie": "g03:ontologycercaDe",
-              "target": {
-                "nodeType": "cell-as-resource",
-                "expression": "\"Parquimetro\"+cells[\"Nombre de la vía\"].value+cells[\"Nº de la vía\"].value",
-                "isRowNumberCell": false,
-                "columnName": "Nº de la vía",
-                "rdfTypes": [],
-                "links": []
-              }
-            },
-            {
-              "uri": "ontologytipoEstacionamiento",
-              "curie": "g03:ontologytipoEstacionamiento",
-              "target": {
-                "nodeType": "literal",
-                "value": "Minusvalidos"
-              }
-            }
-          ]
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "cells[\"Nombre de la vía\"].value+cells[\"Nº de la vía\"].value",
-          "isRowNumberCell": false,
-          "columnName": "Nombre de la vía",
-          "rdfTypes": [
-            {
-              "uri": "http://www.semanticweb.org/group03/ontologyUbicacion",
-              "curie": "g03:ontologyUbicacion"
-            }
-          ],
-          "links": [
-            {
-              "uri": "http://www.semanticweb.org/group03/ontologytipoDeLaVia",
-              "curie": "g03:ontologytipoDeLaVia",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "Tipo de la vía"
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/group03/ontologyparticulaDeLaVia",
-              "curie": "g03:ontologyparticulaDeLaVia",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "Particula de la vía"
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/group03/ontologynombreDeLaVia",
-              "curie": "g03:ontologynombreDeLaVia",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "Nombre de la vía"
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/group03/ontologynumeroDeLaVia",
-              "curie": "g03:ontologynumeroDeLaVia",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "Nº de la vía"
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/group03/ontologybarrio",
-              "curie": "g03:ontologybarrio",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "Barrio"
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/group03/ontologydistrito",
-              "curie": "g03:ontologydistrito",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "Distrito"
-              }
-            }
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "op": "rdf-extension/save-rdf-schema",
-    "description": "Save RDF schema skeleton",
-    "schema": {
-      "baseUri": "http://www.semanticweb.org/group03/resource#",
-      "prefixes": [
-        {
-          "name": "rdf",
-          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        },
-        {
-          "name": "owl",
-          "uri": "http://www.w3.org/2002/07/owl#"
-        },
-        {
-          "name": "rdfs",
-          "uri": "http://www.w3.org/2000/01/rdf-schema#"
-        },
-        {
-          "name": "g03",
-          "uri": ""
-        }
-      ],
-      "rootNodes": [
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "\"ZonaMinusvalidos\"+cells[\"Nombre de la vía\"].value+cells[\"Nº de la vía\"].value",
-          "isRowNumberCell": true,
-          "rdfTypes": [
-            {
-              "uri": "http://www.semanticweb.org/group03/ontologyEstacionamiento",
-              "curie": "g03:ontologyEstacionamiento"
-            }
-          ],
-          "links": [
-            {
-              "uri": "http://www.semanticweb.org/group03/ontologyestaEn",
-              "curie": "g03:ontologyestaEn",
-              "target": {
-                "nodeType": "cell-as-resource",
-                "expression": "cells[\"Nombre de la vía\"].value+cells[\"Nº de la vía\"].value",
-                "isRowNumberCell": false,
-                "columnName": "Nombre de la vía",
-                "rdfTypes": [
-                  {
-                    "uri": "http://www.semanticweb.org/group03/ontologyUbicacion",
-                    "curie": "g03:ontologyUbicacion"
-                  }
-                ],
-                "links": []
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/group03/ontologycercaDe",
-              "curie": "g03:ontologycercaDe",
-              "target": {
-                "nodeType": "cell-as-resource",
-                "expression": "\"Parquimetro\"+cells[\"Nombre de la vía\"].value+cells[\"Nº de la vía\"].value",
-                "isRowNumberCell": false,
-                "columnName": "Nº de la vía",
-                "rdfTypes": [
-                  {
-                    "uri": "http://www.semanticweb.org/group03/ontologyParquimetro",
-                    "curie": "g03:ontologyParquimetro"
-                  }
-                ],
-                "links": []
-              }
-            },
-            {
-              "uri": "ontologytipoEstacionamiento",
-              "curie": "g03:ontologytipoEstacionamiento",
-              "target": {
-                "nodeType": "literal",
-                "value": "Minusvalidos"
-              }
-            }
-          ]
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "cells[\"Nombre de la vía\"].value+cells[\"Nº de la vía\"].value",
-          "isRowNumberCell": false,
-          "columnName": "Nombre de la vía",
-          "rdfTypes": [
-            {
-              "uri": "http://www.semanticweb.org/group03/ontologyUbicacion",
-              "curie": "g03:ontologyUbicacion"
-            }
-          ],
-          "links": [
-            {
-              "uri": "http://www.semanticweb.org/group03/ontologytipoDeLaVia",
-              "curie": "g03:ontologytipoDeLaVia",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "Tipo de la vía"
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/group03/ontologyparticulaDeLaVia",
-              "curie": "g03:ontologyparticulaDeLaVia",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "Particula de la vía"
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/group03/ontologynombreDeLaVia",
-              "curie": "g03:ontologynombreDeLaVia",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "Nombre de la vía"
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/group03/ontologynumeroDeLaVia",
-              "curie": "g03:ontologynumeroDeLaVia",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "Nº de la vía"
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/group03/ontologybarrio",
-              "curie": "g03:ontologybarrio",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "Barrio"
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/group03/ontologydistrito",
-              "curie": "g03:ontologydistrito",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "Distrito"
-              }
-            }
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "op": "rdf-extension/save-rdf-schema",
-    "description": "Save RDF schema skeleton",
-    "schema": {
-      "baseUri": "http://www.semanticweb.org/group03/resource#",
-      "prefixes": [
-        {
-          "name": "rdf",
-          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        },
-        {
-          "name": "owl",
-          "uri": "http://www.w3.org/2002/07/owl#"
-        },
-        {
-          "name": "rdfs",
-          "uri": "http://www.w3.org/2000/01/rdf-schema#"
-        },
-        {
-          "name": "g03",
-          "uri": ""
-        }
-      ],
-      "rootNodes": [
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "\"ZonaMinusvalidos\"+cells[\"Nombre de la vía\"].value+cells[\"Nº de la vía\"].value",
-          "isRowNumberCell": true,
-          "rdfTypes": [
-            {
-              "uri": "http://www.semanticweb.org/group03/ontologyEstacionamiento",
-              "curie": "g03:ontologyEstacionamiento"
-            }
-          ],
-          "links": [
-            {
-              "uri": "http://www.semanticweb.org/group03/ontologyestaEn",
-              "curie": "g03:ontologyestaEn",
-              "target": {
-                "nodeType": "cell-as-resource",
-                "expression": "cells[\"Nombre de la vía\"].value+cells[\"Nº de la vía\"].value",
-                "isRowNumberCell": false,
-                "columnName": "Nombre de la vía",
-                "rdfTypes": [
-                  {
-                    "uri": "http://www.semanticweb.org/group03/ontologyUbicacion",
-                    "curie": "g03:ontologyUbicacion"
-                  }
-                ],
-                "links": []
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/group03/ontologycercaDe",
-              "curie": "g03:ontologycercaDe",
-              "target": {
-                "nodeType": "cell-as-resource",
-                "expression": "\"Parquimetro\"+cells[\"Nombre de la vía\"].value+cells[\"Nº de la vía\"].value",
-                "isRowNumberCell": false,
-                "columnName": "Nº de la vía",
-                "rdfTypes": [
-                  {
-                    "uri": "http://www.semanticweb.org/group03/ontologyParquimetro",
-                    "curie": "g03:ontologyParquimetro"
-                  }
-                ],
-                "links": []
-              }
-            },
-            {
-              "uri": "ontologytipoEstacionamiento",
-              "curie": "g03:ontologytipoEstacionamiento",
-              "target": {
-                "nodeType": "literal",
-                "value": "Minusvalidos"
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/group03/ontologyformaDeAparcamiento",
-              "curie": "g03:ontologyformaDeAparcamiento",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "Forma de aparcamiento"
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/group03/ontologynumeroDePlazas",
-              "curie": "g03:ontologynumeroDePlazas",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "valueType": "http://www.w3.org/2001/XMLSchema#int",
-                "columnName": "Nº de Plazas"
-              }
-            }
-          ]
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "cells[\"Nombre de la vía\"].value+cells[\"Nº de la vía\"].value",
-          "isRowNumberCell": false,
-          "columnName": "Nombre de la vía",
-          "rdfTypes": [
-            {
-              "uri": "http://www.semanticweb.org/group03/ontologyUbicacion",
-              "curie": "g03:ontologyUbicacion"
-            }
-          ],
-          "links": [
-            {
-              "uri": "http://www.semanticweb.org/group03/ontologytipoDeLaVia",
-              "curie": "g03:ontologytipoDeLaVia",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "Tipo de la vía"
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/group03/ontologyparticulaDeLaVia",
-              "curie": "g03:ontologyparticulaDeLaVia",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "Particula de la vía"
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/group03/ontologynombreDeLaVia",
-              "curie": "g03:ontologynombreDeLaVia",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "Nombre de la vía"
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/group03/ontologynumeroDeLaVia",
-              "curie": "g03:ontologynumeroDeLaVia",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "Nº de la vía"
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/group03/ontologybarrio",
-              "curie": "g03:ontologybarrio",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "Barrio"
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/group03/ontologydistrito",
-              "curie": "g03:ontologydistrito",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "Distrito"
-              }
-            }
-          ]
-        }
-      ]
-    }
-  },
-  {
     "op": "core/text-transform",
-    "description": "Text transform on cells in column Tipo de la vía using expression grel:substring(value,1)",
+    "description": "Text transform on cells in column Calle 1 using expression value.toTitlecase()",
     "engineConfig": {
       "mode": "row-based",
       "facets": []
     },
-    "columnName": "Tipo de la vía",
-    "expression": "grel:substring(value,1)",
+    "columnName": "Calle 1",
+    "expression": "value.toTitlecase()",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10
   },
   {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column Particula de la vía using expression grel:substring(value,1)",
+    "op": "core/column-addition",
+    "description": "Create column Dirección at index 4 based on column Calle 2 using expression grel:value + if(isBlank(cells[\"Calle 3\"].value),\"\",cells[\"Calle 3\"].value) + \" \" + cells[\"Calle 1\"].value + \" \" +cells[\"Nº Finca\"].value",
     "engineConfig": {
       "mode": "row-based",
       "facets": []
     },
-    "columnName": "Particula de la vía",
-    "expression": "grel:substring(value,1)",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
+    "newColumnName": "Dirección",
+    "columnInsertIndex": 4,
+    "baseColumnName": "Calle 2",
+    "expression": "grel:value + if(isBlank(cells[\"Calle 3\"].value),\"\",cells[\"Calle 3\"].value) + \" \" + cells[\"Calle 1\"].value + \" \" +cells[\"Nº Finca\"].value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Calle 1",
+    "columnName": "Calle 1"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Calle 2",
+    "columnName": "Calle 2"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Calle 3",
+    "columnName": "Calle 3"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Nº Finca",
+    "columnName": "Nº Finca"
   },
   {
     "op": "rdf-extension/save-rdf-schema",
     "description": "Save RDF schema skeleton",
     "schema": {
-      "baseUri": "http://www.semanticweb.org/group03/resource#",
+      "baseUri": "http://www.semanticweb.org/group03/resource/",
       "prefixes": [
         {
           "name": "rdf",
@@ -966,168 +215,96 @@
       "rootNodes": [
         {
           "nodeType": "cell-as-resource",
-          "expression": "\"ZonaMinusvalidos\"+cells[\"Nombre de la vía\"].value+cells[\"Nº de la vía\"].value",
+          "expression": "\"EstacionamientoMinus\"+value",
           "isRowNumberCell": true,
           "rdfTypes": [
             {
-              "uri": "http://www.semanticweb.org/group03/ontologyEstacionamiento",
-              "curie": "g03:ontologyEstacionamiento"
+              "uri": "http://www.semanticweb.org/group03/ontology#ZonaMinusvalidos",
+              "curie": "g03:ZonaMinusvalidos"
             }
           ],
           "links": [
             {
-              "uri": "http://www.semanticweb.org/group03/ontologyestaEn",
-              "curie": "g03:ontologyestaEn",
+              "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#distrito",
+              "curie": "g03:distrito",
               "target": {
                 "nodeType": "cell-as-resource",
-                "expression": "cells[\"Nombre de la vía\"].value+cells[\"Nº de la vía\"].value",
+                "expression": "if(startsWith(value,\" \"),substring(value,1),value)",
                 "isRowNumberCell": false,
-                "columnName": "Nombre de la vía",
+                "columnName": "Distrito",
                 "rdfTypes": [
                   {
-                    "uri": "http://www.semanticweb.org/group03/ontologyUbicacion",
-                    "curie": "g03:ontologyUbicacion"
+                    "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Distrito",
+                    "curie": "g03:Distrito"
                   }
                 ],
                 "links": []
               }
             },
             {
-              "uri": "http://www.semanticweb.org/group03/ontologycercaDe",
-              "curie": "g03:ontologycercaDe",
+              "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#barrio",
+              "curie": "g03:barrio",
               "target": {
                 "nodeType": "cell-as-resource",
-                "expression": "\"Parquimetro\"+cells[\"Nombre de la vía\"].value+cells[\"Nº de la vía\"].value",
+                "expression": "value",
                 "isRowNumberCell": false,
-                "columnName": "Nº de la vía",
+                "columnName": "Barrio",
                 "rdfTypes": [
                   {
-                    "uri": "http://www.semanticweb.org/group03/ontologyParquimetro",
-                    "curie": "g03:ontologyParquimetro"
+                    "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Barrio",
+                    "curie": "g03:Barrio"
                   }
                 ],
                 "links": []
               }
             },
             {
-              "uri": "ontologytipoEstacionamiento",
-              "curie": "g03:ontologytipoEstacionamiento",
+              "uri": "http://www.w3.org/2006/vcard/ns#hasAddress",
+              "curie": "g03:hasAddress",
               "target": {
-                "nodeType": "literal",
-                "value": "Minusvalidos"
+                "nodeType": "cell-as-resource",
+                "expression": "if(startsWith(value,\" \"),substring(value,1),value)",
+                "isRowNumberCell": false,
+                "columnName": "Dirección",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.w3.org/2006/vcard/ns#Address",
+                    "curie": "g03:Address"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2006/vcard/ns#street-address",
+                    "curie": "g03:street-address",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "if(startsWith(value,\" \"),substring(value,1),value)",
+                      "isRowNumberCell": false,
+                      "columnName": "Dirección"
+                    }
+                  }
+                ]
               }
             },
             {
-              "uri": "http://www.semanticweb.org/group03/ontologyformaDeAparcamiento",
-              "curie": "g03:ontologyformaDeAparcamiento",
+              "uri": "http://www.semanticweb.org/group03/ontology#formaDeAparcamiento",
+              "curie": "g03:formaDeAparcamiento",
               "target": {
                 "nodeType": "cell-as-literal",
                 "expression": "value",
                 "isRowNumberCell": false,
-                "columnName": "Forma de aparcamiento"
+                "columnName": "Línea / Batería"
               }
             },
             {
-              "uri": "http://www.semanticweb.org/group03/ontologynumeroDePlazas",
-              "curie": "g03:ontologynumeroDePlazas",
+              "uri": "http://www.semanticweb.org/group03/ontology#numeroDePlazas",
+              "curie": "g03:numeroDePlazas",
               "target": {
                 "nodeType": "cell-as-literal",
                 "expression": "value",
                 "isRowNumberCell": false,
                 "valueType": "http://www.w3.org/2001/XMLSchema#int",
-                "columnName": "Nº de Plazas"
-              }
-            },
-            {
-              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
-              "curie": "rdfs:label",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "\"ZonaMinusvalidos\"+cells[\"Nombre de la vía\"].value+cells[\"Nº de la vía\"].value",
-                "isRowNumberCell": true
-              }
-            }
-          ]
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "cells[\"Nombre de la vía\"].value+cells[\"Nº de la vía\"].value",
-          "isRowNumberCell": false,
-          "columnName": "Nombre de la vía",
-          "rdfTypes": [
-            {
-              "uri": "http://www.semanticweb.org/group03/ontologyUbicacion",
-              "curie": "g03:ontologyUbicacion"
-            }
-          ],
-          "links": [
-            {
-              "uri": "http://www.semanticweb.org/group03/ontologytipoDeLaVia",
-              "curie": "g03:ontologytipoDeLaVia",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "Tipo de la vía"
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/group03/ontologyparticulaDeLaVia",
-              "curie": "g03:ontologyparticulaDeLaVia",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "Particula de la vía"
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/group03/ontologynombreDeLaVia",
-              "curie": "g03:ontologynombreDeLaVia",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "Nombre de la vía"
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/group03/ontologynumeroDeLaVia",
-              "curie": "g03:ontologynumeroDeLaVia",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "Nº de la vía"
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/group03/ontologybarrio",
-              "curie": "g03:ontologybarrio",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "Barrio"
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/group03/ontologydistrito",
-              "curie": "g03:ontologydistrito",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "Distrito"
-              }
-            },
-            {
-              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
-              "curie": "rdfs:label",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "cells[\"Nombre de la vía\"].value+cells[\"Nº de la vía\"].value",
-                "isRowNumberCell": true
+                "columnName": "Número de Plazas"
               }
             }
           ]
@@ -1139,7 +316,7 @@
     "op": "rdf-extension/save-rdf-schema",
     "description": "Save RDF schema skeleton",
     "schema": {
-      "baseUri": "http://www.semanticweb.org/group03/resource#",
+      "baseUri": "http://www.semanticweb.org/group03/resource/",
       "prefixes": [
         {
           "name": "rdf",
@@ -1161,159 +338,219 @@
       "rootNodes": [
         {
           "nodeType": "cell-as-resource",
-          "expression": "\"ZonaMinusvalidos\"+cells[\"Nombre de la vía\"].value+cells[\"Nº de la vía\"].value",
+          "expression": "\"EstacionamientoMinus\"+value",
           "isRowNumberCell": true,
           "rdfTypes": [
             {
-              "uri": "http://www.semanticweb.org/group03/ontologyEstacionamiento",
-              "curie": "g03:ontologyEstacionamiento"
+              "uri": "http://www.semanticweb.org/group03/ontology#ZonaMinusvalidos",
+              "curie": "g03:ZonaMinusvalidos"
             }
           ],
           "links": [
             {
-              "uri": "http://www.semanticweb.org/group03/ontologyestaEn",
-              "curie": "g03:ontologyestaEn",
+              "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#distrito",
+              "curie": "g03:distrito",
               "target": {
                 "nodeType": "cell-as-resource",
-                "expression": "cells[\"Nombre de la vía\"].value+cells[\"Nº de la vía\"].value",
+                "expression": "if(startsWith(value,\" \"),substring(value,1),value)",
                 "isRowNumberCell": false,
-                "columnName": "Nombre de la vía",
+                "columnName": "Distrito",
                 "rdfTypes": [
                   {
-                    "uri": "http://www.semanticweb.org/group03/ontologyUbicacion",
-                    "curie": "g03:ontologyUbicacion"
+                    "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Distrito",
+                    "curie": "g03:Distrito"
                   }
                 ],
                 "links": []
               }
             },
             {
-              "uri": "http://www.semanticweb.org/group03/ontologycercaDe",
-              "curie": "g03:ontologycercaDe",
+              "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#barrio",
+              "curie": "g03:barrio",
               "target": {
                 "nodeType": "cell-as-resource",
-                "expression": "\"Parquimetro\"+cells[\"Nombre de la vía\"].value+cells[\"Nº de la vía\"].value",
+                "expression": "value",
                 "isRowNumberCell": false,
-                "columnName": "Nº de la vía",
+                "columnName": "Barrio",
                 "rdfTypes": [
                   {
-                    "uri": "http://www.semanticweb.org/group03/ontologyParquimetro",
-                    "curie": "g03:ontologyParquimetro"
+                    "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Barrio",
+                    "curie": "g03:Barrio"
                   }
                 ],
                 "links": []
               }
             },
             {
-              "uri": "ontologytipoEstacionamiento",
-              "curie": "g03:ontologytipoEstacionamiento",
+              "uri": "http://www.w3.org/2006/vcard/ns#hasAddress",
+              "curie": "g03:hasAddress",
               "target": {
-                "nodeType": "literal",
-                "value": "Minusvalidos"
+                "nodeType": "cell-as-resource",
+                "expression": "replace(if(startsWith(value,\" \"),substring(value,1),value),\" \",\"_\")",
+                "isRowNumberCell": false,
+                "columnName": "Dirección",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.w3.org/2006/vcard/ns#Address",
+                    "curie": "g03:Address"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2006/vcard/ns#street-address",
+                    "curie": "g03:street-address",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "if(startsWith(value,\" \"),substring(value,1),value)",
+                      "isRowNumberCell": false,
+                      "columnName": "Dirección"
+                    }
+                  }
+                ]
               }
             },
             {
-              "uri": "http://www.semanticweb.org/group03/ontologyformaDeAparcamiento",
-              "curie": "g03:ontologyformaDeAparcamiento",
+              "uri": "http://www.semanticweb.org/group03/ontology#formaDeAparcamiento",
+              "curie": "g03:formaDeAparcamiento",
               "target": {
                 "nodeType": "cell-as-literal",
                 "expression": "value",
                 "isRowNumberCell": false,
-                "columnName": "Forma de aparcamiento"
+                "columnName": "Línea / Batería"
               }
             },
             {
-              "uri": "http://www.semanticweb.org/group03/ontologynumeroDePlazas",
-              "curie": "g03:ontologynumeroDePlazas",
+              "uri": "http://www.semanticweb.org/group03/ontology#numeroDePlazas",
+              "curie": "g03:numeroDePlazas",
               "target": {
                 "nodeType": "cell-as-literal",
                 "expression": "value",
                 "isRowNumberCell": false,
                 "valueType": "http://www.w3.org/2001/XMLSchema#int",
-                "columnName": "Nº de Plazas"
-              }
-            },
-            {
-              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
-              "curie": "rdfs:label",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "\"ZonaMinusvalidos\"+cells[\"Nombre de la vía\"].value+cells[\"Nº de la vía\"].value",
-                "isRowNumberCell": true
+                "columnName": "Número de Plazas"
               }
             }
           ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group03/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
         },
         {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "g03",
+          "uri": ""
+        }
+      ],
+      "rootNodes": [
+        {
           "nodeType": "cell-as-resource",
-          "expression": "cells[\"Nombre de la vía\"].value+cells[\"Nº de la vía\"].value",
-          "isRowNumberCell": false,
-          "columnName": "Nombre de la vía",
+          "expression": "\"EstacionamientoMinus\"+value",
+          "isRowNumberCell": true,
           "rdfTypes": [
             {
-              "uri": "http://www.semanticweb.org/group03/ontologyUbicacion",
-              "curie": "g03:ontologyUbicacion"
+              "uri": "http://www.semanticweb.org/group03/ontology#ZonaMinusvalidos",
+              "curie": "g03:ZonaMinusvalidos"
             }
           ],
           "links": [
             {
-              "uri": "http://www.semanticweb.org/group03/ontologytipoDeLaVia",
-              "curie": "g03:ontologytipoDeLaVia",
+              "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#distrito",
+              "curie": "g03:distrito",
               "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
+                "nodeType": "cell-as-resource",
+                "expression": "if(startsWith(value,\" \"),substring(value,1),value)",
                 "isRowNumberCell": false,
-                "columnName": "Tipo de la vía"
+                "columnName": "Distrito",
+                "rdfTypes": [
+                  {
+                    "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Distrito",
+                    "curie": "g03:Distrito"
+                  }
+                ],
+                "links": []
               }
             },
             {
-              "uri": "http://www.semanticweb.org/group03/ontologyparticulaDeLaVia",
-              "curie": "g03:ontologyparticulaDeLaVia",
+              "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#barrio",
+              "curie": "g03:barrio",
               "target": {
-                "nodeType": "cell-as-literal",
+                "nodeType": "cell-as-resource",
                 "expression": "value",
                 "isRowNumberCell": false,
-                "columnName": "Particula de la vía"
+                "columnName": "Barrio",
+                "rdfTypes": [
+                  {
+                    "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Barrio",
+                    "curie": "g03:Barrio"
+                  }
+                ],
+                "links": []
               }
             },
             {
-              "uri": "http://www.semanticweb.org/group03/ontologynombreDeLaVia",
-              "curie": "g03:ontologynombreDeLaVia",
+              "uri": "http://www.w3.org/2006/vcard/ns#hasAddress",
+              "curie": "g03:hasAddress",
               "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
+                "nodeType": "cell-as-resource",
+                "expression": "replace(if(startsWith(value,\" \"),substring(value,1),value),\" \",\"_\")",
                 "isRowNumberCell": false,
-                "columnName": "Nombre de la vía"
+                "columnName": "Dirección",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.w3.org/2006/vcard/ns#Address",
+                    "curie": "g03:Address"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2006/vcard/ns#street-address",
+                    "curie": "g03:street-address",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "if(startsWith(value,\" \"),substring(value,1),value)",
+                      "isRowNumberCell": false,
+                      "columnName": "Dirección"
+                    }
+                  }
+                ]
               }
             },
             {
-              "uri": "http://www.semanticweb.org/group03/ontologynumeroDeLaVia",
-              "curie": "g03:ontologynumeroDeLaVia",
+              "uri": "http://www.semanticweb.org/group03/ontology#formaDeAparcamiento",
+              "curie": "g03:formaDeAparcamiento",
               "target": {
                 "nodeType": "cell-as-literal",
                 "expression": "value",
                 "isRowNumberCell": false,
-                "columnName": "Nº de la vía"
+                "columnName": "Línea / Batería"
               }
             },
             {
-              "uri": "http://www.semanticweb.org/group03/ontologybarrio",
-              "curie": "g03:ontologybarrio",
+              "uri": "http://www.semanticweb.org/group03/ontology#numeroDePlazas",
+              "curie": "g03:numeroDePlazas",
               "target": {
                 "nodeType": "cell-as-literal",
                 "expression": "value",
                 "isRowNumberCell": false,
-                "columnName": "Barrio"
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/group03/ontologydistrito",
-              "curie": "g03:ontologydistrito",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "Distrito"
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "Número de Plazas"
               }
             },
             {
@@ -1321,7 +558,7 @@
               "curie": "rdfs:label",
               "target": {
                 "nodeType": "cell-as-literal",
-                "expression": "cells[\"Nombre de la vía\"].value+cells[\"Nº de la vía\"].value",
+                "expression": "\"EstacionamientoMinus\"+value",
                 "isRowNumberCell": true
               }
             }
