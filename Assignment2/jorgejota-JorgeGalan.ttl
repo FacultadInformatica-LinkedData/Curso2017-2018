@@ -1,0 +1,14 @@
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.oeg-upm.net/alumnos/Assigment2#Class01> xml:includes <http://www.oeg-upm.net/alumnos/Assigment2#Sensor029>,
+     <http://www.oeg-upm.net/alumnos/Assigment2#Computer101> .
+
+<http://www.oeg-upm.net/alumnos/Assigment2#Computer101> xml:hasOwner <http://www.oeg-upm.net/alumnos/Assigment2#User10A> .
+
+<http://www.oeg-upm.net/alumnos/Assigment2#Measurement8401> xml:atTime "2010-06-12T12:00:12"^^xsd:dateTime;
+   xml:hasTemperature "29"^^<xsd:integer=> .
+
+<http://www.oeg-upm.net/alumnos/Assigment2#Sensor029> xml:hasMeasurement <http://www.oeg-upm.net/alumnos/Assigment2#Measurement8401> .
+
+<http://www.oeg-upm.net/alumnos/Assigment2#User10A> xml:hasName <http://www.oeg-upm.net/alumnos/Assigment2#Pedro> .

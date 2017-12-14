@@ -1,0 +1,390 @@
+@prefix ont: <http://www.semanticweb.es/group08/ontology#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix vevent: <http://www.w3.org/2012/12/cal#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+
+
+<http://www.semanticweb.org/group08/resources/Biblioteca+Historica+Municipal> a <http://www.semanticweb.org/group08/resources/Library> ;
+	vcard:hasName "Biblioteca Historica Municipal" ;
+	ont:hasSchedule "Horario : de lunes a viernes de 8:30 a 14:30 horas.   Cerrada  festivos y los di­as 24 y 31 de diciembre." ;
+	vcard:hasAddress "CALLE CONDE DUQUE 9 28015 MADRID MADRID" ;
+	vcard:hasTelephone "Secretari­a: 915885737. Informacion y Referencia: 915885767, 914800557 y 915885744 " ;
+	vcard:hasName "bibliotecah@madrid.es" .
+
+<http://www.semanticweb.org/group08/resources/Biblioteca+Musical+Victor+Espinos> a <http://www.semanticweb.org/group08/resources/Library> ;
+	vcard:hasName "Biblioteca Musical Victor Espinos" ;
+	ont:hasSchedule "Horario : de lunes a viernes de 8:30 a 21 horas.   Horario  de cabinas : de lunes a viernes de 9:00 a 21 horas.    Cerrado  festivos y los di­as 24 y 31 de diciembre." ;
+	vcard:hasAddress "CALLE CONDE DUQUE 9 28015 MADRID MADRID" ;
+	vcard:hasTelephone "91 588 57 53 / 91 588 57 39 / 91 588 57 55 / 91 588 57 60" ;
+	vcard:hasName "bibliomusical@madrid.es" .
+
+<http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Acuna> a <http://www.semanticweb.org/group08/resources/Library> ;
+	vcard:hasName "Biblioteca Publica Acuna" ;
+	ont:hasSchedule "Seccion de adultos:  de lunes a viernes de 9 a 21 horas. Sabados de 9 a 14 horas.   Seccion infantil/juvenil:  de lunes a viernes de 15 a 21 horas. Sabados de 9 a 14 horas.  Todos los di­as los servicios de prestamo y acceso a internet finalizaran 15 minutos antes del cierre.  Di­as de cierre 2017: ver pestai±a mas informacion." ;
+	vcard:hasAddress "CALLE QUINTANA 9 28008 MADRID MADRID" ;
+	vcard:hasTelephone "915 413 619" ;
+	vcard:hasName "bib.acuna@madrid.org" .
+
+<http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Canillejas> a <http://www.semanticweb.org/group08/resources/Library> ;
+	vcard:hasName "Biblioteca Publica Canillejas" ;
+	ont:hasSchedule "Biblioteca cerrada desde el 28 de septiembre de 2016" ;
+	vcard:hasAddress "CALLE MUSAS 11 28022 MADRID MADRID" ;
+	vcard:hasTelephone "917 424 499" ;
+	vcard:hasName "bib.canill@madrid.org" .
+
+<http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Carabanchel+Luis+Rosales> a <http://www.semanticweb.org/group08/resources/Library> ;
+	vcard:hasName "Biblioteca Publica Carabanchel Luis Rosales" ;
+	ont:hasSchedule "De lunes a viernes de 9 a 21 horas.  Fines de semana y festivos, de 11 a 19 horas    Di­as de cierre: 1 y 6 de enero, 1 de mayo, fines de semana y festivos del mes de agosto y 24, 25 y 31 de diciembre.   Todos los di­as los servicios de prestamo y acceso a internet finalizaran 15 minutos antes del cierre.  Di­as de cierre 2017: ver pestai±a mas informacion." ;
+	vcard:hasAddress "CALLE ANTONIA RODRIGUEZ SACRISTAN 7 28044 MADRID MADRID" ;
+	vcard:hasTelephone "912 760 233" ;
+	vcard:hasName "bib.carabanchel@madrid.org" .
+
+<http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Centro+Pedro+Salinas> a <http://www.semanticweb.org/group08/resources/Library> ;
+	vcard:hasName "Biblioteca Publica Centro Pedro Salinas" ;
+	ont:hasSchedule "Seccion de adultos:  de lunes a viernes de 9 a  21 horas   Seccion infantil/juvenil:  de lunes a viernes de 15 a 21 horas  Di­as de cierre de la biblioteca:     Todos los sabados y domingos  Festivos: 6 de enero, 20 de marzo, 13 y 14 de abril; 1, 2 y 15 de mayo; 15 de agosto; 12 de octubre; 1 y 9 de noviembre; 6, 8 y 25 de diciembre.    Cierre del servicio de prestamo y acceso a internet:  15 minutos antes del cierre.  Di­as de cierre 2017: ver pestai±a mas informacion." ;
+	vcard:hasAddress "GLORIETA PUERTA DE TOLEDO 1 28005 MADRID MADRID" ;
+	vcard:hasTelephone "913 665 407" ;
+	vcard:hasName "bib.centro@madrid.org" .
+
+<http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Chamberi+%27Jose+Luis+Sampedro%27> a <http://www.semanticweb.org/group08/resources/Library> ;
+	vcard:hasName "Biblioteca Publica Chamberi­ 'Jose Luis Sampedro'" ;
+	ont:hasSchedule "Seccion de adultos:  lunes a viernes de 9 a 21 horas. Sabados de 9 a 14 horas.    Seccion infantil/juvenil:  lunes a viernes de 15 a 21 horas. Sabados de 9 a 14 horas.   Los servicios de prestamo y acceso a internet finalizan 15 minutos antes del cierre de la Biblioteca.  Di­as de cierre 2017: ver pestai±a mas informacion." ;
+	vcard:hasAddress "CALLE FELIPE EL HERMOSO 4 28010 MADRID MADRID" ;
+	vcard:hasTelephone "914 459 782" ;
+	vcard:hasName "bib.chamberi@madrid.org" .
+
+<http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Elena+Fortun+%28Retiro%29> a <http://www.semanticweb.org/group08/resources/Library> ;
+	vcard:hasName "Biblioteca Publica Elena Fortun (Retiro)" ;
+	ont:hasSchedule "Seccion de adultos e infantil/juvenil:  de lunes a viernes de 9 a 21 horas. Sabados de 9 a 14 horas. Los servicios de prestamo y acceso a internet finalizan 15 minutos antes del cierre de la biblioteca.   Sala de lectura:   de lunes a viernes de 9 a 21 horas. Sabados de 9 a 14 horas    Di­as de cierre 2017: ver pestai±a mas informacion." ;
+	vcard:hasAddress "CALLE DOCTOR ESQUERDO 189 28007 MADRID MADRID" ;
+	vcard:hasTelephone "915 019 146 " ;
+	vcard:hasName "bib.retiro@madrid.org" .
+
+<http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Fuencarral+-+El+Pardo.+Rafael+Alberti> a <http://www.semanticweb.org/group08/resources/Library> ;
+	vcard:hasName "Biblioteca Publica Fuencarral - El Pardo. Rafael Alberti" ;
+	ont:hasSchedule "Secciones de adultos, prensa y audiovisuales : de lunes a viernes de 9 a 21 horas. (Prestamo hasta las 20:45 horas).; Sabados de  9 a 14 horas (Prestamo hasta las 13:45 horas).   Seccion infantil:  de lunes a viernes de 15 a 21 horas. (Prestamo hasta las 20:45 horas).; Sabados de  9 a 14 horas (Prestamo hasta las 13:45 horas)   Sala de lectura:  de lunes a viernes de 9 a 21 horas. Sabados de  9 a 14 horas  Di­as de cierre 2017: ver pestai±a mas informacion." ;
+	vcard:hasAddress "CALLE SANGENJO 38 28034 MADRID MADRID" ;
+	vcard:hasTelephone "917 319 552 / 917 319 553" ;
+	vcard:hasName "bib.fuencarral@madrid.org" .
+
+<http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Hortaleza> a <http://www.semanticweb.org/group08/resources/Library> ;
+	vcard:hasName "Biblioteca Publica Hortaleza" ;
+	ont:hasSchedule "De lunes a jueves de 9 a 20:30 horas. Viernes de 9 a 14:30 horas  Di­as de cierre 2017: ver pestai±a mas informacion." ;
+	vcard:hasAddress "CALLE ABERTURA 2 28033 MADRID MADRID" ;
+	vcard:hasTelephone "917 633 284" ;
+	vcard:hasName "bib.hortaleza@madrid.org" .
+
+<http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Latina+-+Antonio+Mingote> a <http://www.semanticweb.org/group08/resources/Library> ;
+	vcard:hasName "Biblioteca Publica Latina - Antonio Mingote" ;
+	ont:hasSchedule "Seccion de adultos y sala de lectura:  de lunes  a viernes de  9 a 21 horas. Sabados de 9 a 14 horas.   Seccion infantil/juvenil:  de lunes  a viernes de  15 a 21 horas. Sabados de 9 a 14 horas.  Di­as de cierre 2017: ver pestai±a mas informacion." ;
+	vcard:hasAddress "CALLE RAFAEL FINAT 51 28044 MADRID MADRID" ;
+	vcard:hasTelephone "915 093 625" ;
+	vcard:hasName "bib.latina@madrid.org" .
+
+<http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Moratalaz> a <http://www.semanticweb.org/group08/resources/Library> ;
+	vcard:hasName "Biblioteca Publica Moratalaz" ;
+	ont:hasSchedule "Seccion de adultos e infantil/juvenil: de lunes a viernes de 9 a 21 horas. Sabados de 9 a 14 horas.  Horario servicio de prestamo y acceso a Internet:  de lunes a viernes de 9 a 20:45 horas. Sabados de 9 a 13:45 horas.  Di­as de cierre 2017: ver pestai±a mas informacion." ;
+	vcard:hasAddress "CALLE CORREGIDOR ALONSO DE TOBAR 5 28030 MADRID MADRID" ;
+	vcard:hasTelephone "914 394 688" ;
+	vcard:hasName "bib.moratalaz@madrid.org" .
+
+<http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Aluche+%28Latina%29> a <http://www.semanticweb.org/group08/resources/Library> ;
+	vcard:hasName "Biblioteca Publica Municipal Aluche (Latina)" ;
+	ont:hasSchedule "De lunes a viernes de 8:30 a 21 horas. Festivos cerrados.  Verano: del 15 de junio al 15 de septiembre de lunes a viernes de 8:30 a 20:15 horas.  Festivos cerrados." ;
+	vcard:hasAddress "CALLE CAMARENA 10 28047 MADRID MADRID" ;
+	vcard:hasTelephone "91 719 89 96" ;
+	vcard:hasName "bpaluche@madrid.es" .
+
+<http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Ana+Maria+Matute+%28Carabanchel%29> a <http://www.semanticweb.org/group08/resources/Library> ;
+	vcard:hasName "Biblioteca Publica Municipal Ana Mari­a Matute (Carabanchel)" ;
+	ont:hasSchedule "De lunes a viernes de 8:30 a 21 horas. Festivos cerrados.  Verano: del 15 de junio al 15 de septiembre de lunes a viernes de 8:30 a 20:15 horas.  Festivos cerrados." ;
+	vcard:hasAddress "CALLE DE LOS COMUNEROS DE CASTILLA 30 28019 MADRID MADRID" ;
+	vcard:hasTelephone "91 588 08 30" ;
+	vcard:hasName "bpanammatute@madrid.es" .
+
+<http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Buenavista+%28Salamanca%29> a <http://www.semanticweb.org/group08/resources/Library> ;
+	vcard:hasName "Biblioteca Publica Municipal Buenavista (Salamanca)" ;
+	ont:hasSchedule "De lunes a viernes de 9:00 a 21 horas. Festivos cerrados.  Verano: del 15 de junio al 15 de septiembre de lunes a viernes de 9:00 a 20:15 horas.  Festivos cerrados." ;
+	vcard:hasAddress "AVENIDA TOREROS 5 28028 MADRID MADRID" ;
+	vcard:hasTelephone "91 724 08 04" ;
+	vcard:hasName "bpbuenavista@madrid.es" .
+
+<http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Canillejas+%28San+Blas-Canillejas%29> a <http://www.semanticweb.org/group08/resources/Library> ;
+	vcard:hasName "Biblioteca Publica Municipal Canillejas (San Blas-Canillejas)" ;
+	ont:hasSchedule "De lunes a viernes de 8:30 a 21 horas. Festivos cerrados.  Verano: del 15 de junio al 15 de septiembre de lunes a viernes de 8:30 a 20:15 horas.  Festivos cerrados." ;
+	vcard:hasAddress "CALLE BOLTANA 23 28022 MADRID MADRID" ;
+	vcard:hasTelephone "91 741 11 34" ;
+	vcard:hasName "bpcanillejas@madrid.es" .
+
+<http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Ciudad+Lineal+%28Ciudad+Lineal%29> a <http://www.semanticweb.org/group08/resources/Library> ;
+	vcard:hasName "Biblioteca Publica Municipal Ciudad Lineal (Ciudad Lineal)" ;
+	ont:hasSchedule "De lunes a viernes de 8:30 a 21 horas.   Verano: del 15 de junio al 15 de septiembre de lunes a viernes de 8:30 a 20:15 horas.  Festivos cerrados." ;
+	vcard:hasAddress "AVENIDA INSTITUCINN LIBRE DE ENSENANZA (ANTIGUA CALLE HERMANOS GARCIA NOBLEJAS) 14 28037 MADRID MADRID" ;
+	vcard:hasTelephone "915 887 566" ;
+	vcard:hasName "bpciudadlineal@madrid.es" .
+
+<http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Conde+Duque+%28Centro%29> a <http://www.semanticweb.org/group08/resources/Library> ;
+	vcard:hasName "Biblioteca Publica Municipal Conde Duque (Centro)" ;
+	ont:hasSchedule "De lunes a viernes de 8:30 a 21 horas.   Verano: del 15 de junio al 15 de septiembre de lunes a viernes de 8:30 a 20:15 horas.  Festivos cerrados." ;
+	vcard:hasAddress "CALLE CONDE DUQUE 9 28015 MADRID MADRID" ;
+	vcard:hasTelephone "91 588 59 10" ;
+	vcard:hasName "bpcondeduque@madrid.es" .
+
+<http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Damaso+Alonso+%28Chamartin%29> a <http://www.semanticweb.org/group08/resources/Library> ;
+	vcard:hasName "Biblioteca Publica Municipal Damaso Alonso (Chamartin)" ;
+	ont:hasSchedule "De lunes a viernes de 8:30 a 21 horas.   Verano: del 15 de junio al  22 de septiembre de lunes a viernes de 8:30 a 20:15 horas.  Festivos cerrados." ;
+	vcard:hasAddress "CALLE MANUEL FERRERO 1 28036 MADRID MADRID" ;
+	vcard:hasTelephone "91 350 31 50" ;
+	vcard:hasName "bpdamasoalonso@madrid.es" .
+
+<http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Eugenio+Trias.+Casa+de+Fieras+de+El+Retiro> a <http://www.semanticweb.org/group08/resources/Library> ;
+	vcard:hasName "Biblioteca Publica Municipal Eugenio Trias. Casa de Fieras de El Retiro" ;
+	ont:hasSchedule "De lunes a viernes de 8:30 a 21 horas; sabados de 9:10 a 17:50 horas y domingos de 9:10 a 13:50 horas.    Verano : del 15 de junio al 15 de septiembre de lunes a viernes de 8:30 a 20:15 horas; sabados de 9:10 a 16:50 horas y domingos de 9:10 a 12:50   Los festivos y fines de semana desde el  22 de julio al 27 de agosto, la biblioteca permanecera cerrada." ;
+	vcard:hasAddress "PASEO FERNAN NUNEZ 24 28009 MADRID MADRID" ;
+	vcard:hasTelephone "91 480 48 38" ;
+	vcard:hasName "bpeugeniotrias@madrid.es" .
+
+<http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Francisco+Ayala+%28Vicalvaro%29> a <http://www.semanticweb.org/group08/resources/Library> ;
+	vcard:hasName "Biblioteca Publica Municipal Francisco Ayala (Vicalvaro)" ;
+	ont:hasSchedule "De lunes a viernes de 8:30 a 21 horas.   Verano: del 15 de junio al 15 de septiembre de lunes a viernes de 8:30 a 20:15 horas.  Festivos cerrados." ;
+	vcard:hasAddress "BULEVAR INDALECIO PRIETO 21 28032 MADRID MADRID" ;
+	vcard:hasTelephone "91 301 64 66" ;
+	vcard:hasName "bpfranciscoayala@madrid.es" .
+
+<http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Francisco+Ibanez+%28Chamartin%29> a <http://www.semanticweb.org/group08/resources/Library> ;
+	vcard:hasName "Biblioteca Publica Municipal Francisco Ibanez (Chamartin)" ;
+	ont:hasSchedule "De lunes a viernes de 8:30 a 21 horas.   Verano: del 15 de junio al 15 de septiembre de lunes a viernes de 8:30 a 20:15 horas.  Festivos cerrados." ;
+	vcard:hasAddress "CALLE MANTUANO 51 28002 MADRID MADRID" ;
+	vcard:hasTelephone "91 510 37 56" ;
+	vcard:hasName "bpfranciscoibanez@madrid.es" .
+
+<http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Gabriel+Garcia+Marquez+%28Usera%29> a <http://www.semanticweb.org/group08/resources/Library> ;
+	vcard:hasName "Biblioteca Publica Municipal Gabriel Garci­a Marquez (Usera)" ;
+	ont:hasSchedule "De lunes a viernes de 8:30 a 21 horas.   Verano: del 15 de junio al 15 de septiembre de lunes a viernes de 8:30 a 20:15 horas.  Festivos cerrados." ;
+	vcard:hasAddress "PLAZA PUEBLO 2 28041 MADRID MADRID" ;
+	vcard:hasTelephone "91 318 86 91" ;
+	vcard:hasName "bpgarciamarquez@madrid.es" .
+
+<http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Gerardo+Diego+%28Villa+de+Vallecas%29> a <http://www.semanticweb.org/group08/resources/Library> ;
+	vcard:hasName "Biblioteca Publica Municipal Gerardo Diego (Villa de Vallecas)" ;
+	ont:hasSchedule "De lunes a viernes de 8:30 a 21 horas.   Verano: del 15 de junio al 15 de septiembre de lunes a viernes de 8:30 a 20:15 horas.  Festivos cerrados." ;
+	vcard:hasAddress "CALLE MONTE AYA 12 28031 MADRID MADRID" ;
+	vcard:hasTelephone "91 380 66 33" ;
+	vcard:hasName "bpgerardodiego@madrid.es" .
+
+<http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Gloria+Fuertes+%28Barajas%29> a <http://www.semanticweb.org/group08/resources/Library> ;
+	vcard:hasName "Biblioteca Publica Municipal Gloria Fuertes (Barajas)" ;
+	ont:hasSchedule "De lunes a viernes de 8:30 a 21 horas.   Verano: del 15 de junio al 15 de septiembre de lunes a viernes de 8:30 a 20:15 horas.  Festivos cerrados." ;
+	vcard:hasAddress "AVENIDA LOGRONO 179 28042 MADRID MADRID" ;
+	vcard:hasTelephone "91 312 02 58" ;
+	vcard:hasName "bpgloriafuertes@madrid.es" .
+
+<http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Huerta+de+la+Salud+%28Hortaleza%29> a <http://www.semanticweb.org/group08/resources/Library> ;
+	vcard:hasName "Biblioteca Publica Municipal Huerta de la Salud (Hortaleza)" ;
+	ont:hasSchedule "De lunes a viernes de 8:30 a 21 horas.   Verano: del 15 de junio al 15 de septiembre de lunes a viernes de 8:30 a 20:15 horas.  Festivos cerrados." ;
+	vcard:hasAddress "CALLE MAR DE LAS ANTILLAS 10 28033 MADRID MADRID" ;
+	vcard:hasTelephone "91 764 52 43" ;
+	vcard:hasName "bphuertasalud@madrid.es" .
+
+<http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Ivan+de+Vargas+%28Centro%29> a <http://www.semanticweb.org/group08/resources/Library> ;
+	vcard:hasName "Biblioteca Publica Municipal Ivan de Vargas (Centro)" ;
+	ont:hasSchedule "De lunes a viernes de 8:30 a 21 horas; sabados de 9:10 a 17:50 horas y domingos de 9:10 a 13:50 horas.    Verano : del 15 de junio al 15 de septiembre de lunes a viernes de 8:30 a 20:15 horas; sabados de 9:10 a 16:50 horas y domingos de 9:10 a 12:50   Los festivos y fines de semana desde el  22 de julio al 27 de agosto, la biblioteca permanecera cerrada." ;
+	vcard:hasAddress "CALLE SAN JUSTO 5 28005 MADRID MADRID" ;
+	vcard:hasTelephone "917 586 211" ;
+	vcard:hasName "bpivandevargas@madrid.es" .
+
+<http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Jose+Hierro+%28San+Blas-Canillejas%29> a <http://www.semanticweb.org/group08/resources/Library> ;
+	vcard:hasName "Biblioteca Publica Municipal Jose Hierro (San Blas-Canillejas)" ;
+	ont:hasSchedule "De lunes a viernes de 8:30 a 21 horas.   Verano: del 15 de junio al 15 de septiembre de lunes a viernes de 8:30 a 20:15 horas.  Festivos cerrados." ;
+	vcard:hasAddress "CALLE MARIA SEVILLA DIAGO 15 28022 MADRID MADRID" ;
+	vcard:hasTelephone "91 313 55 28" ;
+	vcard:hasName "bpjosehierro@madrid.es" .
+
+<http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Jose+Saramago+%28Fuencarral-El+Pardo%29> a <http://www.semanticweb.org/group08/resources/Library> ;
+	vcard:hasName "Biblioteca Publica Municipal Jose Saramago (Fuencarral-El Pardo)" ;
+	ont:hasSchedule "De lunes a viernes de 8:30 a 21 horas.   Verano: del 15 de junio al 15 de septiembre de lunes a viernes de 8:30 a 20:15 horas.  Festivos cerrados." ;
+	vcard:hasAddress "AVENIDA MONFORTE DE LEMOS 38 28029 MADRID MADRID" ;
+	vcard:hasTelephone "91 588 68 91" ;
+	vcard:hasName "bpjosesaramago@madrid.es" .
+
+<http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+La+Chata+%28Carabanchel%29> a <http://www.semanticweb.org/group08/resources/Library> ;
+	vcard:hasName "Biblioteca Publica Municipal La Chata (Carabanchel)" ;
+	ont:hasSchedule "De lunes a viernes de 8:30 a 21 horas.   Verano: del 15 de junio al 15 de septiembre de lunes a viernes de 8:30 a 20:15 horas.  Festivos cerrados." ;
+	vcard:hasAddress "CALLE GENERAL RICARDOS 252 28025 MADRID MADRID" ;
+	vcard:hasTelephone "91 422 05 33" ;
+	vcard:hasName "bplachata@madrid.es" .
+
+<http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+La+Elipa+%28Ciudad+Lineal%29> a <http://www.semanticweb.org/group08/resources/Library> ;
+	vcard:hasName "Biblioteca Publica Municipal La Elipa (Ciudad Lineal)" ;
+	ont:hasSchedule "De lunes a viernes de 8:30 a 21 horas.   Verano: del 15 de junio al 15 de septiembre de lunes a viernes de 8:30 a 20:15 horas.  Festivos cerrados." ;
+	vcard:hasAddress "CALLE NUESTRA SENORA DEL VILLAR 6 28017 MADRID MADRID" ;
+	vcard:hasTelephone "91 403 63 22" ;
+	vcard:hasName "bplaelipa@madrid.es" .
+
+<http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Manuel+Vazquez+Montalban+%28Tetuan%29> a <http://www.semanticweb.org/group08/resources/Library> ;
+	vcard:hasName "Biblioteca Publica Municipal Manuel Vazquez Montalban (Tetuan)" ;
+	ont:hasSchedule "De lunes a viernes de 8:30 a 21 horas.   Verano: del 15 de junio al 15 de septiembre de lunes a viernes de 8:30 a 20:15 horas.  Festivos cerrados." ;
+	vcard:hasAddress "CALLE FRANCOS RODRIGUEZ 67 28039 MADRID MADRID" ;
+	vcard:hasTelephone "91 398 07 23 / 91 398 07 26" ;
+	vcard:hasName "bpvazquezmontalban@madrid.es" .
+
+<http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Mario+Vargas+Llosa+%28Centro%29> a <http://www.semanticweb.org/group08/resources/Library> ;
+	vcard:hasName "Biblioteca Publica Municipal Mario Vargas Llosa (Centro)" ;
+	ont:hasSchedule "De lunes a viernes de 8:30 a 21 horas.   Verano: del 15 de junio al 15 de septiembre de lunes a viernes de 8:30 a 20:15 horas.  Festivos cerrados." ;
+	vcard:hasAddress "CALLE BARCELO 2 28004 MADRID MADRID" ;
+	vcard:hasTelephone "914 802 433" ;
+	vcard:hasName "bpvargasllosa@madrid.es" .
+
+<http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Maria+Lejarraga+%28Hortaleza%29> a <http://www.semanticweb.org/group08/resources/Library> ;
+	vcard:hasName "Biblioteca Publica Municipal Maria Lejarraga (Hortaleza)" ;
+	ont:hasSchedule "De lunes a viernes de 8:30 a 21 horas; Sabados de 9:10 a 17:50 horas y domingos de 9:10 a 13:50 horas.    Verano : del 15 de junio al 15 de septiembre de lunes a viernes de 8:30 a 20:15 horas;  Sabados de 9:10 a 16:50 horas y domingos de 9:10 a 12:50   Los festivos y fines de semana desde el  22 de julio al 27 de agosto, la biblioteca permanecera cerrada" ;
+	vcard:hasAddress "CALLE PRINCESA DE EBOLI 29 28050 MADRID MADRID" ;
+	vcard:hasTelephone "91 513 33 83" ;
+	vcard:hasName "bpmarialejarraga@madrid.es" .
+
+<http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Maria+Zambrano+%28Tetuan%29> a <http://www.semanticweb.org/group08/resources/Library> ;
+	vcard:hasName "Biblioteca Publica Municipal Maria Zambrano (Tetuan)" ;
+	ont:hasSchedule "De lunes a viernes de 8:30 a 21 horas.   Verano: del 15 de junio al 15 de septiembre de lunes a viernes de 8:30 a 20:15 horas.  Festivos cerrados." ;
+	vcard:hasAddress "PLAZA DONOSO 5 28029 MADRID MADRID" ;
+	vcard:hasTelephone "91 733 90 43" ;
+	vcard:hasName "bpmariazambrano@madrid.es" .
+
+<http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Miguel+Delibes+%28Moratalaz%29> a <http://www.semanticweb.org/group08/resources/Library> ;
+	vcard:hasName "Biblioteca Publica Municipal Miguel Delibes (Moratalaz)" ;
+	ont:hasSchedule "De lunes a viernes de 8:30 a 21 horas.   Verano: del 15 de junio al 15 de septiembre de lunes a viernes de 8:30 a 20:15 horas.  Festivos cerrados." ;
+	vcard:hasAddress "CALLE ARROYO BELINCOSO 11 28030 MADRID MADRID" ;
+	vcard:hasTelephone "91 328 73 00" ;
+	vcard:hasName "bpmigueldelibes@madrid.es" .
+
+<http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Pablo+Neruda+%28Ciudad+Lineal%29> a <http://www.semanticweb.org/group08/resources/Library> ;
+	vcard:hasName "Biblioteca Publica Municipal Pablo Neruda (Ciudad Lineal)" ;
+	ont:hasSchedule "De lunes a viernes de 8:30 a 21 horas.   Verano: del 15 de junio al 15 de septiembre de lunes a viernes de 8:30 a 20:15 horas.  Festivos cerrados." ;
+	vcard:hasAddress "CALLE ASCAO 4 28017 MADRID MADRID" ;
+	vcard:hasTelephone "91 406 14 72" ;
+	vcard:hasName "bppabloneruda@madrid.es" .
+
+<http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Portazgo+%28Puente+de+Vallecas%29> a <http://www.semanticweb.org/group08/resources/Library> ;
+	vcard:hasName "Biblioteca Publica Municipal Portazgo (Puente de Vallecas)" ;
+	ont:hasSchedule "De lunes a viernes de 8:30 a 21 horas.   Verano: del 15 de junio al 15 de septiembre de lunes a viernes de 8:30 a 20:15 horas.  Festivos cerrados." ;
+	vcard:hasAddress "CALLE CANTALAPIEDRA 11 28038 MADRID MADRID" ;
+	vcard:hasTelephone "91 757 03 23" ;
+	vcard:hasName "bpportazgo@madrid.es" .
+
+<http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Pozo+del+Tio+Raimundo+%28Puente+de+Vallecas%29> a <http://www.semanticweb.org/group08/resources/Library> ;
+	vcard:hasName "Biblioteca Publica Municipal Pozo del Tio Raimundo (Puente de Vallecas)" ;
+	ont:hasSchedule "De lunes a viernes de 8:30 a 21 horas.   Verano: del 15 de junio al 15 de septiembre de lunes a viernes de 8:30 a 20:15 horas.  Festivos cerrados." ;
+	vcard:hasAddress "AVENIDA GLORIETAS 19 28053 MADRID MADRID" ;
+	vcard:hasTelephone "91 507 07 34" ;
+	vcard:hasName "bppozotr@madrid.es" .
+
+<http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Pio+Baroja+%28Arganzuela%29> a <http://www.semanticweb.org/group08/resources/Library> ;
+	vcard:hasName "Biblioteca Publica Municipal Pi­o Baroja (Arganzuela)" ;
+	ont:hasSchedule "De lunes a viernes de 8:30 a 21 horas.   Verano: del 15 de junio al 15 de septiembre de lunes a viernes de 8:30 a 20:15 horas.  Festivos cerrados." ;
+	vcard:hasAddress "CALLE ARGANDA 12 28005 MADRID MADRID" ;
+	vcard:hasTelephone "91 474 16 03" ;
+	vcard:hasName "bppiobaroja@madrid.es" .
+
+<http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+San+Blas+%28San+Blas-Canillejas%29> a <http://www.semanticweb.org/group08/resources/Library> ;
+	vcard:hasName "Biblioteca Publica Municipal San Blas (San Blas-Canillejas)" ;
+	ont:hasSchedule "De lunes a viernes de 8:30 a 21 horas.   Verano: del 15 de junio al 15 de septiembre de lunes a viernes de 8:30 a 20:15 horas.  Festivos cerrados." ;
+	vcard:hasAddress "CALLE SAN ROMAN DEL VALLE 8 28037 MADRID MADRID" ;
+	vcard:hasTelephone "91 313 52 97" ;
+	vcard:hasName "bpsanblas@madrid.es" .
+
+<http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Vallecas+%28Puente+de+Vallecas%29> a <http://www.semanticweb.org/group08/resources/Library> ;
+	vcard:hasName "Biblioteca Publica Municipal Vallecas (Puente de Vallecas)" ;
+	ont:hasSchedule "De lunes a viernes de 8:30 a 21 horas.   Verano: del 15 de junio al 15 de septiembre de lunes a viernes de 8:30 a 20:15 horas.  Festivos cerrados." ;
+	vcard:hasAddress "CALLE PUERTO DEL MONASTERIO 1 28053 MADRID MADRID" ;
+	vcard:hasTelephone "91 588 60 51" ;
+	vcard:hasName "bpvallecas@madrid.es" .
+
+<http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Vicalvaro> a <http://www.semanticweb.org/group08/resources/Library> ;
+	vcard:hasName "Biblioteca Publica Municipal Vicalvaro" ;
+	ont:hasSchedule "De lunes a viernes de 8:30 a 21 horas.   Verano: del 15 de junio al 15 de septiembre de lunes a viernes de 8:30 a 20:15 horas.  Festivos cerrados." ;
+	vcard:hasAddress "CALLE VILLARDONDIEGO 36 28032 MADRID MADRID" ;
+	vcard:hasTelephone "91 775 31 43" ;
+	vcard:hasName "bpvicalvaro@madrid.es" .
+
+<http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Angel+Gonzalez+%28Latina%29> a <http://www.semanticweb.org/group08/resources/Library> ;
+	vcard:hasName "Biblioteca Publica Municipal Angel Gonzalez (Latina)" ;
+	ont:hasSchedule "De lunes a viernes de 8:30 a 21 horas; sabados de 9:10 a 17:50 horas y domingos de 9:10 a 13:50 horas.    Verano  : del 15 de junio al 15 de septiembre de lunes a viernes de 8:30 a 20:15 horas; sabados de 9:10 a 16:50 horas y domingos de 9:10 a 12:50;    Los festivos y fines de semana desde el  22 de julio al 27 de agosto, la biblioteca permanecera cerrada.    El di­a 14 de Agosto permanecera cerrada" ;
+	vcard:hasAddress "CALLE GRANJA DE TORREHERMOSA 1 28024 MADRID MADRID" ;
+	vcard:hasTelephone "91 512 35 42" ;
+	vcard:hasName "bpangelgonzalez@madrid.es" .
+
+<http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Puente+de+Vallecas+%27Miguel+Hernandez%27> a <http://www.semanticweb.org/group08/resources/Library> ;
+	vcard:hasName "Biblioteca Publica Puente de Vallecas 'Miguel Hernandez'" ;
+	ont:hasSchedule "Seccion general, seccion infantil y juvenil, hemeroteca    De lunes a viernes de 9 a 21 horas.  Sabados de 9 a 14 horas   Todos los di­as los servicios de prestamo y acceso a internet finalizaran 15 minutos antes del cierre.  Di­as de cierre 2017: ver pestai±a mas informacion." ;
+	vcard:hasAddress "AVENIDA RAFAEL ALBERTI 36 28018 MADRID MADRID" ;
+	vcard:hasTelephone "913 033 195" ;
+	vcard:hasName "bib.vallecas@madrid.org" .
+
+<http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Ruiz+Egea> a <http://www.semanticweb.org/group08/resources/Library> ;
+	vcard:hasName "Biblioteca Publica Ruiz Egea" ;
+	ont:hasSchedule "Seccion de adultos:  de lunes a viernes de 9 a 21 horas.   Seccion infantil/juvenil:  de lunes a viernes de 9 a 21 horas.   Di­as de cierre 2017 : fines de semana y festivos; 24 y 31 de diciembre." ;
+	vcard:hasAddress "CALLE RAIMUNDO FERNANDEZ VILLAVERDE 6 28003 MADRID MADRID" ;
+	vcard:hasTelephone "915 349 029" ;
+	vcard:hasName "bib.ruizegea@madrid.org" .
+
+<http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Salamanca+-+Manuel+Alvar> a <http://www.semanticweb.org/group08/resources/Library> ;
+	vcard:hasName "Biblioteca Publica Salamanca - Manuel Alvar" ;
+	ont:hasSchedule "Seccion de adultos:  de lunes a viernes de 9 a 21 horas (Todos los di­as los servicios de prestamo y acceso a internet finalizaran 15 minutos antes del cierre).   Seccion infantil/juvenil:  de lunes a viernes de 15 a 21 horas    Fines de semana y festivos:  de 11 a 19 horas. Horario de deposito de 11:30 a 14 horas (cada media hora)   Servicios prestamo e internet   finalizaran 15 minutos antes del cierre.    Cerrada:  fines de semana y festivos de agosto; 1 y 6 de enero; 1 mayo; 24, 25 y 31 de diciembre" ;
+	vcard:hasAddress "CALLE AZCONA 42 28028 MADRID MADRID" ;
+	vcard:hasTelephone "917 263 701 " ;
+	vcard:hasName "bib.salamanca@madrid.org" .
+
+<http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Usera+-+Jose+Hierro> a <http://www.semanticweb.org/group08/resources/Library> ;
+	vcard:hasName "Biblioteca Publica Usera - Jose Hierro" ;
+	ont:hasSchedule "Seccion de adultos:  de lunes a viernes de 9 a 21 horas.   Seccion infantil/juvenil:  de lunes a viernes de 15 a 21 horas.   Servicio de prestamo y acceso a Internet:  de 15 a 20:45 horas.   Seccion de adultos y seccion infantil/juvenil:  fines de semana y festivos, 11 a 19 horas. Servicio de prestamo y acceso a Internet de 11 a 14:30 y de 15:30 a 18:45 horas.   Cerrada los di­as:   1 y 6 de enero; 1 de mayo; 24, 25 y 31 de diciembre; fines de semana y festivos del mes de agosto." ;
+	vcard:hasAddress "AVENIDA RAFAELA YBARRA 43 28026 MADRID MADRID" ;
+	vcard:hasTelephone "914 229 501" ;
+	vcard:hasName "bib.usera@madrid.org" .
+
+<http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Villa+de+Vallecas+-+Luis+Martin+Santos> a <http://www.semanticweb.org/group08/resources/Library> ;
+	vcard:hasName "Biblioteca Publica Villa de Vallecas - Luis Martin Santos" ;
+	ont:hasSchedule "De lunes a viernes:  de 9 a 21 horas. No se asignaran prestamos ni acceso a Internet desde las 20:45 horas   Fines de semana y festivos:  de  11 a 19 horas. No se asignaran prestamos ni acceso a Internet desde las 14:30 a las 15:30 horas y desde las 18:45 hasta la hora de cierre   Cerrado:   1 y 6 de enero, 1 de mayo, fines de semana y festivos de agosto y 24, 25 y 31 de diciembre." ;
+	vcard:hasAddress "PLAZA ANTONIO MARIA SEGOVIA 2 28031 MADRID MADRID" ;
+	vcard:hasTelephone "912 760 231" ;
+	vcard:hasName "bib.villavallecas@madrid.org" .
+
+<http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Villaverde+-+Maria+Moliner> a <http://www.semanticweb.org/group08/resources/Library> ;
+	vcard:hasName "Biblioteca Publica Villaverde - Mari­a Moliner" ;
+	ont:hasSchedule "Seccion de adultos, infantil y juvenil, seccion de periodicos y revistas: de lunes a viernes de 9 a 21 horas. Sabados de 9 a 14 horas.  Horario de servicio de prestamo y acceso a Internet: de lunes a viernes de 9 a 20:45 horas. Sabados de 9 a 13:45 horas.  Di­as de cierre 2017: ver pestai±a mas informacion." ;
+	vcard:hasAddress "CALLE VILLALONSO 16 28021 MADRID MADRID" ;
+	vcard:hasTelephone "917 230 194  " ;
+	vcard:hasName "bib.villaverde@madrid.org" .
+
+<http://www.semanticweb.org/group08/resources/Biblioteca+Regional+Joaquin+Leguina> a <http://www.semanticweb.org/group08/resources/Library> ;
+	vcard:hasName "Biblioteca Regional Joaqui­n Leguina" ;
+	ont:hasSchedule "De lunes a viernes de 9 a 21 horas   Di­as de cierre 2017: ver pestai±a mas informacion." ;
+	vcard:hasAddress "CALLE RAMIREZ DE PRADO 3 28045 MADRID MADRID" ;
+	vcard:hasTelephone "917 208 850 / 917 208 860" ;
+	vcard:hasName "biblio.regional@madrid.org" .
+
+<http://www.semanticweb.org/group08/resources/Biblioteca+del+Defensor+del+Pueblo> a <http://www.semanticweb.org/group08/resources/Library> ;
+	vcard:hasName "Biblioteca del Defensor del Pueblo" ;
+	ont:hasSchedule "Horario de invierno: 9:30 a 14 y de 16 a 18  Horario de verano: 8:30 a 15" ;
+	vcard:hasAddress "CALLE FORTUNY 22 28010 MADRID MADRID" ;
+	vcard:hasTelephone "914327900" ;
+	vcard:hasName "biblioteca@defensordelpueblo.es" .
+
+<http://www.semanticweb.org/group08/resources/Casa+San+Cristobal> a <http://www.semanticweb.org/group08/resources/Library> ;
+	vcard:hasName "Casa San Cristobal" ;
+	ont:hasSchedule "De lunes a viernes de 9 a 21 horas  Sabados de 10 a 14 horas" ;
+	vcard:hasAddress "CALLE ROCAFORT 101 28021 MADRID MADRID" ;
+	vcard:hasTelephone "917 966 048" ;
+	vcard:hasName "bsancristobal@montemadrid.es" .
+
+<http://www.semanticweb.org/group08/resources/Centro+Social+y+Cultural+La+Casa+Encendida> a <http://www.semanticweb.org/group08/resources/Library> ;
+	vcard:hasName "Centro Social y Cultural La Casa Encendida" ;
+	ont:hasSchedule "De martes a domingo de 10 a 22 horas (todos los di­as del ai±o, excepto festividades nacionales y de la Comunidad de Madrid)  Exposiciones: de 10 a 21:45 horas" ;
+	vcard:hasAddress "RONDA VALENCIA 2 28012 MADRID MADRID" ;
+	vcard:hasTelephone "902 430 322" ;
+	vcard:hasName "lacasaencendida@montemadrid.es" .
+
+<http://www.semanticweb.org/group08/resources/Hemeroteca+Municipal> a <http://www.semanticweb.org/group08/resources/Library> ;
+	vcard:hasName "Hemeroteca Municipal" ;
+	ont:hasSchedule "lunes a viernes, de 9 a 21 horas (peticiones hasta 20:30 horas) Del 15 de junio al 31 de julio y del 1 al 15 de septiembre: de 9 a 20 horas (peticiones hasta las 19:30 horas) Agosto: lunes a viernes, de 9 a 14 horas (peticiones hasta las 13 horas) Recogida de reprografi­a: lunes a viernes de 9 a 13 horas. Cerrado festivos y los di­as 24 y 31 diciembre." ;
+	vcard:hasAddress "CALLE CONDE DUQUE 11 28015 MADRID MADRID" ;
+	vcard:hasTelephone "91 588 57 71 (Informacion general); 91 513 31 64 y 91 588 57 72 (Informacion especializada: infohemeroteca@madrid.es); 91 588 57 73 (Servicio reprografi­a: nmicrofilm@madrid.es)                                                            " ;
+	vcard:hasName "hemeroteca@madrid.es" .

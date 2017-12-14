@@ -19,8 +19,8 @@
 
 - [x] Has a label with the name of the individual
 - [X] Has a type
-- [ ] Every value in the RDF files:
-- [ ] Is not empty (i.e., “”)
+- [X] Every value in the RDF files:
+- [X] Is not empty (i.e., “”)
 - [x] Is trimmed
 - [X] Is properly encoded (e.g., dates, booleans)
 - [X] Includes its datatype
