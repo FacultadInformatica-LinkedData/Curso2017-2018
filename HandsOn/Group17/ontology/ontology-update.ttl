@@ -1,0 +1,191 @@
+@prefix : <http://www.fiupmwsld.org/handson/group17/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.fiupmwsld.org/handson/group17/> .
+
+<http://www.fiupmwsld.org/handson/group17/> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.fiupmwsld.org/handson/group17/estaEnBarrio
+:estaEnBarrio rdf:type owl:ObjectProperty ;
+              rdfs:domain <http://dbpedia.org/ontology/District> ;
+              rdfs:range <http://rdfs.co/juso/Neighborhood> .
+
+
+###  https://www.w3.org/2006/vcard/ns#hasStreetAddress
+<https://www.w3.org/2006/vcard/ns#hasStreetAddress> rdf:type owl:ObjectProperty ;
+             rdfs:domain <http://dbpedia.org/ontology/EducationalInstitution> ;
+             rdfs:range <http://dbpedia.org/ontology/Street> .
+
+
+###  ttp://dbpedia.org/ontology/district
+<http://dbpedia.org/ontology/district> rdf:type owl:ObjectProperty ;
+                rdfs:domain <http://dbpedia.org/ontology/Street> ;
+                rdfs:range <http://dbpedia.org/ontology/District> .
+
+
+###  http://dbpedia.org/ontology/city
+<http://dbpedia.org/ontology/city> rdf:type owl:ObjectProperty ;
+                 rdfs:domain <http://rdfs.co/juso/Neighborhood> ;
+                 rdfs:range <http://dbpedia.org/ontology/Locality> .
+
+
+###  http://dbpedia.org/ontology/province
+<http://dbpedia.org/ontology/province> rdf:type owl:ObjectProperty ;
+                 rdfs:domain <http://dbpedia.org/ontology/Locality> ;
+                 rdfs:range <http://dbpedia.org/ontology/Province> .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://data.lirmm.fr/ontologies/passim#isAccessibilityForDisabledPerson
+<http://data.lirmm.fr/ontologies/passim#isAccessibilityForDisabledPerson> rdf:type owl:DatatypeProperty ;
+                    rdfs:domain <http://dbpedia.org/ontology/EducationalInstitution> ;
+                    rdfs:range xsd:boolean .
+
+
+###  http://dbpedia.org/ontology/postalCode
+<http://dbpedia.org/ontology/postalCode> rdf:type owl:DatatypeProperty ;
+         rdfs:domain <http://dbpedia.org/ontology/District> ;
+         rdfs:range xsd:integer .
+
+
+###  http://data.ign.fr/def/geometrie#coordX
+<http://data.ign.fr/def/geometrie#coordX> rdf:type owl:DatatypeProperty ;
+                  rdfs:domain <http://dbpedia.org/ontology/EducationalInstitution> ;
+                  rdfs:range xsd:integer .
+
+
+###  http://data.ign.fr/def/geometrie#coordY
+<http://data.ign.fr/def/geometrie#coordY> rdf:type owl:DatatypeProperty ;
+                  rdfs:domain <http://dbpedia.org/ontology/EducationalInstitution> ;
+                  rdfs:range xsd:integer .
+
+
+###  http://www.fiupmwsld.org/handson/group17/tieneDescripcion
+:tieneDescripcion rdf:type owl:DatatypeProperty ;
+                  rdfs:domain <http://dbpedia.org/ontology/EducationalInstitution> ;
+                  rdfs:range xsd:string .
+
+
+###  http://schema.org/email
+<http://schema.org/email> rdf:type owl:DatatypeProperty ;
+            rdfs:domain <http://dbpedia.org/ontology/EducationalInstitution> ;
+            rdfs:range xsd:string .
+
+
+###  http://www.fiupmwsld.org/handson/group17/tieneEquipamiento
+:tieneEquipamiento rdf:type owl:DatatypeProperty ;
+                   rdfs:domain <http://dbpedia.org/ontology/EducationalInstitution> ;
+                   rdfs:range xsd:string .
+
+
+###  http://swrc.ontoware.org/ontology#fax
+<http://swrc.ontoware.org/ontology#fax> rdf:type owl:DatatypeProperty ;
+          rdfs:domain <http://dbpedia.org/ontology/EducationalInstitution> ;
+          rdfs:range xsd:string .
+
+
+###  https://www.w3.org/2006/vcard/ns#latitude
+<https://www.w3.org/2006/vcard/ns#latitude> rdf:type owl:DatatypeProperty ;
+              rdfs:domain <http://dbpedia.org/ontology/EducationalInstitution> ;
+              rdfs:range xsd:float .
+
+
+###  https://www.w3.org/2006/vcard/ns#longitude
+<https://www.w3.org/2006/vcard/ns#longitude>  rdf:type owl:DatatypeProperty ;
+               rdfs:domain <http://dbpedia.org/ontology/EducationalInstitution> ;
+               rdfs:range xsd:float .
+
+
+###  http://www.fiupmwsld.org/handson/group17/tieneNombre
+:tieneNombre rdf:type owl:DatatypeProperty ;
+             rdfs:domain <http://dbpedia.org/ontology/EducationalInstitution> ;
+             rdfs:range xsd:string .
+
+
+###  http://www.fiupmwsld.org/handson/group17/tieneNumeroCalle
+:tieneNumeroCalle rdf:type owl:DatatypeProperty ;
+                  rdfs:domain <http://dbpedia.org/ontology/Street> ;
+                  rdfs:range xsd:integer .
+
+
+###  http://www.fiupmwsld.org/handson/group17/tieneTelefono
+:tieneTelefono rdf:type owl:DatatypeProperty ;
+               rdfs:domain <http://dbpedia.org/ontology/EducationalInstitution> ;
+               rdfs:range xsd:string .
+
+
+###  http://www.fiupmwsld.org/handson/group17/tieneTipoCalle
+:tieneTipoCalle rdf:type owl:DatatypeProperty ;
+                rdfs:domain <http://dbpedia.org/ontology/Street> ;
+                rdfs:range xsd:string .
+
+
+###  http://www.fiupmwsld.org/handson/group17/tieneTipoPath
+:tieneTipoPath rdf:type owl:DatatypeProperty ;
+               rdfs:domain <http://dbpedia.org/ontology/EducationalInstitution> ;
+               rdfs:range xsd:string .
+
+
+###  http://www.fiupmwsld.org/handson/group17/tieneTransporte
+:tieneTransporte rdf:type owl:DatatypeProperty ;
+                 rdfs:domain <http://dbpedia.org/ontology/EducationalInstitution> ;
+                 rdfs:range xsd:string .
+
+
+###  http://www.fiupmwsld.org/handson/group17/tieneURL
+:tieneURL rdf:type owl:DatatypeProperty ;
+          rdfs:domain <http://dbpedia.org/ontology/EducationalInstitution> ;
+          rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://rdfs.co/juso/Neighborhood
+<http://rdfs.co/juso/Neighborhood> rdf:type owl:Class .
+
+
+###  http://dbpedia.org/ontology/Street
+<http://dbpedia.org/ontology/Street> rdf:type owl:Class .
+
+
+###  http://dbpedia.org/ontology/EducationalInstitution
+<http://dbpedia.org/ontology/EducationalInstitution> rdf:type owl:Class .
+
+
+###  http://dbpedia.org/ontology/District
+<http://dbpedia.org/ontology/District> rdf:type owl:Class .
+
+
+###  http://dbpedia.org/ontology/Locality
+<http://dbpedia.org/ontology/Locality> rdf:type owl:Class .
+
+
+###  http://dbpedia.org/ontology/Province
+<http://dbpedia.org/ontology/Province> rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.fiupmwsld.org/handson/group17/name
+:name rdf:type owl:NamedIndividual .
+
+
+###  http://www.fiupmwsld.org/handson/group17/type
+:type rdf:type owl:NamedIndividual .
+
+
+###  Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi
