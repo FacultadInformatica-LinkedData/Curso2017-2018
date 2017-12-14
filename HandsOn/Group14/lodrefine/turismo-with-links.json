@@ -3201,5 +3201,158 @@
         }
       ]
     }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.wsdlfiupm.es/resources/group14/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NOMBRE",
+          "rdfTypes": [
+            {
+              "uri": "class/Monuments_Museums_Organizations",
+              "curie": ":class/Monuments_Museums_Organizations"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "properties/description",
+              "curie": ":properties/description",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Desripcion"
+              }
+            },
+            {
+              "uri": "properties/schedule",
+              "curie": ":properties/schedule",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "properties/type",
+              "curie": ":properties/type",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "properties/location",
+              "curie": ":properties/location",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "calle",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "properties/image",
+              "curie": ":properties/image",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "thumbnail",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "calle",
+          "rdfTypes": [
+            {
+              "uri": "class/Position",
+              "curie": ":class/Position"
+            }
+          ],
+          "links": [
+            {
+              "uri": "properties/street",
+              "curie": ":properties/street",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "calle"
+              }
+            },
+            {
+              "uri": "properties/district",
+              "curie": ":properties/district",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO"
+              }
+            },
+            {
+              "uri": "properties/longitude",
+              "curie": ":properties/longitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LONGITUD"
+              }
+            },
+            {
+              "uri": "properties/latitude",
+              "curie": ":properties/latitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LATITUD"
+              }
+            }
+          ]
+        }
+      ]
+    }
   }
 ]
