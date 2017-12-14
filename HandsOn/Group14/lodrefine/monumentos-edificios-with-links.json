@@ -904,13 +904,13 @@
   },
   {
     "op": "core/recon-judge-similar-cells",
-    "description": "Match topic Banco de España (http://dbpedia.org/resource/Bank_of_Spain) for cells containing \"Banco de Espa�a\" in column NOMBRE",
+    "description": "Match topic Banco de España (http://dbpedia.org/resource/Bank_of_Spain) for cells containing \"Banco de España\" in column NOMBRE",
     "engineConfig": {
       "mode": "row-based",
       "facets": []
     },
     "columnName": "NOMBRE",
-    "similarValue": "Banco de Espa�a",
+    "similarValue": "Banco de España",
     "judgment": "matched",
     "match": {
       "id": "http://dbpedia.org/resource/Bank_of_Spain",
@@ -924,13 +924,13 @@
   },
   {
     "op": "core/recon-judge-similar-cells",
-    "description": "Match topic Basílica Pontificia de San Miguel (http://dbpedia.org/resource/St._Michael's_Basilica_(Madrid)) for cells containing \"Bas�lica Pontificia de San Miguel\" in column NOMBRE",
+    "description": "Match topic Basílica Pontificia de San Miguel (http://dbpedia.org/resource/St._Michael's_Basilica_(Madrid)) for cells containing \"Basílica Pontificia de San Miguel\" in column NOMBRE",
     "engineConfig": {
       "mode": "row-based",
       "facets": []
     },
     "columnName": "NOMBRE",
-    "similarValue": "Bas�lica Pontificia de San Miguel",
+    "similarValue": "Basílica Pontificia de San Miguel",
     "judgment": "matched",
     "match": {
       "id": "http://dbpedia.org/resource/St._Michael's_Basilica_(Madrid)",
@@ -944,13 +944,13 @@
   },
   {
     "op": "core/recon-judge-similar-cells",
-    "description": "Match topic Biblioteca Nacional de España (http://dbpedia.org/resource/Biblioteca_Nacional_de_España) for cells containing \"Biblioteca Nacional de Espa�a\" in column NOMBRE",
+    "description": "Match topic Biblioteca Nacional de España (http://dbpedia.org/resource/Biblioteca_Nacional_de_España) for cells containing \"Biblioteca Nacional de España\" in column NOMBRE",
     "engineConfig": {
       "mode": "row-based",
       "facets": []
     },
     "columnName": "NOMBRE",
-    "similarValue": "Biblioteca Nacional de Espa�a",
+    "similarValue": "Biblioteca Nacional de España",
     "judgment": "matched",
     "match": {
       "id": "http://dbpedia.org/resource/Biblioteca_Nacional_de_España",
@@ -964,7 +964,7 @@
   },
   {
     "op": "core/recon-judge-similar-cells",
-    "description": "Match topic Casa de América (http://www.wikidata.org/entity/Q8341733) for cells containing \"Casa de Am�rica\" in column NOMBRE",
+    "description": "Match topic Casa de América (http://www.wikidata.org/entity/Q8341733) for cells containing \"Casa de América\" in column NOMBRE",
     "engineConfig": {
       "mode": "row-based",
       "facets": [
@@ -990,7 +990,7 @@
       ]
     },
     "columnName": "NOMBRE",
-    "similarValue": "Casa de Am�rica",
+    "similarValue": "Casa de América",
     "judgment": "matched",
     "match": {
       "id": "http://www.wikidata.org/entity/Q8341733",
@@ -1044,7 +1044,7 @@
   },
   {
     "op": "core/recon-judge-similar-cells",
-    "description": "Match topic Casa de la Panaderia (http://dbpedia.org/resource/Casa_de_la_Panaderia) for cells containing \"Casa de La Panader�a\" in column NOMBRE",
+    "description": "Match topic Casa de la Panaderia (http://dbpedia.org/resource/Casa_de_la_Panaderia) for cells containing \"Casa de La Panadería\" in column NOMBRE",
     "engineConfig": {
       "mode": "row-based",
       "facets": [
@@ -1070,7 +1070,7 @@
       ]
     },
     "columnName": "NOMBRE",
-    "similarValue": "Casa de La Panader�a",
+    "similarValue": "Casa de La Panadería",
     "judgment": "matched",
     "match": {
       "id": "http://dbpedia.org/resource/Casa_de_la_Panaderia",
@@ -1124,7 +1124,7 @@
   },
   {
     "op": "core/recon-judge-similar-cells",
-    "description": "Match topic Casa de Velazquez (http://dbpedia.org/resource/Casa_de_Velazquez) for cells containing \"Casa de Vel�zquez\" in column NOMBRE",
+    "description": "Match topic Casa de Velazquez (http://dbpedia.org/resource/Casa_de_Velazquez) for cells containing \"Casa de Velázquez\" in column NOMBRE",
     "engineConfig": {
       "mode": "row-based",
       "facets": [
@@ -1150,7 +1150,7 @@
       ]
     },
     "columnName": "NOMBRE",
-    "similarValue": "Casa de Vel�zquez",
+    "similarValue": "Casa de Velázquez",
     "judgment": "matched",
     "match": {
       "id": "http://dbpedia.org/resource/Casa_de_Velazquez",
@@ -1164,7 +1164,7 @@
   },
   {
     "op": "core/recon-judge-similar-cells",
-    "description": "Match topic Retiro (Madrid) (http://dbpedia.org/resource/Retiro_(Madrid)) for cells containing \"Cas�n del Buen Retiro\" in column NOMBRE",
+    "description": "Match topic Retiro (Madrid) (http://dbpedia.org/resource/Retiro_(Madrid)) for cells containing \"Casón del Buen Retiro\" in column NOMBRE",
     "engineConfig": {
       "mode": "row-based",
       "facets": [
@@ -1190,7 +1190,7 @@
       ]
     },
     "columnName": "NOMBRE",
-    "similarValue": "Cas�n del Buen Retiro",
+    "similarValue": "Casón del Buen Retiro",
     "judgment": "matched",
     "match": {
       "id": "http://dbpedia.org/resource/Retiro_(Madrid)",
@@ -1244,7 +1244,7 @@
   },
   {
     "op": "core/recon-judge-similar-cells",
-    "description": "Match topic Catedral de la Almudena (Madrid) (http://dbpedia.org/resource/Almudena_Cathedral) for cells containing \"Catedral Santa Mar�a la Real de la Almudena\" in column NOMBRE",
+    "description": "Match topic Catedral de la Almudena (Madrid) (http://dbpedia.org/resource/Almudena_Cathedral) for cells containing \"Catedral Santa María la Real de la Almudena\" in column NOMBRE",
     "engineConfig": {
       "mode": "row-based",
       "facets": [
@@ -1270,7 +1270,7 @@
       ]
     },
     "columnName": "NOMBRE",
-    "similarValue": "Catedral Santa Mar�a la Real de la Almudena",
+    "similarValue": "Catedral Santa María la Real de la Almudena",
     "judgment": "matched",
     "match": {
       "id": "http://dbpedia.org/resource/Almudena_Cathedral",
@@ -1314,7 +1314,7 @@
   },
   {
     "op": "core/recon-judge-similar-cells",
-    "description": "Match topic Centro de Estudios Politicos y Constitucionales (http://dbpedia.org/resource/Centro_de_Estudios_Politicos_y_Constitucionales) for cells containing \"Centro de Estudios Pol�ticos y Constitucionales\" in column NOMBRE",
+    "description": "Match topic Centro de Estudios Politicos y Constitucionales (http://dbpedia.org/resource/Centro_de_Estudios_Politicos_y_Constitucionales) for cells containing \"Centro de Estudios Políticos y Constitucionales\" in column NOMBRE",
     "engineConfig": {
       "mode": "row-based",
       "facets": [
@@ -1340,7 +1340,7 @@
       ]
     },
     "columnName": "NOMBRE",
-    "similarValue": "Centro de Estudios Pol�ticos y Constitucionales",
+    "similarValue": "Centro de Estudios Políticos y Constitucionales",
     "judgment": "matched",
     "match": {
       "id": "http://dbpedia.org/resource/Centro_de_Estudios_Politicos_y_Constitucionales",
@@ -1394,7 +1394,7 @@
   },
   {
     "op": "core/recon-judge-similar-cells",
-    "description": "Match topic Circulo de Bellas Artes (http://dbpedia.org/resource/Círculo_de_Bellas_Artes) for cells containing \"C�rculo de Bellas Artes\" in column NOMBRE",
+    "description": "Match topic Circulo de Bellas Artes (http://dbpedia.org/resource/Círculo_de_Bellas_Artes) for cells containing \"Círculo de Bellas Artes\" in column NOMBRE",
     "engineConfig": {
       "mode": "row-based",
       "facets": [
@@ -1420,7 +1420,7 @@
       ]
     },
     "columnName": "NOMBRE",
-    "similarValue": "C�rculo de Bellas Artes",
+    "similarValue": "Círculo de Bellas Artes",
     "judgment": "matched",
     "match": {
       "id": "http://dbpedia.org/resource/Círculo_de_Bellas_Artes",
@@ -1554,7 +1554,7 @@
   },
   {
     "op": "core/recon-judge-similar-cells",
-    "description": "Match topic Edificio Metropolis (http://dbpedia.org/resource/Edificio_Metropolis) for cells containing \"Edificio Metr�polis\" in column NOMBRE",
+    "description": "Match topic Edificio Metropolis (http://dbpedia.org/resource/Edificio_Metropolis) for cells containing \"Edificio Metrópolis\" in column NOMBRE",
     "engineConfig": {
       "mode": "row-based",
       "facets": [
@@ -1580,7 +1580,7 @@
       ]
     },
     "columnName": "NOMBRE",
-    "similarValue": "Edificio Metr�polis",
+    "similarValue": "Edificio Metrópolis",
     "judgment": "matched",
     "match": {
       "id": "http://dbpedia.org/resource/Edificio_Metropolis",
@@ -1634,7 +1634,7 @@
   },
   {
     "op": "core/recon-judge-similar-cells",
-    "description": "Match topic Ermita de Santa María la Antigua (http://dbpedia.org/resource/Hermitage_of_Santa_María_la_Antigua_(Madrid)) for cells containing \"Ermita de Santa Mar�a la Antigua\" in column NOMBRE",
+    "description": "Match topic Ermita de Santa María la Antigua (http://dbpedia.org/resource/Hermitage_of_Santa_María_la_Antigua_(Madrid)) for cells containing \"Ermita de Santa María la Antigua\" in column NOMBRE",
     "engineConfig": {
       "mode": "row-based",
       "facets": [
@@ -1660,7 +1660,7 @@
       ]
     },
     "columnName": "NOMBRE",
-    "similarValue": "Ermita de Santa Mar�a la Antigua",
+    "similarValue": "Ermita de Santa María la Antigua",
     "judgment": "matched",
     "match": {
       "id": "http://dbpedia.org/resource/Hermitage_of_Santa_María_la_Antigua_(Madrid)",
@@ -1704,7 +1704,7 @@
   },
   {
     "op": "core/recon-judge-similar-cells",
-    "description": "Match topic Madrid Puerta de Atocha (http://dbpedia.org/resource/Madrid_Puerta_de_Atocha) for cells containing \"Estaci�n ferroviaria Madrid Puerta de Atocha\" in column NOMBRE",
+    "description": "Match topic Madrid Puerta de Atocha (http://dbpedia.org/resource/Madrid_Puerta_de_Atocha) for cells containing \"Estación ferroviaria Madrid Puerta de Atocha\" in column NOMBRE",
     "engineConfig": {
       "mode": "row-based",
       "facets": [
@@ -1730,7 +1730,7 @@
       ]
     },
     "columnName": "NOMBRE",
-    "similarValue": "Estaci�n ferroviaria Madrid Puerta de Atocha",
+    "similarValue": "Estación ferroviaria Madrid Puerta de Atocha",
     "judgment": "matched",
     "match": {
       "id": "http://dbpedia.org/resource/Madrid_Puerta_de_Atocha",
@@ -1744,7 +1744,7 @@
   },
   {
     "op": "core/recon-clear-similar-cells",
-    "description": "Clear recon data for cells containing \"Fundaci�n BBVA. Palacio del Marqu�s de Salamanca\" in column NOMBRE",
+    "description": "Clear recon data for cells containing \"Fundación BBVA. Palacio del Marqués de Salamanca\" in column NOMBRE",
     "engineConfig": {
       "mode": "row-based",
       "facets": [
@@ -1770,11 +1770,11 @@
       ]
     },
     "columnName": "NOMBRE",
-    "similarValue": "Fundaci�n BBVA. Palacio del Marqu�s de Salamanca"
+    "similarValue": "Fundación BBVA. Palacio del Marqués de Salamanca"
   },
   {
     "op": "core/recon-judge-similar-cells",
-    "description": "Match topic Palacio de Cibeles (http://dbpedia.org/resource/Palacio_de_Cibeles) for cells containing \"Galer�a de Cristal del Palacio de Cibeles\" in column NOMBRE",
+    "description": "Match topic Palacio de Cibeles (http://dbpedia.org/resource/Palacio_de_Cibeles) for cells containing \"Galería de Cristal del Palacio de Cibeles\" in column NOMBRE",
     "engineConfig": {
       "mode": "row-based",
       "facets": [
@@ -1800,7 +1800,7 @@
       ]
     },
     "columnName": "NOMBRE",
-    "similarValue": "Galer�a de Cristal del Palacio de Cibeles",
+    "similarValue": "Galería de Cristal del Palacio de Cibeles",
     "judgment": "matched",
     "match": {
       "id": "http://dbpedia.org/resource/Palacio_de_Cibeles",
@@ -1844,7 +1844,7 @@
   },
   {
     "op": "core/recon-clear-similar-cells",
-    "description": "Clear recon data for cells containing \"Iglesia Corpus Christi (Jer�nimas Recoletas)\" in column NOMBRE",
+    "description": "Clear recon data for cells containing \"Iglesia Corpus Christi (Jerónimas Recoletas)\" in column NOMBRE",
     "engineConfig": {
       "mode": "row-based",
       "facets": [
@@ -1870,11 +1870,11 @@
       ]
     },
     "columnName": "NOMBRE",
-    "similarValue": "Iglesia Corpus Christi (Jer�nimas Recoletas)"
+    "similarValue": "Iglesia Corpus Christi (Jerónimas Recoletas)"
   },
   {
     "op": "core/recon-judge-similar-cells",
-    "description": "Match topic Iglesia de las Calatravas (Madrid) (http://dbpedia.org/resource/Iglesia_de_las_Calatravas_(Madrid)) for cells containing \"Iglesia de las Calatravas (Concepci�n Real de Calatrava)\" in column NOMBRE",
+    "description": "Match topic Iglesia de las Calatravas (Madrid) (http://dbpedia.org/resource/Iglesia_de_las_Calatravas_(Madrid)) for cells containing \"Iglesia de las Calatravas (Concepción Real de Calatrava)\" in column NOMBRE",
     "engineConfig": {
       "mode": "row-based",
       "facets": [
@@ -1900,7 +1900,7 @@
       ]
     },
     "columnName": "NOMBRE",
-    "similarValue": "Iglesia de las Calatravas (Concepci�n Real de Calatrava)",
+    "similarValue": "Iglesia de las Calatravas (Concepción Real de Calatrava)",
     "judgment": "matched",
     "match": {
       "id": "http://dbpedia.org/resource/Iglesia_de_las_Calatravas_(Madrid)",
@@ -2104,7 +2104,7 @@
   },
   {
     "op": "core/recon-clear-similar-cells",
-    "description": "Clear recon data for cells containing \"Ministerio de Hacienda y Funci�n P�blica. Direcci�n General de Patrimonio del Estado\" in column NOMBRE",
+    "description": "Clear recon data for cells containing \"Ministerio de Hacienda y Función Pública. Dirección General de Patrimonio del Estado\" in column NOMBRE",
     "engineConfig": {
       "mode": "row-based",
       "facets": [
@@ -2130,11 +2130,11 @@
       ]
     },
     "columnName": "NOMBRE",
-    "similarValue": "Ministerio de Hacienda y Funci�n P�blica. Direcci�n General de Patrimonio del Estado"
+    "similarValue": "Ministerio de Hacienda y Función Pública. Dirección General de Patrimonio del Estado"
   },
   {
     "op": "core/recon-clear-similar-cells",
-    "description": "Clear recon data for cells containing \"Ministerio de Hacienda y Funci�n P�blica. Sede calle Alcal�\" in column NOMBRE",
+    "description": "Clear recon data for cells containing \"Ministerio de Hacienda y Función Pública. Sede calle Alcalá\" in column NOMBRE",
     "engineConfig": {
       "mode": "row-based",
       "facets": [
@@ -2160,7 +2160,7 @@
       ]
     },
     "columnName": "NOMBRE",
-    "similarValue": "Ministerio de Hacienda y Funci�n P�blica. Sede calle Alcal�"
+    "similarValue": "Ministerio de Hacienda y Función Pública. Sede calle Alcalá"
   },
   {
     "op": "core/recon-judge-similar-cells",
@@ -2234,7 +2234,7 @@
   },
   {
     "op": "core/recon-judge-similar-cells",
-    "description": "Match topic Monumento homenaje a las víctimas del 11-M (http://dbpedia.org/resource/Atocha_station_memorial) for cells containing \"Monumento Homenaje a las V�ctimas del 11 de marzo\" in column NOMBRE",
+    "description": "Match topic Monumento homenaje a las víctimas del 11-M (http://dbpedia.org/resource/Atocha_station_memorial) for cells containing \"Monumento Homenaje a las Víctimas del 11 de marzo\" in column NOMBRE",
     "engineConfig": {
       "mode": "row-based",
       "facets": [
@@ -2260,7 +2260,7 @@
       ]
     },
     "columnName": "NOMBRE",
-    "similarValue": "Monumento Homenaje a las V�ctimas del 11 de marzo",
+    "similarValue": "Monumento Homenaje a las Víctimas del 11 de marzo",
     "judgment": "matched",
     "match": {
       "id": "http://dbpedia.org/resource/Atocha_station_memorial",
@@ -2374,7 +2374,7 @@
   },
   {
     "op": "core/recon-judge-similar-cells",
-    "description": "Match topic Museo Lázaro Galdiano (http://dbpedia.org/resource/Museum_of_Lázaro_Galdiano) for cells containing \"Museo L�zaro Galdiano\" in column NOMBRE",
+    "description": "Match topic Museo Lázaro Galdiano (http://dbpedia.org/resource/Museum_of_Lázaro_Galdiano) for cells containing \"Museo Lázaro Galdiano\" in column NOMBRE",
     "engineConfig": {
       "mode": "row-based",
       "facets": [
@@ -2400,7 +2400,7 @@
       ]
     },
     "columnName": "NOMBRE",
-    "similarValue": "Museo L�zaro Galdiano",
+    "similarValue": "Museo Lázaro Galdiano",
     "judgment": "matched",
     "match": {
       "id": "http://dbpedia.org/resource/Museum_of_Lázaro_Galdiano",
@@ -2494,7 +2494,7 @@
   },
   {
     "op": "core/recon-judge-similar-cells",
-    "description": "Match topic Palacio de Buenavista (http://dbpedia.org/resource/Palacio_de_Buenavista) for cells containing \"Palacio de Buenavista. Cuartel General del Ej�rcito de Tierra\" in column NOMBRE",
+    "description": "Match topic Palacio de Buenavista (http://dbpedia.org/resource/Palacio_de_Buenavista) for cells containing \"Palacio de Buenavista. Cuartel General del Ejército de Tierra\" in column NOMBRE",
     "engineConfig": {
       "mode": "row-based",
       "facets": [
@@ -2520,7 +2520,7 @@
       ]
     },
     "columnName": "NOMBRE",
-    "similarValue": "Palacio de Buenavista. Cuartel General del Ej�rcito de Tierra",
+    "similarValue": "Palacio de Buenavista. Cuartel General del Ejército de Tierra",
     "judgment": "matched",
     "match": {
       "id": "http://dbpedia.org/resource/Palacio_de_Buenavista",
@@ -2574,7 +2574,7 @@
   },
   {
     "op": "core/recon-clear-similar-cells",
-    "description": "Clear recon data for cells containing \"Palacio de Santo�a\" in column NOMBRE",
+    "description": "Clear recon data for cells containing \"Palacio de Santoña\" in column NOMBRE",
     "engineConfig": {
       "mode": "row-based",
       "facets": [
@@ -2600,7 +2600,7 @@
       ]
     },
     "columnName": "NOMBRE",
-    "similarValue": "Palacio de Santo�a"
+    "similarValue": "Palacio de Santoña"
   },
   {
     "op": "core/recon-judge-similar-cells",
@@ -2644,7 +2644,7 @@
   },
   {
     "op": "core/recon-judge-similar-cells",
-    "description": "Match topic Panteón de Hombres Ilustres (http://dbpedia.org/resource/Pantheon_of_Illustrious_Men) for cells containing \"Pante�n de Hombres Ilustres\" in column NOMBRE",
+    "description": "Match topic Panteón de Hombres Ilustres (http://dbpedia.org/resource/Pantheon_of_Illustrious_Men) for cells containing \"Panteón de Hombres Ilustres\" in column NOMBRE",
     "engineConfig": {
       "mode": "row-based",
       "facets": [
@@ -2670,7 +2670,7 @@
       ]
     },
     "columnName": "NOMBRE",
-    "similarValue": "Pante�n de Hombres Ilustres",
+    "similarValue": "Panteón de Hombres Ilustres",
     "judgment": "matched",
     "match": {
       "id": "http://dbpedia.org/resource/Pantheon_of_Illustrious_Men",
@@ -2684,7 +2684,7 @@
   },
   {
     "op": "core/recon-clear-similar-cells",
-    "description": "Clear recon data for cells containing \"Parroquia Nuestra Se�ora del Buen Consejo y San Isidro\" in column NOMBRE",
+    "description": "Clear recon data for cells containing \"Parroquia Nuestra Señora del Buen Consejo y San Isidro\" in column NOMBRE",
     "engineConfig": {
       "mode": "row-based",
       "facets": [
@@ -2710,11 +2710,11 @@
       ]
     },
     "columnName": "NOMBRE",
-    "similarValue": "Parroquia Nuestra Se�ora del Buen Consejo y San Isidro"
+    "similarValue": "Parroquia Nuestra Señora del Buen Consejo y San Isidro"
   },
   {
     "op": "core/recon-clear-similar-cells",
-    "description": "Clear recon data for cells containing \"Parroquia San Ferm�n de los Navarros\" in column NOMBRE",
+    "description": "Clear recon data for cells containing \"Parroquia San Fermín de los Navarros\" in column NOMBRE",
     "engineConfig": {
       "mode": "row-based",
       "facets": [
@@ -2740,7 +2740,7 @@
       ]
     },
     "columnName": "NOMBRE",
-    "similarValue": "Parroquia San Ferm�n de los Navarros"
+    "similarValue": "Parroquia San Fermín de los Navarros"
   },
   {
     "op": "core/recon-judge-similar-cells",
@@ -2784,7 +2784,7 @@
   },
   {
     "op": "core/recon-judge-similar-cells",
-    "description": "Match topic Real Jardín Botánico de Madrid (http://dbpedia.org/resource/Real_Jardín_Botánico_de_Madrid) for cells containing \"Real Jard�n Bot�nico\" in column NOMBRE",
+    "description": "Match topic Real Jardín Botánico de Madrid (http://dbpedia.org/resource/Real_Jardín_Botánico_de_Madrid) for cells containing \"Real Jardín Botánico\" in column NOMBRE",
     "engineConfig": {
       "mode": "row-based",
       "facets": [
@@ -2810,7 +2810,7 @@
       ]
     },
     "columnName": "NOMBRE",
-    "similarValue": "Real Jard�n Bot�nico",
+    "similarValue": "Real Jardín Botánico",
     "judgment": "matched",
     "match": {
       "id": "http://dbpedia.org/resource/Real_Jardín_Botánico_de_Madrid",
@@ -2864,7 +2864,7 @@
   },
   {
     "op": "core/recon-clear-similar-cells",
-    "description": "Clear recon data for cells containing \"Real F�brica de Tapices\" in column NOMBRE",
+    "description": "Clear recon data for cells containing \"Real Fábrica de Tapices\" in column NOMBRE",
     "engineConfig": {
       "mode": "row-based",
       "facets": [
@@ -2890,7 +2890,7 @@
       ]
     },
     "columnName": "NOMBRE",
-    "similarValue": "Real F�brica de Tapices"
+    "similarValue": "Real Fábrica de Tapices"
   },
   {
     "op": "core/recon-judge-similar-cells",
@@ -3058,6 +3058,16 @@
             }
           ],
           "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
             {
               "uri": "properties/description",
               "curie": ":properties/description",
