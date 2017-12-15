@@ -1,0 +1,34 @@
+{
+  "@context" : {
+    "isInDistrict" : {
+      "@id" : "http://www.semanticweb.org/Group04/isInDistrict",
+      "@type" : "@id"
+    },
+    "hasType" : {
+      "@id" : "http://www.semanticweb.org/Group04/ontology#hasType",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasLatitude" : {
+      "@id" : "http://www.semanticweb.org/Group04/ontology#hasLatitude",
+      "@type" : "http://www.w3.org/2001/XMLSchema#decimal"
+    },
+    "hasLongitude" : {
+      "@id" : "http://www.semanticweb.org/Group04/ontology#hasLongitude",
+      "@type" : "http://www.w3.org/2001/XMLSchema#decimal"
+    },
+    "isAccesible" : {
+      "@id" : "http://www.semanticweb.org/Group04/isAccesible",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "hasName" : {
+      "@id" : "http://www.semanticweb.org/Group04/ontology#hasName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Parking" : {
+      "@id" : "http://dbpedia.org/page/Parking"
+    },
+    "District" : {
+      "@id" : "http://es.dbpedia.org/page/District"
+    }
+  }
+}
