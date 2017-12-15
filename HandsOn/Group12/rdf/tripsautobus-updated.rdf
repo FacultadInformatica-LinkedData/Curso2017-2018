@@ -1,0 +1,2555 @@
+@prefix : <http://www.semanticweb.org/group12/ontology#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dbpedia: <http://dbpedia.org/page/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+<http://www.semanticweb.org/group12/resources/Service/118171-8171116:50:002cc368171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/118171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/68171-8171107:35:001-68171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/68171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO COMERCIAL" ;
+	:tripShortName "171 URB. SANTO DOMINGO" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/48171-8171114:30:001-268171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/48171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO DE SALUD" ;
+	:tripShortName "Termina en Av. Guadalix Centro de Salud" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/58171-8171106:35:002cc58171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/58171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/68171-8171215:00:002-168171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/68171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/10591006-91006116:40:001-1691006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/10591006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/7693006-93006312:30:002-793006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/93006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/7693006" ;
+	:tripHeadsign "AV.ERMITA-EST.LA MORALEJA" ;
+	:tripShortName "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/71692006-92006113:05:002-292006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/92006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/71692006" ;
+	:tripHeadsign "PºCHOPERA-AV.CAMILO JOSÉ CELA" ;
+	:tripShortName "lv 2 ALCOBENDAS" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/38171-8171116:10:002cc338171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/38171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/10491006-91006112:40:001-1091006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/10491006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/70591006-91006121:20:001-2391006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/70591006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/70591006-91006119:20:001-2091006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/70591006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/7793006-93006316:20:001-1693006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/93006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/7793006" ;
+	:tripHeadsign "PºPARQUES-CTRA.A1" ;
+	:tripShortName "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/48171-8171217:00:001-178171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/48171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO COMERCIAL" ;
+	:tripShortName "171 URB. SANTO DOMINGO" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/80491006-91006114:00:001-1291006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/80491006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/11292006-92006115:10:002-892006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/92006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/11292006" ;
+	:tripHeadsign "PºCHOPERA-AV.CAMILO JOSÉ CELA" ;
+	:tripShortName "lv 2 ALCOBENDAS" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/12592006-92006107:40:001-392006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/92006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/12592006" ;
+	:tripHeadsign "AV.LA VEGA-C.C.LA VEGA" ;
+	:tripShortName "lv 2 LA MORALEJA" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/68171-8171222:00:001-248171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/68171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO DE SALUD" ;
+	:tripShortName "Termina en Av. Guadalix Centro de Salud" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/7793006-93006318:30:002-1693006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/93006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/7793006" ;
+	:tripHeadsign "AV.ERMITA-EST.LA MORALEJA" ;
+	:tripShortName "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/71692006-92006113:45:001-1092006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/92006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/71692006" ;
+	:tripHeadsign "AV.LA VEGA-C.C.LA VEGA" ;
+	:tripShortName "lv 2 LA MORALEJA" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/7693006-93006315:10:002-1193006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/93006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/7693006" ;
+	:tripHeadsign "AV.ERMITA-EST.LA MORALEJA" ;
+	:tripShortName "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/18171-8171106:00:002cc18171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/18171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/48171-8171319:50:001-138171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/48171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO COMERCIAL" ;
+	:tripShortName "171 URB. SANTO DOMINGO" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/68171-8171220:00:001-228171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/68171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO COMERCIAL" ;
+	:tripShortName "171 URB. SANTO DOMINGO" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/38171-8171320:00:002-158171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/38171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/18171-8171214:20:001-138171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/18171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO DE SALUD" ;
+	:tripShortName "Termina en Av. Guadalix Centro de Salud" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/70591006-91006116:00:001-1591006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/70591006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/80591006-91006114:40:001-1391006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/80591006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/10491006-91006108:00:001-391006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/10491006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/7693006-93006312:20:001-1093006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/93006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/7693006" ;
+	:tripHeadsign "PºPARQUES-CTRA.A1" ;
+	:tripShortName "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/48171-8171112:30:001-228171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/48171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO COMERCIAL" ;
+	:tripShortName "171 URB. SANTO DOMINGO" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/68171-8171110:40:002cc208171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/68171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/7693006-93006315:00:001-1493006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/93006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/7693006" ;
+	:tripHeadsign "PºPARQUES-CTRA.A1" ;
+	:tripShortName "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/48171-8171317:00:002-128171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/48171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/1238828-8828115:05:001-38828> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8828" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/1238828" ;
+	:tripHeadsign "IVÁN PAVLOV-RECTORADO" ;
+	:tripShortName "lv 828 ALCOBENDAS-U.AUTONOMA" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/7793006-93006315:50:002-1293006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/93006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/7793006" ;
+	:tripHeadsign "AV.ERMITA-EST.LA MORALEJA" ;
+	:tripShortName "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/28171-8171107:10:002cc98171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/28171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/80491006-91006108:00:001-391006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/80491006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/28171-8171309:00:002-48171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/28171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/58171-8171218:30:002-218171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/58171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/7793006-93006316:30:002-1393006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/93006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/7793006" ;
+	:tripHeadsign "AV.ERMITA-EST.LA MORALEJA" ;
+	:tripShortName "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/68171-8171109:40:001-158171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/68171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO COMERCIAL" ;
+	:tripShortName "171 URB. SANTO DOMINGO" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/10591006-91006117:20:001-1791006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/10591006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/70591006-91006120:40:001-2291006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/70591006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/7693006-93006313:00:001-1193006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/93006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/7693006" ;
+	:tripHeadsign "PºPARQUES-CTRA.A1" ;
+	:tripShortName "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/18171-8171107:35:002cc108171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/18171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/28171-8171118:00:001-378171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/28171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO COMERCIAL" ;
+	:tripShortName "171 URB. SANTO DOMINGO" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/80591006-91006120:40:001-2291006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/80591006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/18171-8171313:10:001-78171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/18171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO DE SALUD" ;
+	:tripShortName "Termina en Av. Guadalix Centro de Salud" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/68171-8171111:30:001-208171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/68171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO COMERCIAL" ;
+	:tripShortName "171 URB. SANTO DOMINGO" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/38171-8171210:00:001-68171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/38171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO COMERCIAL" ;
+	:tripShortName "171 URB. SANTO DOMINGO" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/71292006-92006116:10:002-1292006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/92006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/71292006" ;
+	:tripHeadsign "PºCHOPERA-AV.CAMILO JOSÉ CELA" ;
+	:tripShortName "lv 2 ALCOBENDAS" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/7793006-93006321:40:001-2493006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/93006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/7793006" ;
+	:tripHeadsign "PºPARQUES-CTRA.A1" ;
+	:tripShortName "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/80491006-91006113:20:001-1191006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/80491006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/7693006-93006310:30:002-493006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/93006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/7693006" ;
+	:tripHeadsign "AV.ERMITA-EST.LA MORALEJA" ;
+	:tripShortName "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/10591006-91006118:40:001-1991006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/10591006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/78171-8171117:15:002uc388171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/78171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "Hasta/desde Urb. Ciudalcampo" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/70192006-92006108:30:002-a.1092006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/92006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/70192006" ;
+	:tripHeadsign "PºCHOPERA-AV.CAMILO JOSÉ CELA" ;
+	:tripShortName "lv 2 ALCOBENDAS" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/1168828-8828117:55:002-78828> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8828" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/1168828" ;
+	:tripHeadsign "CANILLEJAS-AREA INTERMODAL" ;
+	:tripShortName "lv 828 MADRID(Canillejas)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/10992006-92006108:30:002-a.1092006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/92006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/10992006" ;
+	:tripHeadsign "PºCHOPERA-AV.CAMILO JOSÉ CELA" ;
+	:tripShortName "lv 2 ALCOBENDAS" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/18171-8171108:35:001-118171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/18171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO COMERCIAL" ;
+	:tripShortName "171 URB. SANTO DOMINGO" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/58171-8171319:30:002-148171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/58171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/70591006-91006114:00:001-1291006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/70591006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/11292006-92006113:45:001-1092006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/92006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/11292006" ;
+	:tripHeadsign "AV.LA VEGA-C.C.LA VEGA" ;
+	:tripShortName "lv 2 LA MORALEJA" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/11092006-92006116:50:001-792006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/92006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/11092006" ;
+	:tripHeadsign "AV.LA VEGA-C.C.LA VEGA" ;
+	:tripShortName "lv 2 LA MORALEJA" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/7793006-93006317:00:001-1793006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/93006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/7793006" ;
+	:tripHeadsign "PºPARQUES-CTRA.A1" ;
+	:tripShortName "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/10491006-91006113:20:001-1191006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/10491006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/28171-8171208:30:002-58171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/28171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/38171-8171317:00:001-118171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/38171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO COMERCIAL" ;
+	:tripShortName "171 URB. SANTO DOMINGO" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/18171-8171210:30:001-78171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/18171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO COMERCIAL" ;
+	:tripShortName "171 URB. SANTO DOMINGO" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/138171-8171121:30:001-508171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/138171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO DE SALUD" ;
+	:tripShortName "Termina en Av. Guadalix Centro de Salud" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/7793006-93006317:50:002-1593006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/93006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/7793006" ;
+	:tripHeadsign "AV.ERMITA-EST.LA MORALEJA" ;
+	:tripShortName "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/98171-8171119:10:001-428171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/98171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO COMERCIAL" ;
+	:tripShortName "171 URB. SANTO DOMINGO" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/7693006-93006314:30:002-1093006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/93006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/7693006" ;
+	:tripHeadsign "AV.ERMITA-EST.LA MORALEJA" ;
+	:tripShortName "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/38171-8171106:15:002cc28171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/38171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/28171-8171307:10:002-28171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/28171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/88171-8171109:00:002cc168171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/88171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/10491006-91006112:00:001-991006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/10491006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/7793006-93006321:50:002-2193006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/93006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/7793006" ;
+	:tripHeadsign "AV.ERMITA-EST.LA MORALEJA" ;
+	:tripShortName "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/28171-8171211:10:001-88171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/28171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO COMERCIAL" ;
+	:tripShortName "171 URB. SANTO DOMINGO" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/18171-8171207:50:002-48171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/18171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/118171-8171115:00:002cc308171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/118171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/10491006-91006107:20:001-291006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/10491006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/128171-8171118:30:001-398171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/128171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO COMERCIAL" ;
+	:tripShortName "171 URB. SANTO DOMINGO" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/148171-8171107:50:001-78171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/148171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO DE SALUD" ;
+	:tripShortName "Termina en Av. Guadalix Centro de Salud" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/78171-8171108:55:001-128171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/78171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO DE SALUD" ;
+	:tripShortName "Termina en Av. Guadalix Centro de Salud" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/7693006-93006314:20:001-1393006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/93006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/7693006" ;
+	:tripHeadsign "PºPARQUES-CTRA.A1" ;
+	:tripShortName "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/108171-8171113:55:002cc278171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/108171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/98171-8171116:35:002cc358171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/98171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/70591006-91006115:20:001-1491006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/70591006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/80591006-91006115:20:001-1491006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/80591006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/7793006-93006318:20:001-1993006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/93006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/7793006" ;
+	:tripHeadsign "PºPARQUES-CTRA.A1" ;
+	:tripShortName "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/88171-8171114:50:002cc298171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/88171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/38171-8171316:00:002-118171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/38171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/7693006-93006311:40:001-993006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/93006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/7693006" ;
+	:tripHeadsign "PºPARQUES-CTRA.A1" ;
+	:tripShortName "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/108171-8171119:50:002cc488171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/108171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/80491006-91006110:00:001-691006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/80491006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/18171-8171213:30:002-138171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/18171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/12592006-92006109:05:002-192006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/92006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/12592006" ;
+	:tripHeadsign "PºCHOPERA-AV.CAMILO JOSÉ CELA" ;
+	:tripShortName "lv 2 ALCOBENDAS" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/7793006-93006317:10:002-1493006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/93006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/7793006" ;
+	:tripHeadsign "AV.ERMITA-EST.LA MORALEJA" ;
+	:tripShortName "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/48171-8171218:00:002-208171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/48171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/71192006-92006107:10:001-292006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/92006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/71192006" ;
+	:tripHeadsign "AV.LA VEGA-C.C.LA VEGA" ;
+	:tripShortName "lv 2 LA MORALEJA" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/138171-8171120:35:002cc508171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/138171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/38171-8171117:10:001-338171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/38171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO COMERCIAL" ;
+	:tripShortName "171 URB. SANTO DOMINGO" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/18171-8171112:05:001-218171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/18171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO COMERCIAL" ;
+	:tripShortName "171 URB. SANTO DOMINGO" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/118171-8171119:45:001-448171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/118171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO DE SALUD" ;
+	:tripShortName "Termina en Av. Guadalix Centro de Salud" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/38171-8171119:00:001-418171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/38171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO DE SALUD" ;
+	:tripShortName "Termina en Av. Guadalix Centro de Salud" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/10992006-92006109:40:002-792006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/92006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/10992006" ;
+	:tripHeadsign "PºCHOPERA-AV.CAMILO JOSÉ CELA" ;
+	:tripShortName "lv 2 ALCOBENDAS" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/71292006-92006116:50:001-792006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/92006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/71292006" ;
+	:tripHeadsign "AV.LA VEGA-C.C.LA VEGA" ;
+	:tripShortName "lv 2 LA MORALEJA" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/138171-8171119:25:001-438171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/138171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO COMERCIAL" ;
+	:tripShortName "171 URB. SANTO DOMINGO" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/38171-8171108:15:001a.98171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/38171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO DE SALUD" ;
+	:tripShortName "Sólo desde Alcobendas y S.S. de los Reyes" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/80591006-91006121:20:001-2391006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/80591006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/70491006-91006114:00:001-1291006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/70491006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/28171-8171108:15:001-108171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/28171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO DE SALUD" ;
+	:tripShortName "Termina en Av. Guadalix Centro de Salud" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/80591006-91006116:40:001-1691006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/80591006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/88171-8171115:40:001-298171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/88171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO DE SALUD" ;
+	:tripShortName "Termina en Av. Guadalix Centro de Salud" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/70591006-91006118:40:001-1991006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/70591006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/28171-8171121:50:001-518171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/28171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO DE SALUD" ;
+	:tripShortName "Termina en Av. Guadalix Centro de Salud" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/158171-8171123:00:002ccv.548171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/158171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/7693006-93006313:50:002-993006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/93006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/7693006" ;
+	:tripHeadsign "AV.ERMITA-EST.LA MORALEJA" ;
+	:tripShortName "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/28171-8171313:00:002-88171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/28171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/18171-8171311:10:001-58171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/18171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO COMERCIAL" ;
+	:tripShortName "171 URB. SANTO DOMINGO" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/10491006-91006114:00:001-1291006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/10491006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/18171-8171208:40:001-48171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/18171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO COMERCIAL" ;
+	:tripShortName "171 URB. SANTO DOMINGO" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/68171-8171219:00:002-228171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/68171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/98171-8171121:40:002cc538171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/98171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/71192006-92006108:35:002-492006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/92006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/71192006" ;
+	:tripHeadsign "PºCHOPERA-AV.CAMILO JOSÉ CELA" ;
+	:tripShortName "lv 2 ALCOBENDAS" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/158171-8171100:00:001-v.548171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/158171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO DE SALUD" ;
+	:tripShortName "Termina en Av. Guadalix Centro de Salud" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/28171-8171212:15:002-118171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/28171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/7793006-93006322:20:001-2593006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/93006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/7793006" ;
+	:tripHeadsign "PºPARQUES-CTRA.A1" ;
+	:tripShortName "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/88171-8171107:00:002cc88171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/88171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/138171-8171114:30:002cc288171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/138171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/7793006-93006322:30:002-2293006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/93006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/7793006" ;
+	:tripHeadsign "AV.ERMITA-EST.LA MORALEJA" ;
+	:tripShortName "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/78171-8171118:15:001-388171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/78171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO COMERCIAL" ;
+	:tripShortName "171 URB. SANTO DOMINGO" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/7793006-93006317:40:001-1893006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/93006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/7793006" ;
+	:tripHeadsign "PºPARQUES-CTRA.A1" ;
+	:tripShortName "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/1238828-8828113:05:001-28828> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8828" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/1238828" ;
+	:tripHeadsign "IVÁN PAVLOV-RECTORADO" ;
+	:tripShortName "lv 828 ALCOBENDAS-U.AUTONOMA" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/78171-8171107:00:001-28171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/78171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO COMERCIAL" ;
+	:tripShortName "171 URB. SANTO DOMINGO" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/70491006-91006111:20:001-891006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/70491006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/71192006-92006109:20:001-592006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/92006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/71192006" ;
+	:tripHeadsign "AV.LA VEGA-C.C.LA VEGA" ;
+	:tripShortName "lv 2 LA MORALEJA" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/70992006-92006109:05:002-192006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/92006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/70992006" ;
+	:tripHeadsign "PºCHOPERA-AV.CAMILO JOSÉ CELA" ;
+	:tripShortName "lv 2 ALCOBENDAS" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/88171-8171113:55:001-258171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/88171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO COMERCIAL" ;
+	:tripShortName "171 URB. SANTO DOMINGO" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/68171-8171112:20:002cc238171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/68171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/1218828-8828106:45:002a.28828> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8828" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/1218828" ;
+	:tripHeadsign "CANILLEJAS-AREA INTERMODAL" ;
+	:tripShortName "Hasta/desde Alcobendas" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/1238828-8828109:55:002-38828> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8828" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/1238828" ;
+	:tripHeadsign "CANILLEJAS-AREA INTERMODAL" ;
+	:tripShortName "lv 828 MADRID(Canillejas)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/48171-8171107:15:001-48171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/48171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO COMERCIAL" ;
+	:tripShortName "171 URB. SANTO DOMINGO" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/10491006-91006110:40:001-791006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/10491006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/80591006-91006116:00:001-1591006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/80591006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/48171-8171216:00:002-178171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/48171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/108171-8171116:40:001-328171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/108171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO COMERCIAL" ;
+	:tripShortName "171 URB. SANTO DOMINGO" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/10491006-91006110:00:001-691006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/10491006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/7793006-93006319:40:001-2193006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/93006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/7793006" ;
+	:tripHeadsign "PºPARQUES-CTRA.A1" ;
+	:tripShortName "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/70591006-91006122:00:001-2491006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/70591006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/18171-8171211:20:002-108171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/18171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/71692006-92006114:50:001-692006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/92006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/71692006" ;
+	:tripHeadsign "AV.LA VEGA-C.C.LA VEGA" ;
+	:tripShortName "lv 2 LA MORALEJA" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/108171-8171118:45:001-408171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/108171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO COMERCIAL" ;
+	:tripShortName "171 URB. SANTO DOMINGO" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/38171-8171315:00:001-98171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/38171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO COMERCIAL" ;
+	:tripShortName "171 URB. SANTO DOMINGO" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/80591006-91006122:00:001-2491006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/80591006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/128171-8171115:30:002cc318171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/128171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/58171-8171217:30:001-188171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/58171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO COMERCIAL" ;
+	:tripShortName "171 URB. SANTO DOMINGO" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/71192006-92006108:15:001-492006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/92006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/71192006" ;
+	:tripHeadsign "AV.LA VEGA-C.C.LA VEGA" ;
+	:tripShortName "lv 2 LA MORALEJA" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/38171-8171107:05:001d.38171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/38171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO COMERCIAL" ;
+	:tripShortName "Directo" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/38171-8171211:00:002-98171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/38171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/10591006-91006122:00:001-2491006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/10591006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/78171-8171106:15:002g.r.38171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/78171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "Desde La Granjilla" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/7793006-93006320:30:002-1993006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/93006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/7793006" ;
+	:tripHeadsign "AV.ERMITA-EST.LA MORALEJA" ;
+	:tripShortName "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/68171-8171216:00:001-168171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/68171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO COMERCIAL" ;
+	:tripShortName "171 URB. SANTO DOMINGO" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/28171-8171210:10:002-88171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/28171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/7693006-93006310:20:001-793006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/93006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/7693006" ;
+	:tripHeadsign "PºPARQUES-CTRA.A1" ;
+	:tripShortName "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/18171-8171206:10:002-18171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/18171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/88171-8171108:00:001-88171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/88171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO COMERCIAL" ;
+	:tripShortName "171 URB. SANTO DOMINGO" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/78171-8171119:15:002cc468171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/78171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/18171-8171310:10:002-58171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/18171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/71292006-92006117:10:002-992006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/92006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/71292006" ;
+	:tripHeadsign "PºCHOPERA-AV.CAMILO JOSÉ CELA" ;
+	:tripShortName "lv 2 ALCOBENDAS" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/71692006-92006115:10:002-892006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/92006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/71692006" ;
+	:tripHeadsign "PºCHOPERA-AV.CAMILO JOSÉ CELA" ;
+	:tripShortName "lv 2 ALCOBENDAS" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/10491006-91006108:40:001-491006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/10491006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/18171-8171312:10:002-78171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/18171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/38171-8171321:00:001-158171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/38171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO DE SALUD" ;
+	:tripShortName "Termina en Av. Guadalix Centro de Salud" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/7693006-93006308:20:001-493006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/93006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/7693006" ;
+	:tripHeadsign "PºPARQUES-CTRA.A1" ;
+	:tripShortName "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/28171-8171311:00:002-68171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/28171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/28171-8171310:00:001-48171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/28171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO COMERCIAL" ;
+	:tripShortName "171 URB. SANTO DOMINGO" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/38171-8171319:00:001-128171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/38171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO COMERCIAL" ;
+	:tripShortName "171 URB. SANTO DOMINGO" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/28171-8171119:00:002cc458171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/28171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/11092006-92006117:10:002-992006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/92006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/11092006" ;
+	:tripHeadsign "PºCHOPERA-AV.CAMILO JOSÉ CELA" ;
+	:tripShortName "lv 2 ALCOBENDAS" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/48171-8171110:05:002cc188171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/48171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/128171-8171121:20:002cc528171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/128171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/68171-8171218:00:001-198171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/68171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO COMERCIAL" ;
+	:tripShortName "171 URB. SANTO DOMINGO" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/70591006-91006116:40:001-1691006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/70591006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/1238828-8828111:05:001-18828> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8828" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/1238828" ;
+	:tripHeadsign "IVÁN PAVLOV-RECTORADO" ;
+	:tripShortName "lv 828 ALCOBENDAS-U.AUTONOMA" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/11192006-92006107:10:001-292006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/92006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/11192006" ;
+	:tripHeadsign "AV.LA VEGA-C.C.LA VEGA" ;
+	:tripShortName "lv 2 LA MORALEJA" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/70491006-91006109:20:001-591006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/70491006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/80591006-91006120:00:001-2191006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/80591006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/7793006-93006319:00:001-2093006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/93006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/7793006" ;
+	:tripHeadsign "PºPARQUES-CTRA.A1" ;
+	:tripShortName "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/108171-8171115:45:002cc328171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/108171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/80491006-91006106:40:001-191006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/80491006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/70992006-92006107:40:001-392006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/92006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/70992006" ;
+	:tripHeadsign "AV.LA VEGA-C.C.LA VEGA" ;
+	:tripShortName "lv 2 LA MORALEJA" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/38171-8171208:00:001-38171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/38171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO COMERCIAL" ;
+	:tripShortName "171 URB. SANTO DOMINGO" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/7693006-93006309:10:002-293006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/93006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/7693006" ;
+	:tripHeadsign "AV.ERMITA-EST.LA MORALEJA" ;
+	:tripShortName "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/48171-8171319:00:002-148171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/48171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/80591006-91006118:40:001-1991006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/80591006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/18171-8171111:15:002cc218171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/18171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/10591006-91006121:20:001-2391006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/10591006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/70491006-91006112:40:001-1091006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/70491006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/58171-8171219:30:001-218171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/58171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO DE SALUD" ;
+	:tripShortName "Termina en Av. Guadalix Centro de Salud" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/1238828-8828113:55:002-58828> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8828" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/1238828" ;
+	:tripHeadsign "CANILLEJAS-AREA INTERMODAL" ;
+	:tripShortName "lv 828 MADRID(Canillejas)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/10591006-91006119:20:001-2091006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/10591006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/68171-8171217:00:002-198171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/68171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/11192006-92006107:30:002-592006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/92006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/11192006" ;
+	:tripHeadsign "PºCHOPERA-AV.CAMILO JOSÉ CELA" ;
+	:tripShortName "lv 2 ALCOBENDAS" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/18171-8171110:30:001-178171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/18171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO COMERCIAL" ;
+	:tripShortName "171 URB. SANTO DOMINGO" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/18171-8171308:10:002-38171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/18171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/48171-8171215:00:001-148171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/48171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO COMERCIAL" ;
+	:tripShortName "171 URB. SANTO DOMINGO" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/11192006-92006108:35:002-492006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/92006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/11192006" ;
+	:tripHeadsign "PºCHOPERA-AV.CAMILO JOSÉ CELA" ;
+	:tripShortName "lv 2 ALCOBENDAS" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/10591006-91006116:00:001-1591006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/10591006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/58171-8171216:30:002-188171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/58171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/128171-8171116:30:001-318171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/128171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO COMERCIAL" ;
+	:tripShortName "171 URB. SANTO DOMINGO" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/18171-8171113:40:001-248171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/18171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO DE SALUD" ;
+	:tripShortName "Termina en Av. Guadalix Centro de Salud" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/48171-8171106:30:002uc48171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/48171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "Hasta/desde Urb. Ciudalcampo" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/7793006-93006321:00:001-2393006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/93006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/7793006" ;
+	:tripHeadsign "PºPARQUES-CTRA.A1" ;
+	:tripShortName "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/1118828-8828119:05:001a.58828> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8828" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/1118828" ;
+	:tripHeadsign "FELICIDAD-HECHIZO" ;
+	:tripShortName "Hasta/desde Alcobendas" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/80491006-91006111:20:001-891006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/80491006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/48171-8171214:00:002-148171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/48171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/10491006-91006111:20:001-891006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/10491006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/1168828-8828115:55:002-68828> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8828" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/1168828" ;
+	:tripHeadsign "CANILLEJAS-AREA INTERMODAL" ;
+	:tripShortName "lv 828 MADRID(Canillejas)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/71692006-92006114:05:002-392006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/92006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/71692006" ;
+	:tripHeadsign "PºCHOPERA-AV.CAMILO JOSÉ CELA" ;
+	:tripShortName "lv 2 ALCOBENDAS" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/118171-8171117:45:001-368171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/118171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO COMERCIAL" ;
+	:tripShortName "171 URB. SANTO DOMINGO" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/18171-8171307:05:001-18171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/18171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO COMERCIAL" ;
+	:tripShortName "171 URB. SANTO DOMINGO" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/88171-8171113:00:002cc258171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/88171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/98171-8171120:55:001-498171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/98171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO COMERCIAL" ;
+	:tripShortName "171 URB. SANTO DOMINGO" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/128171-8171119:30:002cc478171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/128171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/7793006-93006319:50:002-1893006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/93006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/7793006" ;
+	:tripHeadsign "AV.ERMITA-EST.LA MORALEJA" ;
+	:tripShortName "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/80491006-91006109:20:001-591006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/80491006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/70591006-91006117:20:001-1791006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/70591006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/128171-8171120:30:001-478171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/128171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO COMERCIAL" ;
+	:tripShortName "171 URB. SANTO DOMINGO" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/70491006-91006106:40:001-191006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/70491006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/38171-8171212:00:001-98171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/38171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO COMERCIAL" ;
+	:tripShortName "171 URB. SANTO DOMINGO" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/38171-8171314:00:002-98171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/38171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/108171-8171120:45:001-488171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/108171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO DE SALUD" ;
+	:tripShortName "Termina en Av. Guadalix Centro de Salud" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/18171-8171306:20:002-18171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/18171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/10591006-91006120:40:001-2291006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/10591006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/71692006-92006112:45:001-992006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/92006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/71692006" ;
+	:tripHeadsign "AV.LA VEGA-C.C.LA VEGA" ;
+	:tripShortName "lv 2 LA MORALEJA" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/38171-8171318:00:002-138171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/38171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/18171-8171207:00:001-18171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/18171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO COMERCIAL" ;
+	:tripShortName "171 URB. SANTO DOMINGO" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/10491006-91006106:40:001-191006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/10491006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/70491006-91006113:20:001-1191006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/70491006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/98171-8171118:15:002c.428171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/98171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "Directo a/desde Urb. Ciudalcampo" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/28171-8171120:00:001-458171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/28171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO COMERCIAL" ;
+	:tripShortName "171 URB. SANTO DOMINGO" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/70491006-91006107:20:001-291006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/70491006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/88171-8171110:00:001-168171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/88171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO DE SALUD" ;
+	:tripShortName "Termina en Av. Guadalix Centro de Salud" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/128171-8171117:30:002cc398171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/128171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/108171-8171117:45:002cc408171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/108171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/128171-8171122:10:001-528171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/128171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO DE SALUD" ;
+	:tripShortName "Termina en Av. Guadalix Centro de Salud" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/48171-8171219:00:001-208171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/48171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO COMERCIAL" ;
+	:tripShortName "171 URB. SANTO DOMINGO" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/68171-8171221:00:002-248171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/68171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/68171-8171108:40:002cc158171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/68171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/10591006-91006115:20:001-1491006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/10591006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/12492006-92006113:05:002-292006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/92006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/12492006" ;
+	:tripHeadsign "PºCHOPERA-AV.CAMILO JOSÉ CELA" ;
+	:tripShortName "lv 2 ALCOBENDAS" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/28171-8171206:30:002-28171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/28171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/48171-8171110:55:001-188171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/48171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO COMERCIAL" ;
+	:tripShortName "171 URB. SANTO DOMINGO" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/11292006-92006114:50:001-692006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/92006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/11292006" ;
+	:tripHeadsign "AV.LA VEGA-C.C.LA VEGA" ;
+	:tripShortName "lv 2 LA MORALEJA" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/118171-8171118:45:002cc448171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/118171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/38171-8171118:00:002cc418171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/38171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/7693006-93006309:40:001-693006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/93006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/7693006" ;
+	:tripHeadsign "PºPARQUES-CTRA.A1" ;
+	:tripShortName "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/38171-8171213:50:001-128171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/38171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO DE SALUD" ;
+	:tripShortName "Termina en Av. Guadalix Centro de Salud" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/70491006-91006112:00:001-991006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/70491006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/18171-8171106:45:001-18171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/18171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO COMERCIAL" ;
+	:tripShortName "171 URB. SANTO DOMINGO" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/38171-8171207:00:002-38171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/38171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/7793006-93006320:20:001-2293006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/93006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/7793006" ;
+	:tripHeadsign "PºPARQUES-CTRA.A1" ;
+	:tripShortName "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/28171-8171213:15:001-118171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/28171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO DE SALUD" ;
+	:tripShortName "Termina en Av. Guadalix Centro de Salud" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/80491006-91006108:40:001-491006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/80491006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/38171-8171209:00:002-68171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/38171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/138171-8171115:30:001-288171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/138171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO COMERCIAL" ;
+	:tripShortName "171 URB. SANTO DOMINGO" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/38171-8171107:45:002cca118171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/38171" ;
+	:tripHeadsign "LIBERTAD-JULIÁN BAENA CASTRO" ;
+	:tripShortName "Procede de Av. Guadalix Centro Comercial hasta Alcobendas y S.S. de los Reyes" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/71292006-92006115:50:001-1192006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/92006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/71292006" ;
+	:tripHeadsign "AV.LA VEGA-C.C.LA VEGA" ;
+	:tripShortName "lv 2 LA MORALEJA" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/7693006-93006308:30:002-193006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/93006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/7693006" ;
+	:tripHeadsign "AV.ERMITA-EST.LA MORALEJA" ;
+	:tripShortName "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/48171-8171109:15:001-138171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/48171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO COMERCIAL" ;
+	:tripShortName "171 URB. SANTO DOMINGO" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/78171-8171120:15:001-468171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/78171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO DE SALUD" ;
+	:tripShortName "Termina en Av. Guadalix Centro de Salud" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/10591006-91006118:00:001-1891006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/10591006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/138171-8171118:20:002cc438171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/138171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/80491006-91006110:40:001-791006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/80491006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/10491006-91006109:20:001-591006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/10491006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/12592006-92006108:00:002-692006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/92006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/12592006" ;
+	:tripHeadsign "PºCHOPERA-AV.CAMILO JOSÉ CELA" ;
+	:tripShortName "lv 2 ALCOBENDAS" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/28171-8171312:00:001-68171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/28171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO COMERCIAL" ;
+	:tripShortName "171 URB. SANTO DOMINGO" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/1238828-8828111:55:002-48828> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8828" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/1238828" ;
+	:tripHeadsign "CANILLEJAS-AREA INTERMODAL" ;
+	:tripShortName "lv 828 MADRID(Canillejas)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/7693006-93006313:40:001-1293006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/93006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/7693006" ;
+	:tripHeadsign "PºPARQUES-CTRA.A1" ;
+	:tripShortName "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/1238828-8828115:55:002-68828> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8828" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/1238828" ;
+	:tripHeadsign "CANILLEJAS-AREA INTERMODAL" ;
+	:tripShortName "lv 828 MADRID(Canillejas)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/80491006-91006112:40:001-1091006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/80491006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/28171-8171209:20:001-58171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/28171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO COMERCIAL" ;
+	:tripShortName "171 URB. SANTO DOMINGO" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/7693006-93006313:10:002-893006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/93006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/7693006" ;
+	:tripHeadsign "AV.ERMITA-EST.LA MORALEJA" ;
+	:tripShortName "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/48171-8171220:00:002-238171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/48171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/18171-8171112:50:002cc248171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/18171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/80591006-91006119:20:001-2091006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/80591006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/138171-8171117:20:001-348171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/138171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO COMERCIAL" ;
+	:tripShortName "171 URB. SANTO DOMINGO" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/12492006-92006112:45:001-992006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/92006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/12492006" ;
+	:tripHeadsign "AV.LA VEGA-C.C.LA VEGA" ;
+	:tripShortName "lv 2 LA MORALEJA" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/48171-8171222:00:002-258171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/48171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/1248828-8828117:55:002-78828> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8828" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/1248828" ;
+	:tripHeadsign "CANILLEJAS-AREA INTERMODAL" ;
+	:tripShortName "lv 828 MADRID(Canillejas)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/18171-8171109:35:002cc178171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/18171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/7693006-93006311:10:002-593006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/93006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/7693006" ;
+	:tripHeadsign "AV.ERMITA-EST.LA MORALEJA" ;
+	:tripShortName "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/18171-8171209:30:002-78171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/18171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/58171-8171107:25:001-58171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/58171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO COMERCIAL" ;
+	:tripShortName "171 URB. SANTO DOMINGO" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/12592006-92006108:45:001-192006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/92006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/12592006" ;
+	:tripHeadsign "AV.LA VEGA-C.C.LA VEGA" ;
+	:tripShortName "lv 2 LA MORALEJA" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/18171-8171309:10:001-38171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/18171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO COMERCIAL" ;
+	:tripShortName "171 URB. SANTO DOMINGO" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/48171-8171318:00:001-128171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/48171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO COMERCIAL" ;
+	:tripShortName "171 URB. SANTO DOMINGO" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/7693006-93006309:00:001-593006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/93006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/7693006" ;
+	:tripHeadsign "PºPARQUES-CTRA.A1" ;
+	:tripShortName "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/48171-8171111:40:002cc228171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/48171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/108171-8171114:50:001-278171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/108171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO COMERCIAL" ;
+	:tripShortName "171 URB. SANTO DOMINGO" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/138171-8171116:20:002cc348171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/138171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/80591006-91006117:20:001-1791006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/80591006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/71192006-92006109:40:002-792006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/92006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/71192006" ;
+	:tripHeadsign "PºCHOPERA-AV.CAMILO JOSÉ CELA" ;
+	:tripShortName "lv 2 ALCOBENDAS" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/70491006-91006108:00:001-391006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/70491006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/48171-8171322:00:001-168171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/48171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO DE SALUD" ;
+	:tripShortName "Termina en Av. Guadalix Centro de Salud" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/70591006-91006114:40:001-1391006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/70591006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/7693006-93006311:00:001-893006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/93006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/7693006" ;
+	:tripHeadsign "PºPARQUES-CTRA.A1" ;
+	:tripShortName "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/70992006-92006108:00:002-692006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/92006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/70992006" ;
+	:tripHeadsign "PºCHOPERA-AV.CAMILO JOSÉ CELA" ;
+	:tripShortName "lv 2 ALCOBENDAS" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/68171-8171106:45:002uc68171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/68171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "Hasta/desde Urb. Ciudalcampo" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/70491006-91006110:00:001-691006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/70491006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/11092006-92006115:50:001-1192006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/92006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/11092006" ;
+	:tripHeadsign "AV.LA VEGA-C.C.LA VEGA" ;
+	:tripShortName "lv 2 LA MORALEJA" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/7793006-93006321:10:002-2093006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/93006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/7793006" ;
+	:tripHeadsign "AV.ERMITA-EST.LA MORALEJA" ;
+	:tripShortName "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/28171-8171308:00:001-28171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/28171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO COMERCIAL" ;
+	:tripShortName "171 URB. SANTO DOMINGO" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/98171-8171120:05:002cc498171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/98171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/48171-8171113:30:002cc268171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/48171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/70491006-91006110:40:001-791006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/70491006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/148171-8171106:50:002cc78171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/148171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/118171-8171116:00:001-308171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/118171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO COMERCIAL" ;
+	:tripShortName "171 URB. SANTO DOMINGO" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/58171-8171110:20:002cc198171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/58171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/58171-8171320:30:001-158171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/58171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO DE SALUD" ;
+	:tripShortName "Termina en Av. Guadalix Centro de Salud" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/58171-8171108:25:002cc148171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/58171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/70992006-92006108:45:001-192006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/92006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/70992006" ;
+	:tripHeadsign "AV.LA VEGA-C.C.LA VEGA" ;
+	:tripShortName "lv 2 LA MORALEJA" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/28171-8171120:50:002cc518171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/28171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/78171-8171107:50:002cc128171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/78171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/28171-8171314:00:001-88171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/28171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO DE SALUD" ;
+	:tripShortName "Termina en Av. Guadalix Centro de Salud" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/28171-8171117:05:002cc378171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/28171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/7793006-93006315:40:001-1593006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/93006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/7793006" ;
+	:tripHeadsign "PºPARQUES-CTRA.A1" ;
+	:tripShortName "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/38171-8171212:50:002-128171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/38171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/10992006-92006109:20:001-592006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/92006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/10992006" ;
+	:tripHeadsign "AV.LA VEGA-C.C.LA VEGA" ;
+	:tripShortName "lv 2 LA MORALEJA" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/11192006-92006108:15:001-492006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/92006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/11192006" ;
+	:tripHeadsign "AV.LA VEGA-C.C.LA VEGA" ;
+	:tripShortName "lv 2 LA MORALEJA" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/71192006-92006107:30:002-592006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/92006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/71192006" ;
+	:tripHeadsign "PºCHOPERA-AV.CAMILO JOSÉ CELA" ;
+	:tripShortName "lv 2 ALCOBENDAS" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/28171-8171207:30:001-28171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/28171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO COMERCIAL" ;
+	:tripShortName "171 URB. SANTO DOMINGO" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/98171-8171122:30:001-538171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/98171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO DE SALUD" ;
+	:tripShortName "Termina en Av. Guadalix Centro de Salud" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/80491006-91006107:20:001-291006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/80491006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/48171-8171321:00:002-168171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/48171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/68171-8171113:10:001-238171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/68171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO DE SALUD" ;
+	:tripShortName "Termina en Av. Guadalix Centro de Salud" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/58171-8171109:25:001-148171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/58171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO COMERCIAL" ;
+	:tripShortName "171 URB. SANTO DOMINGO" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/1238828-8828107:15:002a.18828> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8828" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/1238828" ;
+	:tripHeadsign "CANILLEJAS-AREA INTERMODAL" ;
+	:tripShortName "Hasta/desde Alcobendas" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/58171-8171111:05:001-198171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/58171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO DE SALUD" ;
+	:tripShortName "Termina en Av. Guadalix Centro de Salud" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/11092006-92006116:10:002-1292006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/92006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/11092006" ;
+	:tripHeadsign "PºCHOPERA-AV.CAMILO JOSÉ CELA" ;
+	:tripShortName "lv 2 ALCOBENDAS" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/80591006-91006118:00:001-1891006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/80591006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/10591006-91006120:00:001-2191006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/10591006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/98171-8171117:35:001c.358171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/98171" ;
+	:tripHeadsign "PZA.LA FUENTE-URB.CIUDALCAMPO" ;
+	:tripShortName "Directo a/desde Urb. Ciudalcampo" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/7793006-93006319:10:002-1793006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/93006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/7793006" ;
+	:tripHeadsign "AV.ERMITA-EST.LA MORALEJA" ;
+	:tripShortName "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/48171-8171221:00:001-238171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/48171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO COMERCIAL" ;
+	:tripShortName "171 URB. SANTO DOMINGO" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/48171-8171315:00:002-108171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/48171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/58171-8171215:30:001-158171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/58171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO COMERCIAL" ;
+	:tripShortName "171 URB. SANTO DOMINGO" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/7693006-93006309:50:002-393006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/93006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/7693006" ;
+	:tripHeadsign "AV.ERMITA-EST.LA MORALEJA" ;
+	:tripShortName "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/80491006-91006112:00:001-991006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/80491006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/11292006-92006114:05:002-392006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/92006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/11292006" ;
+	:tripHeadsign "PºCHOPERA-AV.CAMILO JOSÉ CELA" ;
+	:tripShortName "lv 2 ALCOBENDAS" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/1168828-8828117:05:001-48828> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8828" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/1168828" ;
+	:tripHeadsign "IVÁN PAVLOV-RECTORADO" ;
+	:tripShortName "lv 828 ALCOBENDAS-U.AUTONOMA" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/70591006-91006120:00:001-2191006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/70591006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/70591006-91006118:00:001-1891006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/70591006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/48171-8171108:10:002cc138171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/48171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/18171-8171212:30:001-108171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/18171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO COMERCIAL" ;
+	:tripShortName "171 URB. SANTO DOMINGO" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/48171-8171223:00:001-258171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/48171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO DE SALUD" ;
+	:tripShortName "Termina en Av. Guadalix Centro de Salud" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/7693006-93006311:50:002-693006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/93006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/7693006" ;
+	:tripHeadsign "AV.ERMITA-EST.LA MORALEJA" ;
+	:tripShortName "3 CIRCULAR (A.Vega-Soto-Encinar)" ;
+	:directionID "1"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/48171-8171316:00:001-108171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/48171" ;
+	:tripHeadsign "AV.GUADALIX-CENTRO COMERCIAL" ;
+	:tripShortName "171 URB. SANTO DOMINGO" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/70491006-91006108:40:001-491006> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/91006" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/70491006" ;
+	:tripHeadsign "CAMINO HUERTA-CºANCHO" ;
+	:tripShortName "1 CIRCULAR (A.Vega-Soto-Moraleja)" ;
+	:directionID "0"^^xsd:boolean .
+
+<http://www.semanticweb.org/group12/resources/Service/58171-8171214:30:002-158171> a dbpedia:Service ;
+	:routeID "http://www.semanticweb.org/group12/resources/Route/8171" ;
+	:serviceID "http://www.semanticweb.org/group12/resources/Calendar/58171" ;
+	:tripHeadsign "INTERCAMBIADOR DE PLAZA CASTILLA" ;
+	:tripShortName "171 MADRID (Pza. Castilla)" ;
+	:directionID "1"^^xsd:boolean .

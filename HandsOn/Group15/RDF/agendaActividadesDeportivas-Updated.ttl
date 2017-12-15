@@ -1,0 +1,333 @@
+@prefix ont: <http://open.vocab.org/terms/SportEvent> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+
+<http://www.semanticweb.org/instances/0> a <http://www.semanticweb.org/OntologyGroup15#EventoDeportivo> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Atletismo - X Cross Escolar Distrito Hortaleza" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8fc60b04d2910510VgnVCM2000000c205a0aRCRD> .
+
+<http://www.semanticweb.org/instances/8222895> a <http://www.semanticweb.org/OntologyGroup15#InstalacionDeportiva> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Centro Deportivo Municipal Luis Aragonés" .
+
+<http://www.semanticweb.org/instances/0> <http://www.semanticweb.org/OntologyGroup15#ocurre_en> <http://www.semanticweb.org/instances/8222895> .
+
+<http://www.semanticweb.org/instances/1> a <http://www.semanticweb.org/OntologyGroup15#EventoDeportivo> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Atletismo. Carrera de los emprendedores 2015" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1ca3ae9f4db40510VgnVCM1000000b205a0aRCRD> .
+
+<http://www.semanticweb.org/instances/8239374> a <http://www.semanticweb.org/OntologyGroup15#InstalacionDeportiva> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Jardines de El Buen Retiro" .
+
+<http://www.semanticweb.org/instances/1> <http://www.semanticweb.org/OntologyGroup15#ocurre_en> <http://www.semanticweb.org/instances/8239374> .
+
+<http://www.semanticweb.org/instances/2> a <http://www.semanticweb.org/OntologyGroup15#EventoDeportivo> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Atletismo. Carrera Marca 2015. III Derbi de las aficiones Madrid" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4408681327b40510VgnVCM2000000c205a0aRCRD> .
+
+<http://www.semanticweb.org/instances/8239113> a <http://www.semanticweb.org/OntologyGroup15#InstalacionDeportiva> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Estadio Santiago Bernabéu" .
+
+<http://www.semanticweb.org/instances/2> <http://www.semanticweb.org/OntologyGroup15#ocurre_en> <http://www.semanticweb.org/instances/8239113> .
+
+<http://www.semanticweb.org/instances/3> a <http://www.semanticweb.org/OntologyGroup15#EventoDeportivo> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Atletismo. Holi Run Madrid 5ª Edición. Distrito Barajas" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=08aa09a3ebc40510VgnVCM2000000c205a0aRCRD> .
+
+<http://www.semanticweb.org/instances/8240631> a <http://www.semanticweb.org/OntologyGroup15#InstalacionDeportiva> .
+
+<http://www.semanticweb.org/instances/3> <http://www.semanticweb.org/OntologyGroup15#ocurre_en> <http://www.semanticweb.org/instances/8240631> .
+
+<http://www.semanticweb.org/instances/4> a <http://www.semanticweb.org/OntologyGroup15#EventoDeportivo> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Atletismo. II Carrera contra el Cáncer" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=669506cc14ae8410VgnVCM1000000b205a0aRCRD> .
+
+<http://www.semanticweb.org/instances/8248160> a <http://www.semanticweb.org/OntologyGroup15#InstalacionDeportiva> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Parque Juan Carlos I" .
+
+<http://www.semanticweb.org/instances/4> <http://www.semanticweb.org/OntologyGroup15#ocurre_en> <http://www.semanticweb.org/instances/8248160> .
+
+<http://www.semanticweb.org/instances/5> a <http://www.semanticweb.org/OntologyGroup15#EventoDeportivo> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Atletismo. IV Carrera Popular Madrid También Solidario" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=20ab12b2ca642410VgnVCM2000000c205a0aRCRD> .
+
+<http://www.semanticweb.org/instances/8231795> a <http://www.semanticweb.org/OntologyGroup15#InstalacionDeportiva> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Parque Juan Carlos I" .
+
+<http://www.semanticweb.org/instances/5> <http://www.semanticweb.org/OntologyGroup15#ocurre_en> <http://www.semanticweb.org/instances/8231795> .
+
+<http://www.semanticweb.org/instances/6> a <http://www.semanticweb.org/OntologyGroup15#EventoDeportivo> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Atletismo. IX Carrera Popular Solidaria BBVA" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6129c3afd4e51410VgnVCM2000000c205a0aRCRD> .
+
+<http://www.semanticweb.org/instances/8239726> a <http://www.semanticweb.org/OntologyGroup15#InstalacionDeportiva> .
+
+<http://www.semanticweb.org/instances/6> <http://www.semanticweb.org/OntologyGroup15#ocurre_en> <http://www.semanticweb.org/instances/8239726> .
+
+<http://www.semanticweb.org/instances/7> a <http://www.semanticweb.org/OntologyGroup15#EventoDeportivo> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Atletismo. XXXV Carrera de la Ciencia" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=593c790517ca8410VgnVCM1000000b205a0aRCRD> .
+
+<http://www.semanticweb.org/instances/8205562> a <http://www.semanticweb.org/OntologyGroup15#InstalacionDeportiva> .
+
+<http://www.semanticweb.org/instances/7> <http://www.semanticweb.org/OntologyGroup15#ocurre_en> <http://www.semanticweb.org/instances/8205562> .
+
+<http://www.semanticweb.org/instances/8> a <http://www.semanticweb.org/OntologyGroup15#EventoDeportivo> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Competición nacional de Esgrima" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=92d9a155f9320510VgnVCM2000000c205a0aRCRD> .
+
+<http://www.semanticweb.org/instances/8228486> a <http://www.semanticweb.org/OntologyGroup15#InstalacionDeportiva> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Centro Deportivo Municipal Barajas" .
+
+<http://www.semanticweb.org/instances/8> <http://www.semanticweb.org/OntologyGroup15#ocurre_en> <http://www.semanticweb.org/instances/8228486> .
+
+<http://www.semanticweb.org/instances/9> a <http://www.semanticweb.org/OntologyGroup15#EventoDeportivo> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Curso de iniciación al remo" .
+
+<http://www.semanticweb.org/instances/8179590> a <http://www.semanticweb.org/OntologyGroup15#InstalacionDeportiva> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Centro Deportivo Municipal Estanque del Retiro" .
+
+<http://www.semanticweb.org/instances/9> <http://www.semanticweb.org/OntologyGroup15#ocurre_en> <http://www.semanticweb.org/instances/8179590> .
+
+<http://www.semanticweb.org/instances/10> a <http://www.semanticweb.org/OntologyGroup15#EventoDeportivo> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Dinamización de instalaciones deportivas municipales básicas" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f1ebe077e3320510VgnVCM1000000b205a0aRCRD> .
+
+<http://www.semanticweb.org/instances/8228337> a <http://www.semanticweb.org/OntologyGroup15#InstalacionDeportiva> .
+
+<http://www.semanticweb.org/instances/10> <http://www.semanticweb.org/OntologyGroup15#ocurre_en> <http://www.semanticweb.org/instances/8228337> .
+
+<http://www.semanticweb.org/instances/11> a <http://www.semanticweb.org/OntologyGroup15#EventoDeportivo> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Encuentro de Ejercicio al Aire Libre para Personas Mayores" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c2a976ac54560510VgnVCM2000000c205a0aRCRD> .
+
+<http://www.semanticweb.org/instances/8244033> a <http://www.semanticweb.org/OntologyGroup15#InstalacionDeportiva> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Jardines de El Buen Retiro" .
+
+<http://www.semanticweb.org/instances/11> <http://www.semanticweb.org/OntologyGroup15#ocurre_en> <http://www.semanticweb.org/instances/8244033> .
+
+<http://www.semanticweb.org/instances/12> a <http://www.semanticweb.org/OntologyGroup15#EventoDeportivo> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Partido de fútbol. Club Atlético de Madrid SAD - Athletic Club" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b023423c2169e410VgnVCM2000000c205a0aRCRD> .
+
+<http://www.semanticweb.org/instances/8148933> a <http://www.semanticweb.org/OntologyGroup15#InstalacionDeportiva> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Estadio Vicente Calderón" .
+
+<http://www.semanticweb.org/instances/12> <http://www.semanticweb.org/OntologyGroup15#ocurre_en> <http://www.semanticweb.org/instances/8148933> .
+
+<http://www.semanticweb.org/instances/13> a <http://www.semanticweb.org/OntologyGroup15#EventoDeportivo> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Partido de fútbol. Club Atlético de Madrid SAD - Levante UD SAD" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b023423c2169e410VgnVCM2000000c205a0aRCRD> .
+
+<http://www.semanticweb.org/instances/8148944> a <http://www.semanticweb.org/OntologyGroup15#InstalacionDeportiva> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Estadio Vicente Calderón" .
+
+<http://www.semanticweb.org/instances/13> <http://www.semanticweb.org/OntologyGroup15#ocurre_en> <http://www.semanticweb.org/instances/8148944> .
+
+<http://www.semanticweb.org/instances/14> a <http://www.semanticweb.org/OntologyGroup15#EventoDeportivo> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Partido de fútbol. Club Atlético de Madrid SAD - RCD Espanyol de Barcelona SAD" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b023423c2169e410VgnVCM2000000c205a0aRCRD> .
+
+<http://www.semanticweb.org/instances/8148909> a <http://www.semanticweb.org/OntologyGroup15#InstalacionDeportiva> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Estadio Vicente Calderón" .
+
+<http://www.semanticweb.org/instances/14> <http://www.semanticweb.org/OntologyGroup15#ocurre_en> <http://www.semanticweb.org/instances/8148909> .
+
+<http://www.semanticweb.org/instances/15> a <http://www.semanticweb.org/OntologyGroup15#EventoDeportivo> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Partido de fútbol. Club Atlético de Madrid SAD - Real Sporting de Gijón SAD" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b023423c2169e410VgnVCM2000000c205a0aRCRD> .
+
+<http://www.semanticweb.org/instances/8148894> a <http://www.semanticweb.org/OntologyGroup15#InstalacionDeportiva> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Estadio Vicente Calderón" .
+
+<http://www.semanticweb.org/instances/15> <http://www.semanticweb.org/OntologyGroup15#ocurre_en> <http://www.semanticweb.org/instances/8148894> .
+
+<http://www.semanticweb.org/instances/16> a <http://www.semanticweb.org/OntologyGroup15#EventoDeportivo> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Partido de fútbol. Club Atlético de Madrid SAD - Valencia CF SAD" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b023423c2169e410VgnVCM2000000c205a0aRCRD> .
+
+<http://www.semanticweb.org/instances/8148891> a <http://www.semanticweb.org/OntologyGroup15#InstalacionDeportiva> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Estadio Vicente Calderón" .
+
+<http://www.semanticweb.org/instances/16> <http://www.semanticweb.org/OntologyGroup15#ocurre_en> <http://www.semanticweb.org/instances/8148891> .
+
+<http://www.semanticweb.org/instances/17> a <http://www.semanticweb.org/OntologyGroup15#EventoDeportivo> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Partido de fútbol. Rayo Vallecano de Madrid SAD - Athletic Club" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=358430ebb669e410VgnVCM2000000c205a0aRCRD> .
+
+<http://www.semanticweb.org/instances/8149089> a <http://www.semanticweb.org/OntologyGroup15#InstalacionDeportiva> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Estadio de Vallecas" .
+
+<http://www.semanticweb.org/instances/17> <http://www.semanticweb.org/OntologyGroup15#ocurre_en> <http://www.semanticweb.org/instances/8149089> .
+
+<http://www.semanticweb.org/instances/18> a <http://www.semanticweb.org/OntologyGroup15#EventoDeportivo> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Partido de fútbol. Rayo Vallecano de Madrid SAD - Club Atlético de Madrid SAD" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=358430ebb669e410VgnVCM2000000c205a0aRCRD> .
+
+<http://www.semanticweb.org/instances/8149091> a <http://www.semanticweb.org/OntologyGroup15#InstalacionDeportiva> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Estadio de Vallecas" .
+
+<http://www.semanticweb.org/instances/18> <http://www.semanticweb.org/OntologyGroup15#ocurre_en> <http://www.semanticweb.org/instances/8149091> .
+
+<http://www.semanticweb.org/instances/19> a <http://www.semanticweb.org/OntologyGroup15#EventoDeportivo> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Partido de fútbol. Rayo Vallecano de Madrid SAD - Granada CF SAD" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=358430ebb669e410VgnVCM2000000c205a0aRCRD> .
+
+<http://www.semanticweb.org/instances/8149088> a <http://www.semanticweb.org/OntologyGroup15#InstalacionDeportiva> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Estadio de Vallecas" .
+
+<http://www.semanticweb.org/instances/19> <http://www.semanticweb.org/OntologyGroup15#ocurre_en> <http://www.semanticweb.org/instances/8149088> .
+
+<http://www.semanticweb.org/instances/20> a <http://www.semanticweb.org/OntologyGroup15#EventoDeportivo> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Partido de fútbol. Rayo Vallecano de Madrid SAD - Málaga CF SAD" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=358430ebb669e410VgnVCM2000000c205a0aRCRD> .
+
+<http://www.semanticweb.org/instances/8149090> a <http://www.semanticweb.org/OntologyGroup15#InstalacionDeportiva> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Estadio de Vallecas" .
+
+<http://www.semanticweb.org/instances/20> <http://www.semanticweb.org/OntologyGroup15#ocurre_en> <http://www.semanticweb.org/instances/8149090> .
+
+<http://www.semanticweb.org/instances/21> a <http://www.semanticweb.org/OntologyGroup15#EventoDeportivo> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Partido de fútbol. Rayo Vallecano de Madrid SAD - RCD Espanyol de Barcelona SAD" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=358430ebb669e410VgnVCM2000000c205a0aRCRD> .
+
+<http://www.semanticweb.org/instances/8149087> a <http://www.semanticweb.org/OntologyGroup15#InstalacionDeportiva> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Estadio de Vallecas" .
+
+<http://www.semanticweb.org/instances/21> <http://www.semanticweb.org/OntologyGroup15#ocurre_en> <http://www.semanticweb.org/instances/8149087> .
+
+<http://www.semanticweb.org/instances/22> a <http://www.semanticweb.org/OntologyGroup15#EventoDeportivo> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Partido de fútbol. Rayo Vallecano de Madrid SAD - Real sociedad de Fútbol SAD" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=358430ebb669e410VgnVCM2000000c205a0aRCRD> .
+
+<http://www.semanticweb.org/instances/8149092> a <http://www.semanticweb.org/OntologyGroup15#InstalacionDeportiva> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Estadio de Vallecas" .
+
+<http://www.semanticweb.org/instances/22> <http://www.semanticweb.org/OntologyGroup15#ocurre_en> <http://www.semanticweb.org/instances/8149092> .
+
+<http://www.semanticweb.org/instances/23> a <http://www.semanticweb.org/OntologyGroup15#EventoDeportivo> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Partido de Fútbol. Real Madrid - Levante" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=587f93e09869e410VgnVCM2000000c205a0aRCRD> .
+
+<http://www.semanticweb.org/instances/8149241> a <http://www.semanticweb.org/OntologyGroup15#InstalacionDeportiva> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Estadio Santiago Bernabéu" .
+
+<http://www.semanticweb.org/instances/23> <http://www.semanticweb.org/OntologyGroup15#ocurre_en> <http://www.semanticweb.org/instances/8149241> .
+
+<http://www.semanticweb.org/instances/24> a <http://www.semanticweb.org/OntologyGroup15#EventoDeportivo> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Partido de fútbol. Real Madrid CF -  Real Sociedad de Fútbol SAD" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=587f93e09869e410VgnVCM2000000c205a0aRCRD> .
+
+<http://www.semanticweb.org/instances/8149246> a <http://www.semanticweb.org/OntologyGroup15#InstalacionDeportiva> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Estadio Santiago Bernabéu" .
+
+<http://www.semanticweb.org/instances/24> <http://www.semanticweb.org/OntologyGroup15#ocurre_en> <http://www.semanticweb.org/instances/8149246> .
+
+<http://www.semanticweb.org/instances/25> a <http://www.semanticweb.org/OntologyGroup15#EventoDeportivo> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Partido de fútbol. Real Madrid CF - FC Barcelona" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=587f93e09869e410VgnVCM2000000c205a0aRCRD> .
+
+<http://www.semanticweb.org/instances/8149243> a <http://www.semanticweb.org/OntologyGroup15#InstalacionDeportiva> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Estadio Santiago Bernabéu" .
+
+<http://www.semanticweb.org/instances/25> <http://www.semanticweb.org/OntologyGroup15#ocurre_en> <http://www.semanticweb.org/instances/8149243> .
+
+<http://www.semanticweb.org/instances/26> a <http://www.semanticweb.org/OntologyGroup15#EventoDeportivo> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Partido de fútbol. Real Madrid CF - Getafe CF SAD" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=587f93e09869e410VgnVCM2000000c205a0aRCRD> .
+
+<http://www.semanticweb.org/instances/8149244> a <http://www.semanticweb.org/OntologyGroup15#InstalacionDeportiva> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Estadio Santiago Bernabéu" .
+
+<http://www.semanticweb.org/instances/26> <http://www.semanticweb.org/OntologyGroup15#ocurre_en> <http://www.semanticweb.org/instances/8149244> .
+
+<http://www.semanticweb.org/instances/27> a <http://www.semanticweb.org/OntologyGroup15#EventoDeportivo> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Partido de fútbol. Real Madrid CF - Rayo Vallecano de Madrid SAD" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=587f93e09869e410VgnVCM2000000c205a0aRCRD> .
+
+<http://www.semanticweb.org/instances/8149245> a <http://www.semanticweb.org/OntologyGroup15#InstalacionDeportiva> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Estadio Santiago Bernabéu" .
+
+<http://www.semanticweb.org/instances/27> <http://www.semanticweb.org/OntologyGroup15#ocurre_en> <http://www.semanticweb.org/instances/8149245> .
+
+<http://www.semanticweb.org/instances/28> a <http://www.semanticweb.org/OntologyGroup15#EventoDeportivo> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Partido de fútbol. Real Madrid CF - RC Deportivo de La Coruña SAD" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=587f93e09869e410VgnVCM2000000c205a0aRCRD> .
+
+<http://www.semanticweb.org/instances/8149247> a <http://www.semanticweb.org/OntologyGroup15#InstalacionDeportiva> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Estadio Santiago Bernabéu" .
+
+<http://www.semanticweb.org/instances/28> <http://www.semanticweb.org/OntologyGroup15#ocurre_en> <http://www.semanticweb.org/instances/8149247> .
+
+<http://www.semanticweb.org/instances/29> a <http://www.semanticweb.org/OntologyGroup15#EventoDeportivo> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Partido de fútbol. Real Madrid CF - Real Sporting de Gijón SAD" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=587f93e09869e410VgnVCM2000000c205a0aRCRD> .
+
+<http://www.semanticweb.org/instances/8149249> a <http://www.semanticweb.org/OntologyGroup15#InstalacionDeportiva> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Estadio Santiago Bernabéu" .
+
+<http://www.semanticweb.org/instances/29> <http://www.semanticweb.org/OntologyGroup15#ocurre_en> <http://www.semanticweb.org/instances/8149249> .
+
+<http://www.semanticweb.org/instances/30> a <http://www.semanticweb.org/OntologyGroup15#EventoDeportivo> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Partido de fútbol. Real Madrid CF - UD Las Palmas SAD" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=587f93e09869e410VgnVCM2000000c205a0aRCRD> .
+
+<http://www.semanticweb.org/instances/8149242> a <http://www.semanticweb.org/OntologyGroup15#InstalacionDeportiva> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Estadio Santiago Bernabéu" .
+
+<http://www.semanticweb.org/instances/30> <http://www.semanticweb.org/OntologyGroup15#ocurre_en> <http://www.semanticweb.org/instances/8149242> .
+
+<http://www.semanticweb.org/instances/31> a <http://www.semanticweb.org/OntologyGroup15#EventoDeportivo> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Partido de fútbol. UEFA Champions League. Atlético de Madrid - Astana" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=76accc35e829f410VgnVCM2000000c205a0aRCRD> .
+
+<http://www.semanticweb.org/instances/8187647> a <http://www.semanticweb.org/OntologyGroup15#InstalacionDeportiva> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Estadio Vicente Calderón" .
+
+<http://www.semanticweb.org/instances/31> <http://www.semanticweb.org/OntologyGroup15#ocurre_en> <http://www.semanticweb.org/instances/8187647> .
+
+<http://www.semanticweb.org/instances/32> a <http://www.semanticweb.org/OntologyGroup15#EventoDeportivo> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Partido de fútbol. UEFA Champions League. Atlético de Madrid - Galatasaray" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=371bfa9a034ff410VgnVCM2000000c205a0aRCRD> .
+
+<http://www.semanticweb.org/instances/8210319> a <http://www.semanticweb.org/OntologyGroup15#InstalacionDeportiva> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Estadio Vicente Calderón" .
+
+<http://www.semanticweb.org/instances/32> <http://www.semanticweb.org/OntologyGroup15#ocurre_en> <http://www.semanticweb.org/instances/8210319> .
+
+<http://www.semanticweb.org/instances/33> a <http://www.semanticweb.org/OntologyGroup15#EventoDeportivo> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Ruta en bici 'Bici-ate conectando verde': Descubrimos la Dehesa en bici" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=35904e7ec15c9310VgnVCM2000000c205a0aRCRD> .
+
+<http://www.semanticweb.org/instances/6671261> a <http://www.semanticweb.org/OntologyGroup15#InstalacionDeportiva> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Centro de Educación Ambiental de Dehesa de la Villa" .
+
+<http://www.semanticweb.org/instances/33> <http://www.semanticweb.org/OntologyGroup15#ocurre_en> <http://www.semanticweb.org/instances/6671261> .
+
+<http://www.semanticweb.org/instances/34> a <http://www.semanticweb.org/OntologyGroup15#EventoDeportivo> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Torneo nacional solidario de gimnasia rítmica. Distrito Barajas" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=17efbd496d730510VgnVCM1000000b205a0aRCRD> .
+
+<http://www.semanticweb.org/instances/8232429> a <http://www.semanticweb.org/OntologyGroup15#InstalacionDeportiva> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Centro Deportivo Municipal Barajas" .
+
+<http://www.semanticweb.org/instances/34> <http://www.semanticweb.org/OntologyGroup15#ocurre_en> <http://www.semanticweb.org/instances/8232429> .
+
+<http://www.semanticweb.org/instances/35> a <http://www.semanticweb.org/OntologyGroup15#EventoDeportivo> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Tour Bernabéu" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=96a0f841b01de310VgnVCM2000000c205a0aRCRD> .
+
+<http://www.semanticweb.org/instances/7828582> a <http://www.semanticweb.org/OntologyGroup15#InstalacionDeportiva> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Estadio Santiago Bernabéu" .
+
+<http://www.semanticweb.org/instances/35> <http://www.semanticweb.org/OntologyGroup15#ocurre_en> <http://www.semanticweb.org/instances/7828582> .
+
+<http://www.semanticweb.org/instances/36> a <http://www.semanticweb.org/OntologyGroup15#EventoDeportivo> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Urban Walking 2015. Distrito Chamberí" ;
+	<http://www.semanticweb.org/OntologyGroup15#hasUrl> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=64a2a2c688adb410VgnVCM2000000c205a0aRCRD> .
+
+<http://www.semanticweb.org/instances/8198405> a <http://www.semanticweb.org/OntologyGroup15#InstalacionDeportiva> ;
+	<http://www.semanticweb.org/OntologyGroup15#hasName> "Centro Cultural Galileo (Chamberí)" .
+
+<http://www.semanticweb.org/instances/36> <http://www.semanticweb.org/OntologyGroup15#ocurre_en> <http://www.semanticweb.org/instances/8198405> .

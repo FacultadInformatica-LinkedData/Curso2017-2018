@@ -1,0 +1,18 @@
+@prefix z: <http://www.w3.org/ns/r2rml#> .
+@prefix resources: <http://websemantica.example.org/resources/ > .
+@prefix graph: <http://websemantica.example.org/vocab# > .
+@base <http://websemantica.example.org/> .
+
+<TriplesMapCity> a z:TriplesMap;
+
+z:logicalTable [ z:tableName "city" ];
+
+z:subjectMap [ Z:termType Z:IRI;
+Z:template "http://example.linkeddata.es/instances/city/{ID}";
+Z:class graph:City
+];
+
+Z:predicateObjectMap [
+ Z:predicateMap [ z:constant graph:hasPopulation ];
+ Z:objectMap [ z:termType z:Literal; z:column "population"; ];
+] .

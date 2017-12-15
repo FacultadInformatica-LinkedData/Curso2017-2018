@@ -1,0 +1,32 @@
+@prefix : <http://www.semanticweb.org/group12/ontology#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dbpedia: <http://dbpedia.org/page/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+<http://www.semanticweb.org/group12/resources/Route/8828> a dbpedia:Route ;
+	:routeLine "828" ;
+	:journey "MADRID (Canillejas)-ALCOBENDAS-UNIVERSIDAD AUTÓNOMA" ;
+	:routeURL "http://www.crtm.es/tu-transporte-publico/autobuses-interurbanos/lineas/8__828___.aspx" .
+
+<http://www.semanticweb.org/group12/resources/Route/91006> a dbpedia:Route ;
+	:routeLine "1" ;
+	:journey "ARROYO DE LA VEGA-EL SOTO-LA MORALEJA" ;
+	:routeURL "http://www.crtm.es/tu-transporte-publico/otros-autobuses-urbanos/lineas/9__1__006_.aspx" .
+
+<http://www.semanticweb.org/group12/resources/Route/92006> a dbpedia:Route ;
+	:routeLine "2" ;
+	:journey "ALCOBENDAS-LA MORALEJA" ;
+	:routeURL "http://www.crtm.es/tu-transporte-publico/otros-autobuses-urbanos/lineas/9__2__006_.aspx" .
+
+<http://www.semanticweb.org/group12/resources/Route/8171> a dbpedia:Route ;
+	:routeLine "171" ;
+	:journey "MADRID (Plaza de Castilla)-URB. SANTO DOMINGO" ;
+	:routeURL "http://www.crtm.es/tu-transporte-publico/autobuses-interurbanos/lineas/8__171___.aspx" .
+
+<http://www.semanticweb.org/group12/resources/Route/93006> a dbpedia:Route ;
+	:routeLine "3" ;
+	:journey "ARROYO DE LA VEGA-SOTO DE LA MORALEJA-EL ENCINAR DE LOS REYES" ;
+	:routeURL "http://www.crtm.es/tu-transporte-publico/otros-autobuses-urbanos/lineas/9__3__006_.aspx" .

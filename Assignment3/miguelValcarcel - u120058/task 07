@@ -1,0 +1,63 @@
+
+
+
+package upm.oeg.wsld.jena;
+
+package upm.oeg.wsld.jena;
+
+import java.io.InputStream;
+
+import org.apache.jena.ontology.Individual;
+import org.apache.jena.ontology.OntClass;
+import org.apache.jena.ontology.OntModel;
+import org.apache.jena.ontology.OntModelSpec;
+import org.apache.jena.rdf.model.ModelFactory;
+import org.apache.jena.util.FileManager;
+import org.apache.jena.util.iterator.ExtendedIterator;
+
+/**
+ * Task 07: Querying ontologies (RDFs)
+ * @author elozano
+ * @author isantana
+ *@author Miguel
+ */
+
+public class Assigment_3_task7 
+	{
+	
+	String filename = "resources/example6.rdf";
+	
+	// Create an empty model
+	OntModel model= ModelFactory.createOntologyModel(OntModelSpec.RDFS_MEM);
+	
+	// Use the FileManager to find the input file
+	InputStream in =FileManager.get().open(filename);
+
+	if (in == null)
+		throw new IllegalArgumentException("File: "+ filename+ " not found");
+
+	// Read the RDF/XML file
+	model.read(in, null);
+	
+	// ** TASK 7.1: List all individuals of "Person" **
+			OntClass person = model.getOntClass(ns+"Person");
+			ExtendedIterator extenIter = person.listInstances();
+
+			while (extenIter.hasNext())
+			{
+				Individual indiv = (Individual) extenIter.next();
+				System.out.println("List of person:" +indiv.getLocalName());
+			}
+			
+	// ** TASK 7.2: List all subclasses of "Person" **
+			ExtendedIterator<OntClass> extenIter2 = person.listSubClasses();
+			while (extenIter2.hasNext())
+			{
+				OntClass subclass = (OntClass) extenIter2.next();
+				System.out.println("List subclasses of person:" +subclass.getLocalName());
+			}
+	
+	}
+
+}
+

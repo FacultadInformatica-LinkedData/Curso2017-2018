@@ -13,48 +13,15 @@
     "repeatCount": 10
   },
   {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column trip_id using expression grel:value.replace('_','')",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "trip_id",
-    "expression": "grel:value.replace('_','')",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column service_id using expression grel:value.replace('_','')",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "service_id",
-    "expression": "grel:value.replace('_','')",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
+    "op": "core/column-removal",
+    "description": "Remove column wheelchair_accessible",
+    "columnName": "wheelchair_accessible"
   },
   {
     "op": "core/column-rename",
     "description": "Rename column route_id to routeID",
     "oldColumnName": "route_id",
     "newColumnName": "routeID"
-  },
-  {
-    "op": "core/column-rename",
-    "description": "Rename column service_id to serviceID",
-    "oldColumnName": "service_id",
-    "newColumnName": "serviceID"
-  },
-  {
-    "op": "core/column-rename",
-    "description": "Rename column trip_id to tripID",
-    "oldColumnName": "trip_id",
-    "newColumnName": "tripID"
   },
   {
     "op": "core/column-rename",
@@ -75,56 +42,53 @@
     "newColumnName": "directionID"
   },
   {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column service_id using expression grel:value.replace('_','');",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "service_id",
+    "expression": "grel:value.replace('_','');",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column trip_id using expression grel:value.replace('_','');",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "trip_id",
+    "expression": "grel:value.replace('_','');",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
     "op": "core/column-rename",
-    "description": "Rename column wheelchair_accessible to wheelchairAccessible",
-    "oldColumnName": "wheelchair_accessible",
-    "newColumnName": "wheelchairAccessible"
+    "description": "Rename column service_id to serviceID",
+    "oldColumnName": "service_id",
+    "newColumnName": "serviceID"
   },
   {
-    "op": "core/column-removal",
-    "description": "Remove column wheelchairAccessible",
-    "columnName": "wheelchairAccessible"
-  },
-  {
-    "op": "rdf-extension/save-rdf-schema",
-    "description": "Save RDF schema skeleton",
-    "schema": {
-      "baseUri": "http://www.semanticweb.org/group12/resources/Servicio/",
-      "prefixes": [
-        {
-          "name": "rdf",
-          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        },
-        {
-          "name": "owl",
-          "uri": "http://www.w3.org/2002/07/owl#"
-        },
-        {
-          "name": "rdfs",
-          "uri": "http://www.w3.org/2000/01/rdf-schema#"
-        },
-        {
-          "name": "foaf",
-          "uri": "http://xmlns.com/foaf/0.1/"
-        }
-      ],
-      "rootNodes": [
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": true,
-          "rdfTypes": [],
-          "links": []
-        }
-      ]
-    }
+    "op": "core/column-rename",
+    "description": "Rename column trip_id to tripID",
+    "oldColumnName": "trip_id",
+    "newColumnName": "tripID"
   },
   {
     "op": "rdf-extension/save-rdf-schema",
     "description": "Save RDF schema skeleton",
     "schema": {
-      "baseUri": "http://www.semanticweb.org/group12/resources/Servicio/",
+      "baseUri": "http://www.semanticweb.org/group12/resources/",
       "prefixes": [
+        {
+          "name": "",
+          "uri": "http://www.semanticweb.org/group12/ontology#"
+        },
         {
           "name": "rdf",
           "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -138,10 +102,6 @@
           "uri": "http://www.w3.org/2001/XMLSchema#"
         },
         {
-          "name": "rdfs",
-          "uri": "http://www.w3.org/2000/01/rdf-schema#"
-        },
-        {
           "name": "foaf",
           "uri": "http://xmlns.com/foaf/0.1/"
         }
@@ -149,119 +109,34 @@
       "rootNodes": [
         {
           "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": true,
-          "rdfTypes": [],
-          "links": []
-        }
-      ]
-    }
-  },
-  {
-    "op": "rdf-extension/save-rdf-schema",
-    "description": "Save RDF schema skeleton",
-    "schema": {
-      "baseUri": "http://www.semanticweb.org/group12/resources/Servicio/",
-      "prefixes": [
-        {
-          "name": "rdf",
-          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        },
-        {
-          "name": "owl",
-          "uri": "http://www.w3.org/2002/07/owl#"
-        },
-        {
-          "name": "xsd",
-          "uri": "http://www.w3.org/2001/XMLSchema#"
-        },
-        {
-          "name": "rdfs",
-          "uri": "http://www.w3.org/2000/01/rdf-schema#"
-        },
-        {
-          "name": "foaf",
-          "uri": "http://xmlns.com/foaf/0.1/"
-        }
-      ],
-      "rootNodes": [
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": true,
-          "rdfTypes": [],
-          "links": []
-        }
-      ]
-    }
-  },
-  {
-    "op": "rdf-extension/save-rdf-schema",
-    "description": "Save RDF schema skeleton",
-    "schema": {
-      "baseUri": "http://www.semanticweb.org/group12/resources/Servicio/",
-      "prefixes": [
-        {
-          "name": "rdf",
-          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        },
-        {
-          "name": "owl",
-          "uri": "http://www.w3.org/2002/07/owl#"
-        },
-        {
-          "name": "xsd",
-          "uri": "http://www.w3.org/2001/XMLSchema#"
-        },
-        {
-          "name": "rdfs",
-          "uri": "http://www.w3.org/2000/01/rdf-schema#"
-        },
-        {
-          "name": "foaf",
-          "uri": "http://xmlns.com/foaf/0.1/"
-        }
-      ],
-      "rootNodes": [
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": true,
+          "expression": "\"Service/\" + value",
+          "isRowNumberCell": false,
+          "columnName": "tripID",
           "rdfTypes": [],
           "links": [
             {
-              "uri": "http://www.w3.org/2000/01/rdf-schema#Literal",
-              "curie": "rdfs:Literal",
+              "uri": "http://www.semanticweb.org/group12/ontology#routeID",
+              "curie": ":routeID",
               "target": {
                 "nodeType": "cell-as-literal",
-                "expression": "value",
+                "expression": "\"http://www.semanticweb.org/group12/resources/Route/\" + value",
                 "isRowNumberCell": false,
                 "columnName": "routeID"
               }
             },
             {
-              "uri": "http://www.w3.org/2001/XMLSchema#string",
-              "curie": "xsd:string",
+              "uri": "http://www.semanticweb.org/group12/ontology#serviceID",
+              "curie": ":serviceID",
               "target": {
                 "nodeType": "cell-as-literal",
-                "expression": "value",
+                "expression": "\"http://www.semanticweb.org/group12/resources/Calendar/\" + value",
                 "isRowNumberCell": false,
                 "columnName": "serviceID"
               }
             },
             {
-              "uri": "http://www.w3.org/2001/XMLSchema#string",
-              "curie": "xsd:string",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "tripID"
-              }
-            },
-            {
-              "uri": "http://www.w3.org/2001/XMLSchema#string",
-              "curie": "xsd:string",
+              "uri": "http://www.semanticweb.org/group12/ontology#tripHeadsign",
+              "curie": ":tripHeadsign",
               "target": {
                 "nodeType": "cell-as-literal",
                 "expression": "value",
@@ -270,13 +145,24 @@
               }
             },
             {
-              "uri": "http://www.w3.org/2001/XMLSchema#string",
-              "curie": "xsd:string",
+              "uri": "http://www.semanticweb.org/group12/ontology#tripShortName",
+              "curie": ":tripShortName",
               "target": {
                 "nodeType": "cell-as-literal",
                 "expression": "value",
                 "isRowNumberCell": false,
                 "columnName": "tripShortName"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group12/ontology#directionID",
+              "curie": ":directionID",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "directionID"
               }
             }
           ]
@@ -285,11 +171,28 @@
     }
   },
   {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column tripID using expression grel:value.replace(' ','');",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "tripID",
+    "expression": "grel:value.replace(' ','');",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
     "op": "rdf-extension/save-rdf-schema",
     "description": "Save RDF schema skeleton",
     "schema": {
-      "baseUri": "http://www.semanticweb.org/group12/resources/Servicio/",
+      "baseUri": "http://www.semanticweb.org/group12/resources/",
       "prefixes": [
+        {
+          "name": "",
+          "uri": "http://www.semanticweb.org/group12/ontology#"
+        },
         {
           "name": "rdf",
           "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -303,10 +206,6 @@
           "uri": "http://www.w3.org/2001/XMLSchema#"
         },
         {
-          "name": "rdfs",
-          "uri": "http://www.w3.org/2000/01/rdf-schema#"
-        },
-        {
           "name": "foaf",
           "uri": "http://xmlns.com/foaf/0.1/"
         }
@@ -314,43 +213,34 @@
       "rootNodes": [
         {
           "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": true,
+          "expression": "\"Service/\" + value",
+          "isRowNumberCell": false,
+          "columnName": "tripID",
           "rdfTypes": [],
           "links": [
             {
-              "uri": "http://www.w3.org/2000/01/rdf-schema#Literal",
-              "curie": "rdfs:Literal",
+              "uri": "http://www.semanticweb.org/group12/ontology#routeID",
+              "curie": ":routeID",
               "target": {
                 "nodeType": "cell-as-literal",
-                "expression": "value",
+                "expression": "\"http://www.semanticweb.org/group12/resources/Route/\" + value",
                 "isRowNumberCell": false,
                 "columnName": "routeID"
               }
             },
             {
-              "uri": "http://www.w3.org/2001/XMLSchema#string",
-              "curie": "xsd:string",
+              "uri": "http://www.semanticweb.org/group12/ontology#serviceID",
+              "curie": ":serviceID",
               "target": {
                 "nodeType": "cell-as-literal",
-                "expression": "value",
+                "expression": "\"http://www.semanticweb.org/group12/resources/Calendar/\" + value",
                 "isRowNumberCell": false,
                 "columnName": "serviceID"
               }
             },
             {
-              "uri": "http://www.w3.org/2001/XMLSchema#string",
-              "curie": "xsd:string",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "tripID"
-              }
-            },
-            {
-              "uri": "http://www.w3.org/2001/XMLSchema#string",
-              "curie": "xsd:string",
+              "uri": "http://www.semanticweb.org/group12/ontology#tripHeadsign",
+              "curie": ":tripHeadsign",
               "target": {
                 "nodeType": "cell-as-literal",
                 "expression": "value",
@@ -359,8 +249,8 @@
               }
             },
             {
-              "uri": "http://www.w3.org/2001/XMLSchema#string",
-              "curie": "xsd:string",
+              "uri": "http://www.semanticweb.org/group12/ontology#tripShortName",
+              "curie": ":tripShortName",
               "target": {
                 "nodeType": "cell-as-literal",
                 "expression": "value",
@@ -369,12 +259,13 @@
               }
             },
             {
-              "uri": "http://www.w3.org/2001/XMLSchema#boolean",
-              "curie": "xsd:boolean",
+              "uri": "http://www.semanticweb.org/group12/ontology#directionID",
+              "curie": ":directionID",
               "target": {
                 "nodeType": "cell-as-literal",
                 "expression": "value",
                 "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
                 "columnName": "directionID"
               }
             }
@@ -387,8 +278,12 @@
     "op": "rdf-extension/save-rdf-schema",
     "description": "Save RDF schema skeleton",
     "schema": {
-      "baseUri": "http://www.semanticweb.org/group12/resources/Servicio/",
+      "baseUri": "http://www.semanticweb.org/group12/resources/",
       "prefixes": [
+        {
+          "name": "",
+          "uri": "http://www.semanticweb.org/group12/ontology#"
+        },
         {
           "name": "rdf",
           "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -402,10 +297,6 @@
           "uri": "http://www.w3.org/2001/XMLSchema#"
         },
         {
-          "name": "rdfs",
-          "uri": "http://www.w3.org/2000/01/rdf-schema#"
-        },
-        {
           "name": "foaf",
           "uri": "http://xmlns.com/foaf/0.1/"
         }
@@ -413,43 +304,34 @@
       "rootNodes": [
         {
           "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": true,
+          "expression": "\"Service/\" + value",
+          "isRowNumberCell": false,
+          "columnName": "tripID",
           "rdfTypes": [],
           "links": [
             {
-              "uri": "http://www.w3.org/2000/01/rdf-schema#Literal",
-              "curie": "rdfs:Literal",
+              "uri": "http://www.semanticweb.org/group12/ontology#routeID",
+              "curie": ":routeID",
               "target": {
                 "nodeType": "cell-as-literal",
-                "expression": "value",
+                "expression": "\"http://www.semanticweb.org/group12/resources/Route/\" + value",
                 "isRowNumberCell": false,
                 "columnName": "routeID"
               }
             },
             {
-              "uri": "http://www.w3.org/2001/XMLSchema#string",
-              "curie": "xsd:string",
+              "uri": "http://www.semanticweb.org/group12/ontology#serviceID",
+              "curie": ":serviceID",
               "target": {
                 "nodeType": "cell-as-literal",
-                "expression": "value",
+                "expression": "\"http://www.semanticweb.org/group12/resources/Calendar/\" + value",
                 "isRowNumberCell": false,
                 "columnName": "serviceID"
               }
             },
             {
-              "uri": "http://www.w3.org/2001/XMLSchema#string",
-              "curie": "xsd:string",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "tripID"
-              }
-            },
-            {
-              "uri": "http://www.w3.org/2001/XMLSchema#string",
-              "curie": "xsd:string",
+              "uri": "http://www.semanticweb.org/group12/ontology#tripHeadsign",
+              "curie": ":tripHeadsign",
               "target": {
                 "nodeType": "cell-as-literal",
                 "expression": "value",
@@ -458,8 +340,8 @@
               }
             },
             {
-              "uri": "http://www.w3.org/2001/XMLSchema#string",
-              "curie": "xsd:string",
+              "uri": "http://www.semanticweb.org/group12/ontology#tripShortName",
+              "curie": ":tripShortName",
               "target": {
                 "nodeType": "cell-as-literal",
                 "expression": "value",
@@ -468,12 +350,13 @@
               }
             },
             {
-              "uri": "http://www.w3.org/2001/XMLSchema#boolean",
-              "curie": "xsd:boolean",
+              "uri": "http://www.semanticweb.org/group12/ontology#directionID",
+              "curie": ":directionID",
               "target": {
                 "nodeType": "cell-as-literal",
                 "expression": "value",
                 "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
                 "columnName": "directionID"
               }
             }
@@ -486,8 +369,12 @@
     "op": "rdf-extension/save-rdf-schema",
     "description": "Save RDF schema skeleton",
     "schema": {
-      "baseUri": "http://www.semanticweb.org/group12/resources/Servicio/",
+      "baseUri": "http://www.semanticweb.org/group12/resources/",
       "prefixes": [
+        {
+          "name": "",
+          "uri": "http://www.semanticweb.org/group12/ontology#"
+        },
         {
           "name": "rdf",
           "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -501,10 +388,6 @@
           "uri": "http://www.w3.org/2001/XMLSchema#"
         },
         {
-          "name": "rdfs",
-          "uri": "http://www.w3.org/2000/01/rdf-schema#"
-        },
-        {
           "name": "foaf",
           "uri": "http://xmlns.com/foaf/0.1/"
         }
@@ -512,43 +395,34 @@
       "rootNodes": [
         {
           "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": true,
+          "expression": "\"Service/\" + value",
+          "isRowNumberCell": false,
+          "columnName": "tripID",
           "rdfTypes": [],
           "links": [
             {
-              "uri": "http://www.w3.org/2000/01/rdf-schema#Literal",
-              "curie": "rdfs:Literal",
+              "uri": "http://www.semanticweb.org/group12/ontology#routeID",
+              "curie": ":routeID",
               "target": {
                 "nodeType": "cell-as-literal",
-                "expression": "value",
+                "expression": "\"http://www.semanticweb.org/group12/resources/Route/\" + value",
                 "isRowNumberCell": false,
                 "columnName": "routeID"
               }
             },
             {
-              "uri": "http://www.w3.org/2000/01/rdf-schema#Literal",
-              "curie": "rdfs:Literal",
+              "uri": "http://www.semanticweb.org/group12/ontology#serviceID",
+              "curie": ":serviceID",
               "target": {
                 "nodeType": "cell-as-literal",
-                "expression": "value",
+                "expression": "\"http://www.semanticweb.org/group12/resources/Calendar/\" + value",
                 "isRowNumberCell": false,
                 "columnName": "serviceID"
               }
             },
             {
-              "uri": "http://www.w3.org/2000/01/rdf-schema#Literal",
-              "curie": "rdfs:Literal",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "tripID"
-              }
-            },
-            {
-              "uri": "http://www.w3.org/2001/XMLSchema#string",
-              "curie": "xsd:string",
+              "uri": "http://www.semanticweb.org/group12/ontology#tripHeadsign",
+              "curie": ":tripHeadsign",
               "target": {
                 "nodeType": "cell-as-literal",
                 "expression": "value",
@@ -557,8 +431,8 @@
               }
             },
             {
-              "uri": "http://www.w3.org/2001/XMLSchema#string",
-              "curie": "xsd:string",
+              "uri": "http://www.semanticweb.org/group12/ontology#tripShortName",
+              "curie": ":tripShortName",
               "target": {
                 "nodeType": "cell-as-literal",
                 "expression": "value",
@@ -567,111 +441,13 @@
               }
             },
             {
-              "uri": "http://www.w3.org/2001/XMLSchema#boolean",
-              "curie": "xsd:boolean",
+              "uri": "http://www.semanticweb.org/group12/ontology#directionID",
+              "curie": ":directionID",
               "target": {
                 "nodeType": "cell-as-literal",
                 "expression": "value",
                 "isRowNumberCell": false,
-                "columnName": "directionID"
-              }
-            }
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "op": "rdf-extension/save-rdf-schema",
-    "description": "Save RDF schema skeleton",
-    "schema": {
-      "baseUri": "http://www.semanticweb.org/group12/resources/Servicio/",
-      "prefixes": [
-        {
-          "name": "rdf",
-          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        },
-        {
-          "name": "owl",
-          "uri": "http://www.w3.org/2002/07/owl#"
-        },
-        {
-          "name": "xsd",
-          "uri": "http://www.w3.org/2001/XMLSchema#"
-        },
-        {
-          "name": "rdfs",
-          "uri": "http://www.w3.org/2000/01/rdf-schema#"
-        },
-        {
-          "name": "foaf",
-          "uri": "http://xmlns.com/foaf/0.1/"
-        }
-      ],
-      "rootNodes": [
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "value",
-          "isRowNumberCell": true,
-          "rdfTypes": [],
-          "links": [
-            {
-              "uri": "http://www.w3.org/2000/01/rdf-schema#Literal",
-              "curie": "rdfs:Literal",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "routeID"
-              }
-            },
-            {
-              "uri": "http://www.w3.org/2000/01/rdf-schema#Literal",
-              "curie": "rdfs:Literal",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "serviceID"
-              }
-            },
-            {
-              "uri": "http://www.w3.org/2000/01/rdf-schema#Literal",
-              "curie": "rdfs:Literal",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "tripID"
-              }
-            },
-            {
-              "uri": "http://www.w3.org/2001/XMLSchema#string",
-              "curie": "xsd:string",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "tripHeadsign"
-              }
-            },
-            {
-              "uri": "http://www.w3.org/2001/XMLSchema#string",
-              "curie": "xsd:string",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "tripShortName"
-              }
-            },
-            {
-              "uri": "http://www.w3.org/2001/XMLSchema#boolean",
-              "curie": "xsd:boolean",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
                 "columnName": "directionID"
               }
             }

@@ -1,0 +1,65 @@
+# LeticiaMongo - t110374
+# --------------------------------------------------------------------------
+# SPARQL endpoint: http://sandbox.linkeddata.es/sparql
+# Graph IRI: : http://sandbox.linkeddata.es/graph/accidentes
+#-------------------------------------------------------------------------
+
+
+PREFIX mn: <http://example.org/resources/> 
+PREFIX mv: <http://example.org/myVocabulary#> 
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX dct: <http://purl.org/dc/terms/> 
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX owl: <http://www.w3.org/2002/07/owl#> 
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX time: <http://www.w3.org/2006/time#> 
+PREFIX foaf: <http://xmlns.com/foaf/0.1/> 
+PREFIX dc: <http://purl.org/dc/elements/1.1/> 
+
+# How many accidents were there in Madrid in 2013?
+
+SELECT (SUM(?x) AS ?Accidents) WHERE {
+	?obs a <http://purl.org/linked-data/cube#Observation> 
+	mv: ?obs <http://example.org/myVocabulary#numberOfAccidents> ?x.
+	qb:dataSet mn:MyDataset .
+}
+
+# Give me the number of accidents in Usera for each type of accident.
+
+SELECT ?y ?Accidents WHERE {
+	?obs a <http://purl.org/linked-data/cube#Observation> .
+	mv:?obs <http://example.org/myVocabulary#relatedDistrict> "USERA". 
+	mv:?e <http://www.w3.org/2004/02/skos/core#prefLabel> ?Type.
+	mv:?obs <http://example.org/myVocabulary#numberOfAccidents> ?Accidents.
+	qb:dataSet mn:MyDataset .
+}
+
+-Give me the number of multiple collisions for each district
+
+SELECT ?z ?x WHERE {
+	?obs a <http://purl.org/linked-data/cube#Observation> .
+	mv:?obs <http://example.org/myVocabulary#relatedDistrict>?z ;
+	mv:hasAccidentType mv:MultipleCollision ;
+	mv:numberOfAccidents ?x ;
+	qb:dataSet mn:MyDataset .
+}
+
+-Which is the district where the number of bicycle falls was higher in 2013?
+
+
+SELECT ?distrito (MAX(?x) AS ?numero) WHERE {
+    ?obs  a <http://purl.org/linked-data/cube#Observation>.
+   	mv:?obs <http://example.org/myVocabulary#relatedDistrict> ?distrito ;
+   	mv:hasAccidentType mv:BicycleFall ;
+	mv:numberOfAccidents ?x ;
+	qb:dataSet mn:MyDataset .
+} 
+
+-Give me the districts with more than 500 accidents in 2013
+
+SELECT ?z WHERE {
+	?obs  a <http://purl.org/linked-data/cube#Observation>.
+	mv:?obs <http://example.org/myVocabulary#relatedDistrict> ?z ;
+	qb:dataSet mn:MyDataset ;
+	mv:numberOfAccidents ?x .  FILTER (?Accidents > 500)
