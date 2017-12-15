@@ -1,0 +1,12 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "base:Parking" "Group04:District" ; /*classes style*/
+	"base:Parking" -> "xsd:string" [ label = "base:hasType" ];
+	"base:Parking" -> "xsd:boolean" [ label = "Group04:isAccesible" ];
+	"base:Parking" -> "xsd:decimal" [ label = "base:hasLatitude" ];
+	"base:Parking" -> "xsd:decimal" [ label = "base:hasLongitude" ];
+	"base:Parking" -> "Group04:District" [ label = "Group04:isInDistrict" ];
+	"base:Parking" -> "xsd:string" [ label = "base:hasName" ];
+
+}
