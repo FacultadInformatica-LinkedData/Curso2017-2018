@@ -1,0 +1,80 @@
+<http://www.semanticweb.org/Group04/ontology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/Group04/isInDistrict
+<http://www.semanticweb.org/Group04/isInDistrict> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/Group04/isInDistrict> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/Group04/ontology#Parking> .
+<http://www.semanticweb.org/Group04/isInDistrict> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/Group04/District> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/Group04/isAccesible
+<http://www.semanticweb.org/Group04/isAccesible> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/Group04/isAccesible> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/Group04/ontology#Parking> .
+<http://www.semanticweb.org/Group04/isAccesible> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# http://www.semanticweb.org/Group04/ontology#hasLatitude
+<http://www.semanticweb.org/Group04/ontology#hasLatitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/Group04/ontology#hasLatitude> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/Group04/ontology#Parking> .
+<http://www.semanticweb.org/Group04/ontology#hasLatitude> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+# 
+# http://www.semanticweb.org/Group04/ontology#hasLongitude
+<http://www.semanticweb.org/Group04/ontology#hasLongitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/Group04/ontology#hasLongitude> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/Group04/ontology#Parking> .
+<http://www.semanticweb.org/Group04/ontology#hasLongitude> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+# 
+# http://www.semanticweb.org/Group04/ontology#hasName
+<http://www.semanticweb.org/Group04/ontology#hasName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/Group04/ontology#hasName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/Group04/ontology#Parking> .
+<http://www.semanticweb.org/Group04/ontology#hasName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/Group04/ontology#hasType
+<http://www.semanticweb.org/Group04/ontology#hasType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/Group04/ontology#hasType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/Group04/ontology#Parking> .
+<http://www.semanticweb.org/Group04/ontology#hasType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/Group04/District
+<http://www.semanticweb.org/Group04/District> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/Group04/ontology#Parking
+<http://www.semanticweb.org/Group04/ontology#Parking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/Group04/ontology#parking-mix-fuencarral
+<http://www.semanticweb.org/Group04/ontology#parking-mix-fuencarral> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/Group04/ontology#parking-mix-fuencarral> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/Group04/ontology#Parking> .
+<http://www.semanticweb.org/Group04/ontology#parking-mix-fuencarral> <http://www.semanticweb.org/Group04/isAccesible> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://www.semanticweb.org/Group04/ontology#parking-mix-fuencarral> <http://www.semanticweb.org/Group04/ontology#hasType> "Mix" .
+# 
+# Generated by the OWL API (version 5.1.0) https://github.com/owlcs/owlapi/

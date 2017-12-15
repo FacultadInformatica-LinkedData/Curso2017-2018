@@ -1,0 +1,12 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "http://es.dbpedia.org/page/District" "http://dbpedia.org/page/Parking" ; /*classes style*/
+	"http://dbpedia.org/page/Parking" -> "xsd:string" [ label = "base:hasType" ];
+	"http://dbpedia.org/page/Parking" -> "xsd:boolean" [ label = "Group04:isAccesible" ];
+	"http://dbpedia.org/page/Parking" -> "xsd:decimal" [ label = "base:hasLatitude" ];
+	"http://dbpedia.org/page/Parking" -> "xsd:decimal" [ label = "base:hasLongitude" ];
+	"http://dbpedia.org/page/Parking" -> "http://es.dbpedia.org/page/District" [ label = "Group04:isInDistrict" ];
+	"http://dbpedia.org/page/Parking" -> "xsd:string" [ label = "base:hasName" ];
+
+}
