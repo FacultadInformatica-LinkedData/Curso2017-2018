@@ -49,14 +49,14 @@
     }
 
     /* loop for each returned row */
-	echo '<div style="margin-left: 4%; display: grid; grid-template-columns: 0.5fr repeat(2, 0.5fr) 0.5fr; grid-template-rows: 1fr 1fr;">';
+	echo '<div style="justify-items: center; display: grid; grid-template-columns: 0.5fr repeat(2, 0.5fr) 0.5fr; grid-template-rows: 1fr 1fr;">';
     foreach( $rows as $row ) { 
 	?>	
-	<div class="card bg-blue" style="cursor:pointer; width: 20em; margin-top: 6%" onclick="location.href='web/info.php?label=<?php echo $row['label']?>'">
+	<div class="card bg-blue" style="cursor:pointer; width: 20em; margin-top: 6%" onclick="location.href='/web/info.php?label=<?php echo $row['label']?>'">
 	  <img class="card-img-top" src="<?php echo $row['image']?>" alt="Imagen monumento" style='width: auto; max-height: 15em; align-self: center;'>
 	  <div class="card-body">
 		<h4 class="card-title"><?php echo $row['label']?></h4>
-		<a href="web/info.php?label=<?php echo $row['label']?>" class="btn btn-primary">Mas información</a>
+		<a href="/web/info.php?label=<?php echo $row['label']?>" class="btn btn-primary">Mas información</a>
 	  </div>
 	</div>
 	<?php }?>
