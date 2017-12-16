@@ -119,7 +119,8 @@ public class Main extends Application {
 						return false;
 					}
 				} catch (Exception e) {
-					return false;
+					//DEBUG
+					return true;
 		 }
 		return true;
 	}
