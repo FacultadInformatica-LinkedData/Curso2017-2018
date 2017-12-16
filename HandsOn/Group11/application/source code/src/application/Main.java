@@ -7,6 +7,7 @@ import javafx.event.EventHandler;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.stage.Stage;
+import virtuoso.jena.driver.VirtGraph;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.image.Image;
@@ -109,13 +110,17 @@ public class Main extends Application {
 	}
 	
 	private boolean connectToData() {
-		//TODO Connect to data on AWS or local server Virtuoso
+		//Connect to data on AWS or local server Virtuoso
 		
-		//DEBUG
-		for(int i = 0; i<10000; i++){
-			System.out.println(i);
-		}
-		
+		String url = "jdbc:virtuoso://localhost:1111";
+		try {
+			VirtGraph set = new VirtGraph ("http://localhost:8890/datosevento",url, "dba", "dba");
+					if (set.isEmpty()) {
+						return false;
+					}
+				} catch (Exception e) {
+					return false;
+		 }
 		return true;
 	}
 }

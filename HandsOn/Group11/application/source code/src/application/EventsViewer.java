@@ -289,7 +289,6 @@ public class EventsViewer{
 			this.resultsLocation.put(event.getName(),event.getUriToLocation());
 		}
 		this.setResults(resultsList);
-		System.out.println(name+ " - " +district+ " - " +free+ " - " +lon+ " - " +mo+ " - " +tu+ " - " +we+ " - " +th+ " - " +fr+ " - " +sa+ " - " +su);
 	}
 
 
