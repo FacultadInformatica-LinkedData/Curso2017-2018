@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>ContaminacionAcustica</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<link rel="stylesheet" type="text/css"
+	href="webjars/bootstrap/3.3.7/css/bootstrap.min.css" />
+
+<link rel="stylesheet" th:href="@{/css/index.css}"
+	href="../../css/index.css" />
+
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" />
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+	<!-- Resize the browser window to see the effect.The columns will automatically -->
+	<!-- stack on top of each other when the screen is less than 576px wide. -->
+	<div class="container-fluid">
+		<div id="header" class="row">
+			<div id="image" class="col-sm">
+				<div class="box">
+					<p class="title">Contaminacion-acustica.org</p>
+					<p>En este sitio podra consultar el grado de
+					contaminación acústica de su zona.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid" style="align-content:center;">
+		<div id="structure" class="row">
+			<div class="col-sm-2"></div>
+			<div class="col-sm-8" id="boton">
+				<!-- Botones de zonas 6x4 -->
+				<div class="container-fluid">
+					<h2 style="text-align: center; padding: 20px;"> Seleccione una de las zonas</h2>
+					<div class="row">
+						<div class="col-sm-2" id="boton"><form action = "/result" method = "post"><input id="sel" type="submit" th:name="text" value="Paseo de recoletos" /></form></div>
+						<div class="col-sm-2" id="boton"><form action = "/result" method = "post"><input id="sil" type="submit" th:name="text" value="Plaza del Emperador Carlos V" /></form></div>
+						<div class="col-sm-2" id="boton"><form action = "/result" method = "post"><input id="sel" type="submit" th:name="text" value="Plaza del Carmen" /></form></div>
+						<div class="col-sm-2" id="boton"><form action = "/result" method = "post"><input id="sel" type="submit" th:name="text" value="Plaza de España" /></form></div>
+						<div class="col-sm-2" id="boton"><form action = "/result" method = "post"><input id="sel" type="submit" th:name="text" value="Tres Olivos" /></form></div>
+						<div class="col-sm-2" id="boton"><form action = "/result" method = "post"><input id="sel" type="submit" th:name="text" value="Barrio del Pilar" /></form></div>					
+					</div>
+					<div class="row">
+						<div class="col-sm-2" id="boton"><form action = "/result" method = "post"><input id="sel" type="submit" th:name="text" value="Escuelas Aguirre" /></form></div>
+						<div class="col-sm-2" id="boton"><form action = "/result" method = "post"><input id="sel" type="submit" th:name="text" value="Cuatro Caminos" /></form></div>
+						<div class="col-sm-2" id="boton"><form action = "/result" method = "post"><input id="sel" type="submit" th:name="text" value="Pza de Castilla" /></form></div>
+						<div class="col-sm-2" id="boton"><form action = "/result" method = "post"><input id="sel" type="submit" th:name="text" value="Vallecas" /></form></div>
+						<div class="col-sm-2" id="boton"><form action = "/result" method = "post"><input id="sel" type="submit" th:name="text" value="Plaza Manuel Becerra" /></form></div>
+						<div class="col-sm-2" id="boton"><form action = "/result" method = "post"><input id="sel" type="submit" th:name="text" value="Arturo Soria" /></form></div>
+					</div>
+					<div class="row">
+						<div class="col-sm-2" id="boton"><form action = "/result" method = "post"><input id="sel" type="submit" th:name="text" value="Villaverde" /></form></div>
+						<div class="col-sm-2" id="boton"><form action = "/result" method = "post"><input id="sel" type="submit" th:name="text" value="Alto Extremadura" /></form></div>
+						<div class="col-sm-2" id="boton"><form action = "/result" method = "post"><input id="sel" type="submit" th:name="text" value="Avda de Moratalaz" /></form></div>
+						<div class="col-sm-2" id="boton"><form action = "/result" method = "post"><input id="sel" type="submit" th:name="text" value="Casa de Campo" /></form></div>
+						<div class="col-sm-2" id="boton"><form action = "/result" method = "post"><input id="sel" type="submit" th:name="text" value="Santa Eugenia" /></form></div>
+						<div class="col-sm-2" id="boton"><form action = "/result" method = "post"><input id="sel" type="submit" th:name="text" value="Barajas Pueblo" /></form></div>
+					</div>
+					<div class="row">
+						<div class="col-sm-2" id="boton"><form action = "/result" method = "post"><input id="sel" type="submit" th:name="text" value="Cuatro Vientos" /></form></div>
+						<div class="col-sm-2" id="boton"><form action = "/result" method = "post"><input id="sel" type="submit" th:name="text" value="El Pardo" /></form></div>
+						<div class="col-sm-2" id="boton"><form action = "/result" method = "post"><input id="sol" type="submit" th:name="text" value="Campo de las Naciones" /></form></div>
+						<div class="col-sm-2" id="boton"><form action = "/result" method = "post"><input id="sel" type="submit" th:name="text" value="Sanchinarro" /></form></div>
+						<div class="col-sm-2" id="boton"><form action = "/result" method = "post"><input id="sel" type="submit" th:name="text" value="Méndez Álvaro" /></form></div>
+						<div class="col-sm-2" id="boton"><form action = "/result" method = "post"><input id="sel" type="submit" th:name="text" value="Castellana" /></form></div>
+					</div>
+				</div>
+				<h2 style="text-align: center; padding: 20px;"> O introduzca su calle</h2>	
+				<div class="input_zone">
+					<form action="/result" method="post">
+						<input type="text" th:name="text" placeholder="Calle del Arenal" /><button type="submit">Consultar</button>
+					</form>
+				</div>			
+			</div>
+			<div class="col-sm-2"></div>
+		</div>
+	</div>
+
+
+	<script type="text/javascript"
+		src="webjars/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</body>
+</html>
