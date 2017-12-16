@@ -1,0 +1,10 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "base:Parking" "Group04:Street" ; /*classes style*/
+	"base:parking-mix-fuencarral" -> "base:fuencarral-street" [ label = "Group04:isInStreet" ];
+	"base:Parking" -> "xsd:string" [ label = "base:hasType" ];
+	"base:Parking" -> "xsd:boolean" [ label = "Group04:isAccesible" ];
+	"base:Parking" -> "Group04:Street" [ label = "Group04:isInStreet" ];
+
+}

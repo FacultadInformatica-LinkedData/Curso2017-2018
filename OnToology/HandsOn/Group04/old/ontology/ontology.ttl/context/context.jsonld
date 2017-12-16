@@ -1,0 +1,22 @@
+{
+  "@context" : {
+    "isInStreet" : {
+      "@id" : "http://www.semanticweb.org/Group04/isInStreet",
+      "@type" : "@id"
+    },
+    "hasType" : {
+      "@id" : "http://www.semanticweb.org/Group04/ontology#hasType",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "isAccesible" : {
+      "@id" : "http://www.semanticweb.org/Group04/isAccesible",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "Street" : {
+      "@id" : "http://www.semanticweb.org/Group04/Street"
+    },
+    "Parking" : {
+      "@id" : "http://www.semanticweb.org/Group04/ontology#Parking"
+    }
+  }
+}

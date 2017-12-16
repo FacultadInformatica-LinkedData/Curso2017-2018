@@ -1,0 +1,338 @@
+[
+  {
+    "op": "core/column-rename",
+    "description": "Rename column lastUpdated to City",
+    "oldColumnName": "lastUpdated",
+    "newColumnName": "City"
+  },
+  {
+    "op": "core/fill-down",
+    "description": "Fill down cells in column City",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City"
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column City",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Zaragoza"
+        ],
+        "to": "Zaragoza"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column City",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Zaragoza"
+        ],
+        "to": "Zaragoza"
+      }
+    ]
+  },
+  {
+    "op": "core/fill-down",
+    "description": "Fill down cells in column City",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "City"
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column City to type http://schema.org/Place",
+    "columnName": "City",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/esdbpedia",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://schema.org/Place",
+        "name": "schema:Place"
+      },
+      "autoMatch": true,
+      "columnDetails": []
+    },
+    "engineConfig": {
+      "facets": [
+        {
+          "to": 1,
+          "expression": "cell.recon.best.score",
+          "selectError": true,
+          "selectNumeric": true,
+          "selectBlank": true,
+          "name": "Province: best candidate's score",
+          "columnName": "Province",
+          "selectNonNumeric": true,
+          "from": 1,
+          "type": "range"
+        },
+        {
+          "to": 1,
+          "expression": "cell.recon.best.score",
+          "selectError": true,
+          "selectNumeric": true,
+          "selectBlank": true,
+          "name": "Province: best candidate's score",
+          "columnName": "Province",
+          "selectNonNumeric": true,
+          "from": 1,
+          "type": "range"
+        }
+      ],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Zaragoza (http://dbpedia.org/resource/Zaragoza) for cells containing \"Zaragoza\" in column City",
+    "engineConfig": {
+      "facets": [
+        {
+          "to": 1,
+          "expression": "cell.recon.best.score",
+          "selectError": true,
+          "selectNumeric": true,
+          "selectBlank": true,
+          "name": "Province: best candidate's score",
+          "columnName": "Province",
+          "selectNonNumeric": true,
+          "from": 1,
+          "type": "range"
+        },
+        {
+          "to": 1,
+          "expression": "cell.recon.best.score",
+          "selectError": true,
+          "selectNumeric": true,
+          "selectBlank": true,
+          "name": "Province: best candidate's score",
+          "columnName": "Province",
+          "selectNonNumeric": true,
+          "from": 1,
+          "type": "range"
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "City",
+    "similarValue": "Zaragoza",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Zaragoza",
+      "name": "Zaragoza",
+      "score": 1,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column Zaragoza URI from DBpedia at index 5 based on column City using expression grel:cell.recon.match.id",
+    "engineConfig": {
+      "facets": [
+        {
+          "to": 1,
+          "expression": "cell.recon.best.score",
+          "selectError": true,
+          "selectNumeric": true,
+          "selectBlank": true,
+          "name": "Province: best candidate's score",
+          "columnName": "Province",
+          "selectNonNumeric": true,
+          "from": 1,
+          "type": "range"
+        },
+        {
+          "to": 1,
+          "expression": "cell.recon.best.score",
+          "selectError": true,
+          "selectNumeric": true,
+          "selectBlank": true,
+          "name": "Province: best candidate's score",
+          "columnName": "Province",
+          "selectNonNumeric": true,
+          "from": 1,
+          "type": "range"
+        }
+      ],
+      "mode": "row-based"
+    },
+    "newColumnName": "Zaragoza URI from DBpedia",
+    "columnInsertIndex": 5,
+    "baseColumnName": "City",
+    "expression": "grel:cell.recon.match.id",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.zaramove.es/transportes/resource/",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "geo",
+          "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "ontology",
+          "uri": "http://www.zaramove.es/transportes/ontology/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Marquesina#\"+value.substring(-3)",
+          "isRowNumberCell": false,
+          "columnName": "id",
+          "rdfTypes": [
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/Marquesina",
+              "curie": "ontology:Marquesina"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.org/address",
+              "curie": "schema:address",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Address"
+              }
+            },
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/tiene_id",
+              "curie": "ontology:tiene_id",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value.substring(-9)",
+                "isRowNumberCell": false,
+                "columnName": "id"
+              }
+            },
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/tiene_icono",
+              "curie": "ontology:tiene_icono",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "icon"
+              }
+            },
+            {
+              "uri": "http://schema.org/Place",
+              "curie": "schema:Place",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Zaragoza URI from DBpedia"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#lat",
+              "curie": "geo:lat",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#float",
+                "columnName": "latitud"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#long",
+              "curie": "geo:long",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#float",
+                "columnName": "longitud"
+              }
+            },
+            {
+              "uri": "http://www.zaramove.es/transportes/ontology/tiene_Link",
+              "curie": "ontology:tiene_Link",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "link"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "\"Marquesina \"+value",
+                "isRowNumberCell": false,
+                "columnName": "name"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "id",
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  }
+]
