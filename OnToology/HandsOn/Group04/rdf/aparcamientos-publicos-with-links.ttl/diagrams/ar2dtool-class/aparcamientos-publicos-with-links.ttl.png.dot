@@ -1,0 +1,16 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+	"http://semanticweb.org/Group04/LATINA" -> "http://es.dbpedia.org/resource/Latina" [ label = "owl:sameAs" ];
+	"http://semanticweb.org/Group04/CHAMARTIN" -> "http://es.dbpedia.org/resource/Chamartin" [ label = "owl:sameAs" ];
+	"http://semanticweb.org/Group04/SAN+BLAS-CANILLEJAS" -> "http://es.dbpedia.org/resource/San_Blas_-_Canillejas" [ label = "owl:sameAs" ];
+	"http://semanticweb.org/Group04/TETUAN" -> "http://es.dbpedia.org/resource/Tetuan" [ label = "owl:sameAs" ];
+	"http://semanticweb.org/Group04/CENTRO" -> "http://dbpedia.org/resource/Centro" [ label = "owl:sameAs" ];
+	"http://semanticweb.org/Group04/MORATALAZ" -> "http://dbpedia.org/resource/Moratalaz" [ label = "owl:sameAs" ];
+	"http://semanticweb.org/Group04/RETIRO" -> "http://dbpedia.org/resource/Retiro" [ label = "owl:sameAs" ];
+	"http://semanticweb.org/Group04/CHAMBERI" -> "http://es.dbpedia.org/resource/Chamberi" [ label = "owl:sameAs" ];
+	"http://semanticweb.org/Group04/CIUDAD+LINEAL" -> "http://es.dbpedia.org/resource/Categor?a:Ciudad_Lineal" [ label = "owl:sameAs" ];
+	"http://semanticweb.org/Group04/SALAMANCA" -> "http://es.dbpedia.org/resource/Salamanca" [ label = "owl:sameAs" ];
+	"http://semanticweb.org/Group04/MONCLOA-ARAVACA" -> "http://dbpedia.org/resource/Moncloa-Aravaca" [ label = "owl:sameAs" ];
+
+}

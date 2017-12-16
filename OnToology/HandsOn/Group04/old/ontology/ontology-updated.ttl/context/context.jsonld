@@ -1,0 +1,22 @@
+{
+  "@context" : {
+    "isInStreet" : {
+      "@id" : "http://www.semanticweb.org/Group04/isInStreet",
+      "@type" : "@id"
+    },
+    "hasType" : {
+      "@id" : "http://www.semanticweb.org/Group04/ontology#hasType",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "isAccesible" : {
+      "@id" : "http://www.semanticweb.org/Group04/isAccesible",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "Parking" : {
+      "@id" : "http://dbpedia.org/page/Parking"
+    },
+    "Street" : {
+      "@id" : "http://mappings.dbpedia.org/server/ontology/classes/Street"
+    }
+  }
+}

@@ -9,7 +9,7 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
 
-<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Arquitecto+Ribera> a dbpedia:station ;
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Arquitecto+Ribera> a dbpedia:Parking ;
 	<mcm:relations/hasDescription> "Plazas:  318 p�blicas y 298 para residentes  Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad:  Ayuntamiento de Madrid" ;
 	geo:lat "40.426687899755734" ;
 	geo:long "-3.6996173701222492" ;
@@ -21,7 +21,7 @@
 
 mcm:medida0 a mcm:measure .
 
-<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Avenida+de+Am%EF%BF%BDrica+%28intercambiador%29> a dbpedia:station ;
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Avenida+de+Am%EF%BF%BDrica+%28intercambiador%29> a dbpedia:Parking ;
 	<mcm:relations/hasDescription> "Informaci�n sobre accesibilidad :  Tiene escaleras adaptadas  Ascensor de salida a la calle Avenida de Am�rica, 9  Tiene aseos accesibles  Plazas para minusv�lidos     Plazas : 269 p�blicas y 392 para residentes   Abierto 24 horas    Titularidad : Ayuntamiento de Madrid" ;
 	geo:lat "40.43886083125741" ;
 	geo:long "-3.6766217383743345" ;
@@ -33,7 +33,7 @@ mcm:medida0 a mcm:measure .
 
 mcm:medida1 a mcm:measure .
 
-<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Avenida+de+Portugal> a dbpedia:station ;
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Avenida+de+Portugal> a dbpedia:Parking ;
 	<mcm:relations/hasDescription> "Plazas:  433 p�blicas y 437 para residentes   Informacion sobre accesibilidad:   No tiene escalera adaptada  Tiene ascensor de salida a Avenida de Portugal, s/n  1 aseo accesible (nivel-3)  Plazas para minusv�lidos residentes: 20    Abierto 24 horas   Titularidad : Ayuntamiento de Madrid   Gesti�n : Empresa Municipal de Transportes (EMT) ( m�s informaci�n )" ;
 	geo:lat "40.411180021966345" ;
 	geo:long "-3.7378318857463158" ;
@@ -45,7 +45,7 @@ mcm:medida1 a mcm:measure .
 
 mcm:medida2 a mcm:measure .
 
-<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Brasil> a dbpedia:station ;
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Brasil> a dbpedia:Parking ;
 	<mcm:relations/hasDescription> "Plazas:  226 p�blicas y 400 para residentes  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid" ;
 	geo:lat "40.45610834965894" ;
 	geo:long "-3.694131675088486" ;
@@ -57,7 +57,7 @@ mcm:medida2 a mcm:measure .
 
 mcm:medida3 a mcm:measure .
 
-<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Casino+de+la+Reina> a dbpedia:station ;
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Casino+de+la+Reina> a dbpedia:Parking ;
 	<mcm:relations/hasDescription> "Plazas:  135 p�blicas y 449 para residentes  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid" ;
 	geo:lat "40.406792648617134" ;
 	geo:long "-3.7046086019457167" ;
@@ -69,7 +69,7 @@ mcm:medida3 a mcm:measure .
 
 mcm:medida4 a mcm:measure .
 
-<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Condesa+de+Gavia> a dbpedia:station ;
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Condesa+de+Gavia> a dbpedia:Parking ;
 	<mcm:relations/hasDescription> "Plazas : 73 p�blicas y 79 para residentes   Abierto 24 horas   Titularidad : Ayuntamiento de Madrid" ;
 	geo:lat "40.44938567948415" ;
 	geo:long "-3.7019164121880888" ;
@@ -81,7 +81,7 @@ mcm:medida4 a mcm:measure .
 
 mcm:medida5 a mcm:measure .
 
-<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Coraz%EF%BF%BDn+de+Mar%EF%BF%BDa+II> a dbpedia:station ;
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Coraz%EF%BF%BDn+de+Mar%EF%BF%BDa+II> a dbpedia:Parking ;
 	<mcm:relations/hasDescription> "Plazas : 327 p�blicas y 750 para residentes   Informacion sobre accesibilidad:   No tiene escalera adaptada  No tiene ascensor de salida a calle  2 aseos accesibles ( 1&ordf  planta)   Plazas para minusv�lidos residentes: 6     Abierto 24 horas    Titularidad : Ayuntamiento de Madrid" ;
 	geo:lat "40.444421820483264" ;
 	geo:long "-3.666902094780133" ;
@@ -93,7 +93,7 @@ mcm:medida5 a mcm:measure .
 
 mcm:medida6 a mcm:measure .
 
-<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Corona+Boreal> a dbpedia:station ;
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Corona+Boreal> a dbpedia:Parking ;
 	<mcm:relations/hasDescription> "Plazas : 120 p�blicas y 125 para residentes   Informaci�n sobre accesibilidad:   No tiene escaleras adaptadas  Ascensor de salida a la calle P�rez de Victoria  2 aseos accesibles (1&ordf" ;
 	geo:lat "40.45852127134047" ;
 	geo:long "-3.78317943069732" ;
@@ -104,7 +104,7 @@ mcm:medida6 a mcm:measure .
 
 mcm:medida7 a mcm:measure .
 
-<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Dao%EF%BF%BDz+y+Velarde> a dbpedia:station ;
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Dao%EF%BF%BDz+y+Velarde> a dbpedia:Parking ;
 	<mcm:relations/hasDescription> "Plazas:  312 p�blicas y 174 para residentes  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid" ;
 	geo:lat "40.40531540835356" ;
 	geo:long "-3.683557034656531" ;
@@ -116,7 +116,7 @@ mcm:medida7 a mcm:measure .
 
 mcm:medida8 a mcm:measure .
 
-<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+D%EF%BF%BDaz+Porlier> a dbpedia:station ;
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+D%EF%BF%BDaz+Porlier> a dbpedia:Parking ;
 	<mcm:relations/hasDescription> "Plazas:  203 p�blicas y 421 para residentes  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid" ;
 	geo:lat "40.434415601006386" ;
 	geo:long "-3.675728293375598" ;
@@ -128,7 +128,7 @@ mcm:medida8 a mcm:measure .
 
 mcm:medida9 a mcm:measure .
 
-<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Encuentro> a dbpedia:station ;
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Encuentro> a dbpedia:Parking ;
 	<mcm:relations/hasDescription> "Plazas:  104 p�blicas y 550 para residentes  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid" ;
 	geo:lat "40.40581270738191" ;
 	geo:long "-3.652048809515808" ;
@@ -140,7 +140,7 @@ mcm:medida9 a mcm:measure .
 
 mcm:medida10 a mcm:measure .
 
-<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Felipe+II> a dbpedia:station ;
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Felipe+II> a dbpedia:Parking ;
 	<mcm:relations/hasDescription> "Plazas : 1218 p�blicas y 607 para residentes   Plazas : 120 p�blicas y 125 para residentes   Informaci�n sobre accesibilidad:    No tiene escaleras adaptadas  Ascensor de salida a la plaza de Felipe II  Aseo accesible (1&ordf" ;
 	geo:lat "40.42422175692137" ;
 	geo:long "-3.673433652213169" ;
@@ -152,7 +152,7 @@ mcm:medida10 a mcm:measure .
 
 mcm:medida11 a mcm:measure .
 
-<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Fuencarral> a dbpedia:station ;
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Fuencarral> a dbpedia:Parking ;
 	<mcm:relations/hasDescription> "Plazas : 410 p�blicas y 111 para residentes   Informaci�n sobre accesibilidad:    No tiene escalera adaptada  1 ascensor con salida a la calle Fuencarral, 117  1 aseo accesible en la 1&ordf; planta  Plazas para minusv�lidos residentes: 7    Abierto 24 horas    Admite Tarjeta BonoRed    Titularidad : Ayuntamiento de Madrid" ;
 	geo:lat "40.42948845687032" ;
 	geo:long "-3.7027941027177986" ;
@@ -164,7 +164,7 @@ mcm:medida11 a mcm:measure .
 
 mcm:medida12 a mcm:measure .
 
-<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+General+Yag%EF%BF%BDe> a dbpedia:station ;
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+General+Yag%EF%BF%BDe> a dbpedia:Parking ;
 	<mcm:relations/hasDescription> "Plazas:  409 p�blicas y 717 residentes  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid" ;
 	geo:lat "40.45673936450418" ;
 	geo:long "-3.694067405537416" ;
@@ -176,7 +176,7 @@ mcm:medida12 a mcm:measure .
 
 mcm:medida13 a mcm:measure .
 
-<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Hernani> a dbpedia:station ;
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Hernani> a dbpedia:Parking ;
 	<mcm:relations/hasDescription> "Plazas:  115 p�blicas y 383 residentes   Informaci�n sobre accesibilidad:   No tiene escaleras adptadas  Ascensor de salida a la calle Hernai, 68  1 aseo accesible en 1&ordf; planta  Plazas para minusv�lidos residentes. 3      Abierto 24 horas    Titularidad:  Ayuntamiento de Madrid" ;
 	geo:lat "40.448394729978006" ;
 	geo:long "-3.7033919552673127" ;
@@ -188,7 +188,7 @@ mcm:medida13 a mcm:measure .
 
 mcm:medida14 a mcm:measure .
 
-<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Jacinto+Benavente> a dbpedia:station ;
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Jacinto+Benavente> a dbpedia:Parking ;
 	<mcm:relations/hasDescription> "Plazas:  285 p�blicas y 110 para residentes.   Plazas motos:  7.   Informaci�n sobre accesibilidad:    No tiene escaleras adaptadas  Ascensor con salida a la calle Jacinto benavente, s/n  1 aseo accesible Plaza para minusv�lidos residentes: 16   Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad:  Ayuntamiento de Madrid   Gesti�n:  Empresa Municipal de Transportes (EMT) ( m�s informaci�n )" ;
 	geo:lat "40.41444016371457" ;
 	geo:long "-3.70332112917586" ;
@@ -200,7 +200,7 @@ mcm:medida14 a mcm:measure .
 
 mcm:medida15 a mcm:measure .
 
-<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Jos%EF%BF%BD+Cast%EF%BF%BDn+Tobe%EF%BF%BDas> a dbpedia:station ;
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Jos%EF%BF%BD+Cast%EF%BF%BDn+Tobe%EF%BF%BDas> a dbpedia:Parking ;
 	<mcm:relations/hasDescription> "Plazas:  205 p�blicas y 43 para residentes   Informaci�n sobre accesibilidad:   No tiene escaleras adaptadas  No disponde ascensor  No disponde de aseos accesible  Plazas para minusv�lidos residentes: 5     Abierto 24 horas    Titularidad:  Ayuntamiento de Madrid" ;
 	geo:lat "40.46451060463543" ;
 	geo:long "-3.6916467875121377" ;
@@ -212,7 +212,7 @@ mcm:medida15 a mcm:measure .
 
 mcm:medida16 a mcm:measure .
 
-<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Marqu%EF%BF%BDs+de+Salamanca> a dbpedia:station ;
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Marqu%EF%BF%BDs+de+Salamanca> a dbpedia:Parking ;
 	<mcm:relations/hasDescription> "Plazas : 360 p�blicas y 70 para residentes   Informaci�n sobre accesibilidad:    No tiene escaleras adaptadas  1 ascensor en la salida a la plaza del Marqu�s de Salamanca  1 aseo accesible en  2&ordf" ;
 	geo:lat "40.43046723981028" ;
 	geo:long "-3.6792137901324056" ;
@@ -224,7 +224,7 @@ mcm:medida16 a mcm:measure .
 
 mcm:medida17 a mcm:measure .
 
-<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Miguel+Yuste> a dbpedia:station ;
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Miguel+Yuste> a dbpedia:Parking ;
 	<mcm:relations/hasDescription> "Plazas:  182  p�blicas y 68 para residentes  Abierto: 24 horas  Admite Tarjeta BonoRed   Titularidad:  Ayuntamiento de Madrid" ;
 	geo:lat "40.4402052387976" ;
 	geo:long "-3.625049272913964" ;
@@ -236,7 +236,7 @@ mcm:medida17 a mcm:measure .
 
 mcm:medida18 a mcm:measure .
 
-<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Orense> a dbpedia:station ;
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Orense> a dbpedia:Parking ;
 	<mcm:relations/hasDescription> "Plazas : 128 p�blicas y 663 para residentes   Informaci�n sobre accesibilidad:   1 escalera adaptada  No dispone de ascensor  1 aseo accesible  Plaza para minusv�lidos residentes: 5     Abierto 24 horas    Titularidad : Ayuntamiento de Madrid   Gesti�n:  Empresa Municipal de Transportes (EMT) ( m�s informaci�n )" ;
 	geo:lat "40.45973534025835" ;
 	geo:long "-3.6962330375922363" ;
@@ -248,7 +248,7 @@ mcm:medida18 a mcm:measure .
 
 mcm:medida19 a mcm:measure .
 
-<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Plaza+de+Oriente> a dbpedia:station ;
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Plaza+de+Oriente> a dbpedia:Parking ;
 	<mcm:relations/hasDescription> "Plazas : 242 p�blicas y 511 para residentes  Abierto 24 horas  Admite Tarjeta BonoRed  Este PAR est� adherido a la zona de APR   Titularidad : Ayuntamiento de Madrid" ;
 	geo:lat "40.417632509561116" ;
 	geo:long "-3.7116407088004757" ;
@@ -260,7 +260,7 @@ mcm:medida19 a mcm:measure .
 
 mcm:medida20 a mcm:measure .
 
-<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Presidente+Carmona> a dbpedia:station ;
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Presidente+Carmona> a dbpedia:Parking ;
 	<mcm:relations/hasDescription> "Plazas : 379 p�blicas y 124 para residentes  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid" ;
 	geo:lat "40.45362846199134" ;
 	geo:long "-3.6975262417380064" ;
@@ -272,7 +272,7 @@ mcm:medida20 a mcm:measure .
 
 mcm:medida21 a mcm:measure .
 
-<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Recoletos> a dbpedia:station ;
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Recoletos> a dbpedia:Parking ;
 	<mcm:relations/hasDescription> "Plazas : 102 p�blicas y 289 para residentes   Informaci�n sobre accesibilidad:    No tiene escaleras adaptadas  1 ascensor en la salida al Paseo de Recoletos  1 aseo accesible  Plaza para minusv�lidos residentes: 10    Abierto 24 horas   Admite Tarjeta BonoRed   Titularidad : Ayuntamiento de Madrid   Gesti�n:  Empresa Municipal de Transportes (EMT) ( m�s informaci�n )" ;
 	geo:lat "40.42054469225109" ;
 	geo:long "-3.691974283683488" ;
@@ -284,7 +284,7 @@ mcm:medida21 a mcm:measure .
 
 mcm:medida22 a mcm:measure .
 
-<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Rep%EF%BF%BDblica+Dominicana> a dbpedia:station ;
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Rep%EF%BF%BDblica+Dominicana> a dbpedia:Parking ;
 	<mcm:relations/hasDescription> "Plazas : 892 p�blicas y 203 para residentes  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid" ;
 	geo:lat "40.45887037458626" ;
 	geo:long "-3.6765275895176677" ;
@@ -296,7 +296,7 @@ mcm:medida22 a mcm:measure .
 
 mcm:medida23 a mcm:measure .
 
-<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+San+Cayetano> a dbpedia:station ;
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+San+Cayetano> a dbpedia:Parking ;
 	<mcm:relations/hasDescription> "Plazas : 222 p�blicas y 261 para residentes  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid" ;
 	geo:lat "40.43432235224971" ;
 	geo:long "-3.6700799322371056" ;
@@ -308,7 +308,7 @@ mcm:medida23 a mcm:measure .
 
 mcm:medida24 a mcm:measure .
 
-<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+S%EF%BF%BDnchez+Bustillo> a dbpedia:station ;
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+S%EF%BF%BDnchez+Bustillo> a dbpedia:Parking ;
 	<mcm:relations/hasDescription> "Plazas : 132 p�blicas y 408 para residentes  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid" ;
 	geo:lat "40.40917205238472" ;
 	geo:long "-3.6940145592988043" ;
@@ -320,7 +320,7 @@ mcm:medida24 a mcm:measure .
 
 mcm:medida25 a mcm:measure .
 
-<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Serrano+I> a dbpedia:station ;
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Serrano+I> a dbpedia:Parking ;
 	<mcm:relations/hasDescription> "Plazas : 307 p�blicas y 831 para residentes  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid" ;
 	geo:lat "40.43289700914247" ;
 	geo:long "-3.6857697780390155" ;
@@ -332,7 +332,7 @@ mcm:medida25 a mcm:measure .
 
 mcm:medida26 a mcm:measure .
 
-<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Serrano+II> a dbpedia:station ;
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Serrano+II> a dbpedia:Parking ;
 	<mcm:relations/hasDescription> "Plazas : 379 p�blicas y 794 para residentes  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid" ;
 	geo:lat "40.43059379257075" ;
 	geo:long "-3.688281097618061" ;
@@ -344,7 +344,7 @@ mcm:medida26 a mcm:measure .
 
 mcm:medida27 a mcm:measure .
 
-<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Serrano+III> a dbpedia:station ;
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Serrano+III> a dbpedia:Parking ;
 	<mcm:relations/hasDescription> "Plazas : 261 p�blicas y 725 para residentes  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid" ;
 	geo:lat "40.42446775888825" ;
 	geo:long "-3.6897747066093993" ;
@@ -356,7 +356,7 @@ mcm:medida27 a mcm:measure .
 
 mcm:medida28 a mcm:measure .
 
-<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Sevilla> a dbpedia:station ;
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Sevilla> a dbpedia:Parking ;
 	<mcm:relations/hasDescription> "Plazas : 476 p�blicas y 70 para residentes  Abierto 24 horas  Admite Tarjeta BonoRed    Titularidad : Ayuntamiento de Madrid" ;
 	geo:lat "40.41780383567921" ;
 	geo:long "-3.6998082261071747" ;
@@ -368,7 +368,7 @@ mcm:medida28 a mcm:measure .
 
 mcm:medida29 a mcm:measure .
 
-<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+V%EF%BF%BDzquez+de+Mella> a dbpedia:station ;
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+V%EF%BF%BDzquez+de+Mella> a dbpedia:Parking ;
 	<mcm:relations/hasDescription> "Plazas:  107 p�blicas y 261 para residentes.   Plazas motos:  6.   Informaci�n sobre accesibilidad:   No tiene escaleras adaptadas  1 ascensor con salida a la Plaza de Vazquez de Mella  1 aseo accesible  Plaza para minusv�lidos residentes: 7     Abierto 24 horas    Titularidad:  Ayuntamiento de Madrid   Gesti�n:  Empresa Municipal de Transportes (EMT) ( m�s informaci�n )" ;
 	geo:lat "40.4209564450911" ;
 	geo:long "-3.699899832865304" ;
@@ -380,7 +380,7 @@ mcm:medida29 a mcm:measure .
 
 mcm:medida30 a mcm:measure .
 
-<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Vel%EF%BF%BDzquez+-+Ayala> a dbpedia:station ;
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Vel%EF%BF%BDzquez+-+Ayala> a dbpedia:Parking ;
 	<mcm:relations/hasDescription> "Plazas:  464 p�blicas y 235 para residentes  Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad:  Ayuntamiento de Madrid" ;
 	geo:lat "40.427203787185476" ;
 	geo:long "-3.6841676172873936" ;
@@ -392,7 +392,7 @@ mcm:medida30 a mcm:measure .
 
 mcm:medida31 a mcm:measure .
 
-<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Vel%EF%BF%BDzquez+-+Jorge+Juan> a dbpedia:station ;
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Vel%EF%BF%BDzquez+-+Jorge+Juan> a dbpedia:Parking ;
 	<mcm:relations/hasDescription> "Plazas:  549 p�blicas y 395 para residentes  Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad:  Ayuntamiento de Madrid" ;
 	geo:lat "40.4243649253884" ;
 	geo:long "-3.684339253399854" ;
@@ -404,7 +404,7 @@ mcm:medida31 a mcm:measure .
 
 mcm:medida32 a mcm:measure .
 
-<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Verdaguer+y+Garc%EF%BF%BDa> a dbpedia:station ;
+<http://mapaContaminacionMadrid.com/Aparcamiento+mixto.+Verdaguer+y+Garc%EF%BF%BDa> a dbpedia:Parking ;
 	<mcm:relations/hasDescription> "Plazas:  83 p�blicas y 180 para residentes   Informaci�n sobre accesibilidad:   No tiene escaleras adaptadas  1 ascensor en la salida a la Calle Verdaguer y garc�a  1 aseo accesible en la planta -1  Plaza para minusv�lidos residentes: 4     Abierto 24 horas    Titularidad:  Ayuntamiento de Madrid" ;
 	geo:lat "40.43992277144076" ;
 	geo:long "-3.656505118007155" ;
@@ -416,7 +416,7 @@ mcm:medida32 a mcm:measure .
 
 mcm:medida33 a mcm:measure .
 
-<http://mapaContaminacionMadrid.com/Aparcamiento+p%EF%BF%BDblico+disuasorio+Estadio+Metropolitano+Sur+ES-02b> a dbpedia:station ;
+<http://mapaContaminacionMadrid.com/Aparcamiento+p%EF%BF%BDblico+disuasorio+Estadio+Metropolitano+Sur+ES-02b> a dbpedia:Parking ;
 	<mcm:relations/hasDescription> "Plazas :   para autom�viles 1719  para motocicletas 61" ;
 	geo:lat "40.434154" ;
 	geo:long "-3.598831" ;
@@ -428,7 +428,7 @@ mcm:medida33 a mcm:measure .
 
 mcm:medida34 a mcm:measure .
 
-<http://mapaContaminacionMadrid.com/Aparcamiento+p%EF%BF%BDblico.+Almagro> a dbpedia:station ;
+<http://mapaContaminacionMadrid.com/Aparcamiento+p%EF%BF%BDblico.+Almagro> a dbpedia:Parking ;
 	<mcm:relations/hasDescription> "Plazas : 462   Informacion sobre accesibilidad:    1 escalera adaptada  No tiene ascensor de salida a calle  1 aseo accesible  Plazas para minusv�lidos residentes: 17   Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad : Ayuntamiento de Madrid   Gesti�n : Empresa Municipal de Transportes (EMT) ( m�s informaci�n )" ;
 	geo:lat "40.43030345785862" ;
 	geo:long "-3.6931471299523446" ;
@@ -440,7 +440,7 @@ mcm:medida34 a mcm:measure .
 
 mcm:medida35 a mcm:measure .
 
-<http://mapaContaminacionMadrid.com/Aparcamiento+p%EF%BF%BDblico.+Auditorio+Nacional+de+M%EF%BF%BDsica+%28Pr%EF%BF%BDncipe+de+Vergara%29> a dbpedia:station ;
+<http://mapaContaminacionMadrid.com/Aparcamiento+p%EF%BF%BDblico.+Auditorio+Nacional+de+M%EF%BF%BDsica+%28Pr%EF%BF%BDncipe+de+Vergara%29> a dbpedia:Parking ;
 	<mcm:relations/hasDescription> "Plazas:  376  Abierto 24 horas  Admite la Tarjeta Bono Red   Titularidad:  Ayuntamiento de Madrid" ;
 	geo:lat "40.44426892073378" ;
 	geo:long "-3.6777018495296048" ;
@@ -452,7 +452,7 @@ mcm:medida35 a mcm:measure .
 
 mcm:medida36 a mcm:measure .
 
-<http://mapaContaminacionMadrid.com/Aparcamiento+p%EF%BF%BDblico.+Descalzas> a dbpedia:station ;
+<http://mapaContaminacionMadrid.com/Aparcamiento+p%EF%BF%BDblico.+Descalzas> a dbpedia:Parking ;
 	<mcm:relations/hasDescription> "Plazas:  400   Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad:  Ayuntamiento de Madrid" ;
 	geo:lat "40.41809765692244" ;
 	geo:long "-3.706306013191402" ;
@@ -464,7 +464,7 @@ mcm:medida36 a mcm:measure .
 
 mcm:medida37 a mcm:measure .
 
-<http://mapaContaminacionMadrid.com/Aparcamiento+p%EF%BF%BDblico.+Fern%EF%BF%BDndez+Shaw> a dbpedia:station ;
+<http://mapaContaminacionMadrid.com/Aparcamiento+p%EF%BF%BDblico.+Fern%EF%BF%BDndez+Shaw> a dbpedia:Parking ;
 	<mcm:relations/hasDescription> "Plazas : 245  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid" ;
 	geo:lat "40.406002468696784" ;
 	geo:long "-3.669292239090564" ;
@@ -475,7 +475,7 @@ mcm:medida37 a mcm:measure .
 
 mcm:medida38 a mcm:measure .
 
-<http://mapaContaminacionMadrid.com/Aparcamiento+p%EF%BF%BDblico.+Glorieta+Puerta+de+Toledo> a dbpedia:station ;
+<http://mapaContaminacionMadrid.com/Aparcamiento+p%EF%BF%BDblico.+Glorieta+Puerta+de+Toledo> a dbpedia:Parking ;
 	<mcm:relations/hasDescription> "Plazas:  244  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid" ;
 	geo:lat "40.40745328367243" ;
 	geo:long "-3.7100131737859567" ;
@@ -487,7 +487,7 @@ mcm:medida38 a mcm:measure .
 
 mcm:medida39 a mcm:measure .
 
-<http://mapaContaminacionMadrid.com/Aparcamiento+p%EF%BF%BDblico.+Las+Cortes> a dbpedia:station ;
+<http://mapaContaminacionMadrid.com/Aparcamiento+p%EF%BF%BDblico.+Las+Cortes> a dbpedia:Parking ;
 	<mcm:relations/hasDescription> "Plazas : 480  Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad : Ayuntamiento de Madrid" ;
 	geo:lat "40.41576756093728" ;
 	geo:long "-3.695367083138702" ;
@@ -499,7 +499,7 @@ mcm:medida39 a mcm:measure .
 
 mcm:medida40 a mcm:measure .
 
-<http://mapaContaminacionMadrid.com/Aparcamiento+p%EF%BF%BDblico.+Luna+-+Tudescos> a dbpedia:station ;
+<http://mapaContaminacionMadrid.com/Aparcamiento+p%EF%BF%BDblico.+Luna+-+Tudescos> a dbpedia:Parking ;
 	<mcm:relations/hasDescription> "Plazas : 481  Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad : Ayuntamiento de Madrid" ;
 	geo:lat "40.4214535549175" ;
 	geo:long "-3.705563118253955" ;
@@ -511,7 +511,7 @@ mcm:medida40 a mcm:measure .
 
 mcm:medida41 a mcm:measure .
 
-<http://mapaContaminacionMadrid.com/Aparcamiento+p%EF%BF%BDblico.+Marqu%EF%BF%BDs+de+Urquijo> a dbpedia:station ;
+<http://mapaContaminacionMadrid.com/Aparcamiento+p%EF%BF%BDblico.+Marqu%EF%BF%BDs+de+Urquijo> a dbpedia:Parking ;
 	<mcm:relations/hasDescription> "Plazas : 482  Abierto 24 horas  Admite Tarjeta BonoRed" ;
 	geo:lat "40.42955928333471" ;
 	geo:long "-3.719111078507027" ;
@@ -523,7 +523,7 @@ mcm:medida41 a mcm:measure .
 
 mcm:medida42 a mcm:measure .
 
-<http://mapaContaminacionMadrid.com/Aparcamiento+p%EF%BF%BDblico.+Montalb%EF%BF%BDn> a dbpedia:station ;
+<http://mapaContaminacionMadrid.com/Aparcamiento+p%EF%BF%BDblico.+Montalb%EF%BF%BDn> a dbpedia:Parking ;
 	<mcm:relations/hasDescription> "Plazas:  275  Abierto 24 horas  Admite Tarjet BonoRed   Titularidad:  Ayuntamiento de Madrid   Gesti�n:  Empresa Municipal de Transportes (EMT) ( m�s informaci�n )" ;
 	geo:lat "40.41802725000116" ;
 	geo:long "-3.691123387515545" ;
@@ -535,7 +535,7 @@ mcm:medida42 a mcm:measure .
 
 mcm:medida43 a mcm:measure .
 
-<http://mapaContaminacionMadrid.com/Aparcamiento+p%EF%BF%BDblico.+Mostenses> a dbpedia:station ;
+<http://mapaContaminacionMadrid.com/Aparcamiento+p%EF%BF%BDblico.+Mostenses> a dbpedia:Parking ;
 	<mcm:relations/hasDescription> "Plazas:  362   Informaci�n sobre accesibilidad:    No tiene escaleras adaptadas  1 ascensor  1 aseo accesible en  2&ordf" ;
 	geo:lat "40.4227759148193" ;
 	geo:long "-3.708830424647755" ;
@@ -547,7 +547,7 @@ mcm:medida43 a mcm:measure .
 
 mcm:medida44 a mcm:measure .
 
-<http://mapaContaminacionMadrid.com/Aparcamiento+p%EF%BF%BDblico.+Museo+de+la+Ciudad> a dbpedia:station ;
+<http://mapaContaminacionMadrid.com/Aparcamiento+p%EF%BF%BDblico.+Museo+de+la+Ciudad> a dbpedia:Parking ;
 	<mcm:relations/hasDescription> "Plazas:  147  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid" ;
 	geo:lat "40.44366224087455" ;
 	geo:long "-3.6782263814004565" ;
@@ -559,7 +559,7 @@ mcm:medida44 a mcm:measure .
 
 mcm:medida45 a mcm:measure .
 
-<http://mapaContaminacionMadrid.com/Aparcamiento+p%EF%BF%BDblico.+Olavide> a dbpedia:station ;
+<http://mapaContaminacionMadrid.com/Aparcamiento+p%EF%BF%BDblico.+Olavide> a dbpedia:Parking ;
 	<mcm:relations/hasDescription> "Plazas : 397    Informaci�n sobre accesibilidad:    Disponde de escaleras adaptadas  1 ascensor en la salida a la Plaza de Olavide  1 aseo accesible en la  1&ordf" ;
 	geo:lat "40.43277769820206" ;
 	geo:long "-3.7011542013121264" ;
@@ -571,7 +571,7 @@ mcm:medida45 a mcm:measure .
 
 mcm:medida46 a mcm:measure .
 
-<http://mapaContaminacionMadrid.com/Aparcamiento+p%EF%BF%BDblico.+Plaza+de+Col%EF%BF%BDn> a dbpedia:station ;
+<http://mapaContaminacionMadrid.com/Aparcamiento+p%EF%BF%BDblico.+Plaza+de+Col%EF%BF%BDn> a dbpedia:Parking ;
 	<mcm:relations/hasDescription> "Plazas : 605  Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad : Ayuntamiento de Madrid" ;
 	geo:lat "40.42518540300912" ;
 	geo:long "-3.6887800207651495" ;
@@ -583,7 +583,7 @@ mcm:medida46 a mcm:measure .
 
 mcm:medida47 a mcm:measure .
 
-<http://mapaContaminacionMadrid.com/Aparcamiento+p%EF%BF%BDblico.+Plaza+de+Espa%EF%BF%BDa> a dbpedia:station ;
+<http://mapaContaminacionMadrid.com/Aparcamiento+p%EF%BF%BDblico.+Plaza+de+Espa%EF%BF%BDa> a dbpedia:Parking ;
 	<mcm:relations/hasDescription> "Plazas : 800 (hasta 535 abonados)  Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad : Ayuntamiento de Madrid   Gesti�n : Empresa Municipal de Transportes (EMT) ( m�s informaci�n )" ;
 	geo:lat "40.42372251184839" ;
 	geo:long "-3.7116577340508523" ;
@@ -595,7 +595,7 @@ mcm:medida47 a mcm:measure .
 
 mcm:medida48 a mcm:measure .
 
-<http://mapaContaminacionMadrid.com/Aparcamiento+p%EF%BF%BDblico.+Plaza+del+Carmen> a dbpedia:station ;
+<http://mapaContaminacionMadrid.com/Aparcamiento+p%EF%BF%BDblico.+Plaza+del+Carmen> a dbpedia:Parking ;
 	<mcm:relations/hasDescription> "Plazas:  450   Informaci�n sobre accesibilidad:    No tiene escaleras adaptadas  1 ascensor  1 aseo accesible en   1&ordf" ;
 	geo:lat "40.41848676016168" ;
 	geo:long "-3.703068586180966" ;
@@ -607,7 +607,7 @@ mcm:medida48 a mcm:measure .
 
 mcm:medida49 a mcm:measure .
 
-<http://mapaContaminacionMadrid.com/Aparcamiento+p%EF%BF%BDblico.+Plaza+del+Rey> a dbpedia:station ;
+<http://mapaContaminacionMadrid.com/Aparcamiento+p%EF%BF%BDblico.+Plaza+del+Rey> a dbpedia:Parking ;
 	<mcm:relations/hasDescription> "Plazas : 160   Informaci�n sobre accesibilidad:    Si tiene escaleras adaptadas  1 ascensor  3 aseos accesibles (uno por planta): 8  Plaza para minusv�lidos residentes: 16   Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad : Ayuntamiento de Madrid" ;
 	geo:lat "40.42018796139455" ;
 	geo:long "-3.69587231093941" ;
@@ -619,7 +619,7 @@ mcm:medida49 a mcm:measure .
 
 mcm:medida50 a mcm:measure .
 
-<http://mapaContaminacionMadrid.com/Aparcamiento+p%EF%BF%BDblico.+Plaza+Mayor> a dbpedia:station ;
+<http://mapaContaminacionMadrid.com/Aparcamiento+p%EF%BF%BDblico.+Plaza+Mayor> a dbpedia:Parking ;
 	<mcm:relations/hasDescription> "Plazas : 694  Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad : Ayuntamiento de Madrid" ;
 	geo:lat "40.41586882022003" ;
 	geo:long "-3.706895619414367" ;
@@ -631,7 +631,7 @@ mcm:medida50 a mcm:measure .
 
 mcm:medida51 a mcm:measure .
 
-<http://mapaContaminacionMadrid.com/Aparcamiento+p%EF%BF%BDblico.+Santa+Ana> a dbpedia:station ;
+<http://mapaContaminacionMadrid.com/Aparcamiento+p%EF%BF%BDblico.+Santa+Ana> a dbpedia:Parking ;
 	<mcm:relations/hasDescription> "Plazas:  325   Informaci�n sobre accesibilidad:    No tiene escaleras adaptadas  1 ascensor  1 aseo accesible en  1&ordf" ;
 	geo:lat "40.41487830605113" ;
 	geo:long "-3.700897645451053" ;
@@ -643,7 +643,7 @@ mcm:medida51 a mcm:measure .
 
 mcm:medida52 a mcm:measure .
 
-<http://mapaContaminacionMadrid.com/Aparcamiento+p%EF%BF%BDblico.+Vel%EF%BF%BDzquez+-+Juan+Bravo> a dbpedia:station ;
+<http://mapaContaminacionMadrid.com/Aparcamiento+p%EF%BF%BDblico.+Vel%EF%BF%BDzquez+-+Juan+Bravo> a dbpedia:Parking ;
 	<mcm:relations/hasDescription> "Plazas:  371  Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad:  Ayuntamiento de Madrid" ;
 	geo:lat "40.431991827319116" ;
 	geo:long "-3.683449815935094" ;
@@ -655,7 +655,7 @@ mcm:medida52 a mcm:measure .
 
 mcm:medida53 a mcm:measure .
 
-<http://mapaContaminacionMadrid.com/Aparcamiento+p%EF%BF%BDblico.+Villa+de+Par%EF%BF%BDs> a dbpedia:station ;
+<http://mapaContaminacionMadrid.com/Aparcamiento+p%EF%BF%BDblico.+Villa+de+Par%EF%BF%BDs> a dbpedia:Parking ;
 	<mcm:relations/hasDescription> "Plazas rotaci�n:  169   Plazas motos:  2    Informaci�n sobre accesibilidad:    No tiene escaleras adaptadas  No disponde de ascensor  1 aseo accesible  Plaza para minusv�lidos residentes: 13    Abierto 24 horas    Admite Tarjeta BonoRed    Titularidad:  Ayuntamiento de Madrid   Gesti�n:  Empresa Municipal de Transportes (EMT) ( m�s informaci�n )" ;
 	geo:lat "40.42533530030625" ;
 	geo:long "-3.6923416648619947" ;
@@ -668,7 +668,6 @@ mcm:medida53 a mcm:measure .
 mcm:medida54 a mcm:measure .
 
 mcm:EstacionMeteorologica4 a dbpedia:station ;
-	<mcm:relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	geo:lat "40,423853" ;
 	geo:long "-3,712247" .
 
@@ -676,34 +675,33 @@ mcm:medida55 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "1" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "1.0" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/4> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica4 .
 
 mcm:medida56 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "6" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "0.2833333333333334" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/4> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica4 .
 
 mcm:medida57 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "7" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "18.291666666666668" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/4> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica4 .
 
 mcm:medida58 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "8" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "31.541666666666668" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/4> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica4 .
 
 mcm:medida59 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "12" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "59.708333333333336" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/4> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica4 .
 
 mcm:EstacionMeteorologica8 a dbpedia:station ;
-	<mcm:relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	geo:lat "40,421564" ;
 	geo:long "-3,682319" .
 
@@ -711,88 +709,87 @@ mcm:medida60 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "1" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "1.9166666666666667" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/8> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica8 .
 
 mcm:medida61 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "6" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "0.17499999999999996" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/8> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica8 .
 
 mcm:medida62 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "7" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "3625" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/8> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica8 .
 
 mcm:medida63 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "8" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "27.0" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/8> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica8 .
 
 mcm:medida64 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "9" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "4.5" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/8> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica8 .
 
 mcm:medida65 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "10" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "6.208333333333333" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/8> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica8 .
 
 mcm:medida66 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "12" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "32.5" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/8> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica8 .
 
 mcm:medida67 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "14" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "39.667500000000004" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/8> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica8 .
 
 mcm:medida68 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "20" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "0.07083333333333335" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/8> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica8 .
 
 mcm:medida69 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "30" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "0.07083333333333335" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/8> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica8 .
 
 mcm:medida70 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "35" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "0.07083333333333335" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/8> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica8 .
 
 mcm:medida71 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "42" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "0.9691666666666667" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/8> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica8 .
 
 mcm:medida72 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "43" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "0.9116666666666666" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/8> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica8 .
 
 mcm:medida73 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "44" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "0.058750000000000004" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/8> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica8 .
 
 mcm:EstacionMeteorologica11 a dbpedia:station ;
-	<mcm:relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	geo:lat "40,451475" ;
 	geo:long "-3,677356" .
 
@@ -800,40 +797,39 @@ mcm:medida74 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "7" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "5.291666666666667" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/11> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica11 .
 
 mcm:medida75 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "8" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "19375" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/11> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica11 .
 
 mcm:medida76 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "12" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "27.583333333333332" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/11> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica11 .
 
 mcm:medida77 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "20" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "0.40833333333333327" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/11> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica11 .
 
 mcm:medida78 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "30" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "0.16249999999999998" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/11> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica11 .
 
 mcm:medida79 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "35" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "0.07500000000000001" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/11> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica11 .
 
 mcm:EstacionMeteorologica16 a dbpedia:station ;
-	<mcm:relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	geo:lat "40,440047" ;
 	geo:long "-3,639233" .
 
@@ -841,34 +837,33 @@ mcm:medida80 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "6" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "0.14583333333333337" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/16> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica16 .
 
 mcm:medida81 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "7" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "1.3333333333333333" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/16> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica16 .
 
 mcm:medida82 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "8" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "13.75" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/16> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica16 .
 
 mcm:medida83 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "12" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "15875" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/16> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica16 .
 
 mcm:medida84 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "14" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "42.96208333333333" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/16> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica16 .
 
 mcm:EstacionMeteorologica17 a dbpedia:station ;
-	<mcm:relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	geo:lat "40,347139" ;
 	geo:long "-3,713322" .
 
@@ -876,34 +871,33 @@ mcm:medida85 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "1" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "1.5416666666666667" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/17> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica17 .
 
 mcm:medida86 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "7" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "6.541666666666667" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/17> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica17 .
 
 mcm:medida87 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "8" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "30.666666666666668" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/17> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica17 .
 
 mcm:medida88 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "12" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "40.541666666666664" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/17> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica17 .
 
 mcm:medida89 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "14" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "22.198333333333334" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/17> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica17 .
 
 mcm:EstacionMeteorologica18 a dbpedia:station ;
-	<mcm:relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	geo:lat "40,394781" ;
 	geo:long "-3,731853" .
 
@@ -911,64 +905,63 @@ mcm:medida90 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "1" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "2.7083333333333335" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/18> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica18 .
 
 mcm:medida91 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "6" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "0.19583333333333328" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/18> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica18 .
 
 mcm:medida92 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "7" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "5.25" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/18> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica18 .
 
 mcm:medida93 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "8" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "25.0" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/18> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica18 .
 
 mcm:medida94 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "10" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "8.791666666666666" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/18> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica18 .
 
 mcm:medida95 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "12" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "32875" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/18> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica18 .
 
 mcm:medida96 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "14" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "26.066666666666663" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/18> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica18 .
 
 mcm:medida97 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "20" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "1.2708333333333333" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/18> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica18 .
 
 mcm:medida98 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "30" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "0.28750000000000003" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/18> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica18 .
 
 mcm:medida99 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "35" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "0.1458333333333334" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/18> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica18 .
 
 mcm:EstacionMeteorologica24 a dbpedia:station ;
-	<mcm:relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	geo:lat "40,419356" ;
 	geo:long "-3,747347" .
 
@@ -976,88 +969,87 @@ mcm:medida100 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "1" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "2.3333333333333335" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/24> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica24 .
 
 mcm:medida101 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "6" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "0.15" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/24> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica24 .
 
 mcm:medida102 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "7" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "2875" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/24> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica24 .
 
 mcm:medida103 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "8" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "13.291666666666666" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/24> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica24 .
 
 mcm:medida104 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "9" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "4.333333333333333" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/24> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica24 .
 
 mcm:medida105 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "10" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "9.291666666666666" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/24> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica24 .
 
 mcm:medida106 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "12" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "17.708333333333332" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/24> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica24 .
 
 mcm:medida107 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "14" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "35.102916666666665" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/24> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica24 .
 
 mcm:medida108 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "20" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "0.7083333333333331" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/24> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica24 .
 
 mcm:medida109 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "30" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "0.19166666666666665" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/24> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica24 .
 
 mcm:medida110 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "35" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "0.07083333333333335" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/24> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica24 .
 
 mcm:medida111 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "42" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "0.9329166666666667" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/24> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica24 .
 
 mcm:medida112 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "43" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "0.8612500000000002" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/24> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica24 .
 
 mcm:medida113 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "44" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "0.07125000000000001" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/24> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica24 .
 
 mcm:EstacionMeteorologica27 a dbpedia:station ;
-	<mcm:relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	geo:lat "40,476928" ;
 	geo:long "-3,580031" .
 
@@ -1065,28 +1057,27 @@ mcm:medida114 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "7" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "7.791666666666667" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/27> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica27 .
 
 mcm:medida115 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "8" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "27.5" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/27> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica27 .
 
 mcm:medida116 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "12" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "39.416666666666664" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/27> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica27 .
 
 mcm:medida117 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "14" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "25.528750000000002" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/27> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica27 .
 
 mcm:EstacionMeteorologica35 a dbpedia:station ;
-	<mcm:relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	geo:lat "40,419208" ;
 	geo:long "-3,703172" .
 
@@ -1094,40 +1085,39 @@ mcm:medida118 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "1" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "3.0416666666666665" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/35> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica35 .
 
 mcm:medida119 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "6" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "0.30000000000000004" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/35> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica35 .
 
 mcm:medida120 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "7" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "13125" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/35> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica35 .
 
 mcm:medida121 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "8" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "36.833333333333336" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/35> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica35 .
 
 mcm:medida122 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "12" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "56.791666666666664" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/35> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica35 .
 
 mcm:medida123 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "14" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "16.246666666666666" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/35> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica35 .
 
 mcm:EstacionMeteorologica36 a dbpedia:station ;
-	<mcm:relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	geo:lat "40,407947" ;
 	geo:long "-3,645306" .
 
@@ -1135,40 +1125,39 @@ mcm:medida124 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "1" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "3.4166666666666665" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/36> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica36 .
 
 mcm:medida125 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "6" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "0.1291666666666667" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/36> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica36 .
 
 mcm:medida126 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "7" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "3.5" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/36> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica36 .
 
 mcm:medida127 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "8" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "15.666666666666666" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/36> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica36 .
 
 mcm:medida128 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "10" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "8.041666666666666" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/36> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica36 .
 
 mcm:medida129 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "12" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "21.083333333333332" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/36> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica36 .
 
 mcm:EstacionMeteorologica38 a dbpedia:station ;
-	<mcm:relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	geo:lat "40,445544" ;
 	geo:long "-3,707128" .
 
@@ -1176,58 +1165,57 @@ mcm:medida130 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "1" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "2.1666666666666665" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/38> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica38 .
 
 mcm:medida131 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "7" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "7.25" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/38> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica38 .
 
 mcm:medida132 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "8" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "23.5" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/38> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica38 .
 
 mcm:medida133 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "9" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "3.5" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/38> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica38 .
 
 mcm:medida134 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "10" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "5.833333333333333" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/38> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica38 .
 
 mcm:medida135 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "12" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "34.833333333333336" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/38> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica38 .
 
 mcm:medida136 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "20" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "1.383333333333333" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/38> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica38 .
 
 mcm:medida137 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "30" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "0.3624999999999999" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/38> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica38 .
 
 mcm:medida138 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "35" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "0.42916666666666664" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/38> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica38 .
 
 mcm:EstacionMeteorologica39 a dbpedia:station ;
-	<mcm:relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	geo:lat "40,478228" ;
 	geo:long "-3,711542" .
 
@@ -1235,34 +1223,33 @@ mcm:medida139 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "6" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "0.1708333333333333" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/39> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica39 .
 
 mcm:medida140 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "7" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "4.75" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/39> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica39 .
 
 mcm:medida141 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "8" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "18.791666666666668" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/39> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica39 .
 
 mcm:medida142 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "12" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "26.0" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/39> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica39 .
 
 mcm:medida143 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "14" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "38.33166666666667" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/39> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica39 .
 
 mcm:EstacionMeteorologica40 a dbpedia:station ;
-	<mcm:relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	geo:lat "40,388153" ;
 	geo:long "-3,651522" .
 
@@ -1270,34 +1257,33 @@ mcm:medida144 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "1" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "1.4166666666666667" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/40> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica40 .
 
 mcm:medida145 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "7" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "2375" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/40> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica40 .
 
 mcm:medida146 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "8" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "14.916666666666666" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/40> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica40 .
 
 mcm:medida147 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "10" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "7.791666666666667" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/40> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica40 .
 
 mcm:medida148 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "12" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "18.583333333333332" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/40> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica40 .
 
 mcm:EstacionMeteorologica47 a dbpedia:station ;
-	<mcm:relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	geo:lat "40,398114" ;
 	geo:long "-3,686825" .
 
@@ -1305,34 +1291,33 @@ mcm:medida149 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "7" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "4125" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/47> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica47 .
 
 mcm:medida150 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "8" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "24.166666666666668" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/47> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica47 .
 
 mcm:medida151 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "9" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "5.833333333333333" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/47> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica47 .
 
 mcm:medida152 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "10" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "8.833333333333334" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/47> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica47 .
 
 mcm:medida153 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "12" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "30.333333333333332" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/47> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica47 .
 
 mcm:EstacionMeteorologica48 a dbpedia:station ;
-	<mcm:relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	geo:lat "40,439897" ;
 	geo:long "-3,690367" .
 
@@ -1340,34 +1325,33 @@ mcm:medida154 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "7" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "1.5833333333333333" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/48> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica48 .
 
 mcm:medida155 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "8" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "14.458333333333334" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/48> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica48 .
 
 mcm:medida156 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "9" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "3.25" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/48> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica48 .
 
 mcm:medida157 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "10" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "4875" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/48> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica48 .
 
 mcm:medida158 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "12" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "16.958333333333332" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/48> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica48 .
 
 mcm:EstacionMeteorologica49 a dbpedia:station ;
-	<mcm:relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	geo:lat "40,414444" ;
 	geo:long "-3,682583" .
 
@@ -1375,28 +1359,27 @@ mcm:medida159 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "7" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "1.2916666666666667" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/49> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica49 .
 
 mcm:medida160 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "8" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "16.458333333333332" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/49> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica49 .
 
 mcm:medida161 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "12" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "18375" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/49> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica49 .
 
 mcm:medida162 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "14" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "39.04749999999999" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/49> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica49 .
 
 mcm:EstacionMeteorologica50 a dbpedia:station ;
-	<mcm:relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	geo:lat "40,465572" ;
 	geo:long "-3,688769" .
 
@@ -1404,34 +1387,33 @@ mcm:medida163 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "7" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "7.166666666666667" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/50> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica50 .
 
 mcm:medida164 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "8" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "14.833333333333334" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/50> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica50 .
 
 mcm:medida165 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "9" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "4.458333333333333" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/50> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica50 .
 
 mcm:medida166 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "10" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "6.041666666666667" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/50> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica50 .
 
 mcm:medida167 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "12" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "25.583333333333332" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/50> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica50 .
 
 mcm:EstacionMeteorologica54 a dbpedia:station ;
-	<mcm:relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	geo:lat "40,372933" ;
 	geo:long "-3,612117" .
 
@@ -1439,28 +1421,27 @@ mcm:medida168 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "7" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "1.6666666666666667" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/54> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica54 .
 
 mcm:medida169 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "8" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "16625" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/54> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica54 .
 
 mcm:medida170 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "12" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "19.208333333333332" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/54> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica54 .
 
 mcm:medida171 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "14" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "41.72541666666666" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/54> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica54 .
 
 mcm:EstacionMeteorologica55 a dbpedia:station ;
-	<mcm:relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	geo:lat "40,462531" ;
 	geo:long "-3,580747" .
 
@@ -1468,64 +1449,63 @@ mcm:medida172 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "7" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "7.041666666666667" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/55> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica55 .
 
 mcm:medida173 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "8" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "31125" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/55> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica55 .
 
 mcm:medida174 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "10" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "7.541666666666667" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/55> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica55 .
 
 mcm:medida175 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "12" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "42.041666666666664" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/55> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica55 .
 
 mcm:medida176 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "20" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "0.5624999999999999" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/55> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica55 .
 
 mcm:medida177 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "30" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "0.22916666666666666" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/55> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica55 .
 
 mcm:medida178 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "35" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "0.16666666666666666" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/55> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica55 .
 
 mcm:medida179 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "42" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "1.03625" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/55> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica55 .
 
 mcm:medida180 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "43" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "0.9158333333333334" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/55> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica55 .
 
 mcm:medida181 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "44" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "0.12041666666666667" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/55> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica55 .
 
 mcm:EstacionMeteorologica56 a dbpedia:station ;
-	<mcm:relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	geo:lat "40,384964" ;
 	geo:long "-3,718728" .
 
@@ -1533,34 +1513,33 @@ mcm:medida182 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "6" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "0.22916666666666663" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/56> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica56 .
 
 mcm:medida183 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "7" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "18.708333333333332" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/56> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica56 .
 
 mcm:medida184 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "8" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "38.291666666666664" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/56> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica56 .
 
 mcm:medida185 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "12" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "67.08333333333333" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/56> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica56 .
 
 mcm:medida186 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "14" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "20.215833333333332" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/56> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica56 .
 
 mcm:EstacionMeteorologica57 a dbpedia:station ;
-	<mcm:relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	geo:lat "40,494208" ;
 	geo:long "-3,660503" .
 
@@ -1568,40 +1547,39 @@ mcm:medida187 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "1" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "6625" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/57> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica57 .
 
 mcm:medida188 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "6" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "0.1625" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/57> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica57 .
 
 mcm:medida189 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "7" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "2.2916666666666665" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/57> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica57 .
 
 mcm:medida190 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "8" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "11375" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/57> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica57 .
 
 mcm:medida191 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "10" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "5.041666666666667" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/57> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica57 .
 
 mcm:medida192 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "12" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "14875" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/57> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica57 .
 
 mcm:EstacionMeteorologica58 a dbpedia:station ;
-	<mcm:relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	geo:lat "40,518058" ;
 	geo:long "-3,774611" .
 
@@ -1609,28 +1587,27 @@ mcm:medida193 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "7" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "1.2083333333333333" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/58> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica58 .
 
 mcm:medida194 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "8" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "7.583333333333333" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/58> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica58 .
 
 mcm:medida195 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "12" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "9625" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/58> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica58 .
 
 mcm:medida196 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "14" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "30.89791666666667" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/58> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica58 .
 
 mcm:EstacionMeteorologica59 a dbpedia:station ;
-	<mcm:relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	geo:lat "40,46525" ;
 	geo:long "-3,609072" .
 
@@ -1638,28 +1615,27 @@ mcm:medida197 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "7" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "1.75" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/59> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica59 .
 
 mcm:medida198 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "8" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "9125" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/59> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica59 .
 
 mcm:medida199 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "12" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "11.708333333333334" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/59> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica59 .
 
 mcm:medida200 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "14" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "41.14541666666667" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/59> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica59 .
 
 mcm:EstacionMeteorologica60 a dbpedia:station ;
-	<mcm:relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	geo:lat "40,500589" ;
 	geo:long "-3,689761" .
 
@@ -1667,38 +1643,34 @@ mcm:medida201 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "7" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "1.5416666666666667" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/60> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica60 .
 
 mcm:medida202 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "8" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "12.958333333333334" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/60> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica60 .
 
 mcm:medida203 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "10" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "3375" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/60> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica60 .
 
 mcm:medida204 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "12" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "15.333333333333334" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/60> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica60 .
 
 mcm:medida205 a mcm:measure ;
 	<http://mapaContaminacionMadrid.com/relations/hasGas> "14" ;
 	<http://mapaContaminacionMadrid.com/relations/hasValue> "45.56333333333333" ;
 	<http://mapaContaminacionMadrid.com/relations/hasDate> "2017 10 29"^^<http://www.w3.org/2001/XMLSchema#date> ;
-	<http://mapaContaminacionMadrid.com/relations/hasStation> <http://mapaContaminacionMadrid.com/60> .
-mcm:EstacionBicis0 a mcm:bicycleStation ;
-	<http://mapaContaminacionMadrid.com/relations/coordenada-x> "440394,55" ;
-	<http://mapaContaminacionMadrid.com/relations/coordenada-y> "4474280,53" ;
-	juso:Neighborhood "01-06 SOL" ;
-	<http://mapaContaminacionMadrid.com/relation/hasAddress> "PUERTA DEL SOL, PLAZA, DE LA 1 B" ;
-	<http://mapaContaminacionMadrid.com/relation/hasBicycles> "24"^^<http://www.w3.org/2001/XMLSchema#int> .
+	<http://mapaContaminacionMadrid.com/relations/hasStation> mcm:EstacionMeteorologica60 .
 
+
+mcm:medida376 a mcm:measure .
 mcm:EstacionBicis1 a mcm:bicycleStation ;
 	<http://mapaContaminacionMadrid.com/relations/coordenada-x> "440404,21" ;
 	<http://mapaContaminacionMadrid.com/relations/coordenada-y> "4474287,39" ;

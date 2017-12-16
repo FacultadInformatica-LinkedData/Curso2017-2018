@@ -1,0 +1,2791 @@
+[
+  {
+    "op": "core/column-split",
+    "description": "Split column adres by separator",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "adres",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": " - ",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column adres 1 using expression grel:if(get(value.partition(/([\\d?][-]?)+(\\w)*/),0)==\"\", join(get(reverse(value.partition(/([\\d?][-]?)+(\\w)*/)),0,2),\";\"), join(get(value.partition(/([\\d?][-]?)+(\\w)*/),0,2),\";\"))",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "adres 1",
+    "expression": "grel:if(get(value.partition(/([\\d?][-]?)+(\\w)*/),0)==\"\", join(get(reverse(value.partition(/([\\d?][-]?)+(\\w)*/)),0,2),\";\"), join(get(value.partition(/([\\d?][-]?)+(\\w)*/),0,2),\";\"))",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column adres 1 by separator",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "adres 1",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": ";",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column adres 2 by separator",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "adres 2",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": " ",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column adresse by separator",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "adresse",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": " - ",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column adresse 1 using expression grel:if(get(value.partition(/([\\d?][-]?)+(\\w)*/),0)==\"\", join(get(reverse(value.partition(/([\\d?][-]?)+(\\w)*/)),0,2),\";\"), join(get(value.partition(/([\\d?][-]?)+(\\w)*/),0,2),\";\"))",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "adresse 1",
+    "expression": "grel:if(get(value.partition(/([\\d?][-]?)+(\\w)*/),0)==\"\", join(get(reverse(value.partition(/([\\d?][-]?)+(\\w)*/)),0,2),\";\"), join(get(value.partition(/([\\d?][-]?)+(\\w)*/),0,2),\";\"))",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column adresse 1 by separator",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "adresse 1",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": ";",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column adresse 2 by separator",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "adresse 2",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": ";",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column adresse 1 1 to RoadName1@FR",
+    "oldColumnName": "adresse 1 1",
+    "newColumnName": "RoadName1@FR"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column adresse 1 2 to RoadNumber1",
+    "oldColumnName": "adresse 1 2",
+    "newColumnName": "RoadNumber1"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column adresse 2 1 to RoadName2@FR",
+    "oldColumnName": "adresse 2 1",
+    "newColumnName": "RoadName2@FR"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column adres 1 1 to RoadName1@BE",
+    "oldColumnName": "adres 1 1",
+    "newColumnName": "RoadName1@BE"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column adres 2 1 to RoadName2@BE",
+    "oldColumnName": "adres 2 1",
+    "newColumnName": "RoadName2@BE"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column adres 1 2",
+    "columnName": "adres 1 2"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column adres 2 2",
+    "columnName": "adres 2 2"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column nom to Parking@FR",
+    "oldColumnName": "nom",
+    "newColumnName": "Parking@FR"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column naam to Parking@BE",
+    "oldColumnName": "naam",
+    "newColumnName": "Parking@BE"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column gestionnaire to Enterprise",
+    "oldColumnName": "gestionnaire",
+    "newColumnName": "Enterprise"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column zone to Zone",
+    "oldColumnName": "zone",
+    "newColumnName": "Zone"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column cp to PostalCode",
+    "oldColumnName": "cp",
+    "newColumnName": "PostalCode"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column capac_aff to ParkingSpots",
+    "oldColumnName": "capac_aff",
+    "newColumnName": "ParkingSpots"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column commune to City@FR",
+    "oldColumnName": "commune",
+    "newColumnName": "City@FR"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column gemeente to City@BE",
+    "oldColumnName": "gemeente",
+    "newColumnName": "City@BE"
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column wkb_geometry by separator",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "wkb_geometry",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": " ",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column wkb_geometry 1",
+    "columnName": "wkb_geometry 1"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column wkb_geometry 2 to Coordinate_1",
+    "oldColumnName": "wkb_geometry 2",
+    "newColumnName": "Coordinate_1"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column wkb_geometry 3 to Coordinate_2",
+    "oldColumnName": "wkb_geometry 3",
+    "newColumnName": "Coordinate_2"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Coordinate_1 using expression grel:get(value.split(/\\(/),1)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Coordinate_1",
+    "expression": "grel:get(value.split(/\\(/),1)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Coordinate_2 using expression grel:get(value.split(/\\)/),0)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Coordinate_2",
+    "expression": "grel:get(value.split(/\\)/),0)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column nr",
+    "columnName": "nr"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column ogc_fid to PrimaryKeyNumber",
+    "oldColumnName": "ogc_fid",
+    "newColumnName": "PrimaryKeyNumber"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column FID to PrimaryKeyFID",
+    "oldColumnName": "FID",
+    "newColumnName": "PrimaryKeyFID"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Enterprise using expression grel:if(get(value,0)==\"?\",\"\",value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Enterprise",
+    "expression": "grel:if(get(value,0)==\"?\",\"\",value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://localhost:3333/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "park",
+          "uri": "http://www.semanticweb.org/grupo18/ontologies"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Zone",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/grupo18/ontologies##isPartOf",
+              "curie": "park:#isPartOf",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "City@BE"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://localhost:3333/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "park",
+          "uri": "http://www.semanticweb.org/grupo18/ontologies"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Zone",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/grupo18/ontologies##isPartOf",
+              "curie": "park:#isPartOf",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "City@BE"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://localhost:3333/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "park",
+          "uri": "http://www.semanticweb.org/grupo18/ontologies"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Zone",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+              "curie": "rdf:langString"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/grupo18/ontologies##isPartOf",
+              "curie": "park:#isPartOf",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "City@BE"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Parking@FR",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Parking@FR"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "RoadName1@FR",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/grupo18/ontologies##hasRoadName",
+              "curie": "park:#hasRoadName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "FR",
+                "columnName": "RoadName1@FR"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo18/ontologies##hasRoadNumber",
+              "curie": "park:#hasRoadNumber",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "RoadNumber1"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo18/ontologies##hasRoadName",
+              "curie": "park:#hasRoadName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "FR",
+                "columnName": "RoadName2@FR"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "City@FR",
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column RoadName2@FR using expression grel:if(get(value.partition(/([\\d?][-]?)+(\\w)*/),0)==\"\", join(get(reverse(value.partition(/([\\d?][-]?)+(\\w)*/)),0,2),\";\"), join(get(value.partition(/([\\d?][-]?)+(\\w)*/),0,2),\";\"))",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "RoadName2@FR",
+    "expression": "grel:if(get(value.partition(/([\\d?][-]?)+(\\w)*/),0)==\"\", join(get(reverse(value.partition(/([\\d?][-]?)+(\\w)*/)),0,2),\";\"), join(get(value.partition(/([\\d?][-]?)+(\\w)*/),0,2),\";\"))",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column RoadName2@FR by separator",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "RoadName2@FR",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": ";",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column RoadName2@FR 1 to RoadName2@FR",
+    "oldColumnName": "RoadName2@FR 1",
+    "newColumnName": "RoadName2@FR"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column RoadName2@FR 2 to RoadNumber2",
+    "oldColumnName": "RoadName2@FR 2",
+    "newColumnName": "RoadNumber2"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/grupo18/csv/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "park",
+          "uri": "http://www.semanticweb.org/grupo18/ontologies"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Zone",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+              "curie": "rdf:langString"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/grupo18/ontologies##isPartOf",
+              "curie": "park:#isPartOf",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "City@BE"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Zone"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Parking@FR",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "FR",
+                "columnName": "Parking@FR"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "BE",
+                "columnName": "Parking@BE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo18/ontologies##isSituatedIn",
+              "curie": "park:#isSituatedIn",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "RoadName1@FR",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "RoadName1@FR",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/grupo18/ontologies##hasRoadName",
+              "curie": "park:#hasRoadName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "FR",
+                "columnName": "RoadName1@FR"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo18/ontologies##hasRoadNumber",
+              "curie": "park:#hasRoadNumber",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "RoadNumber1"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo18/ontologies##hasRoadName",
+              "curie": "park:#hasRoadName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "FR",
+                "columnName": "RoadName2@FR"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo18/ontologies##hasRoadNumber",
+              "curie": "park:#hasRoadNumber",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "RoadNumber2"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo18/ontologies##hasRoadName",
+              "curie": "park:#hasRoadName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "BE",
+                "columnName": "RoadName1@BE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo18/ontologies##hasRoadName",
+              "curie": "park:#hasRoadName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "BE",
+                "columnName": "RoadName2@BE"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "City@FR",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "FR",
+                "columnName": "City@FR"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "BE",
+                "columnName": "City@BE"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/grupo18/csv/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "park",
+          "uri": "http://www.semanticweb.org/grupo18/ontologies"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Zone",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+              "curie": "rdf:langString"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/grupo18/ontologies##isPartOf",
+              "curie": "park:#isPartOf",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "City@BE",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Zone"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Parking@FR",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "FR",
+                "columnName": "Parking@FR"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "BE",
+                "columnName": "Parking@BE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo18/ontologies##isSituatedIn",
+              "curie": "park:#isSituatedIn",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "RoadName1@FR",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo18/ontologies##hasCoordinate_1",
+              "curie": "park:#hasCoordinate_1",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Coordinate_1"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo18/ontologies##hasCoordinate_2",
+              "curie": "park:#hasCoordinate_2",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Coordinate_2"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo18/ontologies##hasParkingSpots",
+              "curie": "park:#hasParkingSpots",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ParkingSpots"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo18/ontologies##isOwnedBy",
+              "curie": "park:#isOwnedBy",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Enterprise",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "RoadName1@FR",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/grupo18/ontologies##hasRoadName",
+              "curie": "park:#hasRoadName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "FR",
+                "columnName": "RoadName1@FR"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo18/ontologies##hasRoadNumber",
+              "curie": "park:#hasRoadNumber",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "RoadNumber1"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo18/ontologies##hasRoadName",
+              "curie": "park:#hasRoadName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "FR",
+                "columnName": "RoadName2@FR"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo18/ontologies##hasRoadNumber",
+              "curie": "park:#hasRoadNumber",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "RoadNumber2"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo18/ontologies##hasRoadName",
+              "curie": "park:#hasRoadName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "BE",
+                "columnName": "RoadName1@BE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo18/ontologies##hasRoadName",
+              "curie": "park:#hasRoadName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "BE",
+                "columnName": "RoadName2@BE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo18/ontologies##hasPostalCode",
+              "curie": "park:#hasPostalCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PostalCode"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "City@FR",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "FR",
+                "columnName": "City@FR"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "BE",
+                "columnName": "City@BE"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column Address1 at index 7 based on column RoadName1@FR using expression grel:cells['RoadName1@FR'].value + \"; \" + cells['RoadNumber1'].value",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "Address1",
+    "columnInsertIndex": 7,
+    "baseColumnName": "RoadName1@FR",
+    "expression": "grel:cells['RoadName1@FR'].value + \"; \" + cells['RoadNumber1'].value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column Address2@FR at index 10 based on column RoadName2@FR using expression grel:cells['RoadName2@FR'].value + \"; \" + cells['RoadNumber2'].value",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "Address2@FR",
+    "columnInsertIndex": 10,
+    "baseColumnName": "RoadName2@FR",
+    "expression": "grel:cells['RoadName2@FR'].value + \"; \" + cells['RoadNumber2'].value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Address1 to Address1@FR",
+    "oldColumnName": "Address1",
+    "newColumnName": "Address1@FR"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column Address1@BE at index 13 based on column RoadName1@BE using expression grel:cells['RoadName1@BE'].value + \"; \" + cells['RoadNumber1'].value",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "Address1@BE",
+    "columnInsertIndex": 13,
+    "baseColumnName": "RoadName1@BE",
+    "expression": "grel:cells['RoadName1@BE'].value + \"; \" + cells['RoadNumber1'].value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column Address2 at index 15 based on column RoadName2@BE using expression grel:cells['RoadName2@BE'].value + \"; \" + cells['RoadNumber2'].value",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "Address2",
+    "columnInsertIndex": 15,
+    "baseColumnName": "RoadName2@BE",
+    "expression": "grel:cells['RoadName2@BE'].value + \"; \" + cells['RoadNumber2'].value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/grupo18/csv/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "dcterms",
+          "uri": "http://purl.org/dc/terms/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "vcard",
+          "uri": "http://www.w3.org/2006/vcard/ns#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "park",
+          "uri": "http://www.semanticweb.org/grupo18/ontologies"
+        },
+        {
+          "name": "geop",
+          "uri": "http://aims.fao.org/aos/geopolitical.owl#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Zone",
+          "rdfTypes": [
+            {
+              "uri": "http://dbpedia.org/ontology/Settlement",
+              "curie": "http://dbpedia.org/ontology/Settlement"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://purl.org/dc/terms/isPartOf",
+              "curie": "dcterms:isPartOf",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "City@BE",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Zone"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Parking@FR",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "FR",
+                "columnName": "Parking@FR"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "BE",
+                "columnName": "Parking@BE"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasAddress",
+              "curie": "vcard:hasAddress",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Address1@FR",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://aims.fao.org/aos/geopolitical.owl#hasCoordinate",
+              "curie": "geop:hasCoordinate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Coordinate_1"
+              }
+            },
+            {
+              "uri": "http://aims.fao.org/aos/geopolitical.owl#hasCoordinate",
+              "curie": "geop:hasCoordinate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Coordinate_2"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo18/ontologies##hasParkingSpots",
+              "curie": "park:#hasParkingSpots",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ParkingSpots"
+              }
+            },
+            {
+              "uri": "http://dbpedia.org/ontology/owns",
+              "curie": "http://dbpedia.org/ontology/owns",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Enterprise",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasAddress",
+              "curie": "vcard:hasAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Address2@FR"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Address1@FR",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Address1@FR"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Address1@BE"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "City@FR",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "FR",
+                "columnName": "City@FR"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "BE",
+                "columnName": "City@BE"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Address2@FR",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Address2@FR"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Address2 to Address2@BE",
+    "oldColumnName": "Address2",
+    "newColumnName": "Address2@BE"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/grupo18/csv/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "dcterms",
+          "uri": "http://purl.org/dc/terms/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "vcard",
+          "uri": "http://www.w3.org/2006/vcard/ns#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "park",
+          "uri": "http://www.semanticweb.org/grupo18/ontologies"
+        },
+        {
+          "name": "geop",
+          "uri": "http://aims.fao.org/aos/geopolitical.owl#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Zone",
+          "rdfTypes": [
+            {
+              "uri": "http://dbpedia.org/ontology/Settlement",
+              "curie": "http://dbpedia.org/ontology/Settlement"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://purl.org/dc/terms/isPartOf",
+              "curie": "dcterms:isPartOf",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "City@BE",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Zone"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Parking@FR",
+          "rdfTypes": [
+            {
+              "uri": "http://linkedgeodata.org/page/ontology/Parking",
+              "curie": "http://linkedgeodata.org/page/ontology/Parking"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "FR",
+                "columnName": "Parking@FR"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "BE",
+                "columnName": "Parking@BE"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasAddress",
+              "curie": "vcard:hasAddress",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Address1@FR",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://aims.fao.org/aos/geopolitical.owl#hasCoordinate",
+              "curie": "geop:hasCoordinate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Coordinate_1"
+              }
+            },
+            {
+              "uri": "http://aims.fao.org/aos/geopolitical.owl#hasCoordinate",
+              "curie": "geop:hasCoordinate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Coordinate_2"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo18/ontologies##hasParkingSpots",
+              "curie": "park:#hasParkingSpots",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ParkingSpots"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasAddress",
+              "curie": "vcard:hasAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Address2@FR"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Address1@FR",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#Address",
+              "curie": "vcard:Address"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Address1@FR"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Address1@BE"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/terms/isPartOf",
+              "curie": "dcterms:isPartOf",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Zone"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "City@FR",
+          "rdfTypes": [
+            {
+              "uri": "http://dbpedia.org/ontology/City",
+              "curie": "http://dbpedia.org/ontology/City"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "FR",
+                "columnName": "City@FR"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "BE",
+                "columnName": "City@BE"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Address2@FR",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#Address",
+              "curie": "vcard:Address"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Address2@FR"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Address2@BE"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/terms/isPartOf",
+              "curie": "dcterms:isPartOf",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Zone"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Enterprise",
+          "rdfTypes": [
+            {
+              "uri": "http://dbpedia.org/ontology/Company",
+              "curie": "http://dbpedia.org/ontology/Company"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Enterprise"
+              }
+            },
+            {
+              "uri": "http://dbpedia.org/ontology/owns",
+              "curie": "http://dbpedia.org/ontology/owns",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Parking@FR"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/grupo18/csv/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "dcterms",
+          "uri": "http://purl.org/dc/terms/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "vcard",
+          "uri": "http://www.w3.org/2006/vcard/ns#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "park",
+          "uri": "http://www.semanticweb.org/grupo18/ontologies"
+        },
+        {
+          "name": "geop",
+          "uri": "http://aims.fao.org/aos/geopolitical.owl#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Zone",
+          "rdfTypes": [
+            {
+              "uri": "http://dbpedia.org/ontology/Settlement",
+              "curie": "http://dbpedia.org/ontology/Settlement"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://purl.org/dc/terms/isPartOf",
+              "curie": "dcterms:isPartOf",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "City@BE",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Zone"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Parking@FR",
+          "rdfTypes": [
+            {
+              "uri": "http://linkedgeodata.org/page/ontology/Parking",
+              "curie": "http://linkedgeodata.org/page/ontology/Parking"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "FR",
+                "columnName": "Parking@FR"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "BE",
+                "columnName": "Parking@BE"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasAddress",
+              "curie": "vcard:hasAddress",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Address1@FR",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://aims.fao.org/aos/geopolitical.owl#hasCoordinate",
+              "curie": "geop:hasCoordinate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Coordinate_1"
+              }
+            },
+            {
+              "uri": "http://aims.fao.org/aos/geopolitical.owl#hasCoordinate",
+              "curie": "geop:hasCoordinate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Coordinate_2"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo18/ontologies##hasParkingSpots",
+              "curie": "park:#hasParkingSpots",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ParkingSpots"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasAddress",
+              "curie": "vcard:hasAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Address2@FR"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Address1@FR",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#Address",
+              "curie": "vcard:Address"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Address1@FR"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Address1@BE"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/terms/isPartOf",
+              "curie": "dcterms:isPartOf",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Zone"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "City@FR",
+          "rdfTypes": [
+            {
+              "uri": "http://dbpedia.org/ontology/City",
+              "curie": "http://dbpedia.org/ontology/City"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "FR",
+                "columnName": "City@FR"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "BE",
+                "columnName": "City@BE"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Address2@FR",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#Address",
+              "curie": "vcard:Address"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Address2@FR"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Address2@BE"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/terms/isPartOf",
+              "curie": "dcterms:isPartOf",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Zone"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Enterprise",
+          "rdfTypes": [
+            {
+              "uri": "http://dbpedia.org/ontology/Company",
+              "curie": "http://dbpedia.org/ontology/Company"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Enterprise"
+              }
+            },
+            {
+              "uri": "http://dbpedia.org/ontology/owns",
+              "curie": "http://dbpedia.org/ontology/owns",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Parking@FR"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/grupo18/csv/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "dcterms",
+          "uri": "http://purl.org/dc/terms/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "vcard",
+          "uri": "http://www.w3.org/2006/vcard/ns#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "park",
+          "uri": "http://www.semanticweb.org/grupo18/ontologies"
+        },
+        {
+          "name": "geop",
+          "uri": "http://aims.fao.org/aos/geopolitical.owl#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Zone",
+          "rdfTypes": [
+            {
+              "uri": "http://dbpedia.org/ontology/Settlement",
+              "curie": "http://dbpedia.org/ontology/Settlement"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://purl.org/dc/terms/isPartOf",
+              "curie": "dcterms:isPartOf",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "City@BE",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Zone"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Parking@FR",
+          "rdfTypes": [
+            {
+              "uri": "http://linkedgeodata.org/page/ontology/Parking",
+              "curie": "http://linkedgeodata.org/page/ontology/Parking"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "FR",
+                "columnName": "Parking@FR"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "BE",
+                "columnName": "Parking@BE"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasAddress",
+              "curie": "vcard:hasAddress",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Address1@FR",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://aims.fao.org/aos/geopolitical.owl#hasCoordinate",
+              "curie": "geop:hasCoordinate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Coordinate_1"
+              }
+            },
+            {
+              "uri": "http://aims.fao.org/aos/geopolitical.owl#hasCoordinate",
+              "curie": "geop:hasCoordinate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Coordinate_2"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo18/ontologies##hasParkingSpots",
+              "curie": "park:#hasParkingSpots",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ParkingSpots"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasAddress",
+              "curie": "vcard:hasAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Address2@FR"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Address1@FR",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#Address",
+              "curie": "vcard:Address"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Address1@FR"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Address1@BE"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/terms/isPartOf",
+              "curie": "dcterms:isPartOf",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Zone"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo18/ontologies#hasRoadName",
+              "curie": "park:#hasRoadName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "RoadName1@FR"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo18/ontologies#hasRoadName",
+              "curie": "park:#hasRoadName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "RoadName1@BE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo18/ontologies#hasRoadNumber",
+              "curie": "park:#hasRoadNumber",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "RoadNumber1"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "City@FR",
+          "rdfTypes": [
+            {
+              "uri": "http://dbpedia.org/ontology/City",
+              "curie": "http://dbpedia.org/ontology/City"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "FR",
+                "columnName": "City@FR"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "BE",
+                "columnName": "City@BE"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Address2@FR",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#Address",
+              "curie": "vcard:Address"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Address2@FR"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Address2@BE"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/terms/isPartOf",
+              "curie": "dcterms:isPartOf",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Zone"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo18/ontologies#hasRoadName",
+              "curie": "park:#hasRoadName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "RoadName2@FR"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo18/ontologies#hasRoadName",
+              "curie": "park:#hasRoadName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "RoadName2@BE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo18/ontologies#hasRoadNumber",
+              "curie": "park:#hasRoadNumber",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "RoadNumber2"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Enterprise",
+          "rdfTypes": [
+            {
+              "uri": "http://dbpedia.org/ontology/Company",
+              "curie": "http://dbpedia.org/ontology/Company"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Enterprise"
+              }
+            },
+            {
+              "uri": "http://dbpedia.org/ontology/owns",
+              "curie": "http://dbpedia.org/ontology/owns",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Parking@FR"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/grupo18/csv/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "dcterms",
+          "uri": "http://purl.org/dc/terms/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "vcard",
+          "uri": "http://www.w3.org/2006/vcard/ns#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "park",
+          "uri": "http://www.semanticweb.org/grupo18/ontologies"
+        },
+        {
+          "name": "geop",
+          "uri": "http://aims.fao.org/aos/geopolitical.owl#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Zone",
+          "rdfTypes": [
+            {
+              "uri": "http://dbpedia.org/ontology/Settlement",
+              "curie": "http://dbpedia.org/ontology/Settlement"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://purl.org/dc/terms/isPartOf",
+              "curie": "dcterms:isPartOf",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "City@BE",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Zone"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Parking@FR",
+          "rdfTypes": [
+            {
+              "uri": "http://linkedgeodata.org/page/ontology/Parking",
+              "curie": "http://linkedgeodata.org/page/ontology/Parking"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "FR",
+                "columnName": "Parking@FR"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "BE",
+                "columnName": "Parking@BE"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasAddress",
+              "curie": "vcard:hasAddress",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Address1@FR",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://aims.fao.org/aos/geopolitical.owl#hasCoordinate",
+              "curie": "geop:hasCoordinate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Coordinate_1"
+              }
+            },
+            {
+              "uri": "http://aims.fao.org/aos/geopolitical.owl#hasCoordinate",
+              "curie": "geop:hasCoordinate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Coordinate_2"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo18/ontologies##hasParkingSpots",
+              "curie": "park:#hasParkingSpots",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ParkingSpots"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasAddress",
+              "curie": "vcard:hasAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Address2@FR"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Address1@FR",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#Address",
+              "curie": "vcard:Address"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Address1@FR"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Address1@BE"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/terms/isPartOf",
+              "curie": "dcterms:isPartOf",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Zone"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo18/ontologies#hasRoadName",
+              "curie": "park:#hasRoadName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "RoadName1@FR"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo18/ontologies#hasRoadName",
+              "curie": "park:#hasRoadName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "RoadName1@BE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo18/ontologies#hasRoadNumber",
+              "curie": "park:#hasRoadNumber",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "RoadNumber1"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "City@FR",
+          "rdfTypes": [
+            {
+              "uri": "http://dbpedia.org/ontology/City",
+              "curie": "http://dbpedia.org/ontology/City"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "FR",
+                "columnName": "City@FR"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "BE",
+                "columnName": "City@BE"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Address2@FR",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#Address",
+              "curie": "vcard:Address"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Address2@FR"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Address2@BE"
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/terms/isPartOf",
+              "curie": "dcterms:isPartOf",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Zone"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo18/ontologies#hasRoadName",
+              "curie": "park:#hasRoadName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "RoadName2@FR"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo18/ontologies#hasRoadName",
+              "curie": "park:#hasRoadName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "RoadName2@BE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo18/ontologies#hasRoadNumber",
+              "curie": "park:#hasRoadNumber",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "RoadNumber2"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Enterprise",
+          "rdfTypes": [
+            {
+              "uri": "http://dbpedia.org/ontology/Company",
+              "curie": "http://dbpedia.org/ontology/Company"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Enterprise"
+              }
+            },
+            {
+              "uri": "http://dbpedia.org/ontology/owns",
+              "curie": "http://dbpedia.org/ontology/owns",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Parking@FR"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

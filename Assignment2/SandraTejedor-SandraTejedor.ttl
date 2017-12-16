@@ -1,0 +1,14 @@
+@prefix class: <http://assignment2.org/class#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+class:Measurement8401 property:atTime "2010-06-12T12:00:12"^^xsd:dateTime ;
+	property:hasTemperature "29"^^xsd:integer .
+
+class:Sensor029 property:hasMeasurement class:Measurement8401 .
+
+class:User10A property:hasName "Pedro" .
+
+class:Computer101 property:hasOwner class:User10A .
+
+class:Class01 property:includes class:Sensor029 ,
+    class:Computer101 .

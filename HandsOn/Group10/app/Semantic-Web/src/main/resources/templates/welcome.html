@@ -1,0 +1,239 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>ContaminacionAcustica</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<link rel="stylesheet" type="text/css"
+	href="webjars/bootstrap/3.3.7/css/bootstrap.min.css" />
+
+<link rel="stylesheet" th:href="@{/css/main.css}"
+	href="../../css/main.css" />
+
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" />
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+	<!-- Resize the browser window to see the effect.The columns will automatically -->
+	<!-- stack on top of each other when the screen is less than 576px wide. -->
+	<div class="container-fluid">
+		<div id="header" class="row">
+			<div id="image" class="col-sm">
+				<div class="box">
+					<p class="title">Contaminacion-acustica.org</p>
+					<p>En este sitio podra consultar el grado de
+					contaminación acústica de su zona.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid">
+		<div class="row">
+			<div id="imagen" class="col-sm-4" style="background-color: white;">			
+        		<img th:src="${imagen}" />
+        		<div class="row">
+					<div class="col-sm" th:text="${descripcion}" style="background-color: white; text-align: justify; padding-top: 25px; margin-left: 20px;"></div>
+				</div>
+			</div>
+			<div class="col-sm-3" id="result">
+				<p><b>Nivel de contaminación </b></p>
+				<p><b>de su zona </b></p> 
+				<div class="show_result">
+ 					<p th:text="${nivel}">78,7</p>
+				</div>
+			</div>
+			<div class="col-sm-5" style="background-color: white; text-align: center; padding: 5px;">
+				<p><b id="rank" style="text-align: center;">Ranking de zonas</b></p>
+				<div class="show_ranking_table">
+					<table class="ranking_table">
+						<tr>
+							<td>Posición</td>
+							<td>Zona</td>
+							<td>Nivel acústico</td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>Gregorio Marañón</td>
+							<td>70,7</td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>Plaza del Emperador Carlos V</td>
+							<td>69,3</td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td>Plaza Castilla</td>
+							<td>68,5</td>
+						</tr>
+						<tr>
+							<td>4</td>
+							<td>Paseo de Recoletos</td>
+							<td>68,2</td>
+						</tr>
+						<tr>
+							<td>5</td>
+							<td>Escuelas Aguirre</td>
+							<td>67</td>
+						</tr>
+						<tr>
+							<td>6</td>
+							<td>Cuatro Vientos</td>
+							<td>67</td>
+						</tr>
+						<tr>
+							<td>7</td>
+							<td>Santa Eugenia</td>
+							<td>65,9</td>
+						</tr>
+						<tr>
+							<td>8</td>
+							<td>Plaza del Carmen</td>
+							<td>65,8</td>
+						</tr>
+						<tr>
+							<td>9</td>
+							<td>Fdez. Ladreda</td>
+							<td>65,3</td>
+						</tr>
+						<tr>
+							<td>10</td>
+							<td>Plaza de España</td>
+							<td>65</td>
+						</tr>
+						<tr>
+							<td>11</td>
+							<td>Cuatro Caminos</td>
+							<td>65</td>
+						</tr>
+						<tr>
+							<td>12</td>
+							<td>Plaza Manuel Becerra</td>
+							<td>64,8</td>
+						</tr>
+						<tr>
+							<td>13</td>
+							<td>Barrio del Pilar</td>
+							<td>64,6</td>
+						</tr>
+						<tr>
+							<td>14</td>
+							<td>Campo de las Naciones</td>
+							<td>64</td>
+						</tr>
+						<tr>
+							<td>15</td>
+							<td>Vallecas</td>
+							<td>63,8</td>
+						</tr>
+						<tr>
+							<td>16</td>
+							<td>Sanchinarro</td>
+							<td>63,4</td>
+						</tr>
+						<tr>
+							<td>17</td>
+							<td>Paseo de la Castellana</td>
+							<td>62,8</td>
+						</tr>
+						<tr>
+							<td>18</td>
+							<td>Moratalaz</td>
+							<td>62,6</td>
+						</tr>
+						<tr>
+							<td>19</td>
+							<td>Barajas Pueblo</td>
+							<td>62</td>
+						</tr>
+						<tr>
+							<td>20</td>
+							<td>Villaverde</td>
+							<td>61,6</td>
+						</tr>
+						<tr>
+							<td>21</td>
+							<td>Ensanche de Vallecas</td>
+							<td>61,5</td>
+						</tr>
+						<tr>
+							<td>22</td>
+							<td>Calle Arturo Soria</td>
+							<td>61,4</td>
+						</tr>
+						<tr>
+							<td>23</td>
+							<td>Alto Extremadura</td>
+							<td>61,3</td>
+						</tr>
+						<tr>
+							<td>24</td>
+							<td>Tres Olivos</td>
+							<td>58,7</td>
+						</tr>
+						<tr>
+							<td>25</td>
+							<td>Mendez Álvaro</td>
+							<td>58,3</td>
+						</tr>
+						<tr>
+							<td>26</td>
+							<td>El Pardo</td>
+							<td>56,4</td>
+						</tr>
+						<tr>
+							<td>27</td>
+							<td>Casa de Campo</td>
+							<td>47,5</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+<!-- 	<div class="row"> -->
+<!-- 		<div class="column"> -->
+<!-- 			<div class="input_zone"> -->
+<!-- 				<p> -->
+<!-- 					Introduzca su zona: <input type="text" th:name="text" -->
+<!-- 						th:placeholder="Aluche" /> -->
+<!-- 					<button type="submit">Enviar</button> -->
+<!-- 				</p> -->
+<!-- 			</div> -->
+
+<!-- 			<div class="drop-down"> -->
+<!-- 				<br></br> -->
+<!-- 				<p>Si lo prefiere, seleccione una de nuestra lista:</p> -->
+<!-- 				<select name="zone"> -->
+<!-- 					<th:block th:each="test : ${list}"> -->
+<!-- 						<option th:text="${test.name}"></option> -->
+<!-- 					</th:block> -->
+<!-- 				</select> -->
+<!-- 				<button type="submit">Enviar</button> -->
+<!-- 			</div> -->
+<!-- 		</div> -->
+<!-- 	</div> -->
+
+
+	<script type="text/javascript"
+		src="webjars/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
