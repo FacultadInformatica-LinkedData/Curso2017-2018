@@ -1,0 +1,3176 @@
+[
+  {
+    "op": "core/column-removal",
+    "description": "Remove column EQUIPAMIENTO",
+    "columnName": "EQUIPAMIENTO"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column TRANSPORTE",
+    "columnName": "TRANSPORTE"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column Desripcion at index 3 based on column DESCRIPCION-ENTIDAD using expression grel:value+\" \"+cells[\"DESCRIPCION\"].value",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "Desripcion",
+    "columnInsertIndex": 3,
+    "baseColumnName": "DESCRIPCION-ENTIDAD",
+    "expression": "grel:value+\" \"+cells[\"DESCRIPCION\"].value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column DESCRIPCION",
+    "columnName": "DESCRIPCION"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column DESCRIPCION-ENTIDAD",
+    "columnName": "DESCRIPCION-ENTIDAD"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column ACCESIBILIDAD",
+    "columnName": "ACCESIBILIDAD"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column CONTENT-URL",
+    "columnName": "CONTENT-URL"
+  },
+  {
+    "op": "core/column-move",
+    "description": "Move column NOMBRE-VIA to position 5",
+    "columnName": "NOMBRE-VIA",
+    "index": 5
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column TIPO-NUM",
+    "columnName": "TIPO-NUM"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column Calle at index 5 based on column CLASE-VIAL using expression grel:value+\" \"+[\"NOMBRE-VIA\"].value+\" \"+[\"NUM\"].value",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "Calle",
+    "columnInsertIndex": 5,
+    "baseColumnName": "CLASE-VIAL",
+    "expression": "grel:value+\" \"+[\"NOMBRE-VIA\"].value+\" \"+[\"NUM\"].value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Calle",
+    "columnName": "Calle"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column Calle at index 5 based on column CLASE-VIAL using expression grel:value+\" \"+cells[\"NOMBRE-VIA\"].value+\" \"+cells[\"NUM\"].value",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "Calle",
+    "columnInsertIndex": 5,
+    "baseColumnName": "CLASE-VIAL",
+    "expression": "grel:value+\" \"+cells[\"NOMBRE-VIA\"].value+\" \"+cells[\"NUM\"].value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column CLASE-VIAL",
+    "columnName": "CLASE-VIAL"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column NOMBRE-VIA",
+    "columnName": "NOMBRE-VIA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column NUM",
+    "columnName": "NUM"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column PLANTA",
+    "columnName": "PLANTA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column PUERTA",
+    "columnName": "PUERTA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column ESCALERAS",
+    "columnName": "ESCALERAS"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column ORIENTACION",
+    "columnName": "ORIENTACION"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column LOCALIDAD",
+    "columnName": "LOCALIDAD"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column PROVINCIA",
+    "columnName": "PROVINCIA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column CODIGO-POSTAL",
+    "columnName": "CODIGO-POSTAL"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column BARRIO",
+    "columnName": "BARRIO"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column COORDENADA-X",
+    "columnName": "COORDENADA-X"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column COORDENADA-Y",
+    "columnName": "COORDENADA-Y"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column TELEFONO",
+    "columnName": "TELEFONO"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column FAX",
+    "columnName": "FAX"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column EMAIL",
+    "columnName": "EMAIL"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column",
+    "columnName": "Column"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.wsdlfiupm.es/resources/group14/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "resource",
+          "value": "Turismo",
+          "rdfTypes": [],
+          "links": []
+        },
+        {
+          "nodeType": "resource",
+          "value": "Localidad",
+          "rdfTypes": [],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.wsdlfiupm.es/resources/group14/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "kilometric_point",
+              "curie": ":kilometric_point",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PK"
+              }
+            },
+            {
+              "uri": "name",
+              "curie": ":name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "description",
+              "curie": ":description",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Desripcion"
+              }
+            },
+            {
+              "uri": "horary",
+              "curie": ":horary",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "street",
+              "curie": ":street",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Calle"
+              }
+            },
+            {
+              "uri": "district",
+              "curie": ":district",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO"
+              }
+            },
+            {
+              "uri": "latitude",
+              "curie": ":latitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LATITUD"
+              }
+            },
+            {
+              "uri": "longitude",
+              "curie": ":longitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LONGITUD"
+              }
+            },
+            {
+              "uri": "type",
+              "curie": ":type",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.wsdlfiupm.es/resources/group14/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NOMBRE",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "kilometric_point",
+              "curie": ":kilometric_point",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PK"
+              }
+            },
+            {
+              "uri": "name",
+              "curie": ":name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "description",
+              "curie": ":description",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Desripcion"
+              }
+            },
+            {
+              "uri": "horary",
+              "curie": ":horary",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "street",
+              "curie": ":street",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Calle"
+              }
+            },
+            {
+              "uri": "district",
+              "curie": ":district",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO"
+              }
+            },
+            {
+              "uri": "latitude",
+              "curie": ":latitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LATITUD"
+              }
+            },
+            {
+              "uri": "longitude",
+              "curie": ":longitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LONGITUD"
+              }
+            },
+            {
+              "uri": "type",
+              "curie": ":type",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column PK",
+    "columnName": "PK"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.wsdlfiupm.es/resources/group14/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NOMBRE",
+          "rdfTypes": [
+            {
+              "uri": "class/Monuments",
+              "curie": ":class/Monuments"
+            }
+          ],
+          "links": [
+            {
+              "uri": "properties/description",
+              "curie": ":properties/description",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Desripcion"
+              }
+            },
+            {
+              "uri": "properties/schedule",
+              "curie": ":properties/schedule",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "properties/type",
+              "curie": ":properties/type",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO"
+              }
+            },
+            {
+              "uri": "properties/location",
+              "curie": ":properties/location",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Calle",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Calle",
+          "rdfTypes": [
+            {
+              "uri": "class/Position",
+              "curie": ":class/Position"
+            }
+          ],
+          "links": [
+            {
+              "uri": "properties/street",
+              "curie": ":properties/street",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Calle"
+              }
+            },
+            {
+              "uri": "properties/district",
+              "curie": ":properties/district",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO"
+              }
+            },
+            {
+              "uri": "properties/longitude",
+              "curie": ":properties/longitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LONGITUD"
+              }
+            },
+            {
+              "uri": "properties/latitude",
+              "curie": ":properties/latitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LATITUD"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.wsdlfiupm.es/resources/group14/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NOMBRE",
+          "rdfTypes": [
+            {
+              "uri": "class/Monuments_Museums_Organizations",
+              "curie": ":class/Monuments_Museums_Organizations"
+            }
+          ],
+          "links": [
+            {
+              "uri": "properties/description",
+              "curie": ":properties/description",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Desripcion"
+              }
+            },
+            {
+              "uri": "properties/schedule",
+              "curie": ":properties/schedule",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "properties/type",
+              "curie": ":properties/type",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO"
+              }
+            },
+            {
+              "uri": "properties/location",
+              "curie": ":properties/location",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Calle",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Calle",
+          "rdfTypes": [
+            {
+              "uri": "class/Position",
+              "curie": ":class/Position"
+            }
+          ],
+          "links": [
+            {
+              "uri": "properties/street",
+              "curie": ":properties/street",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Calle"
+              }
+            },
+            {
+              "uri": "properties/district",
+              "curie": ":properties/district",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO"
+              }
+            },
+            {
+              "uri": "properties/longitude",
+              "curie": ":properties/longitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LONGITUD"
+              }
+            },
+            {
+              "uri": "properties/latitude",
+              "curie": ":properties/latitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LATITUD"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TIPO using expression grel:\"http://www.wsdlfiupm.es/resources/group14/types/Historic\"",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "monumentos",
+          "name": "TIPO",
+          "type": "text",
+          "columnName": "TIPO"
+        }
+      ]
+    },
+    "columnName": "TIPO",
+    "expression": "grel:\"http://www.wsdlfiupm.es/resources/group14/types/Historic\"",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TIPO using expression grel:\"http://www.wsdlfiupm.es/resources/group14/types/Institutes\"",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "/con",
+          "name": "TIPO",
+          "type": "text",
+          "columnName": "TIPO"
+        }
+      ]
+    },
+    "columnName": "TIPO",
+    "expression": "grel:\"http://www.wsdlfiupm.es/resources/group14/types/Institutes\"",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.wsdlfiupm.es/resources/group14/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NOMBRE",
+          "rdfTypes": [
+            {
+              "uri": "class/Monuments_Museums_Organizations",
+              "curie": ":class/Monuments_Museums_Organizations"
+            }
+          ],
+          "links": [
+            {
+              "uri": "properties/description",
+              "curie": ":properties/description",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Desripcion"
+              }
+            },
+            {
+              "uri": "properties/schedule",
+              "curie": ":properties/schedule",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "properties/type",
+              "curie": ":properties/type",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "properties/location",
+              "curie": ":properties/location",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Calle",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Calle",
+          "rdfTypes": [
+            {
+              "uri": "class/Position",
+              "curie": ":class/Position"
+            }
+          ],
+          "links": [
+            {
+              "uri": "properties/street",
+              "curie": ":properties/street",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Calle"
+              }
+            },
+            {
+              "uri": "properties/district",
+              "curie": ":properties/district",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO"
+              }
+            },
+            {
+              "uri": "properties/longitude",
+              "curie": ":properties/longitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LONGITUD"
+              }
+            },
+            {
+              "uri": "properties/latitude",
+              "curie": ":properties/latitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LATITUD"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column NOMBRE to type http://dbpedia.org/ontology/Place",
+    "columnName": "NOMBRE",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://localhost:3333/extension/rdf-extension/services/dbpedia",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://dbpedia.org/ontology/Place",
+        "name": "dbo:Place"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Banco de España (http://dbpedia.org/resource/Bank_of_Spain) for cells containing \"Banco de Espa�a\" in column NOMBRE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Banco de Espa�a",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Bank_of_Spain",
+      "name": "Banco de España",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Basílica Pontificia de San Miguel (http://dbpedia.org/resource/St._Michael's_Basilica_(Madrid)) for cells containing \"Bas�lica Pontificia de San Miguel\" in column NOMBRE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Bas�lica Pontificia de San Miguel",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/St._Michael's_Basilica_(Madrid)",
+      "name": "Basílica Pontificia de San Miguel",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Biblioteca Nacional de España (http://dbpedia.org/resource/Biblioteca_Nacional_de_España) for cells containing \"Biblioteca Nacional de Espa�a\" in column NOMBRE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Biblioteca Nacional de Espa�a",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Biblioteca_Nacional_de_España",
+      "name": "Biblioteca Nacional de España",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Casa de América (http://www.wikidata.org/entity/Q8341733) for cells containing \"Casa de Am�rica\" in column NOMBRE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "NOMBRE: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "NOMBRE"
+        }
+      ]
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Casa de Am�rica",
+    "judgment": "matched",
+    "match": {
+      "id": "http://www.wikidata.org/entity/Q8341733",
+      "name": "Casa de América",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Casa de Cisneros (http://dbpedia.org/resource/Casa_de_Cisneros_(Madrid)) for cells containing \"Casa de Cisneros\" in column NOMBRE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "NOMBRE: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "NOMBRE"
+        }
+      ]
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Casa de Cisneros",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Casa_de_Cisneros_(Madrid)",
+      "name": "Casa de Cisneros",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Casa de la Panaderia (http://dbpedia.org/resource/Casa_de_la_Panaderia) for cells containing \"Casa de La Panader�a\" in column NOMBRE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "NOMBRE: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "NOMBRE"
+        }
+      ]
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Casa de La Panader�a",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Casa_de_la_Panaderia",
+      "name": "Casa de la Panaderia",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Casa de la Villa, Madrid (http://www.wikidata.org/entity/Q21155851) for cells containing \"Casa de La Villa. Ayuntamiento de Madrid\" in column NOMBRE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "NOMBRE: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "NOMBRE"
+        }
+      ]
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Casa de La Villa. Ayuntamiento de Madrid",
+    "judgment": "matched",
+    "match": {
+      "id": "http://www.wikidata.org/entity/Q21155851",
+      "name": "Casa de la Villa, Madrid",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Casa de Velazquez (http://dbpedia.org/resource/Casa_de_Velazquez) for cells containing \"Casa de Vel�zquez\" in column NOMBRE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "NOMBRE: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "NOMBRE"
+        }
+      ]
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Casa de Vel�zquez",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Casa_de_Velazquez",
+      "name": "Casa de Velazquez",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Retiro (Madrid) (http://dbpedia.org/resource/Retiro_(Madrid)) for cells containing \"Cas�n del Buen Retiro\" in column NOMBRE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "NOMBRE: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "NOMBRE"
+        }
+      ]
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Cas�n del Buen Retiro",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Retiro_(Madrid)",
+      "name": "Retiro (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Castillo de La Alameda (http://www.wikidata.org/entity/Q8342365) for cells containing \"Castillo de la Alameda\" in column NOMBRE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "NOMBRE: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "NOMBRE"
+        }
+      ]
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Castillo de la Alameda",
+    "judgment": "matched",
+    "match": {
+      "id": "http://www.wikidata.org/entity/Q8342365",
+      "name": "Castillo de La Alameda",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Catedral de la Almudena (Madrid) (http://dbpedia.org/resource/Almudena_Cathedral) for cells containing \"Catedral Santa Mar�a la Real de la Almudena\" in column NOMBRE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "NOMBRE: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "NOMBRE"
+        }
+      ]
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Catedral Santa Mar�a la Real de la Almudena",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Almudena_Cathedral",
+      "name": "Catedral de la Almudena (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"Centro Conde Duque\" in column NOMBRE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "NOMBRE: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "NOMBRE"
+        }
+      ]
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Centro Conde Duque"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Centro de Estudios Politicos y Constitucionales (http://dbpedia.org/resource/Centro_de_Estudios_Politicos_y_Constitucionales) for cells containing \"Centro de Estudios Pol�ticos y Constitucionales\" in column NOMBRE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "NOMBRE: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "NOMBRE"
+        }
+      ]
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Centro de Estudios Pol�ticos y Constitucionales",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Centro_de_Estudios_Politicos_y_Constitucionales",
+      "name": "Centro de Estudios Politicos y Constitucionales",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic La Casa Encendida (http://dbpedia.org/resource/La_Casa_Encendida_(Madrid)) for cells containing \"Centro Social y Cultural La Casa Encendida\" in column NOMBRE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "NOMBRE: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "NOMBRE"
+        }
+      ]
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Centro Social y Cultural La Casa Encendida",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/La_Casa_Encendida_(Madrid)",
+      "name": "La Casa Encendida",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Circulo de Bellas Artes (http://dbpedia.org/resource/Círculo_de_Bellas_Artes) for cells containing \"C�rculo de Bellas Artes\" in column NOMBRE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "NOMBRE: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "NOMBRE"
+        }
+      ]
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "C�rculo de Bellas Artes",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Círculo_de_Bellas_Artes",
+      "name": "Circulo de Bellas Artes",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Congreso de los Diputados (http://dbpedia.org/resource/Congreso_de_los_Diputados) for cells containing \"Congreso de los Diputados\" in column NOMBRE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "NOMBRE: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "NOMBRE"
+        }
+      ]
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Congreso de los Diputados",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Congreso_de_los_Diputados",
+      "name": "Congreso de los Diputados",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Consejo de Estado (España) (http://dbpedia.org/resource/Spanish_Council_of_State) for cells containing \"Consejo de Estado\" in column NOMBRE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "NOMBRE: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "NOMBRE"
+        }
+      ]
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Consejo de Estado",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Spanish_Council_of_State",
+      "name": "Consejo de Estado (España)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Convento de las Comendadoras de Santiago (Madrid) (http://dbpedia.org/resource/Convento_de_las_Comendadoras_de_Santiago_(Madrid)) for cells containing \"Convento de las Comendadoras de Santiago\" in column NOMBRE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "NOMBRE: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "NOMBRE"
+        }
+      ]
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Convento de las Comendadoras de Santiago",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Convento_de_las_Comendadoras_de_Santiago_(Madrid)",
+      "name": "Convento de las Comendadoras de Santiago (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Edificio Metropolis (http://dbpedia.org/resource/Edificio_Metropolis) for cells containing \"Edificio Metr�polis\" in column NOMBRE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "NOMBRE: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "NOMBRE"
+        }
+      ]
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Edificio Metr�polis",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Edificio_Metropolis",
+      "name": "Edificio Metropolis",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Ermita de San Antonio de la Florida (http://dbpedia.org/resource/Royal_Chapel_of_St._Anthony_of_La_Florida) for cells containing \"Ermita de San Antonio de la Florida (Museo)\" in column NOMBRE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "NOMBRE: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "NOMBRE"
+        }
+      ]
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Ermita de San Antonio de la Florida (Museo)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Royal_Chapel_of_St._Anthony_of_La_Florida",
+      "name": "Ermita de San Antonio de la Florida",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Ermita de Santa María la Antigua (http://dbpedia.org/resource/Hermitage_of_Santa_María_la_Antigua_(Madrid)) for cells containing \"Ermita de Santa Mar�a la Antigua\" in column NOMBRE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "NOMBRE: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "NOMBRE"
+        }
+      ]
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Ermita de Santa Mar�a la Antigua",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Hermitage_of_Santa_María_la_Antigua_(Madrid)",
+      "name": "Ermita de Santa María la Antigua",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"Ermita Virgen del Puerto\" in column NOMBRE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "NOMBRE: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "NOMBRE"
+        }
+      ]
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Ermita Virgen del Puerto"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Madrid Puerta de Atocha (http://dbpedia.org/resource/Madrid_Puerta_de_Atocha) for cells containing \"Estaci�n ferroviaria Madrid Puerta de Atocha\" in column NOMBRE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "NOMBRE: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "NOMBRE"
+        }
+      ]
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Estaci�n ferroviaria Madrid Puerta de Atocha",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Madrid_Puerta_de_Atocha",
+      "name": "Madrid Puerta de Atocha",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"Fundaci�n BBVA. Palacio del Marqu�s de Salamanca\" in column NOMBRE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "NOMBRE: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "NOMBRE"
+        }
+      ]
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Fundaci�n BBVA. Palacio del Marqu�s de Salamanca"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Palacio de Cibeles (http://dbpedia.org/resource/Palacio_de_Cibeles) for cells containing \"Galer�a de Cristal del Palacio de Cibeles\" in column NOMBRE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "NOMBRE: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "NOMBRE"
+        }
+      ]
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Galer�a de Cristal del Palacio de Cibeles",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Palacio_de_Cibeles",
+      "name": "Palacio de Cibeles",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"Iglesia Catedral de las Fuerzas Armadas\" in column NOMBRE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "NOMBRE: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "NOMBRE"
+        }
+      ]
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Iglesia Catedral de las Fuerzas Armadas"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"Iglesia Corpus Christi (Jer�nimas Recoletas)\" in column NOMBRE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "NOMBRE: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "NOMBRE"
+        }
+      ]
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Iglesia Corpus Christi (Jer�nimas Recoletas)"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Iglesia de las Calatravas (Madrid) (http://dbpedia.org/resource/Iglesia_de_las_Calatravas_(Madrid)) for cells containing \"Iglesia de las Calatravas (Concepci�n Real de Calatrava)\" in column NOMBRE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "NOMBRE: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "NOMBRE"
+        }
+      ]
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Iglesia de las Calatravas (Concepci�n Real de Calatrava)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Iglesia_de_las_Calatravas_(Madrid)",
+      "name": "Iglesia de las Calatravas (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"Iglesia Madres Redentoristas\" in column NOMBRE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "NOMBRE: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "NOMBRE"
+        }
+      ]
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Iglesia Madres Redentoristas"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"Iglesia San Antonio de los Alemanes\" in column NOMBRE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "NOMBRE: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "NOMBRE"
+        }
+      ]
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Iglesia San Antonio de los Alemanes"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"Iglesia San Ildefonso (Monasterio de las Trinitarias Descalzas)\" in column NOMBRE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "NOMBRE: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "NOMBRE"
+        }
+      ]
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Iglesia San Ildefonso (Monasterio de las Trinitarias Descalzas)"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"Iglesia San Pedro el Viejo\" in column NOMBRE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "NOMBRE: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "NOMBRE"
+        }
+      ]
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Iglesia San Pedro el Viejo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Instituto Cervantes (http://dbpedia.org/resource/Instituto_Cervantes) for cells containing \"Instituto Cervantes\" in column NOMBRE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "NOMBRE: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "NOMBRE"
+        }
+      ]
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Instituto Cervantes",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Instituto_Cervantes",
+      "name": "Instituto Cervantes",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"Instituto Italiano de Cultura de Madrid\" in column NOMBRE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "NOMBRE: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "NOMBRE"
+        }
+      ]
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Instituto Italiano de Cultura de Madrid"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"Ministerio de Hacienda y Funci�n P�blica. Direcci�n General de Patrimonio del Estado\" in column NOMBRE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "NOMBRE: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "NOMBRE"
+        }
+      ]
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Ministerio de Hacienda y Funci�n P�blica. Direcci�n General de Patrimonio del Estado"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"Ministerio de Hacienda y Funci�n P�blica. Sede calle Alcal�\" in column NOMBRE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "NOMBRE: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "NOMBRE"
+        }
+      ]
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Ministerio de Hacienda y Funci�n P�blica. Sede calle Alcal�"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Ministerio de Justicia (España) (http://dbpedia.org/resource/Ministry_of_Justice_(Spain)) for cells containing \"Ministerio de Justicia\" in column NOMBRE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "NOMBRE: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "NOMBRE"
+        }
+      ]
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Ministerio de Justicia",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Ministry_of_Justice_(Spain)",
+      "name": "Ministerio de Justicia (España)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"Monasterio de Benedictinas\" in column NOMBRE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "NOMBRE: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "NOMBRE"
+        }
+      ]
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Monasterio de Benedictinas"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Monumento homenaje a las víctimas del 11-M (http://dbpedia.org/resource/Atocha_station_memorial) for cells containing \"Monumento Homenaje a las V�ctimas del 11 de marzo\" in column NOMBRE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "NOMBRE: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "NOMBRE"
+        }
+      ]
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Monumento Homenaje a las V�ctimas del 11 de marzo",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Atocha_station_memorial",
+      "name": "Monumento homenaje a las víctimas del 11-M",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"Museo de Escultura al Aire Libre de la Castellana\" in column NOMBRE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "NOMBRE: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "NOMBRE"
+        }
+      ]
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Museo de Escultura al Aire Libre de la Castellana"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Museo de Historia de Madrid (http://www.wikidata.org/entity/Q876383) for cells containing \"Museo de Historia de Madrid\" in column NOMBRE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "NOMBRE: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "NOMBRE"
+        }
+      ]
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Museo de Historia de Madrid",
+    "judgment": "matched",
+    "match": {
+      "id": "http://www.wikidata.org/entity/Q876383",
+      "name": "Museo de Historia de Madrid",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"Museo de la Real Academia de Bellas Artes de San Fernando\" in column NOMBRE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "NOMBRE: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "NOMBRE"
+        }
+      ]
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Museo de la Real Academia de Bellas Artes de San Fernando"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Museo Lázaro Galdiano (http://dbpedia.org/resource/Museum_of_Lázaro_Galdiano) for cells containing \"Museo L�zaro Galdiano\" in column NOMBRE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "NOMBRE: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "NOMBRE"
+        }
+      ]
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Museo L�zaro Galdiano",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Museum_of_Lázaro_Galdiano",
+      "name": "Museo Lázaro Galdiano",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Museo Nacional de Artes Decorativas (http://dbpedia.org/resource/Museo_Nacional_de_Artes_Decorativas) for cells containing \"Museo Nacional de Artes Decorativas\" in column NOMBRE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "NOMBRE: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "NOMBRE"
+        }
+      ]
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Museo Nacional de Artes Decorativas",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Museo_Nacional_de_Artes_Decorativas",
+      "name": "Museo Nacional de Artes Decorativas",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Thyssen-Bornemisza Museum (http://dbpedia.org/resource/Thyssen-Bornemisza_Museum) for cells containing \"Museo Nacional Thyssen-Bornemisza\" in column NOMBRE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "NOMBRE: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "NOMBRE"
+        }
+      ]
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Museo Nacional Thyssen-Bornemisza",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Thyssen-Bornemisza_Museum",
+      "name": "Thyssen-Bornemisza Museum",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Palacio de Buenavista (http://dbpedia.org/resource/Palacio_de_Buenavista) for cells containing \"Palacio de Buenavista. Cuartel General del Ej�rcito de Tierra\" in column NOMBRE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "NOMBRE: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "NOMBRE"
+        }
+      ]
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Palacio de Buenavista. Cuartel General del Ej�rcito de Tierra",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Palacio_de_Buenavista",
+      "name": "Palacio de Buenavista",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Palacio de Cibeles (http://dbpedia.org/resource/Palacio_de_Cibeles) for cells containing \"Palacio de Cibeles\" in column NOMBRE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "NOMBRE: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "NOMBRE"
+        }
+      ]
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Palacio de Cibeles",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Palacio_de_Cibeles",
+      "name": "Palacio de Cibeles",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"Palacio de Santo�a\" in column NOMBRE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "NOMBRE: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "NOMBRE"
+        }
+      ]
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Palacio de Santo�a"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Palacio Real (Madrid) (http://dbpedia.org/resource/Royal_Palace_of_Madrid) for cells containing \"Palacio Real\" in column NOMBRE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "NOMBRE: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "NOMBRE"
+        }
+      ]
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Palacio Real",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Royal_Palace_of_Madrid",
+      "name": "Palacio Real (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Panteón de Hombres Ilustres (http://dbpedia.org/resource/Pantheon_of_Illustrious_Men) for cells containing \"Pante�n de Hombres Ilustres\" in column NOMBRE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "NOMBRE: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "NOMBRE"
+        }
+      ]
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Pante�n de Hombres Ilustres",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Pantheon_of_Illustrious_Men",
+      "name": "Panteón de Hombres Ilustres",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"Parroquia Nuestra Se�ora del Buen Consejo y San Isidro\" in column NOMBRE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "NOMBRE: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "NOMBRE"
+        }
+      ]
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Parroquia Nuestra Se�ora del Buen Consejo y San Isidro"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"Parroquia San Ferm�n de los Navarros\" in column NOMBRE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "NOMBRE: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "NOMBRE"
+        }
+      ]
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Parroquia San Ferm�n de los Navarros"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Puerta del Sol (http://dbpedia.org/resource/Puerta_del_Sol) for cells containing \"Puerta del Sol\" in column NOMBRE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "NOMBRE: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "NOMBRE"
+        }
+      ]
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Puerta del Sol",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Puerta_del_Sol",
+      "name": "Puerta del Sol",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Real Jardín Botánico de Madrid (http://dbpedia.org/resource/Real_Jardín_Botánico_de_Madrid) for cells containing \"Real Jard�n Bot�nico\" in column NOMBRE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "NOMBRE: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "NOMBRE"
+        }
+      ]
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Real Jard�n Bot�nico",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Real_Jardín_Botánico_de_Madrid",
+      "name": "Real Jardín Botánico de Madrid",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic El Pardo (Madrid) (http://dbpedia.org/resource/El_Pardo) for cells containing \"Real Sitio de El Pardo\" in column NOMBRE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "NOMBRE: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "NOMBRE"
+        }
+      ]
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Real Sitio de El Pardo",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/El_Pardo",
+      "name": "El Pardo (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"Real F�brica de Tapices\" in column NOMBRE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "NOMBRE: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "NOMBRE"
+        }
+      ]
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Real F�brica de Tapices"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Senado (Spanien) (http://dbpedia.org/resource/Senate_of_Spain) for cells containing \"Senado\" in column NOMBRE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "NOMBRE: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "NOMBRE"
+        }
+      ]
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Senado",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Senate_of_Spain",
+      "name": "Senado (Spanien)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Tribunal Supremo (España) (http://dbpedia.org/resource/Supreme_Court_of_Spain) for cells containing \"Tribunal Supremo\" in column NOMBRE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "NOMBRE: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "NOMBRE"
+        }
+      ]
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Tribunal Supremo",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Supreme_Court_of_Spain",
+      "name": "Tribunal Supremo (España)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Sociedad General de Autores y Editores (http://dbpedia.org/resource/Sociedad_General_de_Autores_y_Editores) for cells containing \"Sociedad General de Autores y Editores (SGAE)\" in column NOMBRE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "NOMBRE: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "NOMBRE"
+        }
+      ]
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Sociedad General de Autores y Editores (SGAE)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Sociedad_General_de_Autores_y_Editores",
+      "name": "Sociedad General de Autores y Editores",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "dbpedia-extension/extend-data",
+    "description": "DBpedia: Extend data at index 1 based on column NOMBRE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnInsertIndex": 1,
+    "baseColumnName": "NOMBRE",
+    "extension": {
+      "properties": [
+        {
+          "name": "thumbnail",
+          "id": "http://dbpedia.org/ontology/thumbnail"
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.wsdlfiupm.es/resources/group14/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NOMBRE",
+          "rdfTypes": [
+            {
+              "uri": "class/Monuments_Museums_Organizations",
+              "curie": ":class/Monuments_Museums_Organizations"
+            }
+          ],
+          "links": [
+            {
+              "uri": "properties/description",
+              "curie": ":properties/description",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Desripcion"
+              }
+            },
+            {
+              "uri": "properties/schedule",
+              "curie": ":properties/schedule",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "properties/type",
+              "curie": ":properties/type",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "properties/location",
+              "curie": ":properties/location",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Calle",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "properties/image",
+              "curie": ":properties/image",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "thumbnail",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Calle",
+          "rdfTypes": [
+            {
+              "uri": "class/Position",
+              "curie": ":class/Position"
+            }
+          ],
+          "links": [
+            {
+              "uri": "properties/street",
+              "curie": ":properties/street",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Calle"
+              }
+            },
+            {
+              "uri": "properties/district",
+              "curie": ":properties/district",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO"
+              }
+            },
+            {
+              "uri": "properties/longitude",
+              "curie": ":properties/longitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LONGITUD"
+              }
+            },
+            {
+              "uri": "properties/latitude",
+              "curie": ":properties/latitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LATITUD"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]
