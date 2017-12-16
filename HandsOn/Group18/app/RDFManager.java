@@ -45,9 +45,17 @@ public class RDFManager {
 		
 		LinkedList<RDFResult> nombres = new LinkedList<RDFResult>();
 		String queryString =
-				
-				"SELECT ?x ?y ?z "+
-				"WHERE {  ?x ?y ?z  }";
+				"PREFIX vcard: <http://www.w3.org/2006/vcard/ns#> "
+				+ "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> "
+				+ "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> "
+				+ "PREFIX park: <http://www.semanticweb.org/grupo18/ontologies#> "
+				+ "SELECT ?direccion ?zona "
+				+ "WHERE {  "
+				+ "?s rdfs:label \""+name+"@fr\" . "
+				+ "?s vcard:hasAddress ?a . "
+				+ "?a rdfs:label ?direccion . "
+				+ " ?a park:belongsTo ?zona . "
+				+ "}";
 		
 		Query query = QueryFactory.create(queryString);
 		QueryExecution qexec = QueryExecutionFactory.create(query,this.model);
@@ -56,11 +64,9 @@ public class RDFManager {
 		while(results.hasNext()){
 			
 			QuerySolution binding = results.nextSolution();
-			Resource name1 = (Resource) binding.get("x");
-			Resource parking = (Resource) binding.get("y");
-			RDFNode number = (RDFNode) binding.get("z");
-			
-			RDFResult element = new RDFResult(name1.getURI(), parking.getURI(), 0);
+			RDFNode zona = (RDFNode) binding.get("zona");
+			RDFNode direccion = (RDFNode) binding.get("direccion");
+			RDFResult element = new RDFResult(name, direccion.toString(), zona.toString());
 			nombres.add(element);
 		}
 		
@@ -68,28 +74,7 @@ public class RDFManager {
 	}
 
 	public LinkedList<RDFResult> searchByParkingSpots(int min, int max) {
-		//Listar todos los parkings cuya capacidad este entre min y max (incluidos)
-		LinkedList<RDFResult> nombres = new LinkedList<RDFResult>();
-		String queryString =
-				
-				"SELECT ?x ?y ?z "+
-				"WHERE {  ?x ?y ?z  }";
 		
-		Query query = QueryFactory.create(queryString);
-		QueryExecution qexec = QueryExecutionFactory.create(query,this.model);
-		ResultSet results = qexec.execSelect();
-		
-		while(results.hasNext()){
-			
-			QuerySolution binding = results.nextSolution();
-			Resource name1 = (Resource) binding.get("x");
-			Resource parking = (Resource) binding.get("y");
-			RDFNode number = (RDFNode) binding.get("z");
-			System.out.println(name1+" "+number);
-			RDFResult element = new RDFResult(name1.getURI(), parking.getURI(), 0);
-			nombres.add(element);
-		}
-		
-		return nombres;
+		return null;
 	}
 }
