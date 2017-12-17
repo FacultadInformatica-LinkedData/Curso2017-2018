@@ -1,0 +1,99 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix vb: <http://vocab.example.com/> .
+@base <http://example.linkeddata.es/> .
+
+<TriplesMapCountry>
+    a rr:TriplesMap;
+
+  	rr:logicalTable [
+        rr:tableName  "country"
+    ];
+
+    rr:subjectMap [
+      rr:template "http://example.linkeddata.es/resources/Country/{Code}";
+      rr:termType rr:IRI;
+      rr:class vb:country;
+	  ];
+
+    rr:predicateObjectMap [
+      rr:predicateMap [ rr:constant vb:name ];
+        rr:objectMap [ rr:termType rr:Literal; rr:column "Name"; ];
+    ];
+
+    rr:predicateObjectMap [
+      rr:predicateMap [ rr:constant vb:countryCode ];
+        rr:objectMap [ rr:termType rr:Literal; rr:column "Code"; ];
+    ];
+
+    # For simplicity, not adding every db field.
+    # ...but it would be the same for all others
+.
+
+<TriplesMapCountryLanguage>
+    a rr:TriplesMap;
+
+  	rr:logicalTable [
+        rr:tableName  "countrylanguage"
+    ];
+
+    rr:subjectMap [
+      rr:template "http://example.linkeddata.es/resources/CountryLanguage/{Language}";
+      rr:termType rr:IRI;
+      rr:class vb:clang;
+	];
+
+    rr:predicateObjectMap [
+      rr:predicateMap [ rr:constant vb:language ];
+        rr:objectMap [ rr:termType rr:Literal; rr:column "Language"; ];
+    ];
+
+    rr:predicateObjectMap [
+      rr:predicateMap [ rr:constant vb:percentage ];
+        rr:objectMap [ rr:termType rr:Literal; rr:column "Percentage"; ];
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicateMap [ rr:constant vb:fromCountry ];
+        rr:objectMap [
+          rr:parentTriplesMap <TriplesMapCountry>;
+          rr:joinCondition [ rr:child "CountryCode" ; rr:parent "Code" ; ]
+        ];
+    ];
+.
+
+<TriplesMapCity>
+    a rr:TriplesMap;
+
+  	rr:logicalTable [
+        rr:tableName  "city"
+    ];
+
+    rr:subjectMap [
+      rr:template "http://example.linkeddata.es/resources/City/{id}";
+      rr:termType rr:IRI;
+      rr:class vb:City;
+	];
+
+    rr:predicateObjectMap [
+      rr:predicateMap [ rr:constant vb:name ];
+        rr:objectMap [ rr:termType rr:Literal; rr:column "Name"; ];
+    ];
+
+    rr:predicateObjectMap [
+      rr:predicateMap [ rr:constant vb:population ];
+        rr:objectMap [ rr:termType rr:Literal; rr:column "Population"; ];
+    ];
+
+    rr:predicateObjectMap [
+      rr:predicateMap [ rr:constant vb:district ];
+        rr:objectMap [ rr:termType rr:Literal; rr:column "District"; ];
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicateMap [ rr:constant vb:inCountry ];
+        rr:objectMap [
+          rr:parentTriplesMap <TriplesMapCountry>;
+          rr:joinCondition [ rr:child "CountryCode" ; rr:parent "Code" ; ]
+        ];
+    ];
+.
