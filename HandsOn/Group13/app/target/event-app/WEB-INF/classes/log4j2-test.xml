@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO">
+  <Appenders>
+    <Console name="Console" target="SYSTEM_OUT">
+      <PatternLayout pattern="%msg%n"/>
+    </Console>
+    <File name="file" fileName="logs/mass-generation-webservices.log" immediateFlush="true">
+      <PatternLayout>
+        <Pattern>%d %p %c{3} [%t] %m %ex%n</Pattern>
+      </PatternLayout>
+    </File>
+  </Appenders>  
+  <Loggers>  	
+    <Root level="trace">
+      <AppenderRef ref="Console" level = "INFO"/>
+      <AppenderRef ref="file" level = "DEBUG"/>
+    </Root>
+  </Loggers>
+</Configuration>
