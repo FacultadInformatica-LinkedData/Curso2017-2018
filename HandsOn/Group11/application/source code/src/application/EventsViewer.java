@@ -255,6 +255,7 @@ public class EventsViewer{
 	
 	private void setDescription(String description){
 		this.descriptionResultsLabel.setText(description);
+		this.descriptionResultsLabel.setWrapText(true);
 	}
 	
 	private String getDescription(String name){

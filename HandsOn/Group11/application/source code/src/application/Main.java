@@ -114,7 +114,8 @@ public class Main extends Application {
 		
 		String url = "jdbc:virtuoso://localhost:1111";
 		try {
-			VirtGraph set = new VirtGraph ("http://localhost:8890/datosevento",url, "dba", "dba");
+			//VirtGraph set = new VirtGraph ("http://localhost:8890/datosevento",url, "dba", "dba");
+			VirtGraph set = new VirtGraph ("http://localhost:8890/madrid_datos",url, "dba", "dba");	
 					if (set.isEmpty()) {
 						return false;
 					}

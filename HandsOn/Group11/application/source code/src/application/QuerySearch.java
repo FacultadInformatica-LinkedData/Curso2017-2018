@@ -33,7 +33,7 @@ public class QuerySearch {
 		String query = "" + PREFIX;
 		
 		//Check of Name  
-		query = query + "SELECT ?name, ?description, ?location WHERE {\n";
+		query = query + "SELECT ?name ?description ?location WHERE {\n";
 		query = query + "?instance mv:name ?name . \n";
 		
 		//Info we want
@@ -85,7 +85,7 @@ public class QuerySearch {
 		//La comprobacion se hizo en la connectToData
 		//por tanto no hacemos un try-catch
 		String url = "jdbc:virtuoso://localhost:1111";
-		VirtGraph set = new VirtGraph("http://localhost:8890/datosevento",url, "dba", "dba");	
+		VirtGraph set = new VirtGraph("http://localhost:8890/madrid_datos",url, "dba", "dba");	
 		Query sparql = QueryFactory.create(query);
 		VirtuosoQueryExecution vqe = VirtuosoQueryExecutionFactory.create (sparql, set);
 		ResultSet results = vqe.execSelect();
@@ -104,13 +104,12 @@ public class QuerySearch {
 		String key = "";
 		//Query to get coordinates given the URI of the resource
 		String url = "jdbc:virtuoso://localhost:1111";
-		VirtGraph set = new VirtGraph("http://localhost:8890/datosevento",url, "dba", "dba");	
-		Query sparql = QueryFactory.create("PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>\n"+
-						"SELECT xsd:decimal(?latitud) as ?latitud xsd:decimal(?longitud) as ?longitud WHERE {\n" +
-						"?locat geo:lat ?latitud.\n" +
-						"?locat geo:long ?longitud.\n" +
-						"FILTER( str(?locat) = \"nodeID://b12637\" ) .\n" +
-						"}");
+		VirtGraph set = new VirtGraph("http://localhost:8890/madrid_datos",url, "dba", "dba");	
+		Query sparql = QueryFactory.create("PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>\n" + 
+				"SELECT ?latitud ?longitud WHERE {\n" + 
+				"<"+locationURI+"> geo:lat ?latitud.\n" + 
+				"<"+locationURI+"> geo:long ?longitud.\n" + 
+				"}");
 		VirtuosoQueryExecution vqe = VirtuosoQueryExecutionFactory.create (sparql, set);
 		ResultSet results = vqe.execSelect();
 		RDFNode latitudNode = null;
@@ -120,25 +119,17 @@ public class QuerySearch {
 		    latitudNode = result.get("latitud");
 		    longitudNode = result.get("longitud");
 		}
-		double latitud = latitudNode.asLiteral().getDouble();
-		double longitud = longitudNode.asLiteral().getDouble();
+		String parts = latitudNode.toString().substring(0, 10);
+		double latitud = Double.parseDouble(parts);
+		parts = longitudNode.toString().substring(0, 10);
+		double longitud = Double.parseDouble(parts);
 		//API petition
 		String petition = "https://maps.googleapis.com/maps/api/staticmap?";
 		petition += "center="+latitud+","+longitud;
 		petition += "&&zoom=17";
 		petition += "&&size=400x400";
 		//Read key from file
-		String fileName = "resources/key.txt";
-		try (BufferedReader br = new BufferedReader(new FileReader(fileName))) {
-		    String line;
-		    while ((line = br.readLine()) != null) {
-		       key = line;
-		    }
-		} catch (Exception e) {
-			//Auto-generated catch block
-			e.printStackTrace();
-		}
-		petition += "&&key="+key;
+		petition += "&&key=AIzaSyAwI5jtuNDB4an-LyT8qHoF68NEEKKfABg";
 		//Do Get petition
 		try{
 		URL urlP = new URL(petition);
