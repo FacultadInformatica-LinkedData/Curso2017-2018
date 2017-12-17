@@ -102,9 +102,26 @@ public class QuerySearch {
 	public static Image getMapImage(String locationURI){
 		Image image = null;
 		String key = "";
-		//TODO Query to get coordinates given the URI of the resource
-		double latitud = 40.406863;
-		double longitud = -3.711599;
+		//Query to get coordinates given the URI of the resource
+		String url = "jdbc:virtuoso://localhost:1111";
+		VirtGraph set = new VirtGraph("http://localhost:8890/datosevento",url, "dba", "dba");	
+		Query sparql = QueryFactory.create("PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>\n"+
+						"SELECT xsd:decimal(?latitud) as ?latitud xsd:decimal(?longitud) as ?longitud WHERE {\n" +
+						"?locat geo:lat ?latitud.\n" +
+						"?locat geo:long ?longitud.\n" +
+						"FILTER( str(?locat) = \"nodeID://b12637\" ) .\n" +
+						"}");
+		VirtuosoQueryExecution vqe = VirtuosoQueryExecutionFactory.create (sparql, set);
+		ResultSet results = vqe.execSelect();
+		RDFNode latitudNode = null;
+	    RDFNode longitudNode = null;
+		while (results.hasNext()) {
+			QuerySolution result = results.nextSolution();
+		    latitudNode = result.get("latitud");
+		    longitudNode = result.get("longitud");
+		}
+		double latitud = latitudNode.asLiteral().getDouble();
+		double longitud = longitudNode.asLiteral().getDouble();
 		//API petition
 		String petition = "https://maps.googleapis.com/maps/api/staticmap?";
 		petition += "center="+latitud+","+longitud;
@@ -124,8 +141,8 @@ public class QuerySearch {
 		petition += "&&key="+key;
 		//Do Get petition
 		try{
-		URL url = new URL(petition);
-	    BufferedImage img = ImageIO.read(url);
+		URL urlP = new URL(petition);
+	    BufferedImage img = ImageIO.read(urlP);
 	    image = SwingFXUtils.toFXImage(img, null);
 	    }catch (Exception e) {
 			//handle exception
