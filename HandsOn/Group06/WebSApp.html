@@ -1,0 +1,56 @@
+<html>
+<title>Web App</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+<!-- Código -->
+<div class="w3-row">
+  <div class="w3-half w3-blue-grey w3-container w3-center" style="height:700px">
+    <div class="w3-padding-48">
+      <h1><b>160 µg/m<sup>3</sup></b></h1>
+    </div>
+    <div class="w3-padding-32 w3-white" style="height:400px;">
+        <h2 style="color:#607d8b;"><b>Escenario 1</b></h2>
+        <p> Datos acerca del escenario</p>
+		<p> Datos acerca de los objetos pinchados en el mapa</p>
+    </div>
+    <div class="w3-padding-32">
+	<a href="http://www.madrid.es/UnidadesDescentralizadas/Sostenibilidad/CalidadAire/Ficheros/ProtocoloSuperaNO2consol.pdf" target="_blank"><i class="fa fa-info-circle" style="font-size:32px;"></i></a>
+    </div>
+  </div>
+  <div class="w3-half w3-white w3-container" style="height:700px">
+    <div class="w3-padding-64 w3-center">
+      <div class="w3-padding-32">
+      <b><a href="#" class="w3-bar-item w3-button w3-blue-grey" style= "width:100px">Bicis</a></b>
+      <b><a href="#" class="w3-bar-item w3-button w3-blue-grey" style= "width:100px">Parking</a></b>
+  </div>
+<!-- Google Maps -->
+  <div id="googleMap" style="height:400px;"></div>
+	<script>
+	function myMap() {
+  	myCenter=new google.maps.LatLng(40.3999304, -3.8471514);
+  	var mapOptions= {
+   		center:myCenter,
+    		zoom:12,
+		  };
+ 		var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+
+  		var marker = new google.maps.Marker({
+    		   position: myCenter,
+  		});
+ 	marker.setMap(map);
+		}
+	</script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZIbprbjLpU7bszvCuJZd9t2YIrDajxrk&callback=myMap"></script>
+        <!--<p>Apartado por si es necesario añadir mas información al usuario</p>-->
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+
