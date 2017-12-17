@@ -1,0 +1,711 @@
+[
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Gis_X",
+    "columnName": "Gis_X"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Gis_Y",
+    "columnName": "Gis_Y"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Fecha de Alta",
+    "columnName": "Fecha de Alta"
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column Distrito by separator",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Distrito",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": " ",
+    "regex": false,
+    "maxColumns": 2
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Distrito 1",
+    "columnName": "Distrito 1"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Distrito 2 using expression value.toTitlecase()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Distrito 2",
+    "expression": "value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Distrito 2 to Distrito",
+    "oldColumnName": "Distrito 2",
+    "newColumnName": "Distrito"
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column Barrio by separator",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Barrio",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": " ",
+    "regex": false,
+    "maxColumns": 2
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Barrio 1",
+    "columnName": "Barrio 1"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Barrio 2 using expression value.toTitlecase()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Barrio 2",
+    "expression": "value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Barrio 2 to Barrio",
+    "oldColumnName": "Barrio 2",
+    "newColumnName": "Barrio"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Tipo de Reserva",
+    "columnName": "Tipo de Reserva"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Texto Cajetines",
+    "columnName": "Texto Cajetines"
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column Calle by separator",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Calle",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": ",",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Calle 2 using expression value.toTitlecase()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Calle 2",
+    "expression": "value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Calle 3 using expression value.toLowercase()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Calle 3",
+    "expression": "value.toLowercase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Calle 1 using expression value.toTitlecase()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Calle 1",
+    "expression": "value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column Dirección at index 4 based on column Calle 2 using expression grel:value + if(isBlank(cells[\"Calle 3\"].value),\"\",cells[\"Calle 3\"].value) + \" \" + cells[\"Calle 1\"].value + \" \" +cells[\"Nº Finca\"].value",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "Dirección",
+    "columnInsertIndex": 4,
+    "baseColumnName": "Calle 2",
+    "expression": "grel:value + if(isBlank(cells[\"Calle 3\"].value),\"\",cells[\"Calle 3\"].value) + \" \" + cells[\"Calle 1\"].value + \" \" +cells[\"Nº Finca\"].value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Calle 1",
+    "columnName": "Calle 1"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Calle 2",
+    "columnName": "Calle 2"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Calle 3",
+    "columnName": "Calle 3"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Nº Finca",
+    "columnName": "Nº Finca"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group03/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "g03",
+          "uri": ""
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"EstacionamientoMinus\"+value",
+          "isRowNumberCell": true,
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/group03/ontology#ZonaMinusvalidos",
+              "curie": "g03:ZonaMinusvalidos"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#distrito",
+              "curie": "g03:distrito",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "if(startsWith(value,\" \"),substring(value,1),value)",
+                "isRowNumberCell": false,
+                "columnName": "Distrito",
+                "rdfTypes": [
+                  {
+                    "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Distrito",
+                    "curie": "g03:Distrito"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#barrio",
+              "curie": "g03:barrio",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Barrio",
+                "rdfTypes": [
+                  {
+                    "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Barrio",
+                    "curie": "g03:Barrio"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasAddress",
+              "curie": "g03:hasAddress",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "if(startsWith(value,\" \"),substring(value,1),value)",
+                "isRowNumberCell": false,
+                "columnName": "Dirección",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.w3.org/2006/vcard/ns#Address",
+                    "curie": "g03:Address"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2006/vcard/ns#street-address",
+                    "curie": "g03:street-address",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "if(startsWith(value,\" \"),substring(value,1),value)",
+                      "isRowNumberCell": false,
+                      "columnName": "Dirección"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group03/ontology#formaDeAparcamiento",
+              "curie": "g03:formaDeAparcamiento",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Línea / Batería"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group03/ontology#numeroDePlazas",
+              "curie": "g03:numeroDePlazas",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "Número de Plazas"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group03/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "g03",
+          "uri": ""
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"EstacionamientoMinus\"+value",
+          "isRowNumberCell": true,
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/group03/ontology#ZonaMinusvalidos",
+              "curie": "g03:ZonaMinusvalidos"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#distrito",
+              "curie": "g03:distrito",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "if(startsWith(value,\" \"),substring(value,1),value)",
+                "isRowNumberCell": false,
+                "columnName": "Distrito",
+                "rdfTypes": [
+                  {
+                    "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Distrito",
+                    "curie": "g03:Distrito"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#barrio",
+              "curie": "g03:barrio",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Barrio",
+                "rdfTypes": [
+                  {
+                    "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Barrio",
+                    "curie": "g03:Barrio"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasAddress",
+              "curie": "g03:hasAddress",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "replace(if(startsWith(value,\" \"),substring(value,1),value),\" \",\"_\")",
+                "isRowNumberCell": false,
+                "columnName": "Dirección",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.w3.org/2006/vcard/ns#Address",
+                    "curie": "g03:Address"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2006/vcard/ns#street-address",
+                    "curie": "g03:street-address",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "if(startsWith(value,\" \"),substring(value,1),value)",
+                      "isRowNumberCell": false,
+                      "columnName": "Dirección"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group03/ontology#formaDeAparcamiento",
+              "curie": "g03:formaDeAparcamiento",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Línea / Batería"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group03/ontology#numeroDePlazas",
+              "curie": "g03:numeroDePlazas",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "Número de Plazas"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group03/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "g03",
+          "uri": ""
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"EstacionamientoMinus\"+value",
+          "isRowNumberCell": true,
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/group03/ontology#ZonaMinusvalidos",
+              "curie": "g03:ZonaMinusvalidos"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#distrito",
+              "curie": "g03:distrito",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "if(startsWith(value,\" \"),substring(value,1),value)",
+                "isRowNumberCell": false,
+                "columnName": "Distrito",
+                "rdfTypes": [
+                  {
+                    "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Distrito",
+                    "curie": "g03:Distrito"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#barrio",
+              "curie": "g03:barrio",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Barrio",
+                "rdfTypes": [
+                  {
+                    "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Barrio",
+                    "curie": "g03:Barrio"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasAddress",
+              "curie": "g03:hasAddress",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "replace(if(startsWith(value,\" \"),substring(value,1),value),\" \",\"_\")",
+                "isRowNumberCell": false,
+                "columnName": "Dirección",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.w3.org/2006/vcard/ns#Address",
+                    "curie": "g03:Address"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2006/vcard/ns#street-address",
+                    "curie": "g03:street-address",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "if(startsWith(value,\" \"),substring(value,1),value)",
+                      "isRowNumberCell": false,
+                      "columnName": "Dirección"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group03/ontology#formaDeAparcamiento",
+              "curie": "g03:formaDeAparcamiento",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Línea / Batería"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group03/ontology#numeroDePlazas",
+              "curie": "g03:numeroDePlazas",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "Número de Plazas"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "\"EstacionamientoMinus\"+value",
+                "isRowNumberCell": true
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group03/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "g03",
+          "uri": ""
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"EstacionamientoMinus\"+value",
+          "isRowNumberCell": true,
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/group03/ontology#ZonaMinusvalidos",
+              "curie": "g03:ZonaMinusvalidos"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#distrito",
+              "curie": "g03:distrito",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "if(startsWith(value,\" \"),substring(value,1),value)",
+                "isRowNumberCell": false,
+                "columnName": "Distrito",
+                "rdfTypes": [
+                  {
+                    "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Distrito",
+                    "curie": "g03:Distrito"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#barrio",
+              "curie": "g03:barrio",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Barrio",
+                "rdfTypes": [
+                  {
+                    "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Barrio",
+                    "curie": "g03:Barrio"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasAddress",
+              "curie": "g03:hasAddress",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "replace(if(startsWith(value,\" \"),substring(value,1),value),\" \",\"_\")",
+                "isRowNumberCell": false,
+                "columnName": "Dirección",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.w3.org/2006/vcard/ns#Address",
+                    "curie": "g03:Address"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2006/vcard/ns#street-address",
+                    "curie": "g03:street-address",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "if(startsWith(value,\" \"),substring(value,1),value)",
+                      "isRowNumberCell": false,
+                      "columnName": "Dirección"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group03/ontology#formaDeAparcamiento",
+              "curie": "g03:formaDeAparcamiento",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Línea / Batería"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group03/ontology#numeroDePlazas",
+              "curie": "g03:numeroDePlazas",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "Número de Plazas"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "\"EstacionamientoMinus\"+value",
+                "isRowNumberCell": true
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group03/ontology#tipoEstacionamiento",
+              "curie": "g03:tipoEstacionamiento",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "\"Minusválidos\"",
+                "isRowNumberCell": true
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]
