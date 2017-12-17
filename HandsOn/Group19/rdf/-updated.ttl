@@ -6,10 +6,10 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix voc: <https://www.linkeddataupm.es/group19/vocabulary#> .
+@prefix voc: <https://www.linkeddataupm.es/group19/resource/vocabulary#> .
 
 
-<https://www.linkeddataupm.es/group19/1_01> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/1_01> a msr:Measurement ;
 	lsweb:hasDate "2017-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "69.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "69.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -22,12 +22,12 @@
 	voc:pLAS99 "50"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "1_01" .
 
-<https://www.linkeddataupm.es/group19/Paseo+de+Recoletos> a swpo:Location ;
+<https://www.linkeddataupm.es/group19/resource/Paseo+de+Recoletos> a swpo:Location ;
 	voc:hasNMT "1" ;
 	voc:hasMeasurement "1_01" ;
 	identity:hasName "Paseo de Recoletos" .
 
-<https://www.linkeddataupm.es/group19/2_01> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/2_01> a msr:Measurement ;
 	lsweb:hasDate "2017-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "70.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "69.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -40,12 +40,12 @@
 	voc:pLAS99 "54.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "2_01" .
 
-<https://www.linkeddataupm.es/group19/Carlos+V> a swpo:Location ;
+<https://www.linkeddataupm.es/group19/resource/Carlos+V> a swpo:Location ;
 	voc:hasNMT "2" ;
 	voc:hasMeasurement "2_01" ;
 	identity:hasName "Carlos V" .
 
-<https://www.linkeddataupm.es/group19/3_01> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/3_01> a msr:Measurement ;
 	lsweb:hasDate "2017-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "67.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "60.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -58,12 +58,12 @@
 	voc:pLAS99 "50.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "3_01" .
 
-<https://www.linkeddataupm.es/group19/Plaza+del+Carmen> a swpo:Location ;
+<https://www.linkeddataupm.es/group19/resource/Plaza+del+Carmen> a swpo:Location ;
 	voc:hasNMT "3" ;
 	voc:hasMeasurement "3_01" ;
 	identity:hasName "Plaza del Carmen" .
 
-<https://www.linkeddataupm.es/group19/4_01> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/4_01> a msr:Measurement ;
 	lsweb:hasDate "2017-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "65.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "65.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -76,12 +76,12 @@
 	voc:pLAS99 "49.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "4_01" .
 
-<https://www.linkeddataupm.es/group19/Plaza+de+Espa%C3%B1a> a swpo:Location ;
+<https://www.linkeddataupm.es/group19/resource/Plaza+de+Espa%C3%B1a> a swpo:Location ;
 	voc:hasNMT "4" ;
 	voc:hasMeasurement "4_01" ;
 	identity:hasName "Plaza de España" .
 
-<https://www.linkeddataupm.es/group19/5_01> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/5_01> a msr:Measurement ;
 	lsweb:hasDate "2017-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "65.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "66.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -94,12 +94,12 @@
 	voc:pLAS99 "37.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "5_01" .
 
-<https://www.linkeddataupm.es/group19/Barrio+del+Pilar> a swpo:Location ;
+<https://www.linkeddataupm.es/group19/resource/Barrio+del+Pilar> a swpo:Location ;
 	voc:hasNMT "5" ;
 	voc:hasMeasurement "5_01" ;
 	identity:hasName "Barrio del Pilar" .
 
-<https://www.linkeddataupm.es/group19/6_01> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/6_01> a msr:Measurement ;
 	lsweb:hasDate "2017-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "71.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "71.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -112,12 +112,12 @@
 	voc:pLAS99 "52"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "6_01" .
 
-<https://www.linkeddataupm.es/group19/Gregorio+Mara%C3%B1on> a swpo:Location ;
+<https://www.linkeddataupm.es/group19/resource/Gregorio+Mara%C3%B1on> a swpo:Location ;
 	voc:hasNMT "6" ;
 	voc:hasMeasurement "6_01" ;
 	identity:hasName "Gregorio Marañon" .
 
-<https://www.linkeddataupm.es/group19/8_01> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/8_01> a msr:Measurement ;
 	lsweb:hasDate "2017-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "68.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "67.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -130,12 +130,12 @@
 	voc:pLAS99 "47.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "8_01" .
 
-<https://www.linkeddataupm.es/group19/Escuelas+Aguirre> a swpo:Location ;
+<https://www.linkeddataupm.es/group19/resource/Escuelas+Aguirre> a swpo:Location ;
 	voc:hasNMT "8" ;
 	voc:hasMeasurement "8_01" ;
 	identity:hasName "Escuelas Aguirre" .
 
-<https://www.linkeddataupm.es/group19/10_01> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/10_01> a msr:Measurement ;
 	lsweb:hasDate "2017-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "66.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "65.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -148,12 +148,12 @@
 	voc:pLAS99 "45.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "10_01" .
 
-<https://www.linkeddataupm.es/group19/Cuatro+Caminos> a swpo:Location ;
+<https://www.linkeddataupm.es/group19/resource/Cuatro+Caminos> a swpo:Location ;
 	voc:hasNMT "10" ;
 	voc:hasMeasurement "10_01" ;
 	identity:hasName "Cuatro Caminos" .
 
-<https://www.linkeddataupm.es/group19/11_01> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/11_01> a msr:Measurement ;
 	lsweb:hasDate "2017-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "69.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "68.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -166,12 +166,12 @@
 	voc:pLAS99 "39.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "11_01" .
 
-<https://www.linkeddataupm.es/group19/Ramon+y+Cajal> a swpo:Location ;
+<https://www.linkeddataupm.es/group19/resource/Ramon+y+Cajal> a swpo:Location ;
 	voc:hasNMT "11" ;
 	voc:hasMeasurement "11_01" ;
 	identity:hasName "Ramon y Cajal" .
 
-<https://www.linkeddataupm.es/group19/12_01> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/12_01> a msr:Measurement ;
 	lsweb:hasDate "2017-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "65.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "65"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -184,12 +184,12 @@
 	voc:pLAS99 "46"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "12_01" .
 
-<https://www.linkeddataupm.es/group19/Plaza+Manuel+Becerra> a swpo:Location ;
+<https://www.linkeddataupm.es/group19/resource/Plaza+Manuel+Becerra> a swpo:Location ;
 	voc:hasNMT "12" ;
 	voc:hasMeasurement "12_01" ;
 	identity:hasName "Plaza Manuel Becerra" .
 
-<https://www.linkeddataupm.es/group19/13_01> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/13_01> a msr:Measurement ;
 	lsweb:hasDate "2017-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "60.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "58.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -202,12 +202,12 @@
 	voc:pLAS99 "37.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "13_01" .
 
-<https://www.linkeddataupm.es/group19/Vallecas> a swpo:Location ;
+<https://www.linkeddataupm.es/group19/resource/Vallecas> a swpo:Location ;
 	voc:hasNMT "13" ;
 	voc:hasMeasurement "13_01" ;
 	identity:hasName "Vallecas" .
 
-<https://www.linkeddataupm.es/group19/14_01> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/14_01> a msr:Measurement ;
 	lsweb:hasDate "2017-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "66.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "66"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -220,12 +220,12 @@
 	voc:pLAS99 "47.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "14_01" .
 
-<https://www.linkeddataupm.es/group19/Glorieta+Fdez.+Ladreda> a swpo:Location ;
+<https://www.linkeddataupm.es/group19/resource/Glorieta+Fdez.+Ladreda> a swpo:Location ;
 	voc:hasNMT "14" ;
 	voc:hasMeasurement "14_01" ;
 	identity:hasName "Glorieta Fdez. Ladreda" .
 
-<https://www.linkeddataupm.es/group19/16_01> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/16_01> a msr:Measurement ;
 	lsweb:hasDate "2017-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "62.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "61.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -238,12 +238,12 @@
 	voc:pLAS99 "36.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "16_01" .
 
-<https://www.linkeddataupm.es/group19/Arturo+Soria> a swpo:Location ;
+<https://www.linkeddataupm.es/group19/resource/Arturo+Soria> a swpo:Location ;
 	voc:hasNMT "16" ;
 	voc:hasMeasurement "16_01" ;
 	identity:hasName "Arturo Soria" .
 
-<https://www.linkeddataupm.es/group19/17_01> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/17_01> a msr:Measurement ;
 	lsweb:hasDate "2017-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "59.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "62.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -256,12 +256,12 @@
 	voc:pLAS99 "36.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "17_01" .
 
-<https://www.linkeddataupm.es/group19/Villaverde> a swpo:Location ;
+<https://www.linkeddataupm.es/group19/resource/Villaverde> a swpo:Location ;
 	voc:hasNMT "17" ;
 	voc:hasMeasurement "17_01" ;
 	identity:hasName "Villaverde" .
 
-<https://www.linkeddataupm.es/group19/18_01> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/18_01> a msr:Measurement ;
 	lsweb:hasDate "2017-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "61.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "64"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -274,12 +274,12 @@
 	voc:pLAS99 "39.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "18_01" .
 
-<https://www.linkeddataupm.es/group19/Farolillo> a swpo:Location ;
+<https://www.linkeddataupm.es/group19/resource/Farolillo> a swpo:Location ;
 	voc:hasNMT "18" ;
 	voc:hasMeasurement "18_01" ;
 	identity:hasName "Farolillo" .
 
-<https://www.linkeddataupm.es/group19/19_01> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/19_01> a msr:Measurement ;
 	lsweb:hasDate "2017-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "62.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "61.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -292,12 +292,12 @@
 	voc:pLAS99 "37.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "19_01" .
 
-<https://www.linkeddataupm.es/group19/Alto+Extremadura> a swpo:Location ;
+<https://www.linkeddataupm.es/group19/resource/Alto+Extremadura> a swpo:Location ;
 	voc:hasNMT "19" ;
 	voc:hasMeasurement "19_01" ;
 	identity:hasName "Alto Extremadura" .
 
-<https://www.linkeddataupm.es/group19/20_01> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/20_01> a msr:Measurement ;
 	lsweb:hasDate "2017-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "63.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "62.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -310,12 +310,12 @@
 	voc:pLAS99 "38.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "20_01" .
 
-<https://www.linkeddataupm.es/group19/Avda+de+Moratalaz> a swpo:Location ;
+<https://www.linkeddataupm.es/group19/resource/Avda+de+Moratalaz> a swpo:Location ;
 	voc:hasNMT "20" ;
 	voc:hasMeasurement "20_01" ;
 	identity:hasName "Avda de Moratalaz" .
 
-<https://www.linkeddataupm.es/group19/24_01> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/24_01> a msr:Measurement ;
 	lsweb:hasDate "2017-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "49.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "44.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -328,12 +328,12 @@
 	voc:pLAS99 "36.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "24_01" .
 
-<https://www.linkeddataupm.es/group19/Casa+de+Campo> a swpo:Location ;
+<https://www.linkeddataupm.es/group19/resource/Casa+de+Campo> a swpo:Location ;
 	voc:hasNMT "24" ;
 	voc:hasMeasurement "24_01" ;
 	identity:hasName "Casa de Campo" .
 
-<https://www.linkeddataupm.es/group19/25_01> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/25_01> a msr:Measurement ;
 	lsweb:hasDate "2017-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "67"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "66.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -346,12 +346,12 @@
 	voc:pLAS99 "48"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "25_01" .
 
-<https://www.linkeddataupm.es/group19/Santa+Eugenia> a swpo:Location ;
+<https://www.linkeddataupm.es/group19/resource/Santa+Eugenia> a swpo:Location ;
 	voc:hasNMT "25" ;
 	voc:hasMeasurement "25_01" ;
 	identity:hasName "Santa Eugenia" .
 
-<https://www.linkeddataupm.es/group19/26_01> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/26_01> a msr:Measurement ;
 	lsweb:hasDate "2017-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "64.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "63.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -364,12 +364,12 @@
 	voc:pLAS99 "41.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "26_01" .
 
-<https://www.linkeddataupm.es/group19/Embajada> a swpo:Location ;
+<https://www.linkeddataupm.es/group19/resource/Embajada> a swpo:Location ;
 	voc:hasNMT "26" ;
 	voc:hasMeasurement "26_01" ;
 	identity:hasName "Embajada" .
 
-<https://www.linkeddataupm.es/group19/27_01> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/27_01> a msr:Measurement ;
 	lsweb:hasDate "2017-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "63.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "62.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -382,12 +382,12 @@
 	voc:pLAS99 "36.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "27_01" .
 
-<https://www.linkeddataupm.es/group19/Barajas+Pueblo> a swpo:Location ;
+<https://www.linkeddataupm.es/group19/resource/Barajas+Pueblo> a swpo:Location ;
 	voc:hasNMT "27" ;
 	voc:hasMeasurement "27_01" ;
 	identity:hasName "Barajas Pueblo" .
 
-<https://www.linkeddataupm.es/group19/28_01> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/28_01> a msr:Measurement ;
 	lsweb:hasDate "2017-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "68.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "67.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -400,12 +400,12 @@
 	voc:pLAS99 "37.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "28_01" .
 
-<https://www.linkeddataupm.es/group19/Cuatro+Vientos> a swpo:Location ;
+<https://www.linkeddataupm.es/group19/resource/Cuatro+Vientos> a swpo:Location ;
 	voc:hasNMT "28" ;
 	voc:hasMeasurement "28_01" ;
 	identity:hasName "Cuatro Vientos" .
 
-<https://www.linkeddataupm.es/group19/29_01> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/29_01> a msr:Measurement ;
 	lsweb:hasDate "2017-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "58.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "55.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -418,12 +418,12 @@
 	voc:pLAS99 "32.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "29_01" .
 
-<https://www.linkeddataupm.es/group19/El+Pardo> a swpo:Location ;
+<https://www.linkeddataupm.es/group19/resource/El+Pardo> a swpo:Location ;
 	voc:hasNMT "29" ;
 	voc:hasMeasurement "29_01" ;
 	identity:hasName "El Pardo" .
 
-<https://www.linkeddataupm.es/group19/30_01> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/30_01> a msr:Measurement ;
 	lsweb:hasDate "2017-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "66.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "59.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -436,12 +436,12 @@
 	voc:pLAS99 "40.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "30_01" .
 
-<https://www.linkeddataupm.es/group19/Campo+de+las+Naciones> a swpo:Location ;
+<https://www.linkeddataupm.es/group19/resource/Campo+de+las+Naciones> a swpo:Location ;
 	voc:hasNMT "30" ;
 	voc:hasMeasurement "30_01" ;
 	identity:hasName "Campo de las Naciones" .
 
-<https://www.linkeddataupm.es/group19/31_01> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/31_01> a msr:Measurement ;
 	lsweb:hasDate "2017-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "65"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "64.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -454,12 +454,12 @@
 	voc:pLAS99 "37.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "31_01" .
 
-<https://www.linkeddataupm.es/group19/Sanchinarro> a swpo:Location ;
+<https://www.linkeddataupm.es/group19/resource/Sanchinarro> a swpo:Location ;
 	voc:hasNMT "31" ;
 	voc:hasMeasurement "31_01" ;
 	identity:hasName "Sanchinarro" .
 
-<https://www.linkeddataupm.es/group19/47_01> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/47_01> a msr:Measurement ;
 	lsweb:hasDate "2017-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "56.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "58"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -472,12 +472,12 @@
 	voc:pLAS99 "37.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "47_01" .
 
-<https://www.linkeddataupm.es/group19/Mendez+alvaro> a swpo:Location ;
+<https://www.linkeddataupm.es/group19/resource/Mendez+alvaro> a swpo:Location ;
 	voc:hasNMT "47" ;
 	voc:hasMeasurement "47_01" ;
 	identity:hasName "Mendez alvaro" .
 
-<https://www.linkeddataupm.es/group19/48_01> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/48_01> a msr:Measurement ;
 	lsweb:hasDate "2017-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "64"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "63.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -490,12 +490,12 @@
 	voc:pLAS99 "45.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "48_01" .
 
-<https://www.linkeddataupm.es/group19/Castellana> a swpo:Location ;
+<https://www.linkeddataupm.es/group19/resource/Castellana> a swpo:Location ;
 	voc:hasNMT "48" ;
 	voc:hasMeasurement "48_01" ;
 	identity:hasName "Castellana" .
 
-<https://www.linkeddataupm.es/group19/50_01> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/50_01> a msr:Measurement ;
 	lsweb:hasDate "2017-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "70.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "66.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -508,12 +508,12 @@
 	voc:pLAS99 "48.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "50_01" .
 
-<https://www.linkeddataupm.es/group19/Pza+de+Castilla> a swpo:Location ;
+<https://www.linkeddataupm.es/group19/resource/Pza+de+Castilla> a swpo:Location ;
 	voc:hasNMT "50" ;
 	voc:hasMeasurement "50_01" ;
 	identity:hasName "Pza de Castilla" .
 
-<https://www.linkeddataupm.es/group19/54_01> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/54_01> a msr:Measurement ;
 	lsweb:hasDate "2017-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "61.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "62.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -526,12 +526,12 @@
 	voc:pLAS99 "37.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "54_01" .
 
-<https://www.linkeddataupm.es/group19/Ensanche+de+Vallecas> a swpo:Location ;
+<https://www.linkeddataupm.es/group19/resource/Ensanche+de+Vallecas> a swpo:Location ;
 	voc:hasNMT "54" ;
 	voc:hasMeasurement "54_01" ;
 	identity:hasName "Ensanche de Vallecas" .
 
-<https://www.linkeddataupm.es/group19/55_01> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/55_01> a msr:Measurement ;
 	lsweb:hasDate "2017-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "60.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "55.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -544,12 +544,12 @@
 	voc:pLAS99 "41.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "55_01" .
 
-<https://www.linkeddataupm.es/group19/Urbanizacion+Embajada+II> a swpo:Location ;
+<https://www.linkeddataupm.es/group19/resource/Urbanizacion+Embajada+II> a swpo:Location ;
 	voc:hasNMT "55" ;
 	voc:hasMeasurement "55_01" ;
 	identity:hasName "Urbanizacion Embajada II" .
 
-<https://www.linkeddataupm.es/group19/86_01> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/86_01> a msr:Measurement ;
 	lsweb:hasDate "2017-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "59.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "60.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -562,12 +562,12 @@
 	voc:pLAS99 "36"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "86_01" .
 
-<https://www.linkeddataupm.es/group19/Tres+Olivos> a swpo:Location ;
+<https://www.linkeddataupm.es/group19/resource/Tres+Olivos> a swpo:Location ;
 	voc:hasNMT "86" ;
 	voc:hasMeasurement "86_01" ;
 	identity:hasName "Tres Olivos" .
 
-<https://www.linkeddataupm.es/group19/1_02> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/1_02> a msr:Measurement ;
 	lsweb:hasDate "2017-02-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "68.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "68.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -580,9 +580,9 @@
 	voc:pLAS99 "50.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "1_02" .
 
-<https://www.linkeddataupm.es/group19/Paseo+de+Recoletos> voc:hasMeasurement "1_02" .
+<https://www.linkeddataupm.es/group19/resource/Paseo+de+Recoletos> voc:hasMeasurement "1_02" .
 
-<https://www.linkeddataupm.es/group19/2_02> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/2_02> a msr:Measurement ;
 	lsweb:hasDate "2017-02-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "70.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "70.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -595,9 +595,9 @@
 	voc:pLAS99 "54.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "2_02" .
 
-<https://www.linkeddataupm.es/group19/Carlos+V> voc:hasMeasurement "2_02" .
+<https://www.linkeddataupm.es/group19/resource/Carlos+V> voc:hasMeasurement "2_02" .
 
-<https://www.linkeddataupm.es/group19/3_02> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/3_02> a msr:Measurement ;
 	lsweb:hasDate "2017-02-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "68.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "61.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -610,9 +610,9 @@
 	voc:pLAS99 "50.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "3_02" .
 
-<https://www.linkeddataupm.es/group19/Plaza+del+Carmen> voc:hasMeasurement "3_02" .
+<https://www.linkeddataupm.es/group19/resource/Plaza+del+Carmen> voc:hasMeasurement "3_02" .
 
-<https://www.linkeddataupm.es/group19/4_02> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/4_02> a msr:Measurement ;
 	lsweb:hasDate "2017-02-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "68.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "66.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -625,9 +625,9 @@
 	voc:pLAS99 "49.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "4_02" .
 
-<https://www.linkeddataupm.es/group19/Plaza+de+Espa%C3%B1a> voc:hasMeasurement "4_02" .
+<https://www.linkeddataupm.es/group19/resource/Plaza+de+Espa%C3%B1a> voc:hasMeasurement "4_02" .
 
-<https://www.linkeddataupm.es/group19/5_02> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/5_02> a msr:Measurement ;
 	lsweb:hasDate "2017-02-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "63.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "63.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -640,9 +640,9 @@
 	voc:pLAS99 "39"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "5_02" .
 
-<https://www.linkeddataupm.es/group19/Barrio+del+Pilar> voc:hasMeasurement "5_02" .
+<https://www.linkeddataupm.es/group19/resource/Barrio+del+Pilar> voc:hasMeasurement "5_02" .
 
-<https://www.linkeddataupm.es/group19/6_02> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/6_02> a msr:Measurement ;
 	lsweb:hasDate "2017-02-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "72.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "71.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -655,9 +655,9 @@
 	voc:pLAS99 "52.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "6_02" .
 
-<https://www.linkeddataupm.es/group19/Gregorio+Mara%C3%B1on> voc:hasMeasurement "6_02" .
+<https://www.linkeddataupm.es/group19/resource/Gregorio+Mara%C3%B1on> voc:hasMeasurement "6_02" .
 
-<https://www.linkeddataupm.es/group19/8_02> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/8_02> a msr:Measurement ;
 	lsweb:hasDate "2017-02-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "68.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "68"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -670,9 +670,9 @@
 	voc:pLAS99 "49.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "8_02" .
 
-<https://www.linkeddataupm.es/group19/Escuelas+Aguirre> voc:hasMeasurement "8_02" .
+<https://www.linkeddataupm.es/group19/resource/Escuelas+Aguirre> voc:hasMeasurement "8_02" .
 
-<https://www.linkeddataupm.es/group19/10_02> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/10_02> a msr:Measurement ;
 	lsweb:hasDate "2017-02-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "67.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "65.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -685,9 +685,9 @@
 	voc:pLAS99 "42.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "10_02" .
 
-<https://www.linkeddataupm.es/group19/Cuatro+Caminos> voc:hasMeasurement "10_02" .
+<https://www.linkeddataupm.es/group19/resource/Cuatro+Caminos> voc:hasMeasurement "10_02" .
 
-<https://www.linkeddataupm.es/group19/11_02> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/11_02> a msr:Measurement ;
 	lsweb:hasDate "2017-02-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "70"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "69.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -700,9 +700,9 @@
 	voc:pLAS99 "39.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "11_02" .
 
-<https://www.linkeddataupm.es/group19/Ramon+y+Cajal> voc:hasMeasurement "11_02" .
+<https://www.linkeddataupm.es/group19/resource/Ramon+y+Cajal> voc:hasMeasurement "11_02" .
 
-<https://www.linkeddataupm.es/group19/12_02> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/12_02> a msr:Measurement ;
 	lsweb:hasDate "2017-02-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "65.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "65.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -715,9 +715,9 @@
 	voc:pLAS99 "46.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "12_02" .
 
-<https://www.linkeddataupm.es/group19/Plaza+Manuel+Becerra> voc:hasMeasurement "12_02" .
+<https://www.linkeddataupm.es/group19/resource/Plaza+Manuel+Becerra> voc:hasMeasurement "12_02" .
 
-<https://www.linkeddataupm.es/group19/13_02> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/13_02> a msr:Measurement ;
 	lsweb:hasDate "2017-02-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "59.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "58.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -730,9 +730,9 @@
 	voc:pLAS99 "38"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "13_02" .
 
-<https://www.linkeddataupm.es/group19/Vallecas> voc:hasMeasurement "13_02" .
+<https://www.linkeddataupm.es/group19/resource/Vallecas> voc:hasMeasurement "13_02" .
 
-<https://www.linkeddataupm.es/group19/14_02> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/14_02> a msr:Measurement ;
 	lsweb:hasDate "2017-02-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "66.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "66.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -745,9 +745,9 @@
 	voc:pLAS99 "48.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "14_02" .
 
-<https://www.linkeddataupm.es/group19/Glorieta+Fdez.+Ladreda> voc:hasMeasurement "14_02" .
+<https://www.linkeddataupm.es/group19/resource/Glorieta+Fdez.+Ladreda> voc:hasMeasurement "14_02" .
 
-<https://www.linkeddataupm.es/group19/16_02> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/16_02> a msr:Measurement ;
 	lsweb:hasDate "2017-02-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "63.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "62.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -760,9 +760,9 @@
 	voc:pLAS99 "37.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "16_02" .
 
-<https://www.linkeddataupm.es/group19/Arturo+Soria> voc:hasMeasurement "16_02" .
+<https://www.linkeddataupm.es/group19/resource/Arturo+Soria> voc:hasMeasurement "16_02" .
 
-<https://www.linkeddataupm.es/group19/17_02> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/17_02> a msr:Measurement ;
 	lsweb:hasDate "2017-02-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "59.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "61.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -775,9 +775,9 @@
 	voc:pLAS99 "37.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "17_02" .
 
-<https://www.linkeddataupm.es/group19/Villaverde> voc:hasMeasurement "17_02" .
+<https://www.linkeddataupm.es/group19/resource/Villaverde> voc:hasMeasurement "17_02" .
 
-<https://www.linkeddataupm.es/group19/18_02> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/18_02> a msr:Measurement ;
 	lsweb:hasDate "2017-02-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "60.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "60.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -790,9 +790,9 @@
 	voc:pLAS99 "40.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "18_02" .
 
-<https://www.linkeddataupm.es/group19/Farolillo> voc:hasMeasurement "18_02" .
+<https://www.linkeddataupm.es/group19/resource/Farolillo> voc:hasMeasurement "18_02" .
 
-<https://www.linkeddataupm.es/group19/19_02> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/19_02> a msr:Measurement ;
 	lsweb:hasDate "2017-02-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "62.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "61.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -805,9 +805,9 @@
 	voc:pLAS99 "38.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "19_02" .
 
-<https://www.linkeddataupm.es/group19/Alto+Extremadura> voc:hasMeasurement "19_02" .
+<https://www.linkeddataupm.es/group19/resource/Alto+Extremadura> voc:hasMeasurement "19_02" .
 
-<https://www.linkeddataupm.es/group19/20_02> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/20_02> a msr:Measurement ;
 	lsweb:hasDate "2017-02-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "63.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "62.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -820,9 +820,9 @@
 	voc:pLAS99 "39.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "20_02" .
 
-<https://www.linkeddataupm.es/group19/Avda+de+Moratalaz> voc:hasMeasurement "20_02" .
+<https://www.linkeddataupm.es/group19/resource/Avda+de+Moratalaz> voc:hasMeasurement "20_02" .
 
-<https://www.linkeddataupm.es/group19/24_02> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/24_02> a msr:Measurement ;
 	lsweb:hasDate "2017-02-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "51.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "47.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -835,9 +835,9 @@
 	voc:pLAS99 "37.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "24_02" .
 
-<https://www.linkeddataupm.es/group19/Casa+de+Campo> voc:hasMeasurement "24_02" .
+<https://www.linkeddataupm.es/group19/resource/Casa+de+Campo> voc:hasMeasurement "24_02" .
 
-<https://www.linkeddataupm.es/group19/25_02> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/25_02> a msr:Measurement ;
 	lsweb:hasDate "2017-02-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "68"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "67.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -850,9 +850,9 @@
 	voc:pLAS99 "49"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "25_02" .
 
-<https://www.linkeddataupm.es/group19/Santa+Eugenia> voc:hasMeasurement "25_02" .
+<https://www.linkeddataupm.es/group19/resource/Santa+Eugenia> voc:hasMeasurement "25_02" .
 
-<https://www.linkeddataupm.es/group19/26_02> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/26_02> a msr:Measurement ;
 	lsweb:hasDate "2017-02-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "65"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "63.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -865,9 +865,9 @@
 	voc:pLAS99 "42.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "26_02" .
 
-<https://www.linkeddataupm.es/group19/Embajada> voc:hasMeasurement "26_02" .
+<https://www.linkeddataupm.es/group19/resource/Embajada> voc:hasMeasurement "26_02" .
 
-<https://www.linkeddataupm.es/group19/27_02> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/27_02> a msr:Measurement ;
 	lsweb:hasDate "2017-02-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "63.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "62"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -880,9 +880,9 @@
 	voc:pLAS99 "36.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "27_02" .
 
-<https://www.linkeddataupm.es/group19/Barajas+Pueblo> voc:hasMeasurement "27_02" .
+<https://www.linkeddataupm.es/group19/resource/Barajas+Pueblo> voc:hasMeasurement "27_02" .
 
-<https://www.linkeddataupm.es/group19/28_02> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/28_02> a msr:Measurement ;
 	lsweb:hasDate "2017-02-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "68.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "67.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -895,9 +895,9 @@
 	voc:pLAS99 "38.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "28_02" .
 
-<https://www.linkeddataupm.es/group19/Cuatro+Vientos> voc:hasMeasurement "28_02" .
+<https://www.linkeddataupm.es/group19/resource/Cuatro+Vientos> voc:hasMeasurement "28_02" .
 
-<https://www.linkeddataupm.es/group19/29_02> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/29_02> a msr:Measurement ;
 	lsweb:hasDate "2017-02-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "58.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "56"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -910,9 +910,9 @@
 	voc:pLAS99 "33.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "29_02" .
 
-<https://www.linkeddataupm.es/group19/El+Pardo> voc:hasMeasurement "29_02" .
+<https://www.linkeddataupm.es/group19/resource/El+Pardo> voc:hasMeasurement "29_02" .
 
-<https://www.linkeddataupm.es/group19/30_02> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/30_02> a msr:Measurement ;
 	lsweb:hasDate "2017-02-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "62.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "61"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -925,9 +925,9 @@
 	voc:pLAS99 "41.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "30_02" .
 
-<https://www.linkeddataupm.es/group19/Campo+de+las+Naciones> voc:hasMeasurement "30_02" .
+<https://www.linkeddataupm.es/group19/resource/Campo+de+las+Naciones> voc:hasMeasurement "30_02" .
 
-<https://www.linkeddataupm.es/group19/31_02> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/31_02> a msr:Measurement ;
 	lsweb:hasDate "2017-02-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "64.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "64.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -940,9 +940,9 @@
 	voc:pLAS99 "39.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "31_02" .
 
-<https://www.linkeddataupm.es/group19/Sanchinarro> voc:hasMeasurement "31_02" .
+<https://www.linkeddataupm.es/group19/resource/Sanchinarro> voc:hasMeasurement "31_02" .
 
-<https://www.linkeddataupm.es/group19/47_02> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/47_02> a msr:Measurement ;
 	lsweb:hasDate "2017-02-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "56.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "57.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -955,9 +955,9 @@
 	voc:pLAS99 "37.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "47_02" .
 
-<https://www.linkeddataupm.es/group19/Mendez+alvaro> voc:hasMeasurement "47_02" .
+<https://www.linkeddataupm.es/group19/resource/Mendez+alvaro> voc:hasMeasurement "47_02" .
 
-<https://www.linkeddataupm.es/group19/48_02> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/48_02> a msr:Measurement ;
 	lsweb:hasDate "2017-02-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "68.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "63.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -970,9 +970,9 @@
 	voc:pLAS99 "46.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "48_02" .
 
-<https://www.linkeddataupm.es/group19/Castellana> voc:hasMeasurement "48_02" .
+<https://www.linkeddataupm.es/group19/resource/Castellana> voc:hasMeasurement "48_02" .
 
-<https://www.linkeddataupm.es/group19/50_02> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/50_02> a msr:Measurement ;
 	lsweb:hasDate "2017-02-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "67.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "66.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -985,9 +985,9 @@
 	voc:pLAS99 "49"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "50_02" .
 
-<https://www.linkeddataupm.es/group19/Pza+de+Castilla> voc:hasMeasurement "50_02" .
+<https://www.linkeddataupm.es/group19/resource/Pza+de+Castilla> voc:hasMeasurement "50_02" .
 
-<https://www.linkeddataupm.es/group19/54_02> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/54_02> a msr:Measurement ;
 	lsweb:hasDate "2017-02-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "62.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "61.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1000,9 +1000,9 @@
 	voc:pLAS99 "39"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "54_02" .
 
-<https://www.linkeddataupm.es/group19/Ensanche+de+Vallecas> voc:hasMeasurement "54_02" .
+<https://www.linkeddataupm.es/group19/resource/Ensanche+de+Vallecas> voc:hasMeasurement "54_02" .
 
-<https://www.linkeddataupm.es/group19/55_02> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/55_02> a msr:Measurement ;
 	lsweb:hasDate "2017-02-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "58"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "56.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1015,9 +1015,9 @@
 	voc:pLAS99 "42.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "55_02" .
 
-<https://www.linkeddataupm.es/group19/Urbanizacion+Embajada+II> voc:hasMeasurement "55_02" .
+<https://www.linkeddataupm.es/group19/resource/Urbanizacion+Embajada+II> voc:hasMeasurement "55_02" .
 
-<https://www.linkeddataupm.es/group19/86_02> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/86_02> a msr:Measurement ;
 	lsweb:hasDate "2017-02-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "59.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "58.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1030,9 +1030,9 @@
 	voc:pLAS99 "36.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "86_02" .
 
-<https://www.linkeddataupm.es/group19/Tres+Olivos> voc:hasMeasurement "86_02" .
+<https://www.linkeddataupm.es/group19/resource/Tres+Olivos> voc:hasMeasurement "86_02" .
 
-<https://www.linkeddataupm.es/group19/1_03> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/1_03> a msr:Measurement ;
 	lsweb:hasDate "2017-03-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "72.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "67.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1045,9 +1045,9 @@
 	voc:pLAS99 "49.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "1_03" .
 
-<https://www.linkeddataupm.es/group19/Paseo+de+Recoletos> voc:hasMeasurement "1_03" .
+<https://www.linkeddataupm.es/group19/resource/Paseo+de+Recoletos> voc:hasMeasurement "1_03" .
 
-<https://www.linkeddataupm.es/group19/2_03> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/2_03> a msr:Measurement ;
 	lsweb:hasDate "2017-03-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "70"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "69.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1060,9 +1060,9 @@
 	voc:pLAS99 "53.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "2_03" .
 
-<https://www.linkeddataupm.es/group19/Carlos+V> voc:hasMeasurement "2_03" .
+<https://www.linkeddataupm.es/group19/resource/Carlos+V> voc:hasMeasurement "2_03" .
 
-<https://www.linkeddataupm.es/group19/3_03> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/3_03> a msr:Measurement ;
 	lsweb:hasDate "2017-03-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "63.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "61.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1075,9 +1075,9 @@
 	voc:pLAS99 "50"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "3_03" .
 
-<https://www.linkeddataupm.es/group19/Plaza+del+Carmen> voc:hasMeasurement "3_03" .
+<https://www.linkeddataupm.es/group19/resource/Plaza+del+Carmen> voc:hasMeasurement "3_03" .
 
-<https://www.linkeddataupm.es/group19/4_03> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/4_03> a msr:Measurement ;
 	lsweb:hasDate "2017-03-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "65.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "65.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1090,9 +1090,9 @@
 	voc:pLAS99 "49.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "4_03" .
 
-<https://www.linkeddataupm.es/group19/Plaza+de+Espa%C3%B1a> voc:hasMeasurement "4_03" .
+<https://www.linkeddataupm.es/group19/resource/Plaza+de+Espa%C3%B1a> voc:hasMeasurement "4_03" .
 
-<https://www.linkeddataupm.es/group19/5_03> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/5_03> a msr:Measurement ;
 	lsweb:hasDate "2017-03-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "63.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "62.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1105,9 +1105,9 @@
 	voc:pLAS99 "41"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "5_03" .
 
-<https://www.linkeddataupm.es/group19/Barrio+del+Pilar> voc:hasMeasurement "5_03" .
+<https://www.linkeddataupm.es/group19/resource/Barrio+del+Pilar> voc:hasMeasurement "5_03" .
 
-<https://www.linkeddataupm.es/group19/6_03> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/6_03> a msr:Measurement ;
 	lsweb:hasDate "2017-03-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "71.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "70.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1120,9 +1120,9 @@
 	voc:pLAS99 "51.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "6_03" .
 
-<https://www.linkeddataupm.es/group19/Gregorio+Mara%C3%B1on> voc:hasMeasurement "6_03" .
+<https://www.linkeddataupm.es/group19/resource/Gregorio+Mara%C3%B1on> voc:hasMeasurement "6_03" .
 
-<https://www.linkeddataupm.es/group19/8_03> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/8_03> a msr:Measurement ;
 	lsweb:hasDate "2017-03-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "68.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "67.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1135,9 +1135,9 @@
 	voc:pLAS99 "49.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "8_03" .
 
-<https://www.linkeddataupm.es/group19/Escuelas+Aguirre> voc:hasMeasurement "8_03" .
+<https://www.linkeddataupm.es/group19/resource/Escuelas+Aguirre> voc:hasMeasurement "8_03" .
 
-<https://www.linkeddataupm.es/group19/10_03> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/10_03> a msr:Measurement ;
 	lsweb:hasDate "2017-03-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "66.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "65.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1150,9 +1150,9 @@
 	voc:pLAS99 "44.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "10_03" .
 
-<https://www.linkeddataupm.es/group19/Cuatro+Caminos> voc:hasMeasurement "10_03" .
+<https://www.linkeddataupm.es/group19/resource/Cuatro+Caminos> voc:hasMeasurement "10_03" .
 
-<https://www.linkeddataupm.es/group19/11_03> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/11_03> a msr:Measurement ;
 	lsweb:hasDate "2017-03-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "69.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "68.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1165,9 +1165,9 @@
 	voc:pLAS99 "40.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "11_03" .
 
-<https://www.linkeddataupm.es/group19/Ramon+y+Cajal> voc:hasMeasurement "11_03" .
+<https://www.linkeddataupm.es/group19/resource/Ramon+y+Cajal> voc:hasMeasurement "11_03" .
 
-<https://www.linkeddataupm.es/group19/12_03> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/12_03> a msr:Measurement ;
 	lsweb:hasDate "2017-03-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "66.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "65.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1180,9 +1180,9 @@
 	voc:pLAS99 "46.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "12_03" .
 
-<https://www.linkeddataupm.es/group19/Plaza+Manuel+Becerra> voc:hasMeasurement "12_03" .
+<https://www.linkeddataupm.es/group19/resource/Plaza+Manuel+Becerra> voc:hasMeasurement "12_03" .
 
-<https://www.linkeddataupm.es/group19/13_03> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/13_03> a msr:Measurement ;
 	lsweb:hasDate "2017-03-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "59.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "58.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1195,9 +1195,9 @@
 	voc:pLAS99 "36.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "13_03" .
 
-<https://www.linkeddataupm.es/group19/Vallecas> voc:hasMeasurement "13_03" .
+<https://www.linkeddataupm.es/group19/resource/Vallecas> voc:hasMeasurement "13_03" .
 
-<https://www.linkeddataupm.es/group19/14_03> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/14_03> a msr:Measurement ;
 	lsweb:hasDate "2017-03-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "66.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "66"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1210,9 +1210,9 @@
 	voc:pLAS99 "48.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "14_03" .
 
-<https://www.linkeddataupm.es/group19/Glorieta+Fdez.+Ladreda> voc:hasMeasurement "14_03" .
+<https://www.linkeddataupm.es/group19/resource/Glorieta+Fdez.+Ladreda> voc:hasMeasurement "14_03" .
 
-<https://www.linkeddataupm.es/group19/16_03> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/16_03> a msr:Measurement ;
 	lsweb:hasDate "2017-03-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "62.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "61.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1225,9 +1225,9 @@
 	voc:pLAS99 "36.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "16_03" .
 
-<https://www.linkeddataupm.es/group19/Arturo+Soria> voc:hasMeasurement "16_03" .
+<https://www.linkeddataupm.es/group19/resource/Arturo+Soria> voc:hasMeasurement "16_03" .
 
-<https://www.linkeddataupm.es/group19/17_03> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/17_03> a msr:Measurement ;
 	lsweb:hasDate "2017-03-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "60"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "62.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1240,9 +1240,9 @@
 	voc:pLAS99 "35.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "17_03" .
 
-<https://www.linkeddataupm.es/group19/Villaverde> voc:hasMeasurement "17_03" .
+<https://www.linkeddataupm.es/group19/resource/Villaverde> voc:hasMeasurement "17_03" .
 
-<https://www.linkeddataupm.es/group19/18_03> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/18_03> a msr:Measurement ;
 	lsweb:hasDate "2017-03-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "61.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "60.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1255,9 +1255,9 @@
 	voc:pLAS99 "40.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "18_03" .
 
-<https://www.linkeddataupm.es/group19/Farolillo> voc:hasMeasurement "18_03" .
+<https://www.linkeddataupm.es/group19/resource/Farolillo> voc:hasMeasurement "18_03" .
 
-<https://www.linkeddataupm.es/group19/19_03> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/19_03> a msr:Measurement ;
 	lsweb:hasDate "2017-03-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "61.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "61.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1270,9 +1270,9 @@
 	voc:pLAS99 "38.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "19_03" .
 
-<https://www.linkeddataupm.es/group19/Alto+Extremadura> voc:hasMeasurement "19_03" .
+<https://www.linkeddataupm.es/group19/resource/Alto+Extremadura> voc:hasMeasurement "19_03" .
 
-<https://www.linkeddataupm.es/group19/20_03> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/20_03> a msr:Measurement ;
 	lsweb:hasDate "2017-03-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "63.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "62.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1285,9 +1285,9 @@
 	voc:pLAS99 "38.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "20_03" .
 
-<https://www.linkeddataupm.es/group19/Avda+de+Moratalaz> voc:hasMeasurement "20_03" .
+<https://www.linkeddataupm.es/group19/resource/Avda+de+Moratalaz> voc:hasMeasurement "20_03" .
 
-<https://www.linkeddataupm.es/group19/24_03> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/24_03> a msr:Measurement ;
 	lsweb:hasDate "2017-03-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "51.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "48.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1300,9 +1300,9 @@
 	voc:pLAS99 "37.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "24_03" .
 
-<https://www.linkeddataupm.es/group19/Casa+de+Campo> voc:hasMeasurement "24_03" .
+<https://www.linkeddataupm.es/group19/resource/Casa+de+Campo> voc:hasMeasurement "24_03" .
 
-<https://www.linkeddataupm.es/group19/25_03> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/25_03> a msr:Measurement ;
 	lsweb:hasDate "2017-03-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "66.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "66.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1315,9 +1315,9 @@
 	voc:pLAS99 "48.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "25_03" .
 
-<https://www.linkeddataupm.es/group19/Santa+Eugenia> voc:hasMeasurement "25_03" .
+<https://www.linkeddataupm.es/group19/resource/Santa+Eugenia> voc:hasMeasurement "25_03" .
 
-<https://www.linkeddataupm.es/group19/26_03> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/26_03> a msr:Measurement ;
 	lsweb:hasDate "2017-03-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "64.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "63.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1330,9 +1330,9 @@
 	voc:pLAS99 "42.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "26_03" .
 
-<https://www.linkeddataupm.es/group19/Embajada> voc:hasMeasurement "26_03" .
+<https://www.linkeddataupm.es/group19/resource/Embajada> voc:hasMeasurement "26_03" .
 
-<https://www.linkeddataupm.es/group19/27_03> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/27_03> a msr:Measurement ;
 	lsweb:hasDate "2017-03-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "63.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "63.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1345,9 +1345,9 @@
 	voc:pLAS99 "37.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "27_03" .
 
-<https://www.linkeddataupm.es/group19/Barajas+Pueblo> voc:hasMeasurement "27_03" .
+<https://www.linkeddataupm.es/group19/resource/Barajas+Pueblo> voc:hasMeasurement "27_03" .
 
-<https://www.linkeddataupm.es/group19/28_03> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/28_03> a msr:Measurement ;
 	lsweb:hasDate "2017-03-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "68.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "67.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1360,9 +1360,9 @@
 	voc:pLAS99 "37.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "28_03" .
 
-<https://www.linkeddataupm.es/group19/Cuatro+Vientos> voc:hasMeasurement "28_03" .
+<https://www.linkeddataupm.es/group19/resource/Cuatro+Vientos> voc:hasMeasurement "28_03" .
 
-<https://www.linkeddataupm.es/group19/29_03> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/29_03> a msr:Measurement ;
 	lsweb:hasDate "2017-03-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "57.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "55.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1375,9 +1375,9 @@
 	voc:pLAS99 "33.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "29_03" .
 
-<https://www.linkeddataupm.es/group19/El+Pardo> voc:hasMeasurement "29_03" .
+<https://www.linkeddataupm.es/group19/resource/El+Pardo> voc:hasMeasurement "29_03" .
 
-<https://www.linkeddataupm.es/group19/30_03> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/30_03> a msr:Measurement ;
 	lsweb:hasDate "2017-03-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "64.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "60.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1390,9 +1390,9 @@
 	voc:pLAS99 "40.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "30_03" .
 
-<https://www.linkeddataupm.es/group19/Campo+de+las+Naciones> voc:hasMeasurement "30_03" .
+<https://www.linkeddataupm.es/group19/resource/Campo+de+las+Naciones> voc:hasMeasurement "30_03" .
 
-<https://www.linkeddataupm.es/group19/31_03> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/31_03> a msr:Measurement ;
 	lsweb:hasDate "2017-03-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "63.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "63.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1405,9 +1405,9 @@
 	voc:pLAS99 "38.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "31_03" .
 
-<https://www.linkeddataupm.es/group19/Sanchinarro> voc:hasMeasurement "31_03" .
+<https://www.linkeddataupm.es/group19/resource/Sanchinarro> voc:hasMeasurement "31_03" .
 
-<https://www.linkeddataupm.es/group19/47_03> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/47_03> a msr:Measurement ;
 	lsweb:hasDate "2017-03-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "55.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "57.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1420,9 +1420,9 @@
 	voc:pLAS99 "36.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "47_03" .
 
-<https://www.linkeddataupm.es/group19/Mendez+alvaro> voc:hasMeasurement "47_03" .
+<https://www.linkeddataupm.es/group19/resource/Mendez+alvaro> voc:hasMeasurement "47_03" .
 
-<https://www.linkeddataupm.es/group19/48_03> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/48_03> a msr:Measurement ;
 	lsweb:hasDate "2017-03-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "65.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "63"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1435,9 +1435,9 @@
 	voc:pLAS99 "45.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "48_03" .
 
-<https://www.linkeddataupm.es/group19/Castellana> voc:hasMeasurement "48_03" .
+<https://www.linkeddataupm.es/group19/resource/Castellana> voc:hasMeasurement "48_03" .
 
-<https://www.linkeddataupm.es/group19/50_03> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/50_03> a msr:Measurement ;
 	lsweb:hasDate "2017-03-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "67.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "66"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1450,9 +1450,9 @@
 	voc:pLAS99 "48.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "50_03" .
 
-<https://www.linkeddataupm.es/group19/Pza+de+Castilla> voc:hasMeasurement "50_03" .
+<https://www.linkeddataupm.es/group19/resource/Pza+de+Castilla> voc:hasMeasurement "50_03" .
 
-<https://www.linkeddataupm.es/group19/54_03> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/54_03> a msr:Measurement ;
 	lsweb:hasDate "2017-03-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "62.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "61.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1465,9 +1465,9 @@
 	voc:pLAS99 "37.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "54_03" .
 
-<https://www.linkeddataupm.es/group19/Ensanche+de+Vallecas> voc:hasMeasurement "54_03" .
+<https://www.linkeddataupm.es/group19/resource/Ensanche+de+Vallecas> voc:hasMeasurement "54_03" .
 
-<https://www.linkeddataupm.es/group19/55_03> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/55_03> a msr:Measurement ;
 	lsweb:hasDate "2017-03-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "58.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "57.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1480,9 +1480,9 @@
 	voc:pLAS99 "46.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "55_03" .
 
-<https://www.linkeddataupm.es/group19/Urbanizacion+Embajada+II> voc:hasMeasurement "55_03" .
+<https://www.linkeddataupm.es/group19/resource/Urbanizacion+Embajada+II> voc:hasMeasurement "55_03" .
 
-<https://www.linkeddataupm.es/group19/86_03> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/86_03> a msr:Measurement ;
 	lsweb:hasDate "2017-03-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "59.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "57.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1495,9 +1495,9 @@
 	voc:pLAS99 "36.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "86_03" .
 
-<https://www.linkeddataupm.es/group19/Tres+Olivos> voc:hasMeasurement "86_03" .
+<https://www.linkeddataupm.es/group19/resource/Tres+Olivos> voc:hasMeasurement "86_03" .
 
-<https://www.linkeddataupm.es/group19/1_04> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/1_04> a msr:Measurement ;
 	lsweb:hasDate "2017-04-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "67.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "67.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1510,9 +1510,9 @@
 	voc:pLAS99 "48.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "1_04" .
 
-<https://www.linkeddataupm.es/group19/Paseo+de+Recoletos> voc:hasMeasurement "1_04" .
+<https://www.linkeddataupm.es/group19/resource/Paseo+de+Recoletos> voc:hasMeasurement "1_04" .
 
-<https://www.linkeddataupm.es/group19/2_04> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/2_04> a msr:Measurement ;
 	lsweb:hasDate "2017-04-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "69.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "69.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1525,9 +1525,9 @@
 	voc:pLAS99 "53.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "2_04" .
 
-<https://www.linkeddataupm.es/group19/Carlos+V> voc:hasMeasurement "2_04" .
+<https://www.linkeddataupm.es/group19/resource/Carlos+V> voc:hasMeasurement "2_04" .
 
-<https://www.linkeddataupm.es/group19/3_04> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/3_04> a msr:Measurement ;
 	lsweb:hasDate "2017-04-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "62.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "62.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1540,9 +1540,9 @@
 	voc:pLAS99 "50.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "3_04" .
 
-<https://www.linkeddataupm.es/group19/Plaza+del+Carmen> voc:hasMeasurement "3_04" .
+<https://www.linkeddataupm.es/group19/resource/Plaza+del+Carmen> voc:hasMeasurement "3_04" .
 
-<https://www.linkeddataupm.es/group19/4_04> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/4_04> a msr:Measurement ;
 	lsweb:hasDate "2017-04-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "65.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "65.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1555,9 +1555,9 @@
 	voc:pLAS99 "49.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "4_04" .
 
-<https://www.linkeddataupm.es/group19/Plaza+de+Espa%C3%B1a> voc:hasMeasurement "4_04" .
+<https://www.linkeddataupm.es/group19/resource/Plaza+de+Espa%C3%B1a> voc:hasMeasurement "4_04" .
 
-<https://www.linkeddataupm.es/group19/5_04> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/5_04> a msr:Measurement ;
 	lsweb:hasDate "2017-04-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "63.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "63.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1570,9 +1570,9 @@
 	voc:pLAS99 "42.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "5_04" .
 
-<https://www.linkeddataupm.es/group19/Barrio+del+Pilar> voc:hasMeasurement "5_04" .
+<https://www.linkeddataupm.es/group19/resource/Barrio+del+Pilar> voc:hasMeasurement "5_04" .
 
-<https://www.linkeddataupm.es/group19/6_04> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/6_04> a msr:Measurement ;
 	lsweb:hasDate "2017-04-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "70.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "70.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1585,9 +1585,9 @@
 	voc:pLAS99 "51.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "6_04" .
 
-<https://www.linkeddataupm.es/group19/Gregorio+Mara%C3%B1on> voc:hasMeasurement "6_04" .
+<https://www.linkeddataupm.es/group19/resource/Gregorio+Mara%C3%B1on> voc:hasMeasurement "6_04" .
 
-<https://www.linkeddataupm.es/group19/8_04> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/8_04> a msr:Measurement ;
 	lsweb:hasDate "2017-04-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "67.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "67.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1600,9 +1600,9 @@
 	voc:pLAS99 "48.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "8_04" .
 
-<https://www.linkeddataupm.es/group19/Escuelas+Aguirre> voc:hasMeasurement "8_04" .
+<https://www.linkeddataupm.es/group19/resource/Escuelas+Aguirre> voc:hasMeasurement "8_04" .
 
-<https://www.linkeddataupm.es/group19/10_04> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/10_04> a msr:Measurement ;
 	lsweb:hasDate "2017-04-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "65.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "64.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1615,9 +1615,9 @@
 	voc:pLAS99 "44.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "10_04" .
 
-<https://www.linkeddataupm.es/group19/Cuatro+Caminos> voc:hasMeasurement "10_04" .
+<https://www.linkeddataupm.es/group19/resource/Cuatro+Caminos> voc:hasMeasurement "10_04" .
 
-<https://www.linkeddataupm.es/group19/11_04> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/11_04> a msr:Measurement ;
 	lsweb:hasDate "2017-04-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "68.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "67.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1630,9 +1630,9 @@
 	voc:pLAS99 "41"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "11_04" .
 
-<https://www.linkeddataupm.es/group19/Ramon+y+Cajal> voc:hasMeasurement "11_04" .
+<https://www.linkeddataupm.es/group19/resource/Ramon+y+Cajal> voc:hasMeasurement "11_04" .
 
-<https://www.linkeddataupm.es/group19/12_04> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/12_04> a msr:Measurement ;
 	lsweb:hasDate "2017-04-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "65.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "66"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1645,9 +1645,9 @@
 	voc:pLAS99 "45.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "12_04" .
 
-<https://www.linkeddataupm.es/group19/Plaza+Manuel+Becerra> voc:hasMeasurement "12_04" .
+<https://www.linkeddataupm.es/group19/resource/Plaza+Manuel+Becerra> voc:hasMeasurement "12_04" .
 
-<https://www.linkeddataupm.es/group19/13_04> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/13_04> a msr:Measurement ;
 	lsweb:hasDate "2017-04-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "67.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "59.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1660,9 +1660,9 @@
 	voc:pLAS99 "36.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "13_04" .
 
-<https://www.linkeddataupm.es/group19/Vallecas> voc:hasMeasurement "13_04" .
+<https://www.linkeddataupm.es/group19/resource/Vallecas> voc:hasMeasurement "13_04" .
 
-<https://www.linkeddataupm.es/group19/14_04> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/14_04> a msr:Measurement ;
 	lsweb:hasDate "2017-04-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "65.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "65.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1675,9 +1675,9 @@
 	voc:pLAS99 "47.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "14_04" .
 
-<https://www.linkeddataupm.es/group19/Glorieta+Fdez.+Ladreda> voc:hasMeasurement "14_04" .
+<https://www.linkeddataupm.es/group19/resource/Glorieta+Fdez.+Ladreda> voc:hasMeasurement "14_04" .
 
-<https://www.linkeddataupm.es/group19/16_04> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/16_04> a msr:Measurement ;
 	lsweb:hasDate "2017-04-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "61.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "60.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1690,9 +1690,9 @@
 	voc:pLAS99 "35.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "16_04" .
 
-<https://www.linkeddataupm.es/group19/Arturo+Soria> voc:hasMeasurement "16_04" .
+<https://www.linkeddataupm.es/group19/resource/Arturo+Soria> voc:hasMeasurement "16_04" .
 
-<https://www.linkeddataupm.es/group19/17_04> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/17_04> a msr:Measurement ;
 	lsweb:hasDate "2017-04-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "58.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "62.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1705,9 +1705,9 @@
 	voc:pLAS99 "35.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "17_04" .
 
-<https://www.linkeddataupm.es/group19/Villaverde> voc:hasMeasurement "17_04" .
+<https://www.linkeddataupm.es/group19/resource/Villaverde> voc:hasMeasurement "17_04" .
 
-<https://www.linkeddataupm.es/group19/18_04> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/18_04> a msr:Measurement ;
 	lsweb:hasDate "2017-04-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "57.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "60.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1720,9 +1720,9 @@
 	voc:pLAS99 "39.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "18_04" .
 
-<https://www.linkeddataupm.es/group19/Farolillo> voc:hasMeasurement "18_04" .
+<https://www.linkeddataupm.es/group19/resource/Farolillo> voc:hasMeasurement "18_04" .
 
-<https://www.linkeddataupm.es/group19/19_04> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/19_04> a msr:Measurement ;
 	lsweb:hasDate "2017-04-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "61.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "61.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1735,9 +1735,9 @@
 	voc:pLAS99 "36.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "19_04" .
 
-<https://www.linkeddataupm.es/group19/Alto+Extremadura> voc:hasMeasurement "19_04" .
+<https://www.linkeddataupm.es/group19/resource/Alto+Extremadura> voc:hasMeasurement "19_04" .
 
-<https://www.linkeddataupm.es/group19/20_04> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/20_04> a msr:Measurement ;
 	lsweb:hasDate "2017-04-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "62.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "62.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1750,9 +1750,9 @@
 	voc:pLAS99 "38.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "20_04" .
 
-<https://www.linkeddataupm.es/group19/Avda+de+Moratalaz> voc:hasMeasurement "20_04" .
+<https://www.linkeddataupm.es/group19/resource/Avda+de+Moratalaz> voc:hasMeasurement "20_04" .
 
-<https://www.linkeddataupm.es/group19/24_04> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/24_04> a msr:Measurement ;
 	lsweb:hasDate "2017-04-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "51.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "50"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1765,9 +1765,9 @@
 	voc:pLAS99 "36.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "24_04" .
 
-<https://www.linkeddataupm.es/group19/Casa+de+Campo> voc:hasMeasurement "24_04" .
+<https://www.linkeddataupm.es/group19/resource/Casa+de+Campo> voc:hasMeasurement "24_04" .
 
-<https://www.linkeddataupm.es/group19/25_04> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/25_04> a msr:Measurement ;
 	lsweb:hasDate "2017-04-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "66.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "65.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1780,9 +1780,9 @@
 	voc:pLAS99 "48.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "25_04" .
 
-<https://www.linkeddataupm.es/group19/Santa+Eugenia> voc:hasMeasurement "25_04" .
+<https://www.linkeddataupm.es/group19/resource/Santa+Eugenia> voc:hasMeasurement "25_04" .
 
-<https://www.linkeddataupm.es/group19/26_04> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/26_04> a msr:Measurement ;
 	lsweb:hasDate "2017-04-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "63.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "62.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1795,9 +1795,9 @@
 	voc:pLAS99 "41.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "26_04" .
 
-<https://www.linkeddataupm.es/group19/Embajada> voc:hasMeasurement "26_04" .
+<https://www.linkeddataupm.es/group19/resource/Embajada> voc:hasMeasurement "26_04" .
 
-<https://www.linkeddataupm.es/group19/27_04> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/27_04> a msr:Measurement ;
 	lsweb:hasDate "2017-04-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "63.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "65.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1810,9 +1810,9 @@
 	voc:pLAS99 "36.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "27_04" .
 
-<https://www.linkeddataupm.es/group19/Barajas+Pueblo> voc:hasMeasurement "27_04" .
+<https://www.linkeddataupm.es/group19/resource/Barajas+Pueblo> voc:hasMeasurement "27_04" .
 
-<https://www.linkeddataupm.es/group19/28_04> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/28_04> a msr:Measurement ;
 	lsweb:hasDate "2017-04-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "67.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "66.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1825,9 +1825,9 @@
 	voc:pLAS99 "36.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "28_04" .
 
-<https://www.linkeddataupm.es/group19/Cuatro+Vientos> voc:hasMeasurement "28_04" .
+<https://www.linkeddataupm.es/group19/resource/Cuatro+Vientos> voc:hasMeasurement "28_04" .
 
-<https://www.linkeddataupm.es/group19/29_04> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/29_04> a msr:Measurement ;
 	lsweb:hasDate "2017-04-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "58.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "55.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1840,9 +1840,9 @@
 	voc:pLAS99 "34.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "29_04" .
 
-<https://www.linkeddataupm.es/group19/El+Pardo> voc:hasMeasurement "29_04" .
+<https://www.linkeddataupm.es/group19/resource/El+Pardo> voc:hasMeasurement "29_04" .
 
-<https://www.linkeddataupm.es/group19/30_04> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/30_04> a msr:Measurement ;
 	lsweb:hasDate "2017-04-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "60.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "59.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1855,9 +1855,9 @@
 	voc:pLAS99 "39.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "30_04" .
 
-<https://www.linkeddataupm.es/group19/Campo+de+las+Naciones> voc:hasMeasurement "30_04" .
+<https://www.linkeddataupm.es/group19/resource/Campo+de+las+Naciones> voc:hasMeasurement "30_04" .
 
-<https://www.linkeddataupm.es/group19/31_04> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/31_04> a msr:Measurement ;
 	lsweb:hasDate "2017-04-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "62.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "63"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1870,9 +1870,9 @@
 	voc:pLAS99 "37.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "31_04" .
 
-<https://www.linkeddataupm.es/group19/Sanchinarro> voc:hasMeasurement "31_04" .
+<https://www.linkeddataupm.es/group19/resource/Sanchinarro> voc:hasMeasurement "31_04" .
 
-<https://www.linkeddataupm.es/group19/47_04> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/47_04> a msr:Measurement ;
 	lsweb:hasDate "2017-04-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "55"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "57.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1885,9 +1885,9 @@
 	voc:pLAS99 "36.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "47_04" .
 
-<https://www.linkeddataupm.es/group19/Mendez+alvaro> voc:hasMeasurement "47_04" .
+<https://www.linkeddataupm.es/group19/resource/Mendez+alvaro> voc:hasMeasurement "47_04" .
 
-<https://www.linkeddataupm.es/group19/48_04> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/48_04> a msr:Measurement ;
 	lsweb:hasDate "2017-04-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "62.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "62"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1900,9 +1900,9 @@
 	voc:pLAS99 "45.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "48_04" .
 
-<https://www.linkeddataupm.es/group19/Castellana> voc:hasMeasurement "48_04" .
+<https://www.linkeddataupm.es/group19/resource/Castellana> voc:hasMeasurement "48_04" .
 
-<https://www.linkeddataupm.es/group19/50_04> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/50_04> a msr:Measurement ;
 	lsweb:hasDate "2017-04-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "66.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "65.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1915,9 +1915,9 @@
 	voc:pLAS99 "48.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "50_04" .
 
-<https://www.linkeddataupm.es/group19/Pza+de+Castilla> voc:hasMeasurement "50_04" .
+<https://www.linkeddataupm.es/group19/resource/Pza+de+Castilla> voc:hasMeasurement "50_04" .
 
-<https://www.linkeddataupm.es/group19/54_04> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/54_04> a msr:Measurement ;
 	lsweb:hasDate "2017-04-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "60.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "60.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1930,9 +1930,9 @@
 	voc:pLAS99 "36.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "54_04" .
 
-<https://www.linkeddataupm.es/group19/Ensanche+de+Vallecas> voc:hasMeasurement "54_04" .
+<https://www.linkeddataupm.es/group19/resource/Ensanche+de+Vallecas> voc:hasMeasurement "54_04" .
 
-<https://www.linkeddataupm.es/group19/55_04> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/55_04> a msr:Measurement ;
 	lsweb:hasDate "2017-04-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "65"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "55.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1945,9 +1945,9 @@
 	voc:pLAS99 "42.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "55_04" .
 
-<https://www.linkeddataupm.es/group19/Urbanizacion+Embajada+II> voc:hasMeasurement "55_04" .
+<https://www.linkeddataupm.es/group19/resource/Urbanizacion+Embajada+II> voc:hasMeasurement "55_04" .
 
-<https://www.linkeddataupm.es/group19/86_04> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/86_04> a msr:Measurement ;
 	lsweb:hasDate "2017-04-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "58.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "57.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1960,9 +1960,9 @@
 	voc:pLAS99 "35.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "86_04" .
 
-<https://www.linkeddataupm.es/group19/Tres+Olivos> voc:hasMeasurement "86_04" .
+<https://www.linkeddataupm.es/group19/resource/Tres+Olivos> voc:hasMeasurement "86_04" .
 
-<https://www.linkeddataupm.es/group19/1_05> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/1_05> a msr:Measurement ;
 	lsweb:hasDate "2017-05-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "67.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "67.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1975,9 +1975,9 @@
 	voc:pLAS99 "48.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "1_05" .
 
-<https://www.linkeddataupm.es/group19/Paseo+de+Recoletos> voc:hasMeasurement "1_05" .
+<https://www.linkeddataupm.es/group19/resource/Paseo+de+Recoletos> voc:hasMeasurement "1_05" .
 
-<https://www.linkeddataupm.es/group19/2_05> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/2_05> a msr:Measurement ;
 	lsweb:hasDate "2017-05-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "72.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "69.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -1990,9 +1990,9 @@
 	voc:pLAS99 "53.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "2_05" .
 
-<https://www.linkeddataupm.es/group19/Carlos+V> voc:hasMeasurement "2_05" .
+<https://www.linkeddataupm.es/group19/resource/Carlos+V> voc:hasMeasurement "2_05" .
 
-<https://www.linkeddataupm.es/group19/3_05> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/3_05> a msr:Measurement ;
 	lsweb:hasDate "2017-05-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "62.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "62.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -2005,9 +2005,9 @@
 	voc:pLAS99 "50.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "3_05" .
 
-<https://www.linkeddataupm.es/group19/Plaza+del+Carmen> voc:hasMeasurement "3_05" .
+<https://www.linkeddataupm.es/group19/resource/Plaza+del+Carmen> voc:hasMeasurement "3_05" .
 
-<https://www.linkeddataupm.es/group19/4_05> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/4_05> a msr:Measurement ;
 	lsweb:hasDate "2017-05-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "65.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "65.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -2020,9 +2020,9 @@
 	voc:pLAS99 "49"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "4_05" .
 
-<https://www.linkeddataupm.es/group19/Plaza+de+Espa%C3%B1a> voc:hasMeasurement "4_05" .
+<https://www.linkeddataupm.es/group19/resource/Plaza+de+Espa%C3%B1a> voc:hasMeasurement "4_05" .
 
-<https://www.linkeddataupm.es/group19/5_05> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/5_05> a msr:Measurement ;
 	lsweb:hasDate "2017-05-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "63.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "63.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -2035,9 +2035,9 @@
 	voc:pLAS99 "42.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "5_05" .
 
-<https://www.linkeddataupm.es/group19/Barrio+del+Pilar> voc:hasMeasurement "5_05" .
+<https://www.linkeddataupm.es/group19/resource/Barrio+del+Pilar> voc:hasMeasurement "5_05" .
 
-<https://www.linkeddataupm.es/group19/6_05> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/6_05> a msr:Measurement ;
 	lsweb:hasDate "2017-05-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "70.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "70.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -2050,9 +2050,9 @@
 	voc:pLAS99 "52"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "6_05" .
 
-<https://www.linkeddataupm.es/group19/Gregorio+Mara%C3%B1on> voc:hasMeasurement "6_05" .
+<https://www.linkeddataupm.es/group19/resource/Gregorio+Mara%C3%B1on> voc:hasMeasurement "6_05" .
 
-<https://www.linkeddataupm.es/group19/8_05> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/8_05> a msr:Measurement ;
 	lsweb:hasDate "2017-05-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "67.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "68.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -2065,9 +2065,9 @@
 	voc:pLAS99 "49.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "8_05" .
 
-<https://www.linkeddataupm.es/group19/Escuelas+Aguirre> voc:hasMeasurement "8_05" .
+<https://www.linkeddataupm.es/group19/resource/Escuelas+Aguirre> voc:hasMeasurement "8_05" .
 
-<https://www.linkeddataupm.es/group19/10_05> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/10_05> a msr:Measurement ;
 	lsweb:hasDate "2017-05-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "65.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "64.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -2080,9 +2080,9 @@
 	voc:pLAS99 "44.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "10_05" .
 
-<https://www.linkeddataupm.es/group19/Cuatro+Caminos> voc:hasMeasurement "10_05" .
+<https://www.linkeddataupm.es/group19/resource/Cuatro+Caminos> voc:hasMeasurement "10_05" .
 
-<https://www.linkeddataupm.es/group19/11_05> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/11_05> a msr:Measurement ;
 	lsweb:hasDate "2017-05-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "72.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "68.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -2095,9 +2095,9 @@
 	voc:pLAS99 "41.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "11_05" .
 
-<https://www.linkeddataupm.es/group19/Ramon+y+Cajal> voc:hasMeasurement "11_05" .
+<https://www.linkeddataupm.es/group19/resource/Ramon+y+Cajal> voc:hasMeasurement "11_05" .
 
-<https://www.linkeddataupm.es/group19/12_05> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/12_05> a msr:Measurement ;
 	lsweb:hasDate "2017-05-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "65.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "65.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -2110,9 +2110,9 @@
 	voc:pLAS99 "47.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "12_05" .
 
-<https://www.linkeddataupm.es/group19/Plaza+Manuel+Becerra> voc:hasMeasurement "12_05" .
+<https://www.linkeddataupm.es/group19/resource/Plaza+Manuel+Becerra> voc:hasMeasurement "12_05" .
 
-<https://www.linkeddataupm.es/group19/13_05> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/13_05> a msr:Measurement ;
 	lsweb:hasDate "2017-05-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "58.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "59"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -2125,9 +2125,9 @@
 	voc:pLAS99 "36.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "13_05" .
 
-<https://www.linkeddataupm.es/group19/Vallecas> voc:hasMeasurement "13_05" .
+<https://www.linkeddataupm.es/group19/resource/Vallecas> voc:hasMeasurement "13_05" .
 
-<https://www.linkeddataupm.es/group19/14_05> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/14_05> a msr:Measurement ;
 	lsweb:hasDate "2017-05-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "67.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "65.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -2140,9 +2140,9 @@
 	voc:pLAS99 "48"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "14_05" .
 
-<https://www.linkeddataupm.es/group19/Glorieta+Fdez.+Ladreda> voc:hasMeasurement "14_05" .
+<https://www.linkeddataupm.es/group19/resource/Glorieta+Fdez.+Ladreda> voc:hasMeasurement "14_05" .
 
-<https://www.linkeddataupm.es/group19/16_05> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/16_05> a msr:Measurement ;
 	lsweb:hasDate "2017-05-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "61.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "60.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -2155,9 +2155,9 @@
 	voc:pLAS99 "35.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "16_05" .
 
-<https://www.linkeddataupm.es/group19/Arturo+Soria> voc:hasMeasurement "16_05" .
+<https://www.linkeddataupm.es/group19/resource/Arturo+Soria> voc:hasMeasurement "16_05" .
 
-<https://www.linkeddataupm.es/group19/17_05> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/17_05> a msr:Measurement ;
 	lsweb:hasDate "2017-05-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "58.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "61"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -2170,9 +2170,9 @@
 	voc:pLAS99 "35.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "17_05" .
 
-<https://www.linkeddataupm.es/group19/Villaverde> voc:hasMeasurement "17_05" .
+<https://www.linkeddataupm.es/group19/resource/Villaverde> voc:hasMeasurement "17_05" .
 
-<https://www.linkeddataupm.es/group19/18_05> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/18_05> a msr:Measurement ;
 	lsweb:hasDate "2017-05-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "59.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "63.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -2185,9 +2185,9 @@
 	voc:pLAS99 "39.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "18_05" .
 
-<https://www.linkeddataupm.es/group19/Farolillo> voc:hasMeasurement "18_05" .
+<https://www.linkeddataupm.es/group19/resource/Farolillo> voc:hasMeasurement "18_05" .
 
-<https://www.linkeddataupm.es/group19/19_05> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/19_05> a msr:Measurement ;
 	lsweb:hasDate "2017-05-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "61.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "61.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -2200,9 +2200,9 @@
 	voc:pLAS99 "36.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "19_05" .
 
-<https://www.linkeddataupm.es/group19/Alto+Extremadura> voc:hasMeasurement "19_05" .
+<https://www.linkeddataupm.es/group19/resource/Alto+Extremadura> voc:hasMeasurement "19_05" .
 
-<https://www.linkeddataupm.es/group19/20_05> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/20_05> a msr:Measurement ;
 	lsweb:hasDate "2017-05-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "62.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "62.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -2215,9 +2215,9 @@
 	voc:pLAS99 "38.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "20_05" .
 
-<https://www.linkeddataupm.es/group19/Avda+de+Moratalaz> voc:hasMeasurement "20_05" .
+<https://www.linkeddataupm.es/group19/resource/Avda+de+Moratalaz> voc:hasMeasurement "20_05" .
 
-<https://www.linkeddataupm.es/group19/24_05> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/24_05> a msr:Measurement ;
 	lsweb:hasDate "2017-05-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "50"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "49.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -2230,9 +2230,9 @@
 	voc:pLAS99 "36.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "24_05" .
 
-<https://www.linkeddataupm.es/group19/Casa+de+Campo> voc:hasMeasurement "24_05" .
+<https://www.linkeddataupm.es/group19/resource/Casa+de+Campo> voc:hasMeasurement "24_05" .
 
-<https://www.linkeddataupm.es/group19/25_05> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/25_05> a msr:Measurement ;
 	lsweb:hasDate "2017-05-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "66"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "65.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -2245,9 +2245,9 @@
 	voc:pLAS99 "48.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "25_05" .
 
-<https://www.linkeddataupm.es/group19/Santa+Eugenia> voc:hasMeasurement "25_05" .
+<https://www.linkeddataupm.es/group19/resource/Santa+Eugenia> voc:hasMeasurement "25_05" .
 
-<https://www.linkeddataupm.es/group19/26_05> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/26_05> a msr:Measurement ;
 	lsweb:hasDate "2017-05-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "64.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "62.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -2260,9 +2260,9 @@
 	voc:pLAS99 "41.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "26_05" .
 
-<https://www.linkeddataupm.es/group19/Embajada> voc:hasMeasurement "26_05" .
+<https://www.linkeddataupm.es/group19/resource/Embajada> voc:hasMeasurement "26_05" .
 
-<https://www.linkeddataupm.es/group19/27_05> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/27_05> a msr:Measurement ;
 	lsweb:hasDate "2017-05-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "61.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "61.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -2275,9 +2275,9 @@
 	voc:pLAS99 "35.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "27_05" .
 
-<https://www.linkeddataupm.es/group19/Barajas+Pueblo> voc:hasMeasurement "27_05" .
+<https://www.linkeddataupm.es/group19/resource/Barajas+Pueblo> voc:hasMeasurement "27_05" .
 
-<https://www.linkeddataupm.es/group19/28_05> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/28_05> a msr:Measurement ;
 	lsweb:hasDate "2017-05-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "67.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "66.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -2290,9 +2290,9 @@
 	voc:pLAS99 "41"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "28_05" .
 
-<https://www.linkeddataupm.es/group19/Cuatro+Vientos> voc:hasMeasurement "28_05" .
+<https://www.linkeddataupm.es/group19/resource/Cuatro+Vientos> voc:hasMeasurement "28_05" .
 
-<https://www.linkeddataupm.es/group19/29_05> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/29_05> a msr:Measurement ;
 	lsweb:hasDate "2017-05-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "58.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "56.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -2305,9 +2305,9 @@
 	voc:pLAS99 "34.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "29_05" .
 
-<https://www.linkeddataupm.es/group19/El+Pardo> voc:hasMeasurement "29_05" .
+<https://www.linkeddataupm.es/group19/resource/El+Pardo> voc:hasMeasurement "29_05" .
 
-<https://www.linkeddataupm.es/group19/30_05> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/30_05> a msr:Measurement ;
 	lsweb:hasDate "2017-05-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "62.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "59.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -2320,9 +2320,9 @@
 	voc:pLAS99 "39.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "30_05" .
 
-<https://www.linkeddataupm.es/group19/Campo+de+las+Naciones> voc:hasMeasurement "30_05" .
+<https://www.linkeddataupm.es/group19/resource/Campo+de+las+Naciones> voc:hasMeasurement "30_05" .
 
-<https://www.linkeddataupm.es/group19/31_05> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/31_05> a msr:Measurement ;
 	lsweb:hasDate "2017-05-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "62.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "63"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -2335,9 +2335,9 @@
 	voc:pLAS99 "37.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "31_05" .
 
-<https://www.linkeddataupm.es/group19/Sanchinarro> voc:hasMeasurement "31_05" .
+<https://www.linkeddataupm.es/group19/resource/Sanchinarro> voc:hasMeasurement "31_05" .
 
-<https://www.linkeddataupm.es/group19/47_05> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/47_05> a msr:Measurement ;
 	lsweb:hasDate "2017-05-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "55.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "57.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -2350,9 +2350,9 @@
 	voc:pLAS99 "36.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "47_05" .
 
-<https://www.linkeddataupm.es/group19/Mendez+alvaro> voc:hasMeasurement "47_05" .
+<https://www.linkeddataupm.es/group19/resource/Mendez+alvaro> voc:hasMeasurement "47_05" .
 
-<https://www.linkeddataupm.es/group19/48_05> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/48_05> a msr:Measurement ;
 	lsweb:hasDate "2017-05-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "62.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "62.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -2365,9 +2365,9 @@
 	voc:pLAS99 "46.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "48_05" .
 
-<https://www.linkeddataupm.es/group19/Castellana> voc:hasMeasurement "48_05" .
+<https://www.linkeddataupm.es/group19/resource/Castellana> voc:hasMeasurement "48_05" .
 
-<https://www.linkeddataupm.es/group19/50_05> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/50_05> a msr:Measurement ;
 	lsweb:hasDate "2017-05-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "66.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "65.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -2380,9 +2380,9 @@
 	voc:pLAS99 "48.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "50_05" .
 
-<https://www.linkeddataupm.es/group19/Pza+de+Castilla> voc:hasMeasurement "50_05" .
+<https://www.linkeddataupm.es/group19/resource/Pza+de+Castilla> voc:hasMeasurement "50_05" .
 
-<https://www.linkeddataupm.es/group19/54_05> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/54_05> a msr:Measurement ;
 	lsweb:hasDate "2017-05-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "61.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "60.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -2395,9 +2395,9 @@
 	voc:pLAS99 "37.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "54_05" .
 
-<https://www.linkeddataupm.es/group19/Ensanche+de+Vallecas> voc:hasMeasurement "54_05" .
+<https://www.linkeddataupm.es/group19/resource/Ensanche+de+Vallecas> voc:hasMeasurement "54_05" .
 
-<https://www.linkeddataupm.es/group19/55_05> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/55_05> a msr:Measurement ;
 	lsweb:hasDate "2017-05-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "56.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "55.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -2410,9 +2410,9 @@
 	voc:pLAS99 "42.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "55_05" .
 
-<https://www.linkeddataupm.es/group19/Urbanizacion+Embajada+II> voc:hasMeasurement "55_05" .
+<https://www.linkeddataupm.es/group19/resource/Urbanizacion+Embajada+II> voc:hasMeasurement "55_05" .
 
-<https://www.linkeddataupm.es/group19/86_05> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/86_05> a msr:Measurement ;
 	lsweb:hasDate "2017-05-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "58.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "58"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -2425,9 +2425,9 @@
 	voc:pLAS99 "35.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "86_05" .
 
-<https://www.linkeddataupm.es/group19/Tres+Olivos> voc:hasMeasurement "86_05" .
+<https://www.linkeddataupm.es/group19/resource/Tres+Olivos> voc:hasMeasurement "86_05" .
 
-<https://www.linkeddataupm.es/group19/1_06> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/1_06> a msr:Measurement ;
 	lsweb:hasDate "2017-06-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "67.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "67.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -2440,9 +2440,9 @@
 	voc:pLAS99 "49.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "1_06" .
 
-<https://www.linkeddataupm.es/group19/Paseo+de+Recoletos> voc:hasMeasurement "1_06" .
+<https://www.linkeddataupm.es/group19/resource/Paseo+de+Recoletos> voc:hasMeasurement "1_06" .
 
-<https://www.linkeddataupm.es/group19/2_06> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/2_06> a msr:Measurement ;
 	lsweb:hasDate "2017-06-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "69.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "69.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -2455,9 +2455,9 @@
 	voc:pLAS99 "54.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "2_06" .
 
-<https://www.linkeddataupm.es/group19/Carlos+V> voc:hasMeasurement "2_06" .
+<https://www.linkeddataupm.es/group19/resource/Carlos+V> voc:hasMeasurement "2_06" .
 
-<https://www.linkeddataupm.es/group19/3_06> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/3_06> a msr:Measurement ;
 	lsweb:hasDate "2017-06-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "62.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "62"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -2470,9 +2470,9 @@
 	voc:pLAS99 "51.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "3_06" .
 
-<https://www.linkeddataupm.es/group19/Plaza+del+Carmen> voc:hasMeasurement "3_06" .
+<https://www.linkeddataupm.es/group19/resource/Plaza+del+Carmen> voc:hasMeasurement "3_06" .
 
-<https://www.linkeddataupm.es/group19/4_06> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/4_06> a msr:Measurement ;
 	lsweb:hasDate "2017-06-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "66.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "73.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -2485,9 +2485,9 @@
 	voc:pLAS99 "49.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "4_06" .
 
-<https://www.linkeddataupm.es/group19/Plaza+de+Espa%C3%B1a> voc:hasMeasurement "4_06" .
+<https://www.linkeddataupm.es/group19/resource/Plaza+de+Espa%C3%B1a> voc:hasMeasurement "4_06" .
 
-<https://www.linkeddataupm.es/group19/5_06> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/5_06> a msr:Measurement ;
 	lsweb:hasDate "2017-06-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "62.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "65.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -2500,9 +2500,9 @@
 	voc:pLAS99 "42.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "5_06" .
 
-<https://www.linkeddataupm.es/group19/Barrio+del+Pilar> voc:hasMeasurement "5_06" .
+<https://www.linkeddataupm.es/group19/resource/Barrio+del+Pilar> voc:hasMeasurement "5_06" .
 
-<https://www.linkeddataupm.es/group19/6_06> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/6_06> a msr:Measurement ;
 	lsweb:hasDate "2017-06-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "70.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "70.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -2515,9 +2515,9 @@
 	voc:pLAS99 "51.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "6_06" .
 
-<https://www.linkeddataupm.es/group19/Gregorio+Mara%C3%B1on> voc:hasMeasurement "6_06" .
+<https://www.linkeddataupm.es/group19/resource/Gregorio+Mara%C3%B1on> voc:hasMeasurement "6_06" .
 
-<https://www.linkeddataupm.es/group19/8_06> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/8_06> a msr:Measurement ;
 	lsweb:hasDate "2017-06-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "67.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "69.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -2530,9 +2530,9 @@
 	voc:pLAS99 "50.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "8_06" .
 
-<https://www.linkeddataupm.es/group19/Escuelas+Aguirre> voc:hasMeasurement "8_06" .
+<https://www.linkeddataupm.es/group19/resource/Escuelas+Aguirre> voc:hasMeasurement "8_06" .
 
-<https://www.linkeddataupm.es/group19/10_06> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/10_06> a msr:Measurement ;
 	lsweb:hasDate "2017-06-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "65.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "64.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -2545,9 +2545,9 @@
 	voc:pLAS99 "44.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "10_06" .
 
-<https://www.linkeddataupm.es/group19/Cuatro+Caminos> voc:hasMeasurement "10_06" .
+<https://www.linkeddataupm.es/group19/resource/Cuatro+Caminos> voc:hasMeasurement "10_06" .
 
-<https://www.linkeddataupm.es/group19/11_06> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/11_06> a msr:Measurement ;
 	lsweb:hasDate "2017-06-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "68.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "68.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -2560,9 +2560,9 @@
 	voc:pLAS99 "42.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "11_06" .
 
-<https://www.linkeddataupm.es/group19/Ramon+y+Cajal> voc:hasMeasurement "11_06" .
+<https://www.linkeddataupm.es/group19/resource/Ramon+y+Cajal> voc:hasMeasurement "11_06" .
 
-<https://www.linkeddataupm.es/group19/12_06> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/12_06> a msr:Measurement ;
 	lsweb:hasDate "2017-06-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "64.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "65"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -2575,9 +2575,9 @@
 	voc:pLAS99 "46.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "12_06" .
 
-<https://www.linkeddataupm.es/group19/Plaza+Manuel+Becerra> voc:hasMeasurement "12_06" .
+<https://www.linkeddataupm.es/group19/resource/Plaza+Manuel+Becerra> voc:hasMeasurement "12_06" .
 
-<https://www.linkeddataupm.es/group19/13_06> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/13_06> a msr:Measurement ;
 	lsweb:hasDate "2017-06-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "58.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "59.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -2590,9 +2590,9 @@
 	voc:pLAS99 "37.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "13_06" .
 
-<https://www.linkeddataupm.es/group19/Vallecas> voc:hasMeasurement "13_06" .
+<https://www.linkeddataupm.es/group19/resource/Vallecas> voc:hasMeasurement "13_06" .
 
-<https://www.linkeddataupm.es/group19/14_06> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/14_06> a msr:Measurement ;
 	lsweb:hasDate "2017-06-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "70.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "64.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -2605,9 +2605,9 @@
 	voc:pLAS99 "48.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "14_06" .
 
-<https://www.linkeddataupm.es/group19/Glorieta+Fdez.+Ladreda> voc:hasMeasurement "14_06" .
+<https://www.linkeddataupm.es/group19/resource/Glorieta+Fdez.+Ladreda> voc:hasMeasurement "14_06" .
 
-<https://www.linkeddataupm.es/group19/16_06> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/16_06> a msr:Measurement ;
 	lsweb:hasDate "2017-06-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "60.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "60"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -2620,9 +2620,9 @@
 	voc:pLAS99 "35.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "16_06" .
 
-<https://www.linkeddataupm.es/group19/Arturo+Soria> voc:hasMeasurement "16_06" .
+<https://www.linkeddataupm.es/group19/resource/Arturo+Soria> voc:hasMeasurement "16_06" .
 
-<https://www.linkeddataupm.es/group19/17_06> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/17_06> a msr:Measurement ;
 	lsweb:hasDate "2017-06-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "58.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "62.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -2635,9 +2635,9 @@
 	voc:pLAS99 "35.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "17_06" .
 
-<https://www.linkeddataupm.es/group19/Villaverde> voc:hasMeasurement "17_06" .
+<https://www.linkeddataupm.es/group19/resource/Villaverde> voc:hasMeasurement "17_06" .
 
-<https://www.linkeddataupm.es/group19/18_06> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/18_06> a msr:Measurement ;
 	lsweb:hasDate "2017-06-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "58"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "61.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -2650,9 +2650,9 @@
 	voc:pLAS99 "42.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "18_06" .
 
-<https://www.linkeddataupm.es/group19/Farolillo> voc:hasMeasurement "18_06" .
+<https://www.linkeddataupm.es/group19/resource/Farolillo> voc:hasMeasurement "18_06" .
 
-<https://www.linkeddataupm.es/group19/19_06> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/19_06> a msr:Measurement ;
 	lsweb:hasDate "2017-06-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "62.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "61.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -2665,9 +2665,9 @@
 	voc:pLAS99 "38.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "19_06" .
 
-<https://www.linkeddataupm.es/group19/Alto+Extremadura> voc:hasMeasurement "19_06" .
+<https://www.linkeddataupm.es/group19/resource/Alto+Extremadura> voc:hasMeasurement "19_06" .
 
-<https://www.linkeddataupm.es/group19/20_06> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/20_06> a msr:Measurement ;
 	lsweb:hasDate "2017-06-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "63.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "63.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -2680,9 +2680,9 @@
 	voc:pLAS99 "38.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "20_06" .
 
-<https://www.linkeddataupm.es/group19/Avda+de+Moratalaz> voc:hasMeasurement "20_06" .
+<https://www.linkeddataupm.es/group19/resource/Avda+de+Moratalaz> voc:hasMeasurement "20_06" .
 
-<https://www.linkeddataupm.es/group19/24_06> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/24_06> a msr:Measurement ;
 	lsweb:hasDate "2017-06-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "51.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "51"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -2695,9 +2695,9 @@
 	voc:pLAS99 "35.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "24_06" .
 
-<https://www.linkeddataupm.es/group19/Casa+de+Campo> voc:hasMeasurement "24_06" .
+<https://www.linkeddataupm.es/group19/resource/Casa+de+Campo> voc:hasMeasurement "24_06" .
 
-<https://www.linkeddataupm.es/group19/25_06> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/25_06> a msr:Measurement ;
 	lsweb:hasDate "2017-06-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "65.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "65.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -2710,9 +2710,9 @@
 	voc:pLAS99 "49"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "25_06" .
 
-<https://www.linkeddataupm.es/group19/Santa+Eugenia> voc:hasMeasurement "25_06" .
+<https://www.linkeddataupm.es/group19/resource/Santa+Eugenia> voc:hasMeasurement "25_06" .
 
-<https://www.linkeddataupm.es/group19/26_06> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/26_06> a msr:Measurement ;
 	lsweb:hasDate "2017-06-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "63.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "62.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -2725,9 +2725,9 @@
 	voc:pLAS99 "42.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "26_06" .
 
-<https://www.linkeddataupm.es/group19/Embajada> voc:hasMeasurement "26_06" .
+<https://www.linkeddataupm.es/group19/resource/Embajada> voc:hasMeasurement "26_06" .
 
-<https://www.linkeddataupm.es/group19/27_06> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/27_06> a msr:Measurement ;
 	lsweb:hasDate "2017-06-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "62.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "60.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -2740,9 +2740,9 @@
 	voc:pLAS99 "36.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "27_06" .
 
-<https://www.linkeddataupm.es/group19/Barajas+Pueblo> voc:hasMeasurement "27_06" .
+<https://www.linkeddataupm.es/group19/resource/Barajas+Pueblo> voc:hasMeasurement "27_06" .
 
-<https://www.linkeddataupm.es/group19/28_06> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/28_06> a msr:Measurement ;
 	lsweb:hasDate "2017-06-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "67.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "66.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -2755,9 +2755,9 @@
 	voc:pLAS99 "35.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "28_06" .
 
-<https://www.linkeddataupm.es/group19/Cuatro+Vientos> voc:hasMeasurement "28_06" .
+<https://www.linkeddataupm.es/group19/resource/Cuatro+Vientos> voc:hasMeasurement "28_06" .
 
-<https://www.linkeddataupm.es/group19/29_06> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/29_06> a msr:Measurement ;
 	lsweb:hasDate "2017-06-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "57.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "56.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -2770,9 +2770,9 @@
 	voc:pLAS99 "34.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "29_06" .
 
-<https://www.linkeddataupm.es/group19/El+Pardo> voc:hasMeasurement "29_06" .
+<https://www.linkeddataupm.es/group19/resource/El+Pardo> voc:hasMeasurement "29_06" .
 
-<https://www.linkeddataupm.es/group19/30_06> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/30_06> a msr:Measurement ;
 	lsweb:hasDate "2017-06-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "60.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "59.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -2785,9 +2785,9 @@
 	voc:pLAS99 "40.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "30_06" .
 
-<https://www.linkeddataupm.es/group19/Campo+de+las+Naciones> voc:hasMeasurement "30_06" .
+<https://www.linkeddataupm.es/group19/resource/Campo+de+las+Naciones> voc:hasMeasurement "30_06" .
 
-<https://www.linkeddataupm.es/group19/31_06> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/31_06> a msr:Measurement ;
 	lsweb:hasDate "2017-06-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "62.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "62.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -2800,9 +2800,9 @@
 	voc:pLAS99 "37"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "31_06" .
 
-<https://www.linkeddataupm.es/group19/Sanchinarro> voc:hasMeasurement "31_06" .
+<https://www.linkeddataupm.es/group19/resource/Sanchinarro> voc:hasMeasurement "31_06" .
 
-<https://www.linkeddataupm.es/group19/47_06> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/47_06> a msr:Measurement ;
 	lsweb:hasDate "2017-06-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "55.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "57.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -2815,9 +2815,9 @@
 	voc:pLAS99 "37.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "47_06" .
 
-<https://www.linkeddataupm.es/group19/Mendez+alvaro> voc:hasMeasurement "47_06" .
+<https://www.linkeddataupm.es/group19/resource/Mendez+alvaro> voc:hasMeasurement "47_06" .
 
-<https://www.linkeddataupm.es/group19/48_06> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/48_06> a msr:Measurement ;
 	lsweb:hasDate "2017-06-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "62.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "62"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -2830,9 +2830,9 @@
 	voc:pLAS99 "47.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "48_06" .
 
-<https://www.linkeddataupm.es/group19/Castellana> voc:hasMeasurement "48_06" .
+<https://www.linkeddataupm.es/group19/resource/Castellana> voc:hasMeasurement "48_06" .
 
-<https://www.linkeddataupm.es/group19/50_06> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/50_06> a msr:Measurement ;
 	lsweb:hasDate "2017-06-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "66.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "66.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -2845,9 +2845,9 @@
 	voc:pLAS99 "49"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "50_06" .
 
-<https://www.linkeddataupm.es/group19/Pza+de+Castilla> voc:hasMeasurement "50_06" .
+<https://www.linkeddataupm.es/group19/resource/Pza+de+Castilla> voc:hasMeasurement "50_06" .
 
-<https://www.linkeddataupm.es/group19/54_06> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/54_06> a msr:Measurement ;
 	lsweb:hasDate "2017-06-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "61"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "61.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -2860,9 +2860,9 @@
 	voc:pLAS99 "38.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "54_06" .
 
-<https://www.linkeddataupm.es/group19/Ensanche+de+Vallecas> voc:hasMeasurement "54_06" .
+<https://www.linkeddataupm.es/group19/resource/Ensanche+de+Vallecas> voc:hasMeasurement "54_06" .
 
-<https://www.linkeddataupm.es/group19/55_06> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/55_06> a msr:Measurement ;
 	lsweb:hasDate "2017-06-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "56.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "55.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -2875,9 +2875,9 @@
 	voc:pLAS99 "42.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "55_06" .
 
-<https://www.linkeddataupm.es/group19/Urbanizacion+Embajada+II> voc:hasMeasurement "55_06" .
+<https://www.linkeddataupm.es/group19/resource/Urbanizacion+Embajada+II> voc:hasMeasurement "55_06" .
 
-<https://www.linkeddataupm.es/group19/86_06> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/86_06> a msr:Measurement ;
 	lsweb:hasDate "2017-06-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "58.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "57.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -2890,9 +2890,9 @@
 	voc:pLAS99 "35.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "86_06" .
 
-<https://www.linkeddataupm.es/group19/Tres+Olivos> voc:hasMeasurement "86_06" .
+<https://www.linkeddataupm.es/group19/resource/Tres+Olivos> voc:hasMeasurement "86_06" .
 
-<https://www.linkeddataupm.es/group19/1_07> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/1_07> a msr:Measurement ;
 	lsweb:hasDate "2017-07-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "67.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "69.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -2905,9 +2905,9 @@
 	voc:pLAS99 "50.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "1_07" .
 
-<https://www.linkeddataupm.es/group19/Paseo+de+Recoletos> voc:hasMeasurement "1_07" .
+<https://www.linkeddataupm.es/group19/resource/Paseo+de+Recoletos> voc:hasMeasurement "1_07" .
 
-<https://www.linkeddataupm.es/group19/2_07> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/2_07> a msr:Measurement ;
 	lsweb:hasDate "2017-07-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "70.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "76.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -2920,9 +2920,9 @@
 	voc:pLAS99 "54.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "2_07" .
 
-<https://www.linkeddataupm.es/group19/Carlos+V> voc:hasMeasurement "2_07" .
+<https://www.linkeddataupm.es/group19/resource/Carlos+V> voc:hasMeasurement "2_07" .
 
-<https://www.linkeddataupm.es/group19/3_07> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/3_07> a msr:Measurement ;
 	lsweb:hasDate "2017-07-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "68.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "61.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -2935,9 +2935,9 @@
 	voc:pLAS99 "51.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "3_07" .
 
-<https://www.linkeddataupm.es/group19/Plaza+del+Carmen> voc:hasMeasurement "3_07" .
+<https://www.linkeddataupm.es/group19/resource/Plaza+del+Carmen> voc:hasMeasurement "3_07" .
 
-<https://www.linkeddataupm.es/group19/4_07> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/4_07> a msr:Measurement ;
 	lsweb:hasDate "2017-07-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "66"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "69.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -2950,9 +2950,9 @@
 	voc:pLAS99 "49.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "4_07" .
 
-<https://www.linkeddataupm.es/group19/Plaza+de+Espa%C3%B1a> voc:hasMeasurement "4_07" .
+<https://www.linkeddataupm.es/group19/resource/Plaza+de+Espa%C3%B1a> voc:hasMeasurement "4_07" .
 
-<https://www.linkeddataupm.es/group19/5_07> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/5_07> a msr:Measurement ;
 	lsweb:hasDate "2017-07-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "61.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "62.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -2965,9 +2965,9 @@
 	voc:pLAS99 "43"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "5_07" .
 
-<https://www.linkeddataupm.es/group19/Barrio+del+Pilar> voc:hasMeasurement "5_07" .
+<https://www.linkeddataupm.es/group19/resource/Barrio+del+Pilar> voc:hasMeasurement "5_07" .
 
-<https://www.linkeddataupm.es/group19/6_07> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/6_07> a msr:Measurement ;
 	lsweb:hasDate "2017-07-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "70.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "69.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -2980,9 +2980,9 @@
 	voc:pLAS99 "51.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "6_07" .
 
-<https://www.linkeddataupm.es/group19/Gregorio+Mara%C3%B1on> voc:hasMeasurement "6_07" .
+<https://www.linkeddataupm.es/group19/resource/Gregorio+Mara%C3%B1on> voc:hasMeasurement "6_07" .
 
-<https://www.linkeddataupm.es/group19/8_07> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/8_07> a msr:Measurement ;
 	lsweb:hasDate "2017-07-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "67.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "66.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -2995,9 +2995,9 @@
 	voc:pLAS99 "50.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "8_07" .
 
-<https://www.linkeddataupm.es/group19/Escuelas+Aguirre> voc:hasMeasurement "8_07" .
+<https://www.linkeddataupm.es/group19/resource/Escuelas+Aguirre> voc:hasMeasurement "8_07" .
 
-<https://www.linkeddataupm.es/group19/10_07> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/10_07> a msr:Measurement ;
 	lsweb:hasDate "2017-07-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "64.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "64.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -3010,9 +3010,9 @@
 	voc:pLAS99 "44.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "10_07" .
 
-<https://www.linkeddataupm.es/group19/Cuatro+Caminos> voc:hasMeasurement "10_07" .
+<https://www.linkeddataupm.es/group19/resource/Cuatro+Caminos> voc:hasMeasurement "10_07" .
 
-<https://www.linkeddataupm.es/group19/11_07> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/11_07> a msr:Measurement ;
 	lsweb:hasDate "2017-07-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "68.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "67.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -3025,9 +3025,9 @@
 	voc:pLAS99 "42.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "11_07" .
 
-<https://www.linkeddataupm.es/group19/Ramon+y+Cajal> voc:hasMeasurement "11_07" .
+<https://www.linkeddataupm.es/group19/resource/Ramon+y+Cajal> voc:hasMeasurement "11_07" .
 
-<https://www.linkeddataupm.es/group19/12_07> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/12_07> a msr:Measurement ;
 	lsweb:hasDate "2017-07-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "64.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "64.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -3040,9 +3040,9 @@
 	voc:pLAS99 "46.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "12_07" .
 
-<https://www.linkeddataupm.es/group19/Plaza+Manuel+Becerra> voc:hasMeasurement "12_07" .
+<https://www.linkeddataupm.es/group19/resource/Plaza+Manuel+Becerra> voc:hasMeasurement "12_07" .
 
-<https://www.linkeddataupm.es/group19/13_07> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/13_07> a msr:Measurement ;
 	lsweb:hasDate "2017-07-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "59.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "66.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -3055,9 +3055,9 @@
 	voc:pLAS99 "37.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "13_07" .
 
-<https://www.linkeddataupm.es/group19/Vallecas> voc:hasMeasurement "13_07" .
+<https://www.linkeddataupm.es/group19/resource/Vallecas> voc:hasMeasurement "13_07" .
 
-<https://www.linkeddataupm.es/group19/14_07> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/14_07> a msr:Measurement ;
 	lsweb:hasDate "2017-07-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "67.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "64"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -3070,9 +3070,9 @@
 	voc:pLAS99 "48.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "14_07" .
 
-<https://www.linkeddataupm.es/group19/Glorieta+Fdez.+Ladreda> voc:hasMeasurement "14_07" .
+<https://www.linkeddataupm.es/group19/resource/Glorieta+Fdez.+Ladreda> voc:hasMeasurement "14_07" .
 
-<https://www.linkeddataupm.es/group19/16_07> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/16_07> a msr:Measurement ;
 	lsweb:hasDate "2017-07-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "60.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "59.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -3085,9 +3085,9 @@
 	voc:pLAS99 "36.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "16_07" .
 
-<https://www.linkeddataupm.es/group19/Arturo+Soria> voc:hasMeasurement "16_07" .
+<https://www.linkeddataupm.es/group19/resource/Arturo+Soria> voc:hasMeasurement "16_07" .
 
-<https://www.linkeddataupm.es/group19/17_07> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/17_07> a msr:Measurement ;
 	lsweb:hasDate "2017-07-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "57.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "62.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -3100,9 +3100,9 @@
 	voc:pLAS99 "37.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "17_07" .
 
-<https://www.linkeddataupm.es/group19/Villaverde> voc:hasMeasurement "17_07" .
+<https://www.linkeddataupm.es/group19/resource/Villaverde> voc:hasMeasurement "17_07" .
 
-<https://www.linkeddataupm.es/group19/18_07> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/18_07> a msr:Measurement ;
 	lsweb:hasDate "2017-07-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "57.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "59.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -3115,9 +3115,9 @@
 	voc:pLAS99 "41.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "18_07" .
 
-<https://www.linkeddataupm.es/group19/Farolillo> voc:hasMeasurement "18_07" .
+<https://www.linkeddataupm.es/group19/resource/Farolillo> voc:hasMeasurement "18_07" .
 
-<https://www.linkeddataupm.es/group19/19_07> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/19_07> a msr:Measurement ;
 	lsweb:hasDate "2017-07-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "62"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "61.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -3130,9 +3130,9 @@
 	voc:pLAS99 "40.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "19_07" .
 
-<https://www.linkeddataupm.es/group19/Alto+Extremadura> voc:hasMeasurement "19_07" .
+<https://www.linkeddataupm.es/group19/resource/Alto+Extremadura> voc:hasMeasurement "19_07" .
 
-<https://www.linkeddataupm.es/group19/20_07> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/20_07> a msr:Measurement ;
 	lsweb:hasDate "2017-07-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "62.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "63.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -3145,9 +3145,9 @@
 	voc:pLAS99 "40.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "20_07" .
 
-<https://www.linkeddataupm.es/group19/Avda+de+Moratalaz> voc:hasMeasurement "20_07" .
+<https://www.linkeddataupm.es/group19/resource/Avda+de+Moratalaz> voc:hasMeasurement "20_07" .
 
-<https://www.linkeddataupm.es/group19/24_07> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/24_07> a msr:Measurement ;
 	lsweb:hasDate "2017-07-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "50.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "50.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -3160,9 +3160,9 @@
 	voc:pLAS99 "37"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "24_07" .
 
-<https://www.linkeddataupm.es/group19/Casa+de+Campo> voc:hasMeasurement "24_07" .
+<https://www.linkeddataupm.es/group19/resource/Casa+de+Campo> voc:hasMeasurement "24_07" .
 
-<https://www.linkeddataupm.es/group19/25_07> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/25_07> a msr:Measurement ;
 	lsweb:hasDate "2017-07-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "66"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "65.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -3175,9 +3175,9 @@
 	voc:pLAS99 "49.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "25_07" .
 
-<https://www.linkeddataupm.es/group19/Santa+Eugenia> voc:hasMeasurement "25_07" .
+<https://www.linkeddataupm.es/group19/resource/Santa+Eugenia> voc:hasMeasurement "25_07" .
 
-<https://www.linkeddataupm.es/group19/27_07> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/27_07> a msr:Measurement ;
 	lsweb:hasDate "2017-07-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "61.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "59.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -3190,9 +3190,9 @@
 	voc:pLAS99 "36.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "27_07" .
 
-<https://www.linkeddataupm.es/group19/Barajas+Pueblo> voc:hasMeasurement "27_07" .
+<https://www.linkeddataupm.es/group19/resource/Barajas+Pueblo> voc:hasMeasurement "27_07" .
 
-<https://www.linkeddataupm.es/group19/28_07> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/28_07> a msr:Measurement ;
 	lsweb:hasDate "2017-07-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "66.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "65.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -3205,9 +3205,9 @@
 	voc:pLAS99 "35.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "28_07" .
 
-<https://www.linkeddataupm.es/group19/Cuatro+Vientos> voc:hasMeasurement "28_07" .
+<https://www.linkeddataupm.es/group19/resource/Cuatro+Vientos> voc:hasMeasurement "28_07" .
 
-<https://www.linkeddataupm.es/group19/29_07> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/29_07> a msr:Measurement ;
 	lsweb:hasDate "2017-07-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "57.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "55.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -3220,9 +3220,9 @@
 	voc:pLAS99 "34.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "29_07" .
 
-<https://www.linkeddataupm.es/group19/El+Pardo> voc:hasMeasurement "29_07" .
+<https://www.linkeddataupm.es/group19/resource/El+Pardo> voc:hasMeasurement "29_07" .
 
-<https://www.linkeddataupm.es/group19/30_07> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/30_07> a msr:Measurement ;
 	lsweb:hasDate "2017-07-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "60.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "59.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -3235,9 +3235,9 @@
 	voc:pLAS99 "40.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "30_07" .
 
-<https://www.linkeddataupm.es/group19/Campo+de+las+Naciones> voc:hasMeasurement "30_07" .
+<https://www.linkeddataupm.es/group19/resource/Campo+de+las+Naciones> voc:hasMeasurement "30_07" .
 
-<https://www.linkeddataupm.es/group19/31_07> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/31_07> a msr:Measurement ;
 	lsweb:hasDate "2017-07-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "62.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "62.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -3250,9 +3250,9 @@
 	voc:pLAS99 "37.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "31_07" .
 
-<https://www.linkeddataupm.es/group19/Sanchinarro> voc:hasMeasurement "31_07" .
+<https://www.linkeddataupm.es/group19/resource/Sanchinarro> voc:hasMeasurement "31_07" .
 
-<https://www.linkeddataupm.es/group19/47_07> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/47_07> a msr:Measurement ;
 	lsweb:hasDate "2017-07-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "55"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "57.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -3265,9 +3265,9 @@
 	voc:pLAS99 "37.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "47_07" .
 
-<https://www.linkeddataupm.es/group19/Mendez+alvaro> voc:hasMeasurement "47_07" .
+<https://www.linkeddataupm.es/group19/resource/Mendez+alvaro> voc:hasMeasurement "47_07" .
 
-<https://www.linkeddataupm.es/group19/48_07> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/48_07> a msr:Measurement ;
 	lsweb:hasDate "2017-07-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "62.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "61.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -3280,9 +3280,9 @@
 	voc:pLAS99 "47.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "48_07" .
 
-<https://www.linkeddataupm.es/group19/Castellana> voc:hasMeasurement "48_07" .
+<https://www.linkeddataupm.es/group19/resource/Castellana> voc:hasMeasurement "48_07" .
 
-<https://www.linkeddataupm.es/group19/50_07> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/50_07> a msr:Measurement ;
 	lsweb:hasDate "2017-07-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "65.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "65.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -3295,9 +3295,9 @@
 	voc:pLAS99 "48.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "50_07" .
 
-<https://www.linkeddataupm.es/group19/Pza+de+Castilla> voc:hasMeasurement "50_07" .
+<https://www.linkeddataupm.es/group19/resource/Pza+de+Castilla> voc:hasMeasurement "50_07" .
 
-<https://www.linkeddataupm.es/group19/54_07> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/54_07> a msr:Measurement ;
 	lsweb:hasDate "2017-07-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "59.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "59.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -3310,9 +3310,9 @@
 	voc:pLAS99 "36"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "54_07" .
 
-<https://www.linkeddataupm.es/group19/Ensanche+de+Vallecas> voc:hasMeasurement "54_07" .
+<https://www.linkeddataupm.es/group19/resource/Ensanche+de+Vallecas> voc:hasMeasurement "54_07" .
 
-<https://www.linkeddataupm.es/group19/55_07> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/55_07> a msr:Measurement ;
 	lsweb:hasDate "2017-07-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "56.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "54.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -3325,9 +3325,9 @@
 	voc:pLAS99 "43.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "55_07" .
 
-<https://www.linkeddataupm.es/group19/Urbanizacion+Embajada+II> voc:hasMeasurement "55_07" .
+<https://www.linkeddataupm.es/group19/resource/Urbanizacion+Embajada+II> voc:hasMeasurement "55_07" .
 
-<https://www.linkeddataupm.es/group19/86_07> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/86_07> a msr:Measurement ;
 	lsweb:hasDate "2017-07-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "58.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "56.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -3340,9 +3340,9 @@
 	voc:pLAS99 "36.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "86_07" .
 
-<https://www.linkeddataupm.es/group19/Tres+Olivos> voc:hasMeasurement "86_07" .
+<https://www.linkeddataupm.es/group19/resource/Tres+Olivos> voc:hasMeasurement "86_07" .
 
-<https://www.linkeddataupm.es/group19/1_08> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/1_08> a msr:Measurement ;
 	lsweb:hasDate "2017-08-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "66.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "66.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -3355,9 +3355,9 @@
 	voc:pLAS99 "48.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "1_08" .
 
-<https://www.linkeddataupm.es/group19/Paseo+de+Recoletos> voc:hasMeasurement "1_08" .
+<https://www.linkeddataupm.es/group19/resource/Paseo+de+Recoletos> voc:hasMeasurement "1_08" .
 
-<https://www.linkeddataupm.es/group19/2_08> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/2_08> a msr:Measurement ;
 	lsweb:hasDate "2017-08-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "69"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "68.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -3370,9 +3370,9 @@
 	voc:pLAS99 "53.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "2_08" .
 
-<https://www.linkeddataupm.es/group19/Carlos+V> voc:hasMeasurement "2_08" .
+<https://www.linkeddataupm.es/group19/resource/Carlos+V> voc:hasMeasurement "2_08" .
 
-<https://www.linkeddataupm.es/group19/3_08> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/3_08> a msr:Measurement ;
 	lsweb:hasDate "2017-08-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "62.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "60.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -3385,9 +3385,9 @@
 	voc:pLAS99 "51"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "3_08" .
 
-<https://www.linkeddataupm.es/group19/Plaza+del+Carmen> voc:hasMeasurement "3_08" .
+<https://www.linkeddataupm.es/group19/resource/Plaza+del+Carmen> voc:hasMeasurement "3_08" .
 
-<https://www.linkeddataupm.es/group19/4_08> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/4_08> a msr:Measurement ;
 	lsweb:hasDate "2017-08-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "64.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "64.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -3400,9 +3400,9 @@
 	voc:pLAS99 "48"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "4_08" .
 
-<https://www.linkeddataupm.es/group19/Plaza+de+Espa%C3%B1a> voc:hasMeasurement "4_08" .
+<https://www.linkeddataupm.es/group19/resource/Plaza+de+Espa%C3%B1a> voc:hasMeasurement "4_08" .
 
-<https://www.linkeddataupm.es/group19/5_08> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/5_08> a msr:Measurement ;
 	lsweb:hasDate "2017-08-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "59.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "61.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -3415,9 +3415,9 @@
 	voc:pLAS99 "42.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "5_08" .
 
-<https://www.linkeddataupm.es/group19/Barrio+del+Pilar> voc:hasMeasurement "5_08" .
+<https://www.linkeddataupm.es/group19/resource/Barrio+del+Pilar> voc:hasMeasurement "5_08" .
 
-<https://www.linkeddataupm.es/group19/6_08> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/6_08> a msr:Measurement ;
 	lsweb:hasDate "2017-08-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "69.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "68.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -3430,9 +3430,9 @@
 	voc:pLAS99 "50"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "6_08" .
 
-<https://www.linkeddataupm.es/group19/Gregorio+Mara%C3%B1on> voc:hasMeasurement "6_08" .
+<https://www.linkeddataupm.es/group19/resource/Gregorio+Mara%C3%B1on> voc:hasMeasurement "6_08" .
 
-<https://www.linkeddataupm.es/group19/8_08> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/8_08> a msr:Measurement ;
 	lsweb:hasDate "2017-08-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "66.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "66.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -3445,9 +3445,9 @@
 	voc:pLAS99 "48.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "8_08" .
 
-<https://www.linkeddataupm.es/group19/Escuelas+Aguirre> voc:hasMeasurement "8_08" .
+<https://www.linkeddataupm.es/group19/resource/Escuelas+Aguirre> voc:hasMeasurement "8_08" .
 
-<https://www.linkeddataupm.es/group19/10_08> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/10_08> a msr:Measurement ;
 	lsweb:hasDate "2017-08-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "63.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "63.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -3460,9 +3460,9 @@
 	voc:pLAS99 "43.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "10_08" .
 
-<https://www.linkeddataupm.es/group19/Cuatro+Caminos> voc:hasMeasurement "10_08" .
+<https://www.linkeddataupm.es/group19/resource/Cuatro+Caminos> voc:hasMeasurement "10_08" .
 
-<https://www.linkeddataupm.es/group19/11_08> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/11_08> a msr:Measurement ;
 	lsweb:hasDate "2017-08-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "67"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "66.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -3475,9 +3475,9 @@
 	voc:pLAS99 "41.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "11_08" .
 
-<https://www.linkeddataupm.es/group19/Ramon+y+Cajal> voc:hasMeasurement "11_08" .
+<https://www.linkeddataupm.es/group19/resource/Ramon+y+Cajal> voc:hasMeasurement "11_08" .
 
-<https://www.linkeddataupm.es/group19/12_08> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/12_08> a msr:Measurement ;
 	lsweb:hasDate "2017-08-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "63.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "63.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -3490,9 +3490,9 @@
 	voc:pLAS99 "44.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "12_08" .
 
-<https://www.linkeddataupm.es/group19/Plaza+Manuel+Becerra> voc:hasMeasurement "12_08" .
+<https://www.linkeddataupm.es/group19/resource/Plaza+Manuel+Becerra> voc:hasMeasurement "12_08" .
 
-<https://www.linkeddataupm.es/group19/13_08> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/13_08> a msr:Measurement ;
 	lsweb:hasDate "2017-08-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "57.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "58.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -3505,9 +3505,9 @@
 	voc:pLAS99 "37.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "13_08" .
 
-<https://www.linkeddataupm.es/group19/Vallecas> voc:hasMeasurement "13_08" .
+<https://www.linkeddataupm.es/group19/resource/Vallecas> voc:hasMeasurement "13_08" .
 
-<https://www.linkeddataupm.es/group19/14_08> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/14_08> a msr:Measurement ;
 	lsweb:hasDate "2017-08-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "65.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "63"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -3520,9 +3520,9 @@
 	voc:pLAS99 "47.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "14_08" .
 
-<https://www.linkeddataupm.es/group19/Glorieta+Fdez.+Ladreda> voc:hasMeasurement "14_08" .
+<https://www.linkeddataupm.es/group19/resource/Glorieta+Fdez.+Ladreda> voc:hasMeasurement "14_08" .
 
-<https://www.linkeddataupm.es/group19/16_08> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/16_08> a msr:Measurement ;
 	lsweb:hasDate "2017-08-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "59.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "58.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -3535,9 +3535,9 @@
 	voc:pLAS99 "35.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "16_08" .
 
-<https://www.linkeddataupm.es/group19/Arturo+Soria> voc:hasMeasurement "16_08" .
+<https://www.linkeddataupm.es/group19/resource/Arturo+Soria> voc:hasMeasurement "16_08" .
 
-<https://www.linkeddataupm.es/group19/17_08> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/17_08> a msr:Measurement ;
 	lsweb:hasDate "2017-08-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "57.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "61.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -3550,9 +3550,9 @@
 	voc:pLAS99 "36.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "17_08" .
 
-<https://www.linkeddataupm.es/group19/Villaverde> voc:hasMeasurement "17_08" .
+<https://www.linkeddataupm.es/group19/resource/Villaverde> voc:hasMeasurement "17_08" .
 
-<https://www.linkeddataupm.es/group19/18_08> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/18_08> a msr:Measurement ;
 	lsweb:hasDate "2017-08-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "56.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "58.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -3565,9 +3565,9 @@
 	voc:pLAS99 "40.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "18_08" .
 
-<https://www.linkeddataupm.es/group19/Farolillo> voc:hasMeasurement "18_08" .
+<https://www.linkeddataupm.es/group19/resource/Farolillo> voc:hasMeasurement "18_08" .
 
-<https://www.linkeddataupm.es/group19/19_08> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/19_08> a msr:Measurement ;
 	lsweb:hasDate "2017-08-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "60.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "59.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -3580,9 +3580,9 @@
 	voc:pLAS99 "36.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "19_08" .
 
-<https://www.linkeddataupm.es/group19/Alto+Extremadura> voc:hasMeasurement "19_08" .
+<https://www.linkeddataupm.es/group19/resource/Alto+Extremadura> voc:hasMeasurement "19_08" .
 
-<https://www.linkeddataupm.es/group19/20_08> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/20_08> a msr:Measurement ;
 	lsweb:hasDate "2017-08-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "63.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "62.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -3595,9 +3595,9 @@
 	voc:pLAS99 "39.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "20_08" .
 
-<https://www.linkeddataupm.es/group19/Avda+de+Moratalaz> voc:hasMeasurement "20_08" .
+<https://www.linkeddataupm.es/group19/resource/Avda+de+Moratalaz> voc:hasMeasurement "20_08" .
 
-<https://www.linkeddataupm.es/group19/24_08> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/24_08> a msr:Measurement ;
 	lsweb:hasDate "2017-08-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "49.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "49.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -3610,9 +3610,9 @@
 	voc:pLAS99 "36.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "24_08" .
 
-<https://www.linkeddataupm.es/group19/Casa+de+Campo> voc:hasMeasurement "24_08" .
+<https://www.linkeddataupm.es/group19/resource/Casa+de+Campo> voc:hasMeasurement "24_08" .
 
-<https://www.linkeddataupm.es/group19/25_08> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/25_08> a msr:Measurement ;
 	lsweb:hasDate "2017-08-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "65.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "64.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -3625,9 +3625,9 @@
 	voc:pLAS99 "48.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "25_08" .
 
-<https://www.linkeddataupm.es/group19/Santa+Eugenia> voc:hasMeasurement "25_08" .
+<https://www.linkeddataupm.es/group19/resource/Santa+Eugenia> voc:hasMeasurement "25_08" .
 
-<https://www.linkeddataupm.es/group19/26_08> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/26_08> a msr:Measurement ;
 	lsweb:hasDate "2017-08-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "62.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "61.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -3640,9 +3640,9 @@
 	voc:pLAS99 "42.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "26_08" .
 
-<https://www.linkeddataupm.es/group19/Embajada> voc:hasMeasurement "26_08" .
+<https://www.linkeddataupm.es/group19/resource/Embajada> voc:hasMeasurement "26_08" .
 
-<https://www.linkeddataupm.es/group19/27_08> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/27_08> a msr:Measurement ;
 	lsweb:hasDate "2017-08-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "60.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "59.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -3655,9 +3655,9 @@
 	voc:pLAS99 "36.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "27_08" .
 
-<https://www.linkeddataupm.es/group19/Barajas+Pueblo> voc:hasMeasurement "27_08" .
+<https://www.linkeddataupm.es/group19/resource/Barajas+Pueblo> voc:hasMeasurement "27_08" .
 
-<https://www.linkeddataupm.es/group19/28_08> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/28_08> a msr:Measurement ;
 	lsweb:hasDate "2017-08-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "65.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "64.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -3670,9 +3670,9 @@
 	voc:pLAS99 "35.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "28_08" .
 
-<https://www.linkeddataupm.es/group19/Cuatro+Vientos> voc:hasMeasurement "28_08" .
+<https://www.linkeddataupm.es/group19/resource/Cuatro+Vientos> voc:hasMeasurement "28_08" .
 
-<https://www.linkeddataupm.es/group19/29_08> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/29_08> a msr:Measurement ;
 	lsweb:hasDate "2017-08-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "57"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "55.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -3685,9 +3685,9 @@
 	voc:pLAS99 "34.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "29_08" .
 
-<https://www.linkeddataupm.es/group19/El+Pardo> voc:hasMeasurement "29_08" .
+<https://www.linkeddataupm.es/group19/resource/El+Pardo> voc:hasMeasurement "29_08" .
 
-<https://www.linkeddataupm.es/group19/30_08> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/30_08> a msr:Measurement ;
 	lsweb:hasDate "2017-08-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "60"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "59.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -3700,9 +3700,9 @@
 	voc:pLAS99 "38.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "30_08" .
 
-<https://www.linkeddataupm.es/group19/Campo+de+las+Naciones> voc:hasMeasurement "30_08" .
+<https://www.linkeddataupm.es/group19/resource/Campo+de+las+Naciones> voc:hasMeasurement "30_08" .
 
-<https://www.linkeddataupm.es/group19/31_08> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/31_08> a msr:Measurement ;
 	lsweb:hasDate "2017-08-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "61"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "61.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -3715,9 +3715,9 @@
 	voc:pLAS99 "37.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "31_08" .
 
-<https://www.linkeddataupm.es/group19/Sanchinarro> voc:hasMeasurement "31_08" .
+<https://www.linkeddataupm.es/group19/resource/Sanchinarro> voc:hasMeasurement "31_08" .
 
-<https://www.linkeddataupm.es/group19/47_08> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/47_08> a msr:Measurement ;
 	lsweb:hasDate "2017-08-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "53.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "55.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -3730,9 +3730,9 @@
 	voc:pLAS99 "37"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "47_08" .
 
-<https://www.linkeddataupm.es/group19/Mendez+alvaro> voc:hasMeasurement "47_08" .
+<https://www.linkeddataupm.es/group19/resource/Mendez+alvaro> voc:hasMeasurement "47_08" .
 
-<https://www.linkeddataupm.es/group19/48_08> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/48_08> a msr:Measurement ;
 	lsweb:hasDate "2017-08-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "61.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "60.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -3745,9 +3745,9 @@
 	voc:pLAS99 "45.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "48_08" .
 
-<https://www.linkeddataupm.es/group19/Castellana> voc:hasMeasurement "48_08" .
+<https://www.linkeddataupm.es/group19/resource/Castellana> voc:hasMeasurement "48_08" .
 
-<https://www.linkeddataupm.es/group19/50_08> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/50_08> a msr:Measurement ;
 	lsweb:hasDate "2017-08-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "65.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "64.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -3760,9 +3760,9 @@
 	voc:pLAS99 "47.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "50_08" .
 
-<https://www.linkeddataupm.es/group19/Pza+de+Castilla> voc:hasMeasurement "50_08" .
+<https://www.linkeddataupm.es/group19/resource/Pza+de+Castilla> voc:hasMeasurement "50_08" .
 
-<https://www.linkeddataupm.es/group19/54_08> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/54_08> a msr:Measurement ;
 	lsweb:hasDate "2017-08-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "58.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "58.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -3775,9 +3775,9 @@
 	voc:pLAS99 "35.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "54_08" .
 
-<https://www.linkeddataupm.es/group19/Ensanche+de+Vallecas> voc:hasMeasurement "54_08" .
+<https://www.linkeddataupm.es/group19/resource/Ensanche+de+Vallecas> voc:hasMeasurement "54_08" .
 
-<https://www.linkeddataupm.es/group19/55_08> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/55_08> a msr:Measurement ;
 	lsweb:hasDate "2017-08-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "56"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "54.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -3790,9 +3790,9 @@
 	voc:pLAS99 "43.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "55_08" .
 
-<https://www.linkeddataupm.es/group19/Urbanizacion+Embajada+II> voc:hasMeasurement "55_08" .
+<https://www.linkeddataupm.es/group19/resource/Urbanizacion+Embajada+II> voc:hasMeasurement "55_08" .
 
-<https://www.linkeddataupm.es/group19/86_08> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/86_08> a msr:Measurement ;
 	lsweb:hasDate "2017-08-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "55.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "55.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -3805,9 +3805,9 @@
 	voc:pLAS99 "36.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "86_08" .
 
-<https://www.linkeddataupm.es/group19/Tres+Olivos> voc:hasMeasurement "86_08" .
+<https://www.linkeddataupm.es/group19/resource/Tres+Olivos> voc:hasMeasurement "86_08" .
 
-<https://www.linkeddataupm.es/group19/1_09> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/1_09> a msr:Measurement ;
 	lsweb:hasDate "2017-09-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "67.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "67.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -3820,9 +3820,9 @@
 	voc:pLAS99 "49.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "1_09" .
 
-<https://www.linkeddataupm.es/group19/Paseo+de+Recoletos> voc:hasMeasurement "1_09" .
+<https://www.linkeddataupm.es/group19/resource/Paseo+de+Recoletos> voc:hasMeasurement "1_09" .
 
-<https://www.linkeddataupm.es/group19/2_09> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/2_09> a msr:Measurement ;
 	lsweb:hasDate "2017-09-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "69.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "70.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -3835,9 +3835,9 @@
 	voc:pLAS99 "54.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "2_09" .
 
-<https://www.linkeddataupm.es/group19/Carlos+V> voc:hasMeasurement "2_09" .
+<https://www.linkeddataupm.es/group19/resource/Carlos+V> voc:hasMeasurement "2_09" .
 
-<https://www.linkeddataupm.es/group19/3_09> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/3_09> a msr:Measurement ;
 	lsweb:hasDate "2017-09-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "63.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "62.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -3850,9 +3850,9 @@
 	voc:pLAS99 "50.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "3_09" .
 
-<https://www.linkeddataupm.es/group19/Plaza+del+Carmen> voc:hasMeasurement "3_09" .
+<https://www.linkeddataupm.es/group19/resource/Plaza+del+Carmen> voc:hasMeasurement "3_09" .
 
-<https://www.linkeddataupm.es/group19/4_09> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/4_09> a msr:Measurement ;
 	lsweb:hasDate "2017-09-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "65.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "65.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -3865,9 +3865,9 @@
 	voc:pLAS99 "49.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "4_09" .
 
-<https://www.linkeddataupm.es/group19/Plaza+de+Espa%C3%B1a> voc:hasMeasurement "4_09" .
+<https://www.linkeddataupm.es/group19/resource/Plaza+de+Espa%C3%B1a> voc:hasMeasurement "4_09" .
 
-<https://www.linkeddataupm.es/group19/5_09> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/5_09> a msr:Measurement ;
 	lsweb:hasDate "2017-09-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "61.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "62.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -3880,9 +3880,9 @@
 	voc:pLAS99 "42.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "5_09" .
 
-<https://www.linkeddataupm.es/group19/Barrio+del+Pilar> voc:hasMeasurement "5_09" .
+<https://www.linkeddataupm.es/group19/resource/Barrio+del+Pilar> voc:hasMeasurement "5_09" .
 
-<https://www.linkeddataupm.es/group19/6_09> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/6_09> a msr:Measurement ;
 	lsweb:hasDate "2017-09-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "70.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "70.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -3895,9 +3895,9 @@
 	voc:pLAS99 "50.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "6_09" .
 
-<https://www.linkeddataupm.es/group19/Gregorio+Mara%C3%B1on> voc:hasMeasurement "6_09" .
+<https://www.linkeddataupm.es/group19/resource/Gregorio+Mara%C3%B1on> voc:hasMeasurement "6_09" .
 
-<https://www.linkeddataupm.es/group19/8_09> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/8_09> a msr:Measurement ;
 	lsweb:hasDate "2017-09-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "67.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "67.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -3910,9 +3910,9 @@
 	voc:pLAS99 "50.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "8_09" .
 
-<https://www.linkeddataupm.es/group19/Escuelas+Aguirre> voc:hasMeasurement "8_09" .
+<https://www.linkeddataupm.es/group19/resource/Escuelas+Aguirre> voc:hasMeasurement "8_09" .
 
-<https://www.linkeddataupm.es/group19/10_09> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/10_09> a msr:Measurement ;
 	lsweb:hasDate "2017-09-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "65"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "64.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -3925,9 +3925,9 @@
 	voc:pLAS99 "43.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "10_09" .
 
-<https://www.linkeddataupm.es/group19/Cuatro+Caminos> voc:hasMeasurement "10_09" .
+<https://www.linkeddataupm.es/group19/resource/Cuatro+Caminos> voc:hasMeasurement "10_09" .
 
-<https://www.linkeddataupm.es/group19/11_09> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/11_09> a msr:Measurement ;
 	lsweb:hasDate "2017-09-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "68.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "68.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -3940,9 +3940,9 @@
 	voc:pLAS99 "42.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "11_09" .
 
-<https://www.linkeddataupm.es/group19/Ramon+y+Cajal> voc:hasMeasurement "11_09" .
+<https://www.linkeddataupm.es/group19/resource/Ramon+y+Cajal> voc:hasMeasurement "11_09" .
 
-<https://www.linkeddataupm.es/group19/12_09> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/12_09> a msr:Measurement ;
 	lsweb:hasDate "2017-09-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "64.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "64.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -3955,9 +3955,9 @@
 	voc:pLAS99 "45.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "12_09" .
 
-<https://www.linkeddataupm.es/group19/Plaza+Manuel+Becerra> voc:hasMeasurement "12_09" .
+<https://www.linkeddataupm.es/group19/resource/Plaza+Manuel+Becerra> voc:hasMeasurement "12_09" .
 
-<https://www.linkeddataupm.es/group19/13_09> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/13_09> a msr:Measurement ;
 	lsweb:hasDate "2017-09-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "69.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "59.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -3970,9 +3970,9 @@
 	voc:pLAS99 "36.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "13_09" .
 
-<https://www.linkeddataupm.es/group19/Vallecas> voc:hasMeasurement "13_09" .
+<https://www.linkeddataupm.es/group19/resource/Vallecas> voc:hasMeasurement "13_09" .
 
-<https://www.linkeddataupm.es/group19/14_09> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/14_09> a msr:Measurement ;
 	lsweb:hasDate "2017-09-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "64.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "64.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -3985,9 +3985,9 @@
 	voc:pLAS99 "47.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "14_09" .
 
-<https://www.linkeddataupm.es/group19/Glorieta+Fdez.+Ladreda> voc:hasMeasurement "14_09" .
+<https://www.linkeddataupm.es/group19/resource/Glorieta+Fdez.+Ladreda> voc:hasMeasurement "14_09" .
 
-<https://www.linkeddataupm.es/group19/16_09> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/16_09> a msr:Measurement ;
 	lsweb:hasDate "2017-09-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "61.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "60.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -4000,9 +4000,9 @@
 	voc:pLAS99 "36.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "16_09" .
 
-<https://www.linkeddataupm.es/group19/Arturo+Soria> voc:hasMeasurement "16_09" .
+<https://www.linkeddataupm.es/group19/resource/Arturo+Soria> voc:hasMeasurement "16_09" .
 
-<https://www.linkeddataupm.es/group19/17_09> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/17_09> a msr:Measurement ;
 	lsweb:hasDate "2017-09-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "56.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "61"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -4015,9 +4015,9 @@
 	voc:pLAS99 "37.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "17_09" .
 
-<https://www.linkeddataupm.es/group19/Villaverde> voc:hasMeasurement "17_09" .
+<https://www.linkeddataupm.es/group19/resource/Villaverde> voc:hasMeasurement "17_09" .
 
-<https://www.linkeddataupm.es/group19/18_09> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/18_09> a msr:Measurement ;
 	lsweb:hasDate "2017-09-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "56.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "60.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -4030,9 +4030,9 @@
 	voc:pLAS99 "40.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "18_09" .
 
-<https://www.linkeddataupm.es/group19/Farolillo> voc:hasMeasurement "18_09" .
+<https://www.linkeddataupm.es/group19/resource/Farolillo> voc:hasMeasurement "18_09" .
 
-<https://www.linkeddataupm.es/group19/19_09> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/19_09> a msr:Measurement ;
 	lsweb:hasDate "2017-09-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "61.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "60.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -4045,9 +4045,9 @@
 	voc:pLAS99 "38"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "19_09" .
 
-<https://www.linkeddataupm.es/group19/Alto+Extremadura> voc:hasMeasurement "19_09" .
+<https://www.linkeddataupm.es/group19/resource/Alto+Extremadura> voc:hasMeasurement "19_09" .
 
-<https://www.linkeddataupm.es/group19/20_09> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/20_09> a msr:Measurement ;
 	lsweb:hasDate "2017-09-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "61.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "61.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -4060,9 +4060,9 @@
 	voc:pLAS99 "39.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "20_09" .
 
-<https://www.linkeddataupm.es/group19/Avda+de+Moratalaz> voc:hasMeasurement "20_09" .
+<https://www.linkeddataupm.es/group19/resource/Avda+de+Moratalaz> voc:hasMeasurement "20_09" .
 
-<https://www.linkeddataupm.es/group19/24_09> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/24_09> a msr:Measurement ;
 	lsweb:hasDate "2017-09-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "49.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "49.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -4075,9 +4075,9 @@
 	voc:pLAS99 "36.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "24_09" .
 
-<https://www.linkeddataupm.es/group19/Casa+de+Campo> voc:hasMeasurement "24_09" .
+<https://www.linkeddataupm.es/group19/resource/Casa+de+Campo> voc:hasMeasurement "24_09" .
 
-<https://www.linkeddataupm.es/group19/25_09> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/25_09> a msr:Measurement ;
 	lsweb:hasDate "2017-09-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "65.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "65.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -4090,9 +4090,9 @@
 	voc:pLAS99 "49.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "25_09" .
 
-<https://www.linkeddataupm.es/group19/Santa+Eugenia> voc:hasMeasurement "25_09" .
+<https://www.linkeddataupm.es/group19/resource/Santa+Eugenia> voc:hasMeasurement "25_09" .
 
-<https://www.linkeddataupm.es/group19/26_09> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/26_09> a msr:Measurement ;
 	lsweb:hasDate "2017-09-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "63.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "62.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -4105,9 +4105,9 @@
 	voc:pLAS99 "42.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "26_09" .
 
-<https://www.linkeddataupm.es/group19/Embajada> voc:hasMeasurement "26_09" .
+<https://www.linkeddataupm.es/group19/resource/Embajada> voc:hasMeasurement "26_09" .
 
-<https://www.linkeddataupm.es/group19/27_09> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/27_09> a msr:Measurement ;
 	lsweb:hasDate "2017-09-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "61.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "61"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -4120,9 +4120,9 @@
 	voc:pLAS99 "37.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "27_09" .
 
-<https://www.linkeddataupm.es/group19/Barajas+Pueblo> voc:hasMeasurement "27_09" .
+<https://www.linkeddataupm.es/group19/resource/Barajas+Pueblo> voc:hasMeasurement "27_09" .
 
-<https://www.linkeddataupm.es/group19/28_09> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/28_09> a msr:Measurement ;
 	lsweb:hasDate "2017-09-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "66.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "66"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -4135,9 +4135,9 @@
 	voc:pLAS99 "36.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "28_09" .
 
-<https://www.linkeddataupm.es/group19/Cuatro+Vientos> voc:hasMeasurement "28_09" .
+<https://www.linkeddataupm.es/group19/resource/Cuatro+Vientos> voc:hasMeasurement "28_09" .
 
-<https://www.linkeddataupm.es/group19/29_09> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/29_09> a msr:Measurement ;
 	lsweb:hasDate "2017-09-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "60"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "59.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -4150,9 +4150,9 @@
 	voc:pLAS99 "40.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "29_09" .
 
-<https://www.linkeddataupm.es/group19/El+Pardo> voc:hasMeasurement "29_09" .
+<https://www.linkeddataupm.es/group19/resource/El+Pardo> voc:hasMeasurement "29_09" .
 
-<https://www.linkeddataupm.es/group19/30_09> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/30_09> a msr:Measurement ;
 	lsweb:hasDate "2017-09-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "59.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "58.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -4165,9 +4165,9 @@
 	voc:pLAS99 "38.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "30_09" .
 
-<https://www.linkeddataupm.es/group19/Campo+de+las+Naciones> voc:hasMeasurement "30_09" .
+<https://www.linkeddataupm.es/group19/resource/Campo+de+las+Naciones> voc:hasMeasurement "30_09" .
 
-<https://www.linkeddataupm.es/group19/31_09> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/31_09> a msr:Measurement ;
 	lsweb:hasDate "2017-09-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "62.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "62.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -4180,9 +4180,9 @@
 	voc:pLAS99 "39.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "31_09" .
 
-<https://www.linkeddataupm.es/group19/Sanchinarro> voc:hasMeasurement "31_09" .
+<https://www.linkeddataupm.es/group19/resource/Sanchinarro> voc:hasMeasurement "31_09" .
 
-<https://www.linkeddataupm.es/group19/47_09> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/47_09> a msr:Measurement ;
 	lsweb:hasDate "2017-09-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "55"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "58.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -4195,9 +4195,9 @@
 	voc:pLAS99 "36.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "47_09" .
 
-<https://www.linkeddataupm.es/group19/Mendez+alvaro> voc:hasMeasurement "47_09" .
+<https://www.linkeddataupm.es/group19/resource/Mendez+alvaro> voc:hasMeasurement "47_09" .
 
-<https://www.linkeddataupm.es/group19/48_09> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/48_09> a msr:Measurement ;
 	lsweb:hasDate "2017-09-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "62.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "61.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -4210,9 +4210,9 @@
 	voc:pLAS99 "46.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "48_09" .
 
-<https://www.linkeddataupm.es/group19/Castellana> voc:hasMeasurement "48_09" .
+<https://www.linkeddataupm.es/group19/resource/Castellana> voc:hasMeasurement "48_09" .
 
-<https://www.linkeddataupm.es/group19/50_09> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/50_09> a msr:Measurement ;
 	lsweb:hasDate "2017-09-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "66.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "65.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -4225,9 +4225,9 @@
 	voc:pLAS99 "48.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "50_09" .
 
-<https://www.linkeddataupm.es/group19/Pza+de+Castilla> voc:hasMeasurement "50_09" .
+<https://www.linkeddataupm.es/group19/resource/Pza+de+Castilla> voc:hasMeasurement "50_09" .
 
-<https://www.linkeddataupm.es/group19/54_09> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/54_09> a msr:Measurement ;
 	lsweb:hasDate "2017-09-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "59.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "60"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -4240,9 +4240,9 @@
 	voc:pLAS99 "37.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "54_09" .
 
-<https://www.linkeddataupm.es/group19/Ensanche+de+Vallecas> voc:hasMeasurement "54_09" .
+<https://www.linkeddataupm.es/group19/resource/Ensanche+de+Vallecas> voc:hasMeasurement "54_09" .
 
-<https://www.linkeddataupm.es/group19/55_09> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/55_09> a msr:Measurement ;
 	lsweb:hasDate "2017-09-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "55.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "54.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -4255,9 +4255,9 @@
 	voc:pLAS99 "42.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "55_09" .
 
-<https://www.linkeddataupm.es/group19/Urbanizacion+Embajada+II> voc:hasMeasurement "55_09" .
+<https://www.linkeddataupm.es/group19/resource/Urbanizacion+Embajada+II> voc:hasMeasurement "55_09" .
 
-<https://www.linkeddataupm.es/group19/86_09> a msr:Measurement ;
+<https://www.linkeddataupm.es/group19/resource/86_09> a msr:Measurement ;
 	lsweb:hasDate "2017-09-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	voc:pLd "59.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:pLe "57.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
@@ -4270,4 +4270,4 @@
 	voc:pLAS99 "36.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	voc:hasCode "86_09" .
 
-<https://www.linkeddataupm.es/group19/Tres+Olivos> voc:hasMeasurement "86_09" .
+<https://www.linkeddataupm.es/group19/resource/Tres+Olivos> voc:hasMeasurement "86_09" .
