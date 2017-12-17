@@ -15,10 +15,6 @@
 #    Object Properties
 #################################################################
 
-###  http://aims.fao.org/aos/geopolitical.owl#hasCoordinate
-geop:hasCoordinate rdf:type owl:ObjectProperty .
-
-
 ###  http://dbpedia.org/ontology/isPartOf
 <http://dbpedia.org/ontology/isPartOf> rdf:type owl:ObjectProperty ,
                                                 owl:AsymmetricProperty ;
@@ -33,18 +29,11 @@ geop:hasCoordinate rdf:type owl:ObjectProperty .
                                    rdfs:range <http://linkedgeodata.org/ontology/Parking> .
 
 
-###  http://purl.org/dc/terms/isPartOf
-<http://purl.org/dc/terms/isPartOf> rdf:type owl:ObjectProperty ;
-                                    rdfs:subPropertyOf owl:topObjectProperty .
-
-
-###  http://www.semanticweb.org/grupo18/ontologies#belongsTo
+###  http://www.semanticweb.org/grupo18/ontologies##belongsTo
 :belongsTo rdf:type owl:ObjectProperty ;
-           rdfs:subPropertyOf owl:topObjectProperty .
-
-
-###  http://www.semanticweb.org/grupo18/ontologies#hasParkingSpots
-:hasParkingSpots rdf:type owl:ObjectProperty .
+           rdfs:subPropertyOf owl:topObjectProperty ;
+           rdfs:domain <http://www.w3.org/2006/vcard/ns#Address> ;
+           rdfs:range <http://dbpedia.org/ontology/Settlement> .
 
 
 ###  http://www.w3.org/2006/vcard/ns#hasAddress
@@ -53,16 +42,21 @@ geop:hasCoordinate rdf:type owl:ObjectProperty .
                                              rdfs:range <http://www.w3.org/2006/vcard/ns#Address> .
 
 
-###  http://www.w3.org/2006/vcard/ns#locality
-<http://www.w3.org/2006/vcard/ns#locality> rdf:type owl:ObjectProperty .
-
-
 #################################################################
 #    Data properties
 #################################################################
 
 ###  http://aims.fao.org/aos/geopolitical.owl#hasCoordinate
-geop:hasCoordinate rdf:type owl:DatatypeProperty .
+geop:hasCoordinate rdf:type owl:DatatypeProperty ;
+                   rdfs:domain <http://linkedgeodata.org/ontology/Parking> ;
+                   rdfs:range xsd:float .
+
+
+###  http://www.semanticweb.org/grupo18/ontologies#hasParkingSpots
+:hasParkingSpots rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf owl:topDataProperty ;
+                 rdfs:domain <http://linkedgeodata.org/ontology/Parking> ;
+                 rdfs:range xsd:int .
 
 
 ###  http://www.semanticweb.org/grupo18/ontologies##hasRoadNumber
@@ -72,7 +66,9 @@ geop:hasCoordinate rdf:type owl:DatatypeProperty .
 
 
 ###  http://www.w3.org/2006/vcard/ns#hasName
-<http://www.w3.org/2006/vcard/ns#hasName> rdf:type owl:DatatypeProperty .
+<http://www.w3.org/2006/vcard/ns#hasName> rdf:type owl:DatatypeProperty ;
+                                          rdfs:domain <http://www.w3.org/2006/vcard/ns#Address> ;
+                                          rdfs:range xsd:string .
 
 
 ###  http://www.w3.org/2006/vcard/ns#hasPostalCode

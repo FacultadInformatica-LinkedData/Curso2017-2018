@@ -1,17 +1,14 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix park: <http://www.semanticweb.org/grupo18/ontologies> .
 @prefix geop: <http://aims.fao.org/aos/geopolitical.owl#> .
 
 
 <http://www.semanticweb.org/grupo18/csv/Nord-Rogier> a <http://dbpedia.org/ontology/Settlement> ;
-	dcterms:isPartOf <http://www.semanticweb.org/grupo18/csv/Sint-Joost-ten-Node> ;
 	rdfs:label "Nord-Rogier" ;
-	vcard:locality "Saint-Josse-ten-Noode" .
+	<http://dbpedia.org/ontology/isPartOf> "Saint-Josse-ten-Noode" .
 
 <http://www.semanticweb.org/grupo18/csv/Bota> a <http://linkedgeodata.org/page/ontology/Parking> ;
 	rdfs:label "Bota"@fr , "Bota"@be ;
@@ -25,14 +22,14 @@
 	vcard:hasName "Rue Traversière" ;
 	<http://www.semanticweb.org/grupo18/ontologies#hasRoadNumber> "17" .
 
-<http://www.semanticweb.org/grupo18/csv/Saint-Josse-ten-Noode> a <http://dbpedia.org/ontology/City> ;
-	rdfs:label "Saint-Josse-ten-Noode"@fr , "Sint-Joost-ten-Node"@be .
+<http://www.semanticweb.org/grupo18/csv/Saint-Josse-ten-Noode> a <http://dbpedia.org/ontology/Place> ;
+	rdfs:label "Saint-Josse-ten-Noode"@fr , "Sint-Joost-ten-Node"@be ;
+	owl:sameAs <http://dbpedia.org/resource/Saint-Josse-ten-Noode> .
 
 <http://www.semanticweb.org/grupo18/csv/Rue+Traversi%C3%A8re> a <http://dbpedia.org/ontology/Street> ;
 	rdfs:label "Rue Traversière" , "Dwarsstraat " .
 
-<http://www.semanticweb.org/grupo18/csv/Nord-Rogier> dcterms:isPartOf <http://www.semanticweb.org/grupo18/csv/Brussel> ;
-	vcard:locality "Bruxelles" .
+<http://www.semanticweb.org/grupo18/csv/Nord-Rogier> <http://dbpedia.org/ontology/isPartOf> "Bruxelles" .
 
 <http://www.semanticweb.org/grupo18/csv/Botanique> a <http://linkedgeodata.org/page/ontology/Parking> ;
 	rdfs:label "Botanique"@fr , "Kruidtuin"@be ;
@@ -46,8 +43,9 @@
 	vcard:hasName "Boulevard du Jardin Botanique " ;
 	<http://www.semanticweb.org/grupo18/ontologies#hasRoadNumber> "29-31" .
 
-<http://www.semanticweb.org/grupo18/csv/Bruxelles> a <http://dbpedia.org/ontology/City> ;
-	rdfs:label "Bruxelles"@fr , "Brussel"@be .
+<http://www.semanticweb.org/grupo18/csv/Bruxelles> a <http://dbpedia.org/ontology/Place> ;
+	rdfs:label "Bruxelles"@fr , "Brussel"@be ;
+	owl:sameAs <http://dbpedia.org/resource/City_of_Brussels> .
 
 <http://www.semanticweb.org/grupo18/csv/Interparking> a <http://dbpedia.org/ontology/Company> ;
 	rdfs:label "Interparking" ;
@@ -56,8 +54,7 @@
 <http://www.semanticweb.org/grupo18/csv/Boulevard+du+Jardin+Botanique+> a <http://dbpedia.org/ontology/Street> ;
 	rdfs:label "Boulevard du Jardin Botanique " , "Kruidtuinlaan " .
 
-<http://www.semanticweb.org/grupo18/csv/Nord-Rogier> dcterms:isPartOf <http://www.semanticweb.org/grupo18/csv/Schaarbeek> ;
-	vcard:locality "Schaerbeek" .
+<http://www.semanticweb.org/grupo18/csv/Nord-Rogier> <http://dbpedia.org/ontology/isPartOf> "Schaerbeek" .
 
 <http://www.semanticweb.org/grupo18/csv/CCN> a <http://linkedgeodata.org/page/ontology/Parking> ;
 	rdfs:label "CCN"@fr , "CCN"@be ;
@@ -71,8 +68,9 @@
 	vcard:hasName "Rue du Progrès" ;
 	<http://www.semanticweb.org/grupo18/ontologies#hasRoadNumber> "80" .
 
-<http://www.semanticweb.org/grupo18/csv/Schaerbeek> a <http://dbpedia.org/ontology/City> ;
-	rdfs:label "Schaerbeek"@fr , "Schaarbeek"@be .
+<http://www.semanticweb.org/grupo18/csv/Schaerbeek> a <http://dbpedia.org/ontology/Place> ;
+	rdfs:label "Schaerbeek"@fr , "Schaarbeek"@be ;
+	owl:sameAs <http://dbpedia.org/resource/Schaerbeek> .
 
 <http://www.semanticweb.org/grupo18/csv/Interparking> <http://dbpedia.org/ontology/owns> "CCN" .
 
@@ -185,9 +183,8 @@
 	rdfs:label "Boulevard Roi Albert II  " , "Koning Albert II-laan  " .
 
 <http://www.semanticweb.org/grupo18/csv/Midi> a <http://dbpedia.org/ontology/Settlement> ;
-	dcterms:isPartOf <http://www.semanticweb.org/grupo18/csv/Sint-Gillis> ;
 	rdfs:label "Midi" ;
-	vcard:locality "Saint-Gilles" .
+	<http://dbpedia.org/ontology/isPartOf> "Saint-Gilles" .
 
 <http://www.semanticweb.org/grupo18/csv/Gare+du+Midi> a <http://linkedgeodata.org/page/ontology/Parking> ;
 	rdfs:label "Gare du Midi"@fr , "Zuidstation"@be ;
@@ -201,16 +198,16 @@
 	vcard:hasName "Rue de France " ;
 	<http://www.semanticweb.org/grupo18/ontologies#hasRoadNumber> "40" .
 
-<http://www.semanticweb.org/grupo18/csv/Saint-Gilles> a <http://dbpedia.org/ontology/City> ;
-	rdfs:label "Saint-Gilles"@fr , "Sint-Gillis"@be .
+<http://www.semanticweb.org/grupo18/csv/Saint-Gilles> a <http://dbpedia.org/ontology/Place> ;
+	rdfs:label "Saint-Gilles"@fr , "Sint-Gillis"@be ;
+	owl:sameAs <http://dbpedia.org/resource/Saint-Gilles,_Belgium> .
 
 <http://www.semanticweb.org/grupo18/csv/Q-Park> <http://dbpedia.org/ontology/owns> "Gare du Midi" .
 
 <http://www.semanticweb.org/grupo18/csv/Rue+de+France+> a <http://dbpedia.org/ontology/Street> ;
 	rdfs:label "Rue de France " , "Frankrijkstraat " .
 
-<http://www.semanticweb.org/grupo18/csv/Midi> dcterms:isPartOf <http://www.semanticweb.org/grupo18/csv/Brussel> ;
-	vcard:locality "Bruxelles" .
+<http://www.semanticweb.org/grupo18/csv/Midi> <http://dbpedia.org/ontology/isPartOf> "Bruxelles" .
 
 <http://www.semanticweb.org/grupo18/csv/Porte+de+Hal> a <http://linkedgeodata.org/page/ontology/Parking> ;
 	rdfs:label "Porte de Hal"@fr , "Hallepoort"@be ;
@@ -230,9 +227,8 @@
 	rdfs:label "Boulevard de Waterloo " , "Waterloolaan " .
 
 <http://www.semanticweb.org/grupo18/csv/Louise> a <http://dbpedia.org/ontology/Settlement> ;
-	dcterms:isPartOf <http://www.semanticweb.org/grupo18/csv/Brussel> ;
 	rdfs:label "Louise" ;
-	vcard:locality "Bruxelles" .
+	<http://dbpedia.org/ontology/isPartOf> "Bruxelles" .
 
 <http://www.semanticweb.org/grupo18/csv/2+Portes> a <http://linkedgeodata.org/page/ontology/Parking> ;
 	rdfs:label "2 Portes"@fr , "2 Poorten"@be ;
@@ -248,8 +244,7 @@
 
 <http://www.semanticweb.org/grupo18/csv/Interparking> <http://dbpedia.org/ontology/owns> "2 Portes" .
 
-<http://www.semanticweb.org/grupo18/csv/Louise> dcterms:isPartOf <http://www.semanticweb.org/grupo18/csv/Elsene> ;
-	vcard:locality "Ixelles" .
+<http://www.semanticweb.org/grupo18/csv/Louise> <http://dbpedia.org/ontology/isPartOf> "Ixelles" .
 
 <http://www.semanticweb.org/grupo18/csv/Fernand+Cocq> a <http://linkedgeodata.org/page/ontology/Parking> ;
 	rdfs:label "Fernand Cocq"@fr , "Fernand Cocq"@be ;
@@ -263,8 +258,9 @@
 	vcard:hasName "Rue de la Tulipe " ;
 	<http://www.semanticweb.org/grupo18/ontologies#hasRoadNumber> "22" .
 
-<http://www.semanticweb.org/grupo18/csv/Ixelles> a <http://dbpedia.org/ontology/City> ;
-	rdfs:label "Ixelles"@fr , "Elsene"@be .
+<http://www.semanticweb.org/grupo18/csv/Ixelles> a <http://dbpedia.org/ontology/Place> ;
+	rdfs:label "Ixelles"@fr , "Elsene"@be ;
+	owl:sameAs <http://dbpedia.org/resource/Ixelles> .
 
 <http://www.semanticweb.org/grupo18/csv/Rivoli+parking> a <http://dbpedia.org/ontology/Company> ;
 	rdfs:label "Rivoli parking" ;
@@ -273,8 +269,7 @@
 <http://www.semanticweb.org/grupo18/csv/Rue+de+la+Tulipe+> a <http://dbpedia.org/ontology/Street> ;
 	rdfs:label "Rue de la Tulipe " , "Tulpstraat " .
 
-<http://www.semanticweb.org/grupo18/csv/Louise> dcterms:isPartOf <http://www.semanticweb.org/grupo18/csv/Etterbeek> ;
-	vcard:locality "Etterbeek" .
+<http://www.semanticweb.org/grupo18/csv/Louise> <http://dbpedia.org/ontology/isPartOf> "Etterbeek" .
 
 <http://www.semanticweb.org/grupo18/csv/Forte+dei+Marmi> a <http://linkedgeodata.org/page/ontology/Parking> ;
 	rdfs:label "Forte dei Marmi"@fr , "Forte dei Marmi"@be ;
@@ -288,8 +283,9 @@
 	vcard:hasName "Avenue de Maelbeek " ;
 	<http://www.semanticweb.org/grupo18/ontologies#hasRoadNumber> "61a" .
 
-<http://www.semanticweb.org/grupo18/csv/Etterbeek> a <http://dbpedia.org/ontology/City> ;
-	rdfs:label "Etterbeek"@fr , "Etterbeek"@be .
+<http://www.semanticweb.org/grupo18/csv/Etterbeek> a <http://dbpedia.org/ontology/Place> ;
+	rdfs:label "Etterbeek"@fr , "Etterbeek"@be ;
+	owl:sameAs <http://dbpedia.org/resource/Etterbeek> .
 
 <http://www.semanticweb.org/grupo18/csv/R%C3%A9gie+Communale+Autonome+d%27Etterbeek> a <http://dbpedia.org/ontology/Company> ;
 	rdfs:label "Régie Communale Autonome d'Etterbeek" ;
@@ -310,8 +306,7 @@
 	vcard:hasName "Boulevard de Waterloo " ;
 	<http://www.semanticweb.org/grupo18/ontologies#hasRoadNumber> "38" .
 
-<http://www.semanticweb.org/grupo18/csv/Louise> dcterms:isPartOf <http://www.semanticweb.org/grupo18/csv/Ukkel> ;
-	vcard:locality "Uccle" .
+<http://www.semanticweb.org/grupo18/csv/Louise> <http://dbpedia.org/ontology/isPartOf> "Uccle" .
 
 <http://www.semanticweb.org/grupo18/csv/Inno+Bascule> a <http://linkedgeodata.org/page/ontology/Parking> ;
 	rdfs:label "Inno Bascule"@fr , "Inno Bascule"@be ;
@@ -325,8 +320,9 @@
 	vcard:hasName "Chaussée de Waterloo" ;
 	<http://www.semanticweb.org/grupo18/ontologies#hasRoadNumber> "715" .
 
-<http://www.semanticweb.org/grupo18/csv/Uccle> a <http://dbpedia.org/ontology/City> ;
-	rdfs:label "Uccle"@fr , "Ukkel"@be .
+<http://www.semanticweb.org/grupo18/csv/Uccle> a <http://dbpedia.org/ontology/Place> ;
+	rdfs:label "Uccle"@fr , "Ukkel"@be ;
+	owl:sameAs <http://dbpedia.org/resource/Uccle> .
 
 <http://www.semanticweb.org/grupo18/csv/Q-Park> <http://dbpedia.org/ontology/owns> "Inno Bascule" .
 
@@ -365,8 +361,7 @@
 <http://www.semanticweb.org/grupo18/csv/Rue+de+la+Concorde+> a <http://dbpedia.org/ontology/Street> ;
 	rdfs:label "Rue de la Concorde " , "Eendrachtstraat " .
 
-<http://www.semanticweb.org/grupo18/csv/Louise> dcterms:isPartOf <http://www.semanticweb.org/grupo18/csv/Sint-Gillis> ;
-	vcard:locality "Saint-Gilles" .
+<http://www.semanticweb.org/grupo18/csv/Louise> <http://dbpedia.org/ontology/isPartOf> "Saint-Gilles" .
 
 <http://www.semanticweb.org/grupo18/csv/Louise+Village> a <http://linkedgeodata.org/page/ontology/Parking> ;
 	rdfs:label "Louise Village"@fr , "Louise Village"@be ;
@@ -507,7 +502,6 @@
 	rdfs:label "Louise-Vleurgat"@fr , "Louiza-Vleurgat"@be ;
 	vcard:hasAddress <http://www.semanticweb.org/grupo18/csv/Avenue+Louise+%3B+327> ;
 	geop:hasCoordinate "149876.99999999994"^^<http://www.w3.org/2001/XMLSchema#double> , "168006.99999888893"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	vcard:hasAddress "Ch. De Vleurgat ; 164-166" ;
 	<http://www.semanticweb.org/grupo18/ontologies#hasParkingSpots> "120" .
 
 <http://www.semanticweb.org/grupo18/csv/Avenue+Louise+%3B+327> a vcard:Address ;
@@ -516,22 +510,12 @@
 	vcard:hasName "Avenue Louise " ;
 	<http://www.semanticweb.org/grupo18/ontologies#hasRoadNumber> "327" .
 
-<http://www.semanticweb.org/grupo18/csv/Ch.+De+Vleurgat+%3B+164-166> a vcard:Address ;
-	rdfs:label "Ch. De Vleurgat ; 164-166" , "Vleurgatsesteenweg; 164-166" ;
-	<http://www.semanticweb.org/grupo18/ontologies#belongsTo> "Louise" ;
-	vcard:hasName "Ch. De Vleurgat " ;
-	<http://www.semanticweb.org/grupo18/ontologies#hasRoadNumber> "164-166" .
-
 <http://www.semanticweb.org/grupo18/csv/Rivoli+parking> <http://dbpedia.org/ontology/owns> "Louise-Vleurgat" .
-
-<http://www.semanticweb.org/grupo18/csv/Ch.+De+Vleurgat+> a <http://dbpedia.org/ontology/Street> ;
-	rdfs:label "Ch. De Vleurgat " , "Vleurgatsesteenweg" .
 
 <http://www.semanticweb.org/grupo18/csv/Louise-Magistrat> a <http://linkedgeodata.org/page/ontology/Parking> ;
 	rdfs:label "Louise-Magistrat"@fr , "Louiza-Wethouder"@be ;
 	vcard:hasAddress <http://www.semanticweb.org/grupo18/csv/Avenue+Louise+%3B+235> ;
 	geop:hasCoordinate "149765.99999999997"^^<http://www.w3.org/2001/XMLSchema#double> , "168268.99999888986"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	vcard:hasAddress "Rue du Magistrat ; 1" ;
 	<http://www.semanticweb.org/grupo18/ontologies#hasParkingSpots> "85" .
 
 <http://www.semanticweb.org/grupo18/csv/Avenue+Louise+%3B+235> a vcard:Address ;
@@ -540,21 +524,11 @@
 	vcard:hasName "Avenue Louise " ;
 	<http://www.semanticweb.org/grupo18/ontologies#hasRoadNumber> "235" .
 
-<http://www.semanticweb.org/grupo18/csv/Rue+du+Magistrat+%3B+1> a vcard:Address ;
-	rdfs:label "Rue du Magistrat ; 1" , "Wethouderstraat; 1" ;
-	<http://www.semanticweb.org/grupo18/ontologies#belongsTo> "Louise" ;
-	vcard:hasName "Rue du Magistrat " ;
-	<http://www.semanticweb.org/grupo18/ontologies#hasRoadNumber> "1" .
-
 <http://www.semanticweb.org/grupo18/csv/Rivoli+parking> <http://dbpedia.org/ontology/owns> "Louise-Magistrat" .
 
-<http://www.semanticweb.org/grupo18/csv/Rue+du+Magistrat+> a <http://dbpedia.org/ontology/Street> ;
-	rdfs:label "Rue du Magistrat " , "Wethouderstraat" .
-
 <http://www.semanticweb.org/grupo18/csv/Loi-Madou> a <http://dbpedia.org/ontology/Settlement> ;
-	dcterms:isPartOf <http://www.semanticweb.org/grupo18/csv/Etterbeek> ;
 	rdfs:label "Loi-Madou" ;
-	vcard:locality "Etterbeek" .
+	<http://dbpedia.org/ontology/isPartOf> "Etterbeek" .
 
 <http://www.semanticweb.org/grupo18/csv/Rue+des+Tongres> a <http://linkedgeodata.org/page/ontology/Parking> ;
 	rdfs:label "Rue des Tongres"@fr , "Tongerenstraat"@be ;
@@ -607,8 +581,7 @@
 <http://www.semanticweb.org/grupo18/csv/Rue+de+la+Loi+> a <http://dbpedia.org/ontology/Street> ;
 	rdfs:label "Rue de la Loi " , "Wetstraat " .
 
-<http://www.semanticweb.org/grupo18/csv/Loi-Madou> dcterms:isPartOf <http://www.semanticweb.org/grupo18/csv/Sint-Joost-ten-Node> ;
-	vcard:locality "Saint-Josse-ten-Noode" .
+<http://www.semanticweb.org/grupo18/csv/Loi-Madou> <http://dbpedia.org/ontology/isPartOf> "Saint-Josse-ten-Noode" .
 
 <http://www.semanticweb.org/grupo18/csv/Scailquin> a <http://linkedgeodata.org/page/ontology/Parking> ;
 	rdfs:label "Scailquin"@fr , "Scailquin"@be ;
@@ -630,9 +603,8 @@
 	rdfs:label "Rue de l'Alliance " , "Verbondsstraat " .
 
 <http://www.semanticweb.org/grupo18/csv/Centre> a <http://dbpedia.org/ontology/Settlement> ;
-	dcterms:isPartOf <http://www.semanticweb.org/grupo18/csv/Brussel> ;
 	rdfs:label "Centre" ;
-	vcard:locality "Bruxelles" .
+	<http://dbpedia.org/ontology/isPartOf> "Bruxelles" .
 
 <http://www.semanticweb.org/grupo18/csv/Albertine+Square> a <http://linkedgeodata.org/page/ontology/Parking> ;
 	rdfs:label "Albertine Square"@fr , "Albertina Square"@be ;
@@ -895,8 +867,7 @@
 <http://www.semanticweb.org/grupo18/csv/Rue+Duquesnoy+> a <http://dbpedia.org/ontology/Street> ;
 	rdfs:label "Rue Duquesnoy " , " Duquesnoystraat" .
 
-<http://www.semanticweb.org/grupo18/csv/Centre> dcterms:isPartOf <http://www.semanticweb.org/grupo18/csv/Elsene> ;
-	vcard:locality "Ixelles" .
+<http://www.semanticweb.org/grupo18/csv/Centre> <http://dbpedia.org/ontology/isPartOf> "Ixelles" .
 
 <http://www.semanticweb.org/grupo18/csv/Thon+hotel> a <http://linkedgeodata.org/page/ontology/Parking> ;
 	rdfs:label "Thon hotel"@fr , "Thon hotel"@be ;
@@ -915,8 +886,7 @@
 <http://www.semanticweb.org/grupo18/csv/Rue+de+Tr%C3%AAves> a <http://dbpedia.org/ontology/Street> ;
 	rdfs:label "Rue de Trêves" , "Trierstraat " .
 
-<http://www.semanticweb.org/grupo18/csv/Centre> dcterms:isPartOf <http://www.semanticweb.org/grupo18/csv/Sint-Jans-Molenbeek> ;
-	vcard:locality "Molenbeek-Saint-Jean" .
+<http://www.semanticweb.org/grupo18/csv/Centre> <http://dbpedia.org/ontology/isPartOf> "Molenbeek-Saint-Jean" .
 
 <http://www.semanticweb.org/grupo18/csv/Brunfaut> a <http://linkedgeodata.org/page/ontology/Parking> ;
 	rdfs:label "Brunfaut"@fr , "Brunfaut"@be ;
@@ -930,8 +900,9 @@
 	vcard:hasName "Rue Fernand Brunfaut " ;
 	<http://www.semanticweb.org/grupo18/ontologies#hasRoadNumber> "18b" .
 
-<http://www.semanticweb.org/grupo18/csv/Molenbeek-Saint-Jean> a <http://dbpedia.org/ontology/City> ;
-	rdfs:label "Molenbeek-Saint-Jean"@fr , "Sint-Jans-Molenbeek"@be .
+<http://www.semanticweb.org/grupo18/csv/Molenbeek-Saint-Jean> a <http://dbpedia.org/ontology/Place> ;
+	rdfs:label "Molenbeek-Saint-Jean"@fr , "Sint-Jans-Molenbeek"@be ;
+	owl:sameAs <http://dbpedia.org/resource/Sint-Jans-Molenbeek> .
 
 <http://www.semanticweb.org/grupo18/csv/Commune+de+Molenbeek-Saint-Jean> a <http://dbpedia.org/ontology/Company> ;
 	rdfs:label "Commune de Molenbeek-Saint-Jean" ;
@@ -941,9 +912,8 @@
 	rdfs:label "Rue Fernand Brunfaut " , "Fernand Brunfautstraat " .
 
 <http://www.semanticweb.org/grupo18/csv/Autres> a <http://dbpedia.org/ontology/Settlement> ;
-	dcterms:isPartOf <http://www.semanticweb.org/grupo18/csv/Anderlecht> ;
 	rdfs:label "Autres" ;
-	vcard:locality "Anderlecht" .
+	<http://dbpedia.org/ontology/isPartOf> "Anderlecht" .
 
 <http://www.semanticweb.org/grupo18/csv/Delacroix> a <http://linkedgeodata.org/page/ontology/Parking> ;
 	rdfs:label "Delacroix"@fr , "Delacroix"@be ;
@@ -956,8 +926,9 @@
 	<http://www.semanticweb.org/grupo18/ontologies#belongsTo> "Autres" ;
 	vcard:hasName "Rue Jules Ruhl" .
 
-<http://www.semanticweb.org/grupo18/csv/Anderlecht> a <http://dbpedia.org/ontology/City> ;
-	rdfs:label "Anderlecht"@fr , "Anderlecht"@be .
+<http://www.semanticweb.org/grupo18/csv/Anderlecht> a <http://dbpedia.org/ontology/Place> ;
+	rdfs:label "Anderlecht"@fr , "Anderlecht"@be ;
+	owl:sameAs <http://dbpedia.org/resource/Anderlecht> .
 
 <http://www.semanticweb.org/grupo18/csv/Abatan> a <http://dbpedia.org/ontology/Company> ;
 	rdfs:label "Abatan" ;
@@ -966,8 +937,7 @@
 <http://www.semanticweb.org/grupo18/csv/Rue+Jules+Ruhl> a <http://dbpedia.org/ontology/Street> ;
 	rdfs:label "Rue Jules Ruhl" , "Jules Ruhlstraat" .
 
-<http://www.semanticweb.org/grupo18/csv/Autres> dcterms:isPartOf <http://www.semanticweb.org/grupo18/csv/Koekelberg> ;
-	vcard:locality "Koekelberg" .
+<http://www.semanticweb.org/grupo18/csv/Autres> <http://dbpedia.org/ontology/isPartOf> "Koekelberg" .
 
 <http://www.semanticweb.org/grupo18/csv/Simonis> a <http://linkedgeodata.org/page/ontology/Parking> ;
 	rdfs:label "Simonis"@fr , "Simonis"@be ;
@@ -981,16 +951,16 @@
 	vcard:hasName "Place Eugène Simonis " ;
 	<http://www.semanticweb.org/grupo18/ontologies#hasRoadNumber> "24" .
 
-<http://www.semanticweb.org/grupo18/csv/Koekelberg> a <http://dbpedia.org/ontology/City> ;
-	rdfs:label "Koekelberg"@fr , "Koekelberg"@be .
+<http://www.semanticweb.org/grupo18/csv/Koekelberg> a <http://dbpedia.org/ontology/Place> ;
+	rdfs:label "Koekelberg"@fr , "Koekelberg"@be ;
+	owl:sameAs <http://dbpedia.org/resource/Koekelberg> .
 
 <http://www.semanticweb.org/grupo18/csv/Q-Park> <http://dbpedia.org/ontology/owns> "Simonis" .
 
 <http://www.semanticweb.org/grupo18/csv/Place+Eug%C3%A8ne+Simonis+> a <http://dbpedia.org/ontology/Street> ;
 	rdfs:label "Place Eugène Simonis " , "Eugène Simonisplein" .
 
-<http://www.semanticweb.org/grupo18/csv/Autres> dcterms:isPartOf <http://www.semanticweb.org/grupo18/csv/Sint-Pieters-Woluwe> ;
-	vcard:locality "Woluwe-Saint-Pierre" .
+<http://www.semanticweb.org/grupo18/csv/Autres> <http://dbpedia.org/ontology/isPartOf> "Woluwe-Saint-Pierre" .
 
 <http://www.semanticweb.org/grupo18/csv/Stockel+Square> a <http://linkedgeodata.org/page/ontology/Parking> ;
 	rdfs:label "Stockel Square"@fr , "Stockel Square"@be ;
@@ -1004,16 +974,16 @@
 	vcard:hasName "Rue de l'Eglise " ;
 	<http://www.semanticweb.org/grupo18/ontologies#hasRoadNumber> "96a" .
 
-<http://www.semanticweb.org/grupo18/csv/Woluwe-Saint-Pierre> a <http://dbpedia.org/ontology/City> ;
-	rdfs:label "Woluwe-Saint-Pierre"@fr , "Sint-Pieters-Woluwe"@be .
+<http://www.semanticweb.org/grupo18/csv/Woluwe-Saint-Pierre> a <http://dbpedia.org/ontology/Place> ;
+	rdfs:label "Woluwe-Saint-Pierre"@fr , "Sint-Pieters-Woluwe"@be ;
+	owl:sameAs <http://dbpedia.org/resource/Woluwe-Saint-Pierre> .
 
 <http://www.semanticweb.org/grupo18/csv/Interparking> <http://dbpedia.org/ontology/owns> "Stockel Square" .
 
 <http://www.semanticweb.org/grupo18/csv/Rue+de+l%27Eglise+> a <http://dbpedia.org/ontology/Street> ;
 	rdfs:label "Rue de l'Eglise " , "Kerkstraat " .
 
-<http://www.semanticweb.org/grupo18/csv/Autres> dcterms:isPartOf <http://www.semanticweb.org/grupo18/csv/Sint-Lambrechts-Woluwe> ;
-	vcard:locality "Woluwe-Saint-Lambert" .
+<http://www.semanticweb.org/grupo18/csv/Autres> <http://dbpedia.org/ontology/isPartOf> "Woluwe-Saint-Lambert" .
 
 <http://www.semanticweb.org/grupo18/csv/Woluwe+Shopping+Center> a <http://linkedgeodata.org/page/ontology/Parking> ;
 	rdfs:label "Woluwe Shopping Center"@fr , "Woluwe Shopping Center"@be ;
@@ -1026,8 +996,9 @@
 	<http://www.semanticweb.org/grupo18/ontologies#belongsTo> "Autres" ;
 	vcard:hasName "Boulevard de la Woluwe " .
 
-<http://www.semanticweb.org/grupo18/csv/Woluwe-Saint-Lambert> a <http://dbpedia.org/ontology/City> ;
-	rdfs:label "Woluwe-Saint-Lambert"@fr , "Sint-Lambrechts-Woluwe"@be .
+<http://www.semanticweb.org/grupo18/csv/Woluwe-Saint-Lambert> a <http://dbpedia.org/ontology/Place> ;
+	rdfs:label "Woluwe-Saint-Lambert"@fr , "Sint-Lambrechts-Woluwe"@be ;
+	owl:sameAs <http://dbpedia.org/resource/Woluwe-Saint-Lambert> .
 
 <http://www.semanticweb.org/grupo18/csv/Interparking> <http://dbpedia.org/ontology/owns> "Woluwe Shopping Center" .
 
