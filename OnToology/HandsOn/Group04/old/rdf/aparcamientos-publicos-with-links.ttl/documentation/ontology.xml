@@ -1,0 +1,1416 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:ontology="http://www.semanticweb.org/Group04/ontology#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/Group04/ontology#hasType -->
+
+
+    <AnnotationProperty rdf:about="http://www.semanticweb.org/Group04/ontology#hasType"/>
+    
+
+
+    <!-- http://www.semanticweb.org/Group04/ontology#isAccesible -->
+
+
+    <AnnotationProperty rdf:about="http://www.semanticweb.org/Group04/ontology#isAccesible"/>
+    
+
+
+    <!-- http://www.semanticweb.org/Group04/ontology#isInStreet -->
+
+
+    <AnnotationProperty rdf:about="http://www.semanticweb.org/Group04/ontology#isInStreet"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://es.dbpedia.org/page/Barrios_de_Madrid -->
+
+
+    <rdfs:Datatype rdf:about="http://es.dbpedia.org/page/Barrios_de_Madrid"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/Group04/ontology#Parking -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/Group04/ontology#Parking"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://dbpedia.org/resource/Almagro -->
+
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Almagro">
+        <sameAs rdf:resource="http://semanticweb.org/Group04/ALMAGRO"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Artzentales -->
+
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Artzentales">
+        <sameAs rdf:resource="http://semanticweb.org/Group04/ARCENTALES"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Brazil -->
+
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Brazil">
+        <sameAs rdf:resource="http://semanticweb.org/Group04/BRASIL"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Fuencarral -->
+
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Fuencarral">
+        <sameAs rdf:resource="http://semanticweb.org/Group04/FUENCARRAL"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Jorge_Juan_y_Santacilia -->
+
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Jorge_Juan_y_Santacilia">
+        <sameAs rdf:resource="http://semanticweb.org/Group04/JORGE+JUAN"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Juan_Bravo -->
+
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Juan_Bravo">
+        <sameAs rdf:resource="http://semanticweb.org/Group04/JUAN+BRAVO"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Pedro_Zerolo -->
+
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Pedro_Zerolo">
+        <sameAs rdf:resource="http://semanticweb.org/Group04/PEDRO+ZEROLO"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/San_Cayetano -->
+
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/San_Cayetano">
+        <sameAs rdf:resource="http://semanticweb.org/Group04/SAN+CAYETANO"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Casino_(disambiguation) -->
+
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Casino_(disambiguation)">
+        <sameAs rdf:resource="http://semanticweb.org/Group04/CASINO"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Category:Portugal -->
+
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Category:Portugal">
+        <sameAs rdf:resource="http://semanticweb.org/Group04/PORTUGAL"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Category:Cartagena,_Spain -->
+
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Category:Cartagena,_Spain">
+        <sameAs rdf:resource="http://semanticweb.org/Group04/CARTAGENA"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Hernani,_Gipuzkoa -->
+
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Hernani,_Gipuzkoa">
+        <sameAs rdf:resource="http://semanticweb.org/Group04/HERNANI"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://es.dbpedia.org/resource/Alcala -->
+
+
+    <NamedIndividual rdf:about="http://es.dbpedia.org/resource/Alcala">
+        <sameAs rdf:resource="http://semanticweb.org/Group04/ALCALA"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://es.dbpedia.org/resource/Antonia_Merce -->
+
+
+    <NamedIndividual rdf:about="http://es.dbpedia.org/resource/Antonia_Merce">
+        <sameAs rdf:resource="http://semanticweb.org/Group04/ANTONIA+MERCE"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://es.dbpedia.org/resource/Barcelo -->
+
+
+    <NamedIndividual rdf:about="http://es.dbpedia.org/resource/Barcelo">
+        <sameAs rdf:resource="http://semanticweb.org/Group04/BARCELO"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://es.dbpedia.org/resource/Capitan_Haya -->
+
+
+    <NamedIndividual rdf:about="http://es.dbpedia.org/resource/Capitan_Haya">
+        <sameAs rdf:resource="http://semanticweb.org/Group04/CAPITAN+HAYA"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://es.dbpedia.org/resource/Carmen -->
+
+
+    <NamedIndividual rdf:about="http://es.dbpedia.org/resource/Carmen">
+        <sameAs rdf:resource="http://semanticweb.org/Group04/CARMEN"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://es.dbpedia.org/resource/Cayetano_Sanchez_Bustillo -->
+
+
+    <NamedIndividual rdf:about="http://es.dbpedia.org/resource/Cayetano_Sanchez_Bustillo">
+        <sameAs rdf:resource="http://semanticweb.org/Group04/SANCHEZ+BUSTILLO"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://es.dbpedia.org/resource/Ciudad_de_Barcelona -->
+
+
+    <NamedIndividual rdf:about="http://es.dbpedia.org/resource/Ciudad_de_Barcelona">
+        <sameAs rdf:resource="http://semanticweb.org/Group04/CIUDAD+DE+BARCELONA"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://es.dbpedia.org/resource/Corazon_de_Maria -->
+
+
+    <NamedIndividual rdf:about="http://es.dbpedia.org/resource/Corazon_de_Maria">
+        <sameAs rdf:resource="http://semanticweb.org/Group04/CORAZON+DE+MARIA"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://es.dbpedia.org/resource/Diego_de_Leon -->
+
+
+    <NamedIndividual rdf:about="http://es.dbpedia.org/resource/Diego_de_Leon">
+        <sameAs rdf:resource="http://semanticweb.org/Group04/DIEGO+DE+LEON"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://es.dbpedia.org/resource/Encuentro -->
+
+
+    <NamedIndividual rdf:about="http://es.dbpedia.org/resource/Encuentro">
+        <sameAs rdf:resource="http://semanticweb.org/Group04/ENCUENTRO"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://es.dbpedia.org/resource/General_Yague -->
+
+
+    <NamedIndividual rdf:about="http://es.dbpedia.org/resource/General_Yague">
+        <sameAs rdf:resource="http://semanticweb.org/Group04/GENERAL+YAG%26Uuml%3BE"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://es.dbpedia.org/resource/Gonzalo_Garcia_Garcia -->
+
+
+    <NamedIndividual rdf:about="http://es.dbpedia.org/resource/Gonzalo_Garcia_Garcia">
+        <sameAs rdf:resource="http://semanticweb.org/Group04/GARCIA+MOLINAS"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://es.dbpedia.org/resource/Goya -->
+
+
+    <NamedIndividual rdf:about="http://es.dbpedia.org/resource/Goya">
+        <sameAs rdf:resource="http://semanticweb.org/Group04/GOYA"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://es.dbpedia.org/resource/Guillermo_Fernandez_Alvarez -->
+
+
+    <NamedIndividual rdf:about="http://es.dbpedia.org/resource/Guillermo_Fernandez_Alvarez">
+        <sameAs rdf:resource="http://semanticweb.org/Group04/CARLOS+Y+GUILLERMO+FERNANDEZ+SHAW"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://es.dbpedia.org/resource/Jacinto_Benavente -->
+
+
+    <NamedIndividual rdf:about="http://es.dbpedia.org/resource/Jacinto_Benavente">
+        <sameAs rdf:resource="http://semanticweb.org/Group04/JACINTO+BENAVENTE"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://es.dbpedia.org/resource/Jose_Ortega_y_Gasset -->
+
+
+    <NamedIndividual rdf:about="http://es.dbpedia.org/resource/Jose_Ortega_y_Gasset">
+        <sameAs rdf:resource="http://semanticweb.org/Group04/JOSE+ORTEGA+Y+GASSET"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://es.dbpedia.org/resource/Las_Cortes -->
+
+
+    <NamedIndividual rdf:about="http://es.dbpedia.org/resource/Las_Cortes">
+        <sameAs rdf:resource="http://semanticweb.org/Group04/LAS+CORTES"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://es.dbpedia.org/resource/Marques_de_Urquijo -->
+
+
+    <NamedIndividual rdf:about="http://es.dbpedia.org/resource/Marques_de_Urquijo">
+        <sameAs rdf:resource="http://semanticweb.org/Group04/MARQUES+DE+URQUIJO"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://es.dbpedia.org/resource/Marques_de_salamanca -->
+
+
+    <NamedIndividual rdf:about="http://es.dbpedia.org/resource/Marques_de_salamanca">
+        <sameAs rdf:resource="http://semanticweb.org/Group04/MARQUES+DE+SALAMANCA"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://es.dbpedia.org/resource/Miguel_Yuste -->
+
+
+    <NamedIndividual rdf:about="http://es.dbpedia.org/resource/Miguel_Yuste">
+        <sameAs rdf:resource="http://semanticweb.org/Group04/MIGUEL+YUSTE"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://es.dbpedia.org/resource/Montalban -->
+
+
+    <NamedIndividual rdf:about="http://es.dbpedia.org/resource/Montalban">
+        <sameAs rdf:resource="http://semanticweb.org/Group04/MONTALBAN"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://es.dbpedia.org/resource/Olavide -->
+
+
+    <NamedIndividual rdf:about="http://es.dbpedia.org/resource/Olavide">
+        <sameAs rdf:resource="http://semanticweb.org/Group04/OLAVIDE"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://es.dbpedia.org/resource/Pradena_del_Rincon -->
+
+
+    <NamedIndividual rdf:about="http://es.dbpedia.org/resource/Pradena_del_Rincon">
+        <sameAs rdf:resource="http://semanticweb.org/Group04/PRADENA+DEL+RINCON"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://es.dbpedia.org/resource/Principe_de_Vergara -->
+
+
+    <NamedIndividual rdf:about="http://es.dbpedia.org/resource/Principe_de_Vergara">
+        <sameAs rdf:resource="http://semanticweb.org/Group04/PRINCIPE+DE+VERGARA"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://es.dbpedia.org/resource/Recoletos -->
+
+
+    <NamedIndividual rdf:about="http://es.dbpedia.org/resource/Recoletos">
+        <sameAs rdf:resource="http://semanticweb.org/Group04/RECOLETOS"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://es.dbpedia.org/resource/Republica_Dominicana -->
+
+
+    <NamedIndividual rdf:about="http://es.dbpedia.org/resource/Republica_Dominicana">
+        <sameAs rdf:resource="http://semanticweb.org/Group04/REPUBLICA+DOMINICANA"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://es.dbpedia.org/resource/Sor_Angela_de_la_Cruz -->
+
+
+    <NamedIndividual rdf:about="http://es.dbpedia.org/resource/Sor_Angela_de_la_Cruz">
+        <sameAs rdf:resource="http://semanticweb.org/Group04/SOR+ANGELA+DE+LA+CRUZ"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://es.dbpedia.org/resource/Velazquez -->
+
+
+    <NamedIndividual rdf:about="http://es.dbpedia.org/resource/Velazquez">
+        <sameAs rdf:resource="http://semanticweb.org/Group04/VELAZQUEZ"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://es.dbpedia.org/resource/Categoría:Oriente -->
+
+
+    <NamedIndividual rdf:about="http://es.dbpedia.org/resource/Categoría:Oriente">
+        <sameAs rdf:resource="http://semanticweb.org/Group04/ORIENTE"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/ALCALA -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/ALCALA"/>
+    
+
+
+    <!-- http://semanticweb.org/Group04/ALMAGRO -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/ALMAGRO"/>
+    
+
+
+    <!-- http://semanticweb.org/Group04/ARCENTALES -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/ARCENTALES"/>
+    
+
+
+    <!-- http://semanticweb.org/Group04/BARCELO -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/BARCELO"/>
+    
+
+
+    <!-- http://semanticweb.org/Group04/BRASIL -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/BRASIL"/>
+    
+
+
+    <!-- http://semanticweb.org/Group04/CARMEN -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/CARMEN"/>
+    
+
+
+    <!-- http://semanticweb.org/Group04/CARTAGENA -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/CARTAGENA"/>
+    
+
+
+    <!-- http://semanticweb.org/Group04/CASINO -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/CASINO"/>
+    
+
+
+    <!-- http://semanticweb.org/Group04/ENCUENTRO -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/ENCUENTRO"/>
+    
+
+
+    <!-- http://semanticweb.org/Group04/FUENCARRAL -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/FUENCARRAL"/>
+    
+
+
+    <!-- http://semanticweb.org/Group04/GOYA -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/GOYA"/>
+    
+
+
+    <!-- http://semanticweb.org/Group04/HERNANI -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/HERNANI"/>
+    
+
+
+    <!-- http://semanticweb.org/Group04/MONTALBAN -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/MONTALBAN"/>
+    
+
+
+    <!-- http://semanticweb.org/Group04/OLAVIDE -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/OLAVIDE"/>
+    
+
+
+    <!-- http://semanticweb.org/Group04/ORIENTE -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/ORIENTE"/>
+    
+
+
+    <!-- http://semanticweb.org/Group04/PORTUGAL -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/PORTUGAL"/>
+    
+
+
+    <!-- http://semanticweb.org/Group04/RECOLETOS -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/RECOLETOS"/>
+    
+
+
+    <!-- http://semanticweb.org/Group04/VELAZQUEZ -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/VELAZQUEZ"/>
+    
+
+
+    <!-- http://semanticweb.org/Group04/ANTONIA+MERCE -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/ANTONIA+MERCE"/>
+    
+
+
+    <!-- http://semanticweb.org/Group04/CAPITAN+HAYA -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/CAPITAN+HAYA"/>
+    
+
+
+    <!-- http://semanticweb.org/Group04/CARLOS+Y+GUILLERMO+FERNANDEZ+SHAW -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/CARLOS+Y+GUILLERMO+FERNANDEZ+SHAW"/>
+    
+
+
+    <!-- http://semanticweb.org/Group04/CIUDAD+DE+BARCELONA -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/CIUDAD+DE+BARCELONA"/>
+    
+
+
+    <!-- http://semanticweb.org/Group04/CORAZON+DE+MARIA -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/CORAZON+DE+MARIA"/>
+    
+
+
+    <!-- http://semanticweb.org/Group04/DIEGO+DE+LEON -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/DIEGO+DE+LEON"/>
+    
+
+
+    <!-- http://semanticweb.org/Group04/GARCIA+MOLINAS -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/GARCIA+MOLINAS"/>
+    
+
+
+    <!-- http://semanticweb.org/Group04/GENERAL+YAG%26Uuml%3BE -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/GENERAL+YAG%26Uuml%3BE"/>
+    
+
+
+    <!-- http://semanticweb.org/Group04/JACINTO+BENAVENTE -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/JACINTO+BENAVENTE"/>
+    
+
+
+    <!-- http://semanticweb.org/Group04/JORGE+JUAN -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/JORGE+JUAN"/>
+    
+
+
+    <!-- http://semanticweb.org/Group04/JOSE+ORTEGA+Y+GASSET -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/JOSE+ORTEGA+Y+GASSET"/>
+    
+
+
+    <!-- http://semanticweb.org/Group04/JUAN+BRAVO -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/JUAN+BRAVO"/>
+    
+
+
+    <!-- http://semanticweb.org/Group04/LAS+CORTES -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/LAS+CORTES"/>
+    
+
+
+    <!-- http://semanticweb.org/Group04/MARQUES+DE+SALAMANCA -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/MARQUES+DE+SALAMANCA"/>
+    
+
+
+    <!-- http://semanticweb.org/Group04/MARQUES+DE+URQUIJO -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/MARQUES+DE+URQUIJO"/>
+    
+
+
+    <!-- http://semanticweb.org/Group04/MIGUEL+YUSTE -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/MIGUEL+YUSTE"/>
+    
+
+
+    <!-- http://semanticweb.org/Group04/PEDRO+ZEROLO -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/PEDRO+ZEROLO"/>
+    
+
+
+    <!-- http://semanticweb.org/Group04/PRADENA+DEL+RINCON -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/PRADENA+DEL+RINCON"/>
+    
+
+
+    <!-- http://semanticweb.org/Group04/PRINCIPE+DE+VERGARA -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/PRINCIPE+DE+VERGARA"/>
+    
+
+
+    <!-- http://semanticweb.org/Group04/REPUBLICA+DOMINICANA -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/REPUBLICA+DOMINICANA"/>
+    
+
+
+    <!-- http://semanticweb.org/Group04/SAN+CAYETANO -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/SAN+CAYETANO"/>
+    
+
+
+    <!-- http://semanticweb.org/Group04/SANCHEZ+BUSTILLO -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/SANCHEZ+BUSTILLO"/>
+    
+
+
+    <!-- http://semanticweb.org/Group04/SOR+ANGELA+DE+LA+CRUZ -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/SOR+ANGELA+DE+LA+CRUZ"/>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=a284ff632081c010VgnVCM1000000b205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=a284ff632081c010VgnVCM1000000b205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas : 222 p�blicas y 261 para residentes  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInStreet rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">SAN CAYETANO</ontology:isInStreet>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=a50e15cbed51c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=a50e15cbed51c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas:  318 p�blicas y 298 para residentes  Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad:  Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInStreet rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">BARCELO</ontology:isInStreet>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=a5777339ae51c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=a5777339ae51c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas : 605  Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad : Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</ontology:isAccesible>
+        <ontology:isInStreet rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">GOYA</ontology:isInStreet>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=aa667339ae51c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=aa667339ae51c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas : 482  Abierto 24 horas  Admite Tarjeta BonoRed</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInStreet rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">MARQUES DE URQUIJO</ontology:isInStreet>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=aabe6545f951c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=aabe6545f951c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas : 892 p�blicas y 203 para residentes  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInStreet rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">REPUBLICA DOMINICANA</ontology:isInStreet>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=b74e6545f951c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=b74e6545f951c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas : 327 p�blicas y 750 para residentes   Informacion sobre accesibilidad:   No tiene escalera adaptada  No tiene ascensor de salida a calle  2 aseos accesibles ( 1&amp;ordf;  planta)   Plazas para minusv�lidos residentes: 6     Abierto 24 horas    Titularidad : Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInStreet rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">CORAZON DE MARIA</ontology:isInStreet>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=bc096f1c35d15410VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=bc096f1c35d15410VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas : 379 p�blicas y 794 para residentes  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInStreet rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">JOSE ORTEGA Y GASSET</ontology:isInStreet>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=bd61f94ae1d15410VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=bd61f94ae1d15410VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas : 307 p�blicas y 831 para residentes  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInStreet rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">JUAN BRAVO</ontology:isInStreet>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=bdc7bdc85c01c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=bdc7bdc85c01c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas:  147  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInStreet rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">PRINCIPE DE VERGARA</ontology:isInStreet>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=c313e26f2b3fc210VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=c313e26f2b3fc210VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas:  433 p�blicas y 437 para residentes   Informacion sobre accesibilidad:   No tiene escalera adaptada  Tiene ascensor de salida a Avenida de Portugal, s/n  1 aseo accesible (nivel-3)  Plazas para minusv�lidos residentes: 20    Abierto 24 horas   Titularidad : Ayuntamiento de Madrid   Gesti�n : Empresa Municipal de Transportes (EMT) ( m�s informaci�n )</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInStreet rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">PORTUGAL</ontology:isInStreet>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=c3e12c798651c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=c3e12c798651c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas:  104 p�blicas y 550 para residentes  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInStreet rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">ENCUENTRO</ontology:isInStreet>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=c48f15cbed51c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=c48f15cbed51c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas:  285 p�blicas y 110 para residentes.   Plazas motos:  7.   Informaci�n sobre accesibilidad:    No tiene escaleras adaptadas  Ascensor con salida a la calle Jacinto benavente, s/n  1 aseo accesible Plaza para minusv�lidos residentes: 16   Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad:  Ayuntamiento de Madrid   Gesti�n:  Empresa Municipal de Transportes (EMT) ( m�s informaci�n )</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInStreet rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">JACINTO BENAVENTE</ontology:isInStreet>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=c5f4bdc85c01c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=c5f4bdc85c01c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas:  135 p�blicas y 449 para residentes  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInStreet rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">CASINO</ontology:isInStreet>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=cb5b1b2bb5b61310VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=cb5b1b2bb5b61310VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas : 360 p�blicas y 70 para residentes   Informaci�n sobre accesibilidad:    No tiene escaleras adaptadas  1 ascensor en la salida a la plaza del Marqu�s de Salamanca  1 aseo accesible en  2&amp;ordf;   planta  Plaza para minusv�lidos residentes: 14   Admite Tarjeta BonoRed   Abierto 24 horas    Titularidad : Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInStreet rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">MARQUES DE SALAMANCA</ontology:isInStreet>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=d0712c798651c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=d0712c798651c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas:  115 p�blicas y 383 residentes   Informaci�n sobre accesibilidad:   No tiene escaleras adptadas  Ascensor de salida a la calle Hernai, 68  1 aseo accesible en 1&amp;ordf; planta  Plazas para minusv�lidos residentes. 3      Abierto 24 horas    Titularidad:  Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInStreet rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">HERNANI</ontology:isInStreet>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=d11f15cbed51c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=d11f15cbed51c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas:  549 p�blicas y 395 para residentes  Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad:  Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</ontology:isAccesible>
+        <ontology:isInStreet rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">VELAZQUEZ</ontology:isInStreet>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=d4f881eb5f51c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=d4f881eb5f51c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas : 160   Informaci�n sobre accesibilidad:    Si tiene escaleras adaptadas  1 ascensor  3 aseos accesibles (uno por planta): 8  Plaza para minusv�lidos residentes: 16   Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad : Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInStreet rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">REY</ontology:isInStreet>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=db8bc2c6e051c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=db8bc2c6e051c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas : 120 p�blicas y 125 para residentes   Informaci�n sobre accesibilidad:   No tiene escaleras adaptadas  Ascensor de salida a la calle P�rez de Victoria  2 aseos accesibles (1&amp;ordf; planta)  Plazas para minusv�lidos residentes: 3     Abierto 24 horas    Titularidad : Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</ontology:isAccesible>
+        <ontology:isInStreet rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">PEREZ DE VICTORIA</ontology:isInStreet>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=e3077339ae51c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=e3077339ae51c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas:  371  Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad:  Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</ontology:isAccesible>
+        <ontology:isInStreet rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">VELAZQUEZ</ontology:isInStreet>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=e499946be351c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=e499946be351c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas:  107 p�blicas y 261 para residentes.   Plazas motos:  6.   Informaci�n sobre accesibilidad:   No tiene escaleras adaptadas  1 ascensor con salida a la Plaza de Vazquez de Mella  1 aseo accesible  Plaza para minusv�lidos residentes: 7     Abierto 24 horas    Titularidad:  Ayuntamiento de Madrid   Gesti�n:  Empresa Municipal de Transportes (EMT) ( m�s informaci�n )</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInStreet rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">PEDRO ZEROLO</ontology:isInStreet>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=ed88f25e040c4410VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=ed88f25e040c4410VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas:  376  Abierto 24 horas  Admite la Tarjeta Bono Red   Titularidad:  Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</ontology:isAccesible>
+        <ontology:isInStreet rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">CARTAGENA</ontology:isInStreet>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=ee9e15cbed51c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=ee9e15cbed51c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas:  409 p�blicas y 717 residentes  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInStreet rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">BRASIL</ontology:isInStreet>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=eee35ed15bb95210VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=eee35ed15bb95210VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas : 128 p�blicas y 663 para residentes   Informaci�n sobre accesibilidad:   1 escalera adaptada  No dispone de ascensor  1 aseo accesible  Plaza para minusv�lidos residentes: 5     Abierto 24 horas    Titularidad : Ayuntamiento de Madrid   Gesti�n:  Empresa Municipal de Transportes (EMT) ( m�s informaci�n )</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInStreet rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">SOR ANGELA DE LA CRUZ</ontology:isInStreet>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=f0967339ae51c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=f0967339ae51c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas:  275  Abierto 24 horas  Admite Tarjet BonoRed   Titularidad:  Ayuntamiento de Madrid   Gesti�n:  Empresa Municipal de Transportes (EMT) ( m�s informaci�n )</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</ontology:isAccesible>
+        <ontology:isInStreet rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">MONTALBAN</ontology:isInStreet>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=fb2e15cbed51c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=fb2e15cbed51c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas:  226 p�blicas y 400 para residentes  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInStreet rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">GENERAL YAG&amp;Uuml;E</ontology:isInStreet>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=fb977339ae51c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=fb977339ae51c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas : 800 (hasta 535 abonados)  Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad : Ayuntamiento de Madrid   Gesti�n : Empresa Municipal de Transportes (EMT) ( m�s informaci�n )</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInStreet rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">ESPA&amp;Ntilde;A</ontology:isInStreet>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=fe0881eb5f51c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=fe0881eb5f51c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas:  362   Informaci�n sobre accesibilidad:    No tiene escaleras adaptadas  1 ascensor  1 aseo accesible en  2&amp;ordf;   planta  Plaza para minusv�lidos residentes: 16    Abierto 24 horas    Admite Tarjeta BonoRed     Titularidad:  Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</ontology:isAccesible>
+        <ontology:isInStreet rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">GARCIA MOLINAS</ontology:isInStreet>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=0e167339ae51c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=0e167339ae51c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas : 462   Informacion sobre accesibilidad:    1 escalera adaptada  No tiene ascensor de salida a calle  1 aseo accesible  Plazas para minusv�lidos residentes: 17   Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad : Ayuntamiento de Madrid   Gesti�n : Empresa Municipal de Transportes (EMT) ( m�s informaci�n )</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInStreet rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">ALMAGRO</ontology:isInStreet>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=0e6e6545f951c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=0e6e6545f951c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas : 245  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInStreet rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">CARLOS Y GUILLERMO FERNANDEZ SHAW</ontology:isInStreet>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=0f85bdc85c01c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=0f85bdc85c01c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas:  312 p�blicas y 174 para residentes  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInStreet rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">CIUDAD DE BARCELONA</ontology:isInStreet>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=1c15bdc85c01c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=1c15bdc85c01c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas:  182  p�blicas y 68 para residentes  Abierto: 24 horas  Admite Tarjeta BonoRed   Titularidad:  Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInStreet rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">MIGUEL YUSTE</ontology:isInStreet>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=2b1981eb5f51c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=2b1981eb5f51c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas : 694  Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad : Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInStreet rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">FELIPE III</ontology:isInStreet>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=27912c798651c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=27912c798651c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas : 132 p�blicas y 408 para residentes  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInStreet rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">SANCHEZ BUSTILLO</ontology:isInStreet>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=283f15cbed51c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=283f15cbed51c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas : 102 p�blicas y 289 para residentes   Informaci�n sobre accesibilidad:    No tiene escaleras adaptadas  1 ascensor en la salida al Paseo de Recoletos  1 aseo accesible  Plaza para minusv�lidos residentes: 10    Abierto 24 horas   Admite Tarjeta BonoRed   Titularidad : Ayuntamiento de Madrid   Gesti�n:  Empresa Municipal de Transportes (EMT) ( m�s informaci�n )</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInStreet rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">RECOLETOS</ontology:isInStreet>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=3f3bc2c6e051c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=3f3bc2c6e051c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Informaci�n sobre accesibilidad :  Tiene escaleras adaptadas  Ascensor de salida a la calle Avenida de Am�rica, 9  Tiene aseos accesibles  Plazas para minusv�lidos     Plazas : 269 p�blicas y 392 para residentes   Abierto 24 horas    Titularidad : Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInStreet rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">PRADENA DEL RINCON</ontology:isInStreet>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=35ce15cbed51c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=35ce15cbed51c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas:  205 p�blicas y 43 para residentes   Informaci�n sobre accesibilidad:   No tiene escaleras adaptadas  No disponde ascensor  No disponde de aseos accesible  Plazas para minusv�lidos residentes: 5     Abierto 24 horas    Titularidad:  Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInStreet rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">CAPITAN HAYA</ontology:isInStreet>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=38a881eb5f51c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=38a881eb5f51c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas rotaci�n:  169   Plazas motos:  2    Informaci�n sobre accesibilidad:    No tiene escaleras adaptadas  No disponde de ascensor  1 aseo accesible  Plaza para minusv�lidos residentes: 13    Abierto 24 horas    Admite Tarjeta BonoRed    Titularidad:  Ayuntamiento de Madrid   Gesti�n:  Empresa Municipal de Transportes (EMT) ( m�s informaci�n )</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</ontology:isAccesible>
+        <ontology:isInStreet rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">MARQUES DE LA ENSENADA</ontology:isInStreet>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=42c77339ae51c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=42c77339ae51c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas : 480  Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad : Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</ontology:isAccesible>
+        <ontology:isInStreet rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">LAS CORTES</ontology:isInStreet>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=425e15cbed51c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=425e15cbed51c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas : 1218 p�blicas y 607 para residentes   Plazas : 120 p�blicas y 125 para residentes   Informaci�n sobre accesibilidad:    No tiene escaleras adaptadas  Ascensor de salida a la plaza de Felipe II  Aseo accesible (1&amp;ordf; planta)  Plazas para minusv�lidos residentes:23    Abierto 24 horas    Admite tarjeta BonoRed    Titularidad : Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInStreet rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">ANTONIA MERCE</ontology:isInStreet>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=453881eb5f51c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=453881eb5f51c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas : 397    Informaci�n sobre accesibilidad:    Disponde de escaleras adaptadas  1 ascensor en la salida a la Plaza de Olavide  1 aseo accesible en la  1&amp;ordf;   planta  Plaza para minusv�lidos residentes: 8   Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad : Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInStreet rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">OLAVIDE</ontology:isInStreet>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=5f477339ae51c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=5f477339ae51c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas:  244  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</ontology:isAccesible>
+        <ontology:isInStreet rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">CAPITAN SALAZAR MARTINEZ</ontology:isInStreet>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=54467339ae51c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=54467339ae51c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas : 481  Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad : Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</ontology:isAccesible>
+        <ontology:isInStreet rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">SANTA MARIA SOLEDAD TORRES ACOSTA</ontology:isInStreet>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=6245bdc85c01c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=6245bdc85c01c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas:  83 p�blicas y 180 para residentes   Informaci�n sobre accesibilidad:   No tiene escaleras adaptadas  1 ascensor en la salida a la Calle Verdaguer y garc�a  1 aseo accesible en la planta -1  Plaza para minusv�lidos residentes: 4     Abierto 24 horas    Titularidad:  Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInStreet rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">VERDAGUER Y GARCIA</ontology:isInStreet>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=7db12c798651c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=7db12c798651c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas : 242 p�blicas y 511 para residentes  Abierto 24 horas  Admite Tarjeta BonoRed  Este PAR est� adherido a la zona de APR   Titularidad : Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInStreet rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">ORIENTE</ontology:isInStreet>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=7e5f15cbed51c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=7e5f15cbed51c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas : 73 p�blicas y 79 para residentes   Abierto 24 horas   Titularidad : Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInStreet rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">CONDESA DE GAVIA</ontology:isInStreet>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=8a412c798651c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=8a412c798651c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas : 379 p�blicas y 124 para residentes  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInStreet rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">PRESIDENTE CARMONA</ontology:isInStreet>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=8bee15cbed51c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=8bee15cbed51c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas:  464 p�blicas y 235 para residentes  Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad:  Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInStreet rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">VELAZQUEZ</ontology:isInStreet>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=8ec881eb5f51c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=8ec881eb5f51c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas:  450   Informaci�n sobre accesibilidad:    No tiene escaleras adaptadas  1 ascensor  1 aseo accesible en   1&amp;ordf;   planta  Plaza para minusv�lidos residentes: 7    Abierto 24 horas    Admite Tarjeta BonoRed    Titularidad:  Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInStreet rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">CARMEN</ontology:isInStreet>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=9a1c6f1c35d15410VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=9a1c6f1c35d15410VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas : 261 p�blicas y 725 para residentes  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInStreet rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">JORGE JUAN</ontology:isInStreet>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=9b5881eb5f51c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=9b5881eb5f51c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas:  325   Informaci�n sobre accesibilidad:    No tiene escaleras adaptadas  1 ascensor  1 aseo accesible en  1&amp;ordf;  planta  Plaza para minusv�lidos residentes: 6    Abierto 24 horas    Admite Tarjeta BonoRed    Titularidad:  Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</ontology:isAccesible>
+        <ontology:isInStreet rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">SANTA ANA</ontology:isInStreet>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=9dd67339ae51c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=9dd67339ae51c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas : 476 p�blicas y 70 para residentes  Abierto 24 horas  Admite Tarjeta BonoRed    Titularidad : Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInStreet rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">ALCALA</ontology:isInStreet>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=9e69946be351c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=9e69946be351c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas:  203 p�blicas y 421 para residentes  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInStreet rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">DIEGO DE LEON</ontology:isInStreet>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=975b89a80c49e510VgnVCM1000001d4a900aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=975b89a80c49e510VgnVCM1000001d4a900aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas :   para autom�viles 1719  para motocicletas 61</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInStreet rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">ARCENTALES</ontology:isInStreet>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=98e77339ae51c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=98e77339ae51c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas:  400   Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad:  Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</ontology:isAccesible>
+        <ontology:isInStreet rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">DESCALZAS</ontology:isInStreet>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=987e15cbed51c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=987e15cbed51c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas : 410 p�blicas y 111 para residentes   Informaci�n sobre accesibilidad:    No tiene escalera adaptada  1 ascensor con salida a la calle Fuencarral, 117  1 aseo accesible en la 1&amp;ordf; planta  Plazas para minusv�lidos residentes: 7    Abierto 24 horas    Admite Tarjeta BonoRed    Titularidad : Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInStreet rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">FUENCARRAL</ontology:isInStreet>
+    </NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.0) https://github.com/owlcs/owlapi/ -->
+
+

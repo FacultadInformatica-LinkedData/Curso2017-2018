@@ -1,0 +1,335 @@
+
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix centro: <http://www.madriddeportes.es/ontologies/2017/centro#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Alberto+García> :centroDeportivoMunicipalAlbertoGarcía
+    centro:  hasAddress: calleRegueraDeTomateros39 
+    centro:  hasName:  "Centro Deportivo Municipal Alberto García"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Alfredo+Goyeneche> :centroDeportivoMunicipalAlfredoGoyeneche
+    centro:  hasAddress: calleArroyoDePozuelo99
+    centro: hasName: "Centro Deportivo Municipal Alfredo Goyeneche"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Aluche> :centroDeportivoMunicipalAluche 
+    centro:  hasAddress: avenidaGeneralFanju14
+    centro: hasName: "Centro Deportivo Municipal Aluche"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Antiguo+Canódromo> :centroDeportivoMunicipalAntiguoCanódromo
+    centro:  hasAddress: calleViaCarpetana57 
+	centro: hasName: "Centro Deportivo Municipal Antiguo Canódromo"    
+
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Antonio+Díaz+Miguel> :centroDeportivoMunicipalAntonioDíazMiguel
+     
+    centro:  hasAddress: calleJoaquinDicena1
+    centro: hasName: "Centro Deportivo Municipal Antonio Díaz Miguel"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Arganzuela> :centroDeportivoMunicipalArganzuela
+     
+    centro:  hasAddress: calleAlicante14 
+    centro: hasName: "Centro Deportivo Municipal Arganzuela"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Barajas> :centroDeportivoMunicipalBarajas
+     
+    centro:  hasAddress: avenidaLogroño70 
+    centro: hasName: "Centro Deportivo Municipal Barajas"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Casa+de+Campo> :centroDeportivoMunicipalCasadeCampo
+     
+    centro:  hasAddress: paseoPuertaDelAngel7 
+	centro: hasName: "Centro Deportivo Municipal Casa de Campo"    
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Centro+Integrado+Arganzuela> :centroDeportivoMunicipalCentroIntegradoArganzuela
+     
+    centro:  hasAddress: calleCanarias17 
+    centro: hasName: "Centro Deportivo Municipal Centro Integrado Arganzuela"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Cerro+Almodóvar> :centroDeportivoMunicipalCerroAlmodóvar
+     
+    centro:  hasAddress: calleCerroDeAlmodovar9
+    centro: hasName: "Centro Deportivo Municipal Cerro Almodóvar"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Chamartín> :centroDeportivoMunicipalChamartín
+     
+    centro:  hasAddress: avenidaPioXII 
+    centro: hasName: "Centro Deportivo Municipal Chamartín"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Circuito+BMX> :centroDeportivoMunicipalCircuitoBMX
+     
+    centro:  hasAddress: calleEmbajadores316
+    centro: hasName: "Centro Deportivo Municipal Circuito BMX"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Ciudad+de+Los+Poetas> :centroDeportivoMunicipalCiudaddeLosPoetas
+     
+    centro:  hasAddress: calleAntonioMachado12 
+    centro: hasName: "Centro Deportivo Municipal Ciudad de Los Poetas"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Concepción> :centroDeportivoMunicipalConcepción
+     
+    centro:  hasAddress: calleJoseDelHierro5
+    centro: hasName: "Centro Deportivo Municipal Concepción"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Daoíz+y+Velarde%1> :centroDeportivoMunicipalDaoízyVelarde1
+     
+    centro:  hasAddress: plazaDaoizYVelarde5 
+    centro: hasName: "Centro Deportivo Municipal Daoíz y Velarde 1"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Daoíz+y+Velarde%2> :centroDeportivoMunicipalDaoízyVelarde2
+     
+    centro:  hasAddress: calleAlberche21 
+    centro: hasName: "Centro Deportivo Municipal Daoíz y Velarde 2"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+El+Espinillo> :centroDeportivoMunicipalElEspinillo
+     
+    centro:  hasAddress: carreteraVillaverdeAVallecas19
+    centro: hasName: "Centro Deportivo Municipal El Espinillo"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+El+Olivillo> :centroDeportivoMunicipalElOlivillo
+     
+    centro:  hasAddress: calleOlivillo4 
+    centro: hasName: "Centro Deportivo Municipal El Olivillo"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Entrevías> :centroDeportivoMunicipalEntrevías
+    
+    centro:  hasAddress: rondaSur4 
+    centro: hasName: "Centro Deportivo Municipal Entrevías"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Escuelas+de+San+Antón> :centroDeportivoMunicipalEscuelasdeSanAntón
+     
+    centro:  hasAddress: calleFarmacia13 
+    centro: hasName: "Centro Deportivo Municipal Escuelas de San Antón"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Estanque+del+Retiro> :centroDeportivoMunicipalEstanquedelRetiro
+     
+    centro:  hasAddress: paseoColombia2 
+    centro: hasName: "Centro Deportivo Municipal Estanque del Retiro"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Fabián+Roncero> :centroDeportivoMunicipalFabiánRoncero
+     
+    centro:  hasAddress: avenidaSeptima68 
+    centro: hasName: "Centro Deportivo Municipal Fabián Roncero"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Fernando+Martín> :centroDeportivoMunicipalFernandoMartín
+     
+    centro:  hasAddress: avenidaSantoAngelDeLaGuardia6 
+    centro: hasName: "Centro Deportivo Municipal Fernando Martín"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Francisco+Fernández+Ochoa> :centroDeportivoMunicipalFranciscoFernándezOchoa
+     
+    centro:  hasAddress: calleCatorceOlivas1
+    centro: hasName: "Centro Deportivo Municipal Francisco Fernández Ochoa"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Francos+Rodríguez> :centroDeportivoMunicipalFrancosRodríguez
+     
+    centro:  hasAddress: calleNumancia11 
+    centro: hasName: "Centro Deportivo Municipal Francos Rodríguez"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Fuente+del+Berro> :centroDeportivoMunicipalFuentedelBerro
+     
+    centro:  hasAddress: calleElvira36 
+    centro: hasName: "Centro Deportivo Municipal Fuente del Berro"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Félix+Rubio> :centroDeportivoMunicipalFélixRubio
+     
+    centro:  hasAddress: calleAlianza4 
+    centro: hasName: "Centro Deportivo Municipal Félix Rubio"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Gallur> :centroDeportivoMunicipalGallur
+     
+    centro:  hasAddress: calleGallur2 
+    centro: hasName: "Centro Deportivo Municipal Gallur"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Gimnasio+Moscardó> :centroDeportivoMunicipalGimnasioMoscardó
+     
+    centro:  hasAddress: callePilarDeZaragoza97
+    centro: hasName: "Centro Deportivo Municipal Gimnasio Moscardó"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Hortaleza> :centroDeportivoMunicipalHortaleza
+     
+    centro:  hasAddress: carreteraEstacionDeHortaleza11
+    centro: hasName: "Centro Deportivo Municipal Hortaleza"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+José+María+Cagigal> :centroDeportivoMunicipalJoséMaríaCagigal
+     
+    centro:  hasAddress: calleSantaPola22 
+    centro: hasName: "Centro Deportivo Municipal José María Cagigal"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+La+Almudena> :centroDeportivoMunicipalLaAlmudena
+     
+    centro:  hasAddress: calleNicolasSalmeron8
+    centro: hasName: "Centro Deportivo Municipal La Almudena"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+La+Bombilla> :centroDeportivoMunicipalLaBombilla
+     
+    centro:  hasAddress: calleSendaDelRey8 
+    centro: hasName: "Centro Deportivo Municipal La Bombilla"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+La+Chopera> :centroDeportivoMunicipalLaChopera
+     
+    centro:  hasAddress: paseoFernanNuñez3 
+    centro: hasName: "Centro Deportivo Municipal La Chopera"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+La+Elipa> :centroDeportivoMunicipalLaElipa
+     
+    centro:  hasAddress: calleAlcaldeGarridoJuaristi17
+    centro: hasName: "Centro Deportivo Municipal La Elipa"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+La+Masó> :centroDeportivoMunicipalLaMasó
+     
+    centro:  hasAddress: calleMaso80 
+    centro: hasName: "Centro Deportivo Municipal La Masó"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+La+Mina> :centroDeportivoMunicipalLaMina
+     
+    centro:  hasAddress: calleMonseñorOscarRomero41 
+    centro: hasName: "Centro Deportivo Municipal La Mina"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+La+Vaguada> :centroDeportivoMunicipalLaVaguada
+     
+    centro:  hasAddress: avenidaMonforteDeLemos38
+    centro: hasName: "Centro Deportivo Municipal La Vaguada"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Lago+Casa+de+Campo> :centroDeportivoMunicipalLagoCasadeCampo
+     
+    centro:  hasAddress: paseoEmbarcadero8
+    centro: hasName: "Centro Deportivo Municipal Lago Casa de Campo"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Las+Cruces> :centroDeportivoMunicipalLasCruces
+     
+    centro:  hasAddress: avenidaPoblados72
+    centro: hasName: "Centro Deportivo Municipal Las Cruces"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Los+Prunos> :centroDeportivoMunicipalLosPrunos
+     
+    centro:  hasAddress: callePetunias30
+    centro: hasName: "Centro Deportivo Municipal Los Prunos"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Luis+Aragonés> :centroDeportivoMunicipalLuisAragonés
+    centro:  hasAddress: calleElProvencio20
+    centro: hasName: "Centro Deportivo Municipal Luis Aragonés"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Marqués+de+Samaranch> :centroDeportivoMunicipalMarquésdeSamaranch
+    
+    centro:  hasAddress: paseoImperial52 
+    centro: hasName: "Centro Deportivo Municipal Marqués de Samaranch"
+
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Orcasur> :centroDeportivoMunicipalOrcasur
+     
+    centro:  hasAddress: calleMoraleja11
+    centro: hasName: "Centro Deportivo Municipal Orcasur"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Palomeras> :centroDeportivoMunicipalPalomeras
+     
+    centro:  hasAddress: calleTranviaDeArganda4
+    centro: hasName: "Centro Deportivo Municipal Palomeras"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Pepu+Hernández> :centroDeportivoMunicipalPepuHernández
+     
+    centro:  hasAddress: avenidaNiza8 
+    centro: hasName: "Centro Deportivo Municipal Pepu Hernández"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Peñuelas> :centroDeportivoMunicipalPeñuelas
+     
+    centro:  hasAddress: calleArganda25
+    centro: hasName: "Centro Deportivo Municipal Peñuelas"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Plata+y+Castañar> :centroDeportivoMunicipalPlatayCastañar
+     
+    centro:  hasAddress: paseoPlataYCastañar7
+    centro: hasName: "Centro Deportivo Municipal Plata y Castañar"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Playa+Victoria> :centroDeportivoMunicipalPlayaVictoria
+     
+    centro:  hasAddress: calleHierbabuena2
+    centro: hasName: "Centro Deportivo Municipal Playa Victoria"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Pradillo> :centroDeportivoMunicipalPradillo
+     
+    centro:  hasAddress: callePradillo33 
+    centro: hasName: "Centro Deportivo Municipal Pradillo"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Pueblo+Nuevo> :centroDeportivoMunicipalPuebloNuevo
+     
+    centro:  hasAddress: calleFrancisoRioja14
+    centro: hasName: "Centro Deportivo Municipal Pueblo Nuevo"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Puente+de+Vallecas> :centroDeportivoMunicipalPuentedeVallecas
+     
+    centro:  hasAddress: callePayasoFofo7 
+    centro: hasName: "Centro Deportivo Municipal Puente de Vallecas"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Raúl+González> :centroDeportivoMunicipalRaúlGonzález
+     
+    centro:  hasAddress: calleBenimamet137
+    centro: hasName: "Centro Deportivo Municipal Raúl González"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+San+Blas> :centroDeportivoMunicipalSanBlas
+     
+    centro:  hasAddress: calleArcosDeJalon59 
+    centro: hasName: "Centro Deportivo Municipal San Blas"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+San+Cristóbal> :centroDeportivoMunicipalSanCristóbal
+     
+    centro:  hasAddress: plazaPinazo9
+    centro: hasName: "Centro Deportivo Municipal San Cristóbal"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+San+Fermín> :centroDeportivoMunicipalSanFermín
+     
+    centro:  hasAddress: calleSanMario18 
+    centro: hasName: "Centro Deportivo Municipal San Fermín"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+San+Juan+Bautista> :centroDeportivoMunicipalSanJuanBautista
+     
+    centro:  hasAddress: calleTreviana1
+    centro: hasName: "Centro Deportivo Municipal San Juan Bautista"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Santa+Ana> :centroDeportivoMunicipalSantaAna
+     
+    centro:  hasAddress: paseoAlamedillas5
+    centro: hasName: "Centro Deportivo Municipal Santa Ana"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Tenis+Casa+de+Campo> :centroDeportivoMunicipalTenisCasadeCampo
+     
+    centro:  hasAddress: caminoPrincipe2
+    centro: hasName: "Centro Deportivo Municipal Tenis Casa de Campo"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Triángulo+de+Oro> :centroDeportivoMunicipalTriángulodeOro
+     
+    centro:  hasAddress: calleBravoMurillo376
+    centro: hasName: "Centro Deportivo Municipal Triángulo de Oro"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Valdebernardo> :centroDeportivoMunicipalValdebernardo
+     
+    centro:  hasAddress: calleLaderaDeLosAlmendros2
+    centro: hasName: "Centro Deportivo Municipal Valdebernardo"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Vallecas> :centroDeportivoMunicipalVallecas
+     
+    centro:  hasAddress: calleArroyoDelOlivar51
+    centro: hasName: "Centro Deportivo Municipal Vallecas"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Vallehermoso> :centroDeportivoMunicipalVallehermoso
+     
+    centro:  hasAddress: avenidaFilipinas7
+    centro: hasName: "Centro Deportivo Municipal Vallehermoso"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Vicente+del+Bosque> :centroDeportivoMunicipalVicentedelBosque
+     
+    centro:  hasAddress: avenidaMonforteDeLemos13
+    centro: hasName: "Centro Deportivo Municipal Vicente del Bosque"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Vicálvaro> :centroDeportivoMunicipalVicálvaro
+     
+    centro:  hasAddress: paseoPolideportivo3
+    centro: hasName: "Centro Deportivo Municipal Vicálvaro"
+
+<http://www.madriddeportes.es/ontologies/2017Madrid+Caja+Mágica> :madridCajaMágica
+     
+    centro:  hasAddress: caminoPerales23
+    centro: hasName: "Madrid Caja Mágica"

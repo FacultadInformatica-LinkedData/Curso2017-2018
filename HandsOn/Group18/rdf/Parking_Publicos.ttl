@@ -1,0 +1,746 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix park: <http://www.semanticweb.org/grupo18/ontologies> .
+
+
+<http://www.semanticweb.org/grupo18/csv/Nord-Rogier> a rdf:langString ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isPartOf> <http://www.semanticweb.org/grupo18/csv/Sint-Joost-ten-Node> ;
+	rdfs:label "Nord-Rogier" .
+
+<http://www.semanticweb.org/grupo18/csv/Bota> rdfs:label "Bota"@fr , "Bota"@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isSituatedIn> <http://www.semanticweb.org/grupo18/csv/Rue+Traversi%C3%83%C2%A8re+> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_1> "149950"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_2> "171564.99999889638"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasParkingSpots> "0" .
+
+<http://www.semanticweb.org/grupo18/csv/Rue+Traversi%C3%83%C2%A8re+> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Rue TraversiÃ¨re "@fr ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadNumber> "17" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Dwarsstraat "@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasPostalCode> "1210" .
+
+<http://www.semanticweb.org/grupo18/csv/Saint-Josse-ten-Noode> rdfs:label "Saint-Josse-ten-Noode"@fr , "Sint-Joost-ten-Node"@be .
+
+<http://www.semanticweb.org/grupo18/csv/Nord-Rogier> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isPartOf> <http://www.semanticweb.org/grupo18/csv/Brussel> .
+
+<http://www.semanticweb.org/grupo18/csv/Botanique> rdfs:label "Botanique"@fr , "Kruidtuin"@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isSituatedIn> <http://www.semanticweb.org/grupo18/csv/Boulevard+du+Jardin+Botanique+> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_1> "149376.99999999985"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_2> "171577.99999889545"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasParkingSpots> "387" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isOwnedBy> <http://www.semanticweb.org/grupo18/csv/Interparking> .
+
+<http://www.semanticweb.org/grupo18/csv/Boulevard+du+Jardin+Botanique+> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Boulevard du Jardin Botanique "@fr ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadNumber> "29-31" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Kruidtuinlaan "@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasPostalCode> "1000" .
+
+<http://www.semanticweb.org/grupo18/csv/Bruxelles> rdfs:label "Bruxelles"@fr , "Brussel"@be .
+
+<http://www.semanticweb.org/grupo18/csv/Nord-Rogier> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isPartOf> <http://www.semanticweb.org/grupo18/csv/Schaarbeek> .
+
+<http://www.semanticweb.org/grupo18/csv/CCN> rdfs:label "CCN"@fr , "CCN"@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isSituatedIn> <http://www.semanticweb.org/grupo18/csv/Rue+du+Progr%C3%83%C2%A8s+> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_1> "149439.99999999985"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_2> "172319.9999988973"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasParkingSpots> "83" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isOwnedBy> <http://www.semanticweb.org/grupo18/csv/Interparking> .
+
+<http://www.semanticweb.org/grupo18/csv/Rue+du+Progr%C3%83%C2%A8s+> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Rue du ProgrÃ¨s "@fr ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadNumber> "80" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Vooruitgangstraat "@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasPostalCode> "1030" .
+
+<http://www.semanticweb.org/grupo18/csv/Schaerbeek> rdfs:label "Schaerbeek"@fr , "Schaarbeek"@be .
+
+<http://www.semanticweb.org/grupo18/csv/City+2> rdfs:label "City 2"@fr , "City 2"@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isSituatedIn> <http://www.semanticweb.org/grupo18/csv/Rue+des+Cendres+> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_1> "149299.99999999988"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_2> "171473.99999889638"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasParkingSpots> "425" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isOwnedBy> <http://www.semanticweb.org/grupo18/csv/Interparking> .
+
+<http://www.semanticweb.org/grupo18/csv/Rue+des+Cendres+> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Rue des Cendres "@fr ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadNumber> "8" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Asstraat "@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasPostalCode> "1000" .
+
+<http://www.semanticweb.org/grupo18/csv/Manhattan+Center> rdfs:label "Manhattan Center"@fr , "Manhattan Center"@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isSituatedIn> <http://www.semanticweb.org/grupo18/csv/Rue+des+Croisades+> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_1> "149207.99999999983"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_2> "171759.99999889452"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasParkingSpots> "686" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isOwnedBy> <http://www.semanticweb.org/grupo18/csv/Co-propriÃ©tÃ©> .
+
+<http://www.semanticweb.org/grupo18/csv/Rue+des+Croisades+> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Rue des Croisades "@fr ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadNumber> "19" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Kruisvaartenstraat "@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasPostalCode> "1210" .
+
+<http://www.semanticweb.org/grupo18/csv/Pacheco> rdfs:label "Pacheco"@fr , "Pacheco"@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isSituatedIn> <http://www.semanticweb.org/grupo18/csv/Boulevard+Pach%C3%83%C2%A9co+> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_1> "149555.9999999999"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_2> "171244.99999889638"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasParkingSpots> "850" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isOwnedBy> <http://www.semanticweb.org/grupo18/csv/Q-Park> .
+
+<http://www.semanticweb.org/grupo18/csv/Boulevard+Pach%C3%83%C2%A9co+> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Boulevard PachÃ©co "@fr ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadNumber> "7" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Pachecolaan "@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasPostalCode> "1000" .
+
+<http://www.semanticweb.org/grupo18/csv/Passage+44> rdfs:label "Passage 44"@fr , "Passage 44"@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isSituatedIn> <http://www.semanticweb.org/grupo18/csv/Rue+de+l%27Ommegang+> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_1> "149504.99999999988"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_2> "171345.99999889452"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasParkingSpots> "520" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isOwnedBy> <http://www.semanticweb.org/grupo18/csv/Interparking> .
+
+<http://www.semanticweb.org/grupo18/csv/Rue+de+l%27Ommegang+> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Rue de l'Ommegang "@fr ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadNumber> "16-20" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Ommegangstraat "@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasPostalCode> "1000" .
+
+<http://www.semanticweb.org/grupo18/csv/Rogier> rdfs:label "Rogier"@fr , "Rogier"@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isSituatedIn> <http://www.semanticweb.org/grupo18/csv/Place+Rogier> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_1> "149328.99999999985"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_2> "171663.99999889452"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasParkingSpots> "355" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isOwnedBy> <http://www.semanticweb.org/grupo18/csv/Interparking> .
+
+<http://www.semanticweb.org/grupo18/csv/Place+Rogier> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Place Rogier"@fr , "Rogierplein"@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasPostalCode> "1210" .
+
+<http://www.semanticweb.org/grupo18/csv/W.T.C.> rdfs:label "W.T.C."@fr , "W.T.C."@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isSituatedIn> <http://www.semanticweb.org/grupo18/csv/Boulevard+Roi+Albert+II++> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_1> "149173.99999999985"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_2> "172317.99999889638"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasParkingSpots> "822" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isOwnedBy> <http://www.semanticweb.org/grupo18/csv/Interparking> .
+
+<http://www.semanticweb.org/grupo18/csv/Boulevard+Roi+Albert+II++> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Boulevard Roi Albert II  "@fr ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadNumber> "30" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Koning Albert II-laan  "@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasPostalCode> "1210" .
+
+<http://www.semanticweb.org/grupo18/csv/Midi> a rdf:langString ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isPartOf> <http://www.semanticweb.org/grupo18/csv/Sint-Gillis> ;
+	rdfs:label "Midi" .
+
+<http://www.semanticweb.org/grupo18/csv/Gare+du+Midi> rdfs:label "Gare du Midi"@fr , "Zuidstation"@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isSituatedIn> <http://www.semanticweb.org/grupo18/csv/Rue+de+France+> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_1> "147474.99999999948"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_2> "169353.99999889266"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasParkingSpots> "1650" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isOwnedBy> <http://www.semanticweb.org/grupo18/csv/Q-Park> .
+
+<http://www.semanticweb.org/grupo18/csv/Rue+de+France+> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Rue de France "@fr ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadNumber> "40" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Frankrijkstraat "@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasPostalCode> "1060" .
+
+<http://www.semanticweb.org/grupo18/csv/Saint-Gilles> rdfs:label "Saint-Gilles"@fr , "Sint-Gillis"@be .
+
+<http://www.semanticweb.org/grupo18/csv/Midi> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isPartOf> <http://www.semanticweb.org/grupo18/csv/Brussel> .
+
+<http://www.semanticweb.org/grupo18/csv/Porte+de+Hal> rdfs:label "Porte de Hal"@fr , "Hallepoort"@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isSituatedIn> <http://www.semanticweb.org/grupo18/csv/Boulevard+de+Waterloo+> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_1> "148485.99999999968"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_2> "169186.99999889173"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasParkingSpots> "498" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isOwnedBy> <http://www.semanticweb.org/grupo18/csv/Interparking> .
+
+<http://www.semanticweb.org/grupo18/csv/Boulevard+de+Waterloo+> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Boulevard de Waterloo "@fr ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadNumber> "103a" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Waterloolaan "@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasPostalCode> "1000" .
+
+<http://www.semanticweb.org/grupo18/csv/Louise> a rdf:langString ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isPartOf> <http://www.semanticweb.org/grupo18/csv/Brussel> ;
+	rdfs:label "Louise" .
+
+<http://www.semanticweb.org/grupo18/csv/2+Portes> rdfs:label "2 Portes"@fr , "2 Poorten"@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isSituatedIn> <http://www.semanticweb.org/grupo18/csv/Boulevard+de+Waterloo+> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_1> "149248.99999999985"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_2> "169594.99999889266"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasParkingSpots> "930" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isOwnedBy> <http://www.semanticweb.org/grupo18/csv/Interparking> .
+
+<http://www.semanticweb.org/grupo18/csv/Boulevard+de+Waterloo+> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadNumber> "2a" .
+
+<http://www.semanticweb.org/grupo18/csv/Louise> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isPartOf> <http://www.semanticweb.org/grupo18/csv/Elsene> .
+
+<http://www.semanticweb.org/grupo18/csv/Fernand+Cocq> rdfs:label "Fernand Cocq"@fr , "Fernand Cocq"@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isSituatedIn> <http://www.semanticweb.org/grupo18/csv/Rue+de+la+Tulipe+> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_1> "149857.99999999997"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_2> "169293.9999988908"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasParkingSpots> "50" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isOwnedBy> <http://www.semanticweb.org/grupo18/csv/Rivoli+parking> .
+
+<http://www.semanticweb.org/grupo18/csv/Rue+de+la+Tulipe+> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Rue de la Tulipe "@fr ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadNumber> "22" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Tulpstraat "@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasPostalCode> "1050" .
+
+<http://www.semanticweb.org/grupo18/csv/Ixelles> rdfs:label "Ixelles"@fr , "Elsene"@be .
+
+<http://www.semanticweb.org/grupo18/csv/Louise> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isPartOf> <http://www.semanticweb.org/grupo18/csv/Etterbeek> .
+
+<http://www.semanticweb.org/grupo18/csv/Forte+dei+Marmi> rdfs:label "Forte dei Marmi"@fr , "Forte dei Marmi"@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isSituatedIn> <http://www.semanticweb.org/grupo18/csv/Avenue+de+Maelbeek+> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_1> "150755.00000000017"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_2> "169425.9999988908"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasParkingSpots> "98" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isOwnedBy> <http://www.semanticweb.org/grupo18/csv/R%C3%83%C2%A9gie+Communale+Autonome+d%27Etterbeek> .
+
+<http://www.semanticweb.org/grupo18/csv/Avenue+de+Maelbeek+> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Avenue de Maelbeek "@fr ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadNumber> "61a" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Maalbeeklaan "@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasPostalCode> "1040" .
+
+<http://www.semanticweb.org/grupo18/csv/Etterbeek> rdfs:label "Etterbeek"@fr , "Etterbeek"@be .
+
+<http://www.semanticweb.org/grupo18/csv/Hilton> rdfs:label "Hilton"@fr , "Hilton"@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isSituatedIn> <http://www.semanticweb.org/grupo18/csv/Boulevard+de+Waterloo+> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_1> "149209.99999999985"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_2> "169652.99999889266"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasParkingSpots> "130" .
+
+<http://www.semanticweb.org/grupo18/csv/Boulevard+de+Waterloo+> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadNumber> "38" .
+
+<http://www.semanticweb.org/grupo18/csv/Louise> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isPartOf> <http://www.semanticweb.org/grupo18/csv/Ukkel> .
+
+<http://www.semanticweb.org/grupo18/csv/Inno+Bascule> rdfs:label "Inno Bascule"@fr , "Inno Bascule"@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isSituatedIn> <http://www.semanticweb.org/grupo18/csv/Chauss%C3%83%C2%A9e+de+Waterloo+> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_1> "149857.99999999997"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_2> "167270.999998888"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasParkingSpots> "450" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isOwnedBy> <http://www.semanticweb.org/grupo18/csv/Q-Park> .
+
+<http://www.semanticweb.org/grupo18/csv/Chauss%C3%83%C2%A9e+de+Waterloo+> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "ChaussÃ©e de Waterloo "@fr ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadNumber> "715" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Waterloosesteenweg "@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasPostalCode> "1180" .
+
+<http://www.semanticweb.org/grupo18/csv/Uccle> rdfs:label "Uccle"@fr , "Ukkel"@be .
+
+<http://www.semanticweb.org/grupo18/csv/Inno+Louise> rdfs:label "Inno Louise"@fr , "Inno Louise"@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isSituatedIn> <http://www.semanticweb.org/grupo18/csv/Rue+Capitaine+Crespel+> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_1> "149209.99999999985"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_2> "169407.99999889173"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasParkingSpots> "119" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isOwnedBy> <http://www.semanticweb.org/grupo18/csv/Q-Park> .
+
+<http://www.semanticweb.org/grupo18/csv/Rue+Capitaine+Crespel+> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Rue Capitaine Crespel "@fr ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadNumber> "27" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Kapitein Crespelstraat "@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasPostalCode> "1050" .
+
+<http://www.semanticweb.org/grupo18/csv/Louise+Concorde> rdfs:label "Louise Concorde"@fr , "Louise Concorde"@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isSituatedIn> <http://www.semanticweb.org/grupo18/csv/Rue+de+la+Concorde+> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_1> "149374.99999999985"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_2> "169083.9999988908"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasParkingSpots> "26" .
+
+<http://www.semanticweb.org/grupo18/csv/Rue+de+la+Concorde+> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Rue de la Concorde "@fr ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadNumber> "66" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Eendrachtstraat "@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasPostalCode> "1050" .
+
+<http://www.semanticweb.org/grupo18/csv/Louise> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isPartOf> <http://www.semanticweb.org/grupo18/csv/Sint-Gillis> .
+
+<http://www.semanticweb.org/grupo18/csv/Louise+Village> rdfs:label "Louise Village"@fr , "Louise Village"@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isSituatedIn> <http://www.semanticweb.org/grupo18/csv/Rue+Dejoncker+> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_1> "149076.99999999983"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_2> "169254.99999889266"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasParkingSpots> "145" .
+
+<http://www.semanticweb.org/grupo18/csv/Rue+Dejoncker+> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Rue Dejoncker "@fr ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadNumber> "36" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> " Dejonckerstraat"@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasPostalCode> "1060" .
+
+<http://www.semanticweb.org/grupo18/csv/Porte+de+Namur> rdfs:label "Porte de Namur"@fr , "Naamsepoort"@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isSituatedIn> <http://www.semanticweb.org/grupo18/csv/Chauss%C3%83%C2%A9e+de+Wavre+> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_1> "149620.9999999999"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_2> "169633.99999889266"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasParkingSpots> "90" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isOwnedBy> <http://www.semanticweb.org/grupo18/csv/Rivoli+parking> .
+
+<http://www.semanticweb.org/grupo18/csv/Chauss%C3%83%C2%A9e+de+Wavre+> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "ChaussÃ©e de Wavre "@fr ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadNumber> "23" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Waversesteenweg "@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasPostalCode> "1050" .
+
+<http://www.semanticweb.org/grupo18/csv/Sablon-Poelaert> rdfs:label "Sablon-Poelaert"@fr , "Zavel-Poelaert"@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isSituatedIn> <http://www.semanticweb.org/grupo18/csv/Place+Poelaert> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_1> "148876.99999999974"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_2> "169748.99999889266"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasParkingSpots> "500" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isOwnedBy> <http://www.semanticweb.org/grupo18/csv/Interparking> .
+
+<http://www.semanticweb.org/grupo18/csv/Place+Poelaert> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Place Poelaert"@fr , "Poelaertplein"@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasPostalCode> "1000" .
+
+<http://www.semanticweb.org/grupo18/csv/Shopping+Louise> rdfs:label "Shopping Louise"@fr , "Shopping Louise"@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isSituatedIn> <http://www.semanticweb.org/grupo18/csv/Rue+de+Livourne+> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_1> "149232.99999999983"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_2> "168932.9999988908"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasParkingSpots> "380" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isOwnedBy> <http://www.semanticweb.org/grupo18/csv/Q-Park> .
+
+<http://www.semanticweb.org/grupo18/csv/Rue+de+Livourne+> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Rue de Livourne "@fr ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadNumber> "11" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Livornostraat "@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasPostalCode> "1060" .
+
+<http://www.semanticweb.org/grupo18/csv/St%C3%83%C2%A9phanie-Louise+%28ex-Wiltchers%29> rdfs:label "StÃ©phanie-Louise (ex-Wiltchers)"@fr , "Stefania-Louiza (ex-Wiltchers)"@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isSituatedIn> <http://www.semanticweb.org/grupo18/csv/Avenue+Louise+> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_1> "149246.99999999983"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_2> "169005.99999888986"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasParkingSpots> "602" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isOwnedBy> <http://www.semanticweb.org/grupo18/csv/Interparking> .
+
+<http://www.semanticweb.org/grupo18/csv/Avenue+Louise+> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Avenue Louise "@fr ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadNumber> "83a" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Louizalaan "@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasPostalCode> "1050" .
+
+<http://www.semanticweb.org/grupo18/csv/Bruxelles> rdfs:label "Elsene"@be .
+
+<http://www.semanticweb.org/grupo18/csv/Toison+d%27Or> rdfs:label "Toison d'Or"@fr , "Gulden Vlies"@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isSituatedIn> <http://www.semanticweb.org/grupo18/csv/Avenue+de+la+Toison+d%27Or+> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_1> "149329.99999999988"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_2> "169644.99999889173"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasParkingSpots> "342" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isOwnedBy> <http://www.semanticweb.org/grupo18/csv/Interparking> .
+
+<http://www.semanticweb.org/grupo18/csv/Avenue+de+la+Toison+d%27Or+> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Avenue de la Toison d'Or "@fr ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadNumber> "20" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Gulden Vlieslaan "@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasPostalCode> "1050" .
+
+<http://www.semanticweb.org/grupo18/csv/Tulipe> rdfs:label "Tulipe"@fr , "Tulp"@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isSituatedIn> <http://www.semanticweb.org/grupo18/csv/Rue+de+la+Tulipe+> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_1> "149957.99999999997"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_2> "169365.99999889266"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasParkingSpots> "500" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isOwnedBy> <http://www.semanticweb.org/grupo18/csv/Commune+d%27Ixelles> .
+
+<http://www.semanticweb.org/grupo18/csv/Rue+de+la+Tulipe+> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadNumber> "41" .
+
+<http://www.semanticweb.org/grupo18/csv/Flagey> rdfs:label "Flagey"@fr , "Flagey"@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isSituatedIn> <http://www.semanticweb.org/grupo18/csv/Place+Eug%C3%83%C2%A8ne+Flagey> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_1> "150295.0000000001"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_2> "168608.9999988908"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasParkingSpots> "186" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isOwnedBy> <http://www.semanticweb.org/grupo18/csv/Vinci+Park> .
+
+<http://www.semanticweb.org/grupo18/csv/Place+Eug%C3%83%C2%A8ne+Flagey> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Place EugÃ¨ne Flagey"@fr , "EugÃ¨ne Flageyplein"@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasPostalCode> "1050" .
+
+<http://www.semanticweb.org/grupo18/csv/Louise-Vleurgat> rdfs:label "Louise-Vleurgat"@fr , "Louiza-Vleurgat"@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isSituatedIn> <http://www.semanticweb.org/grupo18/csv/Avenue+Louise+> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_1> "149876.99999999994"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_2> "168006.99999888893"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasParkingSpots> "120" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isOwnedBy> <http://www.semanticweb.org/grupo18/csv/Rivoli+parking> .
+
+<http://www.semanticweb.org/grupo18/csv/Avenue+Louise+> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadNumber> "327" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Ch. De Vleurgat "@fr ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadNumber> "164-166" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Vleurgatsesteenweg"@be .
+
+<http://www.semanticweb.org/grupo18/csv/Louise-Magistrat> rdfs:label "Louise-Magistrat"@fr , "Louiza-Wethouder"@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isSituatedIn> <http://www.semanticweb.org/grupo18/csv/Avenue+Louise+> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_1> "149765.99999999997"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_2> "168268.99999888986"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasParkingSpots> "85" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isOwnedBy> <http://www.semanticweb.org/grupo18/csv/Rivoli+parking> .
+
+<http://www.semanticweb.org/grupo18/csv/Avenue+Louise+> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadNumber> "235" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Rue du Magistrat "@fr ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadNumber> "1" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Wethouderstraat"@be .
+
+<http://www.semanticweb.org/grupo18/csv/Loi-Madou> a rdf:langString ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isPartOf> <http://www.semanticweb.org/grupo18/csv/Etterbeek> ;
+	rdfs:label "Loi-Madou" .
+
+<http://www.semanticweb.org/grupo18/csv/Rue+des+Tongres> rdfs:label "Rue des Tongres"@fr , "Tongerenstraat"@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isSituatedIn> <http://www.semanticweb.org/grupo18/csv/Rue+des+M%C3%83%C2%A9napiens+> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_1> "152306.00000000047"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_2> "169917.99999889173"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasParkingSpots> "155" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isOwnedBy> <http://www.semanticweb.org/grupo18/csv/Rivoli+parking> .
+
+<http://www.semanticweb.org/grupo18/csv/Rue+des+M%C3%83%C2%A9napiens+> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Rue des MÃ©napiens "@fr ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadNumber> "18" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Menapiersstraat "@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasPostalCode> "1040" .
+
+<http://www.semanticweb.org/grupo18/csv/Industrie> rdfs:label "Industrie"@fr , "Industrie"@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isSituatedIn> <http://www.semanticweb.org/grupo18/csv/Rue+de+l%27Industrie+> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_1> "150079"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_2> "170269.9999988936"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasParkingSpots> "320" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isOwnedBy> <http://www.semanticweb.org/grupo18/csv/Interparking> .
+
+<http://www.semanticweb.org/grupo18/csv/Rue+de+l%27Industrie+> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Rue de l'Industrie "@fr ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadNumber> "26-38" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Nijverheidsstraat "@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasPostalCode> "1040" .
+
+<http://www.semanticweb.org/grupo18/csv/Loi> rdfs:label "Loi"@fr , "Wet"@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isSituatedIn> <http://www.semanticweb.org/grupo18/csv/Rue+de+la+Loi+> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_1> "150004"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_2> "170533.99999889266"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasParkingSpots> "1115" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isOwnedBy> <http://www.semanticweb.org/grupo18/csv/Interparking> .
+
+<http://www.semanticweb.org/grupo18/csv/Rue+de+la+Loi+> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Rue de la Loi "@fr ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadNumber> "19" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Wetstraat "@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasPostalCode> "1040" .
+
+<http://www.semanticweb.org/grupo18/csv/Loi-Madou> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isPartOf> <http://www.semanticweb.org/grupo18/csv/Sint-Joost-ten-Node> .
+
+<http://www.semanticweb.org/grupo18/csv/Scailquin> rdfs:label "Scailquin"@fr , "Scailquin"@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isSituatedIn> <http://www.semanticweb.org/grupo18/csv/Rue+de+l%27Alliance+> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_1> "150117.00000000003"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_2> "171099.99999889452"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasParkingSpots> "500" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isOwnedBy> <http://www.semanticweb.org/grupo18/csv/Parking+Scailquin+s.a.> .
+
+<http://www.semanticweb.org/grupo18/csv/Rue+de+l%27Alliance+> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Rue de l'Alliance "@fr ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadNumber> "16" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Verbondsstraat "@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasPostalCode> "1210" .
+
+<http://www.semanticweb.org/grupo18/csv/Centre> a rdf:langString ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isPartOf> <http://www.semanticweb.org/grupo18/csv/Brussel> ;
+	rdfs:label "Centre" .
+
+<http://www.semanticweb.org/grupo18/csv/Albertine+Square> rdfs:label "Albertine Square"@fr , "Albertina Square"@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isSituatedIn> <http://www.semanticweb.org/grupo18/csv/Place+de+la+Justice+> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_1> "149024.99999999977"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_2> "170339.9999988936"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasParkingSpots> "714" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isOwnedBy> <http://www.semanticweb.org/grupo18/csv/Interparking> .
+
+<http://www.semanticweb.org/grupo18/csv/Place+de+la+Justice+> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Place de la Justice "@fr ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadNumber> "16" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Gerechtsplein "@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasPostalCode> "1000" .
+
+<http://www.semanticweb.org/grupo18/csv/Alhambra> rdfs:label "Alhambra"@fr , "Alhambra"@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isSituatedIn> <http://www.semanticweb.org/grupo18/csv/Boulevard+Emile+Jacqmain+> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_1> "148890.99999999977"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_2> "171345.99999889545"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasParkingSpots> "190" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isOwnedBy> <http://www.semanticweb.org/grupo18/csv/Interparking> .
+
+<http://www.semanticweb.org/grupo18/csv/Boulevard+Emile+Jacqmain+> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Boulevard Emile Jacqmain "@fr ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadNumber> "14" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Emile Jacqmainlaan "@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasPostalCode> "1000" .
+
+<http://www.semanticweb.org/grupo18/csv/Dansaert> rdfs:label "Dansaert"@fr , "Dansaert"@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isSituatedIn> <http://www.semanticweb.org/grupo18/csv/Place+du+Nouveau+March%C3%83%C2%A9+aux+Grains+> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_1> "148373.99999999965"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_2> "171191.99999889452"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasParkingSpots> "230" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isOwnedBy> <http://www.semanticweb.org/grupo18/csv/Q-Park> .
+
+<http://www.semanticweb.org/grupo18/csv/Place+du+Nouveau+March%C3%83%C2%A9+aux+Grains+> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Place du Nouveau MarchÃ© aux Grains "@fr ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadNumber> "2" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Nieuwe Graanmarkt "@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasPostalCode> "1000" .
+
+<http://www.semanticweb.org/grupo18/csv/Dansaert+2> rdfs:label "Dansaert 2"@fr , "Dansaert 2"@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isSituatedIn> <http://www.semanticweb.org/grupo18/csv/Rue+de+Flandre+> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_1> "148411.99999999965"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_2> "171251.99999889452"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasParkingSpots> "150" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isOwnedBy> <http://www.semanticweb.org/grupo18/csv/Q-Park> .
+
+<http://www.semanticweb.org/grupo18/csv/Rue+de+Flandre+> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Rue de Flandre "@fr ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadNumber> "60" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Vlaanderenstraat "@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasPostalCode> "1000" .
+
+<http://www.semanticweb.org/grupo18/csv/De+Brouck%C3%83%C2%A8re> rdfs:label "De BrouckÃ¨re"@fr , "De BrouckÃ¨re"@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isSituatedIn> <http://www.semanticweb.org/grupo18/csv/Place+De+Brouck%C3%83%C2%A8re+> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_1> "148818.99999999974"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_2> "171174.99999889545"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasParkingSpots> "485" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isOwnedBy> <http://www.semanticweb.org/grupo18/csv/Interparking> .
+
+<http://www.semanticweb.org/grupo18/csv/Place+De+Brouck%C3%83%C2%A8re+> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Place De BrouckÃ¨re "@fr ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadNumber> "1" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "De Brouckereplein "@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasPostalCode> "1000" .
+
+<http://www.semanticweb.org/grupo18/csv/Ecuyer> rdfs:label "Ecuyer"@fr , "Schildknaap"@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isSituatedIn> <http://www.semanticweb.org/grupo18/csv/Rue+de+l%27Ecuyer+> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_1> "148921.9999999998"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_2> "170973.99999889452"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasParkingSpots> "552" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isOwnedBy> <http://www.semanticweb.org/grupo18/csv/Interparking> .
+
+<http://www.semanticweb.org/grupo18/csv/Rue+de+l%27Ecuyer+> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Rue de l'Ecuyer "@fr ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadNumber> "11-17" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Schildknaapsstraat "@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasPostalCode> "1000" .
+
+<http://www.semanticweb.org/grupo18/csv/Grand+Place> rdfs:label "Grand Place"@fr , "Grote Markt"@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isSituatedIn> <http://www.semanticweb.org/grupo18/csv/Rue+du+March%C3%83%C2%A9+aux+Herbes+> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_1> "149063.9999999998"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_2> "170672.9999988936"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasParkingSpots> "992" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isOwnedBy> <http://www.semanticweb.org/grupo18/csv/Interparking> .
+
+<http://www.semanticweb.org/grupo18/csv/Rue+du+March%C3%83%C2%A9+aux+Herbes+> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Rue du MarchÃ© aux Herbes "@fr ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadNumber> "104" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Grasmarkt "@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasPostalCode> "1000" .
+
+<http://www.semanticweb.org/grupo18/csv/Louise-Claus> rdfs:label "Louise-Claus"@fr , "Louiza-Claus"@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isSituatedIn> <http://www.semanticweb.org/grupo18/csv/Rue+Emile+Claus+> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_1> "149968.99999999997"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_2> "167295.999998888"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasParkingSpots> "150" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isOwnedBy> <http://www.semanticweb.org/grupo18/csv/Rivoli+parking> .
+
+<http://www.semanticweb.org/grupo18/csv/Rue+Emile+Claus+> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Rue Emile Claus "@fr ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadNumber> "47" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Emile Clausstraat "@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasPostalCode> "1050" .
+
+<http://www.semanticweb.org/grupo18/csv/Inno+Centre> rdfs:label "Inno Centre"@fr , "Inno Centre"@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isSituatedIn> <http://www.semanticweb.org/grupo18/csv/Rue+du+Damier+> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_1> "149234.99999999985"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_2> "171447.99999889545"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasParkingSpots> "780" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isOwnedBy> <http://www.semanticweb.org/grupo18/csv/Q-Park> .
+
+<http://www.semanticweb.org/grupo18/csv/Rue+du+Damier+> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Rue du Damier "@fr ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadNumber> "26" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Dambordstraat "@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasPostalCode> "1000" .
+
+<http://www.semanticweb.org/grupo18/csv/Lepage> rdfs:label "Lepage"@fr , "Lepage"@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isSituatedIn> <http://www.semanticweb.org/grupo18/csv/Rue+L%C3%83%C2%A9on+Lepage+> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_1> "148349.99999999962"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_2> "171283.99999889452"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasParkingSpots> "610" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isOwnedBy> <http://www.semanticweb.org/grupo18/csv/Q-Park> .
+
+<http://www.semanticweb.org/grupo18/csv/Rue+L%C3%83%C2%A9on+Lepage+> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Rue LÃ©on Lepage "@fr ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadNumber> "23-31" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "LÃ©on Lepagestraat "@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasPostalCode> "1000" .
+
+<http://www.semanticweb.org/grupo18/csv/Monnaie> rdfs:label "Monnaie"@fr , "Munt"@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isSituatedIn> <http://www.semanticweb.org/grupo18/csv/Place+de+la+Monnaie+> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_1> "148935.9999999998"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_2> "171106.99999889545"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasParkingSpots> "589" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isOwnedBy> <http://www.semanticweb.org/grupo18/csv/Interparking> .
+
+<http://www.semanticweb.org/grupo18/csv/Place+de+la+Monnaie+> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Place de la Monnaie "@fr ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadNumber> "25" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Muntplein "@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasPostalCode> "1000" .
+
+<http://www.semanticweb.org/grupo18/csv/Panorama> rdfs:label "Panorama"@fr , "Panorama"@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isSituatedIn> <http://www.semanticweb.org/grupo18/csv/Rue+Van+Helmont+> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_1> "148441.99999999965"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_2> "170443.99999889266"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasParkingSpots> "260" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isOwnedBy> <http://www.semanticweb.org/grupo18/csv/Hobinvest> .
+
+<http://www.semanticweb.org/grupo18/csv/Rue+Van+Helmont+> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Rue Van Helmont "@fr ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadNumber> "19" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Van Helmontstraat "@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasPostalCode> "1000" .
+
+<http://www.semanticweb.org/grupo18/csv/Parking+58+> rdfs:label "Parking 58 "@fr , "Parking 58 "@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isSituatedIn> <http://www.semanticweb.org/grupo18/csv/Rue+de+l%27Ev%C3%83%C2%AAque+> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_1> "148710.9999999997"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_2> "171151.99999889266"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasParkingSpots> "610" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isOwnedBy> <http://www.semanticweb.org/grupo18/csv/Interparking> .
+
+<http://www.semanticweb.org/grupo18/csv/Rue+de+l%27Ev%C3%83%C2%AAque+> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Rue de l'EvÃªque "@fr ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadNumber> "1" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Bisschopsstraat "@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasPostalCode> "1000" .
+
+<http://www.semanticweb.org/grupo18/csv/Radisson+SAS+Hotel> rdfs:label "Radisson SAS Hotel"@fr , "Radisson SAS Hotel"@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isSituatedIn> <http://www.semanticweb.org/grupo18/csv/Rue+du+Foss%C3%83%C2%A9+aux+Loups+> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_1> "149126.9999999998"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_2> "171025.99999889452"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasParkingSpots> "65" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isOwnedBy> <http://www.semanticweb.org/grupo18/csv/The+Carlson+Redizor+Hotel+Group> .
+
+<http://www.semanticweb.org/grupo18/csv/Rue+du+Foss%C3%83%C2%A9+aux+Loups+> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Rue du FossÃ© aux Loups "@fr ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadNumber> "47" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> " Wolvengracht"@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasPostalCode> "1000" .
+
+<http://www.semanticweb.org/grupo18/csv/Royal+Windsor> rdfs:label "Royal Windsor"@fr , "Royal Windsor"@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isSituatedIn> <http://www.semanticweb.org/grupo18/csv/Rue+Duquesnoy+> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_1> "148991.99999999977"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_2> "170536.9999988936"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasParkingSpots> "103" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isOwnedBy> <http://www.semanticweb.org/grupo18/csv/Royal+Warwick+sa> .
+
+<http://www.semanticweb.org/grupo18/csv/Rue+Duquesnoy+> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Rue Duquesnoy "@fr ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadNumber> "5" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> " Duquesnoystraat"@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasPostalCode> "1000" .
+
+<http://www.semanticweb.org/grupo18/csv/Centre> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isPartOf> <http://www.semanticweb.org/grupo18/csv/Elsene> .
+
+<http://www.semanticweb.org/grupo18/csv/Thon+hotel> rdfs:label "Thon hotel"@fr , "Thon hotel"@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isSituatedIn> <http://www.semanticweb.org/grupo18/csv/Rue+de+Tr%C3%83%C2%AAves+> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_1> "150470.00000000012"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_2> "170346.9999988936"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasParkingSpots> "200" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isOwnedBy> <http://www.semanticweb.org/grupo18/csv/Vinci+Park> .
+
+<http://www.semanticweb.org/grupo18/csv/Rue+de+Tr%C3%83%C2%AAves+> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Rue de TrÃªves "@fr ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadNumber> "120" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Trierstraat "@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasPostalCode> "1050" .
+
+<http://www.semanticweb.org/grupo18/csv/Centre> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isPartOf> <http://www.semanticweb.org/grupo18/csv/Sint-Jans-Molenbeek> .
+
+<http://www.semanticweb.org/grupo18/csv/Brunfaut> rdfs:label "Brunfaut"@fr , "Brunfaut"@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isSituatedIn> <http://www.semanticweb.org/grupo18/csv/Rue+Fernand+Brunfaut+> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_1> "147872.99999999956"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_2> "171326.99999889545"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasParkingSpots> "152" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isOwnedBy> <http://www.semanticweb.org/grupo18/csv/Commune+de+Molenbeek-Saint-Jean> .
+
+<http://www.semanticweb.org/grupo18/csv/Rue+Fernand+Brunfaut+> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Rue Fernand Brunfaut "@fr ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadNumber> "18b" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Fernand Brunfautstraat "@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasPostalCode> "1080" .
+
+<http://www.semanticweb.org/grupo18/csv/Molenbeek-Saint-Jean> rdfs:label "Molenbeek-Saint-Jean"@fr , "Sint-Jans-Molenbeek"@be .
+
+<http://www.semanticweb.org/grupo18/csv/Autres> a rdf:langString ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isPartOf> <http://www.semanticweb.org/grupo18/csv/Anderlecht> ;
+	rdfs:label "Autres" .
+
+<http://www.semanticweb.org/grupo18/csv/Delacroix> rdfs:label "Delacroix"@fr , "Delacroix"@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isSituatedIn> <http://www.semanticweb.org/grupo18/csv/Rue+Jules+Ruhl> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_1> "146963.99999999936"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_2> "170443.9999988936"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasParkingSpots> "450" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isOwnedBy> <http://www.semanticweb.org/grupo18/csv/Abatan> .
+
+<http://www.semanticweb.org/grupo18/csv/Rue+Jules+Ruhl> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Rue Jules Ruhl"@fr , "Jules Ruhlstraat"@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasPostalCode> "1070" .
+
+<http://www.semanticweb.org/grupo18/csv/Anderlecht> rdfs:label "Anderlecht"@fr , "Anderlecht"@be .
+
+<http://www.semanticweb.org/grupo18/csv/Autres> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isPartOf> <http://www.semanticweb.org/grupo18/csv/Koekelberg> .
+
+<http://www.semanticweb.org/grupo18/csv/Simonis> rdfs:label "Simonis"@fr , "Simonis"@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isSituatedIn> <http://www.semanticweb.org/grupo18/csv/Place+Eug%C3%83%C2%A8ne+Simonis+> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_1> "147250.99999999945"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_2> "172609.9999988973"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasParkingSpots> "132" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isOwnedBy> <http://www.semanticweb.org/grupo18/csv/Q-Park> .
+
+<http://www.semanticweb.org/grupo18/csv/Place+Eug%C3%83%C2%A8ne+Simonis+> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Place EugÃ¨ne Simonis "@fr ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadNumber> "24" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "EugÃ¨ne Simonisplein "@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasPostalCode> "1081" .
+
+<http://www.semanticweb.org/grupo18/csv/Koekelberg> rdfs:label "Koekelberg"@fr , "Koekelberg"@be .
+
+<http://www.semanticweb.org/grupo18/csv/Autres> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isPartOf> <http://www.semanticweb.org/grupo18/csv/Sint-Pieters-Woluwe> .
+
+<http://www.semanticweb.org/grupo18/csv/Stockel+Square> rdfs:label "Stockel Square"@fr , "Stockel Square"@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isSituatedIn> <http://www.semanticweb.org/grupo18/csv/Rue+de+l%27Eglise+> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_1> "156710.00000000143"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_2> "170042.99999889266"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasParkingSpots> "400" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isOwnedBy> <http://www.semanticweb.org/grupo18/csv/Interparking> .
+
+<http://www.semanticweb.org/grupo18/csv/Rue+de+l%27Eglise+> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Rue de l'Eglise "@fr ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadNumber> "96a" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Kerkstraat "@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasPostalCode> "1150" .
+
+<http://www.semanticweb.org/grupo18/csv/Woluwe-Saint-Pierre> rdfs:label "Woluwe-Saint-Pierre"@fr , "Sint-Pieters-Woluwe"@be .
+
+<http://www.semanticweb.org/grupo18/csv/Autres> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isPartOf> <http://www.semanticweb.org/grupo18/csv/Sint-Lambrechts-Woluwe> .
+
+<http://www.semanticweb.org/grupo18/csv/Woluwe+Shopping+Center> rdfs:label "Woluwe Shopping Center"@fr , "Woluwe Shopping Center"@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isSituatedIn> <http://www.semanticweb.org/grupo18/csv/Boulevard+de+la+Woluwe+> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_1> "154842.00000000105"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_2> "170681.99999889452"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasParkingSpots> "1982" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isOwnedBy> <http://www.semanticweb.org/grupo18/csv/Interparking> .
+
+<http://www.semanticweb.org/grupo18/csv/Boulevard+de+la+Woluwe+> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Boulevard de la Woluwe "@fr , "Woluwelaan "@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasPostalCode> "1200" .
+
+<http://www.semanticweb.org/grupo18/csv/Woluwe-Saint-Lambert> rdfs:label "Woluwe-Saint-Lambert"@fr , "Sint-Lambrechts-Woluwe"@be .
+
+<http://www.semanticweb.org/grupo18/csv/Central+Gate> rdfs:label "Central Gate"@fr , "Central Gate"@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isSituatedIn> <http://www.semanticweb.org/grupo18/csv/Cantersteen+> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_1> "149235.29179350744"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_2> "170558.46436615218"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasParkingSpots> "26" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isOwnedBy> <http://www.semanticweb.org/grupo18/csv/Interparking> .
+
+<http://www.semanticweb.org/grupo18/csv/Cantersteen+> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Cantersteen "@fr ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadNumber> "39" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Cantersteen "@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasPostalCode> "1000" .
+
+<http://www.semanticweb.org/grupo18/csv/Parking+Royal> rdfs:label "Parking Royal"@fr , "Parking Royal"@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isSituatedIn> <http://www.semanticweb.org/grupo18/csv/Rue+de+Ligne+> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_1> "149566.5476793483"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_2> "170954.1084000822"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasParkingSpots> "199" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isOwnedBy> <http://www.semanticweb.org/grupo18/csv/BESIX+Park> .
+
+<http://www.semanticweb.org/grupo18/csv/Rue+de+Ligne+> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Rue de Ligne "@fr ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadNumber> "27" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "de Lignestraat "@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasPostalCode> "1000" .
+
+<http://www.semanticweb.org/grupo18/csv/Erasme> rdfs:label "Erasme"@fr , "Erasme"@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isSituatedIn> <http://www.semanticweb.org/grupo18/csv/Route+de+Lennik> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_1> "142864.5925680211"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_2> "167105.9784303266"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasParkingSpots> "725" .
+
+<http://www.semanticweb.org/grupo18/csv/Route+de+Lennik> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Route de Lennik"@fr , "Lenniksebaan"@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasPostalCode> "1070" .
+
+<http://www.semanticweb.org/grupo18/csv/Lennik> rdfs:label "Lennik"@fr , "Lennik"@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isSituatedIn> <http://www.semanticweb.org/grupo18/csv/Route+de+Lennik> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_1> "142621.3059999998"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_2> "167230.646"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasParkingSpots> "575" .
+
+<http://www.semanticweb.org/grupo18/csv/Route+de+Lennik> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Lennikse Baan"@be .
+
+<http://www.semanticweb.org/grupo18/csv/Linthout> rdfs:label "Linthout"@fr , "Linthout"@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isSituatedIn> <http://www.semanticweb.org/grupo18/csv/Rue+B%C3%83%C2%A2tonnier+Braffort> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_1> "152373.13761002457"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasCoordinate_2> "170020.53588802702"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasParkingSpots> "73" ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23isOwnedBy> <http://www.semanticweb.org/grupo18/csv/Sogepa> .
+
+<http://www.semanticweb.org/grupo18/csv/Rue+B%C3%83%C2%A2tonnier+Braffort> <http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasRoadName> "Rue BÃ¢tonnier Braffort"@fr , "Stafhouder Braffortstraat"@be ;
+	<http://www.semanticweb.org/grupo18/csv/http%3A%2F%2Fwww.semanticweb.org%2Fgrupo18%2Fontologies%23%23hasPostalCode> "1040" .

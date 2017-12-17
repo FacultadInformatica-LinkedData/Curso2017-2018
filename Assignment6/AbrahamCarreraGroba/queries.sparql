@@ -1,0 +1,118 @@
+
+/*-How many accidents were there in Madrid in 2013?*/
+
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
+PREFIX sdmx-measure: <http://purl.org/linked-data/sdmx/2009/measure#> 
+PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> 
+PREFIX sdmx: <http://purl.org/linked-data/sdmx#> 
+PREFIX mn: <http://example.org/resources/> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX owl: <http://www.w3.org/2002/07/owl#> 
+PREFIX mv: <http://example.org/myVocabulary#> 
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX qb: <http://purl.org/linked-data/cube#> 
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#> 
+
+SELECT (SUM(?x) AS ?total) WHERE {
+?obs a qb:Observation ;
+mv:relatedDistrict ?district ;
+mv:numberOfAccidents ?x.
+}
+http://sandbox.linkeddata.es/sparql?default-graph-uri=http%3A%2F%2Fsandbox.linkeddata.es%2Fgraph%2Faccidentes&query=PREFIX+xsd%3A+<http%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%23>+%0D%0APREFIX+sdmx-measure%3A+<http%3A%2F%2Fpurl.org%2Flinked-data%2Fsdmx%2F2009%2Fmeasure%23>+%0D%0APREFIX+sdmx-dimension%3A+<http%3A%2F%2Fpurl.org%2Flinked-data%2Fsdmx%2F2009%2Fdimension%23>+%0D%0APREFIX+sdmx%3A+<http%3A%2F%2Fpurl.org%2Flinked-data%2Fsdmx%23>+%0D%0APREFIX+mn%3A+<http%3A%2F%2Fexample.org%2Fresources%2F>+%0D%0APREFIX+rdfs%3A+<http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23>+%0D%0APREFIX+owl%3A+<http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23>+%0D%0APREFIX+mv%3A+<http%3A%2F%2Fexample.org%2FmyVocabulary%23>+%0D%0APREFIX+rdf%3A+<http%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23>+%0D%0APREFIX+qb%3A+<http%3A%2F%2Fpurl.org%2Flinked-data%2Fcube%23>+%0D%0APREFIX+skos%3A+<http%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23>+%0D%0A%0D%0ASELECT+%28SUM%28%3Fx%29+AS+%3Ftotal%29+WHERE+%7B%0D%0A%3Fobs+a+qb%3AObservation+%3B%0D%0Amv%3ArelatedDistrict+%3Fdistrict+%3B%0D%0Amv%3AnumberOfAccidents+%3Fx.%0D%0A%7D&format=text%2Fhtml&timeout=0&debug=on
+
+/*-Give me the number of accidents in Usera for each type of accident*/
+
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
+PREFIX sdmx-measure: <http://purl.org/linked-data/sdmx/2009/measure#> 
+PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> 
+PREFIX sdmx: <http://purl.org/linked-data/sdmx#> 
+PREFIX mn: <http://example.org/resources/> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX owl: <http://www.w3.org/2002/07/owl#> 
+PREFIX mv: <http://example.org/myVocabulary#> 
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX qb: <http://purl.org/linked-data/cube#> 
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#> 
+
+SELECT ?type ?num WHERE {
+?obs a qb:Observation ;
+mv:relatedDistrict "USERA" ;
+mv:hasAccidentType ?type ;
+mv:numberOfAccidents ?num.
+
+} 
+
+http://sandbox.linkeddata.es/sparql?default-graph-uri=http%3A%2F%2Fsandbox.linkeddata.es%2Fgraph%2Faccidentes&query=PREFIX+xsd%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%23%3E+%0D%0APREFIX+sdmx-measure%3A+%3Chttp%3A%2F%2Fpurl.org%2Flinked-data%2Fsdmx%2F2009%2Fmeasure%23%3E+%0D%0APREFIX+sdmx-dimension%3A+%3Chttp%3A%2F%2Fpurl.org%2Flinked-data%2Fsdmx%2F2009%2Fdimension%23%3E+%0D%0APREFIX+sdmx%3A+%3Chttp%3A%2F%2Fpurl.org%2Flinked-data%2Fsdmx%23%3E+%0D%0APREFIX+mn%3A+%3Chttp%3A%2F%2Fexample.org%2Fresources%2F%3E+%0D%0APREFIX+rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E+%0D%0APREFIX+owl%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23%3E+%0D%0APREFIX+mv%3A+%3Chttp%3A%2F%2Fexample.org%2FmyVocabulary%23%3E+%0D%0APREFIX+rdf%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E+%0D%0APREFIX+qb%3A+%3Chttp%3A%2F%2Fpurl.org%2Flinked-data%2Fcube%23%3E+%0D%0APREFIX+skos%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E+%0D%0A%0D%0ASELECT+%3Ftype+%3Fnum+WHERE+%7B%0D%0A%3Fobs+a+qb%3AObservation+%3B%0D%0Amv%3ArelatedDistrict+%22USERA%22+%3B%0D%0Amv%3AhasAccidentType+%3Ftype+%3B%0D%0Amv%3AnumberOfAccidents+%3Fnum.%0D%0A%0D%0A%7D+&format=text%2Fhtml&timeout=0&debug=on
+
+/*-Give me the number of multiple collisions for each district:*/
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
+PREFIX sdmx-measure: <http://purl.org/linked-data/sdmx/2009/measure#> 
+PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> 
+PREFIX sdmx: <http://purl.org/linked-data/sdmx#> 
+PREFIX mn: <http://example.org/resources/> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX owl: <http://www.w3.org/2002/07/owl#> 
+PREFIX mv: <http://example.org/myVocabulary#> 
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX qb: <http://purl.org/linked-data/cube#> 
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#> 
+
+SELECT ?district ?num WHERE {
+?obs a qb:Observation ;
+mv:relatedDistrict ?district ;
+mv:hasAccidentType mv:MultipleCollision ;
+mv:numberOfAccidents ?num.
+
+} 
+
+http://sandbox.linkeddata.es/sparql?default-graph-uri=http%3A%2F%2Fsandbox.linkeddata.es%2Fgraph%2Faccidentes&query=PREFIX+xsd%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%23%3E+%0D%0APREFIX+sdmx-measure%3A+%3Chttp%3A%2F%2Fpurl.org%2Flinked-data%2Fsdmx%2F2009%2Fmeasure%23%3E+%0D%0APREFIX+sdmx-dimension%3A+%3Chttp%3A%2F%2Fpurl.org%2Flinked-data%2Fsdmx%2F2009%2Fdimension%23%3E+%0D%0APREFIX+sdmx%3A+%3Chttp%3A%2F%2Fpurl.org%2Flinked-data%2Fsdmx%23%3E+%0D%0APREFIX+mn%3A+%3Chttp%3A%2F%2Fexample.org%2Fresources%2F%3E+%0D%0APREFIX+rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E+%0D%0APREFIX+owl%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23%3E+%0D%0APREFIX+mv%3A+%3Chttp%3A%2F%2Fexample.org%2FmyVocabulary%23%3E+%0D%0APREFIX+rdf%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E+%0D%0APREFIX+qb%3A+%3Chttp%3A%2F%2Fpurl.org%2Flinked-data%2Fcube%23%3E+%0D%0APREFIX+skos%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E+%0D%0A%0D%0ASELECT+%3Fdistrict+%3Fnum+WHERE+%7B%0D%0A%3Fobs+a+qb%3AObservation+%3B%0D%0Amv%3ArelatedDistrict+%3Fdistrict+%3B%0D%0Amv%3AhasAccidentType+mv%3AMultipleCollision+%3B%0D%0Amv%3AnumberOfAccidents+%3Fnum.%0D%0A%0D%0A%7D+&format=text%2Fhtml&timeout=0&debug=on
+
+/*-Which is the district were the number of bicycle falls was higher in 2013?*/
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
+PREFIX sdmx-measure: <http://purl.org/linked-data/sdmx/2009/measure#> 
+PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> 
+PREFIX sdmx: <http://purl.org/linked-data/sdmx#> 
+PREFIX mn: <http://example.org/resources/> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX owl: <http://www.w3.org/2002/07/owl#> 
+PREFIX mv: <http://example.org/myVocabulary#> 
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX qb: <http://purl.org/linked-data/cube#> 
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#> 
+
+SELECT ?district   WHERE {
+?obs a qb:Observation ;
+mv:relatedDistrict ?district ;
+mv:hasAccidentType mv:BicycleFall ;
+mv:numberOfAccidents ?maximo.
+{SELECT max(?x) as ?maximo WHERE {
+?obs a qb:Observation ;
+mv:relatedDistrict ?district ;
+mv:hasAccidentType mv:BicycleFall ;
+mv:numberOfAccidents ?x}}
+
+
+} 
+http://sandbox.linkeddata.es/sparql?default-graph-uri=http%3A%2F%2Fsandbox.linkeddata.es%2Fgraph%2Faccidentes&query=PREFIX+xsd%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%23%3E+%0D%0APREFIX+sdmx-measure%3A+%3Chttp%3A%2F%2Fpurl.org%2Flinked-data%2Fsdmx%2F2009%2Fmeasure%23%3E+%0D%0APREFIX+sdmx-dimension%3A+%3Chttp%3A%2F%2Fpurl.org%2Flinked-data%2Fsdmx%2F2009%2Fdimension%23%3E+%0D%0APREFIX+sdmx%3A+%3Chttp%3A%2F%2Fpurl.org%2Flinked-data%2Fsdmx%23%3E+%0D%0APREFIX+mn%3A+%3Chttp%3A%2F%2Fexample.org%2Fresources%2F%3E+%0D%0APREFIX+rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E+%0D%0APREFIX+owl%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23%3E+%0D%0APREFIX+mv%3A+%3Chttp%3A%2F%2Fexample.org%2FmyVocabulary%23%3E+%0D%0APREFIX+rdf%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E+%0D%0APREFIX+qb%3A+%3Chttp%3A%2F%2Fpurl.org%2Flinked-data%2Fcube%23%3E+%0D%0APREFIX+skos%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E+%0D%0A%0D%0ASELECT+%3Fdistrict+++WHERE+%7B%0D%0A%3Fobs+a+qb%3AObservation+%3B%0D%0Amv%3ArelatedDistrict+%3Fdistrict+%3B%0D%0Amv%3AhasAccidentType+mv%3ABicycleFall+%3B%0D%0Amv%3AnumberOfAccidents+%3Fmaximo.%0D%0A%7BSELECT+max%28%3Fx%29+as+%3Fmaximo+WHERE+%7B%0D%0A%3Fobs+a+qb%3AObservation+%3B%0D%0Amv%3ArelatedDistrict+%3Fdistrict+%3B%0D%0Amv%3AhasAccidentType+mv%3ABicycleFall+%3B%0D%0Amv%3AnumberOfAccidents+%3Fx%7D%7D%0D%0A%0D%0A%0D%0A%7D+&format=text%2Fhtml&timeout=0&debug=on
+
+/*-Give me the districts with more than 500 accidents in 2013*/
+
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
+PREFIX sdmx-measure: <http://purl.org/linked-data/sdmx/2009/measure#> 
+PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> 
+PREFIX sdmx: <http://purl.org/linked-data/sdmx#> 
+PREFIX mn: <http://example.org/resources/> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX owl: <http://www.w3.org/2002/07/owl#> 
+PREFIX mv: <http://example.org/myVocabulary#> 
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX qb: <http://purl.org/linked-data/cube#> 
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#> 
+
+SELECT ?district   WHERE {
+?obs a qb:Observation ;
+mv:relatedDistrict ?district;
+mv:numberOfAccidents ?num.
+FILTER(?num>500)}
+
+http://sandbox.linkeddata.es/sparql?default-graph-uri=http%3A%2F%2Fsandbox.linkeddata.es%2Fgraph%2Faccidentes&query=PREFIX+xsd%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%23%3E+%0D%0APREFIX+sdmx-measure%3A+%3Chttp%3A%2F%2Fpurl.org%2Flinked-data%2Fsdmx%2F2009%2Fmeasure%23%3E+%0D%0APREFIX+sdmx-dimension%3A+%3Chttp%3A%2F%2Fpurl.org%2Flinked-data%2Fsdmx%2F2009%2Fdimension%23%3E+%0D%0APREFIX+sdmx%3A+%3Chttp%3A%2F%2Fpurl.org%2Flinked-data%2Fsdmx%23%3E+%0D%0APREFIX+mn%3A+%3Chttp%3A%2F%2Fexample.org%2Fresources%2F%3E+%0D%0APREFIX+rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E+%0D%0APREFIX+owl%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23%3E+%0D%0APREFIX+mv%3A+%3Chttp%3A%2F%2Fexample.org%2FmyVocabulary%23%3E+%0D%0APREFIX+rdf%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E+%0D%0APREFIX+qb%3A+%3Chttp%3A%2F%2Fpurl.org%2Flinked-data%2Fcube%23%3E+%0D%0APREFIX+skos%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E+%0D%0A%0D%0ASELECT+%3Fdistrict+++WHERE+%7B%0D%0A%3Fobs+a+qb%3AObservation+%3B%0D%0Amv%3ArelatedDistrict+%3Fdistrict%3B%0D%0Amv%3AnumberOfAccidents+%3Fnum.%0D%0AFILTER%28%3Fnum%3E500%29%7D%0D%0A%0D%0A%0D%0A&format=text%2Fhtml&timeout=0&debug=on

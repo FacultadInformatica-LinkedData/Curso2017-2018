@@ -1,0 +1,67 @@
+
+1:
+
+	PREFIX voca: <http://example.org/myVocabulary#> 
+	PREFIX cube: <http://purl.org/linked-data/cube#> 
+    select  (SUM(?n_accidentes ) AS ?total) where {
+        ?obs a cube:Observation ;
+             voca:numberOfAccidents ?n_accidentes .
+    } 
+	
+2:
+
+	PREFIX voca: <http://example.org/myVocabulary#>
+	PREFIX cube: <http://purl.org/linked-data/cube#> 
+    select ?tipo ?n_accidentes where {
+        ?obs a cube:Observation ;
+             voca:relatedDistrict "USERA" ;
+             voca:hasAccidentType ?tipo ;
+             voca:numberOfAccidents ?n_accidentes .
+    }
+	
+3: 
+	
+	PREFIX voca: <http://example.org/myVocabulary#>
+	PREFIX cube: <http://purl.org/linked-data/cube#> 
+    select ?distrito ?n_accidentes where {
+        ?obs a cube:Observation ;
+             voca:relatedDistrict ?distrito ;
+             voca:hasAccidentType voca:MultipleCollision ;
+             voca:numberOfAccidents ?n_accidentes .
+    }
+	
+4:
+	
+	PREFIX voca: <http://example.org/myVocabulary#>
+	PREFIX cube: <http://purl.org/linked-data/cube#> 
+    select ?distrito ?max where {
+        ?obs a cube:Observation ;
+             voca:relatedDistrict ?distrito ;
+             voca:hasAccidentType voca:BicycleFall ;
+             voca:numberOfAccidents ?max.
+	    {
+		    select  MAX(?n_accidentes) as ?max where {     
+			    ?obs a cube:Observation ;
+				     voca:relatedDistrict ?distrito ;
+				     voca:hasAccidentType voca:BicycleFall ;
+				     voca:numberOfAccidents ?n_accidentes .
+		    }
+	    }
+    }
+	
+5:
+	
+	PREFIX voca: <http://example.org/myVocabulary#>
+	PREFIX cube: <http://purl.org/linked-data/cube#> 
+    select ?distrito ?suma where {
+	    {
+		    select ?distrito (SUM(xsd:int(?accidentes)) AS ?suma) where {
+			    ?obs a cube:Observation ;
+				     voca:relatedDistrict ?distrito;
+				     voca:numberOfAccidents ?accidentes.
+		    } ORDER BY (?distrito) 
+	    }
+	    FILTER (<http://www.w3.org/2001/XMLSchema#integer> (?suma) > 500)
+    }
+	
+	

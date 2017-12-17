@@ -1,0 +1,74 @@
+- How many accidents were there in Madrid in 2013?
+
+PREFIX acc: <http://example.org/myVocabulary#>
+
+SELECT SUM(?x) as ?Accidentes2013
+WHERE 
+{
+?accidentes acc:numberOfAccidents ?x
+}
+
+
+
+- Give me the number of accidents in Usera for each type of accident
+
+PREFIX acc: <http://example.org/myVocabulary#>
+
+SELECT ?tipo ?x
+WHERE 
+{
+?accidentes acc:relatedDistrict "USERA" .
+?accidentes acc:hasAccidentType ?tipo .
+?accidentes acc:numberOfAccidents ?x .
+} 
+
+
+
+- Give me the number of multiple collisions for each district
+
+PREFIX acc: <http://example.org/myVocabulary#>
+
+SELECT ?distrito ?x
+WHERE 
+{
+?accidentes acc:relatedDistrict ?distrito .
+?accidentes acc:hasAccidentType acc:MultipleCollision .
+?accidentes acc:numberOfAccidents ?x .
+} 
+
+
+
+- Which is the district were the number of bicycle falls was higher in 2013?
+
+PREFIX acc: <http://example.org/myVocabulary#>
+
+SELECT ?distrito ?x
+WHERE 
+{
+?accidentes acc:relatedDistrict ?distrito .
+?accidentes acc:hasAccidentType acc:BicycleFall .
+?accidentes acc:numberOfAccidents ?x .
+}
+ORDER BY DESC(?x) LIMIT 1
+
+
+
+- Give me the districts with more than 500 accidents in 2013
+
+PREFIX acc: <http://example.org/myVocabulary#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?distrito{
+
+{
+SELECT ?distrito SUM(xsd:integer(?x)) as ?total
+WHERE 
+{
+?accidentes acc:relatedDistrict ?distrito .
+?accidentes acc:numberOfAccidents ?x .
+}
+GROUP BY ?distrito
+}
+
+filter (?total > 500) .
+}

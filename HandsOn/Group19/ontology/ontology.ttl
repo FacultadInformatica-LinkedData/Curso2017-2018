@@ -82,9 +82,24 @@
         rdfs:domain re:Ubication ;
         rdfs:range rdfs:Literal .
 
+###  https://www.linkeddataupm.es/group19/vocabulary#hasDate
+:hasDate rdf:type owl:DatatypeProperty ;
+        rdfs:domain re:Measurement ;
+        rdfs:range rdfs:Literal .
+
+###  https://www.linkeddataupm.es/group19/vocabulary#hasCode
+:hasCode rdf:type owl:DatatypeProperty ;
+    rdfs:domain re:Measurement ;
+    rdfs:range rdfs:Literal .
+
+###  https://www.linkeddataupm.es/group19/vocabulary#hasName
+:hasName rdf:type owl:DatatypeProperty ;
+        rdfs:domain re:Ubication ;
+        rdfs:range rdfs:Literal .
+
 
 #################################################################
-#    CpLASses
+#    Classes
 #################################################################
 
 ###  https://www.linkeddataupm.es/group19/resource/Measurement

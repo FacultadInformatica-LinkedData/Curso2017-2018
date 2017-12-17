@@ -1,0 +1,67 @@
+- How many accidents were there in Madrid in 2013?
+
+PREFIX mv: <http://example.org/myVocabulary#> 
+
+SELECT SUM(xsd:integer(?num)) as ?Madrid_Accidentes_2013
+WHERE 
+{
+?Madrid_Accidentes_2013 mv:numberOfAccidents ?num
+}
+
+- Give me the number of accidents in Usera for each type of accident
+
+PREFIX mv: <http://example.org/myVocabulary#> 
+PREFIX qb: <http://purl.org/linked-data/cube#> 
+
+
+SELECT ?AccidentType xsd:integer(?num) AS ?numberAccident
+WHERE {
+	?accident a qb:Observation .
+	?accident mv:relatedDistrict "USERA" .
+	?accident mv:hasAccidentType ?AccidentType .
+	?accident mv:numberOfAccidents ?num .
+}
+ORDER BY(?AccidentType)
+
+- Give me the number of multiple collisions for each district
+PREFIX mv: <http://example.org/myVocabulary#>
+
+SELECT ?district xsd:integer(?num)
+WHERE 
+{
+?accidentes mv:hasAccidentType mv:MultipleCollision .
+?accidentes mv:numberOfAccidents ?num .
+?accidentes mv:relatedDistrict ?district .
+
+} 
+ORDER BY(?district)
+
+- Which is the district were the number of bicycle falls was higher in 2013?
+
+PREFIX mv: <http://example.org/myVocabulary#>
+
+SELECT ?district
+WHERE 
+{
+?accidentes mv:relatedDistrict ?district .
+?accidentes mv:hasAccidentType mv:BicycleFall .
+?accidentes mv:numberOfAccidents ?num .
+}
+ORDER BY DESC(?num) LIMIT 1
+
+
+
+- Give me the districts with more than 500 accidents in 2013
+PREFIX mv: <http://example.org/myVocabulary#>
+
+SELECT  ?district SUM(xsd:integer(?num)) as ?cont   
+WHERE 
+{
+?accidentes mv:relatedDistrict ?district .
+?accidentes  mv:numberOfAccidents ?num .
+
+filter(?num>500).
+
+} 
+}GROUP BY ?district  
+

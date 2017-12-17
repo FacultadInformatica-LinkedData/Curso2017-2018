@@ -1,0 +1,410 @@
+@prefix schema: <http://schema.org/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ontology: <http://www.madriddeportes.es/ontologies/2017> a owl:Ontology .
+
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Reguera+De+Tomateros+39> :calleRegueraDeTomateros39
+	schema: streetAddress: "Reguera De Tomateros"
+	ontology: number:  "39"
+	schema: addressType "Calle"
+	schema: postalCode:  "28053"
+
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Arroyo+De+Pozuelo+99> :calleArroyoDePozuelo99
+	schema: streetAddress: "Arroyo De Pozuelo"
+	ontology: number:  "99"
+	schema: addressType "Calle"
+	schema: postalCode:  "28023"
+
+<http://www.madriddeportes.es/ontologies/2017/Avenida+General+Fanju+14> :avenidaGeneralFanju14
+	schema: streetAddress: "General Fanju"
+	ontology: number:  "14"
+	schema: addressType "Avenida"
+	schema: postalCode:  "28044"
+
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Via+Carpetana+57> :calleViaCarpetana57
+	schema: streetAddress: "Via Carpetana"
+	ontology: number:  "57"
+	schema: addressType "Calle"
+	schema: postalCode:  "28047"
+
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Joaquin+Dicena+1> :calleJoaquinDicena1
+	schema: streetAddress: "Joaquin Dicena"
+	ontology: number:  "1"
+	schema: addressType "Calle"
+	schema: postalCode:  "28029"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Alicante+14> :calleAlicante14
+	schema: streetAddress: "Alicante"
+	ontology: number:  "14"
+	schema: addressType "Calle"
+	schema: postalCode:  "28045"
+
+<http://www.madriddeportes.es/ontologies/2017/Avenida+Logroño+70> :avenidaLogroño70
+	schema: streetAddress: "Logroño"
+	ontology: number:  "70"
+	schema: addressType "Avenida"
+	schema: postalCode:  "28042"
+
+<http://www.madriddeportes.es/ontologies/2017/Paseo+Puerta+Del+Angel+7> :paseoPuertaDelAngel7
+	schema: streetAddress: "Puerta Del Angel"
+	ontology: number:  "7"
+	schema: addressType "Paseo"
+	schema: postalCode:  "28011"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Canarias+17> :calleCanarias17
+	schema: streetAddress: "Canarias"
+	ontology: number:  "17"
+	schema: addressType "Calle"
+	schema: postalCode:  "28045"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Cerro+De+Almodovar+9> :calleCerroDeAlmodovar9
+	schema: streetAddress: "Cerro De Almodovar"
+	ontology: number:  "9"
+	schema: addressType "Calle"
+	schema: postalCode:  "28007"
+
+<http://www.madriddeportes.es/ontologies/2017/Avenida+PioXII+2> :avenidaPioXII2
+	schema: streetAddress: "PioXII"
+	ontology: number:  "2"
+	schema: addressType "avenida"
+	schema: postalCode:  "28016"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Embajadores+316> :calleEmbajadores316
+	schema: streetAddress: "Embajadores"
+	ontology: number:  "316"
+	schema: addressType "calle"
+	schema: postalCode:  "28045"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Antonio+Machado+12> :calleAntonioMachado12
+	schema: streetAddress: "Antonio Machado"
+	ontology: number:  "12"
+	schema: addressType "calle"
+	schema: postalCode:  "28035"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Jose+Del+Hierro+5> :calleJoseDelHierro5
+	schema: streetAddress: "Jose Del Hierro"
+	ontology: number:  "5"
+	schema: addressType "calle"
+	schema: postalCode:  "28027"
+
+<http://www.madriddeportes.es/ontologies/2017/Plaza+Daoiz+Y+Velarde+5> :plazaDaoizYVelarde5
+	schema: streetAddress: "Daoiz Y Velarde"
+	ontology: number:  "5"
+	schema: addressType "plaza"
+	schema: postalCode:  "28007"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Alberche+21> :calleAlberche21
+	schema: streetAddress: "Alberche"
+	ontology: number:  "21"
+	schema: addressType "calle"
+	schema: postalCode:  "28007"
+
+<http://www.madriddeportes.es/ontologies/2017/Carretera+Villaver+de+A+Vallecas+19> :carreteraVillaverdeAVallecas19
+	schema: streetAddress: "VillaverdeAVallecas"
+	ontology: number:  "19"
+	schema: addressType "carretera"
+	schema: postalCode:  "28041"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Olivillo+4> :calleOlivillo4
+	schema: streetAddress: "Olivillo"
+	ontology: number:  "4"
+	schema: addressType "calle"
+	schema: postalCode:  "28011"
+
+<http://www.madriddeportes.es/ontologies/2017/Ronda+Sur+4> :rondaSur4
+	schema: streetAddress: "Sur"
+	ontology: number:  "4"
+	schema: addressType "ronda"
+	schema: postalCode:  "28053"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Farmacia+13> :calleFarmacia13
+	schema: streetAddress: "Farmacia"
+	ontology: number:  "13"
+	schema: addressType "calle"
+	schema: postalCode:  "28004"
+
+<http://www.madriddeportes.es/ontologies/2017/Paseo+Colombia+2> :paseoColombia2
+	schema: streetAddress: "Colombia"
+	ontology: number:  "2"
+	schema: addressType "paseo"
+	schema: postalCode:  "28009"
+
+<http://www.madriddeportes.es/ontologies/2017/Avenida+Septima+68> :avenidaSeptima68
+	schema: streetAddress: "Septima"
+	ontology: number:  "68"
+	schema: addressType "avenida"
+	schema: postalCode:  "28022"
+
+<http://www.madriddeportes.es/ontologies/2017/Avenida+Santo+Angel+De+La+Guardia+6> :avenidaSantoAngelDeLaGuardia6
+	schema: streetAddress: "Santo Angel De La Guardia"
+	ontology: number:  "6"
+	schema: addressType "avenida"
+	schema: postalCode:  "28039"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Catorce+Olivas+1> :calleCatorceOlivas1
+	schema: streetAddress: "Catorce Olivas"
+	ontology: number:  "1"
+	schema: addressType "calle"
+	schema: postalCode:  "28054"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Numancia+11> :calleNumancia11
+	schema: streetAddress: "Numancia"
+	ontology: number:  "11"
+	schema: addressType "calle"
+	schema: postalCode:  "28039"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Elvira+36> :calleElvira36
+	schema: streetAddress: "Elvira"
+	ontology: number:  "36"
+	schema: addressType "calle"
+	schema: postalCode:  "28028"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Alianza+4> :calleAlianza4
+	schema: streetAddress: "Alianza"
+	ontology: number:  "4"
+	schema: addressType "calle"
+	schema: postalCode:  "28041"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Gallur+2> :calleGallur2
+	schema: streetAddress: "Gallur"
+	ontology: number:  "2"
+	schema: addressType "calle"
+	schema: postalCode:  "28047"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Pilar+De+Zaragoza+97> :callePilarDeZaragoza97
+	schema: streetAddress: "Pilar De Zaragoza"
+	ontology: number:  "97"
+	schema: addressType "calle"
+	schema: postalCode:  "28028"
+
+<http://www.madriddeportes.es/ontologies/2017/Carretera+Estacion+De+Hortaleza+11> :carreteraEstacionDeHortaleza11
+	schema: streetAddress: "Estacion De Hortaleza"
+	ontology: number:  "11"
+	schema: addressType "carretera"
+	schema: postalCode:  "28033"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Santa+Pola+22> :carreteraEstacionDeHortaleza11
+	schema: streetAddress: "Santa Pola"
+	ontology: number:  "22"
+	schema: addressType "calle"
+	schema: postalCode:  "28008"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Nicolas+Salmeron+8> :calleNicolasSalmeron8
+	schema: streetAddress: "Nicolas Salmeron"
+	ontology: number:  "8"
+	schema: addressType "calle"
+	schema: postalCode:  "28017"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Senda+Del+Rey+8> :calleSendaDelRey8
+	schema: streetAddress: "Senda Del Rey"
+	ontology: number:  "8"
+	schema: addressType "calle"
+	schema: postalCode:  "28040"
+
+<http://www.madriddeportes.es/ontologies/2017/Paseo+Fernan+Nuñez+3> :paseoFernanNuñez3
+	schema: streetAddress: "Fernan Nuñez"
+	ontology: number:  "3"
+	schema: addressType "paseo"
+	schema: postalCode:  "28009"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Alcalde+Garrido+Juaristi+17> :calleAlcaldeGarridoJuaristi17
+	schema: streetAddress: "Alcalde Garrido Juaristi"
+	ontology: number:  "17"
+	schema: addressType "calle"
+	schema: postalCode:  "28030"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Maso+80> :calleMaso80
+	schema: streetAddress: "Maso"
+	ontology: number:  "80"
+	schema: addressType "calle"
+	schema: postalCode:  "28034"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Monseñor+Oscar+Romero+41> :calleMonseñorOscarRomero41
+	schema: streetAddress: "Monseñor Oscar Romero"
+	ontology: number:  "41"
+	schema: addressType "calle"
+	schema: postalCode:  "28025"
+
+<http://www.madriddeportes.es/ontologies/2017/Avenida+Monforte+De+Lemos+38> :avenidaMonforteDeLemos38
+	schema: streetAddress: "Monforte De Lemos"
+	ontology: number:  "38 A"
+	schema: addressType "avenida"
+	schema: postalCode:  "28029"
+
+<http://www.madriddeportes.es/ontologies/2017/Paseo+Embarcadero+8> :paseoEmbarcadero8
+	schema: streetAddress: "Embarcadero"
+	ontology: number:  "8"
+	schema: addressType "paseo"
+	schema: postalCode:  "28011"
+
+<http://www.madriddeportes.es/ontologies/2017/Avenida+Poblados+72> :avenidaPoblados72
+	schema: streetAddress: "Poblados"
+	ontology: number:  "72"
+	schema: addressType "avenida"
+	schema: postalCode:  "28044"
+
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Petunias30> :callePetunias30
+	schema: streetAddress: "Petunias"
+	ontology: number:  "30"
+	schema: addressType "calle"
+	schema: postalCode:  "28042"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+El+Provencio+20> :calleElProvencio20
+	schema: streetAddress: "El Provencio"
+	ontology: number:  "20"
+	schema: addressType "calle"
+	schema: postalCode:  "28043"
+
+<http://www.madriddeportes.es/ontologies/2017/Paseo+Imperial+52> :paseoImperial52
+	schema: streetAddress: "Imperial"
+	ontology: number:  "52"
+	schema: addressType "paseo"
+	schema: postalCode:  "28005"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Moraleja+11> :calleMoraleja11
+	schema: streetAddress: "Moraleja"
+	ontology: number:  "11"
+	schema: addressType "calle"
+	schema: postalCode:  "28041"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Tranvia+De+Arganda+4> :calleTranviaDeArganda4
+	schema: streetAddress: "Tranvia De Arganda"
+	ontology: number:  "4"
+	schema: addressType "calle"
+	schema: postalCode:  "28031"
+
+<http://www.madriddeportes.es/ontologies/2017/Avenida+Niza+8> :avenidaNiza8
+	schema: streetAddress: "Niza"
+	ontology: number:  "8"
+	schema: addressType "avenida"
+	schema: postalCode:  "28022"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Arganda+25> :calleArganda25
+	schema: streetAddress: "Arganda"
+	ontology: number:  "25"
+	schema: addressType "calle"
+	schema: postalCode:  "28005"
+
+<http://www.madriddeportes.es/ontologies/2017/Paseo+Plata+Y+Castañar+7> :paseoPlataYCastañar7
+	schema: streetAddress: "Plata Y Castañar"
+	ontology: number:  "7"
+	schema: addressType "paseo"
+	schema: postalCode:  "28021"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Hierbabuena+2> :calleHierbabuena2
+	schema: streetAddress: "Hierbabuena"
+	ontology: number:  "2"
+	schema: addressType "calle"
+	schema: postalCode:  "28039"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Pradillo+33> :callePradillo33
+	schema: streetAddress: "Pradillo"
+	ontology: number:  "33"
+	schema: addressType "calle"
+	schema: postalCode:  "28002"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Franciso+Rioja+14> :calleFrancisoRioja14
+	schema: streetAddress: "Franciso Rioja"
+	ontology: number:  "14"
+	schema: addressType "calle"
+	schema: postalCode:  "28017"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Payaso+Fofo+7> :callePayasoFofo7
+	schema: streetAddress: "Payaso Fofo"
+	ontology: number:  "7"
+	schema: addressType "calle"
+	schema: postalCode:  "28017"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Benimamet+137> :calleBenimamet137
+	schema: streetAddress: "Benimamet"
+	ontology: number:  "137"
+	schema: addressType "calle"
+	schema: postalCode:  "28021"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Arcos+De+Jalon+59> :calleArcosDeJalon59
+	schema: streetAddress: "Arcos De Jalon"
+	ontology: number:  "59"
+	schema: addressType "calle"
+	schema: postalCode:  "28037"
+
+
+<http://www.madriddeportes.es/ontologies/2017/Plaza+Pinazo+9> :plazaPinazo9
+	schema: streetAddress: "Pinazo"
+	ontology: number:  "9"
+	schema: addressType "plaza"
+	schema: postalCode:  "28021"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+San+Mario+18> :calleSanMario18
+	schema: streetAddress: "SanMario"
+	ontology: number:  "18"
+	schema: addressType "calle"
+	schema: postalCode:  "28041"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Treviana+1> :calleTreviana1
+	schema: streetAddress: "Treviana"
+	ontology: number:  "1"
+	schema: addressType "calle"
+	schema: postalCode:  "28043"
+
+<http://www.madriddeportes.es/ontologies/2017/Paseo+Alamedillas+5> :paseoAlamedillas5
+	schema: streetAddress: "Alamedillas"
+	ontology: number:  "5"
+	schema: addressType "paseo"
+	schema: postalCode:  "28034"
+
+<http://www.madriddeportes.es/ontologies/2017/Camino+Principe+2> :caminoPrincipe2
+	schema: streetAddress: "Principe"
+	ontology: number:  "2"
+	schema: addressType "camino"
+	schema: postalCode:  "28011"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Bravo+Murillo+376> :calleBravoMurillo376
+	schema: streetAddress: "Bravo Murillo"
+	ontology: number:  "376"
+	schema: addressType "calle"
+	schema: postalCode:  "28020"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Ladera+De+Los+Almendros+2> :calleLaderaDeLosAlmendros2
+	schema: streetAddress: "Ladera De Los Almendros"
+	ontology: number:  "2"
+	schema: addressType "calle"
+	schema: postalCode:  "28032"
+
+<http://www.madriddeportes.es/ontologies/2017/Calle+Arroyo+Del+Olivar+51> :calleArroyoDelOlivar51
+	schema: streetAddress: "Arroyo Del Olivar"
+	ontology: number:  "51"
+	schema: addressType "calle"
+	schema: postalCode:  "28018"
+
+<http://www.madriddeportes.es/ontologies/2017/Avenida+Filipinas+7> :avenidaFilipinas7
+	schema: streetAddress: "Filipinas"
+	ontology: number:  "7"
+	schema: addressType "avenida"
+	schema: postalCode:  "28029"
+
+<http://www.madriddeportes.es/ontologies/2017/Avenida+Monforte+De+Lemos+13> :avenidaMonforteDeLemos13
+	schema: streetAddress: "Monforte De Lemos"
+	ontology: number:  "13"
+	schema: addressType "avenida"
+	schema: postalCode:  "28029"
+
+<http://www.madriddeportes.es/ontologies/2017/Paseo+Polideportivo+3> :paseoPolideportivo3
+	schema: streetAddress: "Polideportivo"
+	ontology: number:  "3"
+	schema: addressType "paseo"
+	schema: postalCode:  "28032"
+
+<http://www.madriddeportes.es/ontologies/2017/Camino+Perales+23> :caminoPerales23
+	schema: streetAddress: "Perales"
+	ontology: number:  "23"
+	schema: addressType "camino"
+	schema: postalCode:  "28041"

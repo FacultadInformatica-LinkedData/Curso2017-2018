@@ -1,0 +1,340 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix g10: <htpp://www.contaminacion-acustica-madrid.org/group10/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/PASEO_DE_RECOLETOS> g10:hasMedNoiseLv "68,2" ;
+	g10:hasNumDistrictZone "1" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Distritos/CENTRO> g10:hasNameDistrict "CENTRO" ;
+	g10:hasIdDistrict "1" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/PASEO_DE_RECOLETOS> g10:belongsToDistrict <htpp://www.contaminacion-acustica-madrid.org/group10/resource/Distritos/CENTRO> .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Barrios/JUSTICIA> g10:hasNameNeighborhood "JUSTICIA" ;
+	g10:hasIdNeighborhood "4" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/PASEO_DE_RECOLETOS> g10:belongsToNeighborhood <htpp://www.contaminacion-acustica-madrid.org/group10/resource/Barrios/JUSTICIA> ;
+	g10:hasNumNeighborhoodZone "4" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/PLAZA_DEL_EMPERADOR_CARLOS_V> g10:hasMedNoiseLv "69,3" ;
+	g10:hasNumDistrictZone "1" ;
+	g10:belongsToDistrict <htpp://www.contaminacion-acustica-madrid.org/group10/resource/Distritos/CENTRO> .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Barrios/JERÓNIMOS> g10:hasNameNeighborhood "JERÓNIMOS" ;
+	g10:hasIdNeighborhood "5" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/PLAZA_DEL_EMPERADOR_CARLOS_V> g10:belongsToNeighborhood <htpp://www.contaminacion-acustica-madrid.org/group10/resource/Barrios/JERÓNIMOS> ;
+	g10:hasNumNeighborhoodZone "5" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/PLAZA_DEL_CARMEN> g10:hasMedNoiseLv "65,8" ;
+	g10:hasNumDistrictZone "1" ;
+	g10:belongsToDistrict <htpp://www.contaminacion-acustica-madrid.org/group10/resource/Distritos/CENTRO> .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Barrios/SOL> g10:hasNameNeighborhood "SOL" ;
+	g10:hasIdNeighborhood "6" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/PLAZA_DEL_CARMEN> g10:belongsToNeighborhood <htpp://www.contaminacion-acustica-madrid.org/group10/resource/Barrios/SOL> ;
+	g10:hasNumNeighborhoodZone "6" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/PLAZA_DE_ESPAÑA> g10:hasMedNoiseLv "65" ;
+	g10:hasNumDistrictZone "1" ;
+	g10:belongsToDistrict <htpp://www.contaminacion-acustica-madrid.org/group10/resource/Distritos/CENTRO> ;
+	g10:belongsToNeighborhood <htpp://www.contaminacion-acustica-madrid.org/group10/resource/Barrios/SOL> ;
+	g10:hasNumNeighborhoodZone "6" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/BARRIO_DEL_PILAR> g10:hasMedNoiseLv "64,6" ;
+	g10:hasNumDistrictZone "8" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Distritos/FUENCARRAL-EL_PARDO> g10:hasNameDistrict "FUENCARRAL-EL PARDO" ;
+	g10:hasIdDistrict "8" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/BARRIO_DEL_PILAR> g10:belongsToDistrict <htpp://www.contaminacion-acustica-madrid.org/group10/resource/Distritos/FUENCARRAL-EL_PARDO> .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Barrios/EL_PILAR> g10:hasNameNeighborhood "EL PILAR" ;
+	g10:hasIdNeighborhood "4" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/BARRIO_DEL_PILAR> g10:belongsToNeighborhood <htpp://www.contaminacion-acustica-madrid.org/group10/resource/Barrios/EL_PILAR> ;
+	g10:hasNumNeighborhoodZone "4" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/GREGORIO_MARAÑÓN> g10:hasMedNoiseLv "70,7" ;
+	g10:hasNumDistrictZone "7" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Distritos/CHAMBERÍ> g10:hasNameDistrict "CHAMBERÍ" ;
+	g10:hasIdDistrict "7" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/GREGORIO_MARAÑÓN> g10:belongsToDistrict <htpp://www.contaminacion-acustica-madrid.org/group10/resource/Distritos/CHAMBERÍ> .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Barrios/RÍOS_ROSAS> g10:hasNameNeighborhood "RÍOS ROSAS" ;
+	g10:hasIdNeighborhood "5" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/GREGORIO_MARAÑÓN> g10:belongsToNeighborhood <htpp://www.contaminacion-acustica-madrid.org/group10/resource/Barrios/RÍOS_ROSAS> ;
+	g10:hasNumNeighborhoodZone "5" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/ESCUELAS_AGUIRRE> g10:hasMedNoiseLv "67" ;
+	g10:hasNumDistrictZone "4" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Distritos/SALAMANCA> g10:hasNameDistrict "SALAMANCA" ;
+	g10:hasIdDistrict "4" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/ESCUELAS_AGUIRRE> g10:belongsToDistrict <htpp://www.contaminacion-acustica-madrid.org/group10/resource/Distritos/SALAMANCA> .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Barrios/RECOLETOS> g10:hasNameNeighborhood "RECOLETOS" ;
+	g10:hasIdNeighborhood "1" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/ESCUELAS_AGUIRRE> g10:belongsToNeighborhood <htpp://www.contaminacion-acustica-madrid.org/group10/resource/Barrios/RECOLETOS> ;
+	g10:hasNumNeighborhoodZone "1" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/CUATRO_CAMINOS> g10:hasMedNoiseLv "65" ;
+	g10:hasNumDistrictZone "6" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Distritos/TETUAN> g10:hasNameDistrict "TETUAN" ;
+	g10:hasIdDistrict "6" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/CUATRO_CAMINOS> g10:belongsToDistrict <htpp://www.contaminacion-acustica-madrid.org/group10/resource/Distritos/TETUAN> .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Barrios/CUATRO_CAMINOS> g10:hasNameNeighborhood "CUATRO CAMINOS" ;
+	g10:hasIdNeighborhood "2" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/CUATRO_CAMINOS> g10:belongsToNeighborhood <htpp://www.contaminacion-acustica-madrid.org/group10/resource/Barrios/CUATRO_CAMINOS> ;
+	g10:hasNumNeighborhoodZone "2" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/PLAZA_MANUEL_BECERRA> g10:hasMedNoiseLv "64,8" ;
+	g10:hasNumDistrictZone "4" ;
+	g10:belongsToDistrict <htpp://www.contaminacion-acustica-madrid.org/group10/resource/Distritos/SALAMANCA> .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Barrios/GOYA> g10:hasNameNeighborhood "GOYA" ;
+	g10:hasIdNeighborhood "2" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/PLAZA_MANUEL_BECERRA> g10:belongsToNeighborhood <htpp://www.contaminacion-acustica-madrid.org/group10/resource/Barrios/GOYA> ;
+	g10:hasNumNeighborhoodZone "2" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/VALLECAS> g10:hasMedNoiseLv "63,8" ;
+	g10:hasNumDistrictZone "13" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Distritos/PUENTE_DE_VALLECAS> g10:hasNameDistrict "PUENTE DE VALLECAS" ;
+	g10:hasIdDistrict "13" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/VALLECAS> g10:belongsToDistrict <htpp://www.contaminacion-acustica-madrid.org/group10/resource/Distritos/PUENTE_DE_VALLECAS> .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Barrios/ENTREVIAS> g10:hasNameNeighborhood "ENTREVIAS" ;
+	g10:hasIdNeighborhood "1" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/VALLECAS> g10:belongsToNeighborhood <htpp://www.contaminacion-acustica-madrid.org/group10/resource/Barrios/ENTREVIAS> ;
+	g10:hasNumNeighborhoodZone "1" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/GLORIETA_FDEZ._LADREDA> g10:hasMedNoiseLv "65,3" ;
+	g10:hasNumDistrictZone "12" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Distritos/USERA> g10:hasNameDistrict "USERA" ;
+	g10:hasIdDistrict "12" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/GLORIETA_FDEZ._LADREDA> g10:belongsToDistrict <htpp://www.contaminacion-acustica-madrid.org/group10/resource/Distritos/USERA> .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Barrios/FUENTE_DEL_BERRO> g10:hasNameNeighborhood "FUENTE DEL BERRO" ;
+	g10:hasIdNeighborhood "3" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/GLORIETA_FDEZ._LADREDA> g10:belongsToNeighborhood <htpp://www.contaminacion-acustica-madrid.org/group10/resource/Barrios/FUENTE_DEL_BERRO> ;
+	g10:hasNumNeighborhoodZone "3" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/ARTURO_SORIA> g10:hasMedNoiseLv "61,4" ;
+	g10:hasNumDistrictZone "15" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Distritos/CIUDAD_LINEAL> g10:hasNameDistrict "CIUDAD LINEAL" ;
+	g10:hasIdDistrict "15" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/ARTURO_SORIA> g10:belongsToDistrict <htpp://www.contaminacion-acustica-madrid.org/group10/resource/Distritos/CIUDAD_LINEAL> .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Barrios/QUINTANA> g10:hasNameNeighborhood "QUINTANA" ;
+	g10:hasIdNeighborhood "3" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/ARTURO_SORIA> g10:belongsToNeighborhood <htpp://www.contaminacion-acustica-madrid.org/group10/resource/Barrios/QUINTANA> ;
+	g10:hasNumNeighborhoodZone "3" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/VILLAVERDE> g10:hasMedNoiseLv "61,6" ;
+	g10:hasNumDistrictZone "17" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Distritos/VILLAVERDE> g10:hasNameDistrict "VILLAVERDE" ;
+	g10:hasIdDistrict "17" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/VILLAVERDE> g10:belongsToDistrict <htpp://www.contaminacion-acustica-madrid.org/group10/resource/Distritos/VILLAVERDE> .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Barrios/SAN_ANDRÉS> g10:hasNameNeighborhood "SAN ANDRÉS" ;
+	g10:hasIdNeighborhood "1" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/VILLAVERDE> g10:belongsToNeighborhood <htpp://www.contaminacion-acustica-madrid.org/group10/resource/Barrios/SAN_ANDRÉS> ;
+	g10:hasNumNeighborhoodZone "1" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/ALTO_EXTREMADURA> g10:hasMedNoiseLv "61,3" ;
+	g10:hasNumDistrictZone "10" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Distritos/LATINA> g10:hasNameDistrict "LATINA" ;
+	g10:hasIdDistrict "10" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/ALTO_EXTREMADURA> g10:belongsToDistrict <htpp://www.contaminacion-acustica-madrid.org/group10/resource/Distritos/LATINA> .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Barrios/LUCERO> g10:hasNameNeighborhood "LUCERO" ;
+	g10:hasIdNeighborhood "3" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/ALTO_EXTREMADURA> g10:belongsToNeighborhood <htpp://www.contaminacion-acustica-madrid.org/group10/resource/Barrios/LUCERO> ;
+	g10:hasNumNeighborhoodZone "3" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/AVDA_DE_MORATALAZ> g10:hasMedNoiseLv "62,6" ;
+	g10:hasNumDistrictZone "14" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Distritos/MORATALAZ> g10:hasNameDistrict "MORATALAZ" ;
+	g10:hasIdDistrict "14" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/AVDA_DE_MORATALAZ> g10:belongsToDistrict <htpp://www.contaminacion-acustica-madrid.org/group10/resource/Distritos/MORATALAZ> .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Barrios/VINATEROS> g10:hasNameNeighborhood "VINATEROS" ;
+	g10:hasIdNeighborhood "6" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/AVDA_DE_MORATALAZ> g10:belongsToNeighborhood <htpp://www.contaminacion-acustica-madrid.org/group10/resource/Barrios/VINATEROS> ;
+	g10:hasNumNeighborhoodZone "6" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/CASA_DE_CAMPO> g10:hasMedNoiseLv "47,5" ;
+	g10:hasNumDistrictZone "9" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Distritos/MONCLOA-ARAVACA_> g10:hasNameDistrict "MONCLOA-ARAVACA " ;
+	g10:hasIdDistrict "9" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/CASA_DE_CAMPO> g10:belongsToDistrict <htpp://www.contaminacion-acustica-madrid.org/group10/resource/Distritos/MONCLOA-ARAVACA_> .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Barrios/CASA_DE_CAMPO> g10:hasNameNeighborhood "CASA DE CAMPO" ;
+	g10:hasIdNeighborhood "1" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/CASA_DE_CAMPO> g10:belongsToNeighborhood <htpp://www.contaminacion-acustica-madrid.org/group10/resource/Barrios/CASA_DE_CAMPO> ;
+	g10:hasNumNeighborhoodZone "1" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/SANTA_EUGENIA> g10:hasMedNoiseLv "65,9" ;
+	g10:hasNumDistrictZone "18" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Distritos/VILLA_DE_VALLECAS> g10:hasNameDistrict "VILLA DE VALLECAS" ;
+	g10:hasIdDistrict "18" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/SANTA_EUGENIA> g10:belongsToDistrict <htpp://www.contaminacion-acustica-madrid.org/group10/resource/Distritos/VILLA_DE_VALLECAS> .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Barrios/SANTA_EUGENIA> g10:hasNameNeighborhood "SANTA EUGENIA" ;
+	g10:hasIdNeighborhood "2" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/SANTA_EUGENIA> g10:belongsToNeighborhood <htpp://www.contaminacion-acustica-madrid.org/group10/resource/Barrios/SANTA_EUGENIA> ;
+	g10:hasNumNeighborhoodZone "2" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/BARAJAS_PUEBLO> g10:hasMedNoiseLv "62" ;
+	g10:hasNumDistrictZone "21" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Distritos/BARAJAS> g10:hasNameDistrict "BARAJAS" ;
+	g10:hasIdDistrict "21" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/BARAJAS_PUEBLO> g10:belongsToDistrict <htpp://www.contaminacion-acustica-madrid.org/group10/resource/Distritos/BARAJAS> .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Barrios/ALAMEDA_DE_OSASUNA> g10:hasNameNeighborhood "ALAMEDA DE OSASUNA" ;
+	g10:hasIdNeighborhood "1" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/BARAJAS_PUEBLO> g10:belongsToNeighborhood <htpp://www.contaminacion-acustica-madrid.org/group10/resource/Barrios/ALAMEDA_DE_OSASUNA> ;
+	g10:hasNumNeighborhoodZone "1" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/CUATRO_VIENTOS> g10:hasMedNoiseLv "67" ;
+	g10:hasNumDistrictZone "10" ;
+	g10:belongsToDistrict <htpp://www.contaminacion-acustica-madrid.org/group10/resource/Distritos/LATINA> .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Barrios/CUATRO_VIENTOS> g10:hasNameNeighborhood "CUATRO VIENTOS" ;
+	g10:hasIdNeighborhood "6" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/CUATRO_VIENTOS> g10:belongsToNeighborhood <htpp://www.contaminacion-acustica-madrid.org/group10/resource/Barrios/CUATRO_VIENTOS> ;
+	g10:hasNumNeighborhoodZone "6" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/EL_PARDO> g10:hasMedNoiseLv "56,4" ;
+	g10:hasNumDistrictZone "8" ;
+	g10:belongsToDistrict <htpp://www.contaminacion-acustica-madrid.org/group10/resource/Distritos/FUENCARRAL-EL_PARDO> .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Barrios/FUENCARRAL-EL_PARDO> g10:hasNameNeighborhood "FUENCARRAL-EL PARDO" ;
+	g10:hasIdNeighborhood "1" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/EL_PARDO> g10:belongsToNeighborhood <htpp://www.contaminacion-acustica-madrid.org/group10/resource/Barrios/FUENCARRAL-EL_PARDO> ;
+	g10:hasNumNeighborhoodZone "1" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/CAMPO_DE_LAS_NACIONES> g10:hasMedNoiseLv "64" ;
+	g10:hasNumDistrictZone "21" ;
+	g10:belongsToDistrict <htpp://www.contaminacion-acustica-madrid.org/group10/resource/Distritos/BARAJAS> .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Barrios/CORRALEJOS> g10:hasNameNeighborhood "CORRALEJOS" ;
+	g10:hasIdNeighborhood "5" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/CAMPO_DE_LAS_NACIONES> g10:belongsToNeighborhood <htpp://www.contaminacion-acustica-madrid.org/group10/resource/Barrios/CORRALEJOS> ;
+	g10:hasNumNeighborhoodZone "5" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/SANCHINARRO> g10:hasMedNoiseLv "63,4" ;
+	g10:hasNumDistrictZone "16" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Distritos/HORTALEZA> g10:hasNameDistrict "HORTALEZA" ;
+	g10:hasIdDistrict "16" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/SANCHINARRO> g10:belongsToDistrict <htpp://www.contaminacion-acustica-madrid.org/group10/resource/Distritos/HORTALEZA> .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Barrios/VALDEFUENTES> g10:hasNameNeighborhood "VALDEFUENTES" ;
+	g10:hasIdNeighborhood "6" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/SANCHINARRO> g10:belongsToNeighborhood <htpp://www.contaminacion-acustica-madrid.org/group10/resource/Barrios/VALDEFUENTES> ;
+	g10:hasNumNeighborhoodZone "6" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/MÉNDEZ_ÁLVARO> g10:hasMedNoiseLv "58,3" ;
+	g10:hasNumDistrictZone "2" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Distritos/ARGANZUELA> g10:hasNameDistrict "ARGANZUELA" ;
+	g10:hasIdDistrict "2" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/MÉNDEZ_ÁLVARO> g10:belongsToDistrict <htpp://www.contaminacion-acustica-madrid.org/group10/resource/Distritos/ARGANZUELA> .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Barrios/DELICIAS> g10:hasNameNeighborhood "DELICIAS" ;
+	g10:hasIdNeighborhood "5" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/MÉNDEZ_ÁLVARO> g10:belongsToNeighborhood <htpp://www.contaminacion-acustica-madrid.org/group10/resource/Barrios/DELICIAS> ;
+	g10:hasNumNeighborhoodZone "5" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/CASTELLANA> g10:hasMedNoiseLv "62,8" ;
+	g10:hasNumDistrictZone "6" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Distritos/CHAMARTIN> g10:hasNameDistrict "CHAMARTIN" ;
+	g10:hasIdDistrict "6" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/CASTELLANA> g10:belongsToDistrict <htpp://www.contaminacion-acustica-madrid.org/group10/resource/Distritos/CHAMARTIN> .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Barrios/CASTELLANA> g10:hasNameNeighborhood "CASTELLANA" ;
+	g10:hasIdNeighborhood "4" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/CASTELLANA> g10:belongsToNeighborhood <htpp://www.contaminacion-acustica-madrid.org/group10/resource/Barrios/CASTELLANA> ;
+	g10:hasNumNeighborhoodZone "4" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/PZA_DE_CASTILLA> g10:hasMedNoiseLv "68,5" ;
+	g10:hasNumDistrictZone "6" ;
+	g10:belongsToDistrict <htpp://www.contaminacion-acustica-madrid.org/group10/resource/Distritos/TETUAN> .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Barrios/CASTILLEJOS> g10:hasNameNeighborhood "CASTILLEJOS" ;
+	g10:hasIdNeighborhood "3" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/PZA_DE_CASTILLA> g10:belongsToNeighborhood <htpp://www.contaminacion-acustica-madrid.org/group10/resource/Barrios/CASTILLEJOS> ;
+	g10:hasNumNeighborhoodZone "3" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/ENSANCHE_DE_VALLECAS> g10:hasMedNoiseLv "61,5" ;
+	g10:hasNumDistrictZone "18" ;
+	g10:belongsToDistrict <htpp://www.contaminacion-acustica-madrid.org/group10/resource/Distritos/VILLA_DE_VALLECAS> .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Barrios/CASO_HISTÓRICO_DE_VALLECAS> g10:hasNameNeighborhood "CASO HISTÓRICO DE VALLECAS" ;
+	g10:hasIdNeighborhood "1" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/ENSANCHE_DE_VALLECAS> g10:belongsToNeighborhood <htpp://www.contaminacion-acustica-madrid.org/group10/resource/Barrios/CASO_HISTÓRICO_DE_VALLECAS> ;
+	g10:hasNumNeighborhoodZone "1" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/TRES_OLIVOS> g10:hasMedNoiseLv "58,7" ;
+	g10:hasNumDistrictZone "8" ;
+	g10:belongsToDistrict <htpp://www.contaminacion-acustica-madrid.org/group10/resource/Distritos/FUENCARRAL-EL_PARDO> .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Barrios/VALVERDE> g10:hasNameNeighborhood "VALVERDE" ;
+	g10:hasIdNeighborhood "6" .
+
+<htpp://www.contaminacion-acustica-madrid.org/group10/resource/Zonas/TRES_OLIVOS> g10:belongsToNeighborhood <htpp://www.contaminacion-acustica-madrid.org/group10/resource/Barrios/VALVERDE> ;
+	g10:hasNumNeighborhoodZone "6" .

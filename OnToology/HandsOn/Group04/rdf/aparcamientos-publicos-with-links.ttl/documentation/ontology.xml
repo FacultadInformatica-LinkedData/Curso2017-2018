@@ -1,0 +1,1122 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:ontology="http://www.semanticweb.org/Group04/ontology#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/Group04/ontology#hasLatitude -->
+
+
+    <AnnotationProperty rdf:about="http://www.semanticweb.org/Group04/ontology#hasLatitude"/>
+    
+
+
+    <!-- http://www.semanticweb.org/Group04/ontology#hasLongitude -->
+
+
+    <AnnotationProperty rdf:about="http://www.semanticweb.org/Group04/ontology#hasLongitude"/>
+    
+
+
+    <!-- http://www.semanticweb.org/Group04/ontology#hasName -->
+
+
+    <AnnotationProperty rdf:about="http://www.semanticweb.org/Group04/ontology#hasName"/>
+    
+
+
+    <!-- http://www.semanticweb.org/Group04/ontology#hasType -->
+
+
+    <AnnotationProperty rdf:about="http://www.semanticweb.org/Group04/ontology#hasType"/>
+    
+
+
+    <!-- http://www.semanticweb.org/Group04/ontology#isAccesible -->
+
+
+    <AnnotationProperty rdf:about="http://www.semanticweb.org/Group04/ontology#isAccesible"/>
+    
+
+
+    <!-- http://www.semanticweb.org/Group04/ontology#isInDistrict -->
+
+
+    <AnnotationProperty rdf:about="http://www.semanticweb.org/Group04/ontology#isInDistrict"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://es.dbpedia.org/page/Barrios_de_Madrid -->
+
+
+    <rdfs:Datatype rdf:about="http://es.dbpedia.org/page/Barrios_de_Madrid"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/Group04/ontology#Parking -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/Group04/ontology#Parking"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://dbpedia.org/resource/Centro -->
+
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Centro">
+        <sameAs rdf:resource="http://semanticweb.org/Group04/CENTRO"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Moncloa-Aravaca -->
+
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Moncloa-Aravaca">
+        <sameAs rdf:resource="http://semanticweb.org/Group04/MONCLOA-ARAVACA"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Moratalaz -->
+
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Moratalaz">
+        <sameAs rdf:resource="http://semanticweb.org/Group04/MORATALAZ"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Retiro -->
+
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Retiro">
+        <sameAs rdf:resource="http://semanticweb.org/Group04/RETIRO"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://es.dbpedia.org/resource/Chamartin -->
+
+
+    <NamedIndividual rdf:about="http://es.dbpedia.org/resource/Chamartin">
+        <sameAs rdf:resource="http://semanticweb.org/Group04/CHAMARTIN"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://es.dbpedia.org/resource/Chamberi -->
+
+
+    <NamedIndividual rdf:about="http://es.dbpedia.org/resource/Chamberi">
+        <sameAs rdf:resource="http://semanticweb.org/Group04/CHAMBERI"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://es.dbpedia.org/resource/Latina -->
+
+
+    <NamedIndividual rdf:about="http://es.dbpedia.org/resource/Latina">
+        <sameAs rdf:resource="http://semanticweb.org/Group04/LATINA"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://es.dbpedia.org/resource/Salamanca -->
+
+
+    <NamedIndividual rdf:about="http://es.dbpedia.org/resource/Salamanca">
+        <sameAs rdf:resource="http://semanticweb.org/Group04/SALAMANCA"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://es.dbpedia.org/resource/San_Blas_-_Canillejas -->
+
+
+    <NamedIndividual rdf:about="http://es.dbpedia.org/resource/San_Blas_-_Canillejas">
+        <sameAs rdf:resource="http://semanticweb.org/Group04/SAN+BLAS-CANILLEJAS"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://es.dbpedia.org/resource/Tetuan -->
+
+
+    <NamedIndividual rdf:about="http://es.dbpedia.org/resource/Tetuan">
+        <sameAs rdf:resource="http://semanticweb.org/Group04/TETUAN"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://es.dbpedia.org/resource/Categoría:Ciudad_Lineal -->
+
+
+    <NamedIndividual rdf:about="http://es.dbpedia.org/resource/Categoría:Ciudad_Lineal">
+        <sameAs rdf:resource="http://semanticweb.org/Group04/CIUDAD+LINEAL"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/CENTRO -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/CENTRO"/>
+    
+
+
+    <!-- http://semanticweb.org/Group04/CHAMARTIN -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/CHAMARTIN"/>
+    
+
+
+    <!-- http://semanticweb.org/Group04/CHAMBERI -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/CHAMBERI"/>
+    
+
+
+    <!-- http://semanticweb.org/Group04/LATINA -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/LATINA"/>
+    
+
+
+    <!-- http://semanticweb.org/Group04/MONCLOA-ARAVACA -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/MONCLOA-ARAVACA"/>
+    
+
+
+    <!-- http://semanticweb.org/Group04/MORATALAZ -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/MORATALAZ"/>
+    
+
+
+    <!-- http://semanticweb.org/Group04/RETIRO -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/RETIRO"/>
+    
+
+
+    <!-- http://semanticweb.org/Group04/SALAMANCA -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/SALAMANCA"/>
+    
+
+
+    <!-- http://semanticweb.org/Group04/TETUAN -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/TETUAN"/>
+    
+
+
+    <!-- http://semanticweb.org/Group04/CIUDAD+LINEAL -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/CIUDAD+LINEAL"/>
+    
+
+
+    <!-- http://semanticweb.org/Group04/SAN+BLAS-CANILLEJAS -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/SAN+BLAS-CANILLEJAS"/>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=a284ff632081c010VgnVCM1000000b205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=a284ff632081c010VgnVCM1000000b205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40.43432235224971</ontology:hasLatitude>
+        <ontology:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-3.6700799322371056</ontology:hasLongitude>
+        <ontology:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aparcamiento mixto. San Cayetano</ontology:hasName>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas : 222 p�blicas y 261 para residentes  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInDistrict rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">SALAMANCA</ontology:isInDistrict>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=a50e15cbed51c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=a50e15cbed51c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40.426687899755734</ontology:hasLatitude>
+        <ontology:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-3.6996173701222492</ontology:hasLongitude>
+        <ontology:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aparcamiento mixto. Arquitecto Ribera</ontology:hasName>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas:  318 p�blicas y 298 para residentes  Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad:  Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInDistrict rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">CENTRO</ontology:isInDistrict>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=a5777339ae51c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=a5777339ae51c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40.42518540300912</ontology:hasLatitude>
+        <ontology:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-3.6887800207651495</ontology:hasLongitude>
+        <ontology:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aparcamiento p�blico. Plaza de Col�n</ontology:hasName>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas : 605  Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad : Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</ontology:isAccesible>
+        <ontology:isInDistrict rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">SALAMANCA</ontology:isInDistrict>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=aa667339ae51c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=aa667339ae51c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40.42955928333471</ontology:hasLatitude>
+        <ontology:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-3.719111078507027</ontology:hasLongitude>
+        <ontology:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aparcamiento p�blico. Marqu�s de Urquijo</ontology:hasName>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas : 482  Abierto 24 horas  Admite Tarjeta BonoRed</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInDistrict rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">MONCLOA-ARAVACA</ontology:isInDistrict>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=aabe6545f951c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=aabe6545f951c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40.45887037458626</ontology:hasLatitude>
+        <ontology:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-3.6765275895176677</ontology:hasLongitude>
+        <ontology:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aparcamiento mixto. Rep�blica Dominicana</ontology:hasName>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas : 892 p�blicas y 203 para residentes  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInDistrict rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">CHAMARTIN</ontology:isInDistrict>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=b74e6545f951c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=b74e6545f951c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40.444421820483264</ontology:hasLatitude>
+        <ontology:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-3.666902094780133</ontology:hasLongitude>
+        <ontology:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aparcamiento mixto. Coraz�n de Mar�a II</ontology:hasName>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas : 327 p�blicas y 750 para residentes   Informacion sobre accesibilidad:   No tiene escalera adaptada  No tiene ascensor de salida a calle  2 aseos accesibles ( 1&amp;ordf;  planta)   Plazas para minusv�lidos residentes: 6     Abierto 24 horas    Titularidad : Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInDistrict rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">CHAMARTIN</ontology:isInDistrict>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=bc096f1c35d15410VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=bc096f1c35d15410VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40.43059379257075</ontology:hasLatitude>
+        <ontology:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-3.688281097618061</ontology:hasLongitude>
+        <ontology:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aparcamiento mixto. Serrano II</ontology:hasName>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas : 379 p�blicas y 794 para residentes  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInDistrict rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">SALAMANCA</ontology:isInDistrict>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=bd61f94ae1d15410VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=bd61f94ae1d15410VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40.43289700914247</ontology:hasLatitude>
+        <ontology:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-3.6857697780390155</ontology:hasLongitude>
+        <ontology:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aparcamiento mixto. Serrano I</ontology:hasName>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas : 307 p�blicas y 831 para residentes  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInDistrict rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">SALAMANCA</ontology:isInDistrict>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=bdc7bdc85c01c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=bdc7bdc85c01c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40.44366224087455</ontology:hasLatitude>
+        <ontology:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-3.6782263814004565</ontology:hasLongitude>
+        <ontology:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aparcamiento p�blico. Museo de la Ciudad</ontology:hasName>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas:  147  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInDistrict rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">CHAMARTIN</ontology:isInDistrict>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=c313e26f2b3fc210VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=c313e26f2b3fc210VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40.411180021966345</ontology:hasLatitude>
+        <ontology:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-3.7378318857463158</ontology:hasLongitude>
+        <ontology:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aparcamiento mixto. Avenida de Portugal</ontology:hasName>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas:  433 p�blicas y 437 para residentes   Informacion sobre accesibilidad:   No tiene escalera adaptada  Tiene ascensor de salida a Avenida de Portugal, s/n  1 aseo accesible (nivel-3)  Plazas para minusv�lidos residentes: 20    Abierto 24 horas   Titularidad : Ayuntamiento de Madrid   Gesti�n : Empresa Municipal de Transportes (EMT) ( m�s informaci�n )</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInDistrict rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">LATINA</ontology:isInDistrict>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=c3e12c798651c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=c3e12c798651c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40.40581270738191</ontology:hasLatitude>
+        <ontology:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-3.652048809515808</ontology:hasLongitude>
+        <ontology:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aparcamiento mixto. Encuentro</ontology:hasName>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas:  104 p�blicas y 550 para residentes  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInDistrict rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">MORATALAZ</ontology:isInDistrict>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=c48f15cbed51c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=c48f15cbed51c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40.41444016371457</ontology:hasLatitude>
+        <ontology:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-3.70332112917586</ontology:hasLongitude>
+        <ontology:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aparcamiento mixto. Jacinto Benavente</ontology:hasName>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas:  285 p�blicas y 110 para residentes.   Plazas motos:  7.   Informaci�n sobre accesibilidad:    No tiene escaleras adaptadas  Ascensor con salida a la calle Jacinto benavente, s/n  1 aseo accesible Plaza para minusv�lidos residentes: 16   Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad:  Ayuntamiento de Madrid   Gesti�n:  Empresa Municipal de Transportes (EMT) ( m�s informaci�n )</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInDistrict rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">CENTRO</ontology:isInDistrict>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=c5f4bdc85c01c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=c5f4bdc85c01c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40.406792648617134</ontology:hasLatitude>
+        <ontology:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-3.7046086019457167</ontology:hasLongitude>
+        <ontology:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aparcamiento mixto. Casino de la Reina</ontology:hasName>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas:  135 p�blicas y 449 para residentes  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInDistrict rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">CENTRO</ontology:isInDistrict>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=cb5b1b2bb5b61310VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=cb5b1b2bb5b61310VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40.43046723981028</ontology:hasLatitude>
+        <ontology:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-3.6792137901324056</ontology:hasLongitude>
+        <ontology:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aparcamiento mixto. Marqu�s de Salamanca</ontology:hasName>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas : 360 p�blicas y 70 para residentes   Informaci�n sobre accesibilidad:    No tiene escaleras adaptadas  1 ascensor en la salida a la plaza del Marqu�s de Salamanca  1 aseo accesible en  2&amp;ordf;   planta  Plaza para minusv�lidos residentes: 14   Admite Tarjeta BonoRed   Abierto 24 horas    Titularidad : Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInDistrict rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">SALAMANCA</ontology:isInDistrict>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=d0712c798651c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=d0712c798651c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40.448394729978006</ontology:hasLatitude>
+        <ontology:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-3.7033919552673127</ontology:hasLongitude>
+        <ontology:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aparcamiento mixto. Hernani</ontology:hasName>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas:  115 p�blicas y 383 residentes   Informaci�n sobre accesibilidad:   No tiene escaleras adptadas  Ascensor de salida a la calle Hernai, 68  1 aseo accesible en 1&amp;ordf; planta  Plazas para minusv�lidos residentes. 3      Abierto 24 horas    Titularidad:  Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInDistrict rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">TETUAN</ontology:isInDistrict>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=d11f15cbed51c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=d11f15cbed51c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40.4243649253884</ontology:hasLatitude>
+        <ontology:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-3.684339253399854</ontology:hasLongitude>
+        <ontology:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aparcamiento mixto. Vel�zquez - Jorge Juan</ontology:hasName>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas:  549 p�blicas y 395 para residentes  Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad:  Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</ontology:isAccesible>
+        <ontology:isInDistrict rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">SALAMANCA</ontology:isInDistrict>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=d4f881eb5f51c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=d4f881eb5f51c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40.42018796139455</ontology:hasLatitude>
+        <ontology:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-3.69587231093941</ontology:hasLongitude>
+        <ontology:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aparcamiento p�blico. Plaza del Rey</ontology:hasName>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas : 160   Informaci�n sobre accesibilidad:    Si tiene escaleras adaptadas  1 ascensor  3 aseos accesibles (uno por planta): 8  Plaza para minusv�lidos residentes: 16   Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad : Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInDistrict rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">CENTRO</ontology:isInDistrict>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=db8bc2c6e051c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=db8bc2c6e051c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40.45852127134047</ontology:hasLatitude>
+        <ontology:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-3.78317943069732</ontology:hasLongitude>
+        <ontology:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aparcamiento mixto. Corona Boreal</ontology:hasName>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas : 120 p�blicas y 125 para residentes   Informaci�n sobre accesibilidad:   No tiene escaleras adaptadas  Ascensor de salida a la calle P�rez de Victoria  2 aseos accesibles (1&amp;ordf; planta)  Plazas para minusv�lidos residentes: 3     Abierto 24 horas    Titularidad : Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</ontology:isAccesible>
+        <ontology:isInDistrict rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">MONCLOA-ARAVACA</ontology:isInDistrict>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=e3077339ae51c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=e3077339ae51c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40.431991827319116</ontology:hasLatitude>
+        <ontology:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-3.683449815935094</ontology:hasLongitude>
+        <ontology:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aparcamiento p�blico. Vel�zquez - Juan Bravo</ontology:hasName>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas:  371  Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad:  Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</ontology:isAccesible>
+        <ontology:isInDistrict rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">SALAMANCA</ontology:isInDistrict>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=e499946be351c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=e499946be351c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40.4209564450911</ontology:hasLatitude>
+        <ontology:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-3.699899832865304</ontology:hasLongitude>
+        <ontology:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aparcamiento mixto. V�zquez de Mella</ontology:hasName>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas:  107 p�blicas y 261 para residentes.   Plazas motos:  6.   Informaci�n sobre accesibilidad:   No tiene escaleras adaptadas  1 ascensor con salida a la Plaza de Vazquez de Mella  1 aseo accesible  Plaza para minusv�lidos residentes: 7     Abierto 24 horas    Titularidad:  Ayuntamiento de Madrid   Gesti�n:  Empresa Municipal de Transportes (EMT) ( m�s informaci�n )</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInDistrict rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">CENTRO</ontology:isInDistrict>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=ed88f25e040c4410VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=ed88f25e040c4410VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40.44426892073378</ontology:hasLatitude>
+        <ontology:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-3.6777018495296048</ontology:hasLongitude>
+        <ontology:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aparcamiento p�blico. Auditorio Nacional de M�sica (Pr�ncipe de Vergara)</ontology:hasName>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas:  376  Abierto 24 horas  Admite la Tarjeta Bono Red   Titularidad:  Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</ontology:isAccesible>
+        <ontology:isInDistrict rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">CHAMARTIN</ontology:isInDistrict>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=ee9e15cbed51c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=ee9e15cbed51c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40.45673936450418</ontology:hasLatitude>
+        <ontology:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-3.694067405537416</ontology:hasLongitude>
+        <ontology:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aparcamiento mixto. General Yag�e</ontology:hasName>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas:  409 p�blicas y 717 residentes  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInDistrict rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">TETUAN</ontology:isInDistrict>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=eee35ed15bb95210VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=eee35ed15bb95210VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40.45973534025835</ontology:hasLatitude>
+        <ontology:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-3.6962330375922363</ontology:hasLongitude>
+        <ontology:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aparcamiento mixto. Orense</ontology:hasName>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas : 128 p�blicas y 663 para residentes   Informaci�n sobre accesibilidad:   1 escalera adaptada  No dispone de ascensor  1 aseo accesible  Plaza para minusv�lidos residentes: 5     Abierto 24 horas    Titularidad : Ayuntamiento de Madrid   Gesti�n:  Empresa Municipal de Transportes (EMT) ( m�s informaci�n )</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInDistrict rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">TETUAN</ontology:isInDistrict>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=f0967339ae51c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=f0967339ae51c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40.41802725000116</ontology:hasLatitude>
+        <ontology:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-3.691123387515545</ontology:hasLongitude>
+        <ontology:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aparcamiento p�blico. Montalb�n</ontology:hasName>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas:  275  Abierto 24 horas  Admite Tarjet BonoRed   Titularidad:  Ayuntamiento de Madrid   Gesti�n:  Empresa Municipal de Transportes (EMT) ( m�s informaci�n )</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</ontology:isAccesible>
+        <ontology:isInDistrict rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">RETIRO</ontology:isInDistrict>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=fb2e15cbed51c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=fb2e15cbed51c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40.45610834965894</ontology:hasLatitude>
+        <ontology:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-3.694131675088486</ontology:hasLongitude>
+        <ontology:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aparcamiento mixto. Brasil</ontology:hasName>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas:  226 p�blicas y 400 para residentes  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInDistrict rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">TETUAN</ontology:isInDistrict>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=fb977339ae51c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=fb977339ae51c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40.42372251184839</ontology:hasLatitude>
+        <ontology:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-3.7116577340508523</ontology:hasLongitude>
+        <ontology:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aparcamiento p�blico. Plaza de Espa�a</ontology:hasName>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas : 800 (hasta 535 abonados)  Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad : Ayuntamiento de Madrid   Gesti�n : Empresa Municipal de Transportes (EMT) ( m�s informaci�n )</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInDistrict rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">MONCLOA-ARAVACA</ontology:isInDistrict>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=fe0881eb5f51c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=fe0881eb5f51c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40.4227759148193</ontology:hasLatitude>
+        <ontology:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-3.708830424647755</ontology:hasLongitude>
+        <ontology:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aparcamiento p�blico. Mostenses</ontology:hasName>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas:  362   Informaci�n sobre accesibilidad:    No tiene escaleras adaptadas  1 ascensor  1 aseo accesible en  2&amp;ordf;   planta  Plaza para minusv�lidos residentes: 16    Abierto 24 horas    Admite Tarjeta BonoRed     Titularidad:  Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</ontology:isAccesible>
+        <ontology:isInDistrict rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">CENTRO</ontology:isInDistrict>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=0e167339ae51c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=0e167339ae51c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40.43030345785862</ontology:hasLatitude>
+        <ontology:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-3.6931471299523446</ontology:hasLongitude>
+        <ontology:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aparcamiento p�blico. Almagro</ontology:hasName>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas : 462   Informacion sobre accesibilidad:    1 escalera adaptada  No tiene ascensor de salida a calle  1 aseo accesible  Plazas para minusv�lidos residentes: 17   Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad : Ayuntamiento de Madrid   Gesti�n : Empresa Municipal de Transportes (EMT) ( m�s informaci�n )</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInDistrict rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">CHAMBERI</ontology:isInDistrict>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=0e6e6545f951c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=0e6e6545f951c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40.406002468696784</ontology:hasLatitude>
+        <ontology:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-3.669292239090564</ontology:hasLongitude>
+        <ontology:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aparcamiento p�blico. Fern�ndez Shaw</ontology:hasName>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas : 245  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInDistrict rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">RETIRO</ontology:isInDistrict>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=0f85bdc85c01c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=0f85bdc85c01c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40.40531540835356</ontology:hasLatitude>
+        <ontology:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-3.683557034656531</ontology:hasLongitude>
+        <ontology:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aparcamiento mixto. Dao�z y Velarde</ontology:hasName>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas:  312 p�blicas y 174 para residentes  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInDistrict rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">RETIRO</ontology:isInDistrict>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=1c15bdc85c01c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=1c15bdc85c01c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40.4402052387976</ontology:hasLatitude>
+        <ontology:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-3.625049272913964</ontology:hasLongitude>
+        <ontology:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aparcamiento mixto. Miguel Yuste</ontology:hasName>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas:  182  p�blicas y 68 para residentes  Abierto: 24 horas  Admite Tarjeta BonoRed   Titularidad:  Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInDistrict rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">SAN BLAS-CANILLEJAS</ontology:isInDistrict>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=2b1981eb5f51c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=2b1981eb5f51c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40.41586882022003</ontology:hasLatitude>
+        <ontology:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-3.706895619414367</ontology:hasLongitude>
+        <ontology:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aparcamiento p�blico. Plaza Mayor</ontology:hasName>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas : 694  Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad : Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInDistrict rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">CENTRO</ontology:isInDistrict>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=27912c798651c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=27912c798651c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40.40917205238472</ontology:hasLatitude>
+        <ontology:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-3.6940145592988043</ontology:hasLongitude>
+        <ontology:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aparcamiento mixto. S�nchez Bustillo</ontology:hasName>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas : 132 p�blicas y 408 para residentes  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInDistrict rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">CENTRO</ontology:isInDistrict>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=283f15cbed51c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=283f15cbed51c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40.42054469225109</ontology:hasLatitude>
+        <ontology:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-3.691974283683488</ontology:hasLongitude>
+        <ontology:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aparcamiento mixto. Recoletos</ontology:hasName>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas : 102 p�blicas y 289 para residentes   Informaci�n sobre accesibilidad:    No tiene escaleras adaptadas  1 ascensor en la salida al Paseo de Recoletos  1 aseo accesible  Plaza para minusv�lidos residentes: 10    Abierto 24 horas   Admite Tarjeta BonoRed   Titularidad : Ayuntamiento de Madrid   Gesti�n:  Empresa Municipal de Transportes (EMT) ( m�s informaci�n )</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInDistrict rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">SALAMANCA</ontology:isInDistrict>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=3f3bc2c6e051c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=3f3bc2c6e051c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40.43886083125741</ontology:hasLatitude>
+        <ontology:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-3.6766217383743345</ontology:hasLongitude>
+        <ontology:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aparcamiento mixto. Avenida de Am�rica (intercambiador)</ontology:hasName>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Informaci�n sobre accesibilidad :  Tiene escaleras adaptadas  Ascensor de salida a la calle Avenida de Am�rica, 9  Tiene aseos accesibles  Plazas para minusv�lidos     Plazas : 269 p�blicas y 392 para residentes   Abierto 24 horas    Titularidad : Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInDistrict rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">CHAMARTIN</ontology:isInDistrict>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=35ce15cbed51c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=35ce15cbed51c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40.46451060463543</ontology:hasLatitude>
+        <ontology:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-3.6916467875121377</ontology:hasLongitude>
+        <ontology:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aparcamiento mixto. Jos� Cast�n Tobe�as</ontology:hasName>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas:  205 p�blicas y 43 para residentes   Informaci�n sobre accesibilidad:   No tiene escaleras adaptadas  No disponde ascensor  No disponde de aseos accesible  Plazas para minusv�lidos residentes: 5     Abierto 24 horas    Titularidad:  Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInDistrict rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">TETUAN</ontology:isInDistrict>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=38a881eb5f51c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=38a881eb5f51c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40.42533530030625</ontology:hasLatitude>
+        <ontology:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-3.6923416648619947</ontology:hasLongitude>
+        <ontology:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aparcamiento p�blico. Villa de Par�s</ontology:hasName>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas rotaci�n:  169   Plazas motos:  2    Informaci�n sobre accesibilidad:    No tiene escaleras adaptadas  No disponde de ascensor  1 aseo accesible  Plaza para minusv�lidos residentes: 13    Abierto 24 horas    Admite Tarjeta BonoRed    Titularidad:  Ayuntamiento de Madrid   Gesti�n:  Empresa Municipal de Transportes (EMT) ( m�s informaci�n )</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</ontology:isAccesible>
+        <ontology:isInDistrict rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">CENTRO</ontology:isInDistrict>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=42c77339ae51c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=42c77339ae51c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40.41576756093728</ontology:hasLatitude>
+        <ontology:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-3.695367083138702</ontology:hasLongitude>
+        <ontology:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aparcamiento p�blico. Las Cortes</ontology:hasName>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas : 480  Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad : Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</ontology:isAccesible>
+        <ontology:isInDistrict rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">Centro</ontology:isInDistrict>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=425e15cbed51c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=425e15cbed51c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40.42422175692137</ontology:hasLatitude>
+        <ontology:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-3.673433652213169</ontology:hasLongitude>
+        <ontology:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aparcamiento mixto. Felipe II</ontology:hasName>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas : 1218 p�blicas y 607 para residentes   Plazas : 120 p�blicas y 125 para residentes   Informaci�n sobre accesibilidad:    No tiene escaleras adaptadas  Ascensor de salida a la plaza de Felipe II  Aseo accesible (1&amp;ordf; planta)  Plazas para minusv�lidos residentes:23    Abierto 24 horas    Admite tarjeta BonoRed    Titularidad : Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInDistrict rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">SALAMANCA</ontology:isInDistrict>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=453881eb5f51c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=453881eb5f51c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40.43277769820206</ontology:hasLatitude>
+        <ontology:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-3.7011542013121264</ontology:hasLongitude>
+        <ontology:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aparcamiento p�blico. Olavide</ontology:hasName>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas : 397    Informaci�n sobre accesibilidad:    Disponde de escaleras adaptadas  1 ascensor en la salida a la Plaza de Olavide  1 aseo accesible en la  1&amp;ordf;   planta  Plaza para minusv�lidos residentes: 8   Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad : Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInDistrict rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">CHAMBERI</ontology:isInDistrict>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=5f477339ae51c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=5f477339ae51c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40.40745328367243</ontology:hasLatitude>
+        <ontology:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-3.7100131737859567</ontology:hasLongitude>
+        <ontology:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aparcamiento p�blico. Glorieta Puerta de Toledo</ontology:hasName>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas:  244  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</ontology:isAccesible>
+        <ontology:isInDistrict rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">CENTRO</ontology:isInDistrict>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=54467339ae51c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=54467339ae51c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40.4214535549175</ontology:hasLatitude>
+        <ontology:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-3.705563118253955</ontology:hasLongitude>
+        <ontology:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aparcamiento p�blico. Luna - Tudescos</ontology:hasName>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas : 481  Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad : Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</ontology:isAccesible>
+        <ontology:isInDistrict rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">CENTRO</ontology:isInDistrict>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=6245bdc85c01c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=6245bdc85c01c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40.43992277144076</ontology:hasLatitude>
+        <ontology:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-3.656505118007155</ontology:hasLongitude>
+        <ontology:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aparcamiento mixto. Verdaguer y Garc�a</ontology:hasName>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas:  83 p�blicas y 180 para residentes   Informaci�n sobre accesibilidad:   No tiene escaleras adaptadas  1 ascensor en la salida a la Calle Verdaguer y garc�a  1 aseo accesible en la planta -1  Plaza para minusv�lidos residentes: 4     Abierto 24 horas    Titularidad:  Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInDistrict rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">CIUDAD LINEAL</ontology:isInDistrict>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=7db12c798651c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=7db12c798651c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40.417632509561116</ontology:hasLatitude>
+        <ontology:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-3.7116407088004757</ontology:hasLongitude>
+        <ontology:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aparcamiento mixto. Plaza de Oriente</ontology:hasName>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas : 242 p�blicas y 511 para residentes  Abierto 24 horas  Admite Tarjeta BonoRed  Este PAR est� adherido a la zona de APR   Titularidad : Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInDistrict rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">CENTRO</ontology:isInDistrict>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=7e5f15cbed51c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=7e5f15cbed51c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40.44938567948415</ontology:hasLatitude>
+        <ontology:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-3.7019164121880888</ontology:hasLongitude>
+        <ontology:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aparcamiento mixto. Condesa de Gavia</ontology:hasName>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas : 73 p�blicas y 79 para residentes   Abierto 24 horas   Titularidad : Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInDistrict rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">TETUAN</ontology:isInDistrict>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=8a412c798651c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=8a412c798651c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40.45362846199134</ontology:hasLatitude>
+        <ontology:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-3.6975262417380064</ontology:hasLongitude>
+        <ontology:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aparcamiento mixto. Presidente Carmona</ontology:hasName>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas : 379 p�blicas y 124 para residentes  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInDistrict rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">TETUAN</ontology:isInDistrict>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=8bee15cbed51c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=8bee15cbed51c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40.427203787185476</ontology:hasLatitude>
+        <ontology:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-3.6841676172873936</ontology:hasLongitude>
+        <ontology:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aparcamiento mixto. Vel�zquez - Ayala</ontology:hasName>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas:  464 p�blicas y 235 para residentes  Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad:  Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInDistrict rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">SALAMANCA</ontology:isInDistrict>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=8ec881eb5f51c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=8ec881eb5f51c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40.41848676016168</ontology:hasLatitude>
+        <ontology:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-3.703068586180966</ontology:hasLongitude>
+        <ontology:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aparcamiento p�blico. Plaza del Carmen</ontology:hasName>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas:  450   Informaci�n sobre accesibilidad:    No tiene escaleras adaptadas  1 ascensor  1 aseo accesible en   1&amp;ordf;   planta  Plaza para minusv�lidos residentes: 7    Abierto 24 horas    Admite Tarjeta BonoRed    Titularidad:  Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInDistrict rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">CENTRO</ontology:isInDistrict>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=9a1c6f1c35d15410VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=9a1c6f1c35d15410VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40.42446775888825</ontology:hasLatitude>
+        <ontology:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-3.6897747066093993</ontology:hasLongitude>
+        <ontology:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aparcamiento mixto. Serrano III</ontology:hasName>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas : 261 p�blicas y 725 para residentes  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInDistrict rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">SALAMANCA</ontology:isInDistrict>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=9b5881eb5f51c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=9b5881eb5f51c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40.41487830605113</ontology:hasLatitude>
+        <ontology:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-3.700897645451053</ontology:hasLongitude>
+        <ontology:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aparcamiento p�blico. Santa Ana</ontology:hasName>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas:  325   Informaci�n sobre accesibilidad:    No tiene escaleras adaptadas  1 ascensor  1 aseo accesible en  1&amp;ordf;  planta  Plaza para minusv�lidos residentes: 6    Abierto 24 horas    Admite Tarjeta BonoRed    Titularidad:  Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</ontology:isAccesible>
+        <ontology:isInDistrict rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">CENTRO</ontology:isInDistrict>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=9dd67339ae51c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=9dd67339ae51c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40.41780383567921</ontology:hasLatitude>
+        <ontology:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-3.6998082261071747</ontology:hasLongitude>
+        <ontology:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aparcamiento mixto. Sevilla</ontology:hasName>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas : 476 p�blicas y 70 para residentes  Abierto 24 horas  Admite Tarjeta BonoRed    Titularidad : Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInDistrict rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">CENTRO</ontology:isInDistrict>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=9e69946be351c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=9e69946be351c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40.434415601006386</ontology:hasLatitude>
+        <ontology:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-3.675728293375598</ontology:hasLongitude>
+        <ontology:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aparcamiento mixto. D�az Porlier</ontology:hasName>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas:  203 p�blicas y 421 para residentes  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInDistrict rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">SALAMANCA</ontology:isInDistrict>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=975b89a80c49e510VgnVCM1000001d4a900aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=975b89a80c49e510VgnVCM1000001d4a900aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40.434154</ontology:hasLatitude>
+        <ontology:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-3.598831</ontology:hasLongitude>
+        <ontology:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aparcamiento p�blico disuasorio Estadio Metropolitano Sur ES-02b</ontology:hasName>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas :   para autom�viles 1719  para motocicletas 61</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInDistrict rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">SAN BLAS-CANILLEJAS</ontology:isInDistrict>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=98e77339ae51c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=98e77339ae51c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40.41809765692244</ontology:hasLatitude>
+        <ontology:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-3.706306013191402</ontology:hasLongitude>
+        <ontology:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aparcamiento p�blico. Descalzas</ontology:hasName>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas:  400   Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad:  Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</ontology:isAccesible>
+        <ontology:isInDistrict rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">CENTRO</ontology:isInDistrict>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=987e15cbed51c010VgnVCM2000000c205a0aRCRD -->
+
+
+    <NamedIndividual rdf:about="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=987e15cbed51c010VgnVCM2000000c205a0aRCRD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40.42948845687032</ontology:hasLatitude>
+        <ontology:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-3.7027941027177986</ontology:hasLongitude>
+        <ontology:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aparcamiento mixto. Fuencarral</ontology:hasName>
+        <ontology:hasType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plazas : 410 p�blicas y 111 para residentes   Informaci�n sobre accesibilidad:    No tiene escalera adaptada  1 ascensor con salida a la calle Fuencarral, 117  1 aseo accesible en la 1&amp;ordf; planta  Plazas para minusv�lidos residentes: 7    Abierto 24 horas    Admite Tarjeta BonoRed    Titularidad : Ayuntamiento de Madrid</ontology:hasType>
+        <ontology:isAccesible rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</ontology:isAccesible>
+        <ontology:isInDistrict rdf:datatype="http://es.dbpedia.org/page/Barrios_de_Madrid">CHAMBERI</ontology:isInDistrict>
+    </NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.0) https://github.com/owlcs/owlapi/ -->
+
+

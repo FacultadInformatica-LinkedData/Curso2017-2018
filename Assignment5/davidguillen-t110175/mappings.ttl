@@ -1,0 +1,119 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix ontology: <http://www.semanticweb.org/2017dguillen89/assignment5/ontology#>.
+@prefix instances: <http://www.semanticweb.org/2017dguillen89/assignment5/individuals/>.
+@base <http://www.semanticweb.org/2017dguillen89/assignment5/>.
+
+<TriplesMapCity>
+	a rr:TriplesMap;
+	rr: logicalTable [rr:tableName "city"];
+	rr: subjectMap [rr:termType rr:IRI;
+		rr: template "http://www.semanticweb.org/2017dguillen89/assignment5/individuals/city/{ID}";
+		rr: class ontology:city];
+	rr:predicateObjectMap [
+		rr:predicateMap [ rr:constant ontology:hasCityPopulation ];
+		rr:objectMap [ rr:termType rr:Literal; rr:column "Population";];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [ rr:constant ontology:hasCityCountryCode ];
+		rr:objectMap [ rr:termType rr:Literal; rr:column "CountryCode";];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [ rr:constant ontology:hasCityName ];
+		rr:objectMap [ rr:termType rr:Literal; rr:column "Name";];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [ rr:constant ontology:hasDistrict ];
+		rr:objectMap [ rr:termType rr:Literal; rr:column "District";];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [ rr:constant ontology:hasID ];
+		rr:objectMap [ rr:termType rr:Literal; rr:column "ID";];
+	];
+<TriplesMapCountry>
+	a rr:TriplesMap;
+	rr: logicalTable [rr:tableName "country"];
+	rr: subjectMap [rr:termType rr:IRI;
+		rr: template "http://www.semanticweb.org/2017dguillen89/assignment5/individuals/country/{ID}";
+		rr: class instances:country];
+	rr:predicateObjectMap [
+		rr:predicateMap [ rr:constant ontology:hasCode ];
+		rr:objectMap [ rr:termType rr:Literal; rr:column "Code";];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [ rr:constant ontology:hasCountryName ];
+		rr:objectMap [ rr:termType rr:Literal; rr:column "Name";];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [ rr:constant ontology:hasContinent ];
+		rr:objectMap [ rr:termType rr:Literal; rr:column "Continent";];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [ rr:constant ontology:hasRegion ];
+		rr:objectMap [ rr:termType rr:Literal; rr:column "Region";];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [ rr:constant ontology:hasSurfaceArea ];
+		rr:objectMap [ rr:termType rr:Literal; rr:column "SurfaceArea";];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [ rr:constant ontology:hasIndepYear ];
+		rr:objectMap [ rr:termType rr:Literal; rr:column "IndepYear";];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [ rr:constant ontology:hasCountryPopulation ];
+		rr:objectMap [ rr:termType rr:Literal; rr:column "Population";];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [ rr:constant ontology:hasLifeExpectancy ];
+		rr:objectMap [ rr:termType rr:Literal; rr:column "LifeExpetancy";];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [ rr:constant ontology:hasGNP ];
+		rr:objectMap [ rr:termType rr:Literal; rr:column "GNP";];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [ rr:constant ontology:hasGNPOld ];
+		rr:objectMap [ rr:termType rr:Literal; rr:column "GNPOld";];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [ rr:constant ontology:hasLocalName ];
+		rr:objectMap [ rr:termType rr:Literal; rr:column "LocalName";];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [ rr:constant ontology:hasGovernmentForm ];
+		rr:objectMap [ rr:termType rr:Literal; rr:column "GovernmentForm";];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [ rr:constant ontology:hasHeadOfState ];
+		rr:objectMap [ rr:termType rr:Literal; rr:column "HeadOfState";];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [ rr:constant ontology:hasCapital ];
+		rr:objectMap [ rr:termType rr:Literal; rr:column "Capital";];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [ rr:constant ontology:hasCode2 ];
+		rr:objectMap [ rr:termType rr:Literal; rr:column "Code2";];
+	];
+<TriplesMapCountry>
+	a rr:TriplesMap;
+	rr: logicalTable [rr:tableName "countrylanguage"];
+	rr: subjectMap [rr:termType rr:IRI;
+		rr: template "http://www.semanticweb.org/2017dguillen89/assignment5/individuals/countrylanguage/{ID}";
+		rr: class instances:countrylanguage];
+	rr:predicateObjectMap [
+		rr:predicateMap [ rr:constant ontology:hasLanguageCountryCode ];
+		rr:objectMap [ rr:termType rr:Literal; rr:column "CountryCode";];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [ rr:constant ontology:hasLanguage ];
+		rr:objectMap [ rr:termType rr:Literal; rr:column "Language";];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [ rr:constant ontology:hasIsOfficial ];
+		rr:objectMap [ rr:termType rr:Literal; rr:column "IsOfficial";];
+	];
+	rr:predicateObjectMap [
+		rr:predicateMap [ rr:constant ontology:hasPercentage ];
+		rr:objectMap [ rr:termType rr:Literal; rr:column "Percentage";];
+	];

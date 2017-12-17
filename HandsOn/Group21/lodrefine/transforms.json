@@ -1,0 +1,249 @@
+[
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column HORAS_TOTALES_USOS_BICICLETAS using expression grel:replace(value,\".\",\"\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "HORAS_TOTALES_USOS_BICICLETAS",
+    "expression": "grel:replace(value,\".\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column HORAS_TOTALES_USOS_BICICLETAS using expression grel:replace(value,\",\",\".\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "HORAS_TOTALES_USOS_BICICLETAS",
+    "expression": "grel:replace(value,\",\",\".\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column HORAS_TOTALES_USOS_BICICLETAS using expression value.toNumber()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "HORAS_TOTALES_USOS_BICICLETAS",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column HORAS_TOTALES_DISPONIBILIDAD_BICICLETAS_EN _ANCLAJES using expression grel:replace(value,\".\",\"\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "HORAS_TOTALES_DISPONIBILIDAD_BICICLETAS_EN _ANCLAJES",
+    "expression": "grel:replace(value,\".\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column HORAS_TOTALES_DISPONIBILIDAD_BICICLETAS_EN _ANCLAJES using expression grel:replace(value,\",\",\".\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "HORAS_TOTALES_DISPONIBILIDAD_BICICLETAS_EN _ANCLAJES",
+    "expression": "grel:replace(value,\",\",\".\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column HORAS_TOTALES_DISPONIBILIDAD_BICICLETAS_EN _ANCLAJES using expression value.toNumber()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "HORAS_TOTALES_DISPONIBILIDAD_BICICLETAS_EN _ANCLAJES",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TOTAL_HORAS_SERVICIO_BICICLETAS using expression grel:replace(value,\".\",\"\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TOTAL_HORAS_SERVICIO_BICICLETAS",
+    "expression": "grel:replace(value,\".\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TOTAL_HORAS_SERVICIO_BICICLETAS using expression grel:replace(value,\",\",\".\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TOTAL_HORAS_SERVICIO_BICICLETAS",
+    "expression": "grel:replace(value,\",\",\".\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TOTAL_HORAS_SERVICIO_BICICLETAS using expression value.toNumber()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TOTAL_HORAS_SERVICIO_BICICLETAS",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column MEDIA_BICICLETAS_DISPONIBLES using expression grel:replace(value,\".\",\"\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "MEDIA_BICICLETAS_DISPONIBLES",
+    "expression": "grel:replace(value,\".\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column MEDIA_BICICLETAS_DISPONIBLES using expression grel:replace(value,\",\",\".\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "MEDIA_BICICLETAS_DISPONIBLES",
+    "expression": "grel:replace(value,\",\",\".\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column MEDIA_BICICLETAS_DISPONIBLES using expression value.toNumber()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "MEDIA_BICICLETAS_DISPONIBLES",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column USOS_ABONADO_ANUAL using expression grel:replace(value,\".\",\"\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "USOS_ABONADO_ANUAL",
+    "expression": "grel:replace(value,\".\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column USOS_ABONADO_ANUAL using expression value.toNumber()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "USOS_ABONADO_ANUAL",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column USOS_ABONADO_OCASIONAL using expression grel:replace(value,\".\",\"\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "USOS_ABONADO_OCASIONAL",
+    "expression": "grel:replace(value,\".\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column USOS_ABONADO_OCASIONAL using expression value.toNumber()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "USOS_ABONADO_OCASIONAL",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TOTAL_USOS using expression grel:replace(value,\".\",\"\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TOTAL_USOS",
+    "expression": "grel:replace(value,\".\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TOTAL_USOS using expression value.toNumber()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TOTAL_USOS",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column DIA using expression value.toDate()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DIA",
+    "expression": "value.toDate()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  }
+]

@@ -1,0 +1,1643 @@
+[
+  {
+    "op": "core/column-addition",
+    "description": "Create column VIA_COMPLETE at index 3 based on column VIA_NAME using expression grel:cells[\"VIA_TYPE\"].value + \" \" + cells[\"VIA_INFIXE\"].value + \" \" + cells[\"VIA_NAME\"].value",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "newColumnName": "VIA_COMPLETE",
+    "columnInsertIndex": 3,
+    "baseColumnName": "VIA_NAME",
+    "expression": "grel:cells[\"VIA_TYPE\"].value + \" \" + cells[\"VIA_INFIXE\"].value + \" \" + cells[\"VIA_NAME\"].value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column VIA_COMPLETE_ACCENT at index 5 based on column VIA_NAME_WITH_ACCENT using expression grel:cells[\"VIA_TYPE\"].value + \" \" + cells[\"VIA_TYPE\"].value + \" \" +value",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "newColumnName": "VIA_COMPLETE_ACCENT",
+    "columnInsertIndex": 5,
+    "baseColumnName": "VIA_NAME_WITH_ACCENT",
+    "expression": "grel:cells[\"VIA_TYPE\"].value + \" \" + cells[\"VIA_TYPE\"].value + \" \" +value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "htpp://www.contaminacion-acustica-madrid.org/group10/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "hasType",
+              "curie": ":hasType",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_TYPE"
+              }
+            },
+            {
+              "uri": "hasInfixe",
+              "curie": ":hasInfixe",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_INFIXE"
+              }
+            },
+            {
+              "uri": "hasNameSituation",
+              "curie": ":hasNameSituation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_NAME"
+              }
+            },
+            {
+              "uri": "hasNameWithAccent",
+              "curie": ":hasNameWithAccent",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_COMPLETE"
+              }
+            },
+            {
+              "uri": "hasCompleteNameAccent",
+              "curie": ":hasCompleteNameAccent",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_COMPLETE_ACCENT"
+              }
+            },
+            {
+              "uri": "hasNumDistrictSituation",
+              "curie": ":hasNumDistrictSituation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRIT_CODE"
+              }
+            },
+            {
+              "uri": "hasNumNeighborhoodSituation",
+              "curie": ":hasNumNeighborhoodSituation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NEIGHB_CODE"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "htpp://www.contaminacion-acustica-madrid.org/group10/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "hasType",
+              "curie": ":hasType",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_TYPE"
+              }
+            },
+            {
+              "uri": "hasInfixe",
+              "curie": ":hasInfixe",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_INFIXE"
+              }
+            },
+            {
+              "uri": "hasNameSituation",
+              "curie": ":hasNameSituation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_NAME"
+              }
+            },
+            {
+              "uri": "hasNameWithAccent",
+              "curie": ":hasNameWithAccent",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_COMPLETE"
+              }
+            },
+            {
+              "uri": "hasCompleteNameAccent",
+              "curie": ":hasCompleteNameAccent",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_COMPLETE_ACCENT"
+              }
+            },
+            {
+              "uri": "hasNumDistrictSituation",
+              "curie": ":hasNumDistrictSituation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRIT_CODE"
+              }
+            },
+            {
+              "uri": "hasNumNeighborhoodSituation",
+              "curie": ":hasNumNeighborhoodSituation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NEIGHB_CODE"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "htpp://www.contaminacion-acustica-madrid.org/group10/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "hasType",
+              "curie": ":hasType",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_TYPE"
+              }
+            },
+            {
+              "uri": "hasInfixe",
+              "curie": ":hasInfixe",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_INFIXE"
+              }
+            },
+            {
+              "uri": "hasNameSituation",
+              "curie": ":hasNameSituation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_NAME"
+              }
+            },
+            {
+              "uri": "hasNameWithAccent",
+              "curie": ":hasNameWithAccent",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_COMPLETE"
+              }
+            },
+            {
+              "uri": "hasCompleteNameAccent",
+              "curie": ":hasCompleteNameAccent",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_COMPLETE_ACCENT"
+              }
+            },
+            {
+              "uri": "hasNumDistrictSituation",
+              "curie": ":hasNumDistrictSituation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRIT_CODE"
+              }
+            },
+            {
+              "uri": "hasNumNeighborhoodSituation",
+              "curie": ":hasNumNeighborhoodSituation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NEIGHB_CODE"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "htpp://www.contaminacion-acustica-madrid.org/group10/resource/Situation",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "hasType",
+              "curie": ":hasType",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_TYPE"
+              }
+            },
+            {
+              "uri": "hasInfixe",
+              "curie": ":hasInfixe",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_INFIXE"
+              }
+            },
+            {
+              "uri": "hasNameSituation",
+              "curie": ":hasNameSituation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_NAME"
+              }
+            },
+            {
+              "uri": "hasNameWithAccent",
+              "curie": ":hasNameWithAccent",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_COMPLETE"
+              }
+            },
+            {
+              "uri": "hasCompleteNameAccent",
+              "curie": ":hasCompleteNameAccent",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_COMPLETE_ACCENT"
+              }
+            },
+            {
+              "uri": "hasNumDistrictSituation",
+              "curie": ":hasNumDistrictSituation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRIT_CODE"
+              }
+            },
+            {
+              "uri": "hasNumNeighborhoodSituation",
+              "curie": ":hasNumNeighborhoodSituation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NEIGHB_CODE"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "htpp://www.contaminacion-acustica-madrid.org/group10/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "hasType",
+              "curie": ":hasType",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_TYPE"
+              }
+            },
+            {
+              "uri": "hasInfixe",
+              "curie": ":hasInfixe",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_INFIXE"
+              }
+            },
+            {
+              "uri": "hasNameSituation",
+              "curie": ":hasNameSituation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_NAME"
+              }
+            },
+            {
+              "uri": "hasNameWithAccent",
+              "curie": ":hasNameWithAccent",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_COMPLETE"
+              }
+            },
+            {
+              "uri": "hasCompleteNameAccent",
+              "curie": ":hasCompleteNameAccent",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_COMPLETE_ACCENT"
+              }
+            },
+            {
+              "uri": "hasNumDistrictSituation",
+              "curie": ":hasNumDistrictSituation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRIT_CODE"
+              }
+            },
+            {
+              "uri": "hasNumNeighborhoodSituation",
+              "curie": ":hasNumNeighborhoodSituation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NEIGHB_CODE"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "htpp://www.contaminacion-acustica-madrid.org/group10/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "resource",
+          "value": "Situation",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "hasType",
+              "curie": ":hasType",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_TYPE"
+              }
+            },
+            {
+              "uri": "hasInfixe",
+              "curie": ":hasInfixe",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_INFIXE"
+              }
+            },
+            {
+              "uri": "hasNameSituation",
+              "curie": ":hasNameSituation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_NAME"
+              }
+            },
+            {
+              "uri": "hasNameWithAccent",
+              "curie": ":hasNameWithAccent",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_COMPLETE"
+              }
+            },
+            {
+              "uri": "hasCompleteNameAccent",
+              "curie": ":hasCompleteNameAccent",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_COMPLETE_ACCENT"
+              }
+            },
+            {
+              "uri": "hasNumDistrictSituation",
+              "curie": ":hasNumDistrictSituation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRIT_CODE"
+              }
+            },
+            {
+              "uri": "hasNumNeighborhoodSituation",
+              "curie": ":hasNumNeighborhoodSituation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NEIGHB_CODE"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "htpp://www.contaminacion-acustica-madrid.org/group10/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "g10",
+          "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "VIA_COMPLETE",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "hasType",
+              "curie": ":hasType",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_TYPE"
+              }
+            },
+            {
+              "uri": "hasInfixe",
+              "curie": ":hasInfixe",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_INFIXE"
+              }
+            },
+            {
+              "uri": "hasNameSituation",
+              "curie": ":hasNameSituation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_NAME"
+              }
+            },
+            {
+              "uri": "hasNameWithAccent",
+              "curie": ":hasNameWithAccent",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_COMPLETE"
+              }
+            },
+            {
+              "uri": "hasCompleteNameAccent",
+              "curie": ":hasCompleteNameAccent",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_COMPLETE_ACCENT"
+              }
+            },
+            {
+              "uri": "hasNumDistrictSituation",
+              "curie": ":hasNumDistrictSituation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRIT_CODE"
+              }
+            },
+            {
+              "uri": "hasNumNeighborhoodSituation",
+              "curie": ":hasNumNeighborhoodSituation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NEIGHB_CODE"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column ID at index 4 based on column VIA_COMPLETE using expression grel:replace(cells[\"VIA_COMPLETE\"].value, \" \", \"_\")",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "newColumnName": "ID",
+    "columnInsertIndex": 4,
+    "baseColumnName": "VIA_COMPLETE",
+    "expression": "grel:replace(cells[\"VIA_COMPLETE\"].value, \" \", \"_\")",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "htpp://www.contaminacion-acustica-madrid.org/group10/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "g10",
+          "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "ID",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasType",
+              "curie": "g10:hasType",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_TYPE"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasInfixe",
+              "curie": "g10:hasInfixe",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_INFIXE"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameSituation",
+              "curie": "g10:hasNameSituation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_NAME"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameWithAccent",
+              "curie": "g10:hasNameWithAccent",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_COMPLETE"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasCompleteNameAccent",
+              "curie": "g10:hasCompleteNameAccent",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_COMPLETE_ACCENT"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumDistrictSituation",
+              "curie": "g10:hasNumDistrictSituation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRIT_CODE"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumNeighborhoodSituation",
+              "curie": "g10:hasNumNeighborhoodSituation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NEIGHB_CODE"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "htpp://www.contaminacion-acustica-madrid.org/group10/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "g10",
+          "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "ID",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasType",
+              "curie": "g10:hasType",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_TYPE"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasInfixe",
+              "curie": "g10:hasInfixe",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_INFIXE"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameSituation",
+              "curie": "g10:hasNameSituation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_NAME"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameWithAccent",
+              "curie": "g10:hasNameWithAccent",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_COMPLETE"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasCompleteNameAccent",
+              "curie": "g10:hasCompleteNameAccent",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_COMPLETE_ACCENT"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumDistrictSituation",
+              "curie": "g10:hasNumDistrictSituation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRIT_CODE"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumNeighborhoodSituation",
+              "curie": "g10:hasNumNeighborhoodSituation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NEIGHB_CODE"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "htpp://www.contaminacion-acustica-madrid.org/group10/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "g10",
+          "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "ID",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasType",
+              "curie": "g10:hasType",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_TYPE"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasInfixe",
+              "curie": "g10:hasInfixe",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_INFIXE"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameSituation",
+              "curie": "g10:hasNameSituation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_NAME"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameWithAccent",
+              "curie": "g10:hasNameWithAccent",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_COMPLETE"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasCompleteNameAccent",
+              "curie": "g10:hasCompleteNameAccent",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_COMPLETE_ACCENT"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumDistrictSituation",
+              "curie": "g10:hasNumDistrictSituation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRIT_CODE"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumNeighborhoodSituation",
+              "curie": "g10:hasNumNeighborhoodSituation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NEIGHB_CODE"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "htpp://www.contaminacion-acustica-madrid.org/group10/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "g10",
+          "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "ID",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasType",
+              "curie": "g10:hasType",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "xsd:string",
+                "columnName": "VIA_TYPE"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasInfixe",
+              "curie": "g10:hasInfixe",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_INFIXE"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameSituation",
+              "curie": "g10:hasNameSituation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_NAME"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameWithAccent",
+              "curie": "g10:hasNameWithAccent",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_COMPLETE"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasCompleteNameAccent",
+              "curie": "g10:hasCompleteNameAccent",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_COMPLETE_ACCENT"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumDistrictSituation",
+              "curie": "g10:hasNumDistrictSituation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRIT_CODE"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumNeighborhoodSituation",
+              "curie": "g10:hasNumNeighborhoodSituation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NEIGHB_CODE"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "htpp://www.contaminacion-acustica-madrid.org/group10/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "g10",
+          "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "ID",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasType",
+              "curie": "g10:hasType",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#string",
+                "columnName": "VIA_TYPE"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasInfixe",
+              "curie": "g10:hasInfixe",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_INFIXE"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameSituation",
+              "curie": "g10:hasNameSituation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_NAME"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameWithAccent",
+              "curie": "g10:hasNameWithAccent",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_COMPLETE"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasCompleteNameAccent",
+              "curie": "g10:hasCompleteNameAccent",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_COMPLETE_ACCENT"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumDistrictSituation",
+              "curie": "g10:hasNumDistrictSituation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRIT_CODE"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumNeighborhoodSituation",
+              "curie": "g10:hasNumNeighborhoodSituation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NEIGHB_CODE"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "htpp://www.contaminacion-acustica-madrid.org/group10/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "g10",
+          "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "ID",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasType",
+              "curie": "g10:hasType",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_TYPE"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasInfixe",
+              "curie": "g10:hasInfixe",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_INFIXE"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameSituation",
+              "curie": "g10:hasNameSituation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_NAME"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameWithAccent",
+              "curie": "g10:hasNameWithAccent",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_COMPLETE"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasCompleteNameAccent",
+              "curie": "g10:hasCompleteNameAccent",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_COMPLETE_ACCENT"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumDistrictSituation",
+              "curie": "g10:hasNumDistrictSituation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRIT_CODE"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumNeighborhoodSituation",
+              "curie": "g10:hasNumNeighborhoodSituation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NEIGHB_CODE"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "htpp://www.contaminacion-acustica-madrid.org/group10/resource/Situaciones/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "g10",
+          "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "ID",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasType",
+              "curie": "g10:hasType",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_TYPE"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasInfixe",
+              "curie": "g10:hasInfixe",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_INFIXE"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameSituation",
+              "curie": "g10:hasNameSituation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_NAME"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNameWithAccent",
+              "curie": "g10:hasNameWithAccent",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_COMPLETE"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasCompleteNameAccent",
+              "curie": "g10:hasCompleteNameAccent",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "VIA_COMPLETE_ACCENT"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumDistrictSituation",
+              "curie": "g10:hasNumDistrictSituation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRIT_CODE"
+              }
+            },
+            {
+              "uri": "htpp://www.contaminacion-acustica-madrid.org/group10/ontology#hasNumNeighborhoodSituation",
+              "curie": "g10:hasNumNeighborhoodSituation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NEIGHB_CODE"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  }
+]
