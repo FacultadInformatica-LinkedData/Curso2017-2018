@@ -12,7 +12,7 @@
 - [x] Uses a domain that is not the one given by default in Protégé
 - [x] Uses different paths for ontology resources (i.e., classes and properties) and individuals
 - [x] Ensures that the paths for individuals of different classes are not the same
-- [X] Defines property URIs independently of class URIs
+- [ ] Defines property URIs independently of class URIs
 
 **The ontology file:**
 
@@ -27,7 +27,7 @@
 - [x] Defines all class names starting with a capital letter
 - [x] Defines all property names starting with a non-capital letter
 - [x] Does not mix labels in different languages (e.g., Spanish and English)
-- [X] Does not define multiple domains or multiple ranges in properties
+- [ ] Does not define multiple domains or multiple ranges in properties
 - [x] Contains at least one class that will be used to link to other entities
 
 ##Comments on the self-assessment##
