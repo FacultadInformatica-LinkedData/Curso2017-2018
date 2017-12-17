@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+
+<rdf:RDF xmlns="http://www.semanticweb.org/ontologies/2015/10/Ontology1446654806529.owl#"
+     xml:base="http://www.semanticweb.org/ontologies/2015/10/Ontology1446654806529.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl2xml="http://www.w3.org/2006/12/owl2-xml#"
+     xmlns:Ontology1446654806529="http://www.semanticweb.org/ontologies/2015/10/Ontology1446654806529.owl#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about=""/>
+    
+
+
+    <!-- Data properties -->
+	
+    <owl:DatatypeProperty rdf:about="#hasName">
+        <rdfs:domain rdf:resource="#City"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+    <owl:DatatypeProperty rdf:about="#hasPopulation">
+        <rdfs:domain rdf:resource="#City"/>
+        <rdfs:domain rdf:resource="#Country"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!--  Classes  -->
+
+
+    <owl:Class rdf:about="#City"/>
+
+
+    <owl:Class rdf:about="#Country"/>
+</rdf:RDF>
+
+

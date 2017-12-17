@@ -1,0 +1,77 @@
+1) How many accidents were there in Madrid in 2013?
+
+PREFIX mv:<http://example.org/myVocabulary#> 
+
+SELECT (SUM(?accidentes) AS ?nAccidentes) WHERE {
+	?obs mv:numberOfAccidents ?accidentes
+}
+
+
+
+2) Give me the number of accidents in Usera for each type of accident
+
+PREFIX mv: <http://example.org/myVocabulary#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+
+SELECT ?Tipo ?numAccidentes WHERE {
+ ?obs a qb:Observation;
+   mv:relatedDistrict "USERA";
+   mv:numberOfAccidents ?numAccidentes;
+   mv:hasAccidentType ?tipoAccidente.
+
+ ?tipoAccidente skos:prefLabel ?Tipo
+}
+
+
+
+3) Give me the number of multiple collisions for each district
+
+PREFIX mv: <http://example.org/myVocabulary#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+
+SELECT ?Distrito ?numColisiones WHERE {
+ ?obs a qb:Observation;
+   mv:relatedDistrict ?Distrito;
+   mv:hasAccidentType mv:MultipleCollision;
+   mv:numberOfAccidents ?numColisiones.
+}
+
+
+
+4) Which is the district were the number of bicycle falls was higher in 2013?
+
+PREFIX mv: <http://example.org/myVocabulary#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+
+SELECT ?Distrito ?CaidasDeBicis WHERE {
+ ?obs a qb:Observation;
+   mv:relatedDistrict ?Distrito;
+   mv:hasAccidentType mv:BicycleFall;
+   mv:numberOfAccidents ?CaidasDeBicis.
+}
+ORDER BY DESC(?CaidasDeBicis) 
+LIMIT 1
+
+
+
+5)Give me the districts with more than 500 accidents in 2013
+
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX mv: <http://example.org/myVocabulary#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+
+SELECT ?Distrito ?numAccidentes WHERE {
+{
+ SELECT ?Distrito (SUM(xsd:double(?num)) AS ?numAccidentes) {
+ ?obs a qb:Observation;
+   mv:relatedDistrict ?Distrito;
+   mv:numberOfAccidents ?num.
+ }
+}
+FILTER (xsd:double(?numAccidentes) > 500)
+}
+ORDER BY DESC (?numAccidentes)

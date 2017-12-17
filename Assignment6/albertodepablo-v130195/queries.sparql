@@ -1,0 +1,66 @@
+Queries:
+
+ 1.- How many accidents were there in Madrid in 2013?
+ 
+   PREFIX mv: <http://example.org/myVocabulary#> 
+   PREFIX qb: <http://purl.org/linked-data/cube#>
+   
+   SELECT (SUM(?x) AS ?total) WHERE {
+   ?obs a qb:Observation;
+     mv:numberOfAccidents ?x. }
+  
+  
+ 2.- Give me the number of accidents in Usera for each type of accident  
+ 
+   PREFIX mv: <http://example.org/myVocabulary#> 
+   PREFIX qb: <http://purl.org/linked-data/cube#>
+   
+   SELECT ?tipo ?num WHERE {
+   ?obs a qb:Observation;
+     mv:numberOfAccidents ?num;
+     mv:relatedDistrict "USERA";
+     mv:hasAccidentType ?tipo. }
+     
+     
+ 3.- Give me the number of multiple collisions for each district
+ 
+    PREFIX mv: <http://example.org/myVocabulary#> 
+    PREFIX qb: <http://purl.org/linked-data/cube#>
+    
+    SELECT ?distrito ?nColisiones WHERE {
+    ?obs a qb:Observation;
+      mv:relatedDistrict ?distrito;
+      mv:hasAccidentType mv:MultipleCollision;
+      mv:numberOfAccidents ?nColisiones. }
+      
+      
+ 4.- Which is the district were the number of bicycle falls was higher in 2013? 
+ 
+    PREFIX mv: <http://example.org/myVocabulary#> 
+    PREFIX qb: <http://purl.org/linked-data/cube#>
+    
+    SELECT ?distrito ?max WHERE {
+    ?obs a qb:Observation;
+      mv:numberOfAccidents ?max;
+      mv:hasAccidentType mv:BicycleFall;
+      mv:relatedDistrict ?distrito.
+      {SELECT (MAX(?num) as ?max) WHERE{
+       ?obs a qb:Observation;
+         mv:numberOfAccidents ?num;
+         mv:hasAccidentType mv:BicycleFall. }
+      }
+     }
+     
+ 5.- Give me the districts with more than 500 accidents in 2013
+ 
+    PREFIX mv: <http://example.org/myVocabulary#> 
+    PREFIX qb: <http://purl.org/linked-data/cube#>
+    
+    SELECT ?distrito SUM(xsd:double(?num)) as ?total WHERE {
+    ?obs a qb:Observation;
+      mv:numberOfAccidents ?num;
+      mv:hasAccidentType ?type;
+      mv:relatedDistrict ?distrito.
+}
+HAVING (SUM(xsd:double(?num)) >= 500)
+    

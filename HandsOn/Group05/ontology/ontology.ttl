@@ -1,90 +1,67 @@
- @prefix owl: <http://www.w3.org/2002/07/owl#> .
- @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
- @prefix xml: <http://www.w3.org/XML/1998/namespace> .
- @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
- @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
- @prefix : <http://www.semanticweb.es/grupo05/ontology#> .
- 
- : rdf:type owl:Ontology . 
- 
- #################################################################
- #    Object Properties
- ################################################################# 
- 
- ###  http://www.semanticweb.es/grupo05/ontology#inLibrary
- :inLibrary	rdf:type owl:ObjectProperty ;
-            rdfs:domain :activity ;
-            rdfs:range :library .
- 
- 
- #################################################################
- #    Data properties
- #################################################################
- 
- ###  http://www.semanticweb.es/grupo05/ontology#hasName
- :hasName rdf:type owl:DatatypeProperty ;
-          rdfs:domain :library ;
-          rdfs:range xsd:string .
- 
- 
- ###  http://www.semanticweb.es/grupo05/ontology#hasSchedule
- :hasSchedule rdf:type owl:DatatypeProperty ;
-              rdfs:domain :library ;
-              rdfs:range xsd:string .
- 
- 
- ###  http://www.semanticweb.es/grupo05/ontology#hasAddress
- :hasAddress rdf:type owl:DatatypeProperty ;
-             rdfs:domain :library ;
-             rdfs:range xsd:string .
- 
- 
- ###  http://www.semanticweb.es/grupo05/ontology#hasPrice
- :hasTelephone rdf:type owl:DatatypeProperty ;
-               rdfs:domain :activity ;
+@prefix : <http://semanticweb.es/group05/ontology/pharmacies#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://semanticweb.es/group05/ontology/pharmacies#> .
+
+<http://semanticweb.es/group05/ontology/pharmacies> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://semanticweb.es/group05/ontology/pharmacies#locateIn
+:locateIn rdf:type owl:ObjectProperty ;
+        rdfs:domain :pharmacy ;
+        rdfs:range :Direction .
+
+
+###  http://semanticweb.es/group05/ontology/pharmacies#schedule
+:schedule rdf:type owl:DatatypeProperty ;
+         rdfs:domain :date ;
+         rdfs:range xsd:string .
+
+
+###  http://semanticweb.es/group05/ontology/pharmacies#belongsTo
+:belongsTo rdf:type owl:ObjectProperty ;
+            rdfs:domain :pharmacy ;
+            rdfs:range :District .
+
+
+###  http://semanticweb.es/group05/ontology/pharmacies#hasCode
+:hasCode rdf:type owl:DatatypeProperty ;
+               rdfs:domain :pharmacy ;
                rdfs:range xsd:string .
- 
- ###  http://www.semanticweb.es/grupo05/ontology#hasDistrict
- :hasEmail rdf:type owl:DatatypeProperty ;
-               rdfs:domain :library ;
+            
+               
+###  http://semanticweb.es/group05/ontology/pharmacies#hasTelephone
+:hasTelephone rdf:type owl:DatatypeProperty ;
+               rdfs:domain :pharmacy ;
                rdfs:range xsd:string .
-  
 
- ###  http://www.semanticweb.es/grupo05/ontology#hasTitle
- :hasTitle rdf:type owl:DatatypeProperty ;
-           rdfs:domain :activity ;
-           rdfs:range xsd:string .
- 
- 
- ###  http://www.semanticweb.es/grupo05/ontology#hasHour
- :hasHour rdf:type owl:DatatypeProperty ;
-          rdfs:domain :activity ;
-          rdfs:range xsd:string .
-					  
-					  
- ###  http://www.semanticweb.es/grupo05/ontology#dateStart
- :dateStart rdf:type owl:DatatypeProperty ;
-            rdfs:domain :activity ;
-            rdfs:range xsd:string .
 
- ###  http://www.semanticweb.es/grupo05/ontology#dateEnd
- :dateEnd rdf:type owl:DatatypeProperty ;
-          rdfs:domain :activity ;
-          rdfs:range xsd:string .
+### http://semanticweb.es/group05/ontology/pharmacies#isInDistrict
+:isIndistrict   rdf:type owl:ObjectProperty ;
+                rdfs:domain :direction ;
+                rdfs:range :District .
 
- ###  http://www.semanticweb.es/grupo05/ontology#url
- :url rdf:type owl:DatatypeProperty ;
-	  rdfs:domain :activity ;
-	  rdfs:range xsd:string .
-					  
- 
- #################################################################
- #    Classes
- #################################################################
- 
- ###  http://www.semanticweb.es/grupo05/ontology#library
- :library rdf:type owl:Class .
- 
- 
- ###  http://www.semanticweb.es/grupo05/ontology#activity
- :activity rdf:type owl:Class . 
+#################################################################
+#    Classes
+#################################################################
+
+###  http://semanticweb.es/group05/ontology/pharmacies#District
+:District rdf:type owl:Class .
+
+
+###  http://semanticweb.es/group05/ontology/pharmacies#Pharmacy
+:Pharmacy rdf:type owl:Class .
+
+
+###  http://semanticweb.es/group05/ontology/pharmacies#Locality
+:Locality rdf:type owl:Class .
+
+
+### http://semanticweb.es/group05/ontology/pharmacies#Direction
+:Direction rdf:type owl:Class .

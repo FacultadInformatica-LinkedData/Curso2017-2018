@@ -1,0 +1,3476 @@
+[
+    {
+        "op": "core/column-removal",
+        "description": "Remove column Column 3",
+        "columnName": "Column 3"
+    },
+    {
+        "op": "core/column-removal",
+        "description": "Remove column Column 5",
+        "columnName": "Column 5"
+    },
+    {
+        "op": "core/column-removal",
+        "description": "Remove column Column 6",
+        "columnName": "Column 6"
+    },
+    {
+        "op": "core/column-removal",
+        "description": "Remove column Column 14",
+        "columnName": "Column 14"
+    },
+    {
+        "op": "core/column-removal",
+        "description": "Remove column Column 15",
+        "columnName": "Column 15"
+    },
+    {
+        "op": "core/column-removal",
+        "description": "Remove column Column 16",
+        "columnName": "Column 16"
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "description": "Save RDF schema skeleton",
+        "schema": {
+            "baseUri": "http://semanticweb.org/Group04/",
+            "prefixes": [
+                {
+                    "name": "rdf",
+                    "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                },
+                {
+                    "name": "owl",
+                    "uri": "http://www.w3.org/2002/07/owl#"
+                },
+                {
+                    "name": "rdfs",
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#"
+                }
+            ],
+            "rootNodes": [
+                {
+                    "nodeType": "cell-as-resource",
+                    "expression": "value",
+                    "isRowNumberCell": true,
+                    "rdfTypes": [],
+                    "links": []
+                }
+            ]
+        }
+    },
+    {
+        "op": "core/text-transform",
+        "description": "Text transform on cells in column Column using expression grel:value",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "Column",
+        "expression": "grel:value",
+        "onError": "keep-original",
+        "repeat": false,
+        "repeatCount": 10
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "description": "Save RDF schema skeleton",
+        "schema": {
+            "baseUri": "http://semanticweb.org/Group04/resource",
+            "prefixes": [
+                {
+                    "name": "ont",
+                    "uri": "http://www.semanticweb.org/Group04/ontology#"
+                },
+                {
+                    "name": "rdf",
+                    "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                },
+                {
+                    "name": "owl",
+                    "uri": "http://www.w3.org/2002/07/owl#"
+                },
+                {
+                    "name": "rdfs",
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#"
+                }
+            ],
+            "rootNodes": [
+                {
+                    "nodeType": "cell-as-resource",
+                    "expression": "value",
+                    "isRowNumberCell": true,
+                    "rdfTypes": [],
+                    "links": []
+                }
+            ]
+        }
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "description": "Save RDF schema skeleton",
+        "schema": {
+            "baseUri": "http://semanticweb.org/Group04/resource",
+            "prefixes": [
+                {
+                    "name": "ont",
+                    "uri": "http://www.semanticweb.org/Group04/ontology#"
+                },
+                {
+                    "name": "rdf",
+                    "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                },
+                {
+                    "name": "owl",
+                    "uri": "http://www.w3.org/2002/07/owl#"
+                },
+                {
+                    "name": "rdfs",
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#"
+                }
+            ],
+            "rootNodes": [
+                {
+                    "nodeType": "cell-as-resource",
+                    "expression": "value",
+                    "isRowNumberCell": true,
+                    "rdfTypes": [],
+                    "links": []
+                }
+            ]
+        }
+    },
+    {
+        "op": "core/column-rename",
+        "description": "Rename column Column to PK",
+        "oldColumnName": "Column",
+        "newColumnName": "PK"
+    },
+    {
+        "op": "core/column-rename",
+        "description": "Rename column Column 2 to NAME",
+        "oldColumnName": "Column 2",
+        "newColumnName": "NAME"
+    },
+    {
+        "op": "core/column-rename",
+        "description": "Rename column Column 4 to SCHEDULE",
+        "oldColumnName": "Column 4",
+        "newColumnName": "SCHEDULE"
+    },
+    {
+        "op": "core/column-rename",
+        "description": "Rename column Column 7 to DESCRIPTION",
+        "oldColumnName": "Column 7",
+        "newColumnName": "DESCRIPTION"
+    },
+    {
+        "op": "core/column-rename",
+        "description": "Rename column Column 8 to ACCESIBILITY",
+        "oldColumnName": "Column 8",
+        "newColumnName": "ACCESIBILITY"
+    },
+    {
+        "op": "core/column-rename",
+        "description": "Rename column Column 9 to CONTENT-URL",
+        "oldColumnName": "Column 9",
+        "newColumnName": "CONTENT-URL"
+    },
+    {
+        "op": "core/column-rename",
+        "description": "Rename column Column 10 to STREET-NAME",
+        "oldColumnName": "Column 10",
+        "newColumnName": "STREET-NAME"
+    },
+    {
+        "op": "core/column-rename",
+        "description": "Rename column Column 11 to STREET-TYPE",
+        "oldColumnName": "Column 11",
+        "newColumnName": "STREET-TYPE"
+    },
+    {
+        "op": "core/column-rename",
+        "description": "Rename column Column 12 to NUM-TYPE",
+        "oldColumnName": "Column 12",
+        "newColumnName": "NUM-TYPE"
+    },
+    {
+        "op": "core/column-rename",
+        "description": "Rename column Column 13 to NUM",
+        "oldColumnName": "Column 13",
+        "newColumnName": "NUM"
+    },
+    {
+        "op": "core/column-rename",
+        "description": "Rename column Column 17 to ORIENTATION",
+        "oldColumnName": "Column 17",
+        "newColumnName": "ORIENTATION"
+    },
+    {
+        "op": "core/column-rename",
+        "description": "Rename column Column 18 to LOCATION",
+        "oldColumnName": "Column 18",
+        "newColumnName": "LOCATION"
+    },
+    {
+        "op": "core/column-rename",
+        "description": "Rename column Column 19 to STATE",
+        "oldColumnName": "Column 19",
+        "newColumnName": "STATE"
+    },
+    {
+        "op": "core/column-rename",
+        "description": "Rename column Column 20 to POSTAL-CODE",
+        "oldColumnName": "Column 20",
+        "newColumnName": "POSTAL-CODE"
+    },
+    {
+        "op": "core/column-rename",
+        "description": "Rename column Column 21 to NEIGHBOURHOOD",
+        "oldColumnName": "Column 21",
+        "newColumnName": "NEIGHBOURHOOD"
+    },
+    {
+        "op": "core/column-rename",
+        "description": "Rename column Column 22 to DISTRICT",
+        "oldColumnName": "Column 22",
+        "newColumnName": "DISTRICT"
+    },
+    {
+        "op": "core/column-rename",
+        "description": "Rename column Column 23 to X-AXIS",
+        "oldColumnName": "Column 23",
+        "newColumnName": "X-AXIS"
+    },
+    {
+        "op": "core/column-rename",
+        "description": "Rename column Column 24 to Y-AXIS",
+        "oldColumnName": "Column 24",
+        "newColumnName": "Y-AXIS"
+    },
+    {
+        "op": "core/column-rename",
+        "description": "Rename column Column 25 to LATITUDE",
+        "oldColumnName": "Column 25",
+        "newColumnName": "LATITUDE"
+    },
+    {
+        "op": "core/column-rename",
+        "description": "Rename column Column 26 to LONGITUDE",
+        "oldColumnName": "Column 26",
+        "newColumnName": "LONGITUDE"
+    },
+    {
+        "op": "core/column-rename",
+        "description": "Rename column Column 27 to TELEPHONE",
+        "oldColumnName": "Column 27",
+        "newColumnName": "TELEPHONE"
+    },
+    {
+        "op": "core/column-removal",
+        "description": "Remove column Column 28",
+        "columnName": "Column 28"
+    },
+    {
+        "op": "core/column-rename",
+        "description": "Rename column Column 29 to EMAIL",
+        "oldColumnName": "Column 29",
+        "newColumnName": "EMAIL"
+    },
+    {
+        "op": "core/column-rename",
+        "description": "Rename column Column 30 to TYPE",
+        "oldColumnName": "Column 30",
+        "newColumnName": "TYPE"
+    },
+    {
+        "op": "core/column-removal",
+        "description": "Remove column Column 31",
+        "columnName": "Column 31"
+    },
+    {
+        "op": "core/row-removal",
+        "description": "Remove rows",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": [
+                {
+                    "omitError": false,
+                    "expression": "value",
+                    "selectBlank": false,
+                    "selection": [
+                        {
+                            "v": {
+                                "v": "PK",
+                                "l": "PK"
+                            }
+                        }
+                    ],
+                    "selectError": false,
+                    "invert": false,
+                    "name": "PK",
+                    "omitBlank": false,
+                    "type": "list",
+                    "columnName": "PK"
+                }
+            ]
+        }
+    },
+    {
+        "op": "core/row-removal",
+        "description": "Remove rows",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": [
+                {
+                    "omitError": false,
+                    "expression": "value",
+                    "selectBlank": true,
+                    "selection": [],
+                    "selectError": false,
+                    "invert": false,
+                    "name": "PK",
+                    "omitBlank": false,
+                    "type": "list",
+                    "columnName": "PK"
+                }
+            ]
+        }
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "description": "Save RDF schema skeleton",
+        "schema": {
+            "baseUri": "http://semanticweb.org/Group04/resource",
+            "prefixes": [
+                {
+                    "name": "ont",
+                    "uri": "http://www.semanticweb.org/Group04/ontology#"
+                },
+                {
+                    "name": "rdf",
+                    "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                },
+                {
+                    "name": "owl",
+                    "uri": "http://www.w3.org/2002/07/owl#"
+                },
+                {
+                    "name": "rdfs",
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#"
+                }
+            ],
+            "rootNodes": [
+                {
+                    "nodeType": "cell-as-resource",
+                    "expression": "value",
+                    "isRowNumberCell": true,
+                    "rdfTypes": [],
+                    "links": []
+                }
+            ]
+        }
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "description": "Save RDF schema skeleton",
+        "schema": {
+            "baseUri": "http://semanticweb.org/Group04/resource",
+            "prefixes": [
+                {
+                    "name": "ont",
+                    "uri": "http://www.semanticweb.org/Group04/ontology#"
+                },
+                {
+                    "name": "rdf",
+                    "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                },
+                {
+                    "name": "owl",
+                    "uri": "http://www.w3.org/2002/07/owl#"
+                },
+                {
+                    "name": "rdfs",
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#"
+                }
+            ],
+            "rootNodes": [
+                {
+                    "nodeType": "cell-as-resource",
+                    "expression": "value",
+                    "isRowNumberCell": true,
+                    "rdfTypes": [],
+                    "links": [
+                        {
+                            "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                            "curie": "rdfs:label",
+                            "target": {
+                                "nodeType": "cell-as-literal",
+                                "expression": "value",
+                                "isRowNumberCell": false,
+                                "columnName": "NAME"
+                            }
+                        },
+                        {
+                            "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                            "curie": "rdfs:label",
+                            "target": {
+                                "nodeType": "cell-as-literal",
+                                "expression": "value",
+                                "isRowNumberCell": false,
+                                "columnName": "ACCESIBILITY"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "description": "Save RDF schema skeleton",
+        "schema": {
+            "baseUri": "http://semanticweb.org/Group04/ontology",
+            "prefixes": [
+                {
+                    "name": "ont",
+                    "uri": "http://www.semanticweb.org/Group04/ontology#"
+                },
+                {
+                    "name": "rdf",
+                    "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                },
+                {
+                    "name": "owl",
+                    "uri": "http://www.w3.org/2002/07/owl#"
+                },
+                {
+                    "name": "rdfs",
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#"
+                }
+            ],
+            "rootNodes": [
+                {
+                    "nodeType": "cell-as-resource",
+                    "expression": "value",
+                    "isRowNumberCell": true,
+                    "rdfTypes": [],
+                    "links": [
+                        {
+                            "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                            "curie": "rdfs:label",
+                            "target": {
+                                "nodeType": "cell-as-literal",
+                                "expression": "value",
+                                "isRowNumberCell": false,
+                                "columnName": "NAME"
+                            }
+                        },
+                        {
+                            "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                            "curie": "rdfs:label",
+                            "target": {
+                                "nodeType": "cell-as-literal",
+                                "expression": "value",
+                                "isRowNumberCell": false,
+                                "columnName": "ACCESIBILITY"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "description": "Save RDF schema skeleton",
+        "schema": {
+            "baseUri": "http://semanticweb.org/Group04/ontology",
+            "prefixes": [
+                {
+                    "name": "ont",
+                    "uri": "http://www.semanticweb.org/Group04/ontology#"
+                },
+                {
+                    "name": "rdf",
+                    "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                },
+                {
+                    "name": "owl",
+                    "uri": "http://www.w3.org/2002/07/owl#"
+                },
+                {
+                    "name": "rdfs",
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#"
+                }
+            ],
+            "rootNodes": [
+                {
+                    "nodeType": "cell-as-resource",
+                    "expression": "value",
+                    "isRowNumberCell": true,
+                    "rdfTypes": [],
+                    "links": [
+                        {
+                            "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                            "curie": "rdf:type",
+                            "target": {
+                                "nodeType": "cell-as-resource",
+                                "expression": "value",
+                                "isRowNumberCell": false,
+                                "columnName": "NAME",
+                                "rdfTypes": [],
+                                "links": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "description": "Save RDF schema skeleton",
+        "schema": {
+            "baseUri": "http://semanticweb.org/Group04/ontology",
+            "prefixes": [
+                {
+                    "name": "ont",
+                    "uri": "http://www.semanticweb.org/Group04/ontology#"
+                },
+                {
+                    "name": "rdf",
+                    "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                },
+                {
+                    "name": "owl",
+                    "uri": "http://www.w3.org/2002/07/owl#"
+                },
+                {
+                    "name": "rdfs",
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#"
+                }
+            ],
+            "rootNodes": [
+                {
+                    "nodeType": "cell-as-resource",
+                    "expression": "value",
+                    "isRowNumberCell": false,
+                    "columnName": "NAME",
+                    "rdfTypes": [],
+                    "links": []
+                }
+            ]
+        }
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "description": "Save RDF schema skeleton",
+        "schema": {
+            "baseUri": "http://semanticweb.org/Group04/ontology",
+            "prefixes": [
+                {
+                    "name": "ont",
+                    "uri": "http://www.semanticweb.org/Group04/ontology#"
+                },
+                {
+                    "name": "rdf",
+                    "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                },
+                {
+                    "name": "owl",
+                    "uri": "http://www.w3.org/2002/07/owl#"
+                },
+                {
+                    "name": "rdfs",
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#"
+                }
+            ],
+            "rootNodes": [
+                {
+                    "nodeType": "cell-as-resource",
+                    "expression": "value",
+                    "isRowNumberCell": false,
+                    "columnName": "NAME",
+                    "rdfTypes": [],
+                    "links": []
+                }
+            ]
+        }
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "description": "Save RDF schema skeleton",
+        "schema": {
+            "baseUri": "http://semanticweb.org/Group04/ontology",
+            "prefixes": [
+                {
+                    "name": "ont",
+                    "uri": "http://www.semanticweb.org/Group04/ontology#"
+                },
+                {
+                    "name": "rdf",
+                    "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                },
+                {
+                    "name": "owl",
+                    "uri": "http://www.w3.org/2002/07/owl#"
+                },
+                {
+                    "name": "rdfs",
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#"
+                }
+            ],
+            "rootNodes": [
+                {
+                    "nodeType": "cell-as-resource",
+                    "expression": "value",
+                    "isRowNumberCell": false,
+                    "columnName": "NAME",
+                    "rdfTypes": [
+                        {
+                            "uri": "http://www.w3.org/2000/01/rdf-schema#Class",
+                            "curie": "rdfs:Class"
+                        }
+                    ],
+                    "links": []
+                }
+            ]
+        }
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "description": "Save RDF schema skeleton",
+        "schema": {
+            "baseUri": "http://semanticweb.org/Group04/ontology",
+            "prefixes": [
+                {
+                    "name": "ont",
+                    "uri": "http://www.semanticweb.org/Group04/ontology#"
+                },
+                {
+                    "name": "rdf",
+                    "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                },
+                {
+                    "name": "owl",
+                    "uri": "http://www.w3.org/2002/07/owl#"
+                },
+                {
+                    "name": "rdfs",
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#"
+                }
+            ],
+            "rootNodes": [
+                {
+                    "nodeType": "cell-as-resource",
+                    "expression": "value",
+                    "isRowNumberCell": false,
+                    "columnName": "NAME",
+                    "rdfTypes": [
+                        {
+                            "uri": "http://www.w3.org/2000/01/rdf-schema#Class",
+                            "curie": "rdfs:Class"
+                        }
+                    ],
+                    "links": []
+                }
+            ]
+        }
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "description": "Save RDF schema skeleton",
+        "schema": {
+            "baseUri": "http://semanticweb.org/Group04/ontology",
+            "prefixes": [
+                {
+                    "name": "ont",
+                    "uri": "http://www.semanticweb.org/Group04/ontology#"
+                },
+                {
+                    "name": "rdf",
+                    "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                },
+                {
+                    "name": "owl",
+                    "uri": "http://www.w3.org/2002/07/owl#"
+                },
+                {
+                    "name": "rdfs",
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#"
+                }
+            ],
+            "rootNodes": [
+                {
+                    "nodeType": "cell-as-resource",
+                    "expression": "value",
+                    "isRowNumberCell": false,
+                    "columnName": "NAME",
+                    "rdfTypes": [
+                        {
+                            "uri": "PARKING",
+                            "curie": ":PARKING"
+                        }
+                    ],
+                    "links": []
+                }
+            ]
+        }
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "description": "Save RDF schema skeleton",
+        "schema": {
+            "baseUri": "http://semanticweb.org/Group04/ontology",
+            "prefixes": [
+                {
+                    "name": "schema",
+                    "uri": "http://schema.org/"
+                },
+                {
+                    "name": "ont",
+                    "uri": "http://www.semanticweb.org/Group04/ontology#"
+                },
+                {
+                    "name": "rdf",
+                    "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                },
+                {
+                    "name": "owl",
+                    "uri": "http://www.w3.org/2002/07/owl#"
+                },
+                {
+                    "name": "rdfs",
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#"
+                }
+            ],
+            "rootNodes": [
+                {
+                    "nodeType": "cell-as-resource",
+                    "expression": "value",
+                    "isRowNumberCell": false,
+                    "columnName": "NAME",
+                    "rdfTypes": [
+                        {
+                            "uri": "PARKING",
+                            "curie": ":PARKING"
+                        }
+                    ],
+                    "links": []
+                }
+            ]
+        }
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "description": "Save RDF schema skeleton",
+        "schema": {
+            "baseUri": "http://semanticweb.org/Group04/ontology",
+            "prefixes": [
+                {
+                    "name": "schema",
+                    "uri": "http://schema.org/"
+                },
+                {
+                    "name": "ont",
+                    "uri": "http://www.semanticweb.org/Group04/ontology#"
+                },
+                {
+                    "name": "rdf",
+                    "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                },
+                {
+                    "name": "owl",
+                    "uri": "http://www.w3.org/2002/07/owl#"
+                },
+                {
+                    "name": "rdfs",
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#"
+                }
+            ],
+            "rootNodes": [
+                {
+                    "nodeType": "cell-as-resource",
+                    "expression": "value",
+                    "isRowNumberCell": false,
+                    "columnName": "NAME",
+                    "rdfTypes": [
+                        {
+                            "uri": "http://schema.org/Parking",
+                            "curie": "schema:Parking"
+                        }
+                    ],
+                    "links": []
+                }
+            ]
+        }
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "description": "Save RDF schema skeleton",
+        "schema": {
+            "baseUri": "http://semanticweb.org/Group04/ontology",
+            "prefixes": [
+                {
+                    "name": "ont",
+                    "uri": "http://www.semanticweb.org/Group04/ontology#"
+                },
+                {
+                    "name": "rdf",
+                    "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                },
+                {
+                    "name": "owl",
+                    "uri": "http://www.w3.org/2002/07/owl#"
+                },
+                {
+                    "name": "rdfs",
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#"
+                }
+            ],
+            "rootNodes": [
+                {
+                    "nodeType": "cell-as-resource",
+                    "expression": "value",
+                    "isRowNumberCell": false,
+                    "columnName": "NAME",
+                    "rdfTypes": [
+                        {
+                            "uri": "http://schema.org/Parking",
+                            "curie": "schema:Parking"
+                        }
+                    ],
+                    "links": []
+                }
+            ]
+        }
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "description": "Save RDF schema skeleton",
+        "schema": {
+            "baseUri": "http://semanticweb.org/Group04/ontology",
+            "prefixes": [
+                {
+                    "name": "ont",
+                    "uri": "http://www.semanticweb.org/Group04/ontology#"
+                },
+                {
+                    "name": "rdf",
+                    "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                },
+                {
+                    "name": "owl",
+                    "uri": "http://www.w3.org/2002/07/owl#"
+                },
+                {
+                    "name": "rdfs",
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#"
+                }
+            ],
+            "rootNodes": [
+                {
+                    "nodeType": "cell-as-resource",
+                    "expression": "value",
+                    "isRowNumberCell": false,
+                    "columnName": "NAME",
+                    "rdfTypes": [
+                        {
+                            "uri": "http://www.semanticweb.org/Group04/ontology#Parking",
+                            "curie": "ont:Parking"
+                        }
+                    ],
+                    "links": []
+                }
+            ]
+        }
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "description": "Save RDF schema skeleton",
+        "schema": {
+            "baseUri": "http://semanticweb.org/Group04/ontology",
+            "prefixes": [
+                {
+                    "name": "ont",
+                    "uri": "http://www.semanticweb.org/Group04/ontology#"
+                },
+                {
+                    "name": "rdf",
+                    "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                },
+                {
+                    "name": "owl",
+                    "uri": "http://www.w3.org/2002/07/owl#"
+                },
+                {
+                    "name": "rdfs",
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#"
+                }
+            ],
+            "rootNodes": [
+                {
+                    "nodeType": "cell-as-resource",
+                    "expression": "value",
+                    "isRowNumberCell": false,
+                    "columnName": "NAME",
+                    "rdfTypes": [
+                        {
+                            "uri": "http://www.semanticweb.org/Group04/ontology#Parking",
+                            "curie": "ont:Parking"
+                        }
+                    ],
+                    "links": []
+                }
+            ]
+        }
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "description": "Save RDF schema skeleton",
+        "schema": {
+            "baseUri": "http://semanticweb.org/Group04/ontology",
+            "prefixes": [
+                {
+                    "name": "ont",
+                    "uri": "http://www.semanticweb.org/Group04/ontology#"
+                },
+                {
+                    "name": "rdf",
+                    "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                },
+                {
+                    "name": "owl",
+                    "uri": "http://www.w3.org/2002/07/owl#"
+                },
+                {
+                    "name": "rdfs",
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#"
+                }
+            ],
+            "rootNodes": [
+                {
+                    "nodeType": "cell-as-resource",
+                    "expression": "value",
+                    "isRowNumberCell": false,
+                    "columnName": "NAME",
+                    "rdfTypes": [
+                        {
+                            "uri": "http://www.semanticweb.org/Group04/ontology#Parking",
+                            "curie": "ont:Parking"
+                        }
+                    ],
+                    "links": [
+                        {
+                            "uri": "http://www.semanticweb.org/Group04/ontology#hasName",
+                            "curie": "ont:hasName",
+                            "target": {
+                                "nodeType": "cell-as-resource",
+                                "expression": "value",
+                                "isRowNumberCell": false,
+                                "columnName": "NAME",
+                                "rdfTypes": [],
+                                "links": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "description": "Save RDF schema skeleton",
+        "schema": {
+            "baseUri": "http://semanticweb.org/Group04/ontology",
+            "prefixes": [
+                {
+                    "name": "ont",
+                    "uri": "http://www.semanticweb.org/Group04/ontology#"
+                },
+                {
+                    "name": "rdf",
+                    "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                },
+                {
+                    "name": "owl",
+                    "uri": "http://www.w3.org/2002/07/owl#"
+                },
+                {
+                    "name": "rdfs",
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#"
+                }
+            ],
+            "rootNodes": [
+                {
+                    "nodeType": "cell-as-resource",
+                    "expression": "value",
+                    "isRowNumberCell": false,
+                    "columnName": "NAME",
+                    "rdfTypes": [
+                        {
+                            "uri": "http://www.semanticweb.org/Group04/ontology#Parking",
+                            "curie": "ont:Parking"
+                        }
+                    ],
+                    "links": [
+                        {
+                            "uri": "http://www.semanticweb.org/Group04/ontology#hasName",
+                            "curie": "ont:hasName",
+                            "target": {
+                                "nodeType": "cell-as-resource",
+                                "expression": "value",
+                                "isRowNumberCell": false,
+                                "columnName": "NAME",
+                                "rdfTypes": [],
+                                "links": []
+                            }
+                        },
+                        {
+                            "uri": "http://www.semanticweb.org/Group04/ontology#isAccesible",
+                            "curie": "ont:isAccesible",
+                            "target": {
+                                "nodeType": "cell-as-resource",
+                                "expression": "value",
+                                "isRowNumberCell": false,
+                                "columnName": "ACCESIBILITY",
+                                "rdfTypes": [],
+                                "links": []
+                            }
+                        },
+                        {
+                            "uri": "http://www.semanticweb.org/Group04/ontology#hasType",
+                            "curie": "ont:hasType",
+                            "target": {
+                                "nodeType": "cell-as-resource",
+                                "expression": "value",
+                                "isRowNumberCell": false,
+                                "columnName": "DESCRIPTION",
+                                "rdfTypes": [],
+                                "links": []
+                            }
+                        },
+                        {
+                            "uri": "http://www.semanticweb.org/Group04/ontology#hasSchedule",
+                            "curie": "ont:hasSchedule",
+                            "target": {
+                                "nodeType": "cell-as-resource",
+                                "expression": "value",
+                                "isRowNumberCell": false,
+                                "columnName": "SCHEDULE",
+                                "rdfTypes": [],
+                                "links": []
+                            }
+                        },
+                        {
+                            "uri": "http://www.semanticweb.org/Group04/ontology#isInStreet",
+                            "curie": "ont:isInStreet",
+                            "target": {
+                                "nodeType": "cell-as-resource",
+                                "expression": "value",
+                                "isRowNumberCell": false,
+                                "columnName": "STREET-NAME",
+                                "rdfTypes": [
+                                    {
+                                        "uri": "http://www.semanticweb.org/Group04/ontology#Street",
+                                        "curie": "ont:Street"
+                                    }
+                                ],
+                                "links": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "description": "Save RDF schema skeleton",
+        "schema": {
+            "baseUri": "http://semanticweb.org/Group04/ontology",
+            "prefixes": [
+                {
+                    "name": "ont",
+                    "uri": "http://www.semanticweb.org/Group04/ontology#"
+                },
+                {
+                    "name": "rdf",
+                    "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                },
+                {
+                    "name": "owl",
+                    "uri": "http://www.w3.org/2002/07/owl#"
+                },
+                {
+                    "name": "rdfs",
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#"
+                }
+            ],
+            "rootNodes": [
+                {
+                    "nodeType": "cell-as-resource",
+                    "expression": "value",
+                    "isRowNumberCell": false,
+                    "columnName": "NAME",
+                    "rdfTypes": [
+                        {
+                            "uri": "http://www.semanticweb.org/Group04/ontology#Parking",
+                            "curie": "ont:Parking"
+                        }
+                    ],
+                    "links": [
+                        {
+                            "uri": "http://www.semanticweb.org/Group04/ontology#isAccesible",
+                            "curie": "ont:isAccesible",
+                            "target": {
+                                "nodeType": "cell-as-resource",
+                                "expression": "value",
+                                "isRowNumberCell": false,
+                                "columnName": "ACCESIBILITY",
+                                "rdfTypes": [],
+                                "links": []
+                            }
+                        },
+                        {
+                            "uri": "http://www.semanticweb.org/Group04/ontology#hasType",
+                            "curie": "ont:hasType",
+                            "target": {
+                                "nodeType": "cell-as-resource",
+                                "expression": "value",
+                                "isRowNumberCell": false,
+                                "columnName": "DESCRIPTION",
+                                "rdfTypes": [],
+                                "links": []
+                            }
+                        },
+                        {
+                            "uri": "http://www.semanticweb.org/Group04/ontology#isInStreet",
+                            "curie": "ont:isInStreet",
+                            "target": {
+                                "nodeType": "cell-as-resource",
+                                "expression": "value",
+                                "isRowNumberCell": false,
+                                "columnName": "STREET-NAME",
+                                "rdfTypes": [
+                                    {
+                                        "uri": "http://www.semanticweb.org/Group04/ontology#Street",
+                                        "curie": "ont:Street"
+                                    }
+                                ],
+                                "links": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "description": "Save RDF schema skeleton",
+        "schema": {
+            "baseUri": "http://semanticweb.org/Group04/ontology",
+            "prefixes": [
+                {
+                    "name": "ont",
+                    "uri": "http://www.semanticweb.org/Group04/ontology#"
+                },
+                {
+                    "name": "rdf",
+                    "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                },
+                {
+                    "name": "owl",
+                    "uri": "http://www.w3.org/2002/07/owl#"
+                },
+                {
+                    "name": "rdfs",
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#"
+                }
+            ],
+            "rootNodes": [
+                {
+                    "nodeType": "cell-as-resource",
+                    "expression": "value",
+                    "isRowNumberCell": false,
+                    "columnName": "NAME",
+                    "rdfTypes": [
+                        {
+                            "uri": "http://www.semanticweb.org/Group04/ontology#Parking",
+                            "curie": "ont:Parking"
+                        }
+                    ],
+                    "links": [
+                        {
+                            "uri": "http://www.semanticweb.org/Group04/ontology#isAccesible",
+                            "curie": "ont:isAccesible",
+                            "target": {
+                                "nodeType": "cell-as-resource",
+                                "expression": "value",
+                                "isRowNumberCell": false,
+                                "columnName": "ACCESIBILITY",
+                                "rdfTypes": [],
+                                "links": []
+                            }
+                        },
+                        {
+                            "uri": "http://www.semanticweb.org/Group04/ontology#hasType",
+                            "curie": "ont:hasType",
+                            "target": {
+                                "nodeType": "cell-as-resource",
+                                "expression": "value",
+                                "isRowNumberCell": false,
+                                "columnName": "DESCRIPTION",
+                                "rdfTypes": [],
+                                "links": []
+                            }
+                        },
+                        {
+                            "uri": "http://www.semanticweb.org/Group04/ontology#isInStreet",
+                            "curie": "ont:isInStreet",
+                            "target": {
+                                "nodeType": "cell-as-literal",
+                                "expression": "value",
+                                "isRowNumberCell": false,
+                                "valueType": "http://schema.org/streetAddress",
+                                "columnName": "STREET-NAME"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "description": "Save RDF schema skeleton",
+        "schema": {
+            "baseUri": "http://semanticweb.org/Group04/ontology",
+            "prefixes": [
+                {
+                    "name": "schema",
+                    "uri": "http://schema.org/"
+                },
+                {
+                    "name": "ont",
+                    "uri": "http://www.semanticweb.org/Group04/ontology#"
+                },
+                {
+                    "name": "rdf",
+                    "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                },
+                {
+                    "name": "owl",
+                    "uri": "http://www.w3.org/2002/07/owl#"
+                },
+                {
+                    "name": "rdfs",
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#"
+                }
+            ],
+            "rootNodes": [
+                {
+                    "nodeType": "cell-as-resource",
+                    "expression": "value",
+                    "isRowNumberCell": false,
+                    "columnName": "NAME",
+                    "rdfTypes": [
+                        {
+                            "uri": "http://www.semanticweb.org/Group04/ontology#Parking",
+                            "curie": "ont:Parking"
+                        }
+                    ],
+                    "links": [
+                        {
+                            "uri": "http://www.semanticweb.org/Group04/ontology#isAccesible",
+                            "curie": "ont:isAccesible",
+                            "target": {
+                                "nodeType": "cell-as-literal",
+                                "expression": "value",
+                                "isRowNumberCell": false,
+                                "columnName": "ACCESIBILITY"
+                            }
+                        },
+                        {
+                            "uri": "http://www.semanticweb.org/Group04/ontology#hasType",
+                            "curie": "ont:hasType",
+                            "target": {
+                                "nodeType": "cell-as-literal",
+                                "expression": "value",
+                                "isRowNumberCell": false,
+                                "columnName": "DESCRIPTION"
+                            }
+                        },
+                        {
+                            "uri": "http://www.semanticweb.org/Group04/ontology#isInStreet",
+                            "curie": "ont:isInStreet",
+                            "target": {
+                                "nodeType": "cell-as-literal",
+                                "expression": "value",
+                                "isRowNumberCell": false,
+                                "valueType": "http://es.dbpedia.org/page/Barrios_de_Madrid",
+                                "columnName": "DISTRICT"
+                            }
+                        },
+                        {
+                            "uri": "http://www.semanticweb.org/Group04/ontology#hasCoordinateX",
+                            "curie": "ont:hasCoordinateX",
+                            "target": {
+                                "nodeType": "cell-as-literal",
+                                "expression": "value",
+                                "isRowNumberCell": false,
+                                "columnName": "X-AXIS"
+                            }
+                        },
+                        {
+                            "uri": "http://www.semanticweb.org/Group04/ontology#hasCoordinateY",
+                            "curie": "ont:hasCoordinateY",
+                            "target": {
+                                "nodeType": "cell-as-literal",
+                                "expression": "value",
+                                "isRowNumberCell": false,
+                                "columnName": "Y-AXIS"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "description": "Save RDF schema skeleton",
+        "schema": {
+            "baseUri": "http://semanticweb.org/Group04/ontology",
+            "prefixes": [
+                {
+                    "name": "schema",
+                    "uri": "http://schema.org/"
+                },
+                {
+                    "name": "ont",
+                    "uri": "http://www.semanticweb.org/Group04/ontology#"
+                },
+                {
+                    "name": "rdf",
+                    "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                },
+                {
+                    "name": "owl",
+                    "uri": "http://www.w3.org/2002/07/owl#"
+                },
+                {
+                    "name": "rdfs",
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#"
+                }
+            ],
+            "rootNodes": [
+                {
+                    "nodeType": "cell-as-resource",
+                    "expression": "value",
+                    "isRowNumberCell": false,
+                    "columnName": "NAME",
+                    "rdfTypes": [
+                        {
+                            "uri": "http://www.semanticweb.org/Group04/ontology#Parking",
+                            "curie": "ont:Parking"
+                        }
+                    ],
+                    "links": [
+                        {
+                            "uri": "http://www.semanticweb.org/Group04/ontology#isAccesible",
+                            "curie": "ont:isAccesible",
+                            "target": {
+                                "nodeType": "cell-as-literal",
+                                "expression": "value",
+                                "isRowNumberCell": false,
+                                "columnName": "ACCESIBILITY"
+                            }
+                        },
+                        {
+                            "uri": "http://www.semanticweb.org/Group04/ontology#hasType",
+                            "curie": "ont:hasType",
+                            "target": {
+                                "nodeType": "cell-as-literal",
+                                "expression": "value",
+                                "isRowNumberCell": false,
+                                "columnName": "DESCRIPTION"
+                            }
+                        },
+                        {
+                            "uri": "http://www.semanticweb.org/Group04/ontology#isInStreet",
+                            "curie": "ont:isInStreet",
+                            "target": {
+                                "nodeType": "cell-as-literal",
+                                "expression": "value",
+                                "isRowNumberCell": false,
+                                "valueType": "http://es.dbpedia.org/page/Barrios_de_Madrid",
+                                "columnName": "DISTRICT"
+                            }
+                        },
+                        {
+                            "uri": "http://www.semanticweb.org/Group04/ontology#hasLatitude",
+                            "curie": "ont:hasLatitude",
+                            "target": {
+                                "nodeType": "cell-as-literal",
+                                "expression": "value",
+                                "isRowNumberCell": false,
+                                "columnName": "LATITUDE"
+                            }
+                        },
+                        {
+                            "uri": "http://www.semanticweb.org/Group04/ontology#hasLongitude",
+                            "curie": "ont:hasLongitude",
+                            "target": {
+                                "nodeType": "cell-as-literal",
+                                "expression": "value",
+                                "isRowNumberCell": false,
+                                "columnName": "LONGITUDE"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "description": "Save RDF schema skeleton",
+        "schema": {
+            "baseUri": "http://semanticweb.org/Group04/ontology",
+            "prefixes": [
+                {
+                    "name": "schema",
+                    "uri": "http://schema.org/"
+                },
+                {
+                    "name": "ont",
+                    "uri": "http://www.semanticweb.org/Group04/ontology#"
+                },
+                {
+                    "name": "rdf",
+                    "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                },
+                {
+                    "name": "owl",
+                    "uri": "http://www.w3.org/2002/07/owl#"
+                },
+                {
+                    "name": "rdfs",
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#"
+                }
+            ],
+            "rootNodes": [
+                {
+                    "nodeType": "cell-as-resource",
+                    "expression": "value",
+                    "isRowNumberCell": false,
+                    "columnName": "NAME",
+                    "rdfTypes": [
+                        {
+                            "uri": "http://www.semanticweb.org/Group04/ontology#Parking",
+                            "curie": "ont:Parking"
+                        }
+                    ],
+                    "links": [
+                        {
+                            "uri": "http://www.semanticweb.org/Group04/ontology#isAccesible",
+                            "curie": "ont:isAccesible",
+                            "target": {
+                                "nodeType": "cell-as-literal",
+                                "expression": "value",
+                                "isRowNumberCell": false,
+                                "columnName": "ACCESIBILITY"
+                            }
+                        },
+                        {
+                            "uri": "http://www.semanticweb.org/Group04/ontology#hasType",
+                            "curie": "ont:hasType",
+                            "target": {
+                                "nodeType": "cell-as-literal",
+                                "expression": "value",
+                                "isRowNumberCell": false,
+                                "columnName": "DESCRIPTION"
+                            }
+                        },
+                        {
+                            "uri": "http://www.semanticweb.org/Group04/ontology#isInStreet",
+                            "curie": "ont:isInStreet",
+                            "target": {
+                                "nodeType": "cell-as-literal",
+                                "expression": "value",
+                                "isRowNumberCell": false,
+                                "valueType": "http://es.dbpedia.org/page/Barrios_de_Madrid",
+                                "columnName": "DISTRICT"
+                            }
+                        },
+                        {
+                            "uri": "http://www.semanticweb.org/Group04/ontology#hasLatitude",
+                            "curie": "ont:hasLatitude",
+                            "target": {
+                                "nodeType": "cell-as-literal",
+                                "expression": "value",
+                                "isRowNumberCell": false,
+                                "columnName": "LATITUDE"
+                            }
+                        },
+                        {
+                            "uri": "http://www.semanticweb.org/Group04/ontology#hasLongitude",
+                            "curie": "ont:hasLongitude",
+                            "target": {
+                                "nodeType": "cell-as-literal",
+                                "expression": "value",
+                                "isRowNumberCell": false,
+                                "columnName": "LONGITUDE"
+                            }
+                        },
+                        {
+                            "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                            "curie": "rdfs:label",
+                            "target": {
+                                "nodeType": "cell-as-literal",
+                                "expression": "value",
+                                "isRowNumberCell": false,
+                                "columnName": "NAME"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "cell-as-resource",
+                    "expression": "value",
+                    "isRowNumberCell": false,
+                    "columnName": "DISTRICT",
+                    "rdfTypes": [
+                        {
+                            "uri": "http://www.semanticweb.org/Group04/ontology#District",
+                            "curie": "ont:District"
+                        }
+                    ],
+                    "links": [
+                        {
+                            "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                            "curie": "rdfs:label",
+                            "target": {
+                                "nodeType": "cell-as-literal",
+                                "expression": "value",
+                                "isRowNumberCell": false,
+                                "columnName": "DISTRICT"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "description": "Save RDF schema skeleton",
+        "schema": {
+            "baseUri": "http://semanticweb.org/Group04/ontology",
+            "prefixes": [
+                {
+                    "name": "schema",
+                    "uri": "http://schema.org/"
+                },
+                {
+                    "name": "ont",
+                    "uri": "http://www.semanticweb.org/Group04/ontology#"
+                },
+                {
+                    "name": "rdf",
+                    "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                },
+                {
+                    "name": "owl",
+                    "uri": "http://www.w3.org/2002/07/owl#"
+                },
+                {
+                    "name": "rdfs",
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#"
+                }
+            ],
+            "rootNodes": [
+                {
+                    "nodeType": "cell-as-resource",
+                    "expression": "value",
+                    "isRowNumberCell": false,
+                    "columnName": "CONTENT-URL",
+                    "rdfTypes": [
+                        {
+                            "uri": "http://schema.org/Parking",
+                            "curie": "schema:Parking"
+                        }
+                    ],
+                    "links": [
+                        {
+                            "uri": "http://www.semanticweb.org/Group04/ontology#isAccesible",
+                            "curie": "ont:isAccesible",
+                            "target": {
+                                "nodeType": "cell-as-literal",
+                                "expression": "value",
+                                "isRowNumberCell": false,
+                                "columnName": "ACCESIBILITY"
+                            }
+                        },
+                        {
+                            "uri": "http://www.semanticweb.org/Group04/ontology#hasType",
+                            "curie": "ont:hasType",
+                            "target": {
+                                "nodeType": "cell-as-literal",
+                                "expression": "value",
+                                "isRowNumberCell": false,
+                                "columnName": "DESCRIPTION"
+                            }
+                        },
+                        {
+                            "uri": "http://www.semanticweb.org/Group04/ontology#isInStreet",
+                            "curie": "ont:isInStreet",
+                            "target": {
+                                "nodeType": "cell-as-literal",
+                                "expression": "value",
+                                "isRowNumberCell": false,
+                                "valueType": "http://es.dbpedia.org/page/Barrios_de_Madrid",
+                                "columnName": "DISTRICT"
+                            }
+                        },
+                        {
+                            "uri": "http://www.semanticweb.org/Group04/ontology#hasLatitude",
+                            "curie": "ont:hasLatitude",
+                            "target": {
+                                "nodeType": "cell-as-literal",
+                                "expression": "value",
+                                "isRowNumberCell": false,
+                                "columnName": "LATITUDE"
+                            }
+                        },
+                        {
+                            "uri": "http://www.semanticweb.org/Group04/ontology#hasLongitude",
+                            "curie": "ont:hasLongitude",
+                            "target": {
+                                "nodeType": "cell-as-literal",
+                                "expression": "value",
+                                "isRowNumberCell": false,
+                                "columnName": "LONGITUDE"
+                            }
+                        },
+                        {
+                            "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                            "curie": "rdfs:label",
+                            "target": {
+                                "nodeType": "cell-as-literal",
+                                "expression": "value",
+                                "isRowNumberCell": false,
+                                "columnName": "NAME"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "cell-as-resource",
+                    "expression": "value",
+                    "isRowNumberCell": false,
+                    "columnName": "DISTRICT",
+                    "rdfTypes": [],
+                    "links": []
+                }
+            ]
+        }
+    },
+    {
+        "op": "core/recon",
+        "description": "Reconcile cells in column DISTRICT to type http://dbpedia.org/ontology/Place",
+        "columnName": "DISTRICT",
+        "config": {
+            "mode": "standard-service",
+            "service": "http://127.0.0.1:3333/extension/rdf-extension/services/dbpedia-es",
+            "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+            "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+            "type": {
+                "id": "http://dbpedia.org/ontology/Place",
+                "name": "dbo:Place"
+            },
+            "autoMatch": true,
+            "columnDetails": [],
+            "limit": 0
+        },
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        }
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "description": "Match topic Centro Centro (http://es.dbpedia.org/resource/Centro_Centro) for cells containing \"CENTRO\" in column DISTRICT",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "DISTRICT",
+        "similarValue": "CENTRO",
+        "judgment": "matched",
+        "match": {
+            "id": "http://es.dbpedia.org/resource/Centro_Centro",
+            "name": "Centro Centro",
+            "score": 100,
+            "types": [
+                "null"
+            ]
+        },
+        "shareNewTopics": false
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "description": "Match topic Chamartin (http://es.dbpedia.org/resource/Chamartin) for cells containing \"CHAMARTIN\" in column DISTRICT",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "DISTRICT",
+        "similarValue": "CHAMARTIN",
+        "judgment": "matched",
+        "match": {
+            "id": "http://es.dbpedia.org/resource/Chamartin",
+            "name": "Chamartin",
+            "score": 100,
+            "types": [
+                "null"
+            ]
+        },
+        "shareNewTopics": false
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "description": "Match topic Centro (http://dbpedia.org/resource/Category:Centre_(French_region)) for cells containing \"CENTRO\" in column DISTRICT",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "DISTRICT",
+        "similarValue": "CENTRO",
+        "judgment": "matched",
+        "match": {
+            "id": "http://dbpedia.org/resource/Category:Centre_(French_region)",
+            "name": "Centro",
+            "score": 100,
+            "types": [
+                "null"
+            ]
+        },
+        "shareNewTopics": false
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "description": "Match topic Latina (http://dbpedia.org/resource/Latina_(disambiguation)) for cells containing \"LATINA\" in column DISTRICT",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "DISTRICT",
+        "similarValue": "LATINA",
+        "judgment": "matched",
+        "match": {
+            "id": "http://dbpedia.org/resource/Latina_(disambiguation)",
+            "name": "Latina",
+            "score": 100,
+            "types": [
+                "null"
+            ]
+        },
+        "shareNewTopics": false
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "description": "Match topic Tetuan (http://es.dbpedia.org/resource/Tetuan) for cells containing \"TETUAN\" in column DISTRICT",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "DISTRICT",
+        "similarValue": "TETUAN",
+        "judgment": "matched",
+        "match": {
+            "id": "http://es.dbpedia.org/resource/Tetuan",
+            "name": "Tetuan",
+            "score": 100,
+            "types": [
+                "null"
+            ]
+        },
+        "shareNewTopics": false
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "description": "Match topic Moncloa-Aravaca (http://dbpedia.org/resource/Moncloa-Aravaca) for cells containing \"MONCLOA-ARAVACA\" in column DISTRICT",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "DISTRICT",
+        "similarValue": "MONCLOA-ARAVACA",
+        "judgment": "matched",
+        "match": {
+            "id": "http://dbpedia.org/resource/Moncloa-Aravaca",
+            "name": "Moncloa-Aravaca",
+            "score": 100,
+            "types": [
+                "null"
+            ]
+        },
+        "shareNewTopics": false
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "description": "Match topic Retiro (Madrid) (http://dbpedia.org/resource/Retiro_(Madrid)) for cells containing \"RETIRO\" in column DISTRICT",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "DISTRICT",
+        "similarValue": "RETIRO",
+        "judgment": "matched",
+        "match": {
+            "id": "http://dbpedia.org/resource/Retiro_(Madrid)",
+            "name": "Retiro (Madrid)",
+            "score": 100,
+            "types": [
+                "null"
+            ]
+        },
+        "shareNewTopics": false
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "description": "Match topic Salamanca (Salamanca) (http://es.dbpedia.org/resource/Salamanca_(Salamanca)) for cells containing \"SALAMANCA\" in column DISTRICT",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "DISTRICT",
+        "similarValue": "SALAMANCA",
+        "judgment": "matched",
+        "match": {
+            "id": "http://es.dbpedia.org/resource/Salamanca_(Salamanca)",
+            "name": "Salamanca (Salamanca)",
+            "score": 100,
+            "types": [
+                "null"
+            ]
+        },
+        "shareNewTopics": false
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "description": "Match topic Ciudad Lineal (http://es.dbpedia.org/resource/Categoría:Ciudad_Lineal) for cells containing \"CIUDAD LINEAL\" in column DISTRICT",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "DISTRICT",
+        "similarValue": "CIUDAD LINEAL",
+        "judgment": "matched",
+        "match": {
+            "id": "http://es.dbpedia.org/resource/Categoría:Ciudad_Lineal",
+            "name": "Ciudad Lineal",
+            "score": 100,
+            "types": [
+                "null"
+            ]
+        },
+        "shareNewTopics": false
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "description": "Match topic Chamberi (http://es.dbpedia.org/resource/Chamberi) for cells containing \"CHAMBERI\" in column DISTRICT",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "DISTRICT",
+        "similarValue": "CHAMBERI",
+        "judgment": "matched",
+        "match": {
+            "id": "http://es.dbpedia.org/resource/Chamberi",
+            "name": "Chamberi",
+            "score": 100,
+            "types": [
+                "null"
+            ]
+        },
+        "shareNewTopics": false
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "description": "Match topic Moratalaz (http://es.dbpedia.org/resource/Categoría:Moratalaz) for cells containing \"MORATALAZ\" in column DISTRICT",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "DISTRICT",
+        "similarValue": "MORATALAZ",
+        "judgment": "matched",
+        "match": {
+            "id": "http://es.dbpedia.org/resource/Categoría:Moratalaz",
+            "name": "Moratalaz",
+            "score": 100,
+            "types": [
+                "null"
+            ]
+        },
+        "shareNewTopics": false
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "description": "Match topic San Blas - Canillejas (http://es.dbpedia.org/resource/San_Blas_-_Canillejas) for cells containing \"SAN BLAS-CANILLEJAS\" in column DISTRICT",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "DISTRICT",
+        "similarValue": "SAN BLAS-CANILLEJAS",
+        "judgment": "matched",
+        "match": {
+            "id": "http://es.dbpedia.org/resource/San_Blas_-_Canillejas",
+            "name": "San Blas - Canillejas",
+            "score": 100,
+            "types": [
+                "null"
+            ]
+        },
+        "shareNewTopics": false
+    },
+    {
+        "op": "core/column-addition",
+        "description": "Create column DISTRICT_URI at index 16 based on column DISTRICT using expression grel:cell.recon.match.id",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "newColumnName": "DISTRICT_URI",
+        "columnInsertIndex": 16,
+        "baseColumnName": "DISTRICT",
+        "expression": "grel:cell.recon.match.id",
+        "onError": "set-to-blank"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "description": "Match topic Centro (http://dbpedia.org/resource/Centro) for cells containing \"CENTRO\" in column DISTRICT",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "DISTRICT",
+        "similarValue": "CENTRO",
+        "judgment": "matched",
+        "match": {
+            "id": "http://dbpedia.org/resource/Centro",
+            "name": "Centro",
+            "score": 100,
+            "types": [
+                "null"
+            ]
+        },
+        "shareNewTopics": false
+    },
+    {
+        "op": "core/column-removal",
+        "description": "Remove column DISTRICT_URI",
+        "columnName": "DISTRICT_URI"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "description": "Match topic Latina (http://es.dbpedia.org/resource/Latina) for cells containing \"LATINA\" in column DISTRICT",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "DISTRICT",
+        "similarValue": "LATINA",
+        "judgment": "matched",
+        "match": {
+            "id": "http://es.dbpedia.org/resource/Latina",
+            "name": "Latina",
+            "score": 100,
+            "types": [
+                "null"
+            ]
+        },
+        "shareNewTopics": false
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "description": "Match topic Retiro (http://dbpedia.org/resource/Retiro) for cells containing \"RETIRO\" in column DISTRICT",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "DISTRICT",
+        "similarValue": "RETIRO",
+        "judgment": "matched",
+        "match": {
+            "id": "http://dbpedia.org/resource/Retiro",
+            "name": "Retiro",
+            "score": 100,
+            "types": [
+                "null"
+            ]
+        },
+        "shareNewTopics": false
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "description": "Match topic Salamanca (http://es.dbpedia.org/resource/Categoría:Salamanca) for cells containing \"SALAMANCA\" in column DISTRICT",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "DISTRICT",
+        "similarValue": "SALAMANCA",
+        "judgment": "matched",
+        "match": {
+            "id": "http://es.dbpedia.org/resource/Categoría:Salamanca",
+            "name": "Salamanca",
+            "score": 100,
+            "types": [
+                "null"
+            ]
+        },
+        "shareNewTopics": false
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "description": "Match topic Salamanca (http://dbpedia.org/resource/Category:Salamanca) for cells containing \"SALAMANCA\" in column DISTRICT",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "DISTRICT",
+        "similarValue": "SALAMANCA",
+        "judgment": "matched",
+        "match": {
+            "id": "http://dbpedia.org/resource/Category:Salamanca",
+            "name": "Salamanca",
+            "score": 100,
+            "types": [
+                "null"
+            ]
+        },
+        "shareNewTopics": false
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "description": "Match topic Salamanca (http://es.dbpedia.org/resource/Salamanca) for cells containing \"SALAMANCA\" in column DISTRICT",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "DISTRICT",
+        "similarValue": "SALAMANCA",
+        "judgment": "matched",
+        "match": {
+            "id": "http://es.dbpedia.org/resource/Salamanca",
+            "name": "Salamanca",
+            "score": 100,
+            "types": [
+                "null"
+            ]
+        },
+        "shareNewTopics": false
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "description": "Match topic Moratalaz (http://dbpedia.org/resource/Moratalaz) for cells containing \"MORATALAZ\" in column DISTRICT",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "DISTRICT",
+        "similarValue": "MORATALAZ",
+        "judgment": "matched",
+        "match": {
+            "id": "http://dbpedia.org/resource/Moratalaz",
+            "name": "Moratalaz",
+            "score": 100,
+            "types": [
+                "null"
+            ]
+        },
+        "shareNewTopics": false
+    },
+    {
+        "op": "core/column-addition",
+        "description": "Create column DISTRICT_URI at index 16 based on column DISTRICT using expression grel:cell.recon.match.id",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "newColumnName": "DISTRICT_URI",
+        "columnInsertIndex": 16,
+        "baseColumnName": "DISTRICT",
+        "expression": "grel:cell.recon.match.id",
+        "onError": "set-to-blank"
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "description": "Save RDF schema skeleton",
+        "schema": {
+            "baseUri": "http://semanticweb.org/Group04/ontology",
+            "prefixes": [
+                {
+                    "name": "schema",
+                    "uri": "http://schema.org/"
+                },
+                {
+                    "name": "ont",
+                    "uri": "http://www.semanticweb.org/Group04/ontology#"
+                },
+                {
+                    "name": "rdf",
+                    "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                },
+                {
+                    "name": "owl",
+                    "uri": "http://www.w3.org/2002/07/owl#"
+                },
+                {
+                    "name": "rdfs",
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#"
+                }
+            ],
+            "rootNodes": [
+                {
+                    "nodeType": "cell-as-resource",
+                    "expression": "value",
+                    "isRowNumberCell": false,
+                    "columnName": "CONTENT-URL",
+                    "rdfTypes": [
+                        {
+                            "uri": "http://schema.org/Parking",
+                            "curie": "schema:Parking"
+                        }
+                    ],
+                    "links": [
+                        {
+                            "uri": "http://www.semanticweb.org/Group04/ontology#isAccesible",
+                            "curie": "ont:isAccesible",
+                            "target": {
+                                "nodeType": "cell-as-literal",
+                                "expression": "value",
+                                "isRowNumberCell": false,
+                                "columnName": "ACCESIBILITY"
+                            }
+                        },
+                        {
+                            "uri": "http://www.semanticweb.org/Group04/ontology#hasType",
+                            "curie": "ont:hasType",
+                            "target": {
+                                "nodeType": "cell-as-literal",
+                                "expression": "value",
+                                "isRowNumberCell": false,
+                                "columnName": "DESCRIPTION"
+                            }
+                        },
+                        {
+                            "uri": "http://www.semanticweb.org/Group04/ontology#isInDistrict",
+                            "curie": "ont:isInDistrict",
+                            "target": {
+                                "nodeType": "cell-as-literal",
+                                "expression": "value",
+                                "isRowNumberCell": false,
+                                "valueType": "http://es.dbpedia.org/page/Barrios_de_Madrid",
+                                "columnName": "DISTRICT"
+                            }
+                        },
+                        {
+                            "uri": "http://www.semanticweb.org/Group04/ontology#hasLatitude",
+                            "curie": "ont:hasLatitude",
+                            "target": {
+                                "nodeType": "cell-as-literal",
+                                "expression": "value",
+                                "isRowNumberCell": false,
+                                "columnName": "LATITUDE"
+                            }
+                        },
+                        {
+                            "uri": "http://www.semanticweb.org/Group04/ontology#hasLongitude",
+                            "curie": "ont:hasLongitude",
+                            "target": {
+                                "nodeType": "cell-as-literal",
+                                "expression": "value",
+                                "isRowNumberCell": false,
+                                "columnName": "LONGITUDE"
+                            }
+                        },
+                        {
+                            "uri": "http://www.semanticweb.org/Group04/ontology#hasName",
+                            "curie": "ont:hasName",
+                            "target": {
+                                "nodeType": "cell-as-literal",
+                                "expression": "value",
+                                "isRowNumberCell": false,
+                                "columnName": "NAME"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "cell-as-resource",
+                    "expression": "value",
+                    "isRowNumberCell": false,
+                    "columnName": "DISTRICT",
+                    "rdfTypes": [],
+                    "links": []
+                }
+            ]
+        }
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "description": "Save RDF schema skeleton",
+        "schema": {
+            "baseUri": "http://semanticweb.org/Group04/ontology",
+            "prefixes": [
+                {
+                    "name": "schema",
+                    "uri": "http://schema.org/"
+                },
+                {
+                    "name": "ont",
+                    "uri": "http://www.semanticweb.org/Group04/ontology#"
+                },
+                {
+                    "name": "rdf",
+                    "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                },
+                {
+                    "name": "owl",
+                    "uri": "http://www.w3.org/2002/07/owl#"
+                },
+                {
+                    "name": "rdfs",
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#"
+                }
+            ],
+            "rootNodes": [
+                {
+                    "nodeType": "cell-as-resource",
+                    "expression": "value",
+                    "isRowNumberCell": false,
+                    "columnName": "CONTENT-URL",
+                    "rdfTypes": [
+                        {
+                            "uri": "http://www.semanticweb.org/Group04/ontology#Parking",
+                            "curie": "ont:Parking"
+                        }
+                    ],
+                    "links": [
+                        {
+                            "uri": "http://www.semanticweb.org/Group04/ontology#isAccesible",
+                            "curie": "ont:isAccesible",
+                            "target": {
+                                "nodeType": "cell-as-literal",
+                                "expression": "value",
+                                "isRowNumberCell": false,
+                                "columnName": "ACCESIBILITY"
+                            }
+                        },
+                        {
+                            "uri": "http://www.semanticweb.org/Group04/ontology#hasType",
+                            "curie": "ont:hasType",
+                            "target": {
+                                "nodeType": "cell-as-literal",
+                                "expression": "value",
+                                "isRowNumberCell": false,
+                                "columnName": "DESCRIPTION"
+                            }
+                        },
+                        {
+                            "uri": "http://www.semanticweb.org/Group04/ontology#isInDistrict",
+                            "curie": "ont:isInDistrict",
+                            "target": {
+                                "nodeType": "cell-as-literal",
+                                "expression": "value",
+                                "isRowNumberCell": false,
+                                "valueType": "http://es.dbpedia.org/page/Barrios_de_Madrid",
+                                "columnName": "DISTRICT"
+                            }
+                        },
+                        {
+                            "uri": "http://www.semanticweb.org/Group04/ontology#hasLatitude",
+                            "curie": "ont:hasLatitude",
+                            "target": {
+                                "nodeType": "cell-as-literal",
+                                "expression": "value",
+                                "isRowNumberCell": false,
+                                "columnName": "LATITUDE"
+                            }
+                        },
+                        {
+                            "uri": "http://www.semanticweb.org/Group04/ontology#hasLongitude",
+                            "curie": "ont:hasLongitude",
+                            "target": {
+                                "nodeType": "cell-as-literal",
+                                "expression": "value",
+                                "isRowNumberCell": false,
+                                "columnName": "LONGITUDE"
+                            }
+                        },
+                        {
+                            "uri": "http://www.semanticweb.org/Group04/ontology#hasName",
+                            "curie": "ont:hasName",
+                            "target": {
+                                "nodeType": "cell-as-literal",
+                                "expression": "value",
+                                "isRowNumberCell": false,
+                                "columnName": "NAME"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "cell-as-resource",
+                    "expression": "value",
+                    "isRowNumberCell": false,
+                    "columnName": "DISTRICT",
+                    "rdfTypes": [],
+                    "links": []
+                }
+            ]
+        }
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "description": "Save RDF schema skeleton",
+        "schema": {
+            "baseUri": "http://semanticweb.org/Group04/ontology",
+            "prefixes": [
+                {
+                    "name": "schema",
+                    "uri": "http://schema.org/"
+                },
+                {
+                    "name": "ont",
+                    "uri": "http://www.semanticweb.org/Group04/ontology#"
+                },
+                {
+                    "name": "rdf",
+                    "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                },
+                {
+                    "name": "owl",
+                    "uri": "http://www.w3.org/2002/07/owl#"
+                },
+                {
+                    "name": "rdfs",
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#"
+                }
+            ],
+            "rootNodes": [
+                {
+                    "nodeType": "cell-as-resource",
+                    "expression": "value",
+                    "isRowNumberCell": false,
+                    "columnName": "CONTENT-URL",
+                    "rdfTypes": [
+                        {
+                            "uri": "http://www.semanticweb.org/Group04/ontology#Parking",
+                            "curie": "ont:Parking"
+                        }
+                    ],
+                    "links": [
+                        {
+                            "uri": "http://www.semanticweb.org/Group04/ontology#isAccesible",
+                            "curie": "ont:isAccesible",
+                            "target": {
+                                "nodeType": "cell-as-literal",
+                                "expression": "value",
+                                "isRowNumberCell": false,
+                                "columnName": "ACCESIBILITY"
+                            }
+                        },
+                        {
+                            "uri": "http://www.semanticweb.org/Group04/ontology#hasType",
+                            "curie": "ont:hasType",
+                            "target": {
+                                "nodeType": "cell-as-literal",
+                                "expression": "value",
+                                "isRowNumberCell": false,
+                                "columnName": "DESCRIPTION"
+                            }
+                        },
+                        {
+                            "uri": "http://www.semanticweb.org/Group04/ontology#isInDistrict",
+                            "curie": "ont:isInDistrict",
+                            "target": {
+                                "nodeType": "cell-as-literal",
+                                "expression": "value",
+                                "isRowNumberCell": false,
+                                "valueType": "http://es.dbpedia.org/page/Barrios_de_Madrid",
+                                "columnName": "DISTRICT"
+                            }
+                        },
+                        {
+                            "uri": "http://www.semanticweb.org/Group04/ontology#hasLatitude",
+                            "curie": "ont:hasLatitude",
+                            "target": {
+                                "nodeType": "cell-as-literal",
+                                "expression": "value",
+                                "isRowNumberCell": false,
+                                "columnName": "LATITUDE"
+                            }
+                        },
+                        {
+                            "uri": "http://www.semanticweb.org/Group04/ontology#hasLongitude",
+                            "curie": "ont:hasLongitude",
+                            "target": {
+                                "nodeType": "cell-as-literal",
+                                "expression": "value",
+                                "isRowNumberCell": false,
+                                "columnName": "LONGITUDE"
+                            }
+                        },
+                        {
+                            "uri": "http://www.semanticweb.org/Group04/ontology#hasName",
+                            "curie": "ont:hasName",
+                            "target": {
+                                "nodeType": "cell-as-literal",
+                                "expression": "value",
+                                "isRowNumberCell": false,
+                                "columnName": "NAME"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "cell-as-resource",
+                    "expression": "value",
+                    "isRowNumberCell": false,
+                    "columnName": "DISTRICT",
+                    "rdfTypes": [],
+                    "links": [
+                        {
+                            "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                            "curie": "owl:sameAs",
+                            "target": {
+                                "nodeType": "cell-as-resource",
+                                "expression": "value",
+                                "isRowNumberCell": false,
+                                "columnName": "DISTRICT_URI",
+                                "rdfTypes": [],
+                                "links": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "op": "core/recon",
+        "description": "Reconcile cells in column STREET-NAME to type http://www.w3.org/2004/02/skos/core#Concept",
+        "columnName": "STREET-NAME",
+        "config": {
+            "mode": "standard-service",
+            "service": "http://127.0.0.1:3333/extension/rdf-extension/services/dbpedia-es",
+            "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+            "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+            "type": {
+                "id": "http://www.w3.org/2004/02/skos/core#Concept",
+                "name": "skos:Concept"
+            },
+            "autoMatch": true,
+            "columnDetails": [],
+            "limit": 0
+        },
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        }
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "description": "Match topic Barcelo (http://es.dbpedia.org/resource/Barcelo) for cells containing \"BARCELO\" in column STREET-NAME",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "STREET-NAME",
+        "similarValue": "BARCELO",
+        "judgment": "matched",
+        "match": {
+            "id": "http://es.dbpedia.org/resource/Barcelo",
+            "name": "Barcelo",
+            "score": 100,
+            "types": [
+                "null"
+            ]
+        },
+        "shareNewTopics": false
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "description": "Match topic Pradena del Rincon (http://es.dbpedia.org/resource/Pradena_del_Rincon) for cells containing \"PRADENA DEL RINCON\" in column STREET-NAME",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "STREET-NAME",
+        "similarValue": "PRADENA DEL RINCON",
+        "judgment": "matched",
+        "match": {
+            "id": "http://es.dbpedia.org/resource/Pradena_del_Rincon",
+            "name": "Pradena del Rincon",
+            "score": 100,
+            "types": [
+                "null"
+            ]
+        },
+        "shareNewTopics": false
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "description": "Match topic Portugal (http://dbpedia.org/resource/Category:Portugal) for cells containing \"PORTUGAL\" in column STREET-NAME",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "STREET-NAME",
+        "similarValue": "PORTUGAL",
+        "judgment": "matched",
+        "match": {
+            "id": "http://dbpedia.org/resource/Category:Portugal",
+            "name": "Portugal",
+            "score": 100,
+            "types": [
+                "null"
+            ]
+        },
+        "shareNewTopics": false
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "description": "Match topic General Yague (http://es.dbpedia.org/resource/General_Yague) for cells containing \"GENERAL YAG&Uuml;E\" in column STREET-NAME",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "STREET-NAME",
+        "similarValue": "GENERAL YAG&Uuml;E",
+        "judgment": "matched",
+        "match": {
+            "id": "http://es.dbpedia.org/resource/General_Yague",
+            "name": "General Yague",
+            "score": 100,
+            "types": [
+                "null"
+            ]
+        },
+        "shareNewTopics": false
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "description": "Match topic Casino (http://dbpedia.org/resource/Casino_(disambiguation)) for cells containing \"CASINO\" in column STREET-NAME",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "STREET-NAME",
+        "similarValue": "CASINO",
+        "judgment": "matched",
+        "match": {
+            "id": "http://dbpedia.org/resource/Casino_(disambiguation)",
+            "name": "Casino",
+            "score": 100,
+            "types": [
+                "null"
+            ]
+        },
+        "shareNewTopics": false
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "description": "Match topic Corazon de Maria (http://es.dbpedia.org/resource/Corazon_de_Maria) for cells containing \"CORAZON DE MARIA\" in column STREET-NAME",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "STREET-NAME",
+        "similarValue": "CORAZON DE MARIA",
+        "judgment": "matched",
+        "match": {
+            "id": "http://es.dbpedia.org/resource/Corazon_de_Maria",
+            "name": "Corazon de Maria",
+            "score": 100,
+            "types": [
+                "null"
+            ]
+        },
+        "shareNewTopics": false
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "description": "Mark to create one single new topic for all cells containing \"PEREZ DE VICTORIA\" in column STREET-NAME",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "STREET-NAME",
+        "similarValue": "PEREZ DE VICTORIA",
+        "judgment": "new",
+        "shareNewTopics": true
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "description": "Match topic Diego de Leon (http://es.dbpedia.org/resource/Diego_de_Leon) for cells containing \"DIEGO DE LEON\" in column STREET-NAME",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "STREET-NAME",
+        "similarValue": "DIEGO DE LEON",
+        "judgment": "matched",
+        "match": {
+            "id": "http://es.dbpedia.org/resource/Diego_de_Leon",
+            "name": "Diego de Leon",
+            "score": 100,
+            "types": [
+                "null"
+            ]
+        },
+        "shareNewTopics": false
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "description": "Match topic Carmen (http://dbpedia.org/resource/Carmen_(disambiguation)) for cells containing \"CARMEN\" in column STREET-NAME",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "STREET-NAME",
+        "similarValue": "CARMEN",
+        "judgment": "matched",
+        "match": {
+            "id": "http://dbpedia.org/resource/Carmen_(disambiguation)",
+            "name": "Carmen",
+            "score": 100,
+            "types": [
+                "null"
+            ]
+        },
+        "shareNewTopics": false
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "description": "Mark to create one single new topic for all cells containing \"PEREZ DE VICTORIA\" in column STREET-NAME",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "STREET-NAME",
+        "similarValue": "PEREZ DE VICTORIA",
+        "judgment": "new",
+        "shareNewTopics": true
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "description": "Match topic Encuentro (http://es.dbpedia.org/resource/Encuentro) for cells containing \"ENCUENTRO\" in column STREET-NAME",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "STREET-NAME",
+        "similarValue": "ENCUENTRO",
+        "judgment": "matched",
+        "match": {
+            "id": "http://es.dbpedia.org/resource/Encuentro",
+            "name": "Encuentro",
+            "score": 100,
+            "types": [
+                "null"
+            ]
+        },
+        "shareNewTopics": false
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "description": "Match topic Carmen (http://es.dbpedia.org/resource/Carmen) for cells containing \"CARMEN\" in column STREET-NAME",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "STREET-NAME",
+        "similarValue": "CARMEN",
+        "judgment": "matched",
+        "match": {
+            "id": "http://es.dbpedia.org/resource/Carmen",
+            "name": "Carmen",
+            "score": 100,
+            "types": [
+                "null"
+            ]
+        },
+        "shareNewTopics": false
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "description": "Match topic Goya (http://es.dbpedia.org/resource/Goya) for cells containing \"GOYA\" in column STREET-NAME",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "STREET-NAME",
+        "similarValue": "GOYA",
+        "judgment": "matched",
+        "match": {
+            "id": "http://es.dbpedia.org/resource/Goya",
+            "name": "Goya",
+            "score": 100,
+            "types": [
+                "null"
+            ]
+        },
+        "shareNewTopics": false
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "description": "Match topic Guillermo Fernandez Alvarez (http://es.dbpedia.org/resource/Guillermo_Fernandez_Alvarez) for cells containing \"CARLOS Y GUILLERMO FERNANDEZ SHAW\" in column STREET-NAME",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "STREET-NAME",
+        "similarValue": "CARLOS Y GUILLERMO FERNANDEZ SHAW",
+        "judgment": "matched",
+        "match": {
+            "id": "http://es.dbpedia.org/resource/Guillermo_Fernandez_Alvarez",
+            "name": "Guillermo Fernandez Alvarez",
+            "score": 100,
+            "types": [
+                "null"
+            ]
+        },
+        "shareNewTopics": false
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "description": "Match topic Olavide (http://es.dbpedia.org/resource/Olavide) for cells containing \"OLAVIDE\" in column STREET-NAME",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "STREET-NAME",
+        "similarValue": "OLAVIDE",
+        "judgment": "matched",
+        "match": {
+            "id": "http://es.dbpedia.org/resource/Olavide",
+            "name": "Olavide",
+            "score": 100,
+            "types": [
+                "null"
+            ]
+        },
+        "shareNewTopics": false
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "description": "Match topic Las Cortes (http://es.dbpedia.org/resource/Las_Cortes) for cells containing \"LAS CORTES\" in column STREET-NAME",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "STREET-NAME",
+        "similarValue": "LAS CORTES",
+        "judgment": "matched",
+        "match": {
+            "id": "http://es.dbpedia.org/resource/Las_Cortes",
+            "name": "Las Cortes",
+            "score": 100,
+            "types": [
+                "null"
+            ]
+        },
+        "shareNewTopics": false
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "description": "Match topic Ciudad de Barcelona (http://es.dbpedia.org/resource/Ciudad_de_Barcelona) for cells containing \"CIUDAD DE BARCELONA\" in column STREET-NAME",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "STREET-NAME",
+        "similarValue": "CIUDAD DE BARCELONA",
+        "judgment": "matched",
+        "match": {
+            "id": "http://es.dbpedia.org/resource/Ciudad_de_Barcelona",
+            "name": "Ciudad de Barcelona",
+            "score": 100,
+            "types": [
+                "null"
+            ]
+        },
+        "shareNewTopics": false
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "description": "Match topic Brasil (http://dbpedia.org/resource/Brazil) for cells containing \"BRASIL\" in column STREET-NAME",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "STREET-NAME",
+        "similarValue": "BRASIL",
+        "judgment": "matched",
+        "match": {
+            "id": "http://dbpedia.org/resource/Brazil",
+            "name": "Brasil",
+            "score": 100,
+            "types": [
+                "null"
+            ]
+        },
+        "shareNewTopics": false
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "description": "Match topic Principe de Vergara (http://es.dbpedia.org/resource/Principe_de_Vergara) for cells containing \"PRINCIPE DE VERGARA\" in column STREET-NAME",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "STREET-NAME",
+        "similarValue": "PRINCIPE DE VERGARA",
+        "judgment": "matched",
+        "match": {
+            "id": "http://es.dbpedia.org/resource/Principe_de_Vergara",
+            "name": "Principe de Vergara",
+            "score": 100,
+            "types": [
+                "null"
+            ]
+        },
+        "shareNewTopics": false
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "description": "Match topic Gonzalo Garcia Garcia (http://es.dbpedia.org/resource/Gonzalo_Garcia_Garcia) for cells containing \"GARCIA MOLINAS\" in column STREET-NAME",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "STREET-NAME",
+        "similarValue": "GARCIA MOLINAS",
+        "judgment": "matched",
+        "match": {
+            "id": "http://es.dbpedia.org/resource/Gonzalo_Garcia_Garcia",
+            "name": "Gonzalo Garcia Garcia",
+            "score": 100,
+            "types": [
+                "null"
+            ]
+        },
+        "shareNewTopics": false
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "description": "Match topic Hernani (http://dbpedia.org/resource/Hernani,_Gipuzkoa) for cells containing \"HERNANI\" in column STREET-NAME",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "STREET-NAME",
+        "similarValue": "HERNANI",
+        "judgment": "matched",
+        "match": {
+            "id": "http://dbpedia.org/resource/Hernani,_Gipuzkoa",
+            "name": "Hernani",
+            "score": 100,
+            "types": [
+                "null"
+            ]
+        },
+        "shareNewTopics": false
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "description": "Match topic Fuencarral (http://dbpedia.org/resource/Fuencarral) for cells containing \"FUENCARRAL\" in column STREET-NAME",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "STREET-NAME",
+        "similarValue": "FUENCARRAL",
+        "judgment": "matched",
+        "match": {
+            "id": "http://dbpedia.org/resource/Fuencarral",
+            "name": "Fuencarral",
+            "score": 100,
+            "types": [
+                "null"
+            ]
+        },
+        "shareNewTopics": false
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "description": "Match topic Capitan Haya (http://es.dbpedia.org/resource/Capitan_Haya) for cells containing \"CAPITAN HAYA\" in column STREET-NAME",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "STREET-NAME",
+        "similarValue": "CAPITAN HAYA",
+        "judgment": "matched",
+        "match": {
+            "id": "http://es.dbpedia.org/resource/Capitan_Haya",
+            "name": "Capitan Haya",
+            "score": 100,
+            "types": [
+                "null"
+            ]
+        },
+        "shareNewTopics": false
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "description": "Match topic Marques de salamanca (http://es.dbpedia.org/resource/Marques_de_salamanca) for cells containing \"MARQUES DE SALAMANCA\" in column STREET-NAME",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "STREET-NAME",
+        "similarValue": "MARQUES DE SALAMANCA",
+        "judgment": "matched",
+        "match": {
+            "id": "http://es.dbpedia.org/resource/Marques_de_salamanca",
+            "name": "Marques de salamanca",
+            "score": 100,
+            "types": [
+                "null"
+            ]
+        },
+        "shareNewTopics": false
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "description": "Match topic Sor Angela de la Cruz (http://es.dbpedia.org/resource/Sor_Angela_de_la_Cruz) for cells containing \"SOR ANGELA DE LA CRUZ\" in column STREET-NAME",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "STREET-NAME",
+        "similarValue": "SOR ANGELA DE LA CRUZ",
+        "judgment": "matched",
+        "match": {
+            "id": "http://es.dbpedia.org/resource/Sor_Angela_de_la_Cruz",
+            "name": "Sor Angela de la Cruz",
+            "score": 100,
+            "types": [
+                "null"
+            ]
+        },
+        "shareNewTopics": false
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "description": "Match topic Recoletos (http://es.dbpedia.org/resource/Recoletos) for cells containing \"RECOLETOS\" in column STREET-NAME",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "STREET-NAME",
+        "similarValue": "RECOLETOS",
+        "judgment": "matched",
+        "match": {
+            "id": "http://es.dbpedia.org/resource/Recoletos",
+            "name": "Recoletos",
+            "score": 100,
+            "types": [
+                "null"
+            ]
+        },
+        "shareNewTopics": false
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "description": "Match topic Antonia Merce (http://es.dbpedia.org/resource/Antonia_Merce) for cells containing \"ANTONIA MERCE\" in column STREET-NAME",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "STREET-NAME",
+        "similarValue": "ANTONIA MERCE",
+        "judgment": "matched",
+        "match": {
+            "id": "http://es.dbpedia.org/resource/Antonia_Merce",
+            "name": "Antonia Merce",
+            "score": 100,
+            "types": [
+                "null"
+            ]
+        },
+        "shareNewTopics": false
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "description": "Match topic Republica Dominicana (http://es.dbpedia.org/resource/Republica_Dominicana) for cells containing \"REPUBLICA DOMINICANA\" in column STREET-NAME",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "STREET-NAME",
+        "similarValue": "REPUBLICA DOMINICANA",
+        "judgment": "matched",
+        "match": {
+            "id": "http://es.dbpedia.org/resource/Republica_Dominicana",
+            "name": "Republica Dominicana",
+            "score": 100,
+            "types": [
+                "null"
+            ]
+        },
+        "shareNewTopics": false
+    },
+    {
+        "op": "core/recon-clear-similar-cells",
+        "description": "Clear recon data for cells containing \"SANTA MARIA SOLEDAD TORRES ACOSTA\" in column STREET-NAME",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "STREET-NAME",
+        "similarValue": "SANTA MARIA SOLEDAD TORRES ACOSTA"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "description": "Match topic Velazquez (http://es.dbpedia.org/resource/Velazquez) for cells containing \"VELAZQUEZ\" in column STREET-NAME",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "STREET-NAME",
+        "similarValue": "VELAZQUEZ",
+        "judgment": "matched",
+        "match": {
+            "id": "http://es.dbpedia.org/resource/Velazquez",
+            "name": "Velazquez",
+            "score": 100,
+            "types": [
+                "null"
+            ]
+        },
+        "shareNewTopics": false
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "description": "Match topic Montalban (http://es.dbpedia.org/resource/Montalban) for cells containing \"MONTALBAN\" in column STREET-NAME",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "STREET-NAME",
+        "similarValue": "MONTALBAN",
+        "judgment": "matched",
+        "match": {
+            "id": "http://es.dbpedia.org/resource/Montalban",
+            "name": "Montalban",
+            "score": 100,
+            "types": [
+                "null"
+            ]
+        },
+        "shareNewTopics": false
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "description": "Match topic Marques de Urquijo (http://es.dbpedia.org/resource/Marques_de_Urquijo) for cells containing \"MARQUES DE URQUIJO\" in column STREET-NAME",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "STREET-NAME",
+        "similarValue": "MARQUES DE URQUIJO",
+        "judgment": "matched",
+        "match": {
+            "id": "http://es.dbpedia.org/resource/Marques_de_Urquijo",
+            "name": "Marques de Urquijo",
+            "score": 100,
+            "types": [
+                "null"
+            ]
+        },
+        "shareNewTopics": false
+    },
+    {
+        "op": "core/recon-clear-similar-cells",
+        "description": "Clear recon data for cells containing \"VERDAGUER Y GARCIA\" in column STREET-NAME",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "STREET-NAME",
+        "similarValue": "VERDAGUER Y GARCIA"
+    },
+    {
+        "op": "core/recon-clear-similar-cells",
+        "description": "Clear recon data for cells containing \"PRESIDENTE CARMONA\" in column STREET-NAME",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "STREET-NAME",
+        "similarValue": "PRESIDENTE CARMONA"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "description": "Match topic Arcentales (http://dbpedia.org/resource/Artzentales) for cells containing \"ARCENTALES\" in column STREET-NAME",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "STREET-NAME",
+        "similarValue": "ARCENTALES",
+        "judgment": "matched",
+        "match": {
+            "id": "http://dbpedia.org/resource/Artzentales",
+            "name": "Arcentales",
+            "score": 100,
+            "types": [
+                "null"
+            ]
+        },
+        "shareNewTopics": false
+    },
+    {
+        "op": "core/recon-clear-similar-cells",
+        "description": "Clear recon data for cells containing \"ESPA&Ntilde;A\" in column STREET-NAME",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "STREET-NAME",
+        "similarValue": "ESPA&Ntilde;A"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "description": "Match topic San Cayetano (http://dbpedia.org/resource/San_Cayetano) for cells containing \"SAN CAYETANO\" in column STREET-NAME",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "STREET-NAME",
+        "similarValue": "SAN CAYETANO",
+        "judgment": "matched",
+        "match": {
+            "id": "http://dbpedia.org/resource/San_Cayetano",
+            "name": "San Cayetano",
+            "score": 100,
+            "types": [
+                "null"
+            ]
+        },
+        "shareNewTopics": false
+    },
+    {
+        "op": "core/recon-clear-similar-cells",
+        "description": "Clear recon data for cells containing \"DESCALZAS\" in column STREET-NAME",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "STREET-NAME",
+        "similarValue": "DESCALZAS"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "description": "Match topic Almagro (http://dbpedia.org/resource/Almagro) for cells containing \"ALMAGRO\" in column STREET-NAME",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "STREET-NAME",
+        "similarValue": "ALMAGRO",
+        "judgment": "matched",
+        "match": {
+            "id": "http://dbpedia.org/resource/Almagro",
+            "name": "Almagro",
+            "score": 100,
+            "types": [
+                "null"
+            ]
+        },
+        "shareNewTopics": false
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "description": "Match topic Cayetano Sanchez Bustillo (http://es.dbpedia.org/resource/Cayetano_Sanchez_Bustillo) for cells containing \"SANCHEZ BUSTILLO\" in column STREET-NAME",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "STREET-NAME",
+        "similarValue": "SANCHEZ BUSTILLO",
+        "judgment": "matched",
+        "match": {
+            "id": "http://es.dbpedia.org/resource/Cayetano_Sanchez_Bustillo",
+            "name": "Cayetano Sanchez Bustillo",
+            "score": 100,
+            "types": [
+                "null"
+            ]
+        },
+        "shareNewTopics": false
+    },
+    {
+        "op": "core/recon-clear-similar-cells",
+        "description": "Clear recon data for cells containing \"CAPITAN SALAZAR MARTINEZ\" in column STREET-NAME",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "STREET-NAME",
+        "similarValue": "CAPITAN SALAZAR MARTINEZ"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "description": "Match topic Pedro Zerolo (http://dbpedia.org/resource/Pedro_Zerolo) for cells containing \"PEDRO ZEROLO\" in column STREET-NAME",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "STREET-NAME",
+        "similarValue": "PEDRO ZEROLO",
+        "judgment": "matched",
+        "match": {
+            "id": "http://dbpedia.org/resource/Pedro_Zerolo",
+            "name": "Pedro Zerolo",
+            "score": 100,
+            "types": [
+                "null"
+            ]
+        },
+        "shareNewTopics": false
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "description": "Match topic Miguel Yuste (http://es.dbpedia.org/resource/Miguel_Yuste) for cells containing \"MIGUEL YUSTE\" in column STREET-NAME",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "STREET-NAME",
+        "similarValue": "MIGUEL YUSTE",
+        "judgment": "matched",
+        "match": {
+            "id": "http://es.dbpedia.org/resource/Miguel_Yuste",
+            "name": "Miguel Yuste",
+            "score": 100,
+            "types": [
+                "null"
+            ]
+        },
+        "shareNewTopics": false
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "description": "Match topic Juan Bravo (http://dbpedia.org/resource/Juan_Bravo) for cells containing \"JUAN BRAVO\" in column STREET-NAME",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "STREET-NAME",
+        "similarValue": "JUAN BRAVO",
+        "judgment": "matched",
+        "match": {
+            "id": "http://dbpedia.org/resource/Juan_Bravo",
+            "name": "Juan Bravo",
+            "score": 100,
+            "types": [
+                "null"
+            ]
+        },
+        "shareNewTopics": false
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "description": "Match topic Jose Ortega y Gasset (http://es.dbpedia.org/resource/Jose_Ortega_y_Gasset) for cells containing \"JOSE ORTEGA Y GASSET\" in column STREET-NAME",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "STREET-NAME",
+        "similarValue": "JOSE ORTEGA Y GASSET",
+        "judgment": "matched",
+        "match": {
+            "id": "http://es.dbpedia.org/resource/Jose_Ortega_y_Gasset",
+            "name": "Jose Ortega y Gasset",
+            "score": 100,
+            "types": [
+                "null"
+            ]
+        },
+        "shareNewTopics": false
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "description": "Match topic Jorge Juan (http://dbpedia.org/resource/Jorge_Juan_y_Santacilia) for cells containing \"JORGE JUAN\" in column STREET-NAME",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "STREET-NAME",
+        "similarValue": "JORGE JUAN",
+        "judgment": "matched",
+        "match": {
+            "id": "http://dbpedia.org/resource/Jorge_Juan_y_Santacilia",
+            "name": "Jorge Juan",
+            "score": 100,
+            "types": [
+                "null"
+            ]
+        },
+        "shareNewTopics": false
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "description": "Match topic Alcala (http://es.dbpedia.org/resource/Alcala) for cells containing \"ALCALA\" in column STREET-NAME",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "STREET-NAME",
+        "similarValue": "ALCALA",
+        "judgment": "matched",
+        "match": {
+            "id": "http://es.dbpedia.org/resource/Alcala",
+            "name": "Alcala",
+            "score": 100,
+            "types": [
+                "null"
+            ]
+        },
+        "shareNewTopics": false
+    },
+    {
+        "op": "core/recon-clear-similar-cells",
+        "description": "Clear recon data for cells containing \"CONDESA DE GAVIA\" in column STREET-NAME",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "columnName": "STREET-NAME",
+        "similarValue": "CONDESA DE GAVIA"
+    },
+    {
+        "op": "core/column-addition",
+        "description": "Create column STREET-NAME_URI at index 7 based on column STREET-NAME using expression grel:cell.recon.match.id",
+        "engineConfig": {
+            "mode": "row-based",
+            "facets": []
+        },
+        "newColumnName": "STREET-NAME_URI",
+        "columnInsertIndex": 7,
+        "baseColumnName": "STREET-NAME",
+        "expression": "grel:cell.recon.match.id",
+        "onError": "set-to-blank"
+    },
+    {
+        "op": "rdf-extension/save-rdf-schema",
+        "description": "Save RDF schema skeleton",
+        "schema": {
+            "baseUri": "http://semanticweb.org/Group04/ontology",
+            "prefixes": [
+                {
+                    "name": "schema",
+                    "uri": "http://schema.org/"
+                },
+                {
+                    "name": "ont",
+                    "uri": "http://www.semanticweb.org/Group04/ontology#"
+                },
+                {
+                    "name": "rdf",
+                    "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                },
+                {
+                    "name": "owl",
+                    "uri": "http://www.w3.org/2002/07/owl#"
+                },
+                {
+                    "name": "rdfs",
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#"
+                }
+            ],
+            "rootNodes": [
+                {
+                    "nodeType": "cell-as-resource",
+                    "expression": "value",
+                    "isRowNumberCell": false,
+                    "columnName": "CONTENT-URL",
+                    "rdfTypes": [
+                        {
+                            "uri": "http://www.semanticweb.org/Group04/ontology#Parking",
+                            "curie": "ont:Parking"
+                        }
+                    ],
+                    "links": [
+                        {
+                            "uri": "http://www.semanticweb.org/Group04/ontology#isAccesible",
+                            "curie": "ont:isAccesible",
+                            "target": {
+                                "nodeType": "cell-as-literal",
+                                "expression": "value",
+                                "isRowNumberCell": false,
+                                "columnName": "ACCESIBILITY"
+                            }
+                        },
+                        {
+                            "uri": "http://www.semanticweb.org/Group04/ontology#hasType",
+                            "curie": "ont:hasType",
+                            "target": {
+                                "nodeType": "cell-as-literal",
+                                "expression": "value",
+                                "isRowNumberCell": false,
+                                "columnName": "DESCRIPTION"
+                            }
+                        },
+                        {
+                            "uri": "http://www.semanticweb.org/Group04/ontology#isInStreet",
+                            "curie": "ont:isInStreet",
+                            "target": {
+                                "nodeType": "cell-as-literal",
+                                "expression": "value",
+                                "isRowNumberCell": false,
+                                "valueType": "http://es.dbpedia.org/page/Barrios_de_Madrid",
+                                "columnName": "STREET-NAME"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "cell-as-resource",
+                    "expression": "value",
+                    "isRowNumberCell": false,
+                    "columnName": "STREET-NAME",
+                    "rdfTypes": [],
+                    "links": [
+                        {
+                            "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                            "curie": "owl:sameAs",
+                            "target": {
+                                "nodeType": "cell-as-resource",
+                                "expression": "value",
+                                "isRowNumberCell": false,
+                                "columnName": "STREET-NAME_URI",
+                                "rdfTypes": [],
+                                "links": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+]

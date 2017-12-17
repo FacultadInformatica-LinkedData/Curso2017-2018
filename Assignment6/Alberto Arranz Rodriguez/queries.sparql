@@ -1,0 +1,111 @@
+# How many accidents were there in Madrid in 2013?
+
+prefix xsd: <http://www.w3.org/2001/XMLSchema#> 
+prefix sdmx-measure: <http://purl.org/linked-data/sdmx/2009/measure#> 
+prefix sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> 
+prefix sdmx: <http://purl.org/linked-data/sdmx#> 
+prefix mn: <http://example.org/resources/> 
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+prefix owl: <http://www.w3.org/2002/07/owl#> 
+prefix mv: <http://example.org/myVocabulary#> 
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+prefix qb: <http://purl.org/linked-data/cube#> 
+prefix skos: <http://www.w3.org/2004/02/skos/core#> 
+
+SELECT (SUM(?x) AS ?Total) WHERE {
+ ?obs a qb:Observation ;
+     mv:numberOfAccidents ?x
+ 
+}
+
+# Give me the number of accidents in Usera for each type of accident
+
+prefix xsd: <http://www.w3.org/2001/XMLSchema#> 
+prefix sdmx-measure: <http://purl.org/linked-data/sdmx/2009/measure#> 
+prefix sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> 
+prefix sdmx: <http://purl.org/linked-data/sdmx#> 
+prefix mn: <http://example.org/resources/> 
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+prefix owl: <http://www.w3.org/2002/07/owl#> 
+prefix mv: <http://example.org/myVocabulary#> 
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+prefix qb: <http://purl.org/linked-data/cube#> 
+prefix skos: <http://www.w3.org/2004/02/skos/core#> 
+
+SELECT ?tipo ?x WHERE {
+ ?obs a qb:Observation ;
+     mv:relatedDistrict "USERA" ;
+     mv:numberOfAccidents ?x ;
+     mv:hasAccidentType ?at .
+  ?at skos:prefLabel ?tipo .
+  FILTER ( lang(?tipo) = "es" ) 
+ 
+}GROUP BY ?tipo
+
+
+# Give me the number of multiple collisions for each district
+
+prefix xsd: <http://www.w3.org/2001/XMLSchema#> 
+prefix sdmx-measure: <http://purl.org/linked-data/sdmx/2009/measure#> 
+prefix sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> 
+prefix sdmx: <http://purl.org/linked-data/sdmx#> 
+prefix mn: <http://example.org/resources/> 
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+prefix owl: <http://www.w3.org/2002/07/owl#> 
+prefix mv: <http://example.org/myVocabulary#> 
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+prefix qb: <http://purl.org/linked-data/cube#> 
+prefix skos: <http://www.w3.org/2004/02/skos/core#> 
+
+SELECT ?dist ?x WHERE {
+ ?obs a qb:Observation ;
+     mv:relatedDistrict ?dist ;
+     mv:numberOfAccidents ?x ;
+     mv:hasAccidentType mv:MultipleCollision .
+ 
+}GROUP BY ?dist
+
+# Which is the district were the number of bicycle falls was higher in 2013?
+
+
+prefix xsd: <http://www.w3.org/2001/XMLSchema#> 
+prefix sdmx-measure: <http://purl.org/linked-data/sdmx/2009/measure#> 
+prefix sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> 
+prefix sdmx: <http://purl.org/linked-data/sdmx#> 
+prefix mn: <http://example.org/resources/> 
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+prefix owl: <http://www.w3.org/2002/07/owl#> 
+prefix mv: <http://example.org/myVocabulary#> 
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+prefix qb: <http://purl.org/linked-data/cube#> 
+prefix skos: <http://www.w3.org/2004/02/skos/core#> 
+
+SELECT ?dist ?x WHERE {
+ ?obs a qb:Observation ;
+     mv:relatedDistrict ?dist ;
+     mv:numberOfAccidents ?x ;
+     mv:hasAccidentType mv:BicycleFall .
+ 
+}GROUP BY ?dist
+ORDER BY DESC(?x) LIMIT 3
+
+# Give me the districts with more than 500 accidents in 2013
+
+prefix xsd: <http://www.w3.org/2001/XMLSchema#> 
+prefix sdmx-measure: <http://purl.org/linked-data/sdmx/2009/measure#> 
+prefix sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> 
+prefix sdmx: <http://purl.org/linked-data/sdmx#> 
+prefix mn: <http://example.org/resources/> 
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+prefix owl: <http://www.w3.org/2002/07/owl#> 
+prefix mv: <http://example.org/myVocabulary#> 
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+prefix qb: <http://purl.org/linked-data/cube#> 
+prefix skos: <http://www.w3.org/2004/02/skos/core#> 
+
+SELECT ?dist ?x WHERE {
+ ?obs a qb:Observation ;
+     mv:relatedDistrict ?dist ;
+     mv:numberOfAccidents ?x  > 500;
+ 
+}GROUP BY ?dist

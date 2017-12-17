@@ -1,0 +1,5595 @@
+[
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column province to type http://dbpedia.org/ontology/Place",
+    "columnName": "province",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/dbpedia",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://dbpedia.org/ontology/Place",
+        "name": "dbo:Place"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Bizkaia (http://dbpedia.org/resource/Category:Bizkaia) for cells containing \"Bizkaia\" in column province",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "province",
+    "similarValue": "Bizkaia",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Category:Bizkaia",
+      "name": "Bizkaia",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Álava (http://dbpedia.org/resource/Álava) for cells containing \"Araba/Álava\" in column province",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "province",
+    "similarValue": "Araba/Álava",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Álava",
+      "name": "Álava",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Gipuzkoa (http://dbpedia.org/resource/Category:Gipuzkoa) for cells containing \"Gipuzkoa\" in column province",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "province",
+    "similarValue": "Gipuzkoa",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Category:Gipuzkoa",
+      "name": "Gipuzkoa",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column name to type http://dbpedia.org/ontology/Place",
+    "columnName": "name",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/dbpedia",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://dbpedia.org/ontology/Place",
+        "name": "dbo:Place"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic 3 de marzo (http://dbpedia.org/resource/March_3) for cells containing \"3 DE MARZO\" in column name",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "name",
+    "similarValue": "3 DE MARZO",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/March_3",
+      "name": "3 de marzo",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Abanto (http://www.wikidata.org/entity/Q1645485) for cells containing \"ABANTO\" in column name",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "name",
+    "similarValue": "ABANTO",
+    "judgment": "matched",
+    "match": {
+      "id": "http://www.wikidata.org/entity/Q1645485",
+      "name": "Abanto",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Algorta (http://dbpedia.org/resource/Algorta) for cells containing \"ALGORTA (BBIZI2)\" in column name",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "name",
+    "similarValue": "ALGORTA (BBIZI2)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Algorta",
+      "name": "Algorta",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Arraiz (http://www.wikidata.org/entity/Q12254071) for cells containing \"ARRAIZ (Monte)\" in column name",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "name",
+    "similarValue": "ARRAIZ (Monte)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://www.wikidata.org/entity/Q12254071",
+      "name": "Arraiz",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Ategorrieta (http://www.wikidata.org/entity/Q8779314) for cells containing \"ATEGORRIETA\" in column name",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "name",
+    "similarValue": "ATEGORRIETA",
+    "judgment": "matched",
+    "match": {
+      "id": "http://www.wikidata.org/entity/Q8779314",
+      "name": "Ategorrieta",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"AV. GASTEIZ\" in column name",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "name",
+    "similarValue": "AV. GASTEIZ"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"AVDA. TOLOSA\" in column name",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "name",
+    "similarValue": "AVDA. TOLOSA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Azpeitia (http://dbpedia.org/resource/Azpeitia) for cells containing \"AZPEITIA\" in column name",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "name",
+    "similarValue": "AZPEITIA",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Azpeitia",
+      "name": "Azpeitia",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"AÑORGA\" in column name",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "name",
+    "similarValue": "AÑORGA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Banderas (http://dbpedia.org/resource/Banderas) for cells containing \"BANDERAS (meteo)\" in column name",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "name",
+    "similarValue": "BANDERAS (meteo)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Banderas",
+      "name": "Banderas",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Beasain (http://dbpedia.org/resource/Beasain) for cells containing \"BEASAIN\" in column name",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "name",
+    "similarValue": "BEASAIN",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Beasain",
+      "name": "Beasain",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"BOROA METEO\" in column name",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "name",
+    "similarValue": "BOROA METEO"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"CASTREJANA\" in column name",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "name",
+    "similarValue": "CASTREJANA"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"DURANGO\" in column name",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "name",
+    "similarValue": "DURANGO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Easo (http://dbpedia.org/resource/EASO) for cells containing \"EASO\" in column name",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "name",
+    "similarValue": "EASO",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/EASO",
+      "name": "Easo",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"EUROPA\" in column name",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "name",
+    "similarValue": "EUROPA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Farmacia (http://dbpedia.org/resource/Pharmacy) for cells containing \"FARMACIA\" in column name",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "name",
+    "similarValue": "FARMACIA",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Pharmacy",
+      "name": "Farmacia",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Feria (http://dbpedia.org/resource/Feria) for cells containing \"FERIA (meteo)\" in column name",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "name",
+    "similarValue": "FERIA (meteo)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Feria",
+      "name": "Feria",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Las Carreras (http://www.wikidata.org/entity/Q1575567) for cells containing \"LAS CARRERAS\" in column name",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "name",
+    "similarValue": "LAS CARRERAS",
+    "judgment": "matched",
+    "match": {
+      "id": "http://www.wikidata.org/entity/Q1575567",
+      "name": "Las Carreras",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Lezo (http://dbpedia.org/resource/Lezo) for cells containing \"LEZO\" in column name",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "name",
+    "similarValue": "LEZO",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Lezo",
+      "name": "Lezo",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Llodio (http://dbpedia.org/resource/Laudio/Llodio) for cells containing \"LLODIO\" in column name",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "name",
+    "similarValue": "LLODIO",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Laudio/Llodio",
+      "name": "Llodio",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Mondragon (http://dbpedia.org/resource/Mondragon) for cells containing \"MONDRAGON\" in column name",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "name",
+    "similarValue": "MONDRAGON",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Mondragon",
+      "name": "Mondragon",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"LOS HERRAN\" in column name",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "name",
+    "similarValue": "LOS HERRAN"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Mazarredo (http://www.wikidata.org/entity/Q9030858) for cells containing \"MAZARREDO\" in column name",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "name",
+    "similarValue": "MAZARREDO",
+    "judgment": "matched",
+    "match": {
+      "id": "http://www.wikidata.org/entity/Q9030858",
+      "name": "Mazarredo",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"Mª DIAZ HARO\" in column name",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "name",
+    "similarValue": "Mª DIAZ HARO"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"NAUTICA\" in column name",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "name",
+    "similarValue": "NAUTICA"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"PAGOETA\" in column name",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "name",
+    "similarValue": "PAGOETA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic San Julian (http://dbpedia.org/resource/San_Julián) for cells containing \"SAN JULIAN\" in column name",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "name",
+    "similarValue": "SAN JULIAN",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/San_Julián",
+      "name": "San Julian",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"MUNOA\" in column name",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "name",
+    "similarValue": "MUNOA"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"SANGRONIZ\" in column name",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "name",
+    "similarValue": "SANGRONIZ"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Serantes (http://dbpedia.org/resource/Serantes) for cells containing \"SERANTES\" in column name",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "name",
+    "similarValue": "SERANTES",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Serantes",
+      "name": "Serantes",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Urkiola (http://dbpedia.org/resource/Urkiola) for cells containing \"URKIOLA\" in column name",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "name",
+    "similarValue": "URKIOLA",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Urkiola",
+      "name": "Urkiola",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Valderejo (http://dbpedia.org/resource/Valderejo) for cells containing \"VALDEREJO\" in column name",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "name",
+    "similarValue": "VALDEREJO",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Valderejo",
+      "name": "Valderejo",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"ZELAIETA PARQUE\" in column name",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "name",
+    "similarValue": "ZELAIETA PARQUE"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"ZIERBENA (Puerto)\" in column name",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "name",
+    "similarValue": "ZIERBENA (Puerto)"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"ZUMARRAGA\" in column name",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "name",
+    "similarValue": "ZUMARRAGA"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column name_links at index 1 based on column name using expression grel:cell.recon.match.id",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "name_links",
+    "columnInsertIndex": 1,
+    "baseColumnName": "name",
+    "expression": "grel:cell.recon.match.id",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column province_links at index 3 based on column province using expression grel:cell.recon.match.id",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "province_links",
+    "columnInsertIndex": 3,
+    "baseColumnName": "province",
+    "expression": "grel:cell.recon.match.id",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column town to type http://dbpedia.org/ontology/Place",
+    "columnName": "town",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/dbpedia",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://dbpedia.org/ontology/Place",
+        "name": "dbo:Place"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"Abanto y Ciérvana-Abanto Zierbena\" in column town",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "town",
+    "similarValue": "Abanto y Ciérvana-Abanto Zierbena"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"Agurain/Salvatierra\" in column town",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "town",
+    "similarValue": "Agurain/Salvatierra"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Bilbao (http://dbpedia.org/resource/Category:Bilbao) for cells containing \"Bilbao\" in column town",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "town",
+    "similarValue": "Bilbao",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Category:Bilbao",
+      "name": "Bilbao",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"Durango\" in column town",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "town",
+    "similarValue": "Durango"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Lezo (http://dbpedia.org/resource/Lezo) for cells containing \"Lezo\" in column town",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "town",
+    "similarValue": "Lezo",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Lezo",
+      "name": "Lezo",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Sondika (http://dbpedia.org/resource/Sondika) for cells containing \"Sondika\" in column town",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "town",
+    "similarValue": "Sondika",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Sondika",
+      "name": "Sondika",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"Arrasate/Mondragón\" in column town",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "town",
+    "similarValue": "Arrasate/Mondragón"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"Abadiño\" in column town",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "town",
+    "similarValue": "Abadiño"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"Valdegovía/Gaubea\" in column town",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "town",
+    "similarValue": "Valdegovía/Gaubea"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Zierbena (http://dbpedia.org/resource/Zierbena) for cells containing \"Zierbena\" in column town",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "town",
+    "similarValue": "Zierbena",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Zierbena",
+      "name": "Zierbena",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Zumárraga (http://dbpedia.org/resource/Zumárraga) for cells containing \"Zumarraga\" in column town",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "town",
+    "similarValue": "Zumarraga",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Zumárraga",
+      "name": "Zumárraga",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column town_links at index 5 based on column town using expression grel:cell.recon.match.id",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "town_links",
+    "columnInsertIndex": 5,
+    "baseColumnName": "town",
+    "expression": "grel:cell.recon.match.id",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/2017grupo9/ontology/city/Euskadi#",
+      "prefixes": [
+        {
+          "name": "geo",
+          "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#"
+        },
+        {
+          "name": "dbp",
+          "uri": "http://dbpedia.org/property/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://dbpedia.org/property/name",
+              "curie": "dbp:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "name"
+              }
+            },
+            {
+              "uri": "http://dbpedia.org/property/province",
+              "curie": "dbp:province",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "province"
+              }
+            },
+            {
+              "uri": "http://dbpedia.org/property/town",
+              "curie": "dbp:town",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "town"
+              }
+            },
+            {
+              "uri": "http://dbpedia.org/property/address",
+              "curie": "dbp:address",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "address"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#location",
+              "curie": "geo:location",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "coordenates x (etrs89)"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#location",
+              "curie": "geo:location",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "coordenates y (etrs89)"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#lat",
+              "curie": "geo:lat",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "latitude"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#long",
+              "curie": "geo:long",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "longitude"
+              }
+            },
+            {
+              "uri": "http://dbpedia.org/property/name",
+              "curie": "dbp:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "name_links"
+              }
+            },
+            {
+              "uri": "http://dbpedia.org/property/province",
+              "curie": "dbp:province",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "province_links"
+              }
+            },
+            {
+              "uri": "http://dbpedia.org/property/town",
+              "curie": "dbp:town",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "town_links"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]
+
+[
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column year to type http://www.wikidata.org/entity/Q4167836",
+    "columnName": "year",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/dbpedia",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://www.wikidata.org/entity/Q4167836",
+        "name": "http://www.wikidata.org/entity/Q4167836"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic 2016 (http://dbpedia.org/resource/2016) for cells containing \"2016\" in column year",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "year",
+    "similarValue": "2016",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/2016",
+      "name": "2016",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column year_links at index 1 based on column year using expression grel:cell.recon.match.id",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "year_links",
+    "columnInsertIndex": 1,
+    "baseColumnName": "year",
+    "expression": "grel:cell.recon.match.id",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column pm2.5 to type http://www.w3.org/2002/07/owl#Thing",
+    "columnName": "pm2.5",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/dbpedia",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://www.w3.org/2002/07/owl#Thing",
+        "name": "owl:Thing"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"17\" in column pm2.5",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "pm2.5",
+    "similarValue": "17"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"2\" in column pm2.5",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "pm2.5",
+    "similarValue": "2"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"0\" in column pm2.5",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "pm2.5",
+    "similarValue": "0"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"1\" in column pm2.5",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "pm2.5",
+    "similarValue": "1"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/2017grupo9/ontology/city/Torrent#",
+      "prefixes": [
+        {
+          "name": "dbp",
+          "uri": "http://dbpedia.org/property/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://dbpedia.org/property/year",
+              "curie": "dbp:year",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "year"
+              }
+            },
+            {
+              "uri": "http://dbpedia.org/property/date",
+              "curie": "dbp:date",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "toString(value.toDate('yyyyMMdd'),\"dd/MM/yyyy\")",
+                "isRowNumberCell": false,
+                "columnName": "date"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#decimal",
+              "curie": "xsd:decimal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "hour"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#decimal",
+              "curie": "xsd:decimal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "pm2.5"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#float",
+              "curie": "xsd:float",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "pm1"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#decimal",
+              "curie": "xsd:decimal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "so2"
+              }
+            },
+            {
+              "uri": "http://dbpedia.org/property/co",
+              "curie": "dbp:co",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "co"
+              }
+            },
+            {
+              "uri": "http://dbpedia.org/property/no",
+              "curie": "dbp:no",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "no"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#decimal",
+              "curie": "xsd:decimal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "no2"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#decimal",
+              "curie": "xsd:decimal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "pm10"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#decimal",
+              "curie": "xsd:decimal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "nox"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#decimal",
+              "curie": "xsd:decimal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "o3"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#float",
+              "curie": "xsd:float",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "veloc"
+              }
+            },
+            {
+              "uri": "http://dbpedia.org/property/direction",
+              "curie": "dbp:direction",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "direction"
+              }
+            },
+            {
+              "uri": "http://dbpedia.org/property/temp",
+              "curie": "dbp:temp",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "temp"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#decimal",
+              "curie": "xsd:decimal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "rh"
+              }
+            },
+            {
+              "uri": "http://dbpedia.org/property/pressure",
+              "curie": "dbp:pressure",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "pressure"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#decimal",
+              "curie": "xsd:decimal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "r.sol"
+              }
+            },
+            {
+              "uri": "http://dbpedia.org/property/rainfall",
+              "curie": "dbp:rainfall",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "rainfall"
+              }
+            },
+            {
+              "uri": "http://dbpedia.org/property/year",
+              "curie": "dbp:year",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "year_links"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]
+[
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column province to type http://dbpedia.org/ontology/Place",
+    "columnName": "province",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/dbpedia",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://dbpedia.org/ontology/Place",
+        "name": "dbo:Place"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Ávila, Ávila (http://dbpedia.org/resource/Ávila,_Ávila) for cells containing \"ÁVILA\" in column province",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "province",
+    "similarValue": "ÁVILA",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Ávila,_Ávila",
+      "name": "Ávila, Ávila",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Zamora (http://dbpedia.org/resource/Zamora) for cells containing \"ZAMORA\" in column province",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "province",
+    "similarValue": "ZAMORA",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Zamora",
+      "name": "Zamora",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic León, León (http://dbpedia.org/resource/León,_León) for cells containing \"LEÓN\" in column province",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        }
+      ]
+    },
+    "columnName": "province",
+    "similarValue": "LEÓN",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/León,_León",
+      "name": "León, León",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Palencia, Palencia (http://dbpedia.org/resource/Palencia,_Palencia) for cells containing \"PALENCIA\" in column province",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        }
+      ]
+    },
+    "columnName": "province",
+    "similarValue": "PALENCIA",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Palencia,_Palencia",
+      "name": "Palencia, Palencia",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Segovia, Segovia (http://dbpedia.org/resource/Segovia,_Segovia) for cells containing \"SEGOVIA\" in column province",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        }
+      ]
+    },
+    "columnName": "province",
+    "similarValue": "SEGOVIA",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Segovia,_Segovia",
+      "name": "Segovia, Segovia",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column province_links at index 8 based on column province using expression grel:cell.recon.match.id",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        }
+      ]
+    },
+    "newColumnName": "province_links",
+    "columnInsertIndex": 8,
+    "baseColumnName": "province",
+    "expression": "grel:cell.recon.match.id",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column station to type http://dbpedia.org/ontology/Place",
+    "columnName": "station",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/dbpedia",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://dbpedia.org/ontology/Place",
+        "name": "dbo:Place"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Ávila, Ávila (http://dbpedia.org/resource/Ávila,_Ávila) for cells containing \"Ávila\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "Ávila",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Ávila,_Ávila",
+      "name": "Ávila, Ávila",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"Avila II\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "Avila II"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Aranda de Duero (http://dbpedia.org/resource/Aranda_de_Duero) for cells containing \"Aranda de Duero 2\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "Aranda de Duero 2",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Aranda_de_Duero",
+      "name": "Aranda de Duero",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Burgos (http://dbpedia.org/resource/Burgos) for cells containing \"Burgos 1\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "Burgos 1",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Burgos",
+      "name": "Burgos",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Burgos (http://dbpedia.org/resource/Burgos) for cells containing \"Burgos 2\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "Burgos 2",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Burgos",
+      "name": "Burgos",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Burgos (http://dbpedia.org/resource/Burgos) for cells containing \"Burgos 3\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "Burgos 3",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Burgos",
+      "name": "Burgos",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Burgos (http://dbpedia.org/resource/Burgos) for cells containing \"Burgos 4\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "Burgos 4",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Burgos",
+      "name": "Burgos",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Burgos (http://dbpedia.org/resource/Burgos) for cells containing \"Burgos 5\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "Burgos 5",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Burgos",
+      "name": "Burgos",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Miranda de Ebro (http://dbpedia.org/resource/Miranda_de_Ebro) for cells containing \"Miranda de Ebro 1\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "Miranda de Ebro 1",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Miranda_de_Ebro",
+      "name": "Miranda de Ebro",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Miranda de Ebro (http://dbpedia.org/resource/Miranda_de_Ebro) for cells containing \"Miranda de Ebro 2\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "Miranda de Ebro 2",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Miranda_de_Ebro",
+      "name": "Miranda de Ebro",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Miranda de Ebro (http://dbpedia.org/resource/Miranda_de_Ebro) for cells containing \"Miranda de Ebro 3\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "Miranda de Ebro 3",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Miranda_de_Ebro",
+      "name": "Miranda de Ebro",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"C.T.Anllares - Anllares\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "C.T.Anllares - Anllares"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"C.T.Anllares - Hospital del Sil\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "C.T.Anllares - Hospital del Sil"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"C.T.Anllares - Lillo\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "C.T.Anllares - Lillo"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"C.T.Anllares - Palacios del Sil\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "C.T.Anllares - Palacios del Sil"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"C.T.Anllares - Susañe\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "C.T.Anllares - Susañe"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"C.T.Compostilla-Compostilla\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "C.T.Compostilla-Compostilla"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"C.T.Compostilla-Congosto\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "C.T.Compostilla-Congosto"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"C.T.Compostilla-Cortiguera\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "C.T.Compostilla-Cortiguera"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"C.T.Compostilla-Cueto\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "C.T.Compostilla-Cueto"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"C.T.Compostilla-San Miguel\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "C.T.Compostilla-San Miguel"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"C.T.Compostilla-Sancedo\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "C.T.Compostilla-Sancedo"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"C.T.Compostilla-Santa Marina\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "C.T.Compostilla-Santa Marina"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"C.T.Compostilla-Villaverde\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "C.T.Compostilla-Villaverde"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"C.T.L.R. - Cuadros\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "C.T.L.R. - Cuadros"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"C.T.L.R. - Naredo\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "C.T.L.R. - Naredo"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"C.T.L.R. - Ventosilla\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "C.T.L.R. - Ventosilla"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Lario (http://dbpedia.org/resource/Lario) for cells containing \"Lario\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "Lario",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Lario",
+      "name": "Lario",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Leon, Leon (http://dbpedia.org/resource/Leon,_Leon) for cells containing \"León 1\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "León 1",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Leon,_Leon",
+      "name": "Leon, Leon",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Leon, Leon (http://dbpedia.org/resource/Leon,_Leon) for cells containing \"León 2\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "León 2",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Leon,_Leon",
+      "name": "Leon, Leon",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Leon, Leon (http://dbpedia.org/resource/Leon,_Leon) for cells containing \"León 3\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "León 3",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Leon,_Leon",
+      "name": "Leon, Leon",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Leon, Leon (http://dbpedia.org/resource/Leon,_Leon) for cells containing \"León 4\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "León 4",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Leon,_Leon",
+      "name": "Leon, Leon",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Ponferrada (http://dbpedia.org/resource/Ponferrada) for cells containing \"Ponferrada 1\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "Ponferrada 1",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Ponferrada",
+      "name": "Ponferrada",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Ponferrada (http://dbpedia.org/resource/Ponferrada) for cells containing \"Ponferrada 2\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "Ponferrada 2",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Ponferrada",
+      "name": "Ponferrada",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Ponferrada (http://dbpedia.org/resource/Ponferrada) for cells containing \"Ponferrada 3\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "Ponferrada 3",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Ponferrada",
+      "name": "Ponferrada",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Ponferrada (http://dbpedia.org/resource/Ponferrada) for cells containing \"Ponferrada 4\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "Ponferrada 4",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Ponferrada",
+      "name": "Ponferrada",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Ponferrada (http://dbpedia.org/resource/Ponferrada) for cells containing \"Ponferrada 5\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "Ponferrada 5",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Ponferrada",
+      "name": "Ponferrada",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"Tudela Veguin-Tudela Veguin\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "Tudela Veguin-Tudela Veguin"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"C.T.G. - Compuerto\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "C.T.G. - Compuerto"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"C.T.G. - Villalba\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "C.T.G. - Villalba"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"Guardo\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "Guardo"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"Hontoria 1 - Poblado\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "Hontoria 1 - Poblado"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"Hontoria 2 - Venta de Baños\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "Hontoria 2 - Venta de Baños"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"Palencia 1\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "Palencia 1"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"Palencia 2\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "Palencia 2"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"Palencia 3\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "Palencia 3"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"Renault4\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "Renault4"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"Velilla del Río Carrión\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "Velilla del Río Carrión"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"Venta de Baños\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "Venta de Baños"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic El Maíllo (http://dbpedia.org/resource/El_Maíllo) for cells containing \"El Maillo\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "El Maillo",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/El_Maíllo",
+      "name": "El Maíllo",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"Salamanca 1\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "Salamanca 1"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"Salamanca 2\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "Salamanca 2"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"Salamanca 3\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "Salamanca 3"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"Salamanca 4\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "Salamanca 4"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"Salamanca 5\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "Salamanca 5"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"Salamanca 6\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "Salamanca 6"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Segovia (http://dbpedia.org/resource/Segovia) for cells containing \"Segovia 1\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "Segovia 1",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Segovia",
+      "name": "Segovia",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Segovia (http://dbpedia.org/resource/Segovia) for cells containing \"Segovia 2\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "Segovia 2",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Segovia",
+      "name": "Segovia",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"Arco de ladrillo II\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "Arco de ladrillo II"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"La rubia II\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "La rubia II"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"Michelin1\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "Michelin1"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"Michelin2\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "Michelin2"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"Puente Regueral\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "Puente Regueral"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"Renault1\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "Renault1"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"Renault2\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "Renault2"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"Renault3\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "Renault3"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"VALLADOLID SUR\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "VALLADOLID SUR"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Vega Sicilia (http://dbpedia.org/resource/Vega_Sicilia) for cells containing \"Vega Sicilia\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "Vega Sicilia",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Vega_Sicilia",
+      "name": "Vega Sicilia",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Zamora (http://dbpedia.org/resource/Zamora) for cells containing \"Zamora 1\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "Zamora 1",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Zamora",
+      "name": "Zamora",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Zamora (http://dbpedia.org/resource/Zamora) for cells containing \"Zamora 2\" in column station",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "columnName": "station",
+    "similarValue": "Zamora 2",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Zamora",
+      "name": "Zamora",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column station_links at index 10 based on column station using expression grel:cell.recon.match.id",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "(unreconciled)",
+                "l": "(unreconciled)"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "newColumnName": "station_links",
+    "columnInsertIndex": 10,
+    "baseColumnName": "station",
+    "expression": "grel:cell.recon.match.id",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column station_links",
+    "columnName": "station_links"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column station_links at index 10 based on column station using expression grel:cell.recon.match.id",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "province: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "province"
+        },
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "station: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "station"
+        }
+      ]
+    },
+    "newColumnName": "station_links",
+    "columnInsertIndex": 10,
+    "baseColumnName": "station",
+    "expression": "grel:cell.recon.match.id",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/2017grupo9/ontology/city/CastillaYLeon#",
+      "prefixes": [
+        {
+          "name": "dbp",
+          "uri": "http://dbpedia.org/property/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://dbpedia.org/property/date",
+              "curie": "dbp:date",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "toString(value.toDate('yyyyMMdd'),\"dd/MM/yyyy\")",
+                "isRowNumberCell": false,
+                "columnName": "date"
+              }
+            },
+            {
+              "uri": "http://dbpedia.org/property/co",
+              "curie": "dbp:co",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "co"
+              }
+            },
+            {
+              "uri": "http://dbpedia.org/property/no",
+              "curie": "dbp:no",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "no"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#decimal",
+              "curie": "xsd:decimal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "no2"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#decimal",
+              "curie": "xsd:decimal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "o3"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#decimal",
+              "curie": "xsd:decimal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "pm10"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#decimal",
+              "curie": "xsd:decimal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "so2"
+              }
+            },
+            {
+              "uri": "http://dbpedia.org/property/province",
+              "curie": "dbp:province",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "province"
+              }
+            },
+            {
+              "uri": "http://dbpedia.org/property/station",
+              "curie": "dbp:station",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "station"
+              }
+            },
+            {
+              "uri": "http://dbpedia.org/property/province",
+              "curie": "dbp:province",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "province_links"
+              }
+            },
+            {
+              "uri": "http://dbpedia.org/property/station",
+              "curie": "dbp:station",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "station_links"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

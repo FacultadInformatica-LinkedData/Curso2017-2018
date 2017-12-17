@@ -1,0 +1,115 @@
+@prefix : <http://www.madriddeportes.es/ontologies/2017> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+
+<http://www.madriddeportes.es/ontologies/2017> a owl:Ontology .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://schema.org/GeoCoordinates
+
+schema:GeoCoordinates a owl:ObjectProperty .
+# 
+# http://schema.org/address
+
+schema:address a owl:ObjectProperty ;
+    rdfs:range schema:PostalAddress .
+# 
+# http://schema.org/addressLocality
+
+schema:addressLocality a owl:ObjectProperty ;
+    rdfs:subPropertyOf schema:address .
+# 
+# http://schema.org/addressRegion
+
+schema:addressRegion a owl:ObjectProperty ;
+    rdfs:subPropertyOf schema:address .
+# 
+# http://www.madriddeportes.es/ontologies/2017#addressType
+
+:addressType a owl:ObjectProperty ;
+    rdfs:subPropertyOf schema:address .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/terms/type
+
+<http://purl.org/dc/terms/type> a owl:DatatypeProperty .
+# 
+# http://schema.org/postalCode
+
+schema:postalCode a owl:DatatypeProperty ;
+    rdfs:range xsd:string .
+# 
+# http://schema.org/streetAddress
+
+schema:streetAddress a owl:DatatypeProperty .
+# http://www.madriddeportes.es/ontologies/2017#horario
+
+:horario a owl:DatatypeProperty ;
+    rdfs:range xsd:string .
+# 
+# http://www.madriddeportes.es/ontologies/2017#number
+
+:number a owl:DatatypeProperty ;
+    rdfs:range xsd:integer ;
+    rdfs:comment "Se refiere al número de la calle"@es .
+# 
+# http://www.w3.org/2000/01/rdf-schema#comment
+
+rdfs:comment a owl:DatatypeProperty .
+# 
+# http://www.w3.org/2000/01/rdf-schema#label
+
+rdfs:label a owl:DatatypeProperty ;
+    rdfs:subPropertyOf owl:topDataProperty .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://dbpedia.org/ontology/City
+
+<http://dbpedia.org/ontology/City> a owl:Class ;
+    rdfs:subClassOf schema:PostalAddress .
+
+schema:Event a owl:Class .
+# 
+# http://schema.org/GeoCoordinates
+
+schema:GeoCoordinates a owl:Class .
+# 
+# http://schema.org/Place
+
+schema:Place a owl:Class .
+# 
+# http://schema.org/PostalAddress
+
+schema:PostalAddress a owl:Class .
+# 
+# http://www.madriddeportes.es/ontologies/2017#Via
+
+:Via a owl:Class ;
+    rdfs:subClassOf schema:PostalAddress .
