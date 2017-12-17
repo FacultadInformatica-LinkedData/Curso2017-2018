@@ -19,6 +19,7 @@ import org.apache.jena.rdf.model.Property;
 import org.apache.jena.rdf.model.RDFNode;
 import org.apache.jena.rdf.model.Resource;
 import org.apache.jena.rdf.model.impl.LiteralImpl;
+import org.apache.jena.riot.Lang;
 import org.apache.jena.util.FileManager;
 import org.apache.jena.vocabulary.VCARD;
 
@@ -28,7 +29,8 @@ public class RDFManager {
 
 	public RDFManager() {
 		
-		String filename = "C:\\Users\\Alvaro\\Desktop\\UPM\\Semestre7\\WebSemantica\\practica\\buenoGrupo18.rdf";
+		String filename = "C:\\Users\\Alvaro\\Desktop\\UPM\\Semestre7\\WebSemantica\\practica\\ontologia.ttl";
+		//String filename = "C:\\Users\\Alvaro\\Desktop\\UPM\\Semestre7\\WebSemantica\\practica\\buenoGrupo18.rdf";
 		
 		model = ModelFactory.createOntologyModel(OntModelSpec.RDFS_MEM);
 		
@@ -37,7 +39,8 @@ public class RDFManager {
 		if (in == null)
 			throw new IllegalArgumentException("File: "+filename+" not found");
 		
-		model.read(in, null);
+		model.read(in,null, "TURTLE");
+		//model.read(in, null);
 	}
 
 	public LinkedList<RDFResult> searchByName(String name) {
@@ -49,12 +52,18 @@ public class RDFManager {
 				+ "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> "
 				+ "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> "
 				+ "PREFIX park: <http://www.semanticweb.org/grupo18/ontologies#> "
-				+ "SELECT ?direccion ?zona "
+				+ "SELECT ?autres ?politico "
 				+ "WHERE {  "
 				+ "?s rdfs:label \""+name+"@fr\" . "
-				+ "?s vcard:hasAddress ?a . "
-				+ "?a rdfs:label ?direccion . "
-				+ " ?a park:belongsTo ?zona . "
+				+ "?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/page/ontology/Parking> . "
+				+ "?s vcard:hasAddress ?calle . "
+				+ "?calle <http://www.semanticweb.org/grupo18/ontologies#belongsTo> ?autres . "
+				+ "?csvAutres <http://purl.org/dc/terms/isPartOf> ?csvKoekelverg . "
+				+ "?csvAutres <http://www.w3.org/2000/01/rdf-schema#label> ?autres . "
+				+ "?csvKoekelverg <http://www.w3.org/2002/07/owl#sameAs> ?dbPedia . "
+				+ "?dbPedia <http://dbpedia.org/ontology/mayor> ?politico . "
+				//+ "?a rdfs:label ?direccion . "
+				//+ "?a park:belongsTo ?zona . "
 				+ "}";
 		
 		Query query = QueryFactory.create(queryString);
@@ -64,10 +73,12 @@ public class RDFManager {
 		while(results.hasNext()){
 			
 			QuerySolution binding = results.nextSolution();
-			RDFNode zona = (RDFNode) binding.get("zona");
-			RDFNode direccion = (RDFNode) binding.get("direccion");
-			RDFResult element = new RDFResult(name, direccion.toString(), zona.toString());
-			nombres.add(element);
+			RDFNode zona = (RDFNode) binding.get("autres");
+			RDFNode direccion = (RDFNode) binding.get("dbPedia");
+			
+			System.out.println(direccion +" "+ zona);
+			//RDFResult element = new RDFResult(name, direccion.toString(), zona.toString());
+			//nombres.add(element);
 		}
 		
 		return nombres;
