@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/group12/ontology#"
+     xml:base="http://www.semanticweb.org/group12/ontology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/group12/ontology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#time -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#time"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/group12/ontology#arrivalTime -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/group12/ontology#arrivalTime">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/group12/ontology#Timetable"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/ontology#dateFrom -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/group12/ontology#dateFrom">
+        <rdfs:domain rdf:resource="http://dbpedia.org/page/Calendar"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/ontology#dateTo -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/group12/ontology#dateTo">
+        <rdfs:domain rdf:resource="http://dbpedia.org/page/Calendar"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/ontology#directionID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/group12/ontology#directionID">
+        <rdfs:domain rdf:resource="http://dbpedia.org/page/Service"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/ontology#hasServiceFriday -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/group12/ontology#hasServiceFriday">
+        <rdfs:domain rdf:resource="http://dbpedia.org/page/Calendar"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/ontology#hasServiceMonday -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/group12/ontology#hasServiceMonday">
+        <rdfs:domain rdf:resource="http://dbpedia.org/page/Calendar"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/ontology#hasServiceSaturday -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/group12/ontology#hasServiceSaturday">
+        <rdfs:domain rdf:resource="http://dbpedia.org/page/Calendar"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/ontology#hasServiceSunday -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/group12/ontology#hasServiceSunday">
+        <rdfs:domain rdf:resource="http://dbpedia.org/page/Calendar"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/ontology#hasServiceThursday -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/group12/ontology#hasServiceThursday">
+        <rdfs:domain rdf:resource="http://dbpedia.org/page/Calendar"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/ontology#hasServiceTuesday -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/group12/ontology#hasServiceTuesday">
+        <rdfs:domain rdf:resource="http://dbpedia.org/page/Calendar"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/ontology#hasServiceWednesday -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/group12/ontology#hasServiceWednesday">
+        <rdfs:domain rdf:resource="http://dbpedia.org/page/Calendar"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/ontology#hasTimeTable -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/group12/ontology#hasTimeTable">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/ontology#journey -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/group12/ontology#journey">
+        <rdfs:domain rdf:resource="http://dbpedia.org/page/Route"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/ontology#parentStation -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/group12/ontology#parentStation">
+        <rdfs:domain rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/ontology#routeID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/group12/ontology#routeID">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/ontology#routeLine -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/group12/ontology#routeLine">
+        <rdfs:domain rdf:resource="http://dbpedia.org/page/Route"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/ontology#routeURL -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/group12/ontology#routeURL">
+        <rdfs:domain rdf:resource="http://dbpedia.org/page/Route"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/ontology#serviceID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/group12/ontology#serviceID">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/ontology#stopAddress -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/group12/ontology#stopAddress">
+        <rdfs:domain rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/ontology#stopID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/group12/ontology#stopID">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/ontology#stopName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/group12/ontology#stopName">
+        <rdfs:domain rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/ontology#stopSequence -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/group12/ontology#stopSequence">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/group12/ontology#Timetable"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/ontology#stopZone -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/group12/ontology#stopZone">
+        <rdfs:domain rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/ontology#tripHeadsign -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/group12/ontology#tripHeadsign">
+        <rdfs:domain rdf:resource="http://dbpedia.org/page/Service"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/ontology#tripShortName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/group12/ontology#tripShortName">
+        <rdfs:domain rdf:resource="http://dbpedia.org/page/Service"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2003/01/geo/wgs84_pos#lat -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2003/01/geo/wgs84_pos#lat">
+        <rdfs:domain rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2003/01/geo/wgs84_pos#long -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2003/01/geo/wgs84_pos#long">
+        <rdfs:domain rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://dbpedia.org/page/Bus_stop -->
+
+    <owl:Class rdf:about="http://dbpedia.org/page/Bus_stop"/>
+    
+
+
+    <!-- http://dbpedia.org/page/Calendar -->
+
+    <owl:Class rdf:about="http://dbpedia.org/page/Calendar"/>
+    
+
+
+    <!-- http://dbpedia.org/page/Route -->
+
+    <owl:Class rdf:about="http://dbpedia.org/page/Route"/>
+
+
+
+    <!-- http://dbpedia.org/page/Service -->
+
+    <owl:Class rdf:about="http://dbpedia.org/page/Service"/>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/ontology#Timetable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/group12/ontology#Timetable"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

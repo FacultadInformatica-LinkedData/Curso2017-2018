@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <title>Ruidos Madrid</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="main.css" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata|Pacifico|Rubik" rel="stylesheet">
+  <body>
+
+    <div class="w3-bar w3-white navbar w3-top ">
+
+      <div class="links">
+        <img src="img/icon.png" class="icon w3-left " />
+        <a href="#" class="w3-bar-item homeLink w3-text-blue">Ruidos Madrid</a>
+        <a href="#" class="w3-bar-item  w3-hide-small w3-right w3-border w3-border-blue w3-round w3-round-medium w3-text-blue w3-hover-blue ">Quienes Somos</a>
+        <a href="#" class="w3-bar-item  w3-hide-small w3-right w3-hover-text-blue">Contribuye</a>
+        <a href="#" class="w3-bar-item  w3-hide-small w3-right w3-hover-text-blue">Estatisdicas</a>
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium iconBar" onclick="myFunction()">&#9776;</a>
+      </div>
+    </div>
+
+    <div id="demo" class="w3-bar-block w3-light-blue w3-hide w3-hide-large w3-hide-medium">
+      <a href="#" class="w3-bar-item w3-button">Link 1</a>
+      <a href="#" class="w3-bar-item w3-button">Link 2</a>
+      <a href="#" class="w3-bar-item w3-button">Link 3</a>
+    </div>
+
+
+    <div class="darker w3-display-container w3-animate-opacity">
+      <div class="wallpaperWelcome  w3-center"></div>
+      <div class="w3-display-middle w3-center  w3-text-white">
+        <span class="titleWelcome w3-animate-top">Ruidos Madrid</span>
+        <br>
+        <span class="subtitle w3-animate-bottom" >Pensando en la salud de los madrileños</span>
+      </div>
+      <div class=" w3-display-bottommiddle">
+        <div class="arrow bounce">
+
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-container offer">
+
+      <div class="w3-half w3-container w3-center halfPadding">
+        <img src="img/upm.jpg" class="fullImg" />
+      </div>
+      <div class="w3-half w3-container w3-center  halfPadding">
+        <img src="img/gob.jpg" class="fullImg" />
+      </div>
+
+    </div>
+
+    <div class=" info w3-center w3-display-container w3-text-white">
+      <div class="wallpaperInfo  w3-center"></div>
+      <div class="w3-display-middle">
+        <div class="infoText w3-text-blue">
+          ¿Que es la contaminación acústica?
+        </div>
+        <div class="description">
+          El término "contaminación acústica" hace referencia al ruido (entendido como sonido excesivo y molesto), provocado por las actividades humanas (tráfico, industrias, locales de ocio, aviones, barcos, entre otros.) que produce efectos negativos sobre la salud auditiva, física y mental de los seres vivos.<br><br>
+          Este término está estrechamente relacionado con el ruido debido a que esta se da cuando el ruido es considerado como un contaminante, es decir, un sonido molesto que puede producir efectos nocivos fisiológicos y psicológicos para una persona o grupo de personas.<br><br>
+          Las principales causas de la contaminación acústica son aquellas relacionadas con las actividades humanas como el transporte, la construcción de edificios, obras públicas y las industrias, entre otras.
+        </div>
+      </div>
+
+    </div>
+
+    <div class="w3-container w3-center divMapa">
+
+      <div class="titleMapa w3-text-blue">
+
+        Mapa de la contaminación
+
+      </div>
+
+      <div class="mapaMain" >
+
+        <img src="img/mapa1.png" class="fullImg" />
+
+      </div>
+
+    </div>
+
+    <div class="footer w3-center w3-text-white">
+
+      <div class="logoFooter">
+        <img src="img/icon.png" class="fullImg " />
+      </div>
+      <div class="minitext">
+
+        Ruidos Madrid | Proyecto de Web Semántica<br><br>
+        by: Adriller Ferreira, Abrahan Carrera y Fernando xxxxx
+        
+        
+      </div>
+    </div>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("demo");
+        if (x.className.indexOf("w3-show") == -1) {
+          x.className += " w3-show";
+        } else { 
+          x.className = x.className.replace(" w3-show", "");
+        }
+      }
+    </script>
+
+  </body>
+</html>

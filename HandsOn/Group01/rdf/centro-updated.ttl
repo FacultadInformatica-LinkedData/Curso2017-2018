@@ -1,0 +1,335 @@
+@prefix schema: <http://schema.org/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ontology: <http://www.madriddeportes.es/ontologies/2017> a owl:Ontology .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Alberto+García> :centroDeportivoMunicipalAlbertoGarcía
+    ontology:  address: calleRegueraDeTomateros39 
+    schema:  name:  "Centro Deportivo Municipal Alberto García"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Alfredo+Goyeneche> :centroDeportivoMunicipalAlfredoGoyeneche
+    ontology:  address: calleArroyoDePozuelo99
+    schema: name: "Centro Deportivo Municipal Alfredo Goyeneche"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Aluche> :centroDeportivoMunicipalAluche 
+    ontology:  address: avenidaGeneralFanju14
+    schema: name: "Centro Deportivo Municipal Aluche"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Antiguo+Canódromo> :centroDeportivoMunicipalAntiguoCanódromo
+    ontology:  address: calleViaCarpetana57 
+	schema: name: "Centro Deportivo Municipal Antiguo Canódromo"    
+
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Antonio+Díaz+Miguel> :centroDeportivoMunicipalAntonioDíazMiguel
+     
+    ontology:  address: calleJoaquinDicena1
+    schema: name: "Centro Deportivo Municipal Antonio Díaz Miguel"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Arganzuela> :centroDeportivoMunicipalArganzuela
+     
+    ontology:  address: calleAlicante14 
+    schema: name: "Centro Deportivo Municipal Arganzuela"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Barajas> :centroDeportivoMunicipalBarajas
+     
+    ontology:  address: avenidaLogroño70 
+    schema: name: "Centro Deportivo Municipal Barajas"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Casa+de+Campo> :centroDeportivoMunicipalCasadeCampo
+     
+    ontology:  address: paseoPuertaDelAngel7 
+	schema: name: "Centro Deportivo Municipal Casa de Campo"    
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Centro+Integrado+Arganzuela> :centroDeportivoMunicipalCentroIntegradoArganzuela
+     
+    ontology:  address: calleCanarias17 
+    schema: name: "Centro Deportivo Municipal Centro Integrado Arganzuela"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Cerro+Almodóvar> :centroDeportivoMunicipalCerroAlmodóvar
+     
+    ontology:  address: calleCerroDeAlmodovar9
+    schema: name: "Centro Deportivo Municipal Cerro Almodóvar"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Chamartín> :centroDeportivoMunicipalChamartín
+     
+    ontology:  address: avenidaPioXII 
+    schema: name: "Centro Deportivo Municipal Chamartín"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Circuito+BMX> :centroDeportivoMunicipalCircuitoBMX
+     
+    ontology:  address: calleEmbajadores316
+    schema: name: "Centro Deportivo Municipal Circuito BMX"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Ciudad+de+Los+Poetas> :centroDeportivoMunicipalCiudaddeLosPoetas
+     
+    ontology:  address: calleAntonioMachado12 
+    schema: name: "Centro Deportivo Municipal Ciudad de Los Poetas"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Concepción> :centroDeportivoMunicipalConcepción
+     
+    ontology:  address: calleJoseDelHierro5
+    schema: name: "Centro Deportivo Municipal Concepción"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Daoíz+y+Velarde%1> :centroDeportivoMunicipalDaoízyVelarde1
+     
+    ontology:  address: plazaDaoizYVelarde5 
+    schema: name: "Centro Deportivo Municipal Daoíz y Velarde 1"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Daoíz+y+Velarde%2> :centroDeportivoMunicipalDaoízyVelarde2
+     
+    ontology:  address: calleAlberche21 
+    schema: name: "Centro Deportivo Municipal Daoíz y Velarde 2"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+El+Espinillo> :centroDeportivoMunicipalElEspinillo
+     
+    ontology:  address: carreteraVillaverdeAVallecas19
+    schema: name: "Centro Deportivo Municipal El Espinillo"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+El+Olivillo> :centroDeportivoMunicipalElOlivillo
+     
+    ontology:  address: calleOlivillo4 
+    schema: name: "Centro Deportivo Municipal El Olivillo"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Entrevías> :centroDeportivoMunicipalEntrevías
+    
+    ontology:  address: rondaSur4 
+    schema: name: "Centro Deportivo Municipal Entrevías"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Escuelas+de+San+Antón> :centroDeportivoMunicipalEscuelasdeSanAntón
+     
+    ontology:  address: calleFarmacia13 
+    schema: name: "Centro Deportivo Municipal Escuelas de San Antón"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Estanque+del+Retiro> :centroDeportivoMunicipalEstanquedelRetiro
+     
+    ontology:  address: paseoColombia2 
+    schema: name: "Centro Deportivo Municipal Estanque del Retiro"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Fabián+Roncero> :centroDeportivoMunicipalFabiánRoncero
+     
+    ontology:  address: avenidaSeptima68 
+    schema: name: "Centro Deportivo Municipal Fabián Roncero"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Fernando+Martín> :centroDeportivoMunicipalFernandoMartín
+     
+    ontology:  address: avenidaSantoAngelDeLaGuardia6 
+    schema: name: "Centro Deportivo Municipal Fernando Martín"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Francisco+Fernández+Ochoa> :centroDeportivoMunicipalFranciscoFernándezOchoa
+     
+    ontology:  address: calleCatorceOlivas1
+    schema: name: "Centro Deportivo Municipal Francisco Fernández Ochoa"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Francos+Rodríguez> :centroDeportivoMunicipalFrancosRodríguez
+     
+    ontology:  address: calleNumancia11 
+    schema: name: "Centro Deportivo Municipal Francos Rodríguez"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Fuente+del+Berro> :centroDeportivoMunicipalFuentedelBerro
+     
+    ontology:  address: calleElvira36 
+    schema: name: "Centro Deportivo Municipal Fuente del Berro"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Félix+Rubio> :centroDeportivoMunicipalFélixRubio
+     
+    ontology:  address: calleAlianza4 
+    schema: name: "Centro Deportivo Municipal Félix Rubio"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Gallur> :centroDeportivoMunicipalGallur
+     
+    ontology:  address: calleGallur2 
+    schema: name: "Centro Deportivo Municipal Gallur"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Gimnasio+Moscardó> :centroDeportivoMunicipalGimnasioMoscardó
+     
+    ontology:  address: callePilarDeZaragoza97
+    schema: name: "Centro Deportivo Municipal Gimnasio Moscardó"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Hortaleza> :centroDeportivoMunicipalHortaleza
+     
+    ontology:  address: carreteraEstacionDeHortaleza11
+    schema: name: "Centro Deportivo Municipal Hortaleza"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+José+María+Cagigal> :centroDeportivoMunicipalJoséMaríaCagigal
+     
+    ontology:  address: calleSantaPola22 
+    schema: name: "Centro Deportivo Municipal José María Cagigal"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+La+Almudena> :centroDeportivoMunicipalLaAlmudena
+     
+    ontology:  address: calleNicolasSalmeron8
+    schema: name: "Centro Deportivo Municipal La Almudena"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+La+Bombilla> :centroDeportivoMunicipalLaBombilla
+     
+    ontology:  address: calleSendaDelRey8 
+    schema: name: "Centro Deportivo Municipal La Bombilla"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+La+Chopera> :centroDeportivoMunicipalLaChopera
+     
+    ontology:  address: paseoFernanNuñez3 
+    schema: name: "Centro Deportivo Municipal La Chopera"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+La+Elipa> :centroDeportivoMunicipalLaElipa
+     
+    ontology:  address: calleAlcaldeGarridoJuaristi17
+    schema: name: "Centro Deportivo Municipal La Elipa"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+La+Masó> :centroDeportivoMunicipalLaMasó
+     
+    ontology:  address: calleMaso80 
+    schema: name: "Centro Deportivo Municipal La Masó"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+La+Mina> :centroDeportivoMunicipalLaMina
+     
+    ontology:  address: calleMonseñorOscarRomero41 
+    schema: name: "Centro Deportivo Municipal La Mina"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+La+Vaguada> :centroDeportivoMunicipalLaVaguada
+     
+    ontology:  address: avenidaMonforteDeLemos38
+    schema: name: "Centro Deportivo Municipal La Vaguada"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Lago+Casa+de+Campo> :centroDeportivoMunicipalLagoCasadeCampo
+     
+    ontology:  address: paseoEmbarcadero8
+    schema: name: "Centro Deportivo Municipal Lago Casa de Campo"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Las+Cruces> :centroDeportivoMunicipalLasCruces
+     
+    ontology:  address: avenidaPoblados72
+    schema: name: "Centro Deportivo Municipal Las Cruces"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Los+Prunos> :centroDeportivoMunicipalLosPrunos
+     
+    ontology:  address: callePetunias30
+    schema: name: "Centro Deportivo Municipal Los Prunos"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Luis+Aragonés> :centroDeportivoMunicipalLuisAragonés
+    ontology:  address: calleElProvencio20
+    schema: name: "Centro Deportivo Municipal Luis Aragonés"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Marqués+de+Samaranch> :centroDeportivoMunicipalMarquésdeSamaranch
+    
+    ontology:  address: paseoImperial52 
+    schema: name: "Centro Deportivo Municipal Marqués de Samaranch"
+
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Orcasur> :centroDeportivoMunicipalOrcasur
+     
+    ontology:  address: calleMoraleja11
+    schema: name: "Centro Deportivo Municipal Orcasur"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Palomeras> :centroDeportivoMunicipalPalomeras
+     
+    ontology:  address: calleTranviaDeArganda4
+    schema: name: "Centro Deportivo Municipal Palomeras"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Pepu+Hernández> :centroDeportivoMunicipalPepuHernández
+     
+    ontology:  address: avenidaNiza8 
+    schema: name: "Centro Deportivo Municipal Pepu Hernández"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Peñuelas> :centroDeportivoMunicipalPeñuelas
+     
+    ontology:  address: calleArganda25
+    schema: name: "Centro Deportivo Municipal Peñuelas"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Plata+y+Castañar> :centroDeportivoMunicipalPlatayCastañar
+     
+    ontology:  address: paseoPlataYCastañar7
+    schema: name: "Centro Deportivo Municipal Plata y Castañar"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Playa+Victoria> :centroDeportivoMunicipalPlayaVictoria
+     
+    ontology:  address: calleHierbabuena2
+    schema: name: "Centro Deportivo Municipal Playa Victoria"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Pradillo> :centroDeportivoMunicipalPradillo
+     
+    ontology:  address: callePradillo33 
+    schema: name: "Centro Deportivo Municipal Pradillo"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Pueblo+Nuevo> :centroDeportivoMunicipalPuebloNuevo
+     
+    ontology:  address: calleFrancisoRioja14
+    schema: name: "Centro Deportivo Municipal Pueblo Nuevo"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Puente+de+Vallecas> :centroDeportivoMunicipalPuentedeVallecas
+     
+    ontology:  address: callePayasoFofo7 
+    schema: name: "Centro Deportivo Municipal Puente de Vallecas"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Raúl+González> :centroDeportivoMunicipalRaúlGonzález
+     
+    ontology:  address: calleBenimamet137
+    schema: name: "Centro Deportivo Municipal Raúl González"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+San+Blas> :centroDeportivoMunicipalSanBlas
+     
+    ontology:  address: calleArcosDeJalon59 
+    schema: name: "Centro Deportivo Municipal San Blas"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+San+Cristóbal> :centroDeportivoMunicipalSanCristóbal
+     
+    ontology:  address: plazaPinazo9
+    schema: name: "Centro Deportivo Municipal San Cristóbal"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+San+Fermín> :centroDeportivoMunicipalSanFermín
+     
+    ontology:  address: calleSanMario18 
+    schema: name: "Centro Deportivo Municipal San Fermín"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+San+Juan+Bautista> :centroDeportivoMunicipalSanJuanBautista
+     
+    ontology:  address: calleTreviana1
+    schema: name: "Centro Deportivo Municipal San Juan Bautista"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Santa+Ana> :centroDeportivoMunicipalSantaAna
+     
+    ontology:  address: paseoAlamedillas5
+    schema: name: "Centro Deportivo Municipal Santa Ana"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Tenis+Casa+de+Campo> :centroDeportivoMunicipalTenisCasadeCampo
+     
+    ontology:  address: caminoPrincipe2
+    schema: name: "Centro Deportivo Municipal Tenis Casa de Campo"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Triángulo+de+Oro> :centroDeportivoMunicipalTriángulodeOro
+     
+    ontology:  address: calleBravoMurillo376
+    schema: name: "Centro Deportivo Municipal Triángulo de Oro"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Valdebernardo> :centroDeportivoMunicipalValdebernardo
+     
+    ontology:  address: calleLaderaDeLosAlmendros2
+    schema: name: "Centro Deportivo Municipal Valdebernardo"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Vallecas> :centroDeportivoMunicipalVallecas
+     
+    ontology:  address: calleArroyoDelOlivar51
+    schema: name: "Centro Deportivo Municipal Vallecas"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Vallehermoso> :centroDeportivoMunicipalVallehermoso
+     
+    ontology:  address: avenidaFilipinas7
+    schema: name: "Centro Deportivo Municipal Vallehermoso"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Vicente+del+Bosque> :centroDeportivoMunicipalVicentedelBosque
+     
+    ontology:  address: avenidaMonforteDeLemos13
+    schema: name: "Centro Deportivo Municipal Vicente del Bosque"
+
+<http://www.madriddeportes.es/ontologies/2017/Centro+Deportivo+Municipal+Vicálvaro> :centroDeportivoMunicipalVicálvaro
+     
+    ontology:  address: paseoPolideportivo3
+    schema: name: "Centro Deportivo Municipal Vicálvaro"
+
+<http://www.madriddeportes.es/ontologies/2017Madrid+Caja+Mágica> :madridCajaMágica
+     
+    ontology:  address: caminoPerales23
+    schema: name: "Madrid Caja Mágica"
