@@ -47,6 +47,8 @@ Every value in the RDF files
 ##Comments on self-assessment##
 
 Distribución de tareas:
+- Creación de ontology-updated:Javi
+- Creación de Activities-updated y Library.updated: Javi
 - Revisión y detección de errores en los rdf para subirlos a Virtuoso: Jorge, Adri y Guille
 - Creación de instancia de Virtuoso con AWS: Jorge, Adri y Guille
 - Subir los rdf a la instancia de virtuoso de AWS para poder hacer consultas SPARQL: Adri
