@@ -46,7 +46,7 @@ Every value in the RDF files
 
 ##Comments on self-assessment##
 
-Distribution of tasks:
+Distribución de tareas:
 - Revisión y detección de errores en los rdf para subirlos a Virtuoso: Jorge, Adri y Guille
 - Creación de instancia de Virtuoso con AWS: Jorge, Adri y Guille
 - Subir los rdf a la instancia de virtuoso de AWS para poder hacer consultas SPARQL: Adri
