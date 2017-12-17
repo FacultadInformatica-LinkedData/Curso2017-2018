@@ -39,6 +39,7 @@ Fernando Martí de Mateo
 ## USUARIO GITHUB
 MrFridunath
 ### TAREAS
+* Búsqueda de los datasets.
 * Tratamiento inicial del dataset de Castilla y León.
 * Búsqueda de licencias.
 * Desarrollo de la aplicación.
