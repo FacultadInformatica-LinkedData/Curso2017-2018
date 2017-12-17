@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry including="**/*.java" kind="src" output="target/classes" path="src">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.fx.ide.jdt.core.JAVAFX_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/apache-jena-3.5.0/lib/collection-0.7.jar"/>
+	<classpathentry kind="lib" path="lib/apache-jena-3.5.0/lib/commons-cli-1.4.jar"/>
+	<classpathentry kind="lib" path="lib/apache-jena-3.5.0/lib/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="lib/apache-jena-3.5.0/lib/commons-csv-1.4.jar"/>
+	<classpathentry kind="lib" path="lib/apache-jena-3.5.0/lib/commons-io-2.5.jar"/>
+	<classpathentry kind="lib" path="lib/apache-jena-3.5.0/lib/commons-lang3-3.4.jar"/>
+	<classpathentry kind="lib" path="lib/apache-jena-3.5.0/lib/httpclient-4.5.3.jar"/>
+	<classpathentry kind="lib" path="lib/apache-jena-3.5.0/lib/httpclient-cache-4.5.3.jar"/>
+	<classpathentry kind="lib" path="lib/apache-jena-3.5.0/lib/httpcore-4.4.6.jar"/>
+	<classpathentry kind="lib" path="lib/apache-jena-3.5.0/lib/jackson-annotations-2.9.0.jar"/>
+	<classpathentry kind="lib" path="lib/apache-jena-3.5.0/lib/jackson-core-2.9.0.jar"/>
+	<classpathentry kind="lib" path="lib/apache-jena-3.5.0/lib/jackson-databind-2.9.0.jar"/>
+	<classpathentry kind="lib" path="lib/apache-jena-3.5.0/lib/jcl-over-slf4j-1.7.25.jar"/>
+	<classpathentry kind="lib" path="lib/apache-jena-3.5.0/lib/jena-arq-3.5.0.jar"/>
+	<classpathentry kind="lib" path="lib/apache-jena-3.5.0/lib/jena-base-3.5.0.jar"/>
+	<classpathentry kind="lib" path="lib/apache-jena-3.5.0/lib/jena-cmds-3.5.0.jar"/>
+	<classpathentry kind="lib" path="lib/apache-jena-3.5.0/lib/jena-core-3.5.0.jar"/>
+	<classpathentry kind="lib" path="lib/apache-jena-3.5.0/lib/jena-dboe-base-3.5.0.jar"/>
+	<classpathentry kind="lib" path="lib/apache-jena-3.5.0/lib/jena-dboe-index-3.5.0.jar"/>
+	<classpathentry kind="lib" path="lib/apache-jena-3.5.0/lib/jena-dboe-trans-data-3.5.0.jar"/>
+	<classpathentry kind="lib" path="lib/apache-jena-3.5.0/lib/jena-dboe-transaction-3.5.0.jar"/>
+	<classpathentry kind="lib" path="lib/apache-jena-3.5.0/lib/jena-iri-3.5.0.jar"/>
+	<classpathentry kind="lib" path="lib/apache-jena-3.5.0/lib/jena-rdfconnection-3.5.0.jar"/>
+	<classpathentry kind="lib" path="lib/apache-jena-3.5.0/lib/jena-shaded-guava-3.5.0.jar"/>
+	<classpathentry kind="lib" path="lib/apache-jena-3.5.0/lib/jena-tdb-3.5.0.jar"/>
+	<classpathentry kind="lib" path="lib/apache-jena-3.5.0/lib/jena-tdb2-3.5.0.jar"/>
+	<classpathentry kind="lib" path="lib/apache-jena-3.5.0/lib/jsonld-java-0.11.1.jar"/>
+	<classpathentry kind="lib" path="lib/apache-jena-3.5.0/lib/libthrift-0.9.3.jar"/>
+	<classpathentry kind="lib" path="lib/apache-jena-3.5.0/lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="lib/apache-jena-3.5.0/lib/slf4j-api-1.7.25.jar"/>
+	<classpathentry kind="lib" path="lib/apache-jena-3.5.0/lib/slf4j-log4j12-1.7.25.jar"/>
+	<classpathentry kind="lib" path="lib/apache-jena-3.5.0/lib/xercesImpl-2.11.0.jar"/>
+	<classpathentry kind="lib" path="lib/apache-jena-3.5.0/lib/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="lib" path="lib/virt_jena3.jar"/>
+	<classpathentry kind="lib" path="lib/virtjdbc4.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
