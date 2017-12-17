@@ -1,0 +1,468 @@
+@prefix schema: <http://schema.org/> .
+@prefix ont: <http://www.semanticweb.org/Group04/ontology#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a50e15cbed51c010VgnVCM2000000c205a0aRCRD> a ont:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas:  318 p�blicas y 298 para residentes  Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad:  Ayuntamiento de Madrid" ;
+	ont:isInDistrict "CENTRO"^^<http://es.dbpedia.org/page/Barrios_de_Madrid> ;
+	ont:hasLatitude "40.426687899755734" ;
+	ont:hasLongitude "-3.6996173701222492" ;
+	ont:hasName "Aparcamiento mixto. Arquitecto Ribera" .
+
+<http://semanticweb.org/Group04/CENTRO> owl:sameAs <http://dbpedia.org/resource/Centro> .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3f3bc2c6e051c010VgnVCM2000000c205a0aRCRD> a ont:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Informaci�n sobre accesibilidad :  Tiene escaleras adaptadas  Ascensor de salida a la calle Avenida de Am�rica, 9  Tiene aseos accesibles  Plazas para minusv�lidos     Plazas : 269 p�blicas y 392 para residentes   Abierto 24 horas    Titularidad : Ayuntamiento de Madrid" ;
+	ont:isInDistrict "CHAMARTIN"^^<http://es.dbpedia.org/page/Barrios_de_Madrid> ;
+	ont:hasLatitude "40.43886083125741" ;
+	ont:hasLongitude "-3.6766217383743345" ;
+	ont:hasName "Aparcamiento mixto. Avenida de Am�rica (intercambiador)" .
+
+<http://semanticweb.org/Group04/CHAMARTIN> owl:sameAs <http://es.dbpedia.org/resource/Chamartin> .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c313e26f2b3fc210VgnVCM2000000c205a0aRCRD> a ont:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas:  433 p�blicas y 437 para residentes   Informacion sobre accesibilidad:   No tiene escalera adaptada  Tiene ascensor de salida a Avenida de Portugal, s/n  1 aseo accesible (nivel-3)  Plazas para minusv�lidos residentes: 20    Abierto 24 horas   Titularidad : Ayuntamiento de Madrid   Gesti�n : Empresa Municipal de Transportes (EMT) ( m�s informaci�n )" ;
+	ont:isInDistrict "LATINA"^^<http://es.dbpedia.org/page/Barrios_de_Madrid> ;
+	ont:hasLatitude "40.411180021966345" ;
+	ont:hasLongitude "-3.7378318857463158" ;
+	ont:hasName "Aparcamiento mixto. Avenida de Portugal" .
+
+<http://semanticweb.org/Group04/LATINA> owl:sameAs <http://es.dbpedia.org/resource/Latina> .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fb2e15cbed51c010VgnVCM2000000c205a0aRCRD> a ont:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas:  226 p�blicas y 400 para residentes  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid" ;
+	ont:isInDistrict "TETUAN"^^<http://es.dbpedia.org/page/Barrios_de_Madrid> ;
+	ont:hasLatitude "40.45610834965894" ;
+	ont:hasLongitude "-3.694131675088486" ;
+	ont:hasName "Aparcamiento mixto. Brasil" .
+
+<http://semanticweb.org/Group04/TETUAN> owl:sameAs <http://es.dbpedia.org/resource/Tetuan> .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c5f4bdc85c01c010VgnVCM2000000c205a0aRCRD> a ont:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas:  135 p�blicas y 449 para residentes  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid" ;
+	ont:isInDistrict "CENTRO"^^<http://es.dbpedia.org/page/Barrios_de_Madrid> ;
+	ont:hasLatitude "40.406792648617134" ;
+	ont:hasLongitude "-3.7046086019457167" ;
+	ont:hasName "Aparcamiento mixto. Casino de la Reina" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7e5f15cbed51c010VgnVCM2000000c205a0aRCRD> a ont:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas : 73 p�blicas y 79 para residentes   Abierto 24 horas   Titularidad : Ayuntamiento de Madrid" ;
+	ont:isInDistrict "TETUAN"^^<http://es.dbpedia.org/page/Barrios_de_Madrid> ;
+	ont:hasLatitude "40.44938567948415" ;
+	ont:hasLongitude "-3.7019164121880888" ;
+	ont:hasName "Aparcamiento mixto. Condesa de Gavia" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b74e6545f951c010VgnVCM2000000c205a0aRCRD> a ont:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas : 327 p�blicas y 750 para residentes   Informacion sobre accesibilidad:   No tiene escalera adaptada  No tiene ascensor de salida a calle  2 aseos accesibles ( 1&ordf;  planta)   Plazas para minusv�lidos residentes: 6     Abierto 24 horas    Titularidad : Ayuntamiento de Madrid" ;
+	ont:isInDistrict "CHAMARTIN"^^<http://es.dbpedia.org/page/Barrios_de_Madrid> ;
+	ont:hasLatitude "40.444421820483264" ;
+	ont:hasLongitude "-3.666902094780133" ;
+	ont:hasName "Aparcamiento mixto. Coraz�n de Mar�a II" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=db8bc2c6e051c010VgnVCM2000000c205a0aRCRD> a ont:Parking ;
+	ont:isAccesible "1" ;
+	ont:hasType "Plazas : 120 p�blicas y 125 para residentes   Informaci�n sobre accesibilidad:   No tiene escaleras adaptadas  Ascensor de salida a la calle P�rez de Victoria  2 aseos accesibles (1&ordf; planta)  Plazas para minusv�lidos residentes: 3     Abierto 24 horas    Titularidad : Ayuntamiento de Madrid" ;
+	ont:isInDistrict "MONCLOA-ARAVACA"^^<http://es.dbpedia.org/page/Barrios_de_Madrid> ;
+	ont:hasLatitude "40.45852127134047" ;
+	ont:hasLongitude "-3.78317943069732" ;
+	ont:hasName "Aparcamiento mixto. Corona Boreal" .
+
+<http://semanticweb.org/Group04/MONCLOA-ARAVACA> owl:sameAs <http://dbpedia.org/resource/Moncloa-Aravaca> .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0f85bdc85c01c010VgnVCM2000000c205a0aRCRD> a ont:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas:  312 p�blicas y 174 para residentes  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid" ;
+	ont:isInDistrict "RETIRO"^^<http://es.dbpedia.org/page/Barrios_de_Madrid> ;
+	ont:hasLatitude "40.40531540835356" ;
+	ont:hasLongitude "-3.683557034656531" ;
+	ont:hasName "Aparcamiento mixto. Dao�z y Velarde" .
+
+<http://semanticweb.org/Group04/RETIRO> owl:sameAs <http://dbpedia.org/resource/Retiro> .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9e69946be351c010VgnVCM2000000c205a0aRCRD> a ont:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas:  203 p�blicas y 421 para residentes  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid" ;
+	ont:isInDistrict "SALAMANCA"^^<http://es.dbpedia.org/page/Barrios_de_Madrid> ;
+	ont:hasLatitude "40.434415601006386" ;
+	ont:hasLongitude "-3.675728293375598" ;
+	ont:hasName "Aparcamiento mixto. D�az Porlier" .
+
+<http://semanticweb.org/Group04/SALAMANCA> owl:sameAs <http://es.dbpedia.org/resource/Salamanca> .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c3e12c798651c010VgnVCM2000000c205a0aRCRD> a ont:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas:  104 p�blicas y 550 para residentes  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid" ;
+	ont:isInDistrict "MORATALAZ"^^<http://es.dbpedia.org/page/Barrios_de_Madrid> ;
+	ont:hasLatitude "40.40581270738191" ;
+	ont:hasLongitude "-3.652048809515808" ;
+	ont:hasName "Aparcamiento mixto. Encuentro" .
+
+<http://semanticweb.org/Group04/MORATALAZ> owl:sameAs <http://dbpedia.org/resource/Moratalaz> .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=425e15cbed51c010VgnVCM2000000c205a0aRCRD> a ont:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas : 1218 p�blicas y 607 para residentes   Plazas : 120 p�blicas y 125 para residentes   Informaci�n sobre accesibilidad:    No tiene escaleras adaptadas  Ascensor de salida a la plaza de Felipe II  Aseo accesible (1&ordf; planta)  Plazas para minusv�lidos residentes:23    Abierto 24 horas    Admite tarjeta BonoRed    Titularidad : Ayuntamiento de Madrid" ;
+	ont:isInDistrict "SALAMANCA"^^<http://es.dbpedia.org/page/Barrios_de_Madrid> ;
+	ont:hasLatitude "40.42422175692137" ;
+	ont:hasLongitude "-3.673433652213169" ;
+	ont:hasName "Aparcamiento mixto. Felipe II" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=987e15cbed51c010VgnVCM2000000c205a0aRCRD> a ont:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas : 410 p�blicas y 111 para residentes   Informaci�n sobre accesibilidad:    No tiene escalera adaptada  1 ascensor con salida a la calle Fuencarral, 117  1 aseo accesible en la 1&ordf; planta  Plazas para minusv�lidos residentes: 7    Abierto 24 horas    Admite Tarjeta BonoRed    Titularidad : Ayuntamiento de Madrid" ;
+	ont:isInDistrict "CHAMBERI"^^<http://es.dbpedia.org/page/Barrios_de_Madrid> ;
+	ont:hasLatitude "40.42948845687032" ;
+	ont:hasLongitude "-3.7027941027177986" ;
+	ont:hasName "Aparcamiento mixto. Fuencarral" .
+
+<http://semanticweb.org/Group04/CHAMBERI> owl:sameAs <http://es.dbpedia.org/resource/Chamberi> .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ee9e15cbed51c010VgnVCM2000000c205a0aRCRD> a ont:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas:  409 p�blicas y 717 residentes  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid" ;
+	ont:isInDistrict "TETUAN"^^<http://es.dbpedia.org/page/Barrios_de_Madrid> ;
+	ont:hasLatitude "40.45673936450418" ;
+	ont:hasLongitude "-3.694067405537416" ;
+	ont:hasName "Aparcamiento mixto. General Yag�e" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d0712c798651c010VgnVCM2000000c205a0aRCRD> a ont:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas:  115 p�blicas y 383 residentes   Informaci�n sobre accesibilidad:   No tiene escaleras adptadas  Ascensor de salida a la calle Hernai, 68  1 aseo accesible en 1&ordf; planta  Plazas para minusv�lidos residentes. 3      Abierto 24 horas    Titularidad:  Ayuntamiento de Madrid" ;
+	ont:isInDistrict "TETUAN"^^<http://es.dbpedia.org/page/Barrios_de_Madrid> ;
+	ont:hasLatitude "40.448394729978006" ;
+	ont:hasLongitude "-3.7033919552673127" ;
+	ont:hasName "Aparcamiento mixto. Hernani" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c48f15cbed51c010VgnVCM2000000c205a0aRCRD> a ont:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas:  285 p�blicas y 110 para residentes.   Plazas motos:  7.   Informaci�n sobre accesibilidad:    No tiene escaleras adaptadas  Ascensor con salida a la calle Jacinto benavente, s/n  1 aseo accesible Plaza para minusv�lidos residentes: 16   Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad:  Ayuntamiento de Madrid   Gesti�n:  Empresa Municipal de Transportes (EMT) ( m�s informaci�n )" ;
+	ont:isInDistrict "CENTRO"^^<http://es.dbpedia.org/page/Barrios_de_Madrid> ;
+	ont:hasLatitude "40.41444016371457" ;
+	ont:hasLongitude "-3.70332112917586" ;
+	ont:hasName "Aparcamiento mixto. Jacinto Benavente" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=35ce15cbed51c010VgnVCM2000000c205a0aRCRD> a ont:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas:  205 p�blicas y 43 para residentes   Informaci�n sobre accesibilidad:   No tiene escaleras adaptadas  No disponde ascensor  No disponde de aseos accesible  Plazas para minusv�lidos residentes: 5     Abierto 24 horas    Titularidad:  Ayuntamiento de Madrid" ;
+	ont:isInDistrict "TETUAN"^^<http://es.dbpedia.org/page/Barrios_de_Madrid> ;
+	ont:hasLatitude "40.46451060463543" ;
+	ont:hasLongitude "-3.6916467875121377" ;
+	ont:hasName "Aparcamiento mixto. Jos� Cast�n Tobe�as" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=cb5b1b2bb5b61310VgnVCM2000000c205a0aRCRD> a ont:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas : 360 p�blicas y 70 para residentes   Informaci�n sobre accesibilidad:    No tiene escaleras adaptadas  1 ascensor en la salida a la plaza del Marqu�s de Salamanca  1 aseo accesible en  2&ordf;   planta  Plaza para minusv�lidos residentes: 14   Admite Tarjeta BonoRed   Abierto 24 horas    Titularidad : Ayuntamiento de Madrid" ;
+	ont:isInDistrict "SALAMANCA"^^<http://es.dbpedia.org/page/Barrios_de_Madrid> ;
+	ont:hasLatitude "40.43046723981028" ;
+	ont:hasLongitude "-3.6792137901324056" ;
+	ont:hasName "Aparcamiento mixto. Marqu�s de Salamanca" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1c15bdc85c01c010VgnVCM2000000c205a0aRCRD> a ont:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas:  182  p�blicas y 68 para residentes  Abierto: 24 horas  Admite Tarjeta BonoRed   Titularidad:  Ayuntamiento de Madrid" ;
+	ont:isInDistrict "SAN BLAS-CANILLEJAS"^^<http://es.dbpedia.org/page/Barrios_de_Madrid> ;
+	ont:hasLatitude "40.4402052387976" ;
+	ont:hasLongitude "-3.625049272913964" ;
+	ont:hasName "Aparcamiento mixto. Miguel Yuste" .
+
+<http://semanticweb.org/Group04/SAN+BLAS-CANILLEJAS> owl:sameAs <http://es.dbpedia.org/resource/San_Blas_-_Canillejas> .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=eee35ed15bb95210VgnVCM2000000c205a0aRCRD> a ont:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas : 128 p�blicas y 663 para residentes   Informaci�n sobre accesibilidad:   1 escalera adaptada  No dispone de ascensor  1 aseo accesible  Plaza para minusv�lidos residentes: 5     Abierto 24 horas    Titularidad : Ayuntamiento de Madrid   Gesti�n:  Empresa Municipal de Transportes (EMT) ( m�s informaci�n )" ;
+	ont:isInDistrict "TETUAN"^^<http://es.dbpedia.org/page/Barrios_de_Madrid> ;
+	ont:hasLatitude "40.45973534025835" ;
+	ont:hasLongitude "-3.6962330375922363" ;
+	ont:hasName "Aparcamiento mixto. Orense" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7db12c798651c010VgnVCM2000000c205a0aRCRD> a ont:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas : 242 p�blicas y 511 para residentes  Abierto 24 horas  Admite Tarjeta BonoRed  Este PAR est� adherido a la zona de APR   Titularidad : Ayuntamiento de Madrid" ;
+	ont:isInDistrict "CENTRO"^^<http://es.dbpedia.org/page/Barrios_de_Madrid> ;
+	ont:hasLatitude "40.417632509561116" ;
+	ont:hasLongitude "-3.7116407088004757" ;
+	ont:hasName "Aparcamiento mixto. Plaza de Oriente" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8a412c798651c010VgnVCM2000000c205a0aRCRD> a ont:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas : 379 p�blicas y 124 para residentes  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid" ;
+	ont:isInDistrict "TETUAN"^^<http://es.dbpedia.org/page/Barrios_de_Madrid> ;
+	ont:hasLatitude "40.45362846199134" ;
+	ont:hasLongitude "-3.6975262417380064" ;
+	ont:hasName "Aparcamiento mixto. Presidente Carmona" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=283f15cbed51c010VgnVCM2000000c205a0aRCRD> a ont:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas : 102 p�blicas y 289 para residentes   Informaci�n sobre accesibilidad:    No tiene escaleras adaptadas  1 ascensor en la salida al Paseo de Recoletos  1 aseo accesible  Plaza para minusv�lidos residentes: 10    Abierto 24 horas   Admite Tarjeta BonoRed   Titularidad : Ayuntamiento de Madrid   Gesti�n:  Empresa Municipal de Transportes (EMT) ( m�s informaci�n )" ;
+	ont:isInDistrict "SALAMANCA"^^<http://es.dbpedia.org/page/Barrios_de_Madrid> ;
+	ont:hasLatitude "40.42054469225109" ;
+	ont:hasLongitude "-3.691974283683488" ;
+	ont:hasName "Aparcamiento mixto. Recoletos" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=aabe6545f951c010VgnVCM2000000c205a0aRCRD> a ont:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas : 892 p�blicas y 203 para residentes  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid" ;
+	ont:isInDistrict "CHAMARTIN"^^<http://es.dbpedia.org/page/Barrios_de_Madrid> ;
+	ont:hasLatitude "40.45887037458626" ;
+	ont:hasLongitude "-3.6765275895176677" ;
+	ont:hasName "Aparcamiento mixto. Rep�blica Dominicana" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a284ff632081c010VgnVCM1000000b205a0aRCRD> a ont:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas : 222 p�blicas y 261 para residentes  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid" ;
+	ont:isInDistrict "SALAMANCA"^^<http://es.dbpedia.org/page/Barrios_de_Madrid> ;
+	ont:hasLatitude "40.43432235224971" ;
+	ont:hasLongitude "-3.6700799322371056" ;
+	ont:hasName "Aparcamiento mixto. San Cayetano" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=27912c798651c010VgnVCM2000000c205a0aRCRD> a ont:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas : 132 p�blicas y 408 para residentes  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid" ;
+	ont:isInDistrict "CENTRO"^^<http://es.dbpedia.org/page/Barrios_de_Madrid> ;
+	ont:hasLatitude "40.40917205238472" ;
+	ont:hasLongitude "-3.6940145592988043" ;
+	ont:hasName "Aparcamiento mixto. S�nchez Bustillo" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=bd61f94ae1d15410VgnVCM2000000c205a0aRCRD> a ont:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas : 307 p�blicas y 831 para residentes  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid" ;
+	ont:isInDistrict "SALAMANCA"^^<http://es.dbpedia.org/page/Barrios_de_Madrid> ;
+	ont:hasLatitude "40.43289700914247" ;
+	ont:hasLongitude "-3.6857697780390155" ;
+	ont:hasName "Aparcamiento mixto. Serrano I" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=bc096f1c35d15410VgnVCM2000000c205a0aRCRD> a ont:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas : 379 p�blicas y 794 para residentes  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid" ;
+	ont:isInDistrict "SALAMANCA"^^<http://es.dbpedia.org/page/Barrios_de_Madrid> ;
+	ont:hasLatitude "40.43059379257075" ;
+	ont:hasLongitude "-3.688281097618061" ;
+	ont:hasName "Aparcamiento mixto. Serrano II" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9a1c6f1c35d15410VgnVCM2000000c205a0aRCRD> a ont:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas : 261 p�blicas y 725 para residentes  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid" ;
+	ont:isInDistrict "SALAMANCA"^^<http://es.dbpedia.org/page/Barrios_de_Madrid> ;
+	ont:hasLatitude "40.42446775888825" ;
+	ont:hasLongitude "-3.6897747066093993" ;
+	ont:hasName "Aparcamiento mixto. Serrano III" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9dd67339ae51c010VgnVCM2000000c205a0aRCRD> a ont:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas : 476 p�blicas y 70 para residentes  Abierto 24 horas  Admite Tarjeta BonoRed    Titularidad : Ayuntamiento de Madrid" ;
+	ont:isInDistrict "CENTRO"^^<http://es.dbpedia.org/page/Barrios_de_Madrid> ;
+	ont:hasLatitude "40.41780383567921" ;
+	ont:hasLongitude "-3.6998082261071747" ;
+	ont:hasName "Aparcamiento mixto. Sevilla" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e499946be351c010VgnVCM2000000c205a0aRCRD> a ont:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas:  107 p�blicas y 261 para residentes.   Plazas motos:  6.   Informaci�n sobre accesibilidad:   No tiene escaleras adaptadas  1 ascensor con salida a la Plaza de Vazquez de Mella  1 aseo accesible  Plaza para minusv�lidos residentes: 7     Abierto 24 horas    Titularidad:  Ayuntamiento de Madrid   Gesti�n:  Empresa Municipal de Transportes (EMT) ( m�s informaci�n )" ;
+	ont:isInDistrict "CENTRO"^^<http://es.dbpedia.org/page/Barrios_de_Madrid> ;
+	ont:hasLatitude "40.4209564450911" ;
+	ont:hasLongitude "-3.699899832865304" ;
+	ont:hasName "Aparcamiento mixto. V�zquez de Mella" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8bee15cbed51c010VgnVCM2000000c205a0aRCRD> a ont:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas:  464 p�blicas y 235 para residentes  Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad:  Ayuntamiento de Madrid" ;
+	ont:isInDistrict "SALAMANCA"^^<http://es.dbpedia.org/page/Barrios_de_Madrid> ;
+	ont:hasLatitude "40.427203787185476" ;
+	ont:hasLongitude "-3.6841676172873936" ;
+	ont:hasName "Aparcamiento mixto. Vel�zquez - Ayala" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d11f15cbed51c010VgnVCM2000000c205a0aRCRD> a ont:Parking ;
+	ont:isAccesible "1" ;
+	ont:hasType "Plazas:  549 p�blicas y 395 para residentes  Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad:  Ayuntamiento de Madrid" ;
+	ont:isInDistrict "SALAMANCA"^^<http://es.dbpedia.org/page/Barrios_de_Madrid> ;
+	ont:hasLatitude "40.4243649253884" ;
+	ont:hasLongitude "-3.684339253399854" ;
+	ont:hasName "Aparcamiento mixto. Vel�zquez - Jorge Juan" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6245bdc85c01c010VgnVCM2000000c205a0aRCRD> a ont:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas:  83 p�blicas y 180 para residentes   Informaci�n sobre accesibilidad:   No tiene escaleras adaptadas  1 ascensor en la salida a la Calle Verdaguer y garc�a  1 aseo accesible en la planta -1  Plaza para minusv�lidos residentes: 4     Abierto 24 horas    Titularidad:  Ayuntamiento de Madrid" ;
+	ont:isInDistrict "CIUDAD LINEAL"^^<http://es.dbpedia.org/page/Barrios_de_Madrid> ;
+	ont:hasLatitude "40.43992277144076" ;
+	ont:hasLongitude "-3.656505118007155" ;
+	ont:hasName "Aparcamiento mixto. Verdaguer y Garc�a" .
+
+<http://semanticweb.org/Group04/CIUDAD+LINEAL> owl:sameAs <http://es.dbpedia.org/resource/Categoría:Ciudad_Lineal> .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=975b89a80c49e510VgnVCM1000001d4a900aRCRD> a ont:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas :   para autom�viles 1719  para motocicletas 61" ;
+	ont:isInDistrict "SAN BLAS-CANILLEJAS"^^<http://es.dbpedia.org/page/Barrios_de_Madrid> ;
+	ont:hasLatitude "40.434154" ;
+	ont:hasLongitude "-3.598831" ;
+	ont:hasName "Aparcamiento p�blico disuasorio Estadio Metropolitano Sur ES-02b" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0e167339ae51c010VgnVCM2000000c205a0aRCRD> a ont:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas : 462   Informacion sobre accesibilidad:    1 escalera adaptada  No tiene ascensor de salida a calle  1 aseo accesible  Plazas para minusv�lidos residentes: 17   Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad : Ayuntamiento de Madrid   Gesti�n : Empresa Municipal de Transportes (EMT) ( m�s informaci�n )" ;
+	ont:isInDistrict "CHAMBERI"^^<http://es.dbpedia.org/page/Barrios_de_Madrid> ;
+	ont:hasLatitude "40.43030345785862" ;
+	ont:hasLongitude "-3.6931471299523446" ;
+	ont:hasName "Aparcamiento p�blico. Almagro" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ed88f25e040c4410VgnVCM2000000c205a0aRCRD> a ont:Parking ;
+	ont:isAccesible "1" ;
+	ont:hasType "Plazas:  376  Abierto 24 horas  Admite la Tarjeta Bono Red   Titularidad:  Ayuntamiento de Madrid" ;
+	ont:isInDistrict "CHAMARTIN"^^<http://es.dbpedia.org/page/Barrios_de_Madrid> ;
+	ont:hasLatitude "40.44426892073378" ;
+	ont:hasLongitude "-3.6777018495296048" ;
+	ont:hasName "Aparcamiento p�blico. Auditorio Nacional de M�sica (Pr�ncipe de Vergara)" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=98e77339ae51c010VgnVCM2000000c205a0aRCRD> a ont:Parking ;
+	ont:isAccesible "1" ;
+	ont:hasType "Plazas:  400   Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad:  Ayuntamiento de Madrid" ;
+	ont:isInDistrict "CENTRO"^^<http://es.dbpedia.org/page/Barrios_de_Madrid> ;
+	ont:hasLatitude "40.41809765692244" ;
+	ont:hasLongitude "-3.706306013191402" ;
+	ont:hasName "Aparcamiento p�blico. Descalzas" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0e6e6545f951c010VgnVCM2000000c205a0aRCRD> a ont:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas : 245  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid" ;
+	ont:isInDistrict "RETIRO"^^<http://es.dbpedia.org/page/Barrios_de_Madrid> ;
+	ont:hasLatitude "40.406002468696784" ;
+	ont:hasLongitude "-3.669292239090564" ;
+	ont:hasName "Aparcamiento p�blico. Fern�ndez Shaw" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5f477339ae51c010VgnVCM2000000c205a0aRCRD> a ont:Parking ;
+	ont:isAccesible "1" ;
+	ont:hasType "Plazas:  244  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid" ;
+	ont:isInDistrict "CENTRO"^^<http://es.dbpedia.org/page/Barrios_de_Madrid> ;
+	ont:hasLatitude "40.40745328367243" ;
+	ont:hasLongitude "-3.7100131737859567" ;
+	ont:hasName "Aparcamiento p�blico. Glorieta Puerta de Toledo" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=42c77339ae51c010VgnVCM2000000c205a0aRCRD> a ont:Parking ;
+	ont:isAccesible "1" ;
+	ont:hasType "Plazas : 480  Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad : Ayuntamiento de Madrid" ;
+	ont:isInDistrict "Centro"^^<http://es.dbpedia.org/page/Barrios_de_Madrid> ;
+	ont:hasLatitude "40.41576756093728" ;
+	ont:hasLongitude "-3.695367083138702" ;
+	ont:hasName "Aparcamiento p�blico. Las Cortes" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=54467339ae51c010VgnVCM2000000c205a0aRCRD> a ont:Parking ;
+	ont:isAccesible "1" ;
+	ont:hasType "Plazas : 481  Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad : Ayuntamiento de Madrid" ;
+	ont:isInDistrict "CENTRO"^^<http://es.dbpedia.org/page/Barrios_de_Madrid> ;
+	ont:hasLatitude "40.4214535549175" ;
+	ont:hasLongitude "-3.705563118253955" ;
+	ont:hasName "Aparcamiento p�blico. Luna - Tudescos" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=aa667339ae51c010VgnVCM2000000c205a0aRCRD> a ont:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas : 482  Abierto 24 horas  Admite Tarjeta BonoRed" ;
+	ont:isInDistrict "MONCLOA-ARAVACA"^^<http://es.dbpedia.org/page/Barrios_de_Madrid> ;
+	ont:hasLatitude "40.42955928333471" ;
+	ont:hasLongitude "-3.719111078507027" ;
+	ont:hasName "Aparcamiento p�blico. Marqu�s de Urquijo" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f0967339ae51c010VgnVCM2000000c205a0aRCRD> a ont:Parking ;
+	ont:isAccesible "1" ;
+	ont:hasType "Plazas:  275  Abierto 24 horas  Admite Tarjet BonoRed   Titularidad:  Ayuntamiento de Madrid   Gesti�n:  Empresa Municipal de Transportes (EMT) ( m�s informaci�n )" ;
+	ont:isInDistrict "RETIRO"^^<http://es.dbpedia.org/page/Barrios_de_Madrid> ;
+	ont:hasLatitude "40.41802725000116" ;
+	ont:hasLongitude "-3.691123387515545" ;
+	ont:hasName "Aparcamiento p�blico. Montalb�n" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fe0881eb5f51c010VgnVCM2000000c205a0aRCRD> a ont:Parking ;
+	ont:isAccesible "1" ;
+	ont:hasType "Plazas:  362   Informaci�n sobre accesibilidad:    No tiene escaleras adaptadas  1 ascensor  1 aseo accesible en  2&ordf;   planta  Plaza para minusv�lidos residentes: 16    Abierto 24 horas    Admite Tarjeta BonoRed     Titularidad:  Ayuntamiento de Madrid" ;
+	ont:isInDistrict "CENTRO"^^<http://es.dbpedia.org/page/Barrios_de_Madrid> ;
+	ont:hasLatitude "40.4227759148193" ;
+	ont:hasLongitude "-3.708830424647755" ;
+	ont:hasName "Aparcamiento p�blico. Mostenses" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=bdc7bdc85c01c010VgnVCM2000000c205a0aRCRD> a ont:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas:  147  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid" ;
+	ont:isInDistrict "CHAMARTIN"^^<http://es.dbpedia.org/page/Barrios_de_Madrid> ;
+	ont:hasLatitude "40.44366224087455" ;
+	ont:hasLongitude "-3.6782263814004565" ;
+	ont:hasName "Aparcamiento p�blico. Museo de la Ciudad" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=453881eb5f51c010VgnVCM2000000c205a0aRCRD> a ont:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas : 397    Informaci�n sobre accesibilidad:    Disponde de escaleras adaptadas  1 ascensor en la salida a la Plaza de Olavide  1 aseo accesible en la  1&ordf;   planta  Plaza para minusv�lidos residentes: 8   Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad : Ayuntamiento de Madrid" ;
+	ont:isInDistrict "CHAMBERI"^^<http://es.dbpedia.org/page/Barrios_de_Madrid> ;
+	ont:hasLatitude "40.43277769820206" ;
+	ont:hasLongitude "-3.7011542013121264" ;
+	ont:hasName "Aparcamiento p�blico. Olavide" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a5777339ae51c010VgnVCM2000000c205a0aRCRD> a ont:Parking ;
+	ont:isAccesible "1" ;
+	ont:hasType "Plazas : 605  Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad : Ayuntamiento de Madrid" ;
+	ont:isInDistrict "SALAMANCA"^^<http://es.dbpedia.org/page/Barrios_de_Madrid> ;
+	ont:hasLatitude "40.42518540300912" ;
+	ont:hasLongitude "-3.6887800207651495" ;
+	ont:hasName "Aparcamiento p�blico. Plaza de Col�n" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fb977339ae51c010VgnVCM2000000c205a0aRCRD> a ont:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas : 800 (hasta 535 abonados)  Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad : Ayuntamiento de Madrid   Gesti�n : Empresa Municipal de Transportes (EMT) ( m�s informaci�n )" ;
+	ont:isInDistrict "MONCLOA-ARAVACA"^^<http://es.dbpedia.org/page/Barrios_de_Madrid> ;
+	ont:hasLatitude "40.42372251184839" ;
+	ont:hasLongitude "-3.7116577340508523" ;
+	ont:hasName "Aparcamiento p�blico. Plaza de Espa�a" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8ec881eb5f51c010VgnVCM2000000c205a0aRCRD> a ont:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas:  450   Informaci�n sobre accesibilidad:    No tiene escaleras adaptadas  1 ascensor  1 aseo accesible en   1&ordf;   planta  Plaza para minusv�lidos residentes: 7    Abierto 24 horas    Admite Tarjeta BonoRed    Titularidad:  Ayuntamiento de Madrid" ;
+	ont:isInDistrict "CENTRO"^^<http://es.dbpedia.org/page/Barrios_de_Madrid> ;
+	ont:hasLatitude "40.41848676016168" ;
+	ont:hasLongitude "-3.703068586180966" ;
+	ont:hasName "Aparcamiento p�blico. Plaza del Carmen" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d4f881eb5f51c010VgnVCM2000000c205a0aRCRD> a ont:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas : 160   Informaci�n sobre accesibilidad:    Si tiene escaleras adaptadas  1 ascensor  3 aseos accesibles (uno por planta): 8  Plaza para minusv�lidos residentes: 16   Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad : Ayuntamiento de Madrid" ;
+	ont:isInDistrict "CENTRO"^^<http://es.dbpedia.org/page/Barrios_de_Madrid> ;
+	ont:hasLatitude "40.42018796139455" ;
+	ont:hasLongitude "-3.69587231093941" ;
+	ont:hasName "Aparcamiento p�blico. Plaza del Rey" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2b1981eb5f51c010VgnVCM2000000c205a0aRCRD> a ont:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas : 694  Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad : Ayuntamiento de Madrid" ;
+	ont:isInDistrict "CENTRO"^^<http://es.dbpedia.org/page/Barrios_de_Madrid> ;
+	ont:hasLatitude "40.41586882022003" ;
+	ont:hasLongitude "-3.706895619414367" ;
+	ont:hasName "Aparcamiento p�blico. Plaza Mayor" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9b5881eb5f51c010VgnVCM2000000c205a0aRCRD> a ont:Parking ;
+	ont:isAccesible "1" ;
+	ont:hasType "Plazas:  325   Informaci�n sobre accesibilidad:    No tiene escaleras adaptadas  1 ascensor  1 aseo accesible en  1&ordf;  planta  Plaza para minusv�lidos residentes: 6    Abierto 24 horas    Admite Tarjeta BonoRed    Titularidad:  Ayuntamiento de Madrid" ;
+	ont:isInDistrict "CENTRO"^^<http://es.dbpedia.org/page/Barrios_de_Madrid> ;
+	ont:hasLatitude "40.41487830605113" ;
+	ont:hasLongitude "-3.700897645451053" ;
+	ont:hasName "Aparcamiento p�blico. Santa Ana" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e3077339ae51c010VgnVCM2000000c205a0aRCRD> a ont:Parking ;
+	ont:isAccesible "1" ;
+	ont:hasType "Plazas:  371  Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad:  Ayuntamiento de Madrid" ;
+	ont:isInDistrict "SALAMANCA"^^<http://es.dbpedia.org/page/Barrios_de_Madrid> ;
+	ont:hasLatitude "40.431991827319116" ;
+	ont:hasLongitude "-3.683449815935094" ;
+	ont:hasName "Aparcamiento p�blico. Vel�zquez - Juan Bravo" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=38a881eb5f51c010VgnVCM2000000c205a0aRCRD> a ont:Parking ;
+	ont:isAccesible "1" ;
+	ont:hasType "Plazas rotaci�n:  169   Plazas motos:  2    Informaci�n sobre accesibilidad:    No tiene escaleras adaptadas  No disponde de ascensor  1 aseo accesible  Plaza para minusv�lidos residentes: 13    Abierto 24 horas    Admite Tarjeta BonoRed    Titularidad:  Ayuntamiento de Madrid   Gesti�n:  Empresa Municipal de Transportes (EMT) ( m�s informaci�n )" ;
+	ont:isInDistrict "CENTRO"^^<http://es.dbpedia.org/page/Barrios_de_Madrid> ;
+	ont:hasLatitude "40.42533530030625" ;
+	ont:hasLongitude "-3.6923416648619947" ;
+	ont:hasName "Aparcamiento p�blico. Villa de Par�s" .

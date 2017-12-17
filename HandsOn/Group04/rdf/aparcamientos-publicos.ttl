@@ -1,439 +1,445 @@
+@prefix schema: <http://schema.org/> .
 @prefix ont: <http://www.semanticweb.org/Group04/ontology#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 
-<http://semanticweb.org/Group04/Aparcamiento+mixto.+Arquitecto+Ribera> a ont:Parking ;
-	ont:isAccesible <http://semanticweb.org/Group04/0> ;
-	ont:hasType <http://semanticweb.org/Group04/Plazas%3A++318+p%EF%BF%BDblicas+y+298+para+residentes++Abierto+24+horas++Admite+Tarjeta+BonoRed+++Titularidad%3A++Ayuntamiento+de+Madrid> .
-
-<http://semanticweb.org/Group04/BARCELO> a ont:Street .
-
-<http://semanticweb.org/Group04/Aparcamiento+mixto.+Arquitecto+Ribera> ont:isInStreet <http://semanticweb.org/Group04/BARCELO> .
-
-<http://semanticweb.org/Group04/Aparcamiento+mixto.+Avenida+de+Am%EF%BF%BDrica+%28intercambiador%29> a ont:Parking ;
-	ont:isAccesible <http://semanticweb.org/Group04/0> ;
-	ont:hasType <http://semanticweb.org/Group04/Informaci%EF%BF%BDn+sobre+accesibilidad+%3A++Tiene+escaleras+adaptadas++Ascensor+de+salida+a+la+calle+Avenida+de+Am%EF%BF%BDrica%2C+9++Tiene+aseos+accesibles++Plazas+para+minusv%EF%BF%BDlidos+++++Plazas+%3A+269+p%EF%BF%BDblicas+y+392+para+residentes+++Abierto+24+horas++++Titularidad+%3A+Ayuntamiento+de+Madrid> .
-
-<http://semanticweb.org/Group04/PRADENA+DEL+RINCON> a ont:Street .
-
-<http://semanticweb.org/Group04/Aparcamiento+mixto.+Avenida+de+Am%EF%BF%BDrica+%28intercambiador%29> ont:isInStreet <http://semanticweb.org/Group04/PRADENA+DEL+RINCON> .
-
-<http://semanticweb.org/Group04/Aparcamiento+mixto.+Avenida+de+Portugal> a ont:Parking ;
-	ont:isAccesible <http://semanticweb.org/Group04/0> ;
-	ont:hasType <http://semanticweb.org/Group04/Plazas%3A++433+p%EF%BF%BDblicas+y+437+para+residentes+++Informacion+sobre+accesibilidad%3A+++No+tiene+escalera+adaptada++Tiene+ascensor+de+salida+a+Avenida+de+Portugal%2C+s%2Fn++1+aseo+accesible+%28nivel-3%29++Plazas+para+minusv%EF%BF%BDlidos+residentes%3A+20++++Abierto+24+horas+++Titularidad+%3A+Ayuntamiento+de+Madrid+++Gesti%EF%BF%BDn+%3A+Empresa+Municipal+de+Transportes+%28EMT%29+%28+m%EF%BF%BDs+informaci%EF%BF%BDn+%29> .
-
-<http://semanticweb.org/Group04/PORTUGAL> a ont:Street .
-
-<http://semanticweb.org/Group04/Aparcamiento+mixto.+Avenida+de+Portugal> ont:isInStreet <http://semanticweb.org/Group04/PORTUGAL> .
-
-<http://semanticweb.org/Group04/Aparcamiento+mixto.+Brasil> a ont:Parking ;
-	ont:isAccesible <http://semanticweb.org/Group04/0> ;
-	ont:hasType <http://semanticweb.org/Group04/Plazas%3A++226+p%EF%BF%BDblicas+y+400+para+residentes++Abierto+24+horas+++Titularidad%3A++Ayuntamiento+de+Madrid> .
-
-<http://semanticweb.org/Group04/GENERAL+YAG%26Uuml%3BE> a ont:Street .
-
-<http://semanticweb.org/Group04/Aparcamiento+mixto.+Brasil> ont:isInStreet <http://semanticweb.org/Group04/GENERAL+YAG%26Uuml%3BE> .
-
-<http://semanticweb.org/Group04/Aparcamiento+mixto.+Casino+de+la+Reina> a ont:Parking ;
-	ont:isAccesible <http://semanticweb.org/Group04/0> ;
-	ont:hasType <http://semanticweb.org/Group04/Plazas%3A++135+p%EF%BF%BDblicas+y+449+para+residentes++Abierto+24+horas+++Titularidad%3A++Ayuntamiento+de+Madrid> .
-
-<http://semanticweb.org/Group04/CASINO> a ont:Street .
-
-<http://semanticweb.org/Group04/Aparcamiento+mixto.+Casino+de+la+Reina> ont:isInStreet <http://semanticweb.org/Group04/CASINO> .
-
-<http://semanticweb.org/Group04/Aparcamiento+mixto.+Condesa+de+Gavia> a ont:Parking ;
-	ont:isAccesible <http://semanticweb.org/Group04/0> ;
-	ont:hasType <http://semanticweb.org/Group04/Plazas+%3A+73+p%EF%BF%BDblicas+y+79+para+residentes+++Abierto+24+horas+++Titularidad+%3A+Ayuntamiento+de+Madrid> .
-
-<http://semanticweb.org/Group04/CONDESA+DE+GAVIA> a ont:Street .
-
-<http://semanticweb.org/Group04/Aparcamiento+mixto.+Condesa+de+Gavia> ont:isInStreet <http://semanticweb.org/Group04/CONDESA+DE+GAVIA> .
-
-<http://semanticweb.org/Group04/Aparcamiento+mixto.+Coraz%EF%BF%BDn+de+Mar%EF%BF%BDa+II> a ont:Parking ;
-	ont:isAccesible <http://semanticweb.org/Group04/0> ;
-	ont:hasType <http://semanticweb.org/Group04/Plazas+%3A+327+p%EF%BF%BDblicas+y+750+para+residentes+++Informacion+sobre+accesibilidad%3A+++No+tiene+escalera+adaptada++No+tiene+ascensor+de+salida+a+calle++2+aseos+accesibles+%28+1%26ordf%3B++planta%29+++Plazas+para+minusv%EF%BF%BDlidos+residentes%3A+6+++++Abierto+24+horas++++Titularidad+%3A+Ayuntamiento+de+Madrid> .
-
-<http://semanticweb.org/Group04/CORAZON+DE+MARIA> a ont:Street .
-
-<http://semanticweb.org/Group04/Aparcamiento+mixto.+Coraz%EF%BF%BDn+de+Mar%EF%BF%BDa+II> ont:isInStreet <http://semanticweb.org/Group04/CORAZON+DE+MARIA> .
-
-<http://semanticweb.org/Group04/Aparcamiento+mixto.+Corona+Boreal> a ont:Parking ;
-	ont:isAccesible <http://semanticweb.org/Group04/1> ;
-	ont:hasType <http://semanticweb.org/Group04/Plazas+%3A+120+p%EF%BF%BDblicas+y+125+para+residentes+++Informaci%EF%BF%BDn+sobre+accesibilidad%3A+++No+tiene+escaleras+adaptadas++Ascensor+de+salida+a+la+calle+P%EF%BF%BDrez+de+Victoria++2+aseos+accesibles+%281%26ordf%3B+planta%29++Plazas+para+minusv%EF%BF%BDlidos+residentes%3A+3+++++Abierto+24+horas++++Titularidad+%3A+Ayuntamiento+de+Madrid> .
-
-<http://semanticweb.org/Group04/PEREZ+DE+VICTORIA> a ont:Street .
-
-<http://semanticweb.org/Group04/Aparcamiento+mixto.+Corona+Boreal> ont:isInStreet <http://semanticweb.org/Group04/PEREZ+DE+VICTORIA> .
-
-<http://semanticweb.org/Group04/Aparcamiento+mixto.+Dao%EF%BF%BDz+y+Velarde> a ont:Parking ;
-	ont:isAccesible <http://semanticweb.org/Group04/0> ;
-	ont:hasType <http://semanticweb.org/Group04/Plazas%3A++312+p%EF%BF%BDblicas+y+174+para+residentes++Abierto+24+horas+++Titularidad%3A++Ayuntamiento+de+Madrid> .
-
-<http://semanticweb.org/Group04/CIUDAD+DE+BARCELONA> a ont:Street .
-
-<http://semanticweb.org/Group04/Aparcamiento+mixto.+Dao%EF%BF%BDz+y+Velarde> ont:isInStreet <http://semanticweb.org/Group04/CIUDAD+DE+BARCELONA> .
-
-<http://semanticweb.org/Group04/Aparcamiento+mixto.+D%EF%BF%BDaz+Porlier> a ont:Parking ;
-	ont:isAccesible <http://semanticweb.org/Group04/0> ;
-	ont:hasType <http://semanticweb.org/Group04/Plazas%3A++203+p%EF%BF%BDblicas+y+421+para+residentes++Abierto+24+horas+++Titularidad%3A++Ayuntamiento+de+Madrid> .
-
-<http://semanticweb.org/Group04/DIEGO+DE+LEON> a ont:Street .
-
-<http://semanticweb.org/Group04/Aparcamiento+mixto.+D%EF%BF%BDaz+Porlier> ont:isInStreet <http://semanticweb.org/Group04/DIEGO+DE+LEON> .
-
-<http://semanticweb.org/Group04/Aparcamiento+mixto.+Encuentro> a ont:Parking ;
-	ont:isAccesible <http://semanticweb.org/Group04/0> ;
-	ont:hasType <http://semanticweb.org/Group04/Plazas%3A++104+p%EF%BF%BDblicas+y+550+para+residentes++Abierto+24+horas+++Titularidad%3A++Ayuntamiento+de+Madrid> .
-
-<http://semanticweb.org/Group04/ENCUENTRO> a ont:Street .
-
-<http://semanticweb.org/Group04/Aparcamiento+mixto.+Encuentro> ont:isInStreet <http://semanticweb.org/Group04/ENCUENTRO> .
-
-<http://semanticweb.org/Group04/Aparcamiento+mixto.+Felipe+II> a ont:Parking ;
-	ont:isAccesible <http://semanticweb.org/Group04/0> ;
-	ont:hasType <http://semanticweb.org/Group04/Plazas+%3A+1218+p%EF%BF%BDblicas+y+607+para+residentes+++Plazas+%3A+120+p%EF%BF%BDblicas+y+125+para+residentes+++Informaci%EF%BF%BDn+sobre+accesibilidad%3A++++No+tiene+escaleras+adaptadas++Ascensor+de+salida+a+la+plaza+de+Felipe+II++Aseo+accesible+%281%26ordf%3B+planta%29++Plazas+para+minusv%EF%BF%BDlidos+residentes%3A23++++Abierto+24+horas++++Admite+tarjeta+BonoRed++++Titularidad+%3A+Ayuntamiento+de+Madrid> .
-
-<http://semanticweb.org/Group04/ANTONIA+MERCE> a ont:Street .
-
-<http://semanticweb.org/Group04/Aparcamiento+mixto.+Felipe+II> ont:isInStreet <http://semanticweb.org/Group04/ANTONIA+MERCE> .
-
-<http://semanticweb.org/Group04/Aparcamiento+mixto.+Fuencarral> a ont:Parking ;
-	ont:isAccesible <http://semanticweb.org/Group04/0> ;
-	ont:hasType <http://semanticweb.org/Group04/Plazas+%3A+410+p%EF%BF%BDblicas+y+111+para+residentes+++Informaci%EF%BF%BDn+sobre+accesibilidad%3A++++No+tiene+escalera+adaptada++1+ascensor+con+salida+a+la+calle+Fuencarral%2C+117++1+aseo+accesible+en+la+1%26ordf%3B+planta++Plazas+para+minusv%EF%BF%BDlidos+residentes%3A+7++++Abierto+24+horas++++Admite+Tarjeta+BonoRed++++Titularidad+%3A+Ayuntamiento+de+Madrid> .
-
-<http://semanticweb.org/Group04/FUENCARRAL> a ont:Street .
-
-<http://semanticweb.org/Group04/Aparcamiento+mixto.+Fuencarral> ont:isInStreet <http://semanticweb.org/Group04/FUENCARRAL> .
-
-<http://semanticweb.org/Group04/Aparcamiento+mixto.+General+Yag%EF%BF%BDe> a ont:Parking ;
-	ont:isAccesible <http://semanticweb.org/Group04/0> ;
-	ont:hasType <http://semanticweb.org/Group04/Plazas%3A++409+p%EF%BF%BDblicas+y+717+residentes++Abierto+24+horas+++Titularidad%3A++Ayuntamiento+de+Madrid> .
-
-<http://semanticweb.org/Group04/BRASIL> a ont:Street .
-
-<http://semanticweb.org/Group04/Aparcamiento+mixto.+General+Yag%EF%BF%BDe> ont:isInStreet <http://semanticweb.org/Group04/BRASIL> .
-
-<http://semanticweb.org/Group04/Aparcamiento+mixto.+Hernani> a ont:Parking ;
-	ont:isAccesible <http://semanticweb.org/Group04/0> ;
-	ont:hasType <http://semanticweb.org/Group04/Plazas%3A++115+p%EF%BF%BDblicas+y+383+residentes+++Informaci%EF%BF%BDn+sobre+accesibilidad%3A+++No+tiene+escaleras+adptadas++Ascensor+de+salida+a+la+calle+Hernai%2C+68++1+aseo+accesible+en+1%26ordf%3B+planta++Plazas+para+minusv%EF%BF%BDlidos+residentes.+3++++++Abierto+24+horas++++Titularidad%3A++Ayuntamiento+de+Madrid> .
-
-<http://semanticweb.org/Group04/HERNANI> a ont:Street .
-
-<http://semanticweb.org/Group04/Aparcamiento+mixto.+Hernani> ont:isInStreet <http://semanticweb.org/Group04/HERNANI> .
-
-<http://semanticweb.org/Group04/Aparcamiento+mixto.+Jacinto+Benavente> a ont:Parking ;
-	ont:isAccesible <http://semanticweb.org/Group04/0> ;
-	ont:hasType <http://semanticweb.org/Group04/Plazas%3A++285+p%EF%BF%BDblicas+y+110+para+residentes.+++Plazas+motos%3A++7.+++Informaci%EF%BF%BDn+sobre+accesibilidad%3A++++No+tiene+escaleras+adaptadas++Ascensor+con+salida+a+la+calle+Jacinto+benavente%2C+s%2Fn++1+aseo+accesible+Plaza+para+minusv%EF%BF%BDlidos+residentes%3A+16+++Abierto+24+horas++Admite+Tarjeta+BonoRed+++Titularidad%3A++Ayuntamiento+de+Madrid+++Gesti%EF%BF%BDn%3A++Empresa+Municipal+de+Transportes+%28EMT%29+%28+m%EF%BF%BDs+informaci%EF%BF%BDn+%29> .
-
-<http://semanticweb.org/Group04/JACINTO+BENAVENTE> a ont:Street .
-
-<http://semanticweb.org/Group04/Aparcamiento+mixto.+Jacinto+Benavente> ont:isInStreet <http://semanticweb.org/Group04/JACINTO+BENAVENTE> .
-
-<http://semanticweb.org/Group04/Aparcamiento+mixto.+Jos%EF%BF%BD+Cast%EF%BF%BDn+Tobe%EF%BF%BDas> a ont:Parking ;
-	ont:isAccesible <http://semanticweb.org/Group04/0> ;
-	ont:hasType <http://semanticweb.org/Group04/Plazas%3A++205+p%EF%BF%BDblicas+y+43+para+residentes+++Informaci%EF%BF%BDn+sobre+accesibilidad%3A+++No+tiene+escaleras+adaptadas++No+disponde+ascensor++No+disponde+de+aseos+accesible++Plazas+para+minusv%EF%BF%BDlidos+residentes%3A+5+++++Abierto+24+horas++++Titularidad%3A++Ayuntamiento+de+Madrid> .
-
-<http://semanticweb.org/Group04/CAPITAN+HAYA> a ont:Street .
-
-<http://semanticweb.org/Group04/Aparcamiento+mixto.+Jos%EF%BF%BD+Cast%EF%BF%BDn+Tobe%EF%BF%BDas> ont:isInStreet <http://semanticweb.org/Group04/CAPITAN+HAYA> .
-
-<http://semanticweb.org/Group04/Aparcamiento+mixto.+Marqu%EF%BF%BDs+de+Salamanca> a ont:Parking ;
-	ont:isAccesible <http://semanticweb.org/Group04/0> ;
-	ont:hasType <http://semanticweb.org/Group04/Plazas+%3A+360+p%EF%BF%BDblicas+y+70+para+residentes+++Informaci%EF%BF%BDn+sobre+accesibilidad%3A++++No+tiene+escaleras+adaptadas++1+ascensor+en+la+salida+a+la+plaza+del+Marqu%EF%BF%BDs+de+Salamanca++1+aseo+accesible+en++2%26ordf%3B+++planta++Plaza+para+minusv%EF%BF%BDlidos+residentes%3A+14+++Admite+Tarjeta+BonoRed+++Abierto+24+horas++++Titularidad+%3A+Ayuntamiento+de+Madrid> .
-
-<http://semanticweb.org/Group04/MARQUES+DE+SALAMANCA> a ont:Street .
-
-<http://semanticweb.org/Group04/Aparcamiento+mixto.+Marqu%EF%BF%BDs+de+Salamanca> ont:isInStreet <http://semanticweb.org/Group04/MARQUES+DE+SALAMANCA> .
-
-<http://semanticweb.org/Group04/Aparcamiento+mixto.+Miguel+Yuste> a ont:Parking ;
-	ont:isAccesible <http://semanticweb.org/Group04/0> ;
-	ont:hasType <http://semanticweb.org/Group04/Plazas%3A++182++p%EF%BF%BDblicas+y+68+para+residentes++Abierto%3A+24+horas++Admite+Tarjeta+BonoRed+++Titularidad%3A++Ayuntamiento+de+Madrid> .
-
-<http://semanticweb.org/Group04/MIGUEL+YUSTE> a ont:Street .
-
-<http://semanticweb.org/Group04/Aparcamiento+mixto.+Miguel+Yuste> ont:isInStreet <http://semanticweb.org/Group04/MIGUEL+YUSTE> .
-
-<http://semanticweb.org/Group04/Aparcamiento+mixto.+Orense> a ont:Parking ;
-	ont:isAccesible <http://semanticweb.org/Group04/0> ;
-	ont:hasType <http://semanticweb.org/Group04/Plazas+%3A+128+p%EF%BF%BDblicas+y+663+para+residentes+++Informaci%EF%BF%BDn+sobre+accesibilidad%3A+++1+escalera+adaptada++No+dispone+de+ascensor++1+aseo+accesible++Plaza+para+minusv%EF%BF%BDlidos+residentes%3A+5+++++Abierto+24+horas++++Titularidad+%3A+Ayuntamiento+de+Madrid+++Gesti%EF%BF%BDn%3A++Empresa+Municipal+de+Transportes+%28EMT%29+%28+m%EF%BF%BDs+informaci%EF%BF%BDn+%29> .
-
-<http://semanticweb.org/Group04/SOR+ANGELA+DE+LA+CRUZ> a ont:Street .
-
-<http://semanticweb.org/Group04/Aparcamiento+mixto.+Orense> ont:isInStreet <http://semanticweb.org/Group04/SOR+ANGELA+DE+LA+CRUZ> .
-
-<http://semanticweb.org/Group04/Aparcamiento+mixto.+Plaza+de+Oriente> a ont:Parking ;
-	ont:isAccesible <http://semanticweb.org/Group04/0> ;
-	ont:hasType <http://semanticweb.org/Group04/Plazas+%3A+242+p%EF%BF%BDblicas+y+511+para+residentes++Abierto+24+horas++Admite+Tarjeta+BonoRed++Este+PAR+est%EF%BF%BD+adherido+a+la+zona+de+APR+++Titularidad+%3A+Ayuntamiento+de+Madrid> .
-
-<http://semanticweb.org/Group04/ORIENTE> a ont:Street .
-
-<http://semanticweb.org/Group04/Aparcamiento+mixto.+Plaza+de+Oriente> ont:isInStreet <http://semanticweb.org/Group04/ORIENTE> .
-
-<http://semanticweb.org/Group04/Aparcamiento+mixto.+Presidente+Carmona> a ont:Parking ;
-	ont:isAccesible <http://semanticweb.org/Group04/0> ;
-	ont:hasType <http://semanticweb.org/Group04/Plazas+%3A+379+p%EF%BF%BDblicas+y+124+para+residentes++Abierto+24+horas+++Titularidad+%3A+Ayuntamiento+de+Madrid> .
-
-<http://semanticweb.org/Group04/PRESIDENTE+CARMONA> a ont:Street .
-
-<http://semanticweb.org/Group04/Aparcamiento+mixto.+Presidente+Carmona> ont:isInStreet <http://semanticweb.org/Group04/PRESIDENTE+CARMONA> .
-
-<http://semanticweb.org/Group04/Aparcamiento+mixto.+Recoletos> a ont:Parking ;
-	ont:isAccesible <http://semanticweb.org/Group04/0> ;
-	ont:hasType <http://semanticweb.org/Group04/Plazas+%3A+102+p%EF%BF%BDblicas+y+289+para+residentes+++Informaci%EF%BF%BDn+sobre+accesibilidad%3A++++No+tiene+escaleras+adaptadas++1+ascensor+en+la+salida+al+Paseo+de+Recoletos++1+aseo+accesible++Plaza+para+minusv%EF%BF%BDlidos+residentes%3A+10++++Abierto+24+horas+++Admite+Tarjeta+BonoRed+++Titularidad+%3A+Ayuntamiento+de+Madrid+++Gesti%EF%BF%BDn%3A++Empresa+Municipal+de+Transportes+%28EMT%29+%28+m%EF%BF%BDs+informaci%EF%BF%BDn+%29> .
-
-<http://semanticweb.org/Group04/RECOLETOS> a ont:Street .
-
-<http://semanticweb.org/Group04/Aparcamiento+mixto.+Recoletos> ont:isInStreet <http://semanticweb.org/Group04/RECOLETOS> .
-
-<http://semanticweb.org/Group04/Aparcamiento+mixto.+Rep%EF%BF%BDblica+Dominicana> a ont:Parking ;
-	ont:isAccesible <http://semanticweb.org/Group04/0> ;
-	ont:hasType <http://semanticweb.org/Group04/Plazas+%3A+892+p%EF%BF%BDblicas+y+203+para+residentes++Abierto+24+horas+++Titularidad+%3A+Ayuntamiento+de+Madrid> .
-
-<http://semanticweb.org/Group04/REPUBLICA+DOMINICANA> a ont:Street .
-
-<http://semanticweb.org/Group04/Aparcamiento+mixto.+Rep%EF%BF%BDblica+Dominicana> ont:isInStreet <http://semanticweb.org/Group04/REPUBLICA+DOMINICANA> .
-
-<http://semanticweb.org/Group04/Aparcamiento+mixto.+San+Cayetano> a ont:Parking ;
-	ont:isAccesible <http://semanticweb.org/Group04/0> ;
-	ont:hasType <http://semanticweb.org/Group04/Plazas+%3A+222+p%EF%BF%BDblicas+y+261+para+residentes++Abierto+24+horas+++Titularidad+%3A+Ayuntamiento+de+Madrid> .
-
-<http://semanticweb.org/Group04/SAN+CAYETANO> a ont:Street .
-
-<http://semanticweb.org/Group04/Aparcamiento+mixto.+San+Cayetano> ont:isInStreet <http://semanticweb.org/Group04/SAN+CAYETANO> .
-
-<http://semanticweb.org/Group04/Aparcamiento+mixto.+S%EF%BF%BDnchez+Bustillo> a ont:Parking ;
-	ont:isAccesible <http://semanticweb.org/Group04/0> ;
-	ont:hasType <http://semanticweb.org/Group04/Plazas+%3A+132+p%EF%BF%BDblicas+y+408+para+residentes++Abierto+24+horas+++Titularidad+%3A+Ayuntamiento+de+Madrid> .
-
-<http://semanticweb.org/Group04/SANCHEZ+BUSTILLO> a ont:Street .
-
-<http://semanticweb.org/Group04/Aparcamiento+mixto.+S%EF%BF%BDnchez+Bustillo> ont:isInStreet <http://semanticweb.org/Group04/SANCHEZ+BUSTILLO> .
-
-<http://semanticweb.org/Group04/Aparcamiento+mixto.+Serrano+I> a ont:Parking ;
-	ont:isAccesible <http://semanticweb.org/Group04/0> ;
-	ont:hasType <http://semanticweb.org/Group04/Plazas+%3A+307+p%EF%BF%BDblicas+y+831+para+residentes++Abierto+24+horas+++Titularidad+%3A+Ayuntamiento+de+Madrid> .
-
-<http://semanticweb.org/Group04/JUAN+BRAVO> a ont:Street .
-
-<http://semanticweb.org/Group04/Aparcamiento+mixto.+Serrano+I> ont:isInStreet <http://semanticweb.org/Group04/JUAN+BRAVO> .
-
-<http://semanticweb.org/Group04/Aparcamiento+mixto.+Serrano+II> a ont:Parking ;
-	ont:isAccesible <http://semanticweb.org/Group04/0> ;
-	ont:hasType <http://semanticweb.org/Group04/Plazas+%3A+379+p%EF%BF%BDblicas+y+794+para+residentes++Abierto+24+horas+++Titularidad+%3A+Ayuntamiento+de+Madrid> .
-
-<http://semanticweb.org/Group04/JOSE+ORTEGA+Y+GASSET> a ont:Street .
-
-<http://semanticweb.org/Group04/Aparcamiento+mixto.+Serrano+II> ont:isInStreet <http://semanticweb.org/Group04/JOSE+ORTEGA+Y+GASSET> .
-
-<http://semanticweb.org/Group04/Aparcamiento+mixto.+Serrano+III> a ont:Parking ;
-	ont:isAccesible <http://semanticweb.org/Group04/0> ;
-	ont:hasType <http://semanticweb.org/Group04/Plazas+%3A+261+p%EF%BF%BDblicas+y+725+para+residentes++Abierto+24+horas+++Titularidad+%3A+Ayuntamiento+de+Madrid> .
-
-<http://semanticweb.org/Group04/JORGE+JUAN> a ont:Street .
-
-<http://semanticweb.org/Group04/Aparcamiento+mixto.+Serrano+III> ont:isInStreet <http://semanticweb.org/Group04/JORGE+JUAN> .
-
-<http://semanticweb.org/Group04/Aparcamiento+mixto.+Sevilla> a ont:Parking ;
-	ont:isAccesible <http://semanticweb.org/Group04/0> ;
-	ont:hasType <http://semanticweb.org/Group04/Plazas+%3A+476+p%EF%BF%BDblicas+y+70+para+residentes++Abierto+24+horas++Admite+Tarjeta+BonoRed++++Titularidad+%3A+Ayuntamiento+de+Madrid> .
-
-<http://semanticweb.org/Group04/ALCALA> a ont:Street .
-
-<http://semanticweb.org/Group04/Aparcamiento+mixto.+Sevilla> ont:isInStreet <http://semanticweb.org/Group04/ALCALA> .
-
-<http://semanticweb.org/Group04/Aparcamiento+mixto.+V%EF%BF%BDzquez+de+Mella> a ont:Parking ;
-	ont:isAccesible <http://semanticweb.org/Group04/0> ;
-	ont:hasType <http://semanticweb.org/Group04/Plazas%3A++107+p%EF%BF%BDblicas+y+261+para+residentes.+++Plazas+motos%3A++6.+++Informaci%EF%BF%BDn+sobre+accesibilidad%3A+++No+tiene+escaleras+adaptadas++1+ascensor+con+salida+a+la+Plaza+de+Vazquez+de+Mella++1+aseo+accesible++Plaza+para+minusv%EF%BF%BDlidos+residentes%3A+7+++++Abierto+24+horas++++Titularidad%3A++Ayuntamiento+de+Madrid+++Gesti%EF%BF%BDn%3A++Empresa+Municipal+de+Transportes+%28EMT%29+%28+m%EF%BF%BDs+informaci%EF%BF%BDn+%29> .
-
-<http://semanticweb.org/Group04/PEDRO+ZEROLO> a ont:Street .
-
-<http://semanticweb.org/Group04/Aparcamiento+mixto.+V%EF%BF%BDzquez+de+Mella> ont:isInStreet <http://semanticweb.org/Group04/PEDRO+ZEROLO> .
-
-<http://semanticweb.org/Group04/Aparcamiento+mixto.+Vel%EF%BF%BDzquez+-+Ayala> a ont:Parking ;
-	ont:isAccesible <http://semanticweb.org/Group04/0> ;
-	ont:hasType <http://semanticweb.org/Group04/Plazas%3A++464+p%EF%BF%BDblicas+y+235+para+residentes++Abierto+24+horas++Admite+Tarjeta+BonoRed+++Titularidad%3A++Ayuntamiento+de+Madrid> .
-
-<http://semanticweb.org/Group04/VELAZQUEZ> a ont:Street .
-
-<http://semanticweb.org/Group04/Aparcamiento+mixto.+Vel%EF%BF%BDzquez+-+Ayala> ont:isInStreet <http://semanticweb.org/Group04/VELAZQUEZ> .
-
-<http://semanticweb.org/Group04/Aparcamiento+mixto.+Vel%EF%BF%BDzquez+-+Jorge+Juan> a ont:Parking ;
-	ont:isAccesible <http://semanticweb.org/Group04/1> ;
-	ont:hasType <http://semanticweb.org/Group04/Plazas%3A++549+p%EF%BF%BDblicas+y+395+para+residentes++Abierto+24+horas++Admite+Tarjeta+BonoRed+++Titularidad%3A++Ayuntamiento+de+Madrid> ;
-	ont:isInStreet <http://semanticweb.org/Group04/VELAZQUEZ> .
-
-<http://semanticweb.org/Group04/Aparcamiento+mixto.+Verdaguer+y+Garc%EF%BF%BDa> a ont:Parking ;
-	ont:isAccesible <http://semanticweb.org/Group04/0> ;
-	ont:hasType <http://semanticweb.org/Group04/Plazas%3A++83+p%EF%BF%BDblicas+y+180+para+residentes+++Informaci%EF%BF%BDn+sobre+accesibilidad%3A+++No+tiene+escaleras+adaptadas++1+ascensor+en+la+salida+a+la+Calle+Verdaguer+y+garc%EF%BF%BDa++1+aseo+accesible+en+la+planta+-1++Plaza+para+minusv%EF%BF%BDlidos+residentes%3A+4+++++Abierto+24+horas++++Titularidad%3A++Ayuntamiento+de+Madrid> .
-
-<http://semanticweb.org/Group04/VERDAGUER+Y+GARCIA> a ont:Street .
-
-<http://semanticweb.org/Group04/Aparcamiento+mixto.+Verdaguer+y+Garc%EF%BF%BDa> ont:isInStreet <http://semanticweb.org/Group04/VERDAGUER+Y+GARCIA> .
-
-<http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico+disuasorio+Estadio+Metropolitano+Sur+ES-02b> a ont:Parking ;
-	ont:isAccesible <http://semanticweb.org/Group04/0> ;
-	ont:hasType <http://semanticweb.org/Group04/Plazas+%3A+++para+autom%EF%BF%BDviles+1719++para+motocicletas+61> .
-
-<http://semanticweb.org/Group04/ARCENTALES> a ont:Street .
-
-<http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico+disuasorio+Estadio+Metropolitano+Sur+ES-02b> ont:isInStreet <http://semanticweb.org/Group04/ARCENTALES> .
-
-<http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Almagro> a ont:Parking ;
-	ont:isAccesible <http://semanticweb.org/Group04/0> ;
-	ont:hasType <http://semanticweb.org/Group04/Plazas+%3A+462+++Informacion+sobre+accesibilidad%3A++++1+escalera+adaptada++No+tiene+ascensor+de+salida+a+calle++1+aseo+accesible++Plazas+para+minusv%EF%BF%BDlidos+residentes%3A+17+++Abierto+24+horas++Admite+Tarjeta+BonoRed+++Titularidad+%3A+Ayuntamiento+de+Madrid+++Gesti%EF%BF%BDn+%3A+Empresa+Municipal+de+Transportes+%28EMT%29+%28+m%EF%BF%BDs+informaci%EF%BF%BDn+%29> .
-
-<http://semanticweb.org/Group04/ALMAGRO> a ont:Street .
-
-<http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Almagro> ont:isInStreet <http://semanticweb.org/Group04/ALMAGRO> .
-
-<http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Auditorio+Nacional+de+M%EF%BF%BDsica+%28Pr%EF%BF%BDncipe+de+Vergara%29> a ont:Parking ;
-	ont:isAccesible <http://semanticweb.org/Group04/1> ;
-	ont:hasType <http://semanticweb.org/Group04/Plazas%3A++376++Abierto+24+horas++Admite+la+Tarjeta+Bono+Red+++Titularidad%3A++Ayuntamiento+de+Madrid> .
-
-<http://semanticweb.org/Group04/CARTAGENA> a ont:Street .
-
-<http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Auditorio+Nacional+de+M%EF%BF%BDsica+%28Pr%EF%BF%BDncipe+de+Vergara%29> ont:isInStreet <http://semanticweb.org/Group04/CARTAGENA> .
-
-<http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Descalzas> a ont:Parking ;
-	ont:isAccesible <http://semanticweb.org/Group04/1> ;
-	ont:hasType <http://semanticweb.org/Group04/Plazas%3A++400+++Abierto+24+horas++Admite+Tarjeta+BonoRed+++Titularidad%3A++Ayuntamiento+de+Madrid> .
-
-<http://semanticweb.org/Group04/DESCALZAS> a ont:Street .
-
-<http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Descalzas> ont:isInStreet <http://semanticweb.org/Group04/DESCALZAS> .
-
-<http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Fern%EF%BF%BDndez+Shaw> a ont:Parking ;
-	ont:isAccesible <http://semanticweb.org/Group04/0> ;
-	ont:hasType <http://semanticweb.org/Group04/Plazas+%3A+245++Abierto+24+horas+++Titularidad+%3A+Ayuntamiento+de+Madrid> .
-
-<http://semanticweb.org/Group04/CARLOS+Y+GUILLERMO+FERNANDEZ+SHAW> a ont:Street .
-
-<http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Fern%EF%BF%BDndez+Shaw> ont:isInStreet <http://semanticweb.org/Group04/CARLOS+Y+GUILLERMO+FERNANDEZ+SHAW> .
-
-<http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Glorieta+Puerta+de+Toledo> a ont:Parking ;
-	ont:isAccesible <http://semanticweb.org/Group04/1> ;
-	ont:hasType <http://semanticweb.org/Group04/Plazas%3A++244++Abierto+24+horas+++Titularidad%3A++Ayuntamiento+de+Madrid> .
-
-<http://semanticweb.org/Group04/CAPITAN+SALAZAR+MARTINEZ> a ont:Street .
-
-<http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Glorieta+Puerta+de+Toledo> ont:isInStreet <http://semanticweb.org/Group04/CAPITAN+SALAZAR+MARTINEZ> .
-
-<http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Las+Cortes> a ont:Parking ;
-	ont:isAccesible <http://semanticweb.org/Group04/1> ;
-	ont:hasType <http://semanticweb.org/Group04/Plazas+%3A+480++Abierto+24+horas++Admite+Tarjeta+BonoRed+++Titularidad+%3A+Ayuntamiento+de+Madrid> .
-
-<http://semanticweb.org/Group04/LAS+CORTES> a ont:Street .
-
-<http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Las+Cortes> ont:isInStreet <http://semanticweb.org/Group04/LAS+CORTES> .
-
-<http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Luna+-+Tudescos> a ont:Parking ;
-	ont:isAccesible <http://semanticweb.org/Group04/1> ;
-	ont:hasType <http://semanticweb.org/Group04/Plazas+%3A+481++Abierto+24+horas++Admite+Tarjeta+BonoRed+++Titularidad+%3A+Ayuntamiento+de+Madrid> .
-
-<http://semanticweb.org/Group04/SANTA+MARIA+SOLEDAD+TORRES+ACOSTA> a ont:Street .
-
-<http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Luna+-+Tudescos> ont:isInStreet <http://semanticweb.org/Group04/SANTA+MARIA+SOLEDAD+TORRES+ACOSTA> .
-
-<http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Marqu%EF%BF%BDs+de+Urquijo> a ont:Parking ;
-	ont:isAccesible <http://semanticweb.org/Group04/0> ;
-	ont:hasType <http://semanticweb.org/Group04/Plazas+%3A+482++Abierto+24+horas++Admite+Tarjeta+BonoRed> .
-
-<http://semanticweb.org/Group04/MARQUES+DE+URQUIJO> a ont:Street .
-
-<http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Marqu%EF%BF%BDs+de+Urquijo> ont:isInStreet <http://semanticweb.org/Group04/MARQUES+DE+URQUIJO> .
-
-<http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Montalb%EF%BF%BDn> a ont:Parking ;
-	ont:isAccesible <http://semanticweb.org/Group04/1> ;
-	ont:hasType <http://semanticweb.org/Group04/Plazas%3A++275++Abierto+24+horas++Admite+Tarjet+BonoRed+++Titularidad%3A++Ayuntamiento+de+Madrid+++Gesti%EF%BF%BDn%3A++Empresa+Municipal+de+Transportes+%28EMT%29+%28+m%EF%BF%BDs+informaci%EF%BF%BDn+%29> .
-
-<http://semanticweb.org/Group04/MONTALBAN> a ont:Street .
-
-<http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Montalb%EF%BF%BDn> ont:isInStreet <http://semanticweb.org/Group04/MONTALBAN> .
-
-<http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Mostenses> a ont:Parking ;
-	ont:isAccesible <http://semanticweb.org/Group04/1> ;
-	ont:hasType <http://semanticweb.org/Group04/Plazas%3A++362+++Informaci%EF%BF%BDn+sobre+accesibilidad%3A++++No+tiene+escaleras+adaptadas++1+ascensor++1+aseo+accesible+en++2%26ordf%3B+++planta++Plaza+para+minusv%EF%BF%BDlidos+residentes%3A+16++++Abierto+24+horas++++Admite+Tarjeta+BonoRed+++++Titularidad%3A++Ayuntamiento+de+Madrid> .
-
-<http://semanticweb.org/Group04/GARCIA+MOLINAS> a ont:Street .
-
-<http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Mostenses> ont:isInStreet <http://semanticweb.org/Group04/GARCIA+MOLINAS> .
-
-<http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Museo+de+la+Ciudad> a ont:Parking ;
-	ont:isAccesible <http://semanticweb.org/Group04/0> ;
-	ont:hasType <http://semanticweb.org/Group04/Plazas%3A++147++Abierto+24+horas+++Titularidad%3A++Ayuntamiento+de+Madrid> .
-
-<http://semanticweb.org/Group04/PRINCIPE+DE+VERGARA> a ont:Street .
-
-<http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Museo+de+la+Ciudad> ont:isInStreet <http://semanticweb.org/Group04/PRINCIPE+DE+VERGARA> .
-
-<http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Olavide> a ont:Parking ;
-	ont:isAccesible <http://semanticweb.org/Group04/0> ;
-	ont:hasType <http://semanticweb.org/Group04/Plazas+%3A+397++++Informaci%EF%BF%BDn+sobre+accesibilidad%3A++++Disponde+de+escaleras+adaptadas++1+ascensor+en+la+salida+a+la+Plaza+de+Olavide++1+aseo+accesible+en+la++1%26ordf%3B+++planta++Plaza+para+minusv%EF%BF%BDlidos+residentes%3A+8+++Abierto+24+horas++Admite+Tarjeta+BonoRed+++Titularidad+%3A+Ayuntamiento+de+Madrid> .
-
-<http://semanticweb.org/Group04/OLAVIDE> a ont:Street .
-
-<http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Olavide> ont:isInStreet <http://semanticweb.org/Group04/OLAVIDE> .
-
-<http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Plaza+de+Col%EF%BF%BDn> a ont:Parking ;
-	ont:isAccesible <http://semanticweb.org/Group04/1> ;
-	ont:hasType <http://semanticweb.org/Group04/Plazas+%3A+605++Abierto+24+horas++Admite+Tarjeta+BonoRed+++Titularidad+%3A+Ayuntamiento+de+Madrid> .
-
-<http://semanticweb.org/Group04/GOYA> a ont:Street .
-
-<http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Plaza+de+Col%EF%BF%BDn> ont:isInStreet <http://semanticweb.org/Group04/GOYA> .
-
-<http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Plaza+de+Espa%EF%BF%BDa> a ont:Parking ;
-	ont:isAccesible <http://semanticweb.org/Group04/0> ;
-	ont:hasType <http://semanticweb.org/Group04/Plazas+%3A+800+%28hasta+535+abonados%29++Abierto+24+horas++Admite+Tarjeta+BonoRed+++Titularidad+%3A+Ayuntamiento+de+Madrid+++Gesti%EF%BF%BDn+%3A+Empresa+Municipal+de+Transportes+%28EMT%29+%28+m%EF%BF%BDs+informaci%EF%BF%BDn+%29> .
-
-<http://semanticweb.org/Group04/ESPA&Ntilde;A> a ont:Street .
-
-<http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Plaza+de+Espa%EF%BF%BDa> ont:isInStreet <http://semanticweb.org/Group04/ESPA&Ntilde;A> .
-
-<http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Plaza+del+Carmen> a ont:Parking ;
-	ont:isAccesible <http://semanticweb.org/Group04/0> ;
-	ont:hasType <http://semanticweb.org/Group04/Plazas%3A++450+++Informaci%EF%BF%BDn+sobre+accesibilidad%3A++++No+tiene+escaleras+adaptadas++1+ascensor++1+aseo+accesible+en+++1%26ordf%3B+++planta++Plaza+para+minusv%EF%BF%BDlidos+residentes%3A+7++++Abierto+24+horas++++Admite+Tarjeta+BonoRed++++Titularidad%3A++Ayuntamiento+de+Madrid> .
-
-<http://semanticweb.org/Group04/CARMEN> a ont:Street .
-
-<http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Plaza+del+Carmen> ont:isInStreet <http://semanticweb.org/Group04/CARMEN> .
-
-<http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Plaza+del+Rey> a ont:Parking ;
-	ont:isAccesible <http://semanticweb.org/Group04/0> ;
-	ont:hasType <http://semanticweb.org/Group04/Plazas+%3A+160+++Informaci%EF%BF%BDn+sobre+accesibilidad%3A++++Si+tiene+escaleras+adaptadas++1+ascensor++3+aseos+accesibles+%28uno+por+planta%29%3A+8++Plaza+para+minusv%EF%BF%BDlidos+residentes%3A+16+++Abierto+24+horas++Admite+Tarjeta+BonoRed+++Titularidad+%3A+Ayuntamiento+de+Madrid> .
-
-<http://semanticweb.org/Group04/REY> a ont:Street .
-
-<http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Plaza+del+Rey> ont:isInStreet <http://semanticweb.org/Group04/REY> .
-
-<http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Plaza+Mayor> a ont:Parking ;
-	ont:isAccesible <http://semanticweb.org/Group04/0> ;
-	ont:hasType <http://semanticweb.org/Group04/Plazas+%3A+694++Abierto+24+horas++Admite+Tarjeta+BonoRed+++Titularidad+%3A+Ayuntamiento+de+Madrid> .
-
-<http://semanticweb.org/Group04/FELIPE+III> a ont:Street .
-
-<http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Plaza+Mayor> ont:isInStreet <http://semanticweb.org/Group04/FELIPE+III> .
-
-<http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Santa+Ana> a ont:Parking ;
-	ont:isAccesible <http://semanticweb.org/Group04/1> ;
-	ont:hasType <http://semanticweb.org/Group04/Plazas%3A++325+++Informaci%EF%BF%BDn+sobre+accesibilidad%3A++++No+tiene+escaleras+adaptadas++1+ascensor++1+aseo+accesible+en++1%26ordf%3B++planta++Plaza+para+minusv%EF%BF%BDlidos+residentes%3A+6++++Abierto+24+horas++++Admite+Tarjeta+BonoRed++++Titularidad%3A++Ayuntamiento+de+Madrid> .
-
-<http://semanticweb.org/Group04/SANTA+ANA> a ont:Street .
-
-<http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Santa+Ana> ont:isInStreet <http://semanticweb.org/Group04/SANTA+ANA> .
-
-<http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Vel%EF%BF%BDzquez+-+Juan+Bravo> a ont:Parking ;
-	ont:isAccesible <http://semanticweb.org/Group04/1> ;
-	ont:hasType <http://semanticweb.org/Group04/Plazas%3A++371++Abierto+24+horas++Admite+Tarjeta+BonoRed+++Titularidad%3A++Ayuntamiento+de+Madrid> ;
-	ont:isInStreet <http://semanticweb.org/Group04/VELAZQUEZ> .
-
-<http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Villa+de+Par%EF%BF%BDs> a ont:Parking ;
-	ont:isAccesible <http://semanticweb.org/Group04/1> ;
-	ont:hasType <http://semanticweb.org/Group04/Plazas+rotaci%EF%BF%BDn%3A++169+++Plazas+motos%3A++2++++Informaci%EF%BF%BDn+sobre+accesibilidad%3A++++No+tiene+escaleras+adaptadas++No+disponde+de+ascensor++1+aseo+accesible++Plaza+para+minusv%EF%BF%BDlidos+residentes%3A+13++++Abierto+24+horas++++Admite+Tarjeta+BonoRed++++Titularidad%3A++Ayuntamiento+de+Madrid+++Gesti%EF%BF%BDn%3A++Empresa+Municipal+de+Transportes+%28EMT%29+%28+m%EF%BF%BDs+informaci%EF%BF%BDn+%29> .
-
-<http://semanticweb.org/Group04/MARQUES+DE+LA+ENSENADA> a ont:Street .
-
-<http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Villa+de+Par%EF%BF%BDs> ont:isInStreet <http://semanticweb.org/Group04/MARQUES+DE+LA+ENSENADA> .
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a50e15cbed51c010VgnVCM2000000c205a0aRCRD> a schema:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas:  318 p�blicas y 298 para residentes  Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad:  Ayuntamiento de Madrid" ;
+	ont:isInStreet <http://semanticweb.org/Group04/CENTRO> ;
+	ont:hasLatitude "40.426687899755734" ;
+	ont:hasLongitude "-3.6996173701222492" ;
+	rdfs:label "Aparcamiento mixto. Arquitecto Ribera" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3f3bc2c6e051c010VgnVCM2000000c205a0aRCRD> a schema:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Informaci�n sobre accesibilidad :  Tiene escaleras adaptadas  Ascensor de salida a la calle Avenida de Am�rica, 9  Tiene aseos accesibles  Plazas para minusv�lidos     Plazas : 269 p�blicas y 392 para residentes   Abierto 24 horas    Titularidad : Ayuntamiento de Madrid" ;
+	ont:isInStreet <http://semanticweb.org/Group04/CHAMARTIN> ;
+	ont:hasLatitude "40.43886083125741" ;
+	ont:hasLongitude "-3.6766217383743345" ;
+	rdfs:label "Aparcamiento mixto. Avenida de Am�rica (intercambiador)" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c313e26f2b3fc210VgnVCM2000000c205a0aRCRD> a schema:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas:  433 p�blicas y 437 para residentes   Informacion sobre accesibilidad:   No tiene escalera adaptada  Tiene ascensor de salida a Avenida de Portugal, s/n  1 aseo accesible (nivel-3)  Plazas para minusv�lidos residentes: 20    Abierto 24 horas   Titularidad : Ayuntamiento de Madrid   Gesti�n : Empresa Municipal de Transportes (EMT) ( m�s informaci�n )" ;
+	ont:isInStreet <http://semanticweb.org/Group04/LATINA> ;
+	ont:hasLatitude "40.411180021966345" ;
+	ont:hasLongitude "-3.7378318857463158" ;
+	rdfs:label "Aparcamiento mixto. Avenida de Portugal" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fb2e15cbed51c010VgnVCM2000000c205a0aRCRD> a schema:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas:  226 p�blicas y 400 para residentes  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid" ;
+	ont:isInStreet <http://semanticweb.org/Group04/TETUAN> ;
+	ont:hasLatitude "40.45610834965894" ;
+	ont:hasLongitude "-3.694131675088486" ;
+	rdfs:label "Aparcamiento mixto. Brasil" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c5f4bdc85c01c010VgnVCM2000000c205a0aRCRD> a schema:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas:  135 p�blicas y 449 para residentes  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid" ;
+	ont:isInStreet <http://semanticweb.org/Group04/CENTRO> ;
+	ont:hasLatitude "40.406792648617134" ;
+	ont:hasLongitude "-3.7046086019457167" ;
+	rdfs:label "Aparcamiento mixto. Casino de la Reina" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7e5f15cbed51c010VgnVCM2000000c205a0aRCRD> a schema:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas : 73 p�blicas y 79 para residentes   Abierto 24 horas   Titularidad : Ayuntamiento de Madrid" ;
+	ont:isInStreet <http://semanticweb.org/Group04/TETUAN> ;
+	ont:hasLatitude "40.44938567948415" ;
+	ont:hasLongitude "-3.7019164121880888" ;
+	rdfs:label "Aparcamiento mixto. Condesa de Gavia" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b74e6545f951c010VgnVCM2000000c205a0aRCRD> a schema:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas : 327 p�blicas y 750 para residentes   Informacion sobre accesibilidad:   No tiene escalera adaptada  No tiene ascensor de salida a calle  2 aseos accesibles ( 1&ordf;  planta)   Plazas para minusv�lidos residentes: 6     Abierto 24 horas    Titularidad : Ayuntamiento de Madrid" ;
+	ont:isInStreet <http://semanticweb.org/Group04/CHAMARTIN> ;
+	ont:hasLatitude "40.444421820483264" ;
+	ont:hasLongitude "-3.666902094780133" ;
+	rdfs:label "Aparcamiento mixto. Coraz�n de Mar�a II" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=db8bc2c6e051c010VgnVCM2000000c205a0aRCRD> a schema:Parking ;
+	ont:isAccesible "1" ;
+	ont:hasType "Plazas : 120 p�blicas y 125 para residentes   Informaci�n sobre accesibilidad:   No tiene escaleras adaptadas  Ascensor de salida a la calle P�rez de Victoria  2 aseos accesibles (1&ordf; planta)  Plazas para minusv�lidos residentes: 3     Abierto 24 horas    Titularidad : Ayuntamiento de Madrid" ;
+	ont:isInStreet <http://semanticweb.org/Group04/MONCLOA-ARAVACA> ;
+	ont:hasLatitude "40.45852127134047" ;
+	ont:hasLongitude "-3.78317943069732" ;
+	rdfs:label "Aparcamiento mixto. Corona Boreal" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0f85bdc85c01c010VgnVCM2000000c205a0aRCRD> a schema:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas:  312 p�blicas y 174 para residentes  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid" ;
+	ont:isInStreet <http://semanticweb.org/Group04/RETIRO> ;
+	ont:hasLatitude "40.40531540835356" ;
+	ont:hasLongitude "-3.683557034656531" ;
+	rdfs:label "Aparcamiento mixto. Dao�z y Velarde" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9e69946be351c010VgnVCM2000000c205a0aRCRD> a schema:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas:  203 p�blicas y 421 para residentes  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid" ;
+	ont:isInStreet <http://semanticweb.org/Group04/SALAMANCA> ;
+	ont:hasLatitude "40.434415601006386" ;
+	ont:hasLongitude "-3.675728293375598" ;
+	rdfs:label "Aparcamiento mixto. D�az Porlier" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c3e12c798651c010VgnVCM2000000c205a0aRCRD> a schema:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas:  104 p�blicas y 550 para residentes  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid" ;
+	ont:isInStreet <http://semanticweb.org/Group04/MORATALAZ> ;
+	ont:hasLatitude "40.40581270738191" ;
+	ont:hasLongitude "-3.652048809515808" ;
+	rdfs:label "Aparcamiento mixto. Encuentro" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=425e15cbed51c010VgnVCM2000000c205a0aRCRD> a schema:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas : 1218 p�blicas y 607 para residentes   Plazas : 120 p�blicas y 125 para residentes   Informaci�n sobre accesibilidad:    No tiene escaleras adaptadas  Ascensor de salida a la plaza de Felipe II  Aseo accesible (1&ordf; planta)  Plazas para minusv�lidos residentes:23    Abierto 24 horas    Admite tarjeta BonoRed    Titularidad : Ayuntamiento de Madrid" ;
+	ont:isInStreet <http://semanticweb.org/Group04/SALAMANCA> ;
+	ont:hasLatitude "40.42422175692137" ;
+	ont:hasLongitude "-3.673433652213169" ;
+	rdfs:label "Aparcamiento mixto. Felipe II" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=987e15cbed51c010VgnVCM2000000c205a0aRCRD> a schema:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas : 410 p�blicas y 111 para residentes   Informaci�n sobre accesibilidad:    No tiene escalera adaptada  1 ascensor con salida a la calle Fuencarral, 117  1 aseo accesible en la 1&ordf; planta  Plazas para minusv�lidos residentes: 7    Abierto 24 horas    Admite Tarjeta BonoRed    Titularidad : Ayuntamiento de Madrid" ;
+	ont:isInStreet <http://semanticweb.org/Group04/CHAMBERI> ;
+	ont:hasLatitude "40.42948845687032" ;
+	ont:hasLongitude "-3.7027941027177986" ;
+	rdfs:label "Aparcamiento mixto. Fuencarral" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ee9e15cbed51c010VgnVCM2000000c205a0aRCRD> a schema:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas:  409 p�blicas y 717 residentes  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid" ;
+	ont:isInStreet <http://semanticweb.org/Group04/TETUAN> ;
+	ont:hasLatitude "40.45673936450418" ;
+	ont:hasLongitude "-3.694067405537416" ;
+	rdfs:label "Aparcamiento mixto. General Yag�e" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d0712c798651c010VgnVCM2000000c205a0aRCRD> a schema:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas:  115 p�blicas y 383 residentes   Informaci�n sobre accesibilidad:   No tiene escaleras adptadas  Ascensor de salida a la calle Hernai, 68  1 aseo accesible en 1&ordf; planta  Plazas para minusv�lidos residentes. 3      Abierto 24 horas    Titularidad:  Ayuntamiento de Madrid" ;
+	ont:isInStreet <http://semanticweb.org/Group04/TETUAN> ;
+	ont:hasLatitude "40.448394729978006" ;
+	ont:hasLongitude "-3.7033919552673127" ;
+	rdfs:label "Aparcamiento mixto. Hernani" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c48f15cbed51c010VgnVCM2000000c205a0aRCRD> a schema:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas:  285 p�blicas y 110 para residentes.   Plazas motos:  7.   Informaci�n sobre accesibilidad:    No tiene escaleras adaptadas  Ascensor con salida a la calle Jacinto benavente, s/n  1 aseo accesible Plaza para minusv�lidos residentes: 16   Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad:  Ayuntamiento de Madrid   Gesti�n:  Empresa Municipal de Transportes (EMT) ( m�s informaci�n )" ;
+	ont:isInStreet <http://semanticweb.org/Group04/CENTRO> ;
+	ont:hasLatitude "40.41444016371457" ;
+	ont:hasLongitude "-3.70332112917586" ;
+	rdfs:label "Aparcamiento mixto. Jacinto Benavente" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=35ce15cbed51c010VgnVCM2000000c205a0aRCRD> a schema:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas:  205 p�blicas y 43 para residentes   Informaci�n sobre accesibilidad:   No tiene escaleras adaptadas  No disponde ascensor  No disponde de aseos accesible  Plazas para minusv�lidos residentes: 5     Abierto 24 horas    Titularidad:  Ayuntamiento de Madrid" ;
+	ont:isInStreet <http://semanticweb.org/Group04/TETUAN> ;
+	ont:hasLatitude "40.46451060463543" ;
+	ont:hasLongitude "-3.6916467875121377" ;
+	rdfs:label "Aparcamiento mixto. Jos� Cast�n Tobe�as" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=cb5b1b2bb5b61310VgnVCM2000000c205a0aRCRD> a schema:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas : 360 p�blicas y 70 para residentes   Informaci�n sobre accesibilidad:    No tiene escaleras adaptadas  1 ascensor en la salida a la plaza del Marqu�s de Salamanca  1 aseo accesible en  2&ordf;   planta  Plaza para minusv�lidos residentes: 14   Admite Tarjeta BonoRed   Abierto 24 horas    Titularidad : Ayuntamiento de Madrid" ;
+	ont:isInStreet <http://semanticweb.org/Group04/SALAMANCA> ;
+	ont:hasLatitude "40.43046723981028" ;
+	ont:hasLongitude "-3.6792137901324056" ;
+	rdfs:label "Aparcamiento mixto. Marqu�s de Salamanca" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1c15bdc85c01c010VgnVCM2000000c205a0aRCRD> a schema:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas:  182  p�blicas y 68 para residentes  Abierto: 24 horas  Admite Tarjeta BonoRed   Titularidad:  Ayuntamiento de Madrid" ;
+	ont:isInStreet <http://semanticweb.org/Group04/SAN+BLAS-CANILLEJAS> ;
+	ont:hasLatitude "40.4402052387976" ;
+	ont:hasLongitude "-3.625049272913964" ;
+	rdfs:label "Aparcamiento mixto. Miguel Yuste" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=eee35ed15bb95210VgnVCM2000000c205a0aRCRD> a schema:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas : 128 p�blicas y 663 para residentes   Informaci�n sobre accesibilidad:   1 escalera adaptada  No dispone de ascensor  1 aseo accesible  Plaza para minusv�lidos residentes: 5     Abierto 24 horas    Titularidad : Ayuntamiento de Madrid   Gesti�n:  Empresa Municipal de Transportes (EMT) ( m�s informaci�n )" ;
+	ont:isInStreet <http://semanticweb.org/Group04/TETUAN> ;
+	ont:hasLatitude "40.45973534025835" ;
+	ont:hasLongitude "-3.6962330375922363" ;
+	rdfs:label "Aparcamiento mixto. Orense" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7db12c798651c010VgnVCM2000000c205a0aRCRD> a schema:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas : 242 p�blicas y 511 para residentes  Abierto 24 horas  Admite Tarjeta BonoRed  Este PAR est� adherido a la zona de APR   Titularidad : Ayuntamiento de Madrid" ;
+	ont:isInStreet <http://semanticweb.org/Group04/CENTRO> ;
+	ont:hasLatitude "40.417632509561116" ;
+	ont:hasLongitude "-3.7116407088004757" ;
+	rdfs:label "Aparcamiento mixto. Plaza de Oriente" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8a412c798651c010VgnVCM2000000c205a0aRCRD> a schema:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas : 379 p�blicas y 124 para residentes  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid" ;
+	ont:isInStreet <http://semanticweb.org/Group04/TETUAN> ;
+	ont:hasLatitude "40.45362846199134" ;
+	ont:hasLongitude "-3.6975262417380064" ;
+	rdfs:label "Aparcamiento mixto. Presidente Carmona" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=283f15cbed51c010VgnVCM2000000c205a0aRCRD> a schema:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas : 102 p�blicas y 289 para residentes   Informaci�n sobre accesibilidad:    No tiene escaleras adaptadas  1 ascensor en la salida al Paseo de Recoletos  1 aseo accesible  Plaza para minusv�lidos residentes: 10    Abierto 24 horas   Admite Tarjeta BonoRed   Titularidad : Ayuntamiento de Madrid   Gesti�n:  Empresa Municipal de Transportes (EMT) ( m�s informaci�n )" ;
+	ont:isInStreet <http://semanticweb.org/Group04/SALAMANCA> ;
+	ont:hasLatitude "40.42054469225109" ;
+	ont:hasLongitude "-3.691974283683488" ;
+	rdfs:label "Aparcamiento mixto. Recoletos" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=aabe6545f951c010VgnVCM2000000c205a0aRCRD> a schema:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas : 892 p�blicas y 203 para residentes  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid" ;
+	ont:isInStreet <http://semanticweb.org/Group04/CHAMARTIN> ;
+	ont:hasLatitude "40.45887037458626" ;
+	ont:hasLongitude "-3.6765275895176677" ;
+	rdfs:label "Aparcamiento mixto. Rep�blica Dominicana" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a284ff632081c010VgnVCM1000000b205a0aRCRD> a schema:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas : 222 p�blicas y 261 para residentes  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid" ;
+	ont:isInStreet <http://semanticweb.org/Group04/SALAMANCA> ;
+	ont:hasLatitude "40.43432235224971" ;
+	ont:hasLongitude "-3.6700799322371056" ;
+	rdfs:label "Aparcamiento mixto. San Cayetano" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=27912c798651c010VgnVCM2000000c205a0aRCRD> a schema:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas : 132 p�blicas y 408 para residentes  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid" ;
+	ont:isInStreet <http://semanticweb.org/Group04/CENTRO> ;
+	ont:hasLatitude "40.40917205238472" ;
+	ont:hasLongitude "-3.6940145592988043" ;
+	rdfs:label "Aparcamiento mixto. S�nchez Bustillo" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=bd61f94ae1d15410VgnVCM2000000c205a0aRCRD> a schema:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas : 307 p�blicas y 831 para residentes  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid" ;
+	ont:isInStreet <http://semanticweb.org/Group04/SALAMANCA> ;
+	ont:hasLatitude "40.43289700914247" ;
+	ont:hasLongitude "-3.6857697780390155" ;
+	rdfs:label "Aparcamiento mixto. Serrano I" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=bc096f1c35d15410VgnVCM2000000c205a0aRCRD> a schema:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas : 379 p�blicas y 794 para residentes  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid" ;
+	ont:isInStreet <http://semanticweb.org/Group04/SALAMANCA> ;
+	ont:hasLatitude "40.43059379257075" ;
+	ont:hasLongitude "-3.688281097618061" ;
+	rdfs:label "Aparcamiento mixto. Serrano II" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9a1c6f1c35d15410VgnVCM2000000c205a0aRCRD> a schema:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas : 261 p�blicas y 725 para residentes  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid" ;
+	ont:isInStreet <http://semanticweb.org/Group04/SALAMANCA> ;
+	ont:hasLatitude "40.42446775888825" ;
+	ont:hasLongitude "-3.6897747066093993" ;
+	rdfs:label "Aparcamiento mixto. Serrano III" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9dd67339ae51c010VgnVCM2000000c205a0aRCRD> a schema:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas : 476 p�blicas y 70 para residentes  Abierto 24 horas  Admite Tarjeta BonoRed    Titularidad : Ayuntamiento de Madrid" ;
+	ont:isInStreet <http://semanticweb.org/Group04/CENTRO> ;
+	ont:hasLatitude "40.41780383567921" ;
+	ont:hasLongitude "-3.6998082261071747" ;
+	rdfs:label "Aparcamiento mixto. Sevilla" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e499946be351c010VgnVCM2000000c205a0aRCRD> a schema:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas:  107 p�blicas y 261 para residentes.   Plazas motos:  6.   Informaci�n sobre accesibilidad:   No tiene escaleras adaptadas  1 ascensor con salida a la Plaza de Vazquez de Mella  1 aseo accesible  Plaza para minusv�lidos residentes: 7     Abierto 24 horas    Titularidad:  Ayuntamiento de Madrid   Gesti�n:  Empresa Municipal de Transportes (EMT) ( m�s informaci�n )" ;
+	ont:isInStreet <http://semanticweb.org/Group04/CENTRO> ;
+	ont:hasLatitude "40.4209564450911" ;
+	ont:hasLongitude "-3.699899832865304" ;
+	rdfs:label "Aparcamiento mixto. V�zquez de Mella" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8bee15cbed51c010VgnVCM2000000c205a0aRCRD> a schema:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas:  464 p�blicas y 235 para residentes  Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad:  Ayuntamiento de Madrid" ;
+	ont:isInStreet <http://semanticweb.org/Group04/SALAMANCA> ;
+	ont:hasLatitude "40.427203787185476" ;
+	ont:hasLongitude "-3.6841676172873936" ;
+	rdfs:label "Aparcamiento mixto. Vel�zquez - Ayala" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d11f15cbed51c010VgnVCM2000000c205a0aRCRD> a schema:Parking ;
+	ont:isAccesible "1" ;
+	ont:hasType "Plazas:  549 p�blicas y 395 para residentes  Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad:  Ayuntamiento de Madrid" ;
+	ont:isInStreet <http://semanticweb.org/Group04/SALAMANCA> ;
+	ont:hasLatitude "40.4243649253884" ;
+	ont:hasLongitude "-3.684339253399854" ;
+	rdfs:label "Aparcamiento mixto. Vel�zquez - Jorge Juan" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6245bdc85c01c010VgnVCM2000000c205a0aRCRD> a schema:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas:  83 p�blicas y 180 para residentes   Informaci�n sobre accesibilidad:   No tiene escaleras adaptadas  1 ascensor en la salida a la Calle Verdaguer y garc�a  1 aseo accesible en la planta -1  Plaza para minusv�lidos residentes: 4     Abierto 24 horas    Titularidad:  Ayuntamiento de Madrid" ;
+	ont:isInStreet <http://semanticweb.org/Group04/CIUDAD+LINEAL> ;
+	ont:hasLatitude "40.43992277144076" ;
+	ont:hasLongitude "-3.656505118007155" ;
+	rdfs:label "Aparcamiento mixto. Verdaguer y Garc�a" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=975b89a80c49e510VgnVCM1000001d4a900aRCRD> a schema:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas :   para autom�viles 1719  para motocicletas 61" ;
+	ont:isInStreet <http://semanticweb.org/Group04/SAN+BLAS-CANILLEJAS> ;
+	ont:hasLatitude "40.434154" ;
+	ont:hasLongitude "-3.598831" ;
+	rdfs:label "Aparcamiento p�blico disuasorio Estadio Metropolitano Sur ES-02b" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0e167339ae51c010VgnVCM2000000c205a0aRCRD> a schema:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas : 462   Informacion sobre accesibilidad:    1 escalera adaptada  No tiene ascensor de salida a calle  1 aseo accesible  Plazas para minusv�lidos residentes: 17   Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad : Ayuntamiento de Madrid   Gesti�n : Empresa Municipal de Transportes (EMT) ( m�s informaci�n )" ;
+	ont:isInStreet <http://semanticweb.org/Group04/CHAMBERI> ;
+	ont:hasLatitude "40.43030345785862" ;
+	ont:hasLongitude "-3.6931471299523446" ;
+	rdfs:label "Aparcamiento p�blico. Almagro" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ed88f25e040c4410VgnVCM2000000c205a0aRCRD> a schema:Parking ;
+	ont:isAccesible "1" ;
+	ont:hasType "Plazas:  376  Abierto 24 horas  Admite la Tarjeta Bono Red   Titularidad:  Ayuntamiento de Madrid" ;
+	ont:isInStreet <http://semanticweb.org/Group04/CHAMARTIN> ;
+	ont:hasLatitude "40.44426892073378" ;
+	ont:hasLongitude "-3.6777018495296048" ;
+	rdfs:label "Aparcamiento p�blico. Auditorio Nacional de M�sica (Pr�ncipe de Vergara)" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=98e77339ae51c010VgnVCM2000000c205a0aRCRD> a schema:Parking ;
+	ont:isAccesible "1" ;
+	ont:hasType "Plazas:  400   Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad:  Ayuntamiento de Madrid" ;
+	ont:isInStreet <http://semanticweb.org/Group04/CENTRO> ;
+	ont:hasLatitude "40.41809765692244" ;
+	ont:hasLongitude "-3.706306013191402" ;
+	rdfs:label "Aparcamiento p�blico. Descalzas" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0e6e6545f951c010VgnVCM2000000c205a0aRCRD> a schema:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas : 245  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid" ;
+	ont:isInStreet <http://semanticweb.org/Group04/RETIRO> ;
+	ont:hasLatitude "40.406002468696784" ;
+	ont:hasLongitude "-3.669292239090564" ;
+	rdfs:label "Aparcamiento p�blico. Fern�ndez Shaw" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5f477339ae51c010VgnVCM2000000c205a0aRCRD> a schema:Parking ;
+	ont:isAccesible "1" ;
+	ont:hasType "Plazas:  244  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid" ;
+	ont:isInStreet <http://semanticweb.org/Group04/CENTRO> ;
+	ont:hasLatitude "40.40745328367243" ;
+	ont:hasLongitude "-3.7100131737859567" ;
+	rdfs:label "Aparcamiento p�blico. Glorieta Puerta de Toledo" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=42c77339ae51c010VgnVCM2000000c205a0aRCRD> a schema:Parking ;
+	ont:isAccesible "1" ;
+	ont:hasType "Plazas : 480  Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad : Ayuntamiento de Madrid" ;
+	ont:hasLatitude "40.41576756093728" ;
+	ont:hasLongitude "-3.695367083138702" ;
+	rdfs:label "Aparcamiento p�blico. Las Cortes" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=54467339ae51c010VgnVCM2000000c205a0aRCRD> a schema:Parking ;
+	ont:isAccesible "1" ;
+	ont:hasType "Plazas : 481  Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad : Ayuntamiento de Madrid" ;
+	ont:isInStreet <http://semanticweb.org/Group04/CENTRO> ;
+	ont:hasLatitude "40.4214535549175" ;
+	ont:hasLongitude "-3.705563118253955" ;
+	rdfs:label "Aparcamiento p�blico. Luna - Tudescos" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=aa667339ae51c010VgnVCM2000000c205a0aRCRD> a schema:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas : 482  Abierto 24 horas  Admite Tarjeta BonoRed" ;
+	ont:isInStreet <http://semanticweb.org/Group04/MONCLOA-ARAVACA> ;
+	ont:hasLatitude "40.42955928333471" ;
+	ont:hasLongitude "-3.719111078507027" ;
+	rdfs:label "Aparcamiento p�blico. Marqu�s de Urquijo" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f0967339ae51c010VgnVCM2000000c205a0aRCRD> a schema:Parking ;
+	ont:isAccesible "1" ;
+	ont:hasType "Plazas:  275  Abierto 24 horas  Admite Tarjet BonoRed   Titularidad:  Ayuntamiento de Madrid   Gesti�n:  Empresa Municipal de Transportes (EMT) ( m�s informaci�n )" ;
+	ont:isInStreet <http://semanticweb.org/Group04/RETIRO> ;
+	ont:hasLatitude "40.41802725000116" ;
+	ont:hasLongitude "-3.691123387515545" ;
+	rdfs:label "Aparcamiento p�blico. Montalb�n" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fe0881eb5f51c010VgnVCM2000000c205a0aRCRD> a schema:Parking ;
+	ont:isAccesible "1" ;
+	ont:hasType "Plazas:  362   Informaci�n sobre accesibilidad:    No tiene escaleras adaptadas  1 ascensor  1 aseo accesible en  2&ordf;   planta  Plaza para minusv�lidos residentes: 16    Abierto 24 horas    Admite Tarjeta BonoRed     Titularidad:  Ayuntamiento de Madrid" ;
+	ont:isInStreet <http://semanticweb.org/Group04/CENTRO> ;
+	ont:hasLatitude "40.4227759148193" ;
+	ont:hasLongitude "-3.708830424647755" ;
+	rdfs:label "Aparcamiento p�blico. Mostenses" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=bdc7bdc85c01c010VgnVCM2000000c205a0aRCRD> a schema:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas:  147  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid" ;
+	ont:isInStreet <http://semanticweb.org/Group04/CHAMARTIN> ;
+	ont:hasLatitude "40.44366224087455" ;
+	ont:hasLongitude "-3.6782263814004565" ;
+	rdfs:label "Aparcamiento p�blico. Museo de la Ciudad" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=453881eb5f51c010VgnVCM2000000c205a0aRCRD> a schema:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas : 397    Informaci�n sobre accesibilidad:    Disponde de escaleras adaptadas  1 ascensor en la salida a la Plaza de Olavide  1 aseo accesible en la  1&ordf;   planta  Plaza para minusv�lidos residentes: 8   Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad : Ayuntamiento de Madrid" ;
+	ont:isInStreet <http://semanticweb.org/Group04/CHAMBERI> ;
+	ont:hasLatitude "40.43277769820206" ;
+	ont:hasLongitude "-3.7011542013121264" ;
+	rdfs:label "Aparcamiento p�blico. Olavide" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a5777339ae51c010VgnVCM2000000c205a0aRCRD> a schema:Parking ;
+	ont:isAccesible "1" ;
+	ont:hasType "Plazas : 605  Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad : Ayuntamiento de Madrid" ;
+	ont:isInStreet <http://semanticweb.org/Group04/SALAMANCA> ;
+	ont:hasLatitude "40.42518540300912" ;
+	ont:hasLongitude "-3.6887800207651495" ;
+	rdfs:label "Aparcamiento p�blico. Plaza de Col�n" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fb977339ae51c010VgnVCM2000000c205a0aRCRD> a schema:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas : 800 (hasta 535 abonados)  Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad : Ayuntamiento de Madrid   Gesti�n : Empresa Municipal de Transportes (EMT) ( m�s informaci�n )" ;
+	ont:isInStreet <http://semanticweb.org/Group04/MONCLOA-ARAVACA> ;
+	ont:hasLatitude "40.42372251184839" ;
+	ont:hasLongitude "-3.7116577340508523" ;
+	rdfs:label "Aparcamiento p�blico. Plaza de Espa�a" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8ec881eb5f51c010VgnVCM2000000c205a0aRCRD> a schema:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas:  450   Informaci�n sobre accesibilidad:    No tiene escaleras adaptadas  1 ascensor  1 aseo accesible en   1&ordf;   planta  Plaza para minusv�lidos residentes: 7    Abierto 24 horas    Admite Tarjeta BonoRed    Titularidad:  Ayuntamiento de Madrid" ;
+	ont:isInStreet <http://semanticweb.org/Group04/CENTRO> ;
+	ont:hasLatitude "40.41848676016168" ;
+	ont:hasLongitude "-3.703068586180966" ;
+	rdfs:label "Aparcamiento p�blico. Plaza del Carmen" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d4f881eb5f51c010VgnVCM2000000c205a0aRCRD> a schema:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas : 160   Informaci�n sobre accesibilidad:    Si tiene escaleras adaptadas  1 ascensor  3 aseos accesibles (uno por planta): 8  Plaza para minusv�lidos residentes: 16   Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad : Ayuntamiento de Madrid" ;
+	ont:isInStreet <http://semanticweb.org/Group04/CENTRO> ;
+	ont:hasLatitude "40.42018796139455" ;
+	ont:hasLongitude "-3.69587231093941" ;
+	rdfs:label "Aparcamiento p�blico. Plaza del Rey" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2b1981eb5f51c010VgnVCM2000000c205a0aRCRD> a schema:Parking ;
+	ont:isAccesible "0" ;
+	ont:hasType "Plazas : 694  Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad : Ayuntamiento de Madrid" ;
+	ont:isInStreet <http://semanticweb.org/Group04/CENTRO> ;
+	ont:hasLatitude "40.41586882022003" ;
+	ont:hasLongitude "-3.706895619414367" ;
+	rdfs:label "Aparcamiento p�blico. Plaza Mayor" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9b5881eb5f51c010VgnVCM2000000c205a0aRCRD> a schema:Parking ;
+	ont:isAccesible "1" ;
+	ont:hasType "Plazas:  325   Informaci�n sobre accesibilidad:    No tiene escaleras adaptadas  1 ascensor  1 aseo accesible en  1&ordf;  planta  Plaza para minusv�lidos residentes: 6    Abierto 24 horas    Admite Tarjeta BonoRed    Titularidad:  Ayuntamiento de Madrid" ;
+	ont:isInStreet <http://semanticweb.org/Group04/CENTRO> ;
+	ont:hasLatitude "40.41487830605113" ;
+	ont:hasLongitude "-3.700897645451053" ;
+	rdfs:label "Aparcamiento p�blico. Santa Ana" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e3077339ae51c010VgnVCM2000000c205a0aRCRD> a schema:Parking ;
+	ont:isAccesible "1" ;
+	ont:hasType "Plazas:  371  Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad:  Ayuntamiento de Madrid" ;
+	ont:isInStreet <http://semanticweb.org/Group04/SALAMANCA> ;
+	ont:hasLatitude "40.431991827319116" ;
+	ont:hasLongitude "-3.683449815935094" ;
+	rdfs:label "Aparcamiento p�blico. Vel�zquez - Juan Bravo" .
+
+<http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=38a881eb5f51c010VgnVCM2000000c205a0aRCRD> a schema:Parking ;
+	ont:isAccesible "1" ;
+	ont:hasType "Plazas rotaci�n:  169   Plazas motos:  2    Informaci�n sobre accesibilidad:    No tiene escaleras adaptadas  No disponde de ascensor  1 aseo accesible  Plaza para minusv�lidos residentes: 13    Abierto 24 horas    Admite Tarjeta BonoRed    Titularidad:  Ayuntamiento de Madrid   Gesti�n:  Empresa Municipal de Transportes (EMT) ( m�s informaci�n )" ;
+	ont:isInStreet <http://semanticweb.org/Group04/CENTRO> ;
+	ont:hasLatitude "40.42533530030625" ;
+	ont:hasLongitude "-3.6923416648619947" ;
+	rdfs:label "Aparcamiento p�blico. Villa de Par�s" .

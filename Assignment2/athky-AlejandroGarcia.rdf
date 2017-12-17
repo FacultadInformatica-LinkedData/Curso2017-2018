@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xml:base="http://www.ontogrid.net/Class#"
+    xmlns="http://www.ontogrid.net/Class#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+    <rdf:Description rdf:about="#Class01">
+		<includes rdf:resource="#Sensor029"/>
+		<includes rdf:resource="#Computer101"/>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="#event4">
+		<involves rdf:resource="#OscarCorcho"/>
+		<eventDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-05-16</eventDate>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="#event5">
+		<involves rdf:resource="#CaroleGoble"/>
+		<eventDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-05-15</eventDate>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="#Sensor029">
+    	<hasMeasurement rdf:resource="#Measurement8401">
+    </rdf:Description>
+
+    <rdf:Description rdf:about="#Measurement8401">
+    	<hasTemperature>29</hasTemperature>
+    	<atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-06-12T12:00:12</atTime>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="#Computer101">
+    	<hasOwner rdf:resource="#User10A">
+    </rdf:Description>
+    <rdf:Description rdf:about="#User10A">
+    	<hasName>Pedro</hasName>
+    </rdf:Description>
+</rdf:RDF>

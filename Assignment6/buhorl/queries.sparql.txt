@@ -1,0 +1,61 @@
+1: Accidentes en Madrid
+prefix re:<http://example.org/resources/>
+prefix vo:<http://example.org/myVocabulary#>
+
+select sum(?c) as ?Numero_Accidentes where 
+{?b vo:numberOfAccidents ?c}
+LIMIT 1000
+http://sandbox.linkeddata.es/sparql?default-graph-uri=http%3A%2F%2Fsandbox.linkeddata.es%2Fgraph%2Faccidentes&query=prefix+re%3A%3Chttp%3A%2F%2Fexample.org%2Fresources%2F%3E%0D%0Aprefix+vo%3A%3Chttp%3A%2F%2Fexample.org%2FmyVocabulary%23%3E%0D%0A%0D%0Aselect+sum%28%3Fc%29+as+%3FNumero_Accidentes+where+%0D%0A%7B%3Fb+vo%3AnumberOfAccidents+%3Fc%7D%0D%0ALIMIT+1000&format=text%2Fhtml&timeout=0&debug=on
+
+2:Tipos de accidente en Usera
+prefix re:<http://example.org/resources/>
+prefix vo:<http://example.org/myVocabulary#>
+
+select sum(?c) as ?Accidentes  where 
+{?b vo:numberOfAccidents ?c.
+ ?b vo:relatedDistrict "USERA"}
+LIMIT 1000
+http://sandbox.linkeddata.es/sparql?default-graph-uri=http%3A%2F%2Fsandbox.linkeddata.es%2Fgraph%2Faccidentes&query=prefix+re%3A%3Chttp%3A%2F%2Fexample.org%2Fresources%2F%3E%0D%0Aprefix+vo%3A%3Chttp%3A%2F%2Fexample.org%2FmyVocabulary%23%3E%0D%0A%0D%0Aselect+sum%28%3Fc%29+as+%3FAccidentes++where+%0D%0A%7B%3Fb+vo%3AnumberOfAccidents+%3Fc.%0D%0A+%3Fb+vo%3ArelatedDistrict+%22USERA%22%7D%0D%0ALIMIT+1000&format=text%2Fhtml&timeout=0&debug=on
+
+3: Numero de Colisiones M. por distrito
+prefix re:<http://example.org/resources/>
+prefix vo:<http://example.org/myVocabulary#>
+
+select ?a (sum(xsd:double(?c)))  where 
+{
+?b vo:relatedDistrict ?a.
+?b vo:numberOfAccidents ?c
+ }
+GROUP BY ?a
+LIMIT 1000
+http://sandbox.linkeddata.es/sparql?default-graph-uri=http%3A%2F%2Fsandbox.linkeddata.es%2Fgraph%2Faccidentes&query=prefix+re%3A%3Chttp%3A%2F%2Fexample.org%2Fresources%2F%3E%0D%0Aprefix+vo%3A%3Chttp%3A%2F%2Fexample.org%2FmyVocabulary%23%3E%0D%0A%0D%0Aselect+%3Fa+%28sum%28xsd%3Adouble%28%3Fc%29%29%29++where+%0D%0A%7B%0D%0A%3Fb+vo%3ArelatedDistrict+%3Fa.%0D%0A%3Fb+vo%3AnumberOfAccidents+%3Fc%0D%0A+%7D%0D%0AGROUP+BY+%3Fa%0D%0ALIMIT+1000%0D%0A&format=text%2Fhtml&timeout=0&debug=on
+
+4.Distrito con mayor num de caidas en bici
+prefix re:<http://example.org/resources/>
+prefix vo:<http://example.org/myVocabulary#>
+
+select ?a (sum(xsd:double(?c)) as ?Suma)  where 
+{
+?b vo:relatedDistrict ?a.
+?b vo:numberOfAccidents ?c.
+?b vo:hasAccidentType vo:BicycleFall
+ }
+ORDER BY DESC(?Suma)
+LIMIT 1
+http://sandbox.linkeddata.es/sparql?default-graph-uri=http%3A%2F%2Fsandbox.linkeddata.es%2Fgraph%2Faccidentes&query=prefix+re%3A%3Chttp%3A%2F%2Fexample.org%2Fresources%2F%3E%0D%0Aprefix+vo%3A%3Chttp%3A%2F%2Fexample.org%2FmyVocabulary%23%3E%0D%0A%0D%0Aselect+%3Fa+%28sum%28xsd%3Adouble%28%3Fc%29%29+as+%3FSuma%29++where+%0D%0A%7B%0D%0A%3Fb+vo%3ArelatedDistrict+%3Fa.%0D%0A%3Fb+vo%3AnumberOfAccidents+%3Fc.%0D%0A%3Fb+vo%3AhasAccidentType+vo%3ABicycleFall%0D%0A+%7D%0D%0AORDER+BY+DESC%28%3FSuma%29%0D%0ALIMIT+1%0D%0A&format=text%2Fhtml&timeout=0&debug=on
+
+5: Distritos con más de 500acc
+prefix re:<http://example.org/resources/>
+prefix vo:<http://example.org/myVocabulary#>
+
+select ?a (sum(xsd:double(?c)) as ?Suma)  where 
+{
+?b vo:relatedDistrict ?a.
+?b vo:numberOfAccidents ?c.
+ }
+HAVING (sum(xsd:double(?c))>500)
+
+ORDER BY DESC(?Suma)
+
+LIMIT 100
+http://sandbox.linkeddata.es/sparql?default-graph-uri=http%3A%2F%2Fsandbox.linkeddata.es%2Fgraph%2Faccidentes&query=prefix+re%3A%3Chttp%3A%2F%2Fexample.org%2Fresources%2F%3E%0D%0Aprefix+vo%3A%3Chttp%3A%2F%2Fexample.org%2FmyVocabulary%23%3E%0D%0A%0D%0Aselect+%3Fa+%28sum%28xsd%3Adouble%28%3Fc%29%29+as+%3FSuma%29++where+%0D%0A%7B%0D%0A%3Fb+vo%3ArelatedDistrict+%3Fa.%0D%0A%3Fb+vo%3AnumberOfAccidents+%3Fc.%0D%0A+%7D%0D%0AHAVING+%28sum%28xsd%3Adouble%28%3Fc%29%29%3E500%29%0D%0A%0D%0AORDER+BY+DESC%28%3FSuma%29%0D%0A%0D%0ALIMIT+100&format=text%2Fhtml&timeout=0&debug=on

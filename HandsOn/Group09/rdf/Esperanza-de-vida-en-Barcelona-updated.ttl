@@ -1,0 +1,299 @@
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#0> dbp:district "BARCELONA" ;
+	xsd:float "82.5" , "82.8" , "83.1" , "83.4" , "83.8" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#1> dbp:district "1" ;
+	dbp:neighborhood "1. el Raval" ;
+	xsd:float "82.6" , "79.7" , "79.9" , "80.3" , "80.7" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#2> dbp:district "1" ;
+	dbp:neighborhood "2. el Barri Gòtic" ;
+	xsd:float "84.7" , "81.3" , "81.5" , "81.4" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#3> dbp:district "1" ;
+	dbp:neighborhood "3. la Barceloneta" ;
+	xsd:float "83.3" , "80" , "80.1" , "80.4" , "80.3" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#4> dbp:district "1" ;
+	dbp:neighborhood "4. Sant Pere, Santa Caterina i la Ribera" ;
+	xsd:float "85.1" , "82.1" , "82" , "82.4" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#5> dbp:district "2" ;
+	dbp:neighborhood "5. el Fort Pienc" ;
+	xsd:float "86.7" , "84.2" , "84.3" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#6> dbp:district "2" ;
+	dbp:neighborhood "6. la Sagrada Família" ;
+	xsd:float "86.5" , "83.9" , "84.2" , "84.3" , "84.6" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#7> dbp:district "2" ;
+	dbp:neighborhood "7. la Dreta de l'Eixample" ;
+	xsd:float "84.5" , "82.2" , "82.5" , "82.9" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#8> dbp:district "2" ;
+	dbp:neighborhood "8. l'Antiga Esquerra de l'Eixample" ;
+	xsd:float "86.1" , "83.5" , "83.7" , "83.8" , "84.2" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#9> dbp:district "2" ;
+	dbp:neighborhood "9. la Nova Esquerra de l'Eixample" ;
+	xsd:float "86.4" , "83.9" , "84" , "84.6" , "85.2" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#10> dbp:district "2" ;
+	dbp:neighborhood "10. Sant Antoni" ;
+	xsd:float "85.8" , "83.2" , "83.3" , "83.8" , "84" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#11> dbp:district "3" ;
+	dbp:neighborhood "11. el Poble Sec - Parc Montjuïc" ;
+	xsd:float "84.9" , "82.1" , "82.4" , "82.6" , "82.8" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#12> dbp:district "3" ;
+	dbp:neighborhood "12. la Marina del Prat Vermell - Zona Franca" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#13> dbp:district "3" ;
+	dbp:neighborhood "13. la Marina de Port" ;
+	xsd:float "85.9" , "83.3" , "84" , "83.9" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#14> dbp:district "3" ;
+	dbp:neighborhood "14. la Font de la Guatlla" ;
+	xsd:float "85.4" , "82" , "81.8" , "82.3" , "81.7" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#15> dbp:district "3" ;
+	dbp:neighborhood "15. Hostafrancs" ;
+	xsd:float "84.6" , "82.3" , "82.6" , "83.7" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#16> dbp:district "3" ;
+	dbp:neighborhood "16. la Bordeta" ;
+	xsd:float "86.5" , "83.8" , "83.2" , "83.3" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#17> dbp:district "3" ;
+	dbp:neighborhood "17. Sants - Badal" ;
+	xsd:float "86.3" , "83.8" , "84.1" , "84.5" , "85.1" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#18> dbp:district "3" ;
+	dbp:neighborhood "18. Sants" ;
+	xsd:float "85.8" , "83.2" , "83.4" , "83.7" , "84.1" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#19> dbp:district "4" ;
+	dbp:neighborhood "19. les Corts" ;
+	xsd:float "86.5" , "84.4" , "84.6" , "85.3" , "85.5" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#20> dbp:district "4" ;
+	dbp:neighborhood "20. la Maternitat i Sant Ramon" ;
+	xsd:float "87.3" , "84.9" , "85" , "85.8" , "86.5" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#21> dbp:district "4" ;
+	dbp:neighborhood "21. Pedralbes" ;
+	xsd:float "87.1" , "85.2" , "85.5" , "86.5" , "86.2" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#22> dbp:district "5" ;
+	dbp:neighborhood "22. Vallvidrera, el Tibidabo i les Planes" ;
+	xsd:float "81.2" , "79.1" , "79.2" , "80.1" , "80.6" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#23> dbp:district "5" ;
+	dbp:neighborhood "23. Sarrià" ;
+	xsd:float "87.8" , "84.7" , "84.5" , "84.6" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#24> dbp:district "5" ;
+	dbp:neighborhood "24. les Tres Torres" ;
+	xsd:float "87.5" , "85.6" , "85.9" , "86.2" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#25> dbp:district "5" ;
+	dbp:neighborhood "25. Sant Gervasi - la Bonanova" ;
+	xsd:float "86.8" , "84.4" , "84.5" , "84.7" , "84.9" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#26> dbp:district "5" ;
+	dbp:neighborhood "26. Sant Gervasi - Galvany" ;
+	xsd:float "86.6" , "84.2" , "84.6" , "84.7" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#27> dbp:district "5" ;
+	dbp:neighborhood "27. el Putxet i el Farró" ;
+	xsd:float "87.3" , "84.8" , "85.1" , "85.3" , "85.6" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#28> dbp:district "6" ;
+	dbp:neighborhood "28. Vallcarca i els Penitents" ;
+	xsd:float "85.7" , "83.4" , "83.8" , "83.6" , "83.9" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#29> dbp:district "6" ;
+	dbp:neighborhood "29. el Coll" ;
+	xsd:float "85.8" , "83.9" , "84.5" , "85" , "85.2" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#30> dbp:district "6" ;
+	dbp:neighborhood "30. la Salut" ;
+	xsd:float "82.8" , "81" , "81.8" , "82.6" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#31> dbp:district "6" ;
+	dbp:neighborhood "31. la Vila de Gràcia" ;
+	xsd:float "85.1" , "82.4" , "82.7" , "83" , "83.4" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#32> dbp:district "6" ;
+	dbp:neighborhood "32. el Camp d'en Grassot i Gràcia Nova" ;
+	xsd:float "86.8" , "84.4" , "84.6" , "84.8" , "84.7" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#33> dbp:district "7" ;
+	dbp:neighborhood "33. el Baix Guinardó" ;
+	xsd:float "87.4" , "84.5" , "84.3" , "84.2" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#34> dbp:district "7" ;
+	dbp:neighborhood "34. Can Baró" ;
+	xsd:float "85.1" , "82.8" , "83.3" , "83.6" , "84.1" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#35> dbp:district "7" ;
+	dbp:neighborhood "35. el Guinardó" ;
+	xsd:float "85.8" , "83.3" , "83.8" , "84.1" , "84.5" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#36> dbp:district "7" ;
+	dbp:neighborhood "36. la Font d'en Fargues" ;
+	xsd:float "84.7" , "82.8" , "83.5" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#37> dbp:district "7" ;
+	dbp:neighborhood "37. el Carmel" ;
+	xsd:float "84.9" , "82.7" , "83.2" , "83.4" , "83.8" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#38> dbp:district "7" ;
+	dbp:neighborhood "38. la Teixonera" ;
+	xsd:float "84.6" , "82.3" , "82.4" , "83.2" , "84" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#39> dbp:district "7" ;
+	dbp:neighborhood "39. Sant Genís dels Agudells" ;
+	xsd:float "84.9" , "82.7" , "83" , "83.2" , "83.8" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#40> dbp:district "7" ;
+	dbp:neighborhood "40. Montbau" ;
+	xsd:float "80.6" , "78.4" , "79.1" , "80" , "80.9" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#41> dbp:district "7" ;
+	dbp:neighborhood "41. la Vall d'Hebron" ;
+	xsd:float "85.3" , "83.1" , "83.3" , "83.2" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#42> dbp:district "7" ;
+	dbp:neighborhood "42. la Clota" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#43> dbp:district "7" ;
+	dbp:neighborhood "43. Horta" ;
+	xsd:float "84.5" , "82.3" , "82.7" , "82.8" , "83.6" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#44> dbp:district "8" ;
+	dbp:neighborhood "44. Vilapicina i la Torre Llobeta" ;
+	xsd:float "86" , "83.4" , "83.7" , "83.5" , "83.6" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#45> dbp:district "8" ;
+	dbp:neighborhood "45. Porta" ;
+	xsd:float "85.2" , "83.1" , "83.4" , "84" , "84.5" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#46> dbp:district "8" ;
+	dbp:neighborhood "46. el Turó de la Peira" ;
+	xsd:float "85.7" , "83.4" , "84.1" , "84.8" , "85.6" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#47> dbp:district "8" ;
+	dbp:neighborhood "47. Can Peguera" ;
+	xsd:float "78.6" , "76.2" , "78.1" , "80" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#48> dbp:district "8" ;
+	dbp:neighborhood "48. la Guineueta" ;
+	xsd:float "84.8" , "82.4" , "82.6" , "83.2" , "84.2" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#49> dbp:district "8" ;
+	dbp:neighborhood "49. Canyelles" ;
+	xsd:float "86" , "82.8" , "83" , "83.1" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#50> dbp:district "8" ;
+	dbp:neighborhood "50. les Roquetes" ;
+	xsd:float "83.8" , "81.2" , "81.4" , "81.9" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#51> dbp:district "8" ;
+	dbp:neighborhood "51. Verdun" ;
+	xsd:float "84.5" , "82.3" , "82.5" , "83.2" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#52> dbp:district "8" ;
+	dbp:neighborhood "52. la Prosperitat" ;
+	xsd:float "85.7" , "83.2" , "83.8" , "84" , "84.5" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#53> dbp:district "8" ;
+	dbp:neighborhood "53. la Trinitat Nova" ;
+	xsd:float "82.9" , "80.3" , "79.8" , "80.1" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#54> dbp:district "8" ;
+	dbp:neighborhood "54. Torre Baró" ;
+	xsd:float "75.4" , "74.7" , "75.2" , "77.2" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#55> dbp:district "8" ;
+	dbp:neighborhood "55. Ciutat Meridiana" ;
+	xsd:float "84.2" , "81.6" , "82" , "83" , "83.7" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#56> dbp:district "8" ;
+	dbp:neighborhood "56. Vallbona" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#57> dbp:district "9" ;
+	dbp:neighborhood "57. la Trinitat Vella" ;
+	xsd:float "83.8" , "81.7" , "82.7" , "85.1" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#58> dbp:district "9" ;
+	dbp:neighborhood "58. Baró de Viver" ;
+	xsd:float "78.5" , "75.6" , "…" , "78.2" , "80.3" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#59> dbp:district "9" ;
+	dbp:neighborhood "59. el Bon Pastor" ;
+	xsd:float "83.5" , "81.3" , "81.7" , "82.1" , "82.2" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#60> dbp:district "9" ;
+	dbp:neighborhood "60. Sant Andreu" ;
+	xsd:float "85.5" , "83.2" , "83.7" , "83.9" , "84.7" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#61> dbp:district "9" ;
+	dbp:neighborhood "61. la Sagrera" ;
+	xsd:float "87.1" , "84.4" , "84.7" , "84.8" , "85.4" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#62> dbp:district "9" ;
+	dbp:neighborhood "62. el Congrés i els Indians" ;
+	xsd:float "86.1" , "83.6" , "83.9" , "84.7" , "84.8" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#63> dbp:district "9" ;
+	dbp:neighborhood "63. Navas" ;
+	xsd:float "86.5" , "84.1" , "84.4" , "85.4" , "86.3" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#64> dbp:district "10" ;
+	dbp:neighborhood "64. el Camp de l'Arpa del Clot" ;
+	xsd:float "86.3" , "83.8" , "84.4" , "84.6" , "85" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#65> dbp:district "10" ;
+	dbp:neighborhood "65. el Clot" ;
+	xsd:float "85.6" , "83.7" , "84.1" , "84.5" , "85.1" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#66> dbp:district "10" ;
+	dbp:neighborhood "66. el Parc i la Llacuna del Poblenou" ;
+	xsd:float "85.5" , "82.8" , "83.1" , "83.4" , "83.2" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#67> dbp:district "10" ;
+	dbp:neighborhood "67. la Vila Olímpica del Poblenou" ;
+	xsd:float "88.8" , "85" , "85.2" , "85.6" , "85.4" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#68> dbp:district "10" ;
+	dbp:neighborhood "68. el Poblenou" ;
+	xsd:float "85.1" , "82.4" , "83" , "83.5" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#69> dbp:district "10" ;
+	dbp:neighborhood "69. Diagonal Mar i el Front Marítim del Poblenou" ;
+	xsd:float "85.3" , "84.2" , "84.4" , "85" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#70> dbp:district "10" ;
+	dbp:neighborhood "70. el Besòs i el Maresme" ;
+	xsd:float "83.6" , "81.7" , "82" , "82.4" , "83.1" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#71> dbp:district "10" ;
+	dbp:neighborhood "71. Provençals del Poblenou" ;
+	xsd:float "84.6" , "82.8" , "83.1" , "83.6" , "85.1" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#72> dbp:district "10" ;
+	dbp:neighborhood "72. Sant Martí de Provençals" ;
+	xsd:float "85.6" , "83" , "83.2" , "83.4" , "83.9" .
+
+<http://www.semanticweb.org/2017grupo9/ontology/city/Barcelona#73> dbp:district "10" ;
+	dbp:neighborhood "73. la Verneda i la Pau" ;
+	xsd:float "85.1" , "82.9" , "83.3" , "83.9" .

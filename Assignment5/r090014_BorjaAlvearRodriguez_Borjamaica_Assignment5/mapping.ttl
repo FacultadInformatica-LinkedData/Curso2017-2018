@@ -1,0 +1,18 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix vocabulary: <http://www.wsldfimad.org/ontologies/2018/11/ontology/vocabulary#>.
+@prefix my_instances: <http://www.wsldfimad.org/ontologies/2018/11/ontology/instances/>.
+@base <http://www.wsldfimad.org/ontologies/2018/11/ontology/> .
+
+<TriplesMapCity> a rr:TriplesMap;
+
+rr:logicalTable [ rr:tableName "city" ];
+
+rr:subjectMap [ rr:termType rr:IRI;
+ rr:template "http://www.wsldfimad.org/ontologies/2018/11/ontology/instances/city/{ID}";
+ rr:class vocabulary:City
+];
+
+rr:predicateObjectMap [
+ rr:predicateMap [ rr:constant vocabulary:hasPopulation ];
+ rr:objectMap [ rr:termType rr:Literal; rr:column "population"; ];
+] .

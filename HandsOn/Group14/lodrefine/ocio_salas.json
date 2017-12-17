@@ -134,22 +134,23 @@
     "columnName": "CONTENT-URL"
   },
   {
+    "op": "core/column-removal",
+    "description": "Remove column PK",
+    "columnName": "PK"
+  },
+  {
     "op": "rdf-extension/save-rdf-schema",
     "description": "Save RDF schema skeleton",
     "schema": {
       "baseUri": "http://www.wsdlfiupm.es/resources/group14/",
       "prefixes": [
         {
-          "name": "rdf",
-          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        },
-        {
-          "name": "owl",
-          "uri": "http://www.w3.org/2002/07/owl#"
-        },
-        {
           "name": "rdfs",
           "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
         }
       ],
       "rootNodes": [
@@ -158,41 +159,26 @@
           "expression": "value",
           "isRowNumberCell": false,
           "columnName": "NOMBRE",
-          "rdfTypes": [],
+          "rdfTypes": [
+            {
+              "uri": "class/Leisure",
+              "curie": ":class/Leisure"
+            }
+          ],
           "links": [
             {
-              "uri": "kilometric_point",
-              "curie": ":kilometric_point",
+              "uri": "properties/description",
+              "curie": ":properties/description",
               "target": {
                 "nodeType": "cell-as-literal",
                 "expression": "value",
                 "isRowNumberCell": false,
-                "columnName": "PK"
+                "columnName": "Desripcion"
               }
             },
             {
-              "uri": "name",
-              "curie": ":name",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "NOMBRE"
-              }
-            },
-            {
-              "uri": "description",
-              "curie": ":description",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "DESCRIPCION"
-              }
-            },
-            {
-              "uri": "horary",
-              "curie": ":horary",
+              "uri": "properties/schedule",
+              "curie": ":properties/schedule",
               "target": {
                 "nodeType": "cell-as-literal",
                 "expression": "value",
@@ -201,8 +187,46 @@
               }
             },
             {
-              "uri": "street",
-              "curie": ":street",
+              "uri": "properties/type",
+              "curie": ":properties/type",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "properties/location",
+              "curie": ":properties/location",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Calle",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Calle",
+          "rdfTypes": [
+            {
+              "uri": "class/Position",
+              "curie": ":class/Position"
+            }
+          ],
+          "links": [
+            {
+              "uri": "properties/street",
+              "curie": ":properties/street",
               "target": {
                 "nodeType": "cell-as-literal",
                 "expression": "value",
@@ -211,8 +235,8 @@
               }
             },
             {
-              "uri": "district",
-              "curie": ":district",
+              "uri": "properties/district",
+              "curie": ":properties/district",
               "target": {
                 "nodeType": "cell-as-literal",
                 "expression": "value",
@@ -221,18 +245,8 @@
               }
             },
             {
-              "uri": "latitude",
-              "curie": ":latitude",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "LATITUD"
-              }
-            },
-            {
-              "uri": "longitude",
-              "curie": ":longitude",
+              "uri": "properties/longitude",
+              "curie": ":properties/longitude",
               "target": {
                 "nodeType": "cell-as-literal",
                 "expression": "value",
@@ -241,18 +255,31 @@
               }
             },
             {
-              "uri": "type",
-              "curie": ":type",
+              "uri": "properties/latitude",
+              "curie": ":properties/latitude",
               "target": {
                 "nodeType": "cell-as-literal",
                 "expression": "value",
                 "isRowNumberCell": false,
-                "columnName": "TIPO"
+                "columnName": "LATITUD"
               }
             }
           ]
         }
       ]
     }
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TIPO using expression grel:\"http://www.wsdlfiupm.es/resources/group14/types/Leisure\"",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TIPO",
+    "expression": "grel:\"http://www.wsdlfiupm.es/resources/group14/types/Leisure\"",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
   }
 ]
