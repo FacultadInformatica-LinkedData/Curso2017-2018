@@ -29,7 +29,7 @@ public class RDFManager {
 
 	public RDFManager() {
 
-		String filename = "C:\\Users\\Alvaro\\Desktop\\UPM\\Semestre7\\WebSemantica\\practica\\ontologia.ttl";
+		String filename = "ontologia.ttl";
 		//String filename = "C:\\Users\\Alvaro\\Desktop\\UPM\\Semestre7\\WebSemantica\\practica\\buenoGrupo18.rdf";
 
 		model = ModelFactory.createOntologyModel(OntModelSpec.RDFS_MEM);
