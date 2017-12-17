@@ -34,3 +34,7 @@ literal, usually typed)
 [x]Contains at least one class that will be used to link to other entities  
 
 ##Comments on self-assessment##  
+
+Distribución de tareas:
+- Creacion del analisis.html donde, entre otras cosas, se indica la licencia: Fran
+- Creación de Ontologia: Jorge
