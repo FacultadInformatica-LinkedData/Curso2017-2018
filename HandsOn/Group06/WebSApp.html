@@ -31,17 +31,71 @@
   <div id="googleMap" style="height:400px;"></div>
 	<script>
 	function myMap() {
-  	myCenter=new google.maps.LatLng(40.3999304, -3.8471514);
+  	myCenter=new google.maps.LatLng(40.434445, -3.693655);
   	var mapOptions= {
    		center:myCenter,
     		zoom:12,
 		  };
  		var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
 
+		//marcador de bici
+		var imagen_bici = {
+			url:'https://cdn.iconscout.com/public/images/icon/premium/png-32/pin-bicycle-bike-sport-map-marker-location-gps-navigation-pointer-place-365fa858bb82ab14-32x32.png',
+			size: new google.maps.Size(32,32)
+		};
+		var pos_bici = new google.maps.LatLng(40.403147, -3.695624);
   		var marker = new google.maps.Marker({
-    		   position: myCenter,
+    		   position: pos_bici,
+			   icon: imagen_bici
   		});
  	marker.setMap(map);
+	
+		//marcador parking
+		var imagen_parking = {
+			url:'https://cdn.iconscout.com/public/images/icon/premium/png-32/parking-sign-3baea3a9d9526d9e-32x32.png',
+			size: new google.maps.Size(32,32)
+		};
+		var pos_parking = new google.maps.LatLng(40.442751, -3.694423);
+  		var marker2 = new google.maps.Marker({
+    		   position: pos_parking,
+			   icon: imagen_parking
+  		});
+ 	marker2.setMap(map);
+	
+	//marcador contaminacion
+		var imagen_conta_verde = {
+			url:'https://www.iconsdb.com/icons/download/green/map-marker-2-32.png',
+			size: new google.maps.Size(32,32)
+		};
+		var pos_parking = new google.maps.LatLng(40.423853,-3.712247);
+  		var marker3 = new google.maps.Marker({
+    		   position: pos_parking,
+			   icon: imagen_conta_verde
+  		});
+ 	marker3.setMap(map);
+	
+		var imagen_conta_verde = {
+			url:'https://www.iconsdb.com/icons/download/yellow/map-marker-2-32.png',
+			size: new google.maps.Size(32,32)
+		};
+		var pos_parking = new google.maps.LatLng(40.421564,-3.682319);
+  		var marker4 = new google.maps.Marker({
+    		   position: pos_parking,
+			   icon: imagen_conta_verde
+  		});
+ 	marker4.setMap(map);
+	
+	//marcador contaminacion
+		var imagen_conta_verde = {
+			url:'https://www.iconsdb.com/icons/download/red/map-marker-2-32.png',
+			size: new google.maps.Size(32,32)
+		};
+		var pos_parking = new google.maps.LatLng(40.451475, -3.677356);
+  		var marker5 = new google.maps.Marker({
+    		   position: pos_parking,
+			   icon: imagen_conta_verde
+  		});
+ 	marker5.setMap(map);
 		}
 	</script>
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZIbprbjLpU7bszvCuJZd9t2YIrDajxrk&callback=myMap"></script>
