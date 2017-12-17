@@ -1,0 +1,73 @@
+[
+  {
+    "op": "core/column-removal",
+    "description": "Remove column N� Finca",
+    "columnName": "N� Finca"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Gis_X",
+    "columnName": "Gis_X"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Gis_Y",
+    "columnName": "Gis_Y"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column N�mero to ID",
+    "oldColumnName": "N�mero",
+    "newColumnName": "ID"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Fecha de Alta to Register Date",
+    "oldColumnName": "Fecha de Alta",
+    "newColumnName": "Register Date"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Distrito to District",
+    "oldColumnName": "Distrito",
+    "newColumnName": "District"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Calle to Address",
+    "oldColumnName": "Calle",
+    "newColumnName": "Address"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column N�mero de Plazas to Number of Places",
+    "oldColumnName": "N�mero de Plazas",
+    "newColumnName": "Number of Places"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Register Date using expression value.toDate()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Register Date",
+    "expression": "value.toDate()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Address using expression grel:if (isNotNull(split(value, \",\")[2]), split(value, \",\")[1] + \" \" + split(value, \",\")[2] + \" \" + split(value, \",\")[0], split(value, \",\")[1] + \" \" + split(value, \",\")[0])",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Address",
+    "expression": "grel:if (isNotNull(split(value, \",\")[2]), split(value, \",\")[1] + \" \" + split(value, \",\")[2] + \" \" + split(value, \",\")[0], split(value, \",\")[1] + \" \" + split(value, \",\")[0])",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  }
+]
