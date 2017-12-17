@@ -33,6 +33,6 @@ Every value in the RDF files
 
 ##Comments on self-assessment##
 
-Distribution of tasks:
+Distribución de tareas:
 - Pasar los csv a rdf con loadrefine: Javi
 - Modificación de propiedades de la ontologia para usar propiedades publicadas por otras ontologias: Javi
