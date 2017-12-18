@@ -1,0 +1,59 @@
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> .
+PREFIX sdmx-measure: <http://purl.org/linked-data/sdmx/2009/measure#> .
+PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> .
+PREFIX sdmx: <http://purl.org/linked-data/sdmx#> .
+PREFIX mn: <http://example.org/resources/> .
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+PREFIX owl: <http://www.w3.org/2002/07/owl#> .
+PREFIX mv: <http://example.org/myVocabulary#> .
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+PREFIX qb: <http://purl.org/linked-data/cube#> .
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#> .
+
+# How many accidents were there in Madrid in 2013?
+SELECT (SUM(?numero_accidentes) AS ?total) WHERE {
+?obs a qb:Observation;
+   mvVocabulary:numberOfAccidents ?numero_accidentes.
+}
+
+# Give me the number of accidents in Usera for each type of accident
+
+SELECT ?tipo_accidente ?numero_accidentes WHERE {
+?obs a qb:Observation;
+   mv:relatedDistrict "USERA";
+   mv:hasAccidentType ?tipo_accidente;
+   mv:numberOfAccidents ?numero_accidentes.
+}
+
+# Give me the number of multiple collisions for each district
+
+SELECT ?distrito ?numero_colisiones WHERE {
+?obs a qb:Observation;
+   mv:relatedDistrict ?distrito;
+   mv:hasAccidentType mv:MultipleCollision;
+   mv:numberOfAccidents ?numero_colisiones.
+}
+
+# Which is the district were the number of bicycle falls was higher in 2013?
+
+SELECT ?distrito (MAX(?x) AS ?numero_caida_bicicletas) WHERE {
+    ?obs a qb:Observation ;
+   	mv:relatedDistrict ?distrito ;
+   	mv:hasAccidentType mv:BicycleFall ;
+	mv:numberOfAccidents ?x ;
+	qb:dataSet mn:MyDataset .
+} 
+
+# Give me the districts with more than 500 accidents in 2013
+
+SELECT ?distrito ?numero_accidentes WHERE {
+  {
+    SELECT ?distrito SUM(xsd:integer(?num)) AS ?numero_accidentes WHERE {
+      ?obs a qb:Observation;
+      mv:relatedDistrict ?distrito;
+      mv:numberOfAccidents ?num.
+    }
+  }
+  filter(?numero_accidentes > 500)
+} 
+
