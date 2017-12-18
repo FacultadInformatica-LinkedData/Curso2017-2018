@@ -1,0 +1,16 @@
+@base <http://www.ontogrid.net/class/>
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix vocab: <http://www.ontogrid.net/class/class01#>
+
+
+:class01        vocab:includes  :sensor029;
+:class01        vocab:includes  :computer01;
+
+:sensor029       vocab:hasMeasurement :Measurement8401;
+:Measurement8401 vocab:hasTemperature"29"^^xsd:integer.
+:Measurement8401 vocab:atTime"2010-06-12T12:00:12"^^xsd:dateTime .
+	.
+
+:computer01      vocab:hasOwner :User10A;
+:User10A		 vocab:hasName "Pedro"^^xsd:string.
+
