@@ -45,7 +45,7 @@
       "mode": "row-based",
       "facets": []
     },
-    "columnName": "HORAS_TOTALES_DISPONIBILIDAD_BICICLETAS_EN _ANCLAJES",
+    "columnName": "HORAS_TOTALES_DISPONIBILIDAD_BICICLETAS_EN_ANCLAJES",
     "expression": "grel:replace(value,\".\",\"\")",
     "onError": "keep-original",
     "repeat": false,
@@ -53,12 +53,12 @@
   },
   {
     "op": "core/text-transform",
-    "description": "Text transform on cells in column HORAS_TOTALES_DISPONIBILIDAD_BICICLETAS_EN _ANCLAJES using expression grel:replace(value,\",\",\".\")",
+    "description": "Text transform on cells in column HORAS_TOTALES_DISPONIBILIDAD_BICICLETAS_EN_ANCLAJES using expression grel:replace(value,\",\",\".\")",
     "engineConfig": {
       "mode": "row-based",
       "facets": []
     },
-    "columnName": "HORAS_TOTALES_DISPONIBILIDAD_BICICLETAS_EN _ANCLAJES",
+    "columnName": "HORAS_TOTALES_DISPONIBILIDAD_BICICLETAS_EN_ANCLAJES",
     "expression": "grel:replace(value,\",\",\".\")",
     "onError": "keep-original",
     "repeat": false,
@@ -66,12 +66,12 @@
   },
   {
     "op": "core/text-transform",
-    "description": "Text transform on cells in column HORAS_TOTALES_DISPONIBILIDAD_BICICLETAS_EN _ANCLAJES using expression value.toNumber()",
+    "description": "Text transform on cells in column HORAS_TOTALES_DISPONIBILIDAD_BICICLETAS_EN_ANCLAJES using expression value.toNumber()",
     "engineConfig": {
       "mode": "row-based",
       "facets": []
     },
-    "columnName": "HORAS_TOTALES_DISPONIBILIDAD_BICICLETAS_EN _ANCLAJES",
+    "columnName": "HORAS_TOTALES_DISPONIBILIDAD_BICICLETAS_EN_ANCLAJES",
     "expression": "value.toNumber()",
     "onError": "keep-original",
     "repeat": false,
