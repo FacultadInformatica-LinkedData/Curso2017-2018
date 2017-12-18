@@ -1,0 +1,126 @@
+[
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/instances/",
+      "prefixes": [
+        {
+          "name": "ont",
+          "uri": "http://www.semanticweb.org/OntologyGroup15#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/OntologyGroup15#EventoDeportivo",
+              "curie": "ont:EventoDeportivo"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/OntologyGroup15#hasName",
+              "curie": "ont:hasName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TITULO"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/OntologyGroup15#hasUrl",
+              "curie": "ont:hasUrl",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URL-ACTIVIDAD",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/OntologyGroup15#ocurre_en",
+              "curie": "ont:ocurre_en",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ID-EVENTO",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semanticweb.org/OntologyGroup15#InstalacionDeportiva",
+                    "curie": "ont:InstalacionDeportiva"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.semanticweb.org/OntologyGroup15#hasName",
+                    "curie": "ont:hasName",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "NOMBRE-INSTALACION"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column DISTRITO to type http://schema.org/Place",
+    "columnName": "DISTRITO",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/dbpedia",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://schema.org/Place",
+        "name": "schema:Place"
+      },
+      "autoMatch": true,
+      "columnDetails": []
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column DISTRITO_dbpedia at index 19 based on column DISTRITO using expression grel:cell.recon.best.id",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "DISTRITO_dbpedia",
+    "columnInsertIndex": 19,
+    "baseColumnName": "DISTRITO",
+    "expression": "grel:cell.recon.best.id",
+    "onError": "set-to-blank"
+  }
+]

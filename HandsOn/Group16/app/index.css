@@ -1,0 +1,70 @@
+
+body {
+	margin: 0;
+	padding: 0;
+	color: #828fa2;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 13px;
+	line-height: 1.5em; 
+	background-color: #06182e;
+	background-image: url(images/templatemo_body.jpg);
+	background-position: top;
+	background-repeat: repeat-x
+}
+
+a, a:link, a:visited { color: #93d30d; font-weight: normal; text-decoration: none; font-size: 12px }
+a:hover { text-decoration: underline; }
+
+p { margin: 0 0 10px 0; padding: 0; }
+img { position: absolute;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: 100px;
+    width: 120px; 
+    height: 120px; 
+    border: none; }
+#titulo{
+    font-family:  sans serif;
+    color:yellow;
+    font-size: 70px;
+    font-style: bold;
+    position: absolute;
+    margin: 50px 0px 0px 350px;
+}
+
+h1, h2, h3, h4, h5, h6 { color: #fff; font-weight: normal; }
+h1 { font-size: 34px; margin: 0 0 20px; padding: 5px 0 }
+h2 { font-size: 28px; margin: 0 0 25px; padding: 5px 0; }
+h3 { font-size: 22px; margin: 0 0 15px; padding: 0; }
+h4 { font-size: 18px; margin: 0 0 15px; padding: 0; }
+h5 { font-size: 16px; margin: 0 0 10px; padding: 0;  }
+h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
+
+
+#templatemo_wrapper_inner { width: 100%; }
+
+#templatemo_wrapper { width: 960px; padding: 0 10px; margin: 0 auto }
+
+#templatemo_header {
+	width: 100%;
+	height: 130px;
+}
+#mapa{
+    width: 880px;
+    height: inherit;
+    
+}
+#templatemo_main_top {
+	width: 900px;
+	height: 580px;
+	padding: 40px 10px 30px 30px;
+	background: url(images/templatemo_content_top.png)
+}
+#templatemo_main_top_sb { width: 100%; height: 25px; background: url(images/templatemo_content_top_sb.png) no-repeat }
+
+#templatemo_main {
+	width: 900px;
+	padding: 50px 10px 30px 30px;
+	background: url(images/templatemo_content.png) repeat-y
+}

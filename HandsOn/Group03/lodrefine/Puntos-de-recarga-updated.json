@@ -1,0 +1,546 @@
+[
+  {
+    "op": "core/column-removal",
+    "description": "Remove column CODIGO",
+    "columnName": "CODIGO"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column CAMPO2",
+    "columnName": "CAMPO2"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column",
+    "columnName": "Column"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column2",
+    "columnName": "Column2"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column COORX",
+    "columnName": "COORX"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column COORY",
+    "columnName": "COORY"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column3",
+    "columnName": "Column3"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column DISTRITO to Distrito",
+    "oldColumnName": "DISTRITO",
+    "newColumnName": "Distrito"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column DIRECCION to Dirección",
+    "oldColumnName": "DIRECCION",
+    "newColumnName": "Dirección"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column TIPO to Tipo",
+    "oldColumnName": "TIPO",
+    "newColumnName": "Tipo"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group03/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "g03",
+          "uri": ""
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"PuntoDeRecarga\"+value",
+          "isRowNumberCell": true,
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/group03/ontology#PuntosDeRecarga",
+              "curie": "g03:PuntosDeRecarga"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/group03/ontology#tipoDePuntoRecarga",
+              "curie": "g03:tipoDePuntoRecarga",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Tipo"
+              }
+            },
+            {
+              "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#distrito",
+              "curie": "g03:distrito",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Distrito",
+                "rdfTypes": [
+                  {
+                    "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Distrito",
+                    "curie": "g03:Distrito"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group03/ontology#numeroDeConectores",
+              "curie": "g03:numeroDeConectores",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "Nº de conectores"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group03/ontology#tipoDeConector",
+              "curie": "g03:tipoDeConector",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Tipo de conector"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasAddress",
+              "curie": "g03:hasAddress",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "if(startsWith(value,\" \"),substring(value,1),value)",
+                "isRowNumberCell": false,
+                "columnName": "Dirección",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.w3.org/2006/vcard/ns#Address",
+                    "curie": "g03:Address"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2006/vcard/ns#street-address",
+                    "curie": "g03:street-address",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "if(startsWith(value,\" \"),substring(value,1),value)",
+                      "isRowNumberCell": false,
+                      "columnName": "Dirección"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group03/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "g03",
+          "uri": ""
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"PuntoDeRecarga\"+value",
+          "isRowNumberCell": true,
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/group03/ontology#PuntosDeRecarga",
+              "curie": "g03:PuntosDeRecarga"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/group03/ontology#tipoDePuntoRecarga",
+              "curie": "g03:tipoDePuntoRecarga",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Tipo"
+              }
+            },
+            {
+              "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#distrito",
+              "curie": "g03:distrito",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Distrito",
+                "rdfTypes": [
+                  {
+                    "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Distrito",
+                    "curie": "g03:Distrito"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group03/ontology#numeroDeConectores",
+              "curie": "g03:numeroDeConectores",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "Nº de conectores"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group03/ontology#tipoDeConector",
+              "curie": "g03:tipoDeConector",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Tipo de conector"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasAddress",
+              "curie": "g03:hasAddress",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "replace(if(startsWith(value,\" \"),substring(value,1),value),\" \",\"_\")",
+                "isRowNumberCell": false,
+                "columnName": "Dirección",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.w3.org/2006/vcard/ns#Address",
+                    "curie": "g03:Address"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2006/vcard/ns#street-address",
+                    "curie": "g03:street-address",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "if(startsWith(value,\" \"),substring(value,1),value)",
+                      "isRowNumberCell": false,
+                      "columnName": "Dirección"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group03/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "g03",
+          "uri": ""
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"PuntoDeRecarga\"+value",
+          "isRowNumberCell": true,
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/group03/ontology#PuntosDeRecarga",
+              "curie": "g03:PuntosDeRecarga"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/group03/ontology#tipoDePuntoRecarga",
+              "curie": "g03:tipoDePuntoRecarga",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Tipo"
+              }
+            },
+            {
+              "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#distrito",
+              "curie": "g03:distrito",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Distrito",
+                "rdfTypes": [
+                  {
+                    "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Distrito",
+                    "curie": "g03:Distrito"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group03/ontology#numeroDeConectores",
+              "curie": "g03:numeroDeConectores",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "Nº de conectores"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group03/ontology#tipoDeConector",
+              "curie": "g03:tipoDeConector",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Tipo de conector"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasAddress",
+              "curie": "g03:hasAddress",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "replace(if(startsWith(value,\" \"),substring(value,1),value),\" \",\"_\")",
+                "isRowNumberCell": false,
+                "columnName": "Dirección",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.w3.org/2006/vcard/ns#Address",
+                    "curie": "g03:Address"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2006/vcard/ns#street-address",
+                    "curie": "g03:street-address",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "if(startsWith(value,\" \"),substring(value,1),value)",
+                      "isRowNumberCell": false,
+                      "columnName": "Dirección"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "\"PuntoDeRecarga\"+value",
+                "isRowNumberCell": true
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group03/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "g03",
+          "uri": ""
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"PuntoDeRecarga\"+value",
+          "isRowNumberCell": true,
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/group03/ontology#PuntosDeRecarga",
+              "curie": "g03:PuntosDeRecarga"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/group03/ontology#tipoDePuntoRecarga",
+              "curie": "g03:tipoDePuntoRecarga",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Tipo"
+              }
+            },
+            {
+              "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#distrito",
+              "curie": "g03:distrito",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Distrito",
+                "rdfTypes": [
+                  {
+                    "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Distrito",
+                    "curie": "g03:Distrito"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group03/ontology#numeroDeConectores",
+              "curie": "g03:numeroDeConectores",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "Nº de conectores"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group03/ontology#tipoDeConector",
+              "curie": "g03:tipoDeConector",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Tipo de conector"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasAddress",
+              "curie": "g03:hasAddress",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "replace(if(startsWith(value,\" \"),substring(value,1),value),\" \",\"_\")",
+                "isRowNumberCell": false,
+                "columnName": "Dirección",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.w3.org/2006/vcard/ns#Address",
+                    "curie": "g03:Address"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2006/vcard/ns#street-address",
+                    "curie": "g03:street-address",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "if(startsWith(value,\" \"),substring(value,1),value)",
+                      "isRowNumberCell": false,
+                      "columnName": "Dirección"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "\"PuntoDeRecarga\"+value",
+                "isRowNumberCell": true
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group03/ontology#tipoEstacionamiento",
+              "curie": "g03:tipoEstacionamiento",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "\"Punto de recarga\"",
+                "isRowNumberCell": true
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

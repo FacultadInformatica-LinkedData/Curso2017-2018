@@ -5,7 +5,6 @@
 
 <http://www.semanticweb.org/group08/resources/Al+otro+lado+de+los+sue%C3%B1os> a <http://www.semanticweb.org/group08/resources/Activity> ;
 	vcard:fn "Al otro lado de los sueños" ;
-	vevent:byday "L,M,X,J,V 08:30" ;
 	vevent:dtstart "2017-12-21 00:00:00.0" ;
 	vevent:dtend "2018-01-24 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=636ea3efb0d7f510VgnVCM2000001f4a900aRCRD" ;
@@ -25,14 +24,19 @@
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=655723ab5315e510VgnVCM2000001f4a900aRCRD" ;
 	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Jose+Hierro+%28San+Blas-Canillejas%29> .
 
-<http://www.semanticweb.org/group08/resources/Barrio+de+las+letras> a <http://www.semanticweb.org/group08/resources/Activity> ;
+<http://www.semanticweb.org/group08/resources/Barrio+de+las+letras+1> a <http://www.semanticweb.org/group08/resources/Activity> ;
 	vcard:fn "Barrio de las letras" ;
 	vevent:dtstart "2017-12-12 00:00:00.0" ;
 	vevent:dtend "2017-12-12 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=da2db35934e5f510VgnVCM2000001f4a900aRCRD" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Conde+Duque+%28Centro%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Conde+Duque+%28Centro%29> .
+	
+<http://www.semanticweb.org/group08/resources/Barrio+de+las+letras+2> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "Barrio de las letras" ;
 	vevent:dtstart "2017-11-23 00:00:00.0" ;
-	vevent:dtend "2017-11-23 23:59:00.0" .
+	vevent:dtend "2017-11-23 23:59:00.0" ;
+	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=da2db35934e5f510VgnVCM2000001f4a900aRCRD" ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Conde+Duque+%28Centro%29> .
 
 <http://www.semanticweb.org/group08/resources/Bebecuentos+con+Carlos+Alba> a <http://www.semanticweb.org/group08/resources/Activity> ;
 	vcard:fn "Bebecuentos con Carlos Alba" ;
@@ -43,7 +47,6 @@
 
 <http://www.semanticweb.org/group08/resources/Biblioajedrez> a <http://www.semanticweb.org/group08/resources/Activity> ;
 	vcard:fn "Biblioajedrez" ;
-	vevent:byday "M 18:30" ;
 	vevent:dtstart "2017-09-19 00:00:00.0" ;
 	vevent:dtend "2018-06-26 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=da3f8f00c7a9e510VgnVCM1000001d4a900aRCRD" ;
@@ -100,7 +103,6 @@
 
 <http://www.semanticweb.org/group08/resources/Cata+literaria> a <http://www.semanticweb.org/group08/resources/Activity> ;
 	vcard:fn "Cata literaria" ;
-	vevent:byday "L,M,X,J,V,S,D 08:30" ;
 	vevent:dtstart "2017-10-24 00:00:00.0" ;
 	vevent:dtend "2017-11-07 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1522073fece4f510VgnVCM2000001f4a900aRCRD" ;
@@ -113,17 +115,25 @@
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3976a05c9665e510VgnVCM1000001d4a900aRCRD" ;
 	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Jose+Hierro+%28San+Blas-Canillejas%29> .
 
-<http://www.semanticweb.org/group08/resources/Chap%2C+chap%2C+...plash+con+Alicia+Mohino> a <http://www.semanticweb.org/group08/resources/Activity> ;
+<http://www.semanticweb.org/group08/resources/Chap%2C+chap%2C+...plash+con+Alicia+Mohino+1> a <http://www.semanticweb.org/group08/resources/Activity> ;
 	vcard:fn "Chap, chap, ...plash con Alicia Mohino" ;
 	vevent:dtstart "2017-11-20 00:00:00.0" ;
 	vevent:dtend "2017-11-20 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=95c1f500d625e510VgnVCM2000001f4a900aRCRD" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Miguel+Delibes+%28Moratalaz%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Miguel+Delibes+%28Moratalaz%29> .
+	
+<http://www.semanticweb.org/group08/resources/Chap%2C+chap%2C+...plash+con+Alicia+Mohino+2> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "Chap, chap, ...plash con Alicia Mohino" ;
 	vevent:dtstart "2017-11-13 00:00:00.0" ;
 	vevent:dtend "2017-11-13 23:59:00.0" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Gloria+Fuertes+%28Barajas%29> ;
+	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=95c1f500d625e510VgnVCM2000001f4a900aRCRD" ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Gloria+Fuertes+%28Barajas%29> .
+	
+<http://www.semanticweb.org/group08/resources/Chap%2C+chap%2C+...plash+con+Alicia+Mohino+3> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "Chap, chap, ...plash con Alicia Mohino" ;
 	vevent:dtstart "2017-12-04 00:00:00.0" ;
 	vevent:dtend "2017-12-04 23:59:00.0" ;
+	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=95c1f500d625e510VgnVCM2000001f4a900aRCRD" ;
 	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Mario+Vargas+Llosa+%28Centro%29> .
 
 <http://www.semanticweb.org/group08/resources/Cineforum+%27No+molestar%27> a <http://www.semanticweb.org/group08/resources/Activity> ;
@@ -135,7 +145,6 @@
 
 <http://www.semanticweb.org/group08/resources/Club+de+lectura> a <http://www.semanticweb.org/group08/resources/Activity> ;
 	vcard:fn "Club de lectura" ;
-	vevent:byday "J 10:30" ;
 	vevent:dtstart "2017-10-05 00:00:00.0" ;
 	vevent:dtend "2018-05-31 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=cc3efc8e3215e510VgnVCM1000001d4a900aRCRD" ;
@@ -143,7 +152,6 @@
 
 <http://www.semanticweb.org/group08/resources/Club+de+lectura+en+ingles> a <http://www.semanticweb.org/group08/resources/Activity> ;
 	vcard:fn "Club de lectura en ingles" ;
-	vevent:byday "L 10:30" ;
 	vevent:dtstart "2017-10-02 00:00:00.0" ;
 	vevent:dtend "2018-06-18 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2e757010ed07e510VgnVCM2000001f4a900aRCRD" ;
@@ -151,37 +159,54 @@
 
 <http://www.semanticweb.org/group08/resources/Club+de+lectura+literatura+juvenil> a <http://www.semanticweb.org/group08/resources/Activity> ;
 	vcard:fn "Club de lectura literatura juvenil" ;
-	vevent:byday "V 19:00" ;
 	vevent:dtstart "2017-10-06 00:00:00.0" ;
 	vevent:dtend "2018-05-25 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b705611f8e05e510VgnVCM1000001d4a900aRCRD" ;
 	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Eugenio+Trias.+Casa+de+Fieras+de+El+Retiro> .
 
-<http://www.semanticweb.org/group08/resources/Cocinando+cuentos+con+Primigenius> a <http://www.semanticweb.org/group08/resources/Activity> ;
+<http://www.semanticweb.org/group08/resources/Cocinando+cuentos+con+Primigenius+1> a <http://www.semanticweb.org/group08/resources/Activity> ;
 	vcard:fn "Cocinando cuentos con Primigenius" ;
 	vevent:dtstart "2017-11-06 00:00:00.0" ;
 	vevent:dtend "2017-11-06 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=95c1f500d625e510VgnVCM2000001f4a900aRCRD" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Mario+Vargas+Llosa+%28Centro%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Mario+Vargas+Llosa+%28Centro%29> .
+	
+<http://www.semanticweb.org/group08/resources/Cocinando+cuentos+con+Primigenius+2> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "Cocinando cuentos con Primigenius" ;
 	vevent:dtstart "2017-12-04 00:00:00.0" ;
 	vevent:dtend "2017-12-04 23:59:00.0" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Miguel+Delibes+%28Moratalaz%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Miguel+Delibes+%28Moratalaz%29> .
+	
+<http://www.semanticweb.org/group08/resources/Cocinando+cuentos+con+Primigenius+3> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "Cocinando cuentos con Primigenius" ;
 	vevent:dtstart "2017-11-07 00:00:00.0" ;
 	vevent:dtend "2017-11-07 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fbf09e01dbce1510VgnVCM1000000b205a0aRCRD" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Francisco+Ibañez+%28Chamartin%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Francisco+Ibañez+%28Chamartin%29> .
+	
+<http://www.semanticweb.org/group08/resources/Cocinando+cuentos+con+Primigenius+4> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "Cocinando cuentos con Primigenius" ;
 	vevent:dtstart "2017-11-22 00:00:00.0" ;
 	vevent:dtend "2017-11-22 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8894d5555fecc510VgnVCM1000001d4a900aRCRD" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Maria+Lejarraga+%28Hortaleza%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Maria+Lejarraga+%28Hortaleza%29> .
+	
+<http://www.semanticweb.org/group08/resources/Cocinando+cuentos+con+Primigenius+5> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "Cocinando cuentos con Primigenius" ;
 	vevent:dtstart "2017-11-17 00:00:00.0" ;
 	vevent:dtend "2017-11-17 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=af215ebf7e1f1510VgnVCM2000000c205a0aRCRD" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+La+Chata+%28Carabanchel%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+La+Chata+%28Carabanchel%29> .
+	
+<http://www.semanticweb.org/group08/resources/Cocinando+cuentos+con+Primigenius+6> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "Cocinando cuentos con Primigenius" ;
 	vevent:dtstart "2017-12-01 00:00:00.0" ;
 	vevent:dtend "2017-12-01 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5e1b63b42b8e1510VgnVCM1000000b205a0aRCRD" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Damaso+Alonso+%28Chamartin%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Damaso+Alonso+%28Chamartin%29> .
+	
+<http://www.semanticweb.org/group08/resources/Cocinando+cuentos+con+Primigenius+7> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "Cocinando cuentos con Primigenius" ;
 	vevent:dtstart "2017-11-23 00:00:00.0" ;
 	vevent:dtend "2017-11-23 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b0cf9e6ad12f1510VgnVCM2000000c205a0aRCRD" ;
@@ -189,7 +214,6 @@
 
 <http://www.semanticweb.org/group08/resources/CoderDojo> a <http://www.semanticweb.org/group08/resources/Activity> ;
 	vcard:fn "CoderDojo" ;
-	vevent:byday "D 09:30" ;
 	vevent:dtstart "2017-10-08 00:00:00.0" ;
 	vevent:dtend "2018-06-24 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=68aaa53a55c4a510VgnVCM2000001f4a900aRCRD" ;
@@ -197,7 +221,6 @@
 
 <http://www.semanticweb.org/group08/resources/CoderDojo+en+la+Biblioteca+Maria+Lejarraga> a <http://www.semanticweb.org/group08/resources/Activity> ;
 	vcard:fn "CoderDojo en la Biblioteca Maria Lejarraga" ;
-	vevent:byday "S 12:00" ;
 	vevent:dtstart "2017-10-21 00:00:00.0" ;
 	vevent:dtend "2018-01-27 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f43da5d3ca00f510VgnVCM2000001f4a900aRCRD" ;
@@ -219,53 +242,76 @@
 
 <http://www.semanticweb.org/group08/resources/Cuarto+y+mitad%3A+concurso+literario> a <http://www.semanticweb.org/group08/resources/Activity> ;
 	vcard:fn "Cuarto y mitad: concurso literario" ;
-	vevent:byday "L,M,X,J,V,S,D 00:00" ;
 	vevent:dtstart "2017-10-01 00:00:00.0" ;
 	vevent:dtend "2017-11-07 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=63fda4eda88ce510VgnVCM1000001d4a900aRCRD" ;
 	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Mario+Vargas+Llosa+%28Centro%29> .
 
-<http://www.semanticweb.org/group08/resources/Cuentos+bufonescos+con+Juan+Gamba> a <http://www.semanticweb.org/group08/resources/Activity> ;
+<http://www.semanticweb.org/group08/resources/Cuentos+bufonescos+con+Juan+Gamba+1> a <http://www.semanticweb.org/group08/resources/Activity> ;
 	vcard:fn "Cuentos bufonescos con Juan Gamba" ;
 	vevent:dtstart "2017-11-21 00:00:00.0" ;
 	vevent:dtend "2017-11-21 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fbf09e01dbce1510VgnVCM1000000b205a0aRCRD" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Francisco+Ibañez+%28Chamartin%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Francisco+Ibañez+%28Chamartin%29> .
+	
+<http://www.semanticweb.org/group08/resources/Cuentos+bufonescos+con+Juan+Gamba+2> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "Cuentos bufonescos con Juan Gamba" ;
 	vevent:dtstart "2017-12-21 00:00:00.0" ;
 	vevent:dtend "2017-12-21 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4c680a16ba7c3510VgnVCM1000001d4a900aRCRD" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Francisco+Ayala+%28Vicalvaro%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Francisco+Ayala+%28Vicalvaro%29> .
+	
+<http://www.semanticweb.org/group08/resources/Cuentos+bufonescos+con+Juan+Gamba+3> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "Cuentos bufonescos con Juan Gamba" ;
 	vevent:dtstart "2017-12-19 00:00:00.0" ;
 	vevent:dtend "2017-12-19 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4aa13026d31f1510VgnVCM2000000c205a0aRCRD" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+La+Elipa+%28Ciudad+Lineal%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+La+Elipa+%28Ciudad+Lineal%29> .
+	
+<http://www.semanticweb.org/group08/resources/Cuentos+bufonescos+con+Juan+Gamba+4> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "Cuentos bufonescos con Juan Gamba" ;
 	vevent:dtstart "2017-12-15 00:00:00.0" ;
 	vevent:dtend "2017-12-15 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=311078e688c71510VgnVCM2000000c205a0aRCRD" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Ana+Maria+Matute+%28Carabanchel%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Ana+Maria+Matute+%28Carabanchel%29> .
+	
+<http://www.semanticweb.org/group08/resources/Cuentos+bufonescos+con+Juan+Gamba+5> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "Cuentos bufonescos con Juan Gamba" ;
 	vevent:dtstart "2017-11-16 00:00:00.0" ;
 	vevent:dtend "2017-11-16 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b60bc2fdff4b1510VgnVCM2000000c205a0aRCRD" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Canillejas+%28San+Blas-Canillejas%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Canillejas+%28San+Blas-Canillejas%29> .
+	
+<http://www.semanticweb.org/group08/resources/Cuentos+bufonescos+con+Juan+Gamba+6> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "Cuentos bufonescos con Juan Gamba" ;
 	vevent:dtstart "2017-12-17 00:00:00.0" ;
 	vevent:dtend "2017-12-17 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b07a7acc3b2f1510VgnVCM2000000c205a0aRCRD" ;
 	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Angel+Gonzalez+%28Latina%29> .
 
-<http://www.semanticweb.org/group08/resources/Cuentos+con+Carlos+Alba> a <http://www.semanticweb.org/group08/resources/Activity> ;
+<http://www.semanticweb.org/group08/resources/Cuentos+con+Carlos+Alba+1> a <http://www.semanticweb.org/group08/resources/Activity> ;
 	vcard:fn "Cuentos con Carlos Alba" ;
 	vevent:dtstart "2017-12-19 00:00:00.0" ;
 	vevent:dtend "2017-12-19 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3da48dbb262f1510VgnVCM2000000c205a0aRCRD" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Pozo+del+Tio+Raimundo+%28Puente+de+Vallecas%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Pozo+del+Tio+Raimundo+%28Puente+de+Vallecas%29> .
+	
+<http://www.semanticweb.org/group08/resources/Cuentos+con+Carlos+Alba+2> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "Cuentos con Carlos Alba" ;
 	vevent:dtstart "2017-12-20 00:00:00.0" ;
 	vevent:dtend "2017-12-20 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=25373026d31f1510VgnVCM2000000c205a0aRCRD" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Jose+Hierro+%28San+Blas-Canillejas%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Jose+Hierro+%28San+Blas-Canillejas%29>.
+	
+<http://www.semanticweb.org/group08/resources/Cuentos+con+Carlos+Alba+3> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "Cuentos con Carlos Alba" ;
 	vevent:dtstart "2017-12-21 00:00:00.0" ;
 	vevent:dtend "2017-12-21 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=60e8bd8bcf1f1510VgnVCM2000000c205a0aRCRD" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Maria+Zambrano+%28Tetuan%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Maria+Zambrano+%28Tetuan%29> .
+	
+<http://www.semanticweb.org/group08/resources/Cuentos+con+Carlos+Alba+4> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "Cuentos con Carlos Alba" ;
 	vevent:dtstart "2017-12-07 00:00:00.0" ;
 	vevent:dtend "2017-12-07 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e2d23ac0b72f1510VgnVCM2000000c205a0aRCRD" ;
@@ -278,51 +324,76 @@
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b07a7acc3b2f1510VgnVCM2000000c205a0aRCRD" ;
 	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Angel+Gonzalez+%28Latina%29> .
 
-<http://www.semanticweb.org/group08/resources/Cuentos+de+enredos+y+travesuras+con+Nelson+Calderon> a <http://www.semanticweb.org/group08/resources/Activity> ;
+<http://www.semanticweb.org/group08/resources/Cuentos+de+enredos+y+travesuras+con+Nelson+Calderon+1> a <http://www.semanticweb.org/group08/resources/Activity> ;
 	vcard:fn "Cuentos de enredos y travesuras con Nelson Calderon" ;
 	vevent:dtstart "2017-11-28 00:00:00.0" ;
 	vevent:dtend "2017-11-28 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3da48dbb262f1510VgnVCM2000000c205a0aRCRD" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Pozo+del+Tio+Raimundo+%28Puente+de+Vallecas%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Pozo+del+Tio+Raimundo+%28Puente+de+Vallecas%29> .
+	
+<http://www.semanticweb.org/group08/resources/Cuentos+de+enredos+y+travesuras+con+Nelson+Calderon+2> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "Cuentos de enredos y travesuras con Nelson Calderon" ;
 	vevent:dtstart "2017-11-16 00:00:00.0" ;
 	vevent:dtend "2017-11-16 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=60e8bd8bcf1f1510VgnVCM2000000c205a0aRCRD" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Maria+Zambrano+%28Tetuan%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Maria+Zambrano+%28Tetuan%29> .
+	
+<http://www.semanticweb.org/group08/resources/Cuentos+de+enredos+y+travesuras+con+Nelson+Calderon+3> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "Cuentos de enredos y travesuras con Nelson Calderon" ;
 	vevent:dtstart "2017-12-14 00:00:00.0" ;
 	vevent:dtend "2017-12-14 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=292431c876681510VgnVCM1000000b205a0aRCRD" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Buenavista+%28Salamanca%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Buenavista+%28Salamanca%29> .
+	
+<http://www.semanticweb.org/group08/resources/Cuentos+de+enredos+y+travesuras+con+Nelson+Calderon+4> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "Cuentos de enredos y travesuras con Nelson Calderon" ;
 	vevent:dtstart "2017-11-21 00:00:00.0" ;
 	vevent:dtend "2017-11-21 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=cca9196c3bec1510VgnVCM1000000b205a0aRCRD" ;
 	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Ciudad+Lineal+%28Ciudad+Lineal%29> .
 
-<http://www.semanticweb.org/group08/resources/Cuentos+infantiles+en+la+Biblioteca+Publica+Municipal+La+Chata> a <http://www.semanticweb.org/group08/resources/Activity> ;
+<http://www.semanticweb.org/group08/resources/Cuentos+infantiles+en+la+Biblioteca+Publica+Municipal+La+Chata+1> a <http://www.semanticweb.org/group08/resources/Activity> ;
 	vcard:fn "Cuentos infantiles en la Biblioteca Publica Municipal La Chata" ;
 	vevent:dtstart "2017-11-24 00:00:00.0" ;
 	vevent:dtend "2017-11-24 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=af215ebf7e1f1510VgnVCM2000000c205a0aRCRD" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+La+Chata+%28Carabanchel%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+La+Chata+%28Carabanchel%29> .
+	
+<http://www.semanticweb.org/group08/resources/Cuentos+infantiles+en+la+Biblioteca+Publica+Municipal+La+Chata+2> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "Cuentos infantiles en la Biblioteca Publica Municipal La Chata" ;
 	vevent:dtstart "2017-12-15 00:00:00.0" ;
-	vevent:dtend "2017-12-15 23:59:00.0" .
+	vevent:dtend "2017-12-15 23:59:00.0" ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+La+Chata+%28Carabanchel%29> .
 
-<http://www.semanticweb.org/group08/resources/Cuentos+por+las+ramas+con+Alicia+Mohino> a <http://www.semanticweb.org/group08/resources/Activity> ;
+<http://www.semanticweb.org/group08/resources/Cuentos+por+las+ramas+con+Alicia+Mohino+1> a <http://www.semanticweb.org/group08/resources/Activity> ;
 	vcard:fn "Cuentos por las ramas con Alicia Mohino" ;
 	vevent:dtstart "2017-11-14 00:00:00.0" ;
 	vevent:dtend "2017-11-14 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=95c1f500d625e510VgnVCM2000001f4a900aRCRD" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Manuel+Vazquez+Montalban+%28Tetuan%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Manuel+Vazquez+Montalban+%28Tetuan%29> .
+	
+<http://www.semanticweb.org/group08/resources/Cuentos+por+las+ramas+con+Alicia+Mohino+2> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "Cuentos por las ramas con Alicia Mohino" ;
 	vevent:dtstart "2017-11-06 00:00:00.0" ;
 	vevent:dtend "2017-11-06 23:59:00.0" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Miguel+Delibes+%28Moratalaz%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Miguel+Delibes+%28Moratalaz%29> .
+	
+<http://www.semanticweb.org/group08/resources/Cuentos+por+las+ramas+con+Alicia+Mohino+3> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "Cuentos por las ramas con Alicia Mohino" ;
 	vevent:dtstart "2017-11-30 00:00:00.0" ;
 	vevent:dtend "2017-11-30 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=bd5af9692ece1510VgnVCM1000000b205a0aRCRD" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Gerardo+Diego+%28Villa+de+Vallecas%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Gerardo+Diego+%28Villa+de+Vallecas%29> .
+	
+<http://www.semanticweb.org/group08/resources/Cuentos+por+las+ramas+con+Alicia+Mohino+4> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "Cuentos por las ramas con Alicia Mohino" ;
 	vevent:dtstart "2017-11-16 00:00:00.0" ;
 	vevent:dtend "2017-11-16 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=292431c876681510VgnVCM1000000b205a0aRCRD" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Buenavista+%28Salamanca%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Buenavista+%28Salamanca%29> .
+	
+<http://www.semanticweb.org/group08/resources/Cuentos+por+las+ramas+con+Alicia+Mohino+5> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "Cuentos por las ramas con Alicia Mohino" ;
 	vevent:dtstart "2017-11-28 00:00:00.0" ;
 	vevent:dtend "2017-11-28 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1cf0bd8bcf1f1510VgnVCM2000000c205a0aRCRD" , "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e4d6f2e1792f1510VgnVCM2000000c205a0aRCRD" ;
@@ -330,7 +401,6 @@
 
 <http://www.semanticweb.org/group08/resources/Curso+de+Informatica+basica> a <http://www.semanticweb.org/group08/resources/Activity> ;
 	vcard:fn "Curso de Informatica basica" ;
-	vevent:byday "L,X,V 10:00" ;
 	vevent:dtstart "2017-11-20 00:00:00.0" ;
 	vevent:dtend "2017-12-01 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=30dfdc358ad5f510VgnVCM2000001f4a900aRCRD" ;
@@ -338,7 +408,6 @@
 
 <http://www.semanticweb.org/group08/resources/Curso+de+mecanica+y+conduccion+de+bicicletas> a <http://www.semanticweb.org/group08/resources/Activity> ;
 	vcard:fn "Curso de mecanica y conduccion de bicicletas" ;
-	vevent:byday "V 17:30" ;
 	vevent:dtstart "2017-09-22 00:00:00.0" ;
 	vevent:dtend "2017-11-24 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6a80f4d33e289510VgnVCM1000001d4a900aRCRD" ;
@@ -374,7 +443,6 @@
 
 <http://www.semanticweb.org/group08/resources/Educacion+integral+en+sexualidad+y+relaciones+de+pareja.> a <http://www.semanticweb.org/group08/resources/Activity> ;
 	vcard:fn "Educacion integral en sexualidad y relaciones de pareja." ;
-	vevent:byday "L 18:30" ;
 	vevent:dtstart "2017-10-02 00:00:00.0" ;
 	vevent:dtend "2017-11-27 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=42c472711e89e510VgnVCM2000001f4a900aRCRD" ;
@@ -387,15 +455,21 @@
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=62b30738d827f510VgnVCM1000001d4a900aRCRD" ;
 	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Mario+Vargas+Llosa+%28Centro%29> .
 
-<http://www.semanticweb.org/group08/resources/El+cine%3A+la+lengua+escrita+de+la+realidad> a <http://www.semanticweb.org/group08/resources/Activity> ;
+<http://www.semanticweb.org/group08/resources/El+cine%3A+la+lengua+escrita+de+la+realidad+1> a <http://www.semanticweb.org/group08/resources/Activity> ;
 	vcard:fn "El cine: la lengua escrita de la realidad" ;
 	vevent:dtstart "2017-11-14 00:00:00.0" ;
 	vevent:dtend "2017-11-14 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2ea2fad10452f510VgnVCM1000001d4a900aRCRD" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Ivan+de+Vargas+%28Centro%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Ivan+de+Vargas+%28Centro%29> .
+	
+<http://www.semanticweb.org/group08/resources/El+cine%3A+la+lengua+escrita+de+la+realidad+2> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "El cine: la lengua escrita de la realidad" ;
 	vevent:dtstart "2017-12-12 00:00:00.0" ;
 	vevent:dtend "2017-12-12 23:59:00.0" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Angel+Gonzalez+%28Latina%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Angel+Gonzalez+%28Latina%29> .
+	
+<http://www.semanticweb.org/group08/resources/El+cine%3A+la+lengua+escrita+de+la+realidad+3> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "El cine: la lengua escrita de la realidad" ;
 	vevent:dtstart "2017-11-28 00:00:00.0" ;
 	vevent:dtend "2017-11-28 23:59:00.0" ;
 	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Maria+Lejarraga+%28Hortaleza%29> .
@@ -407,69 +481,99 @@
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=477ac1993a84f510VgnVCM2000001f4a900aRCRD" ;
 	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Gabriel+Garcia+Marquez+%28Usera%29> .
 
-<http://www.semanticweb.org/group08/resources/El+dragon+que+se+comio+el+Sol+con+Daniel+Tornero> a <http://www.semanticweb.org/group08/resources/Activity> ;
+<http://www.semanticweb.org/group08/resources/El+dragon+que+se+comio+el+Sol+con+Daniel+Tornero+1> a <http://www.semanticweb.org/group08/resources/Activity> ;
 	vcard:fn "El dragon que se comio el Sol con Daniel Tornero" ;
 	vevent:dtstart "2017-12-04 00:00:00.0" ;
 	vevent:dtend "2017-12-04 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=04790a16ba7c3510VgnVCM1000001d4a900aRCRD" ;
 	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Mario+Vargas+Llosa+%28Centro%29> .
 
-<http://www.semanticweb.org/group08/resources/El+dragon+que+se+comio+el+sol+con+Daniel+Tornero> a <http://www.semanticweb.org/group08/resources/Activity> ;
+<http://www.semanticweb.org/group08/resources/El+dragon+que+se+comio+el+sol+con+Daniel+Tornero+2> a <http://www.semanticweb.org/group08/resources/Activity> ;
 	vcard:fn "El dragon que se comio el sol con Daniel Tornero" ;
 	vevent:dtstart "2017-12-19 00:00:00.0" ;
 	vevent:dtend "2017-12-19 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fbf09e01dbce1510VgnVCM1000000b205a0aRCRD" ;
 	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Francisco+Ibañez+%28Chamartin%29> .
 
-<http://www.semanticweb.org/group08/resources/El+dragon+que+se+comio+el+Sol+con+Daniel+Tornero> vevent:dtstart "2017-12-20 00:00:00.0" ;
+<http://www.semanticweb.org/group08/resources/El+dragon+que+se+comio+el+Sol+con+Daniel+Tornero+3> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "El dragon que se comio el Sol con Daniel Tornero" ;
+	vevent:dtstart "2017-12-20 00:00:00.0" ;
 	vevent:dtend "2017-12-20 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8257ec75dc7e1510VgnVCM1000000b205a0aRCRD" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Conde+Duque+%28Centro%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Conde+Duque+%28Centro%29> .
+	
+<http://www.semanticweb.org/group08/resources/El+dragon+que+se+comio+el+Sol+con+Daniel+Tornero+4> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "El dragon que se comio el Sol con Daniel Tornero" ;
 	vevent:dtstart "2017-12-13 00:00:00.0" ;
 	vevent:dtend "2017-12-13 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8894d5555fecc510VgnVCM1000001d4a900aRCRD" ;
 	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Maria+Lejarraga+%28Hortaleza%29> .
 
-<http://www.semanticweb.org/group08/resources/El+dragon+que+se+comio+el+sol+con+Daniel+Tornero> vevent:dtstart "2017-12-15 00:00:00.0" ;
+<http://www.semanticweb.org/group08/resources/El+dragon+que+se+comio+el+sol+con+Daniel+Tornero+5> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "El dragon que se comio el Sol con Daniel Tornero" ;
+	vevent:dtstart "2017-12-15 00:00:00.0" ;
 	vevent:dtend "2017-12-15 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e16138b1acce1510VgnVCM1000000b205a0aRCRD" ;
 	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Gabriel+Garcia+Marquez+%28Usera%29> .
 
-<http://www.semanticweb.org/group08/resources/El+dragon+que+se+comio+el+Sol+con+Daniel+Tornero> vevent:dtstart "2017-11-21 00:00:00.0" ;
+<http://www.semanticweb.org/group08/resources/El+dragon+que+se+comio+el+Sol+con+Daniel+Tornero+6> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "El dragon que se comio el Sol con Daniel Tornero" ;
+	vevent:dtstart "2017-11-21 00:00:00.0" ;
 	vevent:dtend "2017-11-21 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e2d23ac0b72f1510VgnVCM2000000c205a0aRCRD" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+San+Blas+%28San+Blas-Canillejas%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+San+Blas+%28San+Blas-Canillejas%29> .
+	
+<http://www.semanticweb.org/group08/resources/El+dragon+que+se+comio+el+Sol+con+Daniel+Tornero+7> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "El dragon que se comio el Sol con Daniel Tornero" ;
 	vevent:dtstart "2017-12-22 00:00:00.0" ;
 	vevent:dtend "2017-12-22 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d816ca75832f1510VgnVCM2000000c205a0aRCRD" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Pio+Baroja+%28Arganzuela%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Pio+Baroja+%28Arganzuela%29> .
+	
+<http://www.semanticweb.org/group08/resources/El+dragon+que+se+comio+el+Sol+con+Daniel+Tornero+8> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "El dragon que se comio el Sol con Daniel Tornero" ;
 	vevent:dtstart "2017-11-22 00:00:00.0" ;
 	vevent:dtend "2017-11-22 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ac6d8dbb262f1510VgnVCM2000000c205a0aRCRD" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Portazgo+%28Puente+de+Vallecas%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Portazgo+%28Puente+de+Vallecas%29> .
+	
+<http://www.semanticweb.org/group08/resources/El+dragon+que+se+comio+el+Sol+con+Daniel+Tornero+9> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "El dragon que se comio el Sol con Daniel Tornero" ;
 	vevent:dtstart "2017-12-21 00:00:00.0" ;
 	vevent:dtend "2017-12-21 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b0cf9e6ad12f1510VgnVCM2000000c205a0aRCRD" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Pablo+Neruda+%28Ciudad+Lineal%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Pablo+Neruda+%28Ciudad+Lineal%29> .
+	
+<http://www.semanticweb.org/group08/resources/El+dragon+que+se+comio+el+Sol+con+Daniel+Tornero+10> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "El dragon que se comio el Sol con Daniel Tornero" ;
 	vevent:dtstart "2017-12-12 00:00:00.0" ;
 	vevent:dtend "2017-12-12 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1cf0bd8bcf1f1510VgnVCM2000000c205a0aRCRD" ;
 	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Manuel+Vazquez+Montalban+%28Tetuan%29> .
 
-<http://www.semanticweb.org/group08/resources/El+fantasma+al+que+le+asustaban+los+libros+con+Nelson+Calderon> a <http://www.semanticweb.org/group08/resources/Activity> ;
+<http://www.semanticweb.org/group08/resources/El+fantasma+al+que+le+asustaban+los+libros+con+Nelson+Calderon+1> a <http://www.semanticweb.org/group08/resources/Activity> ;
 	vcard:fn "El fantasma al que le asustaban los libros con Nelson Calderon" ;
 	vevent:dtstart "2017-12-20 00:00:00.0" ;
 	vevent:dtend "2017-12-20 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e14223d976de1510VgnVCM1000000b205a0aRCRD" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Gloria+Fuertes+%28Barajas%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Gloria+Fuertes+%28Barajas%29> .
+	
+<http://www.semanticweb.org/group08/resources/El+fantasma+al+que+le+asustaban+los+libros+con+Nelson+Calderon+2> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "El fantasma al que le asustaban los libros con Nelson Calderon" ;
 	vevent:dtstart "2017-11-24 00:00:00.0" ;
 	vevent:dtend "2017-11-24 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d816ca75832f1510VgnVCM2000000c205a0aRCRD" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Pio+Baroja+%28Arganzuela%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Pio+Baroja+%28Arganzuela%29> .
+	
+<http://www.semanticweb.org/group08/resources/El+fantasma+al+que+le+asustaban+los+libros+con+Nelson+Calderon+3> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "El fantasma al que le asustaban los libros con Nelson Calderon" ;
 	vevent:dtstart "2017-12-01 00:00:00.0" ;
 	vevent:dtend "2017-12-01 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=311078e688c71510VgnVCM2000000c205a0aRCRD" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Ana+Maria+Matute+%28Carabanchel%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Ana+Maria+Matute+%28Carabanchel%29> .
+	
+<http://www.semanticweb.org/group08/resources/El+fantasma+al+que+le+asustaban+los+libros+con+Nelson+Calderon+4> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "El fantasma al que le asustaban los libros con Nelson Calderon" ;
 	vevent:dtstart "2017-11-07 00:00:00.0" ;
 	vevent:dtend "2017-11-07 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e4d6f2e1792f1510VgnVCM2000000c205a0aRCRD" ;
@@ -503,42 +607,69 @@
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4224a209a1c71510VgnVCM2000000c205a0aRCRD" ;
 	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Aluche+%28Latina%29> .
 
-<http://www.semanticweb.org/group08/resources/El+leon+Kandinga+con+Boniface+Ofogo> a <http://www.semanticweb.org/group08/resources/Activity> ;
+<http://www.semanticweb.org/group08/resources/El+leon+Kandinga+con+Boniface+Ofogo+1> a <http://www.semanticweb.org/group08/resources/Activity> ;
 	vcard:fn "El leon Kandinga con Boniface Ofogo" ;
 	vevent:dtstart "2017-12-12 00:00:00.0" ;
 	vevent:dtend "2017-12-12 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e2d23ac0b72f1510VgnVCM2000000c205a0aRCRD" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+San+Blas+%28San+Blas-Canillejas%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+San+Blas+%28San+Blas-Canillejas%29> .
+	
+<http://www.semanticweb.org/group08/resources/El+leon+Kandinga+con+Boniface+Ofogo+2> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "El leon Kandinga con Boniface Ofogo" ;
 	vevent:dtstart "2017-11-28 00:00:00.0" ;
 	vevent:dtend "2017-11-28 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4aa13026d31f1510VgnVCM2000000c205a0aRCRD" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+La+Elipa+%28Ciudad+Lineal%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+La+Elipa+%28Ciudad+Lineal%29> .
+	
+<http://www.semanticweb.org/group08/resources/El+leon+Kandinga+con+Boniface+Ofogo+3> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "El leon Kandinga con Boniface Ofogo" ;
 	vevent:dtstart "2017-12-18 00:00:00.0" ;
 	vevent:dtend "2017-12-18 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=39d89e6ad12f1510VgnVCM2000000c205a0aRCRD" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Miguel+Delibes+%28Moratalaz%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Miguel+Delibes+%28Moratalaz%29> .
+	
+<http://www.semanticweb.org/group08/resources/El+leon+Kandinga+con+Boniface+Ofogo+4> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "El leon Kandinga con Boniface Ofogo" ;
 	vevent:dtstart "2017-12-02 00:00:00.0" ;
 	vevent:dtend "2017-12-02 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5f1bf2d83c2f1510VgnVCM2000000c205a0aRCRD" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Ivan+de+Vargas+%28Centro%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Ivan+de+Vargas+%28Centro%29> .
+	
+<http://www.semanticweb.org/group08/resources/El+leon+Kandinga+con+Boniface+Ofogo+5> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "El leon Kandinga con Boniface Ofogo" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b07a7acc3b2f1510VgnVCM2000000c205a0aRCRD" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Angel+Gonzalez+%28Latina%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Angel+Gonzalez+%28Latina%29> .
+	
+<http://www.semanticweb.org/group08/resources/El+leon+Kandinga+con+Boniface+Ofogo+6> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "El leon Kandinga con Boniface Ofogo" ;
 	vevent:dtstart "2017-11-17 00:00:00.0" ;
 	vevent:dtend "2017-11-17 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5e1b63b42b8e1510VgnVCM1000000b205a0aRCRD" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Damaso+Alonso+%28Chamartin%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Damaso+Alonso+%28Chamartin%29> .
+	
+<http://www.semanticweb.org/group08/resources/El+leon+Kandinga+con+Boniface+Ofogo+7> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "El leon Kandinga con Boniface Ofogo" ;
 	vevent:dtstart "2017-11-14 00:00:00.0" ;
 	vevent:dtend "2017-11-14 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3da48dbb262f1510VgnVCM2000000c205a0aRCRD" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Pozo+del+Tio+Raimundo+%28Puente+de+Vallecas%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Pozo+del+Tio+Raimundo+%28Puente+de+Vallecas%29> .
+	
+<http://www.semanticweb.org/group08/resources/El+leon+Kandinga+con+Boniface+Ofogo+8> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "El leon Kandinga con Boniface Ofogo" ;
 	vevent:dtstart "2017-11-29 00:00:00.0" ;
 	vevent:dtend "2017-11-29 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8257ec75dc7e1510VgnVCM1000000b205a0aRCRD" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Conde+Duque+%28Centro%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Conde+Duque+%28Centro%29> .
+	
+<http://www.semanticweb.org/group08/resources/El+leon+Kandinga+con+Boniface+Ofogo+9> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "El leon Kandinga con Boniface Ofogo" ;
 	vevent:dtstart "2017-12-05 00:00:00.0" ;
 	vevent:dtend "2017-12-05 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=cca9196c3bec1510VgnVCM1000000b205a0aRCRD" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Ciudad+Lineal+%28Ciudad+Lineal%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Ciudad+Lineal+%28Ciudad+Lineal%29> .
+	
+<http://www.semanticweb.org/group08/resources/El+leon+Kandinga+con+Boniface+Ofogo+10> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "El leon Kandinga con Boniface Ofogo" ;
 	vevent:dtstart "2017-11-30 00:00:00.0" ;
 	vevent:dtend "2017-11-30 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b0cf9e6ad12f1510VgnVCM2000000c205a0aRCRD" ;
@@ -558,48 +689,78 @@
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f22a7a206c9ae510VgnVCM1000001d4a900aRCRD" ;
 	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Ana+Maria+Matute+%28Carabanchel%29> .
 
-<http://www.semanticweb.org/group08/resources/El+peque%C3%B1o+pais+con+Victoria> a <http://www.semanticweb.org/group08/resources/Activity> ;
+<http://www.semanticweb.org/group08/resources/El+peque%C3%B1o+pais+con+Victoria+1> a <http://www.semanticweb.org/group08/resources/Activity> ;
 	vcard:fn "El pequeño pais con Victoria" ;
 	vevent:dtstart "2017-11-16 00:00:00.0" ;
 	vevent:dtend "2017-11-16 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=bd5af9692ece1510VgnVCM1000000b205a0aRCRD" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Gerardo+Diego+%28Villa+de+Vallecas%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Gerardo+Diego+%28Villa+de+Vallecas%29> .
+	
+<http://www.semanticweb.org/group08/resources/El+peque%C3%B1o+pais+con+Victoria+2> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "El pequeño pais con Victoria" ;
 	vevent:dtstart "2017-11-30 00:00:00.0" ;
 	vevent:dtend "2017-11-30 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4c680a16ba7c3510VgnVCM1000001d4a900aRCRD" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Francisco+Ayala+%28Vicalvaro%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Francisco+Ayala+%28Vicalvaro%29> .
+	
+<http://www.semanticweb.org/group08/resources/El+peque%C3%B1o+pais+con+Victoria+3> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "El pequeño pais con Victoria" ;
 	vevent:dtstart "2017-11-14 00:00:00.0" ;
 	vevent:dtend "2017-11-14 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4aa13026d31f1510VgnVCM2000000c205a0aRCRD" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+La+Elipa+%28Ciudad+Lineal%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+La+Elipa+%28Ciudad+Lineal%29> .
+	
+<http://www.semanticweb.org/group08/resources/El+peque%C3%B1o+pais+con+Victoria+4> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "El pequeño pais con Victoria" ;
 	vevent:dtstart "2017-11-15 00:00:00.0" ;
 	vevent:dtend "2017-11-15 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=25373026d31f1510VgnVCM2000000c205a0aRCRD" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Jose+Hierro+%28San+Blas-Canillejas%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Jose+Hierro+%28San+Blas-Canillejas%29> .
+	
+<http://www.semanticweb.org/group08/resources/El+peque%C3%B1o+pais+con+Victoria+5> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "El pequeño pais con Victoria" ;
 	vevent:dtstart "2017-11-25 00:00:00.0" ;
 	vevent:dtend "2017-11-25 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8894d5555fecc510VgnVCM1000001d4a900aRCRD" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Maria+Lejarraga+%28Hortaleza%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Maria+Lejarraga+%28Hortaleza%29> .
+	
+<http://www.semanticweb.org/group08/resources/El+peque%C3%B1o+pais+con+Victoria+6> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "El pequeño pais con Victoria" ;
 	vevent:dtstart "2017-11-23 00:00:00.0" ;
 	vevent:dtend "2017-11-23 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=60e8bd8bcf1f1510VgnVCM2000000c205a0aRCRD" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Maria+Zambrano+%28Tetuan%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Maria+Zambrano+%28Tetuan%29> .
+	
+<http://www.semanticweb.org/group08/resources/El+peque%C3%B1o+pais+con+Victoria+7> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "El pequeño pais con Victoria" ;
 	vevent:dtstart "2017-11-17 00:00:00.0" ;
 	vevent:dtend "2017-11-17 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=311078e688c71510VgnVCM2000000c205a0aRCRD" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Ana+Maria+Matute+%28Carabanchel%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Ana+Maria+Matute+%28Carabanchel%29> .
+	
+<http://www.semanticweb.org/group08/resources/El+peque%C3%B1o+pais+con+Victoria+8> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "El pequeño pais con Victoria" ;
 	vevent:dtstart "2017-12-01 00:00:00.0" ;
 	vevent:dtend "2017-12-01 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e16138b1acce1510VgnVCM1000000b205a0aRCRD" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Gabriel+Garcia+Marquez+%28Usera%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Gabriel+Garcia+Marquez+%28Usera%29> .
+	
+<http://www.semanticweb.org/group08/resources/El+peque%C3%B1o+pais+con+Victoria+9> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "El pequeño pais con Victoria" ;
 	vevent:dtstart "2017-12-16 00:00:00.0" ;
 	vevent:dtend "2017-12-16 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5f1bf2d83c2f1510VgnVCM2000000c205a0aRCRD" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Ivan+de+Vargas+%28Centro%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Ivan+de+Vargas+%28Centro%29> .
+	
+<http://www.semanticweb.org/group08/resources/El+peque%C3%B1o+pais+con+Victoria+10> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "El pequeño pais con Victoria" ;
 	vevent:dtstart "2017-12-14 00:00:00.0" ;
 	vevent:dtend "2017-12-14 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b60bc2fdff4b1510VgnVCM2000000c205a0aRCRD" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Canillejas+%28San+Blas-Canillejas%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Canillejas+%28San+Blas-Canillejas%29> .
+	
+<http://www.semanticweb.org/group08/resources/El+peque%C3%B1o+pais+con+Victoria+11> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "El pequeño pais con Victoria" ;
 	vevent:dtstart "2017-12-12 00:00:00.0" ;
 	vevent:dtend "2017-12-12 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e4d6f2e1792f1510VgnVCM2000000c205a0aRCRD" ;
@@ -621,7 +782,6 @@
 
 <http://www.semanticweb.org/group08/resources/Escenarios+de+novela+negra+en+Suecia> a <http://www.semanticweb.org/group08/resources/Activity> ;
 	vcard:fn "Escenarios de novela negra en Suecia" ;
-	vevent:byday "L,M,X,J,V 00:00" ;
 	vevent:dtstart "2017-11-02 00:00:00.0" ;
 	vevent:dtend "2017-11-30 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f05dfa3f7ae87510VgnVCM1000001d4a900aRCRD" ;
@@ -629,7 +789,6 @@
 
 <http://www.semanticweb.org/group08/resources/Escritura+creativa%3A+relato+fantastico> a <http://www.semanticweb.org/group08/resources/Activity> ;
 	vcard:fn "Escritura creativa: relato fantastico" ;
-	vevent:byday "M 18:00" ;
 	vevent:dtstart "2017-10-03 00:00:00.0" ;
 	vevent:dtend "2018-05-29 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=91b7fc8e3215e510VgnVCM1000001d4a900aRCRD" ;
@@ -637,7 +796,6 @@
 
 <http://www.semanticweb.org/group08/resources/Escuela+en+familia> a <http://www.semanticweb.org/group08/resources/Activity> ;
 	vcard:fn "Escuela en familia" ;
-	vevent:byday "J 12:00" ;
 	vevent:dtstart "2017-11-16 00:00:00.0" ;
 	vevent:dtend "2018-06-28 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9243a3efb0d7f510VgnVCM2000001f4a900aRCRD" ;
@@ -652,7 +810,6 @@
 
 <http://www.semanticweb.org/group08/resources/Exposicion+de+microrrelatos%3A+%27Microteca%27> a <http://www.semanticweb.org/group08/resources/Activity> ;
 	vcard:fn "Exposicion de microrrelatos: 'Microteca'" ;
-	vevent:byday "L,M,X,J,V 00:00" ;
 	vevent:dtstart "2017-10-16 00:00:00.0" ;
 	vevent:dtend "2017-11-30 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=568b4d7e7c077510VgnVCM2000001f4a900aRCRD" ;
@@ -688,7 +845,6 @@
 
 <http://www.semanticweb.org/group08/resources/Historia+del+jardin> a <http://www.semanticweb.org/group08/resources/Activity> ;
 	vcard:fn "Historia del jardin" ;
-	vevent:byday "V 11:30" ;
 	vevent:dtstart "2017-10-27 00:00:00.0" ;
 	vevent:dtend "2017-12-01 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c76838ab1da9e510VgnVCM2000001f4a900aRCRD" ;
@@ -696,7 +852,6 @@
 
 <http://www.semanticweb.org/group08/resources/Hora+del+cuento+en+la+Biblioteca+Gloria+Fuertes> a <http://www.semanticweb.org/group08/resources/Activity> ;
 	vcard:fn "Hora del cuento en la Biblioteca Gloria Fuertes" ;
-	vevent:byday "X 18:00" ;
 	vevent:dtstart "2017-10-18 00:00:00.0" ;
 	vevent:dtend "2018-06-20 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e8bdb963436ee510VgnVCM1000001d4a900aRCRD" ;
@@ -709,12 +864,15 @@
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=477ac1993a84f510VgnVCM2000001f4a900aRCRD" ;
 	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Gabriel+Garcia+Marquez+%28Usera%29> .
 
-<http://www.semanticweb.org/group08/resources/La+casa+de+Tomasa+y+otras+historias+con+Daniel+Tornero> a <http://www.semanticweb.org/group08/resources/Activity> ;
+<http://www.semanticweb.org/group08/resources/La+casa+de+Tomasa+y+otras+historias+con+Daniel+Tornero+1> a <http://www.semanticweb.org/group08/resources/Activity> ;
 	vcard:fn "La casa de Tomasa y otras historias con Daniel Tornero" ;
 	vevent:dtstart "2017-11-29 00:00:00.0" ;
 	vevent:dtend "2017-11-29 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e14223d976de1510VgnVCM1000000b205a0aRCRD" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Gloria+Fuertes+%28Barajas%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Gloria+Fuertes+%28Barajas%29> .
+	
+<http://www.semanticweb.org/group08/resources/La+casa+de+Tomasa+y+otras+historias+con+Daniel+Tornero+2> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "La casa de Tomasa y otras historias con Daniel Tornero" ;
 	vevent:dtstart "2017-11-28 00:00:00.0" ;
 	vevent:dtend "2017-11-28 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=af4ebeed87de1510VgnVCM1000000b205a0aRCRD" ;
@@ -736,7 +894,6 @@
 
 <http://www.semanticweb.org/group08/resources/La+Panditeca> a <http://www.semanticweb.org/group08/resources/Activity> ;
 	vcard:fn "La Panditeca" ;
-	vevent:byday "L 18:00" ;
 	vevent:dtstart "2017-10-02 00:00:00.0" ;
 	vevent:dtend "2017-12-18 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=65c2d3678c677510VgnVCM1000001d4a900aRCRD" ;
@@ -756,18 +913,21 @@
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d644ad685349e510VgnVCM2000001f4a900aRCRD" ;
 	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Francisco+Ayala+%28Vicalvaro%29> .
 
-<http://www.semanticweb.org/group08/resources/Labyrinth+con+Face2face> a <http://www.semanticweb.org/group08/resources/Activity> ;
+<http://www.semanticweb.org/group08/resources/Labyrinth+con+Face2face+1> a <http://www.semanticweb.org/group08/resources/Activity> ;
 	vcard:fn "Labyrinth con Face2face" ;
 	vevent:dtstart "2017-11-17 00:00:00.0" ;
 	vevent:dtend "2017-11-17 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e16138b1acce1510VgnVCM1000000b205a0aRCRD" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Gabriel+Garcia+Marquez+%28Usera%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Gabriel+Garcia+Marquez+%28Usera%29> .
+	
+<http://www.semanticweb.org/group08/resources/Labyrinth+con+Face2face+2> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "Labyrinth con Face2face" ;
 	vevent:dtstart "2017-11-22 00:00:00.0" ;
 	vevent:dtend "2017-11-22 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=25373026d31f1510VgnVCM2000000c205a0aRCRD" ;
 	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Jose+Hierro+%28San+Blas-Canillejas%29> .
 
-<http://www.semanticweb.org/group08/resources/Labyrinth+con+Face2Face> a <http://www.semanticweb.org/group08/resources/Activity> ;
+<http://www.semanticweb.org/group08/resources/Labyrinth+con+Face2Face+3> a <http://www.semanticweb.org/group08/resources/Activity> ;
 	vcard:fn "Labyrinth con Face2Face" ;
 	vevent:dtstart "2017-11-30 00:00:00.0" ;
 	vevent:dtend "2017-11-30 23:59:00.0" ;
@@ -781,15 +941,21 @@
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=081ef8f35128f510VgnVCM1000001d4a900aRCRD" ;
 	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Ana+Maria+Matute+%28Carabanchel%29> .
 
-<http://www.semanticweb.org/group08/resources/Las+gallinas+contadoras+con+Volvoreta> a <http://www.semanticweb.org/group08/resources/Activity> ;
+<http://www.semanticweb.org/group08/resources/Las+gallinas+contadoras+con+Volvoreta+1> a <http://www.semanticweb.org/group08/resources/Activity> ;
 	vcard:fn "Las gallinas contadoras con Volvoreta" ;
 	vevent:dtstart "2017-12-20 00:00:00.0" ;
 	vevent:dtend "2017-12-20 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=95c1f500d625e510VgnVCM2000001f4a900aRCRD" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Maria+Lejarraga+%28Hortaleza%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Maria+Lejarraga+%28Hortaleza%29> .
+	
+<http://www.semanticweb.org/group08/resources/Las+gallinas+contadoras+con+Volvoreta+2> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "Las gallinas contadoras con Volvoreta" ;
 	vevent:dtstart "2017-11-15 00:00:00.0" ;
 	vevent:dtend "2017-11-15 23:59:00.0" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Conde+Duque+%28Centro%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Conde+Duque+%28Centro%29> .
+	
+<http://www.semanticweb.org/group08/resources/Las+gallinas+contadoras+con+Volvoreta+3> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "Las gallinas contadoras con Volvoreta" ;
 	vevent:dtstart "2017-11-16 00:00:00.0" ;
 	vevent:dtend "2017-11-16 23:59:00.0" ;
 	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Francisco+Ayala+%28Vicalvaro%29> .
@@ -803,7 +969,6 @@
 
 <http://www.semanticweb.org/group08/resources/Locucion+poetica> a <http://www.semanticweb.org/group08/resources/Activity> ;
 	vcard:fn "Locucion poetica" ;
-	vevent:byday "L 17:00" ;
 	vevent:dtstart "2017-10-02 00:00:00.0" ;
 	vevent:dtend "2017-12-18 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=82ef8c94a715e510VgnVCM1000001d4a900aRCRD" ;
@@ -811,7 +976,6 @@
 
 <http://www.semanticweb.org/group08/resources/Los+superescritores> a <http://www.semanticweb.org/group08/resources/Activity> ;
 	vcard:fn "Los superescritores" ;
-	vevent:byday "L,M,X,J,V,S,D 18:15" ;
 	vevent:dtstart "2017-09-03 00:00:00.0" ;
 	vevent:dtend "2017-12-19 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c2cc06483206e510VgnVCM1000001d4a900aRCRD" ;
@@ -831,19 +995,21 @@
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0d6a2cf11c58e510VgnVCM2000001f4a900aRCRD" ;
 	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Eugenio+Trias.+Casa+de+Fieras+de+El+Retiro> .
 
-<http://www.semanticweb.org/group08/resources/Makers+Unite.+Juguetronica+infantil> a <http://www.semanticweb.org/group08/resources/Activity> ;
+<http://www.semanticweb.org/group08/resources/Makers+Unite.+Juguetronica+infantil+1> a <http://www.semanticweb.org/group08/resources/Activity> ;
 	vcard:fn "Makers Unite. Juguetronica infantil" ;
 	vevent:dtstart "2017-12-04 00:00:00.0" ;
 	vevent:dtend "2017-12-04 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=975f24812658e510VgnVCM1000001d4a900aRCRD" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Buenavista+%28Salamanca%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Buenavista+%28Salamanca%29> .
+	
+<http://www.semanticweb.org/group08/resources/Makers+Unite.+Juguetronica+infantil+2> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "Makers Unite. Juguetronica infantil" ;
 	vevent:dtstart "2017-11-13 00:00:00.0" ;
 	vevent:dtend "2017-11-13 23:59:00.0" ;
 	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Ivan+de+Vargas+%28Centro%29> .
 
 <http://www.semanticweb.org/group08/resources/Meditacion+Vipassana> a <http://www.semanticweb.org/group08/resources/Activity> ;
 	vcard:fn "Meditacion Vipassana" ;
-	vevent:byday "L 10:00" ;
 	vevent:dtstart "2017-10-02 00:00:00.0" ;
 	vevent:dtend "2018-05-28 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=38378c94a715e510VgnVCM1000001d4a900aRCRD" ;
@@ -856,18 +1022,20 @@
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4224a209a1c71510VgnVCM2000000c205a0aRCRD" ;
 	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Aluche+%28Latina%29> .
 
-<http://www.semanticweb.org/group08/resources/Museo+de+Historia+del+Ayuntamiento+de+Madrid> a <http://www.semanticweb.org/group08/resources/Activity> ;
+<http://www.semanticweb.org/group08/resources/Museo+de+Historia+del+Ayuntamiento+de+Madrid+1> a <http://www.semanticweb.org/group08/resources/Activity> ;
 	vcard:fn "Museo de Historia del Ayuntamiento de Madrid" ;
 	vevent:dtstart "2017-12-15 00:00:00.0" ;
 	vevent:dtend "2017-12-15 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7e1e5a8a4e7be510VgnVCM1000001d4a900aRCRD" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Francisco+Ayala+%28Vicalvaro%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Francisco+Ayala+%28Vicalvaro%29> .
+	
+<http://www.semanticweb.org/group08/resources/Museo+de+Historia+del+Ayuntamiento+de+Madrid+2> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "Museo de Historia del Ayuntamiento de Madrid" ;
 	vevent:dtstart "2017-11-17 00:00:00.0" ;
 	vevent:dtend "2017-11-17 23:59:00.0" .
 
 <http://www.semanticweb.org/group08/resources/Neuroemocion%3A+Neurociencia+y+equilibrio+emocional> a <http://www.semanticweb.org/group08/resources/Activity> ;
 	vcard:fn "Neuroemocion: Neurociencia y equilibrio emocional" ;
-	vevent:byday "J 18:30" ;
 	vevent:dtstart "2017-11-16 00:00:00.0" ;
 	vevent:dtend "2017-12-14 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=aa78b35934e5f510VgnVCM2000001f4a900aRCRD" ;
@@ -903,7 +1071,6 @@
 
 <http://www.semanticweb.org/group08/resources/Pesadillas+de+ayer+y+de+hoy> a <http://www.semanticweb.org/group08/resources/Activity> ;
 	vcard:fn "Pesadillas de ayer y de hoy" ;
-	vevent:byday "L,M,X,J,V,S,D 08:30" ;
 	vevent:dtstart "2017-10-27 00:00:00.0" ;
 	vevent:dtend "2017-11-06 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b84bb35934e5f510VgnVCM2000001f4a900aRCRD" ;
@@ -918,7 +1085,6 @@
 
 <http://www.semanticweb.org/group08/resources/Poesia+inicial> a <http://www.semanticweb.org/group08/resources/Activity> ;
 	vcard:fn "Poesia inicial" ;
-	vevent:byday "L 18:30" ;
 	vevent:dtstart "2017-10-09 00:00:00.0" ;
 	vevent:dtend "2017-12-18 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=42b8c2d769cce510VgnVCM1000001d4a900aRCRD" ;
@@ -931,42 +1097,61 @@
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3976a05c9665e510VgnVCM1000001d4a900aRCRD" ;
 	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Jose+Hierro+%28San+Blas-Canillejas%29> .
 
-<http://www.semanticweb.org/group08/resources/Radio+teatro.+Audiodrama+colectivo> a <http://www.semanticweb.org/group08/resources/Activity> ;
+<http://www.semanticweb.org/group08/resources/Radio+teatro.+Audiodrama+colectivo+1> a <http://www.semanticweb.org/group08/resources/Activity> ;
 	vcard:fn "Radio teatro. Audiodrama colectivo" ;
 	vevent:dtstart "2017-11-16 00:00:00.0" ;
 	vevent:dtend "2017-11-16 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f18328ff81dcb510VgnVCM2000001f4a900aRCRD" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Eugenio+Trias.+Casa+de+Fieras+de+El+Retiro> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Eugenio+Trias.+Casa+de+Fieras+de+El+Retiro> .
+	
+<http://www.semanticweb.org/group08/resources/Radio+teatro.+Audiodrama+colectivo+2> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "Radio teatro. Audiodrama colectivo" ;
 	vevent:dtstart "2017-12-21 00:00:00.0" ;
-	vevent:dtend "2017-12-21 23:59:00.0" .
+	vevent:dtend "2017-12-21 23:59:00.0" ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Eugenio+Trias.+Casa+de+Fieras+de+El+Retiro> .
 
-<http://www.semanticweb.org/group08/resources/Ratones+de+bibliotecas+con+Volvoreta> a <http://www.semanticweb.org/group08/resources/Activity> ;
+<http://www.semanticweb.org/group08/resources/Ratones+de+bibliotecas+con+Volvoreta+1> a <http://www.semanticweb.org/group08/resources/Activity> ;
 	vcard:fn "Ratones de bibliotecas con Volvoreta" ;
 	vevent:dtstart "2017-12-14 00:00:00.0" ;
 	vevent:dtend "2017-12-14 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=95c1f500d625e510VgnVCM2000001f4a900aRCRD" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Francisco+Ayala+%28Vicalvaro%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Francisco+Ayala+%28Vicalvaro%29> .
+	
+<http://www.semanticweb.org/group08/resources/Ratones+de+bibliotecas+con+Volvoreta+2> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "Ratones de bibliotecas con Volvoreta" ;
 	vevent:dtstart "2017-12-13 00:00:00.0" ;
 	vevent:dtend "2017-12-13 23:59:00.0" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Conde+Duque+%28Centro%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Conde+Duque+%28Centro%29> .
+	
+<http://www.semanticweb.org/group08/resources/Ratones+de+bibliotecas+con+Volvoreta+3> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "Ratones de bibliotecas con Volvoreta" ;
 	vevent:dtstart "2017-12-21 00:00:00.0" ;
 	vevent:dtend "2017-12-21 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=bd5af9692ece1510VgnVCM1000000b205a0aRCRD" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Gerardo+Diego+%28Villa+de+Vallecas%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Gerardo+Diego+%28Villa+de+Vallecas%29> .
+	
+<http://www.semanticweb.org/group08/resources/Ratones+de+bibliotecas+con+Volvoreta+4> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "Ratones de bibliotecas con Volvoreta" ;
 	vevent:dtstart "2017-12-22 00:00:00.0" ;
 	vevent:dtend "2017-12-22 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=af215ebf7e1f1510VgnVCM2000000c205a0aRCRD" ;
 	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+La+Chata+%28Carabanchel%29> .
 
-<http://www.semanticweb.org/group08/resources/Reflexoterapia+podal> a <http://www.semanticweb.org/group08/resources/Activity> ;
+<http://www.semanticweb.org/group08/resources/Reflexoterapia+podal+1> a <http://www.semanticweb.org/group08/resources/Activity> ;
 	vcard:fn "Reflexoterapia podal" ;
 	vevent:dtstart "2017-12-11 00:00:00.0" ;
 	vevent:dtend "2017-12-11 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c844dd906cbee510VgnVCM1000001d4a900aRCRD" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Gabriel+Garcia+Marquez+%28Usera%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Gabriel+Garcia+Marquez+%28Usera%29> .
+	
+<http://www.semanticweb.org/group08/resources/Reflexoterapia+podal+2> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "Reflexoterapia podal" ;
 	vevent:dtstart "2017-12-01 00:00:00.0" ;
 	vevent:dtend "2017-12-01 23:59:00.0" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Jose+Saramago+%28Fuencarral-El+Pardo%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Jose+Saramago+%28Fuencarral-El+Pardo%29> .
+	
+<http://www.semanticweb.org/group08/resources/Reflexoterapia+podal+3> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "Reflexoterapia podal" ;
 	vevent:dtstart "2017-11-14 00:00:00.0" ;
 	vevent:dtend "2017-11-14 23:59:00.0" ;
 	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Pablo+Neruda+%28Ciudad+Lineal%29> .
@@ -980,7 +1165,6 @@
 
 <http://www.semanticweb.org/group08/resources/Sexualidad+para+mujeres.> a <http://www.semanticweb.org/group08/resources/Activity> ;
 	vcard:fn "Sexualidad para mujeres." ;
-	vevent:byday "L 19:00" ;
 	vevent:dtstart "2017-12-04 00:00:00.0" ;
 	vevent:dtend "2017-12-18 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b9b21ad85399e510VgnVCM1000001d4a900aRCRD" ;
@@ -988,18 +1172,20 @@
 
 <http://www.semanticweb.org/group08/resources/Sin+ti> a <http://www.semanticweb.org/group08/resources/Activity> ;
 	vcard:fn "Sin ti" ;
-	vevent:byday "L,M,X,J,V,S,D 08:30" ;
 	vevent:dtstart "2017-11-08 00:00:00.0" ;
 	vevent:dtend "2017-11-24 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=105a09c17e26f510VgnVCM1000001d4a900aRCRD" ;
 	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Conde+Duque+%28Centro%29> .
 
-<http://www.semanticweb.org/group08/resources/Snowball+con+Face2face> a <http://www.semanticweb.org/group08/resources/Activity> ;
+<http://www.semanticweb.org/group08/resources/Snowball+con+Face2face+1> a <http://www.semanticweb.org/group08/resources/Activity> ;
 	vcard:fn "Snowball con Face2face" ;
 	vevent:dtstart "2017-11-14 00:00:00.0" ;
 	vevent:dtend "2017-11-14 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=af4ebeed87de1510VgnVCM1000000b205a0aRCRD" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Huerta+de+la+Salud+%28Hortaleza%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Huerta+de+la+Salud+%28Hortaleza%29> .
+	
+<http://www.semanticweb.org/group08/resources/Snowball+con+Face2face+2> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "Snowball con Face2face" ;
 	vevent:dtstart "2017-11-18 00:00:00.0" ;
 	vevent:dtend "2017-11-18 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5f1bf2d83c2f1510VgnVCM2000000c205a0aRCRD" ;
@@ -1021,7 +1207,6 @@
 
 <http://www.semanticweb.org/group08/resources/Taller+de+conversacion+en+frances.+B1%2FB2> a <http://www.semanticweb.org/group08/resources/Activity> ;
 	vcard:fn "Taller de conversacion en frances. B1/B2" ;
-	vevent:byday "X 19:00" ;
 	vevent:dtstart "2017-10-18 00:00:00.0" ;
 	vevent:dtend "2017-12-13 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7a1c9c7bd059e510VgnVCM1000001d4a900aRCRD" ;
@@ -1029,7 +1214,6 @@
 
 <http://www.semanticweb.org/group08/resources/Taller+de+conversacion+en+frances.+C1%2FC2> a <http://www.semanticweb.org/group08/resources/Activity> ;
 	vcard:fn "Taller de conversacion en frances. C1/C2" ;
-	vevent:byday "J 19:00" ;
 	vevent:dtstart "2017-10-19 00:00:00.0" ;
 	vevent:dtend "2017-12-14 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7a1c9c7bd059e510VgnVCM1000001d4a900aRCRD" ;
@@ -1037,7 +1221,6 @@
 
 <http://www.semanticweb.org/group08/resources/Taller+de+Copto> a <http://www.semanticweb.org/group08/resources/Activity> ;
 	vcard:fn "Taller de Copto" ;
-	vevent:byday "X 19:30" ;
 	vevent:dtstart "2017-10-04 00:00:00.0" ;
 	vevent:dtend "2018-01-31 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=170a3fe7d007e510VgnVCM1000001d4a900aRCRD" ;
@@ -1045,7 +1228,6 @@
 
 <http://www.semanticweb.org/group08/resources/Taller+de+musica> a <http://www.semanticweb.org/group08/resources/Activity> ;
 	vcard:fn "Taller de musica" ;
-	vevent:byday "L 11:00" ;
 	vevent:dtstart "2017-11-06 00:00:00.0" ;
 	vevent:dtend "2017-11-20 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=57d689b85d8ae510VgnVCM2000001f4a900aRCRD" ;
@@ -1053,7 +1235,6 @@
 
 <http://www.semanticweb.org/group08/resources/Taller+de+poesia> a <http://www.semanticweb.org/group08/resources/Activity> ;
 	vcard:fn "Taller de poesia" ;
-	vevent:byday "X 18:30" ;
 	vevent:dtstart "2017-10-04 00:00:00.0" ;
 	vevent:dtend "2018-05-30 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=de2e98e47b15e510VgnVCM1000001d4a900aRCRD" ;
@@ -1061,7 +1242,6 @@
 
 <http://www.semanticweb.org/group08/resources/Taller+de+poesia+dirigido+por+Vicente+Zaragoza> a <http://www.semanticweb.org/group08/resources/Activity> ;
 	vcard:fn "Taller de poesia dirigido por Vicente Zaragoza" ;
-	vevent:byday "M 18:00" ;
 	vevent:dtstart "2017-10-17 00:00:00.0" ;
 	vevent:dtend "2018-06-12 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1e5a3b851810f510VgnVCM1000001d4a900aRCRD" ;
@@ -1074,23 +1254,33 @@
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=baa889d1f1c0f510VgnVCM2000001f4a900aRCRD" ;
 	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Jose+Saramago+%28Fuencarral-El+Pardo%29> .
 
-<http://www.semanticweb.org/group08/resources/Taller+Heroes+Comic+Con+en+Biblioteca+Aluche> a <http://www.semanticweb.org/group08/resources/Activity> ;
+<http://www.semanticweb.org/group08/resources/Taller+Heroes+Comic+Con+en+Biblioteca+Aluche+1> a <http://www.semanticweb.org/group08/resources/Activity> ;
 	vcard:fn "Taller Heroes Comic Con en Biblioteca Aluche" ;
 	vevent:dtstart "2017-11-22 00:00:00.0" ;
 	vevent:dtend "2017-11-22 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=92da386e9c10f510VgnVCM2000001f4a900aRCRD" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Aluche+%28Latina%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Aluche+%28Latina%29> .
+	
+<http://www.semanticweb.org/group08/resources/Taller+Heroes+Comic+Con+en+Biblioteca+Aluche+2> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "Taller Heroes Comic Con en Biblioteca Aluche" ;
 	vevent:dtstart "2017-11-24 00:00:00.0" ;
-	vevent:dtend "2017-11-24 23:59:00.0" .
-
-<http://www.semanticweb.org/group08/resources/Taller+Heroes+Comic+Con+en+Biblioteca+Gabriel+Garcia+Marquez> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vevent:dtend "2017-11-24 23:59:00.0" ;
+	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=92da386e9c10f510VgnVCM2000001f4a900aRCRD" ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Aluche+%28Latina%29> .
+	
+<http://www.semanticweb.org/group08/resources/Taller+Heroes+Comic+Con+en+Biblioteca+Gabriel+Garcia+Marquez+1> a <http://www.semanticweb.org/group08/resources/Activity> ;
 	vcard:fn "Taller Heroes Comic Con en Biblioteca Gabriel Garcia Marquez" ;
 	vevent:dtstart "2017-11-08 00:00:00.0" ;
 	vevent:dtend "2017-11-08 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=92da386e9c10f510VgnVCM2000001f4a900aRCRD" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Gabriel+Garcia+Marquez+%28Usera%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Gabriel+Garcia+Marquez+%28Usera%29> .
+	
+<http://www.semanticweb.org/group08/resources/Taller+Heroes+Comic+Con+en+Biblioteca+Gabriel+Garcia+Marquez+2> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "Taller Heroes Comic Con en Biblioteca Gabriel Garcia Marquez" ;	
 	vevent:dtstart "2017-11-15 00:00:00.0" ;
-	vevent:dtend "2017-11-15 23:59:00.0" .
+	vevent:dtend "2017-11-15 23:59:00.0" ;	
+	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=92da386e9c10f510VgnVCM2000001f4a900aRCRD" ;
+    vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Gabriel+Garcia+Marquez+%28Usera%29> .	
 
 <http://www.semanticweb.org/group08/resources/Taller+Heroes+Comic+Con+en+Biblioteca+Jose+Hierro> a <http://www.semanticweb.org/group08/resources/Activity> ;
 	vcard:fn "Taller Heroes Comic Con en Biblioteca Jose Hierro" ;
@@ -1108,7 +1298,6 @@
 
 <http://www.semanticweb.org/group08/resources/Taller+sobre+opera> a <http://www.semanticweb.org/group08/resources/Activity> ;
 	vcard:fn "Taller sobre opera" ;
-	vevent:byday "L,M,X,J,V,S,D 18:30" ;
 	vevent:dtstart "2017-03-21 00:00:00.0" ;
 	vevent:dtend "2018-01-01 23:59:00.0" ;
 	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Musical+Victor+Espinos> .
@@ -1134,20 +1323,29 @@
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a5ec3b851810f510VgnVCM1000001d4a900aRCRD" ;
 	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Gabriel+Garcia+Marquez+%28Usera%29> .
 
-<http://www.semanticweb.org/group08/resources/Ti%C3%B1a+Peri%C3%B1a+con+Roberto+Mezquita> a <http://www.semanticweb.org/group08/resources/Activity> ;
+<http://www.semanticweb.org/group08/resources/Ti%C3%B1a+Peri%C3%B1a+con+Roberto+Mezquita+1> a <http://www.semanticweb.org/group08/resources/Activity> ;
 	vcard:fn "Tiña Periña con Roberto Mezquita" ;
 	vevent:dtstart "2017-12-05 00:00:00.0" ;
 	vevent:dtend "2017-12-05 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3da48dbb262f1510VgnVCM2000000c205a0aRCRD" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Pozo+del+Tio+Raimundo+%28Puente+de+Vallecas%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Pozo+del+Tio+Raimundo+%28Puente+de+Vallecas%29> .
+	
+<http://www.semanticweb.org/group08/resources/Ti%C3%B1a+Peri%C3%B1a+con+Roberto+Mezquita+2> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "Tiña Periña con Roberto Mezquita" ;
 	vevent:dtstart "2017-12-15 00:00:00.0" ;
 	vevent:dtend "2017-12-15 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5e1b63b42b8e1510VgnVCM1000000b205a0aRCRD" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Damaso+Alonso+%28Chamartin%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Damaso+Alonso+%28Chamartin%29> .
+	
+<http://www.semanticweb.org/group08/resources/Ti%C3%B1a+Peri%C3%B1a+con+Roberto+Mezquita+3> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "Tiña Periña con Roberto Mezquita" ;
 	vevent:dtstart "2017-11-27 00:00:00.0" ;
 	vevent:dtend "2017-11-27 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=04790a16ba7c3510VgnVCM1000001d4a900aRCRD" ;
-	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Mario+Vargas+Llosa+%28Centro%29> ;
+	vevent:location <http://www.semanticweb.org/group08/resources/Biblioteca+Publica+Municipal+Mario+Vargas+Llosa+%28Centro%29> .
+	
+<http://www.semanticweb.org/group08/resources/Ti%C3%B1a+Peri%C3%B1a+con+Roberto+Mezquita+4> a <http://www.semanticweb.org/group08/resources/Activity> ;
+	vcard:fn "Tiña Periña con Roberto Mezquita" ;
 	vevent:dtstart "2017-11-23 00:00:00.0" ;
 	vevent:dtend "2017-11-23 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3ae5dd382d1f1510VgnVCM2000000c205a0aRCRD" ;
@@ -1162,7 +1360,6 @@
 
 <http://www.semanticweb.org/group08/resources/Un+viaje+a+traves+de+la+historia+LGTB%2B> a <http://www.semanticweb.org/group08/resources/Activity> ;
 	vcard:fn "Un viaje a traves de la historia LGTB+" ;
-	vevent:byday "L,M,X,J,V 08:30" ;
 	vevent:dtstart "2017-11-02 00:00:00.0" ;
 	vevent:dtend "2017-11-30 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=32040738d827f510VgnVCM1000001d4a900aRCRD" ;
@@ -1170,7 +1367,6 @@
 
 <http://www.semanticweb.org/group08/resources/Una+escritora+en+%27la+edad+de+la+razon%27.+Elena+Fortun+y+su+mundo> a <http://www.semanticweb.org/group08/resources/Activity> ;
 	vcard:fn "Una escritora en 'la edad de la razon'. Elena Fortun y su mundo" ;
-	vevent:byday "L,M,X,J,V 00:00" ;
 	vevent:dtstart "2017-03-01 00:00:00.0" ;
 	vevent:dtend "2017-11-20 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6806d53a024ab510VgnVCM1000001d4a900aRCRD" ;
@@ -1178,7 +1374,6 @@
 
 <http://www.semanticweb.org/group08/resources/Una+fiera+en+mi+pecera> a <http://www.semanticweb.org/group08/resources/Activity> ;
 	vcard:fn "Una fiera en mi pecera" ;
-	vevent:byday "X 18:00" ;
 	vevent:dtstart "2017-11-08 00:00:00.0" ;
 	vevent:dtend "2017-11-29 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=da1a2431247eb510VgnVCM1000001d4a900aRCRD" ;
@@ -1200,7 +1395,6 @@
 
 <http://www.semanticweb.org/group08/resources/Vicalvaro%3A+de+pueblo+a+distrito> a <http://www.semanticweb.org/group08/resources/Activity> ;
 	vcard:fn "Vicalvaro: de pueblo a distrito" ;
-	vevent:byday "L,M,X,J,V 00:00" ;
 	vevent:dtstart "2017-01-02 00:00:00.0" ;
 	vevent:dtend "2018-01-01 23:59:00.0" ;
 	vcard:hasUrl "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7ac8630b16fd9510VgnVCM1000001d4a900aRCRD" ;

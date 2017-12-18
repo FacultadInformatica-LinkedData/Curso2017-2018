@@ -45,3 +45,14 @@ Every value in the RDF files
 [x] Uses the correct datatype (e.g., values of 0-1 may be booleansand not integers, not every string made of numbers is a number)
 
 ##Comments on self-assessment##
+
+Distribución de tareas:
+- Creación de ontology-updated:Javi
+- Creación de Activities-updated y Library.updated: Javi
+- Revisión y detección de errores en los rdf para subirlos a Virtuoso: Jorge, Adri y Guille
+- Creación de instancia de Virtuoso con AWS: Jorge, Adri y Guille
+- Subir los rdf a la instancia de virtuoso de AWS para poder hacer consultas SPARQL: Adri
+- Consultas SPARQL para la aplicacion: Jorge
+- Desarrollo de la aplicacion: Adri y Guille
+- Añadir metadatos a la ontologia: Fran
+- Publicar la ontologia con Ontoology: Adri y Guille

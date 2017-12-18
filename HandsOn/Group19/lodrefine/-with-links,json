@@ -1,0 +1,1271 @@
+[
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "https://www.linkeddataupm.es/group19/",
+      "prefixes": [
+        {
+          "name": "re",
+          "uri": "https://www.linkeddataupm.es/group19/resource/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "swpo",
+          "uri": "http://sw-portal.deri.org/ontologies/swportal#"
+        },
+        {
+          "name": "identity",
+          "uri": "http://www.identity.org/ontologies/identity.owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "lsweb",
+          "uri": "http://ontology.cybershare.utep.edu/ELSEWeb/elseweb-data.owl#"
+        },
+        {
+          "name": "voc",
+          "uri": "https://www.linkeddataupm.es/group19/vocabulary#"
+        },
+        {
+          "name": "msr",
+          "uri": "http://www.telegraphis.net/ontology/measurement/measurement#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Measurement",
+          "rdfTypes": [
+            {
+              "uri": "http://www.telegraphis.net/ontology/measurement/measurement#Measurement",
+              "curie": "msr:Measurement"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://ontology.cybershare.utep.edu/ELSEWeb/elseweb-data.owl#hasDate",
+              "curie": "lsweb:hasDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Fecha"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLd",
+              "curie": "voc:pLd",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Ld"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLe",
+              "curie": "voc:pLe",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Le"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLn",
+              "curie": "voc:pLn",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Ln"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAeq24",
+              "curie": "voc:pLAeq24",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LAeq24"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAS01",
+              "curie": "voc:pLAS01",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LAS01"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAS10",
+              "curie": "voc:pLAS10",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LAS10"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAS50",
+              "curie": "voc:pLAS50",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LAS50"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAS90",
+              "curie": "voc:pLAS90",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LAS90"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAS99",
+              "curie": "voc:pLAS99",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LAS99"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#hasCode",
+              "curie": "voc:hasCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": true
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Situacion",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#hasNMT",
+              "curie": "voc:hasNMT",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NMT"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#hasMeasurement",
+              "curie": "voc:hasMeasurement",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Measurement"
+              }
+            },
+            {
+              "uri": "http://www.identity.org/ontologies/identity.owl#hasName",
+              "curie": "identity:hasName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Situacion"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "https://www.linkeddataupm.es/group19/",
+      "prefixes": [
+        {
+          "name": "re",
+          "uri": "https://www.linkeddataupm.es/group19/resource/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "swpo",
+          "uri": "http://sw-portal.deri.org/ontologies/swportal#"
+        },
+        {
+          "name": "identity",
+          "uri": "http://www.identity.org/ontologies/identity.owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "lsweb",
+          "uri": "http://ontology.cybershare.utep.edu/ELSEWeb/elseweb-data.owl#"
+        },
+        {
+          "name": "voc",
+          "uri": "https://www.linkeddataupm.es/group19/vocabulary#"
+        },
+        {
+          "name": "msr",
+          "uri": "http://www.telegraphis.net/ontology/measurement/measurement#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Measurement",
+          "rdfTypes": [
+            {
+              "uri": "http://www.telegraphis.net/ontology/measurement/measurement#Measurement",
+              "curie": "msr:Measurement"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://ontology.cybershare.utep.edu/ELSEWeb/elseweb-data.owl#hasDate",
+              "curie": "lsweb:hasDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "Fecha"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLd",
+              "curie": "voc:pLd",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Ld"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLe",
+              "curie": "voc:pLe",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Le"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLn",
+              "curie": "voc:pLn",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Ln"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAeq24",
+              "curie": "voc:pLAeq24",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAeq24"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAS01",
+              "curie": "voc:pLAS01",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAS01"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAS10",
+              "curie": "voc:pLAS10",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAS10"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAS50",
+              "curie": "voc:pLAS50",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAS50"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAS90",
+              "curie": "voc:pLAS90",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAS90"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAS99",
+              "curie": "voc:pLAS99",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAS99"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#hasCode",
+              "curie": "voc:hasCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": true
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Situacion",
+          "rdfTypes": [
+            {
+              "uri": "http://sw-portal.deri.org/ontologies/swportal#Location",
+              "curie": "swpo:Location"
+            }
+          ],
+          "links": [
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#hasNMT",
+              "curie": "voc:hasNMT",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NMT"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#hasMeasurement",
+              "curie": "voc:hasMeasurement",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Measurement"
+              }
+            },
+            {
+              "uri": "http://www.identity.org/ontologies/identity.owl#hasName",
+              "curie": "identity:hasName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Situacion"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Situacion",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Situacion",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Plaza de Espaï¿½a"
+        ],
+        "to": "Plaza de España"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Situacion",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Situacion",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Gregorio Maraï¿½on"
+        ],
+        "to": "Gregorio Marañon"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Situacion",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Situacion",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Farolillo"
+        ],
+        "to": "Calle Farolillo"
+      }
+    ]
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column Situacion to type null",
+    "columnName": "Situacion",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/dbpedia-es",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": null,
+      "autoMatch": true,
+      "columnDetails": []
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Paseo de Recoletos (http://dbpedia.org/resource/Paseo_de_Recoletos) for cells containing \"Paseo de Recoletos\" in column Situacion",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Situacion",
+    "similarValue": "Paseo de Recoletos",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Paseo_de_Recoletos",
+      "name": "Paseo de Recoletos",
+      "score": 1,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Plaza del Emperador Carlos V (http://es.dbpedia.org/resource/Plaza_del_Emperador_Carlos_V) for cells containing \"Carlos V\" in column Situacion",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Situacion",
+    "similarValue": "Carlos V",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Plaza_del_Emperador_Carlos_V",
+      "name": "Plaza del Emperador Carlos V",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Escuelas Aguirre (http://dbpedia.org/resource/Aguirre_School) for cells containing \"Escuelas Aguirre\" in column Situacion",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Situacion",
+    "similarValue": "Escuelas Aguirre",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Aguirre_School",
+      "name": "Escuelas Aguirre",
+      "score": 1,
+      "types": [
+        "http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing",
+        "http://schema.org/Place",
+        "http://www.ontologydesignpatterns.org/ont/d0.owl#Location",
+        "http://dbpedia.org/ontology/ArchitecturalStructure",
+        "http://dbpedia.org/ontology/Building",
+        "http://dbpedia.org/ontology/Place",
+        "http://dbpedia.org/ontology/Wikidata:Q532"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Cuatro Caminos (Madrid) (http://es.dbpedia.org/resource/Cuatro_Caminos_(Madrid)) for cells containing \"Cuatro Caminos\" in column Situacion",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Situacion",
+    "similarValue": "Cuatro Caminos",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Cuatro_Caminos_(Madrid)",
+      "name": "Cuatro Caminos (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Plaza de España (http://dbpedia.org/resource/Plaza_de_Espa%C3%B1a) for cells containing \"Plaza de España\" in column Situacion",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Situacion",
+    "similarValue": "Plaza de España",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Plaza_de_Espa%C3%B1a",
+      "name": "Plaza de España",
+      "score": 1,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Hospital Universitario Ramon y Cajal (http://es.dbpedia.org/resource/Hospital_Universitario_Ramon_y_Cajal) for cells containing \"Ramon y Cajal\" in column Situacion",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Situacion",
+    "similarValue": "Ramon y Cajal",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Hospital_Universitario_Ramon_y_Cajal",
+      "name": "Hospital Universitario Ramon y Cajal",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Estación de Manuel Becerra (http://es.dbpedia.org/resource/Estación_de_Manuel_Becerra) for cells containing \"Plaza Manuel Becerra\" in column Situacion",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Situacion",
+    "similarValue": "Plaza Manuel Becerra",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Estación_de_Manuel_Becerra",
+      "name": "Estación de Manuel Becerra",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Vallecas (http://es.dbpedia.org/resource/Vallecas) for cells containing \"Vallecas\" in column Situacion",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Situacion",
+    "similarValue": "Vallecas",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Vallecas",
+      "name": "Vallecas",
+      "score": 1,
+      "types": [
+        "http://schema.org/AdministrativeArea",
+        "http://schema.org/Place",
+        "http://www.ontologydesignpatterns.org/ont/d0.owl#Location",
+        "http://dbpedia.org/ontology/AdministrativeRegion",
+        "http://dbpedia.org/ontology/Place",
+        "http://dbpedia.org/ontology/PopulatedPlace",
+        "http://dbpedia.org/ontology/Region",
+        "http://dbpedia.org/ontology/Wikidata:Q532"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Calle de Arturo Soria (http://es.dbpedia.org/resource/Calle_de_Arturo_Soria) for cells containing \"Arturo Soria\" in column Situacion",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Situacion",
+    "similarValue": "Arturo Soria",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Calle_de_Arturo_Soria",
+      "name": "Calle de Arturo Soria",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Estacion de Alto de Extremadura (http://es.dbpedia.org/resource/Estacion_de_Alto_de_Extremadura) for cells containing \"Alto Extremadura\" in column Situacion",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Situacion",
+    "similarValue": "Alto Extremadura",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Estacion_de_Alto_de_Extremadura",
+      "name": "Estacion de Alto de Extremadura",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Villaverde (http://es.dbpedia.org/resource/Villaverde) for cells containing \"Villaverde\" in column Situacion",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Situacion",
+    "similarValue": "Villaverde",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Villaverde",
+      "name": "Villaverde",
+      "score": 1,
+      "types": [
+        "http://schema.org/AdministrativeArea",
+        "http://schema.org/Place",
+        "http://www.ontologydesignpatterns.org/ont/d0.owl#Location",
+        "http://dbpedia.org/ontology/AdministrativeRegion",
+        "http://dbpedia.org/ontology/Place",
+        "http://dbpedia.org/ontology/PopulatedPlace",
+        "http://dbpedia.org/ontology/Region",
+        "http://dbpedia.org/ontology/Wikidata:Q532"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic El Pardo (http://es.dbpedia.org/resource/El_Pardo) for cells containing \"El Pardo\" in column Situacion",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Situacion",
+    "similarValue": "El Pardo",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/El_Pardo",
+      "name": "El Pardo",
+      "score": 1,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Casa de Campo (http://dbpedia.org/resource/Casa_de_Campo) for cells containing \"Casa de Campo\" in column Situacion",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Situacion",
+    "similarValue": "Casa de Campo",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Casa_de_Campo",
+      "name": "Casa de Campo",
+      "score": 1,
+      "types": [
+        "http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Cuatro Vientos (http://es.dbpedia.org/resource/Cuatro_Vientos) for cells containing \"Cuatro Vientos\" in column Situacion",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Situacion",
+    "similarValue": "Cuatro Vientos",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Cuatro_Vientos",
+      "name": "Cuatro Vientos",
+      "score": 1,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Ensanche de Vallecas (http://es.dbpedia.org/resource/Ensanche_de_Vallecas) for cells containing \"Ensanche de Vallecas\" in column Situacion",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Situacion",
+    "similarValue": "Ensanche de Vallecas",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Ensanche_de_Vallecas",
+      "name": "Ensanche de Vallecas",
+      "score": 1,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Campo de las Naciones (http://es.dbpedia.org/resource/Campo_de_las_Naciones) for cells containing \"Campo de las Naciones\" in column Situacion",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Situacion",
+    "similarValue": "Campo de las Naciones",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Campo_de_las_Naciones",
+      "name": "Campo de las Naciones",
+      "score": 1,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Calle de Mendez Alvaro (http://es.dbpedia.org/resource/Calle_de_Mendez_Alvaro) for cells containing \"Mendez alvaro\" in column Situacion",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Situacion",
+    "similarValue": "Mendez alvaro",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Calle_de_Mendez_Alvaro",
+      "name": "Calle de Mendez Alvaro",
+      "score": 0.528741213517792,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Paseo de la Castellana (http://es.dbpedia.org/resource/Paseo_de_la_Castellana) for cells containing \"Castellana\" in column Situacion",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Situacion",
+    "similarValue": "Castellana",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Paseo_de_la_Castellana",
+      "name": "Paseo de la Castellana",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Plaza de Castilla (http://es.dbpedia.org/resource/Plaza_de_Castilla) for cells containing \"Pza de Castilla\" in column Situacion",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Situacion",
+    "similarValue": "Pza de Castilla",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Plaza_de_Castilla",
+      "name": "Plaza de Castilla",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Estacion de Plaza Eliptica (http://es.dbpedia.org/resource/Estacion_de_Plaza_Eliptica) for cells containing \"Glorieta Fdez. Ladreda\" in column Situacion",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Situacion",
+    "similarValue": "Glorieta Fdez. Ladreda",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Estacion_de_Plaza_Eliptica",
+      "name": "Estacion de Plaza Eliptica",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Moratalaz (Madrid) (http://es.dbpedia.org/resource/Moratalaz_(Madrid)) for cells containing \"Avda de Moratalaz\" in column Situacion",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Situacion",
+    "similarValue": "Avda de Moratalaz",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Moratalaz_(Madrid)",
+      "name": "Moratalaz (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Barajas (http://es.dbpedia.org/resource/Barajas) for cells containing \"Barajas Pueblo\" in column Situacion",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Situacion",
+    "similarValue": "Barajas Pueblo",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Barajas",
+      "name": "Barajas",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Aeropuerto de Barajas (http://es.dbpedia.org/resource/Aeropuerto_de_Barajas) for cells containing \"Embajada\" in column Situacion",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Situacion",
+    "similarValue": "Embajada",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Aeropuerto_de_Barajas",
+      "name": "Aeropuerto de Barajas",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Aeropuerto de Barajas (http://es.dbpedia.org/resource/Aeropuerto_de_Barajas) for cells containing \"Urbanizacion Embajada II\" in column Situacion",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Situacion",
+    "similarValue": "Urbanizacion Embajada II",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Aeropuerto_de_Barajas",
+      "name": "Aeropuerto de Barajas",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Calle General Ricardos (http://es.dbpedia.org/resource/Calle_General_Ricardos) for cells containing \"Calle Farolillo\" in column Situacion",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Situacion",
+    "similarValue": "Calle Farolillo",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Calle_General_Ricardos",
+      "name": "Calle General Ricardos",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "https://www.linkeddataupm.es/group19/",
+      "prefixes": [
+        {
+          "name": "re",
+          "uri": "https://www.linkeddataupm.es/group19/resource/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "swpo",
+          "uri": "http://sw-portal.deri.org/ontologies/swportal#"
+        },
+        {
+          "name": "identity",
+          "uri": "http://www.identity.org/ontologies/identity.owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "lsweb",
+          "uri": "http://ontology.cybershare.utep.edu/ELSEWeb/elseweb-data.owl#"
+        },
+        {
+          "name": "voc",
+          "uri": "https://www.linkeddataupm.es/group19/vocabulary#"
+        },
+        {
+          "name": "msr",
+          "uri": "http://www.telegraphis.net/ontology/measurement/measurement#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Measurement",
+          "rdfTypes": [
+            {
+              "uri": "http://www.telegraphis.net/ontology/measurement/measurement#Measurement",
+              "curie": "msr:Measurement"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://ontology.cybershare.utep.edu/ELSEWeb/elseweb-data.owl#hasDate",
+              "curie": "lsweb:hasDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "Fecha"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLd",
+              "curie": "voc:pLd",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Ld"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLe",
+              "curie": "voc:pLe",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Le"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLn",
+              "curie": "voc:pLn",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "Ln"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAeq24",
+              "curie": "voc:pLAeq24",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAeq24"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAS01",
+              "curie": "voc:pLAS01",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAS01"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAS10",
+              "curie": "voc:pLAS10",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAS10"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAS50",
+              "curie": "voc:pLAS50",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAS50"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAS90",
+              "curie": "voc:pLAS90",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAS90"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#pLAS99",
+              "curie": "voc:pLAS99",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LAS99"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#hasCode",
+              "curie": "voc:hasCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Measurement"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Situacion",
+          "rdfTypes": [
+            {
+              "uri": "http://sw-portal.deri.org/ontologies/swportal#Location",
+              "curie": "swpo:Location"
+            }
+          ],
+          "links": [
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#hasNMT",
+              "curie": "voc:hasNMT",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NMT"
+              }
+            },
+            {
+              "uri": "https://www.linkeddataupm.es/group19/vocabulary#hasMeasurement",
+              "curie": "voc:hasMeasurement",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Measurement"
+              }
+            },
+            {
+              "uri": "http://www.identity.org/ontologies/identity.owl#hasName",
+              "curie": "identity:hasName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Situacion"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Measurement using expression grel:row.cells[\"NMT\"].value + \"_\" + substring(row.cells[\"Fecha\"].value, 1, 3)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Measurement",
+    "expression": "grel:row.cells[\"NMT\"].value + \"_\" + substring(row.cells[\"Fecha\"].value, 1, 3)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  }
+]

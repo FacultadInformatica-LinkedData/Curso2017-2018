@@ -6,6 +6,11 @@
   <link rel="stylesheet" href="main.css" type="text/css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Inconsolata|Pacifico|Rubik" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.js"></script>
+
   <body>
 
     <div class="w3-bar w3-white navbar w3-top ">
@@ -13,9 +18,10 @@
       <div class="links">
         <img src="img/icon.png" class="icon w3-left " />
         <a href="#" class="w3-bar-item homeLink w3-text-blue">Ruidos Madrid</a>
-        <a href="#" class="w3-bar-item  w3-hide-small w3-right w3-border w3-border-blue w3-round w3-round-medium w3-text-blue w3-hover-blue ">Quienes Somos</a>
-        <a href="#" class="w3-bar-item  w3-hide-small w3-right w3-hover-text-blue">Contribuye</a>
-        <a href="#" class="w3-bar-item  w3-hide-small w3-right w3-hover-text-blue">Estatisdicas</a>
+        <a href="#quienes" class="w3-bar-item  w3-hide-small w3-right w3-border w3-border-blue w3-round w3-round-medium w3-text-blue w3-hover-blue ">Quienes Somos</a>
+        <a href="#tabla2" class="w3-bar-item  w3-hide-small w3-right w3-hover-text-blue">Estadísticas</a>
+        <a href="#tabla" class="w3-bar-item  w3-hide-small w3-right w3-hover-text-blue">Datos</a>
+        <a href="#sobre" class="w3-bar-item  w3-hide-small w3-right w3-hover-text-blue">Sobre</a>
         <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium iconBar" onclick="myFunction()">&#9776;</a>
       </div>
     </div>
@@ -52,52 +58,95 @@
 
     </div>
 
-    <div class=" info w3-center w3-display-container w3-text-white">
+    <div id="sobre" class=" info w3-center w3-display-container w3-text-white">
       <div class="wallpaperInfo  w3-center"></div>
-      <div class="w3-display-middle">
+      <div class="w3-display-middle widthFull">
         <div class="infoText w3-text-blue">
-          ¿Que es la contaminación acústica?
+          ¿Qué es la contaminación acústica?
         </div>
         <div class="description">
           El término "contaminación acústica" hace referencia al ruido (entendido como sonido excesivo y molesto), provocado por las actividades humanas (tráfico, industrias, locales de ocio, aviones, barcos, entre otros.) que produce efectos negativos sobre la salud auditiva, física y mental de los seres vivos.<br><br>
           Este término está estrechamente relacionado con el ruido debido a que esta se da cuando el ruido es considerado como un contaminante, es decir, un sonido molesto que puede producir efectos nocivos fisiológicos y psicológicos para una persona o grupo de personas.<br><br>
-          Las principales causas de la contaminación acústica son aquellas relacionadas con las actividades humanas como el transporte, la construcción de edificios, obras públicas y las industrias, entre otras.
+          Las principales causas de la contaminación acústica son aquellas relacionadas con las actividades humanas como el transporte, la construcción de edificios, obras públicas y las industrias, entre otras.<br><br>
+	  Los datos mostrados a continuación, corresponden a los niveles sonoros medios de distintos barrios de la ciudad de Madrid durante el 2017 durante el día (Ld), la tarde (Le), y la noche (Ld).<br><br>
+	  En la sección estadísticas se incluye la media ponderada a lo largo de todo el día, y los niveles de presión sonora que se sobrepasan.
+
         </div>
       </div>
 
     </div>
 
     <div class="w3-container w3-center divMapa">
-
       <div class="titleMapa w3-text-blue">
 
         Mapa de la contaminación
 
       </div>
+      <div id="tabla" class="col-md-8 col-md-offset-2 col-sm-12 com-sm-offset-0 infoBario">
 
-      <div class="mapaMain" >
+        <div class="nameBario">
+          Bario Name
+        </div>
+        <br>
+        <div class="statsBario">
+          x<br>
+          y<br>
+          z<br>
+        </div>
+      </div>
+    </div>
 
-        <img src="img/mapa1.png" class="fullImg" />
+
+
+    <div class="buttonsDiv w3-conteiner col-md-4 col-md-offset-4">
+      <div class="w3-button w3-left w3-border  w3-round w3-round-medium w3-text-black w3-hover-gray w3-blue " onclick="changeTable(-1)">Mes anterior</div>
+
+      <div class="w3-button w3-right w3-border  w3-round w3-round-medium w3-text-black w3-hover-gray w3-blue" onclick="changeTable(1)">Mes siguiente</div>
+    </div>
+
+    <div class="w3-container w3-center divMapa">
+      <div class="titleMapa w3-text-blue">
+
+        Estadísticas
 
       </div>
 
+      <div id="tabla2" class="col-md-8 col-md-offset-2 col-sm-12 com-sm-offset-0">
+
+        <div class="nameBario">
+          Bario Name
+        </div>
+        <br>
+        <div class="statsBario">
+          x<br>
+          y<br>
+          z<br>
+        </div>
+      </div>
     </div>
 
-    <div class="footer w3-center w3-text-white">
+    <div class="buttonsDiv w3-conteiner col-md-4 col-md-offset-4">
+      <div class="w3-button w3-left w3-border  w3-round w3-round-medium w3-text-black w3-hover-gray w3-blue " onclick="changeEstat(-1)">Mes anterior</div>
 
+      <div class="w3-button w3-right w3-border  w3-round w3-round-medium w3-text-black w3-hover-gray w3-blue" onclick="changeEstat(1)">Mes siguiente</div>
+    </div>
+
+
+    <div id="quienes" class="footer w3-center w3-text-white">
+      <div class="grupo"> Grupo 19 </div>
       <div class="logoFooter">
-        <img src="img/icon.png" class="fullImg " />
+        <img src="img/upmpng.png" class="fullImg" />
       </div>
       <div class="minitext">
-
         Ruidos Madrid | Proyecto de Web Semántica<br><br>
-        by: Adriller Ferreira, Abrahan Carrera y Fernando xxxxx
-        
-        
+        Adriller Ferreira, Abraham Carrera y Fernando Moreno
       </div>
     </div>
 
+
     <script>
+      var mes = 9;
+      var mesEstat = 9;
       function myFunction() {
         var x = document.getElementById("demo");
         if (x.className.indexOf("w3-show") == -1) {
@@ -106,6 +155,56 @@
           x.className = x.className.replace(" w3-show", "");
         }
       }
+
+      $(document).ready(function() {
+
+        getData(mes);
+        getEstat(mesEstat);
+
+
+      });
+
+      $('#tabla1').ready(function() {
+
+        $('#tabla1').DataTable();
+
+      });
+
+      function getData(mes){
+        $.get('http://localhost/ruidosmadrid_server/reader.php', 'mes=0' + mes)
+          .done(function(data){
+          //alert(data);
+          $('.infoBario').html(data);
+
+        });
+      }
+      function changeTable(incr){
+        //alert(incr);
+        mes += incr;
+        if(mes > 9 || mes < 1)
+          return;
+
+        getData(mes);
+      }
+
+      function getEstat(mesEstat){
+        $.get('http://localhost/ruidosmadrid_server/reader.php', 'estat=true&mes=0' + mesEstat)
+          .done(function(data){
+          //alert(data);
+	
+          $('#tabla2').html(data);
+
+        });
+      }
+
+      function changeEstat(incr){
+        mesEstat += incr;
+        if(mesEstat > 9 || mesEstat < 1)
+          return;
+
+        getEstat(mesEstat);
+      }
+
     </script>
 
   </body>

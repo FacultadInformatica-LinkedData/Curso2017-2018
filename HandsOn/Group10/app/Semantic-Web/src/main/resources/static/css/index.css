@@ -1,0 +1,145 @@
+* {
+	/* Resetting defaults */
+	margin: 0;
+	padding: 0;
+	/* The padding and margin of the elements do not increase their width */
+	box-sizing: border-box;
+	/* Specific properties */
+	font-size: 2vw;
+}
+
+#header {
+	height: 150px;
+}
+
+#header #image {
+	/* If you have a 150-pixel wide image in your grid, you probably don't
+	 want its column to get thinner than 150 pixels! */
+	background-image:
+		url("http://www.dogroup.es/wp-content/uploads/2015/04/Ordenanza-de-Proteccion-contra-la-Contaminacion-Acustica-y-Termica-OPCAT1-1503x1000.jpg");
+	height: 150px;
+	background-position: center;
+}
+
+#boton {
+	padding: 10px;
+}
+
+#sel {
+	padding: 10px 15px 11px !important;
+	font-size: 12px !important;
+	outline: none;
+	background-color: grey;
+	font-weight: bold;
+	text-shadow: 1px 1px black;
+	color: #ffffff;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 1px solid black;
+	cursor: pointer;
+	box-shadow: 0 1px 0 black inset;
+	-moz-box-shadow: 0 1px 0 black inset;
+	-webkit-box-shadow: 0 1px 0 grey inset;
+	width: 100%;
+	text-align: center;
+}
+
+#sil {
+	padding: 14px 15px 11px !important;
+	font-size: 9px !important;
+	outline: none;
+	background-color: grey;
+	font-weight: bold;
+	text-shadow: 1px 1px black;
+	color: #ffffff;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 1px solid black;
+	cursor: pointer;
+	box-shadow: 0 1px 0 black inset;
+	-moz-box-shadow: 0 1px 0 black inset;
+	-webkit-box-shadow: 0 1px 0 grey inset;
+	width: 100%;
+	text-align: center;
+}
+
+#sol {
+	padding: 12px 15px 11px !important;
+	font-size: 11px !important;
+	outline: none;
+	background-color: grey;
+	font-weight: bold;
+	text-shadow: 1px 1px black;
+	color: #ffffff;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 1px solid black;
+	cursor: pointer;
+	box-shadow: 0 1px 0 black inset;
+	-moz-box-shadow: 0 1px 0 black inset;
+	-webkit-box-shadow: 0 1px 0 grey inset;
+	width: 100%;
+	text-align: center;
+}
+
+.input_zone {
+	content-align: center;
+	text-align: center;
+}
+
+.input_zone form input {
+	border-radius: 5px;
+	outline: none;
+}
+
+.input_zone form input:focus::-webkit-input-placeholder { 
+	color:transparent;
+}
+
+.input_zone form input:focus:-moz-placeholder {
+	color:transparent; 
+}
+
+.input_zone form input { 
+	padding-left: 10px;
+}
+
+.input_zone form input:focus { 
+	padding-left: 10px;
+}
+
+.input_zone form button {
+	border-radius: 5px;
+	margin: 5px;
+	width: 15%;
+	outline: none;
+}
+
+.box {
+	display: block;
+	font-style: italic;
+	line-height: 20px;
+	margin-left: 30px;
+	padding: 15px;
+	position: relative;
+	top: 25%;
+	width: 35%;
+	height: 55%;
+	background-color: white;
+	color: black;
+	opacity: 0.75;
+	border-radius: 10px;
+	font-family: Georgia;
+}
+
+.box p {
+	font-size: 14px;
+	padding: 2px;
+}
+
+.box .title {
+	font-size: 36px;
+}

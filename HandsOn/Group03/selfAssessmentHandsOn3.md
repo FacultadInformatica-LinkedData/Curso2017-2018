@@ -7,7 +7,7 @@
 - [X] Uses the .ttl extension
 - [X] Is serialized in the Turtle format
 - [X] Follows the resource naming strategy
-- [ ] Uses class and property URIs that are the same as those used in the ontology
+- [X] Uses class and property URIs that are the same as those used in the ontology
 
 **Every URI in the RDF files:**
 

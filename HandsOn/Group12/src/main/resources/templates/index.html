@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Home</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css"/>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.min.js"></script>
+</head>
+<style>
+html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+
+
+</style>
+<body class="w3-light-grey">
+
+<!-- Top container -->
+<div class="w3-bar w3-top w3-black w3-large" style="z-index:4">
+    <span class="w3-bar-item w3-right">Bienvenido</span>
+</div>
+
+
+<div class="w3-col s4">
+    <a th:href="@{/}"><img src="../images/logo_alcobendas.jpg" class="w3-margin-right" style="width:100px"/></a>
+</div>
+
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:130px;margin-top:43px;">
+
+    <!-- Header -->
+    <header class="w3-container" style="padding-top:22px">
+        <h5><b><i class="fa fa-dashboard"></i> Servicio de autobuses de la ciudad de Alcobendas</b></h5>
+    </header>
+
+    <div class="w3-container">
+        <div>
+            <a th:href="@{/routes}">
+                <button class="w3-button w3-border w3-teal w3-half w3-padding-16">
+                    <div class="w3-left"><i class="fa fa-bus w3-xxxlarge"></i></div>
+                    <h2>Líneas de autobús</h2>
+                </button>
+            </a>
+        </div>
+        <div>
+            <a th:href="@{/stops}">
+                <button class="w3-button w3-border w3-blue w3-half w3-padding-16">
+                    <div class="w3-left"><i class="fa fa-map w3-xxxlarge"></i></div>
+                    <h2>Paradas de autobús</h2>
+                </button>
+            </a>
+        </div>
+    </div>
+
+    <h2>Mapa de paradas</h2>
+    <div class="w3-panel">
+        <div class="w3-row-padding" style="margin:0 auto;">
+            <div class="w3-third">
+                <div id="mapdiv" class="largemap">
+                    <style>
+                        .largemap{
+                            width: 1100px;
+                            height: 600px;
+                            border: 1px solid #ccc;
+                            text-align: center;
+                            vertical-align: middle;
+                        }
+                    </style>
+                    <script src="http://www.openlayers.org/api/OpenLayers.js"></script>
+
+                    <script th:inline="javascript">
+                        /*<![CDATA[*/
+                        // Consulta SPARQL
+                        function sparqlQueryJson(queryStr, endpoint, callback, isDebug) {
+                          var querypart = "query=" + escape(queryStr);
+                          var xmlhttp = null;
+                          if(window.XMLHttpRequest) {
+                            xmlhttp = new XMLHttpRequest();
+                         } else if(window.ActiveXObject) {
+                           xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+                         }
+                         xmlhttp.open('POST', endpoint, true);
+                         xmlhttp.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+                         xmlhttp.setRequestHeader("Accept", "application/sparql-results+json");
+                         xmlhttp.onreadystatechange = function() {
+                           if(xmlhttp.readyState == 4) {
+                             if(xmlhttp.status == 200) {
+                               if(isDebug) {
+                                    // Ver resultados de la consulta SPARQL
+                                    /*alert(xmlhttp.responseText);*/
+                               }
+                               callback(xmlhttp.responseText);
+                             }
+                           }
+                         };
+                         xmlhttp.send(querypart);
+                        };
+
+                        // Mapa OSM
+                        map = new OpenLayers.Map("mapdiv");
+                        map.addLayer(new OpenLayers.Layer.OSM());
+                        var center = new OpenLayers.LonLat( -3.65 ,40.4).transform(
+                                new OpenLayers.Projection("EPSG:4326"),
+                                map.getProjectionObject()
+                              );
+                        var zoom=8;
+
+
+                          var endpoint = "http://localhost:8890/sparql";
+
+                        var query = "PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> PREFIX : <http://www.semanticweb.org/group12/ontology#> PREFIX dbpedia: <http://dbpedia.org/page/> SELECT ?lati ?longi WHERE {?obs a dbpedia:Bus_stop; geo:lat ?lati; geo:long ?longi. }" ;
+                        function myCallback(str) {
+                            str = eval('(' + str + ')');
+                            for(var i = 0; i<  str.results.bindings.length; i++) {
+                              var la = str.results.bindings[i].lati.value;
+                              var lo = str.results.bindings[i].longi.value;
+                              var pos = new OpenLayers.LonLat( lo ,la).transform(
+                                new OpenLayers.Projection("EPSG:4326"),
+                                map.getProjectionObject()
+                                );
+                              var zoom=16;
+
+                              var markers = new OpenLayers.Layer.Markers( "Markers" );
+                              map.addLayer(markers);
+
+                              markers.addMarker(new OpenLayers.Marker(pos));
+                            }
+                            map.setCenter (pos, zoom);
+                         }
+                        sparqlQueryJson(query, endpoint, myCallback, true);
+                        /*]]>*/
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h2>Distribución de las paradas</h2>
+    <div id="myfirstchart" style="height: 250px;"></div>
+    <script th:inline="javascript">
+    /*<![CDATA[*/
+    new Morris.Donut({
+      // ID of the element in which to draw the chart.
+      element: 'myfirstchart',
+      // Chart data records -- each entry in this array corresponds to a point on
+      // the chart.
+      data: [
+        { label: "Zona A", value: [[${stats.get(0)}]] },
+        { label: "Zona B1", value: [[${stats.get(1)}]] },
+        { label: "Zona B2", value: [[${stats.get(2)}]] },
+        { label: "Zona B3", value: [[${stats.get(3)}]] }
+      ],
+
+    });
+    /*]]>*/
+    </script>
+
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-16 w3-light-grey">
+        <p>Powered by
+            <a href="http://datos.alcobendas.org/dataset?tags=Autob%C3%BAs&amp;groups=transporte">
+                Ayuntamiento de Alcobendas
+            </a>
+        </p>
+    </footer>
+
+    <!-- End page content -->
+</div>
+
+</body>
+</html>
