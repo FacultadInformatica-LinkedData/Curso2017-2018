@@ -65,7 +65,7 @@
   },
   {
     "op": "core/recon",
-    "description": "Reconcile cells in column City to type http://schema.org/Place",
+    "description": "Reconcile cells in column City to type http://dbpedia.org/ontology/AdministrativeRegion",
     "columnName": "City",
     "config": {
       "mode": "standard-service",
@@ -73,8 +73,8 @@
       "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
       "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
       "type": {
-        "id": "http://schema.org/Place",
-        "name": "schema:Place"
+        "id": "http://dbpedia.org/ontology/AdministrativeRegion",
+        "name": "dbo:AdministrativeRegion"
       },
       "autoMatch": true,
       "columnDetails": []
@@ -111,7 +111,7 @@
   },
   {
     "op": "core/recon-judge-similar-cells",
-    "description": "Match topic Zaragoza (http://dbpedia.org/resource/Zaragoza) for cells containing \"Zaragoza\" in column City",
+    "description": "Match topic Zaragoza (http://es.dbpedia.org/resource/Zaragoza) for cells containing \"Zaragoza\" in column City",
     "engineConfig": {
       "facets": [
         {
@@ -145,7 +145,7 @@
     "similarValue": "Zaragoza",
     "judgment": "matched",
     "match": {
-      "id": "http://dbpedia.org/resource/Zaragoza",
+      "id": "http://es.dbpedia.org/resource/Zaragoza",
       "name": "Zaragoza",
       "score": 1,
       "types": [
@@ -156,7 +156,7 @@
   },
   {
     "op": "core/column-addition",
-    "description": "Create column Zaragoza URI from DBpedia at index 5 based on column City using expression grel:cell.recon.match.id",
+    "description": "Create column City's URI at index 5 based on column City using expression grel:cell.recon.match.id",
     "engineConfig": {
       "facets": [
         {
@@ -186,7 +186,7 @@
       ],
       "mode": "row-based"
     },
-    "newColumnName": "Zaragoza URI from DBpedia",
+    "newColumnName": "City's URI",
     "columnInsertIndex": 5,
     "baseColumnName": "City",
     "expression": "grel:cell.recon.match.id",
@@ -271,13 +271,15 @@
               }
             },
             {
-              "uri": "http://schema.org/Place",
-              "curie": "schema:Place",
+              "uri": "http://schema.org/addressLocality",
+              "curie": "schema:addressLocality",
               "target": {
-                "nodeType": "cell-as-literal",
+                "nodeType": "cell-as-resource",
                 "expression": "value",
                 "isRowNumberCell": false,
-                "columnName": "Zaragoza URI from DBpedia"
+                "columnName": "City's URI",
+                "rdfTypes": [],
+                "links": []
               }
             },
             {
