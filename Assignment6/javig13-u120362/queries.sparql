@@ -1,0 +1,38 @@
+#Query 1
+
+select SUM(?number)
+where
+{
+	?n <http://example.org/myVocabulary#number>number ?.
+}
+
+#Query2
+select  ?number
+where
+{
+	?site <http://example.org/myVocabulary#inDistrict> "Usera".
+	?site <http://example.org/myVocabulary#number> ?number.
+}
+
+# Query3
+
+select ?District ?number
+where
+{
+  ?multipleCollision <http://example.org/myVocabulary#number> ?number.
+	?multipleCollision <http://example.org/myVocabulary#inDistrict> ?District.
+	
+}
+
+# Query4
+
+select ?number ?District
+where 
+{
+
+?bicycleFall <http://example.org/myVocabulary#inDistrict> ?District.
+?bicycleFall<http://example.org/myVocabulary#number> ?number.
+}
+ORDER by desc(?number)
+LIMIT 1
+

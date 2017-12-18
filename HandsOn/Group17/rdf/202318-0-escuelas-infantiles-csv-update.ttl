@@ -1,0 +1,894 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEducacion/EscuelasInfantilesPublicas/58241> <http://www.fiupmwsld.org/handson/group17/tieneNombre> "Escuela infantil municipal Agua Dulce" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneEquipamiento> "Horario ampliado.  Comedor." ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTransporte> "BUS: 44 , 128" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneDescripcion> "ENSE�ANZA: Educaci�n Infantil (Primer Ciclo)" ;
+	<http://data.lirmm.fr/ontologies/passim#isAccessibilityForDisabledPerson> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneURL> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2b0e8ed67151c010VgnVCM2000000c205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTipoCalle> "CALLE LE�EROS" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneNumeroCalle> "25" ;
+	<http://dbpedia.org/ontology/postalCode> "28039" ;
+	<http://data.ign.fr/def/geometrie#coordX> "439961" ;
+	<http://data.ign.fr/def/geometrie#coordY> "4478605" ;
+	<https://www.w3.org/2006/vcard/ns#latitude> "40.45406088024461" ;
+	<https://www.w3.org/2006/vcard/ns#longitude> "-3.7093713617566357" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTelefono> "914594049" ;
+	<http://schema.org/email> "eiaguadulce@madrid.es" .
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEducacion/EscuelasInfantilesPublicas/4549323> <http://www.fiupmwsld.org/handson/group17/tieneNombre> "Escuela infantil municipal Altair" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTransporte> "BUS: 34, 117, 155" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneDescripcion> "ENSE�ANZA: Educaci�n infantil (Primer ciclo)" ;
+	<http://data.lirmm.fr/ontologies/passim#isAccessibilityForDisabledPerson> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneURL> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f1bdba525ad91110VgnVCM1000000b205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTipoCalle> "CALLE JOSE DE CADALSO" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneNumeroCalle> "43" ;
+	<http://dbpedia.org/ontology/postalCode> "28044" ;
+	<http://data.ign.fr/def/geometrie#coordX> "434857" ;
+	<http://data.ign.fr/def/geometrie#coordY> "4470219" ;
+	<https://www.w3.org/2006/vcard/ns#latitude> "40.37813189249392" ;
+	<https://www.w3.org/2006/vcard/ns#longitude> "-3.7687005492302084" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTelefono> "917652101" ;
+	<http://schema.org/email> "eialtair@madrid.es" .
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEducacion/EscuelasInfantilesPublicas/5299172> <http://www.fiupmwsld.org/handson/group17/tieneNombre> "Escuela infantil municipal Amanecer" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTransporte> "METRO: SAN CIPRIANO, PUERTA DE ARGANDA   BUS: 4, 71, 100" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneDescripcion> "ENSE�ANZA: Educaci�n infantil (Primer Ciclo)." ;
+	<http://data.lirmm.fr/ontologies/passim#isAccessibilityForDisabledPerson> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneURL> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=eccf1e73b1f90210VgnVCM1000000b205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTipoCalle> "CALLE TITANIO" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneNumeroCalle> "7" ;
+	<http://dbpedia.org/ontology/postalCode> "28032" ;
+	<http://data.ign.fr/def/geometrie#coordX> "449107" ;
+	<http://data.ign.fr/def/geometrie#coordY> "4472757" ;
+	<https://www.w3.org/2006/vcard/ns#latitude> "40.40198995600377" ;
+	<https://www.w3.org/2006/vcard/ns#longitude> "-3.6010443459563537" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTelefono> "917765069" ;
+	<http://schema.org/email> "eiamanecer@madrid.es" .
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEducacion/EscuelasInfantilesPublicas/5633312> <http://www.fiupmwsld.org/handson/group17/tieneNombre> "Escuela infantil municipal Ana de Austria" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneEquipamiento> "Educaci�n de 0 a 3 a�os" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTransporte> "BUS: 172, 173" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneDescripcion> "ENSE�ANZA: Educaci�n infantil (Primer ciclo)" ;
+	<http://data.lirmm.fr/ontologies/passim#isAccessibilityForDisabledPerson> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneURL> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8d4006112d3b7210VgnVCM2000000c205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTipoCalle> "CALLE ANA DE AUSTRIA" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneNumeroCalle> "32" ;
+	<http://dbpedia.org/ontology/postalCode> "28050" ;
+	<http://data.ign.fr/def/geometrie#coordX> "444543" ;
+	<http://data.ign.fr/def/geometrie#coordY> "4483172" ;
+	<https://www.w3.org/2006/vcard/ns#latitude> "40.49552153813781" ;
+	<https://www.w3.org/2006/vcard/ns#longitude> "-3.655736850911649" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTelefono> "917500832" ;
+	<http://schema.org/email> "eianadeaustria@madrid.es" .
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEducacion/EscuelasInfantilesPublicas/4724002> <http://www.fiupmwsld.org/handson/group17/tieneNombre> "Escuela infantil municipal Campanilla" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTransporte> "METRO: ALVARADO   BUS: 124, 128, 3, 64, 66,772, L1" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneDescripcion> "ENSE�ANZA: Educaci�n infantil (Primer Ciclo)" ;
+	<http://data.lirmm.fr/ontologies/passim#isAccessibilityForDisabledPerson> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneURL> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=635e47123dc77110VgnVCM1000000b205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTipoCalle> "CALLE AVILA" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneNumeroCalle> "4" ;
+	<http://dbpedia.org/ontology/postalCode> "28020" ;
+	<http://data.ign.fr/def/geometrie#coordX> "440585" ;
+	<http://data.ign.fr/def/geometrie#coordY> "4478449" ;
+	<https://www.w3.org/2006/vcard/ns#latitude> "40.452700492043" ;
+	<https://www.w3.org/2006/vcard/ns#longitude> "-3.7019980764784606" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTelefono> "915707576" ;
+	<http://schema.org/email> "eicampanilla@madrid.es" .
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEducacion/EscuelasInfantilesPublicas/5252087> <http://www.fiupmwsld.org/handson/group17/tieneNombre> "Escuela infantil municipal Cielo Azul" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneEquipamiento> "Horario ampliado.  Comedor." ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTransporte> "METRO: VALDEBERNARDO   BUS: 8, 71, 130" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneDescripcion> "ENSE�ANZA: Educaci�n infantil (Primer Ciclo)" ;
+	<http://data.lirmm.fr/ontologies/passim#isAccessibilityForDisabledPerson> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneURL> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a9a997bd1dd8f110VgnVCM1000000b205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTipoCalle> "BULEVAR INDALECIO PRIETO" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneNumeroCalle> "16" ;
+	<http://dbpedia.org/ontology/postalCode> "28032" ;
+	<http://data.ign.fr/def/geometrie#coordX> "447397" ;
+	<http://data.ign.fr/def/geometrie#coordY> "4472750" ;
+	<https://www.w3.org/2006/vcard/ns#latitude> "40.40182039479394" ;
+	<https://www.w3.org/2006/vcard/ns#longitude> "-3.6211941394147757" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTelefono> "917720849" ;
+	<http://schema.org/email> "eicieloazul@madrid.es" .
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEducacion/EscuelasInfantilesPublicas/5633339> <http://www.fiupmwsld.org/handson/group17/tieneNombre> "Escuela infantil municipal Do�a Francisquita" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneEquipamiento> "Horario ampliado - Comedor" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTransporte> "BUS: 87" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneDescripcion> "ENSE�ANZA: Educaci�n infantil (Primer ciclo)" ;
+	<http://data.lirmm.fr/ontologies/passim#isAccessibilityForDisabledPerson> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneURL> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=22fa44dd9d3b7210VgnVCM2000000c205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTipoCalle> "CALLE CAMBADOS" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneNumeroCalle> "1" ;
+	<http://dbpedia.org/ontology/postalCode> "28050" ;
+	<http://data.ign.fr/def/geometrie#coordX> "446691" ;
+	<http://data.ign.fr/def/geometrie#coordY> "4481287" ;
+	<https://www.w3.org/2006/vcard/ns#latitude> "40.47868156347292" ;
+	<https://www.w3.org/2006/vcard/ns#longitude> "-3.6302312847478593" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTelefono> "917642004" ;
+	<http://schema.org/email> "eidonafrancisquita@madrid.es" .
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEducacion/EscuelasInfantilesPublicas/28779> <http://www.fiupmwsld.org/handson/group17/tieneNombre> "Escuela infantil municipal El Alba" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneEquipamiento> "Horario ampliado.  Comedor." ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTransporte> "METRO: PIR�MIDES  BUS: 18 , 23 , 34 , 35 , 36 , 116 , 118 , 119" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneDescripcion> "ENSE�ANZA: Educaci�n infantil (Primer ciclo)" ;
+	<http://data.lirmm.fr/ontologies/passim#isAccessibilityForDisabledPerson> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneURL> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0b41059cb751c010VgnVCM2000000c205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTipoCalle> "CALLE TOLEDO" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneNumeroCalle> "181" ;
+	<http://dbpedia.org/ontology/postalCode> "28005" ;
+	<http://data.ign.fr/def/geometrie#coordX> "439563" ;
+	<http://data.ign.fr/def/geometrie#coordY> "4472803" ;
+	<https://www.w3.org/2006/vcard/ns#latitude> "40.4017650455756" ;
+	<https://www.w3.org/2006/vcard/ns#longitude> "-3.713512276375299" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTelefono> "915173351" ;
+	<http://schema.org/email> "eielalba@madrid.es" .
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEducacion/EscuelasInfantilesPublicas/5632719> <http://www.fiupmwsld.org/handson/group17/tieneNombre> "Escuela infantil municipal El Barberillo de Lavapi�s" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneEquipamiento> "Educaci�n de 0 a 3 a�os" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTransporte> "METRO: ARGANZUELA-PLANETARIO, LEGAZPI   BUS: 8, 19, 45, 47, 59, 62, 76, 85, 86, 247" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneDescripcion> "ENSE�ANZA: Educaci�n infantil (Primer ciclo)" ;
+	<http://data.lirmm.fr/ontologies/passim#isAccessibilityForDisabledPerson> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneURL> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d96b9b6d163b7210VgnVCM2000000c205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTipoCalle> "CALLE GRANITO" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneNumeroCalle> "32" ;
+	<http://dbpedia.org/ontology/postalCode> "28045" ;
+	<http://data.ign.fr/def/geometrie#coordX> "441538" ;
+	<http://data.ign.fr/def/geometrie#coordY> "4471894" ;
+	<https://www.w3.org/2006/vcard/ns#latitude> "40.39371756597044" ;
+	<https://www.w3.org/2006/vcard/ns#longitude> "-3.6901560198197485" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTelefono> "644025184" ;
+	<http://schema.org/email> "elbarberillolavapies@madrid.es" .
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEducacion/EscuelasInfantilesPublicas/5632789> <http://www.fiupmwsld.org/handson/group17/tieneNombre> "Escuela infantil municipal El Bateo" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneEquipamiento> "Educaci�n de 0 a 3 a�os" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTransporte> "METRO: EL CAPRICHO   BUS: 101, 114, 115, 151" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneDescripcion> "ENSE�ANZA: Educaci�n infantil (Primer ciclo)" ;
+	<http://data.lirmm.fr/ontologies/passim#isAccessibilityForDisabledPerson> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneURL> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=16ec2739d73b7210VgnVCM2000000c205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTipoCalle> "CALLE PINOS DE OSUNA" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneNumeroCalle> "3" ;
+	<http://dbpedia.org/ontology/postalCode> "28042" ;
+	<http://data.ign.fr/def/geometrie#coordX> "449897" ;
+	<http://data.ign.fr/def/geometrie#coordY> "4478209" ;
+	<https://www.w3.org/2006/vcard/ns#latitude> "40.45115316018945" ;
+	<https://www.w3.org/2006/vcard/ns#longitude> "-3.5921656725702142" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTelefono> "917414436" ;
+	<http://schema.org/email> "eielbateo@madrid.es" .
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEducacion/EscuelasInfantilesPublicas/172970> <http://www.fiupmwsld.org/handson/group17/tieneNombre> "Escuela infantil municipal El Bosque" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneEquipamiento> "Horario ampliado.  Comedor." ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTransporte> "METRO: PALOS DE LA FRONTERA  BUS: 6 , 8 , 19 , 27 , 45 , 47 , 55 , 59 , 85 , 86 , 102 , 247 CERCAN�AS  RENFE: ATOCHA" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneDescripcion> "ENSE�ANZA: Educaci�n infantil (Primer ciclo)" ;
+	<http://data.lirmm.fr/ontologies/passim#isAccessibilityForDisabledPerson> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneURL> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c40ce0e1f181c010VgnVCM1000000b205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTipoCalle> "CALLE DELICIAS" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneNumeroCalle> "32" ;
+	<http://dbpedia.org/ontology/postalCode> "28045" ;
+	<http://data.ign.fr/def/geometrie#coordX> "441090" ;
+	<http://data.ign.fr/def/geometrie#coordY> "4473078" ;
+	<https://www.w3.org/2006/vcard/ns#latitude> "40.4043520221113" ;
+	<https://www.w3.org/2006/vcard/ns#longitude> "-3.695544214066272" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTelefono> "915271590" ;
+	<http://schema.org/email> "eielbosque@madrid.es" .
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEducacion/EscuelasInfantilesPublicas/5633412> <http://www.fiupmwsld.org/handson/group17/tieneNombre> "Escuela infantil municipal El Caser�o" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneEquipamiento> "Educaci�n de 0 a 3 a�os" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTransporte> "BUS: 310, 136, 10, 103" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneDescripcion> "ENSE�ANZA: Educaci�n infantil (Primer ciclo)" ;
+	<http://data.lirmm.fr/ontologies/passim#isAccessibilityForDisabledPerson> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneURL> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6b381ec1fe3b7210VgnVCM2000000c205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTipoCalle> "CALLE MARIA TERESA ROBLEDO" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneNumeroCalle> "3" ;
+	<http://dbpedia.org/ontology/postalCode> "28018" ;
+	<http://data.ign.fr/def/geometrie#coordX> "444280" ;
+	<http://data.ign.fr/def/geometrie#coordY> "4471171" ;
+	<https://www.w3.org/2006/vcard/ns#latitude> "40.3873926648154" ;
+	<https://www.w3.org/2006/vcard/ns#longitude> "-3.6577856265450226" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTelefono> "913808654" ;
+	<http://schema.org/email> "eielcaserio@madrid.es" .
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEducacion/EscuelasInfantilesPublicas/100359> <http://www.fiupmwsld.org/handson/group17/tieneNombre> "Escuela infantil municipal El Duende" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneEquipamiento> "Horario ampliado.  Comedor." ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTransporte> "METRO: TRIBUNAL  BUS: 3 , 21 , 40 , 147 , 149" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneDescripcion> "ENSE�ANZA: Educaci�n infantil (Primer ciclo)" ;
+	<http://data.lirmm.fr/ontologies/passim#isAccessibilityForDisabledPerson> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneURL> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=db458899fc81c010VgnVCM1000000b205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTipoCalle> "PLAZA DOS DE MAYO" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneNumeroCalle> "2" ;
+	<http://dbpedia.org/ontology/postalCode> "28004" ;
+	<http://data.ign.fr/def/geometrie#coordX> "440343" ;
+	<http://data.ign.fr/def/geometrie#coordY> "4475575" ;
+	<https://www.w3.org/2006/vcard/ns#latitude> "40.42679288775549" ;
+	<https://www.w3.org/2006/vcard/ns#longitude> "-3.7045815049836723" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTelefono> "915235187" ;
+	<http://schema.org/email> "eielduende@madrid.es" .
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEducacion/EscuelasInfantilesPublicas/58242> <http://www.fiupmwsld.org/handson/group17/tieneNombre> "Escuela infantil municipal El Lir�n" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneEquipamiento> "Horario ampliado.  Comedor.  Planes de mejora." ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTransporte> "METRO: ARTILLEROS  BUS: 8 , 20 , 30 , 71 , 100" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneDescripcion> "ENSE�ANZA: Educaci�n Infantil (Primer Ciclo)" ;
+	<http://data.lirmm.fr/ontologies/passim#isAccessibilityForDisabledPerson> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneURL> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=713e8ed67151c010VgnVCM2000000c205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTipoCalle> "CALLE PICO DE LOS ARTILLEROS" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneNumeroCalle> "123" ;
+	<http://dbpedia.org/ontology/postalCode> "28030" ;
+	<http://data.ign.fr/def/geometrie#coordX> "445583" ;
+	<http://data.ign.fr/def/geometrie#coordY> "4472732" ;
+	<https://www.w3.org/2006/vcard/ns#latitude> "40.40154142411511" ;
+	<https://www.w3.org/2006/vcard/ns#longitude> "-3.642568350981219" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTelefono> "913712712" ;
+	<http://schema.org/email> "eielliron@madrid.es" .
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEducacion/EscuelasInfantilesPublicas/4552951> <http://www.fiupmwsld.org/handson/group17/tieneNombre> "Escuela infantil municipal El Manantial" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneEquipamiento> "Educaci�n de 0 a 3 a�os" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTransporte> "METRO: LAGUNA  BUS: 31 , 119 , 138  RENFE: LAGUNA" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneDescripcion> "ENSE�ANZA: Educaci�n infantil (Primer ciclo)" ;
+	<http://data.lirmm.fr/ontologies/passim#isAccessibilityForDisabledPerson> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneURL> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c1011d02d25d1110VgnVCM1000000b205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTipoCalle> "CALLE CARLOS FUENTES" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneNumeroCalle> "2" ;
+	<http://dbpedia.org/ontology/postalCode> "28047" ;
+	<http://data.ign.fr/def/geometrie#coordX> "436960" ;
+	<http://data.ign.fr/def/geometrie#coordY> "4472938" ;
+	<https://www.w3.org/2006/vcard/ns#latitude> "40.40278783515925" ;
+	<https://www.w3.org/2006/vcard/ns#longitude> "-3.7441981544259706" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTelefono> "914640597" ;
+	<http://schema.org/email> "eielmanantial@madrid.es" .
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEducacion/EscuelasInfantilesPublicas/5981488> <http://www.fiupmwsld.org/handson/group17/tieneNombre> "Escuela infantil municipal El Olivar" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneEquipamiento> "Educaci�n de 0 a 3 a�os" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTransporte> "METRO: LAVAPI�S, ANT�N MART�N   BUS: M1, 6, 26, 32" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneDescripcion> "ENSE�ANZA: Educaci�n infantil (Primer ciclo)" ;
+	<http://data.lirmm.fr/ontologies/passim#isAccessibilityForDisabledPerson> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneURL> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b524df71cea7e210VgnVCM1000000b205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTipoCalle> "CALLE OLIVAR" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneNumeroCalle> "48" ;
+	<http://dbpedia.org/ontology/postalCode> "28012" ;
+	<http://data.ign.fr/def/geometrie#coordX> "440585" ;
+	<http://data.ign.fr/def/geometrie#coordY> "4473660" ;
+	<https://www.w3.org/2006/vcard/ns#latitude> "40.40955901220526" ;
+	<https://www.w3.org/2006/vcard/ns#longitude> "-3.7015495991222993" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTelefono> "915306631" ;
+	<http://schema.org/email> "eielolivar@madrid.es" .
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEducacion/EscuelasInfantilesPublicas/5072> <http://www.fiupmwsld.org/handson/group17/tieneNombre> "Escuela infantil municipal El Roc�o" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneEquipamiento> "Horario ampliado.  Comedor." ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTransporte> "BUS: 131, 22, 86, 130   RENFE: PUENTE ALCOCER" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneDescripcion> "ENSE�ANZA: Educaci�n infantil (Primer Ciclo)" ;
+	<http://data.lirmm.fr/ontologies/passim#isAccessibilityForDisabledPerson> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneURL> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6fad13db5b71c010VgnVCM1000000b205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTipoCalle> "CARRETERA CARABANCHEL A VILLAVERDE" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneNumeroCalle> "107" ;
+	<http://dbpedia.org/ontology/postalCode> "28041" ;
+	<http://data.ign.fr/def/geometrie#coordX> "440096" ;
+	<http://data.ign.fr/def/geometrie#coordY> "4467161" ;
+	<https://www.w3.org/2006/vcard/ns#latitude> "40.3509775884553" ;
+	<https://www.w3.org/2006/vcard/ns#longitude> "-3.7066886127927585" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTelefono> "917231460" ;
+	<http://schema.org/email> "eielrocio@madrid.es" .
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEducacion/EscuelasInfantilesPublicas/5039> <http://www.fiupmwsld.org/handson/group17/tieneNombre> "Escuela infantil municipal El Sol" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneEquipamiento> "Horario ampliado.  Comedor." ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTransporte> "BUS: 7 , 11 , 40 , 52" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneDescripcion> "ENSE�ANZA: Educaci�n infantil (Primer Ciclo)" ;
+	<http://data.lirmm.fr/ontologies/passim#isAccessibilityForDisabledPerson> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneURL> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=afaea4ea6871c010VgnVCM1000000b205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTipoCalle> "CALLE ENRIQUE JARDIEL PONCELA" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneNumeroCalle> "8" ;
+	<http://dbpedia.org/ontology/postalCode> "28016" ;
+	<http://data.ign.fr/def/geometrie#coordX> "443278" ;
+	<http://data.ign.fr/def/geometrie#coordY> "4479340" ;
+	<https://www.w3.org/2006/vcard/ns#latitude> "40.46091554103502" ;
+	<https://www.w3.org/2006/vcard/ns#longitude> "-3.670320512563348" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTelefono> "913532642/913532644/913532646" ;
+	<http://schema.org/email> "eielsol@madrid.es" .
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEducacion/EscuelasInfantilesPublicas/8226010> <http://www.fiupmwsld.org/handson/group17/tieneNombre> "Escuela infantil municipal Escuelas de San Ant�n" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneEquipamiento> "Horario ampliado - comedor." ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTransporte> "BUS : 3, 37, 40, 149    METRO : CHUECA, TRIBUNAL" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneDescripcion> "ENSE�ANZA: Educaci�n Infantil (Primer Ciclo)" ;
+	<http://data.lirmm.fr/ontologies/passim#isAccessibilityForDisabledPerson> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneURL> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ae3e5438c4e10510VgnVCM1000000b205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTipoCalle> "CALLE FARMACIA" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneNumeroCalle> "13" ;
+	<http://dbpedia.org/ontology/postalCode> "28004" ;
+	<http://data.ign.fr/def/geometrie#coordX> "440832" ;
+	<http://data.ign.fr/def/geometrie#coordY> "4475237" ;
+	<https://www.w3.org/2006/vcard/ns#latitude> "40.42378301276458" ;
+	<https://www.w3.org/2006/vcard/ns#longitude> "-3.6987856754744657" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTelefono> "915325557" ;
+	<http://schema.org/email> "ei.centro5@hotmail.com" .
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEducacion/EscuelasInfantilesPublicas/5633199> <http://www.fiupmwsld.org/handson/group17/tieneNombre> "Escuela infantil municipal Fernando el Cat�lico" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneEquipamiento> "Horario ampliado - Comedor" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTransporte> "METRO: QUEVEDO   BUS: 16, 61, 2, 202" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneDescripcion> "ENSE�ANZA: Educaci�n infantil (Primer ciclo)" ;
+	<http://data.lirmm.fr/ontologies/passim#isAccessibilityForDisabledPerson> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneURL> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f87b0dde9b3b7210VgnVCM2000000c205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTipoCalle> "CALLE FERNANDO EL CATOLICO" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneNumeroCalle> "16" ;
+	<http://dbpedia.org/ontology/postalCode> "28015" ;
+	<http://data.ign.fr/def/geometrie#coordX> "439912" ;
+	<http://data.ign.fr/def/geometrie#coordY> "4476390" ;
+	<https://www.w3.org/2006/vcard/ns#latitude> "40.434103689530446" ;
+	<https://www.w3.org/2006/vcard/ns#longitude> "-3.7097392943348284" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTelefono> "914456792" ;
+	<http://schema.org/email> "eifernandoelcatolico@madrid.es" .
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEducacion/EscuelasInfantilesPublicas/5633259> <http://www.fiupmwsld.org/handson/group17/tieneNombre> "Escuela infantil municipal Gigantes y Cabezudos" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneEquipamiento> "Horario ampliado - Comedor" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTransporte> "METRO: AVENIDA DE LA PAZ   BUS: 53, 9, 72, 73, 120" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneDescripcion> "ENSE�ANZA: Educaci�n infantil (Primer ciclo)" ;
+	<http://data.lirmm.fr/ontologies/passim#isAccessibilityForDisabledPerson> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneURL> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=401e0dde9b3b7210VgnVCM2000000c205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTipoCalle> "CALLE RAFAEL BERGAMIN" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneNumeroCalle> "28" ;
+	<http://dbpedia.org/ontology/postalCode> "28043" ;
+	<http://data.ign.fr/def/geometrie#coordX> "444150" ;
+	<http://data.ign.fr/def/geometrie#coordY> "4478186" ;
+	<https://www.w3.org/2006/vcard/ns#latitude> "40.450578924722464" ;
+	<https://www.w3.org/2006/vcard/ns#longitude> "-3.6599344009125048" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTelefono> "696909505" ;
+	<http://schema.org/email> "eigigantesycabezudos@madrid.es" .
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEducacion/EscuelasInfantilesPublicas/58239> <http://www.fiupmwsld.org/handson/group17/tieneNombre> "Escuela infantil municipal Hiedra" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneEquipamiento> "Comedor." ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTransporte> "METRO: SIMANCAS  BUS: 38 , 48" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneDescripcion> "ENSE�ANZA: Educaci�n Infantil (Primer Ciclo)" ;
+	<http://data.lirmm.fr/ontologies/passim#isAccessibilityForDisabledPerson> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneURL> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c75e8ed67151c010VgnVCM2000000c205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTipoCalle> "CALLE AMPOSTA" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneNumeroCalle> "34" ;
+	<http://dbpedia.org/ontology/postalCode> "28037" ;
+	<http://data.ign.fr/def/geometrie#coordX> "447579" ;
+	<http://data.ign.fr/def/geometrie#coordY> "4475088" ;
+	<https://www.w3.org/2006/vcard/ns#latitude> "40.42289407876372" ;
+	<https://www.w3.org/2006/vcard/ns#longitude> "-3.6192425284922436" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTelefono> "913062533" ;
+	<http://schema.org/email> "eihiedra@madrid.es" .
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEducacion/EscuelasInfantilesPublicas/5633447> <http://www.fiupmwsld.org/handson/group17/tieneNombre> "Escuela infantil municipal La Alegr�a de la Huerta" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneEquipamiento> "Horario ampliado - Comedor  Educaci�n de 0 a 3 a�os" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTransporte> "BUS: 38, 140, 153" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneDescripcion> "ENSE�ANZA: Educaci�n infantil (Primer ciclo)" ;
+	<http://data.lirmm.fr/ontologies/passim#isAccessibilityForDisabledPerson> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneURL> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1dbc1ec1fe3b7210VgnVCM2000000c205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTipoCalle> "CALLE HELSINKI" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneNumeroCalle> "2" ;
+	<http://dbpedia.org/ontology/postalCode> "28022" ;
+	<http://data.ign.fr/def/geometrie#coordX> "448989" ;
+	<http://data.ign.fr/def/geometrie#coordY> "4475250" ;
+	<https://www.w3.org/2006/vcard/ns#latitude> "40.4244413057318" ;
+	<https://www.w3.org/2006/vcard/ns#longitude> "-3.602635166157978" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTelefono> "913241772" ;
+	<http://schema.org/email> "eialegriadelahuerta@madrid.es" .
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEducacion/EscuelasInfantilesPublicas/4552960> <http://www.fiupmwsld.org/handson/group17/tieneNombre> "Escuela infantil municipal La Brisa" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTransporte> "METRO: VENTILLA   BUS: 42 , 147" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneDescripcion> "ENSE�ANZA: Educaci�n infantil (Primer ciclo)" ;
+	<http://data.lirmm.fr/ontologies/passim#isAccessibilityForDisabledPerson> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneURL> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d02ac6aa845d1110VgnVCM1000000b205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTipoCalle> "AVENIDA ASTURIAS" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneNumeroCalle> "72" ;
+	<http://dbpedia.org/ontology/postalCode> "28029" ;
+	<http://data.ign.fr/def/geometrie#coordX> "440911" ;
+	<http://data.ign.fr/def/geometrie#coordY> "4480737" ;
+	<https://www.w3.org/2006/vcard/ns#latitude> "40.47333501609979" ;
+	<https://www.w3.org/2006/vcard/ns#longitude> "-3.698367154592483" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTelefono> "913449875" ;
+	<http://swrc.ontoware.org/ontology#fax> "913 449 875" ;
+	<http://schema.org/email> "eilabrisa@madrid.es" .
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEducacion/EscuelasInfantilesPublicas/5336> <http://www.fiupmwsld.org/handson/group17/tieneNombre> "Escuela infantil municipal La Caracola" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneEquipamiento> "Horario ampliado.  Comedor." ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTransporte> "METRO: BEGO�A  BUS: 66 , 124" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneDescripcion> "ENSE�ANZA: Educaci�n infantil (Primer ciclo)" ;
+	<http://data.lirmm.fr/ontologies/passim#isAccessibilityForDisabledPerson> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneURL> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b5dd13db5b71c010VgnVCM1000000b205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTipoCalle> "CALLE BELORADO" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneNumeroCalle> "1" ;
+	<http://dbpedia.org/ontology/postalCode> "28034" ;
+	<http://data.ign.fr/def/geometrie#coordX> "442072" ;
+	<http://data.ign.fr/def/geometrie#coordY> "4482364" ;
+	<https://www.w3.org/2006/vcard/ns#latitude> "40.48807363495185" ;
+	<https://www.w3.org/2006/vcard/ns#longitude> "-3.6848207707128635" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTelefono> "913341938" ;
+	<http://schema.org/email> "eilacaracola@madrid.es" .
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEducacion/EscuelasInfantilesPublicas/5632722> <http://www.fiupmwsld.org/handson/group17/tieneNombre> "Escuela infantil municipal La Chulapona" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneEquipamiento> "Educaci�n de 0 a 3 a�os" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTransporte> "METRO: ALAMEDA DE OSUNA    BUS: 151, 105, 112, 115" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneDescripcion> "ENSE�ANZA: Educaci�n infantil (Primer ciclo)" ;
+	<http://data.lirmm.fr/ontologies/passim#isAccessibilityForDisabledPerson> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneURL> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=457c9b6d163b7210VgnVCM2000000c205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTipoCalle> "CALLE BAHIA DE PALMA" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneNumeroCalle> "13" ;
+	<http://dbpedia.org/ontology/postalCode> "28042" ;
+	<http://data.ign.fr/def/geometrie#coordX> "449958" ;
+	<http://data.ign.fr/def/geometrie#coordY> "4479412" ;
+	<https://www.w3.org/2006/vcard/ns#latitude> "40.4620032082231" ;
+	<https://www.w3.org/2006/vcard/ns#longitude> "-3.5915414506484753" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTelefono> "913122028" ;
+	<http://schema.org/email> "eilachulapona@madrid.es" .
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEducacion/EscuelasInfantilesPublicas/28783> <http://www.fiupmwsld.org/handson/group17/tieneNombre> "Escuela infantil municipal La Colina" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneEquipamiento> "Horario ampliado.  Comedor." ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTransporte> "BUS: 105 , 115" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneDescripcion> "ENSE�ANZA: Educaci�n infantil (Primer ciclo)" ;
+	<http://data.lirmm.fr/ontologies/passim#isAccessibilityForDisabledPerson> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneURL> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5171059cb751c010VgnVCM2000000c205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTipoCalle> "CALLE NUESTRA SE�ORA DE ARACELI" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneNumeroCalle> "2" ;
+	<http://dbpedia.org/ontology/postalCode> "28042" ;
+	<http://data.ign.fr/def/geometrie#coordX> "451044" ;
+	<http://data.ign.fr/def/geometrie#coordY> "4480470" ;
+	<https://www.w3.org/2006/vcard/ns#latitude> "40.47159015347659" ;
+	<https://www.w3.org/2006/vcard/ns#longitude> "-3.578814477331226" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTelefono> "913010167" ;
+	<http://schema.org/email> "eilacolina@madrid.es" .
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEducacion/EscuelasInfantilesPublicas/84666> <http://www.fiupmwsld.org/handson/group17/tieneNombre> "Escuela infantil municipal La Cornisa" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneEquipamiento> "Horario ampliado.  Comedor.  Planes de mejora." ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTransporte> "BUS: 6 , 78 , 79  RENFE: DOCE DE OCTUBRE" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneDescripcion> "ENSE�ANZA: Educaci�n Infantil (Primer ciclo)" ;
+	<http://data.lirmm.fr/ontologies/passim#isAccessibilityForDisabledPerson> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneURL> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2a56def5ab41c010VgnVCM2000000c205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTipoCalle> "CALLE CRISTO DE LA VICTORIA" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneNumeroCalle> "23" ;
+	<http://dbpedia.org/ontology/postalCode> "28026" ;
+	<http://data.ign.fr/def/geometrie#coordX> "440540" ;
+	<http://data.ign.fr/def/geometrie#coordY> "4470510" ;
+	<https://www.w3.org/2006/vcard/ns#latitude> "40.3811789921249" ;
+	<https://www.w3.org/2006/vcard/ns#longitude> "-3.7017852385259076" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTelefono> "917920520" ;
+	<http://schema.org/email> "eilacornisa@madrid.es" .
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEducacion/EscuelasInfantilesPublicas/5633276> <http://www.fiupmwsld.org/handson/group17/tieneNombre> "Escuela infantil municipal La Corte de Fara�n" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneEquipamiento> "Educaci�n de 0 a 3 a�os" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTransporte> "METRO: PE�AGRANDE   BUS: 42, 46, 126, 128, 132, 137, 774" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneDescripcion> "ENSE�ANZA: Educaci�n infantil (Primer ciclo)" ;
+	<http://data.lirmm.fr/ontologies/passim#isAccessibilityForDisabledPerson> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneURL> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b8210dde9b3b7210VgnVCM2000000c205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTipoCalle> "CALLE CHANTADA" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneNumeroCalle> "41" ;
+	<http://dbpedia.org/ontology/postalCode> "28035" ;
+	<http://data.ign.fr/def/geometrie#coordX> "439477" ;
+	<http://data.ign.fr/def/geometrie#coordY> "4480716" ;
+	<https://www.w3.org/2006/vcard/ns#latitude> "40.47304239359628" ;
+	<https://www.w3.org/2006/vcard/ns#longitude> "-3.715280725332747" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTelefono> "910596706" ;
+	<http://schema.org/email> "eilacortedefaraon@madrid.es" .
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEducacion/EscuelasInfantilesPublicas/5633332> <http://www.fiupmwsld.org/handson/group17/tieneNombre> "Escuela infantil municipal La Gran V�a" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneEquipamiento> "Horario ampliado - Comedor" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTransporte> "METRO: CANILLAS    BUS: 112, 120, 122, 153, 73" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneDescripcion> "ENSE�ANZA: Educaci�n infantil (Primer ciclo)" ;
+	<http://data.lirmm.fr/ontologies/passim#isAccessibilityForDisabledPerson> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneURL> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=60e944dd9d3b7210VgnVCM2000000c205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTipoCalle> "CALLE SILVANO" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneNumeroCalle> "99" ;
+	<http://dbpedia.org/ontology/postalCode> "28043" ;
+	<http://data.ign.fr/def/geometrie#coordX> "446322" ;
+	<http://data.ign.fr/def/geometrie#coordY> "4479527" ;
+	<https://www.w3.org/2006/vcard/ns#latitude> "40.462802758823514" ;
+	<https://www.w3.org/2006/vcard/ns#longitude> "-3.634435221406373" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTelefono> "913880412" ;
+	<http://schema.org/email> "eilagranvia@madrid.es" .
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEducacion/EscuelasInfantilesPublicas/5073> <http://www.fiupmwsld.org/handson/group17/tieneNombre> "Escuela infantil municipal La Luna" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneEquipamiento> "Horario ampliado.  Comedor." ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTransporte> "BUS: 59" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneDescripcion> "ENSE�ANZA: Educaci�n infantil (Primer Ciclo)" ;
+	<http://data.lirmm.fr/ontologies/passim#isAccessibilityForDisabledPerson> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneURL> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0cfd13db5b71c010VgnVCM1000000b205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTipoCalle> "CALLE BENIMAMET" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneNumeroCalle> "109" ;
+	<http://dbpedia.org/ontology/postalCode> "28021" ;
+	<http://data.ign.fr/def/geometrie#coordX> "441908" ;
+	<http://data.ign.fr/def/geometrie#coordY> "4466410" ;
+	<https://www.w3.org/2006/vcard/ns#latitude> "40.344340447262475" ;
+	<https://www.w3.org/2006/vcard/ns#longitude> "-3.685296004324213" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTelefono> "915051417" ;
+	<http://schema.org/email> "eilaluna@madrid.es" .
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEducacion/EscuelasInfantilesPublicas/5299025> <http://www.fiupmwsld.org/handson/group17/tieneNombre> "Escuela infantil municipal La Oliva" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTransporte> "BUS: 6, 60, 131" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneDescripcion> "ENSE�ANZA: Educaci�n infantil (Primer Ciclo)." ;
+	<http://data.lirmm.fr/ontologies/passim#isAccessibilityForDisabledPerson> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneURL> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5c73d901ede90210VgnVCM1000000b205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTipoCalle> "CALLE GAINZA" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneNumeroCalle> "46" ;
+	<http://dbpedia.org/ontology/postalCode> "28041" ;
+	<http://data.ign.fr/def/geometrie#coordX> "439388" ;
+	<http://data.ign.fr/def/geometrie#coordY> "4468794" ;
+	<https://www.w3.org/2006/vcard/ns#latitude> "40.36563722434557" ;
+	<https://www.w3.org/2006/vcard/ns#longitude> "-3.7151923280205694" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTelefono> "915357863" ;
+	<http://schema.org/email> "eilaoliva@madrid.es" .
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEducacion/EscuelasInfantilesPublicas/5341> <http://www.fiupmwsld.org/handson/group17/tieneNombre> "Escuela infantil municipal La Paloma" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneEquipamiento> "Horario ampliado.  Comedor." ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTransporte> "METRO: LA LATINA  BUS: 17 , 18 , 23 , 35 , 60" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneDescripcion> "ENSE�ANZA: Educaci�n infantil (Primer Ciclo)" ;
+	<http://data.lirmm.fr/ontologies/passim#isAccessibilityForDisabledPerson> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneURL> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=522e13db5b71c010VgnVCM1000000b205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTipoCalle> "CALLE TABERNILLAS" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneNumeroCalle> "2" ;
+	<http://dbpedia.org/ontology/postalCode> "28005" ;
+	<http://data.ign.fr/def/geometrie#coordX> "439752" ;
+	<http://data.ign.fr/def/geometrie#coordY> "4473836" ;
+	<https://www.w3.org/2006/vcard/ns#latitude> "40.4110845196558" ;
+	<https://www.w3.org/2006/vcard/ns#longitude> "-3.711383150975494" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTelefono> "913642491" ;
+	<http://schema.org/email> "eilapaloma@madrid.es" .
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEducacion/EscuelasInfantilesPublicas/5633158> <http://www.fiupmwsld.org/handson/group17/tieneNombre> "Escuela infantil municipal La Patria Chica" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneEquipamiento> "Educaci�n de 0 a 3 a�os" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTransporte> "METRO: LA PESETA   BUS: 35 , 155" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneDescripcion> "ENSE�ANZA: Educaci�n infantil (Primer ciclo)" ;
+	<http://data.lirmm.fr/ontologies/passim#isAccessibilityForDisabledPerson> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneURL> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=78e7a529393b7210VgnVCM2000000c205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTipoCalle> "CALLE PATRIMONIO DE LA HUMANIDAD" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneNumeroCalle> "31" ;
+	<http://dbpedia.org/ontology/postalCode> "28054" ;
+	<http://data.ign.fr/def/geometrie#coordX> "435330" ;
+	<http://data.ign.fr/def/geometrie#coordY> "4468389" ;
+	<https://www.w3.org/2006/vcard/ns#latitude> "40.36168337750411" ;
+	<https://www.w3.org/2006/vcard/ns#longitude> "-3.7629430009334297" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTelefono> "915116786" ;
+	<http://schema.org/email> "eilapatriachica@madrid.es" .
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEducacion/EscuelasInfantilesPublicas/5633600> <http://www.fiupmwsld.org/handson/group17/tieneNombre> "Escuela infantil municipal La Revoltosa" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneEquipamiento> "Horario ampliado - Comedor" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTransporte> "METRO: LAS SUERTES, VALDECARROS   BUS: 145" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneDescripcion> "ENSE�ANZA: Educaci�n infantil (Primer ciclo)" ;
+	<http://data.lirmm.fr/ontologies/passim#isAccessibilityForDisabledPerson> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneURL> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f4c0999a414b7210VgnVCM2000000c205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTipoCalle> "CALLE JOSE ANTONIO REBOLLEDO Y PALMA" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneNumeroCalle> "18" ;
+	<http://dbpedia.org/ontology/postalCode> "28051" ;
+	<http://data.ign.fr/def/geometrie#coordX> "450106" ;
+	<http://data.ign.fr/def/geometrie#coordY> "4468764" ;
+	<https://www.w3.org/2006/vcard/ns#latitude> "40.36607876608522" ;
+	<https://www.w3.org/2006/vcard/ns#longitude> "-3.588947072838845" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTelefono> "914944330" ;
+	<http://schema.org/email> "eilarevoltosa@madrid.es" .
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEducacion/EscuelasInfantilesPublicas/5633294> <http://www.fiupmwsld.org/handson/group17/tieneNombre> "Escuela infantil municipal La Rosa del Azafr�n" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneEquipamiento> "Educaci�n de 0 a 3 a�os" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTransporte> "METRO: TRES OLIVOS   BUS: 66, 137" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneDescripcion> "ENSE�ANZA: Educaci�n infantil (Primer ciclo)" ;
+	<http://data.lirmm.fr/ontologies/passim#isAccessibilityForDisabledPerson> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneURL> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d3670dde9b3b7210VgnVCM2000000c205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTipoCalle> "CALLE CUEVA DE MONTESINOS" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneNumeroCalle> "2" ;
+	<http://dbpedia.org/ontology/postalCode> "28034" ;
+	<http://data.ign.fr/def/geometrie#coordX> "441787" ;
+	<http://data.ign.fr/def/geometrie#coordY> "4483746" ;
+	<https://www.w3.org/2006/vcard/ns#latitude> "40.50050331171224" ;
+	<https://www.w3.org/2006/vcard/ns#longitude> "-3.68829881383211" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTelefono> "917344966" ;
+	<http://schema.org/email> "eilarosadelazafran@madrid.es" .
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEducacion/EscuelasInfantilesPublicas/5633382> <http://www.fiupmwsld.org/handson/group17/tieneNombre> "Escuela infantil municipal La Verbena de la Paloma" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneEquipamiento> "Educaci�n de 0 a 3 a�os" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTransporte> "METRO: ALUCHE   BUS: 17, 117, 155" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneDescripcion> "ENSE�ANZA: Educaci�n infantil (Primer ciclo)" ;
+	<http://data.lirmm.fr/ontologies/passim#isAccessibilityForDisabledPerson> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneURL> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=533f44dd9d3b7210VgnVCM2000000c205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTipoCalle> "CALLE FUERTE DE NAVIDAD" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneNumeroCalle> "17" ;
+	<http://dbpedia.org/ontology/postalCode> "28044" ;
+	<http://data.ign.fr/def/geometrie#coordX> "435082" ;
+	<http://data.ign.fr/def/geometrie#coordY> "4470479" ;
+	<https://www.w3.org/2006/vcard/ns#latitude> "40.380491665056326" ;
+	<https://www.w3.org/2006/vcard/ns#longitude> "-3.7660767346972173" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTelefono> "685082240" ;
+	<http://schema.org/email> "eilaverbenalapaloma@madrid.es" .
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEducacion/EscuelasInfantilesPublicas/5633456> <http://www.fiupmwsld.org/handson/group17/tieneNombre> "Escuela infantil municipal La del Manojo de Rosas" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneEquipamiento> "Educaci�n de 0 a 3 a�os" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTransporte> "BUS: 4, 106, 140" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneDescripcion> "ENSE�ANZA: Educaci�n infantil (Primer ciclo)" ;
+	<http://data.lirmm.fr/ontologies/passim#isAccessibilityForDisabledPerson> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneURL> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c49e1ec1fe3b7210VgnVCM2000000c205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTipoCalle> "CALLE RAVENA" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneNumeroCalle> "12" ;
+	<http://dbpedia.org/ontology/postalCode> "28032" ;
+	<http://data.ign.fr/def/geometrie#coordX> "447828" ;
+	<http://data.ign.fr/def/geometrie#coordY> "4474574" ;
+	<https://www.w3.org/2006/vcard/ns#latitude> "40.41827932953887" ;
+	<https://www.w3.org/2006/vcard/ns#longitude> "-3.616265188601519" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTelefono> "685082224" ;
+	<http://schema.org/email> "eiladelmanojoderosas@madrid.es" .
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEducacion/EscuelasInfantilesPublicas/5633393> <http://www.fiupmwsld.org/handson/group17/tieneNombre> "Escuela infantil municipal La del Soto del Parral" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneEquipamiento> "Educaci�n de 0 a 3 a�os" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTransporte> "BUS: 34, 35, 155, 139, 47" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneDescripcion> "ENSE�ANZA: Educaci�n infantil (Primer ciclo)" ;
+	<http://data.lirmm.fr/ontologies/passim#isAccessibilityForDisabledPerson> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneURL> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=979344dd9d3b7210VgnVCM2000000c205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTipoCalle> "CALLE TROMPAS" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneNumeroCalle> "19" ;
+	<http://dbpedia.org/ontology/postalCode> "28054" ;
+	<http://data.ign.fr/def/geometrie#coordX> "434896" ;
+	<http://data.ign.fr/def/geometrie#coordY> "4469535" ;
+	<https://www.w3.org/2006/vcard/ns#latitude> "40.37197319564591" ;
+	<https://www.w3.org/2006/vcard/ns#longitude> "-3.7681711768688495" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTelefono> "915084790" ;
+	<http://schema.org/email> "eiladelsotodelparral@madrid.es" .
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEducacion/EscuelasInfantilesPublicas/5298904> <http://www.fiupmwsld.org/handson/group17/tieneNombre> "Escuela infantil municipal Las Amapolas" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTransporte> "METRO: SAN FRANCISCO   BUS: 47, 118, 121, 131, 155" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneDescripcion> "ENSE�ANZA: Educaci�n infantil (Primer Ciclo)." ;
+	<http://data.lirmm.fr/ontologies/passim#isAccessibilityForDisabledPerson> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneURL> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=367e5e391ae90210VgnVCM1000000b205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTipoCalle> "CALLE OBOLO" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneNumeroCalle> "14" ;
+	<http://dbpedia.org/ontology/postalCode> "28054" ;
+	<http://data.ign.fr/def/geometrie#coordX> "437127" ;
+	<http://data.ign.fr/def/geometrie#coordY> "4469461" ;
+	<https://www.w3.org/2006/vcard/ns#latitude> "40.37147813353422" ;
+	<https://www.w3.org/2006/vcard/ns#longitude> "-3.741886513170567" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTelefono> "915115338" ;
+	<http://schema.org/email> "eilasamapolas@madrid.es" .
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEducacion/EscuelasInfantilesPublicas/5299104> <http://www.fiupmwsld.org/handson/group17/tieneNombre> "Escuela infantil municipal Las Azaleas" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTransporte> "BUS: 4, 38, 48, 70, 109   METRO: GARC�A NOBLEJAS" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneDescripcion> "ENSE�ANZA: Educaci�n infantil (Primer Ciclo)." ;
+	<http://data.lirmm.fr/ontologies/passim#isAccessibilityForDisabledPerson> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneURL> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=34cb3ab7e0f90210VgnVCM1000000b205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTipoCalle> "CALLE PORTUGALETE" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneNumeroCalle> "6" ;
+	<http://dbpedia.org/ontology/postalCode> "28017" ;
+	<http://data.ign.fr/def/geometrie#coordX> "446205" ;
+	<http://data.ign.fr/def/geometrie#coordY> "4475457" ;
+	<https://www.w3.org/2006/vcard/ns#latitude> "40.42613036374425" ;
+	<https://www.w3.org/2006/vcard/ns#longitude> "-3.635469776500989" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTelefono> "914402088" ;
+	<http://schema.org/email> "eilasazaleas@madrid.es" .
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEducacion/EscuelasInfantilesPublicas/5633460> <http://www.fiupmwsld.org/handson/group17/tieneNombre> "Escuela infantil municipal Las Leandras" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneEquipamiento> "Horario ampliado - Comedor" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTransporte> "BUS: 77" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneDescripcion> "ENSE�ANZA: Educaci�n infantil (Primer ciclo)" ;
+	<http://data.lirmm.fr/ontologies/passim#isAccessibilityForDisabledPerson> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneURL> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d29f1ec1fe3b7210VgnVCM2000000c205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTipoCalle> "CALLE DEYANIRA" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneNumeroCalle> "2" ;
+	<http://dbpedia.org/ontology/postalCode> "28022" ;
+	<http://data.ign.fr/def/geometrie#coordX> "449750" ;
+	<http://data.ign.fr/def/geometrie#coordY> "4477327" ;
+	<https://www.w3.org/2006/vcard/ns#latitude> "40.443198664211145" ;
+	<https://www.w3.org/2006/vcard/ns#longitude> "-3.593829229968625" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTelefono> "635831634" ;
+	<http://schema.org/email> "eilasleandras@madrid.es" .
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEducacion/EscuelasInfantilesPublicas/5252132> <http://www.fiupmwsld.org/handson/group17/tieneNombre> "Escuela infantil municipal Las Mercedes" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTransporte> "BUS: 77" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneDescripcion> "ENSE�ANZA: Educaci�n infantil (Primer Ciclo)" ;
+	<http://data.lirmm.fr/ontologies/passim#isAccessibilityForDisabledPerson> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneURL> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5ebbdb969ed8f110VgnVCM1000000b205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTipoCalle> "CALLE SAMANIEGO" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneNumeroCalle> "22" ;
+	<http://dbpedia.org/ontology/postalCode> "28022" ;
+	<http://data.ign.fr/def/geometrie#coordX> "450888" ;
+	<http://data.ign.fr/def/geometrie#coordY> "4477242" ;
+	<https://www.w3.org/2006/vcard/ns#latitude> "40.442501078875445" ;
+	<https://www.w3.org/2006/vcard/ns#longitude> "-3.5804043676101007" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTelefono> "917470878" ;
+	<http://schema.org/email> "eilasmercedes@madrid.es" .
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEducacion/EscuelasInfantilesPublicas/132987> <http://www.fiupmwsld.org/handson/group17/tieneNombre> "Escuela infantil municipal Las Nubes" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneEquipamiento> "Horario ampliado.  Comedor." ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTransporte> "METRO: MEN�NDEZ PELAYO   BUS: 24 , 37 , 54 , 57 , 102 , 141, 152" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneDescripcion> "ENSE�ANZA: Educaci�n infantil (Primer ciclo)" ;
+	<http://data.lirmm.fr/ontologies/passim#isAccessibilityForDisabledPerson> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneURL> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=96b66da0aa81c010VgnVCM1000000b205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTipoCalle> "CALLE ANTONIO NEBRIJA" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneNumeroCalle> "7" ;
+	<http://dbpedia.org/ontology/postalCode> "28007" ;
+	<http://data.ign.fr/def/geometrie#coordX> "442047" ;
+	<http://data.ign.fr/def/geometrie#coordY> "4472993" ;
+	<https://www.w3.org/2006/vcard/ns#latitude> "40.40365358728283" ;
+	<https://www.w3.org/2006/vcard/ns#longitude> "-3.6842590892111273" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTelefono> "915012443" ;
+	<http://schema.org/email> "eilasnubes@madrid.es" .
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEducacion/EscuelasInfantilesPublicas/132982> <http://www.fiupmwsld.org/handson/group17/tieneNombre> "Escuela infantil municipal Las Vi�as" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneEquipamiento> "Horario ampliado.  Comedor.  Planes de mejora." ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTransporte> "BUS: 160" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneDescripcion> "ENSE�ANZA: Educaci�n infantil (Primer ciclo)" ;
+	<http://data.lirmm.fr/ontologies/passim#isAccessibilityForDisabledPerson> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneURL> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ecd66da0aa81c010VgnVCM1000000b205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTipoCalle> "CALLE ESTUDIO" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneNumeroCalle> "6" ;
+	<http://dbpedia.org/ontology/postalCode> "28023" ;
+	<http://data.ign.fr/def/geometrie#coordX> "433495" ;
+	<http://data.ign.fr/def/geometrie#coordY> "4479383" ;
+	<https://www.w3.org/2006/vcard/ns#latitude> "40.460576198420775" ;
+	<https://www.w3.org/2006/vcard/ns#longitude> "-3.7857037462052063" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTelefono> "913078175" ;
+	<http://schema.org/email> "eilasvinas@madrid.es" .
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEducacion/EscuelasInfantilesPublicas/5633582> <http://www.fiupmwsld.org/handson/group17/tieneNombre> "Escuela infantil municipal Los Gavilanes" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneEquipamiento> "Horario ampliado - Comedor" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTransporte> "METRO: ALVARADO, ESTRECHO   BUS: 3, 64, 66, 124, 128, 772" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneDescripcion> "ENSE�ANZA: Educaci�n infantil (Primer ciclo)" ;
+	<http://data.lirmm.fr/ontologies/passim#isAccessibilityForDisabledPerson> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneURL> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9c1d999a414b7210VgnVCM2000000c205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTipoCalle> "CALLE TIZIANO" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneNumeroCalle> "7" ;
+	<http://dbpedia.org/ontology/postalCode> "28020" ;
+	<http://data.ign.fr/def/geometrie#coordX> "440544" ;
+	<http://data.ign.fr/def/geometrie#coordY> "4478270" ;
+	<https://www.w3.org/2006/vcard/ns#latitude> "40.4510850477906" ;
+	<https://www.w3.org/2006/vcard/ns#longitude> "-3.7024647767258325" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTelefono> "915799142" ;
+	<http://schema.org/email> "eilosgavilanes@madrid.es" .
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEducacion/EscuelasInfantilesPublicas/28784> <http://www.fiupmwsld.org/handson/group17/tieneNombre> "Escuela infantil municipal Los Juncos" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneEquipamiento> "Horario ampliado.  Comedor." ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTransporte> "BUS: 4 , 100 , 106 , 130" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneDescripcion> "ENSE�ANZA: Educaci�n infantil (Primer Ciclo)" ;
+	<http://data.lirmm.fr/ontologies/passim#isAccessibilityForDisabledPerson> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneURL> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a791059cb751c010VgnVCM2000000c205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTipoCalle> "PLAZA JUVENTUD" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneNumeroCalle> "7" ;
+	<http://dbpedia.org/ontology/postalCode> "28032" ;
+	<http://data.ign.fr/def/geometrie#coordX> "448711" ;
+	<http://data.ign.fr/def/geometrie#coordY> "4473552" ;
+	<https://www.w3.org/2006/vcard/ns#latitude> "40.40912749404517" ;
+	<https://www.w3.org/2006/vcard/ns#longitude> "-3.605774962043424" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTelefono> "913719837" ;
+	<http://schema.org/email> "eilosjuncos@madrid.es" .
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEducacion/EscuelasInfantilesPublicas/5340> <http://www.fiupmwsld.org/handson/group17/tieneNombre> "Escuela infantil municipal Los Pinos" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneEquipamiento> "Horario ampliado.  Comedor." ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTransporte> "BUS:  59, 79   METRO:  SAN CRIST�BAL" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneDescripcion> "ENSE�ANZA: Educaci�n infantil (Primer Ciclo)" ;
+	<http://data.lirmm.fr/ontologies/passim#isAccessibilityForDisabledPerson> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneURL> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a84e13db5b71c010VgnVCM1000000b205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTipoCalle> "CALLE ROCAFORT" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneNumeroCalle> "2" ;
+	<http://dbpedia.org/ontology/postalCode> "28021" ;
+	<http://data.ign.fr/def/geometrie#coordX> "441474" ;
+	<http://data.ign.fr/def/geometrie#coordY> "4466069" ;
+	<https://www.w3.org/2006/vcard/ns#latitude> "40.34123812234347" ;
+	<https://www.w3.org/2006/vcard/ns#longitude> "-3.69037444346592" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTelefono> "917984611" ;
+	<http://schema.org/email> "eilospinos@madrid.es" .
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEducacion/EscuelasInfantilesPublicas/5633604> <http://www.fiupmwsld.org/handson/group17/tieneNombre> "Escuela infantil municipal Los sobrinos del Capitan Grant" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneEquipamiento> "Horario ampliado - Comedor" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTransporte> "BUS: 58, 63, 145  METRO: LA GAVIA, CONGOSTO" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneDescripcion> "ENSE�ANZA: Educaci�n infantil (Primer ciclo)" ;
+	<http://data.lirmm.fr/ontologies/passim#isAccessibilityForDisabledPerson> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneURL> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8692999a414b7210VgnVCM2000000c205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTipoCalle> "AVENIDA LA GAVIA" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneNumeroCalle> "22" ;
+	<http://dbpedia.org/ontology/postalCode> "28051" ;
+	<http://data.ign.fr/def/geometrie#coordX> "448188" ;
+	<http://data.ign.fr/def/geometrie#coordY> "4469612" ;
+	<https://www.w3.org/2006/vcard/ns#latitude> "40.37360084784636" ;
+	<https://www.w3.org/2006/vcard/ns#longitude> "-3.611617365195693" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTelefono> "913852400" ;
+	<http://schema.org/email> "eisobrinoscapitang@madrid.es" .
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEducacion/EscuelasInfantilesPublicas/187609> <http://www.fiupmwsld.org/handson/group17/tieneNombre> "Escuela infantil municipal Luis Bello" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTransporte> "METRO: PROSPERIDAD  BUS: 1, 9, 72, 73" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneDescripcion> "ENSE�ANZA: Educaci�n Infantil (Primer Ciclo)" ;
+	<http://data.lirmm.fr/ontologies/passim#isAccessibilityForDisabledPerson> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneURL> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8a48d2bec675e010VgnVCM1000000b205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTipoCalle> "CALLE JUAN BAUTISTA DE TOLEDO" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneNumeroCalle> "5" ;
+	<http://dbpedia.org/ontology/postalCode> "28002" ;
+	<http://data.ign.fr/def/geometrie#coordX> "442954" ;
+	<http://data.ign.fr/def/geometrie#coordY> "4477424" ;
+	<https://www.w3.org/2006/vcard/ns#latitude> "40.443633085040005" ;
+	<https://www.w3.org/2006/vcard/ns#longitude> "-3.6739692982111727" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTelefono> "914132979" ;
+	<http://schema.org/email> "eiluisbello@madrid.es" .
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEducacion/EscuelasInfantilesPublicas/5633425> <http://www.fiupmwsld.org/handson/group17/tieneNombre> "Escuela infantil municipal Luisa Fernanda" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneEquipamiento> "Horario ampliado - Comedor" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTransporte> "BUS: 54, 58, 103, 142, 143" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneDescripcion> "ENSE�ANZA: Educaci�n infantil (Primer ciclo)" ;
+	<http://data.lirmm.fr/ontologies/passim#isAccessibilityForDisabledPerson> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneURL> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=dbaa1ec1fe3b7210VgnVCM2000000c205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTipoCalle> "CALLE COCHERON DE LA VILLA" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneNumeroCalle> "29" ;
+	<http://dbpedia.org/ontology/postalCode> "28031" ;
+	<http://data.ign.fr/def/geometrie#coordX> "446125" ;
+	<http://data.ign.fr/def/geometrie#coordY> "4470507" ;
+	<https://www.w3.org/2006/vcard/ns#latitude> "40.38152351850743" ;
+	<https://www.w3.org/2006/vcard/ns#longitude> "-3.635992893537739" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTelefono> "913329620" ;
+	<http://schema.org/email> "eiluisafernanda@madrid.es" .
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEducacion/EscuelasInfantilesPublicas/5633596> <http://www.fiupmwsld.org/handson/group17/tieneNombre> "Escuela infantil municipal Molinos de Viento" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneEquipamiento> "Horario ampliado - Comedor" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTransporte> "METRO: VIC�LVARO   BUS: 4, 106, 100, 130" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneDescripcion> "ENSE�ANZA: Educaci�n infantil (Primer ciclo)" ;
+	<http://data.lirmm.fr/ontologies/passim#isAccessibilityForDisabledPerson> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneURL> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7afe999a414b7210VgnVCM2000000c205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTipoCalle> "CAMINO FUENTE DE ARRIBA" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneNumeroCalle> "4" ;
+	<http://dbpedia.org/ontology/postalCode> "28032" ;
+	<http://data.ign.fr/def/geometrie#coordX> "448354" ;
+	<http://data.ign.fr/def/geometrie#coordY> "4472898" ;
+	<https://www.w3.org/2006/vcard/ns#latitude> "40.40321377463398" ;
+	<https://www.w3.org/2006/vcard/ns#longitude> "-3.609917274177793" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTelefono> "917753905" ;
+	<http://schema.org/email> "eimolinosdeviento@madrid.es" .
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEducacion/EscuelasInfantilesPublicas/187607> <http://www.fiupmwsld.org/handson/group17/tieneNombre> "Escuela infantil municipal Osa Menor" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTransporte> "METRO: BILBAO, ALONSO MART�NEZ, TRIBUNAL  BUS: 3, 21, 37, 40, 147, 149" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneDescripcion> "ENSE�ANZA: Educaci�n Infantil (primer ciclo)" ;
+	<http://data.lirmm.fr/ontologies/passim#isAccessibilityForDisabledPerson> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneURL> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c328d2bec675e010VgnVCM1000000b205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTipoCalle> "CALLE MEJIA LEQUERICA" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneNumeroCalle> "21" ;
+	<http://dbpedia.org/ontology/postalCode> "28004" ;
+	<http://data.ign.fr/def/geometrie#coordX> "440775" ;
+	<http://data.ign.fr/def/geometrie#coordY> "4475710" ;
+	<https://www.w3.org/2006/vcard/ns#latitude> "40.4280399538175" ;
+	<https://www.w3.org/2006/vcard/ns#longitude> "-3.699501702258276" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTelefono> "914472234" ;
+	<http://schema.org/email> "eiosamenor@madrid.es" .
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEducacion/EscuelasInfantilesPublicas/88758> <http://www.fiupmwsld.org/handson/group17/tieneNombre> "Escuela infantil municipal Ru�z Jim�nez" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneEquipamiento> "Horario ampliado.  Comedor." ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTransporte> "METRO: DIEGO DE LE�N  BUS: 1 , 12 , 56 , 69 , 72 , 73 , 115" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneDescripcion> "ENSE�ANZA: Educaci�n Infantil (Primer ciclo)" ;
+	<http://data.lirmm.fr/ontologies/passim#isAccessibilityForDisabledPerson> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneURL> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7086def5ab41c010VgnVCM2000000c205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTipoCalle> "CALLE JOSE PICON" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneNumeroCalle> "17" ;
+	<http://dbpedia.org/ontology/postalCode> "28028" ;
+	<http://data.ign.fr/def/geometrie#coordX> "443082" ;
+	<http://data.ign.fr/def/geometrie#coordY> "4476475" ;
+	<https://www.w3.org/2006/vcard/ns#latitude> "40.435092812438825" ;
+	<https://www.w3.org/2006/vcard/ns#longitude> "-3.672374874199507" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTelefono> "910590901" ;
+	<http://schema.org/email> "eiruizjimenez@madrid.es" .
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEducacion/EscuelasInfantilesPublicas/168220> <http://www.fiupmwsld.org/handson/group17/tieneNombre> "Escuela infantil municipal Tarabilla" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneEquipamiento> "Horario ampliado.  Comedor." ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTransporte> "BUS: 4 , 28 , 38 , 48 , 70 , 105" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneDescripcion> "ENSE�ANZA: Educaci�n Infantil (Primer ciclo)   Curso 2014-2015: Direcci�n de la escuela infantil calle Albarrac�n n�mero 31 (Distrito San Blas-Canillejas)  Curso 2015-2016: calle Gandhi n�mero 14 (Distrito Ciudad Lineal)" ;
+	<http://data.lirmm.fr/ontologies/passim#isAccessibilityForDisabledPerson> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneURL> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=615ce0e1f181c010VgnVCM1000000b205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTipoCalle> "CALLE GANDHI" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneNumeroCalle> "14" ;
+	<http://dbpedia.org/ontology/postalCode> "28017" ;
+	<http://data.ign.fr/def/geometrie#coordX> "446245" ;
+	<http://data.ign.fr/def/geometrie#coordY> "4475186" ;
+	<https://www.w3.org/2006/vcard/ns#latitude> "40.42369169272075" ;
+	<https://www.w3.org/2006/vcard/ns#longitude> "-3.6349635101992215" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTelefono> "913047164" ;
+	<http://swrc.ontoware.org/ontology#fax> "913 047 164" ;
+	<http://schema.org/email> "eilatarabilla@madrid.es" .
+
+<http://www.fiupmwsld.org/handson/group17/CentrosEducacion/EscuelasInfantilesPublicas/4552561> <http://www.fiupmwsld.org/handson/group17/tieneNombre> "Escuela infantil municipal VeoVeo" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneEquipamiento> "Horario ampliado - Comedor" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTransporte> "BUS: 11, 53, 122" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneDescripcion> "ENSE�ANZA: Educaci�n Infantil (Primer Ciclo)" ;
+	<http://data.lirmm.fr/ontologies/passim#isAccessibilityForDisabledPerson> "0" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneURL> "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8893f0d5edbb1110VgnVCM1000000b205a0aRCRD" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTipoCalle> "CALLE CONDESA DE VENADITO" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneNumeroCalle> "3" ;
+	<http://dbpedia.org/ontology/postalCode> "28027" ;
+	<http://data.ign.fr/def/geometrie#coordX> "444535" ;
+	<http://data.ign.fr/def/geometrie#coordY> "4477465" ;
+	<https://www.w3.org/2006/vcard/ns#latitude> "40.44410961610912" ;
+	<https://www.w3.org/2006/vcard/ns#longitude> "-3.6553313008969353" ;
+	<http://www.fiupmwsld.org/handson/group17/tieneTelefono> "918286186" ;
+	<http://schema.org/email> "eiveoveo@madrid.es" .

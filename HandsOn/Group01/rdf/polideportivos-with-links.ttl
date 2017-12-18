@@ -1,0 +1,783 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+<http://www.madriddeportes.es/ontologies/2017/Centro49338> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal Alberto García" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "REGUERA DE TOMATEROS" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28053" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28053> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "ENTREVIAS" ;
+	owl:sameAs <http://dbpedia.org/resource/Entrevias> ;
+	foaf:District "PUENTE DE VALLECAS" ;
+	owl:sameAs <http://dbpedia.org/resource/Puente_de_Vallecas> .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro114782> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal Alfredo Goyeneche" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "ARROYO DE POZUELO" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28023" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28023> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "ARAVACA" ;
+	owl:sameAs <http://dbpedia.org/resource/Aravaca> ;
+	foaf:District "MONCLOA-ARAVACA" ;
+	owl:sameAs <http://dbpedia.org/resource/Moncloa-Aravaca> .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro4696> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal Aluche" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "GENERAL FANJUL" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28044" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28044> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "LAS AGUILAS" ;
+	owl:sameAs <http://www.wikidata.org/entity/Q5971372> ;
+	foaf:District "LATINA" ;
+	owl:sameAs <http://dbpedia.org/resource/Barrio_de_La_Latina_(Madrid)> .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro4617960> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal Antiguo Canódromo" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "VIA CARPETANA" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28047" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28047> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "SAN ISIDRO" ;
+	owl:sameAs <http://www.wikidata.org/entity/Q155876> ;
+	foaf:District "CARABANCHEL" ;
+	owl:sameAs <http://dbpedia.org/resource/Carabanchel> .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro4624404> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal Antonio Díaz Miguel" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "JOAQUIN DICENTA" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28029" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28029> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "ALMENARA" ;
+	owl:sameAs <http://dbpedia.org/resource/Almenara_(Madrid)> ;
+	foaf:District "TETUAN" ;
+	owl:sameAs <http://dbpedia.org/resource/Tetuán_(Madrid)> .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro4694> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal Arganzuela" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "ALICANTE" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28045" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28045> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "DELICIAS" ;
+	owl:sameAs <http://dbpedia.org/resource/Las_Delicias_(Madrid)> ;
+	foaf:District "ARGANZUELA" ;
+	owl:sameAs <http://dbpedia.org/resource/Arganzuela> .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro99578> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal Barajas" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "LOGROÑO" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28042" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28042> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "ALAMEDA DE OSUNA" ;
+	owl:sameAs <http://dbpedia.org/resource/Alameda_de_Osuna_(Madrid_Metro)> ;
+	foaf:District "BARAJAS" ;
+	owl:sameAs <http://dbpedia.org/resource/Barajas_(Madrid)> .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro4705> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal Casa de Campo" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "PUERTA DEL ANGEL" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28011" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28011> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "CASA DE CAMPO" ;
+	owl:sameAs <http://dbpedia.org/resource/Casa_de_Campo_(Madrid)> ;
+	foaf:District "MONCLOA-ARAVACA" ;
+	owl:sameAs <http://dbpedia.org/resource/Moncloa-Aravaca> .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro78960> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal Centro Integrado Arganzuela" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "CANARIAS" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28045" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28045> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "PALOS DE MOGUER" ;
+	owl:sameAs <http://dbpedia.org/resource/Palos_de_Moguer_(Madrid)> ;
+	foaf:District "ARGANZUELA" ;
+	owl:sameAs <http://dbpedia.org/resource/Arganzuela> .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro4687> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal Cerro Almodóvar" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "CERRO DE ALMODOVAR" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28007" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28007> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "SANTA EUGENIA" ;
+	owl:sameAs <http://dbpedia.org/resource/Santa_Eugènia> ;
+	foaf:District "VILLA DE VALLECAS" ;
+	owl:sameAs <http://dbpedia.org/resource/Villa_de_Vallecas> .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro4700> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal Chamartín" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "PIO XII" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28016" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28016> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "NUEVA ESPAÑA" ;
+	foaf:District "CHAMARTIN" .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro6208448> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal Circuito BMX" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "EMBAJADORES" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28045" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28045> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "LEGAZPI" ;
+	foaf:District "ARGANZUELA" ;
+	owl:sameAs <http://dbpedia.org/resource/Arganzuela> .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro4702> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal Ciudad de Los Poetas" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "ANTONIO MACHADO" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28035" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28035> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "VALDEZARZA" ;
+	foaf:District "MONCLOA-ARAVACA" ;
+	owl:sameAs <http://dbpedia.org/resource/Moncloa-Aravaca> .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro4672> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal Concepción" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "JOSE DEL HIERRO" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28027" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28027> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "CONCEPCION" ;
+	foaf:District "CIUDAD LINEAL" ;
+	owl:sameAs <http://dbpedia.org/resource/Ciudad_Lineal> .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro134059> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal Daoíz y Velarde 1" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "DAOIZ Y VELARDE" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28007" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28007> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "PACIFICO" ;
+	foaf:District "RETIRO" .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro4726> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal Daoíz y Velarde 2" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "ALBERCHE" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28007" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28007> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "PACIFICO" ;
+	foaf:District "RETIRO" .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro140197> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal El Espinillo" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "VILLAVERDE A VALLECAS" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28041" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28041> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "LOS ROSALES" ;
+	foaf:District "VILLAVERDE" ;
+	owl:sameAs <http://dbpedia.org/resource/Villaverde,_Nueva_Vizcaya> .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro84661> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal El Olivillo" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "OLIVILLO" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28011" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28011> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "LUCERO" ;
+	foaf:District "LATINA" ;
+	owl:sameAs <http://dbpedia.org/resource/Barrio_de_La_Latina_(Madrid)> .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro4676> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal Entrevías" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "SUR" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28053" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28053> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "ENTREVIAS" ;
+	owl:sameAs <http://dbpedia.org/resource/Entrevias> ;
+	foaf:District "PUENTE DE VALLECAS" ;
+	owl:sameAs <http://dbpedia.org/resource/Puente_de_Vallecas> .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro6486044> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal Escuelas de San Antón" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "FARMACIA" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28004" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28004> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "JUSTICIA" ;
+	foaf:District "CENTRO" .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro4728> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal Estanque del Retiro" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "COLOMBIA" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28009" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28009> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "LOS JERONIMOS" ;
+	foaf:District "RETIRO" .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro4622862> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal Fabián Roncero" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "SEPTIMA" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28022" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28022> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "REJAS" ;
+	foaf:District "SAN BLAS-CANILLEJAS" ;
+	owl:sameAs <http://dbpedia.org/resource/San_Blas-Canillejas> .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro4703> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal Fernando Martín" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "SANTO ANGEL DE LA GUARDA" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28039" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28039> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "VALDEZARZA" ;
+	foaf:District "MONCLOA-ARAVACA" ;
+	owl:sameAs <http://dbpedia.org/resource/Moncloa-Aravaca> .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro4623547> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal Francisco Fernández Ochoa" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "CATORCE OLIVAS" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28054" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28054> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "BUENAVISTA" ;
+	foaf:District "CARABANCHEL" ;
+	owl:sameAs <http://dbpedia.org/resource/Carabanchel> .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro4685> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal Francos Rodríguez" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "NUMANCIA" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28039" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28039> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "CIUDAD UNIVERSITARIA" ;
+	owl:sameAs <http://dbpedia.org/resource/College_town> ;
+	foaf:District "MONCLOA-ARAVACA" ;
+	owl:sameAs <http://dbpedia.org/resource/Moncloa-Aravaca> .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro4623697> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal Fuente del Berro" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "ELVIRA" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28028" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28028> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "FUENTE DEL BERRO" ;
+	foaf:District "SALAMANCA" ;
+	owl:sameAs <http://dbpedia.org/resource/Salamanca> .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro124194> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal Félix Rubio" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "ALIANZA" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28041" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28041> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "LOS ROSALES" ;
+	foaf:District "VILLAVERDE" ;
+	owl:sameAs <http://dbpedia.org/resource/Villaverde,_Nueva_Vizcaya> .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro4698> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal Gallur" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "GALLUR" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28047" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28047> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "LOS CARMENES" ;
+	foaf:District "LATINA" ;
+	owl:sameAs <http://dbpedia.org/resource/Barrio_de_La_Latina_(Madrid)> .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro51661> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal Gimnasio Moscardó" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "PILAR DE ZARAGOZA" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28028" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28028> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "GUINDALERA" ;
+	foaf:District "SALAMANCA" ;
+	owl:sameAs <http://dbpedia.org/resource/Salamanca> .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro4680> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal Hortaleza" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "ESTACION DE HORTALEZA" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28033" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28033> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "APOSTOL SANTIAGO" ;
+	foaf:District "HORTALEZA" ;
+	owl:sameAs <http://dbpedia.org/resource/Hortaleza> .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro4704> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal José María Cagigal" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "SANTA POLA" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28008" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28008> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "CASA DE CAMPO" ;
+	owl:sameAs <http://dbpedia.org/resource/Casa_de_Campo_(Madrid)> ;
+	foaf:District "MONCLOA-ARAVACA" ;
+	owl:sameAs <http://dbpedia.org/resource/Moncloa-Aravaca> .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro4623700> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal La Almudena" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "NICOLAS SALMERÓN" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28017" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28017> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "PUEBLO NUEVO" ;
+	foaf:District "CIUDAD LINEAL" ;
+	owl:sameAs <http://dbpedia.org/resource/Ciudad_Lineal> .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro4722> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal La Bombilla" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "SENDA DEL REY" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28040" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28040> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "CASA DE CAMPO" ;
+	owl:sameAs <http://dbpedia.org/resource/Casa_de_Campo_(Madrid)> ;
+	foaf:District "MONCLOA-ARAVACA" ;
+	owl:sameAs <http://dbpedia.org/resource/Moncloa-Aravaca> .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro4697> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal La Chopera" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "FERNAN NU&Ntilde;EZ" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28009" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28009> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "LOS JERONIMOS" ;
+	foaf:District "RETIRO" .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro4674> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal La Elipa" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "ALCALDE GARRIDO JUARISTI" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28030" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28030> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "MEDIA LEGUA" ;
+	foaf:District "MORATALAZ" ;
+	owl:sameAs <http://dbpedia.org/resource/Moratalaz> .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro104235> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal La Masó" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "MASO" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28034" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28034> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "MIRASIERRA" ;
+	foaf:District "FUENCARRAL-EL PARDO" ;
+	owl:sameAs <http://dbpedia.org/resource/Fuencarral-El_Pardo> .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro4695> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal La Mina" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "MONSEÑOR OSCAR ROMERO" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28025" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28025> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "VISTA ALEGRE" ;
+	foaf:District "CARABANCHEL" ;
+	owl:sameAs <http://dbpedia.org/resource/Carabanchel> .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro4707> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal La Vaguada" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "MONFORTE DE LEMOS" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28029" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28029> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "EL PILAR" ;
+	foaf:District "FUENCARRAL-EL PARDO" ;
+	owl:sameAs <http://dbpedia.org/resource/Fuencarral-El_Pardo> .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro4834> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal Lago Casa de Campo" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "EMBARCADERO" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28011" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28011> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "CASA DE CAMPO" ;
+	owl:sameAs <http://dbpedia.org/resource/Casa_de_Campo_(Madrid)> ;
+	foaf:District "MONCLOA-ARAVACA" ;
+	owl:sameAs <http://dbpedia.org/resource/Moncloa-Aravaca> .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro4538574> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal Las Cruces" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "POBLADOS" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28044" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28044> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "LAS AGUILAS" ;
+	owl:sameAs <http://www.wikidata.org/entity/Q5971372> ;
+	foaf:District "LATINA" ;
+	owl:sameAs <http://dbpedia.org/resource/Barrio_de_La_Latina_(Madrid)> .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro4619937> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal Los Prunos" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "PETUNIAS" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28042" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28042> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "PALOMAS" ;
+	foaf:District "HORTALEZA" ;
+	owl:sameAs <http://dbpedia.org/resource/Hortaleza> .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro4681> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal Luis Aragonés" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "EL PROVENCIO" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28043" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28043> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "CANILLAS" ;
+	foaf:District "HORTALEZA" ;
+	owl:sameAs <http://dbpedia.org/resource/Hortaleza> .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro121729> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal Marqués de Samaranch" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "IMPERIAL" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28005" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28005> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "IMPERIAL" ;
+	foaf:District "ARGANZUELA" ;
+	owl:sameAs <http://dbpedia.org/resource/Arganzuela> .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro4701827> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal Miguel Guillén Prim" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "FUENTIDUEÑA" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28031" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28031> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "CASCO H.VALLECAS" ;
+	foaf:District "VILLA DE VALLECAS" ;
+	owl:sameAs <http://dbpedia.org/resource/Villa_de_Vallecas> .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro4673> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal Moratalaz" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "VALDEBERNARDO" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28030" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28030> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "PAVONES" ;
+	foaf:District "MORATALAZ" ;
+	owl:sameAs <http://dbpedia.org/resource/Moratalaz> .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro4691> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal Moscardó" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "ANDRES ARTEAGA" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28026" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28026> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "MOSCARDO" ;
+	foaf:District "USERA" ;
+	owl:sameAs <http://dbpedia.org/resource/Usera> .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro4693> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal Orcasitas" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "RAFAELA YBARRA" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28026" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28026> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "ZOFIO" ;
+	foaf:District "USERA" ;
+	owl:sameAs <http://dbpedia.org/resource/Usera> .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro4690> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal Orcasur" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "MOREJA" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28041" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28041> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "ORCASUR" ;
+	foaf:District "USERA" ;
+	owl:sameAs <http://dbpedia.org/resource/Usera> .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro4675> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal Palomeras" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "TRANVIA DE ARGANDA" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28031" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28031> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "PALOMERAS SURESTE" ;
+	foaf:District "PUENTE DE VALLECAS" ;
+	owl:sameAs <http://dbpedia.org/resource/Puente_de_Vallecas> .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro4622991> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal Pepu Hernández" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "NIZA" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28022" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28022> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "ROSAS" ;
+	foaf:District "SAN BLAS-CANILLEJAS" ;
+	owl:sameAs <http://dbpedia.org/resource/San_Blas-Canillejas> .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro4727> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal Peñuelas" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "ARGANDA" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28005" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28005> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "ACACIAS" ;
+	foaf:District "ARGANZUELA" ;
+	owl:sameAs <http://dbpedia.org/resource/Arganzuela> .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro4719> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal Plata y Castañar" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "PLATA Y CASTAÑAR" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28021" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28021> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "SAN ANDRES" ;
+	foaf:District "VILLAVERDE" ;
+	owl:sameAs <http://dbpedia.org/resource/Villaverde,_Nueva_Vizcaya> .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro4718> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal Playa Victoria" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "HIERBABUENA" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28039" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28039> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "BERRUGUETE" ;
+	foaf:District "TETUAN" .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro4701> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal Pradillo" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "PRADILLO" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28002" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28002> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "CIUDAD JARDIN" ;
+	owl:sameAs <http://dbpedia.org/resource/Garden_city_movement> ;
+	foaf:District "CHAMARTIN" .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro4720> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal Pueblo Nuevo" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "FRANCISCO RIOJA" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28017" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28017> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "PUEBLO NUEVO" ;
+	foaf:District "CIUDAD LINEAL" ;
+	owl:sameAs <http://dbpedia.org/resource/Ciudad_Lineal> .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro4678> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal Puente de Vallecas" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "PAYASO FOFO" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28018" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28018> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "PALOMERAS BAJAS" ;
+	foaf:District "PUENTE DE VALLECAS" ;
+	owl:sameAs <http://dbpedia.org/resource/Puente_de_Vallecas> .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro106242> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal Raúl González" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "BENIMAMET" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28021" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28021> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "SAN CRISTOBAL" ;
+	foaf:District "VILLAVERDE" ;
+	owl:sameAs <http://dbpedia.org/resource/Villaverde,_Nueva_Vizcaya> .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro4689> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal San Blas" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "ARCOS DE JALON" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28037" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28037> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "HELLIN" ;
+	foaf:District "SAN BLAS-CANILLEJAS" ;
+	owl:sameAs <http://dbpedia.org/resource/San_Blas-Canillejas> .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro4686> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal San Cristóbal" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "PINAZO" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28021" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28021> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "SAN CRISTOBAL" ;
+	foaf:District "VILLAVERDE" ;
+	owl:sameAs <http://dbpedia.org/resource/Villaverde,_Nueva_Vizcaya> .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro4692> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal San Fermín" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "SAN MARIO" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28041" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28041> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "SAN FERMIN" ;
+	foaf:District "USERA" ;
+	owl:sameAs <http://dbpedia.org/resource/Usera> .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro4679> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal San Juan Bautista" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "TREVIANA" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28043" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28043> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "SAN JUAN BAUTISTA" ;
+	foaf:District "CIUDAD LINEAL" ;
+	owl:sameAs <http://dbpedia.org/resource/Ciudad_Lineal> .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro4706> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal Santa Ana" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "ALAMEDILLAS" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28034" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28034> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "VALVERDE" ;
+	foaf:District "FUENCARRAL-EL PARDO" ;
+	owl:sameAs <http://dbpedia.org/resource/Fuencarral-El_Pardo> .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro28525> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal Tenis Casa de Campo" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "PRINCIPE" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28011" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28011> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "CASA DE CAMPO" ;
+	owl:sameAs <http://dbpedia.org/resource/Casa_de_Campo_(Madrid)> ;
+	foaf:District "MONCLOA-ARAVACA" ;
+	owl:sameAs <http://dbpedia.org/resource/Moncloa-Aravaca> .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro4684> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal Triángulo de Oro" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "BRAVO MURILLO" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28020" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28020> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "CASTILLEJOS" ;
+	owl:sameAs <http://dbpedia.org/resource/Castillejos> ;
+	foaf:District "TETUAN" .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro120275> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal Valdebernardo" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "LADERA DE LOS ALMENDROS" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28032" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28032> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "CASCO H.VICALVARO" ;
+	foaf:District "VICALVARO" .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro4677> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal Vallecas" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "ARROYO DEL OLIVAR" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28018" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28018> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "PALOMERAS BAJAS" ;
+	foaf:District "PUENTE DE VALLECAS" ;
+	owl:sameAs <http://dbpedia.org/resource/Puente_de_Vallecas> .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro7411340> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal Vallehermoso" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "FILIPINAS" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28003" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28003> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "VALLEHERMOSO" ;
+	foaf:District "CHAMBERI" .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro4699> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal Vicente del Bosque" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "MONFORTE DE LEMOS" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28029" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28029> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "LA PAZ" ;
+	foaf:District "FUENCARRAL-EL PARDO" ;
+	owl:sameAs <http://dbpedia.org/resource/Fuencarral-El_Pardo> .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro4688> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Centro Deportivo Municipal Vicálvaro" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "POLIDEPORTIVO" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28032" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28032> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "AMBROZ" ;
+	foaf:District "VICALVARO" .
+
+<http://www.madriddeportes.es/ontologies/2017/Centro5273495> a <http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FCentro+Deportivo> ;
+	foaf:Name "Madrid Caja Mágica" ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Street> "PERALES" ;
+	foaf:city "MADRID" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid,_Madrid> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Postal+code> "28041" ;
+	owl:sameAs <http://www.madriddeportes.es/ontologies/2017/28041> ;
+	<http://www.madriddeportes.es/ontologies/2017/http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F+Neighborhood> "SAN FERMIN" ;
+	foaf:District "USERA" ;
+	owl:sameAs <http://dbpedia.org/resource/Usera> .

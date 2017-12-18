@@ -1,0 +1,1225 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:ontology="http://www.semanticweb.org/Group04/ontology#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/Group04/ontology#hasType -->
+
+
+    <AnnotationProperty rdf:about="http://www.semanticweb.org/Group04/ontology#hasType"/>
+    
+
+
+    <!-- http://www.semanticweb.org/Group04/ontology#isAccesible -->
+
+
+    <AnnotationProperty rdf:about="http://www.semanticweb.org/Group04/ontology#isAccesible"/>
+    
+
+
+    <!-- http://www.semanticweb.org/Group04/ontology#isInStreet -->
+
+
+    <AnnotationProperty rdf:about="http://www.semanticweb.org/Group04/ontology#isInStreet"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/Group04/ontology#Parking -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/Group04/ontology#Parking"/>
+    
+
+
+    <!-- http://www.semanticweb.org/Group04/ontology#Street -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/Group04/ontology#Street"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://semanticweb.org/Group04/ALCALA -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/ALCALA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Street"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/ALMAGRO -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/ALMAGRO">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Street"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/ARCENTALES -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/ARCENTALES">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Street"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/BARCELO -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/BARCELO">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Street"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/BRASIL -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/BRASIL">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Street"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/CARMEN -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/CARMEN">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Street"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/CARTAGENA -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/CARTAGENA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Street"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/CASINO -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/CASINO">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Street"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/DESCALZAS -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/DESCALZAS">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Street"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/ENCUENTRO -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/ENCUENTRO">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Street"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/FUENCARRAL -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/FUENCARRAL">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Street"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/GOYA -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/GOYA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Street"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/HERNANI -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/HERNANI">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Street"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/MONTALBAN -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/MONTALBAN">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Street"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/OLAVIDE -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/OLAVIDE">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Street"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/ORIENTE -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/ORIENTE">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Street"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/PORTUGAL -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/PORTUGAL">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Street"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/RECOLETOS -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/RECOLETOS">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Street"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/REY -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/REY">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Street"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/VELAZQUEZ -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/VELAZQUEZ">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Street"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/ANTONIA+MERCE -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/ANTONIA+MERCE">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Street"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/Aparcamiento+mixto.+Brasil -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/Aparcamiento+mixto.+Brasil">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:resource="http://semanticweb.org/Group04/Plazas%3A++226+p%EF%BF%BDblicas+y+400+para+residentes++Abierto+24+horas+++Titularidad%3A++Ayuntamiento+de+Madrid"/>
+        <ontology:isAccesible rdf:resource="http://semanticweb.org/Group04/0"/>
+        <ontology:isInStreet rdf:resource="http://semanticweb.org/Group04/GENERAL+YAG%26Uuml%3BE"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/Aparcamiento+mixto.+Encuentro -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/Aparcamiento+mixto.+Encuentro">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:resource="http://semanticweb.org/Group04/Plazas%3A++104+p%EF%BF%BDblicas+y+550+para+residentes++Abierto+24+horas+++Titularidad%3A++Ayuntamiento+de+Madrid"/>
+        <ontology:isAccesible rdf:resource="http://semanticweb.org/Group04/0"/>
+        <ontology:isInStreet rdf:resource="http://semanticweb.org/Group04/ENCUENTRO"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/Aparcamiento+mixto.+Fuencarral -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/Aparcamiento+mixto.+Fuencarral">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:resource="http://semanticweb.org/Group04/Plazas+%3A+410+p%EF%BF%BDblicas+y+111+para+residentes+++Informaci%EF%BF%BDn+sobre+accesibilidad%3A++++No+tiene+escalera+adaptada++1+ascensor+con+salida+a+la+calle+Fuencarral%2C+117++1+aseo+accesible+en+la+1%26ordf%3B+planta++Plazas+para+minusv%EF%BF%BDlidos+residentes%3A+7++++Abierto+24+horas++++Admite+Tarjeta+BonoRed++++Titularidad+%3A+Ayuntamiento+de+Madrid"/>
+        <ontology:isAccesible rdf:resource="http://semanticweb.org/Group04/0"/>
+        <ontology:isInStreet rdf:resource="http://semanticweb.org/Group04/FUENCARRAL"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/Aparcamiento+mixto.+Hernani -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/Aparcamiento+mixto.+Hernani">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:resource="http://semanticweb.org/Group04/Plazas%3A++115+p%EF%BF%BDblicas+y+383+residentes+++Informaci%EF%BF%BDn+sobre+accesibilidad%3A+++No+tiene+escaleras+adptadas++Ascensor+de+salida+a+la+calle+Hernai%2C+68++1+aseo+accesible+en+1%26ordf%3B+planta++Plazas+para+minusv%EF%BF%BDlidos+residentes.+3++++++Abierto+24+horas++++Titularidad%3A++Ayuntamiento+de+Madrid"/>
+        <ontology:isAccesible rdf:resource="http://semanticweb.org/Group04/0"/>
+        <ontology:isInStreet rdf:resource="http://semanticweb.org/Group04/HERNANI"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/Aparcamiento+mixto.+Orense -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/Aparcamiento+mixto.+Orense">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:resource="http://semanticweb.org/Group04/Plazas+%3A+128+p%EF%BF%BDblicas+y+663+para+residentes+++Informaci%EF%BF%BDn+sobre+accesibilidad%3A+++1+escalera+adaptada++No+dispone+de+ascensor++1+aseo+accesible++Plaza+para+minusv%EF%BF%BDlidos+residentes%3A+5+++++Abierto+24+horas++++Titularidad+%3A+Ayuntamiento+de+Madrid+++Gesti%EF%BF%BDn%3A++Empresa+Municipal+de+Transportes+%28EMT%29+%28+m%EF%BF%BDs+informaci%EF%BF%BDn+%29"/>
+        <ontology:isAccesible rdf:resource="http://semanticweb.org/Group04/0"/>
+        <ontology:isInStreet rdf:resource="http://semanticweb.org/Group04/SOR+ANGELA+DE+LA+CRUZ"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/Aparcamiento+mixto.+Recoletos -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/Aparcamiento+mixto.+Recoletos">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:resource="http://semanticweb.org/Group04/Plazas+%3A+102+p%EF%BF%BDblicas+y+289+para+residentes+++Informaci%EF%BF%BDn+sobre+accesibilidad%3A++++No+tiene+escaleras+adaptadas++1+ascensor+en+la+salida+al+Paseo+de+Recoletos++1+aseo+accesible++Plaza+para+minusv%EF%BF%BDlidos+residentes%3A+10++++Abierto+24+horas+++Admite+Tarjeta+BonoRed+++Titularidad+%3A+Ayuntamiento+de+Madrid+++Gesti%EF%BF%BDn%3A++Empresa+Municipal+de+Transportes+%28EMT%29+%28+m%EF%BF%BDs+informaci%EF%BF%BDn+%29"/>
+        <ontology:isAccesible rdf:resource="http://semanticweb.org/Group04/0"/>
+        <ontology:isInStreet rdf:resource="http://semanticweb.org/Group04/RECOLETOS"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/Aparcamiento+mixto.+Sevilla -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/Aparcamiento+mixto.+Sevilla">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:resource="http://semanticweb.org/Group04/Plazas+%3A+476+p%EF%BF%BDblicas+y+70+para+residentes++Abierto+24+horas++Admite+Tarjeta+BonoRed++++Titularidad+%3A+Ayuntamiento+de+Madrid"/>
+        <ontology:isAccesible rdf:resource="http://semanticweb.org/Group04/0"/>
+        <ontology:isInStreet rdf:resource="http://semanticweb.org/Group04/ALCALA"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/Aparcamiento+mixto.+Arquitecto+Ribera -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/Aparcamiento+mixto.+Arquitecto+Ribera">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:resource="http://semanticweb.org/Group04/Plazas%3A++318+p%EF%BF%BDblicas+y+298+para+residentes++Abierto+24+horas++Admite+Tarjeta+BonoRed+++Titularidad%3A++Ayuntamiento+de+Madrid"/>
+        <ontology:isAccesible rdf:resource="http://semanticweb.org/Group04/0"/>
+        <ontology:isInStreet rdf:resource="http://semanticweb.org/Group04/BARCELO"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/Aparcamiento+mixto.+Avenida+de+Portugal -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/Aparcamiento+mixto.+Avenida+de+Portugal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:resource="http://semanticweb.org/Group04/Plazas%3A++433+p%EF%BF%BDblicas+y+437+para+residentes+++Informacion+sobre+accesibilidad%3A+++No+tiene+escalera+adaptada++Tiene+ascensor+de+salida+a+Avenida+de+Portugal%2C+s%2Fn++1+aseo+accesible+%28nivel-3%29++Plazas+para+minusv%EF%BF%BDlidos+residentes%3A+20++++Abierto+24+horas+++Titularidad+%3A+Ayuntamiento+de+Madrid+++Gesti%EF%BF%BDn+%3A+Empresa+Municipal+de+Transportes+%28EMT%29+%28+m%EF%BF%BDs+informaci%EF%BF%BDn+%29"/>
+        <ontology:isAccesible rdf:resource="http://semanticweb.org/Group04/0"/>
+        <ontology:isInStreet rdf:resource="http://semanticweb.org/Group04/PORTUGAL"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/Aparcamiento+mixto.+Avenida+de+Am%EF%BF%BDrica+%28intercambiador%29 -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/Aparcamiento+mixto.+Avenida+de+Am%EF%BF%BDrica+%28intercambiador%29">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:resource="http://semanticweb.org/Group04/Informaci%EF%BF%BDn+sobre+accesibilidad+%3A++Tiene+escaleras+adaptadas++Ascensor+de+salida+a+la+calle+Avenida+de+Am%EF%BF%BDrica%2C+9++Tiene+aseos+accesibles++Plazas+para+minusv%EF%BF%BDlidos+++++Plazas+%3A+269+p%EF%BF%BDblicas+y+392+para+residentes+++Abierto+24+horas++++Titularidad+%3A+Ayuntamiento+de+Madrid"/>
+        <ontology:isAccesible rdf:resource="http://semanticweb.org/Group04/0"/>
+        <ontology:isInStreet rdf:resource="http://semanticweb.org/Group04/PRADENA+DEL+RINCON"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/Aparcamiento+mixto.+Casino+de+la+Reina -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/Aparcamiento+mixto.+Casino+de+la+Reina">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:resource="http://semanticweb.org/Group04/Plazas%3A++135+p%EF%BF%BDblicas+y+449+para+residentes++Abierto+24+horas+++Titularidad%3A++Ayuntamiento+de+Madrid"/>
+        <ontology:isAccesible rdf:resource="http://semanticweb.org/Group04/0"/>
+        <ontology:isInStreet rdf:resource="http://semanticweb.org/Group04/CASINO"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/Aparcamiento+mixto.+Condesa+de+Gavia -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/Aparcamiento+mixto.+Condesa+de+Gavia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:resource="http://semanticweb.org/Group04/Plazas+%3A+73+p%EF%BF%BDblicas+y+79+para+residentes+++Abierto+24+horas+++Titularidad+%3A+Ayuntamiento+de+Madrid"/>
+        <ontology:isAccesible rdf:resource="http://semanticweb.org/Group04/0"/>
+        <ontology:isInStreet rdf:resource="http://semanticweb.org/Group04/CONDESA+DE+GAVIA"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/Aparcamiento+mixto.+Coraz%EF%BF%BDn+de+Mar%EF%BF%BDa+II -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/Aparcamiento+mixto.+Coraz%EF%BF%BDn+de+Mar%EF%BF%BDa+II">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:resource="http://semanticweb.org/Group04/Plazas+%3A+327+p%EF%BF%BDblicas+y+750+para+residentes+++Informacion+sobre+accesibilidad%3A+++No+tiene+escalera+adaptada++No+tiene+ascensor+de+salida+a+calle++2+aseos+accesibles+%28+1%26ordf%3B++planta%29+++Plazas+para+minusv%EF%BF%BDlidos+residentes%3A+6+++++Abierto+24+horas++++Titularidad+%3A+Ayuntamiento+de+Madrid"/>
+        <ontology:isAccesible rdf:resource="http://semanticweb.org/Group04/0"/>
+        <ontology:isInStreet rdf:resource="http://semanticweb.org/Group04/CORAZON+DE+MARIA"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/Aparcamiento+mixto.+Corona+Boreal -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/Aparcamiento+mixto.+Corona+Boreal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:resource="http://semanticweb.org/Group04/Plazas+%3A+120+p%EF%BF%BDblicas+y+125+para+residentes+++Informaci%EF%BF%BDn+sobre+accesibilidad%3A+++No+tiene+escaleras+adaptadas++Ascensor+de+salida+a+la+calle+P%EF%BF%BDrez+de+Victoria++2+aseos+accesibles+%281%26ordf%3B+planta%29++Plazas+para+minusv%EF%BF%BDlidos+residentes%3A+3+++++Abierto+24+horas++++Titularidad+%3A+Ayuntamiento+de+Madrid"/>
+        <ontology:isAccesible rdf:resource="http://semanticweb.org/Group04/1"/>
+        <ontology:isInStreet rdf:resource="http://semanticweb.org/Group04/PEREZ+DE+VICTORIA"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/Aparcamiento+mixto.+D%EF%BF%BDaz+Porlier -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/Aparcamiento+mixto.+D%EF%BF%BDaz+Porlier">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:resource="http://semanticweb.org/Group04/Plazas%3A++203+p%EF%BF%BDblicas+y+421+para+residentes++Abierto+24+horas+++Titularidad%3A++Ayuntamiento+de+Madrid"/>
+        <ontology:isAccesible rdf:resource="http://semanticweb.org/Group04/0"/>
+        <ontology:isInStreet rdf:resource="http://semanticweb.org/Group04/DIEGO+DE+LEON"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/Aparcamiento+mixto.+Dao%EF%BF%BDz+y+Velarde -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/Aparcamiento+mixto.+Dao%EF%BF%BDz+y+Velarde">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:resource="http://semanticweb.org/Group04/Plazas%3A++312+p%EF%BF%BDblicas+y+174+para+residentes++Abierto+24+horas+++Titularidad%3A++Ayuntamiento+de+Madrid"/>
+        <ontology:isAccesible rdf:resource="http://semanticweb.org/Group04/0"/>
+        <ontology:isInStreet rdf:resource="http://semanticweb.org/Group04/CIUDAD+DE+BARCELONA"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/Aparcamiento+mixto.+Felipe+II -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/Aparcamiento+mixto.+Felipe+II">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:resource="http://semanticweb.org/Group04/Plazas+%3A+1218+p%EF%BF%BDblicas+y+607+para+residentes+++Plazas+%3A+120+p%EF%BF%BDblicas+y+125+para+residentes+++Informaci%EF%BF%BDn+sobre+accesibilidad%3A++++No+tiene+escaleras+adaptadas++Ascensor+de+salida+a+la+plaza+de+Felipe+II++Aseo+accesible+%281%26ordf%3B+planta%29++Plazas+para+minusv%EF%BF%BDlidos+residentes%3A23++++Abierto+24+horas++++Admite+tarjeta+BonoRed++++Titularidad+%3A+Ayuntamiento+de+Madrid"/>
+        <ontology:isAccesible rdf:resource="http://semanticweb.org/Group04/0"/>
+        <ontology:isInStreet rdf:resource="http://semanticweb.org/Group04/ANTONIA+MERCE"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/Aparcamiento+mixto.+General+Yag%EF%BF%BDe -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/Aparcamiento+mixto.+General+Yag%EF%BF%BDe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:resource="http://semanticweb.org/Group04/Plazas%3A++409+p%EF%BF%BDblicas+y+717+residentes++Abierto+24+horas+++Titularidad%3A++Ayuntamiento+de+Madrid"/>
+        <ontology:isAccesible rdf:resource="http://semanticweb.org/Group04/0"/>
+        <ontology:isInStreet rdf:resource="http://semanticweb.org/Group04/BRASIL"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/Aparcamiento+mixto.+Jacinto+Benavente -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/Aparcamiento+mixto.+Jacinto+Benavente">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:resource="http://semanticweb.org/Group04/Plazas%3A++285+p%EF%BF%BDblicas+y+110+para+residentes.+++Plazas+motos%3A++7.+++Informaci%EF%BF%BDn+sobre+accesibilidad%3A++++No+tiene+escaleras+adaptadas++Ascensor+con+salida+a+la+calle+Jacinto+benavente%2C+s%2Fn++1+aseo+accesible+Plaza+para+minusv%EF%BF%BDlidos+residentes%3A+16+++Abierto+24+horas++Admite+Tarjeta+BonoRed+++Titularidad%3A++Ayuntamiento+de+Madrid+++Gesti%EF%BF%BDn%3A++Empresa+Municipal+de+Transportes+%28EMT%29+%28+m%EF%BF%BDs+informaci%EF%BF%BDn+%29"/>
+        <ontology:isAccesible rdf:resource="http://semanticweb.org/Group04/0"/>
+        <ontology:isInStreet rdf:resource="http://semanticweb.org/Group04/JACINTO+BENAVENTE"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/Aparcamiento+mixto.+Jos%EF%BF%BD+Cast%EF%BF%BDn+Tobe%EF%BF%BDas -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/Aparcamiento+mixto.+Jos%EF%BF%BD+Cast%EF%BF%BDn+Tobe%EF%BF%BDas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:resource="http://semanticweb.org/Group04/Plazas%3A++205+p%EF%BF%BDblicas+y+43+para+residentes+++Informaci%EF%BF%BDn+sobre+accesibilidad%3A+++No+tiene+escaleras+adaptadas++No+disponde+ascensor++No+disponde+de+aseos+accesible++Plazas+para+minusv%EF%BF%BDlidos+residentes%3A+5+++++Abierto+24+horas++++Titularidad%3A++Ayuntamiento+de+Madrid"/>
+        <ontology:isAccesible rdf:resource="http://semanticweb.org/Group04/0"/>
+        <ontology:isInStreet rdf:resource="http://semanticweb.org/Group04/CAPITAN+HAYA"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/Aparcamiento+mixto.+Marqu%EF%BF%BDs+de+Salamanca -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/Aparcamiento+mixto.+Marqu%EF%BF%BDs+de+Salamanca">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:resource="http://semanticweb.org/Group04/Plazas+%3A+360+p%EF%BF%BDblicas+y+70+para+residentes+++Informaci%EF%BF%BDn+sobre+accesibilidad%3A++++No+tiene+escaleras+adaptadas++1+ascensor+en+la+salida+a+la+plaza+del+Marqu%EF%BF%BDs+de+Salamanca++1+aseo+accesible+en++2%26ordf%3B+++planta++Plaza+para+minusv%EF%BF%BDlidos+residentes%3A+14+++Admite+Tarjeta+BonoRed+++Abierto+24+horas++++Titularidad+%3A+Ayuntamiento+de+Madrid"/>
+        <ontology:isAccesible rdf:resource="http://semanticweb.org/Group04/0"/>
+        <ontology:isInStreet rdf:resource="http://semanticweb.org/Group04/MARQUES+DE+SALAMANCA"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/Aparcamiento+mixto.+Miguel+Yuste -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/Aparcamiento+mixto.+Miguel+Yuste">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:resource="http://semanticweb.org/Group04/Plazas%3A++182++p%EF%BF%BDblicas+y+68+para+residentes++Abierto%3A+24+horas++Admite+Tarjeta+BonoRed+++Titularidad%3A++Ayuntamiento+de+Madrid"/>
+        <ontology:isAccesible rdf:resource="http://semanticweb.org/Group04/0"/>
+        <ontology:isInStreet rdf:resource="http://semanticweb.org/Group04/MIGUEL+YUSTE"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/Aparcamiento+mixto.+Plaza+de+Oriente -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/Aparcamiento+mixto.+Plaza+de+Oriente">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:resource="http://semanticweb.org/Group04/Plazas+%3A+242+p%EF%BF%BDblicas+y+511+para+residentes++Abierto+24+horas++Admite+Tarjeta+BonoRed++Este+PAR+est%EF%BF%BD+adherido+a+la+zona+de+APR+++Titularidad+%3A+Ayuntamiento+de+Madrid"/>
+        <ontology:isAccesible rdf:resource="http://semanticweb.org/Group04/0"/>
+        <ontology:isInStreet rdf:resource="http://semanticweb.org/Group04/ORIENTE"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/Aparcamiento+mixto.+Presidente+Carmona -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/Aparcamiento+mixto.+Presidente+Carmona">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:resource="http://semanticweb.org/Group04/Plazas+%3A+379+p%EF%BF%BDblicas+y+124+para+residentes++Abierto+24+horas+++Titularidad+%3A+Ayuntamiento+de+Madrid"/>
+        <ontology:isAccesible rdf:resource="http://semanticweb.org/Group04/0"/>
+        <ontology:isInStreet rdf:resource="http://semanticweb.org/Group04/PRESIDENTE+CARMONA"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/Aparcamiento+mixto.+Rep%EF%BF%BDblica+Dominicana -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/Aparcamiento+mixto.+Rep%EF%BF%BDblica+Dominicana">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:resource="http://semanticweb.org/Group04/Plazas+%3A+892+p%EF%BF%BDblicas+y+203+para+residentes++Abierto+24+horas+++Titularidad+%3A+Ayuntamiento+de+Madrid"/>
+        <ontology:isAccesible rdf:resource="http://semanticweb.org/Group04/0"/>
+        <ontology:isInStreet rdf:resource="http://semanticweb.org/Group04/REPUBLICA+DOMINICANA"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/Aparcamiento+mixto.+S%EF%BF%BDnchez+Bustillo -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/Aparcamiento+mixto.+S%EF%BF%BDnchez+Bustillo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:resource="http://semanticweb.org/Group04/Plazas+%3A+132+p%EF%BF%BDblicas+y+408+para+residentes++Abierto+24+horas+++Titularidad+%3A+Ayuntamiento+de+Madrid"/>
+        <ontology:isAccesible rdf:resource="http://semanticweb.org/Group04/0"/>
+        <ontology:isInStreet rdf:resource="http://semanticweb.org/Group04/SANCHEZ+BUSTILLO"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/Aparcamiento+mixto.+San+Cayetano -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/Aparcamiento+mixto.+San+Cayetano">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:resource="http://semanticweb.org/Group04/Plazas+%3A+222+p%EF%BF%BDblicas+y+261+para+residentes++Abierto+24+horas+++Titularidad+%3A+Ayuntamiento+de+Madrid"/>
+        <ontology:isAccesible rdf:resource="http://semanticweb.org/Group04/0"/>
+        <ontology:isInStreet rdf:resource="http://semanticweb.org/Group04/SAN+CAYETANO"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/Aparcamiento+mixto.+Serrano+I -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/Aparcamiento+mixto.+Serrano+I">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:resource="http://semanticweb.org/Group04/Plazas+%3A+307+p%EF%BF%BDblicas+y+831+para+residentes++Abierto+24+horas+++Titularidad+%3A+Ayuntamiento+de+Madrid"/>
+        <ontology:isAccesible rdf:resource="http://semanticweb.org/Group04/0"/>
+        <ontology:isInStreet rdf:resource="http://semanticweb.org/Group04/JUAN+BRAVO"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/Aparcamiento+mixto.+Serrano+II -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/Aparcamiento+mixto.+Serrano+II">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:resource="http://semanticweb.org/Group04/Plazas+%3A+379+p%EF%BF%BDblicas+y+794+para+residentes++Abierto+24+horas+++Titularidad+%3A+Ayuntamiento+de+Madrid"/>
+        <ontology:isAccesible rdf:resource="http://semanticweb.org/Group04/0"/>
+        <ontology:isInStreet rdf:resource="http://semanticweb.org/Group04/JOSE+ORTEGA+Y+GASSET"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/Aparcamiento+mixto.+Serrano+III -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/Aparcamiento+mixto.+Serrano+III">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:resource="http://semanticweb.org/Group04/Plazas+%3A+261+p%EF%BF%BDblicas+y+725+para+residentes++Abierto+24+horas+++Titularidad+%3A+Ayuntamiento+de+Madrid"/>
+        <ontology:isAccesible rdf:resource="http://semanticweb.org/Group04/0"/>
+        <ontology:isInStreet rdf:resource="http://semanticweb.org/Group04/JORGE+JUAN"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/Aparcamiento+mixto.+V%EF%BF%BDzquez+de+Mella -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/Aparcamiento+mixto.+V%EF%BF%BDzquez+de+Mella">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:resource="http://semanticweb.org/Group04/Plazas%3A++107+p%EF%BF%BDblicas+y+261+para+residentes.+++Plazas+motos%3A++6.+++Informaci%EF%BF%BDn+sobre+accesibilidad%3A+++No+tiene+escaleras+adaptadas++1+ascensor+con+salida+a+la+Plaza+de+Vazquez+de+Mella++1+aseo+accesible++Plaza+para+minusv%EF%BF%BDlidos+residentes%3A+7+++++Abierto+24+horas++++Titularidad%3A++Ayuntamiento+de+Madrid+++Gesti%EF%BF%BDn%3A++Empresa+Municipal+de+Transportes+%28EMT%29+%28+m%EF%BF%BDs+informaci%EF%BF%BDn+%29"/>
+        <ontology:isAccesible rdf:resource="http://semanticweb.org/Group04/0"/>
+        <ontology:isInStreet rdf:resource="http://semanticweb.org/Group04/PEDRO+ZEROLO"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/Aparcamiento+mixto.+Vel%EF%BF%BDzquez+-+Ayala -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/Aparcamiento+mixto.+Vel%EF%BF%BDzquez+-+Ayala">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:resource="http://semanticweb.org/Group04/Plazas%3A++464+p%EF%BF%BDblicas+y+235+para+residentes++Abierto+24+horas++Admite+Tarjeta+BonoRed+++Titularidad%3A++Ayuntamiento+de+Madrid"/>
+        <ontology:isAccesible rdf:resource="http://semanticweb.org/Group04/0"/>
+        <ontology:isInStreet rdf:resource="http://semanticweb.org/Group04/VELAZQUEZ"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/Aparcamiento+mixto.+Vel%EF%BF%BDzquez+-+Jorge+Juan -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/Aparcamiento+mixto.+Vel%EF%BF%BDzquez+-+Jorge+Juan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:resource="http://semanticweb.org/Group04/Plazas%3A++549+p%EF%BF%BDblicas+y+395+para+residentes++Abierto+24+horas++Admite+Tarjeta+BonoRed+++Titularidad%3A++Ayuntamiento+de+Madrid"/>
+        <ontology:isAccesible rdf:resource="http://semanticweb.org/Group04/1"/>
+        <ontology:isInStreet rdf:resource="http://semanticweb.org/Group04/VELAZQUEZ"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/Aparcamiento+mixto.+Verdaguer+y+Garc%EF%BF%BDa -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/Aparcamiento+mixto.+Verdaguer+y+Garc%EF%BF%BDa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:resource="http://semanticweb.org/Group04/Plazas%3A++83+p%EF%BF%BDblicas+y+180+para+residentes+++Informaci%EF%BF%BDn+sobre+accesibilidad%3A+++No+tiene+escaleras+adaptadas++1+ascensor+en+la+salida+a+la+Calle+Verdaguer+y+garc%EF%BF%BDa++1+aseo+accesible+en+la+planta+-1++Plaza+para+minusv%EF%BF%BDlidos+residentes%3A+4+++++Abierto+24+horas++++Titularidad%3A++Ayuntamiento+de+Madrid"/>
+        <ontology:isAccesible rdf:resource="http://semanticweb.org/Group04/0"/>
+        <ontology:isInStreet rdf:resource="http://semanticweb.org/Group04/VERDAGUER+Y+GARCIA"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico+disuasorio+Estadio+Metropolitano+Sur+ES-02b -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico+disuasorio+Estadio+Metropolitano+Sur+ES-02b">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:resource="http://semanticweb.org/Group04/Plazas+%3A+++para+autom%EF%BF%BDviles+1719++para+motocicletas+61"/>
+        <ontology:isAccesible rdf:resource="http://semanticweb.org/Group04/0"/>
+        <ontology:isInStreet rdf:resource="http://semanticweb.org/Group04/ARCENTALES"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Almagro -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Almagro">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:resource="http://semanticweb.org/Group04/Plazas+%3A+462+++Informacion+sobre+accesibilidad%3A++++1+escalera+adaptada++No+tiene+ascensor+de+salida+a+calle++1+aseo+accesible++Plazas+para+minusv%EF%BF%BDlidos+residentes%3A+17+++Abierto+24+horas++Admite+Tarjeta+BonoRed+++Titularidad+%3A+Ayuntamiento+de+Madrid+++Gesti%EF%BF%BDn+%3A+Empresa+Municipal+de+Transportes+%28EMT%29+%28+m%EF%BF%BDs+informaci%EF%BF%BDn+%29"/>
+        <ontology:isAccesible rdf:resource="http://semanticweb.org/Group04/0"/>
+        <ontology:isInStreet rdf:resource="http://semanticweb.org/Group04/ALMAGRO"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Descalzas -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Descalzas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:resource="http://semanticweb.org/Group04/Plazas%3A++400+++Abierto+24+horas++Admite+Tarjeta+BonoRed+++Titularidad%3A++Ayuntamiento+de+Madrid"/>
+        <ontology:isAccesible rdf:resource="http://semanticweb.org/Group04/1"/>
+        <ontology:isInStreet rdf:resource="http://semanticweb.org/Group04/DESCALZAS"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Mostenses -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Mostenses">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:resource="http://semanticweb.org/Group04/Plazas%3A++362+++Informaci%EF%BF%BDn+sobre+accesibilidad%3A++++No+tiene+escaleras+adaptadas++1+ascensor++1+aseo+accesible+en++2%26ordf%3B+++planta++Plaza+para+minusv%EF%BF%BDlidos+residentes%3A+16++++Abierto+24+horas++++Admite+Tarjeta+BonoRed+++++Titularidad%3A++Ayuntamiento+de+Madrid"/>
+        <ontology:isAccesible rdf:resource="http://semanticweb.org/Group04/1"/>
+        <ontology:isInStreet rdf:resource="http://semanticweb.org/Group04/GARCIA+MOLINAS"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Olavide -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Olavide">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:resource="http://semanticweb.org/Group04/Plazas+%3A+397++++Informaci%EF%BF%BDn+sobre+accesibilidad%3A++++Disponde+de+escaleras+adaptadas++1+ascensor+en+la+salida+a+la+Plaza+de+Olavide++1+aseo+accesible+en+la++1%26ordf%3B+++planta++Plaza+para+minusv%EF%BF%BDlidos+residentes%3A+8+++Abierto+24+horas++Admite+Tarjeta+BonoRed+++Titularidad+%3A+Ayuntamiento+de+Madrid"/>
+        <ontology:isAccesible rdf:resource="http://semanticweb.org/Group04/0"/>
+        <ontology:isInStreet rdf:resource="http://semanticweb.org/Group04/OLAVIDE"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Auditorio+Nacional+de+M%EF%BF%BDsica+%28Pr%EF%BF%BDncipe+de+Vergara%29 -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Auditorio+Nacional+de+M%EF%BF%BDsica+%28Pr%EF%BF%BDncipe+de+Vergara%29">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:resource="http://semanticweb.org/Group04/Plazas%3A++376++Abierto+24+horas++Admite+la+Tarjeta+Bono+Red+++Titularidad%3A++Ayuntamiento+de+Madrid"/>
+        <ontology:isAccesible rdf:resource="http://semanticweb.org/Group04/1"/>
+        <ontology:isInStreet rdf:resource="http://semanticweb.org/Group04/CARTAGENA"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Fern%EF%BF%BDndez+Shaw -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Fern%EF%BF%BDndez+Shaw">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:resource="http://semanticweb.org/Group04/Plazas+%3A+245++Abierto+24+horas+++Titularidad+%3A+Ayuntamiento+de+Madrid"/>
+        <ontology:isAccesible rdf:resource="http://semanticweb.org/Group04/0"/>
+        <ontology:isInStreet rdf:resource="http://semanticweb.org/Group04/CARLOS+Y+GUILLERMO+FERNANDEZ+SHAW"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Glorieta+Puerta+de+Toledo -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Glorieta+Puerta+de+Toledo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:resource="http://semanticweb.org/Group04/Plazas%3A++244++Abierto+24+horas+++Titularidad%3A++Ayuntamiento+de+Madrid"/>
+        <ontology:isAccesible rdf:resource="http://semanticweb.org/Group04/1"/>
+        <ontology:isInStreet rdf:resource="http://semanticweb.org/Group04/CAPITAN+SALAZAR+MARTINEZ"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Las+Cortes -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Las+Cortes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:resource="http://semanticweb.org/Group04/Plazas+%3A+480++Abierto+24+horas++Admite+Tarjeta+BonoRed+++Titularidad+%3A+Ayuntamiento+de+Madrid"/>
+        <ontology:isAccesible rdf:resource="http://semanticweb.org/Group04/1"/>
+        <ontology:isInStreet rdf:resource="http://semanticweb.org/Group04/LAS+CORTES"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Luna+-+Tudescos -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Luna+-+Tudescos">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:resource="http://semanticweb.org/Group04/Plazas+%3A+481++Abierto+24+horas++Admite+Tarjeta+BonoRed+++Titularidad+%3A+Ayuntamiento+de+Madrid"/>
+        <ontology:isAccesible rdf:resource="http://semanticweb.org/Group04/1"/>
+        <ontology:isInStreet rdf:resource="http://semanticweb.org/Group04/SANTA+MARIA+SOLEDAD+TORRES+ACOSTA"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Marqu%EF%BF%BDs+de+Urquijo -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Marqu%EF%BF%BDs+de+Urquijo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:resource="http://semanticweb.org/Group04/Plazas+%3A+482++Abierto+24+horas++Admite+Tarjeta+BonoRed"/>
+        <ontology:isAccesible rdf:resource="http://semanticweb.org/Group04/0"/>
+        <ontology:isInStreet rdf:resource="http://semanticweb.org/Group04/MARQUES+DE+URQUIJO"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Montalb%EF%BF%BDn -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Montalb%EF%BF%BDn">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:resource="http://semanticweb.org/Group04/Plazas%3A++275++Abierto+24+horas++Admite+Tarjet+BonoRed+++Titularidad%3A++Ayuntamiento+de+Madrid+++Gesti%EF%BF%BDn%3A++Empresa+Municipal+de+Transportes+%28EMT%29+%28+m%EF%BF%BDs+informaci%EF%BF%BDn+%29"/>
+        <ontology:isAccesible rdf:resource="http://semanticweb.org/Group04/1"/>
+        <ontology:isInStreet rdf:resource="http://semanticweb.org/Group04/MONTALBAN"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Museo+de+la+Ciudad -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Museo+de+la+Ciudad">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:resource="http://semanticweb.org/Group04/Plazas%3A++147++Abierto+24+horas+++Titularidad%3A++Ayuntamiento+de+Madrid"/>
+        <ontology:isAccesible rdf:resource="http://semanticweb.org/Group04/0"/>
+        <ontology:isInStreet rdf:resource="http://semanticweb.org/Group04/PRINCIPE+DE+VERGARA"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Plaza+Mayor -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Plaza+Mayor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:resource="http://semanticweb.org/Group04/Plazas+%3A+694++Abierto+24+horas++Admite+Tarjeta+BonoRed+++Titularidad+%3A+Ayuntamiento+de+Madrid"/>
+        <ontology:isAccesible rdf:resource="http://semanticweb.org/Group04/0"/>
+        <ontology:isInStreet rdf:resource="http://semanticweb.org/Group04/FELIPE+III"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Plaza+de+Col%EF%BF%BDn -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Plaza+de+Col%EF%BF%BDn">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:resource="http://semanticweb.org/Group04/Plazas+%3A+605++Abierto+24+horas++Admite+Tarjeta+BonoRed+++Titularidad+%3A+Ayuntamiento+de+Madrid"/>
+        <ontology:isAccesible rdf:resource="http://semanticweb.org/Group04/1"/>
+        <ontology:isInStreet rdf:resource="http://semanticweb.org/Group04/GOYA"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Plaza+de+Espa%EF%BF%BDa -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Plaza+de+Espa%EF%BF%BDa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:resource="http://semanticweb.org/Group04/Plazas+%3A+800+%28hasta+535+abonados%29++Abierto+24+horas++Admite+Tarjeta+BonoRed+++Titularidad+%3A+Ayuntamiento+de+Madrid+++Gesti%EF%BF%BDn+%3A+Empresa+Municipal+de+Transportes+%28EMT%29+%28+m%EF%BF%BDs+informaci%EF%BF%BDn+%29"/>
+        <ontology:isAccesible rdf:resource="http://semanticweb.org/Group04/0"/>
+        <ontology:isInStreet rdf:resource="http://semanticweb.org/Group04/ESPA&amp;Ntilde;A"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Plaza+del+Carmen -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Plaza+del+Carmen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:resource="http://semanticweb.org/Group04/Plazas%3A++450+++Informaci%EF%BF%BDn+sobre+accesibilidad%3A++++No+tiene+escaleras+adaptadas++1+ascensor++1+aseo+accesible+en+++1%26ordf%3B+++planta++Plaza+para+minusv%EF%BF%BDlidos+residentes%3A+7++++Abierto+24+horas++++Admite+Tarjeta+BonoRed++++Titularidad%3A++Ayuntamiento+de+Madrid"/>
+        <ontology:isAccesible rdf:resource="http://semanticweb.org/Group04/0"/>
+        <ontology:isInStreet rdf:resource="http://semanticweb.org/Group04/CARMEN"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Plaza+del+Rey -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Plaza+del+Rey">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:resource="http://semanticweb.org/Group04/Plazas+%3A+160+++Informaci%EF%BF%BDn+sobre+accesibilidad%3A++++Si+tiene+escaleras+adaptadas++1+ascensor++3+aseos+accesibles+%28uno+por+planta%29%3A+8++Plaza+para+minusv%EF%BF%BDlidos+residentes%3A+16+++Abierto+24+horas++Admite+Tarjeta+BonoRed+++Titularidad+%3A+Ayuntamiento+de+Madrid"/>
+        <ontology:isAccesible rdf:resource="http://semanticweb.org/Group04/0"/>
+        <ontology:isInStreet rdf:resource="http://semanticweb.org/Group04/REY"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Santa+Ana -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Santa+Ana">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:resource="http://semanticweb.org/Group04/Plazas%3A++325+++Informaci%EF%BF%BDn+sobre+accesibilidad%3A++++No+tiene+escaleras+adaptadas++1+ascensor++1+aseo+accesible+en++1%26ordf%3B++planta++Plaza+para+minusv%EF%BF%BDlidos+residentes%3A+6++++Abierto+24+horas++++Admite+Tarjeta+BonoRed++++Titularidad%3A++Ayuntamiento+de+Madrid"/>
+        <ontology:isAccesible rdf:resource="http://semanticweb.org/Group04/1"/>
+        <ontology:isInStreet rdf:resource="http://semanticweb.org/Group04/SANTA+ANA"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Vel%EF%BF%BDzquez+-+Juan+Bravo -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Vel%EF%BF%BDzquez+-+Juan+Bravo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:resource="http://semanticweb.org/Group04/Plazas%3A++371++Abierto+24+horas++Admite+Tarjeta+BonoRed+++Titularidad%3A++Ayuntamiento+de+Madrid"/>
+        <ontology:isAccesible rdf:resource="http://semanticweb.org/Group04/1"/>
+        <ontology:isInStreet rdf:resource="http://semanticweb.org/Group04/VELAZQUEZ"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Villa+de+Par%EF%BF%BDs -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/Aparcamiento+p%EF%BF%BDblico.+Villa+de+Par%EF%BF%BDs">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Parking"/>
+        <ontology:hasType rdf:resource="http://semanticweb.org/Group04/Plazas+rotaci%EF%BF%BDn%3A++169+++Plazas+motos%3A++2++++Informaci%EF%BF%BDn+sobre+accesibilidad%3A++++No+tiene+escaleras+adaptadas++No+disponde+de+ascensor++1+aseo+accesible++Plaza+para+minusv%EF%BF%BDlidos+residentes%3A+13++++Abierto+24+horas++++Admite+Tarjeta+BonoRed++++Titularidad%3A++Ayuntamiento+de+Madrid+++Gesti%EF%BF%BDn%3A++Empresa+Municipal+de+Transportes+%28EMT%29+%28+m%EF%BF%BDs+informaci%EF%BF%BDn+%29"/>
+        <ontology:isAccesible rdf:resource="http://semanticweb.org/Group04/1"/>
+        <ontology:isInStreet rdf:resource="http://semanticweb.org/Group04/MARQUES+DE+LA+ENSENADA"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/CAPITAN+HAYA -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/CAPITAN+HAYA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Street"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/CAPITAN+SALAZAR+MARTINEZ -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/CAPITAN+SALAZAR+MARTINEZ">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Street"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/CARLOS+Y+GUILLERMO+FERNANDEZ+SHAW -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/CARLOS+Y+GUILLERMO+FERNANDEZ+SHAW">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Street"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/CIUDAD+DE+BARCELONA -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/CIUDAD+DE+BARCELONA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Street"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/CONDESA+DE+GAVIA -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/CONDESA+DE+GAVIA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Street"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/CORAZON+DE+MARIA -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/CORAZON+DE+MARIA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Street"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/DIEGO+DE+LEON -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/DIEGO+DE+LEON">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Street"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/ESPA&amp;Ntilde;A -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/ESPA&amp;Ntilde;A">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Street"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/FELIPE+III -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/FELIPE+III">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Street"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/GARCIA+MOLINAS -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/GARCIA+MOLINAS">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Street"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/GENERAL+YAG%26Uuml%3BE -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/GENERAL+YAG%26Uuml%3BE">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Street"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/JACINTO+BENAVENTE -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/JACINTO+BENAVENTE">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Street"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/JORGE+JUAN -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/JORGE+JUAN">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Street"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/JOSE+ORTEGA+Y+GASSET -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/JOSE+ORTEGA+Y+GASSET">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Street"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/JUAN+BRAVO -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/JUAN+BRAVO">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Street"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/LAS+CORTES -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/LAS+CORTES">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Street"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/MARQUES+DE+SALAMANCA -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/MARQUES+DE+SALAMANCA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Street"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/MARQUES+DE+URQUIJO -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/MARQUES+DE+URQUIJO">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Street"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/MARQUES+DE+LA+ENSENADA -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/MARQUES+DE+LA+ENSENADA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Street"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/MIGUEL+YUSTE -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/MIGUEL+YUSTE">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Street"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/PEDRO+ZEROLO -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/PEDRO+ZEROLO">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Street"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/PEREZ+DE+VICTORIA -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/PEREZ+DE+VICTORIA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Street"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/PRADENA+DEL+RINCON -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/PRADENA+DEL+RINCON">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Street"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/PRESIDENTE+CARMONA -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/PRESIDENTE+CARMONA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Street"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/PRINCIPE+DE+VERGARA -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/PRINCIPE+DE+VERGARA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Street"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/REPUBLICA+DOMINICANA -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/REPUBLICA+DOMINICANA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Street"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/SAN+CAYETANO -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/SAN+CAYETANO">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Street"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/SANCHEZ+BUSTILLO -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/SANCHEZ+BUSTILLO">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Street"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/SANTA+ANA -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/SANTA+ANA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Street"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/SANTA+MARIA+SOLEDAD+TORRES+ACOSTA -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/SANTA+MARIA+SOLEDAD+TORRES+ACOSTA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Street"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/SOR+ANGELA+DE+LA+CRUZ -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/SOR+ANGELA+DE+LA+CRUZ">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Street"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.org/Group04/VERDAGUER+Y+GARCIA -->
+
+
+    <NamedIndividual rdf:about="http://semanticweb.org/Group04/VERDAGUER+Y+GARCIA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Group04/ontology#Street"/>
+    </NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.0) https://github.com/owlcs/owlapi/ -->
+
+

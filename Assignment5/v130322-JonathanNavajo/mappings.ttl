@@ -1,0 +1,41 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix my_vocabulary: <http://www.worldstuff.org/ontoloy.owl> .
+@prefix my_instances: <http://www.worldstuff.org/instances/> .
+@base <http://www.worldstuff.org/> .
+
+<TriplesMapCity>
+    a rr:TriplesMap;
+
+    rr:logicalTable [ rr:tableName "City" ];
+
+    rr:subjectMap [ rr:termType rr:IRI;
+        rr:template "http://www.worldstuff.org/instances/City/{ID}";
+        rr:class my_vocabulary:City
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicateMap [ rr:constant my_vocabulary:cit_hasID ];
+    rr:objectMap [ rr:termType rr:Literal; rr:column "ID"; ];
+    ]
+
+    rr:predicateObjectMap [
+        rr:predicateMap [ rr:constant my_vocabulary:cit_hasCountryCode ];
+    rr:objectMap [ rr:termType rr:Literal; rr:column "CountryCode"; ];
+    ]
+
+     rr:logicalTable [ rr:tableName "Country" ];
+
+    rr:subjectMap [ rr:termType rr:IRI;
+        rr:template "http://www.worldstuff.org/instances/Country/{code}";
+        rr:class my_vocabulary:Country
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicateMap [ rr:constant my_vocabulary:co_hasCapital ];
+    rr:objectMap [ rr:termType rr:Literal; rr:column "Capital"; ];
+    ]
+
+    rr:predicateObjectMap [
+        rr:predicateMap [ rr:constant my_vocabulary:co_hasName ];
+    rr:objectMap [ rr:termType rr:Literal; rr:column "Name"; ];
+    ]
