@@ -27,7 +27,7 @@
 ###  http://semanticweb.es/group05/ontology/pharmacies#belongsTo
 :belongsTo rdf:type owl:ObjectProperty ;
             rdfs:domain :pharmacy ;
-            rdfs:range :District .
+            rdfs:range :Locality .
 
 
 ###  http://semanticweb.es/group05/ontology/pharmacies#hasCode
