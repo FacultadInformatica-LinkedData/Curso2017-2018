@@ -4809,5 +4809,375 @@
         }
       ]
     }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column TITULO to type http://dbpedia.org/ontology/Name",
+    "columnName": "TITULO",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/dbpedia-en",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://dbpedia.org/ontology/Name",
+        "name": "http://dbpedia.org/ontology/Name"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://datos.madrid_evento.es/group11/resources#",
+      "prefixes": [
+        {
+          "name": "geo",
+          "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xml",
+          "uri": "http://www.w3.org/XML/1998/namespace"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "property",
+          "uri": "http://datos.madrid_evento.es/group11/resources/property#"
+        },
+        {
+          "name": "dbcl",
+          "uri": "http://dbpedia.org/resource/classes#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "ns0",
+          "uri": "http://datos.madrid_evento.es/group11/resources#"
+        },
+        {
+          "name": "type",
+          "uri": "http://datos.madrid_evento.es/group11/resources/type#"
+        },
+        {
+          "name": "class",
+          "uri": "http://datos.madrid_evento.es/group11/resources/class#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#name",
+              "curie": "property:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TITULO"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#description",
+              "curie": "property:description",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#daysOfTheWeek",
+              "curie": "property:daysOfTheWeek",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DIAS-SEMANA"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#isFree",
+              "curie": "property:isFree",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "GRATUITO"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#location",
+              "curie": "geo:location",
+              "target": {
+                "nodeType": "cell-as-blank",
+                "isRowNumberCell": true,
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#lat",
+                    "curie": "geo:lat",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                      "columnName": "LATITUD"
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#long",
+                    "curie": "geo:long",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                      "columnName": "LONGITUD"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#district",
+              "curie": "property:district",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#isLong",
+              "curie": "property:isLong",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "LARGA-DURACION"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "TITULO",
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://datos.madrid_evento.es/group11/resources#",
+      "prefixes": [
+        {
+          "name": "geo",
+          "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xml",
+          "uri": "http://www.w3.org/XML/1998/namespace"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "property",
+          "uri": "http://datos.madrid_evento.es/group11/resources/property#"
+        },
+        {
+          "name": "dbcl",
+          "uri": "http://dbpedia.org/resource/classes#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "ns0",
+          "uri": "http://datos.madrid_evento.es/group11/resources#"
+        },
+        {
+          "name": "type",
+          "uri": "http://datos.madrid_evento.es/group11/resources/type#"
+        },
+        {
+          "name": "class",
+          "uri": "http://datos.madrid_evento.es/group11/resources/class#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#name",
+              "curie": "property:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TITULO"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#description",
+              "curie": "property:description",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#daysOfTheWeek",
+              "curie": "property:daysOfTheWeek",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DIAS-SEMANA"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#isFree",
+              "curie": "property:isFree",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "GRATUITO"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#location",
+              "curie": "geo:location",
+              "target": {
+                "nodeType": "cell-as-blank",
+                "isRowNumberCell": true,
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#lat",
+                    "curie": "geo:lat",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                      "columnName": "LATITUD"
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#long",
+                    "curie": "geo:long",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                      "columnName": "LONGITUD"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#district",
+              "curie": "property:district",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO"
+              }
+            },
+            {
+              "uri": "http://datos.madrid_evento.es/group11/resources/property#isLong",
+              "curie": "property:isLong",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "LARGA-DURACION"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "TITULO",
+          "rdfTypes": [
+            {
+              "uri": "http://dbpedia.org/resource/classes#name",
+              "curie": "dbcl:name"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "resource",
+                "value": "dbcl:name",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
   }
 ]
