@@ -1,0 +1,53 @@
+PREFIX mn: <http://example.org/resources/> 
+PREFIX mv: <http://example.org/myVocabulary#> 
+PREFIX qb: <http://purl.org/linked-data/cube#>
+
+
+#q1
+SELECT (SUM(?numAcc) as ?totalAcc) WHERE
+{
+?obs a qb:Observation ;
+mv:numberOfAccidents ?numAcc ;
+mv:relatedDistrict ?rDist.
+}
+
+
+#q2
+SELECT ?tipoAcc ?nAcc WHERE {
+	?obs a qb:Observation ;
+	mv:relatedDistrict "USERA" ;
+	mv:hasAccidentType ?tipoAcc ;
+	mv:numberOfAccidents ?nAcc  .
+}
+
+
+#q3
+
+SELECT ?district ?nAcc WHERE {
+	?obs a qb:Observation ;
+	mv:relatedDistrict ?district ;
+	mv:hasAccidentType mv:MultipleCollision  ;
+	mv:numberOfAccidents ?nAcc .
+}
+
+
+#q4
+
+SELECT ?district (MAX(?nBycF) AS ?mayorAcc) WHERE {
+    ?obs a qb:Observation ;
+   	mv:relatedDistrict ?district ;
+   	mv:hasAccidentType mv:BicycleFall ;
+	mv:numberOfAccidents ?nBycF .
+} 
+
+
+#q5
+
+SELECT ?rDistrict WHERE {
+	?obs a qb:Observation ;
+	mv:relatedDistrict  ?rDistrict ;
+	mv:numberOfAccidents ?nAcc . FILTER (?nAcc > 500)
+}
+
+
+
