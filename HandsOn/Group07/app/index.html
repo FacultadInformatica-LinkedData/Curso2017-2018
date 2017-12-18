@@ -47,7 +47,7 @@
 			// Redraw everything
 			if(showingMuseums) {
 				console.log("Update ratio graphics");
-				showMuseums([circleRatio.getLatLng().lat, circleRatio.getLatLng().lng]);
+				showMuseums({pos: [circleRatio.getLatLng().lat, circleRatio.getLatLng().lng]});
 			}
 		}
 
@@ -81,13 +81,16 @@
 
 		// Query get bus stations
 	    var endpoint = "http://localhost:8890/sparql/";
-	    var query =  "PREFIX ontology: <http://www.zaramove.es/transportes/ontology/> PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> SELECT ?recurso ?latitud ?longitud WHERE{ ?recurso geo:lat ?latitud. ?recurso geo:long ?longitud }";
+	    var query =  "PREFIX ontology: <http://www.zaramove.es/transportes/ontology/> PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> PREFIX schema: <http://schema.org/> SELECT ?recurso ?place ?latitud ?longitud WHERE{ ?recurso geo:lat ?latitud. ?recurso geo:long ?longitud . ?recurso schema:addressLocality ?place}";
 
 	    function callbackBusStations(str) {
 	    	var data = JSON.parse(str).results.bindings;
 	        for(var i = 0; i < data.length; i++) {
 	        	busStations.push(
-	        		[ parseFloat(data[i].longitud.value), parseFloat(data[i].latitud.value) ]
+	        		{
+	        			place: data[i].place.value,
+	        			pos: [ parseFloat(data[i].longitud.value), parseFloat(data[i].latitud.value) ]
+	        		}
 	        	);
 	        }
 	        
@@ -122,31 +125,33 @@
 		function showBusStations() {
 			// Show all bus stations
 			for(var i = 0; i < busStations.length; i++) {
-				var busMarker = L.marker(busStations[i], {icon: busIcon}).addTo(mymap).on('mousedown', L.bind(showMuseums, null, busStations[i]));
+				var busMarker = L.marker(busStations[i].pos, {icon: busIcon}).addTo(mymap).on('mousedown', L.bind(showMuseums, null, busStations[i]));
 				busShown.push(busMarker);
 			}
 		}
 
 		// Show museums on bus station click
-		function showMuseums(stationPos) {
-			console.log("Show museums close to (" + stationPos[0] + ", " + stationPos[1] + ") with a ratio of " + ratio);
+		function showMuseums(busStation) {
+			console.log("Show museums close to (" + busStation.pos[0] + ", " + busStation.pos[1] + ") with a ratio of " + ratio);
 
 			deleteMarkers();
 
-			busShown.push(L.marker(stationPos, {icon: busIcon}).addTo(mymap).on('mousedown', cancelCircle));
+			busShown.push(L.marker(busStation.pos, {icon: busIcon}).addTo(mymap).on('mousedown', cancelCircle));
 
-			circleRatio = L.circle(stationPos, {
+			circleRatio = L.circle(busStation.pos, {
 			    color: 'blue',
 			    fillColor: 'blue',
 			    fillOpacity: 0.3,
 			    radius: ratio
 			}).addTo(mymap);
 
+			console.log(busStation.place)
+
 			// Query get constructions at place (name, abstract and links)
 		    var endpoint = "http://es.dbpedia.org/sparql";
-		    var query =  "PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX owl: <http://www.w3.org/2002/07/owl#> PREFIX geo: <https://www.w3.org/2003/01/geo/wgs84_pos#> SELECT ?building ?name ?abstract ?who WHERE{ ?building dbo:city  <http://es.dbpedia.org/resource/Zaragoza> . ?building foaf:name ?name . ?building rdf:type dbo:ArchitecturalStructure . ?building dbo:abstract ?abstract. ?building owl:sameAs ?who.}";
+		    var query =  "PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX owl: <http://www.w3.org/2002/07/owl#> PREFIX geo: <https://www.w3.org/2003/01/geo/wgs84_pos#> SELECT ?building ?name ?abstract ?who WHERE{ ?building dbo:city  <" + busStation.place + "> . ?building foaf:name ?name . ?building rdf:type dbo:ArchitecturalStructure . ?building dbo:abstract ?abstract. ?building owl:sameAs ?who.}";
 
-			sparqlQueryJsonProxy(query, endpoint, callbackMuseumData, stationPos, 0);	
+			sparqlQueryJsonProxy(query, endpoint, callbackMuseumData, busStation.pos, 0);	
 		}
 
 		// Transform museum data
