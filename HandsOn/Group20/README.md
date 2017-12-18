@@ -6,9 +6,3 @@ Usuario: jlcastanon
 
 Nombre: Leticia Eulalia Mongo Sango     
 Usuario: LeticiaMongo
-
-Nombre: Adrián Ibáñez Palga         
-Usuario: AdrIba92
-
-Nombre: Rubén Indiano Guerrero     
-Usuario: RIndiano
