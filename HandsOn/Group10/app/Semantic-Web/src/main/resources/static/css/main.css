@@ -1,0 +1,107 @@
+* {
+	/* Resetting defaults */
+	margin: 0;
+	padding: 0;
+	/* The padding and margin of the elements do not increase their width */
+	box-sizing: border-box;
+	/* Specific properties */
+	font-size: 2vw;
+    font-family: Georgia;
+}
+
+#header {
+	height: 150px;
+}
+
+#header #image {
+	/* If you have a 150-pixel wide image in your grid, you probably don't
+	 want its column to get thinner than 150 pixels! */
+	background-image:
+		url("http://www.dogroup.es/wp-content/uploads/2015/04/Ordenanza-de-Proteccion-contra-la-Contaminacion-Acustica-y-Termica-OPCAT1-1503x1000.jpg");
+	height: 150px;
+	background-position: center;
+}
+
+
+
+.box {
+	display: block;
+	font-style: italic;
+	line-height: 20px;
+	margin-left: 30px;
+	padding: 15px;
+	position: relative;
+	top: 25%;
+	width: 35%;
+	height: 55%;
+	background-color: white;
+	color: black;
+	opacity: 0.75;
+	border-radius: 10px;
+	font-family: Georgia;
+}
+
+.box p {
+	font-size: 14px;
+	padding: 2px;
+}
+
+.box .title {
+	font-size: 36px;
+}
+
+.ranking_table {
+	border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+	text-align: left;
+    padding: 8px;
+    font-size: 1vw;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#rank {
+	padding:19px;
+}
+
+.show_result {
+	width: 220px;
+	height: 220px;
+	border-radius: 110px;
+	border: 5px solid black;
+	text-align: center;
+	margin-left: 70px;
+	margin-top: 40px;
+}
+
+.show_result p{
+	margin-top: 40px;
+	
+	display: inline-block;
+  	font-size: 80px;
+	font-family: monospace;
+}
+
+#result {
+	background-color: white;
+	text-align: center;
+	padding-left: 0px; 
+	padding-top: 10px;
+}
+
+#imagen img {
+	display:block; 
+	margin-left: auto; 
+	margin-right: auto; 
+	width: 400px;
+	padding-top: 30px;
+	border-radius: 10px;
+}
