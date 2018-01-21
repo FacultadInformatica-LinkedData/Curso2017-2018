@@ -21,3 +21,6 @@
 - [x] Includes a description of the application user inteface
 
 ##Comments on self-assessment##
+
+Distribución de tareas:
+- Datasets selection: Jorge, Adri, Javi, Fran y Guille

@@ -1,0 +1,215 @@
+[
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group03/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "g03",
+          "uri": ""
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "if(startsWith(value,\"EstacionamientoMinus\"),value,blank)",
+          "isRowNumberCell": false,
+          "columnName": "Estacionamiento",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/group03/ontology#ZonaMinusvalidos",
+              "curie": "g03:ZonaMinusvalidos"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/group03/ontology#cercaDe",
+              "curie": "g03:cercaDe",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "if(startsWith(cells[\"Estacionamiento\"].value,\"EstacionamientoMinus\"),value,blank)",
+                "isRowNumberCell": false,
+                "columnName": "Parquimetro",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semanticweb.org/group03/ontology#Parquimetro",
+                    "curie": "g03:Parquimetro"
+                  }
+                ],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "if(startsWith(value,\"ZonaAzul\"),value,blank)",
+          "isRowNumberCell": false,
+          "columnName": "Estacionamiento",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/group03/ontology#ZonaAzul",
+              "curie": "g03:ZonaAzul"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/group03/ontology#cercaDe",
+              "curie": "g03:cercaDe",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "if(startsWith(cells[\"Estacionamiento\"].value,\"ZonaAzul\"),value,blank)",
+                "isRowNumberCell": false,
+                "columnName": "Parquimetro",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semanticweb.org/group03/ontology#Parquimetro",
+                    "curie": "g03:Parquimetro"
+                  }
+                ],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "if(startsWith(value,\"ZonaVerde\"),value,blank)",
+          "isRowNumberCell": false,
+          "columnName": "Estacionamiento",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/group03/ontology#ZonaVerde",
+              "curie": "g03:ZonaVerde"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/group03/ontology#cercaDe",
+              "curie": "g03:cercaDe",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "if(startsWith(cells[\"Estacionamiento\"].value,\"ZonaVerde\"),value,blank)",
+                "isRowNumberCell": false,
+                "columnName": "Parquimetro",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semanticweb.org/group03/ontology#Parquimetro",
+                    "curie": "g03:Parquimetro"
+                  }
+                ],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "if(startsWith(value,\"ZonaNaranja\"),value,blank)",
+          "isRowNumberCell": false,
+          "columnName": "Estacionamiento",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/group03/ontology#ZonaNaranja",
+              "curie": "g03:ZonaNaranja"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/group03/ontology#cercaDe",
+              "curie": "g03:cercaDe",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "if(startsWith(cells[\"Estacionamiento\"].value,\"ZonaNaranja\"),value,blank)",
+                "isRowNumberCell": false,
+                "columnName": "Parquimetro",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semanticweb.org/group03/ontology#Parquimetro",
+                    "curie": "g03:Parquimetro"
+                  }
+                ],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "if(startsWith(value,\"ZonaRojo\"),value,blank)",
+          "isRowNumberCell": false,
+          "columnName": "Estacionamiento",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/group03/ontology#ZonaRojo",
+              "curie": "g03:ZonaRojo"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/group03/ontology#cercaDe",
+              "curie": "g03:cercaDe",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "if(startsWith(cells[\"Estacionamiento\"].value,\"ZonaRojo\"),value,blank)",
+                "isRowNumberCell": false,
+                "columnName": "Parquimetro",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semanticweb.org/group03/ontology#Parquimetro",
+                    "curie": "g03:Parquimetro"
+                  }
+                ],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "if(startsWith(value,\"PuntoDeRecarga\"),value,blank)",
+          "isRowNumberCell": false,
+          "columnName": "Estacionamiento",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/group03/ontology#PuntosDeRecarga",
+              "curie": "g03:PuntosDeRecarga"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/group03/ontology#cercaDe",
+              "curie": "g03:cercaDe",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "if(startsWith(cells[\"Estacionamiento\"].value,\"PuntoDeRecarga\"),value,blank)",
+                "isRowNumberCell": false,
+                "columnName": "Parquimetro",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semanticweb.org/group03/ontology#Parquimetro",
+                    "curie": "g03:Parquimetro"
+                  }
+                ],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

@@ -2,24 +2,23 @@ package linkeddata;
 
 public class RDFResult {
 
-	private String parking_name, parking_direction;
-	private int numberSpots;
+	private String parking_name, polititian, parking_zone;
 	
-	public RDFResult(String parking_name, String parking_direction, int numberSpots) {
+	public RDFResult(String parking_name, String polititian, String parking_zone) {
 		this.parking_name = parking_name;
-		this.parking_direction = parking_direction;
-		this.numberSpots = numberSpots;
+		this.polititian = polititian;
+		this.parking_zone = parking_zone;
 	}
 
 	public String getParkingName() {
 		return this.parking_name;
 	}
 
-	public String getParkingDirection() {
-		return this.parking_direction;
+	public String getPolititian() {
+		return this.polititian;
 	}
 	
-	public int getNumberSpots() {
-		return this.numberSpots;
+	public String getParkingZone() {
+		return this.parking_zone;
 	}
 }

@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en" >
+<head>
+    <title>Centros Deportivos</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron">
+    <div class="container">
+<h1>Centros Deportivos</h1>
+<form method="post" action="RecupForm">
+
+    <div class="row form-group" style="margin-left: 25px">
+        <label class="col-sm-2 control-label">Seleccione la zona del centro deportivo.</label>
+        <div class="input-group col-md-4">
+            <span class="input-group-addon"><i class="fa fa-map-marker"></i></span>
+            <select name = "distrito" class="form-control">
+                <option value="disabled">Selección</option>
+                <option value="CENTRO">Centro</option>
+                <option value="CHAMBERI">Chamberí</option>
+                <option value="PUENTE DE VALLECAS">Puente de Vallecas</option>
+                <option value="MONCLOA-ARAVACA">Moncloa Aravaca</option>
+                <option value="LATINA">La Latina</option>
+                <option value="VICALVARO">Vicálvaro</option>
+                <option value="CARABANCHEL">Carabanchel</option>
+                <option value="TETUAN">Tetuán</option>
+                <option value="ARGANZUELA">Arganzuela</option>
+                <option value="BARAJAS">Barajas</option>
+                <option value="VILLA DE VALLECAS">Villa de Vallecas</option>
+                <option value="CHAMARTIN">Chamartín</option>
+                <option value="CIUDAD LINEAL">Ciudad Lineal</option>
+                <option value="RETIRO">Retiro</option>
+                <option value="VILLAVERDE">Villaverde</option>
+                <option value="SAN BLAS-CANILLEJAS">San Blas Canillejas </option>
+                <option value="SALAMANCA">Salamanca </option>
+                <option value="HORTALEZA">Hortaleza </option>
+                <option value="MORATALAZ">Moratalaz </option>
+                <option value="FUENCARRAL-EL PARDO">Fuencarral El Pardo </option>
+                <option value="USERA">Usera </option>
+
+
+
+            </select>
+        </div>
+    </div>
+
+
+    <div class="col-md-1 col-md-offset-5">
+        <button type="submit" style="margin-left:37px"  class="btn btn-default">Buscar</button>
+    </div>
+</form>
+    </div></div>
+</body>
+</html>

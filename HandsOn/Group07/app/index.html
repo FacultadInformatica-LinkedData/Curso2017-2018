@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>City Monuments</title>
+
+	 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css"
+   integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ=="
+   crossorigin=""/>
+
+      <link rel="stylesheet" href="./style.css">
+
+
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+ <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"
+   integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log=="
+   crossorigin=""></script>
+
+   <script
+	  src="https://code.jquery.com/jquery-3.2.1.min.js"
+	  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+	  crossorigin="anonymous"></script>
+</head>
+<body>
+	<p><b>Ratio (meters)</b></p>
+	<input id="ratio" type="number">
+	<div id="map"></div>
+
+	<script>
+		var ratio = 1000;
+		var circleRatio;
+		var showingMuseums = false;
+
+		var busStations = [];
+		var busShown = [];
+
+		var museums = [];
+		var museumsShown = [];
+		
+		// Set initial and onChange ratio
+		$("#ratio").val(ratio);
+		$("#ratio").change(function() { changeRatio($(this).val()) });
+		function changeRatio(newRatio) {
+			console.log("Changed ratio to " + newRatio);
+			ratio = newRatio;
+
+			// Redraw everything
+			if(showingMuseums) {
+				console.log("Update ratio graphics");
+				showMuseums({pos: [circleRatio.getLatLng().lat, circleRatio.getLatLng().lng]});
+			}
+		}
+
+		// Initialise map
+	 	var mymap = L.map('map').setView([41.65182, -0.88071], 16);
+		L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+		    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+		    maxZoom: 18,
+		    id: 'mapbox.streets',
+		    accessToken: 'pk.eyJ1IjoiZWZlcmV5IiwiYSI6ImNqOWVmdnUyZzJxbXQzM3FxZ21kcm1zNmEifQ.xHDa2_ecBbqD1fCNVER1kA'
+		}).addTo(mymap);
+
+		// Museum icon definition
+		var museumIcon = L.icon({
+		    iconUrl: 'museumMarker.png',
+
+		    iconSize:     [38, 42], // size of the icon
+		    iconAnchor:   [19, 42], // point of the icon which will correspond to marker's location
+		    popupAnchor:  [0, -50] // point from which the popup should open relative to the iconAnchor
+		});
+
+		// Bus icon definition
+		var busIcon = L.icon({
+		    iconUrl: 'busMarker.png',
+
+		    iconSize:     [38, 42], // size of the icon
+		    iconAnchor:   [19, 42], // point of the icon which will correspond to marker's location
+		    popupAnchor:  [0, -50] // point from which the popup should open relative to the iconAnchor
+		});
+
+
+		// Query get bus stations
+	    var endpoint = "http://localhost:8890/sparql/";
+	    var query =  "PREFIX ontology: <http://www.zaramove.es/transportes/ontology/> PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> PREFIX schema: <http://schema.org/> SELECT ?recurso ?place ?latitud ?longitud WHERE{ ?recurso geo:lat ?latitud. ?recurso geo:long ?longitud . ?recurso schema:addressLocality ?place}";
+
+	    function callbackBusStations(str) {
+	    	var data = JSON.parse(str).results.bindings;
+	        for(var i = 0; i < data.length; i++) {
+	        	busStations.push(
+	        		{
+	        			place: data[i].place.value,
+	        			pos: [ parseFloat(data[i].longitud.value), parseFloat(data[i].latitud.value) ]
+	        		}
+	        	);
+	        }
+	        
+			showBusStations();
+	     }
+	    sparqlQueryJson(query, endpoint, callbackBusStations, true);
+
+		// Delete all markers
+		function deleteMarkers() {
+			if(showingMuseums)
+				mymap.removeLayer(circleRatio);
+			
+			for(var i = 0; i < museumsShown.length; i++) {
+				mymap.removeLayer(museumsShown[i]);
+			}
+
+			museumsShown = [];
+
+			for(var i = 0; i < busShown.length; i++) {
+				mymap.removeLayer(busShown[i]);
+			}
+
+			busShown = [];
+		}
+
+		function cancelCircle() {
+			deleteMarkers();
+			showBusStations();
+			showingMuseums = false;
+		}
+
+		function showBusStations() {
+			// Show all bus stations
+			for(var i = 0; i < busStations.length; i++) {
+				var busMarker = L.marker(busStations[i].pos, {icon: busIcon}).addTo(mymap).on('mousedown', L.bind(showMuseums, null, busStations[i]));
+				busShown.push(busMarker);
+			}
+		}
+
+		// Show museums on bus station click
+		function showMuseums(busStation) {
+			console.log("Show museums close to (" + busStation.pos[0] + ", " + busStation.pos[1] + ") with a ratio of " + ratio);
+
+			deleteMarkers();
+
+			busShown.push(L.marker(busStation.pos, {icon: busIcon}).addTo(mymap).on('mousedown', cancelCircle));
+
+			circleRatio = L.circle(busStation.pos, {
+			    color: 'blue',
+			    fillColor: 'blue',
+			    fillOpacity: 0.3,
+			    radius: ratio
+			}).addTo(mymap);
+
+			console.log(busStation.place)
+
+			// Query get constructions at place (name, abstract and links)
+		    var endpoint = "http://es.dbpedia.org/sparql";
+		    var query =  "PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX owl: <http://www.w3.org/2002/07/owl#> PREFIX geo: <https://www.w3.org/2003/01/geo/wgs84_pos#> SELECT ?building ?name ?abstract ?who WHERE{ ?building dbo:city  <" + busStation.place + "> . ?building foaf:name ?name . ?building rdf:type dbo:ArchitecturalStructure . ?building dbo:abstract ?abstract. ?building owl:sameAs ?who.}";
+
+			sparqlQueryJsonProxy(query, endpoint, callbackMuseumData, busStation.pos, 0);	
+		}
+
+		// Transform museum data
+		function callbackMuseumData(str, stationPos, index) {
+			console.log(str);
+			var data = JSON.parse(JSON.parse(str).body).results.bindings;
+
+			// Get only wikidate.dbpedia.org
+			for(var i = 0; i < data.length; i++) {
+				if(data[i].who.value.includes("http://wikidata.dbpedia.org/")) {
+					museums.push(data[i]);
+				}
+			}
+
+			// Get positions and print museum for each one
+			for(var i = 0; i < museums.length; i++) {
+				var resourceURL = museums[i].who.value;
+				// Query get positions by link
+			    var endpoint = "http://wikidata.dbpedia.org/sparql";
+			    var query = "PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> SELECT ?latitud ?longitud WHERE{ <" + resourceURL + "> geo:lat ?latitud. <" + resourceURL + "> geo:long ?longitud. }";
+
+				sparqlQueryJsonProxy(query, endpoint, callbackMuseumPositions, stationPos, i);	
+			}
+
+			showingMuseums = true;
+		}
+
+		// Once we have the data show the museums on the map
+		function callbackMuseumPositions(str, stationPos, index) {
+			var data = JSON.parse(JSON.parse(str).body).results.bindings;
+			if(data != "") {
+				var museumPos = [ parseFloat(data[0].latitud.value), parseFloat(data[0].longitud.value) ];
+			
+				if(getDistance({ lat: stationPos[0], lng: stationPos[1] }, { lat: museumPos[0], lng: museumPos[1] }) * 1000 <= ratio)
+				{
+					console.log();
+					var museumMaker = L.marker(museumPos, {icon: museumIcon}).addTo(mymap).bindPopup("<b>" + museums[index].name.value + "</b></br>" + museums[index].abstract.value);
+					museumsShown.push(museumMaker);
+				}
+			}
+		}
+
+
+
+		// Distance calculations
+		function radians(degrees) {
+		  return degrees * Math.PI / 180;
+		};
+
+		function getDistance(pair1, pair2) {
+		  var R = 6371; // metres
+		  var φ1 = radians(pair1.lat);
+		  var φ2 = radians(pair2.lat);
+		  var Δφ = radians((pair2.lat - pair1.lat));
+		  var Δλ = radians((pair2.lng - pair1.lng));
+
+		  var a = Math.sin(Δφ/2) * Math.sin(Δφ/2) +
+		          Math.cos(φ1) * Math.cos(φ2) *
+		          Math.sin(Δλ/2) * Math.sin(Δλ/2);
+		  var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+
+		  return R * c;
+		}
+
+		// SPARQL Query
+        function sparqlQueryJson(queryStr, endpoint, callback, isDebug) {
+	      var querypart = "query=" + encodeURIComponent(queryStr);
+	      console.log(endpoint + querypart);
+	      var xmlhttp = null;
+	      if(window.XMLHttpRequest) {
+	        xmlhttp = new XMLHttpRequest();
+	     } else if(window.ActiveXObject) {
+	       xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+	     } 
+	     xmlhttp.open('POST', endpoint, true);
+	     xmlhttp.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+	     xmlhttp.setRequestHeader("Accept", "application/sparql-results+json");
+	     xmlhttp.onreadystatechange = function() {
+	       if(xmlhttp.readyState == 4) {
+	         if(xmlhttp.status == 200) {
+	           callback(xmlhttp.responseText);
+	         }
+	       }
+	     };
+	     xmlhttp.send(querypart);
+	    };
+
+	    function sparqlQueryJsonProxy(queryStr, endpoint, callback, stationPos, index) {
+	    	var querypart = "?query=" + escape(queryStr) + "&format=application%2Fsparql-results%2Bjson";
+	    	var querypart2 = encodeURIComponent(endpoint + querypart);
+	    	console.log(querypart2);
+	    	var xmlhttp = null;
+	      	if(window.XMLHttpRequest) {
+	        	xmlhttp = new XMLHttpRequest();
+	     	} else if(window.ActiveXObject) {
+	       		xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+	     	}
+	     	xmlhttp.open('POST', "http://cors-proxy.htmldriven.com/?url=" + querypart2, true);
+	     	xmlhttp.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+	     	xmlhttp.setRequestHeader("Accept", "application/sparql-results+json");
+	     	xmlhttp.onreadystatechange = function() {
+		       	if(xmlhttp.readyState == 4) {
+		        	if(xmlhttp.status == 200) {
+		        		if(IsJsonString(xmlhttp.responseText))
+		        			callback(xmlhttp.responseText, stationPos, index);
+		        		else {
+		        			console.log("Failed JSON");
+		        			xmlhttp.open('POST', "http://cors-proxy.htmldriven.com/?url=" + querypart2, true);
+		        			xmlhttp.send();
+		        		}
+		        	}
+		       	}
+	     	};
+	     	xmlhttp.send();
+	    };
+
+	    function IsJsonString(str) {
+		    try {
+		        JSON.parse(str);
+		    } catch (e) {
+		        return false;
+		    }
+		    return true;
+		}
+
+	 </script>
+</body>
+</html>

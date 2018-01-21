@@ -1,0 +1,24 @@
+[
+    {
+      "op": "core/recon",
+      "description": "Reconcile cells in column DISTRITO to type http://dbpedia.org/ontology/Place",
+      "columnName": "DISTRITO",
+      "config": {
+        "mode": "standard-service",
+        "service": "http://127.0.0.1:3333/extension/rdf-extension/services/dbpedia",
+        "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+        "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+        "type": {
+          "id": "http://dbpedia.org/ontology/Place",
+          "name": "dbo:Place"
+        },
+        "autoMatch": true,
+        "columnDetails": [],
+        "limit": 0
+      },
+      "engineConfig": {
+        "mode": "row-based",
+        "facets": []
+      }
+    }
+  ]

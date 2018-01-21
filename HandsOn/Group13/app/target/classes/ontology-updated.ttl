@@ -1,0 +1,66 @@
+@prefix : 	 <http://www.fi.upm.org/linked-data/group13/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/>
+@base <http://www.fi.upm.es/linked-data/group13/ontology> .
+
+<http://www.fi.upm.org/linked-data/group13/ontology> rdf:type owl:Ontology .
+
+
+# Clases
+
+:Instalacion rdf:type owl:Class .
+
+
+# Resto de la Ontologia
+
+:tituloEvento rdf:type owl:DatatypeProperty ;
+                 
+                 rdfs:domain schema:Event ;
+                 
+                 rdfs:range xsd:string .
+
+:descripcionEvento rdf:type owl:DatatypeProperty ;
+                 
+                 rdfs:domain schema:Event ;
+                 
+                 rdfs:range xsd:string .
+				 
+:diasSemanaEvento rdf:type owl:DatatypeProperty ;
+                 
+                 rdfs:domain schema:Event ;
+                 
+                 rdfs:range xsd:string .
+
+:urlEvento rdf:type owl:DatatypeProperty ;
+                 
+                 rdfs:domain schema:Event ;
+                 
+                 rdfs:range xsd:string .
+
+:instalacionEvento rdf:type owl:ObjectProperty ;
+		 
+				 rdfs:domain :Instalacion ;
+                            
+                 rdfs:range :Instalacion .
+							
+:idEvento rdf:type owl:DatatypeProperty ;
+                 
+                 rdfs:domain schema:Event ;
+                 
+                 rdfs:range xsd:integer .
+
+:nombreInstalacion rdf:type owl:DatatypeProperty ;
+                 
+                 rdfs:domain :Instalacion ;
+                 
+                 rdfs:range xsd:string .
+				 				 
+:urlInstalacion rdf:type owl:DatatypeProperty ;
+                 
+                 rdfs:domain :Instalacion ;
+                 
+                 rdfs:range xsd:string .

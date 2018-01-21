@@ -1,0 +1,78 @@
+##Sofia Sarango
+#################################################### 
+## ¿Accidentes en madrid en 2013?
+#################################################### 
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX vocabulario: <http://example.org/myVocabulary#>
+
+SELECT SUM(?NumeroDeAccidentes) as ?NumeroDeAccidentes
+WHERE {
+	[] a qb:Observation ;
+        vocabulario:relatedDistrict ?z ;
+ 	vocabulario:numberOfAccidents ?NumeroDeAccidentes.
+}
+
+#################################################### 
+# ¿Numero y tipo de accidentes en usera?
+####################################################
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX vocabulario: <http://example.org/myVocabulary#>
+
+SELECT ?TipoDeAccidente xsd:integer(?NumeroDeAccidentes) as ?NumeroDeAccidentes
+WHERE {
+	[] a qb:Observation ;
+ 	vocabulario:relatedDistrict "USERA" ;
+ 	vocabulario:hasAccidentType ?TipoDeAccidente;
+ 	vocabulario:numberOfAccidents ?NumeroDeAccidentes.
+}
+####################################################
+# ¿Numero de multiples colisiones por distrito?
+#################################################### 
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX vocabulario: <http://example.org/myVocabulary#>
+
+SELECT ?Distrito xsd:integer(?NumeroDeAccidentes) as ?NumeroDeAccidentes
+WHERE {
+	[] a qb:Observation ;
+ 	vocabulario:relatedDistrict ?Distrito;
+        vocabulario:hasAccidentType vocabulario:MultipleCollision;
+        vocabulario:numberOfAccidents ?NumeroDeAccidentes.
+}
+####################################################
+# ¿Distrito donde el numero de fallecimientos por bicicleta fue mas alto en 2013?
+#################################################### 
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX vocabulario: <http://example.org/myVocabulary#>
+
+SELECT ?Distrito  
+WHERE {
+{
+      
+       SELECT MAX(?NumeroDeAccidentes) as ?NumeroDeAccidentes
+       WHERE {
+        [] a qb:Observation;
+        vocabulario:hasAccidentType vocabulario:BicycleFall;
+        vocabulario:numberOfAccidents ?NumeroDeAccidentes.
+ 	
+       }
+
+}
+		[] a qb:Observation ;
+		vocabulario:relatedDistrict ?Distrito;
+        vocabulario:hasAccidentType vocabulario:BicycleFall;
+        vocabulario:numberOfAccidents ?NumeroDeAccidentes.
+}
+
+####################################################
+# ¿Distrito con mas de 500 accidentes en 2013
+############################################### 
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX vocabulario: <http://example.org/myVocabulary#>
+ 
+SELECT ?Distrito xsd:integer(?NumeroDeAccidentes) as ?NumeroDeAccidentes
+WHERE{
+   	[] a qb:Observation;
+   	vocabulario:relatedDistrict ?Distrito;
+   	vocabulario:numberOfAccidents ?NumeroDeAccidentes.
+   	FILTER(?NumeroDeAccidentes > 500).
+}
