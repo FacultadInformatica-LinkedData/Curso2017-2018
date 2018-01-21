@@ -28,7 +28,7 @@
 <body>
     <div class="container">
         <h3>Analysis of Data Set</h3>
-        <h4>Availability</h4>
+        <h4>Agenda Actividades Eventos</h4>
         <table>
             <thead>
                 <tr>
@@ -40,51 +40,141 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>Day</td>
+                    <td>ID-EVENTO</td>
+                    <td>Integer</td>
+                    <td>[0-n]</td>
+                    <td>Identificador del evento.</td>
+                </tr>
+                <tr>
+                    <td>TITULO</td>
+                    <td>String</td>
+                    <td>[0-9 a-Z]</td>
+                    <td>Título del evento.</td>
+                </tr>
+                <tr>
+                    <td>PRECIO</td>
+                    <td>String</td>
+                    <td>[0-9 a-Z]</td>
+                    <td>Precio del evento.</td>
+                </tr>
+                <tr>
+                    <td>GRATUITO</td>
+                    <td>Boolean</td>
+                    <td>0 ó 1</td>
+                    <td>Indica si el evento es gratuito o no.</td>
+                </tr>
+                <tr>
+                    <td>LARGA-DURACION</td>
+                    <td>Boolean</td>
+                    <td>0 ó 1</td>
+                    <td>Indica si la duración del evento es larga o no.</td>
+                </tr>
+                <tr>
+                    <td>DIAS-SEMANA</td>
+                    <td>String</td>
+                    <td>[0-9 a-Z]</td>
+                    <td>Indica los días de la semana en los que se realiza el evento.</td>
+                </tr>
+                <tr>
+                    <td>DIAS-EXCLUIDOS</td>
+                    <td>String</td>
+                    <td>[0-9 a-Z]</td>
+                    <td>Indica los días de la semana en los que no se realiza el evento.</td>
+                </tr>
+                <tr>
+                    <td>FECHA</td>
                     <td>Date (dd/mm/yyyy)</td>
                     <td>[01/01/2000 - 31/12/2017]</td>
-                    <td>Day that bike was used</td>
+                    <td>Fecha del evento.</td>
                 </tr>
                 <tr>
-                    <td>Total Hours of Use</td>
-                    <td>Integer</td>
-                    <td>[0 - n]</td>
-                    <td>Hours of use</td>
+                    <td>FECHA-FIN</td>
+                    <td>Date (dd/mm/yyyy)</td>
+                    <td>[01/01/2000 - 31/12/2017]</td>
+                    <td>Fecha de la finalización del evento.</td>
                 </tr>
                 <tr>
-                    <td>Total Hours of Availability</td>
-                    <td>Integer</td>
-                    <td>[0 - n]</td>
-                    <td>Hours of availability</td>
+                    <td>HORA</td>
+                    <td>Hora (HH:mm)</td>
+                    <td>[0:00 - 23:59]</td>
+                    <td>Hora en la que se realiza el evento.</td>
                 </tr>
                 <tr>
-                    <td>Total Hours of Service</td>
-                    <td>Integer</td>
-                    <td>[0 - n]</td>
-                    <td>Hours of service</td>
+                    <td>DESCRIPCION</td>
+                    <td>String</td>
+                    <td>[0-9 a-Z]</td>
+                    <td>Descripción del evento.</td>
                 </tr>
                 <tr>
-                    <td>Average of Availability</td>
-                    <td>Integer</td>
-                    <td>[0 - n]</td>
-                    <td>Average of bikes are available</td>
+                    <td>CONTENT-URL</td>
+                    <td>String</td>
+                    <td>[0-9 a-Z]</td>
+                    <td>Enlace del evento.</td>
                 </tr>
                 <tr>
-                    <td>Uses of Annual Subscription</td>
-                    <td>Integer</td>
-                    <td>[0 - n]</td>
-                    <td>Uses of annual subscription</td>
+                    <td>TITULO-ACTIVIDAD</td>
+                    <td>String</td>
+                    <td>[0-9 a-Z]</td>
+                    <td>Título de la actividad que se realiza.</td>
                 </tr>
                 <tr>
-                    <td>Uses of Occasional Subscription</td>
+                    <td>URL-ACTIVIDAD</td>
+                    <td>String</td>
+                    <td>[0-9 a-Z]</td>
+                    <td>Enlace de la actividad que se realiza.</td>
+                </tr>
+                <tr>
+                    <td>URL-INSTALACION</td>
+                    <td>String</td>
+                    <td>[0-9 a-Z]</td>
+                    <td>Enlace de las instalaciones donde se realiza el evento.</td>
+                </tr>
+                <tr>
+                    <td>NOMBRE-INSTALACION</td>
+                    <td>String</td>
+                    <td>[0-9 a-Z]</td>
+                    <td>Indica el nombre de las instalaciones donde se realiza el evento.</td>
+                </tr>
+                <tr>
+                    <td>COORDENADA-X</td>
                     <td>Integer</td>
-                    <td>[0 - n]</td>
-                    <td>Uses of occasional subscription</td>
+                    <td>[0-n]</td>
+                    <td>Indica la coordenada X donde se realiza el evento.</td>
+                </tr>
+                <tr>
+                    <td>COORDENADA-Y</td>
+                    <td>Integer</td>
+                    <td>[0-n]</td>
+                    <td>Indica la coordenada Y donde se realiza el evento.</td>
+                </tr>
+                <tr>
+                    <td>LATITUD</td>
+                    <td>Integer</td>
+                    <td>[0-n]</td>
+                    <td>Indica la latitud donde se realiza el evento.</td>
+                </tr>
+                <tr>
+                    <td>DISTRITO</td>
+                    <td>String</td>
+                    <td>[0-9 a-Z]</td>
+                    <td>Distrito donde se realiza el evento.</td>
+                </tr>
+                <tr>
+                    <td>TIPO</td>
+                    <td>String</td>
+                    <td>[0-9 a-Z]</td>
+                    <td>Tipo de evento que se realiza el evento.</td>
+                </tr>
+                <tr>
+                    <td>AUDIENCIA</td>
+                    <td>String</td>
+                    <td>[0-9 a-Z]</td>
+                    <td>Audiencia a la que va dirigida el evento.</td>
                 </tr>
             </tbody>
         </table>
 
-        <h4>Stations</h4>
+        <h4>Aparcamientos Públicos</h4>
         <table>
             <thead>
                 <tr>
@@ -96,46 +186,184 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>Identification</td>
-                    <td>String</td>
-                    <td>[0-9 a-Z]</td>
-                    <td>Identification of the stations</td>
-                </tr>
-                <tr>
-                    <td>Register Date</td>
-                    <td>Date (dd/mm/yyyy)</td>
-                    <td>[01/01/2000 - 31/12/2017]</td>
-                    <td>Hours of use</td>
-                </tr>
-                <tr>
-                    <td>District</td>
-                    <td>String</td>
-                    <td>[0-9 a-Z]</td>
-                    <td>District where is the station</td>
-                </tr>
-                <tr>
-                    <td>Zone</td>
-                    <td>String</td>
-                    <td>[0-9 a-Z]</td>
-                    <td>Zone where is the station</td>
-                </tr>
-                <tr>
-                    <td>Address</td>
-                    <td>String</td>
-                    <td>[0-9 a-Z]</td>
-                    <td>Station's Address</td>
-                </tr>
-                <tr>
-                    <td>Number</td>
+                    <td>PK</td>
                     <td>Integer</td>
-                    <td>[0 - n]</td>
-                    <td>Address number</td>
+                    <td>[0-n]</td>
+                    <td>Identifica el aparcamiento público.</td>
                 </tr>
                 <tr>
-                    <td>Number of Places</td>
+                    <td>NOMBRE</td>
+                    <td>String</td>
+                    <td>[0-9 a-Z]</td>
+                    <td>Nombre del aparcamiento.</td>
+                </tr>
+                <tr>
+                    <td>DESCRIPCION-ENTIDAD</td>
+                    <td>String</td>
+                    <td>[0-9 a-Z]</td>
+                    <td>Breve descripción del aparcamiento.</td>
+                </tr>
+                <tr>
+                    <td>HORARIO</td>
+                    <td>String</td>
+                    <td>[0-9 a-Z]</td>
+                    <td>Horario del aparcamiento.</td>
+                </tr>
+                <tr>
+                    <td>EQUIPAMIENTO</td>
+                    <td>String</td>
+                    <td>[0-9 a-Z]</td>
+                    <td>Indica el equipamiento del aparcamiento público.</td>
+                </tr>
+                <tr>
+                    <td>TRANSPORTE</td>
+                    <td>String</td>
+                    <td>[0-9 a-Z]</td>
+                    <td>Transporte hasta el aparcamiento.</td>
+                </tr>
+                <tr>
+                    <td>DESCRIPCION</td>
+                    <td>String</td>
+                    <td>[0-9 a-Z]</td>
+                    <td>Datos identificativos del aparcamiento.</td>
+                </tr>
+                <tr>
+                    <td>ACCESIBILIDAD</td>
+                    <td>Boolean</td>
+                    <td>0 ó 1</td>
+                    <td>Indica si el aparcamiento tiene accesos para gente discapacitada.</td>
+                </tr>
+                <tr>
+                    <td>CONTENT-URL</td>
+                    <td>String</td>
+                    <td>[0-9 a-Z]</td>
+                    <td>Enlace del aparcamiento.</td>
+                </tr>
+                <tr>
+                    <td>NOMBRE-VIA</td>
+                    <td>String</td>
+                    <td>[0-9 a-Z]</td>
+                    <td>Nombre de la vía en la que se encuentra el aparcamiento.</td>
+                </tr>
+                <tr>
+                    <td>CLASE-VIAL</td>
+                    <td>String</td>
+                    <td>[0-9 a-Z]</td>
+                    <td>Tipo de vía en la que se encuentra el aparcamiento.</td>
+                </tr>
+                <tr>
+                    <td>TIPO-NUM</td>
+                    <td>String</td>
+                    <td>V ó NUM</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>NUM</td>
                     <td>Integer</td>
-                    <td>[0 - n]</td>
-                    <td>Number of spaces in the station</td>
+                    <td>[0-n]</td>
+                    <td>Datos identificativos del aparcamiento.</td>
+                </tr>
+                <tr>
+                    <td>PLANTA</td>
+                    <td>String</td>
+                    <td>[0-9 a-Z]</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>PUERTA</td>
+                    <td>String</td>
+                    <td>[0-9 a-Z]</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>ESCALERAS</td>
+                    <td>String</td>
+                    <td>[0-9 a-Z]</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>ORIENTACION</td>
+                    <td>String</td>
+                    <td>[0-9 a-Z]</td>
+                    <td>Orientación del aparcamiento.</td>
+                </tr>
+                <tr>
+                    <td>LOCALIDAD</td>
+                    <td>String</td>
+                    <td>[0-9 a-Z]</td>
+                    <td>Localidad en la que se sitúa el aparcamiento.</td>
+                </tr>
+                <tr>
+                    <td>PROVINCIA</td>
+                    <td>String</td>
+                    <td>[0-9 a-Z]</td>
+                    <td>Provincia en la que se sitúa el aparcamiento.</td>
+                </tr>
+                <tr>
+                    <td>CÓDIGO-POSTAL</td>
+                    <td>String</td>
+                    <td>[0-9 a-Z]</td>
+                    <td>Indica el código postal del aparcamiento.</td>
+                </tr>
+                <tr>
+                    <td>BARRIO</td>
+                    <td>String</td>
+                    <td>[0-9 a-Z]</td>
+                    <td>Barrio en la que se sitúa el aparcamiento.</td>
+                </tr>
+                <tr>
+                    <td>DISTRITO</td>
+                    <td>String</td>
+                    <td>[0-9 a-Z]</td>
+                    <td>Distrito en la que se sitúa el aparcamiento.</td>
+                </tr>
+                <tr>
+                    <td>COORDENADA-X</td>
+                    <td>String</td>
+                    <td>[0-9 a-Z]</td>
+                    <td>Coordenada X donde se sitúa el aparcamiento.</td>
+                </tr>
+                <tr>
+                    <td>COORDENADA-Y</td>
+                    <td>String</td>
+                    <td>[0-9 a-Z]</td>
+                    <td>Coordenada Y donde se sitúa el aparcamiento.</td>
+                </tr>
+                <tr>
+                    <td>LATITUD</td>
+                    <td>Integer</td>
+                    <td>[0-n]</td>
+                    <td>Latitud donde se sitúa el aparcamiento.</td>
+                </tr>
+                <tr>
+                    <td>LONGITUD</td>
+                    <td>Integer</td>
+                    <td>[0-n]</td>
+                    <td>Longitud donde se sitúa el aparcamiento.</td>
+                </tr>
+                <tr>
+                    <td>TELEFONO</td>
+                    <td>Integer</td>
+                    <td>[0-n]</td>
+                    <td>Télefono del aparcamiento.</td>
+                </tr>
+                <tr>
+                    <td>FAX</td>
+                    <td>String</td>
+                    <td>[0-9 a-Z]</td>
+                    <td>Fax del aparcamiento.</td>
+                </tr>
+                <tr>
+                    <td>EMAIL</td>
+                    <td>String</td>
+                    <td>[0-n]</td>
+                    <td>Email del aparcamiento.</td>
+                </tr>
+                <tr>
+                    <td>TIPO</td>
+                    <td>String</td>
+                    <td>[0-n]</td>
+                    <td>Tipo del aparcamiento.</td>
                 </tr>
             </tbody>
         </table>
@@ -146,11 +374,11 @@
             <a href="http://datos.madrid.es/egob/catalogo/aviso-legal">License URL</a>
         </p>
         <h3>Define Resource Naming Strategy </h3>
-        <p>Domain: http://semanticweb.org/Group21/ </p>
-        <p>Ontological terms path: http://semanticweb.org/Group21/ontology/</p>
-        <p>Individuals path: http://semanticweb.org/Group21/ontology/resource/</p>
-        <p>Ontological terms pattern: http://semanticweb.org/Group21/ontology#term_name</p>
-        <p>Individuals pattern: http://semanticweb.org/Group21/ontology/resource/resource_type/resource_name</p>
+        <p>Domain: http://semanticweb.linkeddata.es/ </p>
+        <p>Ontological terms path: http://semanticweb.linkeddata.es/Group21/ontology/EventsParking#</p>
+        <p>Individuals path: http://semanticweb.linkeddata.es/Group21/resource/</p>
+        <p>Ontological terms pattern: http://semanticweb.linkeddata.es/Group21/ontology#term_name</p>
+        <p>Individuals pattern: http://semanticweb.linkeddata.es/Group21/resource/resource_type/resource_name</p>
     </div>
 
 </body>

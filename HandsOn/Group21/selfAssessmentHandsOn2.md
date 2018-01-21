@@ -1,34 +1,24 @@
-#Hands-on assignment 2 – Self assessment#
+#Hands-on assignment 1 – Self assessment#
 
 ##Checklist##
 
-**The “analysis.html” file:**
+**The “README.md” file:**
 
-- [x] Includes the potential license of the dataset to be generated
-- [x] Includes the resource naming strategy
+- [X] Includes the names and GitHub users of all the members of the group
 
-**The resource naming strategy:**
+**The "csv" directory:**
 
-- [x] Uses a domain that is not the one given by default in Protégé
-- [x] Uses different paths for ontology resources (i.e., classes and properties) and individuals
-- [x] Ensures that the paths for individuals of different classes are not the same
-- [X] Defines property URIs independently of class URIs
+- [X] Contains at least one CSV file 
 
-**The ontology file:**
+**The "datasetRequirements.html" file:**
 
-- [x] Uses the .ttl extension
-- [x] Is serialized in the Turtle format
-- [x] Follows the resource naming strategy
-- [x] Contains at least one class
-- [x] Contains at least one object property (where the value of the property is a resource)
-- [x] Contains at least one datatype property (where the value of the property is a string literal, usually typed)
-- [x] Defines the domain of all the properties (the origin of the property)
-- [x] Defines the range of all the properties (the destination of the property)
-- [x] Defines all class names starting with a capital letter
-- [x] Defines all property names starting with a non-capital letter
-- [x] Does not mix labels in different languages (e.g., Spanish and English)
-- [X] Does not define multiple domains or multiple ranges in properties
-- [x] Contains at least one class that will be used to link to other entities
+- [X] Identifies the licenses of all the selected datasets
+- [X] Identifies those entities in the selected datasets that can be linked with entities in other datasets
+- [X] Identifies those entities in other datasets that can be linked with entities in the selected datasets 
+
+**The "applicationRequirements.html” file:**
+
+- [X] Includes a description of the application user interface
 
 ##Comments on the self-assessment##
 _(If required)_
