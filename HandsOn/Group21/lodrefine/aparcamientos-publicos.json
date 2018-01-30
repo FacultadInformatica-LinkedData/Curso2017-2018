@@ -1,0 +1,389 @@
+[
+    {
+      "op": "core/column-rename",
+      "description": "Rename column PK to ID",
+      "oldColumnName": "PK",
+      "newColumnName": "ID"
+    },
+    {
+      "op": "core/column-addition",
+      "description": "Create column PLAZAS-PUBLICAS at index 7 based on column DESCRIPCION using expression grel:value.match(/.*Plazas\\s*:\\s*([0-9]*).*públicas\\s*y\\s*([0-9]*).*/)[0]",
+      "engineConfig": {
+        "mode": "row-based",
+        "facets": []
+      },
+      "newColumnName": "PLAZAS-PUBLICAS",
+      "columnInsertIndex": 7,
+      "baseColumnName": "DESCRIPCION",
+      "expression": "grel:value.match(/.*Plazas\\s*:\\s*([0-9]*).*públicas\\s*y\\s*([0-9]*).*/)[0]",
+      "onError": "set-to-blank"
+    },
+    {
+      "op": "core/column-addition",
+      "description": "Create column PLAZAS RESIDENTES at index 7 based on column DESCRIPCION using expression grel:value.match(/.*Plazas\\s*:\\s*([0-9]*).*públicas\\s*y\\s*([0-9]*).*/)[1]",
+      "engineConfig": {
+        "mode": "row-based",
+        "facets": []
+      },
+      "newColumnName": "PLAZAS RESIDENTES",
+      "columnInsertIndex": 7,
+      "baseColumnName": "DESCRIPCION",
+      "expression": "grel:value.match(/.*Plazas\\s*:\\s*([0-9]*).*públicas\\s*y\\s*([0-9]*).*/)[1]",
+      "onError": "set-to-blank"
+    },
+    {
+      "op": "rdf-extension/save-rdf-schema",
+      "description": "Save RDF schema skeleton",
+      "schema": {
+        "baseUri": "http://semanticweb.linkeddata.es/Group21/resource/",
+        "prefixes": [
+          {
+            "name": "schema",
+            "uri": "http://schema.org/"
+          },
+          {
+            "name": "rdf",
+            "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          },
+          {
+            "name": "owl",
+            "uri": "http://www.w3.org/2002/07/owl#"
+          },
+          {
+            "name": "rdfs",
+            "uri": "http://www.w3.org/2000/01/rdf-schema#"
+          },
+          {
+            "name": "Igdo",
+            "uri": "http://linkedgeodata.org/ontology/"
+          }
+        ],
+        "rootNodes": [
+          {
+            "nodeType": "cell-as-resource",
+            "expression": "value",
+            "isRowNumberCell": false,
+            "columnName": "ID",
+            "rdfTypes": [
+              {
+                "uri": "http://linkedgeodata.org/ontology/Parking",
+                "curie": "Igdo:Parking"
+              }
+            ],
+            "links": [
+              {
+                "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                "curie": "rdfs:label",
+                "target": {
+                  "nodeType": "cell-as-literal",
+                  "expression": "value",
+                  "isRowNumberCell": false,
+                  "columnName": "NOMBRE"
+                }
+              },
+              {
+                "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                "curie": "rdfs:label",
+                "target": {
+                  "nodeType": "cell-as-literal",
+                  "expression": "value",
+                  "isRowNumberCell": false,
+                  "columnName": "DESCRIPCION-ENTIDAD"
+                }
+              },
+              {
+                "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                "curie": "rdfs:label",
+                "target": {
+                  "nodeType": "cell-as-literal",
+                  "expression": "value",
+                  "isRowNumberCell": false,
+                  "columnName": "HORARIO"
+                }
+              },
+              {
+                "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                "curie": "rdfs:label",
+                "target": {
+                  "nodeType": "cell-as-literal",
+                  "expression": "value",
+                  "isRowNumberCell": false,
+                  "columnName": "EQUIPAMIENTO"
+                }
+              },
+              {
+                "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                "curie": "rdfs:label",
+                "target": {
+                  "nodeType": "cell-as-literal",
+                  "expression": "value",
+                  "isRowNumberCell": false,
+                  "columnName": "TRANSPORTE"
+                }
+              },
+              {
+                "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                "curie": "rdfs:label",
+                "target": {
+                  "nodeType": "cell-as-literal",
+                  "expression": "value",
+                  "isRowNumberCell": false,
+                  "columnName": "DESCRIPCION"
+                }
+              },
+              {
+                "uri": "http://schema.org/Integer",
+                "curie": "schema:Integer",
+                "target": {
+                  "nodeType": "cell-as-literal",
+                  "expression": "value",
+                  "isRowNumberCell": false,
+                  "columnName": "PLAZAS RESIDENTES"
+                }
+              },
+              {
+                "uri": "http://schema.org/Integer",
+                "curie": "schema:Integer",
+                "target": {
+                  "nodeType": "cell-as-literal",
+                  "expression": "value",
+                  "isRowNumberCell": false,
+                  "columnName": "PLAZAS-PUBLICAS"
+                }
+              },
+              {
+                "uri": "http://schema.org/Boolean",
+                "curie": "schema:Boolean",
+                "target": {
+                  "nodeType": "cell-as-literal",
+                  "expression": "value",
+                  "isRowNumberCell": false,
+                  "columnName": "ACCESIBILIDAD"
+                }
+              },
+              {
+                "uri": "http://schema.org/url",
+                "curie": "schema:url",
+                "target": {
+                  "nodeType": "cell-as-literal",
+                  "expression": "value",
+                  "isRowNumberCell": false,
+                  "columnName": "CONTENT-URL"
+                }
+              },
+              {
+                "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                "curie": "rdfs:label",
+                "target": {
+                  "nodeType": "cell-as-literal",
+                  "expression": "value",
+                  "isRowNumberCell": false,
+                  "columnName": "NOMBRE-VIA"
+                }
+              },
+              {
+                "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                "curie": "rdfs:label",
+                "target": {
+                  "nodeType": "cell-as-literal",
+                  "expression": "value",
+                  "isRowNumberCell": false,
+                  "columnName": "CLASE-VIAL"
+                }
+              },
+              {
+                "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                "curie": "rdfs:label",
+                "target": {
+                  "nodeType": "cell-as-literal",
+                  "expression": "value",
+                  "isRowNumberCell": false,
+                  "columnName": "TIPO-NUM"
+                }
+              },
+              {
+                "uri": "http://schema.org/Integer",
+                "curie": "schema:Integer",
+                "target": {
+                  "nodeType": "cell-as-literal",
+                  "expression": "value",
+                  "isRowNumberCell": false,
+                  "columnName": "NUM"
+                }
+              },
+              {
+                "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                "curie": "rdfs:label",
+                "target": {
+                  "nodeType": "cell-as-literal",
+                  "expression": "value",
+                  "isRowNumberCell": false,
+                  "columnName": "PLANTA"
+                }
+              },
+              {
+                "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                "curie": "rdfs:label",
+                "target": {
+                  "nodeType": "cell-as-literal",
+                  "expression": "value",
+                  "isRowNumberCell": false,
+                  "columnName": "PUERTA"
+                }
+              },
+              {
+                "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                "curie": "rdfs:label",
+                "target": {
+                  "nodeType": "cell-as-literal",
+                  "expression": "value",
+                  "isRowNumberCell": false,
+                  "columnName": "ESCALERAS"
+                }
+              },
+              {
+                "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                "curie": "rdfs:label",
+                "target": {
+                  "nodeType": "cell-as-literal",
+                  "expression": "value",
+                  "isRowNumberCell": false,
+                  "columnName": "ORIENTACION"
+                }
+              },
+              {
+                "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                "curie": "rdfs:label",
+                "target": {
+                  "nodeType": "cell-as-literal",
+                  "expression": "value",
+                  "isRowNumberCell": false,
+                  "columnName": "LOCALIDAD"
+                }
+              },
+              {
+                "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                "curie": "rdfs:label",
+                "target": {
+                  "nodeType": "cell-as-literal",
+                  "expression": "value",
+                  "isRowNumberCell": false,
+                  "columnName": "PROVINCIA"
+                }
+              },
+              {
+                "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                "curie": "rdfs:label",
+                "target": {
+                  "nodeType": "cell-as-literal",
+                  "expression": "value",
+                  "isRowNumberCell": false,
+                  "columnName": "CODIGO-POSTAL"
+                }
+              },
+              {
+                "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                "curie": "rdfs:label",
+                "target": {
+                  "nodeType": "cell-as-literal",
+                  "expression": "value",
+                  "isRowNumberCell": false,
+                  "columnName": "BARRIO"
+                }
+              },
+              {
+                "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                "curie": "rdfs:label",
+                "target": {
+                  "nodeType": "cell-as-literal",
+                  "expression": "value",
+                  "isRowNumberCell": false,
+                  "columnName": "DISTRITO"
+                }
+              },
+              {
+                "uri": "http://schema.org/Integer",
+                "curie": "schema:Integer",
+                "target": {
+                  "nodeType": "cell-as-literal",
+                  "expression": "value",
+                  "isRowNumberCell": false,
+                  "columnName": "COORDENADA-X"
+                }
+              },
+              {
+                "uri": "http://schema.org/Integer",
+                "curie": "schema:Integer",
+                "target": {
+                  "nodeType": "cell-as-literal",
+                  "expression": "value",
+                  "isRowNumberCell": false,
+                  "columnName": "COORDENADA-Y"
+                }
+              },
+              {
+                "uri": "http://schema.org/Integer",
+                "curie": "schema:Integer",
+                "target": {
+                  "nodeType": "cell-as-literal",
+                  "expression": "value",
+                  "isRowNumberCell": false,
+                  "columnName": "LATITUD"
+                }
+              },
+              {
+                "uri": "http://schema.org/Integer",
+                "curie": "schema:Integer",
+                "target": {
+                  "nodeType": "cell-as-literal",
+                  "expression": "value",
+                  "isRowNumberCell": false,
+                  "columnName": "LONGITUD"
+                }
+              },
+              {
+                "uri": "http://schema.org/Integer",
+                "curie": "schema:Integer",
+                "target": {
+                  "nodeType": "cell-as-literal",
+                  "expression": "value",
+                  "isRowNumberCell": false,
+                  "columnName": "TELEFONO"
+                }
+              },
+              {
+                "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                "curie": "rdfs:label",
+                "target": {
+                  "nodeType": "cell-as-literal",
+                  "expression": "value",
+                  "isRowNumberCell": false,
+                  "columnName": "FAX"
+                }
+              },
+              {
+                "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                "curie": "rdfs:label",
+                "target": {
+                  "nodeType": "cell-as-literal",
+                  "expression": "value",
+                  "isRowNumberCell": false,
+                  "columnName": "EMAIL"
+                }
+              },
+              {
+                "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                "curie": "rdfs:label",
+                "target": {
+                  "nodeType": "cell-as-literal",
+                  "expression": "value",
+                  "isRowNumberCell": false,
+                  "columnName": "TIPO"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]

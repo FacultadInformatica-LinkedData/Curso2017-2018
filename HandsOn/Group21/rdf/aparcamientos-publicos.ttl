@@ -1,0 +1,584 @@
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix Igdo: <http://linkedgeodata.org/ontology/> .
+
+
+<http://semanticweb.linkeddata.es/Group21/resource/13470> a Igdo:Parking ;
+	rdfs:label "Aparcamiento mixto. Arquitecto Ribera" , "Plazas:  318 públicas y 298 para residentes  Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad:  Ayuntamiento de Madrid" ;
+	schema:Integer "298" , "318" ;
+	schema:Boolean "0" ;
+	schema:url "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a50e15cbed51c010VgnVCM2000000c205a0aRCRD" ;
+	rdfs:label "BARCELO" , "CALLE" , "V" ;
+	schema:Integer "2" ;
+	rdfs:label "MADRID" , "28004" , "JUSTICIA" , "CENTRO" ;
+	schema:Integer "440764" , "4475560" , "40.426.687.899.755.700" , "-36.996.173.701.222.400" ;
+	rdfs:label "/contenido/entidadesYorganismos/AparcamientosResidentes" .
+
+<http://semanticweb.linkeddata.es/Group21/resource/59060> a Igdo:Parking ;
+	rdfs:label "Aparcamiento mixto. Avenida de América (intercambiador)" , "Información sobre accesibilidad :  Tiene escaleras adaptadas  Ascensor de salida a la calle Avenida de América, 9  Tiene aseos accesibles  Plazas para minusválidos     Plazas : 269 públicas y 392 para residentes   Abierto 24 horas    Titularidad : Ayuntamiento de Madrid" ;
+	schema:Integer "392" , "269" ;
+	schema:Boolean "0" ;
+	schema:url "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3f3bc2c6e051c010VgnVCM2000000c205a0aRCRD" ;
+	rdfs:label "PRADENA DEL RINCON" , "CALLE" , "V" ;
+	schema:Integer "4" ;
+	rdfs:label "c/v avenida de América" , "MADRID" , "28002" , "PROSPERIDAD" , "CHAMARTIN" ;
+	schema:Integer "442725" , "4476896" , "4.043.886.083.125.740" , "-36.766.217.383.743.300" , "917 376 257" ;
+	rdfs:label "intercambiador@intercambiador.net" , "/contenido/entidadesYorganismos/AparcamientosResidentes" .
+
+<http://semanticweb.linkeddata.es/Group21/resource/5898885> a Igdo:Parking ;
+	rdfs:label "Aparcamiento mixto. Avenida de Portugal" , "Plazas:  432 públicas y 437 para residentes   Informacion sobre accesibilidad:   No tiene escalera adaptada  Tiene ascensor de salida a Avenida de Portugal, s/n  1 aseo accesible (nivel-3)  Plazas para minusválidos residentes: 20    Abierto 24 horas   Titularidad : Ayuntamiento de Madrid   Gestión : Empresa Municipal de Transportes (EMT) ( más información )" ;
+	schema:Integer "437" , "432" ;
+	schema:Boolean "0" ;
+	schema:url "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c313e26f2b3fc210VgnVCM2000000c205a0aRCRD" ;
+	rdfs:label "PORTUGAL" , "AVENIDA" , "V" ;
+	schema:Integer "155" ;
+	rdfs:label "MADRID" , "28011" , "PUERTA DEL ANGEL" , "LATINA" ;
+	schema:Integer "437508" , "4473865" , "40.411.180.021.966.300" , "-37.378.318.857.463.100" , "917 877 292 (grúa municipal)" ;
+	rdfs:label "aparcamientos@madridmovilidad.es" , "/contenido/entidadesYorganismos/AparcamientosPublicos" .
+
+<http://semanticweb.linkeddata.es/Group21/resource/13475> a Igdo:Parking ;
+	rdfs:label "Aparcamiento mixto. Brasil" , "Plazas:  226 públicas y 400 para residentes  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid" ;
+	schema:Integer "400" , "226" ;
+	schema:Boolean "0" ;
+	schema:url "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fb2e15cbed51c010VgnVCM2000000c205a0aRCRD" ;
+	rdfs:label "GENERAL YAG&Uuml;E" , "CALLE" , "V" ;
+	schema:Integer "11" ;
+	rdfs:label "MADRID" , "28020" , "CUATRO CAMINOS" , "TETUAN" ;
+	schema:Integer "441255" , "4478822" , "4.045.610.834.965.890" , "-3.694.131.675.088.480" ;
+	rdfs:label "/contenido/entidadesYorganismos/AparcamientosResidentes" .
+
+<http://semanticweb.linkeddata.es/Group21/resource/183747> a Igdo:Parking ;
+	rdfs:label "Aparcamiento mixto. Casino de la Reina" , "Plazas:  135 públicas y 449 para residentes  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid" ;
+	schema:Integer "449" , "135" ;
+	schema:Boolean "0" ;
+	schema:url "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c5f4bdc85c01c010VgnVCM2000000c205a0aRCRD" ;
+	rdfs:label "CASINO" , "CALLE" , "V" ;
+	schema:Integer "3" ;
+	rdfs:label "MADRID" , "28005" , "EMBAJADORES" , "CENTRO" ;
+	schema:Integer "440323" , "4473355" , "40.406.792.648.617.100" , "-37.046.086.019.457.100" ;
+	rdfs:label "/contenido/entidadesYorganismos/AparcamientosResidentes" .
+
+<http://semanticweb.linkeddata.es/Group21/resource/13477> a Igdo:Parking ;
+	rdfs:label "Aparcamiento mixto. Condesa de Gavia" , "Plazas : 73 públicas y 79 para residentes   Abierto 24 horas   Titularidad : Ayuntamiento de Madrid" ;
+	schema:Integer "79" , "73" ;
+	schema:Boolean "0" ;
+	schema:url "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7e5f15cbed51c010VgnVCM2000000c205a0aRCRD" ;
+	rdfs:label "CONDESA DE GAVIA" , "PLAZA" , "V" ;
+	schema:Integer "0" ;
+	rdfs:label "MADRID" , "28020" , "CUATRO CAMINOS" , "TETUAN" ;
+	schema:Integer "440589" , "4478081" , "4.044.938.567.948.410" , "-37.019.164.121.880.800" ;
+	rdfs:label "/contenido/entidadesYorganismos/AparcamientosResidentes" .
+
+<http://semanticweb.linkeddata.es/Group21/resource/24103> a Igdo:Parking ;
+	rdfs:label "Aparcamiento mixto. Corazón de María II" , "Plazas : 327 públicas y 750 para residentes   Informacion sobre accesibilidad:   No tiene escalera adaptada  No tiene ascensor de salida a calle  2 aseos accesibles ( 1&ordf;  planta)   Plazas para minusválidos residentes: 6     Abierto 24 horas    Titularidad : Ayuntamiento de Madrid" ;
+	schema:Integer "750" , "327" ;
+	schema:Boolean "0" ;
+	schema:url "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b74e6545f951c010VgnVCM2000000c205a0aRCRD" ;
+	rdfs:label "CORAZON DE MARIA" , "CALLE" , "V" ;
+	schema:Integer "46" ;
+	rdfs:label "MADRID" , "28002" , "PROSPERIDAD" , "CHAMARTIN" ;
+	schema:Integer "443554" , "4477507" , "40.444.421.820.483.200" , "-3.666.902.094.780.130" , "915 563 165 / 915 195 280" ;
+	rdfs:label "aparcamientocorazondemaria@grupocogesa.es" , "/contenido/entidadesYorganismos/AparcamientosResidentes" .
+
+<http://semanticweb.linkeddata.es/Group21/resource/81736> a Igdo:Parking ;
+	rdfs:label "Aparcamiento mixto. Corona Boreal" , "Plazas : 120 públicas y 125 para residentes   Información sobre accesibilidad:   No tiene escaleras adaptadas  Ascensor de salida a la calle Pérez de Victoria  2 aseos accesibles (1&ordf; planta)  Plazas para minusválidos residentes: 3     Abierto 24 horas    Titularidad : Ayuntamiento de Madrid" ;
+	schema:Integer "125" , "120" ;
+	schema:Boolean "1" ;
+	schema:url "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=db8bc2c6e051c010VgnVCM2000000c205a0aRCRD" ;
+	rdfs:label "PEREZ DE VICTORIA" , "CALLE" , "V" , "MADRID" , "28023" , "ARAVACA" , "MONCLOA-ARAVACA" ;
+	schema:Integer "433707" , "4479153" , "4.045.852.127.134.040" , "-378.317.943.069.732" , "913 573 714" ;
+	rdfs:label "parkingcoronaboreal@hotmail.com" , "/contenido/entidadesYorganismos/AparcamientosResidentes" .
+
+<http://semanticweb.linkeddata.es/Group21/resource/183748> a Igdo:Parking ;
+	rdfs:label "Aparcamiento mixto. Daoíz y Velarde" , "Plazas:  312 públicas y 174 para residentes  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid" ;
+	schema:Integer "174" , "312" ;
+	schema:Boolean "0" ;
+	schema:url "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0f85bdc85c01c010VgnVCM2000000c205a0aRCRD" ;
+	rdfs:label "CIUDAD DE BARCELONA" , "AVENIDA" , "V" ;
+	schema:Integer "3" ;
+	rdfs:label "MADRID" , "28007" , "PACIFICO" , "RETIRO" ;
+	schema:Integer "442108" , "4473177" , "4.040.531.540.835.350" , "-3.683.557.034.656.530" , "S/T" ;
+	rdfs:label "/contenido/entidadesYorganismos/AparcamientosResidentes" .
+
+<http://semanticweb.linkeddata.es/Group21/resource/44724> a Igdo:Parking ;
+	rdfs:label "Aparcamiento mixto. Díaz Porlier" , "Plazas:  203 públicas y 421 para residentes  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid" ;
+	schema:Integer "421" , "203" ;
+	schema:Boolean "0" ;
+	schema:url "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9e69946be351c010VgnVCM2000000c205a0aRCRD" ;
+	rdfs:label "DIEGO DE LEON" , "CALLE" , "V" ;
+	schema:Integer "62" ;
+	rdfs:label "MADRID" , "28006" , "LISTA" , "SALAMANCA" ;
+	schema:Integer "442797" , "4476402" , "40.434.415.601.006.300" , "-3.675.728.293.375.590" , "91 401 73 74" ;
+	rdfs:label "/contenido/entidadesYorganismos/AparcamientosResidentes" .
+
+<http://semanticweb.linkeddata.es/Group21/resource/36269> a Igdo:Parking ;
+	rdfs:label "Aparcamiento mixto. Encuentro" , "Plazas:  104 públicas y 550 para residentes  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid" ;
+	schema:Integer "550" , "104" ;
+	schema:Boolean "0" ;
+	schema:url "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c3e12c798651c010VgnVCM2000000c205a0aRCRD" ;
+	rdfs:label "ENCUENTRO" , "PLAZA" , "V" ;
+	schema:Integer "1" ;
+	rdfs:label "MADRID" , "28030" , "MEDIA LEGUA" , "MORATALAZ" ;
+	schema:Integer "444782" , "4473212" , "4.040.581.270.738.190" , "-3.652.048.809.515.800" , "91 328 36 80" ;
+	rdfs:label "/contenido/entidadesYorganismos/AparcamientosResidentes" .
+
+<http://semanticweb.linkeddata.es/Group21/resource/13464> a Igdo:Parking ;
+	rdfs:label "Aparcamiento mixto. Felipe II" , "Plazas : 1218 públicas y 607 para residentes   Plazas : 120 públicas y 125 para residentes   Información sobre accesibilidad:    No tiene escaleras adaptadas  Ascensor de salida a la plaza de Felipe II  Aseo accesible (1&ordf; planta)  Plazas para minusválidos residentes:23    Abierto 24 horas    Admite tarjeta BonoRed    Titularidad : Ayuntamiento de Madrid" ;
+	schema:Integer "125" , "120" ;
+	schema:Boolean "0" ;
+	schema:url "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=425e15cbed51c010VgnVCM2000000c205a0aRCRD" ;
+	rdfs:label "ANTONIA MERCE" , "CALLE" , "V" ;
+	schema:Integer "5" ;
+	rdfs:label "MADRID" , "28009" , "GOYA" , "SALAMANCA" ;
+	schema:Integer "442983" , "4475269" , "4.042.422.175.692.130" , "-3.673.433.652.213.160" ;
+	rdfs:label "/contenido/entidadesYorganismos/AparcamientosResidentes" .
+
+<http://semanticweb.linkeddata.es/Group21/resource/13462> a Igdo:Parking ;
+	rdfs:label "Aparcamiento mixto. Fuencarral" , "Plazas : 410 públicas y 111 para residentes   Información sobre accesibilidad:    No tiene escalera adaptada  1 ascensor con salida a la calle Fuencarral, 117  1 aseo accesible en la 1&ordf; planta  Plazas para minusválidos residentes: 7    Abierto 24 horas    Admite Tarjeta BonoRed    Titularidad : Ayuntamiento de Madrid" ;
+	schema:Integer "111" , "410" ;
+	schema:Boolean "0" ;
+	schema:url "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=987e15cbed51c010VgnVCM2000000c205a0aRCRD" ;
+	rdfs:label "FUENCARRAL" , "CALLE" , "V" , "MADRID" , "28010" , "TRAFALGAR" , "CHAMBERI" ;
+	schema:Integer "440497" , "4475873" , "4.042.948.845.687.030" , "-37.027.941.027.177.900" , "915 468 939" ;
+	rdfs:label "clientes@empark.es" , "/contenido/entidadesYorganismos/AparcamientosResidentes" .
+
+<http://semanticweb.linkeddata.es/Group21/resource/13515> a Igdo:Parking ;
+	rdfs:label "Aparcamiento mixto. General Yagüe" , "Plazas:  409 públicas y 717 residentes  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid" ;
+	schema:Integer "717" , "409" ;
+	schema:Boolean "0" ;
+	schema:url "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ee9e15cbed51c010VgnVCM2000000c205a0aRCRD" ;
+	rdfs:label "BRASIL" , "AVENIDA" , "V" ;
+	schema:Integer "15" ;
+	rdfs:label "MADRID" , "28020" , "CASTILLEJOS" , "TETUAN" ;
+	schema:Integer "441261" , "4478892" , "4.045.673.936.450.410" , "-3.694.067.405.537.410" ;
+	rdfs:label "/contenido/entidadesYorganismos/AparcamientosResidentes" .
+
+<http://semanticweb.linkeddata.es/Group21/resource/36270> a Igdo:Parking ;
+	rdfs:label "Aparcamiento mixto. Hernani" , "Plazas:  115 públicas y 383 residentes   Información sobre accesibilidad:   No tiene escaleras adptadas  Ascensor de salida a la calle Hernai, 68  1 aseo accesible en 1&ordf; planta  Plazas para minusválidos residentes. 3      Abierto 24 horas    Titularidad:  Ayuntamiento de Madrid" ;
+	schema:Integer "383" , "115" ;
+	schema:Boolean "0" ;
+	schema:url "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d0712c798651c010VgnVCM2000000c205a0aRCRD" ;
+	rdfs:label "HERNANI" , "CALLE" , "V" ;
+	schema:Integer "60" ;
+	rdfs:label "MADRID" , "28020" , "CUATRO CAMINOS" , "TETUAN" ;
+	schema:Integer "440463" , "4477972" , "40.448.394.729.978.000" , "-37.033.919.552.673.100" , "915 545 326" ;
+	rdfs:label "/contenido/entidadesYorganismos/AparcamientosResidentes" .
+
+<http://semanticweb.linkeddata.es/Group21/resource/13459> a Igdo:Parking ;
+	rdfs:label "Aparcamiento mixto. Jacinto Benavente" , "Plazas:  285 públicas y 110 para residentes.   Plazas motos:  7.   Información sobre accesibilidad:    No tiene escaleras adaptadas  Ascensor con salida a la calle Jacinto benavente, s/n  1 aseo accesible Plaza para minusválidos residentes: 16   Abierto 24 horas   Titularidad:   Ayuntamiento de Madrid    Gestión:  Empresa Municipal de Transportes (EMT) ( más información )" ;
+	schema:Integer "110" , "285" ;
+	schema:Boolean "0" ;
+	schema:url "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c48f15cbed51c010VgnVCM2000000c205a0aRCRD" ;
+	rdfs:label "JACINTO BENAVENTE" , "PLAZA" , "V" ;
+	schema:Integer "6" ;
+	rdfs:label "MADRID" , "28012" , "CORTES" , "CENTRO" ;
+	schema:Integer "440439" , "4474203" , "4.041.444.016.371.450" , "-370.332.112.917.586" , "917 877 292 (grúa municipal)" ;
+	rdfs:label "aparcamientos@madridmovilidad.es" , "/contenido/entidadesYorganismos/AparcamientosResidentes" .
+
+<http://semanticweb.linkeddata.es/Group21/resource/13479> a Igdo:Parking ;
+	rdfs:label "Aparcamiento mixto. José Castán Tobeñas" , "Plazas:  205 públicas y 43 para residentes   Información sobre accesibilidad:   No tiene escaleras adaptadas  No disponde ascensor  No disponde de aseos accesible  Plazas para minusválidos residentes: 5     Abierto 24 horas    Titularidad:  Ayuntamiento de Madrid" ;
+	schema:Integer "43" , "205" ;
+	schema:Boolean "0" ;
+	schema:url "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=35ce15cbed51c010VgnVCM2000000c205a0aRCRD" ;
+	rdfs:label "CAPITAN HAYA" , "CALLE" , "V" ;
+	schema:Integer "57" ;
+	rdfs:label "MADRID" , "28020" , "CASTILLEJOS" , "TETUAN" ;
+	schema:Integer "441477" , "4479747" , "4.046.451.060.463.540" , "-36.916.467.875.121.300" , "915 707 612" ;
+	rdfs:label "aeuropeos@gmail.com" , "/contenido/entidadesYorganismos/AparcamientosResidentes" .
+
+<http://semanticweb.linkeddata.es/Group21/resource/6143690> a Igdo:Parking ;
+	rdfs:label "Aparcamiento mixto. Marqués de Salamanca" , "Plazas : 360 públicas y 70 para residentes   Información sobre accesibilidad:    No tiene escaleras adaptadas  1 ascensor en la salida a la plaza del Marqués de Salamanca  1 aseo accesible en  2&ordf;   planta  Plaza para minusválidos residentes: 14    Abierto 24 horas    Titularidad : Ayuntamiento de Madrid" ;
+	schema:Integer "70" , "360" ;
+	schema:Boolean "0" ;
+	schema:url "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=cb5b1b2bb5b61310VgnVCM2000000c205a0aRCRD" ;
+	rdfs:label "MARQUES DE SALAMANCA" , "PLAZA" , "V" ;
+	schema:Integer "8" ;
+	rdfs:label "MADRID" , "28006" , "LISTA" , "SALAMANCA" ;
+	schema:Integer "442498" , "4475966" , "4.043.046.723.981.020" , "-36.792.137.901.324.000" , "917 877 292 (grúa municipal)" ;
+	rdfs:label "aparcamientos@madridmovilidad.es" , "/contenido/entidadesYorganismos/AparcamientosResidentes" .
+
+<http://semanticweb.linkeddata.es/Group21/resource/182188> a Igdo:Parking ;
+	rdfs:label "Aparcamiento mixto. Miguel Yuste" , "Plazas:  182  públicas y 68 para residentes  Abierto: 24 horas  Admite Tarjeta BonoRed   Titularidad:  Ayuntamiento de Madrid" ;
+	schema:Integer "68" , "182" ;
+	schema:Boolean "0" ;
+	schema:url "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1c15bdc85c01c010VgnVCM2000000c205a0aRCRD" ;
+	rdfs:label "MIGUEL YUSTE" , "CALLE" , "V" ;
+	schema:Integer "11" ;
+	rdfs:label "MADRID" , "28037" , "SIMANCAS" , "SAN BLAS-CANILLEJAS" ;
+	schema:Integer "447100" , "4477013" , "404.402.052.387.976" , "-3.625.049.272.913.960" ;
+	rdfs:label "/contenido/entidadesYorganismos/AparcamientosResidentes" .
+
+<http://semanticweb.linkeddata.es/Group21/resource/5517342> a Igdo:Parking ;
+	rdfs:label "Aparcamiento mixto. Orense" , "Plazas : 128 públicas y 663 para residentes   Información sobre accesibilidad:   1 escalera adaptada  No dispone de ascensor  1 aseo accesible  Plaza para minusválidos residentes: 5     Abierto 24 horas    Titularidad : Ayuntamiento de Madrid   Gestión:  Empresa Municipal de Transportes (EMT) ( más información )" ;
+	schema:Integer "663" , "128" ;
+	schema:Boolean "0" ;
+	schema:url "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=eee35ed15bb95210VgnVCM2000000c205a0aRCRD" ;
+	rdfs:label "SOR ANGELA DE LA CRUZ" , "CALLE" , "V" ;
+	schema:Integer "27" ;
+	rdfs:label "MADRID" , "28020" , "CASTILLEJOS" , "TETUAN" ;
+	schema:Integer "441080" , "4479226" , "4.045.973.534.025.830" , "-36.962.330.375.922.300" ;
+	rdfs:label "aparcamientos@emtmadrid.es" , "/contenido/entidadesYorganismos/AparcamientosResidentes" .
+
+<http://semanticweb.linkeddata.es/Group21/resource/52114> a Igdo:Parking ;
+	rdfs:label "Aparcamiento mixto. Pedro Zerolo ?antes denominado Vázquez de Mella?" , "Plazas:  107 públicas y 261 para residentes.   Plazas motos:  6.   Información sobre accesibilidad:   No tiene escaleras adaptadas  1 ascensor con salida a la Plaza de Vazquez de Mella  1 aseo accesible  Plaza para minusválidos residentes: 7     Abierto 24 horas    Titularidad:  Ayuntamiento de Madrid   Gestión:  Empresa Municipal de Transportes (EMT) ( más información )" ;
+	schema:Integer "261" , "107" ;
+	schema:Boolean "0" ;
+	schema:url "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e499946be351c010VgnVCM2000000c205a0aRCRD" ;
+	rdfs:label "PEDRO ZEROLO" , "PLAZA" , "V" ;
+	schema:Integer "1" ;
+	rdfs:label "MADRID" , "28004" , "JUSTICIA" , "CENTRO" ;
+	schema:Integer "440735" , "4474924" , "404.209.564.450.911" , "-3.699.899.832.865.300" ;
+	rdfs:label "aparcamientos@emtmadrid.es" , "/contenido/entidadesYorganismos/AparcamientosResidentes" .
+
+<http://semanticweb.linkeddata.es/Group21/resource/33440> a Igdo:Parking ;
+	rdfs:label "Aparcamiento mixto. Plaza de Oriente" , "Plazas : 242 públicas y 511 para residentes  Abierto 24 horas  Admite Tarjeta BonoRed  Este PAR está adherido a la zona de APR   Titularidad : Ayuntamiento de Madrid" ;
+	schema:Integer "511" , "242" ;
+	schema:Boolean "0" ;
+	schema:url "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7db12c798651c010VgnVCM2000000c205a0aRCRD" ;
+	rdfs:label "ORIENTE" , "PLAZA" , "V" ;
+	schema:Integer "1" ;
+	rdfs:label "MADRID" , "28013" , "PALACIO" , "CENTRO" ;
+	schema:Integer "439736" , "4474563" , "40.417.632.509.561.100" , "-37.116.407.088.004.700" ;
+	rdfs:label "/contenido/entidadesYorganismos/AparcamientosResidentes" .
+
+<http://semanticweb.linkeddata.es/Group21/resource/36271> a Igdo:Parking ;
+	rdfs:label "Aparcamiento mixto. Presidente Carmona" , "De lunes a domingo servicio ininterrumpido" , "Plazas : 379 públicas y 124 para residentes  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid   Teléfono : 91 556 62 26" ;
+	schema:Integer "124" , "379" ;
+	schema:Boolean "0" ;
+	schema:url "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8a412c798651c010VgnVCM2000000c205a0aRCRD" ;
+	rdfs:label "PRESIDENTE CARMONA" , "AVENIDA" , "V" ;
+	schema:Integer "3" ;
+	rdfs:label "MADRID" , "28020" , "CUATRO CAMINOS" , "TETUAN" ;
+	schema:Integer "440965" , "4478549" , "4.045.362.846.199.130" , "-36.975.262.417.380.000" ;
+	rdfs:label "/contenido/entidadesYorganismos/AparcamientosResidentes" .
+
+<http://semanticweb.linkeddata.es/Group21/resource/13476> a Igdo:Parking ;
+	rdfs:label "Aparcamiento mixto. Recoletos" , "Plazas : 102 públicas y 289 para residentes   Información sobre accesibilidad:    No tiene escaleras adaptadas  1 ascensor en la salida al Paseo de Recoletos  1 aseo accesible  Plaza para minusválidos residentes: 10    Abierto 24 horas    Titularidad  : Ayuntamiento de Madrid    Gestión:  Empresa Municipal de Transportes (EMT) ( más información )" ;
+	schema:Integer "289" , "102" ;
+	schema:Boolean "0" ;
+	schema:url "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=283f15cbed51c010VgnVCM2000000c205a0aRCRD" ;
+	rdfs:label "RECOLETOS" , "PASEO" , "V" ;
+	schema:Integer "4" ;
+	rdfs:label "MADRID" , "28001" , "SALAMANCA" ;
+	schema:Integer "441407" , "4474873" , "4.042.054.469.225.100" , "-3.691.974.283.683.480" ;
+	rdfs:label "aparcamientos@emtmadrid.es" , "/contenido/entidadesYorganismos/AparcamientosResidentes" .
+
+<http://semanticweb.linkeddata.es/Group21/resource/24193> a Igdo:Parking ;
+	rdfs:label "Aparcamiento mixto. República Dominicana" , "Plazas : 892 públicas y 203 para residentes  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid" ;
+	schema:Integer "203" , "892" ;
+	schema:Boolean "0" ;
+	schema:url "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=aabe6545f951c010VgnVCM2000000c205a0aRCRD" ;
+	rdfs:label "REPUBLICA DOMINICANA" , "PLAZA" , "V" ;
+	schema:Integer "6" ;
+	rdfs:label "MADRID" , "28016" , "NUEVA ESPAÑA" , "CHAMARTIN" ;
+	schema:Integer "442750" , "4479117" , "4.045.887.037.458.620" , "-36.765.275.895.176.600" ;
+	rdfs:label "/contenido/entidadesYorganismos/AparcamientosResidentes" .
+
+<http://semanticweb.linkeddata.es/Group21/resource/167692> a Igdo:Parking ;
+	rdfs:label "Aparcamiento mixto. San Cayetano" , "Plazas : 222 públicas y 261 para residentes  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid" ;
+	schema:Integer "261" , "222" ;
+	schema:Boolean "0" ;
+	schema:url "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a284ff632081c010VgnVCM1000000b205a0aRCRD" ;
+	rdfs:label "SAN CAYETANO" , "PLAZA" , "V" ;
+	schema:Integer "1" ;
+	rdfs:label "MADRID" , "28028" , "GUINDALERA" , "SALAMANCA" ;
+	schema:Integer "443276" , "4476388" , "4.043.432.235.224.970" , "-36.700.799.322.371.000" ;
+	rdfs:label "/contenido/entidadesYorganismos/AparcamientosResidentes" .
+
+<http://semanticweb.linkeddata.es/Group21/resource/19053> a Igdo:Parking ;
+	rdfs:label "Aparcamiento mixto. Sánchez Bustillo" , "Plazas : 132 públicas y 408 para residentes  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid" ;
+	schema:Integer "408" , "132" ;
+	schema:Boolean "0" ;
+	schema:url "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=27912c798651c010VgnVCM2000000c205a0aRCRD" ;
+	rdfs:label "SANCHEZ BUSTILLO" , "CALLE" , "V" ;
+	schema:Integer "1" ;
+	rdfs:label "MADRID" , "28012" , "EMBAJADORES" , "CENTRO" ;
+	schema:Integer "441224" , "4473612" , "4.040.917.205.238.470" , "-36.940.145.592.988.000" ;
+	rdfs:label "/contenido/entidadesYorganismos/AparcamientosResidentes" .
+
+<http://semanticweb.linkeddata.es/Group21/resource/7416748> a Igdo:Parking ;
+	rdfs:label "Aparcamiento mixto. Serrano I" , "Plazas : 307 públicas y 831 para residentes  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid" ;
+	schema:Integer "831" , "307" ;
+	schema:Boolean "0" ;
+	schema:url "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=bd61f94ae1d15410VgnVCM2000000c205a0aRCRD" ;
+	rdfs:label "JUAN BRAVO" , "CALLE" , "V" ;
+	schema:Integer "4" ;
+	rdfs:label "MADRID" , "28006" , "CASTELLANA" , "SALAMANCA" ;
+	schema:Integer "441944" , "4476240" , "4.043.289.700.914.240" , "-36.857.697.780.390.100" ;
+	rdfs:label "/contenido/entidadesYorganismos/AparcamientosResidentes" .
+
+<http://semanticweb.linkeddata.es/Group21/resource/7417028> a Igdo:Parking ;
+	rdfs:label "Aparcamiento mixto. Serrano II" , "Plazas : 379 públicas y 794 para residentes  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid" ;
+	schema:Integer "794" , "379" ;
+	schema:Boolean "0" ;
+	schema:url "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=bc096f1c35d15410VgnVCM2000000c205a0aRCRD" ;
+	rdfs:label "JOSE ORTEGA Y GASSET" , "CALLE" , "V" ;
+	schema:Integer "1" ;
+	rdfs:label "MADRID" , "28006" , "CASTELLANA" , "SALAMANCA" ;
+	schema:Integer "441729" , "4475986" , "4.043.059.379.257.070" , "-3.688.281.097.618.060" ;
+	rdfs:label "/contenido/entidadesYorganismos/AparcamientosResidentes" .
+
+<http://semanticweb.linkeddata.es/Group21/resource/7417052> a Igdo:Parking ;
+	rdfs:label "Aparcamiento mixto. Serrano III" , "Plazas : 261 públicas y 725 para residentes  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid" ;
+	schema:Integer "725" , "261" ;
+	schema:Boolean "0" ;
+	schema:url "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9a1c6f1c35d15410VgnVCM2000000c205a0aRCRD" ;
+	rdfs:label "JORGE JUAN" , "CALLE" , "V" ;
+	schema:Integer "1" ;
+	rdfs:label "MADRID" , "28001" , "RECOLETOS" , "SALAMANCA" ;
+	schema:Integer "441597" , "4475307" , "4.042.446.775.888.820" , "-36.897.747.066.093.900" ;
+	rdfs:label "/contenido/entidadesYorganismos/AparcamientosResidentes" .
+
+<http://semanticweb.linkeddata.es/Group21/resource/13460> a Igdo:Parking ;
+	rdfs:label "Aparcamiento mixto. Sevilla" , "Plazas : 476 públicas y 70 para residentes  Abierto 24 horas  Admite Tarjeta BonoRed    Titularidad : Ayuntamiento de Madrid" ;
+	schema:Integer "70" , "476" ;
+	schema:Boolean "0" ;
+	schema:url "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9dd67339ae51c010VgnVCM2000000c205a0aRCRD" ;
+	rdfs:label "ALCALA" , "CALLE" , "V" ;
+	schema:Integer "17" ;
+	rdfs:label "MADRID" , "28014" , "SOL" , "CENTRO" ;
+	schema:Integer "440740" , "4474574" , "4.041.780.383.567.920" , "-36.998.082.261.071.700" , "915 219 281" ;
+	rdfs:label "/contenido/entidadesYorganismos/AparcamientosResidentes" .
+
+<http://semanticweb.linkeddata.es/Group21/resource/13458> a Igdo:Parking ;
+	rdfs:label "Aparcamiento mixto. Velázquez - Ayala" , "Plazas:  464 públicas y 235 para residentes  Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad:  Ayuntamiento de Madrid" ;
+	schema:Integer "235" , "464" ;
+	schema:Boolean "0" ;
+	schema:url "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8bee15cbed51c010VgnVCM2000000c205a0aRCRD" ;
+	rdfs:label "VELAZQUEZ" , "CALLE" , "V" ;
+	schema:Integer "47" ;
+	rdfs:label "MADRID" , "28001" , "RECOLETOS" , "SALAMANCA" ;
+	schema:Integer "442075" , "4475607" , "40.427.203.787.185.400" , "-36.841.676.172.873.900" ;
+	rdfs:label "/contenido/entidadesYorganismos/AparcamientosResidentes" .
+
+<http://semanticweb.linkeddata.es/Group21/resource/13457> a Igdo:Parking ;
+	rdfs:label "Aparcamiento mixto. Velázquez - Jorge Juan" , "Plazas:  549 públicas y 395 para residentes  Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad:  Ayuntamiento de Madrid" ;
+	schema:Integer "395" , "549" ;
+	schema:Boolean "1" ;
+	schema:url "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d11f15cbed51c010VgnVCM2000000c205a0aRCRD" ;
+	rdfs:label "VELAZQUEZ" , "CALLE" , "V" ;
+	schema:Integer "25" ;
+	rdfs:label "MADRID" , "28001" , "RECOLETOS" , "SALAMANCA" ;
+	schema:Integer "442058" , "4475292" , "404.243.649.253.884" , "-3.684.339.253.399.850" ;
+	rdfs:label "/contenido/entidadesYorganismos/AparcamientosResidentes" .
+
+<http://semanticweb.linkeddata.es/Group21/resource/183607> a Igdo:Parking ;
+	rdfs:label "Aparcamiento mixto. Verdaguer y García" , "Plazas:  83 públicas y 180 para residentes   Información sobre accesibilidad:   No tiene escaleras adaptadas  1 ascensor en la salida a la Calle Verdaguer y garcía  1 aseo accesible en la planta -1  Plaza para minusválidos residentes: 4     Abierto 24 horas    Titularidad:  Ayuntamiento de Madrid" ;
+	schema:Integer "180" , "83" ;
+	schema:Boolean "0" ;
+	schema:url "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6245bdc85c01c010VgnVCM2000000c205a0aRCRD" ;
+	rdfs:label "VERDAGUER Y GARCIA" , "CALLE" , "V" ;
+	schema:Integer "1" ;
+	rdfs:label "MADRID" , "28027" , "SAN PASCUAL" , "CIUDAD LINEAL" ;
+	schema:Integer "444432" , "4477001" , "4.043.992.277.144.070" , "-3.656.505.118.007.150" , "913 531 050" ;
+	rdfs:label "/contenido/entidadesYorganismos/AparcamientosResidentes" .
+
+<http://semanticweb.linkeddata.es/Group21/resource/10489514> a Igdo:Parking ;
+	rdfs:label "Aparcamiento público disuasorio Estadio Metropolitano Sur ES-02b" , "Horario de apertura de 9:00 h a 21:30 h excepto los días de partido en el estadio Metropolitano" , "Plazas :   para automóviles 1719  para motocicletas 61" ;
+	schema:Boolean "0" ;
+	schema:url "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=975b89a80c49e510VgnVCM1000001d4a900aRCRD" ;
+	rdfs:label "ARCENTALES" , "AVENIDA" , "V" ;
+	schema:Integer "37" ;
+	rdfs:label "MADRID" , "28022" , "ROSAS" , "SAN BLAS-CANILLEJAS" ;
+	schema:Integer "448878" , "4476342" , "40.434.154" , "-3.598.831" ;
+	rdfs:label "/contenido/entidadesYorganismos/AparcamientosPublicos" .
+
+<http://semanticweb.linkeddata.es/Group21/resource/13452> a Igdo:Parking ;
+	rdfs:label "Aparcamiento público. Almagro" , "Plazas : 462   Informacion sobre accesibilidad:    1 escalera adaptada  No tiene ascensor de salida a calle  1 aseo accesible  Plazas para minusválidos residentes: 17   Abierto 24 horas   Titularidad  : Ayuntamiento de Madrid    Gestión : Empresa Municipal de Transportes (EMT) ( más información )" ;
+	schema:Boolean "0" ;
+	schema:url "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0e167339ae51c010VgnVCM2000000c205a0aRCRD" ;
+	rdfs:label "ALMAGRO" , "CALLE" , "V" ;
+	schema:Integer "13" ;
+	rdfs:label "MADRID" , "28010" , "CHAMBERI" ;
+	schema:Integer "441316" , "4475957" , "4.043.030.345.785.860" , "-36.931.471.299.523.400" ;
+	rdfs:label "/contenido/entidadesYorganismos/AparcamientosPublicos" .
+
+<http://semanticweb.linkeddata.es/Group21/resource/7393089> a Igdo:Parking ;
+	rdfs:label "Aparcamiento público. Auditorio Nacional de Música (Príncipe de Vergara)" , "Plazas:  376  Abierto 24 horas  Admite la Tarjeta Bono Red   Titularidad:  Ayuntamiento de Madrid" ;
+	schema:Boolean "1" ;
+	schema:url "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ed88f25e040c4410VgnVCM2000000c205a0aRCRD" ;
+	rdfs:label "CARTAGENA" , "CALLE" , "V" ;
+	schema:Integer "176" ;
+	rdfs:label "MADRID" , "28002" , "CIUDAD JARDIN" , "CHAMARTIN" ;
+	schema:Integer "442638" , "4477497" , "4.044.426.892.073.370" , "-36.777.018.495.296.000" ;
+	rdfs:label "/contenido/entidadesYorganismos/AparcamientosPublicos" .
+
+<http://semanticweb.linkeddata.es/Group21/resource/13473> a Igdo:Parking ;
+	rdfs:label "Aparcamiento público. Descalzas" , "Plazas:  400   Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad:  Ayuntamiento de Madrid" ;
+	schema:Boolean "1" ;
+	schema:url "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=98e77339ae51c010VgnVCM2000000c205a0aRCRD" ;
+	rdfs:label "DESCALZAS" , "PLAZA" , "V" ;
+	schema:Integer "4" ;
+	rdfs:label "MADRID" , "28013" , "SOL" , "CENTRO" ;
+	schema:Integer "440189" , "4474611" , "4.041.809.765.692.240" , "-3.706.306.013.191.400" , "91 532 57 57" ;
+	rdfs:label "/contenido/entidadesYorganismos/AparcamientosResidentes" .
+
+<http://semanticweb.linkeddata.es/Group21/resource/24809> a Igdo:Parking ;
+	rdfs:label "Aparcamiento público. Fernández Shaw" , "Plazas : 245  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid" ;
+	schema:Boolean "0" ;
+	schema:url "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0e6e6545f951c010VgnVCM2000000c205a0aRCRD" ;
+	rdfs:label "CARLOS Y GUILLERMO FERNANDEZ SHAW" , "CALLE" , "V" , "MADRID" , "28007" , "ADELFAS" , "RETIRO" ;
+	schema:Integer "443319" , "4473244" , "40.406.002.468.696.700" , "-3.669.292.239.090.560" ;
+	rdfs:label "/contenido/entidadesYorganismos/AparcamientosPublicos" .
+
+<http://semanticweb.linkeddata.es/Group21/resource/13478> a Igdo:Parking ;
+	rdfs:label "Aparcamiento público. Glorieta Puerta de Toledo" , "Plazas:  244  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid" ;
+	schema:Boolean "1" ;
+	schema:url "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5f477339ae51c010VgnVCM2000000c205a0aRCRD" ;
+	rdfs:label "CAPITAN SALAZAR MARTINEZ" , "CALLE" , "V" ;
+	schema:Integer "2" ;
+	rdfs:label "MADRID" , "28005" , "EMBAJADORES" , "CENTRO" ;
+	schema:Integer "439865" , "4473432" , "4.040.745.328.367.240" , "-37.100.131.737.859.500" ;
+	rdfs:label "/contenido/entidadesYorganismos/AparcamientosPublicos" .
+
+<http://semanticweb.linkeddata.es/Group21/resource/13467> a Igdo:Parking ;
+	rdfs:label "Aparcamiento público. Las Cortes" , "Plazas : 480  Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad : Ayuntamiento de Madrid" ;
+	schema:Boolean "1" ;
+	schema:url "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=42c77339ae51c010VgnVCM2000000c205a0aRCRD" ;
+	rdfs:label "LAS CORTES" , "PLAZA" , "NUM" ;
+	schema:Integer "0" ;
+	rdfs:label "MADRID" , "28014" , "CORTES" ;
+	schema:Integer "441115" , "4474345" , "4.041.576.756.093.720" , "-3.695.367.083.138.700" ;
+	rdfs:label "/contenido/entidadesYorganismos/AparcamientosPublicos" .
+
+<http://semanticweb.linkeddata.es/Group21/resource/13449> a Igdo:Parking ;
+	rdfs:label "Aparcamiento público. Luna - Tudescos" , "Plazas : 481  Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad : Ayuntamiento de Madrid" ;
+	schema:Boolean "1" ;
+	schema:url "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=54467339ae51c010VgnVCM2000000c205a0aRCRD" ;
+	rdfs:label "SANTA MARIA SOLEDAD TORRES ACOSTA" , "PLAZA" , "V" ;
+	schema:Integer "2" ;
+	rdfs:label "MADRID" , "28004" , "UNIVERSIDAD" , "CENTRO" ;
+	schema:Integer "440255" , "4474983" , "404.214.535.549.175" , "-3.705.563.118.253.950" ;
+	rdfs:label "/contenido/entidadesYorganismos/AparcamientosPublicos" .
+
+<http://semanticweb.linkeddata.es/Group21/resource/13469> a Igdo:Parking ;
+	rdfs:label "Aparcamiento público. Marqués de Urquijo" , "Plazas : 482  Abierto 24 horas  Admite Tarjeta BonoRed" ;
+	schema:Boolean "0" ;
+	schema:url "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=aa667339ae51c010VgnVCM2000000c205a0aRCRD" ;
+	rdfs:label "MARQUES DE URQUIJO" , "CALLE" , "V" ;
+	schema:Integer "27" ;
+	rdfs:label "MADRID" , "28008" , "ARGUELLES" , "MONCLOA-ARAVACA" ;
+	schema:Integer "439113" , "4475892" , "4.042.955.928.333.470" , "-3.719.111.078.507.020" ;
+	rdfs:label "/contenido/entidadesYorganismos/AparcamientosPublicos" .
+
+<http://semanticweb.linkeddata.es/Group21/resource/13465> a Igdo:Parking ;
+	rdfs:label "Aparcamiento público. Montalbán" , "Plazas:  275  Abierto 24 horas      Titularidad:   Ayuntamiento de Madrid    Gestión:  Empresa Municipal de Transportes (EMT) ( más información )" ;
+	schema:Boolean "1" ;
+	schema:url "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f0967339ae51c010VgnVCM2000000c205a0aRCRD" ;
+	rdfs:label "MONTALBAN" , "CALLE" , "V" ;
+	schema:Integer "4" ;
+	rdfs:label "MADRID" , "28014" , "LOS JERONIMOS" , "RETIRO" ;
+	schema:Integer "441477" , "4474593" , "4.041.802.725.000.110" , "-3.691.123.387.515.540" ;
+	rdfs:label "/contenido/entidadesYorganismos/AparcamientosResidentes" .
+
+<http://semanticweb.linkeddata.es/Group21/resource/13451> a Igdo:Parking ;
+	rdfs:label "Aparcamiento público. Mostenses" , "Plazas:  362   Información sobre accesibilidad:    No tiene escaleras adaptadas  1 ascensor  1 aseo accesible en  2&ordf;   planta  Plaza para minusválidos residentes: 16    Abierto 24 horas    Admite Tarjeta BonoRed     Titularidad:  Ayuntamiento de Madrid" ;
+	schema:Boolean "1" ;
+	schema:url "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fe0881eb5f51c010VgnVCM2000000c205a0aRCRD" ;
+	rdfs:label "GARCIA MOLINAS" , "CALLE" , "V" ;
+	schema:Integer "4" ;
+	rdfs:label "MADRID" , "28015" , "UNIVERSIDAD" , "CENTRO" ;
+	schema:Integer "439979" , "4475132" , "404.227.759.148.193" , "-3.708.830.424.647.750" , "902 283 080" ;
+	rdfs:label "/contenido/entidadesYorganismos/AparcamientosPublicos" .
+
+<http://semanticweb.linkeddata.es/Group21/resource/88141> a Igdo:Parking ;
+	rdfs:label "Aparcamiento público. Museo de la Ciudad" , "Plazas:  147  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid" ;
+	schema:Boolean "0" ;
+	schema:url "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=bdc7bdc85c01c010VgnVCM2000000c205a0aRCRD" ;
+	rdfs:label "PRINCIPE DE VERGARA" , "CALLE" , "V" ;
+	schema:Integer "134" ;
+	rdfs:label "MADRID" , "28002" , "CIUDAD JARDIN" , "CHAMARTIN" ;
+	schema:Integer "442593" , "4477430" , "4.044.366.224.087.450" , "-36.782.263.814.004.500" ;
+	rdfs:label "/contenido/entidadesYorganismos/AparcamientosPublicos" .
+
+<http://semanticweb.linkeddata.es/Group21/resource/13450> a Igdo:Parking ;
+	rdfs:label "Aparcamiento público. Olavide" , "No accesible desde sótano -1 Zona A" , "Plazas : 397    Información sobre accesibilidad:    Disponde de escaleras adaptadas  1 ascensor en la salida a la Plaza de Olavide  1 aseo accesible en la  1&ordf;   planta  Plaza para minusválidos residentes: 8   Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad : Ayuntamiento de Madrid" ;
+	schema:Boolean "0" ;
+	schema:url "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=453881eb5f51c010VgnVCM2000000c205a0aRCRD" ;
+	rdfs:label "OLAVIDE" , "PLAZA" , "V" ;
+	schema:Integer "17" ;
+	rdfs:label "MADRID" , "28010" , "TRAFALGAR" , "CHAMBERI" ;
+	schema:Integer "440639" , "4476237" , "4.043.277.769.820.200" , "-37.011.542.013.121.200" , "914 468 570" ;
+	rdfs:label "/contenido/entidadesYorganismos/AparcamientosPublicos" .
+
+<http://semanticweb.linkeddata.es/Group21/resource/13454> a Igdo:Parking ;
+	rdfs:label "Aparcamiento público. Plaza de Colón" , "Plazas : 605  Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad : Ayuntamiento de Madrid" ;
+	schema:Boolean "1" ;
+	schema:url "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a5777339ae51c010VgnVCM2000000c205a0aRCRD" ;
+	rdfs:label "GOYA" , "CALLE" , "V" ;
+	schema:Integer "2" ;
+	rdfs:label "MADRID" , "28001" , "RECOLETOS" , "SALAMANCA" ;
+	schema:Integer "441682" , "4475386" , "4.042.518.540.300.910" , "-36.887.800.207.651.400" , "915 761 837" ;
+	rdfs:label "/contenido/entidadesYorganismos/AparcamientosPublicos" .
+
+<http://semanticweb.linkeddata.es/Group21/resource/13463> a Igdo:Parking ;
+	rdfs:label "Aparcamiento público. Plaza de España" , "Plazas : 800 (hasta 535 abonados)  Abierto 24 horas      Titularidad : Ayuntamiento de Madrid   Gestión : Empresa Municipal de Transportes (EMT) ( más información )" ;
+	schema:Boolean "0" ;
+	schema:url "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fb977339ae51c010VgnVCM2000000c205a0aRCRD" ;
+	rdfs:label "ESPA&Ntilde;A" , "PLAZA" , "V" ;
+	schema:Integer "20" ;
+	rdfs:label "MADRID" , "28008" , "ARGUELLES" , "MONCLOA-ARAVACA" ;
+	schema:Integer "439740" , "4475239" , "4.042.372.251.184.830" , "-37.116.577.340.508.500" ;
+	rdfs:label "/contenido/entidadesYorganismos/AparcamientosResidentes" .
+
+<http://semanticweb.linkeddata.es/Group21/resource/13472> a Igdo:Parking ;
+	rdfs:label "Aparcamiento público. Plaza del Carmen" , "Plazas:  450   Información sobre accesibilidad:    No tiene escaleras adaptadas  1 ascensor  1 aseo accesible en   1&ordf;   planta  Plaza para minusválidos residentes: 7    Abierto 24 horas    Admite Tarjeta BonoRed    Titularidad:  Ayuntamiento de Madrid" ;
+	schema:Boolean "0" ;
+	schema:url "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8ec881eb5f51c010VgnVCM2000000c205a0aRCRD" ;
+	rdfs:label "CARMEN" , "PLAZA" , "V" ;
+	schema:Integer "10" ;
+	rdfs:label "MADRID" , "28013" , "SOL" , "CENTRO" ;
+	schema:Integer "440464" , "4474652" , "4.041.848.676.016.160" , "-3.703.068.586.180.960" , "915 214 312" ;
+	rdfs:label "/contenido/entidadesYorganismos/AparcamientosPublicos" .
+
+<http://semanticweb.linkeddata.es/Group21/resource/13474> a Igdo:Parking ;
+	rdfs:label "Aparcamiento público. Plaza del Rey" , "Plazas : 160   Información sobre accesibilidad:    Si tiene escaleras adaptadas  1 ascensor  3 aseos accesibles (uno por planta): 8  Plaza para minusválidos residentes: 16   Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad : Ayuntamiento de Madrid" ;
+	schema:Boolean "0" ;
+	schema:url "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d4f881eb5f51c010VgnVCM2000000c205a0aRCRD" ;
+	rdfs:label "REY" , "PLAZA" , "V" ;
+	schema:Integer "1" ;
+	rdfs:label "MADRID" , "28004" , "JUSTICIA" , "CENTRO" ;
+	schema:Integer "441076" , "4474836" , "4.042.018.796.139.450" , "-369.587.231.093.941" , "915 225 219" ;
+	rdfs:label "/contenido/entidadesYorganismos/AparcamientosPublicos" .
+
+<http://semanticweb.linkeddata.es/Group21/resource/13466> a Igdo:Parking ;
+	rdfs:label "Aparcamiento público. Plaza Mayor" , "Plazas : 694  Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad : Ayuntamiento de Madrid" ;
+	schema:Boolean "0" ;
+	schema:url "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2b1981eb5f51c010VgnVCM2000000c205a0aRCRD" ;
+	rdfs:label "FELIPE III" , "CALLE" , "V" ;
+	schema:Integer "11" ;
+	rdfs:label "MADRID" , "28012" , "SOL" , "CENTRO" ;
+	schema:Integer "440137" , "4474364" , "4.041.586.882.022.000" , "-3.706.895.619.414.360" ;
+	rdfs:label "/contenido/entidadesYorganismos/AparcamientosPublicos" .
+
+<http://semanticweb.linkeddata.es/Group21/resource/13456> a Igdo:Parking ;
+	rdfs:label "Aparcamiento público. Santa Ana" , "Plazas:  325   Información sobre accesibilidad:    No tiene escaleras adaptadas  1 ascensor  1 aseo accesible en  1&ordf;  planta  Plaza para minusválidos residentes: 6    Abierto 24 horas    Admite Tarjeta BonoRed    Titularidad:  Ayuntamiento de Madrid" ;
+	schema:Boolean "1" ;
+	schema:url "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9b5881eb5f51c010VgnVCM2000000c205a0aRCRD" ;
+	rdfs:label "SANTA ANA" , "PLAZA" , "V" ;
+	schema:Integer "16" ;
+	rdfs:label "MADRID" , "28012" , "CORTES" , "CENTRO" ;
+	schema:Integer "440645" , "4474250" , "4.041.487.830.605.110" , "-3.700.897.645.451.050" , "915 214 312" ;
+	rdfs:label "/contenido/entidadesYorganismos/AparcamientosPublicos" .
+
+<http://semanticweb.linkeddata.es/Group21/resource/13468> a Igdo:Parking ;
+	rdfs:label "Aparcamiento público. Velázquez - Juan Bravo" , "Plazas:  371  Abierto 24 horas  Admite Tarjeta BonoRed   Titularidad:  Ayuntamiento de Madrid" ;
+	schema:Boolean "1" ;
+	schema:url "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e3077339ae51c010VgnVCM2000000c205a0aRCRD" ;
+	rdfs:label "VELAZQUEZ" , "CALLE" , "V" ;
+	schema:Integer "88" ;
+	rdfs:label "MADRID" , "28006" , "CASTELLANA" , "SALAMANCA" ;
+	schema:Integer "442140" , "4476138" , "40.431.991.827.319.100" , "-3.683.449.815.935.090" ;
+	rdfs:label "/contenido/entidadesYorganismos/AparcamientosPublicos" .
+
+<http://semanticweb.linkeddata.es/Group21/resource/13453> a Igdo:Parking ;
+	rdfs:label "Aparcamiento público. Villa de París" , "Plazas rotación:  169   Plazas motos:  2    Información sobre accesibilidad:    No tiene escaleras adaptadas  No disponde de ascensor  1 aseo accesible  Plaza para minusválidos residentes: 13    Abierto 24 horas         Titularidad:  Ayuntamiento de Madrid   Gestión:  Empresa Municipal de Transportes (EMT) ( más información )" ;
+	schema:Boolean "1" ;
+	schema:url "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=38a881eb5f51c010VgnVCM2000000c205a0aRCRD" ;
+	rdfs:label "MARQUES DE LA ENSENADA" , "CALLE" , "V" ;
+	schema:Integer "1" ;
+	rdfs:label "MADRID" , "28004" , "JUSTICIA" , "CENTRO" ;
+	schema:Integer "441373" , "4475380" , "4.042.533.530.030.620" , "-36.923.416.648.619.900" ;
+	rdfs:label "/contenido/entidadesYorganismos/AparcamientosPublicos" .
